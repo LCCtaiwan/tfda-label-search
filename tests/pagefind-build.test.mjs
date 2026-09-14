@@ -23,6 +23,7 @@ test("builds one searchable record per section without publishing raw HTML", asy
     const manifest = JSON.parse(await readFile(path.join(output, "data", "manifest.json"), "utf8"));
     assert.equal(manifest.document_count, 3);
     assert.equal(manifest.section_count, 4);
+    assert.equal(manifest.record_count, 7);
 
     const documents = await readdir(path.join(output, "data", "documents"));
     assert.equal(documents.length, 3);

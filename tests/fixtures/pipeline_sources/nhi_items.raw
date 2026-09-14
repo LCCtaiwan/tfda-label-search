@@ -1,0 +1,3 @@
+藥品代號,藥品英文名稱,藥品中文名稱,成分,規格量,規格單位,支付價,有效起日,有效迄日,藥商,劑型,ATC代碼,給付規定章節,藥品代碼超連結,給付規定章節連結
+A016162100,TEST DRUG,測試藥品,TEST INGREDIENT,10,MG,1.5,2026-01-01,,測試公司,TABLET,A01AA01,1.1,https://lmspiq.fda.gov.tw/web/DRPIQ/DRPIQ1000Result?licId=01016162,https://info.nhi.gov.tw/rule
+A123456100,NEW TEST DRUG,新增測試藥品,NEW INGREDIENT,20,MG,2.5,2026-01-01,,測試公司,TABLET,A01AA02,1.1,https://lmspiq.fda.gov.tw/web/DRPIQ/DRPIQ1000Result?licId=51123456,https://info.nhi.gov.tw/rule

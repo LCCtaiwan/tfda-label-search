@@ -1,0 +1,31 @@
+name: Verify TFDA label search
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: npm ci
+      - run: npm test
+      - name: Build fixture site
+        run: >-
+          npm run build --
+          --input tests/fixtures/pagefind-search-sample.json
+          --input tests/fixtures/structured-real-sample.json
+          --output site

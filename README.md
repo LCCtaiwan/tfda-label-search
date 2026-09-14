@@ -49,8 +49,11 @@ npm run serve
 - `docs/develog.md`：決策與驗證紀錄。
 
 - `docs/migration-inventory.md`：從既有工作副本移植或重寫的範圍。
+- `docs/static-releases.md`：資料如何驗證、產生新版本，以及失敗時如何保留舊版。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
+
+小型不可變 release 的完整命令在 `docs/static-releases.md`。它會把藥證、成分、健保碼、ATC、安全資料、仿單章節與官方入口組成一個可直接開啟的靜態網站。
 
 ## 重要限制
 

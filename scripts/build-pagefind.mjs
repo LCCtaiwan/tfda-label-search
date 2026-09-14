@@ -33,6 +33,10 @@ function officialUrl(licenseNo) {
   return `https://mcp.fda.gov.tw/im_detail_1/${encodeURIComponent(licenseNo)}`;
 }
 
+function stringList(value) {
+  return Array.isArray(value) ? [...new Set(value.map(plain).filter(Boolean))] : [];
+}
+
 function validatePayload(payload, sourcePath) {
   if (!payload || payload.schema_version !== 1 || !Array.isArray(payload.documents)) {
     throw new Error(`${sourcePath} 不是支援的結構化仿單 JSON`);
@@ -85,6 +89,7 @@ async function build({ inputs, output }) {
   const seenRecords = new Set();
   let documentCount = 0;
   let sectionCount = 0;
+  let recordCount = 0;
 
   for (const input of inputs) {
     const sourcePath = path.resolve(input);
@@ -108,6 +113,16 @@ async function build({ inputs, output }) {
         approved_at: plain(document.approved_at),
         source_kind: plain(document.source_kind),
         official_url: officialUrl(plain(document.license_no)),
+        ingredients: Array.isArray(document.ingredients) ? document.ingredients.map((item) => ({
+          name: plain(item?.name ?? item?.ingredient_name),
+          amount: plain(item?.amount_description),
+        })).filter((item) => item.name) : [],
+        nhi_items: Array.isArray(document.nhi_items) ? document.nhi_items.map((item) => ({
+          code: plain(item?.code ?? item?.nhi_code),
+          atc_code: plain(item?.atc_code),
+          benefit_chapter: plain(item?.benefit_chapter),
+        })).filter((item) => item.code) : [],
+        event_types: stringList(document.event_types),
         sections: document.sections.map((section) => ({
           id: plain(section.id),
           parent_id: plain(section.parent_id),
@@ -125,11 +140,50 @@ async function build({ inputs, output }) {
         "utf8",
       );
 
+      const metadataRecordId = stableId(documentKey, "__metadata__");
+      if (seenRecords.has(metadataRecordId)) throw new Error(`重複藥品記錄：${metadataRecordId}`);
+      seenRecords.add(metadataRecordId);
+      const metadataContent = [
+        safeDocument.drug_name_zh,
+        safeDocument.drug_name_en,
+        safeDocument.license_no,
+        safeDocument.ingredients.map((item) => `${item.name} ${item.amount}`).join(" "),
+        safeDocument.nhi_items.map((item) => `${item.code} ${item.atc_code} ${item.benefit_chapter}`).join(" "),
+      ].filter(Boolean).join("\n");
+      const documentMeta = {
+        title: safeDocument.drug_name_zh || safeDocument.drug_name_en || safeDocument.license_no,
+        drug_name_zh: safeDocument.drug_name_zh,
+        drug_name_en: safeDocument.drug_name_en,
+        license_no: safeDocument.license_no,
+        version: safeDocument.version,
+        approved_at: safeDocument.approved_at,
+        ingredients: safeDocument.ingredients.map((item) => item.name).join("、"),
+        nhi_codes: safeDocument.nhi_items.map((item) => item.code).join("、"),
+        atc_codes: [...new Set(safeDocument.nhi_items.map((item) => item.atc_code).filter(Boolean))].join("、"),
+        document_path: documentPath,
+        official_url: safeDocument.official_url,
+      };
+      const metadataResult = await index.addCustomRecord({
+        url: `./?record=${metadataRecordId}`,
+        content: metadataContent,
+        language: "zh",
+        meta: {
+          ...documentMeta,
+          record_type: "label_metadata",
+          section_id: "",
+          section_title: "藥品資料",
+          section_path: "藥品資料",
+          record_id: metadataRecordId,
+        },
+        filters: { source_kind: [safeDocument.source_kind || "unknown"] },
+      });
+      if (metadataResult.errors?.length) {
+        throw new Error(`Pagefind 無法加入 ${metadataRecordId}：${metadataResult.errors.join("；")}`);
+      }
+      recordCount += 1;
+
       for (const section of safeDocument.sections) {
         const content = [
-          safeDocument.drug_name_zh,
-          safeDocument.drug_name_en,
-          safeDocument.license_no,
           section.path.join(" "),
           section.search_text,
         ].filter(Boolean).join("\n");
@@ -147,24 +201,21 @@ async function build({ inputs, output }) {
           content,
           language: "zh",
           meta: {
-            title: safeDocument.drug_name_zh || safeDocument.drug_name_en || safeDocument.license_no,
-            drug_name_zh: safeDocument.drug_name_zh,
-            drug_name_en: safeDocument.drug_name_en,
-            license_no: safeDocument.license_no,
-            version: safeDocument.version,
-            approved_at: safeDocument.approved_at,
+            title: section.title || "仿單章節",
+            record_type: "section",
             section_id: section.id,
             section_title: section.title,
             section_path: section.path.join(" › "),
             document_path: documentPath,
-            record_id: recordId,
             official_url: safeDocument.official_url,
+            record_id: recordId,
           },
           filters: {
             source_kind: [safeDocument.source_kind || "unknown"],
           },
         });
         if (errors?.length) throw new Error(`Pagefind 無法加入 ${recordId}：${errors.join("；")}`);
+        recordCount += 1;
       }
     }
   }
@@ -178,6 +229,7 @@ async function build({ inputs, output }) {
     schema_version: 1,
     document_count: documentCount,
     section_count: sectionCount,
+    record_count: recordCount,
     source_files: inputs.map((item) => path.basename(item)),
   };
   await writeFile(path.join(tempPath, "data", "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");

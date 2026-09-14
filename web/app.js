@@ -76,7 +76,7 @@ function safeOfficialUrl(value) {
   }
 }
 
-async function loadSection(meta) {
+async function loadDocument(meta) {
   const documentPath = safeDocumentPath(meta.document_path);
   if (!documentPath) throw new Error("結果缺少安全的章節資料路徑");
   if (!documentCache.has(documentPath)) {
@@ -85,7 +85,11 @@ async function loadSection(meta) {
       return response.json();
     }));
   }
-  const document = await documentCache.get(documentPath);
+  return documentCache.get(documentPath);
+}
+
+async function loadSection(meta) {
+  const document = await loadDocument(meta);
   const section = document.sections?.find((item) => item.id === meta.section_id);
   if (!section) throw new Error("找不到對應的章節原文");
   return section;
@@ -103,36 +107,47 @@ async function render(found) {
   results.replaceChildren();
   const selected = [...found.values()].slice(0, 50);
   const records = await Promise.all(selected.map((item) => item.data()));
-  status.textContent = `找到 ${found.size} 個章節，顯示前 ${records.length} 筆。`;
+  const documents = await Promise.all(records.map((record) =>
+    loadDocument(record.meta ?? {}).catch(() => null)
+  ));
+  status.textContent = `找到 ${found.size} 筆結果，顯示前 ${records.length} 筆。`;
 
-  for (const record of records) {
+  for (const [index, record] of records.entries()) {
     const meta = record.meta ?? {};
+    const source = documents[index] ?? {};
+    const ingredientText = meta.ingredients || (source.ingredients ?? []).map((item) => item.name).filter(Boolean).join("、");
+    const nhiCodeText = meta.nhi_codes || (source.nhi_items ?? []).map((item) => item.code).filter(Boolean).join("、");
+    const atcText = meta.atc_codes || [...new Set((source.nhi_items ?? []).map((item) => item.atc_code).filter(Boolean))].join("、");
     const card = document.createElement("article");
-    addText(card, "h2", "drug-name", meta.drug_name_zh || meta.drug_name_en || "未命名藥品");
-    addText(card, "p", "english-name", meta.drug_name_en || "");
-    addText(card, "p", "metadata", `${meta.license_no || "無藥證"}｜仿單第 ${meta.version || "?"} 版｜${meta.approved_at || "日期未提供"}`);
+    addText(card, "h2", "drug-name", meta.drug_name_zh || source.drug_name_zh || meta.drug_name_en || source.drug_name_en || "未命名藥品");
+    addText(card, "p", "english-name", meta.drug_name_en || source.drug_name_en || "");
+    addText(card, "p", "metadata", `${meta.license_no || source.license_no || "無藥證"}｜仿單第 ${meta.version || source.version || "?"} 版｜${meta.approved_at || source.approved_at || "日期未提供"}`);
+    if (ingredientText) addText(card, "p", "metadata", `成分：${ingredientText}`);
+    if (nhiCodeText) addText(card, "p", "metadata", `健保碼：${nhiCodeText}${atcText ? `｜ATC：${atcText}` : ""}`);
     addText(card, "h3", "section-title", meta.section_path || meta.section_title || "未標示章節");
     addText(card, "p", "excerpt", record.plain_excerpt || "命中摘要未提供");
 
-    const details = document.createElement("details");
-    const summary = document.createElement("summary");
-    summary.textContent = "查看本章原文";
-    const original = document.createElement("pre");
-    original.textContent = "展開後載入…";
-    details.append(summary, original);
-    details.addEventListener("toggle", async () => {
-      if (!details.open || details.dataset.loaded) return;
-      details.dataset.loaded = "true";
-      try {
-        const section = await loadSection(meta);
-        original.textContent = section.content_text || section.search_text || "本章沒有文字內容";
-      } catch (error) {
-        original.textContent = error instanceof Error ? error.message : "原文載入失敗";
-      }
-    });
-    card.append(details);
+    if (meta.record_type === "section") {
+      const details = document.createElement("details");
+      const summary = document.createElement("summary");
+      summary.textContent = "查看本章原文";
+      const original = document.createElement("pre");
+      original.textContent = "展開後載入…";
+      details.append(summary, original);
+      details.addEventListener("toggle", async () => {
+        if (!details.open || details.dataset.loaded) return;
+        details.dataset.loaded = "true";
+        try {
+          const section = await loadSection(meta);
+          original.textContent = section.content_text || section.search_text || "本章沒有文字內容";
+        } catch (error) {
+          original.textContent = error instanceof Error ? error.message : "原文載入失敗";
+        }
+      });
+      card.append(details);
+    }
 
-    const official = safeOfficialUrl(meta.official_url);
+    const official = safeOfficialUrl(meta.official_url || source.official_url);
     if (official) {
       const link = document.createElement("a");
       link.href = official;
