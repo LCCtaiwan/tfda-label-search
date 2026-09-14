@@ -33,6 +33,12 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Require explicit TFDA API authorization
+        if: vars.TFDA_API_CALLS_AUTHORIZED != 'true'
+        run: |
+          echo '拒絕下載：必須先取得專案負責人明確授權，再設定 repository variable TFDA_API_CALLS_AUTHORIZED=true。'
+          exit 1
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

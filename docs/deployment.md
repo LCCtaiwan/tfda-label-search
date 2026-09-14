@@ -15,6 +15,8 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 3. Repository Settings → Environments → `github-pages`。
 4. 加入主管為 Required reviewer，並勾選 Prevent self-review。
 5. 確認 Required reviewer 已生效後，建立 Repository variable：`SUPERVISOR_APPROVAL_CONFIGURED=true`。
+6. 專案負責人明確同意第一次官方小批後，才設定 `TFDA_API_CALLS_AUTHORIZED=true`。
+7. 專案負責人明確同意公開網站後，才設定 `PUBLICATION_AUTHORIZED=true`。
 
 若是 GitHub Free，Required reviewer 只適用公開 repository。若單位要求 private repository，必須先確認目前方案支援；不可只把變數設為 true 來假裝有主管核准。
 
@@ -30,8 +32,9 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 
 1. 到 Actions 手動執行 `Build and approve TFDA Pages`。
 2. 工作會重跑單元測試、Chromium 測試、九來源驗證與 98% 結構化文字門檻。
-3. 通過後進入 `github-pages` environment 等待主管。
-4. 主管查看 `release-audit-<run id>` 的 `manifest.json` 與 `coverage.json`，再按 Approve and deploy 或 Reject。
+3. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
+4. 通過後進入 `github-pages` environment 等待主管。
+5. 主管查看 `release-audit-<run id>` 的三份報告，再按 Approve and deploy 或 Reject。
 
 ## 回滾
 
@@ -44,6 +47,7 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 - 兩個 workflow 都只允許手動啟動，尚未排程。
 - 本機建立這些檔案不等於已建立 repository、environment、變數或 Pages 網站。
 - 未經明確授權，不推送、不部署，也不啟動正式大量 TFDA API 呼叫。
+- `TFDA_API_CALLS_AUTHORIZED` 與 `PUBLICATION_AUTHORIZED` 沒有設為 `true` 時，workflow 會明確失敗，不會把「能按按鈕」當成「已獲授權」。
 
 ## GitHub 官方依據
 

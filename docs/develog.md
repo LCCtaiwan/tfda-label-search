@@ -109,10 +109,20 @@ npm run serve
 - manifest 額外記錄 `file_count`、`total_bytes`、`largest_file` 與 `largest_file_bytes`，供主管判斷容量是否持續成長。
 - 離線整合測試已改成 raw-only 狀態，另以縮小測試門檻確認超大檔案會被拒絕；32 個 Python／Node 測試與三份 workflow YAML 通過。
 
+### 2026-09-15：C-010 公開發布依據與雙重授權鎖
+
+- 核對政府資料開放授權條款、TFDA 全部藥品許可證資料集、TFDA 網站資料開放宣告、健保用藥品項資料集與 `liangRXdev/TFDA-drug-info-search` 正式來源。
+- 建立 `docs/publication-rights.md` 與 `config/publication-policy.json`：純文字可發布，內嵌圖片、PDF 鏡像、機關標誌與另有特別聲明素材排除。
+- 目前沒有複製第三方程式；未來若改為 `consent_verified`，檢查器會要求同意紀錄、必要署名及實際檔案清單。
+- 網站頁尾補齊 TFDA、健保署、資料名稱／版本與政府資料開放授權連結，Chromium 直接驗證使用者看得到。
+- `release_preflight.py` 產生含政策與首頁 SHA-256 的 7 項稽核報告；授權核對超過一年或其他檢查缺一，就不產生可部署結果。
+- 資料 workflow 新增 `TFDA_API_CALLS_AUTHORIZED` 鎖；部署 workflow 另需 `PUBLICATION_AUTHORIZED` 與既有主管 reviewer 鎖。
+- 39 個 Python／Node 測試、5 個 Chromium 測試與三份 workflow YAML 通過。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：32 個測試通過（30 Python + 2 Node）。
+- Python／Node：39 個測試通過（37 Python + 2 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

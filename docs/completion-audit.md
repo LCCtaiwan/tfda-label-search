@@ -13,19 +13,20 @@
 | AND／OR／NOT、人工同義詞、分批結果 | pass（fixtures） | 5 個 Chromium 測試含 AND／OR／NOT、只接受 `reviewed: true`、50→100 筆 | 正式同義詞檔仍為空，需藥師核准第一組詞 |
 | 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256 指紋測試 | 正式站仍需人工抽查官方連結 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
-| 資料品質與安全 | pass（本機） | 官方主機白名單、回應大小、ZIP 解壓大小、CSP、純文字呈現、無病人資料、來源／涵蓋率 gate | 正式公開前仍需確認仿單文字與圖片重製邊界 |
-| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；CI、手動 `data-state`、98% gate、95 MiB 單檔保護、Pages artifact、部署鎖均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
+| 資料品質、安全與公開使用邊界 | pass（本機） | 官方主機白名單、回應／ZIP 上限、CSP、無病人資料、純文字限定、圖片／PDF／標誌排除、官方授權證據與可見署名 preflight | 若日後擴大發布素材範圍，必須重新確認權利 |
+| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；CI、手動 `data-state`、98% gate、95 MiB 單檔保護、發布權利 preflight、API／公開發布雙鎖、Pages artifact 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
 | 桌機與手機端到端 | pass（本機） | Chromium 5 項自動測試、390×844 視窗、主控台 0 錯誤；先前桌機目視驗證 | 正式網址上線後需再跑同組測試 |
-| 部署與主管交接 | pass（文件） | `docs/deployment.md`、`docs/supervisor-guide.md`、共享 Claude handover #181 | 主管帳號與實際核准責任尚未指定 |
-| 原作者同意範圍 | partial | 目前只採獨立網站、靜態快取與呈現概念，沒有直接複製第三方程式碼 | 可修改、公開部署、再散布及署名內容仍需保存成可交接文字 |
+| 部署與主管交接 | pass（文件） | `docs/deployment.md`、`docs/supervisor-guide.md`、共享 Claude handover #182 | 主管帳號與實際核准責任尚未指定 |
+| 原作者同意範圍 | pass（目前成品） | 已記錄 `liangRXdev/TFDA-drug-info-search`；目前只採需求概念，`copied_files` 為空，未直接納入第三方程式 | 未來若直接複製程式，preflight 會要求同意紀錄、署名與檔案清單 |
 
 ## 已執行的驗證
 
 ```text
-npm test                    32 passed（30 Python + 2 Node）
+npm test                    39 passed（37 Python + 2 Node）
 npm run test:e2e             5 passed（Chromium）
 offline deployment rehearsal 1 passed（已包含在 Python 測試）
 workflow YAML parse          3 passed
+publication preflight        ready: true，7 checks
 5000-document build          103 MB，最近一次 23.23 秒
 ```
 
@@ -35,12 +36,11 @@ workflow YAML parse          3 passed
 - 不能宣稱涵蓋全臺仿單，因為沒有正式全量資料與涵蓋率報告。
 - 不能把合成 5000 份測試說成真實代表性資料驗證。
 - 不能宣稱 TFDA 同意每 2 秒一個請求；這只是保守預設。
-- 不能宣稱主管核准已存在；workflow 的變數鎖仍需在 GitHub 設定後實測。
+- 不能宣稱主管核准或使用者公開授權已存在；workflow 的變數鎖仍需在 GitHub 設定後實測。
 
 ## Goal 完成前的必要門檻
 
 1. 使用者授權建立新遠端、推送及第一次 25 張正式小批。
 2. 指定 repository 擁有者、公開／私人設定與主管 GitHub 帳號。
-3. 保存原作者同意與官方重製邊界的文字證據。
-4. 以 1000–5000 份長短不同真實仿單重跑容量、搜尋品質、涵蓋率與手機驗證。
-5. 設定 required reviewer 後完成一次候選拒絕、一次主管核准與一次 Pages 回滾演練。
+3. 以 1000–5000 份長短不同真實仿單重跑容量、搜尋品質、涵蓋率與手機驗證。
+4. 設定 required reviewer 後完成一次候選拒絕、一次主管核准與一次 Pages 回滾演練。

@@ -38,9 +38,11 @@ TFDA Open Data API 文件：https://data.fda.gov.tw/swagger-ui/index.html
 
 健保用藥品項資料集：https://data.gov.tw/dataset/23715
 
-健保資料集標示每月更新、免費，採政府資料開放授權條款第 1 版。TFDA 網站資料開放宣告也採同一授權，要求使用時註明出處，並排除另有特別聲明或第三方權利的素材。本網站頁尾保留資料來源；TFDA 標誌不納入。
+健保與 TFDA 藥證資料集明確採政府資料開放授權條款第 1 版。TFDA 網站資料開放宣告也採同一授權，要求使用時註明出處，並排除機關標誌、另有特別聲明或第三方權利的素材。本網站頁尾保留提供機關、資料名稱／版本與授權連結；結構化仿單只發布純文字，不鏡像圖片或 PDF。
 
 TFDA 資料開放宣告：https://www.fda.gov.tw/Tc/opendata.aspx
+
+完整公開發布依據與第三方程式邊界：`docs/publication-rights.md`
 
 ## 三段更新流程
 

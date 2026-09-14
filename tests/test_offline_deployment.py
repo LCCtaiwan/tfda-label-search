@@ -7,6 +7,7 @@ import unittest
 
 from tools.pipeline.fetch_structured import fetch_batch
 from tools.pipeline.official_snapshot import build_snapshot
+from tools.pipeline.release_preflight import run_preflight
 from tools.pipeline.state_manifest import build_manifest
 from tools.pipeline.static_release import SOURCE_ORDER, build_release
 from tools.sources import official
@@ -70,8 +71,12 @@ class OfflineDeploymentTests(unittest.TestCase):
             ))
             site = release_root / "releases" / "offline-v1" / "site"
             catalog = json.loads((site / "data" / "catalog.json").read_text(encoding="utf-8"))
+            preflight = run_preflight(
+                ROOT / "config" / "publication-policy.json", site, ROOT
+            )
 
         self.assertTrue(release["ready"])
+        self.assertTrue(preflight["ready"])
         self.assertEqual(release["coverage"]["structured_coverage"], 1)
         self.assertEqual(catalog["document_count"], 2)
         self.assertFalse((release_root / "active.json").exists())

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-09-15",
+  "official_open_data": {
+    "status": "verified",
+    "license_name": "政府資料開放授權條款-第1版",
+    "license_url": "https://data.gov.tw/license",
+    "evidence_urls": [
+      "https://data.gov.tw/dataset/9122",
+      "https://data.gov.tw/dataset/23715",
+      "https://www.fda.gov.tw/Tc/opendata.aspx"
+    ]
+  },
+  "structured_labels": {
+    "status": "verified_with_limitations",
+    "evidence_urls": [
+      "https://mcp.fda.gov.tw/noticedata/2",
+      "https://www.fda.gov.tw/Tc/opendata.aspx"
+    ],
+    "published_content": [
+      "plain_text"
+    ],
+    "excluded_content": [
+      "embedded_images",
+      "pdf_mirrors",
+      "agency_logos"
+    ]
+  },
+  "third_party_code": {
+    "status": "not_included",
+    "project_name": "TFDA-drug-info-search",
+    "source_url": "https://github.com/liangRXdev/TFDA-drug-info-search",
+    "copied_files": []
+  }
+}

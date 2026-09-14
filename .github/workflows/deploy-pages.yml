@@ -66,6 +66,14 @@ jobs:
           echo "site_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID/site" >> "$GITHUB_OUTPUT"
           echo "audit_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID" >> "$GITHUB_OUTPUT"
 
+      - name: Verify publication evidence and visible attribution
+        run: >-
+          python3 app/tools/pipeline/release_preflight.py
+          --policy app/config/publication-policy.json
+          --site-root "${{ steps.release.outputs.site_path }}"
+          --project-root app
+          --output "${{ runner.temp }}/publication-preflight.json"
+
       - name: Upload small audit evidence
         uses: actions/upload-artifact@v4
         with:
@@ -73,6 +81,7 @@ jobs:
           path: |
             ${{ steps.release.outputs.audit_path }}/manifest.json
             ${{ steps.release.outputs.audit_path }}/coverage.json
+            ${{ runner.temp }}/publication-preflight.json
             ${{ runner.temp }}/verified-data-state.json
           retention-days: 30
 
@@ -84,16 +93,17 @@ jobs:
           path: ${{ steps.release.outputs.site_path }}
 
   approval-lock:
-    if: vars.SUPERVISOR_APPROVAL_CONFIGURED != 'true'
+    if: vars.SUPERVISOR_APPROVAL_CONFIGURED != 'true' || vars.PUBLICATION_AUTHORIZED != 'true'
     needs: build
     runs-on: ubuntu-latest
     steps:
       - run: |
-          echo '拒絕部署：請先設定 github-pages required reviewer，再把 repository variable SUPERVISOR_APPROVAL_CONFIGURED 設為 true。'
+          echo '拒絕部署：必須有主管 required reviewer，且專案負責人已明確授權公開發布。'
+          echo '確認後才可設定 SUPERVISOR_APPROVAL_CONFIGURED=true 與 PUBLICATION_AUTHORIZED=true。'
           exit 1
 
   deploy:
-    if: vars.SUPERVISOR_APPROVAL_CONFIGURED == 'true'
+    if: vars.SUPERVISOR_APPROVAL_CONFIGURED == 'true' && vars.PUBLICATION_AUTHORIZED == 'true'
     needs: build
     permissions:
       pages: write

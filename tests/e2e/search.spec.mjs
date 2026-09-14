@@ -33,6 +33,10 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   await expect(page.locator("#data-version")).toContainText("資料版本：2026-09-15");
   await expect(page.locator("#data-version")).toContainText("113 份");
   await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
+  await expect(page.locator("footer")).toContainText("衛生福利部食品藥物管理署");
+  await expect(page.locator("footer")).toContainText("衛生福利部中央健康保險署");
+  await expect(page.getByRole("link", { name: "政府資料開放授權條款-第1版" }))
+    .toHaveAttribute("href", "https://data.gov.tw/license");
 });
 
 test("只有 reviewed 的測試同義詞會生效", async ({ page }) => {
