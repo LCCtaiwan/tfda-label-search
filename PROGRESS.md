@@ -15,7 +15,7 @@
 - CI 已加入 5 個 Chromium 端到端測試，涵蓋任意短詞、英文、AND／OR／NOT、測試專用 reviewed 同義詞、分批載入、完整藥證、去重、可見署名與手機寬度。
 - 已完成只手動啟動的資料更新與 Pages 發布 workflow：`data-state` 每批成功才 commit；發布預設上鎖，必須先設定主管 required reviewer。
 - 結構化仿單依證別分片保存，避免單一資料夾累積過多檔案；429／暫時錯誤會遵守最長 60 秒的 `Retry-After`。
-- 已完成完整離線發布演練、英文搜尋與頁尾資料版本／SHA-256 指紋；目前 53 個 Python／Node（49 Python + 4 Node）與 5 個 Chromium 測試通過。
+- 已完成完整離線發布演練、英文搜尋與頁尾資料版本／SHA-256 指紋；目前 58 個 Python／Node（54 Python + 4 Node）與 5 個 Chromium 測試通過。
 - 5000 份手機資源量測：常見詞新增約 8.38 MiB JS heap、傳輸 4.33 MiB；完整藥證新增約 6.61 MiB、傳輸 3.62 MiB。
 - `data-state` 只保留官方 raw、manifest 與結構化仿單；單檔超過 95 MiB 會在 commit 前停止，manifest 會留下總容量與最大檔案供稽核。
 - 九個官方來源的 HTTP 標頭已逐一小量檢查；來源可連線，但未提供可用的檔案大小，尚不能證明正式原始檔一定低於 Git 單檔門檻。
@@ -23,6 +23,10 @@
 - `release_preflight.py` 會產生公開發布稽核報告，授權依據超過一年會要求重查；`TFDA_API_CALLS_AUTHORIZED` 與 `PUBLICATION_AUTHORIZED` 兩道變數鎖預設都不放行。
 - 每個網站都有程式／資料完整 SHA 的 `release.json`；部署 workflow 可指定舊 SHA 走同一條主管核准流程回滾，完成後會用 Chromium 在正式網址核對版本並搜尋一張目錄內藥證。
 - 正式資料 workflow 已接入初次建庫與 10 日窗增量協調器：最後一批初始資料先獨立 commit，下一輪從建庫開始日補更新；發布時增量游標不得缺少或落後超過 14 天。
+- 正式發布會重新解析九個 raw 檔並核對 snapshot 的網址、SHA-256 與筆數；每張 downloaded 仿單也會核對分片路徑、藥證與狀態，無關 JSON 不可混入。
+- 公開的資料日期使用 snapshot 實際擷取時間；部署 smoke 會核對本次核准的完整 app/data SHA，回滾時也使用該舊 app SHA 的檢查器。
+- GitHub 官方 Actions 已依 2026-09-15 官方 release 查詢結果更新，並固定到完整 commit SHA。
+- `npm audit --audit-level=high --package-lock-only` 回報 0 個已知漏洞。
 - 尚未建立遠端、推送、部署、建立雲端資源或大量呼叫官方 API。
 
 ## 目前目標

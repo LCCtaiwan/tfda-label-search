@@ -22,6 +22,8 @@ Pagefind 已通過 1,000 與 5,000 份合成容量試驗；正式發布前仍需
 
 結構化仿單更新分成兩段：先依有效藥證小批續傳建庫；完成後改用官方最多 10 日的日期窗補更新。日期游標只追到臺灣上一個完整日，正式發布時不得落後超過 14 天。
 
+正式發布不只相信狀態檔的 `ready`。系統會重新解析九個官方 raw 檔，核對 snapshot 的來源網址、SHA-256 與筆數，並逐張確認 downloaded 仿單的分片檔與藥證內容完全對得上。
+
 ## 與 ChemoDrugStable 的關係
 
 - `chemodrugstable-query` 繼續負責化療藥品調配、安定性與院內核對資料。
@@ -67,7 +69,7 @@ npm run serve
 
 小型不可變 release 的完整命令在 `docs/static-releases.md`。它會把藥證、成分、健保碼、ATC、安全資料、仿單章節與官方入口組成一個可直接開啟的靜態網站。
 
-正式網站會提供 `data/release.json`，可查到實際發布的程式與資料 commit。Pages 部署完成後，`scripts/verify-deployed.mjs` 會用手機尺寸開啟正式網址、核對版本，再以正式目錄中的一張完整藥證搜尋一次。
+正式網站會提供 `data/release.json`，可查到實際發布的程式、資料 commit、官方 snapshot 與真實資料擷取時間。Pages 部署完成後，`scripts/verify-deployed.mjs` 會用手機尺寸開啟正式網址、逐字核對兩個核准 SHA，再以正式目錄中的一張完整藥證搜尋一次。
 
 ## 重要限制
 

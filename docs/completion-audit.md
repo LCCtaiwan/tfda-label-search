@@ -5,16 +5,16 @@
 | Goal 要求 | 狀態 | 直接證據 | 尚缺什麼 |
 |---|---|---|---|
 | 獨立專案，保留 ChemoDrugStable | pass | 本專案位於 `/Users/lcc/Desktop/PGY許願池/tfda-label-search`，有獨立 Git 歷史；來源與 `chemodrugstable-query` 未修改 | 無 |
-| TFDA／健保九來源下載、格式與來源追溯 | pass（本機） | `tools/sources/official.py`、`official_sources.json`、來源網域／欄位／最低筆數／雜湊測試 | 正式九來源 workflow 尚未在 GitHub 執行 |
+| TFDA／健保九來源下載、格式與來源追溯 | pass（本機） | `tools/sources/official.py`、`official_sources.json`；部署前逐一重算並核對九個 raw 的來源網址、SHA-256、原始與整理筆數 | 正式九來源 workflow 尚未在 GitHub 執行 |
 | TFDA 結構化電子仿單 API | pass（本機） | 藥證／健保碼／10 日窗、初始→增量自動切換、臺灣完整日游標、no-document 提升、新舊版防倒退、圖片排除、64 MiB 上限、Retry-After 與失敗保留測試 | 官方未公布可接受請求頻率 |
-| 版本發布與失敗保護 | pass（離線） | 不可變 release、程式／資料完整 SHA 身分證、active 指標、來源與涵蓋率失敗保護、指定舊 SHA 回滾入口、完整 `data-state → candidate Pages` 演練 | 尚未對真正的 GitHub environment 做拒絕／回滾演練 |
+| 版本發布與失敗保護 | pass（離線） | 不可變 release、九 raw 重驗、每張 downloaded 檔案對應、程式／資料完整 SHA 身分證、指定舊 SHA 回滾入口、完整 `data-state → candidate Pages` 演練 | 尚未對真正的 GitHub environment 做拒絕／回滾演練 |
 | Pagefind 任意中文與英文 | pass（fixtures） | Chromium 自動查詢「噁心、懷孕、腎功能不全、Nausea」及 5000 份容量搜尋 | 仍需長短不同真實仿單的召回品質抽查 |
 | 藥名、成分、藥證、健保碼 | pass（fixtures） | 精確 metadata 目錄、健保唯一藥證連接、完整中文藥證與去重 Chromium 測試 | 仍需正式全量健保連接報告 |
 | AND／OR／NOT、人工同義詞、分批結果 | pass（fixtures） | 5 個 Chromium 測試含 AND／OR／NOT、只接受 `reviewed: true`、50→100 筆 | 正式同義詞檔仍為空，需藥師核准第一組詞 |
 | 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256 指紋測試 | 正式站仍需人工抽查官方連結 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
 | 資料品質、安全與公開使用邊界 | pass（本機） | 官方主機白名單、回應／ZIP 上限、CSP、無病人資料、純文字限定、圖片／PDF／標誌排除、官方授權證據與可見署名 preflight | 若日後擴大發布素材範圍，必須重新確認權利 |
-| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；初始／增量協調、增量落後 14 天 gate、98% gate、95 MiB 單檔保護、發布權利 preflight、雙鎖、指定 refs、Pages artifact 與 post-deploy smoke 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
+| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；官方 Actions 固定完整 SHA；初始／增量協調、14 天 gate、98% gate、95 MiB 保護、雙鎖、指定 refs、同版檢查器與完整 SHA post-deploy smoke 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
 | 桌機與手機端到端 | pass（本機） | Chromium 5 項自動測試；另以 390×844 smoke 核對 release、完整藥證 1 筆、主控台 0 錯誤 | 正式網址上線後需由同一工具重跑 |
 | 部署與主管交接 | pass（文件） | `docs/deployment.md`、`docs/supervisor-guide.md`、共享 Claude handover #183 | 主管帳號與實際核准責任尚未指定 |
 | 原作者同意範圍 | pass（目前成品） | 已記錄 `liangRXdev/TFDA-drug-info-search`；目前只採需求概念，`copied_files` 為空，未直接納入第三方程式 | 未來若直接複製程式，preflight 會要求同意紀錄、署名與檔案清單 |
@@ -22,12 +22,13 @@
 ## 已執行的驗證
 
 ```text
-npm test                    53 passed（49 Python + 4 Node）
+npm test                    58 passed（54 Python + 4 Node）
 npm run test:e2e             5 passed（Chromium）
 offline deployment rehearsal 1 passed（已包含在 Python 測試）
 workflow YAML parse          3 passed
+npm audit                    0 vulnerabilities
 publication preflight        ready: true，7 checks
-local deployment smoke       ready: true，release 相符，完整藥證 1 筆，console 0
+local deployment smoke       ready: true，release／兩個完整 SHA／snapshot／資料時間相符，完整藥證 1 筆，console 0
 5000-document build          103 MB，最近一次 23.23 秒
 ```
 

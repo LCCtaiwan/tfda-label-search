@@ -4,12 +4,15 @@ from pathlib import Path
 import tempfile
 import unittest
 
+from tools.pipeline.official_snapshot import build_snapshot
 from tools.pipeline.static_release import (
+    SOURCE_ORDER,
     StaticReleaseError,
     build_release,
     document_order,
     license_code,
 )
+from tools.sources import official
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,6 +23,7 @@ def arguments(release_root: Path, release_id: str, coverage: float = 0.5) -> Nam
         release_id=release_id,
         release_root=release_root,
         source_dir=ROOT / "tests" / "fixtures" / "pipeline_sources",
+        source_manifest=None,
         structured=[ROOT / "tests" / "fixtures" / "structured-real-sample.json"],
         min_structured_coverage=coverage,
         app_revision="a" * 40,
@@ -97,6 +101,56 @@ class StaticReleaseTests(unittest.TestCase):
         args.app_revision = "main"
         with self.assertRaisesRegex(StaticReleaseError, "40 碼 Git SHA"):
             build_release(args)
+
+    def test_production_release_requires_source_manifest(self):
+        args = arguments(Path("unused"), "fixture-v1")
+        args.allow_small_fixtures = False
+        with self.assertRaisesRegex(StaticReleaseError, "snapshot manifest"):
+            build_release(args)
+
+    def test_release_uses_verified_snapshot_time_and_rejects_modified_raw(self):
+        specs = official.load_sources()
+        fixtures = ROOT / "tests" / "fixtures" / "pipeline_sources"
+        payloads = {
+            specs[name]["url"]: (fixtures / f"{name}.raw").read_bytes()
+            for name in SOURCE_ORDER
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            snapshot_root = root / "snapshot-root"
+            source_manifest = build_snapshot(
+                snapshot_root,
+                "traceable-v1",
+                download=lambda url: payloads[url],
+                allow_small_fixtures=True,
+            )
+            snapshot = snapshot_root / "snapshots" / "traceable-v1"
+            args = arguments(root / "releases", "traceable-v1")
+            args.source_dir = snapshot / "raw"
+            args.source_manifest = snapshot / "manifest.json"
+            build_release(args)
+            release = root / "releases" / "releases" / "traceable-v1"
+            identity = json.loads(
+                (release / "site" / "data" / "release.json").read_text(encoding="utf-8")
+            )
+            search_manifest = json.loads(
+                (release / "site" / "data" / "manifest.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(identity["official_snapshot_id"], "traceable-v1")
+            self.assertEqual(
+                identity["data_retrieved_at"], source_manifest["created_at"]
+            )
+            self.assertEqual(
+                search_manifest["data_retrieved_at"], source_manifest["created_at"]
+            )
+
+            ingredient_path = snapshot / "raw" / "ingredients.raw"
+            ingredient_path.write_bytes(ingredient_path.read_bytes() + b"\n")
+            modified = arguments(root / "modified", "traceable-v2")
+            modified.source_dir = snapshot / "raw"
+            modified.source_manifest = snapshot / "manifest.json"
+            with self.assertRaisesRegex(StaticReleaseError, "SHA-256"):
+                build_release(modified)
 
 
 if __name__ == "__main__":

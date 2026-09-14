@@ -84,6 +84,7 @@ class OfflineDeploymentTests(unittest.TestCase):
                 release_id="offline-v1",
                 release_root=release_root,
                 source_dir=official_current / "raw",
+                source_manifest=official_current / "manifest.json",
                 structured=sorted((structured / "documents").rglob("*.json")),
                 min_structured_coverage=1.0,
                 allow_small_fixtures=True,

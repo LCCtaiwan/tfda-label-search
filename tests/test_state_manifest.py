@@ -1,19 +1,43 @@
 import json
 from pathlib import Path
+import shutil
 import tempfile
 import unittest
 
+from tools.pipeline.official_snapshot import build_snapshot
 from tools.pipeline.static_release import SOURCE_ORDER, StaticReleaseError, active_catalog
 from tools.pipeline.state_manifest import (
     build_manifest,
     summarize_incremental,
     summarize_state,
+    validate_downloaded_documents,
     validate_git_payload,
 )
 from tools.sources import official
 
 
 ROOT = Path(__file__).resolve().parents[1]
+
+
+def official_fixture(root: Path) -> Path:
+    specs = official.load_sources()
+    fixtures = ROOT / "tests" / "fixtures" / "pipeline_sources"
+    payloads = {
+        specs[name]["url"]: (fixtures / f"{name}.raw").read_bytes()
+        for name in SOURCE_ORDER
+    }
+    snapshot_root = root / "snapshot-root"
+    build_snapshot(
+        snapshot_root,
+        "fixture",
+        download=lambda url: payloads[url],
+        allow_small_fixtures=True,
+    )
+    snapshot = snapshot_root / "snapshots" / "fixture"
+    destination = root / "official"
+    shutil.copytree(snapshot / "raw", destination / "raw")
+    shutil.copy2(snapshot / "manifest.json", destination / "manifest.json")
+    return destination
 
 
 class StateManifestTests(unittest.TestCase):
@@ -51,29 +75,57 @@ class StateManifestTests(unittest.TestCase):
                 [],
             )
 
+    def test_downloaded_state_requires_its_exact_matching_document(self):
+        number = "衛部藥製字第123456號"
+        active = {number: {"license_code": "51123456"}}
+        state = {
+            "schema_version": 1,
+            "items": {
+                number: {"status": "downloaded", "license_code": "51123456"}
+            },
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            structured = Path(directory)
+            unrelated = structured / "documents" / "99" / "99999999.json"
+            unrelated.parent.mkdir(parents=True)
+            unrelated.write_text(json.dumps({
+                "schema_version": 1,
+                "document_count": 1,
+                "documents": [{"license_no": "其他藥證"}],
+            }, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaisesRegex(StaticReleaseError, "找不到對應仿單檔"):
+                validate_downloaded_documents(structured, state, active)
+
+            expected = structured / "documents" / "51" / "51123456.json"
+            expected.parent.mkdir(parents=True)
+            expected.write_text(json.dumps({
+                "schema_version": 1,
+                "document_count": 1,
+                "documents": [{"license_no": "錯誤藥證"}],
+            }, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaisesRegex(StaticReleaseError, "內容與續傳狀態不符"):
+                validate_downloaded_documents(structured, state, active)
+
+            expected.write_text(json.dumps({
+                "schema_version": 1,
+                "document_count": 1,
+                "documents": [{"license_no": number}],
+            }, ensure_ascii=False), encoding="utf-8")
+            with self.assertRaisesRegex(StaticReleaseError, "沒有對應的 downloaded 狀態"):
+                validate_downloaded_documents(structured, state, active)
+
     def test_build_manifest_validates_a_complete_fixture_state(self):
-        license_bundle = official.build_bundle(
-            "licenses",
-            (ROOT / "tests" / "fixtures" / "pipeline_sources" / "licenses.raw").read_bytes(),
-            allow_small=True,
-        )
-        active = active_catalog(license_bundle)
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            official_dir = root / "official"
+            official_dir = official_fixture(root)
             structured_dir = root / "structured"
-            (official_dir / "raw").mkdir(parents=True)
             structured_dir.mkdir()
-            (official_dir / "manifest.json").write_text(json.dumps({
-                "schema_version": 1,
-                "snapshot_id": "fixture",
-                "created_at": "2026-09-15T00:00:00+00:00",
-                "ready": True,
-                "sources": {name: {} for name in SOURCE_ORDER},
-            }), encoding="utf-8")
-            (official_dir / "raw" / "licenses.raw").write_bytes(
-                (ROOT / "tests" / "fixtures" / "pipeline_sources" / "licenses.raw").read_bytes()
+            license_bundle = official.build_bundle(
+                "licenses",
+                (official_dir / "raw" / "licenses.raw").read_bytes(),
+                allow_small=True,
             )
+            active = active_catalog(license_bundle)
             (structured_dir / "state.json").write_text(json.dumps({
                 "schema_version": 1,
                 "catalog_hash": license_bundle["content_hash"],
@@ -109,6 +161,30 @@ class StateManifestTests(unittest.TestCase):
         self.assertGreater(manifest["file_count"], 0)
         self.assertGreater(manifest["total_bytes"], 0)
         self.assertEqual(len(manifest["data_sha256"]), 64)
+
+    def test_modified_raw_source_is_rejected_even_when_manifest_says_ready(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            official_dir = official_fixture(root)
+            structured_dir = root / "structured"
+            structured_dir.mkdir()
+            license_payload = (official_dir / "raw" / "licenses.raw").read_bytes()
+            license_bundle = official.build_bundle(
+                "licenses", license_payload, allow_small=True
+            )
+            active = active_catalog(license_bundle)
+            (structured_dir / "state.json").write_text(json.dumps({
+                "schema_version": 1,
+                "catalog_hash": license_bundle["content_hash"],
+                "items": {number: {"status": "no_document"} for number in active},
+            }, ensure_ascii=False), encoding="utf-8")
+            ingredient_path = official_dir / "raw" / "ingredients.raw"
+            ingredient_path.write_bytes(ingredient_path.read_bytes() + b"\n")
+
+            with self.assertRaisesRegex(StaticReleaseError, "SHA-256"):
+                build_manifest(
+                    official_dir, structured_dir, allow_small_fixtures=True
+                )
 
     def test_git_payload_limit_fails_before_commit(self):
         with tempfile.TemporaryDirectory() as directory:

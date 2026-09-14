@@ -95,6 +95,65 @@ def active_catalog(bundle: dict) -> dict[str, dict]:
     return active
 
 
+def validated_source_snapshot(
+    source_dir: Path,
+    manifest_path: Path,
+    *,
+    allow_small_fixtures: bool = False,
+) -> tuple[dict, dict[str, dict]]:
+    """Re-parse every raw source and prove it still matches its snapshot manifest."""
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as error:
+        raise StaticReleaseError(f"無法讀取官方來源 manifest：{error}") from error
+    sources = manifest.get("sources")
+    if (
+        manifest.get("schema_version") != 1
+        or manifest.get("ready") is not True
+        or not isinstance(sources, dict)
+        or set(sources) != set(SOURCE_ORDER)
+    ):
+        raise StaticReleaseError("官方來源 snapshot 尚未完整通過")
+    snapshot_id = str(manifest.get("snapshot_id") or "").strip()
+    created_at = str(manifest.get("created_at") or "").strip()
+    if not snapshot_id or not created_at:
+        raise StaticReleaseError("官方來源 snapshot 缺少版本或建立時間")
+    try:
+        parsed_created_at = datetime.fromisoformat(created_at.replace("Z", "+00:00"))
+    except ValueError as error:
+        raise StaticReleaseError("官方來源 snapshot 建立時間格式錯誤") from error
+    if parsed_created_at.tzinfo is None:
+        raise StaticReleaseError("官方來源 snapshot 建立時間必須包含時區")
+
+    specs = official.load_sources()
+    bundles = {}
+    for name in SOURCE_ORDER:
+        entry = sources[name]
+        if not isinstance(entry, dict):
+            raise StaticReleaseError(f"官方來源 manifest 的 {name} 格式錯誤")
+        source_path = source_dir / f"{name}.raw"
+        if not source_path.is_file():
+            raise StaticReleaseError(f"缺少官方來源檔：{source_path.name}")
+        payload = source_path.read_bytes()
+        digest = hashlib.sha256(payload).hexdigest()
+        if entry.get("url") != specs[name]["url"]:
+            raise StaticReleaseError(f"官方來源 {name} 的網址與設定不符")
+        if entry.get("sha256") != digest:
+            raise StaticReleaseError(f"官方來源 {name} 的 SHA-256 與 snapshot 不符")
+        bundle = official.build_bundle(
+            name,
+            payload,
+            allow_small=allow_small_fixtures,
+            retrieved_at=created_at,
+        )
+        if entry.get("source_records") != bundle["source_record_count"]:
+            raise StaticReleaseError(f"官方來源 {name} 的原始筆數與 snapshot 不符")
+        if entry.get("normalized_records") != bundle["normalized_record_count"]:
+            raise StaticReleaseError(f"官方來源 {name} 的整理筆數與 snapshot 不符")
+        bundles[name] = bundle
+    return manifest, bundles
+
+
 def natural_version_key(value: object) -> tuple:
     parts = re.findall(r"\d+|\D+", str(value or "").strip().casefold())
     return tuple((1, int(part)) if part.isdigit() else (0, part) for part in parts)
@@ -254,6 +313,9 @@ def build_release(args: argparse.Namespace) -> dict:
             raise StaticReleaseError(f"{name} revision 必須是完整 40 碼 Git SHA")
     if not args.allow_small_fixtures and (not app_revision or not data_revision):
         raise StaticReleaseError("正式 release 必須記錄 app 與 data 的完整 Git SHA")
+    source_manifest = getattr(args, "source_manifest", None)
+    if not args.allow_small_fixtures and not source_manifest:
+        raise StaticReleaseError("正式 release 必須提供官方來源 snapshot manifest")
 
     release_root = args.release_root.resolve()
     target = release_root / "releases" / args.release_id
@@ -262,17 +324,26 @@ def build_release(args: argparse.Namespace) -> dict:
     release_root.mkdir(parents=True, exist_ok=True)
     temporary = Path(tempfile.mkdtemp(prefix=f".{args.release_id}-", dir=release_root))
     try:
-        bundles = {}
-        for name in SOURCE_ORDER:
-            source_path = args.source_dir / f"{name}.raw"
-            if not source_path.is_file():
-                raise StaticReleaseError(f"缺少官方來源檔：{source_path.name}")
-            bundle = official.build_bundle(
-                name,
-                source_path.read_bytes(),
-                allow_small=args.allow_small_fixtures,
+        source_snapshot = None
+        if source_manifest:
+            source_snapshot, bundles = validated_source_snapshot(
+                args.source_dir,
+                Path(source_manifest),
+                allow_small_fixtures=args.allow_small_fixtures,
             )
-            bundles[name] = bundle
+        else:
+            bundles = {}
+            for name in SOURCE_ORDER:
+                source_path = args.source_dir / f"{name}.raw"
+                if not source_path.is_file():
+                    raise StaticReleaseError(f"缺少官方來源檔：{source_path.name}")
+                bundle = official.build_bundle(
+                    name,
+                    source_path.read_bytes(),
+                    allow_small=args.allow_small_fixtures,
+                )
+                bundles[name] = bundle
+        for name, bundle in bundles.items():
             official.atomic_write(temporary / "sources" / f"{name}.json", bundle)
 
         active = active_catalog(bundles["licenses"])
@@ -284,9 +355,12 @@ def build_release(args: argparse.Namespace) -> dict:
                 f"低於門檻 {args.min_structured_coverage:.2%}"
             )
 
+        data_retrieved_at = (
+            source_snapshot["created_at"] if source_snapshot else now_iso()
+        )
         document_bundle = {
             "schema_version": 1,
-            "retrieved_at": now_iso(),
+            "retrieved_at": data_retrieved_at,
             "source": {"provider": "TFDA/NHIA validated static release"},
             "document_count": len(documents),
             "documents": documents,
@@ -311,6 +385,8 @@ def build_release(args: argparse.Namespace) -> dict:
             "created_at": created_at,
             "app_revision": app_revision,
             "data_revision": data_revision,
+            "official_snapshot_id": source_snapshot["snapshot_id"] if source_snapshot else "",
+            "data_retrieved_at": data_retrieved_at,
             "coverage": coverage,
             "source_hashes": {name: bundle["content_hash"] for name, bundle in bundles.items()},
         }
@@ -343,6 +419,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--release-id", required=True)
     parser.add_argument("--release-root", type=Path, required=True)
     parser.add_argument("--source-dir", type=Path, required=True)
+    parser.add_argument("--source-manifest", type=Path)
     parser.add_argument("--structured", type=Path, action="append", default=[])
     parser.add_argument("--structured-dir", type=Path)
     parser.add_argument("--min-structured-coverage", type=float, default=0.98)

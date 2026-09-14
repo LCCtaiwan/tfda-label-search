@@ -8,17 +8,31 @@ import { chromium } from "@playwright/test";
 
 
 export function parseArgs(argv) {
-  const options = { url: "", expectedReleaseId: "", output: "", allowLocal: false };
+  const options = {
+    url: "",
+    expectedReleaseId: "",
+    expectedAppSha: "",
+    expectedDataSha: "",
+    output: "",
+    allowLocal: false,
+  };
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index];
     if (value === "--url") options.url = argv[++index] ?? "";
     else if (value === "--expected-release-id") options.expectedReleaseId = argv[++index] ?? "";
+    else if (value === "--expected-app-sha") options.expectedAppSha = argv[++index] ?? "";
+    else if (value === "--expected-data-sha") options.expectedDataSha = argv[++index] ?? "";
     else if (value === "--output") options.output = argv[++index] ?? "";
     else if (value === "--allow-local") options.allowLocal = true;
     else throw new Error(`未知參數：${value}`);
   }
-  if (!options.url || !options.expectedReleaseId) {
-    throw new Error("必須提供 --url 與 --expected-release-id");
+  if (
+    !options.url
+    || !options.expectedReleaseId
+    || !/^[a-f0-9]{40}$/u.test(options.expectedAppSha)
+    || !/^[a-f0-9]{40}$/u.test(options.expectedDataSha)
+  ) {
+    throw new Error("必須提供網址、release ID 與兩個完整 Git SHA");
   }
   return options;
 }
@@ -35,7 +49,12 @@ export function checkedTarget(rawUrl, allowLocal = false) {
   return target;
 }
 
-export function assertReleaseIdentity(identity, expectedReleaseId) {
+export function assertReleaseIdentity(
+  identity,
+  expectedReleaseId,
+  expectedAppSha,
+  expectedDataSha,
+) {
   if (!identity || identity.schema_version !== 1) throw new Error("release.json 格式錯誤");
   if (identity.release_id !== expectedReleaseId) {
     throw new Error(`部署版本不符：預期 ${expectedReleaseId}，實際 ${identity.release_id || "空白"}`);
@@ -44,6 +63,16 @@ export function assertReleaseIdentity(identity, expectedReleaseId) {
     if (!/^[a-f0-9]{40}$/u.test(String(identity[field] ?? ""))) {
       throw new Error(`release.json 的 ${field} 不是完整 Git SHA`);
     }
+  }
+  if (identity.app_revision !== expectedAppSha || identity.data_revision !== expectedDataSha) {
+    throw new Error("部署的程式或資料 SHA 與本次核准版本不符");
+  }
+  if (!/^[A-Za-z0-9][A-Za-z0-9._-]{0,63}$/u.test(String(identity.official_snapshot_id ?? ""))) {
+    throw new Error("release.json 缺少可追溯的官方 snapshot ID");
+  }
+  const retrievedAt = String(identity.data_retrieved_at ?? "");
+  if (!/(?:Z|[+-]\d{2}:\d{2})$/u.test(retrievedAt) || Number.isNaN(Date.parse(retrievedAt))) {
+    throw new Error("release.json 缺少含時區的資料擷取時間");
   }
 }
 
@@ -82,7 +111,12 @@ export async function verifyDeployment(options) {
         footer: document.querySelector("footer")?.textContent ?? "",
       };
     });
-    assertReleaseIdentity(payload.identity, options.expectedReleaseId);
+    assertReleaseIdentity(
+      payload.identity,
+      options.expectedReleaseId,
+      options.expectedAppSha,
+      options.expectedDataSha,
+    );
     if (!payload.footer.includes("政府資料開放授權條款-第1版")) {
       throw new Error("正式網站頁尾缺少授權聲明");
     }
@@ -104,6 +138,8 @@ export async function verifyDeployment(options) {
       release_id: payload.identity.release_id,
       app_revision: payload.identity.app_revision,
       data_revision: payload.identity.data_revision,
+      official_snapshot_id: payload.identity.official_snapshot_id,
+      data_retrieved_at: payload.identity.data_retrieved_at,
       query: document.license_no,
       result_count: resultCount,
       viewport: "390x844",

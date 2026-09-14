@@ -38,4 +38,6 @@ await writeFile(path.join(site, "data", "release.json"), `${JSON.stringify({
   created_at: new Date().toISOString(),
   app_revision: "a".repeat(40),
   data_revision: "b".repeat(40),
+  official_snapshot_id: "e2e-snapshot",
+  data_retrieved_at: "2026-09-15T00:00:00+08:00",
 }, null, 2)}\n`, "utf8");

@@ -137,10 +137,22 @@ npm run serve
 - `data-state-manifest.json` 新增增量初始化、下一日期、落後天數及最後完成日；正式 Pages 建置要求游標存在且落後不超過 14 天。
 - 目前總計 49 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
 
+### 2026-09-15：C-013 正式資料完整性與部署身分核對
+
+- 完成 production-readiness 稽核，發現 data-state manifest 原本只重建 licenses，其他八個 raw 沒有在部署前與 snapshot 重新比對；改為九個來源全部重解析，逐一核對官方網址、SHA-256、原始筆數與整理筆數。
+- 原本只用檔案總數判斷 downloaded 仿單是否齊全；改為逐一核對狀態中的藥證代碼、分片路徑、JSON 格式與內容藥證，並拒絕沒有對應 downloaded 狀態的額外 JSON。
+- 靜態 release 新增 `official_snapshot_id` 與 `data_retrieved_at`；Pagefind 頁尾資料日期改用 snapshot 真正擷取時間，不再用部署建置時間。
+- 部署 smoke 新增完整 app/data SHA 輸入與逐字比對；回滾時 checkout 被發布的 app SHA 執行檢查，避免用新版檢查器驗舊版網站。
+- 依 GitHub 官方 repository release API 在 2026-09-15 核對 action 版本；三份 workflow 的官方 Actions 全部固定到完整 commit SHA，另有回歸測試禁止回到浮動 tag。
+- 將規格指定的「腎功能不全」加入 Chromium 自動驗收；容量 fixture 會命中超過 50 筆，測試確認分批狀態與命中原文。
+- 本機更新後 smoke 通過：`e2e-fixture`、app/data SHA 完全相符、完整藥證 1 筆、390×844、console 0、1.000 秒。
+- `npm audit --audit-level=high --package-lock-only` 回報 0 個已知漏洞。
+- 目前總計 54 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：53 個測試通過（49 Python + 4 Node）。
+- Python／Node：58 個測試通過（54 Python + 4 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

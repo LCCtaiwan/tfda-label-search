@@ -31,12 +31,12 @@ jobs:
       app_sha: ${{ steps.revisions.outputs.app_sha }}
       data_sha: ${{ steps.revisions.outputs.data_sha }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ inputs.app_ref }}
           path: app
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: ${{ inputs.data_ref }}
           path: state
@@ -47,13 +47,13 @@ jobs:
           echo "app_sha=$(git -C app rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "data_sha=$(git -C state rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 22
           cache: npm
           cache-dependency-path: app/package-lock.json
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.12"
 
@@ -86,6 +86,7 @@ jobs:
             --release-id "$RELEASE_ID" \
             --release-root candidate \
             --source-dir state/official/current/raw \
+            --source-manifest state/official/current/manifest.json \
             --structured-dir state/structured/documents \
             --app-revision "$APP_SHA" \
             --data-revision "$DATA_SHA" \
@@ -103,7 +104,7 @@ jobs:
           --output "${{ runner.temp }}/publication-preflight.json"
 
       - name: Upload small audit evidence
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: release-audit-${{ github.run_id }}
           path: |
@@ -113,10 +114,10 @@ jobs:
             ${{ runner.temp }}/verified-data-state.json
           retention-days: 30
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
       - name: Upload candidate Pages artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
           path: ${{ steps.release.outputs.site_path }}
 
@@ -145,7 +146,7 @@ jobs:
     steps:
       - name: Deploy only after the environment reviewer approves
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
 
   smoke-test:
     needs: [build, deploy]
@@ -154,9 +155,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ needs.build.outputs.app_sha }}
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
           node-version: 22
           cache: npm
@@ -171,11 +174,13 @@ jobs:
           node scripts/verify-deployed.mjs
           --url "${{ needs.deploy.outputs.page_url }}"
           --expected-release-id "${{ needs.build.outputs.release_id }}"
+          --expected-app-sha "${{ needs.build.outputs.app_sha }}"
+          --expected-data-sha "${{ needs.build.outputs.data_sha }}"
           --output "${{ runner.temp }}/deployment-smoke.json"
 
       - name: Preserve deployment smoke evidence
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: deployment-smoke-${{ github.run_id }}
           path: ${{ runner.temp }}/deployment-smoke.json

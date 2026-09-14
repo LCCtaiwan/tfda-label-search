@@ -16,11 +16,13 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from tools.pipeline.static_release import SOURCE_ORDER, StaticReleaseError, active_catalog, atomic_json
+from tools.pipeline.static_release import (
+    StaticReleaseError,
+    active_catalog,
+    atomic_json,
+    validated_source_snapshot,
+)
 from tools.pipeline.fetch_updates import closed_through_date
-from tools.sources import official
-
-
 TERMINAL_STATUSES = {"downloaded", "no_document", "unqueryable"}
 MAX_GIT_FILE_BYTES = 95 * 1024 * 1024
 
@@ -76,6 +78,49 @@ def summarize_state(state: dict, active: dict[str, dict], document_files: list[P
     }
 
 
+def validate_downloaded_documents(
+    structured_dir: Path,
+    state: dict,
+    active: dict[str, dict],
+) -> None:
+    """Prove every item marked downloaded has its own matching JSON file."""
+    expected: dict[Path, str] = {}
+    for number, item in state.get("items", {}).items():
+        if item.get("status") != "downloaded":
+            continue
+        code = str(item.get("license_code") or "")
+        catalog_code = str(active.get(number, {}).get("license_code") or "")
+        if number in active and (not catalog_code or code != catalog_code):
+            raise StaticReleaseError(f"{number} 的已下載狀態缺少正確藥證代碼")
+        path = structured_dir / "documents" / code[:2] / f"{code}.json"
+        if not code or path in expected:
+            raise StaticReleaseError(f"{number} 的已下載狀態缺少唯一藥證代碼")
+        expected[path] = number
+
+    for path, number in expected.items():
+        if not path.is_file():
+            raise StaticReleaseError(f"{number} 標示已下載，但找不到對應仿單檔")
+        try:
+            payload = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as error:
+            raise StaticReleaseError(f"{number} 的仿單檔無法讀取") from error
+        documents = payload.get("documents")
+        if (
+            payload.get("schema_version") != 1
+            or not isinstance(documents, list)
+            or payload.get("document_count") != len(documents)
+            or not documents
+            or any(str(document.get("license_no") or "").strip() != number for document in documents)
+        ):
+            raise StaticReleaseError(f"{number} 的仿單檔內容與續傳狀態不符")
+
+    actual = set((structured_dir / "documents").rglob("*.json"))
+    unexpected = sorted(actual - set(expected))
+    if unexpected:
+        relative = unexpected[0].relative_to(structured_dir).as_posix()
+        raise StaticReleaseError(f"結構化仿單檔沒有對應的 downloaded 狀態：{relative}")
+
+
 def summarize_incremental(path: Path, catalog_hash: str) -> dict:
     if not path.is_file():
         return {
@@ -115,19 +160,18 @@ def build_manifest(
 ) -> dict:
     official_dir = official_dir.resolve()
     structured_dir = structured_dir.resolve()
-    source_manifest = json.loads((official_dir / "manifest.json").read_text(encoding="utf-8"))
-    if source_manifest.get("ready") is not True or set(source_manifest.get("sources", {})) != set(SOURCE_ORDER):
-        raise StaticReleaseError("官方來源 snapshot 尚未完整通過")
-    license_bundle = official.build_bundle(
-        "licenses",
-        (official_dir / "raw" / "licenses.raw").read_bytes(),
-        allow_small=allow_small_fixtures,
+    source_manifest, bundles = validated_source_snapshot(
+        official_dir / "raw",
+        official_dir / "manifest.json",
+        allow_small_fixtures=allow_small_fixtures,
     )
+    license_bundle = bundles["licenses"]
     active = active_catalog(license_bundle)
     state = json.loads((structured_dir / "state.json").read_text(encoding="utf-8"))
     if state.get("catalog_hash") != license_bundle.get("content_hash"):
         raise StaticReleaseError("續傳狀態使用的藥證清單不是目前版本")
     documents = sorted((structured_dir / "documents").rglob("*.json"))
+    validate_downloaded_documents(structured_dir, state, active)
     summary = summarize_state(state, active, documents)
     incremental = summarize_incremental(
         structured_dir / "updates-state.json", license_bundle["content_hash"]
