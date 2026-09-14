@@ -51,4 +51,4 @@ python3 tools/pipeline/static_release.py \
 
 正式 Pages workflow 另傳入 `--max-official-snapshot-age-days 14`。release manifest 會保存 `official_snapshot_age_days`；超過門檻或快照日期不可信時，候選版在產生前停止。
 
-官方清冊欄位名稱雖包含「圖檔」，網址本身不足以可靠分辨可讀 PDF、單張圖片或其他官方呈現形式。因此第一版只報告「有官方檔案連結」；需在獲准的小批正式資料中檢查實際回應後，才能增加更細的檔案類型分類。
+官方清冊欄位名稱雖包含「圖檔」，網址本身不足以可靠分辨可讀 PDF、單張圖片或其他官方呈現形式。因此公開涵蓋摘要仍只報告「有官方檔案連結」。產生 release 後，可依 `docs/official-file-probe.md` 另行取得本輪授權，抽查最多 100 個連結的 PDF／圖片檔頭、HTML、未知或失敗；檔頭抽查仍不能證明整份 PDF 完整可讀，也不能直接外推為全量分類。

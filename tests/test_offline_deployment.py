@@ -6,6 +6,7 @@ import shutil
 import tempfile
 import unittest
 
+from tools.pipeline.approval_summary import build_approval_summary
 from tools.pipeline.official_snapshot import build_snapshot
 from tools.pipeline.release_preflight import run_preflight
 from tools.pipeline.sync_structured import sync_structured
@@ -88,19 +89,37 @@ class OfflineDeploymentTests(unittest.TestCase):
                 source_manifest=official_current / "manifest.json",
                 structured=sorted((structured / "documents").rglob("*.json")),
                 min_structured_coverage=1.0,
+                app_revision="a" * 40,
+                data_revision="b" * 40,
                 allow_small_fixtures=True,
                 activate=False,
             ))
-            site = release_root / "releases" / "offline-v1" / "site"
+            release_dir = release_root / "releases" / "offline-v1"
+            site = release_dir / "site"
             catalog = json.loads((site / "data" / "catalog.json").read_text(encoding="utf-8"))
             preflight = run_preflight(
                 ROOT / "config" / "publication-policy.json", site, ROOT
+            )
+            state_report = root / "verified-data-state.json"
+            preflight_report = root / "publication-preflight.json"
+            state_report.write_text(json.dumps(state_manifest), encoding="utf-8")
+            preflight_report.write_text(json.dumps(preflight), encoding="utf-8")
+            approval_summary = build_approval_summary(
+                release_dir / "manifest.json",
+                release_dir / "coverage.json",
+                state_report,
+                preflight_report,
+                site / "data" / "synonyms.json",
+                min_structured_coverage=1.0,
+                max_lag_days=0,
             )
 
         self.assertTrue(release["ready"])
         self.assertTrue(preflight["ready"])
         self.assertEqual(release["coverage"]["structured_coverage"], 1)
         self.assertEqual(catalog["document_count"], 2)
+        self.assertIn("2（100.00%", approval_summary)
+        self.assertIn("目前沒有正式核准的人工同義詞", approval_summary)
         self.assertFalse((release_root / "active.json").exists())
 
 

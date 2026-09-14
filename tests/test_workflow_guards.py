@@ -72,6 +72,12 @@ class WorkflowGuardTests(unittest.TestCase):
             workflow.index("release_preflight.py"),
             workflow.index("actions/upload-pages-artifact"),
         )
+        self.assertLess(
+            workflow.index("approval_summary.py"),
+            workflow.index("actions/upload-pages-artifact"),
+        )
+        self.assertIn("approval-summary.md", workflow)
+        self.assertIn("$GITHUB_STEP_SUMMARY", workflow)
         self.assertIn("ref: ${{ inputs.app_ref }}", workflow)
         self.assertIn("ref: ${{ inputs.data_ref }}", workflow)
         self.assertIn("--app-revision \"$APP_SHA\"", workflow)

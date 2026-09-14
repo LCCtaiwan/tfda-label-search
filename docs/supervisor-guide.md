@@ -7,6 +7,8 @@
 
 收到核准通知時，先看九件事：
 
+先打開該次 Actions 的「TFDA Pages 主管核准摘要」。摘要不是自動批准；它只是把五份原始證據放在同一頁，數字互相對不上時工作會先停止。主管仍要下載 `release-audit-<run id>` 核對原始檔。
+
 - `coverage.json` 的 `structured_coverage` 是否至少 98%。
 - `coverage.json` 的 `metadata_only_with_official_files`、`metadata_only_without_official_files` 是否合理；後者突然增加就先拒絕。
 - `synonyms.json` 是否只包含已確認的詞組，且每組都有審查人與審查日期；看不懂的詞不要核准。

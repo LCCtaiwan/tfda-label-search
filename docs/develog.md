@@ -259,10 +259,18 @@ npm run serve
 - 抽查需獨立的本輪授權；未授權時測試證明為零次 fetch。外站來源或外站轉址會在安全檢查時拒絕。
 - 完整驗收通過：62 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
 
+### 2026-09-15：C-026 主管核准白話摘要
+
+- 部署 workflow 原本會上傳 manifest、coverage、同義詞、publication preflight 與 data-state 預檢，但主管需要自己開五份 JSON 才能比對，交接時容易看錯版本或漏看缺件。
+- 新增 `approval_summary.py`，在 environment 核准前交叉核對五份證據，整理 release、兩個完整 SHA、資料日期、14 天門檻、98% 涵蓋率、缺件、健保連接、正式同義詞、八項發布檢查及九來源雜湊。
+- 數字、snapshot 或 commit 證據不一致，或資料過期、涵蓋不足、公開同義詞未核准時，摘要產生失敗並阻止進入 Pages artifact。
+- 摘要會顯示在 Actions run summary，也會和五份原始證據一起保存 30 天；文字明確提醒主管仍須人工 Approve 或 Reject。
+- 完整驗收通過：64 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：73 個測試通過（62 Python + 11 Node）。
+- Python／Node：75 個測試通過（64 Python + 11 Node）。
 - Node.js：Pagefind 建置、容量、部署 smoke 與同義詞共 11 個測試通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
