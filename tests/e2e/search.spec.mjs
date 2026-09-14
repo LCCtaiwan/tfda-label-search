@@ -61,10 +61,14 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   });
 });
 
-test("只有 reviewed 的測試同義詞會生效", async ({ page }) => {
+test("reviewed 測試同義詞會生效且英文不分大小寫", async ({ page }) => {
   await search(page, { all: "孕期" });
   await expect(page.locator("#status")).toHaveText("已顯示 50 筆，尚有更多結果。");
   await expect(page.locator("#results article")).toHaveCount(50);
+
+  await search(page, { all: "queasiness" });
+  await expect(page.locator("#status")).toHaveText("找到 1 筆結果。");
+  await expect(page.locator("#results article")).toContainText("Nausea");
 });
 
 test("沒有結構化文字時仍提供 TFDA 官方仿單檔案", async ({ page }) => {

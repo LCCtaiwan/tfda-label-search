@@ -63,6 +63,7 @@ npm run serve
 - `docs/official-sources.md`：官方 API 能做什麼、九組來源、授權與批次下載邊界。
 - `docs/publication-rights.md`：官方開放資料、結構化仿單及第三方程式的公開使用依據與排除範圍。
 - `docs/capacity-study.md`：1,000／5,000 份容量試驗、被淘汰的舊架構與瀏覽器結果。
+- `docs/synonyms.md`：人工同義詞的草稿、藥師審查、衝突檢查與發布方式。
 - `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
 - `docs/supervisor-guide.md`：主管核准與部署後檢查小抄。
 - `docs/completion-audit.md`：逐項區分已證明、尚未證明與必須取得的外部授權。

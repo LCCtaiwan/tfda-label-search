@@ -179,10 +179,20 @@ npm run serve
 - 本機完整 smoke 通過：114 份目錄、113 份可搜尋文字、1 份只有官方檔案、0 份兩者皆無；完整藥證搜尋 1 筆，390×844，console 0。
 - 完整驗收通過：56 個 Python、6 個 Node、6 個 Chromium 與三份 workflow YAML。
 
+### 2026-09-15：C-017 人工同義詞審查門檻
+
+- 稽核發現前端雖只使用 `reviewed: true`，但建置原本直接複製整份設定；缺少審查人、日期、格式錯誤或未審查草稿都可能被公開，且不一定讓建置失敗。
+- 新增 `validate-synonyms.mjs`。每組 2–20 詞、每詞 2–80 字元且不可含查詢分隔符；NFKC 與英文大小寫正規化後拒絕同組重複及跨核准群組衝突。
+- 核准群組必須有 `reviewed: true`、審查人／角色及真實日曆日期；建置輸出只保留核准群組，未核准草稿不會出現在 `site/data/synonyms.json`。
+- 修正瀏覽器同義詞索引未正規化的問題；測試詞 `Queasiness` 由使用者輸入小寫 `queasiness` 時仍可找到含 `Nausea` 的唯一章節。
+- `npm test` 會先驗證正式 `config/synonyms.json`；目前正式核准群組為 0，不把自動測試詞放進成品。
+- Pages 的 `release-audit` 附件新增實際公開的 `synonyms.json`，主管可在核准前核對審查欄位。另新增 `docs/synonyms.md` 操作說明。
+- 完整驗收待最後重跑；針對性驗證已通過 3 個同義詞單元、2 個 Pagefind 建置與 6 個 Chromium 情境。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：62 個測試通過（56 Python + 6 Node）。
+- Python／Node：65 個測試通過（56 Python + 9 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

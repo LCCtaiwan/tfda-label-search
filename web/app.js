@@ -42,7 +42,7 @@ async function synonyms() {
       for (const entry of payload.entries ?? []) {
         if (entry.reviewed !== true || !Array.isArray(entry.terms)) continue;
         const group = [...new Set(entry.terms.map((item) => String(item).trim()).filter(Boolean))];
-        for (const item of group) mapping.set(item, group);
+        for (const item of group) mapping.set(normalized(item), group);
       }
       return mapping;
     });
@@ -80,7 +80,7 @@ function intersect(left, right) {
 }
 
 async function searchGroup(engine, value, synonymMap) {
-  const expanded = synonymMap.get(value) ?? [value];
+  const expanded = synonymMap.get(normalized(value)) ?? [value];
   return union(await Promise.all(expanded.map((item) => searchOne(engine, item))));
 }
 
@@ -128,7 +128,7 @@ function normalized(value) {
 }
 
 function expanded(term, synonymMap) {
-  return synonymMap.get(term) ?? [term];
+  return synonymMap.get(normalized(term)) ?? [term];
 }
 
 function includesGroup(text, term, synonymMap) {

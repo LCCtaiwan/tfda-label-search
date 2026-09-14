@@ -38,7 +38,7 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 3. 工作會重跑單元測試、Chromium 測試，並重新解析九個 raw 檔、核對 snapshot 網址／SHA-256／筆數、逐張核對 downloaded 仿單，再檢查 98% 結構化文字門檻與最多 14 天的日期增量落後。
 4. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
 5. 通過後進入 `github-pages` environment 等待主管。
-6. 主管查看 `release-audit-<run id>` 的報告與兩個 commit SHA，再按 Approve and deploy 或 Reject。
+6. 主管查看 `release-audit-<run id>` 的報告、公開 `synonyms.json` 與兩個 commit SHA，再按 Approve and deploy 或 Reject。
 7. 部署後會用相同 app SHA 的檢查器，以 390×844 Chromium 開啟正式網址，逐字核對 release ID 與本次核准的完整 app/data SHA，檢查 snapshot 與資料時間，再從正式目錄選一張完整藥證搜尋；結果保存為 `deployment-smoke-<run id>`。
 
 ## 回滾

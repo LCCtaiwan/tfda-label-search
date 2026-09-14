@@ -4,20 +4,23 @@ import path from "node:path";
 import process from "node:process";
 import * as pagefind from "pagefind";
 
+import { validateFile as validateSynonymFile } from "./validate-synonyms.mjs";
+
 const GENERATED_MARKER = ".tfda-label-search-generated";
 
 function parseArgs(argv) {
-  const options = { inputs: [], output: "site" };
+  const options = { inputs: [], output: "site", synonyms: "config/synonyms.json" };
   for (let index = 0; index < argv.length; index += 1) {
     const value = argv[index];
     if (value === "--input") options.inputs.push(argv[++index]);
     else if (value === "--output") options.output = argv[++index];
+    else if (value === "--synonyms") options.synonyms = argv[++index];
     else throw new Error(`未知參數：${value}`);
   }
   if (!options.inputs.length || options.inputs.some((item) => !item)) {
     throw new Error("至少需要一個 --input 結構化仿單 JSON");
   }
-  if (!options.output) throw new Error("--output 不可為空");
+  if (!options.output || !options.synonyms) throw new Error("--output 與 --synonyms 不可為空");
   return options;
 }
 
@@ -93,7 +96,7 @@ async function assertReplaceable(outputPath) {
   }
 }
 
-async function build({ inputs, output }) {
+async function build({ inputs, output, synonyms }) {
   const outputPath = path.resolve(output);
   const tempPath = `${outputPath}.tmp-${process.pid}`;
   await assertReplaceable(outputPath);
@@ -101,8 +104,12 @@ async function build({ inputs, output }) {
   await mkdir(path.join(tempPath, "data", "documents"), { recursive: true });
   await cp(path.resolve("web"), tempPath, { recursive: true });
 
-  const synonymSource = path.resolve("config", "synonyms.json");
-  await cp(synonymSource, path.join(tempPath, "data", "synonyms.json"));
+  const safeSynonyms = await validateSynonymFile(synonyms);
+  await writeFile(
+    path.join(tempPath, "data", "synonyms.json"),
+    `${JSON.stringify(safeSynonyms, null, 2)}\n`,
+    "utf8",
+  );
 
   const { index } = await pagefind.createIndex({
     forceLanguage: "zh",

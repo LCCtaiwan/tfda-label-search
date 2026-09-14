@@ -110,6 +110,7 @@ jobs:
           path: |
             ${{ steps.release.outputs.audit_path }}/manifest.json
             ${{ steps.release.outputs.audit_path }}/coverage.json
+            ${{ steps.release.outputs.site_path }}/data/synonyms.json
             ${{ runner.temp }}/publication-preflight.json
             ${{ runner.temp }}/verified-data-state.json
           retention-days: 30

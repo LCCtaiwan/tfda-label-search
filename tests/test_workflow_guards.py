@@ -68,6 +68,10 @@ class WorkflowGuardTests(unittest.TestCase):
         self.assertIn("--source-manifest state/official/current/manifest.json", workflow)
         self.assertIn("--require-incremental", workflow)
         self.assertIn("--max-incremental-lag-days 14", workflow)
+        self.assertIn(
+            "${{ steps.release.outputs.site_path }}/data/synonyms.json",
+            workflow,
+        )
         self.assertIn('--expected-app-sha "${{ needs.build.outputs.app_sha }}"', workflow)
         self.assertIn('--expected-data-sha "${{ needs.build.outputs.data_sha }}"', workflow)
         self.assertGreater(

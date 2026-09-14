@@ -9,9 +9,10 @@
     "measure:search": "node scripts/measure-search.mjs",
     "prepare:e2e": "node scripts/prepare-e2e.mjs",
     "serve": "python3 -m http.server 8000 --directory site",
-    "test": "npm run test:pagefind && npm run test:python",
+    "test": "npm run validate:synonyms && npm run test:pagefind && npm run test:python",
     "test:e2e": "playwright test",
-    "test:pagefind": "node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs tests/deployed-smoke.test.mjs",
+    "test:pagefind": "node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs tests/deployed-smoke.test.mjs tests/synonyms.test.mjs",
+    "validate:synonyms": "node scripts/validate-synonyms.mjs config/synonyms.json",
     "test:python": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
   },
   "devDependencies": {

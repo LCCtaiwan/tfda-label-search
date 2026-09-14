@@ -25,12 +25,22 @@ execFileSync(process.execPath, [
 await mkdir(path.join(site, "data"), { recursive: true });
 await writeFile(path.join(site, "data", "synonyms.json"), `${JSON.stringify({
   schema_version: 1,
-  entries: [{
-    terms: ["孕期", "懷孕"],
-    reviewed: true,
-    reviewer: "automated-test-fixture",
-    note: "只存在於自動測試輸出，不會寫入正式同義詞設定。",
-  }],
+  entries: [
+    {
+      terms: ["孕期", "懷孕"],
+      reviewed: true,
+      reviewer: "automated-test-fixture",
+      reviewed_at: "2026-09-15",
+      note: "只存在於自動測試輸出，不會寫入正式同義詞設定。",
+    },
+    {
+      terms: ["Queasiness", "Nausea"],
+      reviewed: true,
+      reviewer: "automated-test-fixture",
+      reviewed_at: "2026-09-15",
+      note: "只測試大小寫正規化，不會寫入正式同義詞設定。",
+    },
+  ],
 }, null, 2)}\n`, "utf8");
 const publicCoverage = JSON.parse(
   await readFile(path.join(site, "data", "coverage.json"), "utf8"),

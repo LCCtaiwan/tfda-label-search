@@ -10,12 +10,27 @@ const root = path.resolve(import.meta.dirname, "..");
 test("builds one searchable record per document without publishing raw HTML", async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "tfda-pagefind-test-"));
   const output = path.join(temporaryRoot, "site");
+  const synonyms = path.join(temporaryRoot, "synonyms.json");
 
   try {
+    await writeFile(synonyms, JSON.stringify({
+      schema_version: 1,
+      entries: [
+        {
+          terms: ["孕期", "懷孕"],
+          reviewed: true,
+          reviewer: "自動測試",
+          reviewed_at: "2026-09-15",
+        },
+        { terms: ["草稿甲", "草稿乙"], reviewed: false },
+      ],
+    }), "utf8");
     execFileSync(process.execPath, [
       "scripts/build-pagefind.mjs",
       "--input",
       "tests/fixtures/pagefind-search-sample.json",
+      "--synonyms",
+      synonyms,
       "--output",
       output,
     ], { cwd: root, stdio: "pipe" });
@@ -39,6 +54,13 @@ test("builds one searchable record per document without publishing raw HTML", as
       documents_with_official_files: 1,
       official_file_links: 1,
     });
+    const publishedSynonyms = JSON.parse(
+      await readFile(path.join(output, "data", "synonyms.json"), "utf8"),
+    );
+    assert.equal(publishedSynonyms.entries.length, 1);
+    assert.deepEqual(publishedSynonyms.entries[0].terms, ["孕期", "懷孕"]);
+    assert.equal(publishedSynonyms.entries[0].reviewer, "自動測試");
+    assert.doesNotMatch(JSON.stringify(publishedSynonyms), /草稿/u);
 
     const documents = await readdir(path.join(output, "data", "documents"));
     assert.equal(documents.length, 4);
