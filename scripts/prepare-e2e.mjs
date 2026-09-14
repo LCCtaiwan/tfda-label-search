@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -32,6 +32,9 @@ await writeFile(path.join(site, "data", "synonyms.json"), `${JSON.stringify({
     note: "只存在於自動測試輸出，不會寫入正式同義詞設定。",
   }],
 }, null, 2)}\n`, "utf8");
+const publicCoverage = JSON.parse(
+  await readFile(path.join(site, "data", "coverage.json"), "utf8"),
+);
 await writeFile(path.join(site, "data", "release.json"), `${JSON.stringify({
   schema_version: 1,
   release_id: "e2e-fixture",
@@ -40,4 +43,11 @@ await writeFile(path.join(site, "data", "release.json"), `${JSON.stringify({
   data_revision: "b".repeat(40),
   official_snapshot_id: "e2e-snapshot",
   data_retrieved_at: "2026-09-15T00:00:00+08:00",
+  coverage: {
+    active_licenses: publicCoverage.document_count,
+    structured_licenses: publicCoverage.searchable_text_documents,
+    metadata_only_licenses: publicCoverage.metadata_only_documents,
+    metadata_only_with_official_files: publicCoverage.metadata_only_with_official_files,
+    metadata_only_without_official_files: publicCoverage.metadata_only_without_official_files,
+  },
 }, null, 2)}\n`, "utf8");

@@ -73,6 +73,8 @@ npm run serve
 
 正式網站會提供 `data/release.json`，可查到實際發布的程式、資料 commit、官方 snapshot 與真實資料擷取時間。Pages 部署完成後，`scripts/verify-deployed.mjs` 會用手機尺寸開啟正式網址、逐字核對兩個核准 SHA，再以正式目錄中的一張完整藥證搜尋一次。
 
+網站也會提供 `data/coverage.json`，並在頁尾顯示多少藥證有可搜尋仿單文字、多少只有 TFDA 官方檔案連結、多少兩者都沒有。未實際取得官方檔案前，不會只看網址名稱就猜它是可讀 PDF 或圖片。
+
 ## 重要限制
 
 - 正式資料只使用可追溯的官方來源。

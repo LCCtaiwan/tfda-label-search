@@ -76,6 +76,48 @@ export function assertReleaseIdentity(
   }
 }
 
+export function assertCoverage(coverage, identityCoverage, catalog) {
+  const fields = [
+    "document_count",
+    "searchable_text_documents",
+    "metadata_only_documents",
+    "metadata_only_with_official_files",
+    "metadata_only_without_official_files",
+    "documents_with_official_files",
+    "official_file_links",
+  ];
+  if (
+    coverage?.schema_version !== 1
+    || catalog?.schema_version !== 1
+    || !Array.isArray(catalog.documents)
+    || fields.some((field) => !Number.isInteger(coverage[field]) || coverage[field] < 0)
+  ) {
+    throw new Error("正式網站的涵蓋報告或藥品目錄格式錯誤");
+  }
+  if (
+    coverage.document_count !== catalog.document_count
+    || catalog.document_count !== catalog.documents.length
+    || coverage.searchable_text_documents + coverage.metadata_only_documents
+      !== coverage.document_count
+    || coverage.metadata_only_with_official_files
+      + coverage.metadata_only_without_official_files !== coverage.metadata_only_documents
+  ) {
+    throw new Error("正式網站的涵蓋報告與藥品目錄數量不一致");
+  }
+  if (
+    !identityCoverage
+    || identityCoverage.active_licenses !== coverage.document_count
+    || identityCoverage.structured_licenses !== coverage.searchable_text_documents
+    || identityCoverage.metadata_only_licenses !== coverage.metadata_only_documents
+    || identityCoverage.metadata_only_with_official_files
+      !== coverage.metadata_only_with_official_files
+    || identityCoverage.metadata_only_without_official_files
+      !== coverage.metadata_only_without_official_files
+  ) {
+    throw new Error("正式網站的公開涵蓋報告與核准 release 不一致");
+  }
+}
+
 async function atomicJson(output, value) {
   if (!output) return;
   const target = path.resolve(output);
@@ -107,6 +149,7 @@ export async function verifyDeployment(options) {
       };
       return {
         identity: await load("data/release.json"),
+        coverage: await load("data/coverage.json"),
         catalog: await load("data/catalog.json"),
         footer: document.querySelector("footer")?.textContent ?? "",
       };
@@ -117,6 +160,7 @@ export async function verifyDeployment(options) {
       options.expectedAppSha,
       options.expectedDataSha,
     );
+    assertCoverage(payload.coverage, payload.identity.coverage, payload.catalog);
     if (!payload.footer.includes("政府資料開放授權條款-第1版")) {
       throw new Error("正式網站頁尾缺少授權聲明");
     }
@@ -142,6 +186,14 @@ export async function verifyDeployment(options) {
       data_retrieved_at: payload.identity.data_retrieved_at,
       query: document.license_no,
       result_count: resultCount,
+      coverage: {
+        document_count: payload.coverage.document_count,
+        searchable_text_documents: payload.coverage.searchable_text_documents,
+        metadata_only_with_official_files:
+          payload.coverage.metadata_only_with_official_files,
+        metadata_only_without_official_files:
+          payload.coverage.metadata_only_without_official_files,
+      },
       viewport: "390x844",
       console_errors: 0,
       duration_ms: Date.now() - started,

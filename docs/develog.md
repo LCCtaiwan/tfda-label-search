@@ -168,10 +168,21 @@ npm run serve
 - Playwright CLI 技能的 wrapper 在取得套件時無輸出卡住約 50 秒，已中止且未做全域安裝；額外 CLI 截圖未執行。專案既有 `@playwright/test` Chromium 六項操作驗收已實際通過。
 - 目前總計 56 個 Python、5 個 Node 與 6 個 Chromium 測試通過。
 
+### 2026-09-15：C-016 公開資料涵蓋與缺件摘要
+
+- 完成度稽核發現 release 原本只報告結構化涵蓋率；主管與網站使用者無法分辨 metadata-only 藥證有沒有官方備援檔案。
+- Pagefind 建置新增 `site/data/coverage.json`，每張資料互斥分成有可搜尋文字、只有官方檔案連結、文字與檔案皆無；另記錄具有檔案的文件數與去重後連結總數。
+- 前端同時讀取 manifest 與 coverage；schema、文件總數或三類加總不一致時顯示「無法讀取／請勿假設資料完整」，不展示看似正常的數字。
+- release 稽核的 `coverage.json` 同步加入 metadata-only 有／無檔案、具有官方檔案的藥證數與連結總數，供主管核准時比較。
+- 不依網址副檔名猜測 PDF 或圖片；正式小批取得實際檔案前，只能證明有通往 TFDA 的官方檔案連結。
+- 正式部署 smoke 新增三方比對：公開 `coverage.json`、藥品目錄及核准 release 涵蓋數任一不一致就失敗。
+- 本機完整 smoke 通過：114 份目錄、113 份可搜尋文字、1 份只有官方檔案、0 份兩者皆無；完整藥證搜尋 1 筆，390×844，console 0。
+- 完整驗收通過：56 個 Python、6 個 Node、6 個 Chromium 與三份 workflow YAML。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：61 個測試通過（56 Python + 5 Node）。
+- Python／Node：62 個測試通過（56 Python + 6 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

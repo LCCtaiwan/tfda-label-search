@@ -1,7 +1,12 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 
-import { assertReleaseIdentity, checkedTarget, parseArgs } from "../scripts/verify-deployed.mjs";
+import {
+  assertCoverage,
+  assertReleaseIdentity,
+  checkedTarget,
+  parseArgs,
+} from "../scripts/verify-deployed.mjs";
 
 
 test("deployment smoke arguments require an exact target and release", () => {
@@ -51,5 +56,39 @@ test("deployment smoke rejects a different or untraceable release", () => {
       "b".repeat(40),
     ),
     /資料擷取時間/u,
+  );
+});
+
+test("deployment smoke requires catalog, public coverage and approved release to agree", () => {
+  const coverage = {
+    schema_version: 1,
+    document_count: 4,
+    searchable_text_documents: 3,
+    metadata_only_documents: 1,
+    metadata_only_with_official_files: 1,
+    metadata_only_without_official_files: 0,
+    documents_with_official_files: 2,
+    official_file_links: 2,
+  };
+  const identityCoverage = {
+    active_licenses: 4,
+    structured_licenses: 3,
+    metadata_only_licenses: 1,
+    metadata_only_with_official_files: 1,
+    metadata_only_without_official_files: 0,
+  };
+  const catalog = {
+    schema_version: 1,
+    document_count: 4,
+    documents: Array.from({ length: 4 }, (_, index) => ({ record_id: String(index) })),
+  };
+  assert.doesNotThrow(() => assertCoverage(coverage, identityCoverage, catalog));
+  assert.throws(
+    () => assertCoverage({ ...coverage, document_count: 5 }, identityCoverage, catalog),
+    /不一致/u,
+  );
+  assert.throws(
+    () => assertCoverage(coverage, { ...identityCoverage, structured_licenses: 2 }, catalog),
+    /核准 release 不一致/u,
   );
 });

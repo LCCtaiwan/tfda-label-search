@@ -38,6 +38,9 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   await expect(page.locator("#data-version")).toContainText("資料版本：2026-09-15");
   await expect(page.locator("#data-version")).toContainText("114 份");
   await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
+  await expect(page.locator("#coverage-summary")).toHaveText(
+    "資料涵蓋：113 份有可搜尋仿單文字｜1 份只有官方檔案連結｜0 份目前沒有仿單文字或檔案",
+  );
   await expect(page.locator("footer")).toContainText("衛生福利部食品藥物管理署");
   await expect(page.locator("footer")).toContainText("衛生福利部中央健康保險署");
   await expect(page.getByRole("link", { name: "政府資料開放授權條款-第1版" }))
@@ -51,6 +54,11 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   expect(release.data_revision).toMatch(/^[a-f0-9]{40}$/u);
   expect(release.official_snapshot_id).toBe("e2e-snapshot");
   expect(release.data_retrieved_at).toBe("2026-09-15T00:00:00+08:00");
+  expect(release.coverage).toMatchObject({
+    active_licenses: 114,
+    structured_licenses: 113,
+    metadata_only_licenses: 1,
+  });
 });
 
 test("只有 reviewed 的測試同義詞會生效", async ({ page }) => {

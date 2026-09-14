@@ -28,6 +28,17 @@ test("builds one searchable record per document without publishing raw HTML", as
     assert.equal(manifest.data_retrieved_at, "2026-09-15T00:00:00Z");
     assert.match(manifest.dataset_sha256, /^[a-f0-9]{64}$/u);
     assert.equal(manifest.source_inputs.length, 1);
+    const coverage = JSON.parse(await readFile(path.join(output, "data", "coverage.json"), "utf8"));
+    assert.deepEqual(coverage, {
+      schema_version: 1,
+      document_count: 4,
+      searchable_text_documents: 3,
+      metadata_only_documents: 1,
+      metadata_only_with_official_files: 1,
+      metadata_only_without_official_files: 0,
+      documents_with_official_files: 1,
+      official_file_links: 1,
+    });
 
     const documents = await readdir(path.join(output, "data", "documents"));
     assert.equal(documents.length, 4);

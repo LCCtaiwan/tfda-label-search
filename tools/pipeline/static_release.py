@@ -297,6 +297,16 @@ def make_release_documents(
         "active_licenses": len(active),
         "structured_licenses": structured_count,
         "metadata_only_licenses": len(active) - structured_count,
+        "metadata_only_with_official_files": sum(
+            1 for item in result
+            if item["source_kind"] == "metadata_only" and item["pdf_urls"]
+        ),
+        "metadata_only_without_official_files": sum(
+            1 for item in result
+            if item["source_kind"] == "metadata_only" and not item["pdf_urls"]
+        ),
+        "licenses_with_official_files": sum(1 for item in result if item["pdf_urls"]),
+        "official_file_links": sum(len(item["pdf_urls"]) for item in result),
         "structured_coverage": structured_count / len(active),
         "nhi_linkage": extra["nhi_linkage"],
     }

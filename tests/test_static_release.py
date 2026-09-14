@@ -58,6 +58,14 @@ class StaticReleaseTests(unittest.TestCase):
             self.assertEqual(manifest["coverage"]["active_licenses"], 2)
             self.assertEqual(manifest["coverage"]["structured_licenses"], 1)
             self.assertEqual(
+                manifest["coverage"]["metadata_only_with_official_files"], 1
+            )
+            self.assertEqual(
+                manifest["coverage"]["metadata_only_without_official_files"], 0
+            )
+            self.assertEqual(manifest["coverage"]["licenses_with_official_files"], 2)
+            self.assertEqual(manifest["coverage"]["official_file_links"], 2)
+            self.assertEqual(
                 by_license["衛署藥製字第016162號"]["ingredients"][0]["name"],
                 "TEST INGREDIENT",
             )
@@ -79,6 +87,17 @@ class StaticReleaseTests(unittest.TestCase):
             self.assertEqual(identity["release_id"], "fixture-v1")
             self.assertEqual(identity["app_revision"], "a" * 40)
             self.assertEqual(identity["data_revision"], "b" * 40)
+            public_coverage = json.loads(
+                (release / "site" / "data" / "coverage.json").read_text(
+                    encoding="utf-8"
+                )
+            )
+            self.assertEqual(public_coverage["searchable_text_documents"], 1)
+            self.assertEqual(
+                public_coverage["metadata_only_with_official_files"], 1
+            )
+            self.assertEqual(public_coverage["documents_with_official_files"], 2)
+            self.assertEqual(public_coverage["official_file_links"], 2)
             active = json.loads((release_root / "active.json").read_text(encoding="utf-8"))
             self.assertEqual(active["release_id"], "fixture-v1")
 

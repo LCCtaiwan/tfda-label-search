@@ -14,13 +14,16 @@ release-root/
         ├── documents.json
         ├── sources/
         └── site/
-            └── data/release.json
+            └── data/
+                ├── coverage.json
+                └── release.json
 ```
 
 - `sources/`：九組官方來源的正規化快照、來源網址、擷取時間及內容雜湊。
 - `documents.json`：合併目前結構化仿單、成分、健保碼、ATC、安全事件與 TFDA 官方 PDF／圖片備援連結；靜態網站只保存網址，不鏡像檔案。
-- `coverage.json`：有效藥證、結構化仿單及只有 metadata 的數量。
+- release 根目錄的 `coverage.json`：有效藥證、結構化仿單、metadata-only 有／無官方檔案、具有官方檔案的藥證數、連結總數及健保連接結果。
 - `site/`：可直接交給 GitHub Pages 的完整靜態網站。
+- `site/data/coverage.json`：供網站顯示的精簡涵蓋報告；每張資料分成有可搜尋文字、只有官方檔案連結、兩者都沒有。
 - `site/data/release.json`：公開版本身分證，保存 release ID、程式完整 Git SHA、資料完整 Git SHA、官方 snapshot、真實資料擷取時間、來源雜湊與涵蓋率。
 - `active.json`：目前核准版本的指標。候選版本失敗時不會改動。
 
@@ -44,3 +47,5 @@ python3 tools/pipeline/static_release.py \
 ```
 
 正式流程不可使用 `--allow-small-fixtures`，而且必須提供兩個完整 40 碼 Git SHA 與 `--source-manifest`。程式會重新核對九個 raw 檔與 snapshot manifest；預設結構化文字涵蓋率門檻為 98%。尚無結構化文字的有效藥證會保留一張明確標示的資料卡與官方入口，但不能冒充全文可搜尋仿單。
+
+官方清冊欄位名稱雖包含「圖檔」，網址本身不足以可靠分辨可讀 PDF、單張圖片或其他官方呈現形式。因此第一版只報告「有官方檔案連結」；需在獲准的小批正式資料中檢查實際回應後，才能增加更細的檔案類型分類。

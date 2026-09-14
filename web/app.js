@@ -6,6 +6,7 @@ const status = document.querySelector("#status");
 const results = document.querySelector("#results");
 const loadMoreButton = document.querySelector("#load-more");
 const dataVersion = document.querySelector("#data-version");
+const coverageSummary = document.querySelector("#coverage-summary");
 
 let pagefindPromise;
 let synonymsPromise;
@@ -341,21 +342,51 @@ loadMoreButton.addEventListener("click", () => {
   });
 });
 
-fetch("./data/manifest.json", { cache: "no-cache" })
-  .then((response) => {
-    if (!response.ok) throw new Error("版本資料讀取失敗");
-    return response.json();
-  })
-  .then((manifest) => {
+async function loadJson(path, message) {
+  const response = await fetch(path, { cache: "no-cache" });
+  if (!response.ok) throw new Error(message);
+  return response.json();
+}
+
+Promise.all([
+  loadJson("./data/manifest.json", "版本資料讀取失敗"),
+  loadJson("./data/coverage.json", "涵蓋資料讀取失敗"),
+])
+  .then(([manifest, coverage]) => {
+    const coverageCounts = [
+      coverage.searchable_text_documents,
+      coverage.metadata_only_documents,
+      coverage.metadata_only_with_official_files,
+      coverage.metadata_only_without_official_files,
+    ];
+    if (
+      manifest.schema_version !== 1
+      || coverage.schema_version !== 1
+      || !Number.isInteger(manifest.document_count)
+      || coverage.document_count !== manifest.document_count
+      || coverageCounts.some((value) => !Number.isInteger(value) || value < 0)
+      || coverage.searchable_text_documents + coverage.metadata_only_documents
+        !== coverage.document_count
+      || coverage.metadata_only_with_official_files
+        + coverage.metadata_only_without_official_files !== coverage.metadata_only_documents
+    ) {
+      throw new Error("版本與涵蓋資料不一致");
+    }
     const date = String(manifest.data_retrieved_at || manifest.built_at || "").slice(0, 10) || "日期未提供";
-    const count = Number.isInteger(manifest.document_count) ? manifest.document_count.toLocaleString("zh-TW") : "?";
+    const count = manifest.document_count.toLocaleString("zh-TW");
     const fingerprint = /^[a-f0-9]{64}$/u.test(manifest.dataset_sha256 ?? "")
       ? manifest.dataset_sha256.slice(0, 12)
       : "未提供";
     dataVersion.textContent = `資料版本：${date}｜${count} 份｜指紋 ${fingerprint}`;
+    coverageSummary.textContent = [
+      `資料涵蓋：${coverage.searchable_text_documents.toLocaleString("zh-TW")} 份有可搜尋仿單文字`,
+      `${coverage.metadata_only_with_official_files.toLocaleString("zh-TW")} 份只有官方檔案連結`,
+      `${coverage.metadata_only_without_official_files.toLocaleString("zh-TW")} 份目前沒有仿單文字或檔案`,
+    ].join("｜");
   })
   .catch(() => {
     dataVersion.textContent = "資料版本：無法讀取，請勿據此判斷資料已更新。";
+    coverageSummary.textContent = "資料涵蓋：無法讀取，請勿假設資料完整。";
   });
 
 const params = new URLSearchParams(location.search);
