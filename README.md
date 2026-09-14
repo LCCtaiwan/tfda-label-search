@@ -26,15 +26,31 @@ Pagefind 必須先通過 1,000 至 5,000 份代表性仿單的容量、繁中短
 - 本專案負責全臺藥品仿單、健保及官方安全資訊。
 - 兩個網站可用網址參數互相連結，但各自建置、更新及回滾。
 
-## 目前如何開始
+## 本機執行
 
-目前位於專案初始化階段，尚未搬入功能程式。先閱讀：
+需求：Python 3、Node.js 20 以上。
+
+```sh
+npm install --cache .npm-cache
+npm test
+npm run build -- \
+  --input tests/fixtures/pagefind-search-sample.json \
+  --input tests/fixtures/structured-real-sample.json \
+  --output site
+npm run serve
+```
+
+開啟 `http://localhost:8000` 後，可以輸入任意至少兩個字元的中文或英文文字。AND 欄每個詞都必須同時出現在同一章；OR 欄符合任一詞即可；NOT 欄會排除含有該詞的章節。
+
+目前已完成第一個小型可操作版本。先閱讀：
 
 - `SPEC.md`：已確認的成品範圍與成功條件。
 - `PROGRESS.md`：目前停點與下一步。
 - `docs/develog.md`：決策與驗證紀錄。
 
-實際執行與測試指令會在第一個功能切片完成後補入，避免文件聲稱尚不存在的功能。
+- `docs/migration-inventory.md`：從既有工作副本移植或重寫的範圍。
+
+`tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 
 ## 重要限制
 

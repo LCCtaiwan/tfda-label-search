@@ -1,0 +1,12 @@
+{
+  "licenses": {"provider":"TFDA","info_id":36,"url":"https://data.fda.gov.tw/data/opendata/export/36/json","format":"json","minimum_records":10000,"required_fields":["許可證字號","註銷狀態","中文品名","英文品名","通關簽審文件編號"]},
+  "ingredients": {"provider":"TFDA","info_id":43,"url":"https://data.fda.gov.tw/data/opendata/export/43/json","format":"json","minimum_records":10000,"required_fields":["許可證字號","成分名稱","成分代碼","含量描述"]},
+  "pdf_catalog": {"provider":"TFDA","info_id":39,"url":"https://data.fda.gov.tw/data/opendata/export/39/json","format":"json","minimum_records":10000,"required_fields":["許可證字號","中文品名","仿單圖檔連結"]},
+  "recalls": {"provider":"TFDA","info_id":34,"url":"https://data.fda.gov.tw/data/opendata/export/34/json","format":"json","minimum_records":1,"required_fields":["回收分級","文號","日期","產品","許可證字號","原因"]},
+  "safety_alerts": {"provider":"TFDA","info_id":53,"url":"https://data.fda.gov.tw/data/opendata/export/53/json","format":"json","minimum_records":1,"required_fields":["發布日期","藥品成分","藥品名稱及許可證字號","TFDA風險溝通說明"]},
+  "risk_management": {"provider":"TFDA","info_id":54,"url":"https://data.fda.gov.tw/data/opendata/export/54/json","format":"json","minimum_records":1,"required_fields":["許可證字號","中文品名","英文品名","申請商"]},
+  "shortage_with_alternative": {"provider":"TFDA","info_id":104,"url":"https://data.fda.gov.tw/data/opendata/export/104/json","format":"json","minimum_records":0,"required_fields":["編號","公告更新時間","中文品名","許可證字號","供應狀態"]},
+  "shortage_without_alternative": {"provider":"TFDA","info_id":105,"url":"https://data.fda.gov.tw/data/opendata/export/105/json","format":"json","minimum_records":0,"required_fields":["編號","公告更新時間","中文品名","許可證字號","供應狀態"]},
+  "nhi_items": {"provider":"NHIA","resource_id":"A21030000I-E41001-001","url":"https://info.nhi.gov.tw/api/iode0000s01/Dataset?rId=A21030000I-E41001-001","format":"csv","minimum_records":10000,"required_fields":["藥品代號","藥品英文名稱","藥品中文名稱","成分","有效起日","有效迄日","ATC代碼","藥品代碼超連結"]}
+}
+

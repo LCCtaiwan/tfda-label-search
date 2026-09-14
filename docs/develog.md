@@ -13,7 +13,17 @@
 - 全文搜尋：Pagefind。
 - 發布：GitHub Pages。
 
-目前只有文件骨架，尚無可宣稱有效的建置或測試指令。第一個功能切片完成後，會在此記錄實際執行過的命令。
+實際使用命令：
+
+```sh
+npm install --cache .npm-cache
+npm test
+npm run build -- \
+  --input tests/fixtures/pagefind-search-sample.json \
+  --input tests/fixtures/structured-real-sample.json \
+  --output site
+npm run serve
+```
 
 ## Decisions
 
@@ -35,13 +45,24 @@
 - 建立 `SPEC.md`，並補充「噁心、懷孕、腎功能不全」只是驗收範例。
 - 建立專案文件骨架；功能程式尚未開始移植。
 
+### 2026-09-15：C-002 小型 Pagefind 概念驗證
+
+- 完成來源檔案盤點，先移植結構化仿單解析與官方來源驗證；未帶入 Supabase／PGroonga。
+- Pagefind 以「一個仿單章節一筆記錄」建索引。第一次瀏覽器測試發現同一藥品的章節共用官方網址時會被合併，已改成每章使用唯一索引網址，官方網址另以受控 metadata 保存。
+- 索引輸出只包含清理後純文字，不保存內嵌圖片或 Base64 內容。
+- 同義詞檔目前為空；只有人工審查並標示 `reviewed: true` 的詞組才會生效。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- 功能與資料測試：尚未開始。
+- Python：15 個測試通過。
+- Node.js：Pagefind 建置測試通過。
+- 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
+- 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
+- 章節展開後會載入原文；桌機 1440×1000 與手機 390×844 版面通過目視檢查；主控台 0 錯誤。
 - 線上服務：未建立或修改。
 - 既有 ChemoDrugStable：未修改。
 
 ## Recommended Next Step
 
-建立來源檔案盤點表，只移植直接支援本專案目標的程式與測試，接著完成 Pagefind 小型概念驗證。
+移植並改寫完整更新流程與健保資料連接，再加入不可變 release 與失敗保留上一版的驗證。

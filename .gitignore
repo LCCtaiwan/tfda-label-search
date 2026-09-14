@@ -18,8 +18,11 @@ htmlcov/
 
 # Node and Pagefind
 node_modules/
+.npm-cache/
 .pagefind-cache/
+.playwright-cli/
 pagefind/
+npm-debug.log*
 
 # Generated builds and local data
 dist/

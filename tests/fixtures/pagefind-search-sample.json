@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-09-15T00:00:00Z",
+  "source": {
+    "provider": "測試資料",
+    "endpoint": "local-fixture",
+    "query": {}
+  },
+  "document_count": 3,
+  "documents": [
+    {
+      "id": "TEST-001:1",
+      "source_kind": "synthetic_test_fixture",
+      "license_no": "測試藥證字第000001號",
+      "drug_name_zh": "甲測試錠",
+      "drug_name_en": "ALPHA TEST TABLETS",
+      "version": "1",
+      "approved_at": "2026-09-01",
+      "sections": [
+        {
+          "id": "8.1",
+          "parent_id": null,
+          "level": 1,
+          "number": "8.1",
+          "title": "懷孕",
+          "path": ["特殊族群注意事項", "懷孕"],
+          "content_text": "懷孕期間可能發生噁心，使用前應諮詢醫療人員。",
+          "search_text": "8.1 懷孕 懷孕期間可能發生噁心，使用前應諮詢醫療人員。"
+        },
+        {
+          "id": "5.2",
+          "parent_id": null,
+          "level": 1,
+          "number": "5.2",
+          "title": "腎功能不全",
+          "path": ["警語及注意事項", "腎功能不全"],
+          "content_text": "腎功能不全者應調整劑量。",
+          "search_text": "5.2 腎功能不全 腎功能不全者應調整劑量。"
+        }
+      ]
+    },
+    {
+      "id": "TEST-002:2",
+      "source_kind": "synthetic_test_fixture",
+      "license_no": "測試藥證字第000002號",
+      "drug_name_zh": "乙測試膠囊",
+      "drug_name_en": "BETA TEST CAPSULES",
+      "version": "2",
+      "approved_at": "2026-09-02",
+      "sections": [
+        {
+          "id": "6.1",
+          "parent_id": null,
+          "level": 1,
+          "number": "6.1",
+          "title": "不良反應",
+          "path": ["不良反應"],
+          "content_text": "常見反應包括噁心、嘔吐與腹瀉。",
+          "search_text": "6.1 不良反應 常見反應包括噁心、嘔吐與腹瀉。"
+        }
+      ]
+    },
+    {
+      "id": "TEST-003:1",
+      "source_kind": "synthetic_test_fixture",
+      "license_no": "測試藥證字第000003號",
+      "drug_name_zh": "丙測試注射劑",
+      "drug_name_en": "GAMMA TEST INJECTION",
+      "version": "1",
+      "approved_at": "2026-09-03",
+      "sections": [
+        {
+          "id": "8.1",
+          "parent_id": null,
+          "level": 1,
+          "number": "8.1",
+          "title": "孕婦",
+          "path": ["特殊族群注意事項", "孕婦"],
+          "content_text": "孕婦使用資料不足，但未記載噁心。",
+          "search_text": "8.1 孕婦 孕婦使用資料不足，但未記載噁心。"
+        }
+      ]
+    }
+  ]
+}

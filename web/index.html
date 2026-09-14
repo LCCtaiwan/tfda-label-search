@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="data:,">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; img-src 'self' data:; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <title>TFDA仿單搜尋</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">臺灣官方藥品資料查詢工具</p>
+        <h1>TFDA仿單搜尋</h1>
+        <p>輸入仿單中可能出現的中文或英文文字，找出命中的藥品、章節與原文。</p>
+      </header>
+
+      <section class="notice" aria-label="使用限制">
+        本網站不是食藥署官方網站。搜尋命中不代表因果、適用、禁用、藥品可互換或符合健保給付；請勿輸入病人資料。
+      </section>
+
+      <form id="search-form" novalidate>
+        <label for="all-terms">全部包含（AND）</label>
+        <input id="all-terms" name="all" autocomplete="off" placeholder="例如：腎功能不全">
+
+        <div class="advanced">
+          <label for="any-terms">任一包含（OR）</label>
+          <input id="any-terms" name="any" autocomplete="off" placeholder="例如：噁心 嘔吐">
+
+          <label for="exclude-terms">排除（NOT）</label>
+          <input id="exclude-terms" name="exclude" autocomplete="off" placeholder="例如：動物試驗">
+        </div>
+
+        <button type="submit">搜尋仿單</button>
+      </form>
+
+      <p id="status" role="status">請輸入至少兩個中文字或兩個英文字母。</p>
+      <section id="results" aria-label="搜尋結果"></section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
