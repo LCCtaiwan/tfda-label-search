@@ -251,11 +251,19 @@ npm run serve
 - 測試先完成初次建庫，再證明未授權時 `fetch_incremental` 為零次呼叫；傳入授權後才執行一個日期窗。部分初次建庫仍只受原本逐張授權控制。
 - 完整驗收通過：58 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
 
+### 2026-09-15：C-025 官方仿單檔案小量抽查
+
+- Goal 要求涵蓋報告區分可搜尋文字、PDF、圖片、只有連結與失敗；現有 release 能分出有無官方檔案連結，但不能只靠副檔名宣稱內容格式或可讀性。
+- 新增 `probe_official_files.py`：讀取 release `documents.json`，只允許 TFDA MCP HTTPS 網址，最多抽查 100 個連結，每個只取前 64 KiB 且不保存內容。
+- 報告保留 PDF 檔頭、圖片檔頭、HTML、未知與失敗，並明示檔頭抽查不能證明整份 PDF 完整可讀，也不能代表全量。
+- 抽查需獨立的本輪授權；未授權時測試證明為零次 fetch。外站來源或外站轉址會在安全檢查時拒絕。
+- 完整驗收通過：62 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：69 個測試通過（58 Python + 11 Node）。
-- Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
+- Python／Node：73 個測試通過（62 Python + 11 Node）。
+- Node.js：Pagefind 建置、容量、部署 smoke 與同義詞共 11 個測試通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
 - 章節展開後會載入原文；桌機 1440×1000 與手機 390×844 版面通過目視檢查；主控台 0 錯誤。
@@ -267,4 +275,4 @@ npm run serve
 
 ## Recommended Next Step
 
-由使用者決定新 GitHub repository 的擁有者、公開／私人設定與主管帳號；取得推送及第一次正式 25 張小批授權後，才建立遠端並驗證真實 workflow。TFDA 頻率確認前不增加批量或排程。
+由使用者決定新 GitHub repository 的擁有者、公開／私人設定與主管帳號；取得推送及第一次正式 25 張小批授權後，才建立遠端並驗證真實 workflow。官方仿單檔案抽查需要另一份本輪授權；TFDA 頻率確認前不增加批量或排程。

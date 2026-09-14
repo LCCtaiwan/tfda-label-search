@@ -26,3 +26,5 @@
 第一次執行資料工作要選 `refresh_all_nine` 與 25 張，勾選 `authorization_ack`，但不要勾 `incremental_authorization_ack`。之後逐批補仿單用預設 `reuse_existing`。每一次都必須重新勾選本輪真正獲准的項目，不能只靠長期 repository variable。若預檢說 snapshot 超過 14 天，改選 `refresh_all_nine`；系統會在任何仿單 API 前停止，所以不會浪費 25 次請求。
 
 初次建庫完成後，日期增量要另外取得授權才勾選 `incremental_authorization_ack`。`max_update_windows=1` 代表最多查一個 10 日窗，不代表最多 25 份；該窗回傳幾份由 TFDA 決定。沒有勾選時，程式會在日期 API 前停止。
+
+若要確認「官方仿單檔案」連結實際是 PDF、圖片還是網頁，也要另外批准一次小量抽查。抽查只讀檔頭，不保存檔案；看到 PDF 檔頭仍不能宣稱整份 PDF 已完整可讀。

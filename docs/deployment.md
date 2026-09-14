@@ -31,6 +31,8 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 7. 初次逐藥證完成的那一輪會先保存 checkpoint。下一次若要開始最多 1／2／3 個 10 日增量窗，必須另外取得授權並勾選 `incremental_authorization_ack`；一個窗實際回傳幾份由 TFDA 決定，可能超過 25 份。summary 會顯示 `phase`、`next_date` 與 `remaining_days`。
 8. 重複執行到資料符合發布門檻。官方尚未公布頻率，因此不可自行增加排程或把間隔調短。
 
+第一次產生正式 release 後，可依 `docs/official-file-probe.md` 抽查最多 25 個官方仿單檔案連結。這是另一種對 TFDA 網站的連線，必須另取得本輪授權；它不會由資料 workflow 自動執行。
+
 ## 建置與核准
 
 1. 到 Actions 手動執行 `Build and approve TFDA Pages`。

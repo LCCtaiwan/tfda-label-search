@@ -80,6 +80,7 @@ npm run serve
 - `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
 - `docs/supervisor-guide.md`：主管核准與部署後檢查小抄。
 - `docs/completion-audit.md`：逐項區分已證明、尚未證明與必須取得的外部授權。
+- `docs/official-file-probe.md`：少量抽查 TFDA 仿單連結實際回應格式，不保存 PDF 或圖片。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 

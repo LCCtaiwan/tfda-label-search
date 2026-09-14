@@ -14,7 +14,7 @@
 | AND／OR／NOT、人工同義詞、分批結果 | pass（fixtures） | 9 個 Chromium 測試含 AND／OR／NOT、50→100 筆；同義詞建置會要求審查人／日期、拒絕重複與衝突、排除草稿，且英文大小寫正規化已實測 | 正式同義詞檔仍為空，需藥師核准第一組詞 |
 | 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256；metadata-only Chromium 驗證官方仿單檔案按鈕 | 正式站仍需人工抽查官方連結 |
 | 回收、警示、風險管理與短缺關聯 | pass（fixtures） | 結果卡折疊顯示日期、標題、狀態及 TFDA 資料集來源；明示不是目前狀態，且不加入仿單全文索引；未知類型或外站網址會拒絕建置 | 仍需用獲准正式小批核對九來源實際欄位與官方最新內容 |
-| 資料涵蓋與缺件報告 | partial | release 與公開 `data/coverage.json` 分開計算有可搜尋文字、只有官方檔案、文字與檔案皆無；頁面與部署 smoke 都會交叉核對總數；Chromium 已驗證可見摘要 | 尚未取得正式資料，不能區分實際可讀 PDF、圖片或失效連結，也不能產生全臺真實涵蓋率 |
+| 資料涵蓋與缺件報告 | partial | release 與公開 `data/coverage.json` 分開計算有可搜尋文字、只有官方檔案、文字與檔案皆無；另有需逐次授權、最多 100 個且不保存內容的檔頭抽查器，可分辨 PDF／圖片／HTML／未知／失敗；Chromium 已驗證可見摘要 | 尚未獲准對正式連結執行抽查；檔頭不能證明整份 PDF 可讀，也不能產生全臺真實涵蓋率 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
 | 資料品質、安全與公開使用邊界 | pass（本機） | 官方主機白名單、回應／ZIP 上限、CSP、無病人資料、純文字限定、圖片／PDF／標誌排除、官方授權證據與可見署名 preflight；瀏覽器每天重算資料年齡，超過 14 天或日期不可信會警告 | 若日後擴大發布素材範圍，必須重新確認權利 |
 | GitHub Actions 與 Pages | partial | 三份 YAML 可解析；官方 Actions 固定完整 SHA；資料工作預設初次 25 張、逐張與增量分開逐次授權、九來源重用、仿單 API 前 14 天快照預檢、初始／增量協調、部署時九來源 snapshot 與仿單增量各自 14 天 gate、98% gate、95 MiB 保護、雙鎖、同版檢查器與完整 SHA smoke 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
@@ -25,7 +25,7 @@
 ## 已執行的驗證
 
 ```text
-npm test                    69 passed（58 Python + 11 Node）
+npm test                    73 passed（62 Python + 11 Node）
 npm run test:e2e            10 passed（Chromium）
 offline deployment rehearsal 1 passed（已包含在 Python 測試）
 workflow YAML parse          3 passed
