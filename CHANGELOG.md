@@ -163,3 +163,10 @@
 - Pages workflow 在兩層明確傳入 `--max-official-snapshot-age-days 14`，不只檢查結構化仿單增量。
 - 稽核報告新增 `official_snapshot_age_days`，讓主管直接看到九來源資料幾天前取得。
 - 新增時區邊界、過期快照及 workflow 雙層接線測試。
+
+## C-023
+
+- 將九來源 snapshot 的 14 天年齡門檻提前到任何結構化仿單 API 呼叫之前。
+- `validate_official_snapshot.py` 新增 `--max-age-days`，預檢報告會保存 `age_days`。
+- 正式資料 workflow 固定使用 14 天；過期時要求重新下載九個官方來源，不進入 `sync_structured.py`。
+- 測試同時確認過期拒絕、預檢年齡報告及 workflow 執行順序，避免浪費官方 API 請求。

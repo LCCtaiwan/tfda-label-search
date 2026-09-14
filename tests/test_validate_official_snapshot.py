@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 import tempfile
 import unittest
@@ -35,6 +36,24 @@ class ValidateOfficialSnapshotTests(unittest.TestCase):
             )
             self.assertTrue(report["ready"])
             self.assertEqual(set(report["sources"]), set(SOURCE_ORDER))
+            self.assertEqual(report["age_days"], 0)
+
+            manifest_path = snapshot / "manifest.json"
+            original_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            stale_manifest = {**original_manifest, "created_at": "2020-01-01T00:00:00Z"}
+            manifest_path.write_text(
+                json.dumps(stale_manifest, ensure_ascii=False), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(StaticReleaseError, "重新下載九個官方來源"):
+                validate_snapshot(
+                    snapshot / "raw",
+                    manifest_path,
+                    allow_small_fixtures=True,
+                    max_age_days=14,
+                )
+            manifest_path.write_text(
+                json.dumps(original_manifest, ensure_ascii=False), encoding="utf-8"
+            )
 
             tampered = snapshot / "raw" / "nhi_items.raw"
             tampered.write_bytes(tampered.read_bytes() + b"\n")

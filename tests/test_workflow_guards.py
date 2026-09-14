@@ -26,6 +26,11 @@ class WorkflowGuardTests(unittest.TestCase):
             workflow.index("validate_official_snapshot.py"),
             workflow.index("sync_structured.py"),
         )
+        self.assertIn("--max-age-days 14", workflow)
+        self.assertLess(
+            workflow.index("--max-age-days 14"),
+            workflow.index("sync_structured.py"),
+        )
         self.assertLess(
             workflow.index("sync_structured.py"),
             workflow.index("Commit the complete batch atomically"),

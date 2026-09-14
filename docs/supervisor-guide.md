@@ -23,4 +23,4 @@
 
 本網站只查公開藥品資料，不可加入病人姓名、病歷號、處方或其他病人資料。
 
-第一次執行資料工作要選 `refresh_all_nine` 與 25 張；之後逐批補仿單用預設 `reuse_existing`。每一次都必須勾選 `authorization_ack`，不能只靠長期存在的 repository variable 代表本次已獲准。
+第一次執行資料工作要選 `refresh_all_nine` 與 25 張；之後逐批補仿單用預設 `reuse_existing`。每一次都必須勾選 `authorization_ack`，不能只靠長期存在的 repository variable 代表本次已獲准。若預檢說 snapshot 超過 14 天，改選 `refresh_all_nine`；系統會在任何仿單 API 前停止，所以不會浪費 25 次請求。

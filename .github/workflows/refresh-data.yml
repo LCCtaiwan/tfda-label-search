@@ -107,6 +107,7 @@ jobs:
           python3 "$APP_COPY/tools/pipeline/validate_official_snapshot.py"
           --source-dir official/current/raw
           --manifest official/current/manifest.json
+          --max-age-days 14
           --output "${{ runner.temp }}/official-preflight.json"
 
       - name: Build initial labels or fetch bounded incremental windows

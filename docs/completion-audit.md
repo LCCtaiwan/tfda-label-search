@@ -17,7 +17,7 @@
 | 資料涵蓋與缺件報告 | partial | release 與公開 `data/coverage.json` 分開計算有可搜尋文字、只有官方檔案、文字與檔案皆無；頁面與部署 smoke 都會交叉核對總數；Chromium 已驗證可見摘要 | 尚未取得正式資料，不能區分實際可讀 PDF、圖片或失效連結，也不能產生全臺真實涵蓋率 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
 | 資料品質、安全與公開使用邊界 | pass（本機） | 官方主機白名單、回應／ZIP 上限、CSP、無病人資料、純文字限定、圖片／PDF／標誌排除、官方授權證據與可見署名 preflight；瀏覽器每天重算資料年齡，超過 14 天或日期不可信會警告 | 若日後擴大發布素材範圍，必須重新確認權利 |
-| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；官方 Actions 固定完整 SHA；資料工作預設 25 張、本輪授權確認、九來源重用與 API 前預檢、初始／增量協調、九來源 snapshot 與仿單增量各自 14 天 gate、98% gate、95 MiB 保護、雙鎖、同版檢查器與完整 SHA smoke 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
+| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；官方 Actions 固定完整 SHA；資料工作預設 25 張、本輪授權確認、九來源重用、仿單 API 前 14 天快照預檢、初始／增量協調、部署時九來源 snapshot 與仿單增量各自 14 天 gate、98% gate、95 MiB 保護、雙鎖、同版檢查器與完整 SHA smoke 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
 | 桌機與手機端到端 | pass（本機） | Chromium 10 項自動測試；另以 390×844 smoke 核對 release、完整藥證 1 筆、主控台 0 錯誤 | 正式網址上線後需由同一工具重跑 |
 | 部署與主管交接 | pass（文件） | `docs/deployment.md`、`docs/supervisor-guide.md`、專案共享 handover | 主管帳號與實際核准責任尚未指定 |
 | 原作者同意範圍 | pass（目前成品） | 已記錄 `liangRXdev/TFDA-drug-info-search`；目前只採需求概念，`copied_files` 為空，未直接納入第三方程式 | 未來若直接複製程式，preflight 會要求同意紀錄、署名與檔案清單 |

@@ -235,6 +235,14 @@ npm run serve
 - 測試確認 UTC 9 月 1 日 16:30 會按臺灣 9 月 2 日計算，並確認 2020 年舊快照在 data-state 與 release 兩層都被拒絕。
 - 完整驗收通過：58 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
 
+### 2026-09-15：C-023 仿單 API 前快照年齡預檢
+
+- C-022 已阻止舊 snapshot 發布，但資料 workflow 沿用舊 snapshot 時，原本仍可能先執行本輪最多 25 張仿單同步，到了部署才發現九來源已過期，浪費官方服務請求。
+- `validate_official_snapshot.py` 新增 `--max-age-days` 與報告欄位 `age_days`；超過門檻會明確要求重新下載九個官方來源。
+- `refresh-data.yml` 在 `sync_structured.py` 前固定傳入 14 天，因此舊 snapshot 以零次仿單 API 呼叫停止；管理者改選 `refresh_all_nine` 後才繼續。
+- 測試確認新 snapshot 回報 0 天、2020 年 snapshot 被拒絕，並以 workflow 文字順序證明年齡門檻早於仿單同步。
+- 完整驗收通過：58 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
+
 ## Verification Status
 
 - 規格：使用者已確認。
