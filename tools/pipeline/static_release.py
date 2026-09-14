@@ -321,11 +321,17 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--release-id", required=True)
     parser.add_argument("--release-root", type=Path, required=True)
     parser.add_argument("--source-dir", type=Path, required=True)
-    parser.add_argument("--structured", type=Path, action="append", required=True)
+    parser.add_argument("--structured", type=Path, action="append", default=[])
+    parser.add_argument("--structured-dir", type=Path)
     parser.add_argument("--min-structured-coverage", type=float, default=0.98)
     parser.add_argument("--allow-small-fixtures", action="store_true")
     parser.add_argument("--activate", action="store_true")
-    return parser.parse_args()
+    args = parser.parse_args()
+    if args.structured_dir:
+        args.structured.extend(sorted(args.structured_dir.glob("*.json")))
+    if not args.structured:
+        parser.error("至少需要一個 --structured 或含 JSON 的 --structured-dir")
+    return args
 
 
 def main() -> None:

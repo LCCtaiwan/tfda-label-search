@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTDOCUMENT>
+  <DOCUMENT>
+    <INFO>
+      <SNO>衛部藥製字第123456號</SNO>
+      <CNAME>新增測試藥品</CNAME>
+      <ENAME>NEW TEST DRUG</ENAME>
+      <DTYPE>須由醫師處方使用</DTYPE>
+      <SNAME></SNAME>
+      <VERSION>1</VERSION>
+      <VDATE>2026-09-15</VDATE>
+    </INFO>
+    <CONTENT>
+      <SECTION LEVEL="1" ID="8">
+        <NO>8</NO>
+        <TITLE>副作用／不良反應</TITLE>
+        <VALUE type="text"><![CDATA[<p>可能發生測試用噁心。</p>]]></VALUE>
+      </SECTION>
+    </CONTENT>
+  </DOCUMENT>
+</ROOTDOCUMENT>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOTDOCUMENT>
+  <DOCUMENT>
+    <INFO>
+      <SNO>衛署藥製字第016162號</SNO>
+      <CNAME>測試藥品</CNAME>
+      <ENAME>TEST DRUG</ENAME>
+      <DTYPE>須由醫師處方使用</DTYPE>
+      <VERSION>4</VERSION>
+      <VDATE>2026-09-01</VDATE>
+    </INFO>
+    <CONTENT>
+      <SECTION LEVEL="1" ID="5">
+        <NO>5</NO>
+        <TITLE>警語及注意事項</TITLE>
+        <VALUE type="text"><![CDATA[<p>懷孕期間可能發生噁心。</p>]]></VALUE>
+      </SECTION>
+    </CONTENT>
+  </DOCUMENT>
+</ROOTDOCUMENT>

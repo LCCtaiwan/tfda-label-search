@@ -28,6 +28,7 @@ details { margin: 14px 0; }
 summary { color: #176c72; cursor: pointer; font-weight: 700; }
 pre { max-height: 360px; overflow: auto; padding: 14px; white-space: pre-wrap; background: #f6f8f9; border-radius: 8px; font: inherit; line-height: 1.6; }
 a { color: #075f9e; font-weight: 700; }
+footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid #d8e0e3; color: #51656d; font-size: 0.9rem; line-height: 1.7; }
 
 @media (max-width: 520px) {
   main { width: min(100% - 20px, 900px); padding-top: 24px; }

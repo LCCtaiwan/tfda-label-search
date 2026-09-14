@@ -50,6 +50,7 @@ npm run serve
 
 - `docs/migration-inventory.md`：從既有工作副本移植或重寫的範圍。
 - `docs/static-releases.md`：資料如何驗證、產生新版本，以及失敗時如何保留舊版。
+- `docs/official-sources.md`：官方 API 能做什麼、九組來源、授權與批次下載邊界。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 
