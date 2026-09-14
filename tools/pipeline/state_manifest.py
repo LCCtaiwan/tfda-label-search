@@ -17,9 +17,11 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from tools.pipeline.static_release import SOURCE_ORDER, StaticReleaseError, active_catalog, atomic_json
+from tools.sources import official
 
 
 TERMINAL_STATUSES = {"downloaded", "no_document", "unqueryable"}
+MAX_GIT_FILE_BYTES = 95 * 1024 * 1024
 
 
 def tree_hash(paths: list[Path], root: Path) -> str:
@@ -28,6 +30,24 @@ def tree_hash(paths: list[Path], root: Path) -> str:
         digest.update(path.relative_to(root).as_posix().encode("utf-8"))
         digest.update(path.read_bytes())
     return digest.hexdigest()
+
+
+def validate_git_payload(paths: list[Path], root: Path, max_bytes: int = MAX_GIT_FILE_BYTES) -> dict:
+    if max_bytes < 1:
+        raise ValueError("Git 單檔上限必須大於零")
+    largest = max(paths, key=lambda path: path.stat().st_size, default=None)
+    largest_size = largest.stat().st_size if largest else 0
+    if largest_size > max_bytes:
+        raise StaticReleaseError(
+            f"data-state 單檔超過 {max_bytes} bytes：{largest.relative_to(root)}"
+        )
+    return {
+        "file_count": len(paths),
+        "total_bytes": sum(path.stat().st_size for path in paths),
+        "largest_file": largest.relative_to(root).as_posix() if largest else "",
+        "largest_file_bytes": largest_size,
+        "git_file_limit_bytes": max_bytes,
+    }
 
 
 def summarize_state(state: dict, active: dict[str, dict], document_files: list[Path]) -> dict:
@@ -55,13 +75,22 @@ def summarize_state(state: dict, active: dict[str, dict], document_files: list[P
     }
 
 
-def build_manifest(official_dir: Path, structured_dir: Path) -> dict:
+def build_manifest(
+    official_dir: Path,
+    structured_dir: Path,
+    *,
+    allow_small_fixtures: bool = False,
+) -> dict:
     official_dir = official_dir.resolve()
     structured_dir = structured_dir.resolve()
     source_manifest = json.loads((official_dir / "manifest.json").read_text(encoding="utf-8"))
     if source_manifest.get("ready") is not True or set(source_manifest.get("sources", {})) != set(SOURCE_ORDER):
         raise StaticReleaseError("官方來源 snapshot 尚未完整通過")
-    license_bundle = json.loads((official_dir / "normalized" / "licenses.json").read_text(encoding="utf-8"))
+    license_bundle = official.build_bundle(
+        "licenses",
+        (official_dir / "raw" / "licenses.raw").read_bytes(),
+        allow_small=allow_small_fixtures,
+    )
     active = active_catalog(license_bundle)
     state = json.loads((structured_dir / "state.json").read_text(encoding="utf-8"))
     if state.get("catalog_hash") != license_bundle.get("content_hash"):
@@ -73,6 +102,7 @@ def build_manifest(official_dir: Path, structured_dir: Path) -> dict:
         *(path for path in structured_dir.rglob("*") if path.is_file()),
     ]
     common_root = Path(os.path.commonpath([official_dir, structured_dir]))
+    payload = validate_git_payload(files, common_root)
     return {
         "schema_version": 1,
         "created_at": datetime.now(timezone.utc).isoformat(),
@@ -80,6 +110,7 @@ def build_manifest(official_dir: Path, structured_dir: Path) -> dict:
         "official_snapshot_created_at": source_manifest["created_at"],
         "catalog_hash": license_bundle["content_hash"],
         "data_sha256": tree_hash(files, common_root),
+        **payload,
         **summary,
     }
 
@@ -89,8 +120,13 @@ def main() -> None:
     parser.add_argument("--official-dir", type=Path, required=True)
     parser.add_argument("--structured-dir", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--allow-small-fixtures", action="store_true")
     args = parser.parse_args()
-    manifest = build_manifest(args.official_dir, args.structured_dir)
+    manifest = build_manifest(
+        args.official_dir,
+        args.structured_dir,
+        allow_small_fixtures=args.allow_small_fixtures,
+    )
     atomic_json(args.output, manifest)
     print(json.dumps(manifest, ensure_ascii=False))
 

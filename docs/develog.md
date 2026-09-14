@@ -101,10 +101,18 @@ npm run serve
 - 新增 localhost-only Playwright/CDP 量測工具。5,000 份、390×844 下，常見詞 536 ms、JS heap 增加 8.38 MiB、傳輸 4.33 MiB；完整藥證 221 ms、增加 6.61 MiB、傳輸 3.62 MiB。
 - 建立 `docs/completion-audit.md`，逐項確認 Goal；真實代表性仿單、遠端 environment、正式小批、授權文字及正式回滾仍不得視為完成。
 
+### 2026-09-15：C-009 資料分支容量保護
+
+- 逐一對九個官方來源做 HTTP 標頭檢查，沒有下載檔案本文。來源皆可回應，但沒有提供可據以證明檔案大小的 `Content-Length`；健保端點不接受 HEAD，這些結果不能代替正式小批。
+- `refresh-data.yml` 只把 `raw/` 與 snapshot manifest 移入 `data-state`，normalized 只存在於當次 runner，可由 raw 重建。
+- `state_manifest.py` 會重建有效藥證清單，再檢查所有預備提交檔案；任何單檔超過內部 95 MiB 緩衝線就失敗，舊 commit 不受影響。
+- manifest 額外記錄 `file_count`、`total_bytes`、`largest_file` 與 `largest_file_bytes`，供主管判斷容量是否持續成長。
+- 離線整合測試已改成 raw-only 狀態，另以縮小測試門檻確認超大檔案會被拒絕；32 個 Python／Node 測試與三份 workflow YAML 通過。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：31 個測試通過。
+- Python／Node：32 個測試通過（30 Python + 2 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

@@ -36,7 +36,9 @@ class OfflineDeploymentTests(unittest.TestCase):
                 allow_small_fixtures=True,
             )
             official_current = root / "state" / "official" / "current"
-            shutil.copytree(snapshot_root / "snapshots" / "offline-v1", official_current)
+            snapshot = snapshot_root / "snapshots" / "offline-v1"
+            shutil.copytree(snapshot / "raw", official_current / "raw")
+            shutil.copy2(snapshot / "manifest.json", official_current / "manifest.json")
 
             structured = root / "state" / "structured"
             report = fetch_batch(
@@ -49,9 +51,12 @@ class OfflineDeploymentTests(unittest.TestCase):
                 ).read_bytes(),
             )
             self.assertTrue(report["complete"])
-            state_manifest = build_manifest(official_current, structured)
+            state_manifest = build_manifest(
+                official_current, structured, allow_small_fixtures=True
+            )
             self.assertTrue(state_manifest["complete"])
             self.assertEqual(state_manifest["structured_coverage"], 1)
+            self.assertFalse((official_current / "normalized").exists())
 
             release_root = root / "candidate"
             release = build_release(Namespace(

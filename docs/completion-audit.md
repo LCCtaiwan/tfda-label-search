@@ -14,7 +14,7 @@
 | 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256 指紋測試 | 正式站仍需人工抽查官方連結 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
 | 資料品質與安全 | pass（本機） | 官方主機白名單、回應大小、ZIP 解壓大小、CSP、純文字呈現、無病人資料、來源／涵蓋率 gate | 正式公開前仍需確認仿單文字與圖片重製邊界 |
-| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；CI、手動 `data-state`、98% gate、Pages artifact、部署鎖均已寫好 | 尚未建立遠端、推送、設定 required reviewer 或實際部署 |
+| GitHub Actions 與 Pages | partial | 三份 YAML 可解析；CI、手動 `data-state`、98% gate、95 MiB 單檔保護、Pages artifact、部署鎖均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
 | 桌機與手機端到端 | pass（本機） | Chromium 5 項自動測試、390×844 視窗、主控台 0 錯誤；先前桌機目視驗證 | 正式網址上線後需再跑同組測試 |
 | 部署與主管交接 | pass（文件） | `docs/deployment.md`、`docs/supervisor-guide.md`、共享 Claude handover #181 | 主管帳號與實際核准責任尚未指定 |
 | 原作者同意範圍 | partial | 目前只採獨立網站、靜態快取與呈現概念，沒有直接複製第三方程式碼 | 可修改、公開部署、再散布及署名內容仍需保存成可交接文字 |
@@ -22,7 +22,7 @@
 ## 已執行的驗證
 
 ```text
-npm test                    31 passed（29 Python + 2 Node）
+npm test                    32 passed（30 Python + 2 Node）
 npm run test:e2e             5 passed（Chromium）
 offline deployment rehearsal 1 passed（已包含在 Python 測試）
 workflow YAML parse          3 passed

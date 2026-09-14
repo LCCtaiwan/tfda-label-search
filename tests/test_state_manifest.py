@@ -4,7 +4,7 @@ import tempfile
 import unittest
 
 from tools.pipeline.static_release import SOURCE_ORDER, StaticReleaseError, active_catalog
-from tools.pipeline.state_manifest import build_manifest, summarize_state
+from tools.pipeline.state_manifest import build_manifest, summarize_state, validate_git_payload
 from tools.sources import official
 
 
@@ -57,7 +57,7 @@ class StateManifestTests(unittest.TestCase):
             root = Path(directory)
             official_dir = root / "official"
             structured_dir = root / "structured"
-            (official_dir / "normalized").mkdir(parents=True)
+            (official_dir / "raw").mkdir(parents=True)
             structured_dir.mkdir()
             (official_dir / "manifest.json").write_text(json.dumps({
                 "schema_version": 1,
@@ -66,8 +66,8 @@ class StateManifestTests(unittest.TestCase):
                 "ready": True,
                 "sources": {name: {} for name in SOURCE_ORDER},
             }), encoding="utf-8")
-            (official_dir / "normalized" / "licenses.json").write_text(
-                json.dumps(license_bundle, ensure_ascii=False), encoding="utf-8"
+            (official_dir / "raw" / "licenses.raw").write_bytes(
+                (ROOT / "tests" / "fixtures" / "pipeline_sources" / "licenses.raw").read_bytes()
             )
             (structured_dir / "state.json").write_text(json.dumps({
                 "schema_version": 1,
@@ -75,11 +75,23 @@ class StateManifestTests(unittest.TestCase):
                 "items": {number: {"status": "no_document"} for number in active},
             }, ensure_ascii=False), encoding="utf-8")
 
-            manifest = build_manifest(official_dir, structured_dir)
+            manifest = build_manifest(
+                official_dir, structured_dir, allow_small_fixtures=True
+            )
 
         self.assertTrue(manifest["complete"])
         self.assertEqual(manifest["checked_licenses"], len(active))
+        self.assertGreater(manifest["file_count"], 0)
+        self.assertGreater(manifest["total_bytes"], 0)
         self.assertEqual(len(manifest["data_sha256"]), 64)
+
+    def test_git_payload_limit_fails_before_commit(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            oversized = root / "too-large.raw"
+            oversized.write_bytes(b"1234")
+            with self.assertRaises(StaticReleaseError):
+                validate_git_payload([oversized], root, max_bytes=3)
 
 
 if __name__ == "__main__":

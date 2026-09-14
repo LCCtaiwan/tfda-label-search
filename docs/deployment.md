@@ -4,7 +4,9 @@
 
 `refresh-data.yml` 只下載與保存資料，永遠不部署網站。`deploy-pages.yml` 只讀取已提交的 `data-state`，重新驗證、建置及測試；最後仍需主管核准。任何下載或建置失敗都不會改掉目前網站。
 
-GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被移除。`data-state` 分支以 Git commit 作為完整批次的單一指標；工作中斷時沒有 commit，也就沒有半套資料成為最新版。
+GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被移除。`data-state` 分支以 Git commit 作為完整批次的單一指標；工作中斷時沒有 commit，也就沒有半套資料成為最新版。分支只保存官方原始檔、狀態與結構化仿單，不重複保存 normalized 資料；任何單檔超過 95 MiB 時會在 commit 前停止。
+
+95 MiB 是本專案保守設定的緩衝線，不是宣稱 GitHub 官方上限正好是 95 MiB。若正式原始檔超過這條線，先停止更新並評估 Git LFS 或物件儲存；不要繞過檢查硬推。`data-state-manifest.json` 會記錄檔案數、總容量與最大檔案。
 
 ## 一次性設定
 
@@ -49,3 +51,4 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 - 自訂 Actions 發布 Pages：https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
 - Environment 與 required reviewer：https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments
 - Actions cache 淘汰規則：https://docs.github.com/en/actions/reference/workflows-and-actions/dependency-caching
+- Repository 單一物件與整體大小建議：https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits

@@ -58,8 +58,10 @@ jobs:
 
       - name: Replace the candidate official snapshot locally
         run: |
-          mkdir -p official/current
-          rsync -a --delete "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/" official/current/
+          mkdir -p "${{ runner.temp }}/official-state/raw" official/current
+          rsync -a --delete "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/raw/" "${{ runner.temp }}/official-state/raw/"
+          cp "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/manifest.json" "${{ runner.temp }}/official-state/manifest.json"
+          rsync -a --delete "${{ runner.temp }}/official-state/" official/current/
 
       - name: Fetch one resumable structured-label batch
         run: >-
