@@ -9,6 +9,7 @@
 - `data-state-manifest.json` 記錄分母、完成數、涵蓋率與資料雜湊；產生前會重驗九個 raw，也會逐張核對 downloaded 狀態、分片路徑與內容藥證。
 - `structured/state.json` 記錄逐藥證建庫；`structured/updates-state.json` 記錄下一個日期更新窗。發布時增量游標必須存在且最多落後 14 天。
 - 更新工作中斷時不會 push，因此分支仍停在上一個完整 commit。
+- 後續逐批補仿單預設沿用這個分支的九來源 snapshot；沿用前仍會完整重驗，不會每 25 張重複下載九份大型資料。
 - commit 前會拒絕任何超過 95 MiB 的單一檔案，避免碰到 GitHub 一般 Git 單檔限制。
 
 程式碼、操作說明與發布工作位於 `main` 分支。

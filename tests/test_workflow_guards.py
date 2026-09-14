@@ -15,11 +15,39 @@ class WorkflowGuardTests(unittest.TestCase):
             workflow.index("TFDA_API_CALLS_AUTHORIZED"),
             workflow.index("official_snapshot.py"),
         )
+        self.assertIn("inputs.authorization_ack != true", workflow)
+        self.assertRegex(
+            workflow,
+            r"max_items:\n(?:.*\n){0,4}\s+default: \"25\"",
+        )
         self.assertIn("sync_structured.py", workflow)
         self.assertIn("--max-update-windows", workflow)
         self.assertLess(
+            workflow.index("validate_official_snapshot.py"),
+            workflow.index("sync_structured.py"),
+        )
+        self.assertLess(
             workflow.index("sync_structured.py"),
             workflow.index("Commit the complete batch atomically"),
+        )
+
+    def test_nine_official_sources_are_reused_by_default_after_initialization(self):
+        workflow = (ROOT / ".github" / "workflows" / "refresh-data.yml").read_text(
+            encoding="utf-8"
+        )
+        self.assertRegex(
+            workflow,
+            r"official_source_mode:\n(?:.*\n){0,4}\s+default: \"reuse_existing\"",
+        )
+        self.assertIn("id: data_branch", workflow)
+        self.assertIn("initialized=false", workflow)
+        self.assertIn(
+            "steps.data_branch.outputs.initialized != 'true' && inputs.official_source_mode != 'refresh_all_nine'",
+            workflow,
+        )
+        self.assertGreaterEqual(
+            workflow.count("if: inputs.official_source_mode == 'refresh_all_nine'"),
+            2,
         )
 
     def test_publication_guard_and_preflight_run_before_pages_upload(self):

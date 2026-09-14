@@ -15,7 +15,7 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 3. Repository Settings → Environments → `github-pages`。
 4. 加入主管為 Required reviewer，並勾選 Prevent self-review。
 5. 確認 Required reviewer 已生效後，建立 Repository variable：`SUPERVISOR_APPROVAL_CONFIGURED=true`。
-6. 專案負責人明確同意第一次官方小批後，才設定 `TFDA_API_CALLS_AUTHORIZED=true`。
+6. 專案負責人明確同意官方小批流程後，才設定 `TFDA_API_CALLS_AUTHORIZED=true`；每次執行仍須另外勾選本輪授權確認。
 7. 專案負責人明確同意公開網站後，才設定 `PUBLICATION_AUTHORIZED=true`。
 
 若是 GitHub Free，Required reviewer 只適用公開 repository。若單位要求 private repository，必須先確認目前方案支援；不可只把變數設為 true 來假裝有主管核准。
@@ -23,11 +23,13 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 ## 初次資料建立
 
 1. 到 Actions 執行 `Refresh TFDA data state`。
-2. 第一次先選 25；確認 TFDA 無 429、逾時或阻擋後，再由負責人決定是否使用 50 或 100。
-3. 每次成功會在 `data-state` 新增一個 commit；失敗不會 push。
-4. 查看 run summary 的 `pending_licenses`、`checked_coverage` 與 `structured_coverage`。
-5. 初次逐藥證完成的那一輪會先保存 checkpoint；再執行一次後才開始最多 1／2／3 個 10 日增量窗，並在 summary 顯示 `phase`、`next_date` 與 `remaining_days`。
-6. 重複執行到資料符合發布門檻。官方尚未公布頻率，因此不可自行增加排程或把間隔調短。
+2. 第一次選 `max_items=25`、`official_source_mode=refresh_all_nine`，並勾選 `authorization_ack`。若第一次仍選預設的 `reuse_existing`，系統會因為沒有既有 snapshot 而停止。
+3. 後續逐批補仿單時保留 `official_source_mode=reuse_existing`，避免重複下載九個大型來源；每次仍要勾選 `authorization_ack`。
+4. 只有要取得新版藥證、成分、健保或安全資料時才選 `refresh_all_nine`。無論沿用或重抓，九來源都會在任何仿單 API 請求前重新驗證。
+5. 確認 TFDA 無 429、逾時或阻擋後，再由負責人決定是否使用 50 或 100。
+6. 每次成功會在 `data-state` 新增一個 commit；失敗不會 push。查看 run summary 的來源模式、`official-preflight`、`pending_licenses`、`checked_coverage` 與 `structured_coverage`。
+7. 初次逐藥證完成的那一輪會先保存 checkpoint；再執行一次後才開始最多 1／2／3 個 10 日增量窗，並在 summary 顯示 `phase`、`next_date` 與 `remaining_days`。
+8. 重複執行到資料符合發布門檻。官方尚未公布頻率，因此不可自行增加排程或把間隔調短。
 
 ## 建置與核准
 

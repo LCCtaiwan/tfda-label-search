@@ -6,12 +6,20 @@ on:
       max_items:
         description: "本輪最多查幾張結構化仿單；TFDA 尚未公布速率，先小批執行"
         required: true
-        default: "100"
+        default: "25"
         type: choice
         options:
           - "25"
           - "50"
           - "100"
+      official_source_mode:
+        description: "九個批次來源：平常沿用已驗證 snapshot；第一次或需要更新時才全部重抓"
+        required: true
+        default: "reuse_existing"
+        type: choice
+        options:
+          - "reuse_existing"
+          - "refresh_all_nine"
       max_update_windows:
         description: "初次建庫完成後，本輪最多補幾個 10 日更新窗"
         required: true
@@ -21,6 +29,11 @@ on:
           - "1"
           - "2"
           - "3"
+      authorization_ack:
+        description: "我確認本次執行已獲准呼叫 TFDA，並接受上方數量與日期窗上限"
+        required: true
+        default: false
+        type: boolean
 
 permissions:
   contents: write
@@ -43,9 +56,9 @@ jobs:
           fetch-depth: 0
 
       - name: Require explicit TFDA API authorization
-        if: vars.TFDA_API_CALLS_AUTHORIZED != 'true'
+        if: vars.TFDA_API_CALLS_AUTHORIZED != 'true' || inputs.authorization_ack != true
         run: |
-          echo '拒絕下載：必須先取得專案負責人明確授權，再設定 repository variable TFDA_API_CALLS_AUTHORIZED=true。'
+          echo '拒絕下載：必須先取得專案負責人授權、設定 TFDA_API_CALLS_AUTHORIZED=true，並在本次執行勾選授權確認。'
           exit 1
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -56,15 +69,25 @@ jobs:
         run: rsync -a --exclude .git ./ "$APP_COPY/"
 
       - name: Open or initialize the dedicated data branch
+        id: data_branch
         run: |
           if git ls-remote --exit-code --heads origin data-state >/dev/null 2>&1; then
             git fetch origin data-state:data-state
             git switch data-state
+            echo 'initialized=true' >> "$GITHUB_OUTPUT"
           else
             git switch --orphan data-state
+            echo 'initialized=false' >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Require all nine sources when initializing data-state
+        if: steps.data_branch.outputs.initialized != 'true' && inputs.official_source_mode != 'refresh_all_nine'
+        run: |
+          echo '第一次建立 data-state 沒有既有 snapshot，official_source_mode 必須選 refresh_all_nine。'
+          exit 1
+
       - name: Download and validate all nine official sources
+        if: inputs.official_source_mode == 'refresh_all_nine'
         run: >-
           python3 "$APP_COPY/tools/pipeline/official_snapshot.py"
           --snapshot-id "$SNAPSHOT_ID"
@@ -72,11 +95,19 @@ jobs:
           --activate
 
       - name: Replace the candidate official snapshot locally
+        if: inputs.official_source_mode == 'refresh_all_nine'
         run: |
           mkdir -p "${{ runner.temp }}/official-state/raw" official/current
           rsync -a --delete "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/raw/" "${{ runner.temp }}/official-state/raw/"
           cp "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/manifest.json" "${{ runner.temp }}/official-state/manifest.json"
           rsync -a --delete "${{ runner.temp }}/official-state/" official/current/
+
+      - name: Revalidate the selected nine-source snapshot before label API calls
+        run: >-
+          python3 "$APP_COPY/tools/pipeline/validate_official_snapshot.py"
+          --source-dir official/current/raw
+          --manifest official/current/manifest.json
+          --output "${{ runner.temp }}/official-preflight.json"
 
       - name: Build initial labels or fetch bounded incremental windows
         run: >-
@@ -106,6 +137,11 @@ jobs:
 
       - name: Add the auditable result to the run summary
         run: |
+          echo 'Official source mode: `${{ inputs.official_source_mode }}`' >> "$GITHUB_STEP_SUMMARY"
+          echo '## Official snapshot preflight' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat "${{ runner.temp }}/official-preflight.json" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
           echo '## TFDA data-state manifest' >> "$GITHUB_STEP_SUMMARY"
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           cat data-state-manifest.json >> "$GITHUB_STEP_SUMMARY"

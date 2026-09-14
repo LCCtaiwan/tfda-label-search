@@ -149,10 +149,20 @@ npm run serve
 - `npm audit --audit-level=high --package-lock-only` 回報 0 個已知漏洞。
 - 目前總計 54 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
 
+### 2026-09-15：C-014 小批建庫流量與逐次授權保護
+
+- 稽核發現 `refresh-data.yml` 雖然文件要求第一次 25 張，畫面預設卻是 100 張；已將預設改為 25，保留 50／100 但必須由負責人另外決定。
+- 原流程每次補一小批結構化仿單都重新下載九個批次來源；若以 25 張建立大量藥證會造成大量重複下載。新增 `official_source_mode`，平常預設 `reuse_existing`，第一次或確實要更新批次資料才用 `refresh_all_nine`。
+- 第一次沒有 `data-state` 卻選沿用時會立即失敗；已用暫存 Git 專案確認 `git switch --orphan` 會得到零追蹤檔與乾淨工作樹。
+- 長期 repository variable 之外，新增每次 workflow 都必須勾選的 `authorization_ack`，避免一次授權被默認為永久同意所有後續 API 執行。
+- 已核對 GitHub 官方 workflow 文件：`inputs` context 會保留 boolean 型別，因此以 `inputs.authorization_ack != true` 判斷勾選狀態。
+- 新增 `validate_official_snapshot.py`；不論 snapshot 是沿用或剛下載，都在 `sync_structured.py` 前重新核對九來源。測試確認竄改健保 raw 時會在仿單 API 前停止。
+- 目前總計 56 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：58 個測試通過（54 Python + 4 Node）。
+- Python／Node：60 個測試通過（56 Python + 4 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
