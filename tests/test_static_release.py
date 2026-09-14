@@ -73,6 +73,13 @@ class StaticReleaseTests(unittest.TestCase):
                 by_license["衛署藥製字第016162號"]["nhi_items"][0]["code"],
                 "A016162100",
             )
+            nhi_item = by_license["衛署藥製字第016162號"]["nhi_items"][0]
+            self.assertEqual(nhi_item["price"], "1.5")
+            self.assertEqual(nhi_item["effective_from"], "2026-01-01")
+            self.assertEqual(nhi_item["specification"], "10 MG")
+            self.assertEqual(nhi_item["company"], "測試公司")
+            self.assertEqual(nhi_item["dosage_form"], "TABLET")
+            self.assertEqual(nhi_item["rule_url"], "https://info.nhi.gov.tw/rule")
             official_events = by_license["衛署藥製字第016162號"][
                 "official_events"
             ]

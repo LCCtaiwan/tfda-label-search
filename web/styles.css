@@ -33,6 +33,12 @@ details { margin: 14px 0; }
 .official-events ul { margin-bottom: 0; padding-left: 22px; }
 .official-events li + li { margin-top: 8px; }
 .event-caution { color: #5d5140; }
+.nhi-details { margin-top: 14px; padding: 12px; background: #eef6f7; border-radius: 8px; }
+.nhi-details ul { margin-bottom: 0; padding-left: 22px; }
+.nhi-details li + li { margin-top: 12px; }
+.nhi-caution { color: #40585a; }
+.nhi-description { line-height: 1.6; }
+.nhi-links { margin-top: 6px; }
 summary { color: #176c72; cursor: pointer; font-weight: 700; }
 pre { max-height: 360px; overflow: auto; padding: 14px; white-space: pre-wrap; background: #f6f8f9; border-radius: 8px; font: inherit; line-height: 1.6; }
 a { color: #075f9e; font-weight: 700; }

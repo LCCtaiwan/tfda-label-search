@@ -16,6 +16,21 @@
       "drug_name_en": "ALPHA TEST TABLETS",
       "version": "1",
       "approved_at": "2026-09-01",
+      "nhi_items": [
+        {
+          "code": "A000000001",
+          "atc_code": "A01AA01",
+          "benefit_chapter": "1.1",
+          "specification": "10 MG",
+          "price": "1.5",
+          "effective_from": "2026-01-01",
+          "effective_until": "",
+          "company": "測試藥商",
+          "dosage_form": "TABLET",
+          "item_url": "https://lmspiq.fda.gov.tw/web/DRPIQ/DRPIQ1000Result?licId=01000001",
+          "rule_url": "https://info.nhi.gov.tw/rule"
+        }
+      ],
       "sections": [
         {
           "id": "8.1",

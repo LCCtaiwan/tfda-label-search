@@ -137,6 +137,21 @@ function safeEventSourceUrl(value) {
   }
 }
 
+function safeNhiUrl(value, allowedHost) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:"
+      && url.hostname === allowedHost
+      && !url.username
+      && !url.password
+      && ["", "443"].includes(url.port)
+      ? url.href
+      : "";
+  } catch {
+    return "";
+  }
+}
+
 async function loadDocument(meta) {
   const documentPath = safeDocumentPath(meta.document_path);
   if (!documentPath) throw new Error("結果缺少安全的章節資料路徑");
@@ -307,6 +322,74 @@ function appendEntries(entries) {
       addOfficialLink(href, `開啟 TFDA 官方仿單檔案${suffix}`);
     }
     if (linkGroup.childElementCount) card.append(linkGroup);
+
+    const nhiItems = Array.isArray(source.nhi_items)
+      ? source.nhi_items.map((item) => ({
+        code: String(item?.code ?? "").trim(),
+        atcCode: String(item?.atc_code ?? "").trim(),
+        benefitChapter: String(item?.benefit_chapter ?? "").trim(),
+        specification: String(item?.specification ?? "").trim(),
+        price: String(item?.price ?? "").trim(),
+        effectiveFrom: String(item?.effective_from ?? "").trim(),
+        effectiveUntil: String(item?.effective_until ?? "").trim(),
+        company: String(item?.company ?? "").trim(),
+        dosageForm: String(item?.dosage_form ?? "").trim(),
+        itemUrl: safeNhiUrl(item?.item_url, "lmspiq.fda.gov.tw"),
+        ruleUrl: safeNhiUrl(item?.rule_url, "info.nhi.gov.tw"),
+      })).filter((item) => item.code)
+      : [];
+    if (nhiItems.length) {
+      const nhiDetails = document.createElement("details");
+      nhiDetails.className = "nhi-details";
+      const nhiSummary = document.createElement("summary");
+      nhiSummary.textContent = `查看健保資料（${nhiItems.length} 筆）`;
+      addText(
+        nhiDetails,
+        "p",
+        "nhi-caution",
+        "這是資料版本日期以前的健保資料，不代表目前仍給付、支付價仍相同或適用個別情況。",
+      );
+      const list = document.createElement("ul");
+      for (const item of nhiItems) {
+        const listItem = document.createElement("li");
+        addText(listItem, "strong", "nhi-code", `健保碼：${item.code}`);
+        const effectivePeriod = item.effectiveFrom || item.effectiveUntil
+          ? `${item.effectiveFrom || "未載明起日"}～${item.effectiveUntil || "未載明迄日"}`
+          : "";
+        const description = [
+          item.atcCode && `ATC：${item.atcCode}`,
+          item.specification && `規格：${item.specification}`,
+          item.dosageForm && `劑型：${item.dosageForm}`,
+          item.price && `支付價：${item.price}`,
+          effectivePeriod && `有效期間：${effectivePeriod}`,
+          item.company && `藥商：${item.company}`,
+          item.benefitChapter && `給付章節：${item.benefitChapter}`,
+        ].filter(Boolean).join("｜");
+        if (description) addText(listItem, "p", "nhi-description", description);
+        const links = document.createElement("div");
+        links.className = "resource-links nhi-links";
+        if (item.itemUrl) {
+          const link = document.createElement("a");
+          link.href = item.itemUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = "官方藥品資料";
+          links.append(link);
+        }
+        if (item.ruleUrl) {
+          const link = document.createElement("a");
+          link.href = item.ruleUrl;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = "健保給付規定";
+          links.append(link);
+        }
+        if (links.childElementCount) listItem.append(links);
+        list.append(listItem);
+      }
+      nhiDetails.append(nhiSummary, list);
+      card.append(nhiDetails);
+    }
 
     const officialEvents = Array.isArray(source.official_events)
       ? source.official_events.map((event) => ({

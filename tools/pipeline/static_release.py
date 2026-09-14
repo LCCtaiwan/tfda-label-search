@@ -287,6 +287,14 @@ def make_release_documents(
                 "code": item["nhi_code"],
                 "atc_code": item["atc_code"],
                 "benefit_chapter": item["benefit_chapter"],
+                "specification": item["specification"],
+                "price": item["price"],
+                "effective_from": item["effective_from"],
+                "effective_until": item["effective_until"],
+                "company": item["company"],
+                "dosage_form": item["dosage_form"],
+                "item_url": item["item_url"],
+                "rule_url": item["rule_url"],
             }
             for item in nhi_items[number]
         ]

@@ -90,6 +90,25 @@ test("builds one searchable record per document without publishing raw HTML", as
       status: "",
       source_url: "https://data.fda.gov.tw/data/opendata/export/53/json",
     }]);
+    const nhiDocumentMeta = catalog.documents.find(
+      (item) => item.license_no === "測試藥證字第000001號",
+    );
+    const nhiDocument = JSON.parse(
+      await readFile(path.join(output, nhiDocumentMeta.document_path), "utf8"),
+    );
+    assert.deepEqual(nhiDocument.nhi_items, [{
+      code: "A000000001",
+      atc_code: "A01AA01",
+      benefit_chapter: "1.1",
+      specification: "10 MG",
+      price: "1.5",
+      effective_from: "2026-01-01",
+      effective_until: "",
+      company: "測試藥商",
+      dosage_form: "TABLET",
+      item_url: "https://lmspiq.fda.gov.tw/web/DRPIQ/DRPIQ1000Result?licId=01000001",
+      rule_url: "https://info.nhi.gov.tw/rule",
+    }]);
     for (const filename of documents) {
       const payload = await readFile(path.join(output, "data", "documents", filename), "utf8");
       assert.doesNotMatch(payload, /<img\b/iu);
@@ -158,6 +177,43 @@ test("rejects an unknown event type or non-TFDA event source", async () => {
       ], { cwd: root, stdio: "pipe" }),
       (error) => {
         assert.match(error.stderr.toString(), /不是 TFDA 開放資料 HTTPS 網址/u);
+        return true;
+      },
+    );
+  } finally {
+    await rm(temporaryRoot, { recursive: true, force: true });
+  }
+});
+
+test("rejects invalid dates or non-official links in NHI items", async () => {
+  const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "tfda-nhi-url-test-"));
+  const input = path.join(temporaryRoot, "input.json");
+  const output = path.join(temporaryRoot, "site");
+  try {
+    const payload = JSON.parse(
+      await readFile(path.join(root, "tests/fixtures/pagefind-search-sample.json"), "utf8"),
+    );
+    payload.documents[0].nhi_items[0].effective_from = "2026-02-30";
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    assert.throws(
+      () => execFileSync(process.execPath, [
+        "scripts/build-pagefind.mjs", "--input", input, "--output", output,
+      ], { cwd: root, stdio: "pipe" }),
+      (error) => {
+        assert.match(error.stderr.toString(), /健保有效日期格式錯誤/u);
+        return true;
+      },
+    );
+
+    payload.documents[0].nhi_items[0].effective_from = "2026-01-01";
+    payload.documents[0].nhi_items[0].rule_url = "https://example.com/not-nhi";
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    assert.throws(
+      () => execFileSync(process.execPath, [
+        "scripts/build-pagefind.mjs", "--input", input, "--output", `${output}-second`,
+      ], { cwd: root, stdio: "pipe" }),
+      (error) => {
+        assert.match(error.stderr.toString(), /不是指定的官方 HTTPS 網址/u);
         return true;
       },
     );

@@ -125,6 +125,61 @@ function officialEvents(value, sourcePath) {
   return result;
 }
 
+function officialNhiUrl(value, allowedHost, field, sourcePath) {
+  const raw = plain(value);
+  if (!raw) return "";
+  let url;
+  try {
+    url = new URL(raw);
+  } catch {
+    throw new Error(`${sourcePath} 含無效的${field}網址`);
+  }
+  if (
+    url.protocol !== "https:"
+    || url.hostname !== allowedHost
+    || url.username
+    || url.password
+    || !["", "443"].includes(url.port)
+  ) {
+    throw new Error(`${sourcePath} 的${field}網址不是指定的官方 HTTPS 網址`);
+  }
+  return url.href;
+}
+
+function safeNhiItems(value, sourcePath) {
+  if (value == null) return [];
+  if (!Array.isArray(value)) throw new Error(`${sourcePath} 的 nhi_items 必須是清單`);
+  return value.map((item) => {
+    const safe = {
+      code: plain(item?.code ?? item?.nhi_code),
+      atc_code: plain(item?.atc_code),
+      benefit_chapter: plain(item?.benefit_chapter),
+      specification: plain(item?.specification),
+      price: plain(item?.price),
+      effective_from: plain(item?.effective_from),
+      effective_until: plain(item?.effective_until),
+      company: plain(item?.company),
+      dosage_form: plain(item?.dosage_form),
+      item_url: officialNhiUrl(item?.item_url, "lmspiq.fda.gov.tw", "官方藥品資料", sourcePath),
+      rule_url: officialNhiUrl(item?.rule_url, "info.nhi.gov.tw", "健保給付規定", sourcePath),
+    };
+    if (!safe.code) throw new Error(`${sourcePath} 含缺少健保碼的健保品項`);
+    for (const field of ["effective_from", "effective_until"]) {
+      if (safe[field] && !validCalendarDate(safe[field])) {
+        throw new Error(`${sourcePath} 的健保有效日期格式錯誤`);
+      }
+    }
+    if (safe.effective_from && safe.effective_until && safe.effective_from > safe.effective_until) {
+      throw new Error(`${sourcePath} 的健保有效日期順序錯誤`);
+    }
+    if ([safe.code, safe.atc_code, safe.benefit_chapter, safe.specification, safe.price,
+      safe.company, safe.dosage_form].some((field) => [...field].length > 500)) {
+      throw new Error(`${sourcePath} 的健保欄位過長`);
+    }
+    return safe;
+  });
+}
+
 function validatePayload(payload, sourcePath) {
   if (!payload || payload.schema_version !== 1 || !Array.isArray(payload.documents)) {
     throw new Error(`${sourcePath} 不是支援的結構化仿單 JSON`);
@@ -229,11 +284,7 @@ async function build({ inputs, output, synonyms }) {
           name: plain(item?.name ?? item?.ingredient_name),
           amount: plain(item?.amount_description),
         })).filter((item) => item.name) : [],
-        nhi_items: Array.isArray(document.nhi_items) ? document.nhi_items.map((item) => ({
-          code: plain(item?.code ?? item?.nhi_code),
-          atc_code: plain(item?.atc_code),
-          benefit_chapter: plain(item?.benefit_chapter),
-        })).filter((item) => item.code) : [],
+        nhi_items: safeNhiItems(document.nhi_items, sourcePath),
         official_events: safeOfficialEvents,
         event_types: [...new Set([
           ...eventTypes,
