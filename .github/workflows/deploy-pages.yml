@@ -71,6 +71,8 @@ jobs:
           python3 app/tools/pipeline/state_manifest.py
           --official-dir state/official/current
           --structured-dir state/structured
+          --require-incremental
+          --max-incremental-lag-days 14
           --output "${{ runner.temp }}/verified-data-state.json"
 
       - name: Build candidate release with a 98 percent text gate

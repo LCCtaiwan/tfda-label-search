@@ -127,10 +127,20 @@ npm run serve
 - 本機 smoke 演練通過：`e2e-fixture`、查詢「測試藥證字第000001號」、1 筆結果、console 0、1.653 秒。
 - 目前總計 40 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
 
+### 2026-09-15：C-012 初次建庫後的正式增量更新
+
+- 稽核發現 `fetch_updates.py` 雖已存在，但 `refresh-data.yml` 只呼叫逐藥證建庫，完成後不會更新已下載的仿單；新增 `sync_structured.py` 並接入 workflow。
+- `state.json` 新增 `initial_started_on`。最後一批初次資料先獨立 commit，下一輪才從建庫開始日以最多 10 日一窗補更新，避免兩種 API 請求無間隔相接。
+- 日期游標只追到臺灣上一個完整日，避免白天先把今日標成完成；失敗保留原游標，更新狀態與文件都留在未 push 的 runner，遠端仍是上一個完整 commit。
+- 增量模式不讓舊 `no_document` 的逐張重查阻塞日期窗；新藥證仍優先逐張補抓，日期回應有新文件時會把 `no_document` 提升為 `downloaded`。
+- 舊日期回補會合併既有文件，只保留日期／版本較新的內容；新增自然版本排序測試，確認版本 10 大於版本 9。
+- `data-state-manifest.json` 新增增量初始化、下一日期、落後天數及最後完成日；正式 Pages 建置要求游標存在且落後不超過 14 天。
+- 目前總計 49 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：44 個測試通過（40 Python + 4 Node）。
+- Python／Node：53 個測試通過（49 Python + 4 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

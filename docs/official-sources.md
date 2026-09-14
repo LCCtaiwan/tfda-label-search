@@ -47,8 +47,10 @@ TFDA 資料開放宣告：https://www.fda.gov.tw/Tc/opendata.aspx
 ## 三段更新流程
 
 1. `official_snapshot.py`：九組批次來源全部下載、格式與最低筆數都通過後，才建立新的不可變 snapshot。
-2. `fetch_structured.py`：初次依有效藥證分批建立結構化仿單庫；每筆都保存狀態，暫時失敗可從原處重試，查無文件者 30 日後重查。
-3. `fetch_updates.py`：完成初次建庫後，依官方 10 日上限逐窗取得更新；視窗失敗時續傳游標不前進。
+2. `sync_structured.py`／`fetch_structured.py`：初次依有效藥證分批建立結構化仿單庫；每筆都保存狀態，暫時失敗可從原處重試。最後一批先獨立保存，不會緊接著再打一個日期請求。
+3. `sync_structured.py`／`fetch_updates.py`：下一輪自動從初次建庫開始日補抓，依官方 10 日上限逐窗取得更新，只追到臺灣上一個完整日；視窗失敗時續傳游標不前進。
+
+增量模式建立後，不再用每 30 天逐張重查舊的 `no_document` 品項阻塞日期更新；若官方日後新增該仿單，日期更新窗會把狀態改為 `downloaded`。每週藥證清單出現的新藥證仍會先逐張補抓。回補舊日期時會保留較新的已存版本，版本號採數字順序比較，不會把版本 10 判成比版本 9 舊。
 
 ```sh
 # 這兩個命令會連官方服務；正式執行前先確認流量與儲存位置。
@@ -57,11 +59,13 @@ python3 tools/pipeline/official_snapshot.py \
   --output-root data/official \
   --activate
 
-python3 tools/pipeline/fetch_structured.py \
+python3 tools/pipeline/sync_structured.py \
   --license-source data/official/snapshots/YYYYMMDD-HHMM/raw/licenses.raw \
   --output-dir data/structured \
-  --max-items 100 \
-  --request-delay 2
+  --max-initial-items 100 \
+  --max-update-windows 1 \
+  --request-delay 2 \
+  --report output/structured-sync.json
 ```
 
-初次建庫完成後才使用 `fetch_updates.py`。不要同時啟動兩個寫入相同 `output-dir` 的工作。
+同一時間只執行一個 `sync_structured.py`，不要讓兩個工作寫入相同 `output-dir`。正式 GitHub workflow 用 concurrency 鎖避免重疊。

@@ -7,6 +7,7 @@ import unittest
 from tools.pipeline.static_release import (
     StaticReleaseError,
     build_release,
+    document_order,
     license_code,
 )
 
@@ -33,6 +34,11 @@ class StaticReleaseTests(unittest.TestCase):
         self.assertEqual(license_code("衛署藥製字第016162號"), "01016162")
         self.assertEqual(license_code("衛部藥輸字第R00091號"), "52R00091")
         self.assertEqual(license_code("未知字第123456號"), "")
+
+    def test_document_order_treats_version_ten_as_newer_than_nine(self):
+        version_nine = {"approved_at": "114/09/15", "version": "9"}
+        version_ten = {"approved_at": "2025-09-15", "version": "10"}
+        self.assertGreater(document_order(version_ten), document_order(version_nine))
 
     def test_release_enriches_documents_and_marks_missing_text_honestly(self):
         with tempfile.TemporaryDirectory() as directory:

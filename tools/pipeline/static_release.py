@@ -95,6 +95,16 @@ def active_catalog(bundle: dict) -> dict[str, dict]:
     return active
 
 
+def natural_version_key(value: object) -> tuple:
+    parts = re.findall(r"\d+|\D+", str(value or "").strip().casefold())
+    return tuple((1, int(part)) if part.isdigit() else (0, part) for part in parts)
+
+
+def document_order(document: dict) -> tuple:
+    raw_date = str(document.get("approved_at") or "").strip()
+    return (official.parse_date(raw_date) or raw_date, natural_version_key(document.get("version")))
+
+
 def load_documents(paths: list[Path]) -> dict[str, dict]:
     current: dict[str, dict] = {}
     for path in paths:
@@ -108,11 +118,9 @@ def load_documents(paths: list[Path]) -> dict[str, dict]:
             number = str(document.get("license_no") or "").strip()
             if not number or not isinstance(document.get("sections"), list):
                 raise StaticReleaseError(f"{path} 含有缺少藥證或章節的文件")
-            key = (str(document.get("approved_at") or ""), str(document.get("version") or ""))
+            key = document_order(document)
             previous = current.get(number)
-            previous_key = (
-                str(previous.get("approved_at") or ""), str(previous.get("version") or "")
-            ) if previous else ("", "")
+            previous_key = document_order(previous) if previous else ("", ())
             if previous is None or key > previous_key:
                 current[number] = document
     return current

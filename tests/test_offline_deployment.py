@@ -1,13 +1,14 @@
 import json
 from argparse import Namespace
+from datetime import date
 from pathlib import Path
 import shutil
 import tempfile
 import unittest
 
-from tools.pipeline.fetch_structured import fetch_batch
 from tools.pipeline.official_snapshot import build_snapshot
 from tools.pipeline.release_preflight import run_preflight
+from tools.pipeline.sync_structured import sync_structured
 from tools.pipeline.state_manifest import build_manifest
 from tools.pipeline.static_release import SOURCE_ORDER, build_release
 from tools.sources import official
@@ -42,21 +43,40 @@ class OfflineDeploymentTests(unittest.TestCase):
             shutil.copy2(snapshot / "manifest.json", official_current / "manifest.json")
 
             structured = root / "state" / "structured"
-            report = fetch_batch(
+            report = sync_structured(
                 official_current / "raw" / "licenses.raw",
                 structured,
-                max_items=100,
+                max_initial_items=100,
                 request_delay=0,
-                fetch=lambda query: (
+                through_date=date(2099, 1, 1),
+                fetch_initial=lambda query: (
                     FIXTURES / f"structured-{query.license_code}.xml"
                 ).read_bytes(),
             )
-            self.assertTrue(report["complete"])
+            self.assertEqual(report["phase"], "initial_complete")
+            initial_state = json.loads(
+                (structured / "state.json").read_text(encoding="utf-8")
+            )
+            sync = sync_structured(
+                official_current / "raw" / "licenses.raw",
+                structured,
+                max_initial_items=100,
+                request_delay=0,
+                through_date=date.fromisoformat(initial_state["initial_started_on"]),
+                fetch_initial=lambda _query: self.fail("完成後不應重抓逐藥證"),
+                fetch_incremental=lambda _query: b"<ROOTDOCUMENT></ROOTDOCUMENT>",
+            )
+            self.assertEqual(sync["phase"], "incremental")
             state_manifest = build_manifest(
-                official_current, structured, allow_small_fixtures=True
+                official_current,
+                structured,
+                allow_small_fixtures=True,
+                require_incremental=True,
+                max_incremental_lag_days=0,
             )
             self.assertTrue(state_manifest["complete"])
             self.assertEqual(state_manifest["structured_coverage"], 1)
+            self.assertEqual(state_manifest["incremental_lag_days"], 0)
             self.assertFalse((official_current / "normalized").exists())
 
             release_root = root / "candidate"

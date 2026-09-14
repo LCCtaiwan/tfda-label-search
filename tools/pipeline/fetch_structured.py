@@ -10,6 +10,7 @@ from pathlib import Path
 import sys
 import time
 from typing import Callable
+from zoneinfo import ZoneInfo
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
@@ -44,6 +45,10 @@ class RateLimiter:
         self.previous = time.monotonic()
 
 
+def taipei_today() -> datetime:
+    return datetime.now(ZoneInfo("Asia/Taipei"))
+
+
 def state_value(path: Path, catalog_hash: str) -> dict:
     if path.is_file():
         state = json.loads(path.read_text(encoding="utf-8"))
@@ -51,6 +56,7 @@ def state_value(path: Path, catalog_hash: str) -> dict:
             raise StructuredBatchError("續傳狀態檔格式錯誤")
     else:
         state = {"schema_version": 1, "items": {}}
+    state.setdefault("initial_started_on", taipei_today().date().isoformat())
     state["catalog_hash"] = catalog_hash
     return state
 
@@ -61,28 +67,34 @@ def fetch_batch(
     *,
     max_items: int = 100,
     request_delay: float = 2.0,
-    recheck_no_document_days: int = 30,
+    recheck_no_document_days: int | None = 30,
     fetch: Callable[[Query], bytes] = fetch_xml,
 ) -> dict:
     if not 1 <= max_items <= 1000:
         raise ValueError("每批數量必須是 1 到 1000")
-    if not 1 <= recheck_no_document_days <= 365:
+    if recheck_no_document_days is not None and not 1 <= recheck_no_document_days <= 365:
         raise ValueError("無仿單重查天數必須是 1 到 365")
     bundle = official.build_bundle("licenses", license_source.read_bytes(), allow_small=True)
     active = active_catalog(bundle)
     output_dir.mkdir(parents=True, exist_ok=True)
     state_path = output_dir / "state.json"
     state = state_value(state_path, bundle["content_hash"])
+    atomic_json(state_path, state)
     limiter = RateLimiter(request_delay)
     report = {"attempted": 0, "downloaded": 0, "no_document": 0, "unqueryable": 0}
 
-    recheck_before = datetime.now(timezone.utc) - timedelta(days=recheck_no_document_days)
+    recheck_before = (
+        datetime.now(timezone.utc) - timedelta(days=recheck_no_document_days)
+        if recheck_no_document_days is not None else None
+    )
 
     def completed_item(item: dict) -> bool:
         if item.get("status") in {"downloaded", "unqueryable"}:
             return True
         if item.get("status") != "no_document":
             return False
+        if recheck_before is None:
+            return True
         try:
             checked = datetime.fromisoformat(str(item.get("checked_at") or "").replace("Z", "+00:00"))
             return checked >= recheck_before
@@ -135,11 +147,11 @@ def fetch_batch(
         atomic_json(state_path, state)
 
     report["remaining"] = sum(
-        1 for number in active
-        if state["items"].get(number, {}).get("status") not in {"downloaded", "no_document", "unqueryable"}
+        1 for number in active if not completed_item(state["items"].get(number, {}))
     )
     report["complete"] = report["remaining"] == 0
     report["catalog_hash"] = bundle["content_hash"]
+    report["initial_started_on"] = state["initial_started_on"]
     return report
 
 
@@ -150,13 +162,16 @@ def main() -> None:
     parser.add_argument("--max-items", type=int, default=100)
     parser.add_argument("--request-delay", type=float, default=2.0)
     parser.add_argument("--recheck-no-document-days", type=int, default=30)
+    parser.add_argument("--no-recheck-no-document", action="store_true")
     args = parser.parse_args()
     report = fetch_batch(
         args.license_source,
         args.output_dir,
         max_items=args.max_items,
         request_delay=args.request_delay,
-        recheck_no_document_days=args.recheck_no_document_days,
+        recheck_no_document_days=(
+            None if args.no_recheck_no_document else args.recheck_no_document_days
+        ),
     )
     print(json.dumps(report, ensure_ascii=False))
 

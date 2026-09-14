@@ -14,6 +14,12 @@ class WorkflowGuardTests(unittest.TestCase):
             workflow.index("TFDA_API_CALLS_AUTHORIZED"),
             workflow.index("official_snapshot.py"),
         )
+        self.assertIn("sync_structured.py", workflow)
+        self.assertIn("--max-update-windows", workflow)
+        self.assertLess(
+            workflow.index("sync_structured.py"),
+            workflow.index("Commit the complete batch atomically"),
+        )
 
     def test_publication_guard_and_preflight_run_before_pages_upload(self):
         workflow = (ROOT / ".github" / "workflows" / "deploy-pages.yml").read_text(
@@ -30,6 +36,8 @@ class WorkflowGuardTests(unittest.TestCase):
         self.assertIn("ref: ${{ inputs.data_ref }}", workflow)
         self.assertIn("--app-revision \"$APP_SHA\"", workflow)
         self.assertIn("--data-revision \"$DATA_SHA\"", workflow)
+        self.assertIn("--require-incremental", workflow)
+        self.assertIn("--max-incremental-lag-days 14", workflow)
         self.assertGreater(
             workflow.index("verify-deployed.mjs"),
             workflow.index("actions/deploy-pages"),

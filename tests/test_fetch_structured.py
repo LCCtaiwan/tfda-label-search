@@ -44,6 +44,7 @@ class StructuredBatchTests(unittest.TestCase):
         self.assertEqual(calls, ["01016162", "51123456"])
         self.assertEqual(len(files), 2)
         self.assertEqual({path.parent.name for path in files}, {"01", "51"})
+        self.assertRegex(second["initial_started_on"], r"^\d{4}-\d{2}-\d{2}$")
 
     def test_failure_is_saved_and_retried_on_next_run(self):
         attempts = 0
@@ -93,6 +94,34 @@ class StructuredBatchTests(unittest.TestCase):
                 fetch=lambda query: self.payload(query.license_code),
             )
             self.assertEqual(retried["downloaded"], 1)
+
+    def test_stale_no_document_items_remain_pending_until_each_is_rechecked(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "structured"
+            source = ROOT / "tests" / "fixtures" / "pipeline_sources" / "licenses.raw"
+            fetch_batch(
+                source,
+                output,
+                max_items=10,
+                request_delay=0,
+                fetch=lambda _query: b"<ROOTDOCUMENT></ROOTDOCUMENT>",
+            )
+            state_path = output / "state.json"
+            state = json.loads(state_path.read_text(encoding="utf-8"))
+            for item in state["items"].values():
+                item["checked_at"] = "2020-01-01T00:00:00+00:00"
+            state_path.write_text(json.dumps(state, ensure_ascii=False), encoding="utf-8")
+            report = fetch_batch(
+                source,
+                output,
+                max_items=1,
+                request_delay=0,
+                fetch=lambda _query: b"<ROOTDOCUMENT></ROOTDOCUMENT>",
+            )
+
+        self.assertEqual(report["attempted"], 1)
+        self.assertEqual(report["remaining"], 1)
+        self.assertFalse(report["complete"])
 
 
 if __name__ == "__main__":

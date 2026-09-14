@@ -26,13 +26,14 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 2. 第一次先選 25；確認 TFDA 無 429、逾時或阻擋後，再由負責人決定是否使用 50 或 100。
 3. 每次成功會在 `data-state` 新增一個 commit；失敗不會 push。
 4. 查看 run summary 的 `pending_licenses`、`checked_coverage` 與 `structured_coverage`。
-5. 重複執行到資料符合發布門檻。官方尚未公布頻率，因此不可自行增加排程或把間隔調短。
+5. 初次逐藥證完成的那一輪會先保存 checkpoint；再執行一次後才開始最多 1／2／3 個 10 日增量窗，並在 summary 顯示 `phase`、`next_date` 與 `remaining_days`。
+6. 重複執行到資料符合發布門檻。官方尚未公布頻率，因此不可自行增加排程或把間隔調短。
 
 ## 建置與核准
 
 1. 到 Actions 手動執行 `Build and approve TFDA Pages`。
 2. 一般發布使用 `app_ref=main`、`data_ref=data-state`；workflow 會先把兩者解析成不可變的完整 commit SHA。
-3. 工作會重跑單元測試、Chromium 測試、九來源驗證與 98% 結構化文字門檻。
+3. 工作會重跑單元測試、Chromium 測試、九來源驗證、98% 結構化文字門檻，並要求日期增量游標已建立且最多落後 14 天。
 4. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
 5. 通過後進入 `github-pages` environment 等待主管。
 6. 主管查看 `release-audit-<run id>` 的報告與兩個 commit SHA，再按 Approve and deploy 或 Reject。

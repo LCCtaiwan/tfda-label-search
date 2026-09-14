@@ -4,7 +4,12 @@ import tempfile
 import unittest
 
 from tools.pipeline.static_release import SOURCE_ORDER, StaticReleaseError, active_catalog
-from tools.pipeline.state_manifest import build_manifest, summarize_state, validate_git_payload
+from tools.pipeline.state_manifest import (
+    build_manifest,
+    summarize_incremental,
+    summarize_state,
+    validate_git_payload,
+)
 from tools.sources import official
 
 
@@ -78,6 +83,26 @@ class StateManifestTests(unittest.TestCase):
             manifest = build_manifest(
                 official_dir, structured_dir, allow_small_fixtures=True
             )
+            with self.assertRaisesRegex(StaticReleaseError, "增量更新游標"):
+                build_manifest(
+                    official_dir,
+                    structured_dir,
+                    allow_small_fixtures=True,
+                    require_incremental=True,
+                )
+            (structured_dir / "updates-state.json").write_text(json.dumps({
+                "schema_version": 1,
+                "catalog_hash": license_bundle["content_hash"],
+                "next_date": "2020-01-01",
+            }), encoding="utf-8")
+            with self.assertRaisesRegex(StaticReleaseError, "超過 14 天門檻"):
+                build_manifest(
+                    official_dir,
+                    structured_dir,
+                    allow_small_fixtures=True,
+                    require_incremental=True,
+                    max_incremental_lag_days=14,
+                )
 
         self.assertTrue(manifest["complete"])
         self.assertEqual(manifest["checked_licenses"], len(active))
@@ -92,6 +117,24 @@ class StateManifestTests(unittest.TestCase):
             oversized.write_bytes(b"1234")
             with self.assertRaises(StaticReleaseError):
                 validate_git_payload([oversized], root, max_bytes=3)
+
+    def test_incremental_state_reports_lag_and_rejects_errors(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "updates-state.json"
+            path.write_text(json.dumps({
+                "schema_version": 1,
+                "catalog_hash": "catalog",
+                "next_date": "2020-01-01",
+            }), encoding="utf-8")
+            summary = summarize_incremental(path, "catalog")
+            self.assertTrue(summary["incremental_initialized"])
+            self.assertGreater(summary["incremental_lag_days"], 0)
+
+            state = json.loads(path.read_text(encoding="utf-8"))
+            state["last_error"] = {"message": "temporary"}
+            path.write_text(json.dumps(state), encoding="utf-8")
+            with self.assertRaises(StaticReleaseError):
+                summarize_incremental(path, "catalog")
 
 
 if __name__ == "__main__":
