@@ -24,6 +24,10 @@ test("builds one searchable record per document without publishing raw HTML", as
     assert.equal(manifest.document_count, 3);
     assert.equal(manifest.section_count, 4);
     assert.equal(manifest.record_count, 3);
+    assert.match(manifest.built_at, /^\d{4}-\d{2}-\d{2}T/u);
+    assert.equal(manifest.data_retrieved_at, "2026-09-15T00:00:00Z");
+    assert.match(manifest.dataset_sha256, /^[a-f0-9]{64}$/u);
+    assert.equal(manifest.source_inputs.length, 1);
 
     const documents = await readdir(path.join(output, "data", "documents"));
     assert.equal(documents.length, 3);

@@ -94,17 +94,24 @@ npm run serve
 - 部署預設上鎖：`SUPERVISOR_APPROVAL_CONFIGURED` 未設為 `true` 時明確失敗；設為 true 前必須先在 `github-pages` environment 建立主管 required reviewer。
 - 結構化文件改按證別前兩碼分片，避免 `data-state` 單一資料夾超過建議寬度。API 暫時錯誤支援最長 60 秒 `Retry-After`，仍失敗就保留舊 commit。
 
+### 2026-09-15：C-008 離線發布演練與完成度稽核
+
+- 新整合測試用九個官方格式 fixture 建 snapshot，依兩張藥證取得結構化 XML，產生完整 `data-state` manifest，再以 100% fixture 門檻建立 Pages 候選版；確認候選版不會自行建立 active 指標。
+- 英文 `Nausea` 已納入 Chromium 測試；網站頁尾會顯示資料日期、份數與由輸入 SHA-256 組成的 12 碼指紋。
+- 新增 localhost-only Playwright/CDP 量測工具。5,000 份、390×844 下，常見詞 536 ms、JS heap 增加 8.38 MiB、傳輸 4.33 MiB；完整藥證 221 ms、增加 6.61 MiB、傳輸 3.62 MiB。
+- 建立 `docs/completion-audit.md`，逐項確認 Goal；真實代表性仿單、遠端 environment、正式小批、授權文字及正式回滾仍不得視為完成。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python：28 個測試通過。
+- Python／Node：31 個測試通過。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
 - 章節展開後會載入原文；桌機 1440×1000 與手機 390×844 版面通過目視檢查；主控台 0 錯誤。
 - Release 瀏覽器驗證：健保碼 `A016162100` 只回 1 張正確藥品資料卡，並顯示成分、ATC、仿單版本及官方入口；主控台 0 錯誤。
 - 合成容量驗證：1,000 份為 21 MB；最終 5,000 份為 103 MB；分批結果由 50 筆正確增加至 100 筆。
-- 真實瀏覽器自動測試：4 個 Chromium 測試通過。
+- 真實瀏覽器自動測試：5 個 Chromium 測試通過。
 - 線上服務：未建立或修改。
 - 既有 ChemoDrugStable：未修改。
 

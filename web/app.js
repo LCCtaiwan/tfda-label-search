@@ -5,6 +5,7 @@ const excludeInput = document.querySelector("#exclude-terms");
 const status = document.querySelector("#status");
 const results = document.querySelector("#results");
 const loadMoreButton = document.querySelector("#load-more");
+const dataVersion = document.querySelector("#data-version");
 
 let pagefindPromise;
 let synonymsPromise;
@@ -323,6 +324,23 @@ loadMoreButton.addEventListener("click", () => {
     loadMoreButton.disabled = false;
   });
 });
+
+fetch("./data/manifest.json", { cache: "no-cache" })
+  .then((response) => {
+    if (!response.ok) throw new Error("版本資料讀取失敗");
+    return response.json();
+  })
+  .then((manifest) => {
+    const date = String(manifest.data_retrieved_at || manifest.built_at || "").slice(0, 10) || "日期未提供";
+    const count = Number.isInteger(manifest.document_count) ? manifest.document_count.toLocaleString("zh-TW") : "?";
+    const fingerprint = /^[a-f0-9]{64}$/u.test(manifest.dataset_sha256 ?? "")
+      ? manifest.dataset_sha256.slice(0, 12)
+      : "未提供";
+    dataVersion.textContent = `資料版本：${date}｜${count} 份｜指紋 ${fingerprint}`;
+  })
+  .catch(() => {
+    dataVersion.textContent = "資料版本：無法讀取，請勿據此判斷資料已更新。";
+  });
 
 const params = new URLSearchParams(location.search);
 allInput.value = params.get("q") ?? "";

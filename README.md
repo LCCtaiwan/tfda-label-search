@@ -58,6 +58,7 @@ npm run serve
 - `docs/capacity-study.md`：1,000／5,000 份容量試驗、被淘汰的舊架構與瀏覽器結果。
 - `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
 - `docs/supervisor-guide.md`：主管只需查看的三個核准項目。
+- `docs/completion-audit.md`：逐項區分已證明、尚未證明與必須取得的外部授權。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 

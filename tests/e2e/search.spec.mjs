@@ -16,6 +16,9 @@ test("任意短詞與 AND、OR、NOT 會回傳正確章節", async ({ page }) =>
   await search(page, { all: "噁心" });
   await expect(page.locator("#status")).toHaveText("找到 3 筆結果。");
 
+  await search(page, { all: "Nausea" });
+  await expect(page.locator("#status")).toHaveText("找到 1 筆結果。");
+
   await search(page, { all: "懷孕 噁心" });
   await expect(page.locator("#status")).toHaveText("找到 1 筆結果。");
 
@@ -24,6 +27,12 @@ test("任意短詞與 AND、OR、NOT 會回傳正確章節", async ({ page }) =>
 
   await search(page, { any: "腹瀉 噁心" });
   await expect(page.locator("#status")).toHaveText("找到 3 筆結果。");
+});
+
+test("頁尾顯示可追溯的資料版本", async ({ page }) => {
+  await expect(page.locator("#data-version")).toContainText("資料版本：2026-09-15");
+  await expect(page.locator("#data-version")).toContainText("113 份");
+  await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
 });
 
 test("只有 reviewed 的測試同義詞會生效", async ({ page }) => {

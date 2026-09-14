@@ -87,14 +87,21 @@ async function build({ inputs, output }) {
 
   const seenDocuments = new Set();
   const catalog = [];
+  const sourceInputs = [];
   let documentCount = 0;
   let sectionCount = 0;
   let recordCount = 0;
 
   for (const input of inputs) {
     const sourcePath = path.resolve(input);
-    const payload = JSON.parse(await readFile(sourcePath, "utf8"));
+    const sourceText = await readFile(sourcePath, "utf8");
+    const payload = JSON.parse(sourceText);
     validatePayload(payload, sourcePath);
+    sourceInputs.push({
+      name: path.basename(input),
+      sha256: createHash("sha256").update(sourceText, "utf8").digest("hex"),
+      retrieved_at: plain(payload.retrieved_at),
+    });
 
     for (const document of payload.documents) {
       const documentKey = `${plain(document.license_no)}:${plain(document.version)}`;
@@ -197,10 +204,16 @@ async function build({ inputs, output }) {
 
   const manifest = {
     schema_version: 1,
+    built_at: new Date().toISOString(),
+    data_retrieved_at: sourceInputs.map((item) => item.retrieved_at).filter(Boolean).sort().at(-1) ?? "",
+    dataset_sha256: createHash("sha256")
+      .update(sourceInputs.map((item) => item.sha256).join("\n"), "utf8")
+      .digest("hex"),
     document_count: documentCount,
     section_count: sectionCount,
     record_count: recordCount,
     source_files: inputs.map((item) => path.basename(item)),
+    source_inputs: sourceInputs,
   };
   await writeFile(path.join(tempPath, "data", "catalog.json"), `${JSON.stringify({
     schema_version: 1,

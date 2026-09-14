@@ -6,6 +6,7 @@
   "scripts": {
     "build": "node scripts/build-pagefind.mjs",
     "fixture:capacity": "node scripts/generate-capacity-fixture.mjs",
+    "measure:search": "node scripts/measure-search.mjs",
     "prepare:e2e": "node scripts/prepare-e2e.mjs",
     "serve": "python3 -m http.server 8000 --directory site",
     "test": "npm run test:pagefind && npm run test:python",

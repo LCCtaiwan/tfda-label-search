@@ -49,3 +49,10 @@
 - 新增手動資料更新 workflow；九來源及一整批仿單成功後才原子 commit，且以 concurrency 避免同時更新。
 - 新增手動 Pages 建置與部署 workflow；98% 文字門檻、完整測試與主管 environment 核准缺一不可。
 - 新增資料狀態 manifest、分片文件、`Retry-After` 支援、部署手冊及主管操作小抄。
+
+## C-008
+
+- 新增完整離線 `data-state → 100% fixture gate → Pages candidate` 整合測試。
+- 新增英文全文搜尋與頁尾資料日期、文件數、SHA-256 指紋的 Chromium 驗證。
+- 新增僅允許 localhost 的可重跑手機效能工具，記錄搜尋時間、下載量與 JavaScript heap。
+- 建立逐項 Goal 完成度稽核，不以合成資料或本機 workflow 取代尚未完成的真實資料與正式部署證據。
