@@ -41,6 +41,8 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 6. 主管查看 `release-audit-<run id>` 的報告、公開 `synonyms.json` 與兩個 commit SHA，再按 Approve and deploy 或 Reject。
 7. 部署後會用相同 app SHA 的檢查器，以 390×844 Chromium 開啟正式網址，逐字核對 release ID 與本次核准的完整 app/data SHA，檢查 snapshot 與資料時間，再從正式目錄選一張完整藥證，以 `?q=<完整藥證>` 深連結自動搜尋；結果保存為 `deployment-smoke-<run id>`。
 
+網站即使沒有重新部署，也會在每次開啟時依臺灣日期重算資料年齡。超過 14 天、日期缺少或日期晚於今天會在頁面頂端警告；主管仍應查明更新失敗原因，不能只重新建置網站來清除警告。
+
 ## 回滾
 
 - 從上一個正常的 release audit 或 `site/data/release.json` 找到 `app_revision` 與 `data_revision`。

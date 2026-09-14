@@ -19,6 +19,8 @@
 
 九項都正確才按 `Approve and deploy`；看不懂、數字突然下降或來源失敗就按 `Reject`，舊網站會繼續使用。部署完成後再確認 `deployment-smoke-<run id>` 的 `ready` 是 `true`，且兩個 SHA 與核准版本相同；失敗時依部署手冊回滾。
 
+平常打開網站若看到紅色「官方資料已超過 14 天沒有更新」或「無法確認官方資料更新日期」，先停止把它當成最新資料，檢查資料 workflow。只重新部署同一份舊資料不會消除警告。
+
 本網站只查公開藥品資料，不可加入病人姓名、病歷號、處方或其他病人資料。
 
 第一次執行資料工作要選 `refresh_all_nine` 與 25 張；之後逐批補仿單用預設 `reuse_existing`。每一次都必須勾選 `authorization_ack`，不能只靠長期存在的 repository variable 代表本次已獲准。

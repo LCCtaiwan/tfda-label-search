@@ -12,6 +12,8 @@ header { margin-bottom: 24px; }
 .eyebrow { color: #176c72; font-weight: 700; }
 h1 { margin: 6px 0 10px; font-size: clamp(2rem, 7vw, 3.5rem); }
 .notice { padding: 16px; border-left: 5px solid #b35c00; background: #fff4df; border-radius: 8px; }
+.freshness-warning { padding: 16px; border: 2px solid #9b1c1c; background: #fff0f0; color: #7a1010; border-radius: 8px; font-weight: 700; }
+.freshness-warning[hidden] { display: none; }
 form { display: grid; gap: 10px; margin: 24px 0 12px; padding: 20px; background: white; border-radius: 14px; box-shadow: 0 8px 30px #18323a12; }
 label { font-weight: 700; }
 input { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #9aabb1; border-radius: 8px; font: inherit; }

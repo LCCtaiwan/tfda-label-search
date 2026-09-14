@@ -25,6 +25,7 @@ release-root/
 - `site/`：可直接交給 GitHub Pages 的完整靜態網站。
 - `site/data/coverage.json`：供網站顯示的精簡涵蓋報告；每張資料分成有可搜尋文字、只有官方檔案連結、兩者都沒有。
 - `site/data/release.json`：公開版本身分證，保存 release ID、程式完整 Git SHA、資料完整 Git SHA、官方 snapshot、真實資料擷取時間、來源雜湊與涵蓋率。
+- 網頁只以 `data_retrieved_at` 判定官方資料日期，不以 `built_at` 代替；每次開啟都依臺灣日期計算，超過 14 天或日期不可信時警告。
 - `active.json`：目前核准版本的指標。候選版本失敗時不會改動。
 
 已完成的 release 不可用相同 ID 覆寫。要回復舊版，只需在人工確認後把 `active.json` 指回已驗證的舊 release；不要修改舊 release 內容。

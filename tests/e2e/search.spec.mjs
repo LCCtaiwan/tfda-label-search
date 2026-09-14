@@ -35,6 +35,7 @@ test("任意短詞與 AND、OR、NOT 會回傳正確章節", async ({ page }) =>
 });
 
 test("頁尾顯示可追溯的資料版本", async ({ page }) => {
+  await expect(page.locator("#freshness-warning")).toBeHidden();
   await expect(page.locator("#data-version")).toContainText("資料版本：2026-09-15");
   await expect(page.locator("#data-version")).toContainText("114 份");
   await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
@@ -59,6 +60,30 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
     structured_licenses: 113,
     metadata_only_licenses: 1,
   });
+});
+
+test("網站上線後資料超過十四天會直接警告", async ({ page }) => {
+  await page.clock.setFixedTime("2026-10-01T08:00:00+08:00");
+  await page.reload();
+  const warning = page.locator("#freshness-warning");
+  await expect(warning).toBeVisible();
+  await expect(warning).toHaveText(
+    "注意：這個網站的官方資料已 16 天沒有更新。請先到官方來源核對，再用於工作。",
+  );
+  await expect(page.locator("#data-version")).toContainText("資料版本：2026-09-15");
+
+  await page.route("**/data/manifest.json", async (route) => {
+    const response = await route.fetch();
+    const manifest = await response.json();
+    delete manifest.data_retrieved_at;
+    manifest.built_at = "2026-10-01T00:00:00Z";
+    await route.fulfill({ response, json: manifest });
+  });
+  await page.reload();
+  await expect(warning).toHaveText(
+    "注意：無法確認官方資料更新日期。請先到官方來源核對，再用於工作。",
+  );
+  await expect(page.locator("#data-version")).toContainText("資料版本：日期未提供");
 });
 
 test("reviewed 測試同義詞會生效且英文不分大小寫", async ({ page }) => {

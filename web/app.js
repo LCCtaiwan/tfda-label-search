@@ -7,8 +7,10 @@ const results = document.querySelector("#results");
 const loadMoreButton = document.querySelector("#load-more");
 const dataVersion = document.querySelector("#data-version");
 const coverageSummary = document.querySelector("#coverage-summary");
+const freshnessWarning = document.querySelector("#freshness-warning");
 const MAX_TERMS = 10;
 const MAX_TERM_LENGTH = 80;
+const MAX_DATA_AGE_DAYS = 14;
 const EVENT_LABELS = Object.freeze({
   recall: "藥品回收資料",
   safety_alert: "藥品安全警訊資料",
@@ -174,6 +176,48 @@ function addText(parent, tag, className, value) {
 
 function normalized(value) {
   return String(value ?? "").normalize("NFKC").toLocaleLowerCase("zh-TW");
+}
+
+function validCalendarDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/u.test(value)) return false;
+  const parsed = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(parsed.valueOf()) && parsed.toISOString().slice(0, 10) === value;
+}
+
+function taipeiToday() {
+  const parts = new Intl.DateTimeFormat("en", {
+    timeZone: "Asia/Taipei",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
+
+function showFreshnessWarning(value) {
+  const dataDate = String(value ?? "").slice(0, 10);
+  const today = taipeiToday();
+  if (!validCalendarDate(dataDate) || !validCalendarDate(today)) {
+    freshnessWarning.textContent = "注意：無法確認官方資料更新日期。請先到官方來源核對，再用於工作。";
+    freshnessWarning.hidden = false;
+    return "日期未提供";
+  }
+  const dayMilliseconds = 24 * 60 * 60 * 1000;
+  const ageDays = Math.round(
+    (Date.parse(`${today}T00:00:00Z`) - Date.parse(`${dataDate}T00:00:00Z`)) / dayMilliseconds,
+  );
+  if (ageDays < -1) {
+    freshnessWarning.textContent = "注意：官方資料日期晚於今天，日期可能有誤。請先到官方來源核對。";
+    freshnessWarning.hidden = false;
+  } else if (ageDays > MAX_DATA_AGE_DAYS) {
+    freshnessWarning.textContent = `注意：這個網站的官方資料已 ${ageDays} 天沒有更新。請先到官方來源核對，再用於工作。`;
+    freshnessWarning.hidden = false;
+  } else {
+    freshnessWarning.textContent = "";
+    freshnessWarning.hidden = true;
+  }
+  return dataDate;
 }
 
 function expanded(term, synonymMap) {
@@ -537,7 +581,7 @@ Promise.all([
     ) {
       throw new Error("版本與涵蓋資料不一致");
     }
-    const date = String(manifest.data_retrieved_at || manifest.built_at || "").slice(0, 10) || "日期未提供";
+    const date = showFreshnessWarning(manifest.data_retrieved_at);
     const count = manifest.document_count.toLocaleString("zh-TW");
     const fingerprint = /^[a-f0-9]{64}$/u.test(manifest.dataset_sha256 ?? "")
       ? manifest.dataset_sha256.slice(0, 12)
@@ -550,6 +594,7 @@ Promise.all([
     ].join("｜");
   })
   .catch(() => {
+    showFreshnessWarning("");
     dataVersion.textContent = "資料版本：無法讀取，請勿據此判斷資料已更新。";
     coverageSummary.textContent = "資料涵蓋：無法讀取，請勿假設資料完整。";
   });
