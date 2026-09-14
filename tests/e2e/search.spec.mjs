@@ -100,3 +100,29 @@ test("手機寬度仍能搜尋單一藥品", async ({ page }) => {
   await expect(page.locator("#results article")).toHaveCount(1);
   await expect(page.locator("#status")).toHaveText("找到 1 筆結果。");
 });
+
+test("網址可帶入查詢、分享 AND OR NOT，並拒絕過大的查詢", async ({ page }) => {
+  await page.goto("/?q=測試藥證字第000001號");
+  await expect(page.locator("#all-terms")).toHaveValue("測試藥證字第000001號");
+  await expect(page.locator("#results article")).toHaveCount(1);
+  await expect(page.locator("#status")).toHaveText("找到 1 筆結果。");
+
+  await search(page, { all: "噁心", any: "懷孕 嘔吐", excluded: "腹瀉" });
+  const shared = new URL(page.url());
+  expect(shared.searchParams.get("q")).toBe("噁心");
+  expect(shared.searchParams.get("any")).toBe("懷孕 嘔吐");
+  expect(shared.searchParams.get("exclude")).toBe("腹瀉");
+  expect(shared.searchParams.has("all")).toBe(false);
+  expect(shared.searchParams.has("not")).toBe(false);
+
+  await search(page, { all: "甲乙 丙丁 戊己 庚辛 壬癸 子丑 寅卯 辰巳 午未 申酉 戌亥" });
+  await expect(page.locator("#status")).toHaveText("三個欄位合計最多 10 個關鍵字。");
+
+  await search(page, { all: "測".repeat(81) });
+  await expect(page.locator("#status")).toHaveText("每個關鍵字需要 2 到 80 個字元。");
+
+  await page.goto("/?all=噁心&not=腹瀉");
+  await expect(page.locator("#status")).toHaveText("找到 2 筆結果。");
+  expect(new URL(page.url()).searchParams.get("q")).toBe("噁心");
+  expect(new URL(page.url()).searchParams.get("exclude")).toBe("腹瀉");
+});

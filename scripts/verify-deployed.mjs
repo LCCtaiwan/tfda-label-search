@@ -167,8 +167,19 @@ export async function verifyDeployment(options) {
     const document = payload.catalog?.documents?.find((item) => item.license_no);
     if (!document) throw new Error("正式網站目錄沒有可用藥證");
 
-    await page.locator("#all-terms").fill(document.license_no);
-    await page.getByRole("button", { name: "搜尋仿單" }).click();
+    const deepLink = new URL(target.href);
+    deepLink.searchParams.set("q", document.license_no);
+    const deepLinkResponse = await page.goto(deepLink.href, {
+      waitUntil: "networkidle",
+      timeout: 30_000,
+    });
+    if (!deepLinkResponse?.ok()) {
+      throw new Error(`深連結首頁回應失敗：HTTP ${deepLinkResponse?.status() ?? "unknown"}`);
+    }
+    await page.locator("#all-terms").waitFor();
+    if (await page.locator("#all-terms").inputValue() !== document.license_no) {
+      throw new Error("正式網站沒有把 q 深連結帶入 AND 欄");
+    }
     await page.locator("#results article").first().waitFor({ timeout: 30_000 });
     const resultCount = await page.locator("#results article").count();
     if (resultCount < 1) throw new Error(`完整藥證搜尋沒有結果：${document.license_no}`);
@@ -185,6 +196,7 @@ export async function verifyDeployment(options) {
       official_snapshot_id: payload.identity.official_snapshot_id,
       data_retrieved_at: payload.identity.data_retrieved_at,
       query: document.license_no,
+      query_parameter: "q",
       result_count: resultCount,
       coverage: {
         document_count: payload.coverage.document_count,

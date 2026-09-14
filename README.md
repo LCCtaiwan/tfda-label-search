@@ -32,6 +32,8 @@ Pagefind 已通過 1,000 與 5,000 份合成容量試驗；正式發布前仍需
 - 本專案負責全臺藥品仿單、健保及官方安全資訊。
 - 兩個網站可用網址參數互相連結，但各自建置、更新及回滾。
 
+新網站接受 `q`（AND）、`any`（OR）與 `exclude`（NOT）網址參數，載入後會自動搜尋；完整格式與 ChemoDrugStable 串接邊界見 `docs/integration.md`。正式網址確定前不修改既有 ChemoDrugStable。
+
 ## 本機執行
 
 需求：Python 3、Node.js 20 以上。
@@ -50,7 +52,7 @@ npm run serve
 
 第一次在本機跑端到端測試前，需先執行 `npx playwright install chromium`。GitHub CI 會自動安裝瀏覽器。
 
-開啟 `http://localhost:8000` 後，可以輸入任意至少兩個字元的中文或英文文字。AND 欄每個詞都必須同時出現在同一章；OR 欄符合任一詞即可；NOT 欄會排除含有該詞的章節。結果每次顯示 50 筆，可按「載入更多結果」繼續查看。
+開啟 `http://localhost:8000` 後，可以輸入任意 2–80 個字元的中文或英文文字，三欄合計最多 10 個詞。AND 欄每個詞都必須同時出現在同一章；OR 欄符合任一詞即可；NOT 欄會排除含有該詞的章節。結果每次顯示 50 筆，可按「載入更多結果」繼續查看；搜尋後可直接複製網址分享。
 
 目前已完成第一個小型可操作版本。先閱讀：
 
@@ -64,6 +66,7 @@ npm run serve
 - `docs/publication-rights.md`：官方開放資料、結構化仿單及第三方程式的公開使用依據與排除範圍。
 - `docs/capacity-study.md`：1,000／5,000 份容量試驗、被淘汰的舊架構與瀏覽器結果。
 - `docs/synonyms.md`：人工同義詞的草稿、藥師審查、衝突檢查與發布方式。
+- `docs/integration.md`：`q`／`any`／`exclude` 深連結及與 ChemoDrugStable 的隔離串接方式。
 - `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
 - `docs/supervisor-guide.md`：主管核准與部署後檢查小抄。
 - `docs/completion-audit.md`：逐項區分已證明、尚未證明與必須取得的外部授權。

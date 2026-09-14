@@ -7,6 +7,8 @@ const results = document.querySelector("#results");
 const loadMoreButton = document.querySelector("#load-more");
 const dataVersion = document.querySelector("#data-version");
 const coverageSummary = document.querySelector("#coverage-summary");
+const MAX_TERMS = 10;
+const MAX_TERM_LENGTH = 80;
 
 let pagefindPromise;
 let synonymsPromise;
@@ -20,7 +22,17 @@ function terms(value) {
 }
 
 function validTerm(value) {
-  return [...value].length >= 2;
+  const length = [...value].length;
+  return length >= 2 && length <= MAX_TERM_LENGTH;
+}
+
+function updateSearchUrl(query) {
+  const next = new URL(location.href);
+  next.search = "";
+  if (query.all.length) next.searchParams.set("q", query.all.join(" "));
+  if (query.any.length) next.searchParams.set("any", query.any.join(" "));
+  if (query.excluded.length) next.searchParams.set("exclude", query.excluded.join(" "));
+  history.replaceState(null, "", next);
 }
 
 async function pagefind() {
@@ -303,14 +315,20 @@ async function runSearch(event) {
   loadMoreButton.hidden = true;
 
   if (!all.length && !any.length) {
+    updateSearchUrl({ all, any, excluded });
     status.textContent = "請在 AND 或 OR 至少輸入一個關鍵字。";
     return;
   }
   if (supplied.some((item) => !validTerm(item))) {
-    status.textContent = "每個關鍵字至少需要兩個字元。";
+    status.textContent = `每個關鍵字需要 2 到 ${MAX_TERM_LENGTH} 個字元。`;
+    return;
+  }
+  if (supplied.length > MAX_TERMS) {
+    status.textContent = `三個欄位合計最多 ${MAX_TERMS} 個關鍵字。`;
     return;
   }
 
+  updateSearchUrl({ all, any, excluded });
   status.textContent = "搜尋中…";
   try {
     const [engine, synonymMap, catalogDocuments] = await Promise.all([pagefind(), synonyms(), catalog()]);
@@ -390,5 +408,7 @@ Promise.all([
   });
 
 const params = new URLSearchParams(location.search);
-allInput.value = params.get("q") ?? "";
-if (allInput.value) form.requestSubmit();
+allInput.value = params.get("q") ?? params.get("all") ?? "";
+anyInput.value = params.get("any") ?? "";
+excludeInput.value = params.get("exclude") ?? params.get("not") ?? "";
+if (allInput.value || anyInput.value) form.requestSubmit();

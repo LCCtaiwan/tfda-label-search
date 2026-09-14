@@ -23,18 +23,19 @@
 
       <form id="search-form" novalidate>
         <label for="all-terms">全部包含（AND）</label>
-        <input id="all-terms" name="all" autocomplete="off" placeholder="例如：腎功能不全">
+        <input id="all-terms" name="all" autocomplete="off" maxlength="500" placeholder="例如：腎功能不全">
 
         <div class="advanced">
           <label for="any-terms">任一包含（OR）</label>
-          <input id="any-terms" name="any" autocomplete="off" placeholder="例如：噁心 嘔吐">
+          <input id="any-terms" name="any" autocomplete="off" maxlength="500" placeholder="例如：噁心 嘔吐">
 
           <label for="exclude-terms">排除（NOT）</label>
-          <input id="exclude-terms" name="exclude" autocomplete="off" placeholder="例如：動物試驗">
+          <input id="exclude-terms" name="exclude" autocomplete="off" maxlength="500" placeholder="例如：動物試驗">
         </div>
 
         <button type="submit">搜尋仿單</button>
       </form>
+      <p class="query-hint">搜尋後可直接複製瀏覽器網址，分享相同的 AND／OR／NOT 查詢。</p>
 
       <p id="status" role="status">請輸入至少兩個中文字或兩個英文字母。</p>
       <section id="results" aria-label="搜尋結果"></section>

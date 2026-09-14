@@ -10,7 +10,8 @@
 | 版本發布與失敗保護 | pass（離線） | 不可變 release、九 raw 重驗、每張 downloaded 檔案對應、程式／資料完整 SHA 身分證、指定舊 SHA 回滾入口、完整 `data-state → candidate Pages` 演練 | 尚未對真正的 GitHub environment 做拒絕／回滾演練 |
 | Pagefind 任意中文與英文 | pass（fixtures） | Chromium 自動查詢「噁心、懷孕、腎功能不全、Nausea」及 5000 份容量搜尋 | 仍需長短不同真實仿單的召回品質抽查 |
 | 藥名、成分、藥證、健保碼 | pass（fixtures） | 精確 metadata 目錄、健保唯一藥證連接、完整中文藥證與去重 Chromium 測試 | 仍需正式全量健保連接報告 |
-| AND／OR／NOT、人工同義詞、分批結果 | pass（fixtures） | 6 個 Chromium 測試含 AND／OR／NOT、50→100 筆；同義詞建置會要求審查人／日期、拒絕重複與衝突、排除草稿，且英文大小寫正規化已實測 | 正式同義詞檔仍為空，需藥師核准第一組詞 |
+| 網址深連結與跨站導流 | partial | `q`／`any`／`exclude` 可自動搜尋並同步分享網址；相容 `all`／`not`；Chromium 已驗證完整藥證、AND／OR／NOT 與過大輸入拒絕 | 正式 Pages 網址尚未建立，因此尚未修改或實測 ChemoDrugStable 連結 |
+| AND／OR／NOT、人工同義詞、分批結果 | pass（fixtures） | 7 個 Chromium 測試含 AND／OR／NOT、50→100 筆；同義詞建置會要求審查人／日期、拒絕重複與衝突、排除草稿，且英文大小寫正規化已實測 | 正式同義詞檔仍為空，需藥師核准第一組詞 |
 | 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256；metadata-only Chromium 驗證官方仿單檔案按鈕 | 正式站仍需人工抽查官方連結 |
 | 資料涵蓋與缺件報告 | partial | release 與公開 `data/coverage.json` 分開計算有可搜尋文字、只有官方檔案、文字與檔案皆無；頁面與部署 smoke 都會交叉核對總數；Chromium 已驗證可見摘要 | 尚未取得正式資料，不能區分實際可讀 PDF、圖片或失效連結，也不能產生全臺真實涵蓋率 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
@@ -24,12 +25,12 @@
 
 ```text
 npm test                    65 passed（56 Python + 9 Node）
-npm run test:e2e             6 passed（Chromium）
+npm run test:e2e             7 passed（Chromium）
 offline deployment rehearsal 1 passed（已包含在 Python 測試）
 workflow YAML parse          3 passed
 npm audit                    0 vulnerabilities
 publication preflight        ready: true，7 checks
-local deployment smoke       ready: true，release／兩個完整 SHA／snapshot／資料時間／114 份涵蓋相符，完整藥證 1 筆，console 0
+local deployment smoke       ready: true，release／兩個完整 SHA／snapshot／資料時間／114 份涵蓋相符，q 深連結完整藥證 1 筆，console 0
 5000-document build          103 MB，最近一次 23.23 秒
 ```
 
