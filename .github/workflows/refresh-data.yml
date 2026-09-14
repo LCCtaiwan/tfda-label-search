@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       max_items:
-        description: "本輪最多查幾張結構化仿單；TFDA 尚未公布速率，先小批執行"
+        description: "初次建庫本輪最多逐張查幾張仿單；不限制日期增量回傳筆數"
         required: true
         default: "25"
         type: choice
@@ -21,7 +21,7 @@ on:
           - "reuse_existing"
           - "refresh_all_nine"
       max_update_windows:
-        description: "初次建庫完成後，本輪最多補幾個 10 日更新窗"
+        description: "增量本輪最多幾個 10 日窗；每窗回傳份數由 TFDA 決定"
         required: true
         default: "1"
         type: choice
@@ -30,7 +30,12 @@ on:
           - "2"
           - "3"
       authorization_ack:
-        description: "我確認本次執行已獲准呼叫 TFDA，並接受上方數量與日期窗上限"
+        description: "我確認本輪已獲准下載九來源及執行最多 max_items 次逐張仿單查詢"
+        required: true
+        default: false
+        type: boolean
+      incremental_authorization_ack:
+        description: "若已進入增量：我另行獲准執行日期窗，且了解回傳可能超過 25 份"
         required: true
         default: false
         type: boolean
@@ -117,6 +122,7 @@ jobs:
           --output-dir structured
           --max-initial-items "${{ inputs.max_items }}"
           --max-update-windows "${{ inputs.max_update_windows }}"
+          --incremental-authorization "${{ inputs.incremental_authorization_ack && 'authorized' || 'not_authorized' }}"
           --request-delay 2
           --report "${{ runner.temp }}/structured-sync.json"
 

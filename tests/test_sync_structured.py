@@ -4,7 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from tools.pipeline.sync_structured import sync_structured
+from tools.pipeline.sync_structured import IncrementalAuthorizationError, sync_structured
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -44,11 +44,23 @@ class StructuredSyncTests(unittest.TestCase):
             )
             state = json.loads((output / "state.json").read_text(encoding="utf-8"))
             through = date.fromisoformat(state["initial_started_on"])
+            with self.assertRaisesRegex(IncrementalAuthorizationError, "另行明確授權"):
+                sync_structured(
+                    LICENSES,
+                    output,
+                    max_initial_items=10,
+                    max_update_windows=1,
+                    request_delay=0,
+                    through_date=through,
+                    fetch_initial=lambda _query: self.fail("完成品不應重抓逐藥證"),
+                    fetch_incremental=lambda _query: self.fail("未授權不應執行增量請求"),
+                )
             second = sync_structured(
                 LICENSES,
                 output,
                 max_initial_items=10,
                 max_update_windows=1,
+                allow_incremental=True,
                 request_delay=0,
                 through_date=through,
                 fetch_initial=lambda _query: self.fail("完成品不應重抓逐藥證"),
@@ -80,6 +92,7 @@ class StructuredSyncTests(unittest.TestCase):
                 LICENSES,
                 output,
                 request_delay=0,
+                allow_incremental=True,
                 through_date=first_day,
                 fetch_initial=lambda _query: self.fail("不應重抓完成品"),
                 fetch_incremental=lambda _query: b"<ROOTDOCUMENT></ROOTDOCUMENT>",
@@ -97,6 +110,7 @@ class StructuredSyncTests(unittest.TestCase):
                 LICENSES,
                 output,
                 request_delay=0,
+                allow_incremental=True,
                 through_date=first_day,
                 fetch_initial=lambda _query: self.fail("增量期不應逐張重查無仿單"),
                 fetch_incremental=lambda _query: self.fail("已追到日期不應再呼叫 API"),

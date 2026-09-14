@@ -243,6 +243,14 @@ npm run serve
 - 測試確認新 snapshot 回報 0 天、2020 年 snapshot 被拒絕，並以 workflow 文字順序證明年齡門檻早於仿單同步。
 - 完整驗收通過：58 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
 
+### 2026-09-15：C-024 初次逐張與日期增量分開授權
+
+- 授權稽核發現 workflow 的 `max_items=25` 只限制初次逐藥證查詢；初次完成後，同一流程會改用 10 日日期窗，而 TFDA 可以在單一回應中提供超過 25 份仿單。原本一個 `authorization_ack` 容易讓管理者誤以為整輪永遠不超過 25 份。
+- workflow 將 `max_items` 明確改稱初次建庫上限，`max_update_windows` 說明回傳份數由 TFDA 決定，並新增預設關閉的 `incremental_authorization_ack`。
+- `sync_structured.py` 新增獨立增量授權參數；初次完成且準備呼叫日期 API 時，未授權會在 fetch 前拋出清楚錯誤。
+- 測試先完成初次建庫，再證明未授權時 `fetch_incremental` 為零次呼叫；傳入授權後才執行一個日期窗。部分初次建庫仍只受原本逐張授權控制。
+- 完整驗收通過：58 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
+
 ## Verification Status
 
 - 規格：使用者已確認。

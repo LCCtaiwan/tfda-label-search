@@ -61,6 +61,7 @@ class OfflineDeploymentTests(unittest.TestCase):
                 official_current / "raw" / "licenses.raw",
                 structured,
                 max_initial_items=100,
+                allow_incremental=True,
                 request_delay=0,
                 through_date=date.fromisoformat(initial_state["initial_started_on"]),
                 fetch_initial=lambda _query: self.fail("完成後不應重抓逐藥證"),

@@ -20,12 +20,17 @@ from tools.pipeline.fetch_updates import closed_through_date, fetch_updates
 from tools.pipeline.static_release import atomic_json
 
 
+class IncrementalAuthorizationError(RuntimeError):
+    """The next date-window request was not explicitly authorized."""
+
+
 def sync_structured(
     license_source: Path,
     output_dir: Path,
     *,
     max_initial_items: int = 100,
     max_update_windows: int = 1,
+    allow_incremental: bool = False,
     request_delay: float = 2.0,
     through_date: date,
     fetch_initial: Callable[[Query], bytes] = fetch_xml,
@@ -64,6 +69,11 @@ def sync_structured(
         }
         return report
 
+    if not allow_incremental:
+        raise IncrementalAuthorizationError(
+            "下一步是 TFDA 日期增量查詢；10 日窗回傳的仿單份數由 TFDA 決定，"
+            "必須另行明確授權"
+        )
     report["phase"] = "incremental"
     report["incremental"] = fetch_updates(
         license_source,
@@ -83,6 +93,11 @@ def main() -> None:
     parser.add_argument("--output-dir", type=Path, required=True)
     parser.add_argument("--max-initial-items", type=int, default=100)
     parser.add_argument("--max-update-windows", type=int, default=1)
+    parser.add_argument(
+        "--incremental-authorization",
+        choices=("authorized", "not_authorized"),
+        default="not_authorized",
+    )
     parser.add_argument("--request-delay", type=float, default=2.0)
     parser.add_argument("--through-date", type=date.fromisoformat)
     parser.add_argument("--report", type=Path, required=True)
@@ -92,6 +107,7 @@ def main() -> None:
         args.output_dir,
         max_initial_items=args.max_initial_items,
         max_update_windows=args.max_update_windows,
+        allow_incremental=args.incremental_authorization == "authorized",
         request_delay=args.request_delay,
         through_date=args.through_date or closed_through_date(),
     )

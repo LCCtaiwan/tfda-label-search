@@ -170,3 +170,11 @@
 - `validate_official_snapshot.py` 新增 `--max-age-days`，預檢報告會保存 `age_days`。
 - 正式資料 workflow 固定使用 14 天；過期時要求重新下載九個官方來源，不進入 `sync_structured.py`。
 - 測試同時確認過期拒絕、預檢年齡報告及 workflow 執行順序，避免浪費官方 API 請求。
+
+## C-024
+
+- 釐清「最多 25 張」只限制初次逐藥證查詢，不限制 TFDA 日期增量回應的文件數。
+- 資料 workflow 新增預設關閉的 `incremental_authorization_ack`，日期窗必須另行明確授權。
+- `sync_structured.py` 在呼叫日期 API 前強制檢查授權；未授權時說明 10 日窗回傳份數由 TFDA 決定並停止。
+- workflow 文字分開說明逐張數量與日期窗數量，不再用單一勾選讓兩種請求看似相同。
+- 測試確認初次建庫不受影響，完成後未授權時為零次增量請求，授權後才執行一個日期窗。

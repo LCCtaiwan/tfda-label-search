@@ -16,6 +16,12 @@ class WorkflowGuardTests(unittest.TestCase):
             workflow.index("official_snapshot.py"),
         )
         self.assertIn("inputs.authorization_ack != true", workflow)
+        self.assertIn("incremental_authorization_ack:", workflow)
+        self.assertIn("回傳可能超過 25 份", workflow)
+        self.assertIn(
+            "--incremental-authorization \"${{ inputs.incremental_authorization_ack && 'authorized' || 'not_authorized' }}\"",
+            workflow,
+        )
         self.assertRegex(
             workflow,
             r"max_items:\n(?:.*\n){0,4}\s+default: \"25\"",
