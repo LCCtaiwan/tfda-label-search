@@ -19,6 +19,8 @@ input { width: 100%; min-height: 46px; padding: 10px 12px; border: 1px solid #9a
 button { min-height: 48px; margin-top: 8px; border: 0; border-radius: 8px; background: #176c72; color: white; font: inherit; font-weight: 700; cursor: pointer; }
 #status { min-height: 24px; color: #40525a; }
 #results { display: grid; gap: 16px; }
+.load-more { width: 100%; margin-top: 18px; }
+.load-more[hidden] { display: none; }
 article { padding: 20px; background: white; border: 1px solid #d8e0e3; border-radius: 14px; }
 .drug-name { margin: 0; }
 .english-name, .metadata { color: #51656d; }

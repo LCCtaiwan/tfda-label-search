@@ -86,7 +86,6 @@ async function build({ inputs, output }) {
   });
 
   const seenDocuments = new Set();
-  const seenRecords = new Set();
   let documentCount = 0;
   let sectionCount = 0;
   let recordCount = 0;
@@ -140,15 +139,14 @@ async function build({ inputs, output }) {
         "utf8",
       );
 
-      const metadataRecordId = stableId(documentKey, "__metadata__");
-      if (seenRecords.has(metadataRecordId)) throw new Error(`重複藥品記錄：${metadataRecordId}`);
-      seenRecords.add(metadataRecordId);
-      const metadataContent = [
+      sectionCount += safeDocument.sections.length;
+      const documentContent = [
         safeDocument.drug_name_zh,
         safeDocument.drug_name_en,
         safeDocument.license_no,
         safeDocument.ingredients.map((item) => `${item.name} ${item.amount}`).join(" "),
         safeDocument.nhi_items.map((item) => `${item.code} ${item.atc_code} ${item.benefit_chapter}`).join(" "),
+        ...safeDocument.sections.map((section) => `${section.path.join(" ")} ${section.search_text}`),
       ].filter(Boolean).join("\n");
       const documentMeta = {
         title: safeDocument.drug_name_zh || safeDocument.drug_name_en || safeDocument.license_no,
@@ -163,60 +161,21 @@ async function build({ inputs, output }) {
         document_path: documentPath,
         official_url: safeDocument.official_url,
       };
-      const metadataResult = await index.addCustomRecord({
-        url: `./?record=${metadataRecordId}`,
-        content: metadataContent,
+      const { errors } = await index.addCustomRecord({
+        url: `./?document=${documentId}`,
+        content: documentContent,
         language: "zh",
         meta: {
           ...documentMeta,
-          record_type: "label_metadata",
-          section_id: "",
-          section_title: "藥品資料",
-          section_path: "藥品資料",
-          record_id: metadataRecordId,
+          record_type: "document",
+          record_id: documentId,
         },
         filters: { source_kind: [safeDocument.source_kind || "unknown"] },
       });
-      if (metadataResult.errors?.length) {
-        throw new Error(`Pagefind 無法加入 ${metadataRecordId}：${metadataResult.errors.join("；")}`);
+      if (errors?.length) {
+        throw new Error(`Pagefind 無法加入 ${documentId}：${errors.join("；")}`);
       }
       recordCount += 1;
-
-      for (const section of safeDocument.sections) {
-        const content = [
-          section.path.join(" "),
-          section.search_text,
-        ].filter(Boolean).join("\n");
-        if (!content) continue;
-
-        const recordId = stableId(documentKey, section.id || String(sectionCount));
-        if (seenRecords.has(recordId)) throw new Error(`重複章節記錄：${recordId}`);
-        seenRecords.add(recordId);
-        sectionCount += 1;
-
-        const { errors } = await index.addCustomRecord({
-          // Pagefind uses URL as the record identity. A unique local URL keeps
-          // every section searchable instead of collapsing one drug to one hit.
-          url: `./?section=${recordId}`,
-          content,
-          language: "zh",
-          meta: {
-            title: section.title || "仿單章節",
-            record_type: "section",
-            section_id: section.id,
-            section_title: section.title,
-            section_path: section.path.join(" › "),
-            document_path: documentPath,
-            official_url: safeDocument.official_url,
-            record_id: recordId,
-          },
-          filters: {
-            source_kind: [safeDocument.source_kind || "unknown"],
-          },
-        });
-        if (errors?.length) throw new Error(`Pagefind 無法加入 ${recordId}：${errors.join("；")}`);
-        recordCount += 1;
-      }
     }
   }
 

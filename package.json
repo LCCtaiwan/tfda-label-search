@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-pagefind.mjs",
+    "fixture:capacity": "node scripts/generate-capacity-fixture.mjs",
     "serve": "python3 -m http.server 8000 --directory site",
     "test": "npm run test:pagefind && npm run test:python",
-    "test:pagefind": "node --test tests/pagefind-build.test.mjs",
+    "test:pagefind": "node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs",
     "test:python": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
   },
   "devDependencies": {

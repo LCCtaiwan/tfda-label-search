@@ -4,9 +4,12 @@ const anyInput = document.querySelector("#any-terms");
 const excludeInput = document.querySelector("#exclude-terms");
 const status = document.querySelector("#status");
 const results = document.querySelector("#results");
+const loadMoreButton = document.querySelector("#load-more");
 
 let pagefindPromise;
 let synonymsPromise;
+let activeSearch;
+let searchGeneration = 0;
 const documentCache = new Map();
 
 function terms(value) {
@@ -88,13 +91,6 @@ async function loadDocument(meta) {
   return documentCache.get(documentPath);
 }
 
-async function loadSection(meta) {
-  const document = await loadDocument(meta);
-  const section = document.sections?.find((item) => item.id === meta.section_id);
-  if (!section) throw new Error("找不到對應的章節原文");
-  return section;
-}
-
 function addText(parent, tag, className, value) {
   const element = document.createElement(tag);
   if (className) element.className = className;
@@ -103,31 +99,112 @@ function addText(parent, tag, className, value) {
   return element;
 }
 
-async function render(found) {
-  results.replaceChildren();
-  const selected = [...found.values()].slice(0, 50);
-  const records = await Promise.all(selected.map((item) => item.data()));
-  const documents = await Promise.all(records.map((record) =>
-    loadDocument(record.meta ?? {}).catch(() => null)
-  ));
-  status.textContent = `找到 ${found.size} 筆結果，顯示前 ${records.length} 筆。`;
+function normalized(value) {
+  return String(value ?? "").normalize("NFKC").toLocaleLowerCase("zh-TW");
+}
 
-  for (const [index, record] of records.entries()) {
-    const meta = record.meta ?? {};
-    const source = documents[index] ?? {};
+function expanded(term, synonymMap) {
+  return synonymMap.get(term) ?? [term];
+}
+
+function includesGroup(text, term, synonymMap) {
+  const haystack = normalized(text);
+  return expanded(term, synonymMap).some((item) => haystack.includes(normalized(item)));
+}
+
+function matches(text, query, synonymMap) {
+  if (!query.all.every((term) => includesGroup(text, term, synonymMap))) return false;
+  if (query.any.length && !query.any.some((term) => includesGroup(text, term, synonymMap))) return false;
+  if (query.excluded.some((term) => includesGroup(text, term, synonymMap))) return false;
+  return true;
+}
+
+function metadataText(source) {
+  return [
+    source.drug_name_zh,
+    source.drug_name_en,
+    source.license_no,
+    ...(source.ingredients ?? []).flatMap((item) => [item.name, item.amount]),
+    ...(source.nhi_items ?? []).flatMap((item) => [item.code, item.atc_code, item.benefit_chapter]),
+  ].filter(Boolean).join(" ");
+}
+
+function sectionText(section) {
+  return [...(section.path ?? []), section.title, section.search_text, section.content_text]
+    .filter(Boolean).join(" ");
+}
+
+function createSearchState(found, query, synonymMap) {
+  return {
+    candidates: [...found.values()],
+    candidateIndex: 0,
+    current: null,
+    sectionIndex: 0,
+    metadataChecked: false,
+    displayed: 0,
+    query,
+    synonymMap,
+    exhausted: false,
+  };
+}
+
+async function collectNext(state, limit = 50) {
+  const entries = [];
+  while (entries.length < limit && state.candidateIndex < state.candidates.length) {
+    if (!state.current) {
+      const record = await state.candidates[state.candidateIndex].data();
+      const meta = record.meta ?? {};
+      const source = await loadDocument(meta);
+      state.current = { record, meta, source };
+      state.sectionIndex = 0;
+      state.metadataChecked = false;
+    }
+
+    const { record, meta, source } = state.current;
+    if (!state.metadataChecked) {
+      state.metadataChecked = true;
+      if (matches(metadataText(source), state.query, state.synonymMap)) {
+        entries.push({ record, meta, source, section: null });
+      }
+      if (entries.length >= limit) break;
+    }
+
+    const sections = source.sections ?? [];
+    while (entries.length < limit && state.sectionIndex < sections.length) {
+      const section = sections[state.sectionIndex];
+      state.sectionIndex += 1;
+      if (matches(sectionText(section), state.query, state.synonymMap)) {
+        entries.push({ record, meta, source, section });
+      }
+    }
+
+    if (state.sectionIndex >= sections.length) {
+      state.current = null;
+      state.candidateIndex += 1;
+    }
+  }
+  state.exhausted = state.candidateIndex >= state.candidates.length && !state.current;
+  return entries;
+}
+
+function appendEntries(entries) {
+  for (const { record, meta, source, section } of entries) {
     const ingredientText = meta.ingredients || (source.ingredients ?? []).map((item) => item.name).filter(Boolean).join("、");
     const nhiCodeText = meta.nhi_codes || (source.nhi_items ?? []).map((item) => item.code).filter(Boolean).join("、");
     const atcText = meta.atc_codes || [...new Set((source.nhi_items ?? []).map((item) => item.atc_code).filter(Boolean))].join("、");
     const card = document.createElement("article");
     addText(card, "h2", "drug-name", meta.drug_name_zh || source.drug_name_zh || meta.drug_name_en || source.drug_name_en || "未命名藥品");
     addText(card, "p", "english-name", meta.drug_name_en || source.drug_name_en || "");
-    addText(card, "p", "metadata", `${meta.license_no || source.license_no || "無藥證"}｜仿單第 ${meta.version || source.version || "?"} 版｜${meta.approved_at || source.approved_at || "日期未提供"}`);
+    const versionText = source.source_kind === "metadata_only"
+      ? "尚無結構化電子仿單文字"
+      : `仿單第 ${meta.version || source.version || "?"} 版｜${meta.approved_at || source.approved_at || "日期未提供"}`;
+    addText(card, "p", "metadata", `${meta.license_no || source.license_no || "無藥證"}｜${versionText}`);
     if (ingredientText) addText(card, "p", "metadata", `成分：${ingredientText}`);
     if (nhiCodeText) addText(card, "p", "metadata", `健保碼：${nhiCodeText}${atcText ? `｜ATC：${atcText}` : ""}`);
-    addText(card, "h3", "section-title", meta.section_path || meta.section_title || "未標示章節");
-    addText(card, "p", "excerpt", record.plain_excerpt || "命中摘要未提供");
+    addText(card, "h3", "section-title", section ? (section.path ?? []).join(" › ") || section.title || "未標示章節" : "藥品資料");
+    addText(card, "p", "excerpt", section ? (section.search_text || section.content_text || "本章沒有文字內容").slice(0, 260) : record.plain_excerpt || "藥品資料命中");
 
-    if (meta.record_type === "section") {
+    if (section) {
       const details = document.createElement("details");
       const summary = document.createElement("summary");
       summary.textContent = "查看本章原文";
@@ -138,7 +215,6 @@ async function render(found) {
         if (!details.open || details.dataset.loaded) return;
         details.dataset.loaded = "true";
         try {
-          const section = await loadSection(meta);
           original.textContent = section.content_text || section.search_text || "本章沒有文字內容";
         } catch (error) {
           original.textContent = error instanceof Error ? error.message : "原文載入失敗";
@@ -160,13 +236,30 @@ async function render(found) {
   }
 }
 
+async function showNext(state, generation) {
+  loadMoreButton.disabled = true;
+  status.textContent = state.displayed ? "正在載入更多…" : "搜尋中…";
+  const entries = await collectNext(state);
+  if (generation !== searchGeneration) return;
+  appendEntries(entries);
+  state.displayed += entries.length;
+  loadMoreButton.disabled = false;
+  loadMoreButton.hidden = state.exhausted;
+  status.textContent = state.exhausted
+    ? `找到 ${state.displayed} 筆結果。`
+    : `已顯示 ${state.displayed} 筆，尚有更多結果。`;
+}
+
 async function runSearch(event) {
   event.preventDefault();
   const all = terms(allInput.value);
   const any = terms(anyInput.value);
   const excluded = terms(excludeInput.value);
   const supplied = [...all, ...any, ...excluded];
+  const generation = ++searchGeneration;
+  activeSearch = null;
   results.replaceChildren();
+  loadMoreButton.hidden = true;
 
   if (!all.length && !any.length) {
     status.textContent = "請在 AND 或 OR 至少輸入一個關鍵字。";
@@ -185,16 +278,22 @@ async function runSearch(event) {
     let found = allGroups.length ? allGroups.reduce(intersect) : union(anyGroups);
     if (allGroups.length && anyGroups.length) found = intersect(found, union(anyGroups));
 
-    const excludedGroups = await Promise.all(excluded.map((item) => searchGroup(engine, item, synonymMap)));
-    const rejected = union(excludedGroups);
-    found = new Map([...found].filter(([key]) => !rejected.has(key)));
-    await render(found);
+    activeSearch = createSearchState(found, { all, any, excluded }, synonymMap);
+    await showNext(activeSearch, generation);
   } catch (error) {
+    if (generation !== searchGeneration) return;
     status.textContent = error instanceof Error ? error.message : "搜尋失敗";
   }
 }
 
 form.addEventListener("submit", runSearch);
+loadMoreButton.addEventListener("click", () => {
+  if (!activeSearch || activeSearch.exhausted) return;
+  showNext(activeSearch, searchGeneration).catch((error) => {
+    status.textContent = error instanceof Error ? error.message : "載入更多結果失敗";
+    loadMoreButton.disabled = false;
+  });
+});
 
 const params = new URLSearchParams(location.search);
 allInput.value = params.get("q") ?? "";

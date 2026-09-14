@@ -7,7 +7,7 @@ import test from "node:test";
 
 const root = path.resolve(import.meta.dirname, "..");
 
-test("builds one searchable record per section without publishing raw HTML", async () => {
+test("builds one searchable record per document without publishing raw HTML", async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "tfda-pagefind-test-"));
   const output = path.join(temporaryRoot, "site");
 
@@ -23,7 +23,7 @@ test("builds one searchable record per section without publishing raw HTML", asy
     const manifest = JSON.parse(await readFile(path.join(output, "data", "manifest.json"), "utf8"));
     assert.equal(manifest.document_count, 3);
     assert.equal(manifest.section_count, 4);
-    assert.equal(manifest.record_count, 7);
+    assert.equal(manifest.record_count, 3);
 
     const documents = await readdir(path.join(output, "data", "documents"));
     assert.equal(documents.length, 3);

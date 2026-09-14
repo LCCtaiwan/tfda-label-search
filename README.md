@@ -14,11 +14,11 @@
 
 - GitHub Pages：公開查詢網站。
 - GitHub Actions：定期取得及驗證官方資料。
-- Pagefind：依仿單章節建立靜態全文搜尋索引。
+- Pagefind：每份仿單建立一筆候選索引；命中後再由瀏覽器逐章精確比對。
 - TFDA 結構化電子仿單 API：主要仿單文字來源。
 - TFDA 與健保署官方開放資料：藥證、成分、ATC、健保及安全資訊。
 
-Pagefind 必須先通過 1,000 至 5,000 份代表性仿單的容量、繁中短詞與手機效能試驗。通過前不建立正式 Supabase 或 Cloudflare 資料庫。
+Pagefind 已通過 1,000 與 5,000 份合成容量試驗；正式發布前仍需用長短不同的真實仿單驗證涵蓋率與搜尋品質。這之前不建立正式 Supabase 或 Cloudflare 資料庫。
 
 ## 與 ChemoDrugStable 的關係
 
@@ -40,7 +40,7 @@ npm run build -- \
 npm run serve
 ```
 
-開啟 `http://localhost:8000` 後，可以輸入任意至少兩個字元的中文或英文文字。AND 欄每個詞都必須同時出現在同一章；OR 欄符合任一詞即可；NOT 欄會排除含有該詞的章節。
+開啟 `http://localhost:8000` 後，可以輸入任意至少兩個字元的中文或英文文字。AND 欄每個詞都必須同時出現在同一章；OR 欄符合任一詞即可；NOT 欄會排除含有該詞的章節。結果每次顯示 50 筆，可按「載入更多結果」繼續查看。
 
 目前已完成第一個小型可操作版本。先閱讀：
 
@@ -51,6 +51,7 @@ npm run serve
 - `docs/migration-inventory.md`：從既有工作副本移植或重寫的範圍。
 - `docs/static-releases.md`：資料如何驗證、產生新版本，以及失敗時如何保留舊版。
 - `docs/official-sources.md`：官方 API 能做什麼、九組來源、授權與批次下載邊界。
+- `docs/capacity-study.md`：1,000／5,000 份容量試驗、被淘汰的舊架構與瀏覽器結果。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 
