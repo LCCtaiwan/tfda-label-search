@@ -18,7 +18,7 @@ release-root/
 ```
 
 - `sources/`：九組官方來源的正規化快照、來源網址、擷取時間及內容雜湊。
-- `documents.json`：合併目前結構化仿單、成分、健保碼、ATC、安全事件與 PDF 備援連結。
+- `documents.json`：合併目前結構化仿單、成分、健保碼、ATC、安全事件與 TFDA 官方 PDF／圖片備援連結；靜態網站只保存網址，不鏡像檔案。
 - `coverage.json`：有效藥證、結構化仿單及只有 metadata 的數量。
 - `site/`：可直接交給 GitHub Pages 的完整靜態網站。
 - `site/data/release.json`：公開版本身分證，保存 release ID、程式完整 Git SHA、資料完整 Git SHA、官方 snapshot、真實資料擷取時間、來源雜湊與涵蓋率。

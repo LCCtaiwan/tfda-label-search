@@ -90,7 +90,13 @@ function safeDocumentPath(value) {
 function safeOfficialUrl(value) {
   try {
     const url = new URL(value);
-    return url.protocol === "https:" && url.hostname === "mcp.fda.gov.tw" ? url.href : "";
+    return url.protocol === "https:"
+      && url.hostname === "mcp.fda.gov.tw"
+      && !url.username
+      && !url.password
+      && ["", "443"].includes(url.port)
+      ? url.href
+      : "";
   } catch {
     return "";
   }
@@ -247,15 +253,25 @@ function appendEntries(entries) {
       card.append(details);
     }
 
-    const official = safeOfficialUrl(meta.official_url || source.official_url);
-    if (official) {
+    const linkGroup = document.createElement("div");
+    linkGroup.className = "resource-links";
+    const addOfficialLink = (href, label) => {
       const link = document.createElement("a");
-      link.href = official;
+      link.href = href;
       link.target = "_blank";
       link.rel = "noopener noreferrer";
-      link.textContent = "開啟 TFDA 官方電子仿單";
-      card.append(link);
+      link.textContent = label;
+      linkGroup.append(link);
+    };
+    const official = safeOfficialUrl(meta.official_url || source.official_url);
+    if (official) addOfficialLink(official, "開啟 TFDA 官方電子仿單");
+    const rawFileUrls = Array.isArray(source.pdf_urls) ? source.pdf_urls : [];
+    const fileUrls = [...new Set(rawFileUrls.map(safeOfficialUrl).filter(Boolean))];
+    for (const [index, href] of fileUrls.entries()) {
+      const suffix = fileUrls.length > 1 ? ` ${index + 1}` : "";
+      addOfficialLink(href, `開啟 TFDA 官方仿單檔案${suffix}`);
     }
+    if (linkGroup.childElementCount) card.append(linkGroup);
     results.append(card);
   }
 }

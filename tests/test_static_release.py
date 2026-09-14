@@ -68,6 +68,10 @@ class StaticReleaseTests(unittest.TestCase):
             missing = by_license["衛部藥製字第123456號"]
             self.assertEqual(missing["source_kind"], "metadata_only")
             self.assertIn("尚無結構化", missing["sections"][0]["title"])
+            self.assertEqual(
+                missing["pdf_urls"],
+                ["https://mcp.fda.gov.tw/test/123456.pdf"],
+            )
             self.assertTrue((release / "site" / "pagefind" / "pagefind.js").is_file())
             identity = json.loads(
                 (release / "site" / "data" / "release.json").read_text(encoding="utf-8")

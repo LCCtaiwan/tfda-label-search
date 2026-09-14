@@ -11,7 +11,7 @@
 | Pagefind 任意中文與英文 | pass（fixtures） | Chromium 自動查詢「噁心、懷孕、腎功能不全、Nausea」及 5000 份容量搜尋 | 仍需長短不同真實仿單的召回品質抽查 |
 | 藥名、成分、藥證、健保碼 | pass（fixtures） | 精確 metadata 目錄、健保唯一藥證連接、完整中文藥證與去重 Chromium 測試 | 仍需正式全量健保連接報告 |
 | AND／OR／NOT、人工同義詞、分批結果 | pass（fixtures） | 5 個 Chromium 測試含 AND／OR／NOT、只接受 `reviewed: true`、50→100 筆 | 正式同義詞檔仍為空，需藥師核准第一組詞 |
-| 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256 指紋測試 | 正式站仍需人工抽查官方連結 |
+| 顯示章節、原文、版本、日期與官方來源 | pass（fixtures） | 結果卡、可展開原文、TFDA HTTPS 白名單、頁尾資料日期／份數／SHA-256；metadata-only Chromium 驗證官方仿單檔案按鈕 | 正式站仍需人工抽查官方連結 |
 | 代表性容量與繁中短詞 | partial | 1000／5000 份合成容量通過；5000 份 103 MB；繁中短詞與手機資源量測完成 | Goal 明訂的 1000–5000 份「長短不同真實代表性仿單」尚未取得，因此不可判定完成 |
 | 資料品質、安全與公開使用邊界 | pass（本機） | 官方主機白名單、回應／ZIP 上限、CSP、無病人資料、純文字限定、圖片／PDF／標誌排除、官方授權證據與可見署名 preflight | 若日後擴大發布素材範圍，必須重新確認權利 |
 | GitHub Actions 與 Pages | partial | 三份 YAML 可解析；官方 Actions 固定完整 SHA；資料工作預設 25 張、本輪授權確認、九來源重用與 API 前預檢、初始／增量協調、14 天 gate、98% gate、95 MiB 保護、雙鎖、同版檢查器與完整 SHA smoke 均已寫好 | 九來源未提供可用的 HTTP 檔案大小；尚未建立遠端、推送、設定 required reviewer 或實際部署 |
@@ -22,8 +22,8 @@
 ## 已執行的驗證
 
 ```text
-npm test                    60 passed（56 Python + 4 Node）
-npm run test:e2e             5 passed（Chromium）
+npm test                    61 passed（56 Python + 5 Node）
+npm run test:e2e             6 passed（Chromium）
 offline deployment rehearsal 1 passed（已包含在 Python 測試）
 workflow YAML parse          3 passed
 npm audit                    0 vulnerabilities

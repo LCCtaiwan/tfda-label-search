@@ -33,6 +33,31 @@ function officialUrl(licenseNo) {
   return `https://mcp.fda.gov.tw/im_detail_1/${encodeURIComponent(licenseNo)}`;
 }
 
+function officialFileUrls(value, sourcePath) {
+  if (value == null) return [];
+  if (!Array.isArray(value)) throw new Error(`${sourcePath} 的 pdf_urls 必須是清單`);
+  const result = [];
+  for (const raw of value) {
+    let url;
+    try {
+      url = new URL(plain(raw));
+    } catch {
+      throw new Error(`${sourcePath} 含無效的官方仿單檔案網址`);
+    }
+    if (
+      url.protocol !== "https:"
+      || url.hostname !== "mcp.fda.gov.tw"
+      || url.username
+      || url.password
+      || !["", "443"].includes(url.port)
+    ) {
+      throw new Error(`${sourcePath} 的仿單檔案不是 TFDA HTTPS 網址`);
+    }
+    if (!result.includes(url.href)) result.push(url.href);
+  }
+  return result;
+}
+
 function stringList(value) {
   return Array.isArray(value) ? [...new Set(value.map(plain).filter(Boolean))] : [];
 }
@@ -120,6 +145,7 @@ async function build({ inputs, output }) {
         approved_at: plain(document.approved_at),
         source_kind: plain(document.source_kind),
         official_url: officialUrl(plain(document.license_no)),
+        pdf_urls: officialFileUrls(document.pdf_urls, sourcePath),
         ingredients: Array.isArray(document.ingredients) ? document.ingredients.map((item) => ({
           name: plain(item?.name ?? item?.ingredient_name),
           amount: plain(item?.amount_description),

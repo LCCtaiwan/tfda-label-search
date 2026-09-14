@@ -6,7 +6,7 @@
     "endpoint": "local-fixture",
     "query": {}
   },
-  "document_count": 3,
+  "document_count": 4,
   "documents": [
     {
       "id": "TEST-001:1",
@@ -78,6 +78,30 @@
           "path": ["特殊族群注意事項", "孕婦"],
           "content_text": "孕婦使用資料不足，但未記載噁心。",
           "search_text": "8.1 孕婦 孕婦使用資料不足，但未記載噁心。"
+        }
+      ]
+    },
+    {
+      "id": "TEST-004:metadata",
+      "source_kind": "metadata_only",
+      "license_no": "測試藥證字第000004號",
+      "drug_name_zh": "丁測試口服液",
+      "drug_name_en": "DELTA TEST ORAL LIQUID",
+      "version": "",
+      "approved_at": "",
+      "pdf_urls": [
+        "https://mcp.fda.gov.tw/test/000004.pdf"
+      ],
+      "sections": [
+        {
+          "id": "metadata-only",
+          "parent_id": null,
+          "level": 1,
+          "number": "",
+          "title": "尚無結構化電子仿單文字",
+          "path": ["資料涵蓋狀態", "尚無結構化電子仿單文字"],
+          "content_text": "此藥證目前沒有可供全文搜尋的結構化電子仿單文字，請開啟官方來源確認。",
+          "search_text": "尚無結構化電子仿單文字"
         }
       ]
     }

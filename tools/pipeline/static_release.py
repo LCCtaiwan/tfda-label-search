@@ -229,8 +229,18 @@ def group_enrichment(bundles: dict[str, dict], active: dict[str, dict]) -> tuple
         for value in str(row.get("仿單圖檔連結") or "").split(";"):
             value = value.strip()
             if value:
-                parsed = urllib.parse.urlsplit(value)
-                if parsed.scheme != "https" or parsed.hostname != "mcp.fda.gov.tw":
+                try:
+                    parsed = urllib.parse.urlsplit(value)
+                    safe = (
+                        parsed.scheme == "https"
+                        and parsed.hostname == "mcp.fda.gov.tw"
+                        and not parsed.username
+                        and not parsed.password
+                        and parsed.port in (None, 443)
+                    )
+                except ValueError:
+                    safe = False
+                if not safe:
                     raise StaticReleaseError(f"{number} 的仿單備援不是 TFDA HTTPS 網址")
                 if value not in pdf_links[number]:
                     pdf_links[number].append(value)

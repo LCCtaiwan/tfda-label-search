@@ -159,17 +159,26 @@ npm run serve
 - 新增 `validate_official_snapshot.py`；不論 snapshot 是沿用或剛下載，都在 `sync_structured.py` 前重新核對九來源。測試確認竄改健保 raw 時會在仿單 API 前停止。
 - 目前總計 56 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
 
+### 2026-09-15：C-015 官方 PDF／圖片備援連結
+
+- 規格稽核發現 `static_release.py` 已把 TFDA 清冊的 `pdf_urls` 加到文件，但 `build-pagefind.mjs` 沒有複製該欄位，前端也沒有顯示，因此原先「有 PDF 備援」只存在中間資料、使用者實際看不到。
+- Pagefind 建置現在保存去重後的 `pdf_urls`，並只接受無帳密、標準 HTTPS 埠且主機為 `mcp.fda.gov.tw` 的網址；非 TFDA 網域會讓建置失敗。
+- 結果卡加入官方仿單檔案連結，仍保留官方電子仿單入口；只連回官方站，不下載、嵌入或公開鏡像 PDF／圖片。
+- 測試 fixture 新增一張 metadata-only 藥品。Chromium 以藥名找到唯一結果，確認顯示「尚無結構化電子仿單文字」與正確官方檔案網址。
+- Playwright CLI 技能的 wrapper 在取得套件時無輸出卡住約 50 秒，已中止且未做全域安裝；額外 CLI 截圖未執行。專案既有 `@playwright/test` Chromium 六項操作驗收已實際通過。
+- 目前總計 56 個 Python、5 個 Node 與 6 個 Chromium 測試通過。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：60 個測試通過（56 Python + 4 Node）。
+- Python／Node：61 個測試通過（56 Python + 5 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
 - 章節展開後會載入原文；桌機 1440×1000 與手機 390×844 版面通過目視檢查；主控台 0 錯誤。
 - Release 瀏覽器驗證：健保碼 `A016162100` 只回 1 張正確藥品資料卡，並顯示成分、ATC、仿單版本及官方入口；主控台 0 錯誤。
 - 合成容量驗證：1,000 份為 21 MB；最終 5,000 份為 103 MB；分批結果由 50 筆正確增加至 100 筆。
-- 真實瀏覽器自動測試：5 個 Chromium 測試通過。
+- 真實瀏覽器自動測試：6 個 Chromium 測試通過。
 - 線上服務：未建立或修改。
 - 既有 ChemoDrugStable：未修改。
 

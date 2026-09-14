@@ -36,7 +36,7 @@ test("任意短詞與 AND、OR、NOT 會回傳正確章節", async ({ page }) =>
 
 test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   await expect(page.locator("#data-version")).toContainText("資料版本：2026-09-15");
-  await expect(page.locator("#data-version")).toContainText("113 份");
+  await expect(page.locator("#data-version")).toContainText("114 份");
   await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
   await expect(page.locator("footer")).toContainText("衛生福利部食品藥物管理署");
   await expect(page.locator("footer")).toContainText("衛生福利部中央健康保險署");
@@ -57,6 +57,14 @@ test("只有 reviewed 的測試同義詞會生效", async ({ page }) => {
   await search(page, { all: "孕期" });
   await expect(page.locator("#status")).toHaveText("已顯示 50 筆，尚有更多結果。");
   await expect(page.locator("#results article")).toHaveCount(50);
+});
+
+test("沒有結構化文字時仍提供 TFDA 官方仿單檔案", async ({ page }) => {
+  await search(page, { all: "丁測試口服液" });
+  await expect(page.locator("#results article")).toHaveCount(1);
+  await expect(page.locator("#results article")).toContainText("尚無結構化電子仿單文字");
+  await expect(page.getByRole("link", { name: "開啟 TFDA 官方仿單檔案" }))
+    .toHaveAttribute("href", "https://mcp.fda.gov.tw/test/000004.pdf");
 });
 
 test("常見詞可分批載入第 51 到 100 筆", async ({ page }) => {
