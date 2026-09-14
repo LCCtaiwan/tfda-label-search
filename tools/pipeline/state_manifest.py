@@ -20,6 +20,7 @@ from tools.pipeline.static_release import (
     StaticReleaseError,
     active_catalog,
     atomic_json,
+    official_snapshot_age_days,
     validated_source_snapshot,
 )
 from tools.pipeline.fetch_updates import closed_through_date
@@ -157,6 +158,7 @@ def build_manifest(
     allow_small_fixtures: bool = False,
     require_incremental: bool = False,
     max_incremental_lag_days: int | None = None,
+    max_official_snapshot_age_days: int | None = None,
 ) -> dict:
     official_dir = official_dir.resolve()
     structured_dir = structured_dir.resolve()
@@ -165,6 +167,15 @@ def build_manifest(
         official_dir / "manifest.json",
         allow_small_fixtures=allow_small_fixtures,
     )
+    snapshot_age_days = official_snapshot_age_days(source_manifest["created_at"])
+    if max_official_snapshot_age_days is not None:
+        if max_official_snapshot_age_days < 0:
+            raise ValueError("官方來源 snapshot 年齡上限不可小於零")
+        if snapshot_age_days > max_official_snapshot_age_days:
+            raise StaticReleaseError(
+                f"官方來源 snapshot 已 {snapshot_age_days} 天，"
+                f"超過 {max_official_snapshot_age_days} 天門檻"
+            )
     license_bundle = bundles["licenses"]
     active = active_catalog(license_bundle)
     state = json.loads((structured_dir / "state.json").read_text(encoding="utf-8"))
@@ -198,6 +209,7 @@ def build_manifest(
         "created_at": datetime.now(timezone.utc).isoformat(),
         "official_snapshot_id": source_manifest["snapshot_id"],
         "official_snapshot_created_at": source_manifest["created_at"],
+        "official_snapshot_age_days": snapshot_age_days,
         "catalog_hash": license_bundle["content_hash"],
         "data_sha256": tree_hash(files, common_root),
         **payload,
@@ -214,6 +226,7 @@ def main() -> None:
     parser.add_argument("--allow-small-fixtures", action="store_true")
     parser.add_argument("--require-incremental", action="store_true")
     parser.add_argument("--max-incremental-lag-days", type=int)
+    parser.add_argument("--max-official-snapshot-age-days", type=int)
     args = parser.parse_args()
     manifest = build_manifest(
         args.official_dir,
@@ -221,6 +234,7 @@ def main() -> None:
         allow_small_fixtures=args.allow_small_fixtures,
         require_incremental=args.require_incremental,
         max_incremental_lag_days=args.max_incremental_lag_days,
+        max_official_snapshot_age_days=args.max_official_snapshot_age_days,
     )
     atomic_json(args.output, manifest)
     print(json.dumps(manifest, ensure_ascii=False))

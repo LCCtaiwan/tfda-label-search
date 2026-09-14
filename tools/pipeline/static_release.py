@@ -16,6 +16,7 @@ import subprocess
 import sys
 import tempfile
 import urllib.parse
+from zoneinfo import ZoneInfo
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
@@ -54,6 +55,27 @@ class StaticReleaseError(RuntimeError):
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
+
+
+def official_snapshot_age_days(
+    created_at: object,
+    *,
+    now: datetime | None = None,
+) -> int:
+    try:
+        parsed = datetime.fromisoformat(str(created_at or "").replace("Z", "+00:00"))
+    except ValueError as error:
+        raise StaticReleaseError("官方來源 snapshot 建立時間格式錯誤") from error
+    if parsed.tzinfo is None:
+        raise StaticReleaseError("官方來源 snapshot 建立時間必須包含時區")
+    current = now or datetime.now(timezone.utc)
+    if current.tzinfo is None:
+        raise ValueError("目前時間必須包含時區")
+    taipei = ZoneInfo("Asia/Taipei")
+    age_days = (current.astimezone(taipei).date() - parsed.astimezone(taipei).date()).days
+    if age_days < -1:
+        raise StaticReleaseError("官方來源 snapshot 建立時間晚於今天")
+    return max(0, age_days)
 
 
 def atomic_json(path: Path, value: dict) -> None:
@@ -382,7 +404,18 @@ def build_release(args: argparse.Namespace) -> dict:
                 Path(source_manifest),
                 allow_small_fixtures=args.allow_small_fixtures,
             )
+            max_snapshot_age = getattr(args, "max_official_snapshot_age_days", None)
+            snapshot_age = official_snapshot_age_days(source_snapshot["created_at"])
+            if max_snapshot_age is not None:
+                if max_snapshot_age < 0:
+                    raise ValueError("官方來源 snapshot 年齡上限不可小於零")
+                if snapshot_age > max_snapshot_age:
+                    raise StaticReleaseError(
+                        f"官方來源 snapshot 已 {snapshot_age} 天，"
+                        f"超過 {max_snapshot_age} 天門檻"
+                    )
         else:
+            snapshot_age = None
             bundles = {}
             for name in SOURCE_ORDER:
                 source_path = args.source_dir / f"{name}.raw"
@@ -437,6 +470,7 @@ def build_release(args: argparse.Namespace) -> dict:
             "app_revision": app_revision,
             "data_revision": data_revision,
             "official_snapshot_id": source_snapshot["snapshot_id"] if source_snapshot else "",
+            "official_snapshot_age_days": snapshot_age,
             "data_retrieved_at": data_retrieved_at,
             "coverage": coverage,
             "source_hashes": {name: bundle["content_hash"] for name, bundle in bundles.items()},
@@ -474,6 +508,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--structured", type=Path, action="append", default=[])
     parser.add_argument("--structured-dir", type=Path)
     parser.add_argument("--min-structured-coverage", type=float, default=0.98)
+    parser.add_argument("--max-official-snapshot-age-days", type=int)
     parser.add_argument("--app-revision", default="")
     parser.add_argument("--data-revision", default="")
     parser.add_argument("--allow-small-fixtures", action="store_true")

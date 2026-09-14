@@ -1,5 +1,6 @@
 import json
 from argparse import Namespace
+from datetime import datetime
 from pathlib import Path
 import tempfile
 import unittest
@@ -11,6 +12,7 @@ from tools.pipeline.static_release import (
     build_release,
     document_order,
     license_code,
+    official_snapshot_age_days,
 )
 from tools.sources import official
 
@@ -34,6 +36,15 @@ def arguments(release_root: Path, release_id: str, coverage: float = 0.5) -> Nam
 
 
 class StaticReleaseTests(unittest.TestCase):
+    def test_snapshot_age_uses_taipei_calendar(self):
+        now = datetime.fromisoformat("2026-09-16T00:00:00+08:00")
+        self.assertEqual(
+            official_snapshot_age_days("2026-09-01T16:30:00Z", now=now),
+            14,
+        )
+        with self.assertRaisesRegex(StaticReleaseError, "晚於今天"):
+            official_snapshot_age_days("2026-09-18T00:00:00+08:00", now=now)
+
     def test_license_number_is_converted_to_official_api_code(self):
         self.assertEqual(license_code("衛署藥製字第016162號"), "01016162")
         self.assertEqual(license_code("衛部藥輸字第R00091號"), "52R00091")
@@ -186,6 +197,23 @@ class StaticReleaseTests(unittest.TestCase):
             )
             self.assertEqual(
                 search_manifest["data_retrieved_at"], source_manifest["created_at"]
+            )
+            self.assertEqual(identity["official_snapshot_age_days"], 0)
+
+            manifest_path = snapshot / "manifest.json"
+            stale_manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            stale_manifest["created_at"] = "2020-01-01T00:00:00Z"
+            manifest_path.write_text(
+                json.dumps(stale_manifest, ensure_ascii=False), encoding="utf-8"
+            )
+            stale = arguments(root / "stale", "traceable-stale")
+            stale.source_dir = snapshot / "raw"
+            stale.source_manifest = manifest_path
+            stale.max_official_snapshot_age_days = 14
+            with self.assertRaisesRegex(StaticReleaseError, "官方來源 snapshot 已"):
+                build_release(stale)
+            manifest_path.write_text(
+                json.dumps(source_manifest, ensure_ascii=False), encoding="utf-8"
             )
 
             ingredient_path = snapshot / "raw" / "ingredients.raw"

@@ -49,4 +49,6 @@ python3 tools/pipeline/static_release.py \
 
 正式流程不可使用 `--allow-small-fixtures`，而且必須提供兩個完整 40 碼 Git SHA 與 `--source-manifest`。程式會重新核對九個 raw 檔與 snapshot manifest；預設結構化文字涵蓋率門檻為 98%。尚無結構化文字的有效藥證會保留一張明確標示的資料卡與官方入口，但不能冒充全文可搜尋仿單。
 
+正式 Pages workflow 另傳入 `--max-official-snapshot-age-days 14`。release manifest 會保存 `official_snapshot_age_days`；超過門檻或快照日期不可信時，候選版在產生前停止。
+
 官方清冊欄位名稱雖包含「圖檔」，網址本身不足以可靠分辨可讀 PDF、單張圖片或其他官方呈現形式。因此第一版只報告「有官方檔案連結」；需在獲准的小批正式資料中檢查實際回應後，才能增加更細的檔案類型分類。

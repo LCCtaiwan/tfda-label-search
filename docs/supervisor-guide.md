@@ -10,7 +10,7 @@
 - `coverage.json` 的 `structured_coverage` 是否至少 98%。
 - `coverage.json` 的 `metadata_only_with_official_files`、`metadata_only_without_official_files` 是否合理；後者突然增加就先拒絕。
 - `synonyms.json` 是否只包含已確認的詞組，且每組都有審查人與審查日期；看不懂的詞不要核准。
-- `verified-data-state.json` 的 `incremental_initialized` 是否為 `true`，`incremental_lag_days` 是否不超過 14。
+- `verified-data-state.json` 的 `official_snapshot_age_days` 與 `incremental_lag_days` 是否都不超過 14，且 `incremental_initialized` 是否為 `true`。
 - `manifest.json` 的 `ready` 是否為 `true`。
 - `manifest.json` 的 `app_revision` 與 `data_revision` 是否是本次要發布的兩個 commit。
 - `manifest.json` 的 `official_snapshot_id`、`data_retrieved_at` 與九個 `source_hashes` 是否存在。

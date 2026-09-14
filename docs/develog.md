@@ -226,10 +226,19 @@ npm run serve
 - Chromium 固定時鐘到 2026-10-01，確認 2026-09-15 資料顯示 16 天未更新；再攔截 manifest 移除官方日期、留下新建置日期，確認仍顯示「日期未提供」。
 - 完整驗收通過：57 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
 
+### 2026-09-15：C-022 九來源 snapshot 發布年齡門檻
+
+- 稽核發現部署只用 `--max-incremental-lag-days 14` 檢查結構化仿單更新，卻可沿用很舊的藥證、成分、健保與安全資料 snapshot；C-021 的網站警告無法阻止主管核准舊候選版。
+- 新增依 `Asia/Taipei` 日曆計算的 `official_snapshot_age_days`；允許跨時區的一日邊界，但超過一天的未來日期視為錯誤。
+- `state_manifest.py` 與 `static_release.py` 都接受 `--max-official-snapshot-age-days`，Pages workflow 在兩處固定傳入 14，形成兩層拒絕。
+- `verified-data-state.json` 與 release manifest 都留下實際 snapshot 年齡，主管可和增量落後天數分開核對。
+- 測試確認 UTC 9 月 1 日 16:30 會按臺灣 9 月 2 日計算，並確認 2020 年舊快照在 data-state 與 release 兩層都被拒絕。
+- 完整驗收通過：58 個 Python、11 個 Node、10 個 Chromium 與三份 workflow YAML。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：68 個測試通過（57 Python + 11 Node）。
+- Python／Node：69 個測試通過（58 Python + 11 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

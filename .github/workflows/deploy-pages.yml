@@ -73,6 +73,7 @@ jobs:
           --structured-dir state/structured
           --require-incremental
           --max-incremental-lag-days 14
+          --max-official-snapshot-age-days 14
           --output "${{ runner.temp }}/verified-data-state.json"
 
       - name: Build candidate release with a 98 percent text gate
@@ -90,7 +91,8 @@ jobs:
             --structured-dir state/structured/documents \
             --app-revision "$APP_SHA" \
             --data-revision "$DATA_SHA" \
-            --min-structured-coverage 0.98
+            --min-structured-coverage 0.98 \
+            --max-official-snapshot-age-days 14
           echo "release_id=$RELEASE_ID" >> "$GITHUB_OUTPUT"
           echo "site_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID/site" >> "$GITHUB_OUTPUT"
           echo "audit_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID" >> "$GITHUB_OUTPUT"

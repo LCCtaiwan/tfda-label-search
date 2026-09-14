@@ -35,7 +35,7 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 
 1. 到 Actions 手動執行 `Build and approve TFDA Pages`。
 2. 一般發布使用 `app_ref=main`、`data_ref=data-state`；workflow 會先把兩者解析成不可變的完整 commit SHA。
-3. 工作會重跑單元測試、Chromium 測試，並重新解析九個 raw 檔、核對 snapshot 網址／SHA-256／筆數、逐張核對 downloaded 仿單，再檢查 98% 結構化文字門檻與最多 14 天的日期增量落後。
+3. 工作會重跑單元測試、Chromium 測試，並重新解析九個 raw 檔、核對 snapshot 網址／SHA-256／筆數、逐張核對 downloaded 仿單，再檢查 98% 結構化文字門檻、九來源 snapshot 不超過 14 天，以及結構化仿單日期增量不超過 14 天。
 4. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
 5. 通過後進入 `github-pages` environment 等待主管。
 6. 主管查看 `release-audit-<run id>` 的報告、公開 `synonyms.json` 與兩個 commit SHA，再按 Approve and deploy 或 Reject。

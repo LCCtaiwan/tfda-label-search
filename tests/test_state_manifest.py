@@ -135,6 +135,7 @@ class StateManifestTests(unittest.TestCase):
             manifest = build_manifest(
                 official_dir, structured_dir, allow_small_fixtures=True
             )
+            self.assertEqual(manifest["official_snapshot_age_days"], 0)
             with self.assertRaisesRegex(StaticReleaseError, "增量更新游標"):
                 build_manifest(
                     official_dir,
@@ -154,6 +155,22 @@ class StateManifestTests(unittest.TestCase):
                     allow_small_fixtures=True,
                     require_incremental=True,
                     max_incremental_lag_days=14,
+                )
+
+            snapshot_manifest_path = official_dir / "manifest.json"
+            snapshot_manifest = json.loads(
+                snapshot_manifest_path.read_text(encoding="utf-8")
+            )
+            snapshot_manifest["created_at"] = "2020-01-01T00:00:00Z"
+            snapshot_manifest_path.write_text(
+                json.dumps(snapshot_manifest, ensure_ascii=False), encoding="utf-8"
+            )
+            with self.assertRaisesRegex(StaticReleaseError, "官方來源 snapshot 已"):
+                build_manifest(
+                    official_dir,
+                    structured_dir,
+                    allow_small_fixtures=True,
+                    max_official_snapshot_age_days=14,
                 )
 
         self.assertTrue(manifest["complete"])

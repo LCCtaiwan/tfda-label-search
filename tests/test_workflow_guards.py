@@ -68,6 +68,7 @@ class WorkflowGuardTests(unittest.TestCase):
         self.assertIn("--source-manifest state/official/current/manifest.json", workflow)
         self.assertIn("--require-incremental", workflow)
         self.assertIn("--max-incremental-lag-days 14", workflow)
+        self.assertEqual(workflow.count("--max-official-snapshot-age-days 14"), 2)
         self.assertIn(
             "${{ steps.release.outputs.site_path }}/data/synonyms.json",
             workflow,
