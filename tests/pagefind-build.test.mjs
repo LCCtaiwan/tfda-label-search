@@ -76,6 +76,20 @@ test("builds one searchable record per document without publishing raw HTML", as
       await readFile(path.join(output, metadataOnly.document_path), "utf8"),
     );
     assert.deepEqual(fallbackDocument.pdf_urls, ["https://mcp.fda.gov.tw/test/000004.pdf"]);
+    const eventDocumentMeta = catalog.documents.find(
+      (item) => item.license_no === "測試藥證字第000002號",
+    );
+    const eventDocument = JSON.parse(
+      await readFile(path.join(output, eventDocumentMeta.document_path), "utf8"),
+    );
+    assert.deepEqual(eventDocument.event_types, ["safety_alert"]);
+    assert.deepEqual(eventDocument.official_events, [{
+      event_type: "safety_alert",
+      published_on: "2026-09-01",
+      title: "TEST INGREDIENT",
+      status: "",
+      source_url: "https://data.fda.gov.tw/data/opendata/export/53/json",
+    }]);
     for (const filename of documents) {
       const payload = await readFile(path.join(output, "data", "documents", filename), "utf8");
       assert.doesNotMatch(payload, /<img\b/iu);
@@ -107,6 +121,43 @@ test("rejects a fallback file outside the TFDA HTTPS host", async () => {
       ], { cwd: root, stdio: "pipe" }),
       (error) => {
         assert.match(error.stderr.toString(), /不是 TFDA HTTPS 網址/u);
+        return true;
+      },
+    );
+  } finally {
+    await rm(temporaryRoot, { recursive: true, force: true });
+  }
+});
+
+test("rejects an unknown event type or non-TFDA event source", async () => {
+  const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "tfda-event-url-test-"));
+  const input = path.join(temporaryRoot, "input.json");
+  const output = path.join(temporaryRoot, "site");
+  try {
+    const payload = JSON.parse(
+      await readFile(path.join(root, "tests/fixtures/pagefind-search-sample.json"), "utf8"),
+    );
+    payload.documents[1].official_events[0].event_type = "unknown_event";
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    assert.throws(
+      () => execFileSync(process.execPath, [
+        "scripts/build-pagefind.mjs", "--input", input, "--output", output,
+      ], { cwd: root, stdio: "pipe" }),
+      (error) => {
+        assert.match(error.stderr.toString(), /未知的 TFDA 事件類型/u);
+        return true;
+      },
+    );
+
+    payload.documents[1].official_events[0].event_type = "safety_alert";
+    payload.documents[1].official_events[0].source_url = "https://example.com/not-tfda.json";
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    assert.throws(
+      () => execFileSync(process.execPath, [
+        "scripts/build-pagefind.mjs", "--input", input, "--output", `${output}-second`,
+      ], { cwd: root, stdio: "pipe" }),
+      (error) => {
+        assert.match(error.stderr.toString(), /不是 TFDA 開放資料 HTTPS 網址/u);
         return true;
       },
     );

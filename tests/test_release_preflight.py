@@ -36,6 +36,21 @@ class ReleasePreflightTests(unittest.TestCase):
         with self.assertRaises(StaticReleaseError):
             validate_policy(policy, ROOT)
 
+    def test_changed_published_dataset_scope_stops_release(self):
+        cases = (
+            ["TFDA InfoId 53"],
+            ["TFDA InfoId 999"],
+        )
+        for additions in cases:
+            with self.subTest(additions=additions):
+                policy = self.policy()
+                if additions == ["TFDA InfoId 53"]:
+                    policy["official_open_data"]["published_datasets"].remove(additions[0])
+                else:
+                    policy["official_open_data"]["published_datasets"].extend(additions)
+                with self.assertRaises(StaticReleaseError):
+                    validate_policy(policy, ROOT)
+
     def test_claiming_no_third_party_code_with_files_stops_release(self):
         policy = self.policy()
         policy["third_party_code"]["copied_files"] = ["web/app.js"]

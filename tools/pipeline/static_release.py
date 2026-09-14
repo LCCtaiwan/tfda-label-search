@@ -290,7 +290,30 @@ def make_release_documents(
             }
             for item in nhi_items[number]
         ]
-        document["event_types"] = sorted({item["event_type"] for item in events[number]})
+        public_events = []
+        seen_events = set()
+        for item in sorted(
+            events[number],
+            key=lambda event: (
+                str(event.get("published_on") or ""),
+                str(event.get("event_type") or ""),
+                str(event.get("source_key") or ""),
+            ),
+            reverse=True,
+        ):
+            event_key = (item.get("event_type"), item.get("source_key"))
+            if event_key in seen_events:
+                continue
+            seen_events.add(event_key)
+            public_events.append({
+                "event_type": str(item.get("event_type") or ""),
+                "published_on": str(item.get("published_on") or ""),
+                "title": str(item.get("title") or ""),
+                "status": str(item.get("status") or ""),
+                "source_url": str(item.get("source_url") or ""),
+            })
+        document["official_events"] = public_events
+        document["event_types"] = sorted({item["event_type"] for item in public_events})
         document["pdf_urls"] = extra["links"][number]
         result.append(document)
     counts = {

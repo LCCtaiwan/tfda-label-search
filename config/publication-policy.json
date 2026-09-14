@@ -9,6 +9,17 @@
       "https://data.gov.tw/dataset/9122",
       "https://data.gov.tw/dataset/23715",
       "https://www.fda.gov.tw/Tc/opendata.aspx"
+    ],
+    "published_datasets": [
+      "TFDA InfoId 34",
+      "TFDA InfoId 36",
+      "TFDA InfoId 39",
+      "TFDA InfoId 43",
+      "TFDA InfoId 53",
+      "TFDA InfoId 54",
+      "TFDA InfoId 104",
+      "TFDA InfoId 105",
+      "NHIA A21030000I-E41001-001"
     ]
   },
   "structured_labels": {

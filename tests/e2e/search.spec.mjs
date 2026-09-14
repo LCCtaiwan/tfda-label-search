@@ -79,6 +79,20 @@ test("沒有結構化文字時仍提供 TFDA 官方仿單檔案", async ({ page 
     .toHaveAttribute("href", "https://mcp.fda.gov.tw/test/000004.pdf");
 });
 
+test("其他 TFDA 官方資料以歷史關聯呈現，不冒充目前狀態", async ({ page }) => {
+  await search(page, { all: "乙測試膠囊" });
+  const events = page.locator(".official-events");
+  await expect(events).toHaveCount(1);
+  await expect(events.locator("summary")).toHaveText("曾出現在 TFDA 其他官方資料（1 筆）");
+  await events.locator("summary").click();
+  await expect(events).toContainText("不代表目前仍在回收、警示、風險管理或短缺");
+  await expect(events).toContainText("藥品安全警訊資料｜2026-09-01｜TEST INGREDIENT");
+  await expect(events.getByRole("link", { name: "TFDA 資料集來源" })).toHaveAttribute(
+    "href",
+    "https://data.fda.gov.tw/data/opendata/export/53/json",
+  );
+});
+
 test("常見詞可分批載入第 51 到 100 筆", async ({ page }) => {
   await search(page, { all: "懷孕" });
   await expect(page.locator("#results article")).toHaveCount(50);

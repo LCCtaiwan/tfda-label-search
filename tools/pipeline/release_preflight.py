@@ -24,6 +24,17 @@ REQUIRED_OPEN_DATA_EVIDENCE = {
     "https://data.gov.tw/dataset/23715",
     "https://www.fda.gov.tw/Tc/opendata.aspx",
 }
+REQUIRED_PUBLISHED_DATASETS = {
+    "TFDA InfoId 34",
+    "TFDA InfoId 36",
+    "TFDA InfoId 39",
+    "TFDA InfoId 43",
+    "TFDA InfoId 53",
+    "TFDA InfoId 54",
+    "TFDA InfoId 104",
+    "TFDA InfoId 105",
+    "NHIA A21030000I-E41001-001",
+}
 REQUIRED_EXCLUSIONS = {"embedded_images", "pdf_mirrors", "agency_logos"}
 POLICY_MAX_AGE_DAYS = 366
 VISIBLE_NOTICES = (
@@ -82,6 +93,15 @@ def validate_policy(policy: dict, project_root: Path) -> list[str]:
     evidence = checked_urls(open_data.get("evidence_urls"), "official_open_data.evidence_urls")
     if not REQUIRED_OPEN_DATA_EVIDENCE.issubset(evidence):
         raise StaticReleaseError("官方開放資料證據不完整")
+    published_datasets = open_data.get("published_datasets")
+    if not isinstance(published_datasets, list):
+        raise StaticReleaseError("official_open_data.published_datasets 必須是清單")
+    if (
+        not all(isinstance(item, str) for item in published_datasets)
+        or len(published_datasets) != len(REQUIRED_PUBLISHED_DATASETS)
+        or set(published_datasets) != REQUIRED_PUBLISHED_DATASETS
+    ):
+        raise StaticReleaseError("正式發布的官方資料集清單不完整或含未審查項目")
 
     labels = policy.get("structured_labels")
     if not isinstance(labels, dict) or labels.get("status") != "verified_with_limitations":
@@ -121,6 +141,7 @@ def validate_policy(policy: dict, project_root: Path) -> list[str]:
     return [
         "policy_review_current",
         "official_open_data_verified",
+        "official_dataset_scope_verified",
         "structured_plain_text_only",
         f"third_party_{status}",
     ]

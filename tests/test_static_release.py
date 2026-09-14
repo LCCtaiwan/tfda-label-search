@@ -73,6 +73,20 @@ class StaticReleaseTests(unittest.TestCase):
                 by_license["衛署藥製字第016162號"]["nhi_items"][0]["code"],
                 "A016162100",
             )
+            official_events = by_license["衛署藥製字第016162號"][
+                "official_events"
+            ]
+            self.assertEqual(len(official_events), 4)
+            self.assertEqual(
+                {item["event_type"] for item in official_events},
+                {"recall", "safety_alert", "risk_management", "shortage_with_alternative"},
+            )
+            self.assertTrue(
+                all(
+                    item["source_url"].startswith("https://data.fda.gov.tw/")
+                    for item in official_events
+                )
+            )
             missing = by_license["衛部藥製字第123456號"]
             self.assertEqual(missing["source_kind"], "metadata_only")
             self.assertIn("尚無結構化", missing["sections"][0]["title"])

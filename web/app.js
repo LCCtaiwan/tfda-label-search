@@ -9,6 +9,13 @@ const dataVersion = document.querySelector("#data-version");
 const coverageSummary = document.querySelector("#coverage-summary");
 const MAX_TERMS = 10;
 const MAX_TERM_LENGTH = 80;
+const EVENT_LABELS = Object.freeze({
+  recall: "藥品回收資料",
+  safety_alert: "藥品安全警訊資料",
+  risk_management: "風險管理計畫資料",
+  shortage_with_alternative: "藥品短缺資料（有替代品）",
+  shortage_without_alternative: "藥品短缺資料（無替代品）",
+});
 
 let pagefindPromise;
 let synonymsPromise;
@@ -105,6 +112,21 @@ function safeOfficialUrl(value) {
     const url = new URL(value);
     return url.protocol === "https:"
       && url.hostname === "mcp.fda.gov.tw"
+      && !url.username
+      && !url.password
+      && ["", "443"].includes(url.port)
+      ? url.href
+      : "";
+  } catch {
+    return "";
+  }
+}
+
+function safeEventSourceUrl(value) {
+  try {
+    const url = new URL(value);
+    return url.protocol === "https:"
+      && url.hostname === "data.fda.gov.tw"
       && !url.username
       && !url.password
       && ["", "443"].includes(url.port)
@@ -285,6 +307,48 @@ function appendEntries(entries) {
       addOfficialLink(href, `開啟 TFDA 官方仿單檔案${suffix}`);
     }
     if (linkGroup.childElementCount) card.append(linkGroup);
+
+    const officialEvents = Array.isArray(source.official_events)
+      ? source.official_events.map((event) => ({
+        label: EVENT_LABELS[event?.event_type] ?? "",
+        publishedOn: String(event?.published_on ?? "").trim(),
+        title: String(event?.title ?? "").trim(),
+        eventStatus: String(event?.status ?? "").trim(),
+        sourceUrl: safeEventSourceUrl(event?.source_url),
+      })).filter((event) => event.label && event.sourceUrl)
+      : [];
+    if (officialEvents.length) {
+      const eventDetails = document.createElement("details");
+      eventDetails.className = "official-events";
+      const eventSummary = document.createElement("summary");
+      eventSummary.textContent = `曾出現在 TFDA 其他官方資料（${officialEvents.length} 筆）`;
+      addText(
+        eventDetails,
+        "p",
+        "event-caution",
+        "這是資料版本日期以前的關聯紀錄，不代表目前仍在回收、警示、風險管理或短缺。",
+      );
+      const list = document.createElement("ul");
+      for (const event of officialEvents) {
+        const item = document.createElement("li");
+        const description = [
+          event.label,
+          event.publishedOn,
+          event.title,
+          event.eventStatus,
+        ].filter(Boolean).join("｜");
+        addText(item, "span", "event-description", description);
+        const link = document.createElement("a");
+        link.href = event.sourceUrl;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent = "TFDA 資料集來源";
+        item.append(" ", link);
+        list.append(item);
+      }
+      eventDetails.append(eventSummary, list);
+      card.append(eventDetails);
+    }
     results.append(card);
   }
 }

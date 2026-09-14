@@ -7,6 +7,13 @@ import * as pagefind from "pagefind";
 import { validateFile as validateSynonymFile } from "./validate-synonyms.mjs";
 
 const GENERATED_MARKER = ".tfda-label-search-generated";
+const OFFICIAL_EVENT_TYPES = new Set([
+  "recall",
+  "safety_alert",
+  "risk_management",
+  "shortage_with_alternative",
+  "shortage_without_alternative",
+]);
 
 function parseArgs(argv) {
   const options = { inputs: [], output: "site", synonyms: "config/synonyms.json" };
@@ -63,6 +70,59 @@ function officialFileUrls(value, sourcePath) {
 
 function stringList(value) {
   return Array.isArray(value) ? [...new Set(value.map(plain).filter(Boolean))] : [];
+}
+
+function validCalendarDate(value) {
+  if (!/^\d{4}-\d{2}-\d{2}$/u.test(value)) return false;
+  const parsed = new Date(`${value}T00:00:00Z`);
+  return !Number.isNaN(parsed.valueOf()) && parsed.toISOString().slice(0, 10) === value;
+}
+
+function officialEventSourceUrl(value, sourcePath) {
+  let url;
+  try {
+    url = new URL(plain(value));
+  } catch {
+    throw new Error(`${sourcePath} 含無效的 TFDA 事件來源網址`);
+  }
+  if (
+    url.protocol !== "https:"
+    || url.hostname !== "data.fda.gov.tw"
+    || url.username
+    || url.password
+    || !["", "443"].includes(url.port)
+  ) {
+    throw new Error(`${sourcePath} 的事件來源不是 TFDA 開放資料 HTTPS 網址`);
+  }
+  return url.href;
+}
+
+function officialEvents(value, sourcePath) {
+  if (value == null) return [];
+  if (!Array.isArray(value)) throw new Error(`${sourcePath} 的 official_events 必須是清單`);
+  const result = [];
+  const seen = new Set();
+  for (const raw of value) {
+    const eventType = plain(raw?.event_type);
+    const publishedOn = plain(raw?.published_on);
+    const title = plain(raw?.title);
+    const status = plain(raw?.status);
+    if (!OFFICIAL_EVENT_TYPES.has(eventType)) {
+      throw new Error(`${sourcePath} 含未知的 TFDA 事件類型：${eventType || "空白"}`);
+    }
+    if (publishedOn && !validCalendarDate(publishedOn)) {
+      throw new Error(`${sourcePath} 的 TFDA 事件日期格式錯誤`);
+    }
+    if ([...title].length > 1000 || [...status].length > 500) {
+      throw new Error(`${sourcePath} 的 TFDA 事件標題或狀態過長`);
+    }
+    const sourceUrl = officialEventSourceUrl(raw?.source_url, sourcePath);
+    const key = [eventType, publishedOn, title, status, sourceUrl].join("\u001f");
+    if (seen.has(key)) continue;
+    seen.add(key);
+    result.push({ event_type: eventType, published_on: publishedOn, title, status, source_url: sourceUrl });
+  }
+  return result;
 }
 
 function validatePayload(payload, sourcePath) {
@@ -148,6 +208,13 @@ async function build({ inputs, output, synonyms }) {
 
       const documentId = stableId(documentKey);
       const documentPath = `data/documents/${documentId}.json`;
+      const safeOfficialEvents = officialEvents(document.official_events, sourcePath);
+      const eventTypes = stringList(document.event_types);
+      for (const eventType of eventTypes) {
+        if (!OFFICIAL_EVENT_TYPES.has(eventType)) {
+          throw new Error(`${sourcePath} 含未知的 TFDA 事件類型：${eventType}`);
+        }
+      }
       const safeDocument = {
         schema_version: 1,
         license_no: plain(document.license_no),
@@ -167,7 +234,11 @@ async function build({ inputs, output, synonyms }) {
           atc_code: plain(item?.atc_code),
           benefit_chapter: plain(item?.benefit_chapter),
         })).filter((item) => item.code) : [],
-        event_types: stringList(document.event_types),
+        official_events: safeOfficialEvents,
+        event_types: [...new Set([
+          ...eventTypes,
+          ...safeOfficialEvents.map((item) => item.event_type),
+        ])].sort(),
         sections: document.sections.map((section) => ({
           id: plain(section.id),
           parent_id: plain(section.parent_id),

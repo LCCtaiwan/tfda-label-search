@@ -16,7 +16,7 @@ TFDA 於 2025 年 9 月版「藥品電子仿單交換格式」說明：
 
 這個 API 是資料取得介面，不是全文搜尋 API。它沒有提供「查出所有提到噁心的藥」功能，因此本專案仍需把已取得的章節建立 Pagefind 索引。
 
-官方 PDF 沒有列出每秒或每日請求上限。程式不自行猜測官方允許的流量：預設每 2 秒最多一個請求、每批 100 張，支援續傳；遇到 429 或暫時性錯誤會重試，並遵守伺服器的 `Retry-After`（最長等待 60 秒），重試仍失敗就停止整批。正式大批排程前仍要向 TFDA 確認可接受頻率。
+官方 PDF 沒有列出每秒或每日請求上限。程式不自行猜測官方允許的流量：預設每 2 秒最多一個請求、每批 25 張，支援續傳；遇到 429 或暫時性錯誤會重試，並遵守伺服器的 `Retry-After`（最長等待 60 秒），重試仍失敗就停止整批。正式大批排程前仍要向 TFDA 確認可接受頻率。
 
 ## TFDA 與健保署批次資料
 
@@ -44,6 +44,8 @@ TFDA 資料開放宣告：https://www.fda.gov.tw/Tc/opendata.aspx
 
 完整公開發布依據與第三方程式邊界：`docs/publication-rights.md`
 
+回收、安全資訊、風險管理及短缺資料只作為藥證的補充歷史關聯。網站顯示資料日期、標題、狀態及 `data.fda.gov.tw` 資料集來源，但不把這些文字加入仿單全文索引，也不宣稱它是目前狀態。正式使用時仍應回到 TFDA 核對最新內容。
+
 ## 三段更新流程
 
 1. `official_snapshot.py`：九組批次來源全部下載、格式與最低筆數都通過後，才建立新的不可變 snapshot。
@@ -66,7 +68,7 @@ python3 tools/pipeline/official_snapshot.py \
 python3 tools/pipeline/sync_structured.py \
   --license-source data/official/snapshots/YYYYMMDD-HHMM/raw/licenses.raw \
   --output-dir data/structured \
-  --max-initial-items 100 \
+  --max-initial-items 25 \
   --max-update-windows 1 \
   --request-delay 2 \
   --report output/structured-sync.json

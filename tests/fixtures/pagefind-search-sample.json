@@ -47,6 +47,15 @@
       "drug_name_en": "BETA TEST CAPSULES",
       "version": "2",
       "approved_at": "2026-09-02",
+      "official_events": [
+        {
+          "event_type": "safety_alert",
+          "published_on": "2026-09-01",
+          "title": "TEST INGREDIENT",
+          "status": "",
+          "source_url": "https://data.fda.gov.tw/data/opendata/export/53/json"
+        }
+      ],
       "sections": [
         {
           "id": "6.1",
