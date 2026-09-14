@@ -5,13 +5,14 @@
 1. `Refresh TFDA data state`：資料人員手動更新一小批。成功只代表資料保存完成，不會上線。
 2. `Build and approve TFDA Pages`：先自動檢查，通過後才會請主管核准上線。
 
-收到核准通知時，先看四件事：
+收到核准通知時，先看五件事：
 
 - `coverage.json` 的 `structured_coverage` 是否至少 98%。
 - `manifest.json` 的 `ready` 是否為 `true`。
+- `manifest.json` 的 `app_revision` 與 `data_revision` 是否是本次要發布的兩個 commit。
 - `publication-preflight.json` 的 `ready` 是否為 `true`，且網站頁尾有兩個提供機關與授權條款。
 - Actions 的單元與 Chromium 測試是否全部綠色。
 
-四項都正確才按 `Approve and deploy`；看不懂、數字突然下降或來源失敗就按 `Reject`，舊網站會繼續使用。
+五項都正確才按 `Approve and deploy`；看不懂、數字突然下降或來源失敗就按 `Reject`，舊網站會繼續使用。部署完成後再確認 `deployment-smoke-<run id>` 的 `ready` 是 `true`；失敗時依部署手冊回滾。
 
 本網站只查公開藥品資料，不可加入病人姓名、病歷號、處方或其他病人資料。

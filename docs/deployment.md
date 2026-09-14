@@ -31,15 +31,20 @@ GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被�
 ## 建置與核准
 
 1. 到 Actions 手動執行 `Build and approve TFDA Pages`。
-2. 工作會重跑單元測試、Chromium 測試、九來源驗證與 98% 結構化文字門檻。
-3. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
-4. 通過後進入 `github-pages` environment 等待主管。
-5. 主管查看 `release-audit-<run id>` 的三份報告，再按 Approve and deploy 或 Reject。
+2. 一般發布使用 `app_ref=main`、`data_ref=data-state`；workflow 會先把兩者解析成不可變的完整 commit SHA。
+3. 工作會重跑單元測試、Chromium 測試、九來源驗證與 98% 結構化文字門檻。
+4. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
+5. 通過後進入 `github-pages` environment 等待主管。
+6. 主管查看 `release-audit-<run id>` 的報告與兩個 commit SHA，再按 Approve and deploy 或 Reject。
+7. 部署後會以 390×844 Chromium 開啟正式網址，核對 `release.json`，從正式目錄選一張完整藥證搜尋，並要求主控台 0 錯誤；結果保存為 `deployment-smoke-<run id>`。
 
 ## 回滾
 
-- 網站內容有問題：在 GitHub Pages deployment history 選擇上一個正常部署，或由上一個程式／資料 commit 重跑建置。
-- 資料有問題：不要改壞 commit；從 `data-state` 的上一個正常 commit 建立修正 commit，再重新建置與核准。
+- 從上一個正常的 release audit 或 `site/data/release.json` 找到 `app_revision` 與 `data_revision`。
+- 重新執行 `Build and approve TFDA Pages`，將 `app_ref`、`data_ref` 填入這兩個完整 SHA。
+- 系統會重新建置，不會修改舊 commit；主管仍要核准，部署後仍會執行 smoke test。
+- 只選擇曾經由本流程成功發布、具有 `release.json` 的版本；C-011 之前的本機原型不是正式回滾目標。
+- smoke test 若失敗，先將該次 run 視為異常，再依上面步驟發布上一個正常版本。GitHub Pages 已切換的內容不會被檢查器自行刪除。
 - 不使用 `git push --force`。不刪除舊的正常 Pages deployment 或資料 commit。
 
 ## 目前不會自動發生的事

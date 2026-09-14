@@ -2,6 +2,17 @@ name: Build and approve TFDA Pages
 
 on:
   workflow_dispatch:
+    inputs:
+      app_ref:
+        description: "要發布的程式 branch、tag 或完整 commit SHA；回滾時填上一個正常 commit"
+        required: true
+        default: "main"
+        type: string
+      data_ref:
+        description: "要發布的 data-state branch 或完整 commit SHA；回滾時填上一個正常 commit"
+        required: true
+        default: "data-state"
+        type: string
 
 permissions:
   contents: read
@@ -16,15 +27,25 @@ jobs:
     timeout-minutes: 30
     outputs:
       site_path: ${{ steps.release.outputs.site_path }}
+      release_id: ${{ steps.release.outputs.release_id }}
+      app_sha: ${{ steps.revisions.outputs.app_sha }}
+      data_sha: ${{ steps.revisions.outputs.data_sha }}
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: ${{ inputs.app_ref }}
           path: app
 
       - uses: actions/checkout@v4
         with:
-          ref: data-state
+          ref: ${{ inputs.data_ref }}
           path: state
+
+      - name: Resolve selected refs to immutable commits
+        id: revisions
+        run: |
+          echo "app_sha=$(git -C app rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "data_sha=$(git -C state rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-node@v4
         with:
@@ -55,14 +76,19 @@ jobs:
       - name: Build candidate release with a 98 percent text gate
         id: release
         env:
-          RELEASE_ID: ${{ github.sha }}-${{ github.run_id }}
+          APP_SHA: ${{ steps.revisions.outputs.app_sha }}
+          DATA_SHA: ${{ steps.revisions.outputs.data_sha }}
         run: |
+          RELEASE_ID="${APP_SHA:0:12}-${DATA_SHA:0:12}-${GITHUB_RUN_ID}"
           python3 app/tools/pipeline/static_release.py \
             --release-id "$RELEASE_ID" \
             --release-root candidate \
             --source-dir state/official/current/raw \
             --structured-dir state/structured/documents \
+            --app-revision "$APP_SHA" \
+            --data-revision "$DATA_SHA" \
             --min-structured-coverage 0.98
+          echo "release_id=$RELEASE_ID" >> "$GITHUB_OUTPUT"
           echo "site_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID/site" >> "$GITHUB_OUTPUT"
           echo "audit_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID" >> "$GITHUB_OUTPUT"
 
@@ -112,7 +138,44 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    outputs:
+      page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy only after the environment reviewer approves
         id: deployment
         uses: actions/deploy-pages@v4
+
+  smoke-test:
+    needs: [build, deploy]
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install deployment verifier
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Open the deployed site and search one real catalog license
+        run: >-
+          node scripts/verify-deployed.mjs
+          --url "${{ needs.deploy.outputs.page_url }}"
+          --expected-release-id "${{ needs.build.outputs.release_id }}"
+          --output "${{ runner.temp }}/deployment-smoke.json"
+
+      - name: Preserve deployment smoke evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deployment-smoke-${{ github.run_id }}
+          path: ${{ runner.temp }}/deployment-smoke.json
+          if-no-files-found: warn
+          retention-days: 30

@@ -117,12 +117,20 @@ npm run serve
 - 網站頁尾補齊 TFDA、健保署、資料名稱／版本與政府資料開放授權連結，Chromium 直接驗證使用者看得到。
 - `release_preflight.py` 產生含政策與首頁 SHA-256 的 7 項稽核報告；授權核對超過一年或其他檢查缺一，就不產生可部署結果。
 - 資料 workflow 新增 `TFDA_API_CALLS_AUTHORIZED` 鎖；部署 workflow 另需 `PUBLICATION_AUTHORIZED` 與既有主管 reviewer 鎖。
-- 39 個 Python／Node 測試、5 個 Chromium 測試與三份 workflow YAML 通過。
+- 當時 39 個 Python、2 個 Node、5 個 Chromium 測試與三份 workflow YAML 通過。
+
+### 2026-09-15：C-011 可追溯部署、正式網址 smoke 與回滾入口
+
+- 靜態 release 在封存前寫入 `site/data/release.json`，包含 release ID、程式完整 SHA、資料完整 SHA、來源雜湊與涵蓋率；正式 release 缺少兩個 40 碼 SHA 會失敗。
+- Pages workflow 新增 `app_ref`、`data_ref`；一般發布使用 branch，回滾填入上一個正常版本的完整 SHA，兩者都先解析並保存為不可變 commit。
+- 新增 `verify-deployed.mjs`。部署後用 390×844 Chromium 開正式網址、核對 release ID 與兩個 SHA，從 catalog 選一張完整藥證搜尋，並要求主控台 0 錯誤。
+- 本機 smoke 演練通過：`e2e-fixture`、查詢「測試藥證字第000001號」、1 筆結果、console 0、1.653 秒。
+- 目前總計 40 個 Python、4 個 Node 與 5 個 Chromium 測試通過；三份 workflow YAML 可解析。
 
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python／Node：39 個測試通過（37 Python + 2 Node）。
+- Python／Node：44 個測試通過（40 Python + 4 Node）。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。

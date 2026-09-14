@@ -21,6 +21,8 @@ def arguments(release_root: Path, release_id: str, coverage: float = 0.5) -> Nam
         source_dir=ROOT / "tests" / "fixtures" / "pipeline_sources",
         structured=[ROOT / "tests" / "fixtures" / "structured-real-sample.json"],
         min_structured_coverage=coverage,
+        app_revision="a" * 40,
+        data_revision="b" * 40,
         allow_small_fixtures=True,
         activate=True,
     )
@@ -57,6 +59,12 @@ class StaticReleaseTests(unittest.TestCase):
             self.assertEqual(missing["source_kind"], "metadata_only")
             self.assertIn("尚無結構化", missing["sections"][0]["title"])
             self.assertTrue((release / "site" / "pagefind" / "pagefind.js").is_file())
+            identity = json.loads(
+                (release / "site" / "data" / "release.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(identity["release_id"], "fixture-v1")
+            self.assertEqual(identity["app_revision"], "a" * 40)
+            self.assertEqual(identity["data_revision"], "b" * 40)
             active = json.loads((release_root / "active.json").read_text(encoding="utf-8"))
             self.assertEqual(active["release_id"], "fixture-v1")
 
@@ -76,6 +84,13 @@ class StaticReleaseTests(unittest.TestCase):
             build_release(arguments(release_root, "fixture-v1"))
             with self.assertRaisesRegex(StaticReleaseError, "不可覆寫"):
                 build_release(arguments(release_root, "fixture-v1"))
+
+    def test_production_release_requires_exact_git_revisions(self):
+        args = arguments(Path("unused"), "fixture-v1")
+        args.allow_small_fixtures = False
+        args.app_revision = "main"
+        with self.assertRaisesRegex(StaticReleaseError, "40 碼 Git SHA"):
+            build_release(args)
 
 
 if __name__ == "__main__":

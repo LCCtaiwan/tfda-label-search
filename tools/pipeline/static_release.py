@@ -239,6 +239,13 @@ def build_release(args: argparse.Namespace) -> dict:
         raise StaticReleaseError("release id 格式不安全")
     if not 0 <= args.min_structured_coverage <= 1:
         raise StaticReleaseError("涵蓋率門檻必須介於 0 與 1")
+    app_revision = str(getattr(args, "app_revision", "") or "").strip().lower()
+    data_revision = str(getattr(args, "data_revision", "") or "").strip().lower()
+    for name, revision in (("app", app_revision), ("data", data_revision)):
+        if revision and not re.fullmatch(r"[a-f0-9]{40}", revision):
+            raise StaticReleaseError(f"{name} revision 必須是完整 40 碼 Git SHA")
+    if not args.allow_small_fixtures and (not app_revision or not data_revision):
+        raise StaticReleaseError("正式 release 必須記錄 app 與 data 的完整 Git SHA")
 
     release_root = args.release_root.resolve()
     target = release_root / "releases" / args.release_id
@@ -289,13 +296,20 @@ def build_release(args: argparse.Namespace) -> dict:
         if completed.returncode:
             raise StaticReleaseError(f"Pagefind 建置失敗：{completed.stderr.strip()}")
 
-        manifest = {
+        created_at = now_iso()
+        identity = {
             "schema_version": 1,
             "release_id": args.release_id,
-            "created_at": now_iso(),
-            "ready": True,
+            "created_at": created_at,
+            "app_revision": app_revision,
+            "data_revision": data_revision,
             "coverage": coverage,
             "source_hashes": {name: bundle["content_hash"] for name, bundle in bundles.items()},
+        }
+        atomic_json(temporary / "site" / "data" / "release.json", identity)
+        manifest = {
+            **identity,
+            "ready": True,
             "release_sha256": tree_hash(temporary),
         }
         atomic_json(temporary / "manifest.json", manifest)
@@ -324,6 +338,8 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--structured", type=Path, action="append", default=[])
     parser.add_argument("--structured-dir", type=Path)
     parser.add_argument("--min-structured-coverage", type=float, default=0.98)
+    parser.add_argument("--app-revision", default="")
+    parser.add_argument("--data-revision", default="")
     parser.add_argument("--allow-small-fixtures", action="store_true")
     parser.add_argument("--activate", action="store_true")
     args = parser.parse_args()

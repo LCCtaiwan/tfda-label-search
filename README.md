@@ -58,12 +58,14 @@ npm run serve
 - `docs/publication-rights.md`：官方開放資料、結構化仿單及第三方程式的公開使用依據與排除範圍。
 - `docs/capacity-study.md`：1,000／5,000 份容量試驗、被淘汰的舊架構與瀏覽器結果。
 - `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
-- `docs/supervisor-guide.md`：主管只需查看的四個核准項目。
+- `docs/supervisor-guide.md`：主管核准與部署後檢查小抄。
 - `docs/completion-audit.md`：逐項區分已證明、尚未證明與必須取得的外部授權。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 
 小型不可變 release 的完整命令在 `docs/static-releases.md`。它會把藥證、成分、健保碼、ATC、安全資料、仿單章節與官方入口組成一個可直接開啟的靜態網站。
+
+正式網站會提供 `data/release.json`，可查到實際發布的程式與資料 commit。Pages 部署完成後，`scripts/verify-deployed.mjs` 會用手機尺寸開啟正式網址、核對版本，再以正式目錄中的一張完整藥證搜尋一次。
 
 ## 重要限制
 

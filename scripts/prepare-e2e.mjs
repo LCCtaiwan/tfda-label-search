@@ -32,3 +32,10 @@ await writeFile(path.join(site, "data", "synonyms.json"), `${JSON.stringify({
     note: "只存在於自動測試輸出，不會寫入正式同義詞設定。",
   }],
 }, null, 2)}\n`, "utf8");
+await writeFile(path.join(site, "data", "release.json"), `${JSON.stringify({
+  schema_version: 1,
+  release_id: "e2e-fixture",
+  created_at: new Date().toISOString(),
+  app_revision: "a".repeat(40),
+  data_revision: "b".repeat(40),
+}, null, 2)}\n`, "utf8");

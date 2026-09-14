@@ -26,6 +26,14 @@ class WorkflowGuardTests(unittest.TestCase):
             workflow.index("release_preflight.py"),
             workflow.index("actions/upload-pages-artifact"),
         )
+        self.assertIn("ref: ${{ inputs.app_ref }}", workflow)
+        self.assertIn("ref: ${{ inputs.data_ref }}", workflow)
+        self.assertIn("--app-revision \"$APP_SHA\"", workflow)
+        self.assertIn("--data-revision \"$DATA_SHA\"", workflow)
+        self.assertGreater(
+            workflow.index("verify-deployed.mjs"),
+            workflow.index("actions/deploy-pages"),
+        )
 
 
 if __name__ == "__main__":

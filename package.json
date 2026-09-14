@@ -11,7 +11,7 @@
     "serve": "python3 -m http.server 8000 --directory site",
     "test": "npm run test:pagefind && npm run test:python",
     "test:e2e": "playwright test",
-    "test:pagefind": "node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs",
+    "test:pagefind": "node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs tests/deployed-smoke.test.mjs",
     "test:python": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
   },
   "devDependencies": {

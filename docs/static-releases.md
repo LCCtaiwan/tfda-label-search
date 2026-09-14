@@ -14,12 +14,14 @@ release-root/
         ├── documents.json
         ├── sources/
         └── site/
+            └── data/release.json
 ```
 
 - `sources/`：九組官方來源的正規化快照、來源網址、擷取時間及內容雜湊。
 - `documents.json`：合併目前結構化仿單、成分、健保碼、ATC、安全事件與 PDF 備援連結。
 - `coverage.json`：有效藥證、結構化仿單及只有 metadata 的數量。
 - `site/`：可直接交給 GitHub Pages 的完整靜態網站。
+- `site/data/release.json`：公開版本身分證，保存 release ID、程式完整 Git SHA、資料完整 Git SHA、來源雜湊與涵蓋率。
 - `active.json`：目前核准版本的指標。候選版本失敗時不會改動。
 
 已完成的 release 不可用相同 ID 覆寫。要回復舊版，只需在人工確認後把 `active.json` 指回已驗證的舊 release；不要修改舊 release 內容。
@@ -34,9 +36,11 @@ python3 tools/pipeline/static_release.py \
   --release-root output/releases \
   --source-dir tests/fixtures/pipeline_sources \
   --structured tests/fixtures/structured-real-sample.json \
+  --app-revision aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+  --data-revision bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb \
   --min-structured-coverage 0.5 \
   --allow-small-fixtures \
   --activate
 ```
 
-正式流程不可使用 `--allow-small-fixtures`，預設結構化文字涵蓋率門檻為 98%。尚無結構化文字的有效藥證會保留一張明確標示的資料卡與官方入口，但不能冒充全文可搜尋仿單。
+正式流程不可使用 `--allow-small-fixtures`，而且必須提供兩個完整 40 碼 Git SHA；預設結構化文字涵蓋率門檻為 98%。尚無結構化文字的有效藥證會保留一張明確標示的資料卡與官方入口，但不能冒充全文可搜尋仿單。

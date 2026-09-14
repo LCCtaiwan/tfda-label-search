@@ -37,6 +37,13 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   await expect(page.locator("footer")).toContainText("衛生福利部中央健康保險署");
   await expect(page.getByRole("link", { name: "政府資料開放授權條款-第1版" }))
     .toHaveAttribute("href", "https://data.gov.tw/license");
+  const release = await page.evaluate(async () => {
+    const response = await fetch("./data/release.json");
+    return response.json();
+  });
+  expect(release.release_id).toBe("e2e-fixture");
+  expect(release.app_revision).toMatch(/^[a-f0-9]{40}$/u);
+  expect(release.data_revision).toMatch(/^[a-f0-9]{40}$/u);
 });
 
 test("只有 reviewed 的測試同義詞會生效", async ({ page }) => {
