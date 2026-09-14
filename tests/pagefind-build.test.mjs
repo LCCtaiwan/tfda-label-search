@@ -27,6 +27,11 @@ test("builds one searchable record per document without publishing raw HTML", as
 
     const documents = await readdir(path.join(output, "data", "documents"));
     assert.equal(documents.length, 3);
+    const catalog = JSON.parse(await readFile(path.join(output, "data", "catalog.json"), "utf8"));
+    assert.equal(catalog.document_count, 3);
+    assert.equal(catalog.documents.length, 3);
+    assert.ok(catalog.documents.every((item) => item.record_id && item.document_path));
+    assert.ok(catalog.documents.every((item) => item.meta.record_id === item.record_id));
     for (const filename of documents) {
       const payload = await readFile(path.join(output, "data", "documents", filename), "utf8");
       assert.doesNotMatch(payload, /<img\b/iu);

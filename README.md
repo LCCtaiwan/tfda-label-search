@@ -33,12 +33,16 @@ Pagefind 已通過 1,000 與 5,000 份合成容量試驗；正式發布前仍需
 ```sh
 npm install --cache .npm-cache
 npm test
+npm run prepare:e2e
+npm run test:e2e
 npm run build -- \
   --input tests/fixtures/pagefind-search-sample.json \
   --input tests/fixtures/structured-real-sample.json \
   --output site
 npm run serve
 ```
+
+第一次在本機跑端到端測試前，需先執行 `npx playwright install chromium`。GitHub CI 會自動安裝瀏覽器。
 
 開啟 `http://localhost:8000` 後，可以輸入任意至少兩個字元的中文或英文文字。AND 欄每個詞都必須同時出現在同一章；OR 欄符合任一詞即可；NOT 欄會排除含有該詞的章節。結果每次顯示 50 筆，可按「載入更多結果」繼續查看。
 

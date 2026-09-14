@@ -6,12 +6,15 @@
   "scripts": {
     "build": "node scripts/build-pagefind.mjs",
     "fixture:capacity": "node scripts/generate-capacity-fixture.mjs",
+    "prepare:e2e": "node scripts/prepare-e2e.mjs",
     "serve": "python3 -m http.server 8000 --directory site",
     "test": "npm run test:pagefind && npm run test:python",
+    "test:e2e": "playwright test",
     "test:pagefind": "node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs",
     "test:python": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
   },
   "devDependencies": {
+    "@playwright/test": "^1.63.0",
     "pagefind": "1.5.2"
   }
 }

@@ -23,6 +23,10 @@ jobs:
           python-version: "3.12"
       - run: npm ci
       - run: npm test
+      - name: Install browser used by end-to-end tests
+        run: npx playwright install --with-deps chromium
+      - run: npm run prepare:e2e
+      - run: npm run test:e2e
       - name: Build fixture site
         run: >-
           npm run build --

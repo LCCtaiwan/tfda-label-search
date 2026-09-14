@@ -21,6 +21,8 @@ node_modules/
 .npm-cache/
 .pagefind-cache/
 .playwright-cli/
+playwright-report/
+test-results/
 pagefind/
 npm-debug.log*
 

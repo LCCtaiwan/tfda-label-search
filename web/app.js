@@ -8,6 +8,7 @@ const loadMoreButton = document.querySelector("#load-more");
 
 let pagefindPromise;
 let synonymsPromise;
+let catalogPromise;
 let activeSearch;
 let searchGeneration = 0;
 const documentCache = new Map();
@@ -44,6 +45,21 @@ async function synonyms() {
       return mapping;
     });
   return synonymsPromise;
+}
+
+async function catalog() {
+  catalogPromise ??= fetch("./data/catalog.json")
+    .then((response) => {
+      if (!response.ok) throw new Error("藥品目錄讀取失敗");
+      return response.json();
+    })
+    .then((payload) => {
+      if (payload.schema_version !== 1 || !Array.isArray(payload.documents)) {
+        throw new Error("藥品目錄格式錯誤");
+      }
+      return payload.documents;
+    });
+  return catalogPromise;
 }
 
 async function searchOne(engine, value) {
@@ -145,6 +161,7 @@ function createSearchState(found, query, synonymMap) {
     query,
     synonymMap,
     exhausted: false,
+    seenDocuments: new Set(),
   };
 }
 
@@ -154,6 +171,12 @@ async function collectNext(state, limit = 50) {
     if (!state.current) {
       const record = await state.candidates[state.candidateIndex].data();
       const meta = record.meta ?? {};
+      const recordId = meta.record_id || meta.document_path;
+      if (recordId && state.seenDocuments.has(recordId)) {
+        state.candidateIndex += 1;
+        continue;
+      }
+      if (recordId) state.seenDocuments.add(recordId);
       const source = await loadDocument(meta);
       state.current = { record, meta, source };
       state.sectionIndex = 0;
@@ -272,11 +295,17 @@ async function runSearch(event) {
 
   status.textContent = "搜尋中…";
   try {
-    const [engine, synonymMap] = await Promise.all([pagefind(), synonyms()]);
+    const [engine, synonymMap, catalogDocuments] = await Promise.all([pagefind(), synonyms(), catalog()]);
     const allGroups = await Promise.all(all.map((item) => searchGroup(engine, item, synonymMap)));
     const anyGroups = await Promise.all(any.map((item) => searchGroup(engine, item, synonymMap)));
     let found = allGroups.length ? allGroups.reduce(intersect) : union(anyGroups);
     if (allGroups.length && anyGroups.length) found = intersect(found, union(anyGroups));
+    const metadataMatches = new Map(catalogDocuments
+      .filter((document) => matches(metadataText(document), { all, any, excluded }, synonymMap))
+      .map((document) => [`catalog:${document.record_id}`, {
+        data: async () => ({ meta: document.meta, plain_excerpt: "藥品資料命中" }),
+      }]));
+    found = union([metadataMatches, found]);
 
     activeSearch = createSearchState(found, { all, any, excluded }, synonymMap);
     await showNext(activeSearch, generation);
