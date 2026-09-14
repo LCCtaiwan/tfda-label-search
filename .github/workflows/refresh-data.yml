@@ -1,0 +1,93 @@
+name: Refresh TFDA data state
+
+on:
+  workflow_dispatch:
+    inputs:
+      max_items:
+        description: "本輪最多查幾張結構化仿單；TFDA 尚未公布速率，先小批執行"
+        required: true
+        default: "100"
+        type: choice
+        options:
+          - "25"
+          - "50"
+          - "100"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tfda-data-state
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      APP_COPY: ${{ runner.temp }}/tfda-label-search-app
+      SNAPSHOT_ROOT: ${{ runner.temp }}/tfda-official
+      SNAPSHOT_ID: run-${{ github.run_id }}-${{ github.run_attempt }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Preserve the reviewed application code
+        run: rsync -a --exclude .git ./ "$APP_COPY/"
+
+      - name: Open or initialize the dedicated data branch
+        run: |
+          if git ls-remote --exit-code --heads origin data-state >/dev/null 2>&1; then
+            git fetch origin data-state:data-state
+            git switch data-state
+          else
+            git switch --orphan data-state
+          fi
+
+      - name: Download and validate all nine official sources
+        run: >-
+          python3 "$APP_COPY/tools/pipeline/official_snapshot.py"
+          --snapshot-id "$SNAPSHOT_ID"
+          --output-root "$SNAPSHOT_ROOT"
+          --activate
+
+      - name: Replace the candidate official snapshot locally
+        run: |
+          mkdir -p official/current
+          rsync -a --delete "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/" official/current/
+
+      - name: Fetch one resumable structured-label batch
+        run: >-
+          python3 "$APP_COPY/tools/pipeline/fetch_structured.py"
+          --license-source official/current/raw/licenses.raw
+          --output-dir structured
+          --max-items "${{ inputs.max_items }}"
+          --request-delay 2
+
+      - name: Validate and describe the new data state
+        run: >-
+          python3 "$APP_COPY/tools/pipeline/state_manifest.py"
+          --official-dir official/current
+          --structured-dir structured
+          --output data-state-manifest.json
+
+      - name: Commit the complete batch atomically
+        run: |
+          cp "$APP_COPY/docs/data-state-branch.md" README.md
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add README.md official structured data-state-manifest.json
+          git commit -m "data: refresh TFDA state run $GITHUB_RUN_ID"
+          git push origin HEAD:data-state
+
+      - name: Add the auditable result to the run summary
+        run: |
+          echo '## TFDA data-state manifest' >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          cat data-state-manifest.json >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

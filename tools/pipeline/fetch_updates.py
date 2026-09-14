@@ -83,7 +83,7 @@ def fetch_updates(
                 output = dict(parsed)
                 output["documents"] = documents
                 output["document_count"] = len(documents)
-                atomic_json(output_dir / "documents" / f"{code}.json", output)
+                atomic_json(output_dir / "documents" / code[:2] / f"{code}.json", output)
                 report["documents"] += len(documents)
         except Exception as exc:
             state["last_error"] = {

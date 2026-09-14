@@ -42,3 +42,10 @@
 - 測試發現 Pagefind 可能漏掉含中文與連續數字的完整藥證；新增小型精確藥品目錄補足藥名、藥證、成分與健保碼查詢。
 - 合併精確目錄與全文索引結果時以同一 `record_id` 去重，避免同一藥品顯示兩張 metadata 資料卡。
 - 最終 5,000 份合成網站為 103 MB；4 個 Chromium、2 個 Node 與 25 個 Python 測試通過。
+
+## C-007
+
+- 與 Claude Code 共同審查免費保存方式，選定 `data-state` Git 分支作為權威續傳資料，不使用會過期的 Actions cache 或 draft release 指標。
+- 新增手動資料更新 workflow；九來源及一整批仿單成功後才原子 commit，且以 concurrency 避免同時更新。
+- 新增手動 Pages 建置與部署 workflow；98% 文字門檻、完整測試與主管 environment 核准缺一不可。
+- 新增資料狀態 manifest、分片文件、`Retry-After` 支援、部署手冊及主管操作小抄。

@@ -56,6 +56,8 @@ npm run serve
 - `docs/static-releases.md`：資料如何驗證、產生新版本，以及失敗時如何保留舊版。
 - `docs/official-sources.md`：官方 API 能做什麼、九組來源、授權與批次下載邊界。
 - `docs/capacity-study.md`：1,000／5,000 份容量試驗、被淘汰的舊架構與瀏覽器結果。
+- `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
+- `docs/supervisor-guide.md`：主管只需查看的三個核准項目。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 
@@ -67,3 +69,4 @@ npm run serve
 - 結構化仿單缺少時，清楚標示 PDF／圖片備援，不假裝有可搜尋文字。
 - 更新失敗時保留上一個已驗證版本。
 - 未經另外明確授權，不推送、部署、建立付費資源或大量呼叫官方 API。
+- 目前兩個正式 workflow 都只允許手動執行；TFDA 確認批次頻率前不加入排程。

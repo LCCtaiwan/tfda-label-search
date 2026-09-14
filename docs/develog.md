@@ -85,10 +85,19 @@ npm run serve
 - 第二輪發現目錄與 Pagefind 同時命中時會顯示兩張卡；統一 `record_id` 後，自動與 5,000 份瀏覽器測試都只顯示一張。
 - 加入目錄後的最終 5,000 份網站為 103 MB、建置 36.14 秒；第一次常見詞 1,115 ms、重複查詢 282 ms、單一藥品 1,023 ms。
 
+### 2026-09-15：C-007 GitHub 免費資料續傳與主管核准
+
+- 核對 GitHub 官方限制：Pages 站點 1 GB 限制下，103 MB 測試網站仍有空間；Actions cache 預設可能在 7 日未使用後移除，不可當權威資料；environment required reviewer 可在公開 repository 的免費方案使用。
+- 依使用者要求請 Claude Code 獨立審查。它否決 draft release 作為唯一 head，建議用 `data-state` Git 分支的 commit 作原子指標；這與本專案的失敗保留舊版要求一致，因此採用。
+- `refresh-data.yml` 只手動執行，每次下載九來源並查最多 25／50／100 張；整批失敗不 commit，成功才 push `data-state`，且同一時間只允許一輪。
+- `deploy-pages.yml` 與下載完全分離；重新驗證資料、跑 30 個 Python／Node 與 4 個 Chromium 測試、通過 98% 結構化文字門檻後才產生 Pages artifact。
+- 部署預設上鎖：`SUPERVISOR_APPROVAL_CONFIGURED` 未設為 `true` 時明確失敗；設為 true 前必須先在 `github-pages` environment 建立主管 required reviewer。
+- 結構化文件改按證別前兩碼分片，避免 `data-state` 單一資料夾超過建議寬度。API 暫時錯誤支援最長 60 秒 `Retry-After`，仍失敗就保留舊 commit。
+
 ## Verification Status
 
 - 規格：使用者已確認。
-- Python：25 個測試通過。
+- Python：28 個測試通過。
 - Node.js：Pagefind 建置與容量 fixture 測試共 2 個通過。
 - 小型索引：4 份文件、54 個章節，整個靜態網站約 876 KB，其中 Pagefind 約 820 KB。
 - 真實瀏覽器：`噁心` 3 筆、`懷孕` 2 筆、`腎功能不全` 2 筆；`懷孕 AND 噁心` 1 筆；`噁心 NOT 腹瀉` 2 筆；`腹瀉 OR 腎功能不全` 3 筆。
@@ -101,4 +110,4 @@ npm run serve
 
 ## Recommended Next Step
 
-先向 TFDA 確認可接受的正式批次頻率，再以 1,000 至 5,000 份真實且長短不同的仿單補做涵蓋率與搜尋品質驗證；確認前只使用 fixtures 與既有單份真實樣本。
+由使用者決定新 GitHub repository 的擁有者、公開／私人設定與主管帳號；取得推送及第一次正式 25 張小批授權後，才建立遠端並驗證真實 workflow。TFDA 頻率確認前不增加批量或排程。

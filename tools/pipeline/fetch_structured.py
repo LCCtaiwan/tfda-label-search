@@ -108,7 +108,7 @@ def fetch_batch(
                 raise NoDocumentError("API 未回傳完全相同的藥證字號")
             parsed["documents"] = documents
             parsed["document_count"] = len(documents)
-            atomic_json(output_dir / "documents" / f"{code}.json", parsed)
+            atomic_json(output_dir / "documents" / code[:2] / f"{code}.json", parsed)
             state["items"][number] = {
                 "status": "downloaded",
                 "license_code": code,

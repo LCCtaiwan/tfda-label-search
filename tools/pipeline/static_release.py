@@ -328,7 +328,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--activate", action="store_true")
     args = parser.parse_args()
     if args.structured_dir:
-        args.structured.extend(sorted(args.structured_dir.glob("*.json")))
+        args.structured.extend(sorted(args.structured_dir.rglob("*.json")))
     if not args.structured:
         parser.error("至少需要一個 --structured 或含 JSON 的 --structured-dir")
     return args

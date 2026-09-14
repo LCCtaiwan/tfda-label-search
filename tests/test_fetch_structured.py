@@ -36,13 +36,14 @@ class StructuredBatchTests(unittest.TestCase):
                 request_delay=0,
                 fetch=fake_fetch,
             )
-            files = sorted((output / "documents").glob("*.json"))
+            files = sorted((output / "documents").rglob("*.json"))
 
         self.assertEqual(first["downloaded"], 1)
         self.assertEqual(first["remaining"], 1)
         self.assertTrue(second["complete"])
         self.assertEqual(calls, ["01016162", "51123456"])
         self.assertEqual(len(files), 2)
+        self.assertEqual({path.parent.name for path in files}, {"01", "51"})
 
     def test_failure_is_saved_and_retried_on_next_run(self):
         attempts = 0

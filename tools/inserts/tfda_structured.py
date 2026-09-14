@@ -11,6 +11,7 @@ import argparse
 import base64
 from dataclasses import dataclass
 from datetime import date, datetime, timezone
+from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
 import json
 from pathlib import Path
@@ -123,7 +124,30 @@ class OfficialRedirect(HTTPRedirectHandler):
         return super().redirect_request(req, fp, code, msg, headers, newurl)
 
 
-def fetch_xml(query: Query, attempts: int = 3) -> bytes:
+def retry_delay(error: HTTPError, attempt: int, now: datetime | None = None) -> float:
+    """Use Retry-After when present, with a bounded exponential fallback."""
+    fallback = float(2**attempt)
+    raw = str(error.headers.get("Retry-After") or "").strip() if error.headers else ""
+    if not raw:
+        return fallback
+    try:
+        requested = float(raw)
+    except ValueError:
+        try:
+            retry_at = parsedate_to_datetime(raw)
+            if retry_at.tzinfo is None:
+                retry_at = retry_at.replace(tzinfo=timezone.utc)
+            requested = (retry_at - (now or datetime.now(timezone.utc))).total_seconds()
+        except (TypeError, ValueError, OverflowError):
+            return fallback
+    return max(fallback, min(60.0, max(0.0, requested)))
+
+
+def fetch_xml(
+    query: Query,
+    attempts: int = 3,
+    sleep: Callable[[float], None] = time.sleep,
+) -> bytes:
     """Fetch one bounded response, retrying only temporary failures."""
     url = _validate_official_url(build_url(query))
     opener = build_opener(OfficialRedirect())
@@ -142,10 +166,12 @@ def fetch_xml(query: Query, attempts: int = 3) -> bytes:
         except HTTPError as exc:
             if exc.code not in TRANSIENT_HTTP_CODES or attempt + 1 == attempts:
                 raise
+            delay = retry_delay(exc, attempt)
         except (TimeoutError, ConnectionError, URLError):
             if attempt + 1 == attempts:
                 raise
-        time.sleep(2**attempt)
+            delay = float(2**attempt)
+        sleep(delay)
     raise APIResponseError("TFDA API 下載失敗")
 
 
@@ -424,4 +450,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

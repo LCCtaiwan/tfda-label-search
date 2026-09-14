@@ -1,0 +1,108 @@
+name: Build and approve TFDA Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tfda-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      site_path: ${{ steps.release.outputs.site_path }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: app
+
+      - uses: actions/checkout@v4
+        with:
+          ref: data-state
+          path: state
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install and verify application
+        working-directory: app
+        run: |
+          npm ci
+          npm test
+          npx playwright install --with-deps chromium
+          npm run prepare:e2e
+          npm run test:e2e
+
+      - name: Revalidate the selected data-state commit
+        run: >-
+          python3 app/tools/pipeline/state_manifest.py
+          --official-dir state/official/current
+          --structured-dir state/structured
+          --output "${{ runner.temp }}/verified-data-state.json"
+
+      - name: Build candidate release with a 98 percent text gate
+        id: release
+        env:
+          RELEASE_ID: ${{ github.sha }}-${{ github.run_id }}
+        run: |
+          python3 app/tools/pipeline/static_release.py \
+            --release-id "$RELEASE_ID" \
+            --release-root candidate \
+            --source-dir state/official/current/raw \
+            --structured-dir state/structured/documents \
+            --min-structured-coverage 0.98
+          echo "site_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID/site" >> "$GITHUB_OUTPUT"
+          echo "audit_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID" >> "$GITHUB_OUTPUT"
+
+      - name: Upload small audit evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-audit-${{ github.run_id }}
+          path: |
+            ${{ steps.release.outputs.audit_path }}/manifest.json
+            ${{ steps.release.outputs.audit_path }}/coverage.json
+            ${{ runner.temp }}/verified-data-state.json
+          retention-days: 30
+
+      - uses: actions/configure-pages@v5
+
+      - name: Upload candidate Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ steps.release.outputs.site_path }}
+
+  approval-lock:
+    if: vars.SUPERVISOR_APPROVAL_CONFIGURED != 'true'
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          echo '拒絕部署：請先設定 github-pages required reviewer，再把 repository variable SUPERVISOR_APPROVAL_CONFIGURED 設為 true。'
+          exit 1
+
+  deploy:
+    if: vars.SUPERVISOR_APPROVAL_CONFIGURED == 'true'
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy only after the environment reviewer approves
+        id: deployment
+        uses: actions/deploy-pages@v4

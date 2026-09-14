@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from urllib.error import HTTPError
 
 from tools.inserts.tfda_structured import (
     APIResponseError,
@@ -12,6 +13,7 @@ from tools.inserts.tfda_structured import (
     build_url,
     parse_xml,
     refresh,
+    retry_delay,
 )
 
 
@@ -51,6 +53,14 @@ SAMPLE = f"""<?xml version="1.0" encoding="UTF-8"?>
 
 
 class StructuredInsertTests(unittest.TestCase):
+    def test_retry_after_is_honored_and_bounded(self):
+        delayed = HTTPError("https://mcp.fda.gov.tw", 429, "busy", {"Retry-After": "15"}, None)
+        excessive = HTTPError("https://mcp.fda.gov.tw", 503, "busy", {"Retry-After": "600"}, None)
+        invalid = HTTPError("https://mcp.fda.gov.tw", 503, "busy", {"Retry-After": "later"}, None)
+        self.assertEqual(retry_delay(delayed, 0), 15)
+        self.assertEqual(retry_delay(excessive, 0), 60)
+        self.assertEqual(retry_delay(invalid, 2), 4)
+
     def test_license_and_nhi_build_official_query(self):
         url = build_url(Query(license_code="01016162", nhi_code="A016162100"))
         self.assertTrue(url.startswith("https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc?"))
@@ -134,4 +144,3 @@ class StructuredInsertTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

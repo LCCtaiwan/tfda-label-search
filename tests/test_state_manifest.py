@@ -1,0 +1,86 @@
+import json
+from pathlib import Path
+import tempfile
+import unittest
+
+from tools.pipeline.static_release import SOURCE_ORDER, StaticReleaseError, active_catalog
+from tools.pipeline.state_manifest import build_manifest, summarize_state
+from tools.sources import official
+
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+class StateManifestTests(unittest.TestCase):
+    def test_summary_uses_active_licenses_as_denominator(self):
+        active = {"A": {}, "B": {}, "C": {}}
+        state = {
+            "schema_version": 1,
+            "items": {
+                "A": {"status": "downloaded"},
+                "B": {"status": "no_document"},
+            },
+        }
+        summary = summarize_state(state, active, [Path("01/a.json")])
+        self.assertEqual(summary["active_licenses"], 3)
+        self.assertEqual(summary["checked_licenses"], 2)
+        self.assertEqual(summary["downloaded_licenses"], 1)
+        self.assertEqual(summary["pending_licenses"], 1)
+        self.assertFalse(summary["complete"])
+
+    def test_retired_license_is_reported_but_not_in_current_denominator(self):
+        summary = summarize_state(
+            {"schema_version": 1, "items": {"OLD": {"status": "downloaded"}}},
+            {"A": {}},
+            [],
+        )
+        self.assertEqual(summary["active_licenses"], 1)
+        self.assertEqual(summary["retired_state_items"], 1)
+        self.assertEqual(summary["pending_licenses"], 1)
+
+    def test_missing_downloaded_file_stops_state_commit(self):
+        with self.assertRaises(StaticReleaseError):
+            summarize_state(
+                {"schema_version": 1, "items": {"A": {"status": "downloaded"}}},
+                {"A": {}},
+                [],
+            )
+
+    def test_build_manifest_validates_a_complete_fixture_state(self):
+        license_bundle = official.build_bundle(
+            "licenses",
+            (ROOT / "tests" / "fixtures" / "pipeline_sources" / "licenses.raw").read_bytes(),
+            allow_small=True,
+        )
+        active = active_catalog(license_bundle)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            official_dir = root / "official"
+            structured_dir = root / "structured"
+            (official_dir / "normalized").mkdir(parents=True)
+            structured_dir.mkdir()
+            (official_dir / "manifest.json").write_text(json.dumps({
+                "schema_version": 1,
+                "snapshot_id": "fixture",
+                "created_at": "2026-09-15T00:00:00+00:00",
+                "ready": True,
+                "sources": {name: {} for name in SOURCE_ORDER},
+            }), encoding="utf-8")
+            (official_dir / "normalized" / "licenses.json").write_text(
+                json.dumps(license_bundle, ensure_ascii=False), encoding="utf-8"
+            )
+            (structured_dir / "state.json").write_text(json.dumps({
+                "schema_version": 1,
+                "catalog_hash": license_bundle["content_hash"],
+                "items": {number: {"status": "no_document"} for number in active},
+            }, ensure_ascii=False), encoding="utf-8")
+
+            manifest = build_manifest(official_dir, structured_dir)
+
+        self.assertTrue(manifest["complete"])
+        self.assertEqual(manifest["checked_licenses"], len(active))
+        self.assertEqual(len(manifest["data_sha256"]), 64)
+
+
+if __name__ == "__main__":
+    unittest.main()
