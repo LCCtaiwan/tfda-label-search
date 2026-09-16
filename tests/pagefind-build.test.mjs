@@ -37,7 +37,7 @@ test("builds one searchable record per document without publishing raw HTML", as
 
     const manifest = JSON.parse(await readFile(path.join(output, "data", "manifest.json"), "utf8"));
     assert.equal(manifest.document_count, 4);
-    assert.equal(manifest.section_count, 5);
+    assert.equal(manifest.section_count, 7);
     assert.equal(manifest.record_count, 4);
     assert.match(manifest.built_at, /^\d{4}-\d{2}-\d{2}T/u);
     assert.equal(manifest.data_retrieved_at, "2026-09-15T00:00:00Z");
@@ -96,7 +96,9 @@ test("builds one searchable record per document without publishing raw HTML", as
     const nhiDocument = JSON.parse(
       await readFile(path.join(output, nhiDocumentMeta.document_path), "utf8"),
     );
-    assert.deepEqual(nhiDocument.nhi_items, [{
+    assert.equal(nhiDocumentMeta.meta.nhi_codes, "A000000001");
+    assert.equal(nhiDocument.nhi_items.length, 2);
+    assert.deepEqual(nhiDocument.nhi_items[0], {
       code: "A000000001",
       atc_code: "A01AA01",
       benefit_chapter: "1.1",
@@ -108,7 +110,9 @@ test("builds one searchable record per document without publishing raw HTML", as
       dosage_form: "TABLET",
       item_url: "https://lmspiq.fda.gov.tw/web/DRPIQ/DRPIQ1000Result?licId=01000001",
       rule_url: "https://info.nhi.gov.tw/rule",
-    }]);
+    });
+    assert.equal(nhiDocument.nhi_items[1].price, "1.4");
+    assert.equal(nhiDocument.nhi_items[1].effective_until, "2025-12-31");
     for (const filename of documents) {
       const payload = await readFile(path.join(output, "data", "documents", filename), "utf8");
       assert.doesNotMatch(payload, /<img\b/iu);
@@ -177,6 +181,36 @@ test("rejects an unknown event type or non-TFDA event source", async () => {
       ], { cwd: root, stdio: "pipe" }),
       (error) => {
         assert.match(error.stderr.toString(), /不是 TFDA 開放資料 HTTPS 網址/u);
+        return true;
+      },
+    );
+  } finally {
+    await rm(temporaryRoot, { recursive: true, force: true });
+  }
+});
+
+test("accepts a real-size shortage status but keeps a hard length limit", async () => {
+  const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "tfda-event-length-test-"));
+  const input = path.join(temporaryRoot, "input.json");
+  const output = path.join(temporaryRoot, "site");
+  try {
+    const payload = JSON.parse(
+      await readFile(path.join(root, "tests/fixtures/pagefind-search-sample.json"), "utf8"),
+    );
+    payload.documents[1].official_events[0].status = "供".repeat(917);
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    execFileSync(process.execPath, [
+      "scripts/build-pagefind.mjs", "--input", input, "--output", output,
+    ], { cwd: root, stdio: "pipe" });
+
+    payload.documents[1].official_events[0].status = "供".repeat(2001);
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    assert.throws(
+      () => execFileSync(process.execPath, [
+        "scripts/build-pagefind.mjs", "--input", input, "--output", `${output}-too-long`,
+      ], { cwd: root, stdio: "pipe" }),
+      (error) => {
+        assert.match(error.stderr.toString(), /事件標題或狀態過長/u);
         return true;
       },
     );

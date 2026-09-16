@@ -14,6 +14,8 @@ const OFFICIAL_EVENT_TYPES = new Set([
   "shortage_with_alternative",
   "shortage_without_alternative",
 ]);
+const MAX_EVENT_TITLE_CHARS = 1000;
+const MAX_EVENT_STATUS_CHARS = 2000;
 
 function parseArgs(argv) {
   const options = { inputs: [], output: "site", synonyms: "config/synonyms.json" };
@@ -113,7 +115,10 @@ function officialEvents(value, sourcePath) {
     if (publishedOn && !validCalendarDate(publishedOn)) {
       throw new Error(`${sourcePath} 的 TFDA 事件日期格式錯誤`);
     }
-    if ([...title].length > 1000 || [...status].length > 500) {
+    if (
+      [...title].length > MAX_EVENT_TITLE_CHARS
+      || [...status].length > MAX_EVENT_STATUS_CHARS
+    ) {
       throw new Error(`${sourcePath} 的 TFDA 事件標題或狀態過長`);
     }
     const sourceUrl = officialEventSourceUrl(raw?.source_url, sourcePath);
@@ -333,7 +338,7 @@ async function build({ inputs, output, synonyms }) {
         version: safeDocument.version,
         approved_at: safeDocument.approved_at,
         ingredients: safeDocument.ingredients.map((item) => item.name).join("、"),
-        nhi_codes: safeDocument.nhi_items.map((item) => item.code).join("、"),
+        nhi_codes: [...new Set(safeDocument.nhi_items.map((item) => item.code).filter(Boolean))].join("、"),
         atc_codes: [...new Set(safeDocument.nhi_items.map((item) => item.atc_code).filter(Boolean))].join("、"),
         document_path: documentPath,
         official_url: safeDocument.official_url,

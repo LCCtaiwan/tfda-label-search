@@ -25,13 +25,16 @@ test("任意短詞與 AND、OR、NOT 會回傳正確章節", async ({ page }) =>
   await expect(page.locator("#results article").first()).toContainText("腎功能不全");
 
   await search(page, { all: "懷孕 噁心" });
-  await expect(page.locator("#status")).toHaveText("找到 1 筆結果。");
+  await expect(page.locator("#status")).toHaveText("找到 2 個命中章節，來自 1 份仿單。");
+  await expect(page.locator("#results article")).toHaveCount(2);
+  await expect(page.locator("#results article").nth(0)).toContainText("懷孕");
+  await expect(page.locator("#results article").nth(1)).toContainText("噁心");
 
   await search(page, { all: "噁心", excluded: "腹瀉" });
   await expect(page.locator("#status")).toHaveText("找到 2 筆結果。");
 
   await search(page, { any: "腹瀉 噁心" });
-  await expect(page.locator("#status")).toHaveText("找到 3 筆結果。");
+  await expect(page.locator("#status")).toHaveText("找到 4 個命中章節，來自 3 份仿單。");
 });
 
 test("頁尾顯示可追溯的資料版本", async ({ page }) => {
@@ -121,19 +124,24 @@ test("其他 TFDA 官方資料以歷史關聯呈現，不冒充目前狀態", as
 test("健保詳細資料有日期與官方來源，不冒充目前給付狀態", async ({ page }) => {
   await search(page, { all: "A000000001" });
   await expect(page.locator("#results article")).toHaveCount(1);
+  await expect(page.locator("#results article .metadata").last()).toHaveText(
+    "健保碼：A000000001｜ATC：A01AA01",
+  );
   const details = page.locator(".nhi-details");
-  await expect(details.locator("summary")).toHaveText("查看健保資料（1 筆）");
+  await expect(details.locator("summary")).toHaveText("查看健保資料（2 筆）");
   await details.locator("summary").click();
   await expect(details).toContainText("不代表目前仍給付、支付價仍相同或適用個別情況");
   await expect(details).toContainText("健保碼：A000000001");
   await expect(details).toContainText("規格：10 MG");
   await expect(details).toContainText("支付價：1.5");
   await expect(details).toContainText("有效期間：2026-01-01～未載明迄日");
-  await expect(details.getByRole("link", { name: "官方藥品資料" })).toHaveAttribute(
+  await expect(details.getByRole("link", { name: "官方藥品資料" })).toHaveCount(2);
+  await expect(details.getByRole("link", { name: "官方藥品資料" }).first()).toHaveAttribute(
     "href",
     "https://lmspiq.fda.gov.tw/web/DRPIQ/DRPIQ1000Result?licId=01000001",
   );
-  await expect(details.getByRole("link", { name: "健保給付規定" })).toHaveAttribute(
+  await expect(details.getByRole("link", { name: "健保給付規定" })).toHaveCount(2);
+  await expect(details.getByRole("link", { name: "健保給付規定" }).first()).toHaveAttribute(
     "href",
     "https://info.nhi.gov.tw/rule",
   );

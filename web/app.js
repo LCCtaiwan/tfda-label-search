@@ -236,6 +236,10 @@ function matches(text, query, synonymMap) {
   return true;
 }
 
+function containsPositiveTerm(text, query, synonymMap) {
+  return [...query.all, ...query.any].some((term) => includesGroup(text, term, synonymMap));
+}
+
 function metadataText(source) {
   return [
     source.drug_name_zh,
@@ -259,6 +263,7 @@ function createSearchState(found, query, synonymMap) {
     sectionIndex: 0,
     metadataChecked: false,
     displayed: 0,
+    matchedDocuments: 0,
     query,
     synonymMap,
     exhausted: false,
@@ -279,6 +284,15 @@ async function collectNext(state, limit = 50) {
       }
       if (recordId) state.seenDocuments.add(recordId);
       const source = await loadDocument(meta);
+      const documentText = [
+        metadataText(source),
+        ...(source.sections ?? []).map(sectionText),
+      ].join(" ");
+      if (!matches(documentText, state.query, state.synonymMap)) {
+        state.candidateIndex += 1;
+        continue;
+      }
+      state.matchedDocuments += 1;
       state.current = { record, meta, source };
       state.sectionIndex = 0;
       state.metadataChecked = false;
@@ -287,7 +301,7 @@ async function collectNext(state, limit = 50) {
     const { record, meta, source } = state.current;
     if (!state.metadataChecked) {
       state.metadataChecked = true;
-      if (matches(metadataText(source), state.query, state.synonymMap)) {
+      if (containsPositiveTerm(metadataText(source), state.query, state.synonymMap)) {
         entries.push({ record, meta, source, section: null });
       }
       if (entries.length >= limit) break;
@@ -297,7 +311,7 @@ async function collectNext(state, limit = 50) {
     while (entries.length < limit && state.sectionIndex < sections.length) {
       const section = sections[state.sectionIndex];
       state.sectionIndex += 1;
-      if (matches(sectionText(section), state.query, state.synonymMap)) {
+      if (containsPositiveTerm(sectionText(section), state.query, state.synonymMap)) {
         entries.push({ record, meta, source, section });
       }
     }
@@ -489,9 +503,15 @@ async function showNext(state, generation) {
   state.displayed += entries.length;
   loadMoreButton.disabled = false;
   loadMoreButton.hidden = state.exhausted;
-  status.textContent = state.exhausted
-    ? `找到 ${state.displayed} 筆結果。`
-    : `已顯示 ${state.displayed} 筆，尚有更多結果。`;
+  if (state.displayed !== state.matchedDocuments) {
+    status.textContent = state.exhausted
+      ? `找到 ${state.displayed} 個命中章節，來自 ${state.matchedDocuments} 份仿單。`
+      : `已顯示 ${state.displayed} 個命中章節，來自 ${state.matchedDocuments} 份仿單，尚有更多結果。`;
+  } else {
+    status.textContent = state.exhausted
+      ? `找到 ${state.displayed} 筆結果。`
+      : `已顯示 ${state.displayed} 筆，尚有更多結果。`;
+  }
 }
 
 async function runSearch(event) {

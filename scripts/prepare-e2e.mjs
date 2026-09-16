@@ -15,6 +15,10 @@ execFileSync(process.execPath, [
   "--documents", "110",
 ], { cwd: root, stdio: "inherit" });
 
+const capacity = JSON.parse(await readFile(capacityFile, "utf8"));
+capacity.retrieved_at = "2026-09-15T00:00:00Z";
+await writeFile(capacityFile, `${JSON.stringify(capacity)}\n`, "utf8");
+
 execFileSync(process.execPath, [
   "scripts/build-pagefind.mjs",
   "--input", "tests/fixtures/pagefind-search-sample.json",
