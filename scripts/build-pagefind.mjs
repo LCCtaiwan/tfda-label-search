@@ -45,31 +45,6 @@ function officialUrl(licenseNo) {
   return `https://mcp.fda.gov.tw/im_detail_1/${encodeURIComponent(licenseNo)}`;
 }
 
-function officialFileUrls(value, sourcePath) {
-  if (value == null) return [];
-  if (!Array.isArray(value)) throw new Error(`${sourcePath} 的 pdf_urls 必須是清單`);
-  const result = [];
-  for (const raw of value) {
-    let url;
-    try {
-      url = new URL(plain(raw));
-    } catch {
-      throw new Error(`${sourcePath} 含無效的官方仿單檔案網址`);
-    }
-    if (
-      url.protocol !== "https:"
-      || url.hostname !== "mcp.fda.gov.tw"
-      || url.username
-      || url.password
-      || !["", "443"].includes(url.port)
-    ) {
-      throw new Error(`${sourcePath} 的仿單檔案不是 TFDA HTTPS 網址`);
-    }
-    if (!result.includes(url.href)) result.push(url.href);
-  }
-  return result;
-}
-
 function stringList(value) {
   return Array.isArray(value) ? [...new Set(value.map(plain).filter(Boolean))] : [];
 }
@@ -196,6 +171,10 @@ function validatePayload(payload, sourcePath) {
     if (!plain(document.license_no) || !Array.isArray(document.sections)) {
       throw new Error(`${sourcePath} 含有缺少藥證或章節的文件`);
     }
+    if (!["tfda_structured_insert", "metadata_only", "no_document",
+      "synthetic_test_fixture", "synthetic_capacity_fixture"].includes(document.source_kind)) {
+      throw new Error(`${sourcePath} 含非結構化仿單來源：${document.source_kind}`);
+    }
   }
 }
 
@@ -245,9 +224,6 @@ async function build({ inputs, output, synonyms }) {
   let recordCount = 0;
   let searchableTextDocuments = 0;
   let metadataOnlyDocuments = 0;
-  let metadataOnlyWithOfficialFiles = 0;
-  let documentsWithOfficialFiles = 0;
-  let officialFileLinks = 0;
 
   for (const input of inputs) {
     const sourcePath = path.resolve(input);
@@ -275,6 +251,8 @@ async function build({ inputs, output, synonyms }) {
           throw new Error(`${sourcePath} 含未知的 TFDA 事件類型：${eventType}`);
         }
       }
+      const metadataOnly = ["metadata_only", "no_document"].includes(plain(document.source_kind))
+        || !document.sections.some((section) => plain(section.content_text));
       const safeDocument = {
         schema_version: 1,
         license_no: plain(document.license_no),
@@ -282,9 +260,8 @@ async function build({ inputs, output, synonyms }) {
         drug_name_en: plain(document.drug_name_en),
         version: plain(document.version),
         approved_at: plain(document.approved_at),
-        source_kind: plain(document.source_kind),
+        source_kind: metadataOnly ? "metadata_only" : plain(document.source_kind),
         official_url: officialUrl(plain(document.license_no)),
-        pdf_urls: officialFileUrls(document.pdf_urls, sourcePath),
         ingredients: Array.isArray(document.ingredients) ? document.ingredients.map((item) => ({
           name: plain(item?.name ?? item?.ingredient_name),
           amount: plain(item?.amount_description),
@@ -295,7 +272,13 @@ async function build({ inputs, output, synonyms }) {
           ...eventTypes,
           ...safeOfficialEvents.map((item) => item.event_type),
         ])].sort(),
-        sections: document.sections.map((section) => ({
+        sections: metadataOnly ? [{
+          id: "metadata-only", parent_id: "", level: 1, number: "",
+          title: "尚無結構化電子仿單文字",
+          path: ["資料涵蓋狀態", "尚無結構化電子仿單文字"],
+          content_text: "此藥證尚無結構化仿單文字，請開啟食藥署仿單頁確認；不保證該頁有仿單。",
+          search_text: "尚無結構化電子仿單文字",
+        }] : document.sections.map((section) => ({
           id: plain(section.id),
           parent_id: plain(section.parent_id),
           level: Number.isInteger(section.level) ? section.level : 1,
@@ -306,14 +289,8 @@ async function build({ inputs, output, synonyms }) {
           search_text: plain(section.search_text),
         })),
       };
-      const metadataOnly = safeDocument.source_kind === "metadata_only";
       if (metadataOnly) metadataOnlyDocuments += 1;
       else searchableTextDocuments += 1;
-      if (safeDocument.pdf_urls.length) {
-        documentsWithOfficialFiles += 1;
-        officialFileLinks += safeDocument.pdf_urls.length;
-        if (metadataOnly) metadataOnlyWithOfficialFiles += 1;
-      }
       await writeFile(
         path.join(tempPath, documentPath),
         `${JSON.stringify(safeDocument)}\n`,
@@ -393,10 +370,6 @@ async function build({ inputs, output, synonyms }) {
     document_count: documentCount,
     searchable_text_documents: searchableTextDocuments,
     metadata_only_documents: metadataOnlyDocuments,
-    metadata_only_with_official_files: metadataOnlyWithOfficialFiles,
-    metadata_only_without_official_files: metadataOnlyDocuments - metadataOnlyWithOfficialFiles,
-    documents_with_official_files: documentsWithOfficialFiles,
-    official_file_links: officialFileLinks,
   };
   await writeFile(path.join(tempPath, "data", "catalog.json"), `${JSON.stringify({
     schema_version: 1,

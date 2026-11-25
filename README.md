@@ -19,7 +19,7 @@
 - GitHub Pages：公開查詢網站。
 - GitHub Actions：定期取得及驗證官方資料。
 - Pagefind：每份仿單建立一筆候選索引；命中後再由瀏覽器逐章精確比對。
-- TFDA 結構化電子仿單 API：主要仿單文字來源。
+- TFDA 結構化電子仿單 API（`GetDrugDoc`）：唯一仿單內容來源。
 - TFDA 與健保署官方開放資料：藥證、成分、ATC、健保及安全資訊。
 
 Pagefind 已通過 1,000 與 5,000 份合成容量試驗；正式發布前仍需用長短不同的真實仿單驗證涵蓋率與搜尋品質。這之前不建立正式 Supabase 或 Cloudflare 資料庫。
@@ -80,7 +80,7 @@ npm run serve
 - `docs/deployment.md`：`data-state`、GitHub Pages、主管核准與回滾步驟。
 - `docs/supervisor-guide.md`：主管核准與部署後檢查小抄。
 - `docs/completion-audit.md`：逐項區分已證明、尚未證明與必須取得的外部授權。
-- `docs/official-file-probe.md`：少量抽查 TFDA 仿單連結實際回應格式，不保存 PDF 或圖片。
+- `docs/official-file-probe.md`：保留的歷史抽查工具；目前發布流程不使用。
 
 `tests/fixtures/pagefind-search-sample.json` 是明確標示的合成測試資料；`structured-real-sample.json` 是一份既有的 TFDA API 實際回應解析結果。兩者都只用於本機驗證，尚未代表全量涵蓋率。
 
@@ -88,15 +88,15 @@ npm run serve
 
 正式網站會提供 `data/release.json`，可查到實際發布的程式、資料 commit、官方 snapshot 與真實資料擷取時間。Pages 部署完成後，`scripts/verify-deployed.mjs` 會用手機尺寸開啟正式網址、逐字核對兩個核准 SHA，再以正式目錄中的一張完整藥證搜尋一次。
 
-網站也會提供 `data/coverage.json`，並在頁尾顯示多少藥證有可搜尋仿單文字、多少只有 TFDA 官方檔案連結、多少兩者都沒有。未實際取得官方檔案前，不會只看網址名稱就猜它是可讀 PDF 或圖片。
+網站也會提供 `data/coverage.json`，涵蓋分類只有「有結構化仿單文字」與「尚無結構化仿單（連食藥署仿單頁）」。沒有結構化文字時仍可用藥名、藥證、成分或健保碼找到資料卡，但不能當成全文命中。
 
 網站每次開啟都會用臺灣日期重新計算資料年齡。官方資料超過 14 天、日期缺少或日期晚於今天時，頁面頂端會直接警告；不會拿較新的網站建置日期假裝官方資料也有更新。
 
 ## 重要限制
 
 - 正式資料只使用可追溯的官方來源。
-- 結構化仿單缺少時，清楚標示 PDF／圖片備援，不假裝有可搜尋文字。
-- PDF／圖片備援只提供通往 `mcp.fda.gov.tw` 的官方連結，網站不下載、不嵌入、不鏡像檔案。
+- 仿單內容只使用 `GetDrugDoc` 結構化文字，不使用 PDF／圖片作內容或備援。
+- 尚無結構化文字時只顯示「食藥署仿單頁」，網址為 `https://mcp.fda.gov.tw/im_detail_1/<URL 編碼的許可證字號>`；不保證該頁有仿單。發布與搜尋資料不含 `pdf_urls` 或官方仿單檔案連結。
 - 更新失敗時保留上一個已驗證版本。
 - 未經另外明確授權，不推送、部署、建立付費資源或大量呼叫官方 API。
 - 目前兩個正式 workflow 都只允許手動執行；TFDA 確認批次頻率前不加入排程。

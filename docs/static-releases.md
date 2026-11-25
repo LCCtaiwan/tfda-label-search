@@ -19,11 +19,11 @@ release-root/
                 └── release.json
 ```
 
-- `sources/`：九組官方來源的正規化快照、來源網址、擷取時間及內容雜湊。
-- `documents.json`：合併目前結構化仿單、成分、健保碼、ATC、健保支付價／有效期間／規格／給付章節、其他官方事件的日期／標題／狀態／來源，以及 TFDA 官方 PDF／圖片備援連結；靜態網站只保存網址，不鏡像檔案。健保與其他官方事件都只表示資料版本日期以前的紀錄，不是目前狀態保證。
-- release 根目錄的 `coverage.json`：有效藥證、結構化仿單、metadata-only 有／無官方檔案、具有官方檔案的藥證數、連結總數及健保連接結果。
+- `sources/`：八組會用於發布的官方來源正規化快照、來源網址、擷取時間及內容雜湊。InfoId 39 仍在 data-state 的九來源 snapshot 驗證與來源雜湊中，但不輸出 `sources/pdf_catalog.json`。
+- `documents.json`：合併目前結構化仿單、成分、健保碼、ATC、健保支付價／有效期間／規格／給付章節、其他官方事件的日期／標題／狀態／來源，以及由藥證字號產生的食藥署仿單頁入口；不含 `pdf_urls` 或官方仿單檔案連結，仿單內容只來自 `GetDrugDoc`。健保與其他官方事件都只表示資料版本日期以前的紀錄，不是目前狀態保證。
+- release 根目錄的 `coverage.json`：有效藥證、`structured_licenses`（有結構化仿單文字）、`metadata_only_licenses`（尚無結構化仿單）、結構化涵蓋率及健保連接結果。
 - `site/`：可直接交給 GitHub Pages 的完整靜態網站。
-- `site/data/coverage.json`：供網站顯示的精簡涵蓋報告；每張資料分成有可搜尋文字、只有官方檔案連結、兩者都沒有。
+- `site/data/coverage.json`：供網站顯示的精簡涵蓋報告；只分 `searchable_text_documents`（有結構化仿單文字）與 `metadata_only_documents`（尚無結構化仿單，連食藥署仿單頁）。
 - `site/data/release.json`：公開版本身分證，保存 release ID、程式完整 Git SHA、資料完整 Git SHA、官方 snapshot、真實資料擷取時間、來源雜湊與涵蓋率。
 - 網頁只以 `data_retrieved_at` 判定官方資料日期，不以 `built_at` 代替；每次開啟都依臺灣日期計算，超過 14 天或日期不可信時警告。
 - `active.json`：目前核准版本的指標。候選版本失敗時不會改動。
@@ -51,4 +51,4 @@ python3 tools/pipeline/static_release.py \
 
 正式 Pages workflow 另傳入 `--max-official-snapshot-age-days 14`。release manifest 會保存 `official_snapshot_age_days`；超過門檻或快照日期不可信時，候選版在產生前停止。
 
-官方清冊欄位名稱雖包含「圖檔」，網址本身不足以可靠分辨可讀 PDF、單張圖片或其他官方呈現形式。因此公開涵蓋摘要仍只報告「有官方檔案連結」。產生 release 後，可依 `docs/official-file-probe.md` 另行取得本輪授權，抽查最多 100 個連結的 PDF／圖片檔頭、HTML、未知或失敗；檔頭抽查仍不能證明整份 PDF 完整可讀，也不能直接外推為全量分類。
+2026-11-24 起，官方檔案連結、PDF 備援與檔頭抽查不參與發布內容或涵蓋分類。舊的 `probe_official_files.py` 與其離線測試保留，供歷史證據查閱；不由 workflow 或 release 建置呼叫。新 release 沒有 `pdf_urls`，不能再依舊文件從新 release 抽查檔案。九來源來源雜湊仍保留 `pdf_catalog` 鍵作 snapshot 稽核識別，並非檔案連結。

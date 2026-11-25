@@ -10,8 +10,11 @@ from tools.pipeline.static_release import (
     SOURCE_ORDER,
     StaticReleaseError,
     build_release,
+    active_catalog,
     document_order,
     license_code,
+    load_documents,
+    make_release_documents,
     official_snapshot_age_days,
 )
 from tools.sources import official
@@ -68,14 +71,8 @@ class StaticReleaseTests(unittest.TestCase):
             self.assertTrue(manifest["ready"])
             self.assertEqual(manifest["coverage"]["active_licenses"], 2)
             self.assertEqual(manifest["coverage"]["structured_licenses"], 1)
-            self.assertEqual(
-                manifest["coverage"]["metadata_only_with_official_files"], 1
-            )
-            self.assertEqual(
-                manifest["coverage"]["metadata_only_without_official_files"], 0
-            )
-            self.assertEqual(manifest["coverage"]["licenses_with_official_files"], 2)
-            self.assertEqual(manifest["coverage"]["official_file_links"], 2)
+            self.assertEqual(manifest["coverage"]["metadata_only_licenses"], 1)
+            self.assertFalse(any("file" in key for key in manifest["coverage"]))
             self.assertEqual(
                 by_license["衛署藥製字第016162號"]["ingredients"][0]["name"],
                 "TEST INGREDIENT",
@@ -109,8 +106,9 @@ class StaticReleaseTests(unittest.TestCase):
             self.assertEqual(missing["source_kind"], "metadata_only")
             self.assertIn("尚無結構化", missing["sections"][0]["title"])
             self.assertEqual(
-                missing["pdf_urls"],
-                ["https://mcp.fda.gov.tw/test/123456.pdf"],
+                missing["official_url"],
+                "https://mcp.fda.gov.tw/im_detail_1/"
+                "%E8%A1%9B%E9%83%A8%E8%97%A5%E8%A3%BD%E5%AD%97%E7%AC%AC123456%E8%99%9F",
             )
             self.assertTrue((release / "site" / "pagefind" / "pagefind.js").is_file())
             identity = json.loads(
@@ -125,13 +123,46 @@ class StaticReleaseTests(unittest.TestCase):
                 )
             )
             self.assertEqual(public_coverage["searchable_text_documents"], 1)
-            self.assertEqual(
-                public_coverage["metadata_only_with_official_files"], 1
-            )
-            self.assertEqual(public_coverage["documents_with_official_files"], 2)
-            self.assertEqual(public_coverage["official_file_links"], 2)
+            self.assertEqual(public_coverage["metadata_only_documents"], 1)
+            self.assertFalse((release / "sources" / "pdf_catalog.json").exists())
+            for filename in release.rglob("*.json"):
+                published = filename.read_text(encoding="utf-8")
+                self.assertNotIn('"pdf_urls"', published, filename)
+                self.assertNotIn("仿單圖檔連結", published, filename)
+                self.assertNotIn("https://mcp.fda.gov.tw/test/", published, filename)
             active = json.loads((release_root / "active.json").read_text(encoding="utf-8"))
             self.assertEqual(active["release_id"], "fixture-v1")
+
+    def test_empty_structured_insert_uses_metadata_and_ignores_file_catalog(self):
+        bundles = {
+            name: official.build_bundle(
+                name, (ROOT / "tests/fixtures/pipeline_sources" / f"{name}.raw").read_bytes(),
+                allow_small=True,
+            ) for name in SOURCE_ORDER
+        }
+        active = active_catalog(bundles["licenses"])
+        structured = load_documents([ROOT / "tests/fixtures/structured-real-sample.json"])
+        number = next(iter(structured))
+        structured[number]["pdf_urls"] = ["https://example.com/legacy.pdf"]
+        # File-catalog contents must not affect published documents or coverage.
+        before = make_release_documents(active, structured, bundles)
+        bundles["pdf_catalog"]["records"] = []
+        self.assertEqual(before, make_release_documents(active, structured, bundles))
+        self.assertTrue(all("pdf_urls" not in doc for doc in before[0]))
+        for section in structured[number]["sections"]:
+            section["content_text"] = " "
+        documents, coverage = make_release_documents(active, structured, bundles)
+        self.assertEqual(coverage["structured_licenses"], 0)
+        self.assertTrue(all(doc["source_kind"] == "metadata_only" for doc in documents))
+
+    def test_rejects_pdf_text_as_structured_input(self):
+        payload = json.loads((ROOT / "tests/fixtures/structured-real-sample.json").read_text())
+        payload["documents"][0]["source_kind"] = "pdf_text"
+        with tempfile.TemporaryDirectory() as directory:
+            filename = Path(directory) / "input.json"
+            filename.write_text(json.dumps(payload), encoding="utf-8")
+            with self.assertRaisesRegex(StaticReleaseError, "非結構化仿單來源"):
+                load_documents([filename])
 
     def test_failed_candidate_does_not_replace_active_release(self):
         with tempfile.TemporaryDirectory() as directory:

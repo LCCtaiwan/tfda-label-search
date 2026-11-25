@@ -4,6 +4,8 @@
 
 ## 結構化電子仿單
 
+2026-11-24 起，`GetDrugDoc` 是唯一仿單內容來源。不下載或解析 PDF 作仿單內容，也不提供官方檔案備援。沒有結構化內文（包括僅有章節標題）時，資料卡只顯示「食藥署仿單頁」，網址由許可證字號產生：`https://mcp.fda.gov.tw/im_detail_1/<URL 編碼的許可證字號>`；不保證該頁有仿單。
+
 TFDA 於 2025 年 9 月版「藥品電子仿單交換格式」說明：
 
 - 方法為 `GET`，端點是 `https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc`。
@@ -26,13 +28,15 @@ TFDA 於 2025 年 9 月版「藥品電子仿單交換格式」說明：
 | --- | --- | --- |
 | 未註銷藥品許可證 | TFDA | InfoId 36 |
 | 藥品成分 | TFDA | InfoId 43 |
-| 仿單 PDF／圖片清冊 | TFDA | InfoId 39 |
+| 仿單 PDF／圖片清冊（僅內部 snapshot 驗證） | TFDA | InfoId 39 |
 | 藥品回收 | TFDA | InfoId 34 |
 | 藥品安全資訊 | TFDA | InfoId 53 |
 | 風險管理計畫 | TFDA | InfoId 54 |
 | 短缺且有替代品 | TFDA | InfoId 104 |
 | 短缺且無替代品 | TFDA | InfoId 105 |
 | 健保用藥品項 | 健保署 | A21030000I-E41001-001 |
+
+InfoId 39 保留在既有九來源下載、snapshot 與 data-state 完整性驗證中，避免改動更新與授權關卡；其檔案連結不參與發布文件、搜尋索引或涵蓋分類，也不輸出到 release 的 `sources/`。官方檔案抽查器不接入發布流程。
 
 TFDA Open Data API 文件：https://data.fda.gov.tw/swagger-ui/index.html
 

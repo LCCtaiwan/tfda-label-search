@@ -29,4 +29,4 @@ python3 -m unittest discover -s tests -p 'test_inserts*.py'
 - 已納入：TFDA 結構化電子仿單 XML 下載、章節解析、純文字清理與原子寫入。
 - 尚未啟用：正式全量或定期下載。
 - 不納入第一版：大量掃描 PDF 的 OCR。
-- 結構化資料缺少時，未來只清楚標示 PDF／圖片備援與官方連結，不假裝內容可全文搜尋。
+- 仿單內容只使用 `GetDrugDoc` 結構化文字；缺少時只連「食藥署仿單頁」`https://mcp.fda.gov.tw/im_detail_1/<URL 編碼的許可證字號>`，不使用 PDF／圖片備援。

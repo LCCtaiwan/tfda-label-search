@@ -39,7 +39,7 @@
 
 - ChemoDrugStable 的化療調配、安定性、外滲及院內核對內容。
 - `chemodrugstable-query` 根目錄首頁及其既有 Git 歷史。
-- 舊的 100 份 PDF 排程試行版；PDF 只保留為結構化仿單缺少時的備援設計。
+- 舊的 100 份 PDF 排程試行版；2026-11-24 起 PDF 不用作內容或備援。
 - PostgreSQL／PGroonga／Supabase migration 與帳號建立程式。
 
 ## 第三方原作者專案

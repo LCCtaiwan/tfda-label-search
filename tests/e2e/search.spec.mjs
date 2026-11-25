@@ -8,7 +8,17 @@ async function search(page, { all = "", any = "", excluded = "" }) {
   await expect(page.locator("#status")).not.toHaveText(/搜尋中|正在載入/u);
 }
 
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({ page, context }) => {
+  // Every browser request stays local; external API/file calls fail the test.
+  await context.route(/^https?:\/\//u, async (route) => {
+    const url = new URL(route.request().url());
+    if (url.origin !== "http://127.0.0.1:4173") {
+      await route.abort();
+      throw new Error(`離線測試禁止外部請求：${url.origin}`);
+    }
+    await route.fallback();
+  });
+  await page.clock.setFixedTime("2026-09-16T08:00:00+08:00");
   await page.goto("/");
 });
 
@@ -43,7 +53,7 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   await expect(page.locator("#data-version")).toContainText("114 份");
   await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
   await expect(page.locator("#coverage-summary")).toHaveText(
-    "資料涵蓋：113 份有可搜尋仿單文字｜1 份只有官方檔案連結｜0 份目前沒有仿單文字或檔案",
+    "資料涵蓋：113 份有結構化仿單文字｜1 份尚無結構化仿單（連食藥署仿單頁）",
   );
   await expect(page.locator("footer")).toContainText("衛生福利部食品藥物管理署");
   await expect(page.locator("footer")).toContainText("衛生福利部中央健康保險署");
@@ -99,12 +109,42 @@ test("reviewed 測試同義詞會生效且英文不分大小寫", async ({ page 
   await expect(page.locator("#results article")).toContainText("Nausea");
 });
 
-test("沒有結構化文字時仍提供 TFDA 官方仿單檔案", async ({ page }) => {
-  await search(page, { all: "丁測試口服液" });
+test("沒有結構化文字時只提供食藥署仿單頁", async ({ page }) => {
+  const license = "測試藥證字第000004號";
+  await page.goto(`/?q=${encodeURIComponent(license)}`);
   await expect(page.locator("#results article")).toHaveCount(1);
   await expect(page.locator("#results article")).toContainText("尚無結構化電子仿單文字");
-  await expect(page.getByRole("link", { name: "開啟 TFDA 官方仿單檔案" }))
-    .toHaveAttribute("href", "https://mcp.fda.gov.tw/test/000004.pdf");
+  await expect(page.getByRole("link", { name: "食藥署仿單頁", exact: true }))
+    .toHaveAttribute("href", `https://mcp.fda.gov.tw/im_detail_1/${encodeURIComponent(license)}`);
+  await expect(page.locator("#results .resource-links a")).toHaveCount(1);
+  await expect(page.getByRole("link", { name: /官方仿單檔案/u })).toHaveCount(0);
+});
+
+test("仿單頁備援拒絕指定路徑以外的網址並忽略舊檔案連結", async ({ page }) => {
+  let unsafeUrl = "";
+  await page.route("**/data/documents/*.json", async (route) => {
+    const response = await route.fetch();
+    const doc = await response.json();
+    doc.official_url = unsafeUrl;
+    doc.pdf_urls = ["https://mcp.fda.gov.tw/test/000004.pdf"];
+    await route.fulfill({ response, json: doc });
+  });
+  for (const url of [
+    "https://mcp.fda.gov.tw/test/000004.pdf",
+    "https://mcp.fda.gov.tw/im_detail_1/",
+    "https://mcp.fda.gov.tw/im_detail_1/abc/extra",
+    "https://mcp.fda.gov.tw/im_detail_1/abc?file=1",
+    "https://mcp.fda.gov.tw/im_detail_1/abc#file",
+    "https://mcp.fda.gov.tw.evil.example/im_detail_1/abc",
+    "https://user@mcp.fda.gov.tw/im_detail_1/abc",
+    "http://mcp.fda.gov.tw/im_detail_1/abc",
+    "javascript:alert(1)",
+  ]) {
+    unsafeUrl = url;
+    await page.goto(`/?q=${encodeURIComponent("測試藥證字第000004號")}`);
+    await expect(page.locator("#results article")).toHaveCount(1);
+    await expect(page.locator("#results .resource-links a")).toHaveCount(0);
+  }
 });
 
 test("其他 TFDA 官方資料以歷史關聯呈現，不冒充目前狀態", async ({ page }) => {

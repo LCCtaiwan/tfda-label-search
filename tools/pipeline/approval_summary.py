@@ -140,16 +140,10 @@ def build_approval_summary(
     active = integer(coverage.get("active_licenses"), "有效藥證數")
     structured = integer(coverage.get("structured_licenses"), "結構化仿單數")
     metadata_only = integer(coverage.get("metadata_only_licenses"), "無結構化文字藥證數")
-    with_files = integer(
-        coverage.get("metadata_only_with_official_files"), "只有官方檔案的藥證數"
-    )
-    without_files = integer(
-        coverage.get("metadata_only_without_official_files"), "文字與檔案皆無的藥證數"
-    )
     structured_coverage = number(coverage.get("structured_coverage"), "結構化涵蓋率")
     if not 0 <= structured_coverage <= 1:
         raise ApprovalSummaryError("結構化涵蓋率必須介於 0 與 1")
-    if metadata_only != with_files + without_files or structured + metadata_only != active:
+    if structured + metadata_only != active:
         raise ApprovalSummaryError("涵蓋分類加總不等於有效藥證數")
     if active == 0 or abs(structured / active - structured_coverage) > 1e-12:
         raise ApprovalSummaryError("結構化涵蓋率與藥證數不一致")
@@ -208,8 +202,8 @@ def build_approval_summary(
         for key in ("matched", "unresolved", "ambiguous", "missing_official_id")
     }
     warnings = []
-    if without_files:
-        warnings.append(f"有 {without_files} 張有效藥證沒有結構化文字，也沒有官方檔案連結。")
+    if metadata_only:
+        warnings.append(f"有 {metadata_only} 張有效藥證尚無結構化仿單，僅連食藥署仿單頁；不保證該頁有仿單。")
     unresolved = linkage_counts["unresolved"] + linkage_counts["ambiguous"]
     if unresolved:
         warnings.append(f"有 {unresolved} 筆健保品項無法唯一連到有效藥證。")
@@ -232,8 +226,7 @@ def build_approval_summary(
 | 增量落後 | {lag_days} 天（門檻 ≤ {max_lag_days}） |
 | 有效藥證 | {active} |
 | 有結構化仿單文字 | {structured}（{structured_coverage:.2%}，門檻 ≥ {min_structured_coverage:.0%}） |
-| 只有官方檔案連結 | {with_files} |
-| 文字與官方檔案皆無 | {without_files} |
+| 尚無結構化仿單（連食藥署仿單頁） | {metadata_only} |
 | 健保連接 | 成功 {linkage_counts['matched']}／找不到 {linkage_counts['unresolved']}／不唯一 {linkage_counts['ambiguous']}／缺官方藥證碼 {linkage_counts['missing_official_id']} |
 | 正式同義詞 | {len(entries)} 組、{reviewed_terms} 詞 |
 | 公開發布檢查 | {len(checks)}／8 通過 |

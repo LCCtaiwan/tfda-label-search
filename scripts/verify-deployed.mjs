@@ -81,10 +81,6 @@ export function assertCoverage(coverage, identityCoverage, catalog) {
     "document_count",
     "searchable_text_documents",
     "metadata_only_documents",
-    "metadata_only_with_official_files",
-    "metadata_only_without_official_files",
-    "documents_with_official_files",
-    "official_file_links",
   ];
   if (
     coverage?.schema_version !== 1
@@ -99,8 +95,6 @@ export function assertCoverage(coverage, identityCoverage, catalog) {
     || catalog.document_count !== catalog.documents.length
     || coverage.searchable_text_documents + coverage.metadata_only_documents
       !== coverage.document_count
-    || coverage.metadata_only_with_official_files
-      + coverage.metadata_only_without_official_files !== coverage.metadata_only_documents
   ) {
     throw new Error("正式網站的涵蓋報告與藥品目錄數量不一致");
   }
@@ -109,10 +103,6 @@ export function assertCoverage(coverage, identityCoverage, catalog) {
     || identityCoverage.active_licenses !== coverage.document_count
     || identityCoverage.structured_licenses !== coverage.searchable_text_documents
     || identityCoverage.metadata_only_licenses !== coverage.metadata_only_documents
-    || identityCoverage.metadata_only_with_official_files
-      !== coverage.metadata_only_with_official_files
-    || identityCoverage.metadata_only_without_official_files
-      !== coverage.metadata_only_without_official_files
   ) {
     throw new Error("正式網站的公開涵蓋報告與核准 release 不一致");
   }
@@ -201,10 +191,7 @@ export async function verifyDeployment(options) {
       coverage: {
         document_count: payload.coverage.document_count,
         searchable_text_documents: payload.coverage.searchable_text_documents,
-        metadata_only_with_official_files:
-          payload.coverage.metadata_only_with_official_files,
-        metadata_only_without_official_files:
-          payload.coverage.metadata_only_without_official_files,
+        metadata_only_documents: payload.coverage.metadata_only_documents,
       },
       viewport: "390x844",
       console_errors: 0,

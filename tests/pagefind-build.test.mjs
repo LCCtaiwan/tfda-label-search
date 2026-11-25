@@ -49,10 +49,6 @@ test("builds one searchable record per document without publishing raw HTML", as
       document_count: 4,
       searchable_text_documents: 3,
       metadata_only_documents: 1,
-      metadata_only_with_official_files: 1,
-      metadata_only_without_official_files: 0,
-      documents_with_official_files: 1,
-      official_file_links: 1,
     });
     const publishedSynonyms = JSON.parse(
       await readFile(path.join(output, "data", "synonyms.json"), "utf8"),
@@ -75,7 +71,9 @@ test("builds one searchable record per document without publishing raw HTML", as
     const fallbackDocument = JSON.parse(
       await readFile(path.join(output, metadataOnly.document_path), "utf8"),
     );
-    assert.deepEqual(fallbackDocument.pdf_urls, ["https://mcp.fda.gov.tw/test/000004.pdf"]);
+    assert.equal(fallbackDocument.official_url,
+      `https://mcp.fda.gov.tw/im_detail_1/${encodeURIComponent(metadataOnly.license_no)}`);
+    assert.equal("pdf_urls" in fallbackDocument, false);
     const eventDocumentMeta = catalog.documents.find(
       (item) => item.license_no === "測試藥證字第000002號",
     );
@@ -117,6 +115,7 @@ test("builds one searchable record per document without publishing raw HTML", as
       const payload = await readFile(path.join(output, "data", "documents", filename), "utf8");
       assert.doesNotMatch(payload, /<img\b/iu);
       assert.doesNotMatch(payload, /data:image\//iu);
+      assert.doesNotMatch(payload, /pdf_urls|official_file|\/test\/000004\.pdf/iu);
     }
 
     assert.ok((await stat(path.join(output, "pagefind", "pagefind.js"))).isFile());
@@ -126,7 +125,7 @@ test("builds one searchable record per document without publishing raw HTML", as
   }
 });
 
-test("rejects a fallback file outside the TFDA HTTPS host", async () => {
+test("ignores legacy file links and replaces untrusted official URLs with the license page", async () => {
   const temporaryRoot = await mkdtemp(path.join(os.tmpdir(), "tfda-pagefind-url-test-"));
   const input = path.join(temporaryRoot, "input.json");
   const output = path.join(temporaryRoot, "site");
@@ -134,19 +133,42 @@ test("rejects a fallback file outside the TFDA HTTPS host", async () => {
     const payload = JSON.parse(
       await readFile(path.join(root, "tests/fixtures/pagefind-search-sample.json"), "utf8"),
     );
-    payload.documents.at(-1).pdf_urls = ["https://example.com/not-official.pdf"];
+    for (const doc of payload.documents) {
+      doc.pdf_urls = ["https://example.com/not-official.pdf"];
+      doc.official_url = "https://mcp.fda.gov.tw/test/official-file.pdf";
+    }
+    // An empty API insert with titles/search terms alone has no searchable insert text.
+    const empty = payload.documents[0];
+    empty.source_kind = "tfda_structured_insert";
+    empty.sections.forEach((section) => { section.content_text = " "; });
+    payload.documents[1].source_kind = "no_document";
     await writeFile(input, JSON.stringify(payload), "utf8");
-    assert.throws(
-      () => execFileSync(process.execPath, [
-        "scripts/build-pagefind.mjs",
-        "--input", input,
-        "--output", output,
-      ], { cwd: root, stdio: "pipe" }),
-      (error) => {
-        assert.match(error.stderr.toString(), /不是 TFDA HTTPS 網址/u);
-        return true;
-      },
-    );
+    execFileSync(process.execPath, [
+      "scripts/build-pagefind.mjs", "--input", input, "--output", output,
+    ], { cwd: root, stdio: "pipe" });
+    const coverage = JSON.parse(await readFile(path.join(output, "data/coverage.json"), "utf8"));
+    assert.equal(coverage.searchable_text_documents, 1);
+    assert.equal(coverage.metadata_only_documents, 3);
+    for (const filename of await readdir(path.join(output, "data/documents"))) {
+      const text = await readFile(path.join(output, "data/documents", filename), "utf8");
+      const doc = JSON.parse(text);
+      assert.equal(doc.official_url,
+        `https://mcp.fda.gov.tw/im_detail_1/${encodeURIComponent(doc.license_no)}`);
+      assert.doesNotMatch(text, /pdf_urls|official-file|example\.com/u);
+      if (doc.license_no === empty.license_no) {
+        assert.equal(doc.source_kind, "metadata_only");
+        assert.equal(doc.sections.length, 1);
+        assert.equal(doc.sections[0].id, "metadata-only");
+      }
+    }
+    payload.documents[0].source_kind = "pdf_text";
+    await writeFile(input, JSON.stringify(payload), "utf8");
+    assert.throws(() => execFileSync(process.execPath, [
+      "scripts/build-pagefind.mjs", "--input", input, "--output", output,
+    ], { cwd: root, stdio: "pipe" }), (error) => {
+      assert.match(error.stderr.toString(), /非結構化仿單來源/u);
+      return true;
+    });
   } finally {
     await rm(temporaryRoot, { recursive: true, force: true });
   }

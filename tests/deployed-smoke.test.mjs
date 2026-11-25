@@ -65,17 +65,11 @@ test("deployment smoke requires catalog, public coverage and approved release to
     document_count: 4,
     searchable_text_documents: 3,
     metadata_only_documents: 1,
-    metadata_only_with_official_files: 1,
-    metadata_only_without_official_files: 0,
-    documents_with_official_files: 2,
-    official_file_links: 2,
   };
   const identityCoverage = {
     active_licenses: 4,
     structured_licenses: 3,
     metadata_only_licenses: 1,
-    metadata_only_with_official_files: 1,
-    metadata_only_without_official_files: 0,
   };
   const catalog = {
     schema_version: 1,

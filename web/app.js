@@ -114,6 +114,9 @@ function safeOfficialUrl(value) {
     const url = new URL(value);
     return url.protocol === "https:"
       && url.hostname === "mcp.fda.gov.tw"
+      && /^\/im_detail_1\/[^/]+$/u.test(url.pathname)
+      && !url.search
+      && !url.hash
       && !url.username
       && !url.password
       && ["", "443"].includes(url.port)
@@ -371,13 +374,10 @@ function appendEntries(entries) {
       link.textContent = label;
       linkGroup.append(link);
     };
-    const official = safeOfficialUrl(meta.official_url || source.official_url);
-    if (official) addOfficialLink(official, "開啟 TFDA 官方電子仿單");
-    const rawFileUrls = Array.isArray(source.pdf_urls) ? source.pdf_urls : [];
-    const fileUrls = [...new Set(rawFileUrls.map(safeOfficialUrl).filter(Boolean))];
-    for (const [index, href] of fileUrls.entries()) {
-      const suffix = fileUrls.length > 1 ? ` ${index + 1}` : "";
-      addOfficialLink(href, `開啟 TFDA 官方仿單檔案${suffix}`);
+    const official = safeOfficialUrl(source.official_url);
+    if (official) {
+      addOfficialLink(official, source.source_kind === "metadata_only"
+        ? "食藥署仿單頁" : "開啟 TFDA 官方電子仿單");
     }
     if (linkGroup.childElementCount) card.append(linkGroup);
 
@@ -585,8 +585,6 @@ Promise.all([
     const coverageCounts = [
       coverage.searchable_text_documents,
       coverage.metadata_only_documents,
-      coverage.metadata_only_with_official_files,
-      coverage.metadata_only_without_official_files,
     ];
     if (
       manifest.schema_version !== 1
@@ -596,8 +594,6 @@ Promise.all([
       || coverageCounts.some((value) => !Number.isInteger(value) || value < 0)
       || coverage.searchable_text_documents + coverage.metadata_only_documents
         !== coverage.document_count
-      || coverage.metadata_only_with_official_files
-        + coverage.metadata_only_without_official_files !== coverage.metadata_only_documents
     ) {
       throw new Error("版本與涵蓋資料不一致");
     }
@@ -608,9 +604,8 @@ Promise.all([
       : "未提供";
     dataVersion.textContent = `資料版本：${date}｜${count} 份｜指紋 ${fingerprint}`;
     coverageSummary.textContent = [
-      `資料涵蓋：${coverage.searchable_text_documents.toLocaleString("zh-TW")} 份有可搜尋仿單文字`,
-      `${coverage.metadata_only_with_official_files.toLocaleString("zh-TW")} 份只有官方檔案連結`,
-      `${coverage.metadata_only_without_official_files.toLocaleString("zh-TW")} 份目前沒有仿單文字或檔案`,
+      `資料涵蓋：${coverage.searchable_text_documents.toLocaleString("zh-TW")} 份有結構化仿單文字`,
+      `${coverage.metadata_only_documents.toLocaleString("zh-TW")} 份尚無結構化仿單（連食藥署仿單頁）`,
     ].join("｜");
   })
   .catch(() => {

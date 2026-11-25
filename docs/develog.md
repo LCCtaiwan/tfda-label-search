@@ -31,7 +31,7 @@ npm run serve
 - 健保資料仍與藥證及仿單密切相關，保留為本專案的輔助資料，不再拆成第三個網站。
 - `chemodrugstable-query` 保持不變；新網站日後以網址參數接收藥名、藥證或健保碼。
 - Pagefind 是第一個正式候選搜尋層，必須以真實資料驗證，不能只依官方說明認定可行。
-- 結構化電子仿單為主要文字來源；PDF 或圖片只作可追溯備援。
+- 2026-11-24 起結構化電子仿單（`GetDrugDoc`）為唯一仿單內容來源；不使用 PDF／圖片備援，缺件只連食藥署仿單頁。
 - 任意關鍵字搜尋至少支援中文二字詞；規格中的三個詞只是驗收樣本。
 - 原作者已表示同意使用 `TFDA-drug-info-search`，但正式移植前仍應保存同意範圍及署名方式。
 - 未經另外明確授權，不推送、部署、建立付費資源或大量呼叫官方 API。
@@ -297,3 +297,44 @@ npm run serve
 ## Recommended Next Step
 
 由使用者決定新 GitHub repository 的擁有者、公開／私人設定與主管帳號；取得推送及第一次正式 25 張小批授權後，才建立遠端並驗證真實 workflow。官方仿單檔案抽查需要另一份本輪授權；TFDA 頻率確認前不增加批量或排程。
+
+### 2026-11-24：C-028 僅使用結構化仿單（2026-11-25 接續驗證）
+
+- 機器：air；分支：`air/structured-only`。接續使用者列出的九個未提交檔案；保留改動並完成本輪功能，未切分支、commit、push 或部署。審查與提交由 Claude 處理。
+- 可驗證成果：仿單內容只接受 `GetDrugDoc`；metadata-only 藥證只有「食藥署仿單頁」連結，網址依完整許可證字號 URL 編碼產生。UI 拒絕檔案路徑、外站、非 HTTPS、憑證、額外路徑、查詢參數及片段。
+- 發布與搜尋資料移除 `pdf_urls`、官方檔案連結及舊檔案涵蓋欄位；release 不輸出 `sources/pdf_catalog.json`。涵蓋只分有／無結構化仿單文字，只有標題而沒有內文時歸入缺件；舊連結不能改變分類，PDF 文字來源會被拒絕。
+- InfoId 39 仍在九來源 snapshot 驗證與來源雜湊中，用於既有完整性／授權稽核；這個識別鍵不是檔案連結。歷史抽查器與其離線測試保留，未刪除舊工具；未有任何發布內容或涵蓋數依賴其結果。未改動結構化下載、初次批次、10 日增量、data-state、授權及主管核准流程；`?q=`、健保和安全資訊原有流程保留。
+- 文件同步：README、SPEC、進度、來源／權利、release／部署、主管指南、移植清單、解析器說明及歷史抽查工具狀態；舊版變更紀錄與歷史小批數字仍保留原貌。
+
+工具檢查（離線）：
+
+```sh
+node scripts/validate-synonyms.mjs config/synonyms.json
+# 通過：正式 reviewed 同義詞 0 組、0 詞
+node --test tests/pagefind-build.test.mjs tests/capacity-fixture.test.mjs tests/deployed-smoke.test.mjs tests/synonyms.test.mjs
+# 12 passed，0 failed
+python3 -m unittest discover -s tests -p 'test_*.py' -v
+# 66 passed，0 failed
+node scripts/prepare-e2e.mjs
+# 通過：114 筆（113 有結構化文字、1 尚無文字），純本機 fixture
+node node_modules/@playwright/test/cli.js test --list
+# 可列出 11 個 Chromium 測試；不代表已執行
+node --check web/app.js
+node --check tests/e2e/search.spec.mjs
+git diff --check
+# 通過
+python3 tools/pipeline/static_release.py --release-id structured-only-c028 \
+  --release-root output/structured-only-review \
+  --source-dir tests/fixtures/pipeline_sources \
+  --structured tests/fixtures/structured-real-sample.json \
+  --app-revision aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa \
+  --data-revision bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb \
+  --min-structured-coverage 0.5 --allow-small-fixtures --activate
+# 通過：2 張藥證、1 有結構化文字、1 尚無文字；這是測試 release，非正式發布
+```
+
+- 自己檢查：讀取 fixture release 的 JSON／JS／HTML，確認沒有 `pdf_urls`、`exportpdf`、`pdfcasefile`、`仿單圖檔連結` 或舊測試檔案網址；`sources/pdf_catalog.json` 不存在，九來源雜湊仍完整。單元測試也檢查舊欄位移除、來源限制、空文字分類、健保／安全資訊及候選版失敗保護。
+- 限制／未驗證：`npm test` 在 npm 啟動時回報 `ERROR: SecItemCopyMatching failed -50` 並退出 139；使用暫存空白 npm 設定仍相同，未修改使用者設定。直接執行上述 npm 內含的三組命令通過，並未把它說成 npm 本身成功。
+- Chromium：`node node_modules/@playwright/test/cli.js test` 在本機伺服器 bind 時被沙箱拒絕：`PermissionError: [Errno 1] Operation not permitted`。11 項瀏覽器測試未執行；新增離線外站阻擋、指定備援路徑拒絕案例，固定測試時間以避免 fixture 隨日期過期。視覺、互動與 console 狀態本輪未驗證，等待 Claude／使用者在允許本機伺服器的環境驗收。
+- 相關交班讀取：`python3 ~/.claude/handovers/handover.py search tfda-label-search` 回報 `sqlite3.OperationalError: unable to open database file`，未另建資料庫；依使用者指定的未提交差異與本機紀錄接續。後續出現的 `docs/goal-2026-11-25-structured-first-run.md` 保留原樣，不把其中 GitHub 或五張 API 實測工作擴入本輪。
+- 本輪沒有呼叫 TFDA、健保署或其他外部 API；未實測全量資料或正式網站。

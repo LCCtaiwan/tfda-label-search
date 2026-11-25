@@ -61,7 +61,5 @@ await writeFile(path.join(site, "data", "release.json"), `${JSON.stringify({
     active_licenses: publicCoverage.document_count,
     structured_licenses: publicCoverage.searchable_text_documents,
     metadata_only_licenses: publicCoverage.metadata_only_documents,
-    metadata_only_with_official_files: publicCoverage.metadata_only_with_official_files,
-    metadata_only_without_official_files: publicCoverage.metadata_only_without_official_files,
   },
 }, null, 2)}\n`, "utf8");

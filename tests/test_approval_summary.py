@@ -17,10 +17,6 @@ def evidence(root: Path) -> dict[str, Path]:
         "active_licenses": 100,
         "structured_licenses": 98,
         "metadata_only_licenses": 2,
-        "metadata_only_with_official_files": 1,
-        "metadata_only_without_official_files": 1,
-        "licenses_with_official_files": 40,
-        "official_file_links": 41,
         "structured_coverage": 0.98,
         "nhi_linkage": {
             "matched": 80,
@@ -96,6 +92,8 @@ class ApprovalSummaryTests(unittest.TestCase):
             self.assertIn("98（98.00%", summary)
             self.assertIn("成功 80／找不到 1／不唯一 1", summary)
             self.assertIn("1 組、2 詞", summary)
+            self.assertIn("尚無結構化仿單（連食藥署仿單頁） | 2", summary)
+            self.assertNotIn("只有官方檔案", summary)
             self.assertIn("程式 commit", summary)
             self.assertIn("請按 **Reject**", summary)
 

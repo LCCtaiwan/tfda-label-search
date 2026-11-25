@@ -199,6 +199,10 @@ def load_documents(paths: list[Path]) -> dict[str, dict]:
             number = str(document.get("license_no") or "").strip()
             if not number or not isinstance(document.get("sections"), list):
                 raise StaticReleaseError(f"{path} 含有缺少藥證或章節的文件")
+            if document.get("source_kind") not in (
+                "tfda_structured_insert", "metadata_only", "no_document"
+            ):
+                raise StaticReleaseError(f"{path} 含非結構化仿單來源")
             key = document_order(document)
             previous = current.get(number)
             previous_key = document_order(previous) if previous else ("", ())
@@ -243,30 +247,7 @@ def group_enrichment(bundles: dict[str, dict], active: dict[str, dict]) -> tuple
                 if number in active:
                     events[number].append(event)
 
-    pdf_links: dict[str, list[str]] = defaultdict(list)
-    for row in bundles["pdf_catalog"]["records"]:
-        number = str(row.get("許可證字號") or "").strip()
-        if number not in active:
-            continue
-        for value in str(row.get("仿單圖檔連結") or "").split(";"):
-            value = value.strip()
-            if value:
-                try:
-                    parsed = urllib.parse.urlsplit(value)
-                    safe = (
-                        parsed.scheme == "https"
-                        and parsed.hostname == "mcp.fda.gov.tw"
-                        and not parsed.username
-                        and not parsed.password
-                        and parsed.port in (None, 443)
-                    )
-                except ValueError:
-                    safe = False
-                if not safe:
-                    raise StaticReleaseError(f"{number} 的仿單備援不是 TFDA HTTPS 網址")
-                if value not in pdf_links[number]:
-                    pdf_links[number].append(value)
-    return ingredients, nhi_items, events, {"links": pdf_links, "nhi_linkage": nhi_linkage}
+    return ingredients, nhi_items, events, {"nhi_linkage": nhi_linkage}
 
 
 def make_release_documents(
@@ -277,7 +258,13 @@ def make_release_documents(
     structured_count = 0
     for number in sorted(active):
         catalog = active[number]
-        if number in structured:
+        if (number in structured
+            and structured[number].get("source_kind") == "tfda_structured_insert"
+            and any(
+                str(section.get("content_text") or "").strip()
+                for section in structured[number]["sections"]
+            )
+        ):
             document = deepcopy(structured[number])
             structured_count += 1
         else:
@@ -293,7 +280,7 @@ def make_release_documents(
                     "number": "",
                     "title": "尚無結構化電子仿單文字",
                     "path": ["資料涵蓋狀態", "尚無結構化電子仿單文字"],
-                    "content_text": "此藥證目前沒有可供全文搜尋的結構化電子仿單文字，請開啟官方來源確認。",
+                    "content_text": "此藥證尚無結構化仿單文字，請開啟食藥署仿單頁確認；不保證該頁有仿單。",
                     "search_text": "尚無結構化電子仿單文字",
                 }],
             }
@@ -344,22 +331,16 @@ def make_release_documents(
             })
         document["official_events"] = public_events
         document["event_types"] = sorted({item["event_type"] for item in public_events})
-        document["pdf_urls"] = extra["links"][number]
+        # Legacy file links never enter release or search data.
+        document.pop("pdf_urls", None)
+        document["official_url"] = (
+            "https://mcp.fda.gov.tw/im_detail_1/" + urllib.parse.quote(number, safe="")
+        )
         result.append(document)
     counts = {
         "active_licenses": len(active),
         "structured_licenses": structured_count,
         "metadata_only_licenses": len(active) - structured_count,
-        "metadata_only_with_official_files": sum(
-            1 for item in result
-            if item["source_kind"] == "metadata_only" and item["pdf_urls"]
-        ),
-        "metadata_only_without_official_files": sum(
-            1 for item in result
-            if item["source_kind"] == "metadata_only" and not item["pdf_urls"]
-        ),
-        "licenses_with_official_files": sum(1 for item in result if item["pdf_urls"]),
-        "official_file_links": sum(len(item["pdf_urls"]) for item in result),
         "structured_coverage": structured_count / len(active),
         "nhi_linkage": extra["nhi_linkage"],
     }
@@ -428,6 +409,9 @@ def build_release(args: argparse.Namespace) -> dict:
                 )
                 bundles[name] = bundle
         for name, bundle in bundles.items():
+            # InfoId 39 remains in snapshot validation, never in release output.
+            if name == "pdf_catalog":
+                continue
             official.atomic_write(temporary / "sources" / f"{name}.json", bundle)
 
         active = active_catalog(bundles["licenses"])

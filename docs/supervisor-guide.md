@@ -10,7 +10,7 @@
 先打開該次 Actions 的「TFDA Pages 主管核准摘要」。摘要不是自動批准；它只是把五份原始證據放在同一頁，數字互相對不上時工作會先停止。主管仍要下載 `release-audit-<run id>` 核對原始檔。
 
 - `coverage.json` 的 `structured_coverage` 是否至少 98%。
-- `coverage.json` 的 `metadata_only_with_official_files`、`metadata_only_without_official_files` 是否合理；後者突然增加就先拒絕。
+- `coverage.json` 的 `structured_licenses` 與 `metadata_only_licenses` 加總是否等於有效藥證；尚無結構化仿單數突然增加就先拒絕。
 - `synonyms.json` 是否只包含已確認的詞組，且每組都有審查人與審查日期；看不懂的詞不要核准。
 - `verified-data-state.json` 的 `official_snapshot_age_days` 與 `incremental_lag_days` 是否都不超過 14，且 `incremental_initialized` 是否為 `true`。
 - `manifest.json` 的 `ready` 是否為 `true`。
@@ -29,4 +29,4 @@
 
 初次建庫完成後，日期增量要另外取得授權才勾選 `incremental_authorization_ack`。`max_update_windows=1` 代表最多查一個 10 日窗，不代表最多 25 份；該窗回傳幾份由 TFDA 決定。沒有勾選時，程式會在日期 API 前停止。
 
-若要確認「官方仿單檔案」連結實際是 PDF、圖片還是網頁，也要另外批准一次小量抽查。抽查只讀檔頭，不保存檔案；看到 PDF 檔頭仍不能宣稱整份 PDF 已完整可讀。
+目前仿單只使用 `GetDrugDoc` 結構化文字；缺件只連「食藥署仿單頁」，不保證該頁有仿單。官方檔案抽查器保留作歷史工具，不是建置、涵蓋率或主管核准的必要步驟。
