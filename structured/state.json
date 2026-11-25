@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "items": {
+    "內衛成製字第000075號": {
+      "status": "no_document",
+      "license_code": "14000075",
+      "checked_at": "2026-11-25T04:13:24.688268+00:00"
+    },
+    "內衛成製字第000093號": {
+      "status": "no_document",
+      "license_code": "14000093",
+      "checked_at": "2026-11-25T04:13:26.431900+00:00"
+    },
+    "內衛成製字第000114號": {
+      "status": "no_document",
+      "license_code": "14000114",
+      "checked_at": "2026-11-25T04:13:28.807959+00:00"
+    },
+    "內衛成製字第000141號": {
+      "status": "no_document",
+      "license_code": "14000141",
+      "checked_at": "2026-11-25T04:13:30.659491+00:00"
+    },
+    "內衛成製字第000150號": {
+      "status": "no_document",
+      "license_code": "14000150",
+      "checked_at": "2026-11-25T04:13:32.694112+00:00"
+    }
+  },
+  "initial_started_on": "2026-11-25",
+  "catalog_hash": "c3b852bcbc34ffc02bbbb0f042a8c31990a67fd56a1673244b3ec6790aec739e"
+}

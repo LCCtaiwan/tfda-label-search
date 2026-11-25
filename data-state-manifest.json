@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-25T04:13:41.300811+00:00",
+  "official_snapshot_id": "run-45545005743-1",
+  "official_snapshot_created_at": "2026-11-25T04:13:13.720819+00:00",
+  "official_snapshot_age_days": 0,
+  "catalog_hash": "c3b852bcbc34ffc02bbbb0f042a8c31990a67fd56a1673244b3ec6790aec739e",
+  "data_sha256": "c2384b547031daa35ae6399f7caf4c403ded55997128bdf9c1d51c209d0137fb",
+  "file_count": 11,
+  "total_bytes": 115005077,
+  "largest_file": "official/current/raw/nhi_items.raw",
+  "largest_file_bytes": 96575677,
+  "git_file_limit_bytes": 99614720,
+  "active_licenses": 22528,
+  "checked_licenses": 5,
+  "downloaded_licenses": 0,
+  "pending_licenses": 22523,
+  "document_files": 0,
+  "retired_state_items": 0,
+  "checked_coverage": 0.00022194602272727272,
+  "structured_coverage": 0.0,
+  "complete": false,
+  "statuses": {
+    "no_document": 5
+  },
+  "structured_text_licenses": 0,
+  "incremental_initialized": false,
+  "incremental_next_date": "",
+  "incremental_lag_days": null,
+  "incremental_last_completed_end": ""
+}

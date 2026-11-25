@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "run-45545005743-1",
+  "created_at": "2026-11-25T04:13:13.720819+00:00",
+  "ready": true,
+  "sources": {
+    "licenses": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/36/json",
+      "sha256": "c3b852bcbc34ffc02bbbb0f042a8c31990a67fd56a1673244b3ec6790aec739e",
+      "source_records": 72134,
+      "normalized_records": 72134
+    },
+    "ingredients": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/43/json",
+      "sha256": "1f1c74d23595cfc20a0eef384f6474120ec5f932c364b967cae4d6ae8a53516b",
+      "source_records": 126053,
+      "normalized_records": 126053
+    },
+    "pdf_catalog": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/39/json",
+      "sha256": "8b617e8c7d254d84769933938018ffe64f18e37c41aa4922300c7b61b7b6dc62",
+      "source_records": 29937,
+      "normalized_records": 29937
+    },
+    "recalls": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/34/json",
+      "sha256": "519abd00992e6cb44d33a4462dc9316920ba53130e7269ceb9cf31e67244fc14",
+      "source_records": 1718,
+      "normalized_records": 1718
+    },
+    "safety_alerts": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/53/json",
+      "sha256": "25d76614dd81f675a9bf3dfdb669c34514e53ab4a38ef120fae1924e1982ab0f",
+      "source_records": 129,
+      "normalized_records": 129
+    },
+    "risk_management": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/54/json",
+      "sha256": "b4311510f5a8bf5f5f840940ba4f41b8700eef869d8561f8431e36e5d2b48678",
+      "source_records": 107,
+      "normalized_records": 107
+    },
+    "shortage_with_alternative": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/104/json",
+      "sha256": "fbf65c579644369d8238045249430c3451fd87a07695f5deb7fa11f726b642d8",
+      "source_records": 246,
+      "normalized_records": 246
+    },
+    "shortage_without_alternative": {
+      "url": "https://data.fda.gov.tw/data/opendata/export/105/json",
+      "sha256": "5273f17e4aa3b193c6b3490685714d29a6f7faf2428b7aa605379780128a41c1",
+      "source_records": 1,
+      "normalized_records": 0
+    },
+    "nhi_items": {
+      "url": "https://info.nhi.gov.tw/api/iode0000s01/Dataset?rId=A21030000I-E41001-001",
+      "sha256": "e168cfb24e19927584539bd7627f4002595e7b4b30089137dc0f7dcd236ddaac",
+      "source_records": 225028,
+      "normalized_records": 225028
+    }
+  }
+}
