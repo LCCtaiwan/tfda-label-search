@@ -1,5 +1,9 @@
 from pathlib import Path
+import os
 import re
+import subprocess
+import tempfile
+import textwrap
 import unittest
 
 
@@ -7,6 +11,34 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class WorkflowGuardTests(unittest.TestCase):
+    def test_refresh_initializes_runner_environment_before_later_steps(self):
+        workflow = (ROOT / ".github/workflows/refresh-data.yml").read_text()
+        first_step = workflow.split("    steps:\n", 1)[1].split("\n      - ", 1)[0]
+        script = textwrap.dedent(first_step.split("        run: |\n", 1)[1])
+        with tempfile.TemporaryDirectory(prefix="workflow runner ") as directory:
+            env_file = Path(directory) / "github env"
+            result = subprocess.run(
+                ["bash", "-e", "-c", script],
+                env={**os.environ, "RUNNER_TEMP": directory, "GITHUB_ENV": str(env_file),
+                     "GITHUB_RUN_ID": "45544611718", "GITHUB_RUN_ATTEMPT": "2"},
+                capture_output=True, text=True,
+            )
+            self.assertEqual(result.returncode, 0, result.stderr)
+            values = dict(line.split("=", 1) for line in env_file.read_text().splitlines())
+            self.assertEqual(values, {
+                "APP_COPY": f"{directory}/tfda-label-search-app",
+                "SNAPSHOT_ROOT": f"{directory}/tfda-official",
+                "SNAPSHOT_ID": "run-45544611718-2",
+            })
+
+    def test_job_level_env_and_conditions_do_not_use_unavailable_contexts(self):
+        for path in (ROOT / ".github/workflows").glob("*.yml"):
+            workflow = path.read_text(encoding="utf-8")
+            for block in re.findall(r"^    env:\n((?:^      .*\n)+)", workflow, re.MULTILINE):
+                self.assertNotRegex(block, r"\b(?:runner|steps|env|job)\s*\.", path.name)
+            for condition in re.findall(r"^    if: (.+)$", workflow, re.MULTILINE):
+                self.assertNotRegex(condition, r"\b(?:runner|steps|env|secrets|job|matrix|strategy)\s*\.", path.name)
+
     def test_schedule_limits_and_authorization_truth_table(self):
         workflow = (ROOT / ".github/workflows/refresh-data.yml").read_text()
         self.assertIn('cron: "23 2 * * *"', workflow)

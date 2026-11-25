@@ -1,5 +1,11 @@
 # 進度
 
+## 目前停點：C-030（2026-11-25，workflow 有效性修正）
+
+- 在 `air/structured-only` 修正 refresh 的 job-level env 使用不允許的 `runner.temp`：第一步改用 runner 環境變數，將 `APP_COPY`、`SNAPSHOT_ROOT`、`SNAPSHOT_ID` 寫入 `GITHUB_ENV`，後續引用不變。
+- 三份 workflow 已離線審查 context 位置與事件分支，deploy-pages／ci 無須修改。新增初始化實際執行與 job-level context 回歸測試。
+- 工具檢查：Python 85／85、Node 12／12；三份 YAML 解析及 35 個 shell block 的 `bash -n` 通過。未安裝 actionlint，未做 GitHub 線上驗收；未連網、切分支、commit 或 push。下一步是在允許的環境重新執行 GitHub workflow，確認平台接受。
+
 ## 目前停點：C-029（2026-11-25，目標 9–12）
 
 - 機器：air；分支：`air/structured-only`。保留使用者既有目標文件差異；未切分支、commit、push、部署或呼叫網路，由 Claude 審查及提交。

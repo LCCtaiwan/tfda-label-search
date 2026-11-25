@@ -56,13 +56,16 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     env:
-      APP_COPY: ${{ runner.temp }}/tfda-label-search-app
-      SNAPSHOT_ROOT: ${{ runner.temp }}/tfda-official
       MAX_ITEMS: ${{ github.event_name == 'schedule' && '500' || inputs.max_items }}
       MAX_UPDATE_WINDOWS: ${{ github.event_name == 'schedule' && '1' || inputs.max_update_windows }}
       INCREMENTAL_AUTHORIZATION: ${{ ((github.event_name == 'schedule' && vars.TFDA_SCHEDULE_AUTHORIZED == 'true') || (github.event_name == 'workflow_dispatch' && inputs.incremental_authorization_ack == true)) && 'authorized' || 'not_authorized' }}
-      SNAPSHOT_ID: run-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
+      - name: Initialize runner paths and snapshot ID
+        run: |
+          echo "APP_COPY=$RUNNER_TEMP/tfda-label-search-app" >> "$GITHUB_ENV"
+          echo "SNAPSHOT_ROOT=$RUNNER_TEMP/tfda-official" >> "$GITHUB_ENV"
+          echo "SNAPSHOT_ID=run-$GITHUB_RUN_ID-$GITHUB_RUN_ATTEMPT" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 0

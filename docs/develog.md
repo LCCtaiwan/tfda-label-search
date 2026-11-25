@@ -371,3 +371,12 @@ git diff --check
 - 離線整合實際建立了「兩張有效藥證，初次只處理一張、全文 0%、一張尚未查、無游標」的候選網站與 preflight／主管摘要，確認可以發布且公開 coverage 為 0／2，沒有檔案備援。完整初次＋增量的原整合測試也通過；另外確認空白文字不灌水、已完成缺游標、既有游標遺失、初次未完但游標過期都被擋下。
 - 自己檢查：審閱 workflow／pipeline 差異，院內 Secret 只在同步 step 的 env，沒有 CSV 落地、清單附件或 release 欄位；核准紀錄只在 reviewed deploy＋smoke 後的 job 寫入。原目標文件差異保留，未修改其他專案。
 - 未驗證／待 Claude：83＋12 是工具離線結果，不代表 Chromium、視覺、console、GitHub schedule／workflow_run artifact、required reviewer、Pages 自動 environment、實際官方 API 或正式 smoke 已通過。未連網、未啟動本機伺服器；11 項 Chromium 本輪未執行（既有 sandbox 禁止 bind，且本輪限離線）。未重跑 npm，按使用者要求直接跑 Node；不宣稱 npm 本身通過。須 Claude 在可用環境驗收後提交，再照部署手冊配置與實測，使用者首次按核准。
+
+### 2026-11-25：C-030 workflow context 有效性修正
+
+- 機器 air、分支 `air/structured-only`；接續 C-029。依本輪限制未連網、切分支、commit、push 或部署；未讀取 GitHub run 45544611718。
+- 無效原因：refresh 的 `jobs.refresh.env` 使用 `runner.temp`，該位置不允許 runner context。`SNAPSHOT_ID` 原本只用合法的 github context；本輪一併移到第一步，以 `$RUNNER_TEMP`、`$GITHUB_RUN_ID`、`$GITHUB_RUN_ATTEMPT` 寫入 `$GITHUB_ENV`，後續三個變數的名稱與值保持一致。
+- 自己檢查三份 workflow：job env 的 github／vars／inputs、job if 的 github／vars／needs、job outputs 的 steps、environment name 的 needs 與 URL 的 steps、step env／run／with 的 runner／secrets／steps 等位置均可用。schedule 的數量／來源／增量授權都有事件分支，不依賴手動 inputs；deploy-pages／ci 未發現其他無效設定，未修改。
+- 回歸測試實際執行第一步 shell（含空白暫存路徑），核對三個 GITHUB_ENV 值；掃描三份 workflow 的 job env／if，防止不允許的 context 再出現。
+- 工具檢查：`python3 -m unittest discover -s tests -p 'test_*.py'`：85 passed；`node --test tests/*.test.mjs`：12 passed。以本機 PyYAML BaseLoader 解析三份 YAML；替換 expression 為 placeholder 後，35 個 run block 通過 `bash -n`；`git diff --check` 通過。
+- 限制／未驗證：actionlint 不在 PATH 或常見安裝路徑，未安裝；context 可用性為離線人工審查，YAML／shell 檢查不等於 GitHub 驗收。本輪未做瀏覽器或使用者驗收；後續需在 GitHub 重跑確認 workflow 被接受。

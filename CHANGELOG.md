@@ -219,3 +219,8 @@
 - 發布不再要求 98% 涵蓋率；允許初次未完成先上線，已有游標仍受 14 天限制，其他完整性與官方連結關卡保留。網頁顯示逐步補齊數量／百分比與最後更新日，空白文字不計入涵蓋。
 - 首次、程式 SHA 變更及手動發布需 reviewer；成功排程且同最後人工核准 SHA 才能自動發布。核准部署與 smoke 成功後才寫入 data-state 核准紀錄，保留不可變 run／SHA 證據。
 - 補齊離線測試與四個變數、可選 secret、兩個 environment、本人核准操作文件；本輪不連網、不 commit、不 push，由 Claude 審查驗收。
+
+## C-030（2026-11-25）
+
+- 修正 refresh workflow 在 job-level env 使用 `runner.temp` 導致 GitHub 拒絕解析；改在第一步寫入執行路徑與 snapshot ID，保留後續引用。
+- 離線審查全部三份 workflow，新增環境初始化與 context 位置回歸測試；Python 85、Node 12 項通過，GitHub 線上執行待驗證。
