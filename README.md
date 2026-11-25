@@ -24,17 +24,17 @@
 
 Pagefind 已通過 1,000 與 5,000 份合成容量試驗；正式發布前仍需用長短不同的真實仿單驗證涵蓋率與搜尋品質。這之前不建立正式 Supabase 或 Cloudflare 資料庫。
 
-結構化仿單更新分成兩段：先依有效藥證小批續傳建庫；完成後改用官方最多 10 日的日期窗補更新。日期游標只追到臺灣上一個完整日，正式發布時不得落後超過 14 天。
+結構化仿單更新分成兩段：先依有效藥證小批續傳建庫；完成後改用官方最多 10 日的日期窗補更新。日期游標只追到臺灣上一個完整日；初次建庫未完成可先上線，一旦有游標就不得落後超過 14 天，建庫完成卻無游標時先補跑授權增量。
 
-「每批 25 張」只限制初次逐藥證建庫。日期增量是一種不同查詢，一個 10 日窗回傳幾份由 TFDA 決定，可能超過 25 份；因此 workflow 另設預設關閉的增量授權勾選，沒有本輪明確授權就不呼叫日期 API。
+「每批 25 張」只限制初次逐藥證建庫。日期增量是一種不同查詢，一個 10 日窗回傳幾份由 TFDA 決定，可能超過 25 份；因此 workflow 另設預設關閉的增量授權勾選，手動沒有本輪明確授權就不呼叫日期 API；排程以 `TFDA_SCHEDULE_AUTHORIZED=true` 作獨立增量授權。
 
 正式發布不只相信狀態檔的 `ready`。系統會重新解析九個官方 raw 檔，核對 snapshot 的來源網址、SHA-256 與筆數，並逐張確認 downloaded 仿單的分片檔與藥證內容完全對得上。
 
-九來源 snapshot 與結構化仿單增量在發布時各自都有 14 天門檻；任何一個過期都不能建立可部署候選版。網站上線後仍會每天重新計算並提示資料年齡。
+九來源 snapshot 與已建立的結構化仿單增量在發布時各自都有 14 天門檻；任何一個過期都不能建立可部署候選版。網站上線後仍會每天重新計算並提示資料年齡。
 
-第一次資料建立會下載九個批次來源，之後逐批補仿單時預設沿用同一份已驗證 snapshot，不會每 25 張就重抓九個大型檔案。每次正式資料工作仍要勾選本輪 API 授權；沿用的 snapshot 也會在任何仿單 API 呼叫前重新驗證。
+第一次資料建立會下載九個批次來源，之後逐批補仿單時預設沿用同一份已驗證 snapshot，不會每 25 張就重抓九個大型檔案。每次手動資料工作仍要勾選本輪 API 授權；沿用的 snapshot 也會在任何仿單 API 呼叫前重新驗證。
 
-沿用 snapshot 時會同時檢查年齡。超過 14 天就會在零次仿單 API 請求時停止，管理者必須改選 `refresh_all_nine`；不會先打完 25 次才等部署階段發現資料太舊。
+沿用 snapshot 時會同時檢查年齡。超過 14 天就會在零次仿單 API 請求時停止，手動時管理者必須改選 `refresh_all_nine`；排程則會在缺少或超過 14 天時自動重抓全部九來源；不會先打完 25 次才等部署階段發現資料太舊。
 
 ## 與 ChemoDrugStable 的關係
 
@@ -99,4 +99,16 @@ npm run serve
 - 尚無結構化文字時只顯示「食藥署仿單頁」，網址為 `https://mcp.fda.gov.tw/im_detail_1/<URL 編碼的許可證字號>`；不保證該頁有仿單。發布與搜尋資料不含 `pdf_urls` 或官方仿單檔案連結。
 - 更新失敗時保留上一個已驗證版本。
 - 未經另外明確授權，不推送、部署、建立付費資源或大量呼叫官方 API。
-- 目前兩個正式 workflow 都只允許手動執行；TFDA 確認批次頻率前不加入排程。
+- 日更及自動發布的授權、隱私與核准設定見下節；本機修改不等於已啟動 GitHub 工作。
+
+## 每日補齊與首次核准（C-029）
+
+不再要求 98% 涵蓋率才上線；完整性、來源、SHA／筆數、14 天新鮮度、無 PDF／只連指定食藥署仿單頁等關卡保留。網站顯示「逐步補齊中：已有結構化仿單 X／有效藥證 Y（Z%）」與最後更新日；`coverage.json` 保留。
+
+Claude 須在 repository 設 Variables：`TFDA_API_CALLS_AUTHORIZED=true`、`TFDA_SCHEDULE_AUTHORIZED=true`（初次五張試跑先設 false）、`SUPERVISOR_APPROVAL_CONFIGURED=true`、`PUBLICATION_AUTHORIZED=true`；可選 Secret `FORMULARY_CSV_URL`（HTTPS UTF-8 CSV，含 `藥名,ATC碼,狀態`，停用列忽略）。院內清單只在記憶體排順序，不寫資料、附件、release 或 log，只記層級合計；未設或失敗照原順序。
+
+Pages Source 選 GitHub Actions。`github-pages` environment 的 Required reviewers 加使用者本人 `LCCtaiwan`，Prevent self-review 不勾選；`github-pages-auto` environment 不設 reviewer／wait timer，允許預設分支。完整精確步驟見 [部署手冊](docs/deployment.md)。
+
+首次手動 refresh 選 5 張、`refresh_all_nine`、一窗，勾 API 授權但不勾增量授權；確認後可先發網站。手動執行 Pages（app_ref=main、data_ref=data-state），檢查摘要後由本人在 GitHub 按 Review deployments → github-pages → Approve and deploy。核准部署與 smoke 成功後，才由工作在 `data-state/approved-app.json` 留下 app SHA／run 證據。
+
+每日臺灣 10:23（cron `23 2 * * *`）需兩個 TFDA variable 同為 true，固定 500 張初次查詢或一個增量窗、2 秒間隔；snapshot 缺少或超過 14 天自動重抓。只有成功排程、同一已核准 app SHA、全部檢查通過才自動發布；首次、程式 SHA 改變與手動發布仍需 reviewer。停排程設 `TFDA_SCHEDULE_AUTHORIZED=false`；停發布設 `PUBLICATION_AUTHORIZED=false`。

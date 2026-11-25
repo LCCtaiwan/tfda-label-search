@@ -1,13 +1,14 @@
 # 進度
 
-## 目前停點：C-028（2026-11-24 決策）
+## 目前停點：C-029（2026-11-25，目標 9–12）
 
-- 機器：air；分支：`air/structured-only`。本輪於 2026-11-25 接續中斷工作；未切分支、commit、push、部署或呼叫外部 API，由 Claude 審查後提交。
-- 仿單內容只來自 `GetDrugDoc`；發布文件、搜尋資料及 UI 已移除 PDF／官方仿單檔案連結。尚無內文時僅連「食藥署仿單頁」，不保證該頁有仿單。
-- 涵蓋只分「有結構化仿單文字／尚無結構化仿單（連食藥署仿單頁）」；僅有標題的空白仿單不算有文字。
-- 九來源 snapshot、data-state、初次分批建庫、10 日增量、授權與部署關卡維持不變。InfoId 39 僅保留驗證及來源雜湊，未輸出其資料；歷史官方檔案抽查程式與離線測試保留，發布不依賴它。
-- 工具檢查：Python 66／66、Node 12／12、正式同義詞格式驗證通過；本機 fixture release 與 E2E fixture 建置成功，無舊檔案連結。完整命令與限制見 `docs/develog.md` C-028。
-- 未驗證：Chromium 的 11 項測試已更新且可列出，但沙箱禁止綁定本機 HTTP 埠，無法執行。`npm test` 本身遇 macOS 鑰匙圈錯誤；已直接執行它包含的三組命令通過，不能宣稱 npm 命令通過。使用者／Claude 驗收及正式部署尚未進行。
+- 機器：air；分支：`air/structured-only`。保留使用者既有目標文件差異；未切分支、commit、push、部署或呼叫網路，由 Claude 審查及提交。
+- 已實作每日臺灣 10:23 排程、5／500 張選項、雙 TFDA 授權鎖、snapshot 缺少／超過 14 天自動更新；手動授權與增量另行授權、2 秒間隔、Retry-After 及續傳保留。
+- 可選 Secret `FORMULARY_CSV_URL` 只在記憶體排序院內優先（ATC＋英文名稱／成分 → ATC → 其他）；停用列忽略、同層穩定、只記合計，失敗照原順序。
+- 正式發布取消 98% 下限，保留完整性與新鮮度檢查。依使用者本輪澄清：初次建庫未完成且尚無增量游標可先上線；已有游標仍須不超過 14 天，完成卻缺游標仍拒絕。網頁顯示逐步補齊數量、百分比與最後更新日；`coverage.json` 保留，空文字不灌水。
+- 首次、程式 SHA 改變及手動發布走 `github-pages` reviewer；相同最後核准 app SHA 的成功排程資料更新才可走 `github-pages-auto`。人工部署及 smoke 成功後才寫入 `data-state/approved-app.json`；排程 artifact 固定 upstream run 與 app/data SHA。
+- 操作文件已列出四個 repository variables、可選 secret、兩個 environment、本人核准與停機步驟。見 `docs/deployment.md`、`docs/supervisor-guide.md`。
+- 工具檢查：Python 83／83、Node 12／12、三份 YAML／34 個 shell block、同義詞與差異檢查通過，證據見本輪 `docs/develog.md` C-029。尚無 GitHub、API、reviewer、正式 Pages 或 Chromium 視覺／互動驗收；本輪只使用 fixture、mock 與本機檔案。
 
 ## 目前狀態
 
@@ -22,21 +23,21 @@
 - 搜尋索引已改成每份仿單一筆候選記錄，命中後逐章精確比對；結果可每次載入 50 筆。
 - 1,000 與 5,000 份合成容量試驗通過；加入精確藥品目錄後，5,000 份、250,000 章網站約 103 MB，36.14 秒建好，瀏覽器首次搜尋約 1.1 秒。
 - CI 已加入 10 個 Chromium 端到端測試，涵蓋任意短詞、英文、AND／OR／NOT、測試專用 reviewed 同義詞、分批載入、完整藥證、網址深連結、輸入上限、去重、metadata-only 食藥署仿單頁、歷史官方事件、健保詳細資料、資料過期警告、可見署名與手機寬度。
-- 已完成只手動啟動的資料更新與 Pages 發布 workflow：`data-state` 每批成功才 commit；發布預設上鎖，必須先設定主管 required reviewer。
+- 已完成受授權的手動／排程資料更新與 Pages 發布 workflow：`data-state` 每批成功才 commit；發布預設上鎖，必須先設定主管 required reviewer。
 - 結構化仿單依證別分片保存，避免單一資料夾累積過多檔案；429／暫時錯誤會遵守最長 60 秒的 `Retry-After`。
 - 已完成完整離線發布演練、英文搜尋與頁尾資料版本／SHA-256 指紋；目前 76 個 Python／Node（64 Python + 12 Node）與 10 個 Chromium 測試通過。
 - 5000 份手機資源量測：常見詞新增約 8.38 MiB JS heap、傳輸 4.33 MiB；完整藥證新增約 6.61 MiB、傳輸 3.62 MiB。
-- `data-state` 只保留官方 raw、manifest 與結構化仿單；單檔超過 95 MiB 會在 commit 前停止，manifest 會留下總容量與最大檔案供稽核。
+- `data-state` 只保留官方 raw、manifest、結構化仿單與人工部署核准紀錄；單檔超過 95 MiB 會在 commit 前停止，manifest 會留下總容量與最大檔案供稽核。
 - 2026-09-16 已依授權下載九項正式官方資料；最大檔是 96,434,108 bytes 的健保資料，低於 95 MiB 保護線，但只剩約 3.0 MiB 空間。
 - 已核對 TFDA、健保署與政府資料開放授權：正式網站只發布結構化仿單純文字，排除內嵌圖片、PDF 鏡像及機關標誌，並補齊提供機關與授權署名。
 - `release_preflight.py` 會產生公開發布稽核報告，授權依據超過一年會要求重查；`TFDA_API_CALLS_AUTHORIZED` 與 `PUBLICATION_AUTHORIZED` 兩道變數鎖預設都不放行。
 - 每個網站都有程式／資料完整 SHA 的 `release.json`；部署 workflow 可指定舊 SHA 走同一條主管核准流程回滾，完成後會用 Chromium 在正式網址核對版本並搜尋一張目錄內藥證。
-- 正式資料 workflow 已接入初次建庫與 10 日窗增量協調器：最後一批初始資料先獨立 commit，下一輪從建庫開始日補更新；發布時增量游標不得缺少或落後超過 14 天。
+- 正式資料 workflow 已接入初次建庫與 10 日窗增量協調器：最後一批初始資料先獨立 commit，下一輪從建庫開始日補更新；發布時已有增量游標不得落後超過 14 天；初次未完成可暫無游標，完成後必須補上。
 - 正式發布會重新解析九個 raw 檔並核對 snapshot 的網址、SHA-256 與筆數；每張 downloaded 仿單也會核對分片路徑、藥證與狀態，無關 JSON 不可混入。
 - 公開的資料日期使用 snapshot 實際擷取時間；部署 smoke 會核對本次核准的完整 app/data SHA，回滾時也使用該舊 app SHA 的檢查器。
 - GitHub 官方 Actions 已依 2026-09-15 官方 release 查詢結果更新，並固定到完整 commit SHA。
 - `npm audit --audit-level=high --package-lock-only` 回報 0 個已知漏洞。
-- 資料 workflow 預設每次最多 25 張並要求本輪授權勾選；九個批次來源平常重用已驗證 snapshot，第一次或主動更新時才全部重抓。
+- 資料 workflow 手動預設每次最多 25 張並要求本輪授權勾選，排程固定 500 張且另需排程授權；九個批次來源平常重用已驗證 snapshot，第一次或主動更新時才全部重抓。
 - 沿用 snapshot 時會在結構化仿單 API 呼叫前先重驗九來源；不可信資料會在零次仿單請求時停止。
 - metadata-only 結果只顯示指定 `im_detail_1/` 路徑的「食藥署仿單頁」；舊 PDF 備援連結已移除。
 - 公開涵蓋摘要與 `data/coverage.json` 只計算有／無結構化仿單文字。
@@ -49,8 +50,8 @@
 - 健保品項會保留規格、劑型、支付價、有效期間、藥商、給付章節與官方連結；畫面明示這不是目前給付或價格保證，外站網址與錯誤日期會停止建置。
 - 網站每天以臺灣日期重算官方資料年齡；超過 14 天、日期缺少或在未來時會醒目警告，且不以較新的建置日期冒充資料日期。
 - Pages 發布會在 `data-state` 預檢與 release 建置兩層拒絕超過 14 天的九來源 snapshot，稽核報告會留下實際年齡。
-- 資料更新 workflow 也會在任何仿單 API 前檢查 snapshot 年齡；超過 14 天以零次仿單請求停止，要求改用 `refresh_all_nine`。
-- 初次逐藥證與日期增量使用兩個授權邊界：25 張只管初次建庫；日期窗可能回傳更多文件，必須另外勾選增量授權，預設不放行。
+- 資料更新 workflow 也會在任何仿單 API 前檢查 snapshot 年齡；手動超過 14 天以零次仿單請求停止，要求改用 `refresh_all_nine`；排程自動更新缺少或過期 snapshot。
+- 初次逐藥證與日期增量使用兩個授權邊界：張數只管初次建庫；日期窗可能回傳更多文件，手動須另外勾選增量授權，排程以 `TFDA_SCHEDULE_AUTHORIZED=true` 授權。
 - 保留但不接入發布的歷史官方檔案抽查器（需逐次授權）：最多 100 個、每個只讀 64 KiB 檔頭、不保存內容，分辨 PDF／圖片／HTML／未知與失敗，外站及外站轉址會拒絕。
 - Pages 候選版會在主管核准前產生一頁白話摘要，交叉核對 release、data-state、涵蓋率、發布權利及同義詞五份證據；任何數字、snapshot 或 commit 不一致時停止。
 - 2026-09-16 已精確執行 25 次逐藥證 API：7 份有結構化仿單、18 筆無文件、0 失敗；未使用重試，沒有呼叫日期增量或官方檔案抽查。
@@ -63,12 +64,11 @@
 
 ## 下一步
 
-1. 由 Claude 審查 C-028 差異，在允許本機伺服器的環境重跑 `npm test`、`npm run prepare:e2e`、`npm run test:e2e`，通過後提交；目前變更均未提交。
-2. 向 TFDA 確認正式批次請求頻率；在確認前不啟動大量 API 呼叫或自動排程。
-3. 另外取得逐批 API 授權後，續跑初次建庫；日期增量仍需獨立授權。
-4. 累積到 1,000 至 5,000 份長短不同的真實仿單後，重做容量、涵蓋率與搜尋品質驗證。
-5. 健保原始檔距離 95 MiB 只剩約 3.0 MiB；正式 Git 保存前確認是否仍低於門檻，超限則改用 Git LFS 或物件儲存。
-6. 由專案負責人審查第一組正式同義詞；GitHub 推送、主管核准設定與部署另行取得授權。
+1. Claude 審查 C-029 與既有目標文件差異，重跑離線測試及允許本機伺服器環境的 11 項 Chromium；通過後由 Claude commit／GitHub 操作，本輪 Codex 不執行。
+2. 依 `docs/deployment.md` 設 Pages、四個 repository variables、可選 `FORMULARY_CSV_URL` 及兩個 environment；五張手動試跑時排程 variable 保持 false。
+3. Claude 執行 5 張 → 授權後 500 張，檢查來源、涵蓋、資料 commit；手動首次發布由使用者本人按 Approve and deploy，確認 smoke 及核准紀錄 commit 成功。
+4. 正式授權日更後才同時開啟兩個 TFDA 變數；驗證臺灣 10:23 排程及同程式 SHA 的自動發布。向 TFDA 確認正式頻率，累積代表性真實資料後重做容量／品質驗收。
+5. 持續監控健保原始檔 95 MiB 保護線與九來源／增量 14 天限制；超限先停下評估儲存方式，不繞過檢查。
 
 ## 尚待確認
 
@@ -76,4 +76,4 @@
 - 全量結構化仿單涵蓋率與 Pagefind 索引大小。
 - 若日後要加入 PDF、圖片、機關標誌或另有特別聲明的素材，須重新確認公開使用權利。
 - 若日後直接複製 `TFDA-drug-info-search` 程式碼，須保存原作者同意的修改、公開部署、再散布及署名範圍；目前沒有複製第三方程式。
-- 新 GitHub repository 的擁有者、可見度及主管 GitHub 帳號；免費 required reviewer 需要公開 repository。
+- GitHub environment reviewer 與自動 Pages 的實際設定及驗收；目前指定使用者本人 `LCCtaiwan` 核准。

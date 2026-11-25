@@ -491,7 +491,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--source-manifest", type=Path)
     parser.add_argument("--structured", type=Path, action="append", default=[])
     parser.add_argument("--structured-dir", type=Path)
-    parser.add_argument("--min-structured-coverage", type=float, default=0.98)
+    parser.add_argument("--min-structured-coverage", type=float, default=0)
     parser.add_argument("--max-official-snapshot-age-days", type=int)
     parser.add_argument("--app-revision", default="")
     parser.add_argument("--data-revision", default="")
@@ -500,7 +500,7 @@ def parse_args() -> argparse.Namespace:
     args = parser.parse_args()
     if args.structured_dir:
         args.structured.extend(sorted(args.structured_dir.rglob("*.json")))
-    if not args.structured:
+    if not args.structured and not args.structured_dir:
         parser.error("至少需要一個 --structured 或含 JSON 的 --structured-dir")
     return args
 

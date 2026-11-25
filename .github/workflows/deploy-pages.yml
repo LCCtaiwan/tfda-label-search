@@ -1,6 +1,9 @@
 name: Build and approve TFDA Pages
 
 on:
+  workflow_run:
+    workflows: ["Refresh TFDA data state"]
+    types: [completed]
   workflow_dispatch:
     inputs:
       app_ref:
@@ -23,22 +26,49 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name == 'workflow_dispatch' || (github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'schedule' && github.event.workflow_run.head_repository.full_name == github.repository)
+    permissions:
+      contents: read
+      actions: read
     runs-on: ubuntu-latest
     timeout-minutes: 30
     outputs:
+      auto_deploy: ${{ steps.policy.outputs.auto_deploy }}
       site_path: ${{ steps.release.outputs.site_path }}
       release_id: ${{ steps.release.outputs.release_id }}
       app_sha: ${{ steps.revisions.outputs.app_sha }}
       data_sha: ${{ steps.revisions.outputs.data_sha }}
     steps:
+      - name: Check out deployment policy from the workflow revision
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          path: policy
+
+      - name: Download successful scheduled refresh provenance
+        if: github.event_name == 'workflow_run'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REFRESH_RUN_ID: ${{ github.event.workflow_run.id }}
+        run: >-
+          gh run download "$REFRESH_RUN_ID" --repo "$GITHUB_REPOSITORY"
+          --name scheduled-refresh-revisions --dir "${{ runner.temp }}/refresh-provenance"
+
+      - name: Select immutable refresh commits or manual refs
+        id: refs
+        run: >-
+          python3 policy/tools/pipeline/deploy_policy.py
+          --event "$GITHUB_EVENT_PATH"
+          --provenance "${{ runner.temp }}/refresh-provenance/refresh-revisions.json"
+          >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ inputs.app_ref }}
+          ref: ${{ steps.refs.outputs.app_ref }}
           path: app
 
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          ref: ${{ inputs.data_ref }}
+          ref: ${{ steps.refs.outputs.data_ref }}
           path: state
 
       - name: Resolve selected refs to immutable commits
@@ -46,6 +76,26 @@ jobs:
         run: |
           echo "app_sha=$(git -C app rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           echo "data_sha=$(git -C state rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Read last approved app from the current data-state head
+        working-directory: state
+        run: |
+          git fetch origin data-state
+          if git cat-file -e FETCH_HEAD:approved-app.json; then
+            git show FETCH_HEAD:approved-app.json > "${{ runner.temp }}/approved-app.json"
+          fi
+
+      - name: Choose reviewed or automatic deployment
+        id: policy
+        env:
+          APP_SHA: ${{ steps.revisions.outputs.app_sha }}
+          DATA_SHA: ${{ steps.revisions.outputs.data_sha }}
+        run: >-
+          python3 policy/tools/pipeline/deploy_policy.py
+          --event "$GITHUB_EVENT_PATH"
+          --provenance "${{ runner.temp }}/refresh-provenance/refresh-revisions.json"
+          --approved-record "${{ runner.temp }}/approved-app.json"
+          --app-sha "$APP_SHA" --data-sha "$DATA_SHA" >> "$GITHUB_OUTPUT"
 
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
@@ -72,11 +122,12 @@ jobs:
           --official-dir state/official/current
           --structured-dir state/structured
           --require-incremental
+          --allow-initial-building
           --max-incremental-lag-days 14
           --max-official-snapshot-age-days 14
           --output "${{ runner.temp }}/verified-data-state.json"
 
-      - name: Build candidate release with a 98 percent text gate
+      - name: Build candidate release with integrity gates
         id: release
         env:
           APP_SHA: ${{ steps.revisions.outputs.app_sha }}
@@ -91,7 +142,6 @@ jobs:
             --structured-dir state/structured/documents \
             --app-revision "$APP_SHA" \
             --data-revision "$DATA_SHA" \
-            --min-structured-coverage 0.98 \
             --max-official-snapshot-age-days 14
           echo "release_id=$RELEASE_ID" >> "$GITHUB_OUTPUT"
           echo "site_path=$GITHUB_WORKSPACE/candidate/releases/$RELEASE_ID/site" >> "$GITHUB_OUTPUT"
@@ -114,7 +164,6 @@ jobs:
           --preflight "${{ runner.temp }}/publication-preflight.json"
           --synonyms "${{ steps.release.outputs.site_path }}/data/synonyms.json"
           --output "${{ runner.temp }}/approval-summary.md"
-          --min-structured-coverage 0.98
           --max-age-days 14
           --max-lag-days 14
 
@@ -158,13 +207,13 @@ jobs:
       pages: write
       id-token: write
     environment:
-      name: github-pages
+      name: ${{ needs.build.outputs.auto_deploy == 'true' && 'github-pages-auto' || 'github-pages' }}
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     outputs:
       page_url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Deploy only after the environment reviewer approves
+      - name: Deploy through the selected environment policy
         id: deployment
         uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
 
@@ -206,3 +255,41 @@ jobs:
           path: ${{ runner.temp }}/deployment-smoke.json
           if-no-files-found: warn
           retention-days: 30
+
+  record-approved-app:
+    if: needs.build.outputs.auto_deploy == 'false'
+    needs: [build, deploy, smoke-test]
+    permissions:
+      contents: write
+    concurrency:
+      group: tfda-data-state
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: data-state
+
+      - name: Record app approval only after reviewed deployment and successful smoke
+        env:
+          APPROVED_APP_SHA: ${{ needs.build.outputs.app_sha }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+          from pathlib import Path
+          app_sha = os.environ['APPROVED_APP_SHA']
+          assert re.fullmatch(r'[a-f0-9]{40}', app_sha)
+          Path('approved-app.json').write_text(json.dumps({
+              'schema_version': 1,
+              'app_sha': app_sha,
+              'environment': 'github-pages',
+              'repository': os.environ['GITHUB_REPOSITORY'],
+              'deployment_run_id': os.environ['GITHUB_RUN_ID'],
+              'deployment_run_attempt': os.environ['GITHUB_RUN_ATTEMPT'],
+          }, indent=2) + '\n', encoding='utf-8')
+          PY
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add approved-app.json
+          git commit -m "data: record reviewed app approval run $GITHUB_RUN_ID"
+          git push origin HEAD:data-state

@@ -5,13 +5,14 @@ from pathlib import Path
 import shutil
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from tools.pipeline.approval_summary import build_approval_summary
 from tools.pipeline.official_snapshot import build_snapshot
 from tools.pipeline.release_preflight import run_preflight
 from tools.pipeline.sync_structured import sync_structured
 from tools.pipeline.state_manifest import build_manifest
-from tools.pipeline.static_release import SOURCE_ORDER, build_release
+from tools.pipeline.static_release import SOURCE_ORDER, build_release, parse_args
 from tools.sources import official
 
 
@@ -20,6 +21,62 @@ FIXTURES = ROOT / "tests" / "fixtures"
 
 
 class OfflineDeploymentTests(unittest.TestCase):
+    def test_partial_initial_build_with_zero_text_publishes_honest_metadata(self):
+        specs = official.load_sources()
+        source_dir = FIXTURES / "pipeline_sources"
+        payloads = {specs[name]["url"]: (source_dir / f"{name}.raw").read_bytes() for name in SOURCE_ORDER}
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            build_snapshot(root / "snapshots", "partial", download=lambda url: payloads[url], allow_small_fixtures=True)
+            current = root / "snapshots/snapshots/partial"
+            structured = root / "structured"
+            sync_structured(
+                current / "raw/licenses.raw", structured, max_initial_items=1,
+                request_delay=0, through_date=date(2099, 1, 1),
+                fetch_initial=lambda _: b"<ROOTDOCUMENT></ROOTDOCUMENT>",
+                fetch_incremental=lambda _: self.fail("Initial build must not call incremental API"),
+            )
+            state_manifest = build_manifest(
+                current, structured, allow_small_fixtures=True,
+                require_incremental=True, allow_initial_building=True,
+                max_incremental_lag_days=14, max_official_snapshot_age_days=14,
+            )
+            self.assertFalse(state_manifest["complete"])
+            self.assertEqual(state_manifest["pending_licenses"], 1)
+            # Exercise real CLI defaults and the valid, entirely empty label directory.
+            with patch("sys.argv", [
+                "static_release.py", "--release-id", "partial",
+                "--release-root", str(root / "candidate"),
+                "--source-dir", str(current / "raw"),
+                "--source-manifest", str(current / "manifest.json"),
+                "--structured-dir", str(structured / "documents"),
+                "--app-revision", "a" * 40, "--data-revision", "b" * 40,
+                "--max-official-snapshot-age-days", "14", "--allow-small-fixtures",
+            ]):
+                args = parse_args()
+            self.assertEqual(args.min_structured_coverage, 0)
+            release = build_release(args)
+            release_dir = root / "candidate/releases/partial"
+            site = release_dir / "site"
+            preflight = run_preflight(ROOT / "config/publication-policy.json", site, ROOT)
+            (root / "verified.json").write_text(json.dumps(state_manifest))
+            (root / "preflight.json").write_text(json.dumps(preflight))
+            summary = build_approval_summary(
+                release_dir / "manifest.json", release_dir / "coverage.json",
+                root / "verified.json", root / "preflight.json", site / "data/synonyms.json",
+            )
+            self.assertIn("初次建庫未完成", summary)
+            self.assertEqual(release["coverage"]["structured_coverage"], 0)
+            self.assertEqual(release["coverage"]["metadata_only_licenses"], 2)
+            public = json.loads((site / "data/coverage.json").read_text())
+            self.assertEqual(public["searchable_text_documents"], 0)
+            self.assertEqual(public["document_count"], 2)
+            published = (release_dir / "documents.json").read_text()
+            self.assertNotIn('"pdf_urls"', published)
+            self.assertNotIn('exportpdf', published)
+            for document in json.loads(published)["documents"]:
+                self.assertTrue(document["official_url"].startswith("https://mcp.fda.gov.tw/im_detail_1/"))
+
     def test_data_state_to_validated_pages_candidate(self):
         specs = official.load_sources()
         source_dir = FIXTURES / "pipeline_sources"

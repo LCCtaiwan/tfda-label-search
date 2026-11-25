@@ -21,6 +21,7 @@ from tools.pipeline.static_release import (
     active_catalog,
     atomic_json,
     official_snapshot_age_days,
+    load_documents,
     validated_source_snapshot,
 )
 from tools.pipeline.fetch_updates import closed_through_date
@@ -157,6 +158,7 @@ def build_manifest(
     *,
     allow_small_fixtures: bool = False,
     require_incremental: bool = False,
+    allow_initial_building: bool = False,
     max_incremental_lag_days: int | None = None,
     max_official_snapshot_age_days: int | None = None,
 ) -> dict:
@@ -184,16 +186,31 @@ def build_manifest(
     documents = sorted((structured_dir / "documents").rglob("*.json"))
     validate_downloaded_documents(structured_dir, state, active)
     summary = summarize_state(state, active, documents)
+    parsed = load_documents(documents)
+    text_count = sum(
+        1 for number, document in parsed.items()
+        if number in active and document.get("source_kind") == "tfda_structured_insert"
+        and any(str(section.get("content_text") or "").strip() for section in document["sections"])
+    )
+    summary["structured_text_licenses"] = text_count
+    summary["structured_coverage"] = text_count / len(active)
+    if allow_initial_building and any(
+        item.get("status") not in TERMINAL_STATUSES for item in state["items"].values()
+    ):
+        raise StaticReleaseError("續傳狀態仍有失敗或未知狀態，不能發布")
     incremental = summarize_incremental(
         structured_dir / "updates-state.json", license_bundle["content_hash"]
     )
-    if require_incremental and not incremental["incremental_initialized"]:
+    if state.get("incremental_initialized") is True and not incremental["incremental_initialized"]:
+        raise StaticReleaseError("既有增量更新游標遺失，不可退回初次建庫例外")
+    initial_building = allow_initial_building and not summary["complete"] and not incremental["incremental_initialized"]
+    if require_incremental and not incremental["incremental_initialized"] and not initial_building:
         raise StaticReleaseError("初次建庫完成後尚未建立增量更新游標")
     if max_incremental_lag_days is not None:
         if max_incremental_lag_days < 0:
             raise ValueError("增量落後天數上限不可小於零")
         lag_days = incremental["incremental_lag_days"]
-        if lag_days is None or lag_days > max_incremental_lag_days:
+        if not initial_building and (lag_days is None or lag_days > max_incremental_lag_days):
             raise StaticReleaseError(
                 f"結構化仿單增量落後 {lag_days if lag_days is not None else '未知'} 天，"
                 f"超過 {max_incremental_lag_days} 天門檻"
@@ -225,6 +242,7 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--allow-small-fixtures", action="store_true")
     parser.add_argument("--require-incremental", action="store_true")
+    parser.add_argument("--allow-initial-building", action="store_true")
     parser.add_argument("--max-incremental-lag-days", type=int)
     parser.add_argument("--max-official-snapshot-age-days", type=int)
     args = parser.parse_args()
@@ -233,6 +251,7 @@ def main() -> None:
         args.structured_dir,
         allow_small_fixtures=args.allow_small_fixtures,
         require_incremental=args.require_incremental,
+        allow_initial_building=args.allow_initial_building,
         max_incremental_lag_days=args.max_incremental_lag_days,
         max_official_snapshot_age_days=args.max_official_snapshot_age_days,
     )

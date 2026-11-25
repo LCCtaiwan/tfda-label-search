@@ -113,6 +113,8 @@ def fetch_updates(
         raise ValueError("第一次增量更新必須提供 start_date")
     state["catalog_hash"] = bundle["content_hash"]
     atomic_json(state_path, state)
+    build_state["incremental_initialized"] = True
+    atomic_json(output_dir / "state.json", build_state)
 
     limiter = RateLimiter(request_delay)
     report = {"windows": 0, "documents": 0, "updated_licenses": 0, "ignored_inactive": 0}

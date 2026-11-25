@@ -1,6 +1,6 @@
 # 靜態版本與失敗保護
 
-每次更新先在新的暫存資料夾完成，不會直接改掉目前可用的版本。只有九組官方來源格式、有效藥證分母、結構化仿單涵蓋率與 Pagefind 建置全部通過，才會產生 `ready: true` 的不可變 release。
+每次更新先在新的暫存資料夾完成，不會直接改掉目前可用的版本。只有九組官方來源格式、有效藥證分母、結構化仿單內容完整性與 Pagefind 建置全部通過，才會產生 `ready: true` 的不可變 release。
 
 ## 目錄
 
@@ -47,8 +47,10 @@ python3 tools/pipeline/static_release.py \
   --activate
 ```
 
-正式流程不可使用 `--allow-small-fixtures`，而且必須提供兩個完整 40 碼 Git SHA 與 `--source-manifest`。程式會重新核對九個 raw 檔與 snapshot manifest；預設結構化文字涵蓋率門檻為 98%。尚無結構化文字的有效藥證會保留一張明確標示的資料卡與官方入口，但不能冒充全文可搜尋仿單。
+正式流程不可使用 `--allow-small-fixtures`，而且必須提供兩個完整 40 碼 Git SHA 與 `--source-manifest`。程式會重新核對九個 raw 檔與 snapshot manifest；C-029 起預設不設涵蓋率下限，保留涵蓋報告並明示逐步補齊；其他完整性關卡照常檢查。`--min-structured-coverage` 僅保留作離線試驗的可選限制，正式 workflow 不設定。尚無結構化文字的有效藥證會保留一張明確標示的資料卡與官方入口，但不能冒充全文可搜尋仿單。
 
 正式 Pages workflow 另傳入 `--max-official-snapshot-age-days 14`。release manifest 會保存 `official_snapshot_age_days`；超過門檻或快照日期不可信時，候選版在產生前停止。
 
 2026-11-24 起，官方檔案連結、PDF 備援與檔頭抽查不參與發布內容或涵蓋分類。舊的 `probe_official_files.py` 與其離線測試保留，供歷史證據查閱；不由 workflow 或 release 建置呼叫。新 release 沒有 `pdf_urls`，不能再依舊文件從新 release 抽查檔案。九來源來源雜湊仍保留 `pdf_catalog` 鍵作 snapshot 稽核識別，並非檔案連結。
+
+初次建庫未完成且無增量游標時，Pages 預檢用 `--allow-initial-building` 允許發布；已有游標仍強制 14 天，建庫完成卻缺游標不允許。首次與程式 SHA 改變需 reviewer，同已核准程式的成功排程資料更新可自動發布，見 `deployment.md`。

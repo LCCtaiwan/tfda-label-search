@@ -94,7 +94,7 @@ def build_approval_summary(
     preflight_path: Path,
     synonyms_path: Path,
     *,
-    min_structured_coverage: float = 0.98,
+    min_structured_coverage: float = 0,
     max_age_days: int = 14,
     max_lag_days: int = 14,
 ) -> str:
@@ -117,9 +117,10 @@ def build_approval_summary(
         raise ApprovalSummaryError("release manifest 缺少官方 snapshot id")
     if not str(manifest.get("data_retrieved_at") or "").strip():
         raise ApprovalSummaryError("release manifest 缺少官方資料日期")
-    if data_state.get("complete") is not True:
-        raise ApprovalSummaryError("data-state 尚未完成初次檢查")
-    if data_state.get("incremental_initialized") is not True:
+    initial_building = data_state.get("complete") is False and data_state.get("incremental_initialized") is False
+    if data_state.get("complete") not in (True, False):
+        raise ApprovalSummaryError("data-state 缺少初次建庫狀態")
+    if not initial_building and data_state.get("incremental_initialized") is not True:
         raise ApprovalSummaryError("data-state 尚未建立增量游標")
 
     manifest_coverage = manifest.get("coverage")
@@ -152,17 +153,17 @@ def build_approval_summary(
     state_coverage = number(data_state.get("structured_coverage"), "data-state 結構化涵蓋率")
     if (
         data_state.get("active_licenses") != active
-        or data_state.get("downloaded_licenses") != structured
+        or data_state.get("structured_text_licenses", data_state.get("downloaded_licenses")) != structured
         or abs(state_coverage - structured_coverage) > 1e-12
     ):
         raise ApprovalSummaryError("data-state 與 release 涵蓋數量不一致")
 
     snapshot_age = integer(data_state.get("official_snapshot_age_days"), "官方 snapshot 年齡")
-    lag_days = integer(data_state.get("incremental_lag_days"), "增量落後天數")
+    lag_days = None if initial_building else integer(data_state.get("incremental_lag_days"), "增量落後天數")
     manifest_age = integer(manifest.get("official_snapshot_age_days"), "release snapshot 年齡")
     if manifest_age != snapshot_age:
         raise ApprovalSummaryError("release 與 data-state 的 snapshot 年齡不一致")
-    if snapshot_age > max_age_days or lag_days > max_lag_days:
+    if snapshot_age > max_age_days or (lag_days is not None and lag_days > max_lag_days):
         raise ApprovalSummaryError("官方資料年齡或增量落後超過主管核准門檻")
 
     checks = preflight.get("checks")
@@ -213,7 +214,7 @@ def build_approval_summary(
 
     summary = f"""# TFDA Pages 主管核准摘要
 
-這不是自動核准。請同時下載本次 `release-audit` 附件，核對五份原始證據。
+這份摘要整理檢查證據。人工發布時請同時下載本次 `release-audit` 附件，核對五份原始證據；相同已核准程式的成功排程更新，另依 workflow 政策自動發布。
 
 | 項目 | 本次候選版 |
 |---|---|
@@ -223,9 +224,10 @@ def build_approval_summary(
 | 官方 snapshot | {inline(manifest.get('official_snapshot_id'))} |
 | 官方資料日期 | {inline(manifest.get('data_retrieved_at'))} |
 | Snapshot 年齡 | {snapshot_age} 天（門檻 ≤ {max_age_days}） |
-| 增量落後 | {lag_days} 天（門檻 ≤ {max_lag_days}） |
+| 建庫狀態 | {'逐步補齊中（初次建庫未完成）' if not data_state['complete'] else '初次建庫已完成'} |
+| 增量落後 | {str(lag_days) + ' 天（門檻 ≤ ' + str(max_lag_days) + '）' if lag_days is not None else '初次建庫中，尚未建立增量游標'} |
 | 有效藥證 | {active} |
-| 有結構化仿單文字 | {structured}（{structured_coverage:.2%}，門檻 ≥ {min_structured_coverage:.0%}） |
+| 有結構化仿單文字 | {structured}（{structured_coverage:.2%}，涵蓋率僅供揭露，不設發布下限） |
 | 尚無結構化仿單（連食藥署仿單頁） | {metadata_only} |
 | 健保連接 | 成功 {linkage_counts['matched']}／找不到 {linkage_counts['unresolved']}／不唯一 {linkage_counts['ambiguous']}／缺官方藥證碼 {linkage_counts['missing_official_id']} |
 | 正式同義詞 | {len(entries)} 組、{reviewed_terms} 詞 |
@@ -236,7 +238,7 @@ def build_approval_summary(
 
 {warning_lines}
 
-## 人工決定
+## 需要人工核准時
 
 - 若數字與預期不同、原始附件看不懂或來源異常，請按 **Reject**；舊網站會保持不變。
 - 只有確認本次程式 commit、資料 commit、同義詞與來源都正確，才按 **Approve and deploy**。
@@ -252,7 +254,7 @@ def main() -> None:
     parser.add_argument("--preflight", type=Path, required=True)
     parser.add_argument("--synonyms", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--min-structured-coverage", type=float, default=0.98)
+    parser.add_argument("--min-structured-coverage", type=float, default=0)
     parser.add_argument("--max-age-days", type=int, default=14)
     parser.add_argument("--max-lag-days", type=int, default=14)
     args = parser.parse_args()

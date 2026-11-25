@@ -26,11 +26,11 @@
 1. GitHub Actions 定期取得 TFDA 與健保署官方資料。
 2. 系統以全部未註銷西藥藥證作為應有資料分母。
 3. 系統只使用 TFDA 結構化電子仿單 API（`GetDrugDoc`）作仿單內容；缺少文字時只保留「食藥署仿單頁」連結，不使用 PDF／圖片內容或備援。
-4. 系統驗證來源、欄位、筆數、日期、內容雜湊與涵蓋率；驗證失敗時保留上一個正常版本。
+4. 系統驗證來源、欄位、筆數、日期與內容雜湊，揭露涵蓋率但不以涵蓋率作發布下限；驗證失敗時保留上一個正常版本。
 5. Pagefind 每份仿單建立一筆候選索引；瀏覽器只載入候選藥品的資料，再逐章精確比對。
 6. 使用者在獨立網站輸入關鍵字後，看到藥品、成分、藥證、健保碼、命中章節、原文、仿單版本、資料日期與官方連結。
 7. ChemoDrugStable 保留化療專用內容，並以網址參數把藥名、藥證或健保碼帶到新網站。
-8. 正式發布與異常資料確認仍由管理者人工核准。
+8. 首次發布、程式 SHA 改變及手動發布由管理者人工核准；成功排程的純資料更新，app SHA 與最後人工核准相同且全部關卡通過才自動發布。
 
 ## 輸入
 
@@ -86,3 +86,11 @@
 - TFDA 可接受的正式批次呼叫頻率。
 - 結構化仿單純文字依 TFDA Open Data 與網站資料開放宣告發布；圖片、PDF 鏡像、機關標誌及另有特別聲明素材仍排除，若要納入須重新確認權利。
 - 若未來直接移植第三方程式，原作者同意的可修改、公開部署、再散布及署名範圍須保存供交接；目前成品未複製第三方程式。
+
+## 2026-11-25 上線政策（C-029）
+
+- 初次逐藥證建庫未完成且尚無增量游標可先發布；已有游標須持續驗證格式、來源、錯誤與最多 14 天落後，完成初次建庫後缺游標仍拒絕。九來源 snapshot 一律不超過 14 天，其他完整性、署名、來源／SHA／筆數、無 PDF 與指定官方備援頁關卡保留。涵蓋率預設不設發布下限，保留 `coverage.json`，頁面顯示「逐步補齊中：已有結構化仿單 X／有效藥證 Y（Z%）」及官方最後更新日。
+- 手動初次上限選項 5／25／50／100／500；手動仍需 `authorization_ack`，日期增量另需 `incremental_authorization_ack`。每日 cron `23 2 * * *`（臺灣 10:23）固定 500 張、`reuse_existing`、一個增量窗；snapshot 缺少或超過 14 天自動改 `refresh_all_nine`。兩個 repository variables `TFDA_API_CALLS_AUTHORIZED`、`TFDA_SCHEDULE_AUTHORIZED` 必須同為 `true`；排程授權取代手動勾選，包含增量授權。初次與增量維持兩階段，2 秒間隔、Retry-After 與續傳不變。
+- 可選 Secret `FORMULARY_CSV_URL` 的 UTF-8 CSV 含 `藥名,ATC碼,狀態`，停用列忽略；官方 ATC＋同筆院內英文藥名／成分 token 相符優先，其次 ATC 相符，再其餘，同層穩定。內容只留記憶體，不持久化、不輸出明細，僅合計；失敗或未設定警告後用原順序。
+- Pages 需要 `SUPERVISOR_APPROVAL_CONFIGURED=true`、`PUBLICATION_AUTHORIZED=true`。首次、程式 SHA 改變及手動發布走 `github-pages` required reviewer（本案使用者 `LCCtaiwan`，Prevent self-review 不勾）；純資料排程且相同已核准 SHA 走無 reviewer 的 `github-pages-auto`。核准部署及 smoke 成功後才在 `data-state/approved-app.json` 記完整 SHA 與 run ID；自動發布不寫核准紀錄。成功排程 artifact 固定 app/data SHA，跨 repository、非預設分支或證據不符拒絕。所有部署保留 post-deploy smoke。
+- 精確首次五張、500 張、環境／變數／Secret 設定、本人核准與停機步驟見 `docs/deployment.md`、`docs/supervisor-guide.md`；本輪只改程式與離線驗證，不啟動外部操作。

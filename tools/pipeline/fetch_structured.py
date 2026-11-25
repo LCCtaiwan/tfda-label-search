@@ -25,6 +25,7 @@ from tools.inserts.tfda_structured import (
 )
 from tools.pipeline.static_release import active_catalog, atomic_json, license_code
 from tools.sources import official
+from tools.pipeline.formulary_priority import optional_priority
 
 
 class StructuredBatchError(RuntimeError):
@@ -79,6 +80,8 @@ def fetch_batch(
     output_dir.mkdir(parents=True, exist_ok=True)
     state_path = output_dir / "state.json"
     state = state_value(state_path, bundle["content_hash"])
+    if (output_dir / "updates-state.json").is_file():
+        state["incremental_initialized"] = True
     atomic_json(state_path, state)
     limiter = RateLimiter(request_delay)
     report = {"attempted": 0, "downloaded": 0, "no_document": 0, "unqueryable": 0}
@@ -103,6 +106,8 @@ def fetch_batch(
 
     completed = {number for number, item in state["items"].items() if completed_item(item)}
     pending = [number for number in sorted(active) if number not in completed]
+    if pending:
+        pending = optional_priority(pending, active, license_source.parent)
     for number in pending[:max_items]:
         report["attempted"] += 1
         code = active[number].get("license_code") or license_code(number)

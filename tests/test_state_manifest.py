@@ -41,6 +41,33 @@ def official_fixture(root: Path) -> Path:
 
 
 class StateManifestTests(unittest.TestCase):
+    def test_downloaded_empty_text_does_not_inflate_public_coverage(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            official_dir = official_fixture(root)
+            structured = root / "structured"
+            payload = json.loads((ROOT / "tests/fixtures/structured-real-sample.json").read_text())
+            number = payload["documents"][0]["license_no"]
+            for document in payload["documents"]:
+                for section in document["sections"]:
+                    section["content_text"] = " "
+            destination = structured / "documents/01/01016162.json"
+            destination.parent.mkdir(parents=True)
+            destination.write_text(json.dumps(payload))
+            bundle = official.build_bundle("licenses", (official_dir / "raw/licenses.raw").read_bytes(), allow_small=True)
+            (structured / "state.json").write_text(json.dumps({
+                "schema_version": 1, "catalog_hash": bundle["content_hash"],
+                "items": {number: {"status": "downloaded", "license_code": "01016162"}},
+            }))
+            manifest = build_manifest(
+                official_dir, structured, allow_small_fixtures=True,
+                require_incremental=True, allow_initial_building=True,
+                max_incremental_lag_days=14,
+            )
+            self.assertEqual(manifest["downloaded_licenses"], 1)
+            self.assertEqual(manifest["structured_text_licenses"], 0)
+            self.assertEqual(manifest["structured_coverage"], 0)
+
     def test_summary_uses_active_licenses_as_denominator(self):
         active = {"A": {}, "B": {}, "C": {}}
         state = {
@@ -135,6 +162,30 @@ class StateManifestTests(unittest.TestCase):
             manifest = build_manifest(
                 official_dir, structured_dir, allow_small_fixtures=True
             )
+            # Partial initial construction may publish; missing cursor after
+            # completion, or a stale cursor even during partial construction, may not.
+            state_path = structured_dir / "state.json"
+            complete_state = state_path.read_text()
+            partial = json.loads(complete_state)
+            partial["items"].pop(next(iter(active)))
+            state_path.write_text(json.dumps(partial))
+            partial_manifest = build_manifest(
+                official_dir, structured_dir, allow_small_fixtures=True,
+                require_incremental=True, allow_initial_building=True,
+                max_incremental_lag_days=14,
+            )
+            self.assertFalse(partial_manifest["complete"])
+            self.assertFalse(partial_manifest["incremental_initialized"])
+            partial["incremental_initialized"] = True
+            state_path.write_text(json.dumps(partial))
+            with self.assertRaisesRegex(StaticReleaseError, "游標遺失"):
+                build_manifest(official_dir, structured_dir, allow_small_fixtures=True, allow_initial_building=True)
+            partial.pop("incremental_initialized")
+            partial["items"][next(iter(active))] = {"status": "failed"}
+            state_path.write_text(json.dumps(partial))
+            with self.assertRaisesRegex(StaticReleaseError, "失敗或未知"):
+                build_manifest(official_dir, structured_dir, allow_small_fixtures=True, allow_initial_building=True)
+            state_path.write_text(complete_state)
             self.assertEqual(manifest["official_snapshot_age_days"], 0)
             with self.assertRaisesRegex(StaticReleaseError, "增量更新游標"):
                 build_manifest(
@@ -142,6 +193,7 @@ class StateManifestTests(unittest.TestCase):
                     structured_dir,
                     allow_small_fixtures=True,
                     require_incremental=True,
+                    allow_initial_building=True,
                 )
             (structured_dir / "updates-state.json").write_text(json.dumps({
                 "schema_version": 1,
@@ -154,6 +206,14 @@ class StateManifestTests(unittest.TestCase):
                     structured_dir,
                     allow_small_fixtures=True,
                     require_incremental=True,
+                    max_incremental_lag_days=14,
+                )
+            partial["items"].pop(next(iter(active)))
+            state_path.write_text(json.dumps(partial))
+            with self.assertRaisesRegex(StaticReleaseError, "超過 14 天門檻"):
+                build_manifest(
+                    official_dir, structured_dir, allow_small_fixtures=True,
+                    require_incremental=True, allow_initial_building=True,
                     max_incremental_lag_days=14,
                 )
 

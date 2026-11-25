@@ -338,3 +338,36 @@ python3 tools/pipeline/static_release.py --release-id structured-only-c028 \
 - Chromium：`node node_modules/@playwright/test/cli.js test` 在本機伺服器 bind 時被沙箱拒絕：`PermissionError: [Errno 1] Operation not permitted`。11 項瀏覽器測試未執行；新增離線外站阻擋、指定備援路徑拒絕案例，固定測試時間以避免 fixture 隨日期過期。視覺、互動與 console 狀態本輪未驗證，等待 Claude／使用者在允許本機伺服器的環境驗收。
 - 相關交班讀取：`python3 ~/.claude/handovers/handover.py search tfda-label-search` 回報 `sqlite3.OperationalError: unable to open database file`，未另建資料庫；依使用者指定的未提交差異與本機紀錄接續。後續出現的 `docs/goal-2026-11-25-structured-first-run.md` 保留原樣，不把其中 GitHub 或五張 API 實測工作擴入本輪。
 - 本輪沒有呼叫 TFDA、健保署或其他外部 API；未實測全量資料或正式網站。
+
+### 2026-11-25：C-029 每日補齊、院內優先與分流發布（目標 9–12）
+
+- 機器：air；分支：`air/structured-only`。先讀既有 C-028 checkpoint 與本輪目標；使用者既有 `docs/goal-2026-11-25-structured-first-run.md` 差異保留，未切分支、commit、push、設定 GitHub、部署或呼叫任何外部服務。Claude 負責審查及提交。
+- 可驗證成果：手動有 5／25／50／100／500 張，預設 25。臺灣 10:23（`23 2 * * *`）排程固定 500 張、reuse_existing、一個增量窗，API／schedule variables 都為 true 才放行；缺少／超過既有 14 天 snapshot 才自動重抓九來源，其他格式或完整性錯誤仍停止。手動保留本輪勾選與獨立增量授權。初次與增量維持兩階段、2 秒間隔、Retry-After 及續傳。
+- `FORMULARY_CSV_URL` 可選 Secret 只經環境傳給下載程序；UTF-8（含 BOM）CSV 在記憶體讀取，忽略停用列。依官方 NHI／藥證 ATC 完全相符＋同 ATC 院內英文藥名／成分 token → 僅 ATC → 其他，同層穩定。採完整 token、不分大小寫、排除通用劑型詞。下載／格式失敗只給不含網址與原始例外的警告並回原順序；不落地 CSV、不保存比對欄位或明細，只列 tier 合計。
+- 正式 workflow 移除 98% 下限，CLI 預設門檻改 0（可選離線試驗參數保留），保留完整性、九來源 SHA／筆數、14 天 snapshot、指定食藥署頁、無 PDF、權利／署名／同義詞等關卡。依使用者本輪明確選項 2：初次未完成可先發布而暫無增量游標；已有游標仍需驗證且最多落後 14 天，初次完成卻缺游標拒絕。續傳狀態一旦進過增量就留下旗標，後續游標遺失不可退回初次例外。已下載但空文字不計入 `structured_text_licenses`，讓 data-state 與公開 coverage 一致。
+- 網頁維持 `coverage.json`，顯示「逐步補齊中：已有結構化仿單 X／有效藥證 Y（Z%）」及官方最後更新日；沒有內文仍只連指定 `im_detail_1/` 頁面。
+- 成功 schedule refresh 產生只含 run ID／event／app/data SHA 的小型 provenance artifact。部署核對同 repository、預設分支、成功 schedule run 與兩個不可變 SHA，並讀當前 data-state 的最後核准紀錄；同 app SHA 才可走無 reviewer 的 `github-pages-auto`。首次、變更或缺少／損壞核准紀錄走原 `github-pages`，手動發布一律 reviewer；證據不符直接停止。兩道 publication variables 與 post-deploy smoke 保留。
+- 只有 reviewer 部署與 smoke 都成功後，才用和 refresh 相同 concurrency，在最新 data-state 寫入 `approved-app.json`（完整 SHA、repository、environment、deployment run ID／attempt）。自動部署不寫此紀錄；可透過 Git commit 與 run 的 environment approval／smoke 追查。
+- 操作文件已更新 README、SPEC、PROGRESS、CHANGELOG、deployment、supervisor-guide、static-releases、data-state-branch；沒有 `update-operations` 文件。精確四個 repository variables、可選 Secret、兩個 environment、本人 reviewer 不勾 Prevent self-review、五張→500張→首次核准及停用步驟見部署手冊。
+
+工具檢查（全部離線）：
+
+```sh
+python3 -m unittest discover -s tests -p 'test_*.py'
+# 83 passed，0 failed
+node --test tests/*.test.mjs
+# 12 passed，0 failed
+node scripts/validate-synonyms.mjs config/synonyms.json
+# reviewed 同義詞 0 組／0 詞，通過
+node --check web/app.js
+node --check tests/e2e/search.spec.mjs
+python3 -m compileall -q tools/pipeline tests
+git diff --check
+# 通過
+```
+
+- YAML／shell 工具檢查：以本機 `yaml.BaseLoader` 解析三份 workflow；將 GitHub expression 替成 placeholder 後，34 個 run block 通過 `bash -n`。這不是 GitHub runner 或 expression 的線上驗收；未安裝／執行 actionlint。
+- 測試證據：workflow 內實際授權 expression 的 32 組事件／API／排程／手動勾選組合；snapshot 缺少／0／14／15 天與未來日期；synthetic CSV 三層、停用、同層穩定、同 ATC 名稱關聯、完整 token、成分、未設／下載失敗／錯誤 CSV 回退、只處理 pending、紀錄與狀態不含測試私密 token；首次／手動／app SHA 變更仍需 review、fork／失敗／非預設分支／run 或 SHA 證據錯誤拒絕。
+- 離線整合實際建立了「兩張有效藥證，初次只處理一張、全文 0%、一張尚未查、無游標」的候選網站與 preflight／主管摘要，確認可以發布且公開 coverage 為 0／2，沒有檔案備援。完整初次＋增量的原整合測試也通過；另外確認空白文字不灌水、已完成缺游標、既有游標遺失、初次未完但游標過期都被擋下。
+- 自己檢查：審閱 workflow／pipeline 差異，院內 Secret 只在同步 step 的 env，沒有 CSV 落地、清單附件或 release 欄位；核准紀錄只在 reviewed deploy＋smoke 後的 job 寫入。原目標文件差異保留，未修改其他專案。
+- 未驗證／待 Claude：83＋12 是工具離線結果，不代表 Chromium、視覺、console、GitHub schedule／workflow_run artifact、required reviewer、Pages 自動 environment、實際官方 API 或正式 smoke 已通過。未連網、未啟動本機伺服器；11 項 Chromium 本輪未執行（既有 sandbox 禁止 bind，且本輪限離線）。未重跑 npm，按使用者要求直接跑 Node；不宣稱 npm 本身通過。須 Claude 在可用環境驗收後提交，再照部署手冊配置與實測，使用者首次按核准。

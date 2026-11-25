@@ -1,6 +1,8 @@
 name: Refresh TFDA data state
 
 on:
+  schedule:
+    - cron: "23 2 * * *" # 10:23 Asia/Taipei
   workflow_dispatch:
     inputs:
       max_items:
@@ -9,9 +11,11 @@ on:
         default: "25"
         type: choice
         options:
+          - "5"
           - "25"
           - "50"
           - "100"
+          - "500"
       official_source_mode:
         description: "九個批次來源：平常沿用已驗證 snapshot；第一次或需要更新時才全部重抓"
         required: true
@@ -54,6 +58,9 @@ jobs:
     env:
       APP_COPY: ${{ runner.temp }}/tfda-label-search-app
       SNAPSHOT_ROOT: ${{ runner.temp }}/tfda-official
+      MAX_ITEMS: ${{ github.event_name == 'schedule' && '500' || inputs.max_items }}
+      MAX_UPDATE_WINDOWS: ${{ github.event_name == 'schedule' && '1' || inputs.max_update_windows }}
+      INCREMENTAL_AUTHORIZATION: ${{ ((github.event_name == 'schedule' && vars.TFDA_SCHEDULE_AUTHORIZED == 'true') || (github.event_name == 'workflow_dispatch' && inputs.incremental_authorization_ack == true)) && 'authorized' || 'not_authorized' }}
       SNAPSHOT_ID: run-${{ github.run_id }}-${{ github.run_attempt }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -61,9 +68,9 @@ jobs:
           fetch-depth: 0
 
       - name: Require explicit TFDA API authorization
-        if: vars.TFDA_API_CALLS_AUTHORIZED != 'true' || inputs.authorization_ack != true
+        if: vars.TFDA_API_CALLS_AUTHORIZED != 'true' || (github.event_name == 'schedule' && vars.TFDA_SCHEDULE_AUTHORIZED != 'true') || (github.event_name != 'schedule' && inputs.authorization_ack != true)
         run: |
-          echo '拒絕下載：必須先取得專案負責人授權、設定 TFDA_API_CALLS_AUTHORIZED=true，並在本次執行勾選授權確認。'
+          echo '拒絕下載：需 TFDA_API_CALLS_AUTHORIZED=true；手動須勾選授權，排程另需 TFDA_SCHEDULE_AUTHORIZED=true。'
           exit 1
 
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -85,14 +92,25 @@ jobs:
             echo 'initialized=false' >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Select snapshot reuse or authorized scheduled refresh
+        id: source_mode
+        env:
+          REQUESTED_MODE: ${{ github.event_name == 'schedule' && 'reuse_existing' || inputs.official_source_mode }}
+          SCHEDULED: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
+        run: >-
+          python3 "$APP_COPY/tools/pipeline/refresh_policy.py"
+          --official-dir official/current
+          --requested "$REQUESTED_MODE"
+          --scheduled "$SCHEDULED" >> "$GITHUB_OUTPUT"
+
       - name: Require all nine sources when initializing data-state
-        if: steps.data_branch.outputs.initialized != 'true' && inputs.official_source_mode != 'refresh_all_nine'
+        if: steps.data_branch.outputs.initialized != 'true' && steps.source_mode.outputs.mode != 'refresh_all_nine'
         run: |
-          echo '第一次建立 data-state 沒有既有 snapshot，official_source_mode 必須選 refresh_all_nine。'
+          echo '第一次手動建立 data-state，official_source_mode 必須選 refresh_all_nine。'
           exit 1
 
       - name: Download and validate all nine official sources
-        if: inputs.official_source_mode == 'refresh_all_nine'
+        if: steps.source_mode.outputs.mode == 'refresh_all_nine'
         run: >-
           python3 "$APP_COPY/tools/pipeline/official_snapshot.py"
           --snapshot-id "$SNAPSHOT_ID"
@@ -100,7 +118,7 @@ jobs:
           --activate
 
       - name: Replace the candidate official snapshot locally
-        if: inputs.official_source_mode == 'refresh_all_nine'
+        if: steps.source_mode.outputs.mode == 'refresh_all_nine'
         run: |
           mkdir -p "${{ runner.temp }}/official-state/raw" official/current
           rsync -a --delete "$SNAPSHOT_ROOT/snapshots/$SNAPSHOT_ID/raw/" "${{ runner.temp }}/official-state/raw/"
@@ -116,13 +134,15 @@ jobs:
           --output "${{ runner.temp }}/official-preflight.json"
 
       - name: Build initial labels or fetch bounded incremental windows
+        env:
+          FORMULARY_CSV_URL: ${{ secrets.FORMULARY_CSV_URL }}
         run: >-
           python3 "$APP_COPY/tools/pipeline/sync_structured.py"
           --license-source official/current/raw/licenses.raw
           --output-dir structured
-          --max-initial-items "${{ inputs.max_items }}"
-          --max-update-windows "${{ inputs.max_update_windows }}"
-          --incremental-authorization "${{ inputs.incremental_authorization_ack && 'authorized' || 'not_authorized' }}"
+          --max-initial-items "$MAX_ITEMS"
+          --max-update-windows "$MAX_UPDATE_WINDOWS"
+          --incremental-authorization "$INCREMENTAL_AUTHORIZATION"
           --request-delay 2
           --report "${{ runner.temp }}/structured-sync.json"
 
@@ -144,7 +164,7 @@ jobs:
 
       - name: Add the auditable result to the run summary
         run: |
-          echo 'Official source mode: `${{ inputs.official_source_mode }}`' >> "$GITHUB_STEP_SUMMARY"
+          echo 'Official source mode: `${{ steps.source_mode.outputs.mode }}`' >> "$GITHUB_STEP_SUMMARY"
           echo '## Official snapshot preflight' >> "$GITHUB_STEP_SUMMARY"
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           cat "${{ runner.temp }}/official-preflight.json" >> "$GITHUB_STEP_SUMMARY"
@@ -157,3 +177,29 @@ jobs:
           echo '```json' >> "$GITHUB_STEP_SUMMARY"
           cat "${{ runner.temp }}/structured-sync.json" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Record immutable scheduled refresh revisions
+        if: github.event_name == 'schedule'
+        env:
+          REFRESH_APP_SHA: ${{ github.sha }}
+        run: |
+          export REFRESH_DATA_SHA="$(git rev-parse HEAD)"
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          Path(os.environ['RUNNER_TEMP'], 'refresh-revisions.json').write_text(json.dumps({
+              'schema_version': 1,
+              'event': 'schedule',
+              'run_id': os.environ['GITHUB_RUN_ID'],
+              'app_sha': os.environ['REFRESH_APP_SHA'],
+              'data_sha': os.environ['REFRESH_DATA_SHA'],
+          }) + '\n', encoding='utf-8')
+          PY
+
+      - name: Preserve scheduled refresh provenance
+        if: github.event_name == 'schedule'
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: scheduled-refresh-revisions
+          path: ${{ runner.temp }}/refresh-revisions.json
+          retention-days: 30

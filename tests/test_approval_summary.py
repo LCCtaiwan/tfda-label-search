@@ -82,6 +82,41 @@ def evidence(root: Path) -> dict[str, Path]:
 
 
 class ApprovalSummaryTests(unittest.TestCase):
+    def test_low_coverage_initial_build_can_publish_but_inconsistent_counts_cannot(self):
+        with tempfile.TemporaryDirectory() as directory:
+            files = evidence(Path(directory))
+            coverage = json.loads(files['coverage'].read_text())
+            coverage.update(structured_licenses=1, metadata_only_licenses=99, structured_coverage=0.01)
+            write(files['coverage'], coverage)
+            manifest = json.loads(files['manifest'].read_text())
+            manifest['coverage'] = {key: value for key, value in coverage.items() if key != 'schema_version'}
+            write(files['manifest'], manifest)
+            state = json.loads(files['data_state'].read_text())
+            state.update(complete=False, incremental_initialized=False, incremental_lag_days=None, downloaded_licenses=1, structured_coverage=0.01)
+            write(files['data_state'], state)
+            args = {f'{name}_path': path for name, path in files.items()}
+            summary = build_approval_summary(**args)
+            self.assertIn('1（1.00%', summary)
+            self.assertIn('初次建庫未完成', summary)
+            state['downloaded_licenses'] = 2
+            write(files['data_state'], state)
+            with self.assertRaisesRegex(ApprovalSummaryError, '涵蓋數量不一致'):
+                build_approval_summary(**args)
+
+    def test_initial_exception_does_not_bypass_completed_or_stale_incremental_checks(self):
+        with tempfile.TemporaryDirectory() as directory:
+            files = evidence(Path(directory))
+            args = {f'{name}_path': path for name, path in files.items()}
+            state = json.loads(files['data_state'].read_text())
+            state['incremental_initialized'] = False
+            write(files['data_state'], state)
+            with self.assertRaisesRegex(ApprovalSummaryError, '尚未建立增量游標'):
+                build_approval_summary(**args)
+            state.update(complete=False, incremental_initialized=True, incremental_lag_days=15)
+            write(files['data_state'], state)
+            with self.assertRaisesRegex(ApprovalSummaryError, '超過'):
+                build_approval_summary(**args)
+
     def test_builds_human_readable_cross_checked_summary(self):
         with tempfile.TemporaryDirectory() as directory:
             files = evidence(Path(directory))

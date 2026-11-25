@@ -53,7 +53,7 @@ test("頁尾顯示可追溯的資料版本", async ({ page }) => {
   await expect(page.locator("#data-version")).toContainText("114 份");
   await expect(page.locator("#data-version")).toContainText(/指紋 [a-f0-9]{12}/u);
   await expect(page.locator("#coverage-summary")).toHaveText(
-    "資料涵蓋：113 份有結構化仿單文字｜1 份尚無結構化仿單（連食藥署仿單頁）",
+    "逐步補齊中：已有結構化仿單 113／有效藥證 114（99.12%）｜最後更新：2026-09-15｜1 份尚無結構化仿單（連食藥署仿單頁）",
   );
   await expect(page.locator("footer")).toContainText("衛生福利部食品藥物管理署");
   await expect(page.locator("footer")).toContainText("衛生福利部中央健康保險署");

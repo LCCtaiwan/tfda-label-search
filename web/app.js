@@ -604,7 +604,8 @@ Promise.all([
       : "未提供";
     dataVersion.textContent = `資料版本：${date}｜${count} 份｜指紋 ${fingerprint}`;
     coverageSummary.textContent = [
-      `資料涵蓋：${coverage.searchable_text_documents.toLocaleString("zh-TW")} 份有結構化仿單文字`,
+      `逐步補齊中：已有結構化仿單 ${coverage.searchable_text_documents.toLocaleString("zh-TW")}／有效藥證 ${count}（${(coverage.document_count ? coverage.searchable_text_documents / coverage.document_count * 100 : 0).toFixed(2)}%）`,
+      `最後更新：${date}`,
       `${coverage.metadata_only_documents.toLocaleString("zh-TW")} 份尚無結構化仿單（連食藥署仿單頁）`,
     ].join("｜");
   })

@@ -1,71 +1,59 @@
 # GitHub Pages 部署
 
-## 為什麼分成兩條工作
+## 更新與發布
 
-`refresh-data.yml` 只下載與保存資料，永遠不部署網站。`deploy-pages.yml` 只讀取已提交的 `data-state`，重新驗證、建置及測試；最後仍需主管核准。任何下載或建置失敗都不會改掉目前網站。
+`refresh-data.yml` 保存完整成功批次到 `data-state`；失敗不 push。`deploy-pages.yml` 讀取不可變的 app/data SHA，重驗來源、資料與網站後才發布。初次建庫未完成也可發布，不再要求 98% 結構化文字涵蓋率。網站顯示「逐步補齊中：已有結構化仿單 X／有效藥證 Y（Z%）」與官方資料最後更新日期，並保留 `coverage.json`。
 
-GitHub Actions cache 不是權威資料庫，因為未使用的 cache 可能被移除。`data-state` 分支以 Git commit 作為完整批次的單一指標；工作中斷時沒有 commit，也就沒有半套資料成為最新版。分支只保存官方原始檔、狀態與結構化仿單，不重複保存 normalized 資料；任何單檔超過 95 MiB 時會在 commit 前停止。
+資料完整性關卡仍包括九來源網址、SHA-256、原始／整理筆數、downloaded 仿單路徑及藥證一致、結構化文字來源、無 PDF／官方檔案備援連結、食藥署備援頁僅允許 `https://mcp.fda.gov.tw/im_detail_1/<編碼藥證>`、95 MiB 單檔保護、同義詞及發布權利／署名檢查。九來源 snapshot 必須不超過 14 天。初次建庫尚未完成且沒有增量游標時，允許先發布；一旦已有游標，就算有新增藥證尚未補完，也須通過游標格式、來源版本、無未解決錯誤及落後不超過 14 天。初次建庫完成卻沒有游標仍會停止，須再跑一次獲授權的增量更新。
 
-95 MiB 是本專案保守設定的緩衝線，不是宣稱 GitHub 官方上限正好是 95 MiB。若正式原始檔超過這條線，先停止更新並評估 Git LFS 或物件儲存；不要繞過檢查硬推。`data-state-manifest.json` 會記錄檔案數、總容量與最大檔案。
+GitHub Actions cache 不是權威資料。`data-state` 只保存官方 raw、續傳狀態、結構化仿單及核准紀錄，不重複保存 normalized 資料；超過 95 MiB 先停下評估儲存方式，不能繞過保護。失敗不會用空資料覆蓋上一個已驗證版本。
 
-## 一次性設定
+## Claude 一次性設定
 
-1. 建立新的 GitHub repository，推送 `main`。不要沿用 `chemodrugstable-query`。
-2. Repository Settings → Pages → Source 選 `GitHub Actions`。
-3. Repository Settings → Environments → `github-pages`。
-4. 加入主管為 Required reviewer，並勾選 Prevent self-review。
-5. 確認 Required reviewer 已生效後，建立 Repository variable：`SUPERVISOR_APPROVAL_CONFIGURED=true`。
-6. 專案負責人明確同意官方小批流程後，才設定 `TFDA_API_CALLS_AUTHORIZED=true`；每次執行仍須另外勾選本輪授權確認。
-7. 專案負責人明確同意公開網站後，才設定 `PUBLICATION_AUTHORIZED=true`。
+1. 審查本次差異、重跑離線與 Chromium 測試，提交並把核准的程式／workflow 放到 repository 預設分支（通常 `main`）。排程與 `workflow_run` 需要 workflow 已在預設分支。這份文件不表示本機已替你操作 GitHub。
+2. Settings → Pages → Source 選 **GitHub Actions**。Settings → Actions → General 確認工作可使用 `GITHUB_TOKEN` 寫入 `data-state`，且分支規則允許這兩個 workflow 的 bot 正常推送；不用 PAT。
+3. Settings → Environments 建立 **`github-pages`**：Required reviewers 加入使用者本人的 GitHub 帳號（本案 `LCCtaiwan`）。使用者要核准自己發起的 run，因此 **Prevent self-review 不勾選**。有 reviewer 才能設下方的確認變數；不得用變數代替真正的環境保護。
+4. 建立 **`github-pages-auto`** environment：**不設 Required reviewers、不設 wait timer**；部署分支規則允許預設分支。`github-pages` 也要允許實際發起人工發布的分支；一般統一從 `main` 執行。兩個 environment 都必須能發布 Pages。
+5. Settings → Secrets and variables → Actions → **Variables** 設定以下 repository variables（不是 environment variables）：
 
-若是 GitHub Free，Required reviewer 只適用公開 repository。若單位要求 private repository，必須先確認目前方案支援；不可只把變數設為 true 來假裝有主管核准。
+| 變數 | 值與用途 |
+|---|---|
+| `TFDA_API_CALLS_AUTHORIZED` | `true` 才可下載；關閉設 `false` |
+| `TFDA_SCHEDULE_AUTHORIZED` | 日更授權後設 `true`；初次五張試跑先設 `false` |
+| `SUPERVISOR_APPROVAL_CONFIGURED` | 確認 `github-pages` reviewer 生效後才設 `true` |
+| `PUBLICATION_AUTHORIZED` | 明確同意公開後設 `true`；`false` 會阻止人工與自動部署 |
 
-## 初次資料建立
+6. 同頁 **Secrets** 可選設 **`FORMULARY_CSV_URL`**：能回傳 UTF-8 CSV 的 HTTPS 網址，包含 `藥名,ATC碼,狀態` 表頭，可有額外欄位。此網址只存 secret，不放 repository variable、程式或文件。沒有 secret、下載失敗、過大或格式錯誤會警告後照原順序，不停止官方更新。
 
-1. 到 Actions 執行 `Refresh TFDA data state`。
-2. 第一次選 `max_items=25`、`official_source_mode=refresh_all_nine`，勾選 `authorization_ack`，並保持 `incremental_authorization_ack=false`。若第一次仍選預設的 `reuse_existing`，系統會因為沒有既有 snapshot 而停止。
-3. 後續逐批補仿單時保留 `official_source_mode=reuse_existing`，避免重複下載九個大型來源；每次仍要勾選 `authorization_ack`。若 snapshot 已超過 14 天，工作會在零次仿單 API 請求時停止，改選 `refresh_all_nine` 後重跑。
-4. 只有要取得新版藥證、成分、健保或安全資料，或預檢顯示 snapshot 超過 14 天時，才選 `refresh_all_nine`。無論沿用或重抓，九來源都會在任何仿單 API 請求前重新驗證。
-5. 確認 TFDA 無 429、逾時或阻擋後，再由負責人決定是否使用 50 或 100。
-6. 每次成功會在 `data-state` 新增一個 commit；失敗不會 push。查看 run summary 的來源模式、`official-preflight`、`pending_licenses`、`checked_coverage` 與 `structured_coverage`。
-7. 初次逐藥證完成的那一輪會先保存 checkpoint。下一次若要開始最多 1／2／3 個 10 日增量窗，必須另外取得授權並勾選 `incremental_authorization_ack`；一個窗實際回傳幾份由 TFDA 決定，可能超過 25 份。summary 會顯示 `phase`、`next_date` 與 `remaining_days`。
-8. 重複執行到資料符合發布門檻。官方尚未公布頻率，因此不可自行增加排程或把間隔調短。
+院內 CSV 僅在下載程序記憶體中使用；`狀態=停用` 忽略。待處理藥證依「官方 ATC 完全相符＋英文藥名／成分完整 token 相符 → 僅 ATC 相符 → 其餘」排序，每層維持原順序。英文比對不分大小寫，排除 tablet 等通用劑型詞；名稱與 ATC 必須來自同一筆院內對應。官方 ATC／名稱來自已驗證 NHI、藥證與成分資料，不用院內清單修改公開內容。CSV、網址、藥名及比對明細不寫 repo、`data-state`、artifact、release 或 log；只輸出 `priority tier1: N` 等合計，網站不標示院內品項。
 
-目前 release 只使用 `GetDrugDoc` 結構化文字，不包含官方仿單檔案連結，也不執行或依賴官方檔案抽查；`docs/official-file-probe.md` 僅記錄保留的歷史工具。
+Required reviewer 的可用性取決於 repository 可見度與 GitHub 方案；若設定頁沒有這個功能，先解決環境保護，不可直接把確認變數設為 `true`。
 
-## 建置與核准
+## 初次試跑與首次發布
 
-1. 到 Actions 手動執行 `Build and approve TFDA Pages`。
-2. 一般發布使用 `app_ref=main`、`data_ref=data-state`；workflow 會先把兩者解析成不可變的完整 commit SHA。
-3. 工作會重跑單元測試、Chromium 測試，並重新解析九個 raw 檔、核對 snapshot 網址／SHA-256／筆數、逐張核對 downloaded 仿單，再檢查 98% 結構化文字門檻、九來源 snapshot 不超過 14 天，以及結構化仿單日期增量不超過 14 天。
-4. 工作會檢查 `config/publication-policy.json` 與網站可見署名，產生 `publication-preflight.json`；權利範圍或署名不完整就停止。
-5. 通過後進入 `github-pages` environment 等待主管。
-6. 工作會先在 run summary 顯示「TFDA Pages 主管核准摘要」，交叉核對五份原始證據與兩個完整 commit SHA；同一份 `approval-summary.md` 也會放在 `release-audit-<run id>`。主管仍要下載原始附件核對，再按 Approve and deploy 或 Reject。
-7. 部署後會用相同 app SHA 的檢查器，以 390×844 Chromium 開啟正式網址，逐字核對 release ID 與本次核准的完整 app/data SHA，檢查 snapshot 與資料時間，再從正式目錄選一張完整藥證，以 `?q=<完整藥證>` 深連結自動搜尋；結果保存為 `deployment-smoke-<run id>`。
+1. 先設 `TFDA_API_CALLS_AUTHORIZED=true`、`TFDA_SCHEDULE_AUTHORIZED=false`。Actions → **Refresh TFDA data state** → Run workflow（選已審查分支）：`max_items=5`、`official_source_mode=refresh_all_nine`、`max_update_windows=1`、`authorization_ack=true`、`incremental_authorization_ack=false`。
+2. 查 run summary、來源預檢、`pending_licenses`、涵蓋數與 `data-state` commit。若只授權這次五張，結束立刻把 API variable 改回 `false`。
+3. 取得後續授權後，可手動選 `max_items=500`、`reuse_existing`、一個日期窗；手動仍要勾 `authorization_ack`。初次建庫中不需要增量勾選；準備進入日期增量時，另行授權後勾 `incremental_authorization_ack`。選項也保留 25／50／100。手動沿用過期或缺少 snapshot 會停止，須明確改選 `refresh_all_nine`，不會自行擴大下載。
+4. 確認發布兩個 variable 均為 `true`。Actions → **Build and approve TFDA Pages** → Run workflow：`app_ref=main`、`data_ref=data-state`（也可填已審查完整 SHA）。可邊建庫邊首次上線。
+5. 等 build 的單元、Chromium、來源／資料及發布檢查全綠，打開 run summary 的主管摘要與 `release-audit-<run id>`，核對兩個完整 SHA、涵蓋、官方資料日期、缺件與同義詞。
+6. 首次發布會停在 **`github-pages`**。使用者登入 GitHub，在該次 run 按 **Review deployments → 勾 github-pages → Approve and deploy**。有問題按 Reject。程式 SHA 改變及所有手動發布／回滾也走這個核准流程。
+7. 部署後執行既有手機 Chromium smoke：核對 release ID、app/data SHA、涵蓋目錄、資料時間，並用正式藥證深連結搜尋。查看 `deployment-smoke-<run id>` 的 `ready=true`。
+8. **人工核准的部署和 smoke 都成功後**，`record-approved-app` 才在 `data-state/approved-app.json` 寫入 app SHA、repository、`github-pages`、deployment run ID／attempt，並以獨立 commit 留證。到對應 run 可核對 environment 核准與 smoke。不要手動建立或修改這個檔；寫入失敗就仍視為待核准，下次手動發布重跑。它和 refresh 使用同一組 concurrency，避免互相覆寫。
 
-網站即使沒有重新部署，也會在每次開啟時依臺灣日期重算資料年齡。超過 14 天、日期缺少或日期晚於今天會在頁面頂端警告；主管仍應查明更新失敗原因，不能只重新建置網站來清除警告。
+## 每日補齊與自動發布
 
-## 回滾
+明確授權日更後，同時設 `TFDA_API_CALLS_AUTHORIZED=true`、`TFDA_SCHEDULE_AUTHORIZED=true`。每天 UTC `23 2 * * *`，即臺灣 **10:23** 執行（GitHub 排程可能延後）。排程取代手動勾選；缺任一授權都會在官方下載前停止。
 
-- 從上一個正常的 release audit 或 `site/data/release.json` 找到 `app_revision` 與 `data_revision`。
-- 重新執行 `Build and approve TFDA Pages`，將 `app_ref`、`data_ref` 填入這兩個完整 SHA。
-- 系統會重新建置，不會修改舊 commit；主管仍要核准，部署後仍會執行 smoke test。
-- 只選擇曾經由本流程成功發布、具有 `release.json` 的版本；C-011 之前的本機原型不是正式回滾目標。
-- smoke test 若失敗，先將該次 run 視為異常，再依上面步驟發布上一個正常版本。GitHub Pages 已切換的內容不會被檢查器自行刪除。
-- 不使用 `git push --force`。不刪除舊的正常 Pages deployment 或資料 commit。
+排程固定初次建庫上限 500 張、間隔 2 秒、日期增量最多一個 10 日窗。沿用九來源 snapshot，只有缺少或年齡超過既有 14 天限制時自動重抓全部九來源；重抓失敗不提交半套資料。其他損壞或格式錯誤照樣停止。逐張與日期增量仍分兩階段：初次完成的那輪先存 checkpoint，下一輪才開始增量；一個日期窗的文件份數由 TFDA 決定，不受 500 張限制。保留 Retry-After、限速及續傳狀態。
 
-## 目前不會自動發生的事
+只有成功的 **scheduled** refresh 會觸發發布。refresh 保存小型 `scheduled-refresh-revisions` artifact（只有 run ID、event、app/data SHA），部署核對同 repository、預設分支、成功 schedule run、不可變 SHA，並讀取當前 `data-state` 的最後人工核准紀錄。**同一個已核准 app SHA** 且所有檢查通過，才走無 reviewer 的 **`github-pages-auto`**。首次、SHA 改變或核准紀錄缺少／損壞，改走 reviewer；來源證據不符則直接停止。手動 refresh 不會觸發自動發布；自動部署不改寫核准紀錄。
 
-- 兩個 workflow 都只允許手動啟動，尚未排程。
-- 本機建立這些檔案不等於已建立 repository、environment、變數或 Pages 網站。
-- 未經明確授權，不推送、不部署，也不啟動正式大量 TFDA API 呼叫。
-- `TFDA_API_CALLS_AUTHORIZED` 與 `PUBLICATION_AUTHORIZED` 沒有設為 `true` 時，workflow 會明確失敗，不會把「能按按鈕」當成「已獲授權」。
-- 所有 GitHub 官方 Actions 都固定到 2026-09-15 查得的官方 release 完整 commit SHA；升級時須重新查官方 release、更新註解並通過 workflow guard 測試。
+停日更：把 `TFDA_SCHEDULE_AUTHORIZED=false`；停全部下載再把 `TFDA_API_CALLS_AUTHORIZED=false`。停發布：`PUBLICATION_AUTHORIZED=false`。這些鎖不會撤回已在進行中的請求／已發布網站；必要時在 Actions 取消正在執行的 run。
 
-## GitHub 官方依據
+## 回滾與異常
 
-- Pages 限制：https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
-- 自訂 Actions 發布 Pages：https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages
-- Environment 與 required reviewer：https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments
-- Actions cache 淘汰規則：https://docs.github.com/en/actions/reference/workflows-and-actions/dependency-caching
-- Repository 單一物件與整體大小建議：https://docs.github.com/en/repositories/creating-and-managing-repositories/repository-limits
+從上一個正常 `release.json` 或 audit 找到 app/data 完整 SHA，手動執行發布並填入兩個 SHA，重新檢查、人工核准與 smoke。不 force push、不刪舊正常版本。smoke 失敗代表這次發布異常；網站已切換，不會自動回滾，應手動核准發布上一版。
+
+網站每天按臺灣日期檢查官方 snapshot，超過 14 天、缺少日期或在未來會警告；重新建置不會把舊資料冒充新資料。`coverage.json` 保留缺件數，未有內文只連食藥署仿單頁，不保證官方頁有仿單。
+
+本機本輪未呼叫網路、commit、push、配置 environment 或發布。正式排程、reviewer 與 Pages 須由 Claude／使用者照上述步驟驗收。
