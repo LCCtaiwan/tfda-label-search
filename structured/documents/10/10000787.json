@@ -1,0 +1,1376 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:35.721616+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000787",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000787號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000787號",
+      "matched_license_code": "10000787",
+      "matched_nhi_code": "",
+      "drug_name_zh": "骨穩 注射液",
+      "drug_name_en": "FORTEO FOR INJECTION",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2025-12-28",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "FORTEO [teriparatide注射液] 是一種重組的人體副甲狀腺荷爾蒙片段(PTH 1‑34)，其序列與84個胺基酸的人體副甲狀腺荷爾蒙的34個N端胺基酸(具生物活性部位)完全相同。 Teriparatide的分子式為C181H291N55O51S2，分子量為4117.8道耳頓。其胺基酸序列如下：\nTeriparatide是利用大腸桿菌(Escherichia coli)菌株輔以重組DNA技術製造。 每支預充填注射筆可提供每天每次劑量 20 mcg的teriparatide，共28天。",
+          "content_html": "<p style=\"text-align:justify;\">FORTEO<span style=\"color:blue;\">&nbsp;</span>[teriparatide注射液]&nbsp;是一種重組的人體副甲狀腺荷爾蒙片段(PTH 1‑34)，其序列與84個胺基酸的人體副甲狀腺荷爾蒙的34個N端胺基酸(具生物活性部位)完全相同。</p><p style=\"text-align:justify;\">Teriparatide的分子式為C<sub>181</sub>H<sub>291</sub>N<sub>55</sub>O<sub>51</sub>S<sub>2</sub>，分子量為4117.8道耳頓。其胺基酸序列如下：</p>\n<p>Teriparatide是利用大腸桿菌<i>(Escherichia coli)</i>菌株輔以重組DNA技術製造。</p><p style=\"text-align:justify;\">每支預充填注射筆可提供每天每次劑量 20 mcg的teriparatide，共28天。</p>",
+          "search_text": "1.1\n有效成分及含量\nFORTEO [teriparatide注射液] 是一種重組的人體副甲狀腺荷爾蒙片段(PTH 1‑34)，其序列與84個胺基酸的人體副甲狀腺荷爾蒙的34個N端胺基酸(具生物活性部位)完全相同。 Teriparatide的分子式為C181H291N55O51S2，分子量為4117.8道耳頓。其胺基酸序列如下：\nTeriparatide是利用大腸桿菌(Escherichia coli)菌株輔以重組DNA技術製造。 每支預充填注射筆可提供每天每次劑量 20 mcg的teriparatide，共28天。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 18236
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "每mL含teriparatide 250 mcg(以游離鹼基計算)、冰醋酸0.41mg、醋酸鈉0.10mg(無水)、甘露醇45.4mg、間甲酚3.0mg及注射用水。另外，10%鹽酸溶液和/或10%氫氧化鈉溶液可能用以調整酸鹼值至 4。",
+          "content_html": "<p style=\"text-align:justify;\">每mL含teriparatide 250 mcg(以游離鹼基計算)、冰醋酸0.41mg、醋酸鈉0.10mg(無水)、甘露醇45.4mg、間甲酚3.0mg及注射用水。另外，10%鹽酸溶液和/或10%氫氧化鈉溶液可能用以調整酸鹼值至 4。</p>",
+          "search_text": "1.2\n賦形劑\n每mL含teriparatide 250 mcg(以游離鹼基計算)、冰醋酸0.41mg、醋酸鈉0.10mg(無水)、甘露醇45.4mg、間甲酚3.0mg及注射用水。另外，10%鹽酸溶液和/或10%氫氧化鈉溶液可能用以調整酸鹼值至 4。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "多劑量預先充填之皮下注射筆，包含28天的劑量，每日劑量20 mcg。",
+          "content_html": "<p>多劑量預先充填之皮下注射筆，包含28天的劑量，每日劑量20 mcg。</p>",
+          "search_text": "1.3\n劑型\n多劑量預先充填之皮下注射筆，包含28天的劑量，每日劑量20 mcg。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "FORTEO為無菌、無色、澄明、等張溶液，事先組裝於供單一病人使用的玻璃卡匣注射筆中，供皮下注射。每支注射筆含2.7 mL供注射2.4 mL使用。",
+          "content_html": "<p style=\"text-align:justify;\">FORTEO為無菌、無色、澄明、等張溶液，事先組裝於供單一病人使用的玻璃卡匣注射筆中，供皮下注射。每支注射筆含2.7 mL供注射2.4 mL使用。</p>",
+          "search_text": "1.4\n藥品外觀\nFORTEO為無菌、無色、澄明、等張溶液，事先組裝於供單一病人使用的玻璃卡匣注射筆中，供皮下注射。每支注射筆含2.7 mL供注射2.4 mL使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "2\n適應症",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2.1",
+          "parent_id": "2",
+          "level": 2,
+          "number": "2.1",
+          "title": "停經後婦女骨質疏鬆症具高度骨折風險者",
+          "title_html": "停經後婦女骨質疏鬆症具高度骨折風險者",
+          "path": [
+            "適應症",
+            "停經後婦女骨質疏鬆症具高度骨折風險者"
+          ],
+          "content_text": "適用於治療停經後婦女骨質疏鬆症具高度骨折風險者。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的女性。對於停經後婦女之骨質疏鬆症，FORTEO增加骨密度(BMD)並降低脊椎與非脊椎骨折的風險。[見臨床試驗資料(12.1)]",
+          "content_html": "<p>適用於治療停經後婦女骨質疏鬆症具高度骨折風險者。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的女性。對於停經後婦女之骨質疏鬆症，FORTEO增加骨密度(BMD)並降低脊椎與非脊椎骨折的風險。<i>[見臨床試驗資料(12.1)]</i>&nbsp;</p>",
+          "search_text": "2.1\n停經後婦女骨質疏鬆症具高度骨折風險者\n適用於治療停經後婦女骨質疏鬆症具高度骨折風險者。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的女性。對於停經後婦女之骨質疏鬆症，FORTEO增加骨密度(BMD)並降低脊椎與非脊椎骨折的風險。[見臨床試驗資料(12.1)]",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2.2",
+          "parent_id": "2",
+          "level": 2,
+          "number": "2.2",
+          "title": "男性原發性或次發於性腺功能低下症之骨質疏鬆症且具高度骨折風險者",
+          "title_html": "男性原發性或次發於性腺功能低下症之骨質疏鬆症且具高度骨折風險者",
+          "path": [
+            "適應症",
+            "男性原發性或次發於性腺功能低下症之骨質疏鬆症且具高度骨折風險者"
+          ],
+          "content_text": "適用於治療男性原發性或次發於性腺功能不足症之骨質疏鬆症具高度骨折風險者，將增加其骨質質量。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的男性。對於患有原發性或性腺功能低下性骨質疏鬆症的男性，FORTEO增加脊椎及股骨頸(Femoral neck)的骨密度。FORTEO對於男性骨折風險的作用尚未研究。[見臨床試驗資料(12.2)]",
+          "content_html": "<p>適用於治療男性原發性或次發於性腺功能不足症之骨質疏鬆症具高度骨折風險者，將增加其骨質質量。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的男性。對於患有原發性或性腺功能低下性骨質疏鬆症的男性，FORTEO增加脊椎及股骨頸(Femoral neck)的骨密度。FORTEO對於男性骨折風險的作用尚未研究。<i>[見臨床試驗資料(12.2)]</i></p>",
+          "search_text": "2.2\n男性原發性或次發於性腺功能低下症之骨質疏鬆症且具高度骨折風險者\n適用於治療男性原發性或次發於性腺功能不足症之骨質疏鬆症具高度骨折風險者，將增加其骨質質量。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的男性。對於患有原發性或性腺功能低下性骨質疏鬆症的男性，FORTEO增加脊椎及股骨頸(Femoral neck)的骨密度。FORTEO對於男性骨折風險的作用尚未研究。[見臨床試驗資料(12.2)]",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2.3",
+          "parent_id": "2",
+          "level": 2,
+          "number": "2.3",
+          "title": "女性及男性因糖化皮質類固醇治療引起之骨質疏鬆症且具高度骨折風險者",
+          "title_html": "女性及男性因糖化皮質類固醇治療引起之骨質疏鬆症且具高度骨折風險者",
+          "path": [
+            "適應症",
+            "女性及男性因糖化皮質類固醇治療引起之骨質疏鬆症且具高度骨折風險者"
+          ],
+          "content_text": "適用於治療女性及男性因持續接受全身糖化皮質類固醇(glucocorticoid)治療(每日劑量相當於≧5mg prednisone)而引起之骨質疏鬆症且具高度骨折風險者。包括下列任一狀況；有骨質疏鬆症骨折病史、具有多項骨折危險因子、或對於其他骨質疏鬆症療法失敗或無法耐受的病人。[見臨床試驗資料(12.3)]",
+          "content_html": "<p>適用於治療女性及男性因持續接受全身糖化皮質類固醇(glucocorticoid)治療(每日劑量相當於≧5mg prednisone)而引起之骨質疏鬆症且具高度骨折風險者。包括下列任一狀況；有骨質疏鬆症骨折病史、具有多項骨折危險因子、或對於其他骨質疏鬆症療法失敗或無法耐受的病人。<i>[見臨床試驗資料(12.3)]</i></p>",
+          "search_text": "2.3\n女性及男性因糖化皮質類固醇治療引起之骨質疏鬆症且具高度骨折風險者\n適用於治療女性及男性因持續接受全身糖化皮質類固醇(glucocorticoid)治療(每日劑量相當於≧5mg prednisone)而引起之骨質疏鬆症且具高度骨折風險者。包括下列任一狀況；有骨質疏鬆症骨折病史、具有多項骨折危險因子、或對於其他骨質疏鬆症療法失敗或無法耐受的病人。[見臨床試驗資料(12.3)]",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "建議劑量",
+          "title_html": "建議劑量",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "建議劑量"
+          ],
+          "content_text": "建議劑量為20 mcg皮下注射一天一次。指示病人如每日攝取量不足需補充鈣與維生素D。",
+          "content_html": "<p style=\"text-align:justify;\">建議劑量為20 mcg皮下注射一天一次。指示病人如每日攝取量不足需補充鈣與維生素D。</p>",
+          "search_text": "3.1.1\n建議劑量\n建議劑量為20 mcg皮下注射一天一次。指示病人如每日攝取量不足需補充鈣與維生素D。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "用法",
+          "title_html": "用法",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "用法"
+          ],
+          "content_text": "FORTEO應皮下注射於大腿或腹部。FORTEO未核准用於靜脈注射或肌肉注射。 初次FORTEO治療應在病人可以坐下或躺下的環境投與，以防發生姿勢性低血壓的症狀 [見警語及注意事項(5.1.4)]。 在溶液和容器允許下，針劑藥品注射前應目視檢查其微粒及無色情形。FORTEO為澄明無色液體。如果出現固體顆粒或呈現混濁或變色液體，則不應使用。 病人或照護人員使用FORTEO前，應接受合格醫護人員適當的訓練與說明，以正確使用FORTEO注射筆。",
+          "content_html": "<ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\">FORTEO應皮下注射於大腿或腹部。FORTEO未核准用於靜脈注射或肌肉注射。</li><li style=\"text-align:justify;\">初次FORTEO治療應在病人可以坐下或躺下的環境投與，以防發生姿勢性低血壓的症狀<i> [見警語及注意事項(5.1.4)]</i>。</li><li style=\"text-align:justify;\">在溶液和容器允許下，針劑藥品注射前應目視檢查其微粒及無色情形。FORTEO為澄明無色液體。如果出現固體顆粒或呈現混濁或變色液體，則不應使用。</li><li style=\"text-align:justify;\">病人或照護人員使用FORTEO前，應接受合格醫護人員適當的訓練與說明，以正確使用FORTEO注射筆。</li></ul>",
+          "search_text": "3.1.2\n用法\nFORTEO應皮下注射於大腿或腹部。FORTEO未核准用於靜脈注射或肌肉注射。 初次FORTEO治療應在病人可以坐下或躺下的環境投與，以防發生姿勢性低血壓的症狀 [見警語及注意事項(5.1.4)]。 在溶液和容器允許下，針劑藥品注射前應目視檢查其微粒及無色情形。FORTEO為澄明無色液體。如果出現固體顆粒或呈現混濁或變色液體，則不應使用。 病人或照護人員使用FORTEO前，應接受合格醫護人員適當的訓練與說明，以正確使用FORTEO注射筆。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.3",
+          "title": "建議治療時程",
+          "title_html": "建議治療時程",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "建議治療時程"
+          ],
+          "content_text": "僅在病人仍處於高度骨折風險或回復至高度骨折風險的狀態時，才考慮在其一生中使用FORTEO超過2年[見警語及注意事項(5.1.1)]。",
+          "content_html": "<p style=\"text-align:justify;\">僅在病人仍處於高度骨折風險或回復至高度骨折風險的狀態時，才考慮在其一生中使用FORTEO超過2年<i>[見警語及注意事項(5.1.1)]</i>。</p>",
+          "search_text": "3.1.3\n建議治療時程\n僅在病人仍處於高度骨折風險或回復至高度骨折風險的狀態時，才考慮在其一生中使用FORTEO超過2年[見警語及注意事項(5.1.1)]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "FORTEO不可用於對teriparatide或其任何賦形劑有過敏反應的病人。過敏反應包括血管性水腫(angioedema)與過敏性反應(anaphylaxis) [見副作用/不良反應(8.3)]。",
+          "content_html": "<p style=\"margin-left:.1pt;text-align:justify;\">FORTEO不可用於對teriparatide或其任何賦形劑有過敏反應的病人。過敏反應包括血管性水腫(angioedema)與過敏性反應(anaphylaxis) <i>[見副作用/不良反應(8.3)]</i>。</p>",
+          "search_text": "4\n禁忌\nFORTEO不可用於對teriparatide或其任何賦形劑有過敏反應的病人。過敏反應包括血管性水腫(angioedema)與過敏性反應(anaphylaxis) [見副作用/不良反應(8.3)]。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "骨肉瘤Osteosarcoma",
+          "title_html": "骨肉瘤Osteosarcoma",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "骨肉瘤Osteosarcoma"
+          ],
+          "content_text": "在投與teriparatide的公鼠與母鼠試驗中，觀察到骨肉瘤(一種惡性骨腫瘤)的發生率增加。FORTEO上市後，接受FORTEO治療的病人曾通報出現骨肉瘤；然而，人類的觀察性試驗中並未觀察到發生骨肉瘤的風險增加。接受FORTEO治療超過2年的病人，發生骨肉瘤風險的評估資料仍然有限[見用法用量(3.1)、副作用/不良反應(8.3)和藥理特性(10.3)]。 避免使用FORTEO於以下病人(這些病人發生骨肉瘤的基期風險較高)： 開放性骨骺生長板未密合(open epiphyses) 的(孩童與年輕成人病人) (FORTEO未核准用於孩童病人) [見特殊族群注意事項(6.4)] 。 骨質疏鬆症之外的其他代謝性骨骼疾病，包括骨骼柏哲德氏症(Paget’s disease)。 轉移性骨腫瘤或有骨惡性腫瘤病史。 曾接受涵蓋骨骼的外在電波或植入放射線治療之病人。 易誘發骨肉瘤的遺傳性疾病。",
+          "content_html": "<p style=\"text-align:justify;\">在投與teriparatide的公鼠與母鼠試驗中，觀察到骨肉瘤(一種惡性骨腫瘤)的發生率增加。FORTEO上市後，接受FORTEO治療的病人曾通報出現骨肉瘤；然而，人類的觀察性試驗中並未觀察到發生骨肉瘤的風險增加。接受FORTEO治療超過2年的病人，發生骨肉瘤風險的評估資料仍然有限<i>[見用法用量(3.1)、副作用/不良反應(8.3)和藥理特性(10.3)]。</i></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">避免使用FORTEO於以下病人(這些病人發生骨肉瘤的基期風險較高)：</p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\">開放性骨骺生長板未密合(open epiphyses)&nbsp;的(孩童與年輕成人病人) (FORTEO未核准用於孩童病人)<i> [見特殊族群注意事項(6.4)]</i>&nbsp;。</li><li style=\"text-align:justify;\">骨質疏鬆症之外的其他代謝性骨骼疾病，包括骨骼柏哲德氏症(Paget’s disease)。</li><li style=\"text-align:justify;\">轉移性骨腫瘤或有骨惡性腫瘤病史。</li><li style=\"text-align:justify;\">曾接受涵蓋骨骼的外在電波或植入放射線治療之病人。</li><li style=\"text-align:justify;\">易誘發骨肉瘤的遺傳性疾病。</li></ul>",
+          "search_text": "5.1.1\n骨肉瘤Osteosarcoma\n在投與teriparatide的公鼠與母鼠試驗中，觀察到骨肉瘤(一種惡性骨腫瘤)的發生率增加。FORTEO上市後，接受FORTEO治療的病人曾通報出現骨肉瘤；然而，人類的觀察性試驗中並未觀察到發生骨肉瘤的風險增加。接受FORTEO治療超過2年的病人，發生骨肉瘤風險的評估資料仍然有限[見用法用量(3.1)、副作用/不良反應(8.3)和藥理特性(10.3)]。 避免使用FORTEO於以下病人(這些病人發生骨肉瘤的基期風險較高)： 開放性骨骺生長板未密合(open epiphyses) 的(孩童與年輕成人病人) (FORTEO未核准用於孩童病人) [見特殊族群注意事項(6.4)] 。 骨質疏鬆症之外的其他代謝性骨骼疾病，包括骨骼柏哲德氏症(Paget’s disease)。 轉移性骨腫瘤或有骨惡性腫瘤病史。 曾接受涵蓋骨骼的外在電波或植入放射線治療之病人。 易誘發骨肉瘤的遺傳性疾病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "高血鈣與皮膚鈣化",
+          "title_html": "高血鈣與皮膚鈣化",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "高血鈣與皮膚鈣化"
+          ],
+          "content_text": "高血鈣 FORTEO尚未於已存在高血鈣之病人進行研究。FORTEO可能會導致高血鈣，並可能使原患有高血鈣病人的高血鈣更加惡化[見副作用/不良反應(8.1、8.3)]。已知可能出現高血鈣的病人，例如原發性副甲狀腺機能亢進，應避免使用FORTEO治療。 皮膚鈣化的風險包括血管鈣化 (Calciphylaxis) FORTEO上市後，使用FORTEO的病人曾有嚴重的血管鈣化和先前穩定的皮膚鈣化轉趨惡化的通報。發生血管鈣化的風險因素包括潛在的自體免疫性疾病、腎衰竭、以及併用warfarin或全身性皮質類固醇。發生血管鈣化或先前穩定的皮膚鈣化轉趨惡化的病人，應停用FORTEO。",
+          "content_html": "<p style=\"text-align:justify;\"><u>高血鈣</u></p><p style=\"text-align:justify;\">FORTEO尚未於已存在高血鈣之病人進行研究。FORTEO可能會導致高血鈣，並可能使原患有高血鈣病人的高血鈣更加惡化<i>[見副作用/不良反應(8.1、8.3)]</i>。已知可能出現高血鈣的病人，例如原發性副甲狀腺機能亢進，應避免使用FORTEO治療。</p><p style=\"margin-left:0cm;\"><u>皮膚鈣化的風險包括血管鈣化 (Calciphylaxis)</u></p><p style=\"text-align:justify;\">FORTEO上市後，使用FORTEO的病人曾有嚴重的血管鈣化和先前穩定的皮膚鈣化轉趨惡化的通報。發生血管鈣化的風險因素包括潛在的自體免疫性疾病、腎衰竭、以及併用warfarin或全身性皮質類固醇。發生血管鈣化或先前穩定的皮膚鈣化轉趨惡化的病人，應停用FORTEO。</p>",
+          "search_text": "5.1.2\n高血鈣與皮膚鈣化\n高血鈣 FORTEO尚未於已存在高血鈣之病人進行研究。FORTEO可能會導致高血鈣，並可能使原患有高血鈣病人的高血鈣更加惡化[見副作用/不良反應(8.1、8.3)]。已知可能出現高血鈣的病人，例如原發性副甲狀腺機能亢進，應避免使用FORTEO治療。 皮膚鈣化的風險包括血管鈣化 (Calciphylaxis) FORTEO上市後，使用FORTEO的病人曾有嚴重的血管鈣化和先前穩定的皮膚鈣化轉趨惡化的通報。發生血管鈣化的風險因素包括潛在的自體免疫性疾病、腎衰竭、以及併用warfarin或全身性皮質類固醇。發生血管鈣化或先前穩定的皮膚鈣化轉趨惡化的病人，應停用FORTEO。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.3",
+          "title": "尿路結石症的風險",
+          "title_html": "尿路結石症的風險",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "尿路結石症的風險"
+          ],
+          "content_text": "臨床試驗中，接受FORTEO治療與安慰劑組的尿路結石發生率相似。然而，FORTEO尚未以進行性尿路結石病人進行研究。若接受FORTEO治療的病人已有高尿鈣症或疑似/已知患有進行性尿路結石症，應考慮測量其尿液的鈣排泄量。對於患有進行性或近期曾發生尿路結石症病人，應考慮接受FORTEO治療的風險與效益，因為可能導致病況惡化。",
+          "content_html": "<p style=\"text-align:justify;\">臨床試驗中，接受FORTEO治療與安慰劑組的尿路結石發生率相似。然而，FORTEO尚未以進行性尿路結石病人進行研究。若接受FORTEO治療的病人已有高尿鈣症或疑似/已知患有進行性尿路結石症，應考慮測量其尿液的鈣排泄量。對於患有進行性或近期曾發生尿路結石症病人，應考慮接受FORTEO治療的風險與效益，因為可能導致病況惡化。</p>",
+          "search_text": "5.1.3\n尿路結石症的風險\n臨床試驗中，接受FORTEO治療與安慰劑組的尿路結石發生率相似。然而，FORTEO尚未以進行性尿路結石病人進行研究。若接受FORTEO治療的病人已有高尿鈣症或疑似/已知患有進行性尿路結石症，應考慮測量其尿液的鈣排泄量。對於患有進行性或近期曾發生尿路結石症病人，應考慮接受FORTEO治療的風險與效益，因為可能導致病況惡化。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.4",
+          "title": "姿勢性低血壓",
+          "title_html": "姿勢性低血壓",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "姿勢性低血壓"
+          ],
+          "content_text": "如果發生姿勢性低血壓的症狀，病人應在能坐下或躺平的情形下，開始接受FORTEO治療。在健康自願者的FORTEO短期臨床藥理學試驗中，5 %的病人曾發生暫時性姿勢性低血壓的症狀。通常這些症狀在投藥4小時內出現，在數分鐘至數小時內緩解(未經治療)。暫時性姿勢性低血壓會發生在剛開始數次的給藥，病人躺下可緩解症狀，這不會影響後續的治療。",
+          "content_html": "<p style=\"text-align:justify;\">如果發生姿勢性低血壓的症狀，病人應在能坐下或躺平的情形下，開始接受FORTEO治療。在健康自願者的FORTEO短期臨床藥理學試驗中，5 %的病人曾發生暫時性姿勢性低血壓的症狀。通常這些症狀在投藥4小時內出現，在數分鐘至數小時內緩解(未經治療)。暫時性姿勢性低血壓會發生在剛開始數次的給藥，病人躺下可緩解症狀，這不會影響後續的治療。</p>",
+          "search_text": "5.1.4\n姿勢性低血壓\n如果發生姿勢性低血壓的症狀，病人應在能坐下或躺平的情形下，開始接受FORTEO治療。在健康自願者的FORTEO短期臨床藥理學試驗中，5 %的病人曾發生暫時性姿勢性低血壓的症狀。通常這些症狀在投藥4小時內出現，在數分鐘至數小時內緩解(未經治療)。暫時性姿勢性低血壓會發生在剛開始數次的給藥，病人躺下可緩解症狀，這不會影響後續的治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.5",
+          "title": "Digoxin毒性的風險",
+          "title_html": "Digoxin毒性的風險",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "Digoxin毒性的風險"
+          ],
+          "content_text": "高血鈣可能使病人容易產生毛地黃(digitalis)中毒，因為FORTEO會暫時升高血鈣濃度。正接受Digoxin治療的病人需併用FORTEO時，應考量可能出現毛地黃苷中毒的徵象和症狀[見交互作用(7.1)及藥物動力學特性(11)]。",
+          "content_html": "<p style=\"text-align:justify;\">高血鈣可能使病人容易產生毛地黃(digitalis)中毒，因為FORTEO會暫時升高血鈣濃度。正接受Digoxin治療的病人需併用FORTEO時，應考量可能出現毛地黃苷中毒的徵象和症狀<i>[見交互作用(7.1)及藥物動力學特性(11)]。</i></p>",
+          "search_text": "5.1.5\nDigoxin毒性的風險\n高血鈣可能使病人容易產生毛地黃(digitalis)中毒，因為FORTEO會暫時升高血鈣濃度。正接受Digoxin治療的病人需併用FORTEO時，應考量可能出現毛地黃苷中毒的徵象和症狀[見交互作用(7.1)及藥物動力學特性(11)]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "風險摘要 尚無數據可用於評估懷孕婦女接受FORTEO治療後發生與藥物相關的重大先天缺陷、流產或造成母體或胎兒不良結果之風險。確認懷孕後，應考慮停用FORTEO。 動物研究中，皮下投與相當於人體每日建議劑量［20微克(mcg)］60倍以上的teriparatide(根據體表面積，mcg/m2)，胎鼠骨骼異常的發生率會增加；皮下投與相當於人體劑量的120倍以上，幼鼠會有生長遲緩和活動力降低的情況(見數據)。 尚不清楚此族群的重大先天缺陷和流產之背景風險。在一般美國人中，臨床上確認懷孕的重大先天性缺陷背景風險為2%至4%，流產為15%至20%。 數據 動物數據 動物研究中，懷孕小鼠在器官形成期間，皮下投與相當於人體劑量8到267倍的teriparatide(根據體表面積，mcg/m2)。當劑量相當於人體劑量60倍以上，發現胎鼠骨骼異常的發生率增加(肋骨中斷、多額脊椎骨或肋骨)。懷孕大鼠在器官形成期間，皮下投與相當於人類劑量16至540倍的teriparatide，對胎兒沒有不正常影響。 生產前後/生產後的研究中，懷孕大鼠從器官形成期間至授乳，皮下注射teriparatide。超過120倍以上的人體劑量(根據體表面積計算，mcg/m2)會導致幼母鼠生長遲緩。母鼠接受540倍的人體劑量會導致幼公鼠生長遲緩，且會導致幼公鼠及幼母鼠活動力降低。8-16倍的人體劑量對小鼠或大鼠的發育及生殖力皆無影響。",
+          "content_html": "<p style=\"text-align:justify;\"><u>風險摘要</u></p><p style=\"margin-left:0cm;text-align:justify;\">尚無數據可用於評估懷孕婦女接受FORTEO治療後發生與藥物相關的重大先天缺陷、流產或造成母體或胎兒不良結果之風險。確認懷孕後，應考慮停用FORTEO。</p><p style=\"text-align:justify;\">動物研究中，皮下投與相當於人體每日建議劑量［20微克(mcg)］60倍以上的teriparatide(根據體表面積，mcg/m<sup>2</sup>)，胎鼠骨骼異常的發生率會增加；皮下投與相當於人體劑量的120倍以上，幼鼠會有生長遲緩和活動力降低的情況<i>(見數據)</i>。</p><p style=\"margin-left:0cm;text-align:justify;\">尚不清楚此族群的重大先天缺陷和流產之背景風險。在一般美國人中，臨床上確認懷孕的重大先天性缺陷背景風險為2%至4%，流產為15%至20%。</p><p style=\"margin-left:0cm;text-align:justify;\"><u>數據</u></p><p style=\"text-align:justify;\"><i>動物數據</i></p><p style=\"margin-left:0cm;text-align:justify;\">動物研究中，懷孕小鼠在器官形成期間，皮下投與相當於人體劑量8到267倍的teriparatide(根據體表面積，mcg/m<sup>2</sup>)。當劑量相當於人體劑量60倍以上，發現胎鼠骨骼異常的發生率增加(肋骨中斷、多額脊椎骨或肋骨)。懷孕大鼠在器官形成期間，皮下投與相當於人類劑量16至540倍的teriparatide，對胎兒沒有不正常影響。</p><p>生產前後/生產後的研究中，懷孕大鼠從器官形成期間至授乳，皮下注射teriparatide。超過120倍以上的人體劑量(根據體表面積計算，mcg/m<sup>2</sup>)會導致幼母鼠生長遲緩。母鼠接受540倍的人體劑量會導致幼公鼠生長遲緩，且會導致幼公鼠及幼母鼠活動力降低。8-16倍的人體劑量對小鼠或大鼠的發育及生殖力皆無影響。</p>",
+          "search_text": "6.1\n懷孕\n風險摘要 尚無數據可用於評估懷孕婦女接受FORTEO治療後發生與藥物相關的重大先天缺陷、流產或造成母體或胎兒不良結果之風險。確認懷孕後，應考慮停用FORTEO。 動物研究中，皮下投與相當於人體每日建議劑量［20微克(mcg)］60倍以上的teriparatide(根據體表面積，mcg/m2)，胎鼠骨骼異常的發生率會增加；皮下投與相當於人體劑量的120倍以上，幼鼠會有生長遲緩和活動力降低的情況(見數據)。 尚不清楚此族群的重大先天缺陷和流產之背景風險。在一般美國人中，臨床上確認懷孕的重大先天性缺陷背景風險為2%至4%，流產為15%至20%。 數據 動物數據 動物研究中，懷孕小鼠在器官形成期間，皮下投與相當於人體劑量8到267倍的teriparatide(根據體表面積，mcg/m2)。當劑量相當於人體劑量60倍以上，發現胎鼠骨骼異常的發生率增加(肋骨中斷、多額脊椎骨或肋骨)。懷孕大鼠在器官形成期間，皮下投與相當於人類劑量16至540倍的teriparatide，對胎兒沒有不正常影響。 生產前後/生產後的研究中，懷孕大鼠從器官形成期間至授乳，皮下注射teriparatide。超過120倍以上的人體劑量(根據體表面積計算，mcg/m2)會導致幼母鼠生長遲緩。母鼠接受540倍的人體劑量會導致幼公鼠生長遲緩，且會導致幼公鼠及幼母鼠活動力降低。8-16倍的人體劑量對小鼠或大鼠的發育及生殖力皆無影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "風險摘要 尚不清楚teriparatide是否會分泌到人類乳汁中、影響人類泌乳量或對以母乳哺餵嬰兒有影響。哺乳期的婦女應避免使用FORTEO。",
+          "content_html": "<p style=\"margin-left:0cm;text-align:justify;\"><u>風險摘要</u></p><p style=\"margin-left:0cm;text-align:justify;\">尚不清楚teriparatide是否會分泌到人類乳汁中、影響人類泌乳量或對以母乳哺餵嬰兒有影響。哺乳期的婦女應避免使用FORTEO。</p>",
+          "search_text": "6.2\n哺乳\n風險摘要 尚不清楚teriparatide是否會分泌到人類乳汁中、影響人類泌乳量或對以母乳哺餵嬰兒有影響。哺乳期的婦女應避免使用FORTEO。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "FORTEO使用於孩童病人的安全性及有效性資料尚未建立。孩童病人發生骨肉瘤的基期風險較高因為其開放性骨骺生長板未密合(open epiphyses) [見警語及注意事項(5.1.1)]。",
+          "content_html": "<p style=\"text-align:justify;\">FORTEO使用於孩童病人的安全性及有效性資料尚未建立。孩童病人發生骨肉瘤的基期風險較高因為其開放性骨骺生長板未密合(open epiphyses) <i>[見警語及注意事項(5.1.1)]</i>。</p>",
+          "search_text": "6.4\n小兒\nFORTEO使用於孩童病人的安全性及有效性資料尚未建立。孩童病人發生骨肉瘤的基期風險較高因為其開放性骨骺生長板未密合(open epiphyses) [見警語及注意事項(5.1.1)]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "在1637名停經後婦女骨質疏鬆症的試驗中，接受FORTEO治療的病人有75%為65歲以上，23%為75歲以上。在437名男性原發性或性腺功能低下之骨質疏鬆症試驗中，接受FORTEO治療的病人有39%為65歲以上，13%為75歲以上。在因糖化皮質類固醇治療引起的骨質疏鬆症試驗中，214名接受FORTEO治療的病人有28％為65歲以上，9％為75歲以上。在65歲以上的病人及年輕成人病人之間，其安全性或有效性整體而言並無差異。",
+          "content_html": "<p>在1637名停經後婦女骨質疏鬆症的試驗中，接受FORTEO治療的病人有75%為65歲以上，23%為75歲以上。在437名男性原發性或性腺功能低下之骨質疏鬆症試驗中，接受FORTEO治療的病人有39%為65歲以上，13%為75歲以上。在因糖化皮質類固醇治療引起的骨質疏鬆症試驗中，214名接受FORTEO治療的病人有28％為65歲以上，9％為75歲以上。在65歲以上的病人及年輕成人病人之間，其安全性或有效性整體而言並無差異。</p>",
+          "search_text": "6.5\n老年人\n在1637名停經後婦女骨質疏鬆症的試驗中，接受FORTEO治療的病人有75%為65歲以上，23%為75歲以上。在437名男性原發性或性腺功能低下之骨質疏鬆症試驗中，接受FORTEO治療的病人有39%為65歲以上，13%為75歲以上。在因糖化皮質類固醇治療引起的骨質疏鬆症試驗中，214名接受FORTEO治療的病人有28％為65歲以上，9％為75歲以上。在65歲以上的病人及年輕成人病人之間，其安全性或有效性整體而言並無差異。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "尚未以肝功能不全的病人進行相關研究。[見藥理特性(10)] 。",
+          "content_html": "<p style=\"text-align:justify;\">尚未以肝功能不全的病人進行相關研究。<i>[見藥理特性(10)]</i>&nbsp;。</p>",
+          "search_text": "6.6\n肝功能不全\n尚未以肝功能不全的病人進行相關研究。[見藥理特性(10)] 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "在5位嚴重腎功能不足(CrCl<30 mL/minute)的病人，teriparatide的曲線下面積 (AUC) 與半衰期分別增加73%與77%，最高血漿濃度並未增加。在慢性腎功能不全病人中，目前尚未知FORTEO是否會改變潛在的代謝性骨骼疾病[見臨床試驗資料(12)] 。",
+          "content_html": "<p style=\"text-align:justify;\">在5位嚴重腎功能不足(CrCl&lt;30 mL/minute)的病人，teriparatide的曲線下面積 (AUC)&nbsp;與半衰期分別增加73%與77%，最高血漿濃度並未增加。在慢性腎功能不全病人中，目前尚未知FORTEO是否會改變潛在的代謝性骨骼疾病<i>[見臨床試驗資料(12)]</i>&nbsp;。</p>",
+          "search_text": "6.7\n腎功能不全\n在5位嚴重腎功能不足(CrCl<30 mL/minute)的病人，teriparatide的曲線下面積 (AUC) 與半衰期分別增加73%與77%，最高血漿濃度並未增加。在慢性腎功能不全病人中，目前尚未知FORTEO是否會改變潛在的代謝性骨骼疾病[見臨床試驗資料(12)] 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "7\n交互作用",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7.1",
+          "parent_id": "7",
+          "level": 2,
+          "number": "7.1",
+          "title": "Digoxin",
+          "title_html": "Digoxin",
+          "path": [
+            "交互作用",
+            "Digoxin"
+          ],
+          "content_text": "零星的病例報告顯示，高血鈣可能使病人容易出現毛地黃中毒。FORTEO可能會暫時增加血清中的鈣。接受Digoxin的病人使用FORTEO時，請考量可能出現毛地黃中毒的症狀和徵象[見警語及注意事項(5.1.5)和藥物動力學(11)]。",
+          "content_html": "<p style=\"margin-left:.1pt;text-align:justify;\">零星的病例報告顯示，高血鈣可能使病人容易出現毛地黃中毒。FORTEO可能會暫時增加血清中的鈣。接受Digoxin的病人使用FORTEO時，請考量可能出現毛地黃中毒的症狀和徵象<i>[見警語及注意事項(5.1.5)和藥物動力學(11)]。</i></p>",
+          "search_text": "7.1\nDigoxin\n零星的病例報告顯示，高血鈣可能使病人容易出現毛地黃中毒。FORTEO可能會暫時增加血清中的鈣。接受Digoxin的病人使用FORTEO時，請考量可能出現毛地黃中毒的症狀和徵象[見警語及注意事項(5.1.5)和藥物動力學(11)]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "由於臨床試驗在非常多樣化的條件下進行，一種藥物臨床試驗所觀察的不良反應比率不能直接與另一種藥物臨床試驗所觀察到的相比較，且可能無法表現實際上觀察到的比率。",
+          "content_html": "<p style=\"text-align:justify;\">由於臨床試驗在非常多樣化的條件下進行，一種藥物臨床試驗所觀察的不良反應比率不能直接與另一種藥物臨床試驗所觀察到的相比較，且可能無法表現實際上觀察到的比率。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n由於臨床試驗在非常多樣化的條件下進行，一種藥物臨床試驗所觀察的不良反應比率不能直接與另一種藥物臨床試驗所觀察到的相比較，且可能無法表現實際上觀察到的比率。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "男性原發性或次發性性腺功能低下症之骨質疏鬆症與停經後婦女骨質疏鬆症 FORTEO治療男性與停經後婦女骨質疏鬆症的安全性已在2個隨機、雙盲、安慰劑對照的臨床試驗中被評估，共有1382名病人(21 % 男性，79 %婦女)，年齡28至 86歲(平均67歲)[見臨床試驗(12.1, 12.2)]。試驗期間中位數為男性11個月及婦女19個月，691名病人以FORTEO治療及691名病人以安慰劑治療。所有病人每天投與1000毫克鈣及至少400 IU維生素D。 FORTEO組包含所有原因的死亡發生率為1 %，安慰劑組為1 %。嚴重不良事件發生率在FORTEO組有16 %，安慰劑組有19 %。因不良事件而早期停藥的比例，在FORTEO組有7 %，安慰劑組有6 %。 表1列出2項試驗的不良事件，且發生率於FORTEO組≥ 2.0%且頻率高過安慰劑組。\n表1 試驗對象為2個主要骨質疏鬆症臨床試驗中的婦女及男性，發生率於FORTEO組 ≥ 2.0%且頻率高過安慰劑組的不良事件百分比所列不良事件未追究其發生原因 FORTEO N=691 安慰劑 N=691 不良反應分類 (%) (%) 全身系統 疼痛 21.3 20.5 頭痛 7.5 7.4 無力 8.7 6.8 頸痛 3.0 2.7 心臟血管系統 高血壓 7.1 6.8 心絞痛 2.5 1.6 昏厥 2.6 1.4 消化系統 噁心 8.5 6.7 便秘 5.4 4.5 腹瀉 5.1 4.6 消化不良 5.2 4.1 嘔吐 3.0 2.3 胃腸疾病 2.3 2.0 牙齒疾病 2.0 1.3 肌肉骨骼系統 關節痛 10.1 8.4 蹆部抽筋 2.6 1.3 神經系統 頭昏 8.0 5.4 抑鬱 4.1 2.7 失眠 4.3 3.6 暈眩 3.8 2.7 呼吸系統 鼻炎 9.6 8.8 咳嗽增加 6.4 5.5 咽炎 5.5 4.8 呼吸困難 3.6 2.6 肺炎 3.9 3.3 皮膚及附屬器 紅疹 4.9 4.5 出汗 2.2 1.7\n實驗室結果 血鈣 — FORTEO暫時性升高血鈣，最大作用大約在投藥後4至6小時出現。投藥16小時後之血鈣濃度與投藥前並無差異。臨床試驗中，投與FORTEO後4至6小時，至少出現一次暫時性高血鈣的比例， FORTEO治療組的女性為11 %、男性為6 %，而安慰劑組的女性為2 %、男性為0%。FORTEO組中暫時性高血鈣持續存在的百分比，女性為3 %，男性1 %。 尿鈣 — FORTEO增加尿鈣排泄，但臨床試驗中，高尿鈣的發生率於FORTEO組與安慰劑組相似 [見藥理特性(10.2)] 。 血清尿酸 — FORTEO增加血中尿酸濃度。在臨床試驗中，3 %的FORTEO組病人血中尿酸濃度超過正常上限值，安慰劑組則為1 %。然而，高尿酸血症並沒有造成痛風、關節痛或尿路結石的增加。 腎功能 — 臨床試驗中，未發生臨床上重要的腎臟不良反應。評估指標包括：肌酸酐廓清率；血漿中尿素氮(BUN)、肌酸酐、及電解質濃度的測量；尿比重及酸鹼值pH；及尿液沉積物的檢查。 男性及女性因糖化皮質類固醇引起之骨質疏鬆症 FORTEO治療男性與婦女患有糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的安全性已在一個隨機、雙盲、活性藥物對照的臨床試驗中被評估，共有428名病人(19 % 男性，81 % 婦女)，年齡22至 89歲(平均57歲) ，以 prednisone ≥ 5 mg/day或相當藥物治療至少3個月[見臨床試驗資料(12.3)]。試驗期間為18個月，214名病人投與FORTEO及214名病人每日投與口服雙磷酸藥物(活性對照藥物)。所有病人每天投與1000毫克鈣及800 IU維生素D。 相較於活性藥物對照組，FORTEO組的死亡發生率並未增加。嚴重不良事件發生率在FORTEO組病人有21 %，活性藥物對照組有18 %，並且包括肺炎(FORTEO組3 %，活性藥物對照組1 %)。因不良事件而早期停藥的比例，在FORTEO組有15 %，活性藥物對照組有12 %，並且包括頭昏(FORTEO組2 %，活性藥物對照組0 %)。 FORTEO治療組有較高不良事件發生率的報告，且FORTEO治療組與活性藥物對照組比較至少相差2 %的不良反應，分別為：噁心(14 %，7 %)、胃炎(7 %，3 %)、肺炎(6 %，3 %)、呼吸困難(6 %，3 %)、失眠(5 %，1 %)、焦慮(4 %，1 %)及帶狀疱疹(3 %，1 %)。 免疫原性 如所有胜肽一般，本品具有潛在的免疫原性。抗體形成的檢測是高度依賴於檢測方法的靈敏度和專一性。此外，在測定中觀察到的抗體陽性發生率(包括中和抗體)可能會受到幾項因素的影響，包括測定方法、檢體處理、檢體採集時間、併用藥物和潛在疾病。基於這些原因，將下述試驗中的抗體發生率與其他試驗中的抗體發生率或與其他teriparatide產品的發生率進行比較，可能會產生誤導。 在一個停經後骨質疏鬆症婦女的臨床試驗中[見臨床試驗資料(12.1)]，於3%接受FORTEO治療的婦女(15/541)檢測到與teriparatide交叉反應的抗體。一般而言，抗體在治療12個月後會出現，並在停止治療後減少。這些病人中沒有過敏反應的病例。抗體的形成不影響血鈣或骨密度(BMD)反應。",
+          "content_html": "<p style=\"text-align:justify;\"><i><u>男性原發性或次發性性腺功能低下症之骨質疏鬆症與停經後婦女骨質疏鬆症</u></i></p><p style=\"text-align:justify;\">FORTEO治療男性與停經後婦女骨質疏鬆症的安全性已在2個隨機、雙盲、安慰劑對照的臨床試驗中被評估，共有1382名病人(21 %&nbsp;男性，79 %婦女)，年齡28至 86歲(平均67歲)<i>[見臨床試驗(12.1, 12.2)]</i>。試驗期間中位數為男性11個月及婦女19個月，691名病人以FORTEO治療及691名病人以安慰劑治療。所有病人每天投與1000毫克鈣及至少400 IU維生素D。</p><p style=\"text-align:justify;\">FORTEO組包含所有原因的死亡發生率為1 %，安慰劑組為1 %。嚴重不良事件發生率在FORTEO組有16 %，安慰劑組有19 %。因不良事件而早期停藥的比例，在FORTEO組有7 %，安慰劑組有6 %。</p><p style=\"text-align:justify;\">表1列出2項試驗的不良事件，且發生率於FORTEO組≥ 2.0%且頻率高過安慰劑組。</p>\n<p><strong>表1&nbsp; &nbsp; &nbsp;試驗對象為2個主要骨質疏鬆症臨床試驗中的婦女及男性，發生率於FORTEO組 ≥ 2.0%且頻率高過安慰劑組的不良事件百分比所列不良事件未追究其發生原因</strong></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\"><strong>FORTEO&nbsp;</strong></p><p style=\"margin-left:0cm;\"><strong>N=691</strong></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\"><strong>安慰劑</strong></p><p style=\"margin-left:0cm;\"><strong>N=691</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>不良反應分類</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\"><strong>(%)</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\"><strong>(%)</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>全身系統</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">疼痛</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">21.3</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">20.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">頭痛</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">7.5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">7.4</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">無力</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">8.7</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">6.8</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">頸痛</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.0</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.7</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>心臟血管系統</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">高血壓</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">7.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">6.8</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">心絞痛</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">1.6</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">昏厥</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.6</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">1.4</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>消化系統</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">噁心</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">8.5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">6.7</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">便秘</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">5.4</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">腹瀉</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">5.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.6</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">消化不良</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">5.2</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.1</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">嘔吐</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.0</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">胃腸疾病</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.3</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.0</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">牙齒疾病</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.0</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">1.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>肌肉骨骼系統</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">關節痛</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">10.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">8.4</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">蹆部抽筋</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.6</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">1.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>神經系統</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">頭昏</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">8.0</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">5.4</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">抑鬱</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.7</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">失眠</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.3</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.6</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">暈眩</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.8</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.7</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>呼吸系統</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">鼻炎</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">9.6</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">8.8</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">咳嗽增加</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">6.4</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">5.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">咽炎</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">5.5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.8</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">呼吸困難</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.6</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.6</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">肺炎</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.9</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">3.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\"><strong>皮膚及附屬器</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">紅疹</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.9</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">4.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:7.2pt;text-align:justify;\">出汗</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">2.2</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:129.0pt;\"><p style=\"margin-left:0cm;\">1.7</p></td></tr></tbody></table></figure>\n<p style=\"text-align:justify;\"><i><u>實驗室結果</u></i></p><p style=\"text-align:justify;\"><u>血鈣</u>&nbsp;— FORTEO暫時性升高血鈣，最大作用大約在投藥後4至6小時出現。投藥16小時後之血鈣濃度與投藥前並無差異。臨床試驗中，投與FORTEO後4至6小時，至少出現一次暫時性高血鈣的比例， FORTEO治療組的女性為11 %、男性為6 %，而安慰劑組的女性為2 %、男性為0%。FORTEO組中暫時性高血鈣持續存在的百分比，女性為3 %，男性1 %。</p><p style=\"text-align:justify;\"><u>尿鈣</u> — FORTEO增加尿鈣排泄，但臨床試驗中，高尿鈣的發生率於FORTEO組與安慰劑組相似 <i>[見藥理特性(10.2)]&nbsp;</i>。</p><p style=\"text-align:justify;\"><u>血清尿酸</u> — FORTEO增加血中尿酸濃度。在臨床試驗中，3 %的FORTEO組病人血中尿酸濃度超過正常上限值，安慰劑組則為1 %。然而，高尿酸血症並沒有造成痛風、關節痛或尿路結石的增加。</p><p style=\"text-align:justify;\"><u>腎功能</u> — 臨床試驗中，未發生臨床上重要的腎臟不良反應。評估指標包括：肌酸酐廓清率；血漿中尿素氮(BUN)、肌酸酐、及電解質濃度的測量；尿比重及酸鹼值pH；及尿液沉積物的檢查。</p><p style=\"margin-left:0cm;text-align:justify;\"><i><u>男性及女性因糖化皮質類固醇引起之骨質疏鬆症</u></i></p><p style=\"text-align:justify;\">FORTEO治療男性與婦女患有糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的安全性已在一個隨機、雙盲、活性藥物對照的臨床試驗中被評估，共有428名病人(19 %&nbsp;男性，81 %&nbsp;婦女)，年齡22至 89歲(平均57歲)&nbsp;，以 prednisone ≥ 5 mg/day或相當藥物治療至少3個月<i>[見臨床試驗資料(12.3)]</i>。試驗期間為18個月，214名病人投與FORTEO及214名病人每日投與口服雙磷酸藥物(活性對照藥物)。所有病人每天投與1000毫克鈣及800 IU維生素D。</p><p style=\"text-align:justify;\">相較於活性藥物對照組，FORTEO組的死亡發生率並未增加。嚴重不良事件發生率在FORTEO組病人有21 %，活性藥物對照組有18 %，並且包括肺炎(FORTEO組3 %，活性藥物對照組1 %)。因不良事件而早期停藥的比例，在FORTEO組有15 %，活性藥物對照組有12 %，並且包括頭昏(FORTEO組2 %，活性藥物對照組0 %)。</p><p style=\"text-align:justify;\">FORTEO治療組有較高不良事件發生率的報告，且FORTEO治療組與活性藥物對照組比較至少相差2 %的不良反應，分別為：噁心(14 %，7 %)、胃炎(7 %，3 %)、肺炎(6 %，3 %)、呼吸困難(6 %，3 %)、失眠(5 %，1 %)、焦慮(4 %，1 %)及帶狀疱疹(3 %，1 %)。</p><p style=\"margin-left:0cm;text-align:justify;\"><u>免疫原性</u></p><p style=\"margin-left:0cm;\">如所有胜肽一般，本品具有潛在的免疫原性。抗體形成的檢測是高度依賴於檢測方法的靈敏度和專一性。此外，在測定中觀察到的抗體陽性發生率(包括中和抗體)可能會受到幾項因素的影響，包括測定方法、檢體處理、檢體採集時間、併用藥物和潛在疾病。基於這些原因，將下述試驗中的抗體發生率與其他試驗中的抗體發生率或與其他teriparatide產品的發生率進行比較，可能會產生誤導。</p><p style=\"text-align:justify;\">在一個停經後骨質疏鬆症婦女的臨床試驗中<i>[見臨床試驗資料(12.1)]</i>，於3%接受FORTEO治療的婦女(15/541)檢測到與teriparatide交叉反應的抗體。一般而言，抗體在治療12個月後會出現，並在停止治療後減少。這些病人中沒有過敏反應的病例。抗體的形成不影響血鈣或骨密度(BMD)反應。</p>",
+          "search_text": "8.2\n臨床試驗經驗\n男性原發性或次發性性腺功能低下症之骨質疏鬆症與停經後婦女骨質疏鬆症 FORTEO治療男性與停經後婦女骨質疏鬆症的安全性已在2個隨機、雙盲、安慰劑對照的臨床試驗中被評估，共有1382名病人(21 % 男性，79 %婦女)，年齡28至 86歲(平均67歲)[見臨床試驗(12.1, 12.2)]。試驗期間中位數為男性11個月及婦女19個月，691名病人以FORTEO治療及691名病人以安慰劑治療。所有病人每天投與1000毫克鈣及至少400 IU維生素D。 FORTEO組包含所有原因的死亡發生率為1 %，安慰劑組為1 %。嚴重不良事件發生率在FORTEO組有16 %，安慰劑組有19 %。因不良事件而早期停藥的比例，在FORTEO組有7 %，安慰劑組有6 %。 表1列出2項試驗的不良事件，且發生率於FORTEO組≥ 2.0%且頻率高過安慰劑組。\n表1 試驗對象為2個主要骨質疏鬆症臨床試驗中的婦女及男性，發生率於FORTEO組 ≥ 2.0%且頻率高過安慰劑組的不良事件百分比所列不良事件未追究其發生原因 FORTEO N=691 安慰劑 N=691 不良反應分類 (%) (%) 全身系統 疼痛 21.3 20.5 頭痛 7.5 7.4 無力 8.7 6.8 頸痛 3.0 2.7 心臟血管系統 高血壓 7.1 6.8 心絞痛 2.5 1.6 昏厥 2.6 1.4 消化系統 噁心 8.5 6.7 便秘 5.4 4.5 腹瀉 5.1 4.6 消化不良 5.2 4.1 嘔吐 3.0 2.3 胃腸疾病 2.3 2.0 牙齒疾病 2.0 1.3 肌肉骨骼系統 關節痛 10.1 8.4 蹆部抽筋 2.6 1.3 神經系統 頭昏 8.0 5.4 抑鬱 4.1 2.7 失眠 4.3 3.6 暈眩 3.8 2.7 呼吸系統 鼻炎 9.6 8.8 咳嗽增加 6.4 5.5 咽炎 5.5 4.8 呼吸困難 3.6 2.6 肺炎 3.9 3.3 皮膚及附屬器 紅疹 4.9 4.5 出汗 2.2 1.7\n實驗室結果 血鈣 — FORTEO暫時性升高血鈣，最大作用大約在投藥後4至6小時出現。投藥16小時後之血鈣濃度與投藥前並無差異。臨床試驗中，投與FORTEO後4至6小時，至少出現一次暫時性高血鈣的比例， FORTEO治療組的女性為11 %、男性為6 %，而安慰劑組的女性為2 %、男性為0%。FORTEO組中暫時性高血鈣持續存在的百分比，女性為3 %，男性1 %。 尿鈣 — FORTEO增加尿鈣排泄，但臨床試驗中，高尿鈣的發生率於FORTEO組與安慰劑組相似 [見藥理特性(10.2)] 。 血清尿酸 — FORTEO增加血中尿酸濃度。在臨床試驗中，3 %的FORTEO組病人血中尿酸濃度超過正常上限值，安慰劑組則為1 %。然而，高尿酸血症並沒有造成痛風、關節痛或尿路結石的增加。 腎功能 — 臨床試驗中，未發生臨床上重要的腎臟不良反應。評估指標包括：肌酸酐廓清率；血漿中尿素氮(BUN)、肌酸酐、及電解質濃度的測量；尿比重及酸鹼值pH；及尿液沉積物的檢查。 男性及女性因糖化皮質類固醇引起之骨質疏鬆症 FORTEO治療男性與婦女患有糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的安全性已在一個隨機、雙盲、活性藥物對照的臨床試驗中被評估，共有428名病人(19 % 男性，81 % 婦女)，年齡22至 89歲(平均57歲) ，以 prednisone ≥ 5 mg/day或相當藥物治療至少3個月[見臨床試驗資料(12.3)]。試驗期間為18個月，214名病人投與FORTEO及214名病人每日投與口服雙磷酸藥物(活性對照藥物)。所有病人每天投與1000毫克鈣及800 IU維生素D。 相較於活性藥物對照組，FORTEO組的死亡發生率並未增加。嚴重不良事件發生率在FORTEO組病人有21 %，活性藥物對照組有18 %，並且包括肺炎(FORTEO組3 %，活性藥物對照組1 %)。因不良事件而早期停藥的比例，在FORTEO組有15 %，活性藥物對照組有12 %，並且包括頭昏(FORTEO組2 %，活性藥物對照組0 %)。 FORTEO治療組有較高不良事件發生率的報告，且FORTEO治療組與活性藥物對照組比較至少相差2 %的不良反應，分別為：噁心(14 %，7 %)、胃炎(7 %，3 %)、肺炎(6 %，3 %)、呼吸困難(6 %，3 %)、失眠(5 %，1 %)、焦慮(4 %，1 %)及帶狀疱疹(3 %，1 %)。 免疫原性 如所有胜肽一般，本品具有潛在的免疫原性。抗體形成的檢測是高度依賴於檢測方法的靈敏度和專一性。此外，在測定中觀察到的抗體陽性發生率(包括中和抗體)可能會受到幾項因素的影響，包括測定方法、檢體處理、檢體採集時間、併用藥物和潛在疾病。基於這些原因，將下述試驗中的抗體發生率與其他試驗中的抗體發生率或與其他teriparatide產品的發生率進行比較，可能會產生誤導。 在一個停經後骨質疏鬆症婦女的臨床試驗中[見臨床試驗資料(12.1)]，於3%接受FORTEO治療的婦女(15/541)檢測到與teriparatide交叉反應的抗體。一般而言，抗體在治療12個月後會出現，並在停止治療後減少。這些病人中沒有過敏反應的病例。抗體的形成不影響血鈣或骨密度(BMD)反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "上市後自發性通報之不良反應 以下乃FORTEO核准使用後，曾發現的不良反應。由於這些反應是由總數不確定的有用藥經驗的人自發性回報，因此不一定能有效估算不良反應發生頻率，或確立與藥物暴露的因果關係。 上市後極少有骨腫瘤和骨肉瘤的案例報告。 [見警語及注意事項(5.1.2)]。 使用FORTEO曾有高血鈣濃度高於13mg/dL的報告。 與使用FORTEO有暫時相關的上市後不良事件報告包括： 過敏反應：過敏反應、藥物過敏、血管性水腫、蕁麻疹 學術研究：高尿酸血症 (hyperuricemia) 呼吸系統：急性呼吸困難、胸痛 肌肉骨骼系統：腿部或背部的肌肉痙攣(muscle spasms) 其他：注射部位反應包括注射部位疼痛、腫脹和瘀傷；口臉水腫 評估骨肉瘤發生率的觀察性試驗中之不良反應 有兩項以美國申報資料庫為主的骨肉瘤監測安全性試驗(U.S. claims-based database studies)，目的在於獲取接受FORTEO治療的病人的骨肉瘤發生率。在這兩項試驗中，分別有379,283名和153,316名病人接受FORTEO治療，且分別有3例和0例發生骨肉瘤。試驗結果顯示，接受FORTEO治療的病人相較於其他治療方式的病人，發生骨肉瘤的風險相似。但是，由於數據來源的局限性，無法對混雜因素進行完整的測量和控制，因此對試驗結果的詮釋需要謹慎。",
+          "content_html": "<p style=\"text-align:justify;\"><u>上市後自發性通報之不良反應</u></p><p style=\"text-align:justify;\">以下乃FORTEO核准使用後，曾發現的不良反應。由於這些反應是由總數不確定的有用藥經驗的人自發性回報，因此不一定能有效估算不良反應發生頻率，或確立與藥物暴露的因果關係。</p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\">上市後極少有骨腫瘤和骨肉瘤的案例報告。<i> [見警語及注意事項(5.1.2)]</i>。</li><li style=\"text-align:justify;\">使用FORTEO曾有高血鈣濃度高於13mg/dL的報告。</li></ul><p style=\"margin-left:13.45pt;text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">與使用FORTEO有暫時相關的上市後不良事件報告包括：</p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\">過敏反應：過敏反應、藥物過敏、血管性水腫、蕁麻疹</li><li style=\"text-align:justify;\">學術研究：高尿酸血症 (hyperuricemia)</li><li style=\"text-align:justify;\">呼吸系統：急性呼吸困難、胸痛</li><li style=\"text-align:justify;\">肌肉骨骼系統：腿部或背部的肌肉痙攣(muscle spasms)</li><li style=\"text-align:justify;\">其他：注射部位反應包括注射部位疼痛、腫脹和瘀傷；口臉水腫</li></ul><p style=\"margin-left:0cm;\"><u>評估骨肉瘤發生率的觀察性試驗中之不良反應</u></p><p style=\"text-align:justify;\">有兩項以美國申報資料庫為主的骨肉瘤監測安全性試驗(U.S. claims-based database studies)，目的在於獲取接受FORTEO治療的病人的骨肉瘤發生率。在這兩項試驗中，分別有379,283名和153,316名病人接受FORTEO治療，且分別有3例和0例發生骨肉瘤。試驗結果顯示，接受FORTEO治療的病人相較於其他治療方式的病人，發生骨肉瘤的風險相似。但是，由於數據來源的局限性，無法對混雜因素進行完整的測量和控制，因此對試驗結果的詮釋需要謹慎。</p>",
+          "search_text": "8.3\n上市後經驗\n上市後自發性通報之不良反應 以下乃FORTEO核准使用後，曾發現的不良反應。由於這些反應是由總數不確定的有用藥經驗的人自發性回報，因此不一定能有效估算不良反應發生頻率，或確立與藥物暴露的因果關係。 上市後極少有骨腫瘤和骨肉瘤的案例報告。 [見警語及注意事項(5.1.2)]。 使用FORTEO曾有高血鈣濃度高於13mg/dL的報告。 與使用FORTEO有暫時相關的上市後不良事件報告包括： 過敏反應：過敏反應、藥物過敏、血管性水腫、蕁麻疹 學術研究：高尿酸血症 (hyperuricemia) 呼吸系統：急性呼吸困難、胸痛 肌肉骨骼系統：腿部或背部的肌肉痙攣(muscle spasms) 其他：注射部位反應包括注射部位疼痛、腫脹和瘀傷；口臉水腫 評估骨肉瘤發生率的觀察性試驗中之不良反應 有兩項以美國申報資料庫為主的骨肉瘤監測安全性試驗(U.S. claims-based database studies)，目的在於獲取接受FORTEO治療的病人的骨肉瘤發生率。在這兩項試驗中，分別有379,283名和153,316名病人接受FORTEO治療，且分別有3例和0例發生骨肉瘤。試驗結果顯示，接受FORTEO治療的病人相較於其他治療方式的病人，發生骨肉瘤的風險相似。但是，由於數據來源的局限性，無法對混雜因素進行完整的測量和控制，因此對試驗結果的詮釋需要謹慎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "在上市後的自發性報告中，曾有數個醫療疏失案例以單一劑量一次投與全部FORTEO預先充填注射筆之含量(幾近800mcg)(建議劑量的40倍)。暫時性不良反應的報告包括噁心、無力/倦怠與低血壓。目前並無與過量相關的死亡報告。FORTEO過量的其他徵象、症狀和併發症可能包括延遲性高血鈣作用、嘔吐、頭昏和頭痛。 藥物過量的處理 — FORTEO過量沒有特異性解毒劑。疑似藥物過量的處理，包括停止FORTEO治療、監測血鈣及血磷濃度、給予適當的支持療法例如水分補給。",
+          "content_html": "<p style=\"text-align:justify;\">在上市後的自發性報告中，曾有數個醫療疏失案例以單一劑量一次投與全部FORTEO預先充填注射筆之含量(幾近800mcg)(建議劑量的40倍)。暫時性不良反應的報告包括噁心、無力/倦怠與低血壓。目前並無與過量相關的死亡報告。FORTEO過量的其他徵象、症狀和併發症可能包括延遲性高血鈣作用、嘔吐、頭昏和頭痛。</p><p style=\"text-align:justify;\"><u>藥物過量的處理</u> — FORTEO過量沒有特異性解毒劑。疑似藥物過量的處理，包括停止FORTEO治療、監測血鈣及血磷濃度、給予適當的支持療法例如水分補給。</p>",
+          "search_text": "9\n過量\n在上市後的自發性報告中，曾有數個醫療疏失案例以單一劑量一次投與全部FORTEO預先充填注射筆之含量(幾近800mcg)(建議劑量的40倍)。暫時性不良反應的報告包括噁心、無力/倦怠與低血壓。目前並無與過量相關的死亡報告。FORTEO過量的其他徵象、症狀和併發症可能包括延遲性高血鈣作用、嘔吐、頭昏和頭痛。 藥物過量的處理 — FORTEO過量沒有特異性解毒劑。疑似藥物過量的處理，包括停止FORTEO治療、監測血鈣及血磷濃度、給予適當的支持療法例如水分補給。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "內生性84個胺基酸的副甲狀腺素 (PTH)，主要調節骨骼與腎臟中鈣與磷的代謝。PTH的生理作用包括調節骨骼代謝、腎小管鈣與磷的重吸收及小腸鈣的吸收。PTH與teriparatide的生物活性皆經由與細胞表面高親和力的特異接受體結合。Teriparatide與PTH的34個N端胺基酸，與這些接受體結合的親和力相同，且於骨骼與腎臟具有相同的生理作用。Teriparatide不會在骨骼或其他組織中累積。 Teriparatide對骨骼的作用與全身性暴露的形式有關。一天一次投與 teriparatide由於刺激成骨作用多於蝕骨作用，因而促進小樑骨與皮質骨(骨膜的及/或骨內膜的)表面的新骨生成。在猴子的研究中，teriparatide藉由刺激鬆質骨與皮質骨的新骨生成，改善小樑骨的微小構造，並增加骨骼質量與強度。在人體，teriparatide的合成代謝作用表現在骨骼質量的增加、顯示成骨標記與蝕骨標記上升與骨骼強度的增強。相反的，內生性副甲狀腺素的持續過量，例如副甲狀腺亢進症，可能對骨骼有害，因為蝕骨作用可能會超越成骨作用。",
+          "content_html": "<p style=\"text-align:justify;\">內生性84個胺基酸的副甲狀腺素 (PTH)，主要調節骨骼與腎臟中鈣與磷的代謝。PTH的生理作用包括調節骨骼代謝、腎小管鈣與磷的重吸收及小腸鈣的吸收。PTH與teriparatide的生物活性皆經由與細胞表面高親和力的特異接受體結合。Teriparatide與PTH的34個N端胺基酸，與這些接受體結合的親和力相同，且於骨骼與腎臟具有相同的生理作用。Teriparatide不會在骨骼或其他組織中累積。</p><p>Teriparatide對骨骼的作用與全身性暴露的形式有關。一天一次投與 teriparatide由於刺激成骨作用多於蝕骨作用，因而促進小樑骨與皮質骨(骨膜的及/或骨內膜的)表面的新骨生成。在猴子的研究中，teriparatide藉由刺激鬆質骨與皮質骨的新骨生成，改善小樑骨的微小構造，並增加骨骼質量與強度。在人體，teriparatide的合成代謝作用表現在骨骼質量的增加、顯示成骨標記與蝕骨標記上升與骨骼強度的增強。相反的，內生性副甲狀腺素的持續過量，例如副甲狀腺亢進症，可能對骨骼有害，因為蝕骨作用可能會超越成骨作用。</p>",
+          "search_text": "10.1\n作用機轉\n內生性84個胺基酸的副甲狀腺素 (PTH)，主要調節骨骼與腎臟中鈣與磷的代謝。PTH的生理作用包括調節骨骼代謝、腎小管鈣與磷的重吸收及小腸鈣的吸收。PTH與teriparatide的生物活性皆經由與細胞表面高親和力的特異接受體結合。Teriparatide與PTH的34個N端胺基酸，與這些接受體結合的親和力相同，且於骨骼與腎臟具有相同的生理作用。Teriparatide不會在骨骼或其他組織中累積。 Teriparatide對骨骼的作用與全身性暴露的形式有關。一天一次投與 teriparatide由於刺激成骨作用多於蝕骨作用，因而促進小樑骨與皮質骨(骨膜的及/或骨內膜的)表面的新骨生成。在猴子的研究中，teriparatide藉由刺激鬆質骨與皮質骨的新骨生成，改善小樑骨的微小構造，並增加骨骼質量與強度。在人體，teriparatide的合成代謝作用表現在骨骼質量的增加、顯示成骨標記與蝕骨標記上升與骨骼強度的增強。相反的，內生性副甲狀腺素的持續過量，例如副甲狀腺亢進症，可能對骨骼有害，因為蝕骨作用可能會超越成骨作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "原發性或次發於性腺功能低下症之男性骨質疏鬆症與停經後婦女骨質疏鬆症之藥效 礦物質代謝 — Teriparatide會影響鈣及磷的代謝，其作用與已知的內生性PTH相同(例如血鈣濃度上升與血磷濃度下降)。血鈣濃度 — 一天一次投與teriparatide 20 mcg，血鈣濃度將暫時上升，約在投藥後的2小時開始上升，而在4-6小時之間達到最高濃度(平均上升0.4 mg/100 mL)。血鈣濃度在投藥後約6小時開始下降，16-24小時後回復至基礎值。 研究停經後婦女骨質疏鬆症的臨床試驗進行12個月，投與FORTEO (皮下注射20 mcg，一天一次) 4-6小時後，平均最高血鈣濃度為9.68 mg/dL。超過99%的婦女每次就診時，最高血鈣濃度維持低於11.0 mg/dL。並未發現持續性高血鈣。 在這個試驗中，11.1%以FORTEO治療的婦女，至少有一次血鈣濃度超過正常上限值(upper limit of normal, ULN)的情形(10.6 mg/dL)，安慰劑組的婦女則為1.5%。在投藥後連續4-6小時，血鈣的測量超過ULN的比例，於FORTEO治療組為3 %，而安慰劑組為0.2 %。在這些婦女，鈣的補充及/或FORTEO的劑量有被降低。劑量降低的時機由試驗者決定。在首次發現血鈣上升(中間值為21週)後，調整FORTEO的劑量，此調整劑量的時機因人而異。在調整劑量的期間，並未出現血鈣繼續升高的情形。 在原發性或性腺功能不足性骨質疏鬆症的男性病人臨床實驗中，對血鈣的影響相似於停經後婦女的臨床試驗。試驗為期12個月，在投與FORTEO後4-6小時，測得平均最高血鈣濃度為9.44 mg/dL。98%男性每次回診最高血鈣濃度維持低於11 mg/dL。未發現持續高血鈣的情形。 在此試驗中，6.0%每天接受FORTEO治療的男性，至少有一次血鈣超過ULN (10.6 mg/dL)，安慰劑組則無此情形。FORTEO治療組的男性，連續血鈣超過ULN的百分比為1.3%(2名)，安慰劑組則無。這些男性僅降低鈣的補充[ 見警語及注意事項(5.1.2)及副作用/不良反應(8.2) ]。 在一項以曾經接受18至39個月raloxifene(26名)或alendronate治療(33名)的女性為對象的臨床試驗，以FORTEO治療1至6個月後，平均血鈣濃度在FORTEO治療後>12小時比基礎值增加0.36至0.56 mg/dL。先以raloxifene治療的婦女中，有3位 (11.5%)的血鈣高於11 mg/dL，而先以alendronate治療者中也有3位(9.1%)的血鈣高於11mg/dL。最高的血鈣值為12.5 mg/dL。沒有婦女出現高血鈣的症狀。本試驗沒有安慰劑對照組。 在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血鈣的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血鈣變化。 尿鈣排泄 — 在一項臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的停經後骨質疏鬆症婦女，發現每日投與FORTEO會增加尿中鈣的排泄。6個月後的平均尿鈣排泄量為190 mg/day，12個月後為170 mg/day。這些值分別比安慰劑治療的婦女高出30 mg/day及12 mg/day。高尿鈣(>300 mg/day)的發生率在FORTEO治療組或安慰劑組相似。 另一臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的原發性或性腺功能不足性骨質疏鬆症男性，每天投與FORTEO對尿鈣排泄的影響不一定。1個月後平均尿鈣排泄為220 mg/day，6個月後為210 mg/day。這些值分別比安慰劑組高20 mg/day，與低8.0 mg/day。高尿鈣>300 mg/day的發生率在FORTEO治療組或安慰劑組相似。 磷與維生素D — 單一劑量的試驗中，teriparatide會造成暫時磷尿症與輕微暫時性的血磷濃度減少。然而，FORTEO的臨床試驗中並未發現低磷血症(<2.4 mg/dL)。 在每日投與FORTEO的臨床試驗中，12個月後，1,25‑dihydroxyvitamin D的平均血中濃度，女性比基礎值增加19%，男性則增加14%。安慰劑組中，此濃度於女性降低2%，於男性增加5%。12個月後，25-hydroxyvitamin D的平均血中濃度，女性比基礎值下降19%，男性則下降10%。安慰劑組中，女性的濃度不變，男性則增加1%。 在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血磷的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血磷變化。 對骨骼代謝標記的作用 — 在臨床試驗中，每日投與FORTEO於骨質疏鬆症的男性與停經後婦女刺激骨生成，可經由成骨標記的增加顯示，包括血清中bone-specific alkaline phosphatase (BSAP)與procollagen I carboxy-terminal propeptide (PICP)。以有治療前12個月骨代謝生化標記的資料。治療1個月後，PICP的最高濃度約高出基礎值41%，至第12個月降至接近基礎值。治療1個月後，BSAP的濃度增加，第6至12個月仍持續而較緩慢的增加。BSAP最高濃度，於女性高於基礎值45 %，於男性則高於基礎值23 %。停止治療後，BSAP的濃度回復至基礎值。成骨標記的增加，伴隨蝕骨標記而有續發性的增加：urinary N- telopeptide (NTX)及urinary deoxypyridinoline (DPD)，與骨骼重塑過程的成骨及蝕骨生理作用相符。BSAP、NTX及DPD濃度的改變，男性低於女性，這可能是因為男性的teriparatide全身性暴露量較低。在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對骨骼代謝血清標記的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的狀況。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>原發性或次發於性腺功能低下症之男性骨質疏鬆症與停經後婦女骨質疏鬆症之藥效</u></strong></p><p><i>礦物質代謝</i> — Teriparatide會影響鈣及磷的代謝，其作用與已知的內生性PTH相同(例如血鈣濃度上升與血磷濃度下降)。<i>血鈣濃度</i> —&nbsp;一天一次投與teriparatide 20 mcg，血鈣濃度將暫時上升，約在投藥後的2小時開始上升，而在4-6小時之間達到最高濃度(平均上升0.4 mg/100 mL)。血鈣濃度在投藥後約6小時開始下降，16-24小時後回復至基礎值。</p><p style=\"text-align:justify;\">研究停經後婦女骨質疏鬆症的臨床試驗進行12個月，投與FORTEO (皮下注射20 mcg，一天一次) 4-6小時後，平均最高血鈣濃度為9.68&nbsp;mg/dL。超過99%的婦女每次就診時，最高血鈣濃度維持低於11.0 mg/dL。並未發現持續性高血鈣。</p><p style=\"text-align:justify;\">在這個試驗中，11.1%以FORTEO治療的婦女，至少有一次血鈣濃度超過正常上限值(upper limit of normal, ULN)的情形(10.6&nbsp;mg/dL)，安慰劑組的婦女則為1.5%。在投藥後連續4-6小時，血鈣的測量超過ULN的比例，於FORTEO治療組為3 %，而安慰劑組為0.2 %。在這些婦女，鈣的補充及/或FORTEO的劑量有被降低。劑量降低的時機由試驗者決定。在首次發現血鈣上升(中間值為21週)後，調整FORTEO的劑量，此調整劑量的時機因人而異。在調整劑量的期間，並未出現血鈣繼續升高的情形。</p><p style=\"text-align:justify;\">在原發性或性腺功能不足性骨質疏鬆症的男性病人臨床實驗中，對血鈣的影響相似於停經後婦女的臨床試驗。試驗為期12個月，在投與FORTEO後4-6小時，測得平均最高血鈣濃度為9.44 mg/dL。98%男性每次回診最高血鈣濃度維持低於11 mg/dL。未發現持續高血鈣的情形。</p><p style=\"text-align:justify;\">在此試驗中，6.0%每天接受FORTEO治療的男性，至少有一次血鈣超過ULN (10.6 mg/dL)，安慰劑組則無此情形。FORTEO治療組的男性，連續血鈣超過ULN的百分比為1.3%(2名)，安慰劑組則無。這些男性僅降低鈣的補充<i>[</i>&nbsp;<i>見警語及注意事項(5.1.2)及副作用/不良反應(8.2) ]</i>。</p><p style=\"text-align:justify;\">在一項以曾經接受18至39個月raloxifene(26名)或alendronate治療(33名)的女性為對象的臨床試驗，以FORTEO治療1至6個月後，平均血鈣濃度在FORTEO治療後&gt;12小時比基礎值增加0.36至0.56 mg/dL。先以raloxifene治療的婦女中，有3位 (11.5%)的血鈣高於11<span style=\"color:blue;\">&nbsp;</span>mg/dL，而先以alendronate治療者中也有3位(9.1%)的血鈣高於11mg/dL。最高的血鈣值為12.5 mg/dL。沒有婦女出現高血鈣的症狀。本試驗沒有安慰劑對照組。</p><p style=\"text-align:justify;\">在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血鈣的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血鈣變化。</p><p><i>尿鈣排泄</i> —&nbsp;在一項臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的停經後骨質疏鬆症婦女，發現每日投與FORTEO會增加尿中鈣的排泄。6個月後的平均尿鈣排泄量為190 mg/day，12個月後為170 mg/day。這些值分別比安慰劑治療的婦女高出30 mg/day及12 mg/day。高尿鈣(&gt;300 mg/day)的發生率在FORTEO治療組或安慰劑組相似。</p><p style=\"text-align:justify;\">另一臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的原發性或性腺功能不足性骨質疏鬆症男性，每天投與FORTEO對尿鈣排泄的影響不一定。1個月後平均尿鈣排泄為220 mg/day，6個月後為210 mg/day。這些值分別比安慰劑組高20 mg/day，與低8.0 mg/day。高尿鈣&gt;300 mg/day的發生率在FORTEO治療組或安慰劑組相似。</p><p><i>磷與維生素D</i> —&nbsp;單一劑量的試驗中，teriparatide會造成暫時磷尿症與輕微暫時性的血磷濃度減少。然而，FORTEO的臨床試驗中並未發現低磷血症(&lt;2.4 mg/dL)。</p><p style=\"text-align:justify;\">在每日投與FORTEO的臨床試驗中，12個月後，1,25‑dihydroxyvitamin D的平均血中濃度，女性比基礎值增加19%，男性則增加14%。安慰劑組中，此濃度於女性降低2%，於男性增加5%。12個月後，25-hydroxyvitamin D的平均血中濃度，女性比基礎值下降19%，男性則下降10%。安慰劑組中，女性的濃度不變，男性則增加1%。</p><p style=\"text-align:justify;\">在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血磷的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血磷變化。</p><p><i>對骨骼代謝標記的作用&nbsp;</i>—&nbsp;在臨床試驗中，每日投與FORTEO於骨質疏鬆症的男性與停經後婦女刺激骨生成，可經由成骨標記的增加顯示，包括血清中bone-specific alkaline phosphatase (BSAP)與procollagen I carboxy-terminal propeptide (PICP)。以有治療前12個月骨代謝生化標記的資料。治療1個月後，PICP的最高濃度約高出基礎值41%，至第12個月降至接近基礎值。治療1個月後，BSAP的濃度增加，第6至12個月仍持續而較緩慢的增加。BSAP最高濃度，於女性高於基礎值45 %，於男性則高於基礎值23 %。停止治療後，BSAP的濃度回復至基礎值。成骨標記的增加，伴隨蝕骨標記而有續發性的增加：urinary N- telopeptide (NTX)及urinary deoxypyridinoline (DPD)，與骨骼重塑過程的成骨及蝕骨生理作用相符。BSAP、NTX及DPD濃度的改變，男性低於女性，這可能是因為男性的teriparatide全身性暴露量較低。在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對骨骼代謝血清標記的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的狀況。</p>",
+          "search_text": "10.2\n藥效藥理特性\n原發性或次發於性腺功能低下症之男性骨質疏鬆症與停經後婦女骨質疏鬆症之藥效 礦物質代謝 — Teriparatide會影響鈣及磷的代謝，其作用與已知的內生性PTH相同(例如血鈣濃度上升與血磷濃度下降)。血鈣濃度 — 一天一次投與teriparatide 20 mcg，血鈣濃度將暫時上升，約在投藥後的2小時開始上升，而在4-6小時之間達到最高濃度(平均上升0.4 mg/100 mL)。血鈣濃度在投藥後約6小時開始下降，16-24小時後回復至基礎值。 研究停經後婦女骨質疏鬆症的臨床試驗進行12個月，投與FORTEO (皮下注射20 mcg，一天一次) 4-6小時後，平均最高血鈣濃度為9.68 mg/dL。超過99%的婦女每次就診時，最高血鈣濃度維持低於11.0 mg/dL。並未發現持續性高血鈣。 在這個試驗中，11.1%以FORTEO治療的婦女，至少有一次血鈣濃度超過正常上限值(upper limit of normal, ULN)的情形(10.6 mg/dL)，安慰劑組的婦女則為1.5%。在投藥後連續4-6小時，血鈣的測量超過ULN的比例，於FORTEO治療組為3 %，而安慰劑組為0.2 %。在這些婦女，鈣的補充及/或FORTEO的劑量有被降低。劑量降低的時機由試驗者決定。在首次發現血鈣上升(中間值為21週)後，調整FORTEO的劑量，此調整劑量的時機因人而異。在調整劑量的期間，並未出現血鈣繼續升高的情形。 在原發性或性腺功能不足性骨質疏鬆症的男性病人臨床實驗中，對血鈣的影響相似於停經後婦女的臨床試驗。試驗為期12個月，在投與FORTEO後4-6小時，測得平均最高血鈣濃度為9.44 mg/dL。98%男性每次回診最高血鈣濃度維持低於11 mg/dL。未發現持續高血鈣的情形。 在此試驗中，6.0%每天接受FORTEO治療的男性，至少有一次血鈣超過ULN (10.6 mg/dL)，安慰劑組則無此情形。FORTEO治療組的男性，連續血鈣超過ULN的百分比為1.3%(2名)，安慰劑組則無。這些男性僅降低鈣的補充[ 見警語及注意事項(5.1.2)及副作用/不良反應(8.2) ]。 在一項以曾經接受18至39個月raloxifene(26名)或alendronate治療(33名)的女性為對象的臨床試驗，以FORTEO治療1至6個月後，平均血鈣濃度在FORTEO治療後>12小時比基礎值增加0.36至0.56 mg/dL。先以raloxifene治療的婦女中，有3位 (11.5%)的血鈣高於11 mg/dL，而先以alendronate治療者中也有3位(9.1%)的血鈣高於11mg/dL。最高的血鈣值為12.5 mg/dL。沒有婦女出現高血鈣的症狀。本試驗沒有安慰劑對照組。 在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血鈣的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血鈣變化。 尿鈣排泄 — 在一項臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的停經後骨質疏鬆症婦女，發現每日投與FORTEO會增加尿中鈣的排泄。6個月後的平均尿鈣排泄量為190 mg/day，12個月後為170 mg/day。這些值分別比安慰劑治療的婦女高出30 mg/day及12 mg/day。高尿鈣(>300 mg/day)的發生率在FORTEO治療組或安慰劑組相似。 另一臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的原發性或性腺功能不足性骨質疏鬆症男性，每天投與FORTEO對尿鈣排泄的影響不一定。1個月後平均尿鈣排泄為220 mg/day，6個月後為210 mg/day。這些值分別比安慰劑組高20 mg/day，與低8.0 mg/day。高尿鈣>300 mg/day的發生率在FORTEO治療組或安慰劑組相似。 磷與維生素D — 單一劑量的試驗中，teriparatide會造成暫時磷尿症與輕微暫時性的血磷濃度減少。然而，FORTEO的臨床試驗中並未發現低磷血症(<2.4 mg/dL)。 在每日投與FORTEO的臨床試驗中，12個月後，1,25‑dihydroxyvitamin D的平均血中濃度，女性比基礎值增加19%，男性則增加14%。安慰劑組中，此濃度於女性降低2%，於男性增加5%。12個月後，25-hydroxyvitamin D的平均血中濃度，女性比基礎值下降19%，男性則下降10%。安慰劑組中，女性的濃度不變，男性則增加1%。 在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血磷的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血磷變化。 對骨骼代謝標記的作用 — 在臨床試驗中，每日投與FORTEO於骨質疏鬆症的男性與停經後婦女刺激骨生成，可經由成骨標記的增加顯示，包括血清中bone-specific alkaline phosphatase (BSAP)與procollagen I carboxy-terminal propeptide (PICP)。以有治療前12個月骨代謝生化標記的資料。治療1個月後，PICP的最高濃度約高出基礎值41%，至第12個月降至接近基礎值。治療1個月後，BSAP的濃度增加，第6至12個月仍持續而較緩慢的增加。BSAP最高濃度，於女性高於基礎值45 %，於男性則高於基礎值23 %。停止治療後，BSAP的濃度回復至基礎值。成骨標記的增加，伴隨蝕骨標記而有續發性的增加：urinary N- telopeptide (NTX)及urinary deoxypyridinoline (DPD)，與骨骼重塑過程的成骨及蝕骨生理作用相符。BSAP、NTX及DPD濃度的改變，男性低於女性，這可能是因為男性的teriparatide全身性暴露量較低。在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對骨骼代謝血清標記的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的狀況。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.3\n臨床前安全性資料",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.1",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.1",
+          "title": "致癌性、突變性、生殖力傷害",
+          "title_html": "致癌性、突變性、生殖力傷害",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "致癌性、突變性、生殖力傷害"
+          ],
+          "content_text": "致癌性 二個致癌性生物測試在Fischer 344大鼠進行。第一個試驗中，公鼠與母鼠每天皮下注射teriparatide 5、30或75 mcg/kg/day，自2月齡開始共持續24個月。這些劑量造成大鼠的全身暴露量，分別為人體皮下注射劑量20 mcg全身暴露量的3、20及60倍(根據曲線下面積AUC比較)。Teriparatide治療導致公鼠與母鼠顯著與劑量相關的骨肉瘤發生率增加，這是一種罕見的惡性骨腫瘤。所有劑量組均發現骨肉瘤，高劑量組的發生率高達40%至50%。Teriparatide也會導致公鼠及母鼠與劑量相關的骨母細胞瘤與骨瘤的增加。對照組大鼠沒有出現骨肉瘤、骨母細胞瘤或骨瘤的病例。大鼠的骨腫瘤會造成骨質大量增加與局部骨母細胞增生。 第二個長達二年的試驗是為了評估治療期間的作用與動物年齡對於發生骨腫瘤的影響。2至26月齡的母鼠，以不同治療期間皮下注射teriparatide 5及30 mcg/kg(相當於20 mcg劑量下，分別為人體暴露量的3及20倍，根據曲線下面積AUC比較)。本試驗顯示骨肉瘤、骨母細胞瘤及骨瘤的發生，與劑量及治療期間有關。當未成熟2月齡大鼠以teriparatide 30 mcg/kg/day治療24個月，或以teriparatide 5或30 mcg/kg/day治療6個月，會出現骨腫瘤。成熟6月齡大鼠以teriparatide 30 mcg/kg/day治療6或20個月，也會出現骨腫瘤。成熟6月齡的大鼠以teriparatide 5 mcg/kg/day治療6或20個月，未發現骨腫瘤。這個結果顯示，成熟與未成熟大鼠之間對teriparatide造成的骨腫瘤敏感性並無差異。 在一項長期的猴子試驗中，並未發現骨腫瘤[見藥理特性(10.3.2)]。 突變性 Teriparatide在下列的測試系統中顯示無基因毒性：測試細菌突變性的Ames試驗；測試哺乳動物細胞突變的小鼠淋巴瘤試驗；於中國黃金鼠卵巢細胞進行的染色體突變檢驗，伴隨有或無代謝性活化；及小鼠活體小核檢驗。 生殖力傷害 公鼠及母鼠交配前皮下注射teriparatide 30、100或300 mcg/kg/day，並持續注射母鼠直到懷孕第6天，對生殖力沒有影響(16至160倍的人體劑量20 mcg，根據體表面積計算，mcg/m2)。",
+          "content_html": "<p style=\"text-align:justify;\"><u>致癌性</u></p><p style=\"text-align:justify;\">二個致癌性生物測試在Fischer 344大鼠進行。第一個試驗中，公鼠與母鼠每天皮下注射teriparatide 5、30或75 mcg/kg/day，自2月齡開始共持續24個月。這些劑量造成大鼠的全身暴露量，分別為人體皮下注射劑量20 mcg全身暴露量的3、20及60倍(根據曲線下面積AUC比較)。Teriparatide治療導致公鼠與母鼠顯著與劑量相關的骨肉瘤發生率增加，這是一種罕見的惡性骨腫瘤。所有劑量組均發現骨肉瘤，高劑量組的發生率高達40%至50%。Teriparatide也會導致公鼠及母鼠與劑量相關的骨母細胞瘤與骨瘤的增加。對照組大鼠沒有出現骨肉瘤、骨母細胞瘤或骨瘤的病例。大鼠的骨腫瘤會造成骨質大量增加與局部骨母細胞增生。</p><p style=\"text-align:justify;\">第二個長達二年的試驗是為了評估治療期間的作用與動物年齡對於發生骨腫瘤的影響。2至26月齡的母鼠，以不同治療期間皮下注射teriparatide 5及30 mcg/kg(相當於20 mcg劑量下，分別為人體暴露量的3及20倍，根據曲線下面積AUC比較)。本試驗顯示骨肉瘤、骨母細胞瘤及骨瘤的發生，與劑量及治療期間有關。當未成熟2月齡大鼠以teriparatide 30 mcg/kg/day治療24個月，或以teriparatide 5或30 mcg/kg/day治療6個月，會出現骨腫瘤。成熟6月齡大鼠以teriparatide 30 mcg/kg/day治療6或20個月，也會出現骨腫瘤。成熟6月齡的大鼠以teriparatide 5 mcg/kg/day治療6或20個月，未發現骨腫瘤。這個結果顯示，成熟與未成熟大鼠之間對teriparatide造成的骨腫瘤敏感性並無差異。</p><p style=\"margin-left:0cm;\">在一項長期的猴子試驗中，並未發現骨腫瘤<i>[見藥理特性(10.3.2)]</i>。</p><p style=\"text-align:justify;\"><u>突變性</u><span style=\"color:blue;\"><s>&nbsp;</s></span></p><p style=\"text-align:justify;\">Teriparatide在下列的測試系統中顯示無基因毒性：測試細菌突變性的Ames試驗；測試哺乳動物細胞突變的小鼠淋巴瘤試驗；於中國黃金鼠卵巢細胞進行的染色體突變檢驗，伴隨有或無代謝性活化；及小鼠活體小核檢驗。</p><p style=\"text-align:justify;\"><u>生殖力傷害</u></p><p>公鼠及母鼠交配前皮下注射teriparatide 30、100或300 mcg/kg/day，並持續注射母鼠直到懷孕第6天，對生殖力沒有影響(16至160倍的人體劑量20 mcg，根據體表面積計算，mcg/m<sup>2</sup>)。</p>",
+          "search_text": "10.3.1\n致癌性、突變性、生殖力傷害\n致癌性 二個致癌性生物測試在Fischer 344大鼠進行。第一個試驗中，公鼠與母鼠每天皮下注射teriparatide 5、30或75 mcg/kg/day，自2月齡開始共持續24個月。這些劑量造成大鼠的全身暴露量，分別為人體皮下注射劑量20 mcg全身暴露量的3、20及60倍(根據曲線下面積AUC比較)。Teriparatide治療導致公鼠與母鼠顯著與劑量相關的骨肉瘤發生率增加，這是一種罕見的惡性骨腫瘤。所有劑量組均發現骨肉瘤，高劑量組的發生率高達40%至50%。Teriparatide也會導致公鼠及母鼠與劑量相關的骨母細胞瘤與骨瘤的增加。對照組大鼠沒有出現骨肉瘤、骨母細胞瘤或骨瘤的病例。大鼠的骨腫瘤會造成骨質大量增加與局部骨母細胞增生。 第二個長達二年的試驗是為了評估治療期間的作用與動物年齡對於發生骨腫瘤的影響。2至26月齡的母鼠，以不同治療期間皮下注射teriparatide 5及30 mcg/kg(相當於20 mcg劑量下，分別為人體暴露量的3及20倍，根據曲線下面積AUC比較)。本試驗顯示骨肉瘤、骨母細胞瘤及骨瘤的發生，與劑量及治療期間有關。當未成熟2月齡大鼠以teriparatide 30 mcg/kg/day治療24個月，或以teriparatide 5或30 mcg/kg/day治療6個月，會出現骨腫瘤。成熟6月齡大鼠以teriparatide 30 mcg/kg/day治療6或20個月，也會出現骨腫瘤。成熟6月齡的大鼠以teriparatide 5 mcg/kg/day治療6或20個月，未發現骨腫瘤。這個結果顯示，成熟與未成熟大鼠之間對teriparatide造成的骨腫瘤敏感性並無差異。 在一項長期的猴子試驗中，並未發現骨腫瘤[見藥理特性(10.3.2)]。 突變性 Teriparatide在下列的測試系統中顯示無基因毒性：測試細菌突變性的Ames試驗；測試哺乳動物細胞突變的小鼠淋巴瘤試驗；於中國黃金鼠卵巢細胞進行的染色體突變檢驗，伴隨有或無代謝性活化；及小鼠活體小核檢驗。 生殖力傷害 公鼠及母鼠交配前皮下注射teriparatide 30、100或300 mcg/kg/day，並持續注射母鼠直到懷孕第6天，對生殖力沒有影響(16至160倍的人體劑量20 mcg，根據體表面積計算，mcg/m2)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.2",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.2",
+          "title": "動物毒性",
+          "title_html": "動物毒性",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "動物毒性"
+          ],
+          "content_text": "單一劑量的老鼠臨床試驗中，皮下注射teriparatide，大鼠投與劑量1000 mcg/kg(人體劑量的540倍，根據體表面積計算，mcg/m2)或小鼠投與10,000 mcg/kg (人體劑量的2700倍，根據體表面積計算，mcg/m2)，沒有發現死亡報告。 長期的臨床試驗中，卵巢切除的成年母猴(N=每治療組30) 每天皮下注射teriparatide 5 mcg/kg或安慰劑。18個月治療期後，停止teriparatide治療，再觀察3年。5 mcg/kg劑量造成的全身暴露量約為人體皮下注射量20 mcg/kg全身暴露量的6倍(根據曲線下面積AUC比較)。本試驗中的猴子經X光檢查及組織評估並無測出骨腫瘤。",
+          "content_html": "<p style=\"text-align:justify;\">單一劑量的老鼠臨床試驗中，皮下注射teriparatide，大鼠投與劑量1000 mcg/kg(人體劑量的540倍，根據體表面積計算，mcg/m<sup>2</sup>)或小鼠投與10,000 mcg/kg (人體劑量的2700倍，根據體表面積計算，mcg/m<sup>2</sup>)，沒有發現死亡報告。</p><p style=\"text-align:justify;\">長期的臨床試驗中，卵巢切除的成年母猴(N=每治療組30)&nbsp;每天皮下注射teriparatide 5&nbsp; mcg/kg或安慰劑。18個月治療期後，停止teriparatide治療，再觀察3年。5 mcg/kg劑量造成的全身暴露量約為人體皮下注射量20&nbsp; mcg/kg全身暴露量的6倍(根據曲線下面積AUC比較)。本試驗中的猴子經X光檢查及組織評估並無測出骨腫瘤。</p>",
+          "search_text": "10.3.2\n動物毒性\n單一劑量的老鼠臨床試驗中，皮下注射teriparatide，大鼠投與劑量1000 mcg/kg(人體劑量的540倍，根據體表面積計算，mcg/m2)或小鼠投與10,000 mcg/kg (人體劑量的2700倍，根據體表面積計算，mcg/m2)，沒有發現死亡報告。 長期的臨床試驗中，卵巢切除的成年母猴(N=每治療組30) 每天皮下注射teriparatide 5 mcg/kg或安慰劑。18個月治療期後，停止teriparatide治療，再觀察3年。5 mcg/kg劑量造成的全身暴露量約為人體皮下注射量20 mcg/kg全身暴露量的6倍(根據曲線下面積AUC比較)。本試驗中的猴子經X光檢查及組織評估並無測出骨腫瘤。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "吸收 — Teriparatide在皮下注射後將被廣泛的吸收；根據20、40與80 mcg(分別為建議劑量的1倍、2倍和4倍)的合併研究資料顯示，絕對生體可用率約95%。此胜肽在皮下注射20 mcg劑量後約30分鐘，可達最高血漿濃度，三小時內會減少至無法定量的濃度。 分佈 — 靜脈注射後的分佈體積約為0.12 公升/公斤。 排除 — Teriparatide的全身清除率(女性約62公升/小時，男性約94公升/小時)超過正常肝血流速率，表示同時有肝臟及肝臟以外的清除作用。皮下注射teriparatide的血清中半衰期約為1小時。 有關teriparatide代謝或排泄的試驗尚未進行。PTH的周邊代謝被認為是發生於肝臟的非特異性酵素代謝作用，再經腎臟排泄。 特殊族群 老年人病人 — Teriparatide的藥物動力學無年齡差異(年齡31至85歲)。 男性與女性病人 — 雖然teriparatide的全身暴露量，於男性約低於女性20%至30%，但對男性及女性的建議劑量相同。 種族 — 對人種的差異尚未確立。 腎功能不全病人 — 在11位肌酸酐廓清率 (CrCl) 30至72 mL/minute的病人中，單次投與teriparatide，其藥物動力學並無差異。在5位嚴重腎功能不足(CrCl<30 mL/minute)的病人中，teriparatide的曲線下面積 (AUC) 與半衰期分別增加73%與77%，最高血漿濃度並未增加。對於接受透析的慢性腎衰竭病人尚無相關研究[見特殊族群注意事項(6.7)]。 肝功能不全 —尚未以肝功能不全的病人進行相關研究。肝中[可能是庫弗氏細胞(Kupffer cells)]非特異性蛋白分解酵素，分解PTH(1‑34)及PTH(1‑84)成為數個片段，這些片段主要由腎臟自循環中清除。 藥物交互作用研究 Digoxin — 15位健康受試者每天投與digoxin至穩定狀態的試驗中，單一劑量的FORTEO不會影響digoxin對收縮時間間隔的作用(自心電圖Q波起始至主動脈瓣關閉，一種測量digoxin藉由鈣離子影響心功能的方法)。 Hydrochlorothiazide — 在20位健康人的試驗中，同時投與Hydrochlorothiazide 25 mg與FORTEO 40 mcg (建議劑量的2倍)，不會影響FORTEO對血鈣濃度的反應。24小時內尿液的鈣排泄量降低15%，而此量於臨床上不具重要影響。同時投與較高劑量的hydrochlorothiazide及FORTEO，對血鈣的影響尚未研究。 Furosemide —在一項以9位健康人與17位肌酸酐廓清率13至72 mL/minute腎功能不全病人為對象的研究中，同時靜脈注射furosemide (20至100 mg)與FORTEO 40 mcg(建議劑量的2倍)，輕微增加血鈣 (2%)與24小時尿鈣 (37%)，這些改變於臨床上似乎不具重要影響。",
+          "content_html": "<p style=\"text-align:justify;\"><u>吸收</u> — Teriparatide在皮下注射後將被廣泛的吸收；根據20、40與80 mcg(分別為建議劑量的1倍、2倍和4倍)的合併研究資料顯示，絕對生體可用率約95%。此胜肽在皮下注射20 mcg劑量後約30分鐘，可達最高血漿濃度，三小時內會減少至無法定量的濃度。</p><p style=\"text-align:justify;\"><u>分佈</u> —&nbsp;靜脈注射後的分佈體積約為0.12&nbsp;公升/公斤。</p><p style=\"text-align:justify;\"><u>排除</u> — Teriparatide的全身清除率(女性約62公升/小時，男性約94公升/小時)超過正常肝血流速率，表示同時有肝臟及肝臟以外的清除作用。皮下注射teriparatide的血清中半衰期約為1小時。</p><p style=\"text-align:justify;\">有關teriparatide代謝或排泄的試驗尚未進行。PTH的周邊代謝被認為是發生於肝臟的非特異性酵素代謝作用，再經腎臟排泄。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><u>特殊族群</u></p><p style=\"text-align:justify;\"><u>老年人病人</u> — Teriparatide的藥物動力學無年齡差異(年齡31至85歲)。</p><p style=\"text-align:justify;\"><u>男性與女性病人</u> —&nbsp;雖然teriparatide的全身暴露量，於男性約低於女性20%至30%，但對男性及女性的建議劑量相同。</p><p style=\"text-align:justify;\"><u>種族</u> —<span style=\"color:blue;\">&nbsp;</span>對人種的差異尚未確立。</p><p style=\"text-align:justify;\"><u>腎功能不全病人</u>&nbsp;—&nbsp;在11位肌酸酐廓清率 (CrCl) 30至72 mL/minute的病人中，單次投與teriparatide，其藥物動力學並無差異。在5位嚴重腎功能不足(CrCl&lt;30 mL/minute)的病人中，teriparatide的曲線下面積 (AUC)&nbsp;與半衰期分別增加73%與77%，最高血漿濃度並未增加。對於接受透析的慢性腎衰竭病人尚無相關研究<i>[見特殊族群注意事項(6.7)]</i>。</p><p style=\"text-align:justify;\"><u>肝功能不全</u>&nbsp;—尚未以肝功能不全的病人進行相關研究。肝中[可能是庫弗氏細胞(Kupffer cells)]非特異性蛋白分解酵素，分解PTH(1‑34)及PTH(1‑84)成為數個片段，這些片段主要由腎臟自循環中清除。</p><p style=\"text-align:justify;\"><u>藥物交互作用研究</u></p><p style=\"text-align:justify;\">Digoxin — 15位健康受試者每天投與digoxin至穩定狀態的試驗中，單一劑量的FORTEO不會影響digoxin對收縮時間間隔的作用(自心電圖Q波起始至主動脈瓣關閉，一種測量digoxin藉由鈣離子影響心功能的方法)。</p><p style=\"text-align:justify;\">Hydrochlorothiazide — 在20位健康人的試驗中，同時投與Hydrochlorothiazide 25 mg與FORTEO 40 mcg (建議劑量的2倍)，不會影響FORTEO對血鈣濃度的反應。24小時內尿液的鈣排泄量降低15%，而此量於臨床上不具重要影響。同時投與較高劑量的hydrochlorothiazide及FORTEO，對血鈣的影響尚未研究。</p><p style=\"text-align:justify;\">Furosemide&nbsp;—在一項以9位健康人與17位肌酸酐廓清率13至72 mL/minute腎功能不全病人為對象的研究中，同時靜脈注射furosemide (20至100 mg)與FORTEO 40 mcg(建議劑量的2倍)，輕微增加血鈣 (2%)與24小時尿鈣 (37%)，這些改變於臨床上似乎不具重要影響。</p>",
+          "search_text": "11\n藥物動力學特性\n吸收 — Teriparatide在皮下注射後將被廣泛的吸收；根據20、40與80 mcg(分別為建議劑量的1倍、2倍和4倍)的合併研究資料顯示，絕對生體可用率約95%。此胜肽在皮下注射20 mcg劑量後約30分鐘，可達最高血漿濃度，三小時內會減少至無法定量的濃度。 分佈 — 靜脈注射後的分佈體積約為0.12 公升/公斤。 排除 — Teriparatide的全身清除率(女性約62公升/小時，男性約94公升/小時)超過正常肝血流速率，表示同時有肝臟及肝臟以外的清除作用。皮下注射teriparatide的血清中半衰期約為1小時。 有關teriparatide代謝或排泄的試驗尚未進行。PTH的周邊代謝被認為是發生於肝臟的非特異性酵素代謝作用，再經腎臟排泄。 特殊族群 老年人病人 — Teriparatide的藥物動力學無年齡差異(年齡31至85歲)。 男性與女性病人 — 雖然teriparatide的全身暴露量，於男性約低於女性20%至30%，但對男性及女性的建議劑量相同。 種族 — 對人種的差異尚未確立。 腎功能不全病人 — 在11位肌酸酐廓清率 (CrCl) 30至72 mL/minute的病人中，單次投與teriparatide，其藥物動力學並無差異。在5位嚴重腎功能不足(CrCl<30 mL/minute)的病人中，teriparatide的曲線下面積 (AUC) 與半衰期分別增加73%與77%，最高血漿濃度並未增加。對於接受透析的慢性腎衰竭病人尚無相關研究[見特殊族群注意事項(6.7)]。 肝功能不全 —尚未以肝功能不全的病人進行相關研究。肝中[可能是庫弗氏細胞(Kupffer cells)]非特異性蛋白分解酵素，分解PTH(1‑34)及PTH(1‑84)成為數個片段，這些片段主要由腎臟自循環中清除。 藥物交互作用研究 Digoxin — 15位健康受試者每天投與digoxin至穩定狀態的試驗中，單一劑量的FORTEO不會影響digoxin對收縮時間間隔的作用(自心電圖Q波起始至主動脈瓣關閉，一種測量digoxin藉由鈣離子影響心功能的方法)。 Hydrochlorothiazide — 在20位健康人的試驗中，同時投與Hydrochlorothiazide 25 mg與FORTEO 40 mcg (建議劑量的2倍)，不會影響FORTEO對血鈣濃度的反應。24小時內尿液的鈣排泄量降低15%，而此量於臨床上不具重要影響。同時投與較高劑量的hydrochlorothiazide及FORTEO，對血鈣的影響尚未研究。 Furosemide —在一項以9位健康人與17位肌酸酐廓清率13至72 mL/minute腎功能不全病人為對象的研究中，同時靜脈注射furosemide (20至100 mg)與FORTEO 40 mcg(建議劑量的2倍)，輕微增加血鈣 (2%)與24小時尿鈣 (37%)，這些改變於臨床上似乎不具重要影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "12\n臨床試驗資料",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.1",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.1",
+          "title": "治療停經婦女的骨質疏鬆症",
+          "title_html": "治療停經婦女的骨質疏鬆症",
+          "path": [
+            "臨床試驗資料",
+            "治療停經婦女的骨質疏鬆症"
+          ],
+          "content_text": "以1637名停經骨質疏鬆症婦女為對象的雙盲、多中心、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，與19個月的平均暴露量。 這項試驗中，541名停經後婦女接受FORTEO 20 mcg皮下注射治療，一天一次。 所有女性每天均接受1000 mg的鈣與至少400國際單位的維生素D。治療前與治療後之X光照片，以半定量評分(semiquantitative scoring)評估。本試驗中90%的女性，治療前經X光照片診斷，至少有一處以上脊椎骨折。主要治療終點為X光照片診斷顯示新脊椎骨折的發生，脊椎骨折定義為之前未變形脊椎骨的高度改變。這種骨折不一定會出現症狀。 對骨折發生率的作用 新脊椎骨折 — FORTEO與鈣及維生素D併用，與只服用鈣及維生素D相比，可降低發生一處或多處新脊椎骨折的風險，由安慰劑組的14.3%降至FORTEO組的5.0% (541名接受FORTEO 20 mcg一天一次治療的病人中，有444名被納入分析中)。此差異具統計學的意義(p<0.001)；絕對風險降低9.3%，相對風險降低65%。FORTEO有效降低脊椎骨折的危險性，與年齡、治療前骨代謝率或治療前骨密度(BMD)無關(見表2)。\n表2 FORTEO對停經後婦女骨質疏鬆症之脊椎骨折風險的作用 脊椎骨折婦女百分比 FORTEO (N=444) 安慰劑 (N=448) 絕對風險降低 (%, 95%信賴區間) 相對風險降低 (%, 95%信賴區間) 新發生的脊椎骨折 (³1) 5.0a 14.3 9.3 (5.5-13.1) 65 (45-78) 1處骨折 3.8 9.4 2處骨折 0.9 2.9 ≥3處骨折 0.2 2.0 a p≤ 0.001與安慰劑組比較。\n非脊椎之新骨質疏鬆性骨折 —FORTEO顯著降低所有非脊椎之骨折發生的可能性，由安慰劑組的5.5%降至FORTEO組的2.6% (p<0.05)。絕對風險降低2.9%，相對風險降低53%。FORTEO組相對於安慰劑組新的非脊椎骨折發生率分別為：腳踝/腳部(0.2 %，0.7 %)、髖部(0.2 %，0.7 %)、肱骨(0.4 %，0.4 %)、骨盆(0 %，0.6 %)、肋骨(0.6 %，0.9 %)、腕部(0.4 %，1.3 %)及其他部位(1.1 %，1.5 %)。 停經後骨質疏鬆症婦女持續發生新的非脊椎骨折的累積百分比，FORTEO治療組低於安慰劑治療組(見圖1)。 圖1 停經後骨質疏鬆症婦女持續發生新的非脊椎骨質疏鬆性骨折的累積百分比\n對骨密度(BMD)的作用 FORTEO增加停經後骨質疏鬆症婦女的腰椎骨骨密度。治療後3個月出現統計上有意義的增加，並於治療期間持續增加。以FORTEO治療之停經後婦女骨質疏鬆症，治療前與治療終點其腰椎 (Lumbar spine)、股骨頸 (femoral neck)、全髖部 (total hip) 及全身的骨密度也都具統計意義的增加(見表3)。\n表3 FORTEO組與安慰劑組治療停經後婦女骨質疏鬆症，治療期間中位數19個月治療前與治療終點a之骨密度變化平均百分比 FORTEO N=541 安慰劑 N=544 腰椎 (Lumbar spine) BMD 9.7b 1.1 股骨頸 (Femoral neck) BMD 2.8c -0.7 全髖部 (Total hip) BMD 2.6c -1.0 大轉子 (Trochanter) BMD 3.5c -0.2 轉子間 (Intertrochanter) BMD 2.6c -1.3 華氏三角 (Ward’s triangle) BMD 4.2c -0.8 全身整體 (Total body) BMD 0.6c -0.5 橈骨末端1/3 (Distal 1/3 radius) BMD -2.1 -1.3 橈骨最末端 (Ultradistal radius) BMD -0.1 -1.6 a意圖治療 (Intent-to-treat) 分析，紀錄最後一次觀察。 b p<0.001與安慰劑組比較。 c p<0.05與安慰劑組比較。 與治療前比較，FORTEO增加96 %停經婦女腰椎骨的骨密度。72 %以FORTEO治療的病人，至少增加5% 的脊椎骨密度，44%的病人增加10 %或以上。 試驗中二組病人的身高均減少。安慰劑與FORTEO組平均分別減少3.61與2.81 mm。 骨組織學 以腸骨骼塉切片檢查法(iliac crest biopsies)評估FORTEO對骨組織的作用，共評估35位停經後婦女，每天以FORTEO併用鈣與維生素D治療12至24個月。結果發現正常礦化作用，無細胞毒性跡象。FORTEO刺激新生成的骨骼品質正常(並未發現蜂窩狀骨或骨髓纖維化)。",
+          "content_html": "<p style=\"text-align:justify;\">以1637名停經骨質疏鬆症婦女為對象的雙盲、多中心、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，與19個月的平均暴露量。</p><p style=\"text-align:justify;\">這項試驗中，541名停經後婦女接受FORTEO 20 mcg皮下注射治療，一天一次。</p><p style=\"text-align:justify;\">所有女性每天均接受1000 mg的鈣與至少400國際單位的維生素D。治療前與治療後之X光照片，以半定量評分(semiquantitative scoring)評估。本試驗中90%的女性，治療前經X光照片診斷，至少有一處以上脊椎骨折。主要治療終點為X光照片診斷顯示新脊椎骨折的發生，脊椎骨折定義為之前未變形脊椎骨的高度改變。這種骨折不一定會出現症狀。</p><p style=\"text-align:justify;\"><u>對骨折發生率的作用</u></p><p style=\"margin-left:0cm;text-align:justify;\">新脊椎骨折 — FORTEO與鈣及維生素D併用，與只服用鈣及維生素D相比，可降低發生一處或多處新脊椎骨折的風險，由安慰劑組的14.3%降至FORTEO組的5.0% (541名接受FORTEO 20 mcg一天一次治療的病人中，有444名被納入分析中)。此差異具統計學的意義(p&lt;0.001)；絕對風險降低9.3%，相對風險降低65%。FORTEO有效降低脊椎骨折的危險性，與年齡、治療前骨代謝率或治療前骨密度(BMD)無關(見表2)。</p>\n<p><strong>表2&nbsp; &nbsp;FORTEO對停經後婦女骨質疏鬆症之脊椎骨折風險的作用</strong></p><figure class=\"table\" style=\"width:70.26%;\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;height:11.1pt;padding:0cm 5.4pt;width:100.0%;\" colspan=\"5\"><p style=\"margin-left:0cm;\"><strong>脊椎骨折婦女百分比</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:20.55pt;padding:0cm 5.4pt;width:27.04%;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:20.55pt;padding:0cm 5.4pt;width:11.68%;\"><p style=\"margin-left:0cm;\"><strong>FORTEO</strong></p><p style=\"margin-left:0cm;\"><strong>(N=444)</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:20.55pt;padding:0cm 5.4pt;width:15.26%;\"><p style=\"margin-left:0cm;\"><strong>安慰劑</strong></p><p style=\"margin-left:0cm;\"><strong>(N=448)</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:20.55pt;padding:0cm 5.4pt;width:22.14%;\"><p style=\"margin-left:0cm;\"><strong>絕對風險降低</strong></p><p style=\"margin-left:0cm;\"><strong>&nbsp;(%, 95%信賴區間)</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:20.55pt;padding:0cm 5.4pt;width:23.88%;\"><p style=\"margin-left:0cm;\"><strong>相對風險降低</strong></p><p style=\"margin-left:0cm;\"><strong>&nbsp;(%, 95%信賴區間)</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.0pt;padding:0cm 5.4pt;width:27.04%;\"><p style=\"margin-left:0cm;text-align:justify;\">新發生的脊椎骨折 (³1)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.0pt;padding:0cm 5.4pt;width:11.68%;\"><p style=\"margin-left:0cm;\">5.0<sup>a</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.0pt;padding:0cm 5.4pt;width:15.26%;\"><p style=\"margin-left:0cm;\">14.3</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.0pt;padding:0cm 5.4pt;width:22.14%;\"><p style=\"margin-left:0cm;\">9.3</p><p style=\"margin-left:0cm;\">(5.5-13.1)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.0pt;padding:0cm 5.4pt;width:23.88%;\"><p style=\"margin-left:0cm;\">65</p><p style=\"margin-left:0cm;\">(45-78)</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:8.7pt;padding:0cm 5.4pt;width:27.04%;\"><p style=\"margin-left:0cm;text-align:justify;\">1處骨折</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:8.7pt;padding:0cm 5.4pt;width:11.68%;\"><p style=\"margin-left:0cm;\">3.8</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:8.7pt;padding:0cm 5.4pt;width:15.26%;\"><p style=\"margin-left:0cm;\">9.4</p></td><td style=\"height:8.7pt;padding:0cm 5.4pt;vertical-align:top;width:46.02%;\" colspan=\"2\" rowspan=\"3\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.75pt;padding:0cm 5.4pt;width:27.04%;\"><p style=\"margin-left:0cm;text-align:justify;\">2處骨折</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:3.75pt;padding:0cm 5.4pt;width:11.68%;\"><p style=\"margin-left:0cm;\">0.9</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:3.75pt;padding:0cm 5.4pt;width:15.26%;\"><p style=\"margin-left:0cm;\">2.9</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:7.35pt;padding:0cm 5.4pt;width:27.04%;\"><p style=\"margin-left:0cm;text-align:justify;\">≥3處骨折</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:7.35pt;padding:0cm 5.4pt;width:11.68%;\"><p style=\"margin-left:0cm;\">0.2</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:7.35pt;padding:0cm 5.4pt;width:15.26%;\"><p style=\"margin-left:0cm;\">2.0</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\"><sup>a</sup> p≤ 0.001與安慰劑組比較。</p>\n<p style=\"margin-left:0cm;text-align:justify;\">非脊椎之新骨質疏鬆性骨折 —FORTEO顯著降低所有非脊椎之骨折發生的可能性，由安慰劑組的5.5%降至FORTEO組的2.6% (p&lt;0.05)。絕對風險降低2.9%，相對風險降低53%。FORTEO組相對於安慰劑組新的非脊椎骨折發生率分別為：腳踝/腳部(0.2 %，0.7 %)、髖部(0.2 %，0.7&nbsp;%)、肱骨(0.4 %，0.4 %)、骨盆(0 %，0.6 %)、肋骨(0.6 %，0.9 %)、腕部(0.4 %，1.3 %)及其他部位(1.1 %，1.5 %)。</p><p style=\"margin-left:0cm;text-align:justify;\">停經後骨質疏鬆症婦女持續發生新的非脊椎骨折的累積百分比，FORTEO治療組低於安慰劑治療組(見圖1)。</p><p style=\"text-align:center;\"><strong>圖1 &nbsp;停經後骨質疏鬆症婦女持續發生新的非脊椎骨質疏鬆性骨折的累積百分比</strong></p>\n<p style=\"text-align:justify;\"><u>對骨密度(BMD)的作用</u></p><p style=\"text-align:justify;\">FORTEO增加停經後骨質疏鬆症婦女的腰椎骨骨密度。治療後3個月出現統計上有意義的增加，並於治療期間持續增加。以FORTEO治療之停經後婦女骨質疏鬆症，治療前與治療終點其腰椎 (Lumbar spine)、股骨頸 (femoral neck)、全髖部 (total hip)&nbsp;及全身的骨密度也都具統計意義的增加(見表3)。</p>\n<p style=\"text-align:center;\"><strong>表3&nbsp; &nbsp; &nbsp;FORTEO組與安慰劑組治療停經後婦女骨質疏鬆症，治療期間中位數19個月治療前與治療終點<sup>a</sup>之骨密度變化平均百分比</strong></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\"><strong>FORTEO</strong></p><p style=\"margin-left:0cm;\"><strong>N=541</strong></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\"><strong>安慰劑</strong></p><p style=\"margin-left:0cm;\"><strong>N=544</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">腰椎 (Lumbar spine) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">9.7<sup>b</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">1.1</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">股骨頸 (Femoral neck) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">2.8<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-0.7</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">全髖部 (Total hip) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">2.6<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-1.0</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">大轉子 (Trochanter) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">3.5<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-0.2</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">轉子間 (Intertrochanter) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">2.6<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-1.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">華氏三角 (Ward’s triangle) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">4.2<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-0.8</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">全身整體 (Total body) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">0.6<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-0.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">橈骨末端1/3 (Distal 1/3 radius) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">-2.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-1.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:256.85pt;\"><p style=\"text-align:justify;\">橈骨最末端 (Ultradistal radius) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.15pt;\"><p style=\"margin-left:0cm;\">-0.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:85.5pt;\"><p style=\"margin-left:0cm;\">-1.6</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\"><sup>a</sup>意圖治療 (Intent-to-treat)&nbsp;分析，紀錄最後一次觀察。</p><p style=\"text-align:justify;\"><sup>b</sup> p&lt;0.001與安慰劑組比較。</p><p style=\"text-align:justify;\"><sup>c</sup> p&lt;0.05與安慰劑組比較。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">與治療前比較，FORTEO增加96 %停經婦女腰椎骨的骨密度。72 %以FORTEO治療的病人，至少增加5%&nbsp;的脊椎骨密度，44%的病人增加10 %或以上。</p><p style=\"text-align:justify;\">試驗中二組病人的身高均減少。安慰劑與FORTEO組平均分別減少3.61與2.81 mm。</p><p style=\"text-align:justify;\"><u>骨組織學</u><span style=\"color:blue;\"><s>&nbsp;</s>&nbsp;</span></p><p style=\"text-align:justify;\">以腸骨骼塉切片檢查法(iliac crest biopsies)評估FORTEO對骨組織的作用，共評估35位停經後婦女，每天以FORTEO併用鈣與維生素D治療12至24個月。結果發現正常礦化作用，無細胞毒性跡象。FORTEO刺激新生成的骨骼品質正常(並未發現蜂窩狀骨或骨髓纖維化)。</p>",
+          "search_text": "12.1\n治療停經婦女的骨質疏鬆症\n以1637名停經骨質疏鬆症婦女為對象的雙盲、多中心、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，與19個月的平均暴露量。 這項試驗中，541名停經後婦女接受FORTEO 20 mcg皮下注射治療，一天一次。 所有女性每天均接受1000 mg的鈣與至少400國際單位的維生素D。治療前與治療後之X光照片，以半定量評分(semiquantitative scoring)評估。本試驗中90%的女性，治療前經X光照片診斷，至少有一處以上脊椎骨折。主要治療終點為X光照片診斷顯示新脊椎骨折的發生，脊椎骨折定義為之前未變形脊椎骨的高度改變。這種骨折不一定會出現症狀。 對骨折發生率的作用 新脊椎骨折 — FORTEO與鈣及維生素D併用，與只服用鈣及維生素D相比，可降低發生一處或多處新脊椎骨折的風險，由安慰劑組的14.3%降至FORTEO組的5.0% (541名接受FORTEO 20 mcg一天一次治療的病人中，有444名被納入分析中)。此差異具統計學的意義(p<0.001)；絕對風險降低9.3%，相對風險降低65%。FORTEO有效降低脊椎骨折的危險性，與年齡、治療前骨代謝率或治療前骨密度(BMD)無關(見表2)。\n表2 FORTEO對停經後婦女骨質疏鬆症之脊椎骨折風險的作用 脊椎骨折婦女百分比 FORTEO (N=444) 安慰劑 (N=448) 絕對風險降低 (%, 95%信賴區間) 相對風險降低 (%, 95%信賴區間) 新發生的脊椎骨折 (³1) 5.0a 14.3 9.3 (5.5-13.1) 65 (45-78) 1處骨折 3.8 9.4 2處骨折 0.9 2.9 ≥3處骨折 0.2 2.0 a p≤ 0.001與安慰劑組比較。\n非脊椎之新骨質疏鬆性骨折 —FORTEO顯著降低所有非脊椎之骨折發生的可能性，由安慰劑組的5.5%降至FORTEO組的2.6% (p<0.05)。絕對風險降低2.9%，相對風險降低53%。FORTEO組相對於安慰劑組新的非脊椎骨折發生率分別為：腳踝/腳部(0.2 %，0.7 %)、髖部(0.2 %，0.7 %)、肱骨(0.4 %，0.4 %)、骨盆(0 %，0.6 %)、肋骨(0.6 %，0.9 %)、腕部(0.4 %，1.3 %)及其他部位(1.1 %，1.5 %)。 停經後骨質疏鬆症婦女持續發生新的非脊椎骨折的累積百分比，FORTEO治療組低於安慰劑治療組(見圖1)。 圖1 停經後骨質疏鬆症婦女持續發生新的非脊椎骨質疏鬆性骨折的累積百分比\n對骨密度(BMD)的作用 FORTEO增加停經後骨質疏鬆症婦女的腰椎骨骨密度。治療後3個月出現統計上有意義的增加，並於治療期間持續增加。以FORTEO治療之停經後婦女骨質疏鬆症，治療前與治療終點其腰椎 (Lumbar spine)、股骨頸 (femoral neck)、全髖部 (total hip) 及全身的骨密度也都具統計意義的增加(見表3)。\n表3 FORTEO組與安慰劑組治療停經後婦女骨質疏鬆症，治療期間中位數19個月治療前與治療終點a之骨密度變化平均百分比 FORTEO N=541 安慰劑 N=544 腰椎 (Lumbar spine) BMD 9.7b 1.1 股骨頸 (Femoral neck) BMD 2.8c -0.7 全髖部 (Total hip) BMD 2.6c -1.0 大轉子 (Trochanter) BMD 3.5c -0.2 轉子間 (Intertrochanter) BMD 2.6c -1.3 華氏三角 (Ward’s triangle) BMD 4.2c -0.8 全身整體 (Total body) BMD 0.6c -0.5 橈骨末端1/3 (Distal 1/3 radius) BMD -2.1 -1.3 橈骨最末端 (Ultradistal radius) BMD -0.1 -1.6 a意圖治療 (Intent-to-treat) 分析，紀錄最後一次觀察。 b p<0.001與安慰劑組比較。 c p<0.05與安慰劑組比較。 與治療前比較，FORTEO增加96 %停經婦女腰椎骨的骨密度。72 %以FORTEO治療的病人，至少增加5% 的脊椎骨密度，44%的病人增加10 %或以上。 試驗中二組病人的身高均減少。安慰劑與FORTEO組平均分別減少3.61與2.81 mm。 骨組織學 以腸骨骼塉切片檢查法(iliac crest biopsies)評估FORTEO對骨組織的作用，共評估35位停經後婦女，每天以FORTEO併用鈣與維生素D治療12至24個月。結果發現正常礦化作用，無細胞毒性跡象。FORTEO刺激新生成的骨骼品質正常(並未發現蜂窩狀骨或骨髓纖維化)。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 69240
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.2",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.2",
+          "title": "增加原發性或性腺功能不足性骨質疏鬆症男性骨骼質量的治療",
+          "title_html": "增加原發性或性腺功能不足性骨質疏鬆症男性骨骼質量的治療",
+          "path": [
+            "臨床試驗資料",
+            "增加原發性或性腺功能不足性骨質疏鬆症男性骨骼質量的治療"
+          ],
+          "content_text": "以437名原發性(不明原因)或性腺功能不足性骨質疏鬆症男性病人為對象的雙盲、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，平均治療時間為10個月。這項試驗中有151名男性病人接受FORTEO 20 mcg皮下注射，一天一次。所有男性病人每天投與1000 mg的鈣與至少400國際單位的維生素D。主要治療終點為腰椎骨密度的改變。 FORTEO增加原發性或性腺功能不足性骨質疏鬆症男性病人的腰椎骨密度。治療第3個月出現具統計意義的增加，並於治療期間持續。增加FORTEO可有效增加腰椎骨密度，此與年齡、治療前骨代謝率及治療前骨密度(BMD)無關。FORTEO對其他部位骨骼的作用顯示於表4。 與治療前比較，FORTEO平均治療10個月可增加94%男性病人腰椎骨的骨密度。53%以FORTEO治療的病人，至少增加5%的脊椎骨密度，14%的病人增加10%或以上。\n表4 FORTEO組與安慰劑組治療原發性或性腺功能不足性男性骨質疏鬆症治療前與治療終點a之骨密度變化平均百分比治療平均時間為10個月 FORTEO N=151 安慰劑 N=147 腰椎 (Lumbar spine) BMD 5.9b 0.5 股骨頸 (Femoral neck) BMD 1.5c 0.3 全髖部 (Total hip) BMD 1.2 0.5 大轉子 (Trochanter) BMD 1.3 1.1 轉子間 (Intertrochanter) BMD 1.2 0.6 華氏三角 (Ward’s triangle) BMD 2.8 1.1 全身整體 (Total body) BMD 0.4 -0.4 橈骨末端1/3 (Distal 1/3 radius) BMD -0.5 -0.2 橈骨最末端 (Ultradistal radius) BMD -0.5 -0.3 a意圖治療 (Intent-to-treat) 分析，紀錄進行最後一次觀察。 b p<0.001與安慰劑組比較。 c p<0.05與安慰劑組比較。",
+          "content_html": "<p style=\"text-align:justify;\">以437名原發性(不明原因)或性腺功能不足性骨質疏鬆症男性病人為對象的雙盲、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，平均治療時間為10個月。這項試驗中有151名男性病人接受FORTEO 20 mcg皮下注射，一天一次。所有男性病人每天投與1000 mg的鈣與至少400國際單位的維生素D。主要治療終點為腰椎骨密度的改變。</p><p>FORTEO增加原發性或性腺功能不足性骨質疏鬆症男性病人的腰椎骨密度。治療第3個月出現具統計意義的增加，並於治療期間持續。增加FORTEO可有效增加腰椎骨密度，此與年齡、治療前骨代謝率及治療前骨密度(BMD)無關。FORTEO對其他部位骨骼的作用顯示於表4。</p><p>與治療前比較，FORTEO平均治療10個月可增加94%男性病人腰椎骨的骨密度。53%以FORTEO治療的病人，至少增加5%的脊椎骨密度，14%的病人增加10%或以上。</p>\n<p style=\"margin-left:0cm;\"><strong>表4&nbsp; &nbsp;FORTEO組與安慰劑組治療原發性或性腺功能不足性男性骨質疏鬆症治療前與治療終點<sup>a</sup>之骨密度變化平均百分比治療平均時間為10個月</strong></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\"><strong>FORTEO</strong></p><p style=\"margin-left:0cm;\"><strong>N=151</strong></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\"><strong>安慰劑</strong></p><p style=\"margin-left:0cm;\"><strong>N=147</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">腰椎 (Lumbar spine) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">5.9<sup>b</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">0.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">股骨頸 (Femoral neck) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">1.5<sup>c</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">0.3</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">全髖部 (Total hip) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">1.2</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">0.5</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">大轉子 (Trochanter) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">1.3</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">1.1</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">轉子間 (Intertrochanter) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">1.2</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">0.6</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">華氏三角 (Ward’s triangle) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">2.8</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">1.1</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">全身整體 (Total body) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">0.4</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">-0.4</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">橈骨末端1/3 (Distal 1/3 radius) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">-0.5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">-0.2</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:220.25pt;\"><p style=\"margin-left:0cm;text-align:justify;\">橈骨最末端 (Ultradistal radius) BMD</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">-0.5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:65.25pt;\"><p style=\"margin-left:0cm;\">-0.3</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\"><sup>a</sup>意圖治療 (Intent-to-treat)&nbsp;分析，紀錄進行最後一次觀察。</p><p style=\"text-align:justify;\"><sup>b</sup> p&lt;0.001與安慰劑組比較。</p><p><sup>c</sup> p&lt;0.05與安慰劑組比較。</p>",
+          "search_text": "12.2\n增加原發性或性腺功能不足性骨質疏鬆症男性骨骼質量的治療\n以437名原發性(不明原因)或性腺功能不足性骨質疏鬆症男性病人為對象的雙盲、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，平均治療時間為10個月。這項試驗中有151名男性病人接受FORTEO 20 mcg皮下注射，一天一次。所有男性病人每天投與1000 mg的鈣與至少400國際單位的維生素D。主要治療終點為腰椎骨密度的改變。 FORTEO增加原發性或性腺功能不足性骨質疏鬆症男性病人的腰椎骨密度。治療第3個月出現具統計意義的增加，並於治療期間持續。增加FORTEO可有效增加腰椎骨密度，此與年齡、治療前骨代謝率及治療前骨密度(BMD)無關。FORTEO對其他部位骨骼的作用顯示於表4。 與治療前比較，FORTEO平均治療10個月可增加94%男性病人腰椎骨的骨密度。53%以FORTEO治療的病人，至少增加5%的脊椎骨密度，14%的病人增加10%或以上。\n表4 FORTEO組與安慰劑組治療原發性或性腺功能不足性男性骨質疏鬆症治療前與治療終點a之骨密度變化平均百分比治療平均時間為10個月 FORTEO N=151 安慰劑 N=147 腰椎 (Lumbar spine) BMD 5.9b 0.5 股骨頸 (Femoral neck) BMD 1.5c 0.3 全髖部 (Total hip) BMD 1.2 0.5 大轉子 (Trochanter) BMD 1.3 1.1 轉子間 (Intertrochanter) BMD 1.2 0.6 華氏三角 (Ward’s triangle) BMD 2.8 1.1 全身整體 (Total body) BMD 0.4 -0.4 橈骨末端1/3 (Distal 1/3 radius) BMD -0.5 -0.2 橈骨最末端 (Ultradistal radius) BMD -0.5 -0.3 a意圖治療 (Intent-to-treat) 分析，紀錄進行最後一次觀察。 b p<0.001與安慰劑組比較。 c p<0.05與安慰劑組比較。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.3",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.3",
+          "title": "因糖化皮質類固醇治療引起之骨質疏鬆症",
+          "title_html": "因糖化皮質類固醇治療引起之骨質疏鬆症",
+          "path": [
+            "臨床試驗資料",
+            "因糖化皮質類固醇治療引起之骨質疏鬆症"
+          ],
+          "content_text": "428名病人(19%男性與81%女性)年齡22至89歲(平均57歲) 進入試驗前至少投予3個月≥ 5 mg/day 的prednisone 或相等藥物，參與隨機、雙盲、活性對照藥物的臨床試驗，評估FORTEO治療因糖化皮質類固醇引起之骨質疏鬆症的療效。試驗持續時間為18個月，214名病人接受FORTEO 20 mcg皮下注射治療，一天一次。FORTEO治療組中，治療前的糖化皮質類固醇劑量中位數為7.5 mg/day，糖化皮質類固醇使用的基期期間中位數為1.5 年。治療前的腰椎骨密度平均值(標準差)為0.85±0.13 g/cm2，腰椎骨密度 T-score為 -2.5±1 (低於健康成人骨密度平均值的標準差數目) 。30%的病人曾發生脊椎骨折，43%的病人之前曾發生非脊椎骨折。這些病人因患有慢性風濕性、呼吸道或其他疾病而需要持續性之糖化皮質類固醇治療。所有病人每日服用1000 mg的鈣與800國際單位維生素D。 由於作用機轉不相同 (合成代謝相對於抗骨質再吸收)以及尚不清楚骨密度數值之改變是否為骨折療效之適當預測指標，活性比較藥物的試驗結果暫不於此描述。 對骨密度(BMD)的作用 相較於基礎值，自治療後3個月至18個月，FORTEO增加糖化皮質類固醇引起骨質疏鬆症病人之腰椎骨密度。FORTEO治療組的病人從治療前至試驗結束，骨密度的平均百分比變化為腰椎 7.2%、全髖部 3.6% 及股骨頸3.7% (所有部位p<0.001)。各次群組分析均一致顯示FORTEO的相對療效，次群組定義如性別、年齡、地理區域、身體質量指數(BMI)、潛在疾病、原既有的脊椎骨折、治療前的糖化皮質類固醇劑量、曾接受雙磷酸鹽治療、以及試驗期間停止使用糖化皮質類固醇。",
+          "content_html": "<p style=\"text-align:justify;\">428名病人(19%男性與81%女性)年齡22至89歲(平均57歲)&nbsp;進入試驗前至少投予3個月≥ 5 mg/day&nbsp;的prednisone&nbsp;或相等藥物，參與隨機、雙盲、活性對照藥物的臨床試驗，評估FORTEO治療因糖化皮質類固醇引起之骨質疏鬆症的療效。試驗持續時間為18個月，214名病人接受FORTEO 20 mcg皮下注射治療，一天一次。FORTEO治療組中，治療前的糖化皮質類固醇劑量中位數為7.5 mg/day，糖化皮質類固醇使用的基期期間中位數為1.5&nbsp;年。治療前的腰椎骨密度平均值(標準差)為0.85±0.13 g/cm<sup>2</sup>，腰椎骨密度 T-score為 -2.5±1 (低於健康成人骨密度平均值的標準差數目)&nbsp;。30%的病人曾發生脊椎骨折，43%的病人之前曾發生非脊椎骨折。這些病人因患有慢性風濕性、呼吸道或其他疾病而需要持續性之糖化皮質類固醇治療。所有病人每日服用1000 mg的鈣與800國際單位維生素D。</p><p style=\"text-align:justify;\">由於作用機轉不相同 (合成代謝相對於抗骨質再吸收)以及尚不清楚骨密度數值之改變是否為骨折療效之適當預測指標，活性比較藥物的試驗結果暫不於此描述。</p><p style=\"text-align:justify;\"><u>對骨密度(BMD)的作用</u></p><p style=\"text-align:justify;\">相較於基礎值，自治療後3個月至18個月，FORTEO增加糖化皮質類固醇引起骨質疏鬆症病人之腰椎骨密度。FORTEO治療組的病人從治療前至試驗結束，骨密度的平均百分比變化為腰椎 7.2%、全髖部 3.6%&nbsp;及股骨頸3.7% (所有部位p&lt;0.001)。各次群組分析均一致顯示FORTEO的相對療效，次群組定義如性別、年齡、地理區域、身體質量指數(BMI)、潛在疾病、原既有的脊椎骨折、治療前的糖化皮質類固醇劑量、曾接受雙磷酸鹽治療、以及試驗期間停止使用糖化皮質類固醇。</p>",
+          "search_text": "12.3\n因糖化皮質類固醇治療引起之骨質疏鬆症\n428名病人(19%男性與81%女性)年齡22至89歲(平均57歲) 進入試驗前至少投予3個月≥ 5 mg/day 的prednisone 或相等藥物，參與隨機、雙盲、活性對照藥物的臨床試驗，評估FORTEO治療因糖化皮質類固醇引起之骨質疏鬆症的療效。試驗持續時間為18個月，214名病人接受FORTEO 20 mcg皮下注射治療，一天一次。FORTEO治療組中，治療前的糖化皮質類固醇劑量中位數為7.5 mg/day，糖化皮質類固醇使用的基期期間中位數為1.5 年。治療前的腰椎骨密度平均值(標準差)為0.85±0.13 g/cm2，腰椎骨密度 T-score為 -2.5±1 (低於健康成人骨密度平均值的標準差數目) 。30%的病人曾發生脊椎骨折，43%的病人之前曾發生非脊椎骨折。這些病人因患有慢性風濕性、呼吸道或其他疾病而需要持續性之糖化皮質類固醇治療。所有病人每日服用1000 mg的鈣與800國際單位維生素D。 由於作用機轉不相同 (合成代謝相對於抗骨質再吸收)以及尚不清楚骨密度數值之改變是否為骨折療效之適當預測指標，活性比較藥物的試驗結果暫不於此描述。 對骨密度(BMD)的作用 相較於基礎值，自治療後3個月至18個月，FORTEO增加糖化皮質類固醇引起骨質疏鬆症病人之腰椎骨密度。FORTEO治療組的病人從治療前至試驗結束，骨密度的平均百分比變化為腰椎 7.2%、全髖部 3.6% 及股骨頸3.7% (所有部位p<0.001)。各次群組分析均一致顯示FORTEO的相對療效，次群組定義如性別、年齡、地理區域、身體質量指數(BMI)、潛在疾病、原既有的脊椎骨折、治療前的糖化皮質類固醇劑量、曾接受雙磷酸鹽治療、以及試驗期間停止使用糖化皮質類固醇。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "2.4毫升預先充填之注射筆。",
+          "content_html": "<p style=\"text-align:justify;\">2.4毫升預先充填之注射筆。</p>",
+          "search_text": "13.1\n包裝\n2.4毫升預先充填之注射筆。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p style=\"text-align:justify;\">如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "FORTEO應隨時儲存於2°至8°C (36°至46°F) 的冰箱中，除了正在使用時。 非使用時應將注射筆的蓋子蓋好，以保護存藥小瓶，防止物理性的傷害及光線。 當使用FORTEO時，自冰箱取出後應儘速投藥，並盡量縮短在冰箱外的時間。 不要冷凍。不要使用冷凍的FORTEO。",
+          "content_html": "<ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\">FORTEO應隨時儲存於2°至8°C (36°至46°F)&nbsp;的冰箱中，除了正在使用時。</li><li style=\"text-align:justify;\">非使用時應將注射筆的蓋子蓋好，以保護存藥小瓶，防止物理性的傷害及光線。</li><li style=\"text-align:justify;\">當使用FORTEO時，自冰箱取出後應儘速投藥，並盡量縮短在冰箱外的時間。</li><li style=\"text-align:justify;\">不要冷凍。不要使用冷凍的FORTEO。</li></ul>",
+          "search_text": "13.3\n儲存條件\nFORTEO應隨時儲存於2°至8°C (36°至46°F) 的冰箱中，除了正在使用時。 非使用時應將注射筆的蓋子蓋好，以保護存藥小瓶，防止物理性的傷害及光線。 當使用FORTEO時，自冰箱取出後應儘速投藥，並盡量縮短在冰箱外的時間。 不要冷凍。不要使用冷凍的FORTEO。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "建議病人在開始使用FORTEO之前及每次更新處方時先閱讀衛生福利部核准的病人仿單(用藥指引和使用手冊)。未遵循使用說明，可能導致用藥不正確。 骨肉瘤 病人應被告知FORTEO在大鼠造成骨肉瘤(惡性腫瘤)發生率的增加。雖然曾有使用FORTEO的病人通報出現骨肉瘤的病例，但在接受FORTEO治療的成年人中未觀察到骨肉瘤的風險增加[見警語及注意事項(5.1.1)]。 高血鈣 告知病人，如果持續出現高血鈣症狀(例如：噁心、嘔吐、便秘、倦怠、肌肉無力)，應告知醫護人員[見警語及注意事項(5.1.2)]。 姿勢性低血壓 FORTEO初始治療時，應指示病人在給藥時或給藥後處在可立即坐下或躺下的環境，以防其注射後感到頭暈或心悸。應告知病人若出現頭暈或心悸現象，應坐下或躺下直到症狀消失。若症狀持續或惡化，應告知病人於繼續治療之前諮詢醫護人員[見警語及注意事項(5.1.4)]。 其它骨質疏鬆症治療 應告知病人關於補充性鈣及/或維生素D的功用。 預充填注射筆使用 應告知使用FORTEO的病人或照護人員，如何正確使用FORTEO注射筆(參閱使用手冊)，如何正確丟棄針頭，且不要與其他病人共用預充填注射筆。應告知使用FORTEO的病人或照護人員，不可將注射筆內含藥液轉移至注射針筒。 告知病人，FORTEO注射筆可以使用28天。告知病人，過了28天使用期，即使仍有剩餘藥液，應丟棄FORTEO注射筆。",
+          "content_html": "<p>建議病人在開始使用FORTEO之前及每次更新處方時先閱讀衛生福利部核准的病人仿單(用藥指引和使用手冊)。未遵循使用說明，可能導致用藥不正確。</p><p style=\"text-align:justify;\"><strong><u>骨肉瘤</u></strong></p><p style=\"text-align:justify;\">病人應被告知FORTEO在大鼠造成骨肉瘤(惡性腫瘤)發生率的增加。雖然曾有使用FORTEO的病人通報出現骨肉瘤的病例，但在接受FORTEO治療的成年人中未觀察到骨肉瘤的風險增加<i>[見警語及注意事項(5.1.1)]</i>。</p><p style=\"text-align:justify;\"><strong><u>高血鈣</u></strong></p><p style=\"text-align:justify;\">告知病人，如果持續出現高血鈣症狀(例如：噁心、嘔吐、便秘、倦怠、肌肉無力)，應告知醫護人員<i>[見警語及注意事項(5.1.2)]</i>。</p><p style=\"margin-left:0cm;\"><strong><u>姿勢性低血壓</u></strong></p><p style=\"margin-left:0cm;\">FORTEO初始治療時，應指示病人在給藥時或給藥後處在可立即坐下或躺下的環境，以防其注射後感到頭暈或心悸。應告知病人若出現頭暈或心悸現象，應坐下或躺下直到症狀消失。若症狀持續或惡化，應告知病人於繼續治療之前諮詢醫護人員<i>[見警語及注意事項(5.1.4)]</i>。</p><p style=\"text-align:justify;\"><strong><u>其它骨質疏鬆症治療</u></strong></p><p style=\"text-align:justify;\">應告知病人關於補充性鈣及/或維生素D的功用。</p><p style=\"text-align:justify;\"><strong><u>預充填注射筆使用</u></strong></p><p style=\"text-align:justify;\">應告知使用FORTEO的病人或照護人員，如何正確使用FORTEO注射筆(參閱<i>使用手冊</i>)，如何正確丟棄針頭，且不要與其他病人共用預充填注射筆。應告知使用FORTEO的病人或照護人員，不可將注射筆內含藥液轉移至注射針筒。</p><p style=\"text-align:justify;\">告知病人，FORTEO注射筆可以使用28天。告知病人，過了28天使用期，即使仍有剩餘藥液，應丟棄FORTEO注射筆。</p>",
+          "search_text": "14\n病人使用須知\n建議病人在開始使用FORTEO之前及每次更新處方時先閱讀衛生福利部核准的病人仿單(用藥指引和使用手冊)。未遵循使用說明，可能導致用藥不正確。 骨肉瘤 病人應被告知FORTEO在大鼠造成骨肉瘤(惡性腫瘤)發生率的增加。雖然曾有使用FORTEO的病人通報出現骨肉瘤的病例，但在接受FORTEO治療的成年人中未觀察到骨肉瘤的風險增加[見警語及注意事項(5.1.1)]。 高血鈣 告知病人，如果持續出現高血鈣症狀(例如：噁心、嘔吐、便秘、倦怠、肌肉無力)，應告知醫護人員[見警語及注意事項(5.1.2)]。 姿勢性低血壓 FORTEO初始治療時，應指示病人在給藥時或給藥後處在可立即坐下或躺下的環境，以防其注射後感到頭暈或心悸。應告知病人若出現頭暈或心悸現象，應坐下或躺下直到症狀消失。若症狀持續或惡化，應告知病人於繼續治療之前諮詢醫護人員[見警語及注意事項(5.1.4)]。 其它骨質疏鬆症治療 應告知病人關於補充性鈣及/或維生素D的功用。 預充填注射筆使用 應告知使用FORTEO的病人或照護人員，如何正確使用FORTEO注射筆(參閱使用手冊)，如何正確丟棄針頭，且不要與其他病人共用預充填注射筆。應告知使用FORTEO的病人或照護人員，不可將注射筆內含藥液轉移至注射針筒。 告知病人，FORTEO注射筆可以使用28天。告知病人，過了28天使用期，即使仍有剩餘藥液，應丟棄FORTEO注射筆。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "Literature revised 15Sep2021 © 2002, 2020, Eli Lilly and Company版權所有。",
+          "content_html": "<p>Literature revised 15Sep2021</p><p style=\"margin-left:0cm;\">© 2002,&nbsp;2020,&nbsp;Eli Lilly and Company版權所有。</p>",
+          "search_text": "15\n其他\nLiterature revised 15Sep2021 © 2002, 2020, Eli Lilly and Company版權所有。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nFORTEO [teriparatide注射液] 是一種重組的人體副甲狀腺荷爾蒙片段(PTH 1‑34)，其序列與84個胺基酸的人體副甲狀腺荷爾蒙的34個N端胺基酸(具生物活性部位)完全相同。 Teriparatide的分子式為C181H291N55O51S2，分子量為4117.8道耳頓。其胺基酸序列如下：\nTeriparatide是利用大腸桿菌(Escherichia coli)菌株輔以重組DNA技術製造。 每支預充填注射筆可提供每天每次劑量 20 mcg的teriparatide，共28天。\n1.2\n賦形劑\n每mL含teriparatide 250 mcg(以游離鹼基計算)、冰醋酸0.41mg、醋酸鈉0.10mg(無水)、甘露醇45.4mg、間甲酚3.0mg及注射用水。另外，10%鹽酸溶液和/或10%氫氧化鈉溶液可能用以調整酸鹼值至 4。\n1.3\n劑型\n多劑量預先充填之皮下注射筆，包含28天的劑量，每日劑量20 mcg。\n1.4\n藥品外觀\nFORTEO為無菌、無色、澄明、等張溶液，事先組裝於供單一病人使用的玻璃卡匣注射筆中，供皮下注射。每支注射筆含2.7 mL供注射2.4 mL使用。\n2\n適應症\n2.1\n停經後婦女骨質疏鬆症具高度骨折風險者\n適用於治療停經後婦女骨質疏鬆症具高度骨折風險者。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的女性。對於停經後婦女之骨質疏鬆症，FORTEO增加骨密度(BMD)並降低脊椎與非脊椎骨折的風險。[見臨床試驗資料(12.1)]\n2.2\n男性原發性或次發於性腺功能低下症之骨質疏鬆症且具高度骨折風險者\n適用於治療男性原發性或次發於性腺功能不足症之骨質疏鬆症具高度骨折風險者，將增加其骨質質量。包括有骨質疏鬆性骨折病史、或依據醫師評估有多重骨折危險因子、或曾經骨質疏鬆症治療失敗或無法耐受治療的男性。對於患有原發性或性腺功能低下性骨質疏鬆症的男性，FORTEO增加脊椎及股骨頸(Femoral neck)的骨密度。FORTEO對於男性骨折風險的作用尚未研究。[見臨床試驗資料(12.2)]\n2.3\n女性及男性因糖化皮質類固醇治療引起之骨質疏鬆症且具高度骨折風險者\n適用於治療女性及男性因持續接受全身糖化皮質類固醇(glucocorticoid)治療(每日劑量相當於≧5mg prednisone)而引起之骨質疏鬆症且具高度骨折風險者。包括下列任一狀況；有骨質疏鬆症骨折病史、具有多項骨折危險因子、或對於其他骨質疏鬆症療法失敗或無法耐受的病人。[見臨床試驗資料(12.3)]\n3\n用法及用量\n3.1\n用法用量\n3.1.1\n建議劑量\n建議劑量為20 mcg皮下注射一天一次。指示病人如每日攝取量不足需補充鈣與維生素D。\n3.1.2\n用法\nFORTEO應皮下注射於大腿或腹部。FORTEO未核准用於靜脈注射或肌肉注射。 初次FORTEO治療應在病人可以坐下或躺下的環境投與，以防發生姿勢性低血壓的症狀 [見警語及注意事項(5.1.4)]。 在溶液和容器允許下，針劑藥品注射前應目視檢查其微粒及無色情形。FORTEO為澄明無色液體。如果出現固體顆粒或呈現混濁或變色液體，則不應使用。 病人或照護人員使用FORTEO前，應接受合格醫護人員適當的訓練與說明，以正確使用FORTEO注射筆。\n3.1.3\n建議治療時程\n僅在病人仍處於高度骨折風險或回復至高度骨折風險的狀態時，才考慮在其一生中使用FORTEO超過2年[見警語及注意事項(5.1.1)]。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\nFORTEO不可用於對teriparatide或其任何賦形劑有過敏反應的病人。過敏反應包括血管性水腫(angioedema)與過敏性反應(anaphylaxis) [見副作用/不良反應(8.3)]。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n骨肉瘤Osteosarcoma\n在投與teriparatide的公鼠與母鼠試驗中，觀察到骨肉瘤(一種惡性骨腫瘤)的發生率增加。FORTEO上市後，接受FORTEO治療的病人曾通報出現骨肉瘤；然而，人類的觀察性試驗中並未觀察到發生骨肉瘤的風險增加。接受FORTEO治療超過2年的病人，發生骨肉瘤風險的評估資料仍然有限[見用法用量(3.1)、副作用/不良反應(8.3)和藥理特性(10.3)]。 避免使用FORTEO於以下病人(這些病人發生骨肉瘤的基期風險較高)： 開放性骨骺生長板未密合(open epiphyses) 的(孩童與年輕成人病人) (FORTEO未核准用於孩童病人) [見特殊族群注意事項(6.4)] 。 骨質疏鬆症之外的其他代謝性骨骼疾病，包括骨骼柏哲德氏症(Paget’s disease)。 轉移性骨腫瘤或有骨惡性腫瘤病史。 曾接受涵蓋骨骼的外在電波或植入放射線治療之病人。 易誘發骨肉瘤的遺傳性疾病。\n5.1.2\n高血鈣與皮膚鈣化\n高血鈣 FORTEO尚未於已存在高血鈣之病人進行研究。FORTEO可能會導致高血鈣，並可能使原患有高血鈣病人的高血鈣更加惡化[見副作用/不良反應(8.1、8.3)]。已知可能出現高血鈣的病人，例如原發性副甲狀腺機能亢進，應避免使用FORTEO治療。 皮膚鈣化的風險包括血管鈣化 (Calciphylaxis) FORTEO上市後，使用FORTEO的病人曾有嚴重的血管鈣化和先前穩定的皮膚鈣化轉趨惡化的通報。發生血管鈣化的風險因素包括潛在的自體免疫性疾病、腎衰竭、以及併用warfarin或全身性皮質類固醇。發生血管鈣化或先前穩定的皮膚鈣化轉趨惡化的病人，應停用FORTEO。\n5.1.3\n尿路結石症的風險\n臨床試驗中，接受FORTEO治療與安慰劑組的尿路結石發生率相似。然而，FORTEO尚未以進行性尿路結石病人進行研究。若接受FORTEO治療的病人已有高尿鈣症或疑似/已知患有進行性尿路結石症，應考慮測量其尿液的鈣排泄量。對於患有進行性或近期曾發生尿路結石症病人，應考慮接受FORTEO治療的風險與效益，因為可能導致病況惡化。\n5.1.4\n姿勢性低血壓\n如果發生姿勢性低血壓的症狀，病人應在能坐下或躺平的情形下，開始接受FORTEO治療。在健康自願者的FORTEO短期臨床藥理學試驗中，5 %的病人曾發生暫時性姿勢性低血壓的症狀。通常這些症狀在投藥4小時內出現，在數分鐘至數小時內緩解(未經治療)。暫時性姿勢性低血壓會發生在剛開始數次的給藥，病人躺下可緩解症狀，這不會影響後續的治療。\n5.1.5\nDigoxin毒性的風險\n高血鈣可能使病人容易產生毛地黃(digitalis)中毒，因為FORTEO會暫時升高血鈣濃度。正接受Digoxin治療的病人需併用FORTEO時，應考量可能出現毛地黃苷中毒的徵象和症狀[見交互作用(7.1)及藥物動力學特性(11)]。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n風險摘要 尚無數據可用於評估懷孕婦女接受FORTEO治療後發生與藥物相關的重大先天缺陷、流產或造成母體或胎兒不良結果之風險。確認懷孕後，應考慮停用FORTEO。 動物研究中，皮下投與相當於人體每日建議劑量［20微克(mcg)］60倍以上的teriparatide(根據體表面積，mcg/m2)，胎鼠骨骼異常的發生率會增加；皮下投與相當於人體劑量的120倍以上，幼鼠會有生長遲緩和活動力降低的情況(見數據)。 尚不清楚此族群的重大先天缺陷和流產之背景風險。在一般美國人中，臨床上確認懷孕的重大先天性缺陷背景風險為2%至4%，流產為15%至20%。 數據 動物數據 動物研究中，懷孕小鼠在器官形成期間，皮下投與相當於人體劑量8到267倍的teriparatide(根據體表面積，mcg/m2)。當劑量相當於人體劑量60倍以上，發現胎鼠骨骼異常的發生率增加(肋骨中斷、多額脊椎骨或肋骨)。懷孕大鼠在器官形成期間，皮下投與相當於人類劑量16至540倍的teriparatide，對胎兒沒有不正常影響。 生產前後/生產後的研究中，懷孕大鼠從器官形成期間至授乳，皮下注射teriparatide。超過120倍以上的人體劑量(根據體表面積計算，mcg/m2)會導致幼母鼠生長遲緩。母鼠接受540倍的人體劑量會導致幼公鼠生長遲緩，且會導致幼公鼠及幼母鼠活動力降低。8-16倍的人體劑量對小鼠或大鼠的發育及生殖力皆無影響。\n6.2\n哺乳\n風險摘要 尚不清楚teriparatide是否會分泌到人類乳汁中、影響人類泌乳量或對以母乳哺餵嬰兒有影響。哺乳期的婦女應避免使用FORTEO。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\nFORTEO使用於孩童病人的安全性及有效性資料尚未建立。孩童病人發生骨肉瘤的基期風險較高因為其開放性骨骺生長板未密合(open epiphyses) [見警語及注意事項(5.1.1)]。\n6.5\n老年人\n在1637名停經後婦女骨質疏鬆症的試驗中，接受FORTEO治療的病人有75%為65歲以上，23%為75歲以上。在437名男性原發性或性腺功能低下之骨質疏鬆症試驗中，接受FORTEO治療的病人有39%為65歲以上，13%為75歲以上。在因糖化皮質類固醇治療引起的骨質疏鬆症試驗中，214名接受FORTEO治療的病人有28％為65歲以上，9％為75歲以上。在65歲以上的病人及年輕成人病人之間，其安全性或有效性整體而言並無差異。\n6.6\n肝功能不全\n尚未以肝功能不全的病人進行相關研究。[見藥理特性(10)] 。\n6.7\n腎功能不全\n在5位嚴重腎功能不足(CrCl<30 mL/minute)的病人，teriparatide的曲線下面積 (AUC) 與半衰期分別增加73%與77%，最高血漿濃度並未增加。在慢性腎功能不全病人中，目前尚未知FORTEO是否會改變潛在的代謝性骨骼疾病[見臨床試驗資料(12)] 。\n6.8\n其他族群\n7\n交互作用\n7.1\nDigoxin\n零星的病例報告顯示，高血鈣可能使病人容易出現毛地黃中毒。FORTEO可能會暫時增加血清中的鈣。接受Digoxin的病人使用FORTEO時，請考量可能出現毛地黃中毒的症狀和徵象[見警語及注意事項(5.1.5)和藥物動力學(11)]。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n由於臨床試驗在非常多樣化的條件下進行，一種藥物臨床試驗所觀察的不良反應比率不能直接與另一種藥物臨床試驗所觀察到的相比較，且可能無法表現實際上觀察到的比率。\n8.2\n臨床試驗經驗\n男性原發性或次發性性腺功能低下症之骨質疏鬆症與停經後婦女骨質疏鬆症 FORTEO治療男性與停經後婦女骨質疏鬆症的安全性已在2個隨機、雙盲、安慰劑對照的臨床試驗中被評估，共有1382名病人(21 % 男性，79 %婦女)，年齡28至 86歲(平均67歲)[見臨床試驗(12.1, 12.2)]。試驗期間中位數為男性11個月及婦女19個月，691名病人以FORTEO治療及691名病人以安慰劑治療。所有病人每天投與1000毫克鈣及至少400 IU維生素D。 FORTEO組包含所有原因的死亡發生率為1 %，安慰劑組為1 %。嚴重不良事件發生率在FORTEO組有16 %，安慰劑組有19 %。因不良事件而早期停藥的比例，在FORTEO組有7 %，安慰劑組有6 %。 表1列出2項試驗的不良事件，且發生率於FORTEO組≥ 2.0%且頻率高過安慰劑組。\n表1 試驗對象為2個主要骨質疏鬆症臨床試驗中的婦女及男性，發生率於FORTEO組 ≥ 2.0%且頻率高過安慰劑組的不良事件百分比所列不良事件未追究其發生原因 FORTEO N=691 安慰劑 N=691 不良反應分類 (%) (%) 全身系統 疼痛 21.3 20.5 頭痛 7.5 7.4 無力 8.7 6.8 頸痛 3.0 2.7 心臟血管系統 高血壓 7.1 6.8 心絞痛 2.5 1.6 昏厥 2.6 1.4 消化系統 噁心 8.5 6.7 便秘 5.4 4.5 腹瀉 5.1 4.6 消化不良 5.2 4.1 嘔吐 3.0 2.3 胃腸疾病 2.3 2.0 牙齒疾病 2.0 1.3 肌肉骨骼系統 關節痛 10.1 8.4 蹆部抽筋 2.6 1.3 神經系統 頭昏 8.0 5.4 抑鬱 4.1 2.7 失眠 4.3 3.6 暈眩 3.8 2.7 呼吸系統 鼻炎 9.6 8.8 咳嗽增加 6.4 5.5 咽炎 5.5 4.8 呼吸困難 3.6 2.6 肺炎 3.9 3.3 皮膚及附屬器 紅疹 4.9 4.5 出汗 2.2 1.7\n實驗室結果 血鈣 — FORTEO暫時性升高血鈣，最大作用大約在投藥後4至6小時出現。投藥16小時後之血鈣濃度與投藥前並無差異。臨床試驗中，投與FORTEO後4至6小時，至少出現一次暫時性高血鈣的比例， FORTEO治療組的女性為11 %、男性為6 %，而安慰劑組的女性為2 %、男性為0%。FORTEO組中暫時性高血鈣持續存在的百分比，女性為3 %，男性1 %。 尿鈣 — FORTEO增加尿鈣排泄，但臨床試驗中，高尿鈣的發生率於FORTEO組與安慰劑組相似 [見藥理特性(10.2)] 。 血清尿酸 — FORTEO增加血中尿酸濃度。在臨床試驗中，3 %的FORTEO組病人血中尿酸濃度超過正常上限值，安慰劑組則為1 %。然而，高尿酸血症並沒有造成痛風、關節痛或尿路結石的增加。 腎功能 — 臨床試驗中，未發生臨床上重要的腎臟不良反應。評估指標包括：肌酸酐廓清率；血漿中尿素氮(BUN)、肌酸酐、及電解質濃度的測量；尿比重及酸鹼值pH；及尿液沉積物的檢查。 男性及女性因糖化皮質類固醇引起之骨質疏鬆症 FORTEO治療男性與婦女患有糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的安全性已在一個隨機、雙盲、活性藥物對照的臨床試驗中被評估，共有428名病人(19 % 男性，81 % 婦女)，年齡22至 89歲(平均57歲) ，以 prednisone ≥ 5 mg/day或相當藥物治療至少3個月[見臨床試驗資料(12.3)]。試驗期間為18個月，214名病人投與FORTEO及214名病人每日投與口服雙磷酸藥物(活性對照藥物)。所有病人每天投與1000毫克鈣及800 IU維生素D。 相較於活性藥物對照組，FORTEO組的死亡發生率並未增加。嚴重不良事件發生率在FORTEO組病人有21 %，活性藥物對照組有18 %，並且包括肺炎(FORTEO組3 %，活性藥物對照組1 %)。因不良事件而早期停藥的比例，在FORTEO組有15 %，活性藥物對照組有12 %，並且包括頭昏(FORTEO組2 %，活性藥物對照組0 %)。 FORTEO治療組有較高不良事件發生率的報告，且FORTEO治療組與活性藥物對照組比較至少相差2 %的不良反應，分別為：噁心(14 %，7 %)、胃炎(7 %，3 %)、肺炎(6 %，3 %)、呼吸困難(6 %，3 %)、失眠(5 %，1 %)、焦慮(4 %，1 %)及帶狀疱疹(3 %，1 %)。 免疫原性 如所有胜肽一般，本品具有潛在的免疫原性。抗體形成的檢測是高度依賴於檢測方法的靈敏度和專一性。此外，在測定中觀察到的抗體陽性發生率(包括中和抗體)可能會受到幾項因素的影響，包括測定方法、檢體處理、檢體採集時間、併用藥物和潛在疾病。基於這些原因，將下述試驗中的抗體發生率與其他試驗中的抗體發生率或與其他teriparatide產品的發生率進行比較，可能會產生誤導。 在一個停經後骨質疏鬆症婦女的臨床試驗中[見臨床試驗資料(12.1)]，於3%接受FORTEO治療的婦女(15/541)檢測到與teriparatide交叉反應的抗體。一般而言，抗體在治療12個月後會出現，並在停止治療後減少。這些病人中沒有過敏反應的病例。抗體的形成不影響血鈣或骨密度(BMD)反應。\n8.3\n上市後經驗\n上市後自發性通報之不良反應 以下乃FORTEO核准使用後，曾發現的不良反應。由於這些反應是由總數不確定的有用藥經驗的人自發性回報，因此不一定能有效估算不良反應發生頻率，或確立與藥物暴露的因果關係。 上市後極少有骨腫瘤和骨肉瘤的案例報告。 [見警語及注意事項(5.1.2)]。 使用FORTEO曾有高血鈣濃度高於13mg/dL的報告。 與使用FORTEO有暫時相關的上市後不良事件報告包括： 過敏反應：過敏反應、藥物過敏、血管性水腫、蕁麻疹 學術研究：高尿酸血症 (hyperuricemia) 呼吸系統：急性呼吸困難、胸痛 肌肉骨骼系統：腿部或背部的肌肉痙攣(muscle spasms) 其他：注射部位反應包括注射部位疼痛、腫脹和瘀傷；口臉水腫 評估骨肉瘤發生率的觀察性試驗中之不良反應 有兩項以美國申報資料庫為主的骨肉瘤監測安全性試驗(U.S. claims-based database studies)，目的在於獲取接受FORTEO治療的病人的骨肉瘤發生率。在這兩項試驗中，分別有379,283名和153,316名病人接受FORTEO治療，且分別有3例和0例發生骨肉瘤。試驗結果顯示，接受FORTEO治療的病人相較於其他治療方式的病人，發生骨肉瘤的風險相似。但是，由於數據來源的局限性，無法對混雜因素進行完整的測量和控制，因此對試驗結果的詮釋需要謹慎。\n9\n過量\n在上市後的自發性報告中，曾有數個醫療疏失案例以單一劑量一次投與全部FORTEO預先充填注射筆之含量(幾近800mcg)(建議劑量的40倍)。暫時性不良反應的報告包括噁心、無力/倦怠與低血壓。目前並無與過量相關的死亡報告。FORTEO過量的其他徵象、症狀和併發症可能包括延遲性高血鈣作用、嘔吐、頭昏和頭痛。 藥物過量的處理 — FORTEO過量沒有特異性解毒劑。疑似藥物過量的處理，包括停止FORTEO治療、監測血鈣及血磷濃度、給予適當的支持療法例如水分補給。\n10\n藥理特性\n10.1\n作用機轉\n內生性84個胺基酸的副甲狀腺素 (PTH)，主要調節骨骼與腎臟中鈣與磷的代謝。PTH的生理作用包括調節骨骼代謝、腎小管鈣與磷的重吸收及小腸鈣的吸收。PTH與teriparatide的生物活性皆經由與細胞表面高親和力的特異接受體結合。Teriparatide與PTH的34個N端胺基酸，與這些接受體結合的親和力相同，且於骨骼與腎臟具有相同的生理作用。Teriparatide不會在骨骼或其他組織中累積。 Teriparatide對骨骼的作用與全身性暴露的形式有關。一天一次投與 teriparatide由於刺激成骨作用多於蝕骨作用，因而促進小樑骨與皮質骨(骨膜的及/或骨內膜的)表面的新骨生成。在猴子的研究中，teriparatide藉由刺激鬆質骨與皮質骨的新骨生成，改善小樑骨的微小構造，並增加骨骼質量與強度。在人體，teriparatide的合成代謝作用表現在骨骼質量的增加、顯示成骨標記與蝕骨標記上升與骨骼強度的增強。相反的，內生性副甲狀腺素的持續過量，例如副甲狀腺亢進症，可能對骨骼有害，因為蝕骨作用可能會超越成骨作用。\n10.2\n藥效藥理特性\n原發性或次發於性腺功能低下症之男性骨質疏鬆症與停經後婦女骨質疏鬆症之藥效 礦物質代謝 — Teriparatide會影響鈣及磷的代謝，其作用與已知的內生性PTH相同(例如血鈣濃度上升與血磷濃度下降)。血鈣濃度 — 一天一次投與teriparatide 20 mcg，血鈣濃度將暫時上升，約在投藥後的2小時開始上升，而在4-6小時之間達到最高濃度(平均上升0.4 mg/100 mL)。血鈣濃度在投藥後約6小時開始下降，16-24小時後回復至基礎值。 研究停經後婦女骨質疏鬆症的臨床試驗進行12個月，投與FORTEO (皮下注射20 mcg，一天一次) 4-6小時後，平均最高血鈣濃度為9.68 mg/dL。超過99%的婦女每次就診時，最高血鈣濃度維持低於11.0 mg/dL。並未發現持續性高血鈣。 在這個試驗中，11.1%以FORTEO治療的婦女，至少有一次血鈣濃度超過正常上限值(upper limit of normal, ULN)的情形(10.6 mg/dL)，安慰劑組的婦女則為1.5%。在投藥後連續4-6小時，血鈣的測量超過ULN的比例，於FORTEO治療組為3 %，而安慰劑組為0.2 %。在這些婦女，鈣的補充及/或FORTEO的劑量有被降低。劑量降低的時機由試驗者決定。在首次發現血鈣上升(中間值為21週)後，調整FORTEO的劑量，此調整劑量的時機因人而異。在調整劑量的期間，並未出現血鈣繼續升高的情形。 在原發性或性腺功能不足性骨質疏鬆症的男性病人臨床實驗中，對血鈣的影響相似於停經後婦女的臨床試驗。試驗為期12個月，在投與FORTEO後4-6小時，測得平均最高血鈣濃度為9.44 mg/dL。98%男性每次回診最高血鈣濃度維持低於11 mg/dL。未發現持續高血鈣的情形。 在此試驗中，6.0%每天接受FORTEO治療的男性，至少有一次血鈣超過ULN (10.6 mg/dL)，安慰劑組則無此情形。FORTEO治療組的男性，連續血鈣超過ULN的百分比為1.3%(2名)，安慰劑組則無。這些男性僅降低鈣的補充[ 見警語及注意事項(5.1.2)及副作用/不良反應(8.2) ]。 在一項以曾經接受18至39個月raloxifene(26名)或alendronate治療(33名)的女性為對象的臨床試驗，以FORTEO治療1至6個月後，平均血鈣濃度在FORTEO治療後>12小時比基礎值增加0.36至0.56 mg/dL。先以raloxifene治療的婦女中，有3位 (11.5%)的血鈣高於11 mg/dL，而先以alendronate治療者中也有3位(9.1%)的血鈣高於11mg/dL。最高的血鈣值為12.5 mg/dL。沒有婦女出現高血鈣的症狀。本試驗沒有安慰劑對照組。 在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血鈣的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血鈣變化。 尿鈣排泄 — 在一項臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的停經後骨質疏鬆症婦女，發現每日投與FORTEO會增加尿中鈣的排泄。6個月後的平均尿鈣排泄量為190 mg/day，12個月後為170 mg/day。這些值分別比安慰劑治療的婦女高出30 mg/day及12 mg/day。高尿鈣(>300 mg/day)的發生率在FORTEO治療組或安慰劑組相似。 另一臨床試驗，研究對象為服用1000 mg的鈣與至少400國際單位維生素D的原發性或性腺功能不足性骨質疏鬆症男性，每天投與FORTEO對尿鈣排泄的影響不一定。1個月後平均尿鈣排泄為220 mg/day，6個月後為210 mg/day。這些值分別比安慰劑組高20 mg/day，與低8.0 mg/day。高尿鈣>300 mg/day的發生率在FORTEO治療組或安慰劑組相似。 磷與維生素D — 單一劑量的試驗中，teriparatide會造成暫時磷尿症與輕微暫時性的血磷濃度減少。然而，FORTEO的臨床試驗中並未發現低磷血症(<2.4 mg/dL)。 在每日投與FORTEO的臨床試驗中，12個月後，1,25‑dihydroxyvitamin D的平均血中濃度，女性比基礎值增加19%，男性則增加14%。安慰劑組中，此濃度於女性降低2%，於男性增加5%。12個月後，25-hydroxyvitamin D的平均血中濃度，女性比基礎值下降19%，男性則下降10%。安慰劑組中，女性的濃度不變，男性則增加1%。 在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對血磷的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的血磷變化。 對骨骼代謝標記的作用 — 在臨床試驗中，每日投與FORTEO於骨質疏鬆症的男性與停經後婦女刺激骨生成，可經由成骨標記的增加顯示，包括血清中bone-specific alkaline phosphatase (BSAP)與procollagen I carboxy-terminal propeptide (PICP)。以有治療前12個月骨代謝生化標記的資料。治療1個月後，PICP的最高濃度約高出基礎值41%，至第12個月降至接近基礎值。治療1個月後，BSAP的濃度增加，第6至12個月仍持續而較緩慢的增加。BSAP最高濃度，於女性高於基礎值45 %，於男性則高於基礎值23 %。停止治療後，BSAP的濃度回復至基礎值。成骨標記的增加，伴隨蝕骨標記而有續發性的增加：urinary N- telopeptide (NTX)及urinary deoxypyridinoline (DPD)，與骨骼重塑過程的成骨及蝕骨生理作用相符。BSAP、NTX及DPD濃度的改變，男性低於女性，這可能是因為男性的teriparatide全身性暴露量較低。在糖化皮質類固醇(glucocorticoid)引起骨質疏鬆症的病人臨床試驗中，FORTEO對骨骼代謝血清標記的影響，相似於未服用糖化皮質類固醇的骨質疏鬆症停經後婦女接受FORTEO治療後的狀況。\n10.3\n臨床前安全性資料\n10.3.1\n致癌性、突變性、生殖力傷害\n致癌性 二個致癌性生物測試在Fischer 344大鼠進行。第一個試驗中，公鼠與母鼠每天皮下注射teriparatide 5、30或75 mcg/kg/day，自2月齡開始共持續24個月。這些劑量造成大鼠的全身暴露量，分別為人體皮下注射劑量20 mcg全身暴露量的3、20及60倍(根據曲線下面積AUC比較)。Teriparatide治療導致公鼠與母鼠顯著與劑量相關的骨肉瘤發生率增加，這是一種罕見的惡性骨腫瘤。所有劑量組均發現骨肉瘤，高劑量組的發生率高達40%至50%。Teriparatide也會導致公鼠及母鼠與劑量相關的骨母細胞瘤與骨瘤的增加。對照組大鼠沒有出現骨肉瘤、骨母細胞瘤或骨瘤的病例。大鼠的骨腫瘤會造成骨質大量增加與局部骨母細胞增生。 第二個長達二年的試驗是為了評估治療期間的作用與動物年齡對於發生骨腫瘤的影響。2至26月齡的母鼠，以不同治療期間皮下注射teriparatide 5及30 mcg/kg(相當於20 mcg劑量下，分別為人體暴露量的3及20倍，根據曲線下面積AUC比較)。本試驗顯示骨肉瘤、骨母細胞瘤及骨瘤的發生，與劑量及治療期間有關。當未成熟2月齡大鼠以teriparatide 30 mcg/kg/day治療24個月，或以teriparatide 5或30 mcg/kg/day治療6個月，會出現骨腫瘤。成熟6月齡大鼠以teriparatide 30 mcg/kg/day治療6或20個月，也會出現骨腫瘤。成熟6月齡的大鼠以teriparatide 5 mcg/kg/day治療6或20個月，未發現骨腫瘤。這個結果顯示，成熟與未成熟大鼠之間對teriparatide造成的骨腫瘤敏感性並無差異。 在一項長期的猴子試驗中，並未發現骨腫瘤[見藥理特性(10.3.2)]。 突變性 Teriparatide在下列的測試系統中顯示無基因毒性：測試細菌突變性的Ames試驗；測試哺乳動物細胞突變的小鼠淋巴瘤試驗；於中國黃金鼠卵巢細胞進行的染色體突變檢驗，伴隨有或無代謝性活化；及小鼠活體小核檢驗。 生殖力傷害 公鼠及母鼠交配前皮下注射teriparatide 30、100或300 mcg/kg/day，並持續注射母鼠直到懷孕第6天，對生殖力沒有影響(16至160倍的人體劑量20 mcg，根據體表面積計算，mcg/m2)。\n10.3.2\n動物毒性\n單一劑量的老鼠臨床試驗中，皮下注射teriparatide，大鼠投與劑量1000 mcg/kg(人體劑量的540倍，根據體表面積計算，mcg/m2)或小鼠投與10,000 mcg/kg (人體劑量的2700倍，根據體表面積計算，mcg/m2)，沒有發現死亡報告。 長期的臨床試驗中，卵巢切除的成年母猴(N=每治療組30) 每天皮下注射teriparatide 5 mcg/kg或安慰劑。18個月治療期後，停止teriparatide治療，再觀察3年。5 mcg/kg劑量造成的全身暴露量約為人體皮下注射量20 mcg/kg全身暴露量的6倍(根據曲線下面積AUC比較)。本試驗中的猴子經X光檢查及組織評估並無測出骨腫瘤。\n11\n藥物動力學特性\n吸收 — Teriparatide在皮下注射後將被廣泛的吸收；根據20、40與80 mcg(分別為建議劑量的1倍、2倍和4倍)的合併研究資料顯示，絕對生體可用率約95%。此胜肽在皮下注射20 mcg劑量後約30分鐘，可達最高血漿濃度，三小時內會減少至無法定量的濃度。 分佈 — 靜脈注射後的分佈體積約為0.12 公升/公斤。 排除 — Teriparatide的全身清除率(女性約62公升/小時，男性約94公升/小時)超過正常肝血流速率，表示同時有肝臟及肝臟以外的清除作用。皮下注射teriparatide的血清中半衰期約為1小時。 有關teriparatide代謝或排泄的試驗尚未進行。PTH的周邊代謝被認為是發生於肝臟的非特異性酵素代謝作用，再經腎臟排泄。 特殊族群 老年人病人 — Teriparatide的藥物動力學無年齡差異(年齡31至85歲)。 男性與女性病人 — 雖然teriparatide的全身暴露量，於男性約低於女性20%至30%，但對男性及女性的建議劑量相同。 種族 — 對人種的差異尚未確立。 腎功能不全病人 — 在11位肌酸酐廓清率 (CrCl) 30至72 mL/minute的病人中，單次投與teriparatide，其藥物動力學並無差異。在5位嚴重腎功能不足(CrCl<30 mL/minute)的病人中，teriparatide的曲線下面積 (AUC) 與半衰期分別增加73%與77%，最高血漿濃度並未增加。對於接受透析的慢性腎衰竭病人尚無相關研究[見特殊族群注意事項(6.7)]。 肝功能不全 —尚未以肝功能不全的病人進行相關研究。肝中[可能是庫弗氏細胞(Kupffer cells)]非特異性蛋白分解酵素，分解PTH(1‑34)及PTH(1‑84)成為數個片段，這些片段主要由腎臟自循環中清除。 藥物交互作用研究 Digoxin — 15位健康受試者每天投與digoxin至穩定狀態的試驗中，單一劑量的FORTEO不會影響digoxin對收縮時間間隔的作用(自心電圖Q波起始至主動脈瓣關閉，一種測量digoxin藉由鈣離子影響心功能的方法)。 Hydrochlorothiazide — 在20位健康人的試驗中，同時投與Hydrochlorothiazide 25 mg與FORTEO 40 mcg (建議劑量的2倍)，不會影響FORTEO對血鈣濃度的反應。24小時內尿液的鈣排泄量降低15%，而此量於臨床上不具重要影響。同時投與較高劑量的hydrochlorothiazide及FORTEO，對血鈣的影響尚未研究。 Furosemide —在一項以9位健康人與17位肌酸酐廓清率13至72 mL/minute腎功能不全病人為對象的研究中，同時靜脈注射furosemide (20至100 mg)與FORTEO 40 mcg(建議劑量的2倍)，輕微增加血鈣 (2%)與24小時尿鈣 (37%)，這些改變於臨床上似乎不具重要影響。\n12\n臨床試驗資料\n12.1\n治療停經婦女的骨質疏鬆症\n以1637名停經骨質疏鬆症婦女為對象的雙盲、多中心、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，與19個月的平均暴露量。 這項試驗中，541名停經後婦女接受FORTEO 20 mcg皮下注射治療，一天一次。 所有女性每天均接受1000 mg的鈣與至少400國際單位的維生素D。治療前與治療後之X光照片，以半定量評分(semiquantitative scoring)評估。本試驗中90%的女性，治療前經X光照片診斷，至少有一處以上脊椎骨折。主要治療終點為X光照片診斷顯示新脊椎骨折的發生，脊椎骨折定義為之前未變形脊椎骨的高度改變。這種骨折不一定會出現症狀。 對骨折發生率的作用 新脊椎骨折 — FORTEO與鈣及維生素D併用，與只服用鈣及維生素D相比，可降低發生一處或多處新脊椎骨折的風險，由安慰劑組的14.3%降至FORTEO組的5.0% (541名接受FORTEO 20 mcg一天一次治療的病人中，有444名被納入分析中)。此差異具統計學的意義(p<0.001)；絕對風險降低9.3%，相對風險降低65%。FORTEO有效降低脊椎骨折的危險性，與年齡、治療前骨代謝率或治療前骨密度(BMD)無關(見表2)。\n表2 FORTEO對停經後婦女骨質疏鬆症之脊椎骨折風險的作用 脊椎骨折婦女百分比 FORTEO (N=444) 安慰劑 (N=448) 絕對風險降低 (%, 95%信賴區間) 相對風險降低 (%, 95%信賴區間) 新發生的脊椎骨折 (³1) 5.0a 14.3 9.3 (5.5-13.1) 65 (45-78) 1處骨折 3.8 9.4 2處骨折 0.9 2.9 ≥3處骨折 0.2 2.0 a p≤ 0.001與安慰劑組比較。\n非脊椎之新骨質疏鬆性骨折 —FORTEO顯著降低所有非脊椎之骨折發生的可能性，由安慰劑組的5.5%降至FORTEO組的2.6% (p<0.05)。絕對風險降低2.9%，相對風險降低53%。FORTEO組相對於安慰劑組新的非脊椎骨折發生率分別為：腳踝/腳部(0.2 %，0.7 %)、髖部(0.2 %，0.7 %)、肱骨(0.4 %，0.4 %)、骨盆(0 %，0.6 %)、肋骨(0.6 %，0.9 %)、腕部(0.4 %，1.3 %)及其他部位(1.1 %，1.5 %)。 停經後骨質疏鬆症婦女持續發生新的非脊椎骨折的累積百分比，FORTEO治療組低於安慰劑治療組(見圖1)。 圖1 停經後骨質疏鬆症婦女持續發生新的非脊椎骨質疏鬆性骨折的累積百分比\n對骨密度(BMD)的作用 FORTEO增加停經後骨質疏鬆症婦女的腰椎骨骨密度。治療後3個月出現統計上有意義的增加，並於治療期間持續增加。以FORTEO治療之停經後婦女骨質疏鬆症，治療前與治療終點其腰椎 (Lumbar spine)、股骨頸 (femoral neck)、全髖部 (total hip) 及全身的骨密度也都具統計意義的增加(見表3)。\n表3 FORTEO組與安慰劑組治療停經後婦女骨質疏鬆症，治療期間中位數19個月治療前與治療終點a之骨密度變化平均百分比 FORTEO N=541 安慰劑 N=544 腰椎 (Lumbar spine) BMD 9.7b 1.1 股骨頸 (Femoral neck) BMD 2.8c -0.7 全髖部 (Total hip) BMD 2.6c -1.0 大轉子 (Trochanter) BMD 3.5c -0.2 轉子間 (Intertrochanter) BMD 2.6c -1.3 華氏三角 (Ward’s triangle) BMD 4.2c -0.8 全身整體 (Total body) BMD 0.6c -0.5 橈骨末端1/3 (Distal 1/3 radius) BMD -2.1 -1.3 橈骨最末端 (Ultradistal radius) BMD -0.1 -1.6 a意圖治療 (Intent-to-treat) 分析，紀錄最後一次觀察。 b p<0.001與安慰劑組比較。 c p<0.05與安慰劑組比較。 與治療前比較，FORTEO增加96 %停經婦女腰椎骨的骨密度。72 %以FORTEO治療的病人，至少增加5% 的脊椎骨密度，44%的病人增加10 %或以上。 試驗中二組病人的身高均減少。安慰劑與FORTEO組平均分別減少3.61與2.81 mm。 骨組織學 以腸骨骼塉切片檢查法(iliac crest biopsies)評估FORTEO對骨組織的作用，共評估35位停經後婦女，每天以FORTEO併用鈣與維生素D治療12至24個月。結果發現正常礦化作用，無細胞毒性跡象。FORTEO刺激新生成的骨骼品質正常(並未發現蜂窩狀骨或骨髓纖維化)。\n12.2\n增加原發性或性腺功能不足性骨質疏鬆症男性骨骼質量的治療\n以437名原發性(不明原因)或性腺功能不足性骨質疏鬆症男性病人為對象的雙盲、安慰劑對照臨床試驗，評估一天一次投與FORTEO的安全性及療效，平均治療時間為10個月。這項試驗中有151名男性病人接受FORTEO 20 mcg皮下注射，一天一次。所有男性病人每天投與1000 mg的鈣與至少400國際單位的維生素D。主要治療終點為腰椎骨密度的改變。 FORTEO增加原發性或性腺功能不足性骨質疏鬆症男性病人的腰椎骨密度。治療第3個月出現具統計意義的增加，並於治療期間持續。增加FORTEO可有效增加腰椎骨密度，此與年齡、治療前骨代謝率及治療前骨密度(BMD)無關。FORTEO對其他部位骨骼的作用顯示於表4。 與治療前比較，FORTEO平均治療10個月可增加94%男性病人腰椎骨的骨密度。53%以FORTEO治療的病人，至少增加5%的脊椎骨密度，14%的病人增加10%或以上。\n表4 FORTEO組與安慰劑組治療原發性或性腺功能不足性男性骨質疏鬆症治療前與治療終點a之骨密度變化平均百分比治療平均時間為10個月 FORTEO N=151 安慰劑 N=147 腰椎 (Lumbar spine) BMD 5.9b 0.5 股骨頸 (Femoral neck) BMD 1.5c 0.3 全髖部 (Total hip) BMD 1.2 0.5 大轉子 (Trochanter) BMD 1.3 1.1 轉子間 (Intertrochanter) BMD 1.2 0.6 華氏三角 (Ward’s triangle) BMD 2.8 1.1 全身整體 (Total body) BMD 0.4 -0.4 橈骨末端1/3 (Distal 1/3 radius) BMD -0.5 -0.2 橈骨最末端 (Ultradistal radius) BMD -0.5 -0.3 a意圖治療 (Intent-to-treat) 分析，紀錄進行最後一次觀察。 b p<0.001與安慰劑組比較。 c p<0.05與安慰劑組比較。\n12.3\n因糖化皮質類固醇治療引起之骨質疏鬆症\n428名病人(19%男性與81%女性)年齡22至89歲(平均57歲) 進入試驗前至少投予3個月≥ 5 mg/day 的prednisone 或相等藥物，參與隨機、雙盲、活性對照藥物的臨床試驗，評估FORTEO治療因糖化皮質類固醇引起之骨質疏鬆症的療效。試驗持續時間為18個月，214名病人接受FORTEO 20 mcg皮下注射治療，一天一次。FORTEO治療組中，治療前的糖化皮質類固醇劑量中位數為7.5 mg/day，糖化皮質類固醇使用的基期期間中位數為1.5 年。治療前的腰椎骨密度平均值(標準差)為0.85±0.13 g/cm2，腰椎骨密度 T-score為 -2.5±1 (低於健康成人骨密度平均值的標準差數目) 。30%的病人曾發生脊椎骨折，43%的病人之前曾發生非脊椎骨折。這些病人因患有慢性風濕性、呼吸道或其他疾病而需要持續性之糖化皮質類固醇治療。所有病人每日服用1000 mg的鈣與800國際單位維生素D。 由於作用機轉不相同 (合成代謝相對於抗骨質再吸收)以及尚不清楚骨密度數值之改變是否為骨折療效之適當預測指標，活性比較藥物的試驗結果暫不於此描述。 對骨密度(BMD)的作用 相較於基礎值，自治療後3個月至18個月，FORTEO增加糖化皮質類固醇引起骨質疏鬆症病人之腰椎骨密度。FORTEO治療組的病人從治療前至試驗結束，骨密度的平均百分比變化為腰椎 7.2%、全髖部 3.6% 及股骨頸3.7% (所有部位p<0.001)。各次群組分析均一致顯示FORTEO的相對療效，次群組定義如性別、年齡、地理區域、身體質量指數(BMI)、潛在疾病、原既有的脊椎骨折、治療前的糖化皮質類固醇劑量、曾接受雙磷酸鹽治療、以及試驗期間停止使用糖化皮質類固醇。\n13\n包裝及儲存\n13.1\n包裝\n2.4毫升預先充填之注射筆。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\nFORTEO應隨時儲存於2°至8°C (36°至46°F) 的冰箱中，除了正在使用時。 非使用時應將注射筆的蓋子蓋好，以保護存藥小瓶，防止物理性的傷害及光線。 當使用FORTEO時，自冰箱取出後應儘速投藥，並盡量縮短在冰箱外的時間。 不要冷凍。不要使用冷凍的FORTEO。\n13.4\n儲存注意事項\n14\n病人使用須知\n建議病人在開始使用FORTEO之前及每次更新處方時先閱讀衛生福利部核准的病人仿單(用藥指引和使用手冊)。未遵循使用說明，可能導致用藥不正確。 骨肉瘤 病人應被告知FORTEO在大鼠造成骨肉瘤(惡性腫瘤)發生率的增加。雖然曾有使用FORTEO的病人通報出現骨肉瘤的病例，但在接受FORTEO治療的成年人中未觀察到骨肉瘤的風險增加[見警語及注意事項(5.1.1)]。 高血鈣 告知病人，如果持續出現高血鈣症狀(例如：噁心、嘔吐、便秘、倦怠、肌肉無力)，應告知醫護人員[見警語及注意事項(5.1.2)]。 姿勢性低血壓 FORTEO初始治療時，應指示病人在給藥時或給藥後處在可立即坐下或躺下的環境，以防其注射後感到頭暈或心悸。應告知病人若出現頭暈或心悸現象，應坐下或躺下直到症狀消失。若症狀持續或惡化，應告知病人於繼續治療之前諮詢醫護人員[見警語及注意事項(5.1.4)]。 其它骨質疏鬆症治療 應告知病人關於補充性鈣及/或維生素D的功用。 預充填注射筆使用 應告知使用FORTEO的病人或照護人員，如何正確使用FORTEO注射筆(參閱使用手冊)，如何正確丟棄針頭，且不要與其他病人共用預充填注射筆。應告知使用FORTEO的病人或照護人員，不可將注射筆內含藥液轉移至注射針筒。 告知病人，FORTEO注射筆可以使用28天。告知病人，過了28天使用期，即使仍有剩餘藥液，應丟棄FORTEO注射筆。\n15\n其他\nLiterature revised 15Sep2021 © 2002, 2020, Eli Lilly and Company版權所有。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "LILLY FRANCE",
+          "address": "2 RUE DU COLONEL LILLY 67640 FEGERSHEIM, FRANCE"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "BOEHRINGER INGELHEIM RCV GMBH & CO. KG",
+          "address": "DR. BOEHRINGER GASSE 5-11, 1121 VIENNA, AUSTRIA"
+        },
+        {
+          "number": "2",
+          "name": "LILLY DEL CARIBE INC.",
+          "address": "12.3 KM, 65TH INFANTRY ROAD, CAROLINA 00985, PUERTO RICO"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣禮來股份有限公司",
+          "address": "臺北市信義區松高路9號14樓、11號14樓"
+        }
+      ]
+    }
+  ]
+}

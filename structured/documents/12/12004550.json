@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:49:48.040359+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12004550",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第004550號:5",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第004550號",
+      "matched_license_code": "12004550",
+      "matched_nhi_code": "",
+      "drug_name_zh": "強力施美藥膏",
+      "drug_name_en": "C.B. OINTMENT \"STRONG\"",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "5",
+      "approved_at": "2025-02-18",
+      "characteristics": {
+        "html": "<p>作用：<br>•Chlorpheniramine maleate：具止癢作用。<br>•Lidocaine HCl：含有可暫時緩解因皮膚剌激所引起之疼痛及搔癢症狀之成分。<br>•Methyl Salicylate、Menthol、Camphor等具有鎮痛、止癢、及清涼等作用。</p>",
+        "text": "作用： •Chlorpheniramine maleate：具止癢作用。 •Lidocaine HCl：含有可暫時緩解因皮膚剌激所引起之疼痛及搔癢症狀之成分。 •Methyl Salicylate、Menthol、Camphor等具有鎮痛、止癢、及清涼等作用。"
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "每公克含有 有效成分 含量 Chlorpheniramine maleate 10mg Lidocaine HCl 30mg Methyl Salicylate 10mg dl-Menthol 10mg dl-Camphor 5mg",
+          "content_html": "<p>每公克含有<br>&nbsp;</p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid #231F20;height:9.0pt;padding:0cm;vertical-align:top;width:106.35pt;\"><p style=\"margin-left:35.95pt;\"><span style=\"color:#4B4949;\">有效成分</span></p></td><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:9.0pt;padding:0cm;vertical-align:top;width:34.35pt;\"><p style=\"margin-left:4.1pt;\">含量</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:8.45pt;padding:0cm;vertical-align:top;width:106.35pt;\"><p style=\"margin-left:6.1pt;\"><span style=\"color:#2B2828;\">Chlorpheniramine&nbsp;maleate</span></p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:8.45pt;padding:0cm;vertical-align:top;width:34.35pt;\"><p style=\"margin-left:8.2pt;\"><span style=\"color:#2B2828;\">10mg</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:7.5pt;padding:0cm;vertical-align:top;width:106.35pt;\"><p style=\"margin-left:5.95pt;\"><span style=\"color:#2B2828;\">Lidocaine&nbsp;HCl</span></p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:7.5pt;padding:0cm;vertical-align:top;width:34.35pt;\"><p style=\"margin-left:8.3pt;\"><span style=\"color:#2B2828;\">30mg</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:8.3pt;padding:0cm;vertical-align:top;width:106.35pt;\"><p style=\"margin-left:5.9pt;\"><span style=\"color:#2B2828;\">Methyl&nbsp;Salicylate</span></p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:8.3pt;padding:0cm;vertical-align:top;width:34.35pt;\"><p style=\"margin-left:8.2pt;\"><span style=\"color:#2B2828;\">10mg</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:7.6pt;padding:0cm;vertical-align:top;width:106.35pt;\"><p style=\"margin-left:5.95pt;\"><span style=\"color:#2B2828;\">dl-Menthol</span></p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:7.6pt;padding:0cm;vertical-align:top;width:34.35pt;\"><p style=\"margin-left:8.2pt;\"><span style=\"color:#2B2828;\">10mg</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:7.75pt;padding:0cm;vertical-align:top;width:106.35pt;\"><p style=\"margin-left:5.95pt;\"><span style=\"color:#2B2828;\">dl-Camphor</span></p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:7.75pt;padding:0cm;vertical-align:top;width:34.35pt;\"><p style=\"margin-left:8.3pt;\"><span style=\"color:#2B2828;\">5mg</span></p></td></tr></tbody></table></figure>",
+          "search_text": "1.1\n有效成分及含量\n每公克含有 有效成分 含量 Chlorpheniramine maleate 10mg Lidocaine HCl 30mg Methyl Salicylate 10mg dl-Menthol 10mg dl-Camphor 5mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Stearyl alcohol、Cetyl alcohol、Glycerol monostearate、Liquid petrolatum、Tween 60、Span 60、Propylene glycol、Hexachlorophene、Water purified",
+          "content_html": "<p>Stearyl alcohol、Cetyl alcohol、Glycerol monostearate、Liquid petrolatum、Tween 60、Span 60、Propylene glycol、Hexachlorophene、Water purified</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nStearyl alcohol、Cetyl alcohol、Glycerol monostearate、Liquid petrolatum、Tween 60、Span 60、Propylene glycol、Hexachlorophene、Water purified",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "暫時緩解尿布疹、蚊蟲咬傷、皮膚搔癢、皮膚炎等皮膚疾患的症狀。",
+          "content_html": "<p><span style=\"color:#4B4949;\">暫時緩解尿布疹、蚊蟲咬傷、皮</span><span style=\"color:#696767;\">膚</span><span style=\"color:#4B4949;\">搔</span><span style=\"color:#696767;\">癢</span><span style=\"color:#4B4949;\">、皮</span><span style=\"color:#696767;\">膚</span><span style=\"color:#4B4949;\">炎等皮</span><span style=\"color:#696767;\">膚</span><span style=\"color:#4B4949;\">疾患的症狀</span><span style=\"color:#696767;\">。</span></p>",
+          "search_text": "2\n用途(適應症)\n暫時緩解尿布疹、蚊蟲咬傷、皮膚搔癢、皮膚炎等皮膚疾患的症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "(一)曾因本藥成分引起過敏。 (二)曾經對阿斯匹靈或水楊酸有過敏感現象者。",
+          "content_html": "<p>(一)曾因本藥成分引起過敏。</p><p>(二)曾經對阿斯匹靈或水楊酸有過敏感現象者。</p>",
+          "search_text": "3.1\n有下列情形者，請勿使用\n(一)曾因本藥成分引起過敏。 (二)曾經對阿斯匹靈或水楊酸有過敏感現象者。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "(一)3歲以下。 (二)有深部皮膚組織感染。 (三)懷孕20週以上之孕婦。(請參見【警語】)",
+          "content_html": "<p>(一)3歲以下。</p><p style=\"text-align:justify;\">(二)有深部皮膚組織感染。</p><p>(三)懷孕20週以上之孕婦。(請參見【警語】)</p>",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治\n(一)3歲以下。 (二)有深部皮膚組織感染。 (三)懷孕20週以上之孕婦。(請參見【警語】)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "(一)兒童、孕婦、可能懷孕婦女及哺乳婦。 (二)要使用於臉部。 (三)2歲以下兒童。 (四)懷孕未滿20週之孕婦及可能懷孕婦女。(請參見【警語】)",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;\">(一)兒童、孕婦、可能懷孕婦女及哺乳婦。</span></p><p>(二)要使用於臉部。</p><p>(三)2歲以下兒童。</p><p>(四)懷孕未滿20週之孕婦及可能懷孕婦女。(請參見【警語】)</p>",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n(一)兒童、孕婦、可能懷孕婦女及哺乳婦。 (二)要使用於臉部。 (三)2歲以下兒童。 (四)懷孕未滿20週之孕婦及可能懷孕婦女。(請參見【警語】)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "(一)為防止兒童誤食請妥善保管。 (二)避免陽光直射。 (三)勿超過建議使用量或使用次數。 (四)使用部位或其周圍髒污時，請洗乾淨後再用藥。 (五)使用本藥前後應徹底洗淨雙手。 (六)本藥限於外用不得內服，亦不得施於眼睛四周或黏膜（如口腔、鼻腔、陰道、陰囊、外陰部等）、潰爛、龜裂或嚴重外傷之患部。 (七)請注意不要誤入眼睛。萬一誤入眼睛，請立刻以水或溫水沖洗，並立即前往眼科就醫。 (八)本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。 (九)使用後請保持塗抹部位透氣，勿密封，以免增加副作用。 (十)請勿使用在患部以外，也勿當作預防使用。 （十一）本藥不可連續使用超過7天。 （十二）不得大量使用，以避免全身性吸收，曾有致死報告。 （十三）避免觸碰衣物、塑膠品、木材、金屬。 （十四）不可長期大面積使用，以免引起水楊酸中毒症狀，如呼吸困難、發汗、體溫過高、面色潮紅、持續性耳鳴、劇烈或持續頭痛，使用前請諮詢醫師或藥師。",
+          "content_html": "<p style=\"text-align:justify;\">(一)為防止兒童誤食請妥善保管。</p><p style=\"text-align:justify;\">(二)避免陽光直射。</p><p style=\"text-align:justify;\">(三)勿超過建議使用量或使用次數。</p><p style=\"text-align:justify;\">(四)使用部位或其周圍髒污時，請洗乾淨後再用藥。</p><p style=\"text-align:justify;\">(五)使用本藥前後應徹底洗淨雙手。</p><p style=\"text-align:justify;\">(六)本藥限於外用不得內服，亦不得施於眼睛四周或黏膜（如口腔、鼻腔、陰道、陰囊、外陰部等）、潰爛、龜裂或嚴重外傷之患部。</p><p style=\"text-align:justify;\">(七)請注意不要誤入眼睛。萬一誤入眼睛，請立刻以水或溫水沖洗，並立即前往眼科就醫。</p><p style=\"text-align:justify;\"><span style=\"color:black;\">(八)本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(九)使用後請保持塗抹部位透氣，勿密封，以免增加副作用。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(十)請勿使用在患部以外，也勿當作預防使用。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">（十一）本藥不可連續使用超過7天。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">（十二）不得大量使用，以避免全身性吸收，曾有致死報告。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">（十三）避免觸碰衣物、塑膠品、木材、金屬。</span></p><p><span style=\"color:black;\">（十四）不可長期大面積使用，以免引起水楊酸中毒症狀，如呼吸困難、發汗、體溫過高、面色潮紅、持續性耳鳴、劇烈或持續頭痛，使用前請諮詢醫師或藥師。</span></p>",
+          "search_text": "3.4\n其他使用上注意事項\n(一)為防止兒童誤食請妥善保管。 (二)避免陽光直射。 (三)勿超過建議使用量或使用次數。 (四)使用部位或其周圍髒污時，請洗乾淨後再用藥。 (五)使用本藥前後應徹底洗淨雙手。 (六)本藥限於外用不得內服，亦不得施於眼睛四周或黏膜（如口腔、鼻腔、陰道、陰囊、外陰部等）、潰爛、龜裂或嚴重外傷之患部。 (七)請注意不要誤入眼睛。萬一誤入眼睛，請立刻以水或溫水沖洗，並立即前往眼科就醫。 (八)本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。 (九)使用後請保持塗抹部位透氣，勿密封，以免增加副作用。 (十)請勿使用在患部以外，也勿當作預防使用。 （十一）本藥不可連續使用超過7天。 （十二）不得大量使用，以避免全身性吸收，曾有致死報告。 （十三）避免觸碰衣物、塑膠品、木材、金屬。 （十四）不可長期大面積使用，以免引起水楊酸中毒症狀，如呼吸困難、發汗、體溫過高、面色潮紅、持續性耳鳴、劇烈或持續頭痛，使用前請諮詢醫師或藥師。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "需要時使用適量塗抹/塗擦於患部",
+          "content_html": "<figure class=\"table\" style=\"width:300px;\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;width:118.8pt;\"><span style=\"color:black;font-family:標楷體;\">需要時使用</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:297.7pt;\"><span style=\"color:black;font-family:標楷體;\">適量塗抹/塗擦於患部</span></td></tr></tbody></table></figure>",
+          "search_text": "4\n用法用量\n需要時使用適量塗抹/塗擦於患部",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位 副作用 皮膚 局部灼熱、刺痛、過敏性反應、紅斑、搔癢、刺痛感。 其他 水楊酸效應（耳嗚、暈眩、噁心、嘔吐等）",
+          "content_html": "<figure class=\"table\" style=\"width:500px;\"><table><tbody><tr><td style=\"border:1.0pt solid #231F20;height:8.1pt;padding:0cm;vertical-align:top;width:35.6pt;\">身體部位</td><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:8.1pt;padding:0cm;vertical-align:top;width:96.7pt;\"><p style=\"margin-left:37.7pt;\">副作用</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:17.45pt;padding:0cm;vertical-align:top;width:35.6pt;\"><p style=\"margin-left:3.4pt;\">皮膚</p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:17.45pt;padding:0cm;vertical-align:top;width:120pt;\"><p style=\"margin-left:3.6pt;\">局部灼熱、刺痛、過敏性反應、紅斑、搔癢、刺痛感。</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:#231F20;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:16.55pt;padding:0cm;vertical-align:top;width:35.6pt;\"><p style=\"margin-left:3.4pt;\">其他</p></td><td style=\"border-bottom:1.0pt solid #231F20;border-left-style:none;border-right:1.0pt solid #231F20;border-top-style:none;height:16.55pt;padding:0cm;vertical-align:top;width:96.7pt;\"><p style=\"margin-left:3.7pt;\">水楊酸效應（耳嗚、暈眩、噁心、嘔吐等）</p></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 皮膚 局部灼熱、刺痛、過敏性反應、紅斑、搔癢、刺痛感。 其他 水楊酸效應（耳嗚、暈眩、噁心、嘔吐等）",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "(一)若有上述外之其他不適情況產生。 (二)使用7天後，自覺狀況沒有改善或更惡化。",
+          "content_html": "<p><span style=\"color:black;\">(一)若有上述外之其他不適情況產生。</span></p><p><span style=\"color:black;\">(二)使用7天後，自覺狀況沒有改善或更惡化。</span></p>",
+          "search_text": "5.2\n使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n(一)若有上述外之其他不適情況產生。 (二)使用7天後，自覺狀況沒有改善或更惡化。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "非類固醇抗發炎藥(NSAIDs)可能會影響懷孕和/或胚胎/胎兒發育。",
+          "title_html": "非類固醇抗發炎藥(NSAIDs)可能會影響懷孕和/或胚胎/胎兒發育。",
+          "path": [
+            "警語",
+            "非類固醇抗發炎藥(NSAIDs)可能會影響懷孕和/或胚胎/胎兒發育。"
+          ],
+          "content_text": "用於懷孕30週以上之孕婦可能導致胎兒心臟導管過早閉合和肺動脈高壓；用於懷孕20週以上之孕婦可能導致胎兒腎臟功能不全、羊水過少，甚至新生兒腎臟損傷；在懷孕早期使用則可能提高流產、心臟畸形之風險，故請遵循以下建議： •懷孕30週以上之孕婦，應避免使用。 •懷孕20至30週之孕婦，用藥前須經醫師確認有使用必要，並以最低有效劑量及最短期間治療；若治療時間超過48小時，可能需要以超音波監測羊水狀態。 •懷孕未滿20週之孕婦及可能懷孕婦女，使用前請先諮詢醫師藥師藥劑生。",
+          "content_html": "<p><span style=\"color:black;\">用於懷孕30週以上之孕婦可能導致胎兒心臟導管過早閉合和肺動脈高壓；用於懷孕20週以上之孕婦可能導致胎兒腎臟功能不全、羊水過少，甚至新生兒腎臟損傷；在懷孕早期使用則可能提高流產、心臟畸形之風險，故請遵循以下建議：</span></p><p><span style=\"color:black;\">•懷孕30週以上之孕婦，應避免使用。</span></p><p><span style=\"color:black;\">•懷孕20至30週之孕婦，用藥前須經醫師確認有使用必要，並以最低有效劑量及最短期間治療；若治療時間超過48小時，可能需要以超音波監測羊水狀態。</span></p><p><span style=\"color:black;\">•懷孕未滿20週之孕婦及可能懷孕婦女，使用前請先諮詢醫師藥師藥劑生。</span></p>",
+          "search_text": "5.3\n非類固醇抗發炎藥(NSAIDs)可能會影響懷孕和/或胚胎/胎兒發育。\n用於懷孕30週以上之孕婦可能導致胎兒心臟導管過早閉合和肺動脈高壓；用於懷孕20週以上之孕婦可能導致胎兒腎臟功能不全、羊水過少，甚至新生兒腎臟損傷；在懷孕早期使用則可能提高流產、心臟畸形之風險，故請遵循以下建議： •懷孕30週以上之孕婦，應避免使用。 •懷孕20至30週之孕婦，用藥前須經醫師確認有使用必要，並以最低有效劑量及最短期間治療；若治療時間超過48小時，可能需要以超音波監測羊水狀態。 •懷孕未滿20週之孕婦及可能懷孕婦女，使用前請先諮詢醫師藥師藥劑生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "1000公克以下鋁軟管、塑膠瓶裝 。",
+          "content_html": "<p><span style=\"color:#2B2828;\">1000</span><span style=\"color:#4B4949;\">公克以下鋁軟管、塑膠瓶裝&nbsp;</span><span style=\"color:#807E7E;\">。</span></p>",
+          "search_text": "6\n包裝\n1000公克以下鋁軟管、塑膠瓶裝 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "於25°C以下保存，並置於孩童無法觸及之處。",
+          "content_html": "<p><span style=\"color:#4B4949;\">於25</span><span style=\"color:#807E7E;\">°</span><span style=\"color:#2B2828;\">C</span><span style=\"color:#4B4949;\">以</span><span style=\"color:#2B2828;\">下</span><span style=\"color:#4B4949;\">保存</span><span style=\"color:#2B2828;\">，</span><span style=\"color:#4B4949;\">並置於孩童無法觸及之處</span><span style=\"color:#807E7E;\">。</span></p>",
+          "search_text": "7\n儲存方式\n於25°C以下保存，並置於孩童無法觸及之處。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "作用： •Chlorpheniramine maleate：具止癢作用。 •Lidocaine HCl：含有可暫時緩解因皮膚剌激所引起之疼痛及搔癢症狀之成分。 •Methyl Salicylate、Menthol、Camphor等具有鎮痛、止癢、及清涼等作用。\n1\n成分\n1.1\n有效成分及含量\n每公克含有 有效成分 含量 Chlorpheniramine maleate 10mg Lidocaine HCl 30mg Methyl Salicylate 10mg dl-Menthol 10mg dl-Camphor 5mg\n1.2\n其他成分(賦形劑)\nStearyl alcohol、Cetyl alcohol、Glycerol monostearate、Liquid petrolatum、Tween 60、Span 60、Propylene glycol、Hexachlorophene、Water purified\n2\n用途(適應症)\n暫時緩解尿布疹、蚊蟲咬傷、皮膚搔癢、皮膚炎等皮膚疾患的症狀。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n(一)曾因本藥成分引起過敏。 (二)曾經對阿斯匹靈或水楊酸有過敏感現象者。\n3.2\n有下列情形者，使用前請洽醫師診治\n(一)3歲以下。 (二)有深部皮膚組織感染。 (三)懷孕20週以上之孕婦。(請參見【警語】)\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n(一)兒童、孕婦、可能懷孕婦女及哺乳婦。 (二)要使用於臉部。 (三)2歲以下兒童。 (四)懷孕未滿20週之孕婦及可能懷孕婦女。(請參見【警語】)\n3.4\n其他使用上注意事項\n(一)為防止兒童誤食請妥善保管。 (二)避免陽光直射。 (三)勿超過建議使用量或使用次數。 (四)使用部位或其周圍髒污時，請洗乾淨後再用藥。 (五)使用本藥前後應徹底洗淨雙手。 (六)本藥限於外用不得內服，亦不得施於眼睛四周或黏膜（如口腔、鼻腔、陰道、陰囊、外陰部等）、潰爛、龜裂或嚴重外傷之患部。 (七)請注意不要誤入眼睛。萬一誤入眼睛，請立刻以水或溫水沖洗，並立即前往眼科就醫。 (八)本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。 (九)使用後請保持塗抹部位透氣，勿密封，以免增加副作用。 (十)請勿使用在患部以外，也勿當作預防使用。 （十一）本藥不可連續使用超過7天。 （十二）不得大量使用，以避免全身性吸收，曾有致死報告。 （十三）避免觸碰衣物、塑膠品、木材、金屬。 （十四）不可長期大面積使用，以免引起水楊酸中毒症狀，如呼吸困難、發汗、體溫過高、面色潮紅、持續性耳鳴、劇烈或持續頭痛，使用前請諮詢醫師或藥師。\n4\n用法用量\n需要時使用適量塗抹/塗擦於患部\n5\n警語\n5.1\n使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 皮膚 局部灼熱、刺痛、過敏性反應、紅斑、搔癢、刺痛感。 其他 水楊酸效應（耳嗚、暈眩、噁心、嘔吐等）\n5.2\n使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n(一)若有上述外之其他不適情況產生。 (二)使用7天後，自覺狀況沒有改善或更惡化。\n5.3\n非類固醇抗發炎藥(NSAIDs)可能會影響懷孕和/或胚胎/胎兒發育。\n用於懷孕30週以上之孕婦可能導致胎兒心臟導管過早閉合和肺動脈高壓；用於懷孕20週以上之孕婦可能導致胎兒腎臟功能不全、羊水過少，甚至新生兒腎臟損傷；在懷孕早期使用則可能提高流產、心臟畸形之風險，故請遵循以下建議： •懷孕30週以上之孕婦，應避免使用。 •懷孕20至30週之孕婦，用藥前須經醫師確認有使用必要，並以最低有效劑量及最短期間治療；若治療時間超過48小時，可能需要以超音波監測羊水狀態。 •懷孕未滿20週之孕婦及可能懷孕婦女，使用前請先諮詢醫師藥師藥劑生。\n6\n包裝\n1000公克以下鋁軟管、塑膠瓶裝 。\n7\n儲存方式\n於25°C以下保存，並置於孩童無法觸及之處。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "中國化學製藥股份有限公司新豐工廠",
+          "address": "新竹縣新豐鄉坑子口１８２之１號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "中國化學製藥股份有限公司新豐工廠",
+          "address": "新竹縣新豐鄉坑子口１８２之１號"
+        }
+      ]
+    }
+  ]
+}

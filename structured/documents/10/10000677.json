@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:57.365570+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000677",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000677號:5",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000677號",
+      "matched_license_code": "10000677",
+      "matched_nhi_code": "",
+      "drug_name_zh": "諾德欣注射劑10毫克 /1.5毫升",
+      "drug_name_en": "Norditropin FlexPro 10mg/1.5ml",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "5",
+      "approved_at": "2025-12-24",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Norditropin® FlexPro 為一預填於多劑量拋棄式注射筆內的皮下注射溶液。 Norditropin® FlexPro 的主成分為生合成人類生長激素(somatropin)。",
+          "content_html": "<p><span style=\"color:Black;\">Norditropin<sup>®</sup> FlexPro<sup>&nbsp;</sup></span><span style=\"color:Black;font-family:標楷體;\">為一預填於多劑量拋棄式注射筆內的皮下注射溶液。</span></p><p><span style=\"color:Black;\">Norditropin<sup>®</sup> FlexPro<sup>&nbsp;</sup></span><span style=\"color:Black;font-family:標楷體;\">的主成分為生合成人類生長激素</span><span style=\"color:Black;\">(somatropin)</span><span style=\"color:Black;font-family:標楷體;\">。</span></p>",
+          "search_text": "1.1\n有效成分及含量\nNorditropin® FlexPro 為一預填於多劑量拋棄式注射筆內的皮下注射溶液。 Norditropin® FlexPro 的主成分為生合成人類生長激素(somatropin)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "mannitol、histidine、poloxamer 188、phenol、注射用水、調整 pH 值用的 hydrochloric acid 及 sodium hydroxide。",
+          "content_html": "<p>mannitol<span style=\"font-family:標楷體;\">、</span>histidine<span style=\"font-family:標楷體;\">、</span>poloxamer 188<span style=\"font-family:標楷體;\">、</span>phenol<span style=\"font-family:標楷體;\">、注射用水、調整</span> pH&nbsp;<span style=\"font-family:標楷體;\">值用的 </span>hydrochloric acid&nbsp;<span style=\"font-family:標楷體;\">及</span> sodium hydroxide<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "1.2\n賦形劑\nmannitol、histidine、poloxamer 188、phenol、注射用水、調整 pH 值用的 hydrochloric acid 及 sodium hydroxide。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射用溶液 預填式注射筆",
+          "content_html": "<p><span style=\"font-family:標楷體;\">注射用溶液</span></p><p><span style=\"font-family:標楷體;\">預填式注射筆</span></p>",
+          "search_text": "1.3\n劑型\n注射用溶液 預填式注射筆",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "無",
+          "content_html": "<p>無</p>",
+          "search_text": "1.4\n藥品外觀\n無",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "兒童： 因生長激素不足(growth hormone deficiency, GHD)所造成的生長遲緩。 因透納氏症候群(Turner Syndrome)(性腺發育不全女童)所造成的生長遲緩。 青春期前因慢性腎病所造成的生長遲緩。 低出生體重兒(small for gestational age, SGA)至2-4歲時仍無法追上正常生長狀況。 因努南氏症候群(Noonan Syndrome)所造成的生長遲緩。 因普瑞德威利症候群(Prader-Willi Syndrome)所造成的生長遲緩。 身高標準差分數 (height standard deviation score)小於-2.25且生長速率顯示最終成年身高預期無法達到正常範圍之特發性身材矮小症 (idiopathic short stature, ISS)。 成人： 生長激素不足(growth hormone deficiency, GHD)之補充療法。 說明 成人： Norditropin® FlexPro [基因重組生長激素 (somatropin，源自 rDNA) 注射液]，針對患有生長激素分泌不足 (GHD)，且符合下列兩項條件之一的成人，用於補充內源性生長激素： 成年期發病 (AO)：病人因腦下垂體疾病、下視丘疾病、手術、放射療法或創傷，導致生長激素分泌不足或伴隨多重激素分泌不足 (腦下垂體功能低下)；或 兒童期發病 (CO)：病人因先天性、遺傳性、後天性或自發性成因，導致兒童期生長激素分泌不足。 兒童期接受過 somatropin 治療且骨骺已閉合的病人，若要繼續以較低劑量 somatropin 治療 (對成年生長激素分泌不足病人之建議劑量)，應重新評估。依據現行標準，這兩群成年生長激素分泌不足之確診，均須進行適當的生長激素激發試驗，但下列兩種情況下例外：(1) 病人因為器質性疾病而發生其他多重腦下垂體激素分泌不足；(2) 病人患有先天性/遺傳性生長激素分泌不足。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">兒童：</span></p><ol><li><span style=\"font-family:標楷體;\">因生長激素不足</span>(growth hormone deficiency, GHD)<span style=\"font-family:標楷體;\">所造成的生長遲緩。</span></li><li><span style=\"font-family:標楷體;\">因透納氏症候群</span>(Turner Syndrome)(<span style=\"font-family:標楷體;\">性腺發育不全女童</span>)<span style=\"font-family:標楷體;\">所造成的生長遲緩。</span></li><li><span style=\"font-family:標楷體;\">青春期前因慢性腎病所造成的生長遲緩。</span></li><li><span style=\"font-family:標楷體;\">低出生體重兒</span>(small for gestational age, SGA)<span style=\"font-family:標楷體;\">至</span>2-4<span style=\"font-family:標楷體;\">歲時仍無法追上正常生長狀況。</span></li><li><span style=\"font-family:標楷體;\">因努南氏症候群</span>(Noonan Syndrome)<span style=\"font-family:標楷體;\">所造成的生長遲緩。</span></li><li><span style=\"font-family:標楷體;\">因普瑞德威利症候群</span>(Prader-Willi Syndrome)<span style=\"font-family:標楷體;\">所造成的生長遲緩。</span></li><li><span style=\"font-family:標楷體;\">身高標準差分數 (height standard deviation score)小於-2.25且生長速率顯示最終成年身高預期無法達到正常範圍之特發性身材矮小症 (idiopathic short stature, ISS)。</span></li></ol><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">成人：</span></p><p><span style=\"font-family:標楷體;\">生長激素不足</span>(growth hormone deficiency, GHD)<span style=\"font-family:標楷體;\">之補充療法。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i><strong>說明</strong></i></span><br><span style=\"font-family:標楷體;\"><i><strong>成人</strong></i>：</span><br>Norditropin<sup>®</sup> FlexPro [<span style=\"font-family:標楷體;\">基因重組生長激素</span> (somatropin<span style=\"font-family:標楷體;\">，源自</span> rDNA)&nbsp;<span style=\"font-family:標楷體;\">注射液</span>]<span style=\"font-family:標楷體;\">，針對患有生長激素分泌不足</span> (GHD)<span style=\"font-family:標楷體;\">，且符合下列兩項條件之一的成人，用於補充內源性生長激素：</span></p><ul><li><span style=\"font-family:標楷體;\">成年期發病</span> (AO)<span style=\"font-family:標楷體;\">：病人因腦下垂體疾病、下視丘疾病、手術、放射療法或創傷，導致生長激素分泌不足或伴隨多重激素分泌不足</span> (<span style=\"font-family:標楷體;\">腦下垂體功能低下</span>)<span style=\"font-family:標楷體;\">；或</span></li><li><span style=\"font-family:標楷體;\">兒童期發病</span> (CO)<span style=\"font-family:標楷體;\">：病人因先天性、遺傳性、後天性或自發性成因，導致兒童期生長激素分泌不足。</span></li></ul><p><span style=\"font-family:標楷體;\">兒童期接受過</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療且骨骺已閉合的病人，若要繼續以較低劑量</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療</span> &nbsp;(<span style=\"font-family:標楷體;\">對成年生長激素分泌不足病人之建議劑量</span>)<span style=\"font-family:標楷體;\">，應重新評估。依據現行標準，<u>這兩群</u>成年生長激素分泌不足之確診，均須進行適當的生長激素激發試驗，但下列兩種情況下例外：</span>(1)&nbsp;<span style=\"font-family:標楷體;\">病人因為器質性疾病而發生其他多重腦下垂體激素分泌不足；</span>(2)&nbsp;<span style=\"font-family:標楷體;\">病人患有先天性</span>/<span style=\"font-family:標楷體;\">遺傳性生長激素分泌不足。</span></p>",
+          "search_text": "2\n適應症\n兒童： 因生長激素不足(growth hormone deficiency, GHD)所造成的生長遲緩。 因透納氏症候群(Turner Syndrome)(性腺發育不全女童)所造成的生長遲緩。 青春期前因慢性腎病所造成的生長遲緩。 低出生體重兒(small for gestational age, SGA)至2-4歲時仍無法追上正常生長狀況。 因努南氏症候群(Noonan Syndrome)所造成的生長遲緩。 因普瑞德威利症候群(Prader-Willi Syndrome)所造成的生長遲緩。 身高標準差分數 (height standard deviation score)小於-2.25且生長速率顯示最終成年身高預期無法達到正常範圍之特發性身材矮小症 (idiopathic short stature, ISS)。 成人： 生長激素不足(growth hormone deficiency, GHD)之補充療法。 說明 成人： Norditropin® FlexPro [基因重組生長激素 (somatropin，源自 rDNA) 注射液]，針對患有生長激素分泌不足 (GHD)，且符合下列兩項條件之一的成人，用於補充內源性生長激素： 成年期發病 (AO)：病人因腦下垂體疾病、下視丘疾病、手術、放射療法或創傷，導致生長激素分泌不足或伴隨多重激素分泌不足 (腦下垂體功能低下)；或 兒童期發病 (CO)：病人因先天性、遺傳性、後天性或自發性成因，導致兒童期生長激素分泌不足。 兒童期接受過 somatropin 治療且骨骺已閉合的病人，若要繼續以較低劑量 somatropin 治療 (對成年生長激素分泌不足病人之建議劑量)，應重新評估。依據現行標準，這兩群成年生長激素分泌不足之確診，均須進行適當的生長激素激發試驗，但下列兩種情況下例外：(1) 病人因為器質性疾病而發生其他多重腦下垂體激素分泌不足；(2) 病人患有先天性/遺傳性生長激素分泌不足。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "Norditropin® FlexPro是一種預填式注射筆，此設計可搭配NovoFine® 注射針頭一起使用，長度最長 8 mm。Norditropin® FlexPro 10 mg/1.5ml 每劑最多提供4.0 mg somatropin，每次增加0.050 mg somatropin。 劑量因人而異且必須依每個人對治療的臨床和生化反應做調整。通常建議在每日晚間皮下注射一次。注射部位應更換以避免脂肪萎縮。僅限處方使用。 注射程序請參閱 Norditropin® FlexPro 10 mg/1.5ml 使用手冊。應提醒病人在對 Norditropin® FlexPro有任何碰觸前，應先以肥皂和清水和/或消毒劑將雙手完全洗淨。 為確保劑量正確及避免注入空氣，Norditropin® FlexPro新的注射筆在第一次注射前，應檢查其流動性(觀察整支筆)。若針頭針尖未能出現一滴生長激素溶液，則該支Norditropin® FlexPro不得使用。藉由劑量設定鈕，選擇欲注射的劑量，直到所需劑量出現在筆身窗口。若選擇了錯誤的劑量，可透過將劑量設定鈕向反方向轉動來進行更正。按壓給藥按鈕注射。 無論何時，Norditropin® FlexPro都不應劇烈震搖。 若Norditropin® FlexPro預填式注射筆內的生長激素溶液呈現混濁或變色，則請勿使用。注射筆請上下翻轉一次或兩次以進行確認。 任何未使用的藥物產品或廢棄物應根據當地法規要求處置。 一般建議劑量如下： 兒童： 生長激素不足： 25-35μg/kg/day或0.7-1.0 mg/m2/day 患有慢性腎病或透納氏症候群： 50μg/kg/day或1.4 mg/m2/day 特發性身材矮小: 最大劑量不得超過0.47 mg/kg/week 低出生體重兒(small for gestational age, SGA)： 33-67 μg/kg/day或1.0-2.0 mg/m2/day 懷孕週數 > 月經結束後33週。 出生身高 < -2標準差。 母親 > 150公分且父親 > 165公分。 身高低於同年齡身高平均值下2.5個標準差。 體重在同年齡體重2個標準差以內。 過去12個月生長速率低於同年齡之平均值。 無青春期之臨床表徵。 非生長激素缺乏症，即最高生長激素濃度超過10 ng/ml 女孩染色體核型正常 努南氏症候群： 建議劑量為0.066 mg/kg/day，在某些狀況下使用0.033mg/kg/day就已足夠。 生長板閉合時應停止使用。 普瑞德威利症候群 (Prader-Willi Syndrome)： 0.24 mg/kg/week (0.034 mg/kg/day) 生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。 成人 補充療法： 劑量必須依病人個別需要來調整。建議在開始治療時用較低劑量為0.1-0.3 mg/day，再依據個人的需要量逐月增加劑量。使用血清中的類胰島素生長因子-I(IGF-I)來作為調整劑量的參考。 為達到定義的治療目標，雌激素充足的女性可能比男性需要較高劑量。口服雌激素替代治療中的女性可能需要增加劑量。劑量需求會隨著年齡下降。維持劑量因人而異，可是很少超過1.0 mg/day(相當於3 IU/day)。",
+          "content_html": "<p>Norditropin® FlexPro是一種預填式注射筆，此設計可搭配NovoFine® 注射針頭一起使用，長度最長 8 mm。Norditropin® FlexPro 10 mg/1.5ml 每劑最多提供4.0 mg somatropin，每次增加0.050 mg somatropin。<br>劑量因人而異且必須依每個人對治療的臨床和生化反應做調整。通常建議在每日晚間皮下注射一次。注射部位應更換以避免脂肪萎縮。僅限處方使用。<br>注射程序請參閱 Norditropin® FlexPro 10 mg/1.5ml 使用手冊。應提醒病人在對 Norditropin® FlexPro有任何碰觸前，應先以肥皂和清水和/或消毒劑將雙手完全洗淨。<br>為確保劑量正確及避免注入空氣，Norditropin® FlexPro新的注射筆在第一次注射前，應檢查其流動性(觀察整支筆)。若針頭針尖未能出現一滴生長激素溶液，則該支Norditropin® FlexPro不得使用。藉由劑量設定鈕，選擇欲注射的劑量，直到所需劑量出現在筆身窗口。若選擇了錯誤的劑量，可透過將劑量設定鈕向反方向轉動來進行更正。按壓給藥按鈕注射。<br>無論何時，Norditropin® FlexPro都不應劇烈震搖。<br>若Norditropin® FlexPro預填式注射筆內的生長激素溶液呈現混濁或變色，則請勿使用。注射筆請上下翻轉一次或兩次以進行確認。<br>任何未使用的藥物產品或廢棄物應根據當地法規要求處置。<br>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>一般建議劑量如下：</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>兒童：</strong></span></p><p><span style=\"font-family:標楷體;\"><i><strong>生長激素不足：</strong></i></span><br>25-35μg/kg/day<span style=\"font-family:標楷體;\">或</span>0.7-1.0 mg/m<sup>2</sup>/day</p><p><span style=\"font-family:標楷體;\"><i><strong>患有慢性腎病或透納氏症候群：</strong></i></span><br>50μg/kg/day<span style=\"font-family:標楷體;\">或</span>1.4 mg/m<sup>2</sup>/day</p><p><span style=\"font-family:標楷體;\"><i><strong>特發性身材矮小</strong></i></span><i><strong>:</strong></i></p><p><span style=\"font-family:標楷體;\">最大劑量不得超過</span>0.47 mg/kg/week</p><p><span style=\"font-family:標楷體;\"><i><strong>低出生體重兒</strong></i></span><i><strong>(small for gestational age, SGA)</strong></i><span style=\"font-family:標楷體;\"><i><strong>：</strong></i></span><br>33-67 μg/kg/day<span style=\"font-family:標楷體;\">或</span>1.0-2.0&nbsp;mg/m<sup>2</sup>/day</p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">懷孕週數</span> &gt;&nbsp;<span style=\"font-family:標楷體;\">月經結束後</span>33<span style=\"font-family:標楷體;\">週。</span></li><li><span style=\"font-family:標楷體;\">出生身高</span> &lt; -2<span style=\"font-family:標楷體;\">標準差。</span></li><li><span style=\"font-family:標楷體;\">母親</span> &gt; 150<span style=\"font-family:標楷體;\">公分且父親</span> &gt; 165<span style=\"font-family:標楷體;\">公分。</span></li><li><span style=\"font-family:標楷體;\">身高低於同年齡身高平均值下</span>2.5<span style=\"font-family:標楷體;\">個標準差。</span></li><li><span style=\"font-family:標楷體;\">體重在同年齡體重</span>2<span style=\"font-family:標楷體;\">個標準差以內。</span></li><li><span style=\"font-family:標楷體;\">過去</span>12<span style=\"font-family:標楷體;\">個月生長速率低於同年齡之平均值。</span></li><li><span style=\"font-family:標楷體;\">無青春期之臨床表徵。</span></li><li><span style=\"font-family:標楷體;\">非生長激素缺乏症，即最高生長激素濃度超過</span>10 ng/ml</li><li><span style=\"font-family:標楷體;\">女孩染色體核型正常</span></li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i><strong>努南氏症候群：</strong></i></span><br><span style=\"font-family:標楷體;\">建議劑量為</span>0.066 mg/kg/day<span style=\"font-family:標楷體;\">，在某些狀況下使用</span>0.033mg/kg/day<span style=\"font-family:標楷體;\">就已足夠。</span><br><span style=\"font-family:標楷體;\">生長板閉合時應停止使用。</span></p><p><span style=\"font-family:標楷體;\"><i><strong>普瑞德威利症候群</strong></i></span><i><strong> (Prader-Willi Syndrome)</strong></i><span style=\"font-family:標楷體;\"><i><strong>：</strong></i></span><i><strong>&nbsp;</strong></i><br>0.24 mg/kg/week (0.034 mg/kg/day)<br><span style=\"font-family:標楷體;\">生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>成人</strong></span></p><p><span style=\"font-family:標楷體;\"><i><strong>補充療法：</strong></i></span></p><p><span style=\"font-family:標楷體;\">劑量必須依病人個別需要來調整。建議在開始治療時用較低劑量為</span>0.1-0.3 mg/day<span style=\"font-family:標楷體;\">，再依據個人的需要量逐月增加劑量。使用血清中的類胰島素生長因子</span>-I(IGF-I)<span style=\"font-family:標楷體;\">來作為調整劑量的參考。</span><br><span style=\"font-family:標楷體;\">為達到定義的治療目標，雌激素充足的女性可能比男性需要較高劑量。口服雌激素替代治療中的女性可能需要增加劑量。劑量需求會隨著年齡下降。維持劑量因人而異，可是很少超過</span>1.0 mg/day(<span style=\"font-family:標楷體;\">相當於</span>3 IU/day)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "3.1\n用法用量\nNorditropin® FlexPro是一種預填式注射筆，此設計可搭配NovoFine® 注射針頭一起使用，長度最長 8 mm。Norditropin® FlexPro 10 mg/1.5ml 每劑最多提供4.0 mg somatropin，每次增加0.050 mg somatropin。 劑量因人而異且必須依每個人對治療的臨床和生化反應做調整。通常建議在每日晚間皮下注射一次。注射部位應更換以避免脂肪萎縮。僅限處方使用。 注射程序請參閱 Norditropin® FlexPro 10 mg/1.5ml 使用手冊。應提醒病人在對 Norditropin® FlexPro有任何碰觸前，應先以肥皂和清水和/或消毒劑將雙手完全洗淨。 為確保劑量正確及避免注入空氣，Norditropin® FlexPro新的注射筆在第一次注射前，應檢查其流動性(觀察整支筆)。若針頭針尖未能出現一滴生長激素溶液，則該支Norditropin® FlexPro不得使用。藉由劑量設定鈕，選擇欲注射的劑量，直到所需劑量出現在筆身窗口。若選擇了錯誤的劑量，可透過將劑量設定鈕向反方向轉動來進行更正。按壓給藥按鈕注射。 無論何時，Norditropin® FlexPro都不應劇烈震搖。 若Norditropin® FlexPro預填式注射筆內的生長激素溶液呈現混濁或變色，則請勿使用。注射筆請上下翻轉一次或兩次以進行確認。 任何未使用的藥物產品或廢棄物應根據當地法規要求處置。 一般建議劑量如下： 兒童： 生長激素不足： 25-35μg/kg/day或0.7-1.0 mg/m2/day 患有慢性腎病或透納氏症候群： 50μg/kg/day或1.4 mg/m2/day 特發性身材矮小: 最大劑量不得超過0.47 mg/kg/week 低出生體重兒(small for gestational age, SGA)： 33-67 μg/kg/day或1.0-2.0 mg/m2/day 懷孕週數 > 月經結束後33週。 出生身高 < -2標準差。 母親 > 150公分且父親 > 165公分。 身高低於同年齡身高平均值下2.5個標準差。 體重在同年齡體重2個標準差以內。 過去12個月生長速率低於同年齡之平均值。 無青春期之臨床表徵。 非生長激素缺乏症，即最高生長激素濃度超過10 ng/ml 女孩染色體核型正常 努南氏症候群： 建議劑量為0.066 mg/kg/day，在某些狀況下使用0.033mg/kg/day就已足夠。 生長板閉合時應停止使用。 普瑞德威利症候群 (Prader-Willi Syndrome)： 0.24 mg/kg/week (0.034 mg/kg/day) 生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。 成人 補充療法： 劑量必須依病人個別需要來調整。建議在開始治療時用較低劑量為0.1-0.3 mg/day，再依據個人的需要量逐月增加劑量。使用血清中的類胰島素生長因子-I(IGF-I)來作為調整劑量的參考。 為達到定義的治療目標，雌激素充足的女性可能比男性需要較高劑量。口服雌激素替代治療中的女性可能需要增加劑量。劑量需求會隨著年齡下降。維持劑量因人而異，可是很少超過1.0 mg/day(相當於3 IU/day)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "無",
+          "content_html": "<p>無</p>",
+          "search_text": "3.2\n調製方式\n無",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "Norditropin® 禁用於下列病人： 開心手術、腹部手術或多重意外創傷後發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量的 somatropin 治療後，死亡率風險增加 [參見警語及注意事項(5)]。 重度肥胖、有上呼吸道阻塞或睡眠呼吸中止病史或罹患重度呼吸道功能不全的普瑞德威利氏症候群 (Prader-Willi syndrome) 兒童病人，有猝死風險 [參見警語及注意事項(5)]。 活性惡性腫瘤 [參見警語及注意事項(5)]。 對 Norditropin® 或其中的賦形劑過敏。Somatropin 在上市使用後，曾通報全身性過敏反應 [參見警語及注意事項(5)]。 活性增生性或嚴重非增生性糖尿病視網膜病變。 骨骺已閉合的兒童病人。",
+          "content_html": "<p>Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">禁用於下列病人：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">開心手術、腹部手術或多重意外創傷後發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量的</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療後，死亡率風險增加</span> <i>[</i><span style=\"font-family:標楷體;\"><i>參見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。</span></li><li><span style=\"font-family:標楷體;\">重度肥胖、有上呼吸道阻塞或睡眠呼吸中止病史或罹患重度呼吸道功能不全的普瑞德威利氏症候群</span> (Prader-Willi syndrome)&nbsp;<span style=\"font-family:標楷體;\">兒童病人，有猝死風險</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>參見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。</span></li><li><span style=\"font-family:標楷體;\">活性惡性腫瘤</span> <i>[</i><span style=\"font-family:標楷體;\"><i>參見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。</span></li><li><span style=\"font-family:標楷體;\">對</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">或其中的賦形劑過敏。</span>Somatropin&nbsp;<span style=\"font-family:標楷體;\">在上市使用後，曾通報全身性過敏反應</span> <i>[</i><span style=\"font-family:標楷體;\"><i>參見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。</span></li><li><span style=\"font-family:標楷體;\">活性增生性或嚴重非增生性糖尿病視網膜病變。</span></li><li><span style=\"font-family:標楷體;\">骨骺已閉合的兒童病人。</span></li></ul>",
+          "search_text": "4\n禁忌\nNorditropin® 禁用於下列病人： 開心手術、腹部手術或多重意外創傷後發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量的 somatropin 治療後，死亡率風險增加 [參見警語及注意事項(5)]。 重度肥胖、有上呼吸道阻塞或睡眠呼吸中止病史或罹患重度呼吸道功能不全的普瑞德威利氏症候群 (Prader-Willi syndrome) 兒童病人，有猝死風險 [參見警語及注意事項(5)]。 活性惡性腫瘤 [參見警語及注意事項(5)]。 對 Norditropin® 或其中的賦形劑過敏。Somatropin 在上市使用後，曾通報全身性過敏反應 [參見警語及注意事項(5)]。 活性增生性或嚴重非增生性糖尿病視網膜病變。 骨骺已閉合的兒童病人。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "急重症病人的死亡率增加 因開心手術、腹部手術或多重意外創傷後之併發症而發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量之 somatropin 治療後，曾有死亡率增加的報告 [見禁忌(4)]。兩項安慰劑對照臨床試驗，對象為加護病房內，患有上述疾病之非生長激素分泌不足成年病人 (n=522)，顯示接受 somatropin 治療病人 (劑量 5.3-8 mg/day)，相對於接受安慰劑病人，死亡率顯著增加 (42% 相對於 19%)尚未確立接受核准適應症補充劑量時，伴隨發生上述疾患的病人，繼續使用 Norditropin®治療之安全性。Norditropin® 並未核准用於治療非生長激素分泌不足的成年病人。 兒童普瑞德威利氏症候群 (Prader-Willi Syndrome)病人 具有下列一或多項風險因子的兒童普瑞德威利氏症候群病人，開始 somatropin 治療後，曾有死亡報告：嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、或原因不明之呼吸道感染。帶有一或多項上述因子的男性病人，風險可能高於女性。普瑞德威利氏症候群病人開始 somatropin 治療前，應評估上呼吸道阻塞和睡眠呼吸中止症的表徵。若使用 somatropin 治療期間，病人出現上呼吸道阻塞 (包括出現打鼾或打鼾頻率增加) 和/或新發病之睡眠呼吸中止症，應中斷治療。所有接受 somatropin 治療的普瑞德威利氏症候群病人，也應進行有效體重控制，並監測呼吸道感染之表徵，呼吸道感染應儘早診斷並積極治療 [見禁忌(4)]。 腫瘤的風險增加 活性惡性腫瘤 罹患活性惡性腫瘤的病人，以 somatropin 治療時，惡性腫瘤惡化的風險增加[見禁忌(4)]。任何既存的惡性腫瘤應為非活性，且在開始Norditropin® 治療前已完成惡性腫瘤治療。如果有復發的證據，則停用 Norditropin® 。 兒童病人出現第二種腫瘤的風險 接受放射線治療腦部/頭部的兒童癌症病人，後續發生生長激素分泌不足並以 somatropin 治療時，出現第二種腫瘤的風險增加。顱內腫瘤 (尤其是腦膜瘤) 是最常見的第二種腫瘤。目前尚不清楚成年病人的 somatropin 補充治療，與中樞神經系統腫瘤復發之間，是否存在任何關係。對於具有顱內腫瘤繼發性生長激素分泌不足病史，並接受 Norditropin® 治療的所有病人，需監測腫瘤是否惡化或復發。 治療期間新發生的惡性腫瘤 由於具有特定罕見矮小體型遺傳成因的兒童病人，發生惡性腫瘤的風險較高，應仔細考量這些病人接受 Norditropin® 治療的風險及效益。如果開始 Norditropin® 治療，應謹慎監測病人是否出現腫瘤。 所有接受 Norditropin® 治療的病人，應謹慎監測既存的痣是否迅速生長，或可能發生惡性變化。應告知病人/照護者，需通報顯著的行為改變、頭痛、視覺異常及/或皮膚色素變化，或既存的痣外觀出現變化。 葡萄糖耐受不良及糖尿病 使用 somatropin 治療可能會降低胰島素敏感性，尤其是在易受影響的病人使用較高劑量的情況下。因此，somatropin 治療期間，可能會顯現出之前未診斷出來的葡萄糖耐受不良，及明顯的糖尿病。病人曾有發生新發病之第2型糖尿病的報告。因此，所有使用 somatropin 治療的病人，應定期監測血糖濃度，尤其是具有糖尿病風險因子的病人，例如肥胖、透納氏症候群、或糖尿病家族病史。已經罹患第1型或第2型糖尿病、或葡萄糖耐受不良的病人，使用 somatropin 治療期間，應密切監測。這些病人開始 somatropin 治療時，可能需要調整降血糖藥物的劑量 (亦即，胰島素或口服/注射藥物)。 顱內高壓 接受 somatropin 藥物治療的少數病人，曾有顱內高壓 (IH) 伴隨視神經乳頭水腫、視力改變、頭痛、噁心和/或嘔吐之報告。症狀通常在開始 somatropin 治療後的頭8週內發生。在所有報告案例中，停止治療或減少 somatropin 劑量後，顱內高壓導致的表徵及症狀可迅速排除。 開始 somatropin 治療前，應進行例行的眼底鏡檢查，以確認之前未發生視神經乳頭水腫，且在 somatropin 治療期間應定期檢查。somatropin 治療期間，眼底鏡檢查若發現視神經乳頭水腫，應停止治療。若診斷為 somatropin 誘發之顱內高壓，可在顱內高壓導致的表徵及症狀排除後，以較低劑量重新開始 somatropin 治療。透納氏症候群病人，發生顱內高壓的風險可能較高。 體液滯留 成人接受 somatropin 補充療法期間，可能會頻繁發生體液滯留。體液滯留之臨床表現(例如水腫、關節痛、肌痛、神經壓迫症候群，包括腕隧道症候群/感覺異常) 通常為暫時性，且和劑量有關。 腎上腺功能不足 有腦下垂體激素分泌不足風險，而接受 somatropin 治療的病人，可能會有發生血清皮質醇濃度降低，及/或顯現出中樞性 (繼發性) 腎上腺功能不足的風險。此外，先前診斷腎上腺功能不足，而接受糖皮質素補充治療的病人，在開始 Norditropin® 治療後，可能需要增加維持或壓力劑量。已知腎上腺功能不足的病人，應監測血清皮質醇濃度是否降低，及/或是否需要增加糖皮質素劑量。 甲狀腺功能低下 未診斷/未治療的甲狀腺功能低下，可能會導致無法達到最佳 somatropin 治療反應，尤其是兒童的生長反應。透納氏症候群病人，先天發生自體免疫甲狀腺疾病和原發性甲狀腺功能低下的風險較高。生長激素分泌不足的病人，中樞性 (次發性) 甲狀腺功能低下可能會在 somatropin 治療期間首次出現或惡化。因此，接受 somatropin 治療病人，應定期進行甲狀腺功能檢查，且應在出現表徵時，開始或適當調整甲狀腺激素補充療法。 兒童病人股骨生長板滑脫症 在快速成長的兒童和內分泌疾病人者中，髖部滑脫的發生率可能比一般人群更高。 在接受生長激素治療的兒童中，已報告髖部滑脫、股骨頭壞死（包括Legg-Calvé-Perthes病）。在接受生長激素治療期間，持續髖部/膝部疼痛和/或跛行的兒童應進行臨床檢查。 兒童病人先前存在之脊椎側彎惡化 快速生長的病人，可能會發生脊椎側彎惡化。由於 somatropin 會增加生長速率，有脊椎側彎病史且接受 somatropin 治療的病人，應密切監測是否發生脊椎側彎惡化。 確認兒童期發病之成人生長激素分泌不足 生長板閉合且在兒童期接受 somatropin 補充療法的病人，應依據「適應症(2)說明 成人」內的條件重新評估，方可繼續以較低劑量使用 somatropin 治療 (對成年生長激素分泌不足病人之建議劑量)。 脂肪萎縮 在相同部位重複以皮下注射方式施用 somatropin 時，可能會導致組織萎縮。輪換注射部位可避免這種情況[見用法及用量(3)]。 嚴重過敏 Somatropin 藥品上市後，曾有嚴重全身性過敏反應報告，包括無防禦性過敏反應 (anaphylactic reaction)及血管性水腫。應告知病人及照護者可能會發生此類反應，若發生過敏反應應立即就醫。 胰臟炎 接受 somatropin 治療的兒童和成人，曾報告發生罕見的胰臟炎案例，有部份證據顯示，兒童的風險高於成人。已發表的文獻顯示，患有透納氏症候群的女童，風險可能高於其他接受 somatropin 治療的兒童。任何接受 somatropin 治療的病人，均應考量發生胰臟炎的可能性，尤其是發生持續嚴重腹痛的兒童。 鈉含量 每1.5 ml 的Norditropin® 的鈉含量低於 1 mmol (23 mg)，亦即基本上「不含鈉」。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>急重症病人的死亡率增加</strong></span></p><p><span style=\"font-family:標楷體;\">因開心手術、腹部手術或多重意外創傷後之併發症而發生急重症，或發生急性呼吸衰竭的病人，使用<u>藥理</u>劑量之</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療後，曾有死亡率增加的報告</span> <i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)]</i><span style=\"font-family:標楷體;\">。兩項安慰劑對照臨床試驗，對象為加護病房內，患有上述疾病之非生長激素分泌不足成年病人</span> (n=522)<span style=\"font-family:標楷體;\">，顯示接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療病人</span> (<span style=\"font-family:標楷體;\">劑量</span> 5.3-8 mg/day)<span style=\"font-family:標楷體;\">，相對於接受安慰劑病人，死亡率顯著增加</span> (42%&nbsp;<span style=\"font-family:標楷體;\">相對於</span> 19%)<span style=\"font-family:標楷體;\">尚未確立接受核准適應症補充劑量時，伴隨發生上述疾患的病人，繼續使用</span> Norditropin<sup>®</sup><span style=\"font-family:標楷體;\">治療之安全性。</span>Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">並未核准用於治療非生長激素分泌不足的成年病人。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>兒童普瑞德威利氏症候群</strong></span><strong> (Prader-Willi Syndrome)</strong><span style=\"font-family:標楷體;\"><strong>病人</strong></span></p><p><span style=\"font-family:標楷體;\">具有下列一或多項風險因子的兒童普瑞德威利氏症候群病人，開始</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療後，曾有死亡報告：嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、或原因不明之呼吸道感染。帶有一或多項上述因子的男性病人，風險可能高於女性。普瑞德威利氏症候群病人開始</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療前，應評估上呼吸道阻塞和睡眠呼吸中止症的表徵。若使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間，病人出現上呼吸道阻塞</span> (<span style=\"font-family:標楷體;\">包括出現打鼾或打鼾頻率增加</span>)&nbsp;<span style=\"font-family:標楷體;\">和</span>/<span style=\"font-family:標楷體;\">或新發病之睡眠呼吸中止症，應中斷治療。所有接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的普瑞德威利氏症候群病人，也應進行有效體重控制，並監測呼吸道感染之表徵，呼吸道感染應儘早診斷並積極治療</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)]</i><span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>腫瘤的風險增加</strong></span></p><p><span style=\"font-family:標楷體;\"><u>活性惡性腫瘤</u></span><br><span style=\"font-family:標楷體;\">罹患活性惡性腫瘤的病人，以</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療時，惡性腫瘤惡化的風險增加</span><i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)]</i><span style=\"font-family:標楷體;\">。任何既存的惡性腫瘤應為非活性，且在開始</span>Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療前已完成惡性腫瘤治療。如果有復發的證據，則停用</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">。</span><br><span style=\"font-family:標楷體;\"><u>兒童病人出現第二種腫瘤的風險</u></span><br><span style=\"font-family:標楷體;\">接受放射線治療腦部</span>/<span style=\"font-family:標楷體;\">頭部的兒童癌症病人，後續發生生長激素分泌不足並以</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療時，出現第二種腫瘤的風險增加。顱內腫瘤</span> (<span style=\"font-family:標楷體;\">尤其是腦膜瘤</span>)&nbsp;<span style=\"font-family:標楷體;\">是最常見的第二種腫瘤。目前尚不清楚成年病人的</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">補充治療，與中樞神經系統腫瘤復發之間，是否存在任何關係。對於具有顱內腫瘤繼發性生長激素分泌不足病史，並接受</span> Norditropin<sup>®</sup>&nbsp; <span style=\"font-family:標楷體;\">治療的所有病人，需監測腫瘤是否惡化或復發。</span><br><span style=\"font-family:標楷體;\"><u>治療期間新發生的惡性腫瘤</u></span><br><span style=\"font-family:標楷體;\">由於具有特定罕見矮小體型遺傳成因的兒童病人，發生惡性腫瘤的風險較高，應仔細考量這些病人接受</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療的風險及效益。如果開始</span> Norditropin<sup>®</sup>&nbsp; <span style=\"font-family:標楷體;\">治療，應謹慎監測病人是否出現腫瘤。</span><br><span style=\"font-family:標楷體;\">所有接受</span> Norditropin<sup>®</sup>&nbsp; <span style=\"font-family:標楷體;\">治療的病人，應謹慎監測既存的痣是否迅速生長，或可能發生惡性變化。應告知病人</span>/<span style=\"font-family:標楷體;\">照護者，需通報顯著的行為改變、頭痛、視覺異常及</span>/<span style=\"font-family:標楷體;\">或皮膚色素變化，或既存的痣外觀出現變化。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>葡萄糖耐受不良及糖尿病</strong></span></p><p><span style=\"font-family:標楷體;\">使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療可能會降低胰島素敏感性，尤其是在易受影響的病人使用較高劑量的情況下。因此，</span>somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間，可能會顯現出之前未診斷出來的葡萄糖耐受不良，及明顯的糖尿病。病人曾有發生新發病之第</span>2<span style=\"font-family:標楷體;\">型糖尿病的報告。因此，所有使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的病人，應定期監測血糖濃度，尤其是具有糖尿病風險因子的病人，例如肥胖、透納氏症候群、或糖尿病家族病史。已經罹患第</span>1<span style=\"font-family:標楷體;\">型或第</span>2<span style=\"font-family:標楷體;\">型糖尿病、或葡萄糖耐受不良的病人，使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間，應密切監測。這些病人開始</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療時，可能需要調整降血糖藥物的劑量</span> (<span style=\"font-family:標楷體;\">亦即，胰島素或口服</span>/<span style=\"font-family:標楷體;\">注射藥物</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>顱內高壓</strong></span></p><p><span style=\"font-family:標楷體;\">接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">藥物治療的少數病人，曾有顱內高壓</span> (IH)&nbsp;<span style=\"font-family:標楷體;\">伴隨視神經乳頭水腫、視力改變、頭痛、噁心和</span>/<span style=\"font-family:標楷體;\">或嘔吐之報告。症狀通常在開始</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療後的頭</span>8<span style=\"font-family:標楷體;\">週內發生。在所有報告案例中，停止治療或減少</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">劑量後，顱內高壓導致的表徵及症狀可迅速排除。</span><br><span style=\"font-family:標楷體;\">開始</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療前，應進行例行的眼底鏡檢查，以確認之前未發生視神經乳頭水腫，且在</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間應定期檢查。</span>somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間，眼底鏡檢查若發現視神經乳頭水腫，應停止治療。若診斷為</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">誘發之顱內高壓，可在顱內高壓導致的表徵及症狀排除後，以較低劑量重新開始</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療。透納氏症候群病人，發生顱內高壓的風險可能較高。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>體液滯留</strong></span></p><p><span style=\"font-family:標楷體;\">成人接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">補充療法期間，可能會頻繁發生體液滯留。體液滯留之臨床表現</span>(<span style=\"font-family:標楷體;\">例如水腫、關節痛、肌痛、神經壓迫症候群，包括腕隧道症候群</span>/<span style=\"font-family:標楷體;\">感覺異常</span>)&nbsp;<span style=\"font-family:標楷體;\">通常為暫時性，且和劑量有關。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>腎上腺功能不足</strong></span></p><p><span style=\"font-family:標楷體;\">有腦下垂體激素分泌不足風險，而接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的病人，可能會有發生血清皮質醇濃度降低，及</span>/<span style=\"font-family:標楷體;\">或顯現出中樞性</span> (<span style=\"font-family:標楷體;\">繼發性</span>)&nbsp;<span style=\"font-family:標楷體;\">腎上腺功能不足的風險。此外，先前診斷腎上腺功能不足，而接受糖皮質素補充治療的病人，在開始</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療後，可能需要增加維持或壓力劑量。已知腎上腺功能不足的病人，應監測血清皮質醇濃度是否降低，及</span>/<span style=\"font-family:標楷體;\">或是否需要增加糖皮質素劑量。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>甲狀腺功能低下</strong></span></p><p><span style=\"font-family:標楷體;\">未診斷</span>/<span style=\"font-family:標楷體;\">未治療的甲狀腺功能低下，可能會導致無法達到最佳</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療反應，尤其是兒童的生長反應。透納氏症候群病人，先天發生自體免疫甲狀腺疾病和原發性甲狀腺功能低下的風險較高。生長激素分泌不足的病人，中樞性</span> (<span style=\"font-family:標楷體;\">次發性</span>)&nbsp;<span style=\"font-family:標楷體;\">甲狀腺功能低下可能會在</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間首次出現或惡化。因此，接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療病人，應定期進行甲狀腺功能檢查，且應在出現表徵時，開始或適當調整甲狀腺激素補充療法。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>兒童病人股骨生長板滑脫症</strong></span></p><figure class=\"table\" style=\"float:left;\"><table><tbody><tr><td style=\"padding:0cm 9.0pt;vertical-align:top;\"><span style=\"color:#0D0D0D;font-family:標楷體;\">在快速成長的兒童和內分泌疾病人者中，髖部滑脫的發生率可能比一般人群更高。</span></td></tr></tbody></table></figure><p><span style=\"color:#0D0D0D;font-family:標楷體;\">在接受生長激素治療的兒童中，已報告髖部滑脫、股骨頭壞死（包括</span><span style=\"color:#0D0D0D;\">Legg-Calvé-Perthes</span><span style=\"color:#0D0D0D;font-family:標楷體;\">病）。在接受生長激素治療期間，持續髖部</span><span style=\"color:#0D0D0D;\">/</span><span style=\"color:#0D0D0D;font-family:標楷體;\">膝部疼痛和</span><span style=\"color:#0D0D0D;\">/</span><span style=\"color:#0D0D0D;font-family:標楷體;\">或跛行的兒童應進行臨床檢查。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>兒童病人先前存在之脊椎側彎惡化</strong></span></p><p><span style=\"font-family:標楷體;\">快速生長的病人，可能會發生脊椎側彎惡化。由於</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">會增加生長速率，有脊椎側彎病史且接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的病人，應密切監測是否發生脊椎側彎惡化。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>確認兒童期發病之成人生長激素分泌不足</strong></span></p><p><span style=\"font-family:標楷體;\">生長板閉合且在兒童期接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">補充療法的病人，應依據「<i>適應症</i></span><i>(2)</i><span style=\"font-family:標楷體;\"><i>說明</i></span><i>&nbsp;</i><span style=\"font-family:標楷體;\"><i>成人</i>」內的條件重新評估，方可繼續以較低劑量使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療</span> (<span style=\"font-family:標楷體;\">對成年生長激素分泌不足病人之建議劑量</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>脂肪萎縮</strong></span></p><p><span style=\"font-family:標楷體;\">在相同部位重複以皮下注射方式施用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">時，可能會導致組織萎縮。輪換注射部位可避免這種情況</span><i>[</i><span style=\"font-family:標楷體;\"><i>見用法及用量</i></span><i>(3)]</i><span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>嚴重過敏</strong></span></p><p>Somatropin&nbsp;<span style=\"font-family:標楷體;\">藥品上市後，曾有嚴重全身性過敏反應報告，包括無防禦性過敏反應</span> (anaphylactic reaction)<span style=\"font-family:標楷體;\">及血管性水腫。應告知病人及照護者可能會發生此類反應，若發生過敏反應應立即就醫。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>胰臟炎</strong></span></p><p><span style=\"font-family:標楷體;\">接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的兒童和成人，曾報告發生罕見的胰臟炎案例，有部份證據顯示，兒童的風險高於成人。已發表的文獻顯示，患有透納氏症候群的女童，風險可能高於其他接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的兒童。任何接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的病人，均應考量發生胰臟炎的可能性，尤其是發生持續嚴重腹痛的兒童。</span></p><figure class=\"table\" style=\"float:left;\"><table><tbody><tr><td style=\"padding:0cm 9.0pt;vertical-align:top;\"><p><span style=\"color:#0D0D0D;font-family:標楷體;\"><strong>鈉含量</strong></span></p><p><span style=\"color:#0D0D0D;font-family:標楷體;\">每</span><span style=\"color:#0D0D0D;\">1.5 ml&nbsp;</span><span style=\"color:#0D0D0D;font-family:標楷體;\">的</span><span style=\"color:#0D0D0D;\">Norditropin<sup>®&nbsp;</sup></span><span style=\"color:#0D0D0D;font-family:標楷體;\">的鈉含量低於</span><span style=\"color:#0D0D0D;\"> 1 mmol (23 mg)</span><span style=\"color:#0D0D0D;font-family:標楷體;\">，亦即基本上「不含鈉」。</span></p></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n警語/注意事項\n急重症病人的死亡率增加 因開心手術、腹部手術或多重意外創傷後之併發症而發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量之 somatropin 治療後，曾有死亡率增加的報告 [見禁忌(4)]。兩項安慰劑對照臨床試驗，對象為加護病房內，患有上述疾病之非生長激素分泌不足成年病人 (n=522)，顯示接受 somatropin 治療病人 (劑量 5.3-8 mg/day)，相對於接受安慰劑病人，死亡率顯著增加 (42% 相對於 19%)尚未確立接受核准適應症補充劑量時，伴隨發生上述疾患的病人，繼續使用 Norditropin®治療之安全性。Norditropin® 並未核准用於治療非生長激素分泌不足的成年病人。 兒童普瑞德威利氏症候群 (Prader-Willi Syndrome)病人 具有下列一或多項風險因子的兒童普瑞德威利氏症候群病人，開始 somatropin 治療後，曾有死亡報告：嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、或原因不明之呼吸道感染。帶有一或多項上述因子的男性病人，風險可能高於女性。普瑞德威利氏症候群病人開始 somatropin 治療前，應評估上呼吸道阻塞和睡眠呼吸中止症的表徵。若使用 somatropin 治療期間，病人出現上呼吸道阻塞 (包括出現打鼾或打鼾頻率增加) 和/或新發病之睡眠呼吸中止症，應中斷治療。所有接受 somatropin 治療的普瑞德威利氏症候群病人，也應進行有效體重控制，並監測呼吸道感染之表徵，呼吸道感染應儘早診斷並積極治療 [見禁忌(4)]。 腫瘤的風險增加 活性惡性腫瘤 罹患活性惡性腫瘤的病人，以 somatropin 治療時，惡性腫瘤惡化的風險增加[見禁忌(4)]。任何既存的惡性腫瘤應為非活性，且在開始Norditropin® 治療前已完成惡性腫瘤治療。如果有復發的證據，則停用 Norditropin® 。 兒童病人出現第二種腫瘤的風險 接受放射線治療腦部/頭部的兒童癌症病人，後續發生生長激素分泌不足並以 somatropin 治療時，出現第二種腫瘤的風險增加。顱內腫瘤 (尤其是腦膜瘤) 是最常見的第二種腫瘤。目前尚不清楚成年病人的 somatropin 補充治療，與中樞神經系統腫瘤復發之間，是否存在任何關係。對於具有顱內腫瘤繼發性生長激素分泌不足病史，並接受 Norditropin® 治療的所有病人，需監測腫瘤是否惡化或復發。 治療期間新發生的惡性腫瘤 由於具有特定罕見矮小體型遺傳成因的兒童病人，發生惡性腫瘤的風險較高，應仔細考量這些病人接受 Norditropin® 治療的風險及效益。如果開始 Norditropin® 治療，應謹慎監測病人是否出現腫瘤。 所有接受 Norditropin® 治療的病人，應謹慎監測既存的痣是否迅速生長，或可能發生惡性變化。應告知病人/照護者，需通報顯著的行為改變、頭痛、視覺異常及/或皮膚色素變化，或既存的痣外觀出現變化。 葡萄糖耐受不良及糖尿病 使用 somatropin 治療可能會降低胰島素敏感性，尤其是在易受影響的病人使用較高劑量的情況下。因此，somatropin 治療期間，可能會顯現出之前未診斷出來的葡萄糖耐受不良，及明顯的糖尿病。病人曾有發生新發病之第2型糖尿病的報告。因此，所有使用 somatropin 治療的病人，應定期監測血糖濃度，尤其是具有糖尿病風險因子的病人，例如肥胖、透納氏症候群、或糖尿病家族病史。已經罹患第1型或第2型糖尿病、或葡萄糖耐受不良的病人，使用 somatropin 治療期間，應密切監測。這些病人開始 somatropin 治療時，可能需要調整降血糖藥物的劑量 (亦即，胰島素或口服/注射藥物)。 顱內高壓 接受 somatropin 藥物治療的少數病人，曾有顱內高壓 (IH) 伴隨視神經乳頭水腫、視力改變、頭痛、噁心和/或嘔吐之報告。症狀通常在開始 somatropin 治療後的頭8週內發生。在所有報告案例中，停止治療或減少 somatropin 劑量後，顱內高壓導致的表徵及症狀可迅速排除。 開始 somatropin 治療前，應進行例行的眼底鏡檢查，以確認之前未發生視神經乳頭水腫，且在 somatropin 治療期間應定期檢查。somatropin 治療期間，眼底鏡檢查若發現視神經乳頭水腫，應停止治療。若診斷為 somatropin 誘發之顱內高壓，可在顱內高壓導致的表徵及症狀排除後，以較低劑量重新開始 somatropin 治療。透納氏症候群病人，發生顱內高壓的風險可能較高。 體液滯留 成人接受 somatropin 補充療法期間，可能會頻繁發生體液滯留。體液滯留之臨床表現(例如水腫、關節痛、肌痛、神經壓迫症候群，包括腕隧道症候群/感覺異常) 通常為暫時性，且和劑量有關。 腎上腺功能不足 有腦下垂體激素分泌不足風險，而接受 somatropin 治療的病人，可能會有發生血清皮質醇濃度降低，及/或顯現出中樞性 (繼發性) 腎上腺功能不足的風險。此外，先前診斷腎上腺功能不足，而接受糖皮質素補充治療的病人，在開始 Norditropin® 治療後，可能需要增加維持或壓力劑量。已知腎上腺功能不足的病人，應監測血清皮質醇濃度是否降低，及/或是否需要增加糖皮質素劑量。 甲狀腺功能低下 未診斷/未治療的甲狀腺功能低下，可能會導致無法達到最佳 somatropin 治療反應，尤其是兒童的生長反應。透納氏症候群病人，先天發生自體免疫甲狀腺疾病和原發性甲狀腺功能低下的風險較高。生長激素分泌不足的病人，中樞性 (次發性) 甲狀腺功能低下可能會在 somatropin 治療期間首次出現或惡化。因此，接受 somatropin 治療病人，應定期進行甲狀腺功能檢查，且應在出現表徵時，開始或適當調整甲狀腺激素補充療法。 兒童病人股骨生長板滑脫症 在快速成長的兒童和內分泌疾病人者中，髖部滑脫的發生率可能比一般人群更高。 在接受生長激素治療的兒童中，已報告髖部滑脫、股骨頭壞死（包括Legg-Calvé-Perthes病）。在接受生長激素治療期間，持續髖部/膝部疼痛和/或跛行的兒童應進行臨床檢查。 兒童病人先前存在之脊椎側彎惡化 快速生長的病人，可能會發生脊椎側彎惡化。由於 somatropin 會增加生長速率，有脊椎側彎病史且接受 somatropin 治療的病人，應密切監測是否發生脊椎側彎惡化。 確認兒童期發病之成人生長激素分泌不足 生長板閉合且在兒童期接受 somatropin 補充療法的病人，應依據「適應症(2)說明 成人」內的條件重新評估，方可繼續以較低劑量使用 somatropin 治療 (對成年生長激素分泌不足病人之建議劑量)。 脂肪萎縮 在相同部位重複以皮下注射方式施用 somatropin 時，可能會導致組織萎縮。輪換注射部位可避免這種情況[見用法及用量(3)]。 嚴重過敏 Somatropin 藥品上市後，曾有嚴重全身性過敏反應報告，包括無防禦性過敏反應 (anaphylactic reaction)及血管性水腫。應告知病人及照護者可能會發生此類反應，若發生過敏反應應立即就醫。 胰臟炎 接受 somatropin 治療的兒童和成人，曾報告發生罕見的胰臟炎案例，有部份證據顯示，兒童的風險高於成人。已發表的文獻顯示，患有透納氏症候群的女童，風險可能高於其他接受 somatropin 治療的兒童。任何接受 somatropin 治療的病人，均應考量發生胰臟炎的可能性，尤其是發生持續嚴重腹痛的兒童。 鈉含量 每1.5 ml 的Norditropin® 的鈉含量低於 1 mmol (23 mg)，亦即基本上「不含鈉」。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "對於駕駛和使用機械之能力並無影響。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對於駕駛和使用機械之能力並無影響。</span></p>",
+          "search_text": "5.3\n操作機械能力\n對於駕駛和使用機械之能力並無影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "Somatropin 治療後，血中的無機磷、鹼性磷酸酶、副甲狀腺激素 (PTH) 及 IGF-I 濃度可能會增加。",
+          "content_html": "<p>Somatropin&nbsp;<span style=\"font-family:標楷體;\">治療後，血中的無機磷、鹼性磷酸酶、副甲狀腺激素</span> (PTH)&nbsp;<span style=\"font-family:標楷體;\">及</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">濃度可能會增加。</span></p>",
+          "search_text": "5.4\n實驗室檢測\nSomatropin 治療後，血中的無機磷、鹼性磷酸酶、副甲狀腺激素 (PTH) 及 IGF-I 濃度可能會增加。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "目前並無足夠經驗於懷孕期間使用somatropin治療。懷孕婦女僅可在明確需要時，才給予somatropin。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前並無足夠經驗於懷孕期間使用</span>somatropin<span style=\"font-family:標楷體;\">治療。懷孕婦女僅可在明確需要時，才給予</span>somatropin<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "6.1\n懷孕\n目前並無足夠經驗於懷孕期間使用somatropin治療。懷孕婦女僅可在明確需要時，才給予somatropin。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "在授乳期間，somatropin亦可能會透過乳汁分泌。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">在授乳期間，</span>somatropin<span style=\"font-family:標楷體;\">亦可能會透過乳汁分泌。</span></p>",
+          "search_text": "6.2\n哺乳\n在授乳期間，somatropin亦可能會透過乳汁分泌。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "和糖皮質固醇glucocorticoid併用會抑制somatropin的生長促進作用。缺乏ACTH的病人應謹慎地調整其glucocorticoid替代治療之劑量，以避免對somatropin的抑制作用。 一項在成人生長激素缺乏病人之交互作用試驗資料顯示，投與somatropin會增加化合物被cytochrome P450 isoenzymes代謝清除率。化合物如sex steroids, corticosteroids, anticonvulsants 及 cyclosporine因cytochrome P450 3A4代謝清除率增加，導致這些化合物在血漿中濃度降低。未知此現象之臨床意義。 在開始使用somatropin治療後，接受胰島素治療病人的胰島素劑量也許有需要調整。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">和糖皮質固醇</span>glucocorticoid<span style=\"font-family:標楷體;\">併用會抑制</span>somatropin<span style=\"font-family:標楷體;\">的生長促進作用。缺乏</span>ACTH<span style=\"font-family:標楷體;\">的病人應謹慎地調整其</span>glucocorticoid<span style=\"font-family:標楷體;\">替代治療之劑量，以避免對</span>somatropin<span style=\"font-family:標楷體;\">的抑制作用。</span></p><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">一項在成人生長激素缺乏病人之交互作用試驗資料顯示，投與</span>somatropin<span style=\"font-family:標楷體;\">會增加化合物被</span>cytochrome P450 isoenzymes<span style=\"font-family:標楷體;\">代謝清除率。化合物如</span>sex steroids, corticosteroids, anticonvulsants&nbsp;<span style=\"font-family:標楷體;\">及</span> cyclosporine<span style=\"font-family:標楷體;\">因</span>cytochrome P450 3A4<span style=\"font-family:標楷體;\">代謝清除率增加，導致這些化合物在血漿中濃度降低。未知此現象之臨床意義。</span></p><p><span style=\"font-family:標楷體;\">在開始使用</span>somatropin<span style=\"font-family:標楷體;\">治療後，接受胰島素治療病人的胰島素劑量也許有需要調整。</span></p>",
+          "search_text": "7\n交互作用\n和糖皮質固醇glucocorticoid併用會抑制somatropin的生長促進作用。缺乏ACTH的病人應謹慎地調整其glucocorticoid替代治療之劑量，以避免對somatropin的抑制作用。 一項在成人生長激素缺乏病人之交互作用試驗資料顯示，投與somatropin會增加化合物被cytochrome P450 isoenzymes代謝清除率。化合物如sex steroids, corticosteroids, anticonvulsants 及 cyclosporine因cytochrome P450 3A4代謝清除率增加，導致這些化合物在血漿中濃度降低。未知此現象之臨床意義。 在開始使用somatropin治療後，接受胰島素治療病人的胰島素劑量也許有需要調整。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "此列表為使用 somatropin 治療期間，最嚴重b及最常見a的不良反應： 急重症病人死亡率增加[見警語及注意事項(5)] b具有風險因子之普瑞德威利氏症候群兒童病人猝死，風險因子包括嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、及原因不明之呼吸道感染 [見禁忌(4)與警語及注意事項(5)]。 b兒童期使用放射線治療首次發生之頭部腫瘤並且接受 somatropin 治療的青少年，發生顱內腫瘤，尤其是腦脊髓膜瘤[見禁忌(4)與警語及注意事項(5)] a,b無法耐受葡萄糖，包括葡萄糖耐受不良/空腹血糖異常，以及明顯的糖尿病[見禁忌(4)與警語及注意事項(5)] b顱內高壓[見警語及注意事項(5)] b兒童病人股骨生長板滑脫症與股骨頭壞死 [見警語及注意事項(5)] b兒童病人先前存在之脊椎側彎惡化 [見警語及注意事項(5)] 嚴重過敏 [見警語及注意事項(5)] a體液滯留，表現為水腫、關節痛、肌肉痛、神經壓迫症候群，包括腕隧道症候群/感覺異常 [見警語及注意事項(5)] 腎上腺功能不足[見警語及注意事項(5)] a潛在的中樞性甲狀腺功能不足浮現[見警語及注意事項(5)] a注射部位反應/皮疹和脂肪萎縮 (以及罕見的全身性過敏反應) [見警語及注意事項(5)] 胰臟炎[見警語及注意事項(5)]",
+          "content_html": "<p><span style=\"font-family:標楷體;\">此列表為使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療期間，最嚴重</span><sup>b</sup><span style=\"font-family:標楷體;\">及最常見</span><sup>a</sup><span style=\"font-family:標楷體;\">的不良反應：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">急重症病人死亡率增加</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><sup>b</sup><span style=\"font-family:標楷體;\">具有風險因子之普瑞德威利氏症候群兒童病人猝死，風險因子包括嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、及原因不明之呼吸道感染</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)</i><span style=\"font-family:標楷體;\"><i>與警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。</span></li><li><sup>b</sup><span style=\"font-family:標楷體;\">兒童期使用放射線治療首次發生之頭部腫瘤<u>並且</u>接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的青少年，發生顱內腫瘤，尤其是腦脊髓膜瘤</span><i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)</i><span style=\"font-family:標楷體;\"><i>與警語及注意事項</i></span><i>(5)]</i></li><li><sup>a,b</sup><span style=\"font-family:標楷體;\">無法耐受葡萄糖，包括葡萄糖耐受不良</span>/<span style=\"font-family:標楷體;\">空腹血糖異常，以及明顯的糖尿病</span><i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)</i><span style=\"font-family:標楷體;\"><i>與警語及注意事項</i></span><i>(5)]</i></li><li><sup>b</sup><span style=\"font-family:標楷體;\">顱內高壓</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><sup>b</sup><span style=\"font-family:標楷體;\">兒童病人股骨生長板滑脫症與股骨頭壞死</span>&nbsp; <i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><sup>b</sup><span style=\"font-family:標楷體;\">兒童病人先前存在之脊椎側彎惡化</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><span style=\"font-family:標楷體;\">嚴重過敏</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><sup>a</sup><span style=\"font-family:標楷體;\">體液滯留，表現為水腫、關節痛、肌肉痛、神經壓迫症候群，包括腕隧道症候群</span>/<span style=\"font-family:標楷體;\">感覺異常</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><span style=\"font-family:標楷體;\">腎上腺功能不足</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><sup>a</sup><span style=\"font-family:標楷體;\">潛在的中樞性甲狀腺功能不足浮現</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><sup>a</sup><span style=\"font-family:標楷體;\">注射部位反應</span>/<span style=\"font-family:標楷體;\">皮疹和脂肪萎縮</span> (<span style=\"font-family:標楷體;\">以及罕見的全身性過敏反應</span>)&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li><li><span style=\"font-family:標楷體;\">胰臟炎</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i></li></ul>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n此列表為使用 somatropin 治療期間，最嚴重b及最常見a的不良反應： 急重症病人死亡率增加[見警語及注意事項(5)] b具有風險因子之普瑞德威利氏症候群兒童病人猝死，風險因子包括嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、及原因不明之呼吸道感染 [見禁忌(4)與警語及注意事項(5)]。 b兒童期使用放射線治療首次發生之頭部腫瘤並且接受 somatropin 治療的青少年，發生顱內腫瘤，尤其是腦脊髓膜瘤[見禁忌(4)與警語及注意事項(5)] a,b無法耐受葡萄糖，包括葡萄糖耐受不良/空腹血糖異常，以及明顯的糖尿病[見禁忌(4)與警語及注意事項(5)] b顱內高壓[見警語及注意事項(5)] b兒童病人股骨生長板滑脫症與股骨頭壞死 [見警語及注意事項(5)] b兒童病人先前存在之脊椎側彎惡化 [見警語及注意事項(5)] 嚴重過敏 [見警語及注意事項(5)] a體液滯留，表現為水腫、關節痛、肌肉痛、神經壓迫症候群，包括腕隧道症候群/感覺異常 [見警語及注意事項(5)] 腎上腺功能不足[見警語及注意事項(5)] a潛在的中樞性甲狀腺功能不足浮現[見警語及注意事項(5)] a注射部位反應/皮疹和脂肪萎縮 (以及罕見的全身性過敏反應) [見警語及注意事項(5)] 胰臟炎[見警語及注意事項(5)]",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "由於臨床試驗在不同條件下進行，針對一種 somatropin 配方進行的臨床試驗期間，觀察到的不良事件發生率，無法和針對第二種 somatropin 配方進行的臨床試驗期間，觀察到的發生率直接比較，而且可能無法反應臨床實務中的不良反應發生率。 患有透納氏症候群兒童之臨床試驗 在兩項治療透納氏症候群兒童達到最終身高的臨床試驗中，最常通報的不良事件為一般兒童疾病，包括類流感疾病、中耳炎、上呼吸道感染、外耳炎、胃腸炎和濕疹。試驗 1 中，中耳炎是最高劑量組最常見的不良事件 (0.045-0.067-0.089 mg/kg/day 劑量組為 86.4%，相對於 0.045-0.067 mg/kg/day 組的 78.3%，相對於 0.045 mg/kg/day 組的 69.6%)，顯示可能有劑量相關性。值得注意的是，這些中耳炎不良事件中，約 40-50% 為「嚴重」[見警語及注意事項(5)]。兩項試驗中，均無病人發生明確的明顯的糖尿病；然而在試驗 1，0.045-0.067 mg/kg/day 組在第 48 個月的空腹血糖異常發生率 (n=4/18)，高於 0.045 mg/kg/day 組 (n=1/20)。兩項試驗中，空腹血糖暫時介於 100 和 126 mg/dL、有時超過 126 mg/dL 之發生率，較高劑量的 Norditropin® 組也較高 [見警語及注意事項(5)與副作用/不良反應(8)]。試驗 1 的 2 個高劑量組中，有 3 名病人因為手腳過度生長之相關疑慮而退出。此外在試驗 1 中，0.045 mg/kg/day 組有 2 名病人發生先前存在的脊椎側彎惡化之嚴重不良反應[見警語及注意事項(5)]。 低出生體重兒 (SGA) 至2-4 歲仍無法追上正常生長狀況之臨床試驗 試驗 1 (長期) 在一項多中心，隨機分配，雙盲試驗中，53 名非生長激素分泌不足造成的體型矮小且出生體重時體重不足，生長遲緩的兒童，使用 2 種劑量的 Norditropin® (0.033 或 0.067 mg/kg/day) 治療最多 13 年，直到達到最終身高為止 (女童和男童平均治療持續時間，分別為 7.9 年和 9.5 年)。最常通報的不良事件為一般兒童疾病，包括類流感疾病、上呼吸道感染、支氣管炎、腸胃炎、腹痛、中耳炎、咽炎、關節痛和頭痛。可能和 Norditropin® 有關的不良事件為中耳炎、關節痛、頭痛 (無確診為良性顱內高壓案例)、男性女乳症及盜汗增加。一名接受 0.067 mg/kg/day 治療 4 年的兒童，通報發生下顎生長不成比例，另一名接受 0.067 mg/kg/day 治療的兒童，發生黑色素細胞痣 [見警語及注意事項(5)]。並無原先脊椎側彎或股骨生長板滑脫症惡化之明顯報告。治療組之間無明顯差異。此外，兩個治療組中，男童和女童均在適當年紀進入青春期。因此結論為，長期試驗 1 中，並無和 Norditropin® 治療可能有關的新不良事件產生。 試驗 2 (短期) 在一項多中心、隨機分配、雙盲、平行分組試驗中，98 名非生長激素分泌不足造成的體型矮小且出生時體重不足，生長遲緩的日本兒童，接受 2 種劑量的 Norditropin® (0.033 或 0.067 mg/kg/day) 治療 2 年，或 1 年未治療。最常通報的不良事件為一般兒童疾病，幾乎與上述試驗 1 通報的不良事件相同。可能和 Norditropin® 有關的不良事件為中耳炎、關節痛和葡萄糖耐受不良。治療組之間無明顯差異。然而，關節痛和暫時性葡萄糖耐受不良，僅發生在 0.067 mg/kg/day 治療組。因此結論為，短期試驗 2 中，並無和基因重組人類生長激素 (rhGH) 治療可能有關的新不良事件。 如同所有蛋白質藥物，一些病人可能會對蛋白質產生抗體。接受 Norditropin® 治療的 76 名兒童中，18 名 (~24%) 發生抗基因重組人類生長激素抗體。然而，這些抗體似乎不具中和性；依據治療組區分，抗體陽性和抗體陰性兒童，相較於基準點其第 2 年之身高 SDS 變化類似。 在試驗 1 和試驗 2 這兩項試驗中，並無明確的糖尿病新發病案例，沒有任何兒童接受降血糖治療，且並無病人因葡萄糖耐受異常不良事件而退出試驗。試驗 2 中，使用任一劑量的 Norditropin® 治療 2 年，並無兒童連續空腹血糖值介於 100 至 126 mg/dL，或空腹血糖值 > 126 mg/dL。還有，試驗 1 的長期治療期間，平均醣化血色素值有降低的傾向，而在試驗 2 中維持正常。不過在試驗 1 中，4 名接受 0.067 mg/kg/day 的 Norditropin® 治療之兒童，和 2 名接受 0.033 mg/kg/day 的 Norditropin® 治療之兒童，在治療 1 年後，空腹血糖值由基準點的正常，轉為上升 (100 至 126 mg/dL 或 > 126 mg/dL)。還有，使用 Norditropin®治療 1 年和 2 年後，平均空腹血糖和胰島素值的小幅增加 (在正常參考範圍內)，似乎和劑量有關[見警語及注意事項(5)與副作用/不良反應(8)]。 在試驗 1 和試驗 2 這兩項試驗中，骨骼並未加速成熟。使用 Norditropin®長期 (試驗 1) 和短期 (試驗 2) 治療後，均發現平均血清 IGF-I SDS濃度在參考範圍內，隨劑量增加 (但包含大量的血清 IGF-I SDS > +2 的兒童)。 Prader-Willi Syndrome導致的生長障礙 在對PWS兒科病人使用另一種生長激素產品進行的兩項臨床研究中，報告了以下不良反應: 水腫、侵襲性、關節痛、良性顱內高壓、掉髮、頭痛和肌痛。 成人生長激素分泌不足病人之臨床試驗 在六項最大規模的成人生長激素分泌不足病人的 Norditropin® 試驗中， 6 個月安慰劑對照部份，成年期發病之生長激素分泌不足病人中，發生率 ≥5% 的不良事件，列於表 1。接受 Norditropin® 治療病人經常發生周邊水腫、其他類型水腫、關節痛、肌肉痛和感覺異常，且頻率高於安慰劑組。這些類型的不良事件，被認定與 somatropin 的體液蓄積作用有關。一般而言，這些不良事件為輕度及暫時性。在本試驗的安慰劑對照部份，約 5% 之前無糖尿病且接受 Norditropin® 治療的病人，診斷患有明顯的第2型糖尿病，安慰劑組並無任何病人罹患糖尿病 [見警語及注意事項(5)與副作用/不良反應(8)]。未偵測到抗生長激素抗體。 值得注意的是，本試驗 (在 1990 年代中期完成) 中使用的 Norditropin® 劑量，顯著高於目前生長激素研究學會建議的劑量，且極可能導致高於預期的體液滯留和葡萄糖耐受不良相關之不良事件發生率。其他三項安慰劑對照，成年期發病之生長激素分泌不足試驗，以及兩項安慰劑對照，兒童期發病之生長激素分泌不足試驗中，皆觀察到發生率和模式類似的不良事件。 表 1 － 在六個月安慰劑對照臨床試驗中，使用 Norditropin® 治療的成年期發病之生長激素分泌不足病人，整體發生率 ≥5% 之不良事件 Norditropin® (N=53)安慰劑 (N=52) 不良反應n%n% 周邊水腫224248 水腫132500 關節痛1019815 腿部水腫81524 肌肉痛81548 感染 (非病毒性)71348 感覺異常61136 骨骼疼痛61112 頭痛5936 支氣管炎5900 類流感症狀4824 高血壓4812 腸胃炎4848 其他無法分類疾病 (不含意外傷害) 4836 盜汗增加4812 葡萄糖耐受異常3612 喉炎3636 試驗開放標記階段觀察到的不良事件模式，與上述結果類似。 如同所有治療性蛋白質，有可能產生免疫原性。抗體形成的偵測高度仰賴檢測的靈敏性和專一性。還有，檢測中偵測到的陽性抗體 (包括中和抗體) 發生率，可能受到數項因素的影響，包括檢測方法、檢體處理、檢體收集時間、併用藥物和潛藏的疾病。基於這些原因，比較 Norditropin® 抗體之發生率，和其他藥物的抗體發生率，可能有誤導之嫌。就生長激素而言，結合能力低於 2 mg/mL 的抗體未曾導致生長減緩。在極少數接受 somatropin 治療的病人中，結合能力高於 2 mg/mL 時，可觀察到生長反應受干擾。 在臨床試驗中，接受 Norditropin® 治療長達 12 個月的生長激素分泌不足兒童病人，接受抗體誘導測試，在 358 名病人中，沒有任何一位產生結合能力高於 2 mg/L 之抗體。這些病人中，有165 名之前接受過其他 somatropin 配方治療，而 193 名之前未接受過治療。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">由於臨床試驗在不同條件下進行，針對一種</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">配方進行的臨床試驗期間，觀察到的不良事件發生率，無法和針對第二種</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">配方進行的臨床試驗期間，觀察到的發生率直接比較，而且可能無法反應臨床實務中的不良反應發生率。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i>患有透納氏症候群兒童之臨床試驗</i></span></p><p><span style=\"font-family:標楷體;\">在兩項治療透納氏症候群兒童達到最終身高的臨床試驗中，最常通報的不良事件為一般兒童疾病，包括類流感疾病、中耳炎、上呼吸道感染、外耳炎、胃腸炎和濕疹。試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">中，中耳炎是最高劑量組最常見的不良事件</span> (0.045-0.067-0.089 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">劑量組為</span> 86.4%<span style=\"font-family:標楷體;\">，相對於</span> 0.045-0.067 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">組的</span> 78.3%<span style=\"font-family:標楷體;\">，相對於</span> 0.045 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">組的</span> 69.6%)<span style=\"font-family:標楷體;\">，顯示可能有劑量相關性。值得注意的是，這些中耳炎不良事件中，約</span> 40-50%&nbsp;<span style=\"font-family:標楷體;\">為「嚴重」</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。兩項試驗中，均無病人發生明確的明顯的糖尿病；然而在試驗</span> 1<span style=\"font-family:標楷體;\">，</span>0.045-0.067 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">組在第</span> 48&nbsp;<span style=\"font-family:標楷體;\">個月的空腹血糖異常發生率</span> (n=4/18)<span style=\"font-family:標楷體;\">，高於</span> 0.045 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">組</span> (n=1/20)<span style=\"font-family:標楷體;\">。兩項試驗中，空腹血糖暫時介於</span> 100&nbsp;<span style=\"font-family:標楷體;\">和</span> 126 mg/dL<span style=\"font-family:標楷體;\">、有時超過</span> 126 mg/dL&nbsp;<span style=\"font-family:標楷體;\">之發生率，較高劑量的</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">組也較高</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)</i><span style=\"font-family:標楷體;\"><i>與副作用</i></span><i>/</i><span style=\"font-family:標楷體;\"><i>不良反應</i></span><i>(8)]</i><span style=\"font-family:標楷體;\">。試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">的</span> 2&nbsp;<span style=\"font-family:標楷體;\">個高劑量組中，有</span> 3&nbsp;<span style=\"font-family:標楷體;\">名病人因為手腳過度生長之相關疑慮而退出。此外在試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">中，</span>0.045 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">組有</span> 2&nbsp;<span style=\"font-family:標楷體;\">名病人發生先前存在的脊椎側彎惡化之嚴重不良反應</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i>低出生體重兒</i></span><i> (SGA)&nbsp;</i><span style=\"font-family:標楷體;\"><i>至</i></span><i>2-4&nbsp;</i><span style=\"font-family:標楷體;\"><i>歲仍無法追上正常生長狀況之臨床試驗</i></span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><i>試驗</i></span><i> 1 (</i><span style=\"font-family:標楷體;\"><i>長期</i></span><i>)</i></p><p><span style=\"font-family:標楷體;\">在一項多中心，隨機分配，雙盲試驗中，</span>53&nbsp;<span style=\"font-family:標楷體;\">名非生長激素分泌不足造成的體型矮小且出生體重時體重不足，生長遲緩的兒童，使用</span> 2&nbsp;<span style=\"font-family:標楷體;\">種劑量的</span> Norditropin<sup>®</sup> (0.033&nbsp;<span style=\"font-family:標楷體;\">或</span> 0.067 mg/kg/day)&nbsp;<span style=\"font-family:標楷體;\">治療最多</span> 13&nbsp;<span style=\"font-family:標楷體;\">年，直到達到最終身高為止</span> (<span style=\"font-family:標楷體;\">女童和男童平均治療持續時間，分別為</span> 7.9&nbsp;<span style=\"font-family:標楷體;\">年和</span> 9.5&nbsp;<span style=\"font-family:標楷體;\">年</span>)<span style=\"font-family:標楷體;\">。最常通報的不良事件為一般兒童疾病，包括類流感疾病、上呼吸道感染、支氣管炎、腸胃炎、腹痛、中耳炎、咽炎、關節痛和頭痛。可能和</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">有關的不良事件為中耳炎、關節痛、頭痛</span> (<span style=\"font-family:標楷體;\">無確診為良性顱內高壓案例</span>)<span style=\"font-family:標楷體;\">、男性女乳症及盜汗增加。一名接受</span> 0.067 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">治療</span> 4&nbsp;<span style=\"font-family:標楷體;\">年的兒童，通報發生下顎生長不成比例，另一名接受</span> 0.067 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">治療的兒童，發生黑色素細胞痣</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)]</i><span style=\"font-family:標楷體;\">。並無原先脊椎側彎或股骨生長板滑脫症惡化之明顯報告。治療組之間無明顯差異。此外，兩個治療組中，男童和女童均在適當年紀進入青春期。因此結論為，長期試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">中，並無和</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療可能有關的新不良事件產生。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><i>試驗</i></span><i> 2 (</i><span style=\"font-family:標楷體;\"><i>短期</i></span><i>)</i></p><p><span style=\"font-family:標楷體;\">在一項多中心、隨機分配、雙盲、平行分組試驗中，</span>98&nbsp;<span style=\"font-family:標楷體;\">名非生長激素分泌不足造成的體型矮小且出生時體重不足，生長遲緩的日本兒童，接受</span> 2&nbsp;<span style=\"font-family:標楷體;\">種劑量的</span> Norditropin<sup>®</sup> (0.033&nbsp;<span style=\"font-family:標楷體;\">或</span> 0.067 mg/kg/day)&nbsp;<span style=\"font-family:標楷體;\">治療</span> 2&nbsp;<span style=\"font-family:標楷體;\">年，或</span> 1&nbsp;<span style=\"font-family:標楷體;\">年未治療。最常通報的不良事件為一般兒童疾病，幾乎與上述試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">通報的不良事件相同。可能和</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">有關的不良事件為中耳炎、關節痛和葡萄糖耐受不良。治療組之間無明顯差異。然而，關節痛和暫時性葡萄糖耐受不良，僅發生在</span> 0.067 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">治療組。因此結論為，短期試驗</span> 2&nbsp;<span style=\"font-family:標楷體;\">中，並無和基因重組人類生長激素</span> (rhGH)&nbsp;<span style=\"font-family:標楷體;\">治療可能有關的新不良事件。</span><br><br>&nbsp;</p><p><span style=\"font-family:標楷體;\">如同所有蛋白質藥物，一些病人可能會對蛋白質產生抗體。接受</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療的</span> 76&nbsp;<span style=\"font-family:標楷體;\">名兒童中，</span>18&nbsp;<span style=\"font-family:標楷體;\">名</span> (~24%)&nbsp;<span style=\"font-family:標楷體;\">發生抗基因重組人類生長激素抗體。然而，這些抗體似乎不具中和性；依據治療組區分，抗體陽性和抗體陰性兒童，相較於基準點其第</span> 2&nbsp;<span style=\"font-family:標楷體;\">年之身高</span> SDS&nbsp;<span style=\"font-family:標楷體;\">變化類似。</span><br><br>&nbsp;</p><p><span style=\"font-family:標楷體;\">在試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">和試驗</span> 2&nbsp;<span style=\"font-family:標楷體;\">這<u>兩項</u>試驗中，並無<u>明確</u>的糖尿病新發病案例，沒有任何兒童接受降血糖治療，且並無病人因葡萄糖耐受異常不良事件而退出試驗。試驗</span> 2&nbsp;<span style=\"font-family:標楷體;\">中，使用任一劑量的</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療</span> 2&nbsp;<span style=\"font-family:標楷體;\">年，並無兒童連續空腹血糖值介於</span> 100&nbsp;<span style=\"font-family:標楷體;\">至</span> 126 mg/dL<span style=\"font-family:標楷體;\">，或空腹血糖值</span> &gt; 126 mg/dL<span style=\"font-family:標楷體;\">。還有，試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">的長期治療期間，平均醣化血色素值有降低的傾向，而在試驗</span> 2&nbsp;<span style=\"font-family:標楷體;\">中維持正常。不過在試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">中，</span>4&nbsp;<span style=\"font-family:標楷體;\">名接受</span> 0.067 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">的</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療之兒童，和</span> 2&nbsp;<span style=\"font-family:標楷體;\">名接受</span> 0.033 mg/kg/day&nbsp;<span style=\"font-family:標楷體;\">的</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療之兒童，在治療</span> 1&nbsp;<span style=\"font-family:標楷體;\">年後，空腹血糖值由基準點的正常，轉為上升</span> (100&nbsp;<span style=\"font-family:標楷體;\">至</span> 126 mg/dL&nbsp;<span style=\"font-family:標楷體;\">或</span> &gt; 126 mg/dL)<span style=\"font-family:標楷體;\">。還有，使用</span> Norditropin<sup>®</sup><span style=\"font-family:標楷體;\">治療</span> 1&nbsp;<span style=\"font-family:標楷體;\">年和</span> 2&nbsp;<span style=\"font-family:標楷體;\">年後，平均空腹血糖和胰島素值的小幅增加</span> (<span style=\"font-family:標楷體;\">在正常參考範圍內</span>)<span style=\"font-family:標楷體;\">，似乎和劑量有關</span><i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)</i><span style=\"font-family:標楷體;\"><i>與副作用</i></span><i>/</i><span style=\"font-family:標楷體;\"><i>不良反應</i></span><i>(8)]</i><span style=\"font-family:標楷體;\">。</span><br><br>&nbsp;</p><p><span style=\"font-family:標楷體;\">在試驗</span> 1&nbsp;<span style=\"font-family:標楷體;\">和試驗</span> 2&nbsp;<span style=\"font-family:標楷體;\">這<u>兩項</u>試驗中，骨骼並未加速成熟。使用</span> Norditropin<sup>®</sup><span style=\"font-family:標楷體;\">長期</span> (<span style=\"font-family:標楷體;\">試驗</span> 1)&nbsp;<span style=\"font-family:標楷體;\">和短期</span> (<span style=\"font-family:標楷體;\">試驗</span> 2)&nbsp;<span style=\"font-family:標楷體;\">治療後，<u>均</u>發現平均血清</span> IGF-I SDS<span style=\"font-family:標楷體;\">濃度在參考範圍內，隨劑量增加</span> (<span style=\"font-family:標楷體;\">但包含大量的血清</span> IGF-I SDS &gt; +2&nbsp;<span style=\"font-family:標楷體;\">的兒童</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><i>Prader-Willi Syndrome</i><span style=\"font-family:標楷體;\"><i>導致的生長障礙</i></span></p><p><span style=\"font-family:標楷體;\">在對</span>PWS<span style=\"font-family:標楷體;\">兒科病人使用另一種生長激素產品進行的兩項臨床研究中，報告了以下不良反應</span>:&nbsp;<span style=\"font-family:標楷體;\">水腫、侵襲性、關節痛、良性顱內高壓、掉髮、頭痛和肌痛。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i>成人生長激素分泌不足病人之臨床試驗</i></span></p><p><span style=\"font-family:標楷體;\">在六項最大規模的成人生長激素分泌不足病人的</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">試驗中，</span> 6&nbsp;<span style=\"font-family:標楷體;\">個月安慰劑對照部份，成年期發病之生長激素分泌不足病人中，發生率</span>&nbsp;≥5%&nbsp;<span style=\"font-family:標楷體;\">的不良事件，列於表</span> 1<span style=\"font-family:標楷體;\">。接受</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療病人經常發生周邊水腫、其他類型水腫、關節痛、肌肉痛和感覺異常，且頻率高於安慰劑組。這些類型的不良事件，被認定與</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">的體液蓄積作用有關。一般而言，這些不良事件為輕度及暫時性。在本試驗的安慰劑對照部份，約</span> 5%&nbsp;<span style=\"font-family:標楷體;\">之前無糖尿病且接受</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療的病人，診斷患有明顯的第</span>2<span style=\"font-family:標楷體;\">型糖尿病，安慰劑組並無任何病人罹患糖尿病</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)</i><span style=\"font-family:標楷體;\"><i>與副作用</i></span><i>/</i><span style=\"font-family:標楷體;\"><i>不良反應</i></span><i>(8)]</i><span style=\"font-family:標楷體;\">。未偵測到抗生長激素抗體。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">值得注意的是，本試驗</span> (<span style=\"font-family:標楷體;\">在</span> 1990&nbsp;<span style=\"font-family:標楷體;\">年代中期完成</span>)&nbsp;<span style=\"font-family:標楷體;\">中使用的</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">劑量，顯著高於目前生長激素研究學會建議的劑量，且極可能導致高於預期的體液滯留和葡萄糖耐受不良相關之不良事件發生率。其他三項安慰劑對照，成年期發病之生長激素分泌不足試驗，以及兩項安慰劑對照，兒童期發病之生長激素分泌不足試驗中，皆觀察到發生率和模式類似的不良事件。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>表</strong></span><strong> 1&nbsp;</strong><span style=\"font-family:標楷體;\"><strong>－</strong></span><strong>&nbsp;</strong><span style=\"font-family:標楷體;\"><strong>在六個月安慰劑對照臨床試驗中，使用</strong></span><strong> Norditropin<sup>®</sup>&nbsp;</strong><span style=\"font-family:標楷體;\"><strong>治療的成年期發病之生長激素分泌不足病人，整體發生率</strong></span><strong>&nbsp;≥5%&nbsp;</strong><span style=\"font-family:標楷體;\"><strong>之不良事件</strong></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\">&nbsp;</td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:140.15pt;\" colspan=\"2\"><strong>Norditropin<sup>®</sup> (N=53)</strong></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:140.2pt;\" colspan=\"2\"><span style=\"font-family:標楷體;\"><strong>安慰劑</strong></span><strong> (N=52)</strong></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>不良反應</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">n</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">%</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">n</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">%</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>周邊水腫</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">22</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">42</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>水腫</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">13</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">25</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">0</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>關節痛</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">10</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">19</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">15</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>腿部水腫</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">15</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">2</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">4</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>肌肉痛</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">15</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>感染</strong></span><strong> (</strong><span style=\"font-family:標楷體;\"><strong>非病毒性</strong></span><strong>)</strong></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">7</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">13</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>感覺異常</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">6</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">11</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">3</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">6</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>骨骼疼痛</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">6</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">11</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">1</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">2</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>頭痛</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">5</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">9</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">3</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">6</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>支氣管炎</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">5</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">9</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">0</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>類流感症狀</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">2</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">4</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>高血壓</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">1</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">2</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>腸胃炎</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><p><span style=\"font-family:標楷體;\"><strong>其他無法分類疾病</strong></span></p><p><strong>(</strong><span style=\"font-family:標楷體;\"><strong>不含意外傷害</strong></span><strong>)</strong></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">3</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">6</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>盜汗增加</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">4</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">8</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">1</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">2</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>葡萄糖耐受異常</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">3</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">6</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">1</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">2</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:134.45pt;\"><span style=\"font-family:標楷體;\"><strong>喉炎</strong></span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.05pt;\">3</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">6</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">3</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.1pt;\">6</td></tr></tbody></table></figure><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">試驗開放標記階段觀察到的不良事件模式，與上述結果類似。</span><br><br><span style=\"font-family:標楷體;\">如同所有治療性蛋白質，有可能產生免疫原性。抗體形成的偵測高度仰賴檢測的靈敏性和專一性。還有，檢測中偵測到的陽性抗體</span> (<span style=\"font-family:標楷體;\">包括中和抗體</span>)&nbsp;<span style=\"font-family:標楷體;\">發生率，可能受到數項因素的影響，包括檢測方法、檢體處理、檢體收集時間、併用藥物和潛藏的疾病。基於這些原因，比較</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">抗體之發生率，和其他藥物的抗體發生率，可能有誤導之嫌。就生長激素而言，結合能力低於</span> 2 mg/mL&nbsp;<span style=\"font-family:標楷體;\">的抗體未曾導致生長減緩。在極少數接受</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">治療的病人中，結合能力高於</span> 2 mg/mL&nbsp;<span style=\"font-family:標楷體;\">時，可觀察到生長反應受干擾。</span></p><p><span style=\"font-family:標楷體;\">在臨床試驗中，接受</span> Norditropin<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">治療長達</span> 12&nbsp;<span style=\"font-family:標楷體;\">個月的生長激素分泌不足兒童病人，接受抗體誘導測試，在</span> 358&nbsp;<span style=\"font-family:標楷體;\">名病人中，沒有任何一位產生結合能力高於</span> 2 mg/L&nbsp;<span style=\"font-family:標楷體;\">之抗體。這些病人中，有</span>165&nbsp;<span style=\"font-family:標楷體;\">名之前接受過其他</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">配方治療，而</span> 193&nbsp;<span style=\"font-family:標楷體;\">名之前未接受過治療。</span></p>",
+          "search_text": "8.2\n臨床試驗經驗\n由於臨床試驗在不同條件下進行，針對一種 somatropin 配方進行的臨床試驗期間，觀察到的不良事件發生率，無法和針對第二種 somatropin 配方進行的臨床試驗期間，觀察到的發生率直接比較，而且可能無法反應臨床實務中的不良反應發生率。 患有透納氏症候群兒童之臨床試驗 在兩項治療透納氏症候群兒童達到最終身高的臨床試驗中，最常通報的不良事件為一般兒童疾病，包括類流感疾病、中耳炎、上呼吸道感染、外耳炎、胃腸炎和濕疹。試驗 1 中，中耳炎是最高劑量組最常見的不良事件 (0.045-0.067-0.089 mg/kg/day 劑量組為 86.4%，相對於 0.045-0.067 mg/kg/day 組的 78.3%，相對於 0.045 mg/kg/day 組的 69.6%)，顯示可能有劑量相關性。值得注意的是，這些中耳炎不良事件中，約 40-50% 為「嚴重」[見警語及注意事項(5)]。兩項試驗中，均無病人發生明確的明顯的糖尿病；然而在試驗 1，0.045-0.067 mg/kg/day 組在第 48 個月的空腹血糖異常發生率 (n=4/18)，高於 0.045 mg/kg/day 組 (n=1/20)。兩項試驗中，空腹血糖暫時介於 100 和 126 mg/dL、有時超過 126 mg/dL 之發生率，較高劑量的 Norditropin® 組也較高 [見警語及注意事項(5)與副作用/不良反應(8)]。試驗 1 的 2 個高劑量組中，有 3 名病人因為手腳過度生長之相關疑慮而退出。此外在試驗 1 中，0.045 mg/kg/day 組有 2 名病人發生先前存在的脊椎側彎惡化之嚴重不良反應[見警語及注意事項(5)]。 低出生體重兒 (SGA) 至2-4 歲仍無法追上正常生長狀況之臨床試驗 試驗 1 (長期) 在一項多中心，隨機分配，雙盲試驗中，53 名非生長激素分泌不足造成的體型矮小且出生體重時體重不足，生長遲緩的兒童，使用 2 種劑量的 Norditropin® (0.033 或 0.067 mg/kg/day) 治療最多 13 年，直到達到最終身高為止 (女童和男童平均治療持續時間，分別為 7.9 年和 9.5 年)。最常通報的不良事件為一般兒童疾病，包括類流感疾病、上呼吸道感染、支氣管炎、腸胃炎、腹痛、中耳炎、咽炎、關節痛和頭痛。可能和 Norditropin® 有關的不良事件為中耳炎、關節痛、頭痛 (無確診為良性顱內高壓案例)、男性女乳症及盜汗增加。一名接受 0.067 mg/kg/day 治療 4 年的兒童，通報發生下顎生長不成比例，另一名接受 0.067 mg/kg/day 治療的兒童，發生黑色素細胞痣 [見警語及注意事項(5)]。並無原先脊椎側彎或股骨生長板滑脫症惡化之明顯報告。治療組之間無明顯差異。此外，兩個治療組中，男童和女童均在適當年紀進入青春期。因此結論為，長期試驗 1 中，並無和 Norditropin® 治療可能有關的新不良事件產生。 試驗 2 (短期) 在一項多中心、隨機分配、雙盲、平行分組試驗中，98 名非生長激素分泌不足造成的體型矮小且出生時體重不足，生長遲緩的日本兒童，接受 2 種劑量的 Norditropin® (0.033 或 0.067 mg/kg/day) 治療 2 年，或 1 年未治療。最常通報的不良事件為一般兒童疾病，幾乎與上述試驗 1 通報的不良事件相同。可能和 Norditropin® 有關的不良事件為中耳炎、關節痛和葡萄糖耐受不良。治療組之間無明顯差異。然而，關節痛和暫時性葡萄糖耐受不良，僅發生在 0.067 mg/kg/day 治療組。因此結論為，短期試驗 2 中，並無和基因重組人類生長激素 (rhGH) 治療可能有關的新不良事件。 如同所有蛋白質藥物，一些病人可能會對蛋白質產生抗體。接受 Norditropin® 治療的 76 名兒童中，18 名 (~24%) 發生抗基因重組人類生長激素抗體。然而，這些抗體似乎不具中和性；依據治療組區分，抗體陽性和抗體陰性兒童，相較於基準點其第 2 年之身高 SDS 變化類似。 在試驗 1 和試驗 2 這兩項試驗中，並無明確的糖尿病新發病案例，沒有任何兒童接受降血糖治療，且並無病人因葡萄糖耐受異常不良事件而退出試驗。試驗 2 中，使用任一劑量的 Norditropin® 治療 2 年，並無兒童連續空腹血糖值介於 100 至 126 mg/dL，或空腹血糖值 > 126 mg/dL。還有，試驗 1 的長期治療期間，平均醣化血色素值有降低的傾向，而在試驗 2 中維持正常。不過在試驗 1 中，4 名接受 0.067 mg/kg/day 的 Norditropin® 治療之兒童，和 2 名接受 0.033 mg/kg/day 的 Norditropin® 治療之兒童，在治療 1 年後，空腹血糖值由基準點的正常，轉為上升 (100 至 126 mg/dL 或 > 126 mg/dL)。還有，使用 Norditropin®治療 1 年和 2 年後，平均空腹血糖和胰島素值的小幅增加 (在正常參考範圍內)，似乎和劑量有關[見警語及注意事項(5)與副作用/不良反應(8)]。 在試驗 1 和試驗 2 這兩項試驗中，骨骼並未加速成熟。使用 Norditropin®長期 (試驗 1) 和短期 (試驗 2) 治療後，均發現平均血清 IGF-I SDS濃度在參考範圍內，隨劑量增加 (但包含大量的血清 IGF-I SDS > +2 的兒童)。 Prader-Willi Syndrome導致的生長障礙 在對PWS兒科病人使用另一種生長激素產品進行的兩項臨床研究中，報告了以下不良反應: 水腫、侵襲性、關節痛、良性顱內高壓、掉髮、頭痛和肌痛。 成人生長激素分泌不足病人之臨床試驗 在六項最大規模的成人生長激素分泌不足病人的 Norditropin® 試驗中， 6 個月安慰劑對照部份，成年期發病之生長激素分泌不足病人中，發生率 ≥5% 的不良事件，列於表 1。接受 Norditropin® 治療病人經常發生周邊水腫、其他類型水腫、關節痛、肌肉痛和感覺異常，且頻率高於安慰劑組。這些類型的不良事件，被認定與 somatropin 的體液蓄積作用有關。一般而言，這些不良事件為輕度及暫時性。在本試驗的安慰劑對照部份，約 5% 之前無糖尿病且接受 Norditropin® 治療的病人，診斷患有明顯的第2型糖尿病，安慰劑組並無任何病人罹患糖尿病 [見警語及注意事項(5)與副作用/不良反應(8)]。未偵測到抗生長激素抗體。 值得注意的是，本試驗 (在 1990 年代中期完成) 中使用的 Norditropin® 劑量，顯著高於目前生長激素研究學會建議的劑量，且極可能導致高於預期的體液滯留和葡萄糖耐受不良相關之不良事件發生率。其他三項安慰劑對照，成年期發病之生長激素分泌不足試驗，以及兩項安慰劑對照，兒童期發病之生長激素分泌不足試驗中，皆觀察到發生率和模式類似的不良事件。 表 1 － 在六個月安慰劑對照臨床試驗中，使用 Norditropin® 治療的成年期發病之生長激素分泌不足病人，整體發生率 ≥5% 之不良事件 Norditropin® (N=53)安慰劑 (N=52) 不良反應n%n% 周邊水腫224248 水腫132500 關節痛1019815 腿部水腫81524 肌肉痛81548 感染 (非病毒性)71348 感覺異常61136 骨骼疼痛61112 頭痛5936 支氣管炎5900 類流感症狀4824 高血壓4812 腸胃炎4848 其他無法分類疾病 (不含意外傷害) 4836 盜汗增加4812 葡萄糖耐受異常3612 喉炎3636 試驗開放標記階段觀察到的不良事件模式，與上述結果類似。 如同所有治療性蛋白質，有可能產生免疫原性。抗體形成的偵測高度仰賴檢測的靈敏性和專一性。還有，檢測中偵測到的陽性抗體 (包括中和抗體) 發生率，可能受到數項因素的影響，包括檢測方法、檢體處理、檢體收集時間、併用藥物和潛藏的疾病。基於這些原因，比較 Norditropin® 抗體之發生率，和其他藥物的抗體發生率，可能有誤導之嫌。就生長激素而言，結合能力低於 2 mg/mL 的抗體未曾導致生長減緩。在極少數接受 somatropin 治療的病人中，結合能力高於 2 mg/mL 時，可觀察到生長反應受干擾。 在臨床試驗中，接受 Norditropin® 治療長達 12 個月的生長激素分泌不足兒童病人，接受抗體誘導測試，在 358 名病人中，沒有任何一位產生結合能力高於 2 mg/L 之抗體。這些病人中，有165 名之前接受過其他 somatropin 配方治療，而 193 名之前未接受過治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "由於這些不良事件是在規模不明的族群中自發性通報，無法可靠地估計其頻率，或確立和藥物暴露之間的因果關係。上市後調查期間通報的不良事件，與前節臨床試驗使用經驗及最嚴重及最常見不良反應所列的兒童及成人不良事件並無差異。 少數接受 somatropin、somatrem (methionylated rhGH) 和來自腦下垂體之生長激素治療的生長激素分泌不足兒童，曾有發生白血病之報告。不確定這些白血病案例，是否和生長激素治療、生長激素分泌不足本身之病理學、或其他相關治療如放射療法有關。依據現有證據，專家尚無法斷言生長激素治療本身是否會導致這些白血病案例。仍須確立患有生長激素分泌不足兒童之風險 (若有) [見禁忌(4)與警語及注意事項(5)與副作用/不良反應(8)] 適當使用 somatropin 期間，曾發生下列額外不良事件：頭痛 (兒童和成人)、男性女乳症 (兒童和成人) 和胰臟炎 (兒童和成人) [見警語及注意事項(5)與副作用/不良反應(8)]。 曾有發生新發病之第2型糖尿病的報告。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">由於這些不良事件是在規模不明的族群中自發性通報，無法可靠地估計其頻率，或確立和藥物暴露之間的因果關係。上市後調查期間通報的不良事件，與前節<i>臨床試驗使用經驗及最嚴重</i>及<i>最常見不良反應</i>所列的兒童及成人不良事件並無差異。</span><br><br><span style=\"font-family:標楷體;\">少數接受</span> somatropin<span style=\"font-family:標楷體;\">、</span>somatrem (methionylated rhGH)&nbsp;<span style=\"font-family:標楷體;\">和來自腦下垂體之生長激素治療的生長激素分泌不足兒童，曾有發生白血病之報告。不確定這些白血病案例，是否和生長激素治療、生長激素分泌不足本身之病理學、或其他相關治療如放射療法有關。依據現有證據，專家尚無法斷言生長激素治療本身是否會導致這些白血病案例。仍須確立患有生長激素分泌不足兒童之風險</span> (<span style=\"font-family:標楷體;\">若有</span>)&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見禁忌</i></span><i>(4)</i><span style=\"font-family:標楷體;\"><i>與警語及注意事項</i></span><i>(5)</i><span style=\"font-family:標楷體;\"><i>與副作用</i></span><i>/</i><span style=\"font-family:標楷體;\"><i>不良反應</i></span><i>(8)]</i><br>&nbsp;</p><p><span style=\"font-family:標楷體;\">適當使用</span> somatropin&nbsp;<span style=\"font-family:標楷體;\">期間，曾發生下列額外不良事件：頭痛</span> (<span style=\"font-family:標楷體;\">兒童和成人</span>)<span style=\"font-family:標楷體;\">、男性女乳症</span> (<span style=\"font-family:標楷體;\">兒童和成人</span>)&nbsp;<span style=\"font-family:標楷體;\">和胰臟炎</span> (<span style=\"font-family:標楷體;\">兒童和成人)</span>&nbsp;<i>[</i><span style=\"font-family:標楷體;\"><i>見警語及注意事項</i></span><i>(5)</i><span style=\"font-family:標楷體;\"><i>與副作用</i></span><i>/</i><span style=\"font-family:標楷體;\"><i>不良反應</i></span><i>(8)]</i><span style=\"font-family:標楷體;\">。</span><br><span style=\"font-family:標楷體;\">曾有發生新發病之第</span>2<span style=\"font-family:標楷體;\">型糖尿病的報告。</span></p>",
+          "search_text": "8.3\n上市後經驗\n由於這些不良事件是在規模不明的族群中自發性通報，無法可靠地估計其頻率，或確立和藥物暴露之間的因果關係。上市後調查期間通報的不良事件，與前節臨床試驗使用經驗及最嚴重及最常見不良反應所列的兒童及成人不良事件並無差異。 少數接受 somatropin、somatrem (methionylated rhGH) 和來自腦下垂體之生長激素治療的生長激素分泌不足兒童，曾有發生白血病之報告。不確定這些白血病案例，是否和生長激素治療、生長激素分泌不足本身之病理學、或其他相關治療如放射療法有關。依據現有證據，專家尚無法斷言生長激素治療本身是否會導致這些白血病案例。仍須確立患有生長激素分泌不足兒童之風險 (若有) [見禁忌(4)與警語及注意事項(5)與副作用/不良反應(8)] 適當使用 somatropin 期間，曾發生下列額外不良事件：頭痛 (兒童和成人)、男性女乳症 (兒童和成人) 和胰臟炎 (兒童和成人) [見警語及注意事項(5)與副作用/不良反應(8)]。 曾有發生新發病之第2型糖尿病的報告。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "短期過量最初會導致低血糖症，隨後則引起高血糖症。此外，somatropin過量可能引起體液滯留。長期過量可能會造成已知生長激素過剩的巨人症(gigantism)及/或肢端肥大症(acromegaly)之症狀及病症。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">短期過量最初會導致低血糖症，隨後則引起高血糖症。此外，</span>somatropin<span style=\"font-family:標楷體;\">過量可能引起體液滯留。長期過量可能會造成已知生長激素過剩的巨人症</span>(gigantism)<span style=\"font-family:標楷體;\">及</span>/<span style=\"font-family:標楷體;\">或肢端肥大症</span>(acromegaly)<span style=\"font-family:標楷體;\">之症狀及病症。</span></p>",
+          "search_text": "9\n過量\n短期過量最初會導致低血糖症，隨後則引起高血糖症。此外，somatropin過量可能引起體液滯留。長期過量可能會造成已知生長激素過剩的巨人症(gigantism)及/或肢端肥大症(acromegaly)之症狀及病症。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "無。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">無。</span></p>",
+          "search_text": "10.1\n作用機轉\n無。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥理治療分類 生長激素是具有代謝和促進生長效用的內分泌激素。 藥效學性質 Norditropin® FlexPro之主要作用為刺激骨骼和身體的生長，並對身體的代謝過程有重要的影響。 當治療生長激素缺乏症時，會使身體組成正常化。結果使肌肉量增加和脂肪減少。 生長激素大部份的作用是經由類胰島素生長因子-I (IGF-I)而來。IGF-I可由全身的組織製造，主要來自肝臟。 超過90%的IGF-I會與結合蛋白(IGFBPs)結合，其中以IGFBP-3最為重要。 在壓力期間荷爾蒙的脂質分解和蛋白質保留作用變得特別重要。 由bone markers在血中生化值的上升可知生長激素亦會使骨質更新(bone turnover)增加。成人的骨質在開始使用生長激素前幾個月期間會輕微降低，主要是因為明顯的骨質溶蝕作用，然而隨著治療的持續，骨質會增加。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>藥理治療分類</strong></span></p><p><span style=\"font-family:標楷體;\">生長激素是具有代謝和促進生長效用的內分泌激素。</span></p><p><span style=\"font-family:標楷體;\"><strong>藥效學性質</strong></span></p><p>Norditropin<sup>®</sup> FlexPro<span style=\"font-family:標楷體;\">之主要作用為刺激骨骼和身體的生長，並對身體的代謝過程有重要的影響。</span></p><p><span style=\"font-family:標楷體;\">當治療生長激素缺乏症時，會使身體組成正常化。結果使肌肉量增加和脂肪減少。</span></p><p><span style=\"font-family:標楷體;\">生長激素大部份的作用是經由類胰島素生長因子</span>-I (IGF-I)<span style=\"font-family:標楷體;\">而來。</span>IGF-I<span style=\"font-family:標楷體;\">可由全身的組織製造，主要來自肝臟。</span></p><p><span style=\"font-family:標楷體;\">超過</span>90%<span style=\"font-family:標楷體;\">的</span>IGF-I<span style=\"font-family:標楷體;\">會與結合蛋白</span>(IGFBPs)<span style=\"font-family:標楷體;\">結合，其中以</span>IGFBP-3<span style=\"font-family:標楷體;\">最為重要。</span></p><p><span style=\"font-family:標楷體;\">在壓力期間荷爾蒙的脂質分解和蛋白質保留作用變得特別重要。</span></p><p><span style=\"font-family:標楷體;\">由</span>bone markers<span style=\"font-family:標楷體;\">在血中生化值的上升可知生長激素亦會使骨質更新</span>(bone turnover)<span style=\"font-family:標楷體;\">增加。成人的骨質在開始使用生長激素前幾個月期間會輕微降低，主要是因為明顯的骨質溶蝕作用，然而隨著治療的持續，骨質會增加。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n藥理治療分類 生長激素是具有代謝和促進生長效用的內分泌激素。 藥效學性質 Norditropin® FlexPro之主要作用為刺激骨骼和身體的生長，並對身體的代謝過程有重要的影響。 當治療生長激素缺乏症時，會使身體組成正常化。結果使肌肉量增加和脂肪減少。 生長激素大部份的作用是經由類胰島素生長因子-I (IGF-I)而來。IGF-I可由全身的組織製造，主要來自肝臟。 超過90%的IGF-I會與結合蛋白(IGFBPs)結合，其中以IGFBP-3最為重要。 在壓力期間荷爾蒙的脂質分解和蛋白質保留作用變得特別重要。 由bone markers在血中生化值的上升可知生長激素亦會使骨質更新(bone turnover)增加。成人的骨質在開始使用生長激素前幾個月期間會輕微降低，主要是因為明顯的骨質溶蝕作用，然而隨著治療的持續，骨質會增加。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "無。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">無。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n無。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "9位生長激素缺乏之病人在靜脈輸注Norditropin® (33 ng/kg/min，3小時)後，發現以下結果：血清半衰期為21.1 ±1.7 min，代謝清除率為2.33±0.58 ml/kg/min，分佈體積為67.6±14.6 ml/kg。",
+          "content_html": "<p>9<span style=\"font-family:標楷體;\">位生長激素缺乏之病人在靜脈輸注</span>Norditropin<sup>®</sup><span style=\"color:red;\">&nbsp;</span>(33 ng/kg/min<span style=\"font-family:標楷體;\">，</span>3<span style=\"font-family:標楷體;\">小時</span>)<span style=\"font-family:標楷體;\">後，發現以下結果：血清半衰期為</span>21.1 ±1.7 min<span style=\"font-family:標楷體;\">，代謝清除率為</span>2.33±0.58 ml/kg/min<span style=\"font-family:標楷體;\">，分佈體積為</span>67.6±14.6 ml/kg<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "11\n藥物動力學特性\n9位生長激素缺乏之病人在靜脈輸注Norditropin® (33 ng/kg/min，3小時)後，發現以下結果：血清半衰期為21.1 ±1.7 min，代謝清除率為2.33±0.58 ml/kg/min，分佈體積為67.6±14.6 ml/kg。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "無。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">無。</span></p>",
+          "search_text": "12\n臨床試驗資料\n無。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "Norditropin® FlexPro為立即可用之包裝。 Norditropin® FlexPro 為一種多劑量拋棄式預填式注射筆，內含1.5 ml卡式管(第Ι類無色玻璃)固定密封在由塑膠零件和金屬彈簧組成的注射器內。卡式管的底部以柱塞狀的橡皮活塞封住，頂部以圓盤狀的層壓式橡皮膜封口，並以鋁蓋密封。 筆式注射器的注射按鈕依不同單位劑量有不同的顏色標記：10 mg/1.5 ml (藍色)。",
+          "content_html": "<p>Norditropin<sup>®</sup> FlexPro<span style=\"font-family:標楷體;\">為立即可用之包裝。</span></p><p>Norditropin<sup>®</sup> FlexPro<sup>&nbsp;</sup><span style=\"font-family:標楷體;\">為一種多劑量拋棄式預填式注射筆，內含</span>1.5 ml<span style=\"font-family:標楷體;\">卡式管</span>(<span style=\"font-family:標楷體;\">第Ι類無色玻璃</span>)<span style=\"font-family:標楷體;\">固定密封在由塑膠零件和金屬彈簧組成的注射器內。卡式管的底部以柱塞狀的橡皮活塞封住，頂部以圓盤狀的層壓式橡皮膜封口，並以鋁蓋密封。</span></p><p><span style=\"font-family:標楷體;\">筆式注射器的注射按鈕依不同單位劑量有不同的顏色標記：</span>10 mg/1.5 ml (<span style=\"font-family:標楷體;\">藍色</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "13.1\n包裝\nNorditropin® FlexPro為立即可用之包裝。 Norditropin® FlexPro 為一種多劑量拋棄式預填式注射筆，內含1.5 ml卡式管(第Ι類無色玻璃)固定密封在由塑膠零件和金屬彈簧組成的注射器內。卡式管的底部以柱塞狀的橡皮活塞封住，頂部以圓盤狀的層壓式橡皮膜封口，並以鋁蓋密封。 筆式注射器的注射按鈕依不同單位劑量有不同的顏色標記：10 mg/1.5 ml (藍色)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如外包裝所示。</span></p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "置於包裝盒中或使用中已裝入顏色相配之NordiPen®的Norditropin® FlexPro必須貯存在2oC-8oC下(存放於冰箱中)。 勿冷凍。 已開始使用的Norditropin® FlexPro 10 mg/1.5 ml可在2oC-8oC (存放於冰箱中)貯存達28天。或者貯存於30 oC以下達14天或貯存於25℃以下達21天。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">置於包裝盒中或使用中已裝入顏色相配之</span>NordiPen<sup>®</sup><span style=\"font-family:標楷體;\">的</span>Norditropin<sup>®</sup> FlexPro<span style=\"font-family:標楷體;\">必須貯存在</span>2<sup>o</sup>C-8<sup>o</sup>C<span style=\"font-family:標楷體;\">下</span>(<span style=\"font-family:標楷體;\">存放於冰箱中</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">勿冷凍。</span></p><p><span style=\"font-family:標楷體;\">已開始使用的</span>Norditropin<sup>®</sup> FlexPro<sup>&nbsp;</sup>10 mg/1.5 ml<span style=\"font-family:標楷體;\">可在</span>2<sup>o</sup>C-8<sup>o</sup>C (<span style=\"font-family:標楷體;\">存放於冰箱中</span>)<span style=\"font-family:標楷體;\">貯存達</span>28<span style=\"font-family:標楷體;\">天。<strong>或者</strong>貯存於</span>30<sup> o</sup>C<span style=\"font-family:標楷體;\">以下達</span>14<span style=\"font-family:標楷體;\">天</span><span style=\"color:#0D0D0D;font-family:標楷體;\">或貯存於</span><span style=\"color:#0D0D0D;\">25</span><span style=\"color:#0D0D0D;font-family:標楷體;\">℃以下達</span><span style=\"color:#0D0D0D;\">21</span><span style=\"color:#0D0D0D;font-family:標楷體;\">天</span><span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "13.3\n儲存條件\n置於包裝盒中或使用中已裝入顏色相配之NordiPen®的Norditropin® FlexPro必須貯存在2oC-8oC下(存放於冰箱中)。 勿冷凍。 已開始使用的Norditropin® FlexPro 10 mg/1.5 ml可在2oC-8oC (存放於冰箱中)貯存達28天。或者貯存於30 oC以下達14天或貯存於25℃以下達21天。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "請勿使用冰凍過或暴露於極高溫的Norditropin® FlexPro產品。 勿使用超過包裝上所印保存期限的Norditropin® FlexPro。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">請勿使用冰凍過或暴露於極高溫的</span>Norditropin<sup>®</sup> FlexPro<span style=\"font-family:標楷體;\">產品。</span></p><p><span style=\"font-family:標楷體;\">勿使用超過包裝上所印保存期限的</span>Norditropin<sup>®</sup> FlexPro<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "13.4\n儲存注意事項\n請勿使用冰凍過或暴露於極高溫的Norditropin® FlexPro產品。 勿使用超過包裝上所印保存期限的Norditropin® FlexPro。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nNorditropin® FlexPro 為一預填於多劑量拋棄式注射筆內的皮下注射溶液。 Norditropin® FlexPro 的主成分為生合成人類生長激素(somatropin)。\n1.2\n賦形劑\nmannitol、histidine、poloxamer 188、phenol、注射用水、調整 pH 值用的 hydrochloric acid 及 sodium hydroxide。\n1.3\n劑型\n注射用溶液 預填式注射筆\n1.4\n藥品外觀\n無\n2\n適應症\n兒童： 因生長激素不足(growth hormone deficiency, GHD)所造成的生長遲緩。 因透納氏症候群(Turner Syndrome)(性腺發育不全女童)所造成的生長遲緩。 青春期前因慢性腎病所造成的生長遲緩。 低出生體重兒(small for gestational age, SGA)至2-4歲時仍無法追上正常生長狀況。 因努南氏症候群(Noonan Syndrome)所造成的生長遲緩。 因普瑞德威利症候群(Prader-Willi Syndrome)所造成的生長遲緩。 身高標準差分數 (height standard deviation score)小於-2.25且生長速率顯示最終成年身高預期無法達到正常範圍之特發性身材矮小症 (idiopathic short stature, ISS)。 成人： 生長激素不足(growth hormone deficiency, GHD)之補充療法。 說明 成人： Norditropin® FlexPro [基因重組生長激素 (somatropin，源自 rDNA) 注射液]，針對患有生長激素分泌不足 (GHD)，且符合下列兩項條件之一的成人，用於補充內源性生長激素： 成年期發病 (AO)：病人因腦下垂體疾病、下視丘疾病、手術、放射療法或創傷，導致生長激素分泌不足或伴隨多重激素分泌不足 (腦下垂體功能低下)；或 兒童期發病 (CO)：病人因先天性、遺傳性、後天性或自發性成因，導致兒童期生長激素分泌不足。 兒童期接受過 somatropin 治療且骨骺已閉合的病人，若要繼續以較低劑量 somatropin 治療 (對成年生長激素分泌不足病人之建議劑量)，應重新評估。依據現行標準，這兩群成年生長激素分泌不足之確診，均須進行適當的生長激素激發試驗，但下列兩種情況下例外：(1) 病人因為器質性疾病而發生其他多重腦下垂體激素分泌不足；(2) 病人患有先天性/遺傳性生長激素分泌不足。\n3\n用法及用量\n3.1\n用法用量\nNorditropin® FlexPro是一種預填式注射筆，此設計可搭配NovoFine® 注射針頭一起使用，長度最長 8 mm。Norditropin® FlexPro 10 mg/1.5ml 每劑最多提供4.0 mg somatropin，每次增加0.050 mg somatropin。 劑量因人而異且必須依每個人對治療的臨床和生化反應做調整。通常建議在每日晚間皮下注射一次。注射部位應更換以避免脂肪萎縮。僅限處方使用。 注射程序請參閱 Norditropin® FlexPro 10 mg/1.5ml 使用手冊。應提醒病人在對 Norditropin® FlexPro有任何碰觸前，應先以肥皂和清水和/或消毒劑將雙手完全洗淨。 為確保劑量正確及避免注入空氣，Norditropin® FlexPro新的注射筆在第一次注射前，應檢查其流動性(觀察整支筆)。若針頭針尖未能出現一滴生長激素溶液，則該支Norditropin® FlexPro不得使用。藉由劑量設定鈕，選擇欲注射的劑量，直到所需劑量出現在筆身窗口。若選擇了錯誤的劑量，可透過將劑量設定鈕向反方向轉動來進行更正。按壓給藥按鈕注射。 無論何時，Norditropin® FlexPro都不應劇烈震搖。 若Norditropin® FlexPro預填式注射筆內的生長激素溶液呈現混濁或變色，則請勿使用。注射筆請上下翻轉一次或兩次以進行確認。 任何未使用的藥物產品或廢棄物應根據當地法規要求處置。 一般建議劑量如下： 兒童： 生長激素不足： 25-35μg/kg/day或0.7-1.0 mg/m2/day 患有慢性腎病或透納氏症候群： 50μg/kg/day或1.4 mg/m2/day 特發性身材矮小: 最大劑量不得超過0.47 mg/kg/week 低出生體重兒(small for gestational age, SGA)： 33-67 μg/kg/day或1.0-2.0 mg/m2/day 懷孕週數 > 月經結束後33週。 出生身高 < -2標準差。 母親 > 150公分且父親 > 165公分。 身高低於同年齡身高平均值下2.5個標準差。 體重在同年齡體重2個標準差以內。 過去12個月生長速率低於同年齡之平均值。 無青春期之臨床表徵。 非生長激素缺乏症，即最高生長激素濃度超過10 ng/ml 女孩染色體核型正常 努南氏症候群： 建議劑量為0.066 mg/kg/day，在某些狀況下使用0.033mg/kg/day就已足夠。 生長板閉合時應停止使用。 普瑞德威利症候群 (Prader-Willi Syndrome)： 0.24 mg/kg/week (0.034 mg/kg/day) 生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。 成人 補充療法： 劑量必須依病人個別需要來調整。建議在開始治療時用較低劑量為0.1-0.3 mg/day，再依據個人的需要量逐月增加劑量。使用血清中的類胰島素生長因子-I(IGF-I)來作為調整劑量的參考。 為達到定義的治療目標，雌激素充足的女性可能比男性需要較高劑量。口服雌激素替代治療中的女性可能需要增加劑量。劑量需求會隨著年齡下降。維持劑量因人而異，可是很少超過1.0 mg/day(相當於3 IU/day)。\n3.2\n調製方式\n無\n3.3\n特殊族群用法用量\n4\n禁忌\nNorditropin® 禁用於下列病人： 開心手術、腹部手術或多重意外創傷後發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量的 somatropin 治療後，死亡率風險增加 [參見警語及注意事項(5)]。 重度肥胖、有上呼吸道阻塞或睡眠呼吸中止病史或罹患重度呼吸道功能不全的普瑞德威利氏症候群 (Prader-Willi syndrome) 兒童病人，有猝死風險 [參見警語及注意事項(5)]。 活性惡性腫瘤 [參見警語及注意事項(5)]。 對 Norditropin® 或其中的賦形劑過敏。Somatropin 在上市使用後，曾通報全身性過敏反應 [參見警語及注意事項(5)]。 活性增生性或嚴重非增生性糖尿病視網膜病變。 骨骺已閉合的兒童病人。\n5\n警語及注意事項\n5.1\n警語/注意事項\n急重症病人的死亡率增加 因開心手術、腹部手術或多重意外創傷後之併發症而發生急重症，或發生急性呼吸衰竭的病人，使用藥理劑量之 somatropin 治療後，曾有死亡率增加的報告 [見禁忌(4)]。兩項安慰劑對照臨床試驗，對象為加護病房內，患有上述疾病之非生長激素分泌不足成年病人 (n=522)，顯示接受 somatropin 治療病人 (劑量 5.3-8 mg/day)，相對於接受安慰劑病人，死亡率顯著增加 (42% 相對於 19%)尚未確立接受核准適應症補充劑量時，伴隨發生上述疾患的病人，繼續使用 Norditropin®治療之安全性。Norditropin® 並未核准用於治療非生長激素分泌不足的成年病人。 兒童普瑞德威利氏症候群 (Prader-Willi Syndrome)病人 具有下列一或多項風險因子的兒童普瑞德威利氏症候群病人，開始 somatropin 治療後，曾有死亡報告：嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、或原因不明之呼吸道感染。帶有一或多項上述因子的男性病人，風險可能高於女性。普瑞德威利氏症候群病人開始 somatropin 治療前，應評估上呼吸道阻塞和睡眠呼吸中止症的表徵。若使用 somatropin 治療期間，病人出現上呼吸道阻塞 (包括出現打鼾或打鼾頻率增加) 和/或新發病之睡眠呼吸中止症，應中斷治療。所有接受 somatropin 治療的普瑞德威利氏症候群病人，也應進行有效體重控制，並監測呼吸道感染之表徵，呼吸道感染應儘早診斷並積極治療 [見禁忌(4)]。 腫瘤的風險增加 活性惡性腫瘤 罹患活性惡性腫瘤的病人，以 somatropin 治療時，惡性腫瘤惡化的風險增加[見禁忌(4)]。任何既存的惡性腫瘤應為非活性，且在開始Norditropin® 治療前已完成惡性腫瘤治療。如果有復發的證據，則停用 Norditropin® 。 兒童病人出現第二種腫瘤的風險 接受放射線治療腦部/頭部的兒童癌症病人，後續發生生長激素分泌不足並以 somatropin 治療時，出現第二種腫瘤的風險增加。顱內腫瘤 (尤其是腦膜瘤) 是最常見的第二種腫瘤。目前尚不清楚成年病人的 somatropin 補充治療，與中樞神經系統腫瘤復發之間，是否存在任何關係。對於具有顱內腫瘤繼發性生長激素分泌不足病史，並接受 Norditropin® 治療的所有病人，需監測腫瘤是否惡化或復發。 治療期間新發生的惡性腫瘤 由於具有特定罕見矮小體型遺傳成因的兒童病人，發生惡性腫瘤的風險較高，應仔細考量這些病人接受 Norditropin® 治療的風險及效益。如果開始 Norditropin® 治療，應謹慎監測病人是否出現腫瘤。 所有接受 Norditropin® 治療的病人，應謹慎監測既存的痣是否迅速生長，或可能發生惡性變化。應告知病人/照護者，需通報顯著的行為改變、頭痛、視覺異常及/或皮膚色素變化，或既存的痣外觀出現變化。 葡萄糖耐受不良及糖尿病 使用 somatropin 治療可能會降低胰島素敏感性，尤其是在易受影響的病人使用較高劑量的情況下。因此，somatropin 治療期間，可能會顯現出之前未診斷出來的葡萄糖耐受不良，及明顯的糖尿病。病人曾有發生新發病之第2型糖尿病的報告。因此，所有使用 somatropin 治療的病人，應定期監測血糖濃度，尤其是具有糖尿病風險因子的病人，例如肥胖、透納氏症候群、或糖尿病家族病史。已經罹患第1型或第2型糖尿病、或葡萄糖耐受不良的病人，使用 somatropin 治療期間，應密切監測。這些病人開始 somatropin 治療時，可能需要調整降血糖藥物的劑量 (亦即，胰島素或口服/注射藥物)。 顱內高壓 接受 somatropin 藥物治療的少數病人，曾有顱內高壓 (IH) 伴隨視神經乳頭水腫、視力改變、頭痛、噁心和/或嘔吐之報告。症狀通常在開始 somatropin 治療後的頭8週內發生。在所有報告案例中，停止治療或減少 somatropin 劑量後，顱內高壓導致的表徵及症狀可迅速排除。 開始 somatropin 治療前，應進行例行的眼底鏡檢查，以確認之前未發生視神經乳頭水腫，且在 somatropin 治療期間應定期檢查。somatropin 治療期間，眼底鏡檢查若發現視神經乳頭水腫，應停止治療。若診斷為 somatropin 誘發之顱內高壓，可在顱內高壓導致的表徵及症狀排除後，以較低劑量重新開始 somatropin 治療。透納氏症候群病人，發生顱內高壓的風險可能較高。 體液滯留 成人接受 somatropin 補充療法期間，可能會頻繁發生體液滯留。體液滯留之臨床表現(例如水腫、關節痛、肌痛、神經壓迫症候群，包括腕隧道症候群/感覺異常) 通常為暫時性，且和劑量有關。 腎上腺功能不足 有腦下垂體激素分泌不足風險，而接受 somatropin 治療的病人，可能會有發生血清皮質醇濃度降低，及/或顯現出中樞性 (繼發性) 腎上腺功能不足的風險。此外，先前診斷腎上腺功能不足，而接受糖皮質素補充治療的病人，在開始 Norditropin® 治療後，可能需要增加維持或壓力劑量。已知腎上腺功能不足的病人，應監測血清皮質醇濃度是否降低，及/或是否需要增加糖皮質素劑量。 甲狀腺功能低下 未診斷/未治療的甲狀腺功能低下，可能會導致無法達到最佳 somatropin 治療反應，尤其是兒童的生長反應。透納氏症候群病人，先天發生自體免疫甲狀腺疾病和原發性甲狀腺功能低下的風險較高。生長激素分泌不足的病人，中樞性 (次發性) 甲狀腺功能低下可能會在 somatropin 治療期間首次出現或惡化。因此，接受 somatropin 治療病人，應定期進行甲狀腺功能檢查，且應在出現表徵時，開始或適當調整甲狀腺激素補充療法。 兒童病人股骨生長板滑脫症 在快速成長的兒童和內分泌疾病人者中，髖部滑脫的發生率可能比一般人群更高。 在接受生長激素治療的兒童中，已報告髖部滑脫、股骨頭壞死（包括Legg-Calvé-Perthes病）。在接受生長激素治療期間，持續髖部/膝部疼痛和/或跛行的兒童應進行臨床檢查。 兒童病人先前存在之脊椎側彎惡化 快速生長的病人，可能會發生脊椎側彎惡化。由於 somatropin 會增加生長速率，有脊椎側彎病史且接受 somatropin 治療的病人，應密切監測是否發生脊椎側彎惡化。 確認兒童期發病之成人生長激素分泌不足 生長板閉合且在兒童期接受 somatropin 補充療法的病人，應依據「適應症(2)說明 成人」內的條件重新評估，方可繼續以較低劑量使用 somatropin 治療 (對成年生長激素分泌不足病人之建議劑量)。 脂肪萎縮 在相同部位重複以皮下注射方式施用 somatropin 時，可能會導致組織萎縮。輪換注射部位可避免這種情況[見用法及用量(3)]。 嚴重過敏 Somatropin 藥品上市後，曾有嚴重全身性過敏反應報告，包括無防禦性過敏反應 (anaphylactic reaction)及血管性水腫。應告知病人及照護者可能會發生此類反應，若發生過敏反應應立即就醫。 胰臟炎 接受 somatropin 治療的兒童和成人，曾報告發生罕見的胰臟炎案例，有部份證據顯示，兒童的風險高於成人。已發表的文獻顯示，患有透納氏症候群的女童，風險可能高於其他接受 somatropin 治療的兒童。任何接受 somatropin 治療的病人，均應考量發生胰臟炎的可能性，尤其是發生持續嚴重腹痛的兒童。 鈉含量 每1.5 ml 的Norditropin® 的鈉含量低於 1 mmol (23 mg)，亦即基本上「不含鈉」。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n對於駕駛和使用機械之能力並無影響。\n5.4\n實驗室檢測\nSomatropin 治療後，血中的無機磷、鹼性磷酸酶、副甲狀腺激素 (PTH) 及 IGF-I 濃度可能會增加。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n目前並無足夠經驗於懷孕期間使用somatropin治療。懷孕婦女僅可在明確需要時，才給予somatropin。\n6.2\n哺乳\n在授乳期間，somatropin亦可能會透過乳汁分泌。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n和糖皮質固醇glucocorticoid併用會抑制somatropin的生長促進作用。缺乏ACTH的病人應謹慎地調整其glucocorticoid替代治療之劑量，以避免對somatropin的抑制作用。 一項在成人生長激素缺乏病人之交互作用試驗資料顯示，投與somatropin會增加化合物被cytochrome P450 isoenzymes代謝清除率。化合物如sex steroids, corticosteroids, anticonvulsants 及 cyclosporine因cytochrome P450 3A4代謝清除率增加，導致這些化合物在血漿中濃度降低。未知此現象之臨床意義。 在開始使用somatropin治療後，接受胰島素治療病人的胰島素劑量也許有需要調整。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n此列表為使用 somatropin 治療期間，最嚴重b及最常見a的不良反應： 急重症病人死亡率增加[見警語及注意事項(5)] b具有風險因子之普瑞德威利氏症候群兒童病人猝死，風險因子包括嚴重肥胖、有上呼吸道阻塞或睡眠呼吸中止症病史、及原因不明之呼吸道感染 [見禁忌(4)與警語及注意事項(5)]。 b兒童期使用放射線治療首次發生之頭部腫瘤並且接受 somatropin 治療的青少年，發生顱內腫瘤，尤其是腦脊髓膜瘤[見禁忌(4)與警語及注意事項(5)] a,b無法耐受葡萄糖，包括葡萄糖耐受不良/空腹血糖異常，以及明顯的糖尿病[見禁忌(4)與警語及注意事項(5)] b顱內高壓[見警語及注意事項(5)] b兒童病人股骨生長板滑脫症與股骨頭壞死 [見警語及注意事項(5)] b兒童病人先前存在之脊椎側彎惡化 [見警語及注意事項(5)] 嚴重過敏 [見警語及注意事項(5)] a體液滯留，表現為水腫、關節痛、肌肉痛、神經壓迫症候群，包括腕隧道症候群/感覺異常 [見警語及注意事項(5)] 腎上腺功能不足[見警語及注意事項(5)] a潛在的中樞性甲狀腺功能不足浮現[見警語及注意事項(5)] a注射部位反應/皮疹和脂肪萎縮 (以及罕見的全身性過敏反應) [見警語及注意事項(5)] 胰臟炎[見警語及注意事項(5)]\n8.2\n臨床試驗經驗\n由於臨床試驗在不同條件下進行，針對一種 somatropin 配方進行的臨床試驗期間，觀察到的不良事件發生率，無法和針對第二種 somatropin 配方進行的臨床試驗期間，觀察到的發生率直接比較，而且可能無法反應臨床實務中的不良反應發生率。 患有透納氏症候群兒童之臨床試驗 在兩項治療透納氏症候群兒童達到最終身高的臨床試驗中，最常通報的不良事件為一般兒童疾病，包括類流感疾病、中耳炎、上呼吸道感染、外耳炎、胃腸炎和濕疹。試驗 1 中，中耳炎是最高劑量組最常見的不良事件 (0.045-0.067-0.089 mg/kg/day 劑量組為 86.4%，相對於 0.045-0.067 mg/kg/day 組的 78.3%，相對於 0.045 mg/kg/day 組的 69.6%)，顯示可能有劑量相關性。值得注意的是，這些中耳炎不良事件中，約 40-50% 為「嚴重」[見警語及注意事項(5)]。兩項試驗中，均無病人發生明確的明顯的糖尿病；然而在試驗 1，0.045-0.067 mg/kg/day 組在第 48 個月的空腹血糖異常發生率 (n=4/18)，高於 0.045 mg/kg/day 組 (n=1/20)。兩項試驗中，空腹血糖暫時介於 100 和 126 mg/dL、有時超過 126 mg/dL 之發生率，較高劑量的 Norditropin® 組也較高 [見警語及注意事項(5)與副作用/不良反應(8)]。試驗 1 的 2 個高劑量組中，有 3 名病人因為手腳過度生長之相關疑慮而退出。此外在試驗 1 中，0.045 mg/kg/day 組有 2 名病人發生先前存在的脊椎側彎惡化之嚴重不良反應[見警語及注意事項(5)]。 低出生體重兒 (SGA) 至2-4 歲仍無法追上正常生長狀況之臨床試驗 試驗 1 (長期) 在一項多中心，隨機分配，雙盲試驗中，53 名非生長激素分泌不足造成的體型矮小且出生體重時體重不足，生長遲緩的兒童，使用 2 種劑量的 Norditropin® (0.033 或 0.067 mg/kg/day) 治療最多 13 年，直到達到最終身高為止 (女童和男童平均治療持續時間，分別為 7.9 年和 9.5 年)。最常通報的不良事件為一般兒童疾病，包括類流感疾病、上呼吸道感染、支氣管炎、腸胃炎、腹痛、中耳炎、咽炎、關節痛和頭痛。可能和 Norditropin® 有關的不良事件為中耳炎、關節痛、頭痛 (無確診為良性顱內高壓案例)、男性女乳症及盜汗增加。一名接受 0.067 mg/kg/day 治療 4 年的兒童，通報發生下顎生長不成比例，另一名接受 0.067 mg/kg/day 治療的兒童，發生黑色素細胞痣 [見警語及注意事項(5)]。並無原先脊椎側彎或股骨生長板滑脫症惡化之明顯報告。治療組之間無明顯差異。此外，兩個治療組中，男童和女童均在適當年紀進入青春期。因此結論為，長期試驗 1 中，並無和 Norditropin® 治療可能有關的新不良事件產生。 試驗 2 (短期) 在一項多中心、隨機分配、雙盲、平行分組試驗中，98 名非生長激素分泌不足造成的體型矮小且出生時體重不足，生長遲緩的日本兒童，接受 2 種劑量的 Norditropin® (0.033 或 0.067 mg/kg/day) 治療 2 年，或 1 年未治療。最常通報的不良事件為一般兒童疾病，幾乎與上述試驗 1 通報的不良事件相同。可能和 Norditropin® 有關的不良事件為中耳炎、關節痛和葡萄糖耐受不良。治療組之間無明顯差異。然而，關節痛和暫時性葡萄糖耐受不良，僅發生在 0.067 mg/kg/day 治療組。因此結論為，短期試驗 2 中，並無和基因重組人類生長激素 (rhGH) 治療可能有關的新不良事件。 如同所有蛋白質藥物，一些病人可能會對蛋白質產生抗體。接受 Norditropin® 治療的 76 名兒童中，18 名 (~24%) 發生抗基因重組人類生長激素抗體。然而，這些抗體似乎不具中和性；依據治療組區分，抗體陽性和抗體陰性兒童，相較於基準點其第 2 年之身高 SDS 變化類似。 在試驗 1 和試驗 2 這兩項試驗中，並無明確的糖尿病新發病案例，沒有任何兒童接受降血糖治療，且並無病人因葡萄糖耐受異常不良事件而退出試驗。試驗 2 中，使用任一劑量的 Norditropin® 治療 2 年，並無兒童連續空腹血糖值介於 100 至 126 mg/dL，或空腹血糖值 > 126 mg/dL。還有，試驗 1 的長期治療期間，平均醣化血色素值有降低的傾向，而在試驗 2 中維持正常。不過在試驗 1 中，4 名接受 0.067 mg/kg/day 的 Norditropin® 治療之兒童，和 2 名接受 0.033 mg/kg/day 的 Norditropin® 治療之兒童，在治療 1 年後，空腹血糖值由基準點的正常，轉為上升 (100 至 126 mg/dL 或 > 126 mg/dL)。還有，使用 Norditropin®治療 1 年和 2 年後，平均空腹血糖和胰島素值的小幅增加 (在正常參考範圍內)，似乎和劑量有關[見警語及注意事項(5)與副作用/不良反應(8)]。 在試驗 1 和試驗 2 這兩項試驗中，骨骼並未加速成熟。使用 Norditropin®長期 (試驗 1) 和短期 (試驗 2) 治療後，均發現平均血清 IGF-I SDS濃度在參考範圍內，隨劑量增加 (但包含大量的血清 IGF-I SDS > +2 的兒童)。 Prader-Willi Syndrome導致的生長障礙 在對PWS兒科病人使用另一種生長激素產品進行的兩項臨床研究中，報告了以下不良反應: 水腫、侵襲性、關節痛、良性顱內高壓、掉髮、頭痛和肌痛。 成人生長激素分泌不足病人之臨床試驗 在六項最大規模的成人生長激素分泌不足病人的 Norditropin® 試驗中， 6 個月安慰劑對照部份，成年期發病之生長激素分泌不足病人中，發生率 ≥5% 的不良事件，列於表 1。接受 Norditropin® 治療病人經常發生周邊水腫、其他類型水腫、關節痛、肌肉痛和感覺異常，且頻率高於安慰劑組。這些類型的不良事件，被認定與 somatropin 的體液蓄積作用有關。一般而言，這些不良事件為輕度及暫時性。在本試驗的安慰劑對照部份，約 5% 之前無糖尿病且接受 Norditropin® 治療的病人，診斷患有明顯的第2型糖尿病，安慰劑組並無任何病人罹患糖尿病 [見警語及注意事項(5)與副作用/不良反應(8)]。未偵測到抗生長激素抗體。 值得注意的是，本試驗 (在 1990 年代中期完成) 中使用的 Norditropin® 劑量，顯著高於目前生長激素研究學會建議的劑量，且極可能導致高於預期的體液滯留和葡萄糖耐受不良相關之不良事件發生率。其他三項安慰劑對照，成年期發病之生長激素分泌不足試驗，以及兩項安慰劑對照，兒童期發病之生長激素分泌不足試驗中，皆觀察到發生率和模式類似的不良事件。 表 1 － 在六個月安慰劑對照臨床試驗中，使用 Norditropin® 治療的成年期發病之生長激素分泌不足病人，整體發生率 ≥5% 之不良事件 Norditropin® (N=53)安慰劑 (N=52) 不良反應n%n% 周邊水腫224248 水腫132500 關節痛1019815 腿部水腫81524 肌肉痛81548 感染 (非病毒性)71348 感覺異常61136 骨骼疼痛61112 頭痛5936 支氣管炎5900 類流感症狀4824 高血壓4812 腸胃炎4848 其他無法分類疾病 (不含意外傷害) 4836 盜汗增加4812 葡萄糖耐受異常3612 喉炎3636 試驗開放標記階段觀察到的不良事件模式，與上述結果類似。 如同所有治療性蛋白質，有可能產生免疫原性。抗體形成的偵測高度仰賴檢測的靈敏性和專一性。還有，檢測中偵測到的陽性抗體 (包括中和抗體) 發生率，可能受到數項因素的影響，包括檢測方法、檢體處理、檢體收集時間、併用藥物和潛藏的疾病。基於這些原因，比較 Norditropin® 抗體之發生率，和其他藥物的抗體發生率，可能有誤導之嫌。就生長激素而言，結合能力低於 2 mg/mL 的抗體未曾導致生長減緩。在極少數接受 somatropin 治療的病人中，結合能力高於 2 mg/mL 時，可觀察到生長反應受干擾。 在臨床試驗中，接受 Norditropin® 治療長達 12 個月的生長激素分泌不足兒童病人，接受抗體誘導測試，在 358 名病人中，沒有任何一位產生結合能力高於 2 mg/L 之抗體。這些病人中，有165 名之前接受過其他 somatropin 配方治療，而 193 名之前未接受過治療。\n8.3\n上市後經驗\n由於這些不良事件是在規模不明的族群中自發性通報，無法可靠地估計其頻率，或確立和藥物暴露之間的因果關係。上市後調查期間通報的不良事件，與前節臨床試驗使用經驗及最嚴重及最常見不良反應所列的兒童及成人不良事件並無差異。 少數接受 somatropin、somatrem (methionylated rhGH) 和來自腦下垂體之生長激素治療的生長激素分泌不足兒童，曾有發生白血病之報告。不確定這些白血病案例，是否和生長激素治療、生長激素分泌不足本身之病理學、或其他相關治療如放射療法有關。依據現有證據，專家尚無法斷言生長激素治療本身是否會導致這些白血病案例。仍須確立患有生長激素分泌不足兒童之風險 (若有) [見禁忌(4)與警語及注意事項(5)與副作用/不良反應(8)] 適當使用 somatropin 期間，曾發生下列額外不良事件：頭痛 (兒童和成人)、男性女乳症 (兒童和成人) 和胰臟炎 (兒童和成人) [見警語及注意事項(5)與副作用/不良反應(8)]。 曾有發生新發病之第2型糖尿病的報告。\n9\n過量\n短期過量最初會導致低血糖症，隨後則引起高血糖症。此外，somatropin過量可能引起體液滯留。長期過量可能會造成已知生長激素過剩的巨人症(gigantism)及/或肢端肥大症(acromegaly)之症狀及病症。\n10\n藥理特性\n10.1\n作用機轉\n無。\n10.2\n藥效藥理特性\n藥理治療分類 生長激素是具有代謝和促進生長效用的內分泌激素。 藥效學性質 Norditropin® FlexPro之主要作用為刺激骨骼和身體的生長，並對身體的代謝過程有重要的影響。 當治療生長激素缺乏症時，會使身體組成正常化。結果使肌肉量增加和脂肪減少。 生長激素大部份的作用是經由類胰島素生長因子-I (IGF-I)而來。IGF-I可由全身的組織製造，主要來自肝臟。 超過90%的IGF-I會與結合蛋白(IGFBPs)結合，其中以IGFBP-3最為重要。 在壓力期間荷爾蒙的脂質分解和蛋白質保留作用變得特別重要。 由bone markers在血中生化值的上升可知生長激素亦會使骨質更新(bone turnover)增加。成人的骨質在開始使用生長激素前幾個月期間會輕微降低，主要是因為明顯的骨質溶蝕作用，然而隨著治療的持續，骨質會增加。\n10.3\n臨床前安全性資料\n無。\n11\n藥物動力學特性\n9位生長激素缺乏之病人在靜脈輸注Norditropin® (33 ng/kg/min，3小時)後，發現以下結果：血清半衰期為21.1 ±1.7 min，代謝清除率為2.33±0.58 ml/kg/min，分佈體積為67.6±14.6 ml/kg。\n12\n臨床試驗資料\n無。\n13\n包裝及儲存\n13.1\n包裝\nNorditropin® FlexPro為立即可用之包裝。 Norditropin® FlexPro 為一種多劑量拋棄式預填式注射筆，內含1.5 ml卡式管(第Ι類無色玻璃)固定密封在由塑膠零件和金屬彈簧組成的注射器內。卡式管的底部以柱塞狀的橡皮活塞封住，頂部以圓盤狀的層壓式橡皮膜封口，並以鋁蓋密封。 筆式注射器的注射按鈕依不同單位劑量有不同的顏色標記：10 mg/1.5 ml (藍色)。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n置於包裝盒中或使用中已裝入顏色相配之NordiPen®的Norditropin® FlexPro必須貯存在2oC-8oC下(存放於冰箱中)。 勿冷凍。 已開始使用的Norditropin® FlexPro 10 mg/1.5 ml可在2oC-8oC (存放於冰箱中)貯存達28天。或者貯存於30 oC以下達14天或貯存於25℃以下達21天。\n13.4\n儲存注意事項\n請勿使用冰凍過或暴露於極高溫的Norditropin® FlexPro產品。 勿使用超過包裝上所印保存期限的Norditropin® FlexPro。\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "NOVO NORDISK A/S",
+          "address": "HALLAS ALLE, DK-4400 KALUNDBORG, DENMARK"
+        },
+        {
+          "number": "2",
+          "name": "NOVO NORDISK A/S",
+          "address": "HAGEDORNSVEJ 1, DK 2820 GENTOFTE, DENMARK"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "NOVO NORDISK A/S",
+          "address": "KIRKE VAERLOESEVEJ 30, DK-3500 VAERLOESE, DENMARK"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣諾和諾德藥品股份有限公司",
+          "address": "台北市大安區敦化南路2段207號10樓"
+        }
+      ]
+    }
+  ]
+}

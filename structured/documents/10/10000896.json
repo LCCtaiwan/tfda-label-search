@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:00:31.406146+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000896",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000896號:6",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000896號",
+      "matched_license_code": "10000896",
+      "matched_nhi_code": "",
+      "drug_name_zh": "歐密拓“山德士”注射液10毫克/1.5毫升",
+      "drug_name_en": "Omnitrope 10mg/1.5mL Solution for Injection",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "6",
+      "approved_at": "2026-11-03",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "注射液劑搭配卡匣 (catridge) 每毫升注射液劑包含3.3/6.7毫克somatropin (相當於每毫升含10/20國際單位) 每個卡匣 (catridge) 含有1.5毫升，相當於5/10毫克somatropin (15/30國際單位) Omnitrope®是利用大腸桿菌經由基因工程技術所製造的一種人類生長激素。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">注射液劑搭配卡匣</span> (catridge)</p><p><span style=\"font-family:標楷體;\">每毫升注射液劑包含</span>3.3/6.7<span style=\"font-family:標楷體;\">毫克</span>somatropin (<span style=\"font-family:標楷體;\">相當於每毫升含</span>10/20<span style=\"font-family:標楷體;\">國際單位</span>)</p><p><span style=\"font-family:標楷體;\">每個卡匣</span> (catridge)&nbsp;<span style=\"font-family:標楷體;\">含有</span>1.5<span style=\"font-family:標楷體;\">毫升，相當於</span>5/10<span style=\"font-family:標楷體;\">毫克</span>somatropin (15/30<span style=\"font-family:標楷體;\">國際單位</span>)</p><p>Omnitrope<span style=\"font-family:標楷體;\">®是利用大腸桿菌經由基因工程技術所製造的一種人類生長激素。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n注射液劑搭配卡匣 (catridge) 每毫升注射液劑包含3.3/6.7毫克somatropin (相當於每毫升含10/20國際單位) 每個卡匣 (catridge) 含有1.5毫升，相當於5/10毫克somatropin (15/30國際單位) Omnitrope®是利用大腸桿菌經由基因工程技術所製造的一種人類生長激素。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Omnitrope 5mg/1.5ml Disodium hydrogen phosphate heptahydrate、Sodium dihydrogen phosphate dehydrate、Mannitol、Poloxamer 188、Benzyl alcohol、Phosphoric acid、Sodium hydroxide、Water for injections Omnitrope 10mg/1.5ml Disodium hydrogen phosphate heptahydrate、Sodium dihydrogen phosphate dihydrate、Glycine、Poloxamer 188、Phenol、Phosphoric acid、Sodium hydroxide、Water for injections",
+          "content_html": "<p>Omnitrope 5mg/1.5ml</p><p>Disodium hydrogen phosphate heptahydrate<span style=\"font-family:標楷體;\">、</span>Sodium dihydrogen phosphate dehydrate<span style=\"font-family:標楷體;\">、</span>Mannitol<span style=\"font-family:標楷體;\">、</span>Poloxamer 188<span style=\"font-family:標楷體;\">、</span>Benzyl alcohol<span style=\"font-family:標楷體;\">、</span>Phosphoric acid<span style=\"font-family:標楷體;\">、</span>Sodium hydroxide<span style=\"font-family:標楷體;\">、</span>Water for injections</p><p>Omnitrope 10mg/1.5ml</p><p>Disodium hydrogen phosphate heptahydrate<span style=\"font-family:標楷體;\">、</span>Sodium dihydrogen phosphate dihydrate<span style=\"font-family:標楷體;\">、</span>Glycine<span style=\"font-family:標楷體;\">、</span>Poloxamer 188<span style=\"font-family:標楷體;\">、</span>Phenol<span style=\"font-family:標楷體;\">、</span>Phosphoric acid<span style=\"font-family:標楷體;\">、</span>Sodium hydroxide<span style=\"font-family:標楷體;\">、</span>Water for injections</p>",
+          "search_text": "1.2\n賦形劑\nOmnitrope 5mg/1.5ml Disodium hydrogen phosphate heptahydrate、Sodium dihydrogen phosphate dehydrate、Mannitol、Poloxamer 188、Benzyl alcohol、Phosphoric acid、Sodium hydroxide、Water for injections Omnitrope 10mg/1.5ml Disodium hydrogen phosphate heptahydrate、Sodium dihydrogen phosphate dihydrate、Glycine、Poloxamer 188、Phenol、Phosphoric acid、Sodium hydroxide、Water for injections",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p><span style=\"font-family:標楷體;\">注射劑</span></p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "裝於Omnitrope專用注射筆之玻璃卡匣中。 澄清、無色的液體",
+          "content_html": "<p><span style=\"font-family:標楷體;\">裝於</span>Omnitrope<span style=\"font-family:標楷體;\">專用注射筆之玻璃卡匣中。</span></p><p><span style=\"font-family:標楷體;\">澄清、無色的液體</span></p>",
+          "search_text": "1.4\n藥品外觀\n裝於Omnitrope專用注射筆之玻璃卡匣中。 澄清、無色的液體",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "腦下垂體之生長激素分泌不足所導致之生長干擾;TURNER'S SYNDROME所導致之生長干擾;PRADER-WILLI SYNDROME所導致之生長干擾;慢性腎臟功能不足所導致之生長干擾;低出生體重兒Small for Gestational Age(SGA)逾四歲者之生長障礙;成人生長激素嚴重缺乏之補充療法。 說明 孩童治療 (嬰兒、兒童及青少年) -由於生長激素分泌不足 (growth hormone deficiency, GHD) 造成的生長遲緩。 -透納氏症候群有關的生長遲緩。 -慢性腎功能不全引起的生長遲緩。 -低出生體重兒的生長遲緩 (目前的身高標準差評分[SDS]<-2.5，而且父母親的校正身高[SDS]<-1)，胎兒小於妊娠年齡，出生體重或身高低於-2個標準差 (SD)，在4歲以後也無法追上生長曲線 (前一年的身高成長速度低於0個標準差[HVSDS<0]。 -改善普瑞德威利氏症候群 (Prader-Willi Syndrome; PWS) 病人的生長與身體組成。必須有適當的基因篩檢來確定診斷普瑞德威利氏症候群。 用於成人期生長激素嚴重缺乏症的補充療法 可作為有明顯生長激素缺乏症成人之補充治療。 成人發病期：嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙 (泌乳激素除外) 的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。 兒童發病期：因先天性、遺傳性、後天性或原發性成因，導致兒童期生長激素缺乏的病人。GHD兒童期發病病人，應在縱向生長結束後，重新評估生長激素分泌能力。持續性GHD較可能發生的病人，亦即，先天性成因或下視丘-腦下垂體受損導致的GHD，於停止生長激素治療後至少4週，如第一型類胰島素生長因子 (IGF-I) SDS<-2，則應視為嚴重GHD之充分證據。 其餘所有其他病人必須進行IGF-I檢測及一項生長激素刺激檢驗。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">腦下垂體之生長激素分泌不足所導致之生長干擾</span>;TURNER'S SYNDROME<span style=\"font-family:標楷體;\">所導致之生長干擾</span>;PRADER-WILLI SYNDROME<span style=\"font-family:標楷體;\">所導致之生長干擾</span>;<span style=\"font-family:標楷體;\">慢性腎臟功能不足所導致之生長干擾</span>;<span style=\"font-family:標楷體;\">低出生體重兒</span>Small for Gestational Age(SGA)<span style=\"font-family:標楷體;\">逾四歲者之生長障礙</span>;<span style=\"font-family:標楷體;\">成人生長激素嚴重缺乏之補充療法。</span></p><p><span style=\"font-family:標楷體;\">說明</span></p><ul><li><span style=\"font-family:標楷體;\">孩童治療</span> (<span style=\"font-family:標楷體;\">嬰兒、兒童及青少年</span>)</li></ul><p style=\"margin-left:42.0pt;\">-<span style=\"font-family:標楷體;\">由於生長激素分泌不足</span> (growth hormone deficiency, GHD)&nbsp;<span style=\"font-family:標楷體;\">造成的生長遲緩。</span></p><p style=\"margin-left:42.0pt;\">-<span style=\"font-family:標楷體;\">透納氏症候群有關的生長遲緩。</span></p><p style=\"margin-left:42.0pt;\">-<span style=\"font-family:標楷體;\">慢性腎功能不全引起的生長遲緩。</span></p><p style=\"margin-left:42.0pt;\">-<span style=\"font-family:標楷體;\">低出生體重兒的生長遲緩</span> (<span style=\"font-family:標楷體;\">目前的身高標準差評分</span>[SDS]&lt;-2.5<span style=\"font-family:標楷體;\">，而且父母親的校正身高</span>[SDS]&lt;-1)<span style=\"font-family:標楷體;\">，胎兒小於妊娠年齡，出生體重或身高低於</span>-2<span style=\"font-family:標楷體;\">個標準差</span> (SD)<span style=\"font-family:標楷體;\">，在</span>4<span style=\"font-family:標楷體;\">歲以後也無法追上生長曲線</span> (<span style=\"font-family:標楷體;\">前一年的身高成長速度低於</span>0<span style=\"font-family:標楷體;\">個標準差</span>[HVSDS&lt;0]<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:42.0pt;\">-<span style=\"font-family:標楷體;\">改善普瑞德威利氏症候群</span> (Prader-Willi Syndrome; PWS)&nbsp;<span style=\"font-family:標楷體;\">病人的生長與身體組成。必須有適當的基因篩檢來確定診斷普瑞德威利氏症候群。</span></p><ul><li><span style=\"font-family:標楷體;\">用於成人期生長激素嚴重缺乏症的補充療法</span></li></ul><p style=\"margin-left:42.0pt;\"><span style=\"font-family:標楷體;\">可作為有明顯生長激素缺乏症成人之補充治療。</span></p><p style=\"margin-left:42.0pt;\"><span style=\"font-family:標楷體;\">成人發病期：嚴重成年期生長激素缺乏症病人的定義是有已知下視丘</span>-<span style=\"font-family:標楷體;\">腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙</span> (<span style=\"font-family:標楷體;\">泌乳激素除外</span>)&nbsp;<span style=\"font-family:標楷體;\">的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。</span></p><p style=\"margin-left:42.0pt;\"><span style=\"font-family:標楷體;\">兒童發病期：因先天性、遺傳性、後天性或原發性成因，導致兒童期生長激素缺乏的病人。</span>GHD<span style=\"font-family:標楷體;\">兒童期發病病人，應在縱向生長結束後，重新評估生長激素分泌能力。持續性</span>GHD<span style=\"font-family:標楷體;\">較可能發生的病人，亦即，先天性成因或下視丘</span>-<span style=\"font-family:標楷體;\">腦下垂體受損導致的</span>GHD<span style=\"font-family:標楷體;\">，於停止生長激素治療後至少</span>4<span style=\"font-family:標楷體;\">週，如第一型類胰島素生長因子</span> (IGF-I) SDS&lt;-2<span style=\"font-family:標楷體;\">，則應視為嚴重</span>GHD<span style=\"font-family:標楷體;\">之充分證據。</span></p><p><span style=\"font-family:標楷體;\">其餘所有其他病人必須進行</span>IGF-I<span style=\"font-family:標楷體;\">檢測及一項生長激素刺激檢驗。</span></p>",
+          "search_text": "2\n適應症\n腦下垂體之生長激素分泌不足所導致之生長干擾;TURNER'S SYNDROME所導致之生長干擾;PRADER-WILLI SYNDROME所導致之生長干擾;慢性腎臟功能不足所導致之生長干擾;低出生體重兒Small for Gestational Age(SGA)逾四歲者之生長障礙;成人生長激素嚴重缺乏之補充療法。 說明 孩童治療 (嬰兒、兒童及青少年) -由於生長激素分泌不足 (growth hormone deficiency, GHD) 造成的生長遲緩。 -透納氏症候群有關的生長遲緩。 -慢性腎功能不全引起的生長遲緩。 -低出生體重兒的生長遲緩 (目前的身高標準差評分[SDS]<-2.5，而且父母親的校正身高[SDS]<-1)，胎兒小於妊娠年齡，出生體重或身高低於-2個標準差 (SD)，在4歲以後也無法追上生長曲線 (前一年的身高成長速度低於0個標準差[HVSDS<0]。 -改善普瑞德威利氏症候群 (Prader-Willi Syndrome; PWS) 病人的生長與身體組成。必須有適當的基因篩檢來確定診斷普瑞德威利氏症候群。 用於成人期生長激素嚴重缺乏症的補充療法 可作為有明顯生長激素缺乏症成人之補充治療。 成人發病期：嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙 (泌乳激素除外) 的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。 兒童發病期：因先天性、遺傳性、後天性或原發性成因，導致兒童期生長激素缺乏的病人。GHD兒童期發病病人，應在縱向生長結束後，重新評估生長激素分泌能力。持續性GHD較可能發生的病人，亦即，先天性成因或下視丘-腦下垂體受損導致的GHD，於停止生長激素治療後至少4週，如第一型類胰島素生長因子 (IGF-I) SDS<-2，則應視為嚴重GHD之充分證據。 其餘所有其他病人必須進行IGF-I檢測及一項生長激素刺激檢驗。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "開始治療之前必須確定診斷。Omnitrope®治療應由有適當資格而且有經驗的醫師開始並加以監測。 兒童族群 應依病人個別情況調整劑量及用藥時程。 孩童因生長激素分泌不足所導致的生長遲緩： 通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0mg/m2體表面積。曾使用更高劑量。 若兒童期發作之 GHD 持續至青少年期，應繼續治療以達到完整身體生長發展 (如，身體組成、骨質 量)。監測方式：過渡期之治療目標之一，為達到正常最高骨質量，定義為 T 分數 > -1 (亦即，依據雙能 量 X 光骨質密度分析測量結果、並考量性別及種族，進行平均成人最高骨質量標準化)。施用劑量準則 請參見後文成人章節。 普瑞德威利氏症候群Prader-Willi Syndrome (PWS)，改善兒童的生長及身體組成： 通常建議劑量為每天0.035mg/kg體重或1.0mg/m2體表面積。每日劑量不應超過2.7mg。如果成長速率 不足（每年長高小於1公分）或接近骨骺板關閉之時，不應使用Omnitrope®。 透納氏症候群所導致的生長遲緩： 建議劑量為每天0.045-0.050mg/kg體重或每天1.4mg/m2體表面積。 慢性腎臟功能不全（CRI）所導致的生長遲緩： 建議劑量為每天1.4mg/m2體表面積(約每天0.045-0.050mg/kg體重)。如果生長速度太慢可使用較高的劑 量。治療六個月後可能需調整劑量(參見5警語及注意事項)。 低出生體重兒(SGA)之生長遲緩： 一般建議劑量為每天0.035mg/kg體重(每天1mg/m2體表面積)，直至達到最後的身高(參見10.2藥效藥理 特性)。在接受治療的第一年後，如果成長速率不足(HVSDS<+1)，應該停止治療。如果每年長高小於2 公分，及經證實女性骨齡>14歲、男性骨齡>16歲，亦即相當於骨骺板關閉時，就應停止治療。 對於幼年期病人的建議劑量 每日劑量 生長激素分泌不足 Prader-Willi Syndrome 透納氏症候群 慢性腎臟功能不全 低出生體重兒(SGA)之生長遲緩 mg/kg 體重 0.025-0.035 0.035 0.045-0.050 0.045-0.050 0.035 mg/m2 體表面積 0.7-1.0 1.0 1.4 1.4 1.0 成人生長激素缺乏症 兒童期 GHD 後繼續接受生長激素治療的病人，建議重新開始劑量為每天 0.2–0.5 毫克。應依據 IGF-I 濃度，依照病人個別需求決定逐漸增加或減少劑量。 成年 GHD 發病之成人，應由較低劑量開始治療，每天 0.15-0.3 毫克。應依據 IGF-I 濃度，依照病人個別需求決定逐漸增加劑量。 這兩種情況下，治療目標為 IGF-I 濃度在年齡校正平均值的 2 SDS 以內。治療開始時，IGF-I 濃度正常的病人，應給予生長激素至 IGF-I 濃度位於正常值上限內，但不超過 2 SDS。臨床反應及副作用，也可以當作劑量調整的指標。已知有部份 GHD 病人，雖然 IGF-I 未達正常濃度，但仍具有良好臨床反應，此類病人不須增加劑量。維持劑量很少超過每天 1.0 毫克。女性需要的劑量高於男性，男性對於 IGF-I 之敏感性會隨時間增加。表示相較於男性，女性有治療不足的風險，尤其是使用口服雌激素補充療法的女性；而男性則有過度治療風險。因此應每 6 個月確認生長激素的劑量是否正確。生理正常分泌的生長激素會隨年齡增長而減少，因此，治療時的劑量需求也會相應減少。 施用方式 皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。 使用說明及處理方式，請參見第14病人使用須知。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">開始治療之前必須確定診斷。</span>Omnitrope<sup>®</sup><span style=\"font-family:標楷體;\">治療應由有適當資格而且有經驗的醫師開始並加以監測。</span></p><p><span style=\"font-family:標楷體;\"><u>兒童族群</u></span></p><p><span style=\"font-family:標楷體;\">應依病人個別情況調整劑量及用藥時程。</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\"><i class=\"active\">孩童因生長激素分泌不足所導致的生長遲緩：</i></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">通常建議劑量為每天</span>0.025-0.035 mg/kg<span style=\"font-family:標楷體;\">體重，或每天</span>0.7-1.0mg/m<sup>2</sup><span style=\"font-family:標楷體;\">體表面積。曾使用更高劑量。</span>&nbsp; &nbsp;</p><p style=\"text-align:justify;\">&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">若兒童期發作之</span> GHD&nbsp;<span style=\"font-family:標楷體;\">持續至青少年期，應繼續治療以達到完整身體生長發展</span> (<span style=\"font-family:標楷體;\">如，身體組成、骨質</span></p><p style=\"text-align:justify;\">&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">量</span>)<span style=\"font-family:標楷體;\">。監測方式：過渡期之治療目標之一，為達到正常最高骨質量，定義為</span> T&nbsp;<span style=\"font-family:標楷體;\">分數</span> &gt; -1 (<span style=\"font-family:標楷體;\">亦即，依據雙能</span></p><p style=\"text-align:justify;\">&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">量</span> X&nbsp;<span style=\"font-family:標楷體;\">光骨質密度分析測量結果、並考量性別及種族，進行平均成人最高骨質量標準化</span>)<span style=\"font-family:標楷體;\">。施用劑量準則</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">請參見後文成人章節。</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\"><i class=\"active\">普瑞德威利氏症候群</i></span><i class=\"active\">Prader-Willi Syndrome (PWS)</i><span style=\"font-family:標楷體;\"><i class=\"active\">，改善兒童的生長及身體組成：</i></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">通常建議劑量為每天</span>0.035mg/kg<span style=\"font-family:標楷體;\">體重或</span>1.0mg/m<sup>2</sup><span style=\"font-family:標楷體;\">體表面積。每日劑量不應超過</span>2.7mg<span style=\"font-family:標楷體;\">。如果成長速率</span>&nbsp; &nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">不足（每年長高小於</span>1<span style=\"font-family:標楷體;\">公分）或接近骨骺板關閉之時，不應使用</span>Omnitrope<sup>®</sup><span style=\"font-family:標楷體;\">。</span></p><p>&nbsp; &nbsp; &nbsp;<i class=\"active\">&nbsp; </i><span style=\"font-family:標楷體;\"><i class=\"active\">透納氏症候群所導致的生長遲緩：</i></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">建議劑量為每天</span>0.045-0.050mg/kg<span style=\"font-family:標楷體;\">體重或每天</span>1.4mg/m<sup>2</sup><span style=\"font-family:標楷體;\">體表面積。</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\"><i class=\"active\">慢性腎臟功能不全（</i></span><i class=\"active\">CRI</i><span style=\"font-family:標楷體;\"><i class=\"active\">）所導致的生長遲緩：</i></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">建議劑量為每天</span>1.4mg/m<sup>2</sup><span style=\"font-family:標楷體;\">體表面積</span>(<span style=\"font-family:標楷體;\">約每天</span>0.045-0.050mg/kg<span style=\"font-family:標楷體;\">體重</span>)<span style=\"font-family:標楷體;\">。如果生長速度太慢可使用較高的劑</span>&nbsp; &nbsp; &nbsp; &nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">量。治療六個月後可能需調整劑量</span>(<span style=\"font-family:標楷體;\">參見</span>5<span style=\"font-family:標楷體;\">警語及注意事項</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\"><i class=\"active\">低出生體重兒</i></span><i class=\"active\">(SGA)</i><span style=\"font-family:標楷體;\"><i class=\"active\">之生長遲緩：</i></span></p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">一般建議劑量為每天</span>0.035mg/kg<span style=\"font-family:標楷體;\">體重</span>(<span style=\"font-family:標楷體;\">每天</span>1mg/m<sup>2</sup><span style=\"font-family:標楷體;\">體表面積</span>)<span style=\"font-family:標楷體;\">，直至達到最後的身高</span>(<span style=\"font-family:標楷體;\">參見</span>10.2<span style=\"font-family:標楷體;\">藥效藥理</span>&nbsp; &nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">特性</span>)<span style=\"font-family:標楷體;\">。在接受治療的第一年後，如果成長速率不足</span>(HVSDS&lt;+1)<span style=\"font-family:標楷體;\">，應該停止治療。如果每年長高小於</span>2&nbsp; &nbsp; &nbsp;</p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">公分，及經證實女性骨齡</span>&gt;14<span style=\"font-family:標楷體;\">歲、男性骨齡</span>&gt;16<span style=\"font-family:標楷體;\">歲，亦即相當於骨骺板關閉時，就應停止治療。</span></p><ul><li><span style=\"font-family:標楷體;\">對於幼年期病人的建議劑量</span></li></ul><figure class=\"table\"><table><tbody><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p><span style=\"font-family:標楷體;\">每日劑量</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">生長激素分泌不足</span></p><p>Prader-Willi Syndrome</p><p><span style=\"font-family:標楷體;\">透納氏症候群</span></p><p><span style=\"font-family:標楷體;\">慢性腎臟功能不全</span></p><p><span style=\"font-family:標楷體;\">低出生體重兒</span>(SGA)<span style=\"font-family:標楷體;\">之生長遲緩</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:99.0pt;\"><p style=\"text-align:center;\">mg/kg</p><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">體重</span></p><p>0.025-0.035</p><p>0.035</p><p>0.045-0.050</p><p>0.045-0.050</p><p>0.035</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:97.7pt;\"><p style=\"text-align:center;\">mg/m<sup>2</sup></p><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">體表面積</span></p><p>0.7-1.0</p><p>1.0</p><p>1.4</p><p>1.4</p><p>1.0</p></td></tr></tbody></table></figure><p><span style=\"font-family:標楷體;\"><u>成人生長激素缺乏症</u></span></p><p><span style=\"font-family:標楷體;\">兒童期</span> GHD&nbsp;<span style=\"font-family:標楷體;\">後繼續接受生長激素治療的病人，建議重新開始劑量為每天</span> 0.2<span style=\"font-family:標楷體;\">–</span>0.5&nbsp;<span style=\"font-family:標楷體;\">毫克。應依據</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">濃度，依照病人個別需求決定逐漸增加或減少劑量。</span></p><p><span style=\"font-family:標楷體;\">成年</span> GHD&nbsp;<span style=\"font-family:標楷體;\">發病之成人，應由較低劑量開始治療，每天</span> 0.15-0.3&nbsp;<span style=\"font-family:標楷體;\">毫克。應依據</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">濃度，依照病人個別需求決定逐漸增加劑量。</span></p><p><span style=\"font-family:標楷體;\">這兩種情況下，治療目標為</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">濃度在年齡校正平均值的</span> 2 SDS&nbsp;<span style=\"font-family:標楷體;\">以內。治療開始時，</span>IGF-I&nbsp;<span style=\"font-family:標楷體;\">濃度正常的病人，應給予生長激素至</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">濃度位於正常值上限內，但不超過</span> 2 SDS<span style=\"font-family:標楷體;\">。臨床反應及副作用，也可以當作劑量調整的指標。已知有部份</span> GHD&nbsp;<span style=\"font-family:標楷體;\">病人，雖然</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">未達正常濃度，但仍具有良好臨床反應，此類病人不須增加劑量。維持劑量很少超過每天</span> 1.0&nbsp;<span style=\"font-family:標楷體;\">毫克。女性需要的劑量高於男性，男性對於</span> IGF-I&nbsp;<span style=\"font-family:標楷體;\">之敏感性會隨時間增加。表示相較於男性，女性有治療不足的風險，尤其是使用口服雌激素補充療法的女性；而男性則有過度治療風險。因此應每</span> 6&nbsp;<span style=\"font-family:標楷體;\">個月確認生長激素的劑量是否正確。生理正常分泌的生長激素會隨年齡增長而減少，因此，治療時的劑量需求也會相應減少。</span></p><p><span style=\"font-family:標楷體;\">施用方式</span></p><p><span style=\"font-family:標楷體;\">皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。</span></p><p><span style=\"font-family:標楷體;\">使用說明及處理方式，請參見第</span>14<span style=\"font-family:標楷體;\">病人使用須知。</span></p>",
+          "search_text": "3.1\n用法用量\n開始治療之前必須確定診斷。Omnitrope®治療應由有適當資格而且有經驗的醫師開始並加以監測。 兒童族群 應依病人個別情況調整劑量及用藥時程。 孩童因生長激素分泌不足所導致的生長遲緩： 通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0mg/m2體表面積。曾使用更高劑量。 若兒童期發作之 GHD 持續至青少年期，應繼續治療以達到完整身體生長發展 (如，身體組成、骨質 量)。監測方式：過渡期之治療目標之一，為達到正常最高骨質量，定義為 T 分數 > -1 (亦即，依據雙能 量 X 光骨質密度分析測量結果、並考量性別及種族，進行平均成人最高骨質量標準化)。施用劑量準則 請參見後文成人章節。 普瑞德威利氏症候群Prader-Willi Syndrome (PWS)，改善兒童的生長及身體組成： 通常建議劑量為每天0.035mg/kg體重或1.0mg/m2體表面積。每日劑量不應超過2.7mg。如果成長速率 不足（每年長高小於1公分）或接近骨骺板關閉之時，不應使用Omnitrope®。 透納氏症候群所導致的生長遲緩： 建議劑量為每天0.045-0.050mg/kg體重或每天1.4mg/m2體表面積。 慢性腎臟功能不全（CRI）所導致的生長遲緩： 建議劑量為每天1.4mg/m2體表面積(約每天0.045-0.050mg/kg體重)。如果生長速度太慢可使用較高的劑 量。治療六個月後可能需調整劑量(參見5警語及注意事項)。 低出生體重兒(SGA)之生長遲緩： 一般建議劑量為每天0.035mg/kg體重(每天1mg/m2體表面積)，直至達到最後的身高(參見10.2藥效藥理 特性)。在接受治療的第一年後，如果成長速率不足(HVSDS<+1)，應該停止治療。如果每年長高小於2 公分，及經證實女性骨齡>14歲、男性骨齡>16歲，亦即相當於骨骺板關閉時，就應停止治療。 對於幼年期病人的建議劑量 每日劑量 生長激素分泌不足 Prader-Willi Syndrome 透納氏症候群 慢性腎臟功能不全 低出生體重兒(SGA)之生長遲緩 mg/kg 體重 0.025-0.035 0.035 0.045-0.050 0.045-0.050 0.035 mg/m2 體表面積 0.7-1.0 1.0 1.4 1.4 1.0 成人生長激素缺乏症 兒童期 GHD 後繼續接受生長激素治療的病人，建議重新開始劑量為每天 0.2–0.5 毫克。應依據 IGF-I 濃度，依照病人個別需求決定逐漸增加或減少劑量。 成年 GHD 發病之成人，應由較低劑量開始治療，每天 0.15-0.3 毫克。應依據 IGF-I 濃度，依照病人個別需求決定逐漸增加劑量。 這兩種情況下，治療目標為 IGF-I 濃度在年齡校正平均值的 2 SDS 以內。治療開始時，IGF-I 濃度正常的病人，應給予生長激素至 IGF-I 濃度位於正常值上限內，但不超過 2 SDS。臨床反應及副作用，也可以當作劑量調整的指標。已知有部份 GHD 病人，雖然 IGF-I 未達正常濃度，但仍具有良好臨床反應，此類病人不須增加劑量。維持劑量很少超過每天 1.0 毫克。女性需要的劑量高於男性，男性對於 IGF-I 之敏感性會隨時間增加。表示相較於男性，女性有治療不足的風險，尤其是使用口服雌激素補充療法的女性；而男性則有過度治療風險。因此應每 6 個月確認生長激素的劑量是否正確。生理正常分泌的生長激素會隨年齡增長而減少，因此，治療時的劑量需求也會相應減少。 施用方式 皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。 使用說明及處理方式，請參見第14病人使用須知。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "依文獻記載 - 對主成分或任何列於1.2節之賦形劑過敏者。 - 當有任何腫瘤活動的跡象時禁用somatropin。在開始生長激素治療前，顱內腫瘤須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。 - Somatropin禁用於骨骺板已閉合兒童之生長。 - Somatropin禁用於開心手術、腹部手術、多重意外性創傷、急性呼吸衰竭或類似狀況後發生併發症之急性重症病人。(關於接受置換療法的病人，參閱5警語及注意事項)。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p><p>-&nbsp;<span style=\"font-family:標楷體;\">對主成分或任何列於</span>1.2<span style=\"font-family:標楷體;\">節之賦形劑過敏者。</span></p><p>-&nbsp;<span style=\"font-family:標楷體;\">當有任何腫瘤活動的跡象時禁用</span>somatropin<span style=\"font-family:標楷體;\">。在開始生長激素治療前，顱內腫瘤須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。</span></p><p>-&nbsp;Somatropin<span style=\"font-family:標楷體;\">禁用於骨骺板已閉合兒童之生長。</span></p><p>-&nbsp;Somatropin<span style=\"font-family:標楷體;\">禁用於開心手術、腹部手術、多重意外性創傷、急性呼吸衰竭或類似狀況後發生併發症之急性重症病人。</span>(<span style=\"font-family:標楷體;\">關於接受置換療法的病人，參閱</span>5<span style=\"font-family:標楷體;\">警語及注意事項</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "4\n禁忌\n依文獻記載 - 對主成分或任何列於1.2節之賦形劑過敏者。 - 當有任何腫瘤活動的跡象時禁用somatropin。在開始生長激素治療前，顱內腫瘤須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。 - Somatropin禁用於骨骺板已閉合兒童之生長。 - Somatropin禁用於開心手術、腹部手術、多重意外性創傷、急性呼吸衰竭或類似狀況後發生併發症之急性重症病人。(關於接受置換療法的病人，參閱5警語及注意事項)。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "依文獻記載",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p>",
+          "search_text": "5\n警語及注意事項\n依文獻記載",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "開始治療之前必須確定診斷。Somatropin治療應由有適當資格而且有經驗的醫師開始並加以監測。 請勿超過每日最大建議劑量 (參見3用法及用量)。 胰島素敏感性 Somatropin可能會降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的風險因子者，於somatropin治療期間須密切監測。 甲狀腺功能 生長激素會使甲狀腺外的 T4 轉換成 T3 的量增加，造成 T4的血清 濃度降低，而 T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀 (subclinical) 甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下的病人，須密切監測生長激素對於甲狀腺功能的潛在影響。 腎上腺機能低下症 使用somatropin治療可能會抑制11ßHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性 (次發性)腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量 (請見7交互作用)。 使用口服雌激素治療 若使用somatropin的女性開始接受口服雌激素療法，則可能需要增加somatropin劑量以維持血清IGH-1濃度處於正常適齡範圍內，相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用 (請見7交互作用)。 因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。 患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。 良性顱內壓升高 若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新開始使用生長激素治療，便需要小心監測顱內壓升高的症狀。 白血病 少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病發生率在生長激素的使用者在沒有易感因素 (predisposition factors) 時會增加。 抗體 與其他含somatropin的製劑一樣，少部份病人可能會對 Omnitrope® 產生抗體。大約有 1% 的病人使用 Omnitrope® 後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。 急性重症 曾有兩個安慰劑對照試驗研究somatropin對於復原的影響，其中包含 522 名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受 5.3 或 8 毫克somatropin治療的病人，其死亡率比接受安慰劑的病人高( 42% 和 19%)。根據這個資料，此類病人不該使用生長激素somatropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受somatropin治療的病人，以及發生其他或類似急性重症的病人，繼續以somatropin治療的易處必須大於可能引起的危險。 胰臟炎 儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。 普瑞德威利氏症候群 對於普瑞德威利氏症候群的病人，治療一定要與限制熱量飲食雙管齊下。 在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導： 嚴重肥胖 (體重/身高超過200%的病人)、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的病人風險可能比較高。 在開始使用somatropin治療普瑞德為利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。 在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，呼吸障礙消除後，再開始使用生長激素治療。 開始使用生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查 (polysomnography)或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。 使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候 (包括開始打鼾或打鼾增加)，應中止治療並做新的耳鼻喉科評估。 對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。 所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制。 脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。 成人與PWS病人接受長期生長激素治療的經驗有限。 低出生體重兒 對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。 對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人 (例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病 [acanthosis nigricans])應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。 對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。 用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。 治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。 慢性腎功能不足 對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療 (包括控制酸血症、副甲狀腺機能亢進及營養狀態)，並在生長激素治療期間應維持此保守治療。 腎臟移植時應停止生長激素治療。 迄今還沒有使用somatropin治療慢性腎功能不足病人之最後身高的資料。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><u>開始治療之前必須確定診斷。</u></span><u>Somatropin</u><span style=\"font-family:標楷體;\"><u>治療應由有適當資格而且有經驗的醫師開始並加以監測。</u></span></p><p><span style=\"font-family:標楷體;\"><u>請勿超過每日最大建議劑量</u></span><u> (</u><span style=\"font-family:標楷體;\"><u>參見</u></span><u>3</u><span style=\"font-family:標楷體;\"><u>用法及用量</u></span><u>)</u><span style=\"font-family:標楷體;\"><u>。</u></span></p><p><span style=\"font-family:標楷體;\"><u>胰島素敏感性</u></span></p><p>Somatropin<span style=\"font-family:標楷體;\">可能會降低胰島素敏感性。病人若患有糖尿病且開始使用</span>somatropin<span style=\"font-family:標楷體;\">治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的風險因子者，於</span>somatropin<span style=\"font-family:標楷體;\">治療期間須密切監測。</span></p><p><span style=\"font-family:標楷體;\"><u>甲狀腺功能</u></span></p><p><span style=\"font-family:標楷體;\">生長激素會使甲狀腺外的</span> T4&nbsp;<span style=\"font-family:標楷體;\">轉換成</span> T3&nbsp;<span style=\"font-family:標楷體;\">的量增加，造成</span> T4<span style=\"font-family:標楷體;\">的血清</span>&nbsp;<span style=\"font-family:標楷體;\">濃度降低，而</span> T3<span style=\"font-family:標楷體;\">的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀</span> (subclinical)&nbsp;<span style=\"font-family:標楷體;\">甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下的病人，須密切監測生長激素對於甲狀腺功能的潛在影響。</span></p><p><span style=\"font-family:標楷體;\"><u>腎上腺機能低下症</u></span></p><p><span style=\"font-family:標楷體;\">使用</span>somatropin<span style=\"font-family:標楷體;\">治療可能會抑制</span>11ßHSD-1<span style=\"font-family:標楷體;\">並導致血清皮質醇濃度降低。而接受</span>somatropin<span style=\"font-family:標楷體;\">治療的病人中，若先前未曾診斷出的中樞性</span> (<span style=\"font-family:標楷體;\">次發性</span>)<span style=\"font-family:標楷體;\">腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始</span>somatropin<span style=\"font-family:標楷體;\">治療後，可能需要增加其類固醇的維持或壓力劑量</span> (<span style=\"font-family:標楷體;\">請見</span>7<span style=\"font-family:標楷體;\">交互作用</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\"><u>使用口服雌激素治療</u></span></p><p><span style=\"font-family:標楷體;\">若使用</span>somatropin<span style=\"font-family:標楷體;\">的女性開始接受口服雌激素療法，則可能需要增加</span>somatropin<span style=\"font-family:標楷體;\">劑量以維持血清</span>IGH-1<span style=\"font-family:標楷體;\">濃度處於正常適齡範圍內，相反地，若使用</span>somatropin<span style=\"font-family:標楷體;\">的女性停止口服雌激素治療，則可能需要減低</span>somatropin<span style=\"font-family:標楷體;\">劑量以避免生長激素過多及</span>/<span style=\"font-family:標楷體;\">或副作用</span> (<span style=\"font-family:標楷體;\">請見</span>7<span style=\"font-family:標楷體;\">交互作用</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以</span>somatropin<span style=\"font-family:標楷體;\">治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。</span></p><p><span style=\"font-family:標楷體;\">患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在</span>somatropin<span style=\"font-family:標楷體;\">治療期間發生跛行現象，應就醫檢查。</span></p><p><span style=\"font-family:標楷體;\"><u>良性顱內壓升高</u></span></p><p><span style=\"font-family:標楷體;\">若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新開始使用生長激素治療，便需要小心監測顱內壓升高的症狀。</span></p><p><span style=\"font-family:標楷體;\"><u>白血病</u></span></p><p><span style=\"font-family:標楷體;\">少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以</span>somatropin<span style=\"font-family:標楷體;\">治療。然而，沒有證據顯示白血病發生率在生長激素的使用者在沒有易感因素</span> (predisposition factors)&nbsp;<span style=\"font-family:標楷體;\">時會增加。</span></p><p><span style=\"font-family:標楷體;\"><u>抗體</u></span></p><p><span style=\"font-family:標楷體;\">與其他含</span>somatropin<span style=\"font-family:標楷體;\">的製劑一樣，少部份病人可能會對</span> Omnitrope<sup>®&nbsp;</sup><span style=\"font-family:標楷體;\">產生抗體。大約有</span> 1%&nbsp;<span style=\"font-family:標楷體;\">的病人使用</span> Omnitrope<sup>®&nbsp;</sup><span style=\"font-family:標楷體;\">後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行</span>somatropin<span style=\"font-family:標楷體;\">抗體的測試。</span></p><p><span style=\"font-family:標楷體;\"><u>急性重症</u></span></p><p><span style=\"font-family:標楷體;\">曾有兩個安慰劑對照試驗研究</span>somatropin<span style=\"font-family:標楷體;\">對於復原的影響，其中包含</span> 522&nbsp;<span style=\"font-family:標楷體;\">名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受</span> 5.3&nbsp;<span style=\"font-family:標楷體;\">或</span> 8&nbsp;<span style=\"font-family:標楷體;\">毫克</span>somatropin<span style=\"font-family:標楷體;\">治療的病人，其死亡率比接受安慰劑的病人高</span>( 42%&nbsp;<span style=\"font-family:標楷體;\">和</span> 19%)<span style=\"font-family:標楷體;\">。根據這個資料，此類病人不該使用生長激素</span>somatropin<span style=\"font-family:標楷體;\">。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受</span>somatropin<span style=\"font-family:標楷體;\">治療的病人，以及發生其他或類似急性重症的病人，繼續以</span>somatropin<span style=\"font-family:標楷體;\">治療的易處必須大於可能引起的危險。</span></p><p><span style=\"font-family:標楷體;\"><u>胰臟炎</u></span></p><p><span style=\"font-family:標楷體;\">儘管罕見，胰臟炎仍應在</span>somatropin<span style=\"font-family:標楷體;\">治療病人中列入考量，特別是發生腹痛的兒童。</span></p><p><span style=\"font-family:標楷體;\"><u>普瑞德威利氏症候群</u></span></p><p><span style=\"font-family:標楷體;\">對於普瑞德威利氏症候群的病人，治療一定要與限制熱量飲食雙管齊下。</span></p><p><span style=\"font-family:標楷體;\">在具有一個或多個下列危險因子的</span>PWS<span style=\"font-family:標楷體;\">兒童病人中，曾有使用生長激素致死的案例報導：</span></p><p><span style=\"font-family:標楷體;\">嚴重肥胖</span> (<span style=\"font-family:標楷體;\">體重</span>/<span style=\"font-family:標楷體;\">身高超過</span>200%<span style=\"font-family:標楷體;\">的病人</span>)<span style=\"font-family:標楷體;\">、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的病人風險可能比較高。</span></p><p><span style=\"font-family:標楷體;\">在開始使用</span>somatropin<span style=\"font-family:標楷體;\">治療普瑞德為利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。</span></p><p><span style=\"font-family:標楷體;\">在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，呼吸障礙消除後，再開始使用生長激素治療。</span></p><p><span style=\"font-family:標楷體;\">開始使用生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查</span> (polysomnography)<span style=\"font-family:標楷體;\">或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。</span></p><p><span style=\"font-family:標楷體;\">使用</span>somatropin<span style=\"font-family:標楷體;\">治療期間，倘若病人出現上呼吸道阻塞的徵候</span> (<span style=\"font-family:標楷體;\">包括開始打鼾或打鼾增加</span>)<span style=\"font-family:標楷體;\">，應中止治療並做新的耳鼻喉科評估。</span></p><p><span style=\"font-family:標楷體;\">對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。</span></p><p><span style=\"font-family:標楷體;\">所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制。</span></p><p><span style=\"font-family:標楷體;\">脊柱側彎在</span>PWS<span style=\"font-family:標楷體;\">病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。</span></p><p><span style=\"font-family:標楷體;\">成人與</span>PWS<span style=\"font-family:標楷體;\">病人接受長期生長激素治療的經驗有限。</span></p><p><span style=\"font-family:標楷體;\"><u>低出生體重兒</u></span></p><p><span style=\"font-family:標楷體;\">對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。</span></p><p><span style=\"font-family:標楷體;\">對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人</span> (<span style=\"font-family:標楷體;\">例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病</span> [acanthosis nigricans])<span style=\"font-family:標楷體;\">應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。</span></p><p><span style=\"font-family:標楷體;\">對於低出生體重病童，建議開始治療前應測量</span>IGF-1<span style=\"font-family:標楷體;\">之數值，此後每年檢查二次。如果</span>IGF-1<span style=\"font-family:標楷體;\">的重複測量值超過該年齡與青春期狀態的參考值</span>+2 SD<span style=\"font-family:標楷體;\">之範圍，則可斟酌</span>IGF-1/IGFBP3<span style=\"font-family:標楷體;\">比率來考量劑量之調整。</span></p><p><span style=\"font-family:標楷體;\">用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於</span>Silver-Russell<span style=\"font-family:標楷體;\">症候群病人的經驗有限。</span></p><p><span style=\"font-family:標楷體;\">治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。</span></p><p><span style=\"font-family:標楷體;\"><u>慢性腎功能不足</u></span></p><p><span style=\"font-family:標楷體;\">對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療</span> (<span style=\"font-family:標楷體;\">包括控制酸血症、副甲狀腺機能亢進及營養狀態</span>)<span style=\"font-family:標楷體;\">，並在生長激素治療期間應維持此保守治療。</span></p><p><span style=\"font-family:標楷體;\">腎臟移植時應停止生長激素治療。</span></p><p><span style=\"font-family:標楷體;\">迄今還沒有使用</span>somatropin<span style=\"font-family:標楷體;\">治療慢性腎功能不足病人之最後身高的資料。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n開始治療之前必須確定診斷。Somatropin治療應由有適當資格而且有經驗的醫師開始並加以監測。 請勿超過每日最大建議劑量 (參見3用法及用量)。 胰島素敏感性 Somatropin可能會降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的風險因子者，於somatropin治療期間須密切監測。 甲狀腺功能 生長激素會使甲狀腺外的 T4 轉換成 T3 的量增加，造成 T4的血清 濃度降低，而 T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀 (subclinical) 甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下的病人，須密切監測生長激素對於甲狀腺功能的潛在影響。 腎上腺機能低下症 使用somatropin治療可能會抑制11ßHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性 (次發性)腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量 (請見7交互作用)。 使用口服雌激素治療 若使用somatropin的女性開始接受口服雌激素療法，則可能需要增加somatropin劑量以維持血清IGH-1濃度處於正常適齡範圍內，相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用 (請見7交互作用)。 因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。 患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。 良性顱內壓升高 若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新開始使用生長激素治療，便需要小心監測顱內壓升高的症狀。 白血病 少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病發生率在生長激素的使用者在沒有易感因素 (predisposition factors) 時會增加。 抗體 與其他含somatropin的製劑一樣，少部份病人可能會對 Omnitrope® 產生抗體。大約有 1% 的病人使用 Omnitrope® 後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。 急性重症 曾有兩個安慰劑對照試驗研究somatropin對於復原的影響，其中包含 522 名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受 5.3 或 8 毫克somatropin治療的病人，其死亡率比接受安慰劑的病人高( 42% 和 19%)。根據這個資料，此類病人不該使用生長激素somatropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受somatropin治療的病人，以及發生其他或類似急性重症的病人，繼續以somatropin治療的易處必須大於可能引起的危險。 胰臟炎 儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。 普瑞德威利氏症候群 對於普瑞德威利氏症候群的病人，治療一定要與限制熱量飲食雙管齊下。 在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導： 嚴重肥胖 (體重/身高超過200%的病人)、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的病人風險可能比較高。 在開始使用somatropin治療普瑞德為利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。 在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，呼吸障礙消除後，再開始使用生長激素治療。 開始使用生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查 (polysomnography)或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。 使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候 (包括開始打鼾或打鼾增加)，應中止治療並做新的耳鼻喉科評估。 對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。 所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制。 脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。 成人與PWS病人接受長期生長激素治療的經驗有限。 低出生體重兒 對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。 對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人 (例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病 [acanthosis nigricans])應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。 對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。 用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。 治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。 慢性腎功能不足 對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療 (包括控制酸血症、副甲狀腺機能亢進及營養狀態)，並在生長激素治療期間應維持此保守治療。 腎臟移植時應停止生長激素治療。 迄今還沒有使用somatropin治療慢性腎功能不足病人之最後身高的資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "Omnitrope® 不會影響開車或操作機器的能力。",
+          "content_html": "<p>Omnitrope<sup>® </sup><span style=\"font-family:標楷體;\">不會影響開車或操作機器的能力。</span></p>",
+          "search_text": "5.3\n操作機械能力\nOmnitrope® 不會影響開車或操作機器的能力。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "依文獻記載",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p>",
+          "search_text": "6\n特殊族群注意事項\n依文獻記載",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足 (參見10.3臨床前安全性資料)，沒有使用於孕婦的臨床經驗因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足</span> (<span style=\"font-family:標楷體;\">參見</span>10.3<span style=\"font-family:標楷體;\">臨床前安全性資料</span>)<span style=\"font-family:標楷體;\">，沒有使用於孕婦的臨床經驗因此，孕婦及可能懷孕的婦女不應使用含</span>somatropin<span style=\"font-family:標楷體;\">的製劑。</span></p>",
+          "search_text": "6.1\n懷孕\n關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足 (參見10.3臨床前安全性資料)，沒有使用於孕婦的臨床經驗因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">沒有授乳婦使用</span>somatropin<span style=\"font-family:標楷體;\">製劑的臨床試驗資料，目前不知道</span>somatropin<span style=\"font-family:標楷體;\">是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，</span>somatropin<span style=\"font-family:標楷體;\">製劑用於授乳婦時應小心。</span></p>",
+          "search_text": "6.2\n哺乳\n沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "用於 80 歲以上病人的經驗很有限。老年病人可能對 Omnitrope® 的作用更敏感，也可能更容易產生不良反應。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">用於</span> 80&nbsp;<span style=\"font-family:標楷體;\">歲以上病人的經驗很有限。老年病人可能對</span> Omnitrope<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">的作用更敏感，也可能更容易產生不良反應。</span></p>",
+          "search_text": "6.5\n老年人\n用於 80 歲以上病人的經驗很有限。老年病人可能對 Omnitrope® 的作用更敏感，也可能更容易產生不良反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "依文獻記載 併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素 (ACTH) 分泌不足的病人應謹慎地調整糖皮質類固醇替代治療，以避免抑制生長。 因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。。 生長激素會減少可體松 (cortisone) 轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效 (請見5警語及注意事項)。 從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物 (例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin)的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。 關於患有糖尿病和甲狀腺障礙的病人請參閱5警語及注意事項。 接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標 (參見5警語及注意事項)。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p><p><span style=\"font-family:標楷體;\">併用糖皮質類固醇會抑制含</span>somatropin<span style=\"font-family:標楷體;\">藥品的促進生長作用。促腎上腺皮質激素</span> (ACTH)&nbsp;<span style=\"font-family:標楷體;\">分泌不足的病人應謹慎地調整糖皮質類固醇替代治療，以避免抑制生長。</span></p><p><span style=\"font-family:標楷體;\">因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。。</span></p><p><span style=\"font-family:標楷體;\">生長激素會減少可體松</span> (cortisone)&nbsp;<span style=\"font-family:標楷體;\">轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效</span> (<span style=\"font-family:標楷體;\">請見</span>5<span style=\"font-family:標楷體;\">警語及注意事項</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">從對生長激素缺乏的成人所做的交互研究資料顯示，給予</span>somatropin<span style=\"font-family:標楷體;\">會增加由細胞色素</span>P450 3A4<span style=\"font-family:標楷體;\">同功酶所代謝的化合物</span> (<span style=\"font-family:標楷體;\">例如性類固醇、皮質類固醇、抗痙攣劑及</span>ciclosporin)<span style=\"font-family:標楷體;\">的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。</span></p><p><span style=\"font-family:標楷體;\">關於患有糖尿病和甲狀腺障礙的病人請參閱</span>5<span style=\"font-family:標楷體;\">警語及注意事項。</span></p><p><span style=\"font-family:標楷體;\">接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標</span> (<span style=\"font-family:標楷體;\">參見</span>5<span style=\"font-family:標楷體;\">警語及注意事項</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "7\n交互作用\n依文獻記載 併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素 (ACTH) 分泌不足的病人應謹慎地調整糖皮質類固醇替代治療，以避免抑制生長。 因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。。 生長激素會減少可體松 (cortisone) 轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效 (請見5警語及注意事項)。 從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物 (例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin)的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。 關於患有糖尿病和甲狀腺障礙的病人請參閱5警語及注意事項。 接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標 (參見5警語及注意事項)。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "依文獻記載",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p>",
+          "search_text": "8\n副作用/不良反應\n依文獻記載",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成人病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常 (paraesthesia)等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。 這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。 大約 1% 的病人會對 Omnitrope® 產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">生長激素缺乏症病人的特點是細胞外體積不足。開始用</span>somatropin<span style=\"font-family:標楷體;\">治療時，細胞外體積不足會迅速被矯正。對成人病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常</span> (paraesthesia)<span style=\"font-family:標楷體;\">等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。</span></p><p><span style=\"font-family:標楷體;\">這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。</span></p><p><span style=\"font-family:標楷體;\">大約</span> 1%&nbsp;<span style=\"font-family:標楷體;\">的病人會對</span> Omnitrope<sup>®&nbsp;</sup><span style=\"font-family:標楷體;\">產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。</span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成人病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常 (paraesthesia)等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。 這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。 大約 1% 的病人會對 Omnitrope® 產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "不良反應列表 表 1 - 6列出之不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見 (≥1/100 至 <1/10)；不常見 (≥1/1,000 至 <1/100)；罕見 (≥1/10,000 至 <1/1,000)；極罕見 (<1/10,000) ；未知 (無法以可用資料估計)。 生長激素分泌不足兒童之臨床試驗 表1 生長激素分泌不足導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至<1/10 不常見 ≥ 1/1,000 至<1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見<1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉疼痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇 (cortisol) 降少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素缺乏症的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。$ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 兒童透納氏症候群 (Turner’s syndrome) 兒童之臨床試驗 表 2 透納氏症導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 臉部水腫* 注射部位反應$ 實驗室檢查 血中皮質醇 (cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩減。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不族的兒童，但其發生率似乎與無生長激素分泌不足的兒童一樣。 慢性腎功能不全兒童之臨床試驗 表 3 慢性腎功能不全導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉疼痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動緩解或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 低出生體重兒童之臨床試驗 表 4 低出生體重導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 蕁麻疹** 搔癢** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素內分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 普瑞德威利氏症候群之臨床試驗 表 5 普瑞德威利氏症候群導致生長干擾之兒童的長期治療及促進身體組成 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉痛* 肌肉關節僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 臉部水腫* 注射部位反應$ 實驗室檢查 血中皮質醇 (cortisol) 減少‡ * 一般而言，這些不良反應是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 成人生長激素缺乏症之 臨床試驗 表 6 成人生長激素缺乏之補充療法 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 腕隧道症候群 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病及骨骼異常關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 注射部位反應$ 實驗室檢查 血液皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現併會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 血清皮質醇 (cortisol)濃度降低 曾有報告指出，somatropin可能經由載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性很有限。雖然如此，在開始somatropin治療之前，應該使用皮質類固醇補充治療達到最佳狀況。 普瑞德威利氏症候群 在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實期間的相關性。 白血病 曾有生長激素缺乏症病童罹患白血病的報告(罕見或極罕見)，其中有些病人 接受somatropin 治療，這些案例被列入上市後經驗。。然而，並沒有證據顯示白血病風險會在無易感因素 (predisposition factors)，例如腦部或頭部放射線之情況下增加。 股骨頭滑脫症與小兒股骨頭缺血性壞死症 (Legg-Calvé-Perthes disease) 在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。 其他藥物不良反應 其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。 疑似不良反應之報告 醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益 / 風險平衡可持續被監測。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><u>不良反應列表</u></span></p><p><span style=\"font-family:標楷體;\">表</span> 1 - 6<span style=\"font-family:標楷體;\">列出之不良反應是依系統器官分類和頻率標題排序，分為非常常見</span> (≥1/10)<span style=\"font-family:標楷體;\">；常見</span> (≥1/100&nbsp;<span style=\"font-family:標楷體;\">至</span> &lt;1/10)<span style=\"font-family:標楷體;\">；不常見</span> (≥1/1,000&nbsp;<span style=\"font-family:標楷體;\">至</span> &lt;1/100)<span style=\"font-family:標楷體;\">；罕見</span> (≥1/10,000&nbsp;<span style=\"font-family:標楷體;\">至</span> &lt;1/1,000)<span style=\"font-family:標楷體;\">；極罕見</span> (&lt;1/10,000)&nbsp;<span style=\"font-family:標楷體;\">；未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\"><u>生長激素分泌不足兒童之臨床試驗</u></span></p><figure class=\"table\" style=\"width:467.7pt;\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:467.7pt;\" colspan=\"7\"><p><span style=\"font-family:標楷體;\">表</span>1</p><p><span style=\"font-family:標楷體;\">生長激素分泌不足導致生長干擾之兒童的長期治療</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">系統器官類別</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\"><p><span style=\"font-family:標楷體;\">非常常見</span></p><p>≥ 1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\"><p><span style=\"font-family:標楷體;\">常見</span></p><p>≥ 1/100&nbsp; <span style=\"font-family:標楷體;\">至</span>&lt;1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\"><p><span style=\"font-family:標楷體;\">不常見</span></p><p>≥ 1/1,000&nbsp; <span style=\"font-family:標楷體;\">至</span>&lt;1/100</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\"><p><span style=\"font-family:標楷體;\">罕見</span></p><p>≥ 1/10,000&nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至</span>&nbsp; &lt;1/1,000</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\"><span style=\"font-family:標楷體;\">極罕見</span>&lt;1/10,000</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\"><span style=\"font-family:標楷體;\">未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><p><span style=\"font-family:標楷體;\">腫瘤</span></p><p><span style=\"font-family:標楷體;\">良性、惡性及未分類者</span> (<span style=\"font-family:標楷體;\">含囊腫及息肉</span>)&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\"><span style=\"font-family:標楷體;\">白血病</span>†</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\"><span style=\"font-family:標楷體;\">第</span> 2&nbsp;<span style=\"font-family:標楷體;\">型糖尿病</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">神經系統疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\"><p><span style=\"font-family:標楷體;\">感覺異常</span>*</p><p><span style=\"font-family:標楷體;\">良性顱內高壓</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">皮膚及皮下組織疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\"><p><span style=\"font-family:標楷體;\">皮疹</span>**</p><p><span style=\"font-family:標楷體;\">搔癢</span>**</p><p><span style=\"font-family:標楷體;\">蕁麻疹</span>**</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">肌肉骨骼結締組織與骨疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\"><span style=\"font-family:標楷體;\">關節痛</span>*</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\"><p><span style=\"font-family:標楷體;\">肌肉疼痛</span>*</p><p><span style=\"font-family:標楷體;\">肌肉骨骼僵硬</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">生殖系統和乳房疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\"><span style=\"font-family:標楷體;\">男性女乳症</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">一般疾病與投藥部位異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\"><p><span style=\"font-family:標楷體;\">注射部位反應</span><sup>$</sup></p><p>&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\"><p><span style=\"font-family:標楷體;\">周邊水腫</span>*</p><p><span style=\"font-family:標楷體;\">臉部水腫</span>*</p><p>&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">實驗室檢查</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:59.05pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:86.55pt;\"><span style=\"font-family:標楷體;\">血中皮質醇</span> (cortisol)&nbsp;<span style=\"font-family:標楷體;\">降少</span><sup>‡</sup></td></tr></tbody></table></figure><p>*&nbsp;<span style=\"font-family:標楷體;\">一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素缺乏症的年齡成反比。</span></p><p>**<span style=\"font-family:標楷體;\">上市後發現的藥物不良反應</span> (ADR)<span style=\"font-family:標楷體;\">。</span>$&nbsp;<span style=\"font-family:標楷體;\">曾有兒童發生暫時性注射部位反應的報告。</span></p><p><span style=\"font-family:標楷體;\">‡</span>&nbsp;<span style=\"font-family:標楷體;\">臨床顯著性未知。</span></p><p><span style=\"font-family:標楷體;\">†</span>&nbsp;<span style=\"font-family:標楷體;\">曾發生於以</span>somatropin<span style=\"font-family:標楷體;\">治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。</span></p><p><span style=\"font-family:標楷體;\"><u>兒童透納氏症候群</u></span><u> (Turner’s syndrome)&nbsp;</u><span style=\"font-family:標楷體;\"><u>兒童之臨床試驗</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:462.9pt;\" colspan=\"7\"><p><span style=\"font-family:標楷體;\">表</span> 2</p><p><span style=\"font-family:標楷體;\">透納氏症導致生長干擾之兒童的長期治療</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">系統器官類別</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\"><p><span style=\"font-family:標楷體;\">非常常見</span></p><p>≥ 1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\"><p><span style=\"font-family:標楷體;\">常見</span>&nbsp;</p><p>≥ 1/100&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\"><p><span style=\"font-family:標楷體;\">不常見</span></p><p>≥ 1/1,000&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/100</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\"><p><span style=\"font-family:標楷體;\">罕見</span></p><p>≥ 1/10,000&nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至</span>&nbsp; &lt;1/1,000</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\"><span style=\"font-family:標楷體;\">極罕見</span> &lt;1/10,000</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">腫瘤良性、惡性及未分類者</span> (<span style=\"font-family:標楷體;\">含囊腫及息肉</span>)</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">白血病</span>†</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">第</span> 2&nbsp;<span style=\"font-family:標楷體;\">型糖尿病</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">神經系統疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">感覺異常</span>*</p><p><span style=\"font-family:標楷體;\">良性顱內高壓</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">皮膚及皮下組織疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">皮疹</span>**</p><p><span style=\"font-family:標楷體;\">搔癢</span>**</p><p><span style=\"font-family:標楷體;\">蕁麻疹</span>**</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">肌肉骨骼結締組織與骨疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\"><span style=\"font-family:標楷體;\">關節痛</span>*</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">肌肉痛</span>*</p><p><span style=\"font-family:標楷體;\">肌肉骨骼僵硬</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">生殖系統和乳房疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\"><span style=\"font-family:標楷體;\">男性女乳症</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">一般疾病與投藥部位異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">周邊水腫</span>*</p><p><span style=\"font-family:標楷體;\">臉部水腫</span>*</p><p><span style=\"font-family:標楷體;\">注射部位反應</span><sup>$</sup></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.65pt;\"><span style=\"font-family:標楷體;\">實驗室檢查</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:51.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">血中皮質醇</span> (cortisol)<span style=\"font-family:標楷體;\">減少</span><sup>‡</sup></td></tr></tbody></table></figure><p>*&nbsp;<span style=\"font-family:標楷體;\">一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩減。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。</span></p><p>**<span style=\"font-family:標楷體;\">上市後發現的藥物不良反應</span> (ADR)<span style=\"font-family:標楷體;\">。</span></p><p>$&nbsp;<span style=\"font-family:標楷體;\">曾有兒童發生暫時性注射部位反應的報告。</span></p><p><span style=\"font-family:標楷體;\">‡</span>&nbsp;<span style=\"font-family:標楷體;\">臨床顯著性未知。</span></p><p><span style=\"font-family:標楷體;\">†</span>&nbsp;<span style=\"font-family:標楷體;\">曾發生於以</span>somatropin<span style=\"font-family:標楷體;\">治療的生長激素分泌不族的兒童，但其發生率似乎與無生長激素分泌不足的兒童一樣。</span></p><p><span style=\"font-family:標楷體;\"><u>慢性腎功能不全兒童之臨床試驗</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:462.9pt;\" colspan=\"7\"><p><span style=\"font-family:標楷體;\">表</span> 3</p><p><span style=\"font-family:標楷體;\">慢性腎功能不全導致生長干擾之兒童的長期治療</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">系統器官類別</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\"><p><span style=\"font-family:標楷體;\">非常常見</span></p><p>≥ 1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\"><p><span style=\"font-family:標楷體;\">常見</span>&nbsp;</p><p>≥ 1/100&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\"><p><span style=\"font-family:標楷體;\">不常見</span></p><p>≥ 1/1,000&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/100</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\"><p><span style=\"font-family:標楷體;\">罕見</span></p><p>≥ 1/10,000&nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至</span>&nbsp; &lt;1/1,000</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\"><span style=\"font-family:標楷體;\">極罕見</span> &lt;1/10,000</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">腫瘤</span>&nbsp;<span style=\"font-family:標楷體;\">良性、惡性及未分類者</span> (<span style=\"font-family:標楷體;\">含囊腫及息肉</span>)</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">白血病</span>†</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">第</span> 2&nbsp;<span style=\"font-family:標楷體;\">型糖尿病</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">神經系統疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">感覺異常</span>*</p><p><span style=\"font-family:標楷體;\">良性顱內高壓</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">皮膚及皮下組織疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\"><span style=\"font-family:標楷體;\">皮疹</span>**</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">搔癢</span>**</p><p><span style=\"font-family:標楷體;\">蕁麻疹</span>**</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">肌肉骨骼結締組織與骨疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">關節痛</span>*</p><p><span style=\"font-family:標楷體;\">肌肉疼痛</span>*</p><p><span style=\"font-family:標楷體;\">肌肉骨骼僵硬</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">生殖系統和乳房疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\"><span style=\"font-family:標楷體;\">男性女乳症</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">一般疾病與投藥部位異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\"><span style=\"font-family:標楷體;\">注射部位反應</span><sup>$</sup></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">周邊水腫</span>*</p><p><span style=\"font-family:標楷體;\">臉部水腫</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">實驗室檢查</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">血中皮質醇</span>(cortisol)<span style=\"font-family:標楷體;\">減少</span><sup>‡</sup></td></tr></tbody></table></figure><p>*&nbsp;<span style=\"font-family:標楷體;\">一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動緩解或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。</span></p><p>**<span style=\"font-family:標楷體;\">上市後發現的藥物不良反應</span> (ADR)<span style=\"font-family:標楷體;\">。</span></p><p>$&nbsp;<span style=\"font-family:標楷體;\">曾有兒童發生暫時性注射部位反應的報告。</span></p><p><span style=\"font-family:標楷體;\">‡</span>&nbsp;<span style=\"font-family:標楷體;\">臨床顯著性未知。</span></p><p><span style=\"font-family:標楷體;\">†</span>&nbsp;<span style=\"font-family:標楷體;\">曾發生於以</span>somatropin<span style=\"font-family:標楷體;\">治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。</span></p><p><span style=\"font-family:標楷體;\"><u>低出生體重兒童之臨床試驗</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:462.9pt;\" colspan=\"7\"><p><span style=\"font-family:標楷體;\">表</span> 4</p><p><span style=\"font-family:標楷體;\">低出生體重導致生長干擾之兒童的長期治療</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">系統器官類別</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\"><p><span style=\"font-family:標楷體;\">非常常見</span></p><p>≥ 1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\"><p><span style=\"font-family:標楷體;\">常見</span>&nbsp;</p><p>≥ 1/100&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\"><p><span style=\"font-family:標楷體;\">不常見</span></p><p>≥ 1/1,000&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/100</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\"><p><span style=\"font-family:標楷體;\">罕見</span></p><p>≥ 1/10,000&nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至</span>&nbsp; &lt;1/1,000</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\"><span style=\"font-family:標楷體;\">極罕見</span> &lt;1/10,000</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><p><span style=\"font-family:標楷體;\">腫瘤</span></p><p><span style=\"font-family:標楷體;\">良性、惡性及未分類者</span> (<span style=\"font-family:標楷體;\">含囊腫及息肉</span>)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">白血病</span>†</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">第</span> 2&nbsp;<span style=\"font-family:標楷體;\">型糖尿病</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">神經系統疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">感覺異常</span>*&nbsp;</p><p><span style=\"font-family:標楷體;\">良性顱內高壓</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">皮膚及皮下組織疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\"><p><span style=\"font-family:標楷體;\">皮疹</span>**</p><p><span style=\"font-family:標楷體;\">蕁麻疹</span>**</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\"><span style=\"font-family:標楷體;\">搔癢</span>**</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">肌肉骨骼結締組織與骨疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\"><p><span style=\"font-family:標楷體;\">關節痛</span>*</p><p>&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">肌肉痛</span>*</p><p><span style=\"font-family:標楷體;\">肌肉骨骼僵硬</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">生殖系統和乳房疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\"><span style=\"font-family:標楷體;\">男性女乳症</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">一般疾病與投藥部位異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\"><span style=\"font-family:標楷體;\">注射部位反應</span><sup>$</sup></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"font-family:標楷體;\">周邊水腫</span>*</p><p><span style=\"font-family:標楷體;\">臉部水腫</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.7pt;\"><span style=\"font-family:標楷體;\">實驗室檢查</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.55pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:52.0pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:57.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">血中皮質醇</span>(cortisol)<span style=\"font-family:標楷體;\">減少</span><sup>‡</sup></td></tr></tbody></table></figure><p>*&nbsp;<span style=\"font-family:標楷體;\">一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素內分泌不足的年齡成反比。</span></p><p>**<span style=\"font-family:標楷體;\">上市後發現的藥物不良反應</span> (ADR)<span style=\"font-family:標楷體;\">。</span></p><p>$&nbsp;<span style=\"font-family:標楷體;\">曾有兒童發生暫時性注射部位反應的報告。</span></p><p><span style=\"font-family:標楷體;\">‡</span>&nbsp;<span style=\"font-family:標楷體;\">臨床顯著性未知。</span></p><p><span style=\"font-family:標楷體;\">†</span>&nbsp;<span style=\"font-family:標楷體;\">曾發生於以</span>somatropin<span style=\"font-family:標楷體;\">治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。</span></p><p><span style=\"font-family:標楷體;\"><u>普瑞德威利氏症候群之臨床試驗</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:462.9pt;\" colspan=\"7\"><p><span style=\"color:black;font-family:標楷體;\">表</span><span style=\"color:black;\"> 5</span></p><p><span style=\"font-family:標楷體;\">普瑞德威利氏症候群導致生長干擾之兒童的長期治療及促進身體組成</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"font-family:標楷體;\">系統器官類別</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\"><p><span style=\"font-family:標楷體;\">非常常見</span></p><p>≥ 1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\"><p><span style=\"font-family:標楷體;\">常見</span>&nbsp;</p><p>≥ 1/100&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\"><p><span style=\"font-family:標楷體;\">不常見</span></p><p>≥ 1/1,000&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/100</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\"><p><span style=\"font-family:標楷體;\">罕見</span></p><p>≥ 1/10,000&nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至</span>&nbsp; &lt;1/1,000</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\"><span style=\"font-family:標楷體;\">極罕見</span> &lt;1/10,000</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"font-family:標楷體;\">未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><p><span style=\"color:black;font-family:標楷體;\">腫瘤</span></p><p><span style=\"color:black;font-family:標楷體;\">良性、惡性及未分類者</span><span style=\"color:black;\"> (</span><span style=\"color:black;font-family:標楷體;\">含囊腫及息肉</span><span style=\"color:black;\">)</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"color:black;font-family:標楷體;\">白血病</span><span style=\"color:black;\">†</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"color:black;font-family:標楷體;\">第</span><span style=\"color:black;\"> 2&nbsp;</span><span style=\"color:black;font-family:標楷體;\">型糖尿病</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">神經系統疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\"><p><span style=\"color:black;font-family:標楷體;\">感覺異常</span><span style=\"color:black;\">*</span></p><p><span style=\"color:black;font-family:標楷體;\">良性顱內高壓</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">皮膚及皮下組織</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\"><span style=\"color:black;font-family:標楷體;\">皮疹</span><span style=\"color:black;\">**</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"color:black;font-family:標楷體;\">搔癢</span><span style=\"color:black;\">**</span></p><p><span style=\"color:black;font-family:標楷體;\">蕁麻疹</span><span style=\"color:black;\">**</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">肌肉骨骼結締組織與骨疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\"><p><span style=\"color:black;font-family:標楷體;\">關節痛</span><span style=\"color:black;\">*</span></p><p><span style=\"color:black;font-family:標楷體;\">肌肉痛</span><span style=\"color:black;\">*</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"color:black;font-family:標楷體;\">肌肉關節僵硬</span><span style=\"color:black;\">*</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">生殖系統和乳房疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\"><span style=\"color:black;font-family:標楷體;\">男性女乳症</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">一般疾病與投藥部位異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\"><p><span style=\"color:black;font-family:標楷體;\">周邊水腫</span><span style=\"color:black;\">*</span></p><p>&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><p><span style=\"color:black;font-family:標楷體;\">臉部水腫</span><span style=\"color:black;\">*</span></p><p><span style=\"color:black;font-family:標楷體;\">注射部位反應</span><span style=\"color:black;\"><sup>$</sup></span></p><p>&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:84.7pt;\"><span style=\"color:black;font-family:標楷體;\">實驗室檢查</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:53.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.7pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.65pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:50.4pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:55.9pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:82.9pt;\"><span style=\"color:black;font-family:標楷體;\">血中皮質醇</span><span style=\"color:black;\"> (cortisol)&nbsp;</span><span style=\"color:black;font-family:標楷體;\">減少</span><span style=\"color:black;\"><sup>‡</sup></span></td></tr></tbody></table></figure><p>*&nbsp;<span style=\"font-family:標楷體;\">一般而言，這些不良反應是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。</span></p><p>**<span style=\"font-family:標楷體;\">上市後發現的藥物不良反應</span> (ADR)<span style=\"font-family:標楷體;\">。</span></p><p>$&nbsp;<span style=\"font-family:標楷體;\">曾有兒童發生暫時性注射部位反應的報告。</span></p><p><span style=\"font-family:標楷體;\">‡</span>&nbsp;<span style=\"font-family:標楷體;\">臨床顯著性未知。</span></p><p><span style=\"font-family:標楷體;\">†</span>&nbsp;<span style=\"font-family:標楷體;\">曾發生於以</span>somatropin<span style=\"font-family:標楷體;\">治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。</span></p><p><span style=\"font-family:標楷體;\"><u>成人生長激素缺乏症之</u></span><u>&nbsp;</u><span style=\"font-family:標楷體;\"><u>臨床試驗</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:466.1pt;\" colspan=\"7\"><p><span style=\"font-family:標楷體;\">表</span> 6</p><p><span style=\"font-family:標楷體;\">成人生長激素缺乏之補充療法</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">系統器官類別</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\"><p>&nbsp;<span style=\"font-family:標楷體;\">非常常見</span></p><p>≥ 1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\"><p><span style=\"font-family:標楷體;\">常見</span>&nbsp;</p><p>≥ 1/100&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\"><p><span style=\"font-family:標楷體;\">不常見</span></p><p>≥ 1/1,000&nbsp; <span style=\"font-family:標楷體;\">至</span> &lt;1/100</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\"><p><span style=\"font-family:標楷體;\">罕見</span></p><p>≥ 1/10,000&nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至</span>&nbsp; &lt;1/1,000</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\"><span style=\"font-family:標楷體;\">極罕見</span> &lt;1/10,000</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\"><span style=\"font-family:標楷體;\">未知</span> (<span style=\"font-family:標楷體;\">無法以可用資料估計</span>)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\"><span style=\"font-family:標楷體;\">第</span> 2&nbsp;<span style=\"font-family:標楷體;\">型糖尿病</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">神經系統疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\"><p><span style=\"font-family:標楷體;\">感覺異常</span>*</p><p><span style=\"font-family:標楷體;\">腕隧道症候群</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\"><span style=\"font-family:標楷體;\">良性顱內高壓</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">皮膚及皮下組織疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\"><p><span style=\"font-family:標楷體;\">皮疹</span>**</p><p><span style=\"font-family:標楷體;\">搔癢</span>**</p><p><span style=\"font-family:標楷體;\">蕁麻疹</span>**</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">肌肉骨骼結締組織與骨疾病及骨骼異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\"><span style=\"font-family:標楷體;\">關節痛</span>*</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\"><p><span style=\"font-family:標楷體;\">肌肉痛</span>*</p><p><span style=\"font-family:標楷體;\">肌肉骨骼僵硬</span>*</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">生殖系統和乳房疾病</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\"><span style=\"font-family:標楷體;\">男性女乳症</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">一般疾病與投藥部位異常</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\"><p><span style=\"font-family:標楷體;\">周邊水腫</span>*</p><p>&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\"><p>&nbsp;</p><p>&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\"><span style=\"font-family:標楷體;\">注射部位反應</span><sup>$</sup></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:85.95pt;\"><span style=\"font-family:標楷體;\">實驗室檢查</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:54.15pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:2.0cm;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:3.0cm;\"><span style=\"font-family:標楷體;\">血液皮質醇</span>(cortisol)<span style=\"font-family:標楷體;\">減少</span><sup>‡</sup></td></tr></tbody></table></figure><p>*&nbsp;<span style=\"font-family:標楷體;\">一般而言，這些副作用是輕度至中度，在治療第一個月內出現併會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。</span></p><p>**<span style=\"font-family:標楷體;\">上市後發現的藥物不良反應</span> (ADR)<span style=\"font-family:標楷體;\">。</span></p><p>$&nbsp;<span style=\"font-family:標楷體;\">曾有兒童發生暫時性注射部位反應的報告。</span></p><p><span style=\"font-family:標楷體;\">‡</span>&nbsp;<span style=\"font-family:標楷體;\">臨床顯著性未知。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">血清皮質醇</i></span><i class=\"active\"> (cortisol)</i><span style=\"font-family:標楷體;\"><i class=\"active\">濃度降低</i></span></p><p><span style=\"font-family:標楷體;\">曾有報告指出，</span>somatropin<span style=\"font-family:標楷體;\">可能經由載體蛋白質或經由增加肝臟清除率，進而降低血清中的</span>cortisol<span style=\"font-family:標楷體;\">濃度。這些發現的臨床相關性很有限。雖然如此，在開始</span>somatropin<span style=\"font-family:標楷體;\">治療之前，應該使用皮質類固醇補充治療達到最佳狀況。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">普瑞德威利氏症候群</i></span></p><p><span style=\"font-family:標楷體;\">在產品上市後的經驗，極少數接受</span>somatropin<span style=\"font-family:標楷體;\">治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實期間的相關性。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">白血病</i></span></p><p><span style=\"font-family:標楷體;\">曾有生長激素缺乏症病童罹患白血病的報告</span>(<span style=\"font-family:標楷體;\">罕見或極罕見</span>)<span style=\"font-family:標楷體;\">，其中有些病人</span>&nbsp;<span style=\"font-family:標楷體;\">接受</span>somatropin<sup>&nbsp;</sup><span style=\"font-family:標楷體;\">治療，這些案例被列入上市後經驗。。然而，並沒有證據顯示白血病風險會在無易感因素</span> (predisposition factors)<span style=\"font-family:標楷體;\">，例如腦部或頭部放射線之情況下增加。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">股骨頭滑脫症與小兒股骨頭缺血性壞死症</i></span><i class=\"active\"> (Legg-Calv</i><span style=\"font-family:標楷體;\"><i class=\"active\">é</i></span><i class=\"active\">-Perthes disease)</i></p><p><span style=\"font-family:標楷體;\">在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以</span>somatropin<span style=\"font-family:標楷體;\">治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。</span></p><p><span style=\"font-family:標楷體;\"><u>其他藥物不良反應</u></span></p><p><span style=\"font-family:標楷體;\">其他不良藥物反應可能被視為</span>somatropin<span style=\"font-family:標楷體;\">藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。</span></p><p><span style=\"font-family:標楷體;\"><u>疑似不良反應之報告</u></span></p><p><span style=\"font-family:標楷體;\">醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益</span> /&nbsp;<span style=\"font-family:標楷體;\">風險平衡可持續被監測。</span></p>",
+          "search_text": "8.2\n臨床試驗經驗\n不良反應列表 表 1 - 6列出之不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見 (≥1/100 至 <1/10)；不常見 (≥1/1,000 至 <1/100)；罕見 (≥1/10,000 至 <1/1,000)；極罕見 (<1/10,000) ；未知 (無法以可用資料估計)。 生長激素分泌不足兒童之臨床試驗 表1 生長激素分泌不足導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至<1/10 不常見 ≥ 1/1,000 至<1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見<1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉疼痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇 (cortisol) 降少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素缺乏症的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。$ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 兒童透納氏症候群 (Turner’s syndrome) 兒童之臨床試驗 表 2 透納氏症導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 臉部水腫* 注射部位反應$ 實驗室檢查 血中皮質醇 (cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩減。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不族的兒童，但其發生率似乎與無生長激素分泌不足的兒童一樣。 慢性腎功能不全兒童之臨床試驗 表 3 慢性腎功能不全導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉疼痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動緩解或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 低出生體重兒童之臨床試驗 表 4 低出生體重導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 蕁麻疹** 搔癢** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素內分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 普瑞德威利氏症候群之臨床試驗 表 5 普瑞德威利氏症候群導致生長干擾之兒童的長期治療及促進身體組成 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉痛* 肌肉關節僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 臉部水腫* 注射部位反應$ 實驗室檢查 血中皮質醇 (cortisol) 減少‡ * 一般而言，這些不良反應是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 成人生長激素缺乏症之 臨床試驗 表 6 成人生長激素缺乏之補充療法 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 腕隧道症候群 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病及骨骼異常關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 注射部位反應$ 實驗室檢查 血液皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現併會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 血清皮質醇 (cortisol)濃度降低 曾有報告指出，somatropin可能經由載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性很有限。雖然如此，在開始somatropin治療之前，應該使用皮質類固醇補充治療達到最佳狀況。 普瑞德威利氏症候群 在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實期間的相關性。 白血病 曾有生長激素缺乏症病童罹患白血病的報告(罕見或極罕見)，其中有些病人 接受somatropin 治療，這些案例被列入上市後經驗。。然而，並沒有證據顯示白血病風險會在無易感因素 (predisposition factors)，例如腦部或頭部放射線之情況下增加。 股骨頭滑脫症與小兒股骨頭缺血性壞死症 (Legg-Calvé-Perthes disease) 在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。 其他藥物不良反應 其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。 疑似不良反應之報告 醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益 / 風險平衡可持續被監測。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "依文獻記載 症狀： 急性過量可能會導致低血糖，接著會變成高血糖。 長期過量導致的症狀和人類生長激素過量已知的作用一致。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p><p><span style=\"font-family:標楷體;\">症狀：</span></p><p><span style=\"font-family:標楷體;\">急性過量可能會導致低血糖，接著會變成高血糖。</span></p><p><span style=\"font-family:標楷體;\">長期過量導致的症狀和人類生長激素過量已知的作用一致。</span></p>",
+          "search_text": "9\n過量\n依文獻記載 症狀： 急性過量可能會導致低血糖，接著會變成高血糖。 長期過量導致的症狀和人類生長激素過量已知的作用一致。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "依文獻記載",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p>",
+          "search_text": "10\n藥理特性\n依文獻記載",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "藥物治療學分類：腦下垂體前葉荷爾蒙及其類似物。 ATC code: H01AC01",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥物治療學分類：腦下垂體前葉荷爾蒙及其類似物。</span></p><p>ATC code: H01AC01</p>",
+          "search_text": "10.1\n作用機轉\n藥物治療學分類：腦下垂體前葉荷爾蒙及其類似物。 ATC code: H01AC01",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "Somatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。 對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。 Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF- 1 (第一型胰島素生長因子) 及IGFBP3 (第三型類胰島素生長因子結合蛋白)的血清濃度會因somatropin增加。此外，下列作用已被證實： 脂肪代謝 Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載體 (apolipoprotein B)減少，也觀察到血清總膽固醇減少。 碳水化合物代謝 Somatropin增加胰島素，但空腹血糖值通常不變。。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。 水及礦物質的代謝 生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀及磷的滯留。 骨骼代謝 Somatropin刺激骨骼的更新。對罹患骨質稀少的生長激素缺乏症病人長期投與somatropin可使負重部位的骨骼礦物質含量及密度增加。 體能 長期以somatropin治療後，肌肉強度及運動能力得到改善。。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。 低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067mg/kg 體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為_1.90SDS (每天0.033mg/kg體重)及+2.19SDS(0.067mg/kg體重)。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。",
+          "content_html": "<p>Somatropin<span style=\"font-family:標楷體;\">是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。</span></p><p><span style=\"font-family:標楷體;\">對於內因性生長激素缺乏的兒童，</span>somatropin<span style=\"font-family:標楷體;\">可刺激其線性生長並促進生長速率。對於成人及兒童，</span>somatropin<span style=\"font-family:標楷體;\">可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對</span>somatropin<span style=\"font-family:標楷體;\">特別敏感。</span></p><p>Somatropin<span style=\"font-family:標楷體;\">除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。</span>IGF- 1 (<span style=\"font-family:標楷體;\">第一型胰島素生長因子</span>) <span style=\"font-family:標楷體;\">及</span>IGFBP3 (<span style=\"font-family:標楷體;\">第三型類胰島素生長因子結合蛋白</span>)<span style=\"font-family:標楷體;\">的血清濃度會因</span>somatropin<span style=\"font-family:標楷體;\">增加。此外，下列作用已被證實：</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">脂肪代謝</i></span></p><p>Somatropin<span style=\"font-family:標楷體;\">誘發肝臟</span>LDL<span style=\"font-family:標楷體;\">膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將</span>somatropin<span style=\"font-family:標楷體;\">給予生長激素缺乏的病人會使血清中的</span>LDL<span style=\"font-family:標楷體;\">及</span>B<span style=\"font-family:標楷體;\">型載體</span> (apolipoprotein B)<span style=\"font-family:標楷體;\">減少，也觀察到血清總膽固醇減少。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">碳水化合物代謝</i></span></p><p>Somatropin<span style=\"font-family:標楷體;\">增加胰島素，但空腹血糖值通常不變。。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被</span>somatropin<span style=\"font-family:標楷體;\">改善。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">水及礦物質的代謝</i></span></p><p><span style=\"font-family:標楷體;\">生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始</span>somatropin<span style=\"font-family:標楷體;\">治療後迅速增加。</span>Somatropin<span style=\"font-family:標楷體;\">會誘發鈉、鉀及磷的滯留。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">骨骼代謝</i></span></p><p>Somatropin<span style=\"font-family:標楷體;\">刺激骨骼的更新。對罹患骨質稀少的生長激素缺乏症病人長期投與</span>somatropin<span style=\"font-family:標楷體;\">可使負重部位的骨骼礦物質含量及密度增加。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">體能</i></span></p><p><span style=\"font-family:標楷體;\">長期以</span>somatropin<span style=\"font-family:標楷體;\">治療後，肌肉強度及運動能力得到改善。。</span>Somatropin<span style=\"font-family:標楷體;\">也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。</span></p><p><span style=\"font-family:標楷體;\">低出生體重兒之生長障礙的臨床試驗給予每天</span>0.033<span style=\"font-family:標楷體;\">及</span>0.067mg/kg&nbsp;<span style=\"font-family:標楷體;\">體重的劑量治療，直到達到最後的身高。</span>56<span style=\"font-family:標楷體;\">名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為</span>_1.90SDS (<span style=\"font-family:標楷體;\">每天</span>0.033mg/kg<span style=\"font-family:標楷體;\">體重</span>)<span style=\"font-family:標楷體;\">及</span>+2.19SDS(0.067mg/kg<span style=\"font-family:標楷體;\">體重</span>)<span style=\"font-family:標楷體;\">。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為</span>0.5 SDS<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\nSomatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。 對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。 Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF- 1 (第一型胰島素生長因子) 及IGFBP3 (第三型類胰島素生長因子結合蛋白)的血清濃度會因somatropin增加。此外，下列作用已被證實： 脂肪代謝 Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載體 (apolipoprotein B)減少，也觀察到血清總膽固醇減少。 碳水化合物代謝 Somatropin增加胰島素，但空腹血糖值通常不變。。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。 水及礦物質的代謝 生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀及磷的滯留。 骨骼代謝 Somatropin刺激骨骼的更新。對罹患骨質稀少的生長激素缺乏症病人長期投與somatropin可使負重部位的骨骼礦物質含量及密度增加。 體能 長期以somatropin治療後，肌肉強度及運動能力得到改善。。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。 低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067mg/kg 體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為_1.90SDS (每天0.033mg/kg體重)及+2.19SDS(0.067mg/kg體重)。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性 (fragility)增加。這個發現的臨床重要性不明。 另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。一項體外研究從長期接受</span>somatropin<span style=\"font-family:標楷體;\">治療的病人取得淋巴細胞，接著添加擬放射線藥物</span>bleomycin<span style=\"font-family:標楷體;\">，結果觀察到染色體易破壞性</span> (fragility)<span style=\"font-family:標楷體;\">增加。這個發現的臨床重要性不明。</span></p><p><span style=\"font-family:標楷體;\">另一項研究發現長期接受</span>somatropin<span style=\"font-family:標楷體;\">治療的病人淋巴細胞的染色體異常並未有增加之現象。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性 (fragility)增加。這個發現的臨床重要性不明。 另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "依文獻記載 吸收 皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035mg/kg之皮下注射劑量得到的最高血漿濃度 (Cmax) 是13-35ng/ml，tmax是3-6小時。 排除 生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射後，藥物從注射部位的緩慢吸收所致。 次群體觀察 皮下注射後，somatropin的絕對生體可用率男女似乎一樣。關於somatropin在老年人和兒童群體，不同種族以及腎臟、肝臟或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">吸收</i></span></p><p><span style=\"font-family:標楷體;\">皮下注射</span>somatropin<span style=\"font-family:標楷體;\">的生體可用率，健康受試者及生長激素缺乏的病人都是</span>80%<span style=\"font-family:標楷體;\">左右。</span>Somatropin 0.035mg/kg<span style=\"font-family:標楷體;\">之皮下注射劑量得到的最高血漿濃度</span> (C<sub>max</sub>)&nbsp;<span style=\"font-family:標楷體;\">是</span>13-35ng/ml<span style=\"font-family:標楷體;\">，</span>t<sub>max</sub><span style=\"font-family:標楷體;\">是</span>3-6<span style=\"font-family:標楷體;\">小時。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">排除</i></span></p><p><span style=\"font-family:標楷體;\">生長激素缺乏的成人靜脈注射後，</span>somatropin<span style=\"font-family:標楷體;\">的平均末端半衰期約為</span>0.4<span style=\"font-family:標楷體;\">小時。然而皮下注射後，半衰期可達</span>2-3<span style=\"font-family:標楷體;\">小時。觀察到的差異可能是皮下注射後，藥物從注射部位的緩慢吸收所致。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">次群體觀察</i></span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">皮下注射後</i>，</span>somatropin<span style=\"font-family:標楷體;\">的絕對生體可用率男女似乎一樣。關於</span>somatropin<span style=\"font-family:標楷體;\">在老年人和兒童群體，不同種族以及腎臟、肝臟或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。</span></p>",
+          "search_text": "11\n藥物動力學特性\n依文獻記載 吸收 皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035mg/kg之皮下注射劑量得到的最高血漿濃度 (Cmax) 是13-35ng/ml，tmax是3-6小時。 排除 生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射後，藥物從注射部位的緩慢吸收所致。 次群體觀察 皮下注射後，somatropin的絕對生體可用率男女似乎一樣。關於somatropin在老年人和兒童群體，不同種族以及腎臟、肝臟或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "依文獻記載 目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">依文獻記載</span></p><p><span style=\"font-family:標楷體;\">目前尚無資訊。</span></p>",
+          "search_text": "12\n臨床試驗資料\n依文獻記載 目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "1支、5支、10支玻璃卡匣裝，附注射筆。",
+          "content_html": "<p>1<span style=\"font-family:標楷體;\">支、</span>5<span style=\"font-family:標楷體;\">支、</span>10<span style=\"font-family:標楷體;\">支玻璃卡匣裝，附注射筆。</span></p>",
+          "search_text": "13.1\n包裝\n1支、5支、10支玻璃卡匣裝，附注射筆。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "衛署菌疫輸字第000893號 歐密拓“山德士”注射液5毫克/1.5毫升 24個月 衛署菌疫輸字第000896號 歐密拓“山德士”注射液10毫克/1.5毫升 18個月 首次使用後之保存期限 第一次使用的玻璃卡匣需放回注射筆內並儲存於冰箱2-8℃，可冷藏28天，不可冰凍，需避光儲存。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">衛署菌疫輸字第</span>000893<span style=\"font-family:標楷體;\">號　歐密拓“山德士”注射液</span>5<span style=\"font-family:標楷體;\">毫克</span>/1.5<span style=\"font-family:標楷體;\">毫升</span>&nbsp; &nbsp;24<span style=\"font-family:標楷體;\">個月　　</span></p><p>&nbsp;<span style=\"font-family:標楷體;\">衛署菌疫輸字第</span>000896<span style=\"font-family:標楷體;\">號　歐密拓“山德士”注射液</span>10<span style=\"font-family:標楷體;\">毫克</span>/1.5<span style=\"font-family:標楷體;\">毫升</span> 18<span style=\"font-family:標楷體;\">個月</span></p><p><span style=\"font-family:標楷體;\">首次使用後之保存期限</span></p><p><span style=\"font-family:標楷體;\">第一次使用的玻璃卡匣需放回注射筆內並儲存於冰箱</span>2-8<span style=\"font-family:標楷體;\">℃，可冷藏</span>28<span style=\"font-family:標楷體;\">天，不可冰凍，需避光儲存。</span></p>",
+          "search_text": "13.2\n效期\n衛署菌疫輸字第000893號 歐密拓“山德士”注射液5毫克/1.5毫升 24個月 衛署菌疫輸字第000896號 歐密拓“山德士”注射液10毫克/1.5毫升 18個月 首次使用後之保存期限 第一次使用的玻璃卡匣需放回注射筆內並儲存於冰箱2-8℃，可冷藏28天，不可冰凍，需避光儲存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "未開封之卡匣儲存於冰箱2~8℃，不可冰凍，儲存於原包裝內以避光。 使用中藥品之儲存條件，請參見13.2效期。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">未開封之卡匣儲存於冰箱</span>2~8<span style=\"font-family:標楷體;\">℃，不可冰凍，儲存於原包裝內以避光。</span></p><p><span style=\"font-family:標楷體;\">使用中藥品之儲存條件，請參見</span>13.2<span style=\"font-family:標楷體;\">效期。</span></p>",
+          "search_text": "13.3\n儲存條件\n未開封之卡匣儲存於冰箱2~8℃，不可冰凍，儲存於原包裝內以避光。 使用中藥品之儲存條件，請參見13.2效期。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "Omnitrope® 5, 10mg/1.5ml溶液為無菌充填於玻璃卡匣可直接皮下注射之藥品，此設計可多次使用。 施打時應以Omnitrope® Pen 5, 10 (一種特別為施打Omnitrope® 5, 10 mg/1.5ml而設計的注射器)施打，且必須為無菌丟棄式的筆型針頭。 施打時應以Omnitrope® SurePalTM 5, 10 (一種特別為施打Omnitrope® 5, 10 mg/1.5ml而設計的注射器)施打，且必須為無菌丟棄式的筆型針頭。 您的醫師或其他適當合格的醫療人員會向您示範如何注射Omnitrope®。除非您確信您已了解注射的步驟與需求，請勿嘗試注射。 以下是對於自行注射Omnitrope®所描述的注意事項，請仔細閱讀並逐步遵照指示。 1.在進行注射前，請先洗淨雙手。 2.注射前請仔細檢視溶液，若溶液混濁或有懸浮微粒則不可使用，唯有澄清無色時才能使用。 3.使用有清潔效能的棉花消毒並與溶劑藥品匣的橡膠表面消毒。 4.請遵照操作手冊，將卡匣(cartridge)插入Omnitrope® Pen 5, 10 或SurePalTM 5, 10 。 5.注射前，請用酒精棉清潔注射部位之皮膚。 6.用無菌之筆型針頭給予適當劑量的皮下注射，注射後請依循當地法規處理用後的針頭。",
+          "content_html": "<p>Omnitrope<sup>®</sup> 5, 10mg/1.5ml<span style=\"font-family:標楷體;\">溶液為無菌充填於玻璃卡匣可直接皮下注射之藥品，此設計可多次使用。</span></p><p><span style=\"font-family:標楷體;\">施打時應以</span>Omnitrope<sup>®</sup> Pen 5, 10 (<span style=\"font-family:標楷體;\">一種特別為施打</span>Omnitrope<sup>®&nbsp;</sup>5, 10 mg/1.5ml<span style=\"font-family:標楷體;\">而設計的注射器</span>)<span style=\"font-family:標楷體;\">施打，且必須為無菌丟棄式的筆型針頭。</span></p><p><span style=\"font-family:標楷體;\">施打時應以</span>Omnitrope<sup>®&nbsp;</sup>SurePal<sup>TM</sup> 5, 10 (<span style=\"font-family:標楷體;\">一種特別為施打</span>Omnitrope<sup>®&nbsp;</sup>5, 10 mg/1.5ml<span style=\"font-family:標楷體;\">而設計的注射器</span>)<span style=\"font-family:標楷體;\">施打，且必須為無菌丟棄式的筆型針頭。</span></p><p><span style=\"font-family:標楷體;\">您的醫師或其他適當合格的醫療人員會向您示範如何注射</span>Omnitrope<sup>®</sup><span style=\"font-family:標楷體;\">。除非您確信您已了解注射的步驟與需求，請勿嘗試注射。</span></p><p><span style=\"font-family:標楷體;\">以下是對於自行注射</span>Omnitrope<sup>®</sup><span style=\"font-family:標楷體;\">所描述的注意事項，請仔細閱讀並逐步遵照指示。</span></p><p>1.<span style=\"font-family:標楷體;\">在進行注射前，請先洗淨雙手。</span></p><p>2.<span style=\"font-family:標楷體;\">注射前請仔細檢視溶液，若溶液混濁或有懸浮微粒則不可使用，唯有澄清無色時才能使用。</span></p><p>3.<span style=\"font-family:標楷體;\">使用有清潔效能的棉花消毒並與溶劑藥品匣的橡膠表面消毒。</span></p><p>4.<span style=\"font-family:標楷體;\">請遵照操作手冊，將卡匣</span>(cartridge)<span style=\"font-family:標楷體;\">插入</span>Omnitrope<sup>®</sup> Pen 5, 10&nbsp;<span style=\"font-family:標楷體;\">或</span>SurePal<sup>TM</sup> 5, 10&nbsp;<span style=\"font-family:標楷體;\">。</span></p><p>5.<span style=\"font-family:標楷體;\">注射前，請用酒精棉清潔注射部位之皮膚。</span></p><p>6.<span style=\"font-family:標楷體;\">用無菌之筆型針頭給予適當劑量的皮下注射，注射後請依循當地法規處理用後的針頭。</span></p>",
+          "search_text": "14\n病人使用須知\nOmnitrope® 5, 10mg/1.5ml溶液為無菌充填於玻璃卡匣可直接皮下注射之藥品，此設計可多次使用。 施打時應以Omnitrope® Pen 5, 10 (一種特別為施打Omnitrope® 5, 10 mg/1.5ml而設計的注射器)施打，且必須為無菌丟棄式的筆型針頭。 施打時應以Omnitrope® SurePalTM 5, 10 (一種特別為施打Omnitrope® 5, 10 mg/1.5ml而設計的注射器)施打，且必須為無菌丟棄式的筆型針頭。 您的醫師或其他適當合格的醫療人員會向您示範如何注射Omnitrope®。除非您確信您已了解注射的步驟與需求，請勿嘗試注射。 以下是對於自行注射Omnitrope®所描述的注意事項，請仔細閱讀並逐步遵照指示。 1.在進行注射前，請先洗淨雙手。 2.注射前請仔細檢視溶液，若溶液混濁或有懸浮微粒則不可使用，唯有澄清無色時才能使用。 3.使用有清潔效能的棉花消毒並與溶劑藥品匣的橡膠表面消毒。 4.請遵照操作手冊，將卡匣(cartridge)插入Omnitrope® Pen 5, 10 或SurePalTM 5, 10 。 5.注射前，請用酒精棉清潔注射部位之皮膚。 6.用無菌之筆型針頭給予適當劑量的皮下注射，注射後請依循當地法規處理用後的針頭。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "配伍禁忌 根據相容性試驗，此藥品一定不可以和其他藥品混合。 版次: TWI-211125",
+          "content_html": "<p><span style=\"font-family:標楷體;\">配伍禁忌</span></p><p><span style=\"font-family:標楷體;\">根據相容性試驗，此藥品一定不可以和其他藥品混合。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">版次: TWI-211125</span></p>",
+          "search_text": "15\n其他\n配伍禁忌 根據相容性試驗，此藥品一定不可以和其他藥品混合。 版次: TWI-211125",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n注射液劑搭配卡匣 (catridge) 每毫升注射液劑包含3.3/6.7毫克somatropin (相當於每毫升含10/20國際單位) 每個卡匣 (catridge) 含有1.5毫升，相當於5/10毫克somatropin (15/30國際單位) Omnitrope®是利用大腸桿菌經由基因工程技術所製造的一種人類生長激素。\n1.2\n賦形劑\nOmnitrope 5mg/1.5ml Disodium hydrogen phosphate heptahydrate、Sodium dihydrogen phosphate dehydrate、Mannitol、Poloxamer 188、Benzyl alcohol、Phosphoric acid、Sodium hydroxide、Water for injections Omnitrope 10mg/1.5ml Disodium hydrogen phosphate heptahydrate、Sodium dihydrogen phosphate dihydrate、Glycine、Poloxamer 188、Phenol、Phosphoric acid、Sodium hydroxide、Water for injections\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n裝於Omnitrope專用注射筆之玻璃卡匣中。 澄清、無色的液體\n2\n適應症\n腦下垂體之生長激素分泌不足所導致之生長干擾;TURNER'S SYNDROME所導致之生長干擾;PRADER-WILLI SYNDROME所導致之生長干擾;慢性腎臟功能不足所導致之生長干擾;低出生體重兒Small for Gestational Age(SGA)逾四歲者之生長障礙;成人生長激素嚴重缺乏之補充療法。 說明 孩童治療 (嬰兒、兒童及青少年) -由於生長激素分泌不足 (growth hormone deficiency, GHD) 造成的生長遲緩。 -透納氏症候群有關的生長遲緩。 -慢性腎功能不全引起的生長遲緩。 -低出生體重兒的生長遲緩 (目前的身高標準差評分[SDS]<-2.5，而且父母親的校正身高[SDS]<-1)，胎兒小於妊娠年齡，出生體重或身高低於-2個標準差 (SD)，在4歲以後也無法追上生長曲線 (前一年的身高成長速度低於0個標準差[HVSDS<0]。 -改善普瑞德威利氏症候群 (Prader-Willi Syndrome; PWS) 病人的生長與身體組成。必須有適當的基因篩檢來確定診斷普瑞德威利氏症候群。 用於成人期生長激素嚴重缺乏症的補充療法 可作為有明顯生長激素缺乏症成人之補充治療。 成人發病期：嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙 (泌乳激素除外) 的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。 兒童發病期：因先天性、遺傳性、後天性或原發性成因，導致兒童期生長激素缺乏的病人。GHD兒童期發病病人，應在縱向生長結束後，重新評估生長激素分泌能力。持續性GHD較可能發生的病人，亦即，先天性成因或下視丘-腦下垂體受損導致的GHD，於停止生長激素治療後至少4週，如第一型類胰島素生長因子 (IGF-I) SDS<-2，則應視為嚴重GHD之充分證據。 其餘所有其他病人必須進行IGF-I檢測及一項生長激素刺激檢驗。\n3\n用法及用量\n3.1\n用法用量\n開始治療之前必須確定診斷。Omnitrope®治療應由有適當資格而且有經驗的醫師開始並加以監測。 兒童族群 應依病人個別情況調整劑量及用藥時程。 孩童因生長激素分泌不足所導致的生長遲緩： 通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0mg/m2體表面積。曾使用更高劑量。 若兒童期發作之 GHD 持續至青少年期，應繼續治療以達到完整身體生長發展 (如，身體組成、骨質 量)。監測方式：過渡期之治療目標之一，為達到正常最高骨質量，定義為 T 分數 > -1 (亦即，依據雙能 量 X 光骨質密度分析測量結果、並考量性別及種族，進行平均成人最高骨質量標準化)。施用劑量準則 請參見後文成人章節。 普瑞德威利氏症候群Prader-Willi Syndrome (PWS)，改善兒童的生長及身體組成： 通常建議劑量為每天0.035mg/kg體重或1.0mg/m2體表面積。每日劑量不應超過2.7mg。如果成長速率 不足（每年長高小於1公分）或接近骨骺板關閉之時，不應使用Omnitrope®。 透納氏症候群所導致的生長遲緩： 建議劑量為每天0.045-0.050mg/kg體重或每天1.4mg/m2體表面積。 慢性腎臟功能不全（CRI）所導致的生長遲緩： 建議劑量為每天1.4mg/m2體表面積(約每天0.045-0.050mg/kg體重)。如果生長速度太慢可使用較高的劑 量。治療六個月後可能需調整劑量(參見5警語及注意事項)。 低出生體重兒(SGA)之生長遲緩： 一般建議劑量為每天0.035mg/kg體重(每天1mg/m2體表面積)，直至達到最後的身高(參見10.2藥效藥理 特性)。在接受治療的第一年後，如果成長速率不足(HVSDS<+1)，應該停止治療。如果每年長高小於2 公分，及經證實女性骨齡>14歲、男性骨齡>16歲，亦即相當於骨骺板關閉時，就應停止治療。 對於幼年期病人的建議劑量 每日劑量 生長激素分泌不足 Prader-Willi Syndrome 透納氏症候群 慢性腎臟功能不全 低出生體重兒(SGA)之生長遲緩 mg/kg 體重 0.025-0.035 0.035 0.045-0.050 0.045-0.050 0.035 mg/m2 體表面積 0.7-1.0 1.0 1.4 1.4 1.0 成人生長激素缺乏症 兒童期 GHD 後繼續接受生長激素治療的病人，建議重新開始劑量為每天 0.2–0.5 毫克。應依據 IGF-I 濃度，依照病人個別需求決定逐漸增加或減少劑量。 成年 GHD 發病之成人，應由較低劑量開始治療，每天 0.15-0.3 毫克。應依據 IGF-I 濃度，依照病人個別需求決定逐漸增加劑量。 這兩種情況下，治療目標為 IGF-I 濃度在年齡校正平均值的 2 SDS 以內。治療開始時，IGF-I 濃度正常的病人，應給予生長激素至 IGF-I 濃度位於正常值上限內，但不超過 2 SDS。臨床反應及副作用，也可以當作劑量調整的指標。已知有部份 GHD 病人，雖然 IGF-I 未達正常濃度，但仍具有良好臨床反應，此類病人不須增加劑量。維持劑量很少超過每天 1.0 毫克。女性需要的劑量高於男性，男性對於 IGF-I 之敏感性會隨時間增加。表示相較於男性，女性有治療不足的風險，尤其是使用口服雌激素補充療法的女性；而男性則有過度治療風險。因此應每 6 個月確認生長激素的劑量是否正確。生理正常分泌的生長激素會隨年齡增長而減少，因此，治療時的劑量需求也會相應減少。 施用方式 皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。 使用說明及處理方式，請參見第14病人使用須知。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n依文獻記載 - 對主成分或任何列於1.2節之賦形劑過敏者。 - 當有任何腫瘤活動的跡象時禁用somatropin。在開始生長激素治療前，顱內腫瘤須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。 - Somatropin禁用於骨骺板已閉合兒童之生長。 - Somatropin禁用於開心手術、腹部手術、多重意外性創傷、急性呼吸衰竭或類似狀況後發生併發症之急性重症病人。(關於接受置換療法的病人，參閱5警語及注意事項)。\n5\n警語及注意事項\n依文獻記載\n5.1\n警語/注意事項\n開始治療之前必須確定診斷。Somatropin治療應由有適當資格而且有經驗的醫師開始並加以監測。 請勿超過每日最大建議劑量 (參見3用法及用量)。 胰島素敏感性 Somatropin可能會降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的風險因子者，於somatropin治療期間須密切監測。 甲狀腺功能 生長激素會使甲狀腺外的 T4 轉換成 T3 的量增加，造成 T4的血清 濃度降低，而 T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀 (subclinical) 甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下的病人，須密切監測生長激素對於甲狀腺功能的潛在影響。 腎上腺機能低下症 使用somatropin治療可能會抑制11ßHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性 (次發性)腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量 (請見7交互作用)。 使用口服雌激素治療 若使用somatropin的女性開始接受口服雌激素療法，則可能需要增加somatropin劑量以維持血清IGH-1濃度處於正常適齡範圍內，相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用 (請見7交互作用)。 因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。 患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。 良性顱內壓升高 若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新開始使用生長激素治療，便需要小心監測顱內壓升高的症狀。 白血病 少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病發生率在生長激素的使用者在沒有易感因素 (predisposition factors) 時會增加。 抗體 與其他含somatropin的製劑一樣，少部份病人可能會對 Omnitrope® 產生抗體。大約有 1% 的病人使用 Omnitrope® 後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。 急性重症 曾有兩個安慰劑對照試驗研究somatropin對於復原的影響，其中包含 522 名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受 5.3 或 8 毫克somatropin治療的病人，其死亡率比接受安慰劑的病人高( 42% 和 19%)。根據這個資料，此類病人不該使用生長激素somatropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受somatropin治療的病人，以及發生其他或類似急性重症的病人，繼續以somatropin治療的易處必須大於可能引起的危險。 胰臟炎 儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。 普瑞德威利氏症候群 對於普瑞德威利氏症候群的病人，治療一定要與限制熱量飲食雙管齊下。 在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導： 嚴重肥胖 (體重/身高超過200%的病人)、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的病人風險可能比較高。 在開始使用somatropin治療普瑞德為利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。 在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，呼吸障礙消除後，再開始使用生長激素治療。 開始使用生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查 (polysomnography)或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。 使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候 (包括開始打鼾或打鼾增加)，應中止治療並做新的耳鼻喉科評估。 對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。 所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制。 脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。 成人與PWS病人接受長期生長激素治療的經驗有限。 低出生體重兒 對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。 對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人 (例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病 [acanthosis nigricans])應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。 對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。 用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。 治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。 慢性腎功能不足 對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療 (包括控制酸血症、副甲狀腺機能亢進及營養狀態)，並在生長激素治療期間應維持此保守治療。 腎臟移植時應停止生長激素治療。 迄今還沒有使用somatropin治療慢性腎功能不足病人之最後身高的資料。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\nOmnitrope® 不會影響開車或操作機器的能力。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n依文獻記載\n6.1\n懷孕\n關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足 (參見10.3臨床前安全性資料)，沒有使用於孕婦的臨床經驗因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。\n6.2\n哺乳\n沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n用於 80 歲以上病人的經驗很有限。老年病人可能對 Omnitrope® 的作用更敏感，也可能更容易產生不良反應。\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n依文獻記載 併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素 (ACTH) 分泌不足的病人應謹慎地調整糖皮質類固醇替代治療，以避免抑制生長。 因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。。 生長激素會減少可體松 (cortisone) 轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效 (請見5警語及注意事項)。 從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物 (例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin)的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。 關於患有糖尿病和甲狀腺障礙的病人請參閱5警語及注意事項。 接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標 (參見5警語及注意事項)。\n8\n副作用/不良反應\n依文獻記載\n8.1\n臨床重要副作用/不良反應\n生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成人病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常 (paraesthesia)等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。 這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。 大約 1% 的病人會對 Omnitrope® 產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。\n8.2\n臨床試驗經驗\n不良反應列表 表 1 - 6列出之不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見 (≥1/100 至 <1/10)；不常見 (≥1/1,000 至 <1/100)；罕見 (≥1/10,000 至 <1/1,000)；極罕見 (<1/10,000) ；未知 (無法以可用資料估計)。 生長激素分泌不足兒童之臨床試驗 表1 生長激素分泌不足導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至<1/10 不常見 ≥ 1/1,000 至<1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見<1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉疼痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇 (cortisol) 降少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素缺乏症的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。$ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 兒童透納氏症候群 (Turner’s syndrome) 兒童之臨床試驗 表 2 透納氏症導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 臉部水腫* 注射部位反應$ 實驗室檢查 血中皮質醇 (cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩減。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不族的兒童，但其發生率似乎與無生長激素分泌不足的兒童一樣。 慢性腎功能不全兒童之臨床試驗 表 3 慢性腎功能不全導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉疼痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動緩解或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 低出生體重兒童之臨床試驗 表 4 低出生體重導致生長干擾之兒童的長期治療 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 蕁麻疹** 搔癢** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 注射部位反應$ 周邊水腫* 臉部水腫* 實驗室檢查 血中皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素內分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 普瑞德威利氏症候群之臨床試驗 表 5 普瑞德威利氏症候群導致生長干擾之兒童的長期治療及促進身體組成 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 腫瘤 良性、惡性及未分類者 (含囊腫及息肉) 白血病† 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 良性顱內高壓 皮膚及皮下組織 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病 關節痛* 肌肉痛* 肌肉關節僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 臉部水腫* 注射部位反應$ 實驗室檢查 血中皮質醇 (cortisol) 減少‡ * 一般而言，這些不良反應是輕度至中度，在治療第一個月內出現，並會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 † 曾發生於以somatropin治療的生長激素分泌不足的兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 成人生長激素缺乏症之 臨床試驗 表 6 成人生長激素缺乏之補充療法 系統器官類別 非常常見 ≥ 1/10 常見 ≥ 1/100 至 <1/10 不常見 ≥ 1/1,000 至 <1/100 罕見 ≥ 1/10,000 至 <1/1,000 極罕見 <1/10,000未知 (無法以可用資料估計) 代謝及營養疾病 第 2 型糖尿病 神經系統疾病 感覺異常* 腕隧道症候群 良性顱內高壓 皮膚及皮下組織疾病 皮疹** 搔癢** 蕁麻疹** 肌肉骨骼結締組織與骨疾病及骨骼異常關節痛* 肌肉痛* 肌肉骨骼僵硬* 生殖系統和乳房疾病 男性女乳症 一般疾病與投藥部位異常 周邊水腫* 注射部位反應$ 實驗室檢查 血液皮質醇(cortisol)減少‡ * 一般而言，這些副作用是輕度至中度，在治療第一個月內出現併會自動或者於劑量的降低之後緩解。這些副作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應 (ADR)。 $ 曾有兒童發生暫時性注射部位反應的報告。 ‡ 臨床顯著性未知。 血清皮質醇 (cortisol)濃度降低 曾有報告指出，somatropin可能經由載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性很有限。雖然如此，在開始somatropin治療之前，應該使用皮質類固醇補充治療達到最佳狀況。 普瑞德威利氏症候群 在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實期間的相關性。 白血病 曾有生長激素缺乏症病童罹患白血病的報告(罕見或極罕見)，其中有些病人 接受somatropin 治療，這些案例被列入上市後經驗。。然而，並沒有證據顯示白血病風險會在無易感因素 (predisposition factors)，例如腦部或頭部放射線之情況下增加。 股骨頭滑脫症與小兒股骨頭缺血性壞死症 (Legg-Calvé-Perthes disease) 在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。 其他藥物不良反應 其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。 疑似不良反應之報告 醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益 / 風險平衡可持續被監測。\n8.3\n上市後經驗\n9\n過量\n依文獻記載 症狀： 急性過量可能會導致低血糖，接著會變成高血糖。 長期過量導致的症狀和人類生長激素過量已知的作用一致。\n10\n藥理特性\n依文獻記載\n10.1\n作用機轉\n藥物治療學分類：腦下垂體前葉荷爾蒙及其類似物。 ATC code: H01AC01\n10.2\n藥效藥理特性\nSomatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。 對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。 Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF- 1 (第一型胰島素生長因子) 及IGFBP3 (第三型類胰島素生長因子結合蛋白)的血清濃度會因somatropin增加。此外，下列作用已被證實： 脂肪代謝 Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載體 (apolipoprotein B)減少，也觀察到血清總膽固醇減少。 碳水化合物代謝 Somatropin增加胰島素，但空腹血糖值通常不變。。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。 水及礦物質的代謝 生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀及磷的滯留。 骨骼代謝 Somatropin刺激骨骼的更新。對罹患骨質稀少的生長激素缺乏症病人長期投與somatropin可使負重部位的骨骼礦物質含量及密度增加。 體能 長期以somatropin治療後，肌肉強度及運動能力得到改善。。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。 低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067mg/kg 體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為_1.90SDS (每天0.033mg/kg體重)及+2.19SDS(0.067mg/kg體重)。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。\n10.3\n臨床前安全性資料\n在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性 (fragility)增加。這個發現的臨床重要性不明。 另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。\n11\n藥物動力學特性\n依文獻記載 吸收 皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035mg/kg之皮下注射劑量得到的最高血漿濃度 (Cmax) 是13-35ng/ml，tmax是3-6小時。 排除 生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射後，藥物從注射部位的緩慢吸收所致。 次群體觀察 皮下注射後，somatropin的絕對生體可用率男女似乎一樣。關於somatropin在老年人和兒童群體，不同種族以及腎臟、肝臟或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。\n12\n臨床試驗資料\n依文獻記載 目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n1支、5支、10支玻璃卡匣裝，附注射筆。\n13.2\n效期\n衛署菌疫輸字第000893號 歐密拓“山德士”注射液5毫克/1.5毫升 24個月 衛署菌疫輸字第000896號 歐密拓“山德士”注射液10毫克/1.5毫升 18個月 首次使用後之保存期限 第一次使用的玻璃卡匣需放回注射筆內並儲存於冰箱2-8℃，可冷藏28天，不可冰凍，需避光儲存。\n13.3\n儲存條件\n未開封之卡匣儲存於冰箱2~8℃，不可冰凍，儲存於原包裝內以避光。 使用中藥品之儲存條件，請參見13.2效期。\n13.4\n儲存注意事項\n14\n病人使用須知\nOmnitrope® 5, 10mg/1.5ml溶液為無菌充填於玻璃卡匣可直接皮下注射之藥品，此設計可多次使用。 施打時應以Omnitrope® Pen 5, 10 (一種特別為施打Omnitrope® 5, 10 mg/1.5ml而設計的注射器)施打，且必須為無菌丟棄式的筆型針頭。 施打時應以Omnitrope® SurePalTM 5, 10 (一種特別為施打Omnitrope® 5, 10 mg/1.5ml而設計的注射器)施打，且必須為無菌丟棄式的筆型針頭。 您的醫師或其他適當合格的醫療人員會向您示範如何注射Omnitrope®。除非您確信您已了解注射的步驟與需求，請勿嘗試注射。 以下是對於自行注射Omnitrope®所描述的注意事項，請仔細閱讀並逐步遵照指示。 1.在進行注射前，請先洗淨雙手。 2.注射前請仔細檢視溶液，若溶液混濁或有懸浮微粒則不可使用，唯有澄清無色時才能使用。 3.使用有清潔效能的棉花消毒並與溶劑藥品匣的橡膠表面消毒。 4.請遵照操作手冊，將卡匣(cartridge)插入Omnitrope® Pen 5, 10 或SurePalTM 5, 10 。 5.注射前，請用酒精棉清潔注射部位之皮膚。 6.用無菌之筆型針頭給予適當劑量的皮下注射，注射後請依循當地法規處理用後的針頭。\n15\n其他\n配伍禁忌 根據相容性試驗，此藥品一定不可以和其他藥品混合。 版次: TWI-211125",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "NOVARTIS PHARMACEUTICAL MANUFACTURING GMBH",
+          "address": "BIOCHEMIESTRASSE 10, 6250 KUNDL, AUSTRIA"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "Novartis Pharmaceutical Manufacturing GmbH",
+          "address": "Biochemiestraße 10, 6336 Langkampfen, Austria"
+        },
+        {
+          "number": "2",
+          "name": "裕利股份有限公司",
+          "address": "桃園市大園區和平里1鄰開和路91號"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣山德士藥業股份有限公司",
+          "address": "台北市中山區民生東路三段2號8樓"
+        }
+      ]
+    }
+  ]
+}

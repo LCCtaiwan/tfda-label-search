@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:47:14.197027+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12001783",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第001783號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第001783號",
+      "matched_license_code": "12001783",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"強生\"抑炎源膜衣錠",
+      "drug_name_en": "UROGEN F.C. TABLETS \"JOHNSON\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2026-02-11",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Phenazopyridine HCl………………50mg",
+          "content_html": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(51,51,51);\">Phenazopyridine HCl</span>………………50mg</p>",
+          "search_text": "1.1\n有效成分及含量\nPhenazopyridine HCl………………50mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Mannitol、Microcrystalline Cellulose 101、Silicon Dioxide、Sodium Starch Glycolate、Povidon K-30、Magnesium Stearate、Alcohol 95%、HPMC 606、PEG 6000、Iron Oxide、Black Iron Oxide、Purified Water",
+          "content_html": "<p>Mannitol、Microcrystalline Cellulose 101、Silicon Dioxide、Sodium Starch Glycolate、Povidon K-30、Magnesium Stearate、Alcohol 95%、HPMC 606、PEG 6000、Iron Oxide、Black Iron Oxide、Purified Water</p>",
+          "search_text": "1.2\n賦形劑\nMannitol、Microcrystalline Cellulose 101、Silicon Dioxide、Sodium Starch Glycolate、Povidon K-30、Magnesium Stearate、Alcohol 95%、HPMC 606、PEG 6000、Iron Oxide、Black Iron Oxide、Purified Water",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "膜衣錠。",
+          "content_html": "<p>膜衣錠。</p>",
+          "search_text": "1.3\n劑型\n膜衣錠。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "深咖啡色圓形膜衣錠。",
+          "content_html": "<p>深咖啡色圓形膜衣錠。</p>",
+          "search_text": "1.4\n藥品外觀\n深咖啡色圓形膜衣錠。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "前列腺肥大、尿路障礙引起之尿意頻繁、排尿痛、尿意促迫、灼熱感",
+          "content_html": "<p>前列腺肥大、尿路障礙引起之尿意頻繁、排尿痛、尿意促迫、灼熱感</p>",
+          "search_text": "2\n適應症\n前列腺肥大、尿路障礙引起之尿意頻繁、排尿痛、尿意促迫、灼熱感",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "成人一日3次，1次2錠，飯前服用或視症狀適宜增量。",
+          "content_html": "<p>成人一日3次，1次2錠，飯前服用或視症狀適宜增量。</p>",
+          "search_text": "3.1\n用法用量\n成人一日3次，1次2錠，飯前服用或視症狀適宜增量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。",
+          "content_html": "<p>對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。</p>",
+          "search_text": "4\n禁忌\n對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "5.1.1 本品為偶氮染料化合物，服用後尿液會呈黃色，請勿掛慮。 5.1.2 本品服用遇有敏感或特異反應時應停止使用。 5.1.3 對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。 5.1.4 一般皮膚會有變淡黃色。 5.1.5 高齡者使用要特別注意其腎功能。 5.1.6 小便會呈黃褐色。",
+          "content_html": "<p>5.1.1 本品為偶氮染料化合物，服用後尿液會呈黃色，請勿掛慮。<br>5.1.2 本品服用遇有敏感或特異反應時應停止使用。<br>5.1.3 對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。<br>5.1.4 一般皮膚會有變淡黃色。<br>5.1.5 高齡者使用要特別注意其腎功能。<br>5.1.6 小便會呈黃褐色。</p>",
+          "search_text": "5.1\n警語/注意事項\n5.1.1 本品為偶氮染料化合物，服用後尿液會呈黃色，請勿掛慮。 5.1.2 本品服用遇有敏感或特異反應時應停止使用。 5.1.3 對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。 5.1.4 一般皮膚會有變淡黃色。 5.1.5 高齡者使用要特別注意其腎功能。 5.1.6 小便會呈黃褐色。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.1\n懷孕",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "8.1.1 頭痛、胃腸的不適感、變性血色蛋白血症。 8.1.2 溶血性貧血、通常服用過量對肝臟或腎臟有毒害。",
+          "content_html": "<p>8.1.1 頭痛、胃腸的不適感、變性血色蛋白血症。<br>8.1.2 溶血性貧血、通常服用過量對肝臟或腎臟有毒害。<br>&nbsp;</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n8.1.1 頭痛、胃腸的不適感、變性血色蛋白血症。 8.1.2 溶血性貧血、通常服用過量對肝臟或腎臟有毒害。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "抑炎源膜衣錠係偶氮化合物，對黏膜具有確實可靠的麻醉作用，而收鎮痛消炎之效，在尿中可以產生很高的濃度，故在服藥後的短時間迅速滲入尿道黏膜及黏膜組織中而消除下泌道感染所發生的疼痛，沉脹和排泄困難，亦可滅輕排尿時不適之壓迫感。",
+          "content_html": "<p>抑炎源膜衣錠係偶氮化合物，對黏膜具有確實可靠的麻醉作用，而收鎮痛消炎之效，在尿中可以產生很高的濃度，故在服藥後的短時間迅速滲入尿道黏膜及黏膜組織中而消除下泌道感染所發生的疼痛，沉脹和排泄困難，亦可滅輕排尿時不適之壓迫感。</p>",
+          "search_text": "10.1\n作用機轉\n抑炎源膜衣錠係偶氮化合物，對黏膜具有確實可靠的麻醉作用，而收鎮痛消炎之效，在尿中可以產生很高的濃度，故在服藥後的短時間迅速滲入尿道黏膜及黏膜組織中而消除下泌道感染所發生的疼痛，沉脹和排泄困難，亦可滅輕排尿時不適之壓迫感。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "12～1,000錠 塑膠瓶裝、PTP鋁箔盒裝。",
+          "content_html": "<p>12～1,000錠 塑膠瓶裝、PTP鋁箔盒裝。</p>",
+          "search_text": "13.1\n包裝\n12～1,000錠 塑膠瓶裝、PTP鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。",
+          "content_html": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(51,51,51);\">本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。</span></p>",
+          "search_text": "13.3\n儲存條件\n本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nPhenazopyridine HCl………………50mg\n1.2\n賦形劑\nMannitol、Microcrystalline Cellulose 101、Silicon Dioxide、Sodium Starch Glycolate、Povidon K-30、Magnesium Stearate、Alcohol 95%、HPMC 606、PEG 6000、Iron Oxide、Black Iron Oxide、Purified Water\n1.3\n劑型\n膜衣錠。\n1.4\n藥品外觀\n深咖啡色圓形膜衣錠。\n2\n適應症\n前列腺肥大、尿路障礙引起之尿意頻繁、排尿痛、尿意促迫、灼熱感\n3\n用法及用量\n3.1\n用法用量\n成人一日3次，1次2錠，飯前服用或視症狀適宜增量。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1 本品為偶氮染料化合物，服用後尿液會呈黃色，請勿掛慮。 5.1.2 本品服用遇有敏感或特異反應時應停止使用。 5.1.3 對嚴重之肝炎，尿毒症狀引起之排尿障礙及慢性絲球性腎臟炎之患者忌用本品。 5.1.4 一般皮膚會有變淡黃色。 5.1.5 高齡者使用要特別注意其腎功能。 5.1.6 小便會呈黃褐色。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n8.1.1 頭痛、胃腸的不適感、變性血色蛋白血症。 8.1.2 溶血性貧血、通常服用過量對肝臟或腎臟有毒害。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n抑炎源膜衣錠係偶氮化合物，對黏膜具有確實可靠的麻醉作用，而收鎮痛消炎之效，在尿中可以產生很高的濃度，故在服藥後的短時間迅速滲入尿道黏膜及黏膜組織中而消除下泌道感染所發生的疼痛，沉脹和排泄困難，亦可滅輕排尿時不適之壓迫感。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n12～1,000錠 塑膠瓶裝、PTP鋁箔盒裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "井田國際醫藥廠股份有限公司",
+          "address": "台中市大甲區幼獅路32號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段77號2、3樓、79號1至6樓"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1115 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:47:10.682306+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12001752",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第001752號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第001752號",
+      "matched_license_code": "12001752",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"強生\"福樂你糖衣錠",
+      "drug_name_en": "FRONIL S.C. TABLETS \"JOHNSON\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-07-03",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠含Imipramine Hydrochloride .............................................25mg",
+          "content_html": "<p>每錠含Imipramine Hydrochloride .............................................25mg</p>",
+          "search_text": "1.1\n有效成分及含量\n每錠含Imipramine Hydrochloride .............................................25mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Lactose、Corn Starch、Sodium Starch Glycolate、Silicon Dioxide Colloidal、Povidone、Magnesium Stearate、Hydroxypropyl Methylcellulose、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Co-Polymer、Iron Oxide Red HD-3511",
+          "content_html": "<p>Lactose、Corn Starch、Sodium Starch Glycolate、Silicon Dioxide Colloidal、Povidone、Magnesium Stearate、Hydroxypropyl Methylcellulose、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Co-Polymer、Iron Oxide Red HD-3511</p>",
+          "search_text": "1.2\n賦形劑\nLactose、Corn Starch、Sodium Starch Glycolate、Silicon Dioxide Colloidal、Povidone、Magnesium Stearate、Hydroxypropyl Methylcellulose、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Co-Polymer、Iron Oxide Red HD-3511",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "糖衣錠",
+          "content_html": "<p>糖衣錠</p>",
+          "search_text": "1.3\n劑型\n糖衣錠",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "粉紅色圓形錠劑",
+          "content_html": "<p>粉紅色圓形錠劑</p>",
+          "search_text": "1.4\n藥品外觀\n粉紅色圓形錠劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "憂鬱病、夜尿。",
+          "content_html": "<p>憂鬱病、夜尿。</p>",
+          "search_text": "2\n適應症\n憂鬱病、夜尿。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "3.1.1 憂鬱病：用法及給藥方式因人而異，且須依病人情況作調整。原則上，儘可能用最低有效劑量，且要小心地增加劑量，特別是老年人或青少年的治療，使用Imipramine治療期間，須嚴密監測病人，以確定此藥的療效及病人耐受性。 3.1.2 住院患者－初劑量為每日100mg，分次服用；必要時可逐漸增至每日200mg。二週後若無明顯改善則增至每日250-300mg。 3.1.3 門診患者－初劑量為每日75mg，可增至每日150mg，每日劑量不可超過200mg，維持劑量為每日50-150mg。",
+          "content_html": "<p>3.1.1 憂鬱病：用法及給藥方式因人而異，且須依病人情況作調整。原則上，儘可能用最低有效劑量，且要小心地增加劑量，特別是老年人或青少年的治療，使用Imipramine治療期間，須嚴密監測病人，以確定此藥的療效及病人耐受性。<br>3.1.2 住院患者－初劑量為每日100mg，分次服用；必要時可逐漸增至每日200mg。二週後若無明顯改善則增至每日250-300mg。<br>3.1.3 門診患者－初劑量為每日75mg，可增至每日150mg，每日劑量不可超過200mg，維持劑量為每日50-150mg。<br>&nbsp;</p>",
+          "search_text": "3.1\n用法用量\n3.1.1 憂鬱病：用法及給藥方式因人而異，且須依病人情況作調整。原則上，儘可能用最低有效劑量，且要小心地增加劑量，特別是老年人或青少年的治療，使用Imipramine治療期間，須嚴密監測病人，以確定此藥的療效及病人耐受性。 3.1.2 住院患者－初劑量為每日100mg，分次服用；必要時可逐漸增至每日200mg。二週後若無明顯改善則增至每日250-300mg。 3.1.3 門診患者－初劑量為每日75mg，可增至每日150mg，每日劑量不可超過200mg，維持劑量為每日50-150mg。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "3.3.1 青少年及老年人－初劑量每日30-40mg，每日不可超過100mg。 3.3.2 兒童遺尿：6歲以上兒童之初劑量為每日25mg，睡前1小時服用，一週內若無明顯療效則依下列劑量投與： 12歲以下：每晚服用50mg。 12歲以上：每晚服用75mg。 服用75mg以上之劑量並不會提高療效。對於入睡不久即尿床的小孩要在晚餐前給與部份劑量。每日劑量不可超過2.5mg/kg。 3.3.3 本藥對於6歲以下夜尿症兒童之有效性及安全性尚未確立。",
+          "content_html": "<p>3.3.1 青少年及老年人－初劑量每日30-40mg，每日不可超過100mg。<br>3.3.2 兒童遺尿：6歲以上兒童之初劑量為每日25mg，睡前1小時服用，一週內若無明顯療效則依下列劑量投與：<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12歲以下：每晚服用50mg。<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;12歲以上：每晚服用75mg。<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;服用75mg以上之劑量並不會提高療效。對於入睡不久即尿床的小孩要在晚餐前給與部份劑量。每日劑量不可超過2.5mg/kg。<br>3.3.3 本藥對於6歲以下夜尿症兒童之有效性及安全性尚未確立。</p>",
+          "search_text": "3.3\n特殊族群用法用量\n3.3.1 青少年及老年人－初劑量每日30-40mg，每日不可超過100mg。 3.3.2 兒童遺尿：6歲以上兒童之初劑量為每日25mg，睡前1小時服用，一週內若無明顯療效則依下列劑量投與： 12歲以下：每晚服用50mg。 12歲以上：每晚服用75mg。 服用75mg以上之劑量並不會提高療效。對於入睡不久即尿床的小孩要在晚餐前給與部份劑量。每日劑量不可超過2.5mg/kg。 3.3.3 本藥對於6歲以下夜尿症兒童之有效性及安全性尚未確立。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4\n禁忌",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4.1",
+          "parent_id": "4",
+          "level": 2,
+          "number": "4.1",
+          "title": "與MAO抑制劑併用，可能會導致過高熱，嚴重痙攣及抽搐，二者投藥間隔至少需14天。",
+          "title_html": "與MAO抑制劑併用，可能會導致過高熱，嚴重痙攣及抽搐，二者投藥間隔至少需14天。",
+          "path": [
+            "禁忌",
+            "與MAO抑制劑併用，可能會導致過高熱，嚴重痙攣及抽搐，二者投藥間隔至少需14天。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4.1\n與MAO抑制劑併用，可能會導致過高熱，嚴重痙攣及抽搐，二者投藥間隔至少需14天。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "level": 2,
+          "number": "4.2",
+          "title": "心肌梗塞危急者。",
+          "title_html": "心肌梗塞危急者。",
+          "path": [
+            "禁忌",
+            "心肌梗塞危急者。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4.2\n心肌梗塞危急者。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4.3",
+          "parent_id": "4",
+          "level": 2,
+          "number": "4.3",
+          "title": "已知對本藥及Dibenzazepine類三環抗憂鬱劑過敏者。",
+          "title_html": "已知對本藥及Dibenzazepine類三環抗憂鬱劑過敏者。",
+          "path": [
+            "禁忌",
+            "已知對本藥及Dibenzazepine類三環抗憂鬱劑過敏者。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4.3\n已知對本藥及Dibenzazepine類三環抗憂鬱劑過敏者。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "在開始治療之前，建議查看病人的血壓，因低血壓及循環不穩定的病人對Imipramine Hydrochloride會產生血壓下降的反應。",
+          "title_html": "在開始治療之前，建議查看病人的血壓，因低血壓及循環不穩定的病人對Imipramine Hydrochloride會產生血壓下降的反應。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "在開始治療之前，建議查看病人的血壓，因低血壓及循環不穩定的病人對Imipramine Hydrochloride會產生血壓下降的反應。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.1\n在開始治療之前，建議查看病人的血壓，因低血壓及循環不穩定的病人對Imipramine Hydrochloride會產生血壓下降的反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "下列患者應審慎投與本藥：",
+          "title_html": "下列患者應審慎投與本藥：",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "下列患者應審慎投與本藥："
+          ],
+          "content_text": "－有心血管功能不全的病人、房室阻斷（一級至三級）、心律不整、鬱血性心臟衰竭、心肌梗塞、中風及心跳過速。 －有狹角性青光眼的病人。 －因尿液流動受阻而排尿異常的病人（如有攝護腺疾病的病人）。 －低抽搐閥值的病人（各種病因、癲癇、酒精中毒所引起的腦部受傷）。 －甲狀腺機能過度旺盛病人或與甲狀腺製劑併用要小心，因通常可預期其抗膽鹼作用會加速心臟方面之副作用。 －有嚴重肝臟或腎臟疾病病人。 －有腎上腺髓質腫瘤的病人（如嗜鉻細胞瘤、神經母細胞瘤），Imipramine會加重高血壓危機。",
+          "content_html": "<p>－有心血管功能不全的病人、房室阻斷（一級至三級）、心律不整、鬱血性心臟衰竭、心肌梗塞、中風及心跳過速。<br>－有狹角性青光眼的病人。<br>－因尿液流動受阻而排尿異常的病人（如有攝護腺疾病的病人）。<br>－低抽搐閥值的病人（各種病因、癲癇、酒精中毒所引起的腦部受傷）。<br>－甲狀腺機能過度旺盛病人或與甲狀腺製劑併用要小心，因通常可預期其抗膽鹼作用會加速心臟方面之副作用。<br>－有嚴重肝臟或腎臟疾病病人。<br>－有腎上腺髓質腫瘤的病人（如嗜鉻細胞瘤、神經母細胞瘤），Imipramine會加重高血壓危機。</p>",
+          "search_text": "5.1.2\n下列患者應審慎投與本藥：\n－有心血管功能不全的病人、房室阻斷（一級至三級）、心律不整、鬱血性心臟衰竭、心肌梗塞、中風及心跳過速。 －有狹角性青光眼的病人。 －因尿液流動受阻而排尿異常的病人（如有攝護腺疾病的病人）。 －低抽搐閥值的病人（各種病因、癲癇、酒精中毒所引起的腦部受傷）。 －甲狀腺機能過度旺盛病人或與甲狀腺製劑併用要小心，因通常可預期其抗膽鹼作用會加速心臟方面之副作用。 －有嚴重肝臟或腎臟疾病病人。 －有腎上腺髓質腫瘤的病人（如嗜鉻細胞瘤、神經母細胞瘤），Imipramine會加重高血壓危機。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.3",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "警語"
+          ],
+          "content_text": "5.1.3.1 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用imipramine或其他抗憂鬱劑於小孩、青少年和青年人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。 5.1.3.2 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial, RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。",
+          "content_html": "<p>5.1.3.1 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用imipramine或其他抗憂鬱劑於小孩、青少年和青年人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。<br>5.1.3.2 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial, RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。</p>",
+          "search_text": "5.1.3\n警語\n5.1.3.1 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用imipramine或其他抗憂鬱劑於小孩、青少年和青年人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。 5.1.3.2 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial, RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "本藥偶會引起疲倦感，少數病例會有使病人反應受損的中樞神經症狀。因此須警告病人不要進行須快速反應的活動，如駕駛汽車和操作機器。",
+          "content_html": "<p>本藥偶會引起疲倦感，少數病例會有使病人反應受損的中樞神經症狀。因此須警告病人不要進行須快速反應的活動，如駕駛汽車和操作機器。</p>",
+          "search_text": "5.3\n操作機械能力\n本藥偶會引起疲倦感，少數病例會有使病人反應受損的中樞神經症狀。因此須警告病人不要進行須快速反應的活動，如駕駛汽車和操作機器。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "FDA Pregnancy Category（懷孕用藥級數）：D Imipramine使用於孕婦的經驗有限。因曾有些個案報告Imipramine的使用與胎兒的副作用可能有關，在懷孕期間須避免使用本藥且只在預期利益超過對胎兒的潛在危險才考慮使用。生產前仍服用Imipramine的母親，其新生兒會在剛出生的幾小時或幾天出現禁斷症狀，如呼吸困難、嗜眠症、結腸炎、不適感、低血壓或高血壓、震顫或痙攣。為了防止上述症狀，Imipramine需在預產期前至少七個禮拜停藥。",
+          "content_html": "<p>FDA Pregnancy Category（懷孕用藥級數）：D<br>Imipramine使用於孕婦的經驗有限。因曾有些個案報告Imipramine的使用與胎兒的副作用可能有關，在懷孕期間須避免使用本藥且只在預期利益超過對胎兒的潛在危險才考慮使用。生產前仍服用Imipramine的母親，其新生兒會在剛出生的幾小時或幾天出現禁斷症狀，如呼吸困難、嗜眠症、結腸炎、不適感、低血壓或高血壓、震顫或痙攣。為了防止上述症狀，Imipramine需在預產期前至少七個禮拜停藥。</p>",
+          "search_text": "6.1\n懷孕\nFDA Pregnancy Category（懷孕用藥級數）：D Imipramine使用於孕婦的經驗有限。因曾有些個案報告Imipramine的使用與胎兒的副作用可能有關，在懷孕期間須避免使用本藥且只在預期利益超過對胎兒的潛在危險才考慮使用。生產前仍服用Imipramine的母親，其新生兒會在剛出生的幾小時或幾天出現禁斷症狀，如呼吸困難、嗜眠症、結腸炎、不適感、低血壓或高血壓、震顫或痙攣。為了防止上述症狀，Imipramine需在預產期前至少七個禮拜停藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "有少量的主成分和其代謝物desmethylimipramine會進入乳汁。由於此發現對嬰兒臨床上的影響未知，故嬰兒需停止母乳或母親停藥。",
+          "content_html": "<p>有少量的主成分和其代謝物desmethylimipramine會進入乳汁。由於此發現對嬰兒臨床上的影響未知，故嬰兒需停止母乳或母親停藥。</p>",
+          "search_text": "6.2\n哺乳\n有少量的主成分和其代謝物desmethylimipramine會進入乳汁。由於此發現對嬰兒臨床上的影響未知，故嬰兒需停止母乳或母親停藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "兒童每日劑量不可超過2.5mg/kg。",
+          "content_html": "<p>兒童每日劑量不可超過2.5mg/kg。</p>",
+          "search_text": "6.4\n小兒\n兒童每日劑量不可超過2.5mg/kg。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "6.8.1 有心血管疾病的病人特別是有傳導異常病史者和老年病人，應謹慎投與。要監測此類病人的心血管功能和ECG。 6.8.2 治療期間通常需監測血球數（特別是病人有發熱、喉嚨痛或其它與流行性感冒感染相關之症狀），因少數病人的顆粒性白血球缺乏症與三環抗鬱劑的使用有關。長期使用Imipramine治療建議要監測肝和腎功能。長期的三環抗鬱劑治療會導致齟齒發生率增加。由於Imipramine的活潑性，可能會對精神不穩定病人及伴有精神分裂症病人引發焦慮、不安和過度興奮。 6.8.3 對易罹患疾病者和老年病人，Imipramine可能會特別是在夜晚，激起藥生成性（譫妄症）精神病，但在停藥數天後會消失毋需治療，雙重情緒疾病的病人可能會由憂鬱轉為輕度躁狂或躁狂，此類病人可能需停用Imipramine並給予其它藥以控制躁狂。待躁狂現象消失後，如有需要可給與低劑量Imipramine治療。 6.8.4 如有自殺的危險性，需在Imipramine治療期間嚴密監測此病人，此類病人起始治療併用鎮靜性神經分解性藥物和／或benzodiazepines會得到良好的效果，可考慮諮詢精神病的臨床醫師。 6.8.5 在外科手術之前要告知麻醉醫師病人曾用過Imipramine，因為目前同時併用三環抗鬱劑和麻醉劑的交互作用尚未完全明瞭。 6.8.6 須在嚴密監測下才可同時使用Imipramine和抽搐電療法。有很多疼痛發作的病人，其焦慮症狀會在抗憂鬱劑開始治療時惡化。此種焦慮惡化的矛盾現象在開始治療的前幾天特別明顯，通常會在此療程的隨後兩星期消失。",
+          "content_html": "<p>6.8.1 有心血管疾病的病人特別是有傳導異常病史者和老年病人，應謹慎投與。要監測此類病人的心血管功能和ECG。<br>6.8.2 治療期間通常需監測血球數（特別是病人有發熱、喉嚨痛或其它與流行性感冒感染相關之症狀），因少數病人的顆粒性白血球缺乏症與三環抗鬱劑的使用有關。長期使用Imipramine治療建議要監測肝和腎功能。長期的三環抗鬱劑治療會導致齟齒發生率增加。由於Imipramine的活潑性，可能會對精神不穩定病人及伴有精神分裂症病人引發焦慮、不安和過度興奮。<br>6.8.3 對易罹患疾病者和老年病人，Imipramine可能會特別是在夜晚，激起藥生成性（譫妄症）精神病，但在停藥數天後會消失毋需治療，雙重情緒疾病的病人可能會由憂鬱轉為輕度躁狂或躁狂，此類病人可能需停用Imipramine並給予其它藥以控制躁狂。待躁狂現象消失後，如有需要可給與低劑量Imipramine治療。<br>6.8.4 如有自殺的危險性，需在Imipramine治療期間嚴密監測此病人，此類病人起始治療併用鎮靜性神經分解性藥物和／或benzodiazepines會得到良好的效果，可考慮諮詢精神病的臨床醫師。<br>6.8.5 在外科手術之前要告知麻醉醫師病人曾用過Imipramine，因為目前同時併用三環抗鬱劑和麻醉劑的交互作用尚未完全明瞭。<br>6.8.6 須在嚴密監測下才可同時使用Imipramine和抽搐電療法。有很多疼痛發作的病人，其焦慮症狀會在抗憂鬱劑開始治療時惡化。此種焦慮惡化的矛盾現象在開始治療的前幾天特別明顯，通常會在此療程的隨後兩星期消失。<br>&nbsp;</p>",
+          "search_text": "6.8\n其他族群\n6.8.1 有心血管疾病的病人特別是有傳導異常病史者和老年病人，應謹慎投與。要監測此類病人的心血管功能和ECG。 6.8.2 治療期間通常需監測血球數（特別是病人有發熱、喉嚨痛或其它與流行性感冒感染相關之症狀），因少數病人的顆粒性白血球缺乏症與三環抗鬱劑的使用有關。長期使用Imipramine治療建議要監測肝和腎功能。長期的三環抗鬱劑治療會導致齟齒發生率增加。由於Imipramine的活潑性，可能會對精神不穩定病人及伴有精神分裂症病人引發焦慮、不安和過度興奮。 6.8.3 對易罹患疾病者和老年病人，Imipramine可能會特別是在夜晚，激起藥生成性（譫妄症）精神病，但在停藥數天後會消失毋需治療，雙重情緒疾病的病人可能會由憂鬱轉為輕度躁狂或躁狂，此類病人可能需停用Imipramine並給予其它藥以控制躁狂。待躁狂現象消失後，如有需要可給與低劑量Imipramine治療。 6.8.4 如有自殺的危險性，需在Imipramine治療期間嚴密監測此病人，此類病人起始治療併用鎮靜性神經分解性藥物和／或benzodiazepines會得到良好的效果，可考慮諮詢精神病的臨床醫師。 6.8.5 在外科手術之前要告知麻醉醫師病人曾用過Imipramine，因為目前同時併用三環抗鬱劑和麻醉劑的交互作用尚未完全明瞭。 6.8.6 須在嚴密監測下才可同時使用Imipramine和抽搐電療法。有很多疼痛發作的病人，其焦慮症狀會在抗憂鬱劑開始治療時惡化。此種焦慮惡化的矛盾現象在開始治療的前幾天特別明顯，通常會在此療程的隨後兩星期消失。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "7.1 假如在MAO抑制劑治療之後要投與本藥，絕對要遵守至少需間隔十四天，否則可能發生嚴重的交互作用。若是先用Imipramine治療之後再投與MAO抑制劑也同樣須遵守上述規定，有上述的任一種情況，在開始投與Imipramine或MAO抑制劑要謹慎，且要逐步增加劑量直到病情有最佳穩定，因三環抗鬱劑會降低或阻礙clonidine、guanethidine、bethanidine、reserpine和methyldopa的降壓作用，必要時可用不同作用機轉的降壓劑（如利尿劑、β阻斷劑）。 7.2 三環抗鬱劑可能會加強交感神經作用藥如腎上腺素、正腎上腺素、安非他命（包括鼻滴液及具交感神經作用的局部麻醉劑）的心血管作用，三環抗鬱劑會加強酒精和中樞抑制劑（如barbiturates、benzodiazepines或全身麻醉劑），也會加強抗膽鹼作用藥（如atropine、biperiden、levodopa）之作用。當三環抗鬱劑與抗膽鹼作用藥或具抗膽鹼作用的類神經病症狀藥物併用，可能發生過度興奮甚至妄想和青光眼。三環抗鬱劑不要與quinidine型抗心律不整劑併用。能活化肝臟單氧化脢酵素系統的物質（如，barbiturates、phenytoin、nicotine）會降低三環抗鬱劑的血漿濃度，而降低抗鬱作用。除此之外，同時投與Imipramine和phenytoin會使phenytoin血中濃度上升，因此必要時要調整phenytoin劑量。類神經病症狀藥物（如phenothiazine）會增加imipramine的血中濃度，併用diazepam不會發生此作用，但併用alprazolam或disulfiram可能需降低imipramine的劑量。因cimetidine會增加imipramine的血中濃度，併用時要減少imipramine劑量，但ranitidine則不改變imipramine的動力學。Methylphenidate會引起三環抗鬱劑的血中濃度上升，加強其抗鬱作用。Imipramine若和estrogen同時使用，需降低imipramine劑量，因固醇類荷爾蒙會抑制imipramine代謝。",
+          "content_html": "<p>7.1 假如在MAO抑制劑治療之後要投與本藥，絕對要遵守至少需間隔十四天，否則可能發生嚴重的交互作用。若是先用Imipramine治療之後再投與MAO抑制劑也同樣須遵守上述規定，有上述的任一種情況，在開始投與Imipramine或MAO抑制劑要謹慎，且要逐步增加劑量直到病情有最佳穩定，因三環抗鬱劑會降低或阻礙clonidine、guanethidine、bethanidine、reserpine和methyldopa的降壓作用，必要時可用不同作用機轉的降壓劑（如利尿劑、β阻斷劑）。<br>7.2 三環抗鬱劑可能會加強交感神經作用藥如腎上腺素、正腎上腺素、安非他命（包括鼻滴液及具交感神經作用的局部麻醉劑）的心血管作用，三環抗鬱劑會加強酒精和中樞抑制劑（如barbiturates、benzodiazepines或全身麻醉劑），也會加強抗膽鹼作用藥（如atropine、biperiden、levodopa）之作用。當三環抗鬱劑與抗膽鹼作用藥或具抗膽鹼作用的類神經病症狀藥物併用，可能發生過度興奮甚至妄想和青光眼。三環抗鬱劑不要與quinidine型抗心律不整劑併用。能活化肝臟單氧化脢酵素系統的物質（如，barbiturates、phenytoin、nicotine）會降低三環抗鬱劑的血漿濃度，而降低抗鬱作用。除此之外，同時投與Imipramine和phenytoin會使phenytoin血中濃度上升，因此必要時要調整phenytoin劑量。類神經病症狀藥物（如phenothiazine）會增加imipramine的血中濃度，併用diazepam不會發生此作用，但併用alprazolam或disulfiram可能需降低imipramine的劑量。因cimetidine會增加imipramine的血中濃度，併用時要減少imipramine劑量，但ranitidine則不改變imipramine的動力學。Methylphenidate會引起三環抗鬱劑的血中濃度上升，加強其抗鬱作用。Imipramine若和estrogen同時使用，需降低imipramine劑量，因固醇類荷爾蒙會抑制imipramine代謝。</p>",
+          "search_text": "7\n交互作用\n7.1 假如在MAO抑制劑治療之後要投與本藥，絕對要遵守至少需間隔十四天，否則可能發生嚴重的交互作用。若是先用Imipramine治療之後再投與MAO抑制劑也同樣須遵守上述規定，有上述的任一種情況，在開始投與Imipramine或MAO抑制劑要謹慎，且要逐步增加劑量直到病情有最佳穩定，因三環抗鬱劑會降低或阻礙clonidine、guanethidine、bethanidine、reserpine和methyldopa的降壓作用，必要時可用不同作用機轉的降壓劑（如利尿劑、β阻斷劑）。 7.2 三環抗鬱劑可能會加強交感神經作用藥如腎上腺素、正腎上腺素、安非他命（包括鼻滴液及具交感神經作用的局部麻醉劑）的心血管作用，三環抗鬱劑會加強酒精和中樞抑制劑（如barbiturates、benzodiazepines或全身麻醉劑），也會加強抗膽鹼作用藥（如atropine、biperiden、levodopa）之作用。當三環抗鬱劑與抗膽鹼作用藥或具抗膽鹼作用的類神經病症狀藥物併用，可能發生過度興奮甚至妄想和青光眼。三環抗鬱劑不要與quinidine型抗心律不整劑併用。能活化肝臟單氧化脢酵素系統的物質（如，barbiturates、phenytoin、nicotine）會降低三環抗鬱劑的血漿濃度，而降低抗鬱作用。除此之外，同時投與Imipramine和phenytoin會使phenytoin血中濃度上升，因此必要時要調整phenytoin劑量。類神經病症狀藥物（如phenothiazine）會增加imipramine的血中濃度，併用diazepam不會發生此作用，但併用alprazolam或disulfiram可能需降低imipramine的劑量。因cimetidine會增加imipramine的血中濃度，併用時要減少imipramine劑量，但ranitidine則不改變imipramine的動力學。Methylphenidate會引起三環抗鬱劑的血中濃度上升，加強其抗鬱作用。Imipramine若和estrogen同時使用，需降低imipramine劑量，因固醇類荷爾蒙會抑制imipramine代謝。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "8.1.1 心血管系統：直立性低血壓、高血壓、心跳過速、心悸、心肌梗塞、心律不整、心臟阻斷作用、ECG變化、鬱血性心衰竭惡化、中風。 8.1.2 中樞神經系統： 精神作用－疲倦、懼光、睡眠障礙、焦慮增加、感覺不安和過度激動、由憂鬱轉為輕度躁狂或躁狂、譫妄症，如混亂伴有方向感喪失和幻覺（特別是老年病人和Parkinson’s症病人）、精神症狀的活化、興奮。 神經作用－輕微震顫。感覺異常（無感覺、刺感、與周邊神經病學相關症狀）、頭痛、頭暈、癲癇發作、肌陣攣、虛弱、錐體外症狀、運動失調、語言障礙。 8.1.3 抗膽鹼作用－口乾、便秘、流汗、面潮紅、視力失調和視覺模糊、排尿困難、散瞳、青光眼和腸膈麻痺。 8.1.4 呼吸道－有或無嗜伊紅血球過多的過敏性齒槽炎（肺炎）。 8.1.5 胃腸道－噁心、嘔吐、食慾喪失、轉氨基脢值升高、胃炎、舌損害、腹部不適、有或無黃疸的肝炎。 8.1.6 皮膚－過敏皮膚反應（皮膚疹、蕁麻疹）、搔癢病、瘀斑、光敏感、水腫（局部或全身）、毛髮脫落。 8.1.7 內分泌系統和代謝－體重增加、性慾障礙和性無能、乳腺擴大、溢乳、SIADH（不正常之抗利尿激素分泌）、血糖上昇或下降、體重減輕。 8.1.8 血液－嗜伊紅血球過多、白血球缺乏、顆粒性白血球缺乏、紫斑病和血小板減少。 8.1.9 其他－突然停止治療可能會發生下列副作用，但不視為成癮的徵兆：噁心、嘔吐、腹部疼痛、腹瀉、失眠、頭痛、神經過敏和焦慮、耳鳴、藥物熱。",
+          "content_html": "<p>8.1.1 心血管系統：直立性低血壓、高血壓、心跳過速、心悸、心肌梗塞、心律不整、心臟阻斷作用、ECG變化、鬱血性心衰竭惡化、中風。<br>8.1.2 中樞神經系統：<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;精神作用－疲倦、懼光、睡眠障礙、焦慮增加、感覺不安和過度激動、由憂鬱轉為輕度躁狂或躁狂、譫妄症，如混亂伴有方向感喪失和幻覺（特別是老年病人和Parkinson’s症病人）、精神症狀的活化、興奮。<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;神經作用－輕微震顫。感覺異常（無感覺、刺感、與周邊神經病學相關症狀）、頭痛、頭暈、癲癇發作、肌陣攣、虛弱、錐體外症狀、運動失調、語言障礙。<br>8.1.3 抗膽鹼作用－口乾、便秘、流汗、面潮紅、視力失調和視覺模糊、排尿困難、散瞳、青光眼和腸膈麻痺。<br>8.1.4 呼吸道－有或無嗜伊紅血球過多的過敏性齒槽炎（肺炎）。<br>8.1.5 胃腸道－噁心、嘔吐、食慾喪失、轉氨基脢值升高、胃炎、舌損害、腹部不適、有或無黃疸的肝炎。<br>8.1.6 皮膚－過敏皮膚反應（皮膚疹、蕁麻疹）、搔癢病、瘀斑、光敏感、水腫（局部或全身）、毛髮脫落。<br>8.1.7 內分泌系統和代謝－體重增加、性慾障礙和性無能、乳腺擴大、溢乳、SIADH（不正常之抗利尿激素分泌）、血糖上昇或下降、體重減輕。<br>8.1.8 血液－嗜伊紅血球過多、白血球缺乏、顆粒性白血球缺乏、紫斑病和血小板減少。<br>8.1.9 其他－突然停止治療可能會發生下列副作用，但不視為成癮的徵兆：噁心、嘔吐、腹部疼痛、腹瀉、失眠、頭痛、神經過敏和焦慮、耳鳴、藥物熱。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n8.1.1 心血管系統：直立性低血壓、高血壓、心跳過速、心悸、心肌梗塞、心律不整、心臟阻斷作用、ECG變化、鬱血性心衰竭惡化、中風。 8.1.2 中樞神經系統： 精神作用－疲倦、懼光、睡眠障礙、焦慮增加、感覺不安和過度激動、由憂鬱轉為輕度躁狂或躁狂、譫妄症，如混亂伴有方向感喪失和幻覺（特別是老年病人和Parkinson’s症病人）、精神症狀的活化、興奮。 神經作用－輕微震顫。感覺異常（無感覺、刺感、與周邊神經病學相關症狀）、頭痛、頭暈、癲癇發作、肌陣攣、虛弱、錐體外症狀、運動失調、語言障礙。 8.1.3 抗膽鹼作用－口乾、便秘、流汗、面潮紅、視力失調和視覺模糊、排尿困難、散瞳、青光眼和腸膈麻痺。 8.1.4 呼吸道－有或無嗜伊紅血球過多的過敏性齒槽炎（肺炎）。 8.1.5 胃腸道－噁心、嘔吐、食慾喪失、轉氨基脢值升高、胃炎、舌損害、腹部不適、有或無黃疸的肝炎。 8.1.6 皮膚－過敏皮膚反應（皮膚疹、蕁麻疹）、搔癢病、瘀斑、光敏感、水腫（局部或全身）、毛髮脫落。 8.1.7 內分泌系統和代謝－體重增加、性慾障礙和性無能、乳腺擴大、溢乳、SIADH（不正常之抗利尿激素分泌）、血糖上昇或下降、體重減輕。 8.1.8 血液－嗜伊紅血球過多、白血球缺乏、顆粒性白血球缺乏、紫斑病和血小板減少。 8.1.9 其他－突然停止治療可能會發生下列副作用，但不視為成癮的徵兆：噁心、嘔吐、腹部疼痛、腹瀉、失眠、頭痛、神經過敏和焦慮、耳鳴、藥物熱。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "9.1 因為憂鬱症病人有自殺的危險，Imipramine只能由醫師處方使用或給與病人少量。孩童對本藥急性過量的反應較成人敏感，且曾有致命的報告，因此要儘量避免過量；若過量時需嚴密小心治療。 9.2 徵兆及症狀：三環抗鬱劑中毒的第一現象及徵狀通常是嚴重的抗膽鹼作用，約在投藥後1/2~2小時發作。多種因素會影響三環抗鬱劑中毒的嚴重程度，如被吸收的藥物量、過量發生後開始治療的間隔時間、病人年齡。 9.3 可能會有下列徵兆及症狀：中樞神經系統：嗜眠、人事不省、昏迷、共濟不能、不安、興奮、反射加強、肌肉僵直、指痙病及舞蹈指痙病、抽搐；心臟：心律不整、心跳過快、傳導障礙、心衰竭；極罕病例：心跳停止。 尚有呼吸抑制、低血壓、休克、嘔吐、發熱、散瞳、流汗和尿量減少或無尿症。 9.4 過量治療：即使是小量的過量之後亦須住院（密切照顧）。沒有特定的解毒劑。使用physostigmine仍具爭議性，因會增加癲癇發作的危險性。當Imipramine口服時，可嘗試催吐；否則需洗胃。須投與活性碳。三環抗鬱劑嚴重中毒需立刻住院，並持續監測心血管功能至少48小時。ECG異常的所有病人－即使在ECG已恢復正常之後－需再密切觀察心臟功能至少72小時，因可能復發。 9.5 發生過量時需採取下列步驟： －呼吸衰竭：插管及人工呼吸。 －嚴重低血壓：病人需置於適當的位置，並給與血漿擴張劑dopamine或dobutamine靜脈點滴。 －需依病人需要治療其心律不整。 －需考慮移植心臟節律器。 －需矯治低血鉀和酸中毒。 －抽搐病人：需I.V.給與diazepam或其他抗抽搐劑。 －滲析或血液透析無效。",
+          "content_html": "<p>9.1 因為憂鬱症病人有自殺的危險，Imipramine只能由醫師處方使用或給與病人少量。孩童對本藥急性過量的反應較成人敏感，且曾有致命的報告，因此要儘量避免過量；若過量時需嚴密小心治療。<br>9.2 徵兆及症狀：三環抗鬱劑中毒的第一現象及徵狀通常是嚴重的抗膽鹼作用，約在投藥後1/2~2小時發作。多種因素會影響三環抗鬱劑中毒的嚴重程度，如被吸收的藥物量、過量發生後開始治療的間隔時間、病人年齡。<br>9.3 可能會有下列徵兆及症狀：中樞神經系統：嗜眠、人事不省、昏迷、共濟不能、不安、興奮、反射加強、肌肉僵直、指痙病及舞蹈指痙病、抽搐；心臟：心律不整、心跳過快、傳導障礙、心衰竭；極罕病例：心跳停止。<br>尚有呼吸抑制、低血壓、休克、嘔吐、發熱、散瞳、流汗和尿量減少或無尿症。<br>9.4 過量治療：即使是小量的過量之後亦須住院（密切照顧）。沒有特定的解毒劑。使用physostigmine仍具爭議性，因會增加癲癇發作的危險性。當Imipramine口服時，可嘗試催吐；否則需洗胃。須投與活性碳。三環抗鬱劑嚴重中毒需立刻住院，並持續監測心血管功能至少48小時。ECG異常的所有病人－即使在ECG已恢復正常之後－需再密切觀察心臟功能至少72小時，因可能復發。<br>9.5 發生過量時需採取下列步驟：<br>－呼吸衰竭：插管及人工呼吸。<br>－嚴重低血壓：病人需置於適當的位置，並給與血漿擴張劑dopamine或dobutamine靜脈點滴。<br>－需依病人需要治療其心律不整。<br>－需考慮移植心臟節律器。<br>－需矯治低血鉀和酸中毒。<br>－抽搐病人：需I.V.給與diazepam或其他抗抽搐劑。<br>－滲析或血液透析無效。</p>",
+          "search_text": "9\n過量\n9.1 因為憂鬱症病人有自殺的危險，Imipramine只能由醫師處方使用或給與病人少量。孩童對本藥急性過量的反應較成人敏感，且曾有致命的報告，因此要儘量避免過量；若過量時需嚴密小心治療。 9.2 徵兆及症狀：三環抗鬱劑中毒的第一現象及徵狀通常是嚴重的抗膽鹼作用，約在投藥後1/2~2小時發作。多種因素會影響三環抗鬱劑中毒的嚴重程度，如被吸收的藥物量、過量發生後開始治療的間隔時間、病人年齡。 9.3 可能會有下列徵兆及症狀：中樞神經系統：嗜眠、人事不省、昏迷、共濟不能、不安、興奮、反射加強、肌肉僵直、指痙病及舞蹈指痙病、抽搐；心臟：心律不整、心跳過快、傳導障礙、心衰竭；極罕病例：心跳停止。 尚有呼吸抑制、低血壓、休克、嘔吐、發熱、散瞳、流汗和尿量減少或無尿症。 9.4 過量治療：即使是小量的過量之後亦須住院（密切照顧）。沒有特定的解毒劑。使用physostigmine仍具爭議性，因會增加癲癇發作的危險性。當Imipramine口服時，可嘗試催吐；否則需洗胃。須投與活性碳。三環抗鬱劑嚴重中毒需立刻住院，並持續監測心血管功能至少48小時。ECG異常的所有病人－即使在ECG已恢復正常之後－需再密切觀察心臟功能至少72小時，因可能復發。 9.5 發生過量時需採取下列步驟： －呼吸衰竭：插管及人工呼吸。 －嚴重低血壓：病人需置於適當的位置，並給與血漿擴張劑dopamine或dobutamine靜脈點滴。 －需依病人需要治療其心律不整。 －需考慮移植心臟節律器。 －需矯治低血鉀和酸中毒。 －抽搐病人：需I.V.給與diazepam或其他抗抽搐劑。 －滲析或血液透析無效。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "Imipramine具有多種藥理作用，包括α-腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT接受體。Imipramine的抗憂鬱機轉未知，可能主要是抑制神經對正腎上腺素(NA)和serotonin(5-HT)的再吸收，但不包括對中樞神經系統的刺激作用。",
+          "content_html": "<p>Imipramine具有多種藥理作用，包括α-腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT接受體。Imipramine的抗憂鬱機轉未知，可能主要是抑制神經對正腎上腺素(NA)和serotonin(5-HT)的再吸收，但不包括對中樞神經系統的刺激作用。</p>",
+          "search_text": "10.2\n藥效藥理特性\nImipramine具有多種藥理作用，包括α-腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT接受體。Imipramine的抗憂鬱機轉未知，可能主要是抑制神經對正腎上腺素(NA)和serotonin(5-HT)的再吸收，但不包括對中樞神經系統的刺激作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "4~1,000錠塑膠瓶裝及鋁箔盒裝。",
+          "content_html": "<p>4~1,000錠塑膠瓶裝及鋁箔盒裝。</p>",
+          "search_text": "13.1\n包裝\n4~1,000錠塑膠瓶裝及鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。",
+          "content_html": "<p>本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。</p>",
+          "search_text": "13.3\n儲存條件\n本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每錠含Imipramine Hydrochloride .............................................25mg\n1.2\n賦形劑\nLactose、Corn Starch、Sodium Starch Glycolate、Silicon Dioxide Colloidal、Povidone、Magnesium Stearate、Hydroxypropyl Methylcellulose、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Co-Polymer、Iron Oxide Red HD-3511\n1.3\n劑型\n糖衣錠\n1.4\n藥品外觀\n粉紅色圓形錠劑\n2\n適應症\n憂鬱病、夜尿。\n3\n用法及用量\n3.1\n用法用量\n3.1.1 憂鬱病：用法及給藥方式因人而異，且須依病人情況作調整。原則上，儘可能用最低有效劑量，且要小心地增加劑量，特別是老年人或青少年的治療，使用Imipramine治療期間，須嚴密監測病人，以確定此藥的療效及病人耐受性。 3.1.2 住院患者－初劑量為每日100mg，分次服用；必要時可逐漸增至每日200mg。二週後若無明顯改善則增至每日250-300mg。 3.1.3 門診患者－初劑量為每日75mg，可增至每日150mg，每日劑量不可超過200mg，維持劑量為每日50-150mg。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n3.3.1 青少年及老年人－初劑量每日30-40mg，每日不可超過100mg。 3.3.2 兒童遺尿：6歲以上兒童之初劑量為每日25mg，睡前1小時服用，一週內若無明顯療效則依下列劑量投與： 12歲以下：每晚服用50mg。 12歲以上：每晚服用75mg。 服用75mg以上之劑量並不會提高療效。對於入睡不久即尿床的小孩要在晚餐前給與部份劑量。每日劑量不可超過2.5mg/kg。 3.3.3 本藥對於6歲以下夜尿症兒童之有效性及安全性尚未確立。\n4\n禁忌\n4.1\n與MAO抑制劑併用，可能會導致過高熱，嚴重痙攣及抽搐，二者投藥間隔至少需14天。\n4.2\n心肌梗塞危急者。\n4.3\n已知對本藥及Dibenzazepine類三環抗憂鬱劑過敏者。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n在開始治療之前，建議查看病人的血壓，因低血壓及循環不穩定的病人對Imipramine Hydrochloride會產生血壓下降的反應。\n5.1.2\n下列患者應審慎投與本藥：\n－有心血管功能不全的病人、房室阻斷（一級至三級）、心律不整、鬱血性心臟衰竭、心肌梗塞、中風及心跳過速。 －有狹角性青光眼的病人。 －因尿液流動受阻而排尿異常的病人（如有攝護腺疾病的病人）。 －低抽搐閥值的病人（各種病因、癲癇、酒精中毒所引起的腦部受傷）。 －甲狀腺機能過度旺盛病人或與甲狀腺製劑併用要小心，因通常可預期其抗膽鹼作用會加速心臟方面之副作用。 －有嚴重肝臟或腎臟疾病病人。 －有腎上腺髓質腫瘤的病人（如嗜鉻細胞瘤、神經母細胞瘤），Imipramine會加重高血壓危機。\n5.1.3\n警語\n5.1.3.1 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用imipramine或其他抗憂鬱劑於小孩、青少年和青年人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。 5.1.3.2 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial, RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n本藥偶會引起疲倦感，少數病例會有使病人反應受損的中樞神經症狀。因此須警告病人不要進行須快速反應的活動，如駕駛汽車和操作機器。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\nFDA Pregnancy Category（懷孕用藥級數）：D Imipramine使用於孕婦的經驗有限。因曾有些個案報告Imipramine的使用與胎兒的副作用可能有關，在懷孕期間須避免使用本藥且只在預期利益超過對胎兒的潛在危險才考慮使用。生產前仍服用Imipramine的母親，其新生兒會在剛出生的幾小時或幾天出現禁斷症狀，如呼吸困難、嗜眠症、結腸炎、不適感、低血壓或高血壓、震顫或痙攣。為了防止上述症狀，Imipramine需在預產期前至少七個禮拜停藥。\n6.2\n哺乳\n有少量的主成分和其代謝物desmethylimipramine會進入乳汁。由於此發現對嬰兒臨床上的影響未知，故嬰兒需停止母乳或母親停藥。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n兒童每日劑量不可超過2.5mg/kg。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n6.8.1 有心血管疾病的病人特別是有傳導異常病史者和老年病人，應謹慎投與。要監測此類病人的心血管功能和ECG。 6.8.2 治療期間通常需監測血球數（特別是病人有發熱、喉嚨痛或其它與流行性感冒感染相關之症狀），因少數病人的顆粒性白血球缺乏症與三環抗鬱劑的使用有關。長期使用Imipramine治療建議要監測肝和腎功能。長期的三環抗鬱劑治療會導致齟齒發生率增加。由於Imipramine的活潑性，可能會對精神不穩定病人及伴有精神分裂症病人引發焦慮、不安和過度興奮。 6.8.3 對易罹患疾病者和老年病人，Imipramine可能會特別是在夜晚，激起藥生成性（譫妄症）精神病，但在停藥數天後會消失毋需治療，雙重情緒疾病的病人可能會由憂鬱轉為輕度躁狂或躁狂，此類病人可能需停用Imipramine並給予其它藥以控制躁狂。待躁狂現象消失後，如有需要可給與低劑量Imipramine治療。 6.8.4 如有自殺的危險性，需在Imipramine治療期間嚴密監測此病人，此類病人起始治療併用鎮靜性神經分解性藥物和／或benzodiazepines會得到良好的效果，可考慮諮詢精神病的臨床醫師。 6.8.5 在外科手術之前要告知麻醉醫師病人曾用過Imipramine，因為目前同時併用三環抗鬱劑和麻醉劑的交互作用尚未完全明瞭。 6.8.6 須在嚴密監測下才可同時使用Imipramine和抽搐電療法。有很多疼痛發作的病人，其焦慮症狀會在抗憂鬱劑開始治療時惡化。此種焦慮惡化的矛盾現象在開始治療的前幾天特別明顯，通常會在此療程的隨後兩星期消失。\n7\n交互作用\n7.1 假如在MAO抑制劑治療之後要投與本藥，絕對要遵守至少需間隔十四天，否則可能發生嚴重的交互作用。若是先用Imipramine治療之後再投與MAO抑制劑也同樣須遵守上述規定，有上述的任一種情況，在開始投與Imipramine或MAO抑制劑要謹慎，且要逐步增加劑量直到病情有最佳穩定，因三環抗鬱劑會降低或阻礙clonidine、guanethidine、bethanidine、reserpine和methyldopa的降壓作用，必要時可用不同作用機轉的降壓劑（如利尿劑、β阻斷劑）。 7.2 三環抗鬱劑可能會加強交感神經作用藥如腎上腺素、正腎上腺素、安非他命（包括鼻滴液及具交感神經作用的局部麻醉劑）的心血管作用，三環抗鬱劑會加強酒精和中樞抑制劑（如barbiturates、benzodiazepines或全身麻醉劑），也會加強抗膽鹼作用藥（如atropine、biperiden、levodopa）之作用。當三環抗鬱劑與抗膽鹼作用藥或具抗膽鹼作用的類神經病症狀藥物併用，可能發生過度興奮甚至妄想和青光眼。三環抗鬱劑不要與quinidine型抗心律不整劑併用。能活化肝臟單氧化脢酵素系統的物質（如，barbiturates、phenytoin、nicotine）會降低三環抗鬱劑的血漿濃度，而降低抗鬱作用。除此之外，同時投與Imipramine和phenytoin會使phenytoin血中濃度上升，因此必要時要調整phenytoin劑量。類神經病症狀藥物（如phenothiazine）會增加imipramine的血中濃度，併用diazepam不會發生此作用，但併用alprazolam或disulfiram可能需降低imipramine的劑量。因cimetidine會增加imipramine的血中濃度，併用時要減少imipramine劑量，但ranitidine則不改變imipramine的動力學。Methylphenidate會引起三環抗鬱劑的血中濃度上升，加強其抗鬱作用。Imipramine若和estrogen同時使用，需降低imipramine劑量，因固醇類荷爾蒙會抑制imipramine代謝。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n8.1.1 心血管系統：直立性低血壓、高血壓、心跳過速、心悸、心肌梗塞、心律不整、心臟阻斷作用、ECG變化、鬱血性心衰竭惡化、中風。 8.1.2 中樞神經系統： 精神作用－疲倦、懼光、睡眠障礙、焦慮增加、感覺不安和過度激動、由憂鬱轉為輕度躁狂或躁狂、譫妄症，如混亂伴有方向感喪失和幻覺（特別是老年病人和Parkinson’s症病人）、精神症狀的活化、興奮。 神經作用－輕微震顫。感覺異常（無感覺、刺感、與周邊神經病學相關症狀）、頭痛、頭暈、癲癇發作、肌陣攣、虛弱、錐體外症狀、運動失調、語言障礙。 8.1.3 抗膽鹼作用－口乾、便秘、流汗、面潮紅、視力失調和視覺模糊、排尿困難、散瞳、青光眼和腸膈麻痺。 8.1.4 呼吸道－有或無嗜伊紅血球過多的過敏性齒槽炎（肺炎）。 8.1.5 胃腸道－噁心、嘔吐、食慾喪失、轉氨基脢值升高、胃炎、舌損害、腹部不適、有或無黃疸的肝炎。 8.1.6 皮膚－過敏皮膚反應（皮膚疹、蕁麻疹）、搔癢病、瘀斑、光敏感、水腫（局部或全身）、毛髮脫落。 8.1.7 內分泌系統和代謝－體重增加、性慾障礙和性無能、乳腺擴大、溢乳、SIADH（不正常之抗利尿激素分泌）、血糖上昇或下降、體重減輕。 8.1.8 血液－嗜伊紅血球過多、白血球缺乏、顆粒性白血球缺乏、紫斑病和血小板減少。 8.1.9 其他－突然停止治療可能會發生下列副作用，但不視為成癮的徵兆：噁心、嘔吐、腹部疼痛、腹瀉、失眠、頭痛、神經過敏和焦慮、耳鳴、藥物熱。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n9.1 因為憂鬱症病人有自殺的危險，Imipramine只能由醫師處方使用或給與病人少量。孩童對本藥急性過量的反應較成人敏感，且曾有致命的報告，因此要儘量避免過量；若過量時需嚴密小心治療。 9.2 徵兆及症狀：三環抗鬱劑中毒的第一現象及徵狀通常是嚴重的抗膽鹼作用，約在投藥後1/2~2小時發作。多種因素會影響三環抗鬱劑中毒的嚴重程度，如被吸收的藥物量、過量發生後開始治療的間隔時間、病人年齡。 9.3 可能會有下列徵兆及症狀：中樞神經系統：嗜眠、人事不省、昏迷、共濟不能、不安、興奮、反射加強、肌肉僵直、指痙病及舞蹈指痙病、抽搐；心臟：心律不整、心跳過快、傳導障礙、心衰竭；極罕病例：心跳停止。 尚有呼吸抑制、低血壓、休克、嘔吐、發熱、散瞳、流汗和尿量減少或無尿症。 9.4 過量治療：即使是小量的過量之後亦須住院（密切照顧）。沒有特定的解毒劑。使用physostigmine仍具爭議性，因會增加癲癇發作的危險性。當Imipramine口服時，可嘗試催吐；否則需洗胃。須投與活性碳。三環抗鬱劑嚴重中毒需立刻住院，並持續監測心血管功能至少48小時。ECG異常的所有病人－即使在ECG已恢復正常之後－需再密切觀察心臟功能至少72小時，因可能復發。 9.5 發生過量時需採取下列步驟： －呼吸衰竭：插管及人工呼吸。 －嚴重低血壓：病人需置於適當的位置，並給與血漿擴張劑dopamine或dobutamine靜脈點滴。 －需依病人需要治療其心律不整。 －需考慮移植心臟節律器。 －需矯治低血鉀和酸中毒。 －抽搐病人：需I.V.給與diazepam或其他抗抽搐劑。 －滲析或血液透析無效。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\nImipramine具有多種藥理作用，包括α-腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT接受體。Imipramine的抗憂鬱機轉未知，可能主要是抑制神經對正腎上腺素(NA)和serotonin(5-HT)的再吸收，但不包括對中樞神經系統的刺激作用。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n4~1,000錠塑膠瓶裝及鋁箔盒裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段７７號2、3樓、79號1至6樓"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段77號2、3樓、79號1至6樓"
+        }
+      ]
+    }
+  ]
+}

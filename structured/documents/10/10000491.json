@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:37.730079+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000491",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000491號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000491號",
+      "matched_license_code": "10000491",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"貝靈\" 血清蛋白注射液２０％",
+      "drug_name_en": "HUMAN ALBUMIN 20%  \"BEHRING\"",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-07-28",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">使用本藥劑前請詳細閱讀此說明書</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">妥善保存說明書，以便於日後閱讀</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">如有任何疑問，請洽詢您的主治醫師或藥師詢問</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">本藥劑屬處方用藥。即使是對方的症狀與您相同，也請勿將本藥劑提供給他人使用，因此行為可</span></p><p style=\"text-align:justify;\">&nbsp;<span style=\"font-family:標楷體;\">能危害他人。</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">一旦發生較嚴重或是發現一些未被列載的不良反應時，請立即告訴您的主治醫師或藥師。</span></p>",
+        "text": "使用本藥劑前請詳細閱讀此說明書 -妥善保存說明書，以便於日後閱讀 -如有任何疑問，請洽詢您的主治醫師或藥師詢問 -本藥劑屬處方用藥。即使是對方的症狀與您相同，也請勿將本藥劑提供給他人使用，因此行為可 能危害他人。 -一旦發生較嚴重或是發現一些未被列載的不良反應時，請立即告訴您的主治醫師或藥師。"
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Human Albumin。 每1公升內含有200克的總蛋白，其中至少有96%是人類白蛋白。 亦即每100毫升輸注溶液至少含有19.2克的人類白蛋白；或是每50毫升溶 液中至少含有9.6克的人類白蛋白。屬於高張溶液。",
+          "content_html": "<p>Human Albumin<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\"><strong>每</strong></span><strong>1</strong><span style=\"font-family:標楷體;\"><strong>公升內含有</strong></span><strong>200</strong><span style=\"font-family:標楷體;\"><strong>克的總蛋白，其中</strong>至少有</span>96%<span style=\"font-family:標楷體;\">是人類白蛋白。</span></p><p><span style=\"font-family:標楷體;\">亦即每</span>100<span style=\"font-family:標楷體;\">毫升輸注溶液至少含有</span>19.2<span style=\"font-family:標楷體;\">克的人類白蛋白；或是每</span>50<span style=\"font-family:標楷體;\">毫升溶</span></p><p><span style=\"font-family:標楷體;\">液中至少含有</span>9.6<span style=\"font-family:標楷體;\">克的人類白蛋白。屬於高張溶液。</span></p><p>&nbsp;</p>",
+          "search_text": "1.1\n有效成分及含量\nHuman Albumin。 每1公升內含有200克的總蛋白，其中至少有96%是人類白蛋白。 亦即每100毫升輸注溶液至少含有19.2克的人類白蛋白；或是每50毫升溶 液中至少含有9.6克的人類白蛋白。屬於高張溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "(mmol/l) Na+125 Caprylate16 N-acetyl-D,L-tryptophanate16 Cl-­­Max. 100 HCl 或 NaOH少量用以調整PH值 注射用水",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">&nbsp;</td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\">(mmol/l)</td></tr><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">Na+</td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\">125</td></tr><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">Caprylate</td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\">16</td></tr><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">N-acetyl-D,L-tryptophanate</td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\">16&nbsp;</td></tr><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">Cl-<span style=\"font-family:標楷體;\">­­</span></td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\">Max. 100</td></tr><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">HCl&nbsp;<span style=\"font-family:標楷體;\">或</span> NaOH</td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\"><span style=\"font-family:標楷體;\">少量用以調整</span>PH<span style=\"font-family:標楷體;\">值</span></td></tr><tr><td style=\"padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\"><span style=\"font-family:標楷體;\">注射用水</span></td><td style=\"padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\"><p style=\"text-align:right;\">&nbsp;</p></td></tr><tr><td style=\"height:3.4pt;padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">&nbsp;</td><td style=\"height:3.4pt;padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\">&nbsp;</td></tr><tr><td style=\"height:3.4pt;padding:0cm 1.4pt;vertical-align:top;width:174.0pt;\">&nbsp;</td><td style=\"height:3.4pt;padding:0cm 1.4pt;vertical-align:top;width:132.0pt;\"><p style=\"text-align:right;\">&nbsp;</p></td></tr></tbody></table></figure>",
+          "search_text": "1.2\n賦形劑\n(mmol/l) Na+125 Caprylate16 N-acetyl-D,L-tryptophanate16 Cl-­­Max. 100 HCl 或 NaOH少量用以調整PH值 注射用水",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p><span style=\"font-family:標楷體;\">注射劑</span></p><p>&nbsp;</p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "為一種澄清、微黏稠，色澤近似無色、淡黃色或微綠的注射溶液。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">為一種澄清、微黏稠，色澤近似無色、淡黃色或微綠的注射溶液。</span></p><p>&nbsp;</p>",
+          "search_text": "1.4\n藥品外觀\n為一種澄清、微黏稠，色澤近似無色、淡黃色或微綠的注射溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "低蛋白血症、休克、燒傷 說明： 1. 體內滲透壓（oncotic pressure）失衡時，增加其膠體滲透壓。 2. 稀釋至4～5%溶液可使用於血漿置換的治療。 3. 血清蛋白缺乏症之治療法。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">低蛋白血症、休克、燒傷</span></p><p><span style=\"font-family:標楷體;\"><strong>說明：</strong></span></p><p>1. <span style=\"font-family:標楷體;\">體內滲透壓（</span>oncotic pressure<span style=\"font-family:標楷體;\">）失衡時，增加其膠體滲透壓。</span></p><p>2. <span style=\"font-family:標楷體;\">稀釋至</span>4<span style=\"font-family:標楷體;\">～</span>5%<span style=\"font-family:標楷體;\">溶液可使用於血漿置換的治療。</span></p><p>3. <span style=\"font-family:標楷體;\">血清蛋白缺乏症之治療法。</span></p><p>&nbsp;</p>",
+          "search_text": "2\n適應症\n低蛋白血症、休克、燒傷 說明： 1. 體內滲透壓（oncotic pressure）失衡時，增加其膠體滲透壓。 2. 稀釋至4～5%溶液可使用於血漿置換的治療。 3. 血清蛋白缺乏症之治療法。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "用量及注射方法： 白蛋白製劑溶液的製備，投予的劑量與輸注速率應視病人個別需求調整。 劑量 投予的劑量視病人的體型、外傷或疾病嚴重度和疾病造成體液及蛋白質持續流失的狀況而定。給予多少劑量的白蛋白製劑，決定於測量體內應予足量的循環血量為依據，而非血漿白蛋白的含量。 投予血清白蛋白時，應須時時地監測血液動力學參數如下： --動脈血壓及脈搏速率 --中央靜脈壓 --肺動脈楔壓 --排尿量 --電解質 --血比容/血紅素 注射方法 ＊不論是未稀釋或採用已經由等滲透壓溶液（如：5%葡萄糖、0.9%生理食鹽水）稀釋後的血清白蛋白均可由靜脈給予。 ＊忌給予病患施打以水稀釋後的白蛋白製劑；因此施打方式，可能造成病患發生血球溶解現象。 ＊輸注速率可依照患者狀況與適應症做調整。 ＊應依照體內流失的量做為血漿交換量的依據。 ＊當施行大劑量的輸注溶液時，請先回溫至室溫或體溫時再使用。 ＊本品如果有混濁沉澱或顆粒產生時，可能是內含蛋白質不穩定或溶液受污染導致，則不可使用。 不相容性 “貝靈”血清蛋白注射液20%，低鹽含量，不可與其它藥物（除了標示在3.1 用法用量章節中所建議的稀釋液）、全血與紅血球濃縮液混合使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">用量及注射方法：</span></p><p><span style=\"font-family:標楷體;\">白蛋白製劑溶液的製備，投予的劑量與輸注速率應視病人個別需求調整。</span></p><p><span style=\"font-family:標楷體;\"><u>劑量</u></span></p><p><span style=\"font-family:標楷體;\">投予的劑量視病人的體型、外傷或疾病嚴重度和疾病造成體液及蛋白質持續流失的狀況而定。給予多少劑量的白蛋白製劑，決定於測量體內應予足量的循環血量為依據，而非血漿白蛋白的含量。</span></p><p><span style=\"font-family:標楷體;\">投予血清白蛋白時，應須時時地監測血液動力學參數如下：</span></p><p>--<span style=\"font-family:標楷體;\">動脈血壓及脈搏速率</span></p><p>--<span style=\"font-family:標楷體;\">中央靜脈壓</span></p><p>--<span style=\"font-family:標楷體;\">肺動脈楔壓</span></p><p>--<span style=\"font-family:標楷體;\">排尿量</span></p><p>--<span style=\"font-family:標楷體;\">電解質</span></p><p>--<span style=\"font-family:標楷體;\">血比容</span>/<span style=\"font-family:標楷體;\">血紅素</span></p><p><span style=\"font-family:標楷體;\"><u>注射方法</u></span></p><p><span style=\"font-family:標楷體;\">＊不論是未稀釋或採用已經由等滲透壓溶液（如：</span>5%<span style=\"font-family:標楷體;\">葡萄糖、</span>0.9%<span style=\"font-family:標楷體;\">生理食鹽水）稀釋後的血清白蛋白均可由靜脈給予。</span></p><p><span style=\"font-family:標楷體;\">＊忌給予病患施打以水稀釋後的白蛋白製劑；因此施打方式，可能造成病患發生血球溶解現象。</span></p><p><span style=\"font-family:標楷體;\">＊輸注速率可依照患者狀況與適應症做調整。</span></p><p><span style=\"font-family:標楷體;\">＊應依照體內流失的量做為血漿交換量的依據。</span></p><p><span style=\"font-family:標楷體;\">＊當施行大劑量的輸注溶液時，請先回溫至室溫或體溫時再使用。</span></p><p><span style=\"font-family:標楷體;\">＊本品如果有混濁沉澱或顆粒產生時，可能是內含蛋白質不穩定或溶液受污染導致，則不可使用。</span></p><p><span style=\"font-family:標楷體;\"><u>不相容性</u></span></p><p>“<span style=\"font-family:標楷體;\">貝靈</span>”<span style=\"font-family:標楷體;\">血清蛋白注射液</span>20%<span style=\"font-family:標楷體;\">，低鹽含量，不可與其它藥物（除了標示在</span>3.1&nbsp;<span style=\"font-family:標楷體;\">用法用量章節中所建議的稀釋液）、全血與紅血球濃縮液混合使用。</span></p><p>&nbsp;</p>",
+          "search_text": "3.1\n用法用量\n用量及注射方法： 白蛋白製劑溶液的製備，投予的劑量與輸注速率應視病人個別需求調整。 劑量 投予的劑量視病人的體型、外傷或疾病嚴重度和疾病造成體液及蛋白質持續流失的狀況而定。給予多少劑量的白蛋白製劑，決定於測量體內應予足量的循環血量為依據，而非血漿白蛋白的含量。 投予血清白蛋白時，應須時時地監測血液動力學參數如下： --動脈血壓及脈搏速率 --中央靜脈壓 --肺動脈楔壓 --排尿量 --電解質 --血比容/血紅素 注射方法 ＊不論是未稀釋或採用已經由等滲透壓溶液（如：5%葡萄糖、0.9%生理食鹽水）稀釋後的血清白蛋白均可由靜脈給予。 ＊忌給予病患施打以水稀釋後的白蛋白製劑；因此施打方式，可能造成病患發生血球溶解現象。 ＊輸注速率可依照患者狀況與適應症做調整。 ＊應依照體內流失的量做為血漿交換量的依據。 ＊當施行大劑量的輸注溶液時，請先回溫至室溫或體溫時再使用。 ＊本品如果有混濁沉澱或顆粒產生時，可能是內含蛋白質不穩定或溶液受污染導致，則不可使用。 不相容性 “貝靈”血清蛋白注射液20%，低鹽含量，不可與其它藥物（除了標示在3.1 用法用量章節中所建議的稀釋液）、全血與紅血球濃縮液混合使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對白蛋白製劑或產品賦形劑高度敏感者。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對白蛋白製劑或產品賦形劑高度敏感者。</span></p><p>&nbsp;</p>",
+          "search_text": "4\n禁忌\n對白蛋白製劑或產品賦形劑高度敏感者。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "如果有過敏反應（如過敏性休克）發生時應立刻停止輸注。一旦發生休克現象，應依照現行醫學上處理休克的規範加以照護。 對於因多血症（血量過多）、或血液稀釋的病患來說，白蛋白可能會產生特別性的危險，所以，使用時應特別注意。 例如下列的情況： ～心臟代償機能退化（嚴重心肌缺乏） ～高血壓（血壓增加） ～食道靜脈曲張（食道血管疾病） ～肺水腫 ～易出血體質（出血傾向增加） ～嚴重貧血（嚴重紅血球缺乏） ～腎性或後腎性無尿症（腎衰竭） 每公升的200克或250克的人類血清白蛋白的膠體滲透作用大約是血漿的4倍，因此當使用高濃度的白蛋白時，要確保病人有攝取足夠的水分，且應小心監測防止循環負荷過量或體內水分過多的情形。 與每公升的40-50克的人類白蛋白比較，每公升的200-250克的白蛋白溶液所含的電解質含量較低。當投予白蛋白時應立即監測病人的電解質（參考3.1 用法用量），並採取適當措施以維持電解質的平衡。 白蛋白輸液絕對不能以注射用水稀釋，這樣可能會造成病人溶血現象(破壞紅血球)。 如果使用較大量時，要注意控制凝血和血球比容，以確保適當補充其他血液元素（如凝血因子、電解質、血小板和紅血球）。 如果未依照病患的身體循環狀況調整輸液的劑量和輸注速率時，可能發生多血症(血容量過多現象)。多血症剛開始的臨床症狀是心血管過度負荷症狀（如頭痛、呼吸困難、頸靜脈怒張）或血量增加造成靜脈壓上升、肺水腫時，應立即停止輸液。 \"貝靈”血清蛋白注射液20%,含有每公升125 mmole的低鈉含量，但對於限制鈉含量飲食的病患仍須將此含量列入考慮。 病毒安全性 本品係由自人類血漿所製得之產品，可能存在著某些感染源，例如致病性之病毒。藉由篩檢血漿之捐血者，檢驗某些現有病毒感染源，在經由去活化及/或去除某些病毒，即可降低此產品傳染感染源之危險性。惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。 目前並無因注射依照歐洲藥典規格所製造的血清白蛋白而遭病毒感染的案例發生。 強烈建議在每次施打”貝靈”血清蛋白注射液20%，低鹽含量時，切實將產品名稱及批次資料完整地紀錄下來並與妥善保存。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如果有過敏反應（如過敏性休克）發生時應立刻停止輸注。一旦發生休克現象，應依照現行醫學上處理休克的規範加以照護。</span></p><p><span style=\"font-family:標楷體;\">對於因多血症（血量過多）、或血液稀釋的病患來說，白蛋白可能會產生特別性的危險，所以，使用時應特別注意。</span></p><p><span style=\"font-family:標楷體;\">例如下列的情況：</span>&nbsp;</p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～心臟代償機能退化（嚴重心肌缺乏）</span></p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～高血壓（血壓增加）</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～食道靜脈曲張（食道血管疾病）</span></p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～肺水腫</span></p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～易出血體質（出血傾向增加）</span>&nbsp;</p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～嚴重貧血（嚴重紅血球缺乏）</span></p><p>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">～腎性或後腎性無尿症（腎衰竭）</span></p><p><span style=\"font-family:標楷體;\">每公升的</span>200<span style=\"font-family:標楷體;\">克或</span>250<span style=\"font-family:標楷體;\">克的人類血清白蛋白的膠體滲透作用大約是血漿的</span>4<span style=\"font-family:標楷體;\">倍，因此當使用高濃度的白蛋白時，要確保病人有攝取足夠的水分，且應小心監測防止循環負荷過量或體內水分過多的情形。</span></p><p><span style=\"font-family:標楷體;\">與每公升的</span>40-50<span style=\"font-family:標楷體;\">克的人類白蛋白比較，每公升的</span>200-250<span style=\"font-family:標楷體;\">克的白蛋白溶液所含的電解質含量較低。當投予白蛋白時應立即監測病人的電解質（參考</span>3.1&nbsp;<span style=\"font-family:標楷體;\">用法用量），並採取適當措施以維持電解質的平衡。</span></p><p><span style=\"font-family:標楷體;\">白蛋白輸液絕對不能以注射用水稀釋，這樣可能會造成病人溶血現象</span>(<span style=\"font-family:標楷體;\">破壞紅血球</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">如果使用較大量時，要注意控制凝血和血球比容，以確保適當補充其他血液元素（如凝血因子、電解質、血小板和紅血球）。</span></p><p><span style=\"font-family:標楷體;\">如果未依照病患的身體循環狀況調整輸液的劑量和輸注速率時，可能發生多血症</span>(<span style=\"font-family:標楷體;\">血容量過多現象</span>)<span style=\"font-family:標楷體;\">。多血症剛開始的臨床症狀是心血管過度負荷症狀（如頭痛、呼吸困難、頸靜脈怒張）或血量增加造成靜脈壓上升、肺水腫時，應立即停止輸液。</span></p><p><span style=\"color:black;\">\"</span><span style=\"color:black;font-family:標楷體;\">貝靈</span><span style=\"color:black;\">”</span><span style=\"color:black;font-family:標楷體;\">血清蛋白注射液</span><span style=\"color:black;\">20%,</span><span style=\"color:black;font-family:標楷體;\">含有每公升</span><span style=\"color:black;\">125 mmole</span><span style=\"color:black;font-family:標楷體;\">的低鈉含量，但對於限制鈉含量飲食的病患仍須將此含量列入考慮。</span></p><p><span style=\"color:black;font-family:標楷體;\"><u>病毒安全性</u></span></p><p><span style=\"color:black;font-family:標楷體;\">本品係由自人類血漿所製得之產品，可能存在著某些感染源，例如致病性之病毒。藉由篩檢血漿之捐血者，檢驗某些現有病毒感染源，在經由去活化及</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">或去除某些病毒，即可降低此產品傳染感染源之危險性。惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。</span></p><p><span style=\"color:black;font-family:標楷體;\">目前並無因注射依照歐洲藥典規格所製造的血清白蛋白而遭病毒感染的案例發生。</span></p><p><span style=\"color:black;font-family:標楷體;\">強烈建議在每次施打</span><span style=\"color:black;\">”</span><span style=\"color:black;font-family:標楷體;\">貝靈</span><span style=\"color:black;\">”</span><span style=\"color:black;font-family:標楷體;\">血清蛋白注射液</span><span style=\"color:black;\">20%</span><span style=\"color:black;font-family:標楷體;\">，低鹽含量時，切實將產品名稱及批次資料完整地紀錄下來並與妥善保存。</span></p><p>&nbsp;</p>",
+          "search_text": "5.1\n警語/注意事項\n如果有過敏反應（如過敏性休克）發生時應立刻停止輸注。一旦發生休克現象，應依照現行醫學上處理休克的規範加以照護。 對於因多血症（血量過多）、或血液稀釋的病患來說，白蛋白可能會產生特別性的危險，所以，使用時應特別注意。 例如下列的情況： ～心臟代償機能退化（嚴重心肌缺乏） ～高血壓（血壓增加） ～食道靜脈曲張（食道血管疾病） ～肺水腫 ～易出血體質（出血傾向增加） ～嚴重貧血（嚴重紅血球缺乏） ～腎性或後腎性無尿症（腎衰竭） 每公升的200克或250克的人類血清白蛋白的膠體滲透作用大約是血漿的4倍，因此當使用高濃度的白蛋白時，要確保病人有攝取足夠的水分，且應小心監測防止循環負荷過量或體內水分過多的情形。 與每公升的40-50克的人類白蛋白比較，每公升的200-250克的白蛋白溶液所含的電解質含量較低。當投予白蛋白時應立即監測病人的電解質（參考3.1 用法用量），並採取適當措施以維持電解質的平衡。 白蛋白輸液絕對不能以注射用水稀釋，這樣可能會造成病人溶血現象(破壞紅血球)。 如果使用較大量時，要注意控制凝血和血球比容，以確保適當補充其他血液元素（如凝血因子、電解質、血小板和紅血球）。 如果未依照病患的身體循環狀況調整輸液的劑量和輸注速率時，可能發生多血症(血容量過多現象)。多血症剛開始的臨床症狀是心血管過度負荷症狀（如頭痛、呼吸困難、頸靜脈怒張）或血量增加造成靜脈壓上升、肺水腫時，應立即停止輸液。 \"貝靈”血清蛋白注射液20%,含有每公升125 mmole的低鈉含量，但對於限制鈉含量飲食的病患仍須將此含量列入考慮。 病毒安全性 本品係由自人類血漿所製得之產品，可能存在著某些感染源，例如致病性之病毒。藉由篩檢血漿之捐血者，檢驗某些現有病毒感染源，在經由去活化及/或去除某些病毒，即可降低此產品傳染感染源之危險性。惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。 目前並無因注射依照歐洲藥典規格所製造的血清白蛋白而遭病毒感染的案例發生。 強烈建議在每次施打”貝靈”血清蛋白注射液20%，低鹽含量時，切實將產品名稱及批次資料完整地紀錄下來並與妥善保存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。 Human Albumin 20% “Behring”(低鹽含量)並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。</span></p><p>Human Albumin 20% “Behring”(<span style=\"font-family:標楷體;\">低鹽含量</span>)<span style=\"font-family:標楷體;\">並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。</span></p><p>&nbsp;</p>",
+          "search_text": "6.1\n懷孕\n至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。 Human Albumin 20% “Behring”(低鹽含量)並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。 Human Albumin 20% “Behring”(低鹽含量)並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。</span></p><p>Human Albumin 20% “Behring”(<span style=\"font-family:標楷體;\">低鹽含量</span>)<span style=\"font-family:標楷體;\">並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。</span></p><p>&nbsp;</p>",
+          "search_text": "6.2\n哺乳\n至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。 Human Albumin 20% “Behring”(低鹽含量)並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊。</span></p><p>&nbsp;</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "假如你發生仿單未載明之副作用時，請告知你的醫師或藥師。 下述為上市後使用經驗中極少發生的副作用 (<1/10,000)： ＊全身及施打局部部位不適反應有:寒顫、發燒、噁心或嘔吐、頭痛、抑鬱、潮紅。 ＊免疫系統異常：過敏/過敏性反應包括紅疹、發癢、蕁麻疹、呼吸困難、心跳過速、心搏徐緩、低血壓、極少數患者則可能擴展為致命性休克現象。 輕微反應通常在輸注速率變慢或停止後症狀會很快的消退。如果發生嚴重的不良反應時（如：過敏性休克），須立即停止輸注及做適當治療。 針對傳染性感染原方面的安全性，請參考“5.1 警語/注意事項”。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">假如你發生仿單未載明之副作用時，請告知你的醫師或藥師。</span></p><p><span style=\"font-family:標楷體;\">下述為上市後使用經驗中極少發生的副作用</span> (&lt;1/10,000)<span style=\"font-family:標楷體;\">：</span></p><p><span style=\"font-family:標楷體;\">＊</span>全身及施打局部部位不適反應有:寒顫、發燒、噁心或嘔吐、頭痛、抑鬱、潮紅。</p><p><span style=\"font-family:標楷體;\">＊免疫系統異常：過敏</span>/<span style=\"font-family:標楷體;\">過敏性反應包括紅疹、發癢、蕁麻疹、呼吸困難、心跳過速、心搏徐緩、低血壓、極少數患者則可能擴展為致命性休克現象。</span></p><p><span style=\"font-family:標楷體;\">輕微反應通常在輸注速率變慢或停止後症狀會很快的消退。如果發生嚴重的不良反應時（如：過敏性休克），須立即停止輸注及做適當治療。</span></p><p><span style=\"font-family:標楷體;\">針對傳染性感染原方面的安全性，請參考</span>“5.1&nbsp;<span style=\"font-family:標楷體;\">警語</span>/<span style=\"font-family:標楷體;\">注意事項</span>”<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n假如你發生仿單未載明之副作用時，請告知你的醫師或藥師。 下述為上市後使用經驗中極少發生的副作用 (<1/10,000)： ＊全身及施打局部部位不適反應有:寒顫、發燒、噁心或嘔吐、頭痛、抑鬱、潮紅。 ＊免疫系統異常：過敏/過敏性反應包括紅疹、發癢、蕁麻疹、呼吸困難、心跳過速、心搏徐緩、低血壓、極少數患者則可能擴展為致命性休克現象。 輕微反應通常在輸注速率變慢或停止後症狀會很快的消退。如果發生嚴重的不良反應時（如：過敏性休克），須立即停止輸注及做適當治療。 針對傳染性感染原方面的安全性，請參考“5.1 警語/注意事項”。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "如果投與過多劑量與輸注速率太快時，可能發生多血症現象。第一個臨床徵兆是出現心血管過度負荷現象（頭痛、呼吸困難、頸靜脈充血）、血壓上升、中央靜脈壓上升或肺水腫；一旦發生時，必須馬上停止給藥，並且小心監測病人的血液動力學。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如果投與過多劑量與輸注速率太快時，可能發生多血症現象。第一個臨床徵兆是出現心血管過度負荷現象（頭痛、呼吸困難、頸靜脈充血）、血壓上升、中央靜脈壓上升或肺水腫；一旦發生時，必須馬上停止給藥，並且小心監測病人的血液動力學。</span></p><p>&nbsp;</p>",
+          "search_text": "9\n過量\n如果投與過多劑量與輸注速率太快時，可能發生多血症現象。第一個臨床徵兆是出現心血管過度負荷現象（頭痛、呼吸困難、頸靜脈充血）、血壓上升、中央靜脈壓上升或肺水腫；一旦發生時，必須馬上停止給藥，並且小心監測病人的血液動力學。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊</span>。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "血漿替代品及血漿蛋白分餾物，白蛋白。 ATC code: B05A A01。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">血漿替代品及血漿蛋白分餾物，白蛋白。</span></p><p>ATC code: B05A A01。</p><p>&nbsp;</p>",
+          "search_text": "10.2\n藥效藥理特性\n血漿替代品及血漿蛋白分餾物，白蛋白。 ATC code: B05A A01。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊</span>。</p><p>&nbsp;</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊</span>。</p><p>&nbsp;</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊</span>。</p><p>&nbsp;</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "50 ml；100ml注射小瓶裝",
+          "content_html": "<p>50 ml<span style=\"font-family:標楷體;\">；</span>100ml<span style=\"font-family:標楷體;\">注射小瓶裝</span></p><p>&nbsp;</p>",
+          "search_text": "13.1\n包裝\n50 ml；100ml注射小瓶裝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如外包裝所示</span>。</p><p>&nbsp;</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "\"貝靈\"血清蛋白注射液20%，低鹽含量，儲存溫度不可超過+25℃，不可冷凍。 應將本藥劑瓶放置在外包盒內保存，以避光。 一旦\"貝靈\"血清蛋白注射液20%，低鹽含量，超過標示在包裝上的有效期限時，請勿使用。 遠離孩童貯存！ 一旦開封後，應須立刻使用。 任何未用完之溶液或廢棄物應依當地衛生法規處理。",
+          "content_html": "<p>\"<span style=\"font-family:標楷體;\">貝靈</span>\"<span style=\"font-family:標楷體;\">血清蛋白注射液</span>20%<span style=\"font-family:標楷體;\">，低鹽含量，儲存溫度不可超過</span>+25℃<span style=\"font-family:標楷體;\">，不可冷凍。</span></p><p><span style=\"font-family:標楷體;\">應將本藥劑瓶放置在外包盒內保存，以避光。</span></p><p><span style=\"font-family:標楷體;\">一旦</span>\"<span style=\"font-family:標楷體;\">貝靈</span>\"<span style=\"font-family:標楷體;\">血清蛋白注射液</span>20%<span style=\"font-family:標楷體;\">，低鹽含量，超過標示在包裝上的有效期限時，請勿使用。</span></p><p><span style=\"font-family:標楷體;\"><strong>遠離孩童貯存！</strong></span></p><p><span style=\"font-family:標楷體;\">一旦開封後，應須立刻使用。</span></p><p><span style=\"font-family:標楷體;\">任何未用完之溶液或廢棄物應依當地衛生法規處理。</span></p><p>&nbsp;</p>",
+          "search_text": "13.3\n儲存條件\n\"貝靈\"血清蛋白注射液20%，低鹽含量，儲存溫度不可超過+25℃，不可冷凍。 應將本藥劑瓶放置在外包盒內保存，以避光。 一旦\"貝靈\"血清蛋白注射液20%，低鹽含量，超過標示在包裝上的有效期限時，請勿使用。 遠離孩童貯存！ 一旦開封後，應須立刻使用。 任何未用完之溶液或廢棄物應依當地衛生法規處理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "最後更新日期：2026年06月",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>最後更新日期：</strong></span>2026<span style=\"font-family:標楷體;\">年</span>06<span style=\"font-family:標楷體;\">月</span></p><p>&nbsp;</p>",
+          "search_text": "15\n其他\n最後更新日期：2026年06月",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "使用本藥劑前請詳細閱讀此說明書 -妥善保存說明書，以便於日後閱讀 -如有任何疑問，請洽詢您的主治醫師或藥師詢問 -本藥劑屬處方用藥。即使是對方的症狀與您相同，也請勿將本藥劑提供給他人使用，因此行為可 能危害他人。 -一旦發生較嚴重或是發現一些未被列載的不良反應時，請立即告訴您的主治醫師或藥師。\n1\n性狀\n1.1\n有效成分及含量\nHuman Albumin。 每1公升內含有200克的總蛋白，其中至少有96%是人類白蛋白。 亦即每100毫升輸注溶液至少含有19.2克的人類白蛋白；或是每50毫升溶 液中至少含有9.6克的人類白蛋白。屬於高張溶液。\n1.2\n賦形劑\n(mmol/l) Na+125 Caprylate16 N-acetyl-D,L-tryptophanate16 Cl-­­Max. 100 HCl 或 NaOH少量用以調整PH值 注射用水\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n為一種澄清、微黏稠，色澤近似無色、淡黃色或微綠的注射溶液。\n2\n適應症\n低蛋白血症、休克、燒傷 說明： 1. 體內滲透壓（oncotic pressure）失衡時，增加其膠體滲透壓。 2. 稀釋至4～5%溶液可使用於血漿置換的治療。 3. 血清蛋白缺乏症之治療法。\n3\n用法及用量\n3.1\n用法用量\n用量及注射方法： 白蛋白製劑溶液的製備，投予的劑量與輸注速率應視病人個別需求調整。 劑量 投予的劑量視病人的體型、外傷或疾病嚴重度和疾病造成體液及蛋白質持續流失的狀況而定。給予多少劑量的白蛋白製劑，決定於測量體內應予足量的循環血量為依據，而非血漿白蛋白的含量。 投予血清白蛋白時，應須時時地監測血液動力學參數如下： --動脈血壓及脈搏速率 --中央靜脈壓 --肺動脈楔壓 --排尿量 --電解質 --血比容/血紅素 注射方法 ＊不論是未稀釋或採用已經由等滲透壓溶液（如：5%葡萄糖、0.9%生理食鹽水）稀釋後的血清白蛋白均可由靜脈給予。 ＊忌給予病患施打以水稀釋後的白蛋白製劑；因此施打方式，可能造成病患發生血球溶解現象。 ＊輸注速率可依照患者狀況與適應症做調整。 ＊應依照體內流失的量做為血漿交換量的依據。 ＊當施行大劑量的輸注溶液時，請先回溫至室溫或體溫時再使用。 ＊本品如果有混濁沉澱或顆粒產生時，可能是內含蛋白質不穩定或溶液受污染導致，則不可使用。 不相容性 “貝靈”血清蛋白注射液20%，低鹽含量，不可與其它藥物（除了標示在3.1 用法用量章節中所建議的稀釋液）、全血與紅血球濃縮液混合使用。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n對白蛋白製劑或產品賦形劑高度敏感者。\n5\n警語及注意事項\n5.1\n警語/注意事項\n如果有過敏反應（如過敏性休克）發生時應立刻停止輸注。一旦發生休克現象，應依照現行醫學上處理休克的規範加以照護。 對於因多血症（血量過多）、或血液稀釋的病患來說，白蛋白可能會產生特別性的危險，所以，使用時應特別注意。 例如下列的情況： ～心臟代償機能退化（嚴重心肌缺乏） ～高血壓（血壓增加） ～食道靜脈曲張（食道血管疾病） ～肺水腫 ～易出血體質（出血傾向增加） ～嚴重貧血（嚴重紅血球缺乏） ～腎性或後腎性無尿症（腎衰竭） 每公升的200克或250克的人類血清白蛋白的膠體滲透作用大約是血漿的4倍，因此當使用高濃度的白蛋白時，要確保病人有攝取足夠的水分，且應小心監測防止循環負荷過量或體內水分過多的情形。 與每公升的40-50克的人類白蛋白比較，每公升的200-250克的白蛋白溶液所含的電解質含量較低。當投予白蛋白時應立即監測病人的電解質（參考3.1 用法用量），並採取適當措施以維持電解質的平衡。 白蛋白輸液絕對不能以注射用水稀釋，這樣可能會造成病人溶血現象(破壞紅血球)。 如果使用較大量時，要注意控制凝血和血球比容，以確保適當補充其他血液元素（如凝血因子、電解質、血小板和紅血球）。 如果未依照病患的身體循環狀況調整輸液的劑量和輸注速率時，可能發生多血症(血容量過多現象)。多血症剛開始的臨床症狀是心血管過度負荷症狀（如頭痛、呼吸困難、頸靜脈怒張）或血量增加造成靜脈壓上升、肺水腫時，應立即停止輸液。 \"貝靈”血清蛋白注射液20%,含有每公升125 mmole的低鈉含量，但對於限制鈉含量飲食的病患仍須將此含量列入考慮。 病毒安全性 本品係由自人類血漿所製得之產品，可能存在著某些感染源，例如致病性之病毒。藉由篩檢血漿之捐血者，檢驗某些現有病毒感染源，在經由去活化及/或去除某些病毒，即可降低此產品傳染感染源之危險性。惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。 目前並無因注射依照歐洲藥典規格所製造的血清白蛋白而遭病毒感染的案例發生。 強烈建議在每次施打”貝靈”血清蛋白注射液20%，低鹽含量時，切實將產品名稱及批次資料完整地紀錄下來並與妥善保存。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。 Human Albumin 20% “Behring”(低鹽含量)並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。\n6.2\n哺乳\n至今尚未對孕婦及哺乳者進行人體白蛋白的對照臨床試驗，然而由於血清白蛋白是一種人體血液中天然的成分，臨床使用經驗，並無出現其對於孕婦或胎兒及新生兒有損害作用發生。 Human Albumin 20% “Behring”(低鹽含量)並未進行動物生殖研究。實驗動物的研究不足以證實本藥用於生殖、胚胎或嬰兒發育、懷孕期及生產前後發育的安全性。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n假如你發生仿單未載明之副作用時，請告知你的醫師或藥師。 下述為上市後使用經驗中極少發生的副作用 (<1/10,000)： ＊全身及施打局部部位不適反應有:寒顫、發燒、噁心或嘔吐、頭痛、抑鬱、潮紅。 ＊免疫系統異常：過敏/過敏性反應包括紅疹、發癢、蕁麻疹、呼吸困難、心跳過速、心搏徐緩、低血壓、極少數患者則可能擴展為致命性休克現象。 輕微反應通常在輸注速率變慢或停止後症狀會很快的消退。如果發生嚴重的不良反應時（如：過敏性休克），須立即停止輸注及做適當治療。 針對傳染性感染原方面的安全性，請參考“5.1 警語/注意事項”。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n如果投與過多劑量與輸注速率太快時，可能發生多血症現象。第一個臨床徵兆是出現心血管過度負荷現象（頭痛、呼吸困難、頸靜脈充血）、血壓上升、中央靜脈壓上升或肺水腫；一旦發生時，必須馬上停止給藥，並且小心監測病人的血液動力學。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n血漿替代品及血漿蛋白分餾物，白蛋白。 ATC code: B05A A01。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n50 ml；100ml注射小瓶裝\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n\"貝靈\"血清蛋白注射液20%，低鹽含量，儲存溫度不可超過+25℃，不可冷凍。 應將本藥劑瓶放置在外包盒內保存，以避光。 一旦\"貝靈\"血清蛋白注射液20%，低鹽含量，超過標示在包裝上的有效期限時，請勿使用。 遠離孩童貯存！ 一旦開封後，應須立刻使用。 任何未用完之溶液或廢棄物應依當地衛生法規處理。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n最後更新日期：2026年06月",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "CSL BEHRING GMBH",
+          "address": "EMIL-VON-BEHRING STRASSE 76,35041 MARBURG GERMANY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "吉發企業股份有限公司中和廠",
+          "address": "新北市中和區橋和路116號6樓、6樓之1、6樓之2及6樓之3"
+        },
+        {
+          "number": "2",
+          "name": "CSL BEHRING L.L.C.",
+          "address": "ROUTE 50 NORTH, 1201 N. KINZIE, BRADLEY, IL 60915, USA"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "",
+          "address": "電話: (02)2757-6970"
+        },
+        {
+          "number": "2",
+          "name": "傑特貝林有限公司",
+          "address": "臺北市信義區基隆路1段333號16樓(1612室)"
+        }
+      ]
+    }
+  ]
+}

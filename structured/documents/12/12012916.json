@@ -1,0 +1,758 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:55:21.572287+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12012916",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第012916號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第012916號",
+      "matched_license_code": "12012916",
+      "matched_nhi_code": "",
+      "drug_name_zh": "“強生”美克利靜錠２５毫克",
+      "drug_name_en": "MECLIZINE HCL TABLETS 25MG \"JOHNSON\"",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "Each tablet contains： 有效成分及含量：Meclizine Hydrochloride …………………………………… 25mg",
+          "content_html": "<p><strong>Each tablet contains：</strong><br><strong>有效成分及含量：Meclizine Hydrochloride …………………………………… 25mg</strong></p>",
+          "search_text": "1.1\n有效成分及含量\nEach tablet contains： 有效成分及含量：Meclizine Hydrochloride …………………………………… 25mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Alcohol 95%、Avicel 101、 Densil、Magnesium Stearate、Povidone K-30、Sodium Starch Glycolate (Primojel)、Starch、Water Purified",
+          "content_html": "<p>Alcohol 95%、Avicel 101、 Densil、Magnesium Stearate、Povidone K-30、Sodium Starch Glycolate (Primojel)、Starch、Water Purified</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nAlcohol 95%、Avicel 101、 Densil、Magnesium Stearate、Povidone K-30、Sodium Starch Glycolate (Primojel)、Starch、Water Purified",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "預防或緩解動暈症（暈車、暈船、暈機）引起之頭暈、噁心、嘔吐、頭痛等症狀。",
+          "content_html": "<p>預防或緩解動暈症（暈車、暈船、暈機）引起之頭暈、噁心、嘔吐、頭痛等症狀。</p>",
+          "search_text": "2\n用途(適應症)\n預防或緩解動暈症（暈車、暈船、暈機）引起之頭暈、噁心、嘔吐、頭痛等症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "曾因本藥成分引起過敏。",
+          "content_html": "<p>曾因本藥成分引起過敏。</p>",
+          "search_text": "3.1\n有下列情形者，請勿使用\n曾因本藥成分引起過敏。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "12歲以下。",
+          "title_html": "12歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "12歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n12歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "嚴重代謝性腎疾病的人。",
+          "title_html": "嚴重代謝性腎疾病的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "嚴重代謝性腎疾病的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n嚴重代謝性腎疾病的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.3",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.3",
+          "title": "曾診斷有下列疾病的人：心臟病、高血壓、糖尿病、甲狀腺功能亢進、腎臟病。",
+          "title_html": "曾診斷有下列疾病的人：心臟病、高血壓、糖尿病、甲狀腺功能亢進、腎臟病。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "曾診斷有下列疾病的人：心臟病、高血壓、糖尿病、甲狀腺功能亢進、腎臟病。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.3\n曾診斷有下列疾病的人：心臟病、高血壓、糖尿病、甲狀腺功能亢進、腎臟病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.4",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.4",
+          "title": "有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難；及青光眼的人，因前列腺腫大引起排尿困難的人。",
+          "title_html": "有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難；及青光眼的人，因前列腺腫大引起排尿困難的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難；及青光眼的人，因前列腺腫大引起排尿困難的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.4\n有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難；及青光眼的人，因前列腺腫大引起排尿困難的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "孕婦、可能懷孕婦女及授乳婦。",
+          "title_html": "孕婦、可能懷孕婦女及授乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "孕婦、可能懷孕婦女及授乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n孕婦、可能懷孕婦女及授乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.2",
+          "title": "65歲以上。",
+          "title_html": "65歲以上。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "65歲以上。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.2\n65歲以上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.3",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.3",
+          "title": "接受醫師治療並服用藥物的人。",
+          "title_html": "接受醫師治療並服用藥物的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "接受醫師治療並服用藥物的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.3\n接受醫師治療並服用藥物的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.4",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.4",
+          "title": "服用鎮靜藥或安眠藥的人。",
+          "title_html": "服用鎮靜藥或安眠藥的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "服用鎮靜藥或安眠藥的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.4\n服用鎮靜藥或安眠藥的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.5",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.5",
+          "title": "服用其他鎮暈藥、綜合感冒藥、鎮咳袪痰藥、鼻炎藥或抗過敏藥的人。",
+          "title_html": "服用其他鎮暈藥、綜合感冒藥、鎮咳袪痰藥、鼻炎藥或抗過敏藥的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "服用其他鎮暈藥、綜合感冒藥、鎮咳袪痰藥、鼻炎藥或抗過敏藥的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.5\n服用其他鎮暈藥、綜合感冒藥、鎮咳袪痰藥、鼻炎藥或抗過敏藥的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.6",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.6",
+          "title": "服用本藥若有不了解之處。",
+          "title_html": "服用本藥若有不了解之處。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "服用本藥若有不了解之處。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.6\n服用本藥若有不了解之處。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "為防止兒童誤食請妥善保管。",
+          "title_html": "為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "勿超過建議使用量。",
+          "title_html": "勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "不得與酒精性飲料併用。",
+          "title_html": "不得與酒精性飲料併用。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "不得與酒精性飲料併用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n不得與酒精性飲料併用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "可能引起嗜睡，勿駕車或操作危險性機械。",
+          "title_html": "可能引起嗜睡，勿駕車或操作危險性機械。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "可能引起嗜睡，勿駕車或操作危險性機械。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n可能引起嗜睡，勿駕車或操作危險性機械。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "成人及12歲以上預防暈車、暈船、暈機時，於搭乘前30-60分鐘前服用，1次2錠，一天服用一次。 12歲以下請洽醫師診治。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;vertical-align:top;width:104.65pt;\"><span style=\"font-family:標楷體;\">成人及12歲以上</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:11.0cm;\"><span style=\"font-family:標楷體;\">預防暈車、暈船、暈機時，於搭乘前30-60分鐘前服用，1次2錠，一天服用一次。</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:104.65pt;\"><span style=\"font-family:標楷體;\">12歲以下</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:11.0cm;\"><span style=\"font-family:標楷體;\">請洽醫師診治。</span></td></tr></tbody></table></figure>",
+          "search_text": "4\n用法用量\n成人及12歲以上預防暈車、暈船、暈機時，於搭乘前30-60分鐘前服用，1次2錠，一天服用一次。 12歲以下請洽醫師診治。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位副作用 神經系統思睡、倦怠感、興奮。 皮膚發疹、發紅、癢疹。 其他頭痛、臉紅、心悸、排尿困難、暈眩、浮動、不安定感、口乾、便秘及下痢、視覺上之困擾。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:20.5pt;padding:0cm 5.4pt;vertical-align:top;width:125.9pt;\"><span style=\"color:black;font-family:標楷體;\">身體部位</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:20.5pt;padding:0cm 5.4pt;vertical-align:top;width:297.7pt;\"><span style=\"color:black;font-family:標楷體;\">副作用</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:20.5pt;padding:0cm 5.4pt;vertical-align:top;width:125.9pt;\"><span style=\"font-family:標楷體;\">神經系統</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:20.5pt;padding:0cm 5.4pt;vertical-align:top;width:297.7pt;\"><span style=\"font-family:標楷體;\">思睡、倦怠感、興奮。</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:125.9pt;\"><span style=\"font-family:標楷體;\">皮膚</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:297.7pt;\"><span style=\"font-family:標楷體;\">發疹、發紅、癢疹。</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:125.9pt;\"><span style=\"font-family:標楷體;\">其他</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:297.7pt;\"><span style=\"font-family:標楷體;\">頭痛、臉紅、心悸、排尿困難、暈眩、浮動、不安定感、口乾、便秘及下痢、視覺上之困擾。</span></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 神經系統思睡、倦怠感、興奮。 皮膚發疹、發紅、癢疹。 其他頭痛、臉紅、心悸、排尿困難、暈眩、浮動、不安定感、口乾、便秘及下痢、視覺上之困擾。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有任何不適情況產生。",
+          "title_html": "若有任何不適情況產生。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有任何不適情況產生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有任何不適情況產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "連續服用本藥數日後，若症狀沒有改善。",
+          "title_html": "連續服用本藥數日後，若症狀沒有改善。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "連續服用本藥數日後，若症狀沒有改善。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n連續服用本藥數日後，若症狀沒有改善。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "1,000錠以下 塑膠瓶裝。",
+          "content_html": "<p>1,000錠以下 塑膠瓶裝。</p>",
+          "search_text": "6\n包裝\n1,000錠以下 塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "本藥應儲存於25℃以下緊密容器，避光貯存。",
+          "content_html": "<p>本藥應儲存於25℃以下緊密容器，避光貯存。</p>",
+          "search_text": "7\n儲存方式\n本藥應儲存於25℃以下緊密容器，避光貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品。",
+          "content_html": "<p>醫師藥師藥劑生指示藥品。</p>",
+          "search_text": "8\n類別\n醫師藥師藥劑生指示藥品。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n成分\n1.1\n有效成分及含量\nEach tablet contains： 有效成分及含量：Meclizine Hydrochloride …………………………………… 25mg\n1.2\n其他成分(賦形劑)\nAlcohol 95%、Avicel 101、 Densil、Magnesium Stearate、Povidone K-30、Sodium Starch Glycolate (Primojel)、Starch、Water Purified\n2\n用途(適應症)\n預防或緩解動暈症（暈車、暈船、暈機）引起之頭暈、噁心、嘔吐、頭痛等症狀。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n曾因本藥成分引起過敏。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n12歲以下。\n3.2.2\n嚴重代謝性腎疾病的人。\n3.2.3\n曾診斷有下列疾病的人：心臟病、高血壓、糖尿病、甲狀腺功能亢進、腎臟病。\n3.2.4\n有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難；及青光眼的人，因前列腺腫大引起排尿困難的人。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n孕婦、可能懷孕婦女及授乳婦。\n3.3.2\n65歲以上。\n3.3.3\n接受醫師治療並服用藥物的人。\n3.3.4\n服用鎮靜藥或安眠藥的人。\n3.3.5\n服用其他鎮暈藥、綜合感冒藥、鎮咳袪痰藥、鼻炎藥或抗過敏藥的人。\n3.3.6\n服用本藥若有不了解之處。\n3.4\n其他使用上注意事項\n3.4.1\n為防止兒童誤食請妥善保管。\n3.4.2\n避免陽光直射。\n3.4.3\n勿超過建議使用量。\n3.4.4\n不得與酒精性飲料併用。\n3.4.5\n可能引起嗜睡，勿駕車或操作危險性機械。\n4\n用法用量\n成人及12歲以上預防暈車、暈船、暈機時，於搭乘前30-60分鐘前服用，1次2錠，一天服用一次。 12歲以下請洽醫師診治。\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 神經系統思睡、倦怠感、興奮。 皮膚發疹、發紅、癢疹。 其他頭痛、臉紅、心悸、排尿困難、暈眩、浮動、不安定感、口乾、便秘及下痢、視覺上之困擾。\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有任何不適情況產生。\n5.2.2\n連續服用本藥數日後，若症狀沒有改善。\n6\n包裝\n1,000錠以下 塑膠瓶裝。\n7\n儲存方式\n本藥應儲存於25℃以下緊密容器，避光貯存。\n8\n類別\n醫師藥師藥劑生指示藥品。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段７７號2、3樓、79號1至6樓"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段77號2、3樓、79號1至6樓"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:48.730762+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000643",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000643號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000643號",
+      "matched_license_code": "10000643",
+      "matched_nhi_code": "",
+      "drug_name_zh": "〝貝靈〞B型肝炎免疫球蛋白注射液",
+      "drug_name_en": "HEPATITIS B IMMUNOGLOBULIN P 〞BEHRING〞",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2025-12-05",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">使用本藥劑前請詳細閱讀此說明書</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">妥善保存說明書，以便於日後閱讀</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">如有任何疑問，請洽詢您的主治醫師或藥師詢問</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">本藥劑屬處方用藥。即使是對方的症狀與您相同，也請勿將本藥劑提供給他人使用，因此行為可</span></p><p style=\"text-align:justify;\">&nbsp;<span style=\"font-family:標楷體;\">能危害他人。</span></p><p style=\"text-align:justify;\">-<span style=\"font-family:標楷體;\">一旦發生較嚴重或是發現一些未被列載的不良反應時，請立即告訴您的主治醫師或藥師。</span></p>",
+        "text": "使用本藥劑前請詳細閱讀此說明書 -妥善保存說明書，以便於日後閱讀 -如有任何疑問，請洽詢您的主治醫師或藥師詢問 -本藥劑屬處方用藥。即使是對方的症狀與您相同，也請勿將本藥劑提供給他人使用，因此行為可 能危害他人。 -一旦發生較嚴重或是發現一些未被列載的不良反應時，請立即告訴您的主治醫師或藥師。"
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "活性成分：人體B型肝炎免疫球蛋白 人體蛋白 100-170 mg 其中含人體免疫球蛋白 至少95 % 及B型肝炎抗原之抗體 至少200 I.U. IgA最高含量為3 mg/ml。 完整的賦形劑列表，請見第1.2章節。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">活性成分：人體</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">人體蛋白</span>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;100-170 mg</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">其中含人體免疫球蛋白</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"font-family:標楷體;\">至少</span>95 %</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">及</span>B<span style=\"font-family:標楷體;\">型肝炎抗原之抗體</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">至少</span>200 I.U.</p><p style=\"text-align:justify;\">IgA<span style=\"font-family:標楷體;\">最高含量為</span>3 mg/ml。</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">完整的賦形劑列表，請見第</span>1.2<span style=\"font-family:標楷體;\">章節。</span></p><p style=\"text-align:justify;\">&nbsp;</p>",
+          "search_text": "1.1\n有效成分及含量\n活性成分：人體B型肝炎免疫球蛋白 人體蛋白 100-170 mg 其中含人體免疫球蛋白 至少95 % 及B型肝炎抗原之抗體 至少200 I.U. IgA最高含量為3 mg/ml。 完整的賦形劑列表，請見第1.2章節。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Aminoacetic acid (glycine)、氯化鈉、HCl及NaOH(少量用於調整pH值)、注射用水。",
+          "content_html": "<p>Aminoacetic acid (glycine)<span style=\"font-family:標楷體;\">、氯化鈉、</span>HCl<span style=\"font-family:標楷體;\">及</span>NaOH(<span style=\"font-family:標楷體;\">少量用於調整</span>pH<span style=\"font-family:標楷體;\">值</span>)<span style=\"font-family:標楷體;\">、注射用水。</span></p><p>&nbsp;</p>",
+          "search_text": "1.2\n賦形劑\nAminoacetic acid (glycine)、氯化鈉、HCl及NaOH(少量用於調整pH值)、注射用水。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">注射劑</span></p><p style=\"text-align:justify;\">&nbsp;</p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "貝靈B型肝炎免疫球蛋白為澄清溶液。在有效期間內其色澤可呈無色、淡黃色到淡棕色。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白為澄清溶液。在有效期間內其色澤可呈無色、淡黃色到淡棕色。</span></p><p>&nbsp;</p>",
+          "search_text": "1.4\n藥品外觀\n貝靈B型肝炎免疫球蛋白為澄清溶液。在有效期間內其色澤可呈無色、淡黃色到淡棕色。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "B型肝炎的免疫預防 無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人） 針對血液透析病人，直到疫苗接種已生效。 B型肝炎病毒帶原或未知B型肝炎病毒抗體狀態的母親之新生兒 疫苗接種後沒有顯示免疫反應者（檢測不出B型肝炎抗體）且由於持續有感染B型肝炎危險需要持續預防的人 需參考國家及世界衛生組織對感染B型肝炎病毒的防護治療準則。",
+          "content_html": "<p>B<span style=\"font-family:標楷體;\">型肝炎的免疫預防</span></p><ul><li><span style=\"font-family:標楷體;\">無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人）</span></li><li><span style=\"font-family:標楷體;\">針對血液透析病人，直到疫苗接種已生效。</span></li><li>B<span style=\"font-family:標楷體;\">型肝炎病毒帶原或未知</span>B<span style=\"font-family:標楷體;\">型肝炎病毒抗體狀態的母親之新生兒</span></li><li><span style=\"font-family:標楷體;\">疫苗接種後沒有顯示免疫反應者（檢測不出</span>B<span style=\"font-family:標楷體;\">型肝炎抗體）且由於持續有感染</span>B<span style=\"font-family:標楷體;\">型肝炎危險需要持續預防的人</span></li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">需參考國家及世界衛生組織對感染</span>B<span style=\"font-family:標楷體;\">型肝炎病毒的防護治療準則。</span></p><p>&nbsp;</p>",
+          "search_text": "2\n適應症\nB型肝炎的免疫預防 無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人） 針對血液透析病人，直到疫苗接種已生效。 B型肝炎病毒帶原或未知B型肝炎病毒抗體狀態的母親之新生兒 疫苗接種後沒有顯示免疫反應者（檢測不出B型肝炎抗體）且由於持續有感染B型肝炎危險需要持續預防的人 需參考國家及世界衛生組織對感染B型肝炎病毒的防護治療準則。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "用量 無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人）預防B型肝炎: 12 IU/每公斤體重，最少500 IU，視暴露的程度而定，暴露後儘速注射本藥，宜於72小時內。 血液透析患病人之B型肝炎免疫預防： 8到12 IU/每公斤體重（最多500 IU），每2個月一次，直到接種後出現了抗B型肝炎病毒表面抗原的血清轉化。 B型肝炎病毒帶原的母親之新生兒，在出生時或出生後儘速施打: 30到100 IU/每公斤體重（通常是1 ml）。可能會需要重複注射B型肝炎免疫球蛋白，直到接種後出現了抗B型肝炎病毒表面抗原的血清轉化。 在所有這些情況下，強烈建議接種B型肝炎病毒疫苗。第一劑疫苗可以與人類B型肝炎免疫球蛋白同日施打，不過要在身體的對側部位進行。 那些疫苗接種後沒有顯示免疫反應者（測不出B型肝炎抗體）且需要持續預防的人，可以考慮每二個月投與成人500 IU，兒童8 IU/公斤體重。最小的保護性抗體濃度被認為是10 mIU/毫升。 用法 貝靈B型肝炎免疫球蛋白必須經由肌肉注射方式給予 若溶液出現混濁或含有殘留物(沉澱物/顆粒)，則不要使用。 貝靈B型肝炎免疫球蛋白為隨時可用型，應在接近人體體溫的狀態下給藥。 假使需要很大劑量，建議是分散為幾個小劑量，此適用於體重20公斤內的小孩需注射2 ml以上的劑量，及體重20公斤以上的大人需注射5 ml以上的劑量。 在同時預防注射的情形下，免疫球蛋白及疫苗應注射於身體的對側位置。出現嚴重凝血失調時，而肌肉注射方式是禁忌時，貝靈B型肝炎免疫球蛋白也可皮下注射給予，之後注射部位必須以無菌綿壓著住。然而，應該要注意並無臨床效果資料來支持皮下注射途徑給藥。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>用量</strong></span></p><ul><li><span style=\"font-family:標楷體;\">無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人）預防</span>B<span style=\"font-family:標楷體;\">型肝炎</span>:</li></ul><p style=\"margin-left:24.0pt;\">12 IU/<span style=\"font-family:標楷體;\">每公斤體重，最少</span>500 IU<span style=\"font-family:標楷體;\">，視暴露的程度而定，暴露後儘速注射本藥，宜於</span>72<span style=\"font-family:標楷體;\">小時內。</span></p><ul><li><span style=\"font-family:標楷體;\">血液透析患病人之</span>B<span style=\"font-family:標楷體;\">型肝炎免疫預防：</span></li></ul><p style=\"margin-left:24.0pt;\">8<span style=\"font-family:標楷體;\">到</span>12 IU/<span style=\"font-family:標楷體;\">每公斤體重（最多</span>500 IU<span style=\"font-family:標楷體;\">），每</span>2<span style=\"font-family:標楷體;\">個月一次，直到接種後出現了抗</span>B<span style=\"font-family:標楷體;\">型肝炎病毒表面抗原的血清轉化。</span></p><ul><li>B<span style=\"font-family:標楷體;\">型肝炎病毒帶原的母親之新生兒，在出生時或出生後儘速施打</span>:</li><li>30<span style=\"font-family:標楷體;\">到</span>100 IU/<span style=\"font-family:標楷體;\">每公斤體重（通常是</span>1 ml<span style=\"font-family:標楷體;\">）。可能會需要重複注射</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白，直到接種後出現了抗</span>B<span style=\"font-family:標楷體;\">型肝炎病毒表面抗原的血清轉化。</span></li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">在所有這些情況下，強烈建議接種</span>B<span style=\"font-family:標楷體;\">型肝炎病毒疫苗。第一劑疫苗可以與人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白同日施打，不過要在身體的對側部位進行。</span></p><p><span style=\"font-family:標楷體;\">那些疫苗接種後沒有顯示免疫反應者（測不出B型肝炎抗體）且需要持續預防的人，可以考慮每二個月投與成人</span>500 IU<span style=\"font-family:標楷體;\">，兒童</span>8 IU/<span style=\"font-family:標楷體;\">公斤體重。最小的保護性抗體濃度被認為是</span>10 mIU/<span style=\"font-family:標楷體;\">毫升。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>用法</strong></span></p><p><span style=\"font-family:標楷體;\">貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白必須經由肌肉注射方式給予</span></p><p><span style=\"font-family:標楷體;\">若溶液出現混濁或含有殘留物</span>(<span style=\"font-family:標楷體;\">沉澱物</span>/<span style=\"font-family:標楷體;\">顆粒</span>)<span style=\"font-family:標楷體;\">，則不要使用。</span></p><p><span style=\"font-family:標楷體;\">貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白為隨時可用型，應在接近人體體溫的狀態下給藥。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">假使需要很大劑量，建議是分散為幾個小劑量，此適用於體重</span>20<span style=\"font-family:標楷體;\">公斤內的小孩需注射</span>2 ml<span style=\"font-family:標楷體;\">以上的劑量，及體重</span>20<span style=\"font-family:標楷體;\">公斤以上的大人需注射</span>5 ml<span style=\"font-family:標楷體;\">以上的劑量。</span></p><p>&nbsp;</p><p><span style=\"color:windowtext;font-family:標楷體;\">在同時預防注射的情形下，</span><span style=\"font-family:標楷體;\">免疫球蛋白及疫苗</span><span style=\"color:windowtext;font-family:標楷體;\">應注射於身體的對側位置。出現嚴重凝血失調時，而</span><span style=\"font-family:標楷體;\">肌肉注射方式是禁忌時，貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白也可皮下注射給予，之後注射部位必須以無菌綿壓著住。然而，應該要注意並無臨床效果資料來支持皮下注射途徑給藥。</span></p><p>&nbsp;</p>",
+          "search_text": "3.1\n用法用量\n用量 無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人）預防B型肝炎: 12 IU/每公斤體重，最少500 IU，視暴露的程度而定，暴露後儘速注射本藥，宜於72小時內。 血液透析患病人之B型肝炎免疫預防： 8到12 IU/每公斤體重（最多500 IU），每2個月一次，直到接種後出現了抗B型肝炎病毒表面抗原的血清轉化。 B型肝炎病毒帶原的母親之新生兒，在出生時或出生後儘速施打: 30到100 IU/每公斤體重（通常是1 ml）。可能會需要重複注射B型肝炎免疫球蛋白，直到接種後出現了抗B型肝炎病毒表面抗原的血清轉化。 在所有這些情況下，強烈建議接種B型肝炎病毒疫苗。第一劑疫苗可以與人類B型肝炎免疫球蛋白同日施打，不過要在身體的對側部位進行。 那些疫苗接種後沒有顯示免疫反應者（測不出B型肝炎抗體）且需要持續預防的人，可以考慮每二個月投與成人500 IU，兒童8 IU/公斤體重。最小的保護性抗體濃度被認為是10 mIU/毫升。 用法 貝靈B型肝炎免疫球蛋白必須經由肌肉注射方式給予 若溶液出現混濁或含有殘留物(沉澱物/顆粒)，則不要使用。 貝靈B型肝炎免疫球蛋白為隨時可用型，應在接近人體體溫的狀態下給藥。 假使需要很大劑量，建議是分散為幾個小劑量，此適用於體重20公斤內的小孩需注射2 ml以上的劑量，及體重20公斤以上的大人需注射5 ml以上的劑量。 在同時預防注射的情形下，免疫球蛋白及疫苗應注射於身體的對側位置。出現嚴重凝血失調時，而肌肉注射方式是禁忌時，貝靈B型肝炎免疫球蛋白也可皮下注射給予，之後注射部位必須以無菌綿壓著住。然而，應該要注意並無臨床效果資料來支持皮下注射途徑給藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對於任何組成物會產生過敏 對於人類免疫球蛋白會產生過敏",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對於任何組成物會產生過敏</span></p><p><span style=\"font-family:標楷體;\">對於人類免疫球蛋白會產生過敏</span></p><p>&nbsp;</p>",
+          "search_text": "4\n禁忌\n對於任何組成物會產生過敏 對於人類免疫球蛋白會產生過敏",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "如果接受者是B型肝炎病毒表面抗原的帶原者，投予此產品並無助益 不可靜脈注射! 其理由是因為可能會引起過敏反應。應確認貝靈B型肝炎免疫球蛋白沒有被注射入血管中，因為會有休克的危險。 真正的過敏反應是罕見的。貝靈B型肝炎免疫球蛋白包含少量免疫球蛋白A，缺乏免疫球蛋白A的人有可能形成免疫球蛋白A抗體，而在給予包含免疫球蛋白A的血液成分後可能有過敏性反應。 人類B型肝炎免疫球蛋白伴隨過敏性反應引發血壓下降是罕見的，即使是對先前已耐受過人類免疫球蛋白治療的病人。 治療程度取決於事件的種類及嚴重性。目前的醫療基準針對休克治療來看有待觀察。病人注射貝靈B型肝炎免疫球蛋白後應觀察至少20分鐘。 特別是那些不慎被靜脈注射的病人，注射後應該觀察較長的時間（至少一小時） 關於貝靈B型肝炎免疫球蛋白部分賦形劑的重要訊息 本藥品每劑包含少於一毫摩爾（23毫克）的鈉，因此基本上含鈉量近乎其微。 病原體安全性 藉由標準措施來預防因使用人類血液或血漿製備的醫療用產品導致的感染，包括捐血者的選擇、針對特殊感染的標識物進行個別捐血者和血槳匯集後的篩選，以及有效的生產作業時病毒去活性或去除化等步驟。縱然如此，當使用人類血液或血漿製成的醫藥產品時，仍無法完全地排除傳播傳染性物質的可能性。這點也適用於未知或新興的病毒或其他病原體。 對於有套膜的病毒如人類免疫缺陷病毒(HIV)、B型肝炎病毒(HBV)及C型肝炎病毒(HCV)，以及非套膜的病毒，例如A型肝炎病毒(HAV)及微小病毒(Parvovirus B19)而言，這些檢測及處理步驟是被認為有效的。 可靠臨床經驗指出沒有A型肝炎病毒(HAV)及微小病毒(Parvovirus B19)經免疫球蛋白傳播，並假定抗體含量對病毒安全性有重要貢獻。 強力地建議每次在病患施打貝靈B型肝炎免疫球蛋白時，藥劑名稱及批號均得詳細地記錄以便追蹤病患與產品批號的關聯。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如果接受者是</span>B<span style=\"font-family:標楷體;\">型肝炎病毒表面抗原的帶原者，投予此產品並無助益</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">不可靜脈注射</span>!&nbsp;<span style=\"font-family:標楷體;\">其理由是因為可能會引起過敏反應。應確認貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白沒有被注射入血管中，因為會有休克的危險。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">真正的過敏反應是罕見的。貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白包含少量免疫球蛋白</span>A<span style=\"font-family:標楷體;\">，缺乏免疫球蛋白</span>A<span style=\"font-family:標楷體;\">的人有可能形成免疫球蛋白</span>A<span style=\"font-family:標楷體;\">抗體，而在給予包含免疫球蛋白</span>A<span style=\"font-family:標楷體;\">的血液成分後可能有過敏性反應。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白伴隨過敏性反應引發血壓下降是罕見的，即使是對先前已耐受過人類免疫球蛋白治療的病人。</span></p><p><span style=\"font-family:標楷體;\">治療程度取決於事件的種類及嚴重性。目前的醫療基準針對休克治療來看有待觀察。病人注射貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白後應觀察至少</span>20<span style=\"font-family:標楷體;\">分鐘。</span></p><p><span style=\"font-family:標楷體;\">特別是那些不慎被靜脈注射的病人，注射後應該觀察較長的時間（至少一小時）</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">關於貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白部分賦形劑的重要訊息</span></p><p><span style=\"font-family:標楷體;\">本藥品每劑包含少於一毫摩爾（</span>23<span style=\"font-family:標楷體;\">毫克）的鈉，因此基本上含鈉量近乎其微。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">病原體安全性</span></p><p><span style=\"font-family:標楷體;\">藉由標準措施來預防因使用人類血液或血漿製備的醫療用產品導致的感染，包括捐血者的選擇、針對特殊感染的標識物進行個別捐血者和血槳匯集後的篩選，以及有效的生產作業時病毒去活性或去除化等步驟。縱然如此，當使用人類血液或血漿製成的醫藥產品時，仍無法完全地排除傳播傳染性物質的可能性。這點也適用於未知或新興的病毒或其他病原體。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">對於有套膜的病毒如人類免疫缺陷病毒</span>(HIV)<span style=\"font-family:標楷體;\">、</span>B<span style=\"font-family:標楷體;\">型肝炎病毒</span>(HBV)<span style=\"font-family:標楷體;\">及</span>C<span style=\"font-family:標楷體;\">型肝炎病毒</span>(HCV)<span style=\"font-family:標楷體;\">，以及非套膜的病毒，例如</span>A<span style=\"font-family:標楷體;\">型肝炎病毒</span>(HAV)<span style=\"font-family:標楷體;\">及微小病毒</span>(Parvovirus B19)<span style=\"font-family:標楷體;\">而言，這些檢測及處理步驟是被認為有效的。</span></p><p><span style=\"font-family:標楷體;\">可靠臨床經驗指出沒有</span>A<span style=\"font-family:標楷體;\">型肝炎病毒</span>(HAV)<span style=\"font-family:標楷體;\">及微小病毒</span>(Parvovirus B19)<span style=\"font-family:標楷體;\">經免疫球蛋白傳播，並假定抗體含量對病毒安全性有重要貢獻。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">強力地建議每次在病患施打貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白時，藥劑名稱及批號均得詳細地記錄以便追蹤病患與產品批號的關聯。</span></p><p>&nbsp;</p>",
+          "search_text": "5.1\n警語/注意事項\n如果接受者是B型肝炎病毒表面抗原的帶原者，投予此產品並無助益 不可靜脈注射! 其理由是因為可能會引起過敏反應。應確認貝靈B型肝炎免疫球蛋白沒有被注射入血管中，因為會有休克的危險。 真正的過敏反應是罕見的。貝靈B型肝炎免疫球蛋白包含少量免疫球蛋白A，缺乏免疫球蛋白A的人有可能形成免疫球蛋白A抗體，而在給予包含免疫球蛋白A的血液成分後可能有過敏性反應。 人類B型肝炎免疫球蛋白伴隨過敏性反應引發血壓下降是罕見的，即使是對先前已耐受過人類免疫球蛋白治療的病人。 治療程度取決於事件的種類及嚴重性。目前的醫療基準針對休克治療來看有待觀察。病人注射貝靈B型肝炎免疫球蛋白後應觀察至少20分鐘。 特別是那些不慎被靜脈注射的病人，注射後應該觀察較長的時間（至少一小時） 關於貝靈B型肝炎免疫球蛋白部分賦形劑的重要訊息 本藥品每劑包含少於一毫摩爾（23毫克）的鈉，因此基本上含鈉量近乎其微。 病原體安全性 藉由標準措施來預防因使用人類血液或血漿製備的醫療用產品導致的感染，包括捐血者的選擇、針對特殊感染的標識物進行個別捐血者和血槳匯集後的篩選，以及有效的生產作業時病毒去活性或去除化等步驟。縱然如此，當使用人類血液或血漿製成的醫藥產品時，仍無法完全地排除傳播傳染性物質的可能性。這點也適用於未知或新興的病毒或其他病原體。 對於有套膜的病毒如人類免疫缺陷病毒(HIV)、B型肝炎病毒(HBV)及C型肝炎病毒(HCV)，以及非套膜的病毒，例如A型肝炎病毒(HAV)及微小病毒(Parvovirus B19)而言，這些檢測及處理步驟是被認為有效的。 可靠臨床經驗指出沒有A型肝炎病毒(HAV)及微小病毒(Parvovirus B19)經免疫球蛋白傳播，並假定抗體含量對病毒安全性有重要貢獻。 強力地建議每次在病患施打貝靈B型肝炎免疫球蛋白時，藥劑名稱及批號均得詳細地記錄以便追蹤病患與產品批號的關聯。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊。</span></p><p>&nbsp;</p>",
+          "search_text": "5.2\n藥物濫用及依賴性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "沒有駕駛或操作機械的能力影響效果被觀察過。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">沒有駕駛或操作機械的能力影響效果被觀察過。</span></p><p>&nbsp;</p>",
+          "search_text": "5.3\n操作機械能力\n沒有駕駛或操作機械的能力影響效果被觀察過。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "血清試驗干擾 應考量注射免疫球蛋白後進行血清檢驗結果解讀時，短暫上升的被動傳送的抗體可能會導致使人誤解的陽性之結果。 被動傳送的紅血球抗原抗體，例如: A、B及D可能會干擾一些紅血球allo抗體的血清試驗。(例如: Coombs test)",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>血清試驗干擾</strong></span></p><p><span style=\"font-family:標楷體;\">應考量注射免疫球蛋白後進行血清檢驗結果解讀時，短暫上升的被動傳送的抗體可能會導致使人誤解的陽性之結果。</span></p><p><span style=\"font-family:標楷體;\">被動傳送的紅血球抗原抗體，例如</span>: A<span style=\"font-family:標楷體;\">、</span>B<span style=\"font-family:標楷體;\">及</span>D<span style=\"font-family:標楷體;\">可能會干擾一些紅血球</span>allo<span style=\"font-family:標楷體;\">抗體的血清試驗。</span>(<span style=\"font-family:標楷體;\">例如</span>: Coombs test)</p><p>&nbsp;</p>",
+          "search_text": "5.4\n實驗室檢測\n血清試驗干擾 應考量注射免疫球蛋白後進行血清檢驗結果解讀時，短暫上升的被動傳送的抗體可能會導致使人誤解的陽性之結果。 被動傳送的紅血球抗原抗體，例如: A、B及D可能會干擾一些紅血球allo抗體的血清試驗。(例如: Coombs test)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "缺乏相容性研究，本醫療產品不可和其他醫療產品、稀釋劑或溶劑混合。",
+          "content_html": "<p>缺乏相容性研究，本醫療產品不可和其他醫療產品、稀釋劑或溶劑混合。</p><p>&nbsp;</p>",
+          "search_text": "5.5\n其他注意事項\n缺乏相容性研究，本醫療產品不可和其他醫療產品、稀釋劑或溶劑混合。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "關於在懷孕方面使用貝靈B型肝炎免疫球蛋白的可控制臨床試驗尚未建立。長期持續的免疫球蛋白臨床經驗暗示對懷孕期間沒有傷害，在胎兒或新生兒方面則仍在期待中。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">關於在懷孕方面使用貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白的可控制臨床試驗尚未建立。長期持續的免疫球蛋白臨床經驗暗示對懷孕期間沒有傷害，在胎兒或新生兒方面則仍在期待中。</span></p><p>&nbsp;</p>",
+          "search_text": "6.1\n懷孕\n關於在懷孕方面使用貝靈B型肝炎免疫球蛋白的可控制臨床試驗尚未建立。長期持續的免疫球蛋白臨床經驗暗示對懷孕期間沒有傷害，在胎兒或新生兒方面則仍在期待中。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "活性減毒病毒疫苗接種 注射免疫球蛋白後可能會損害到活性減毒病毒疫苗的效力，如：麻疹、德國麻疹、腮腺炎、及水痘疫苗，長達3個月之久。人類B型肝炎免疫球蛋白最早應在接種這樣的活性減毒病毒疫苗三到四週後才能給予。萬一人類B型肝炎免疫球蛋白在疫苗接種三到四週內必須給予，則須在投與人類B型肝炎免疫球蛋白三個月後重新接種",
+          "content_html": "<p><span style=\"font-family:標楷體;\">活性減毒病毒疫苗接種</span></p><p><span style=\"font-family:標楷體;\">注射免疫球蛋白後可能會損害到活性減毒病毒疫苗的效力，如：麻疹、德國麻疹、腮腺炎、及水痘疫苗，長達</span>3<span style=\"font-family:標楷體;\">個月之久。人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白最早應在接種這樣的活性減毒病毒疫苗三到四週後才能給予。萬一人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白在疫苗接種三到四週內必須給予，則須在投與人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白三個月後重新接種</span></p><p>&nbsp;</p>",
+          "search_text": "7\n交互作用\n活性減毒病毒疫苗接種 注射免疫球蛋白後可能會損害到活性減毒病毒疫苗的效力，如：麻疹、德國麻疹、腮腺炎、及水痘疫苗，長達3個月之久。人類B型肝炎免疫球蛋白最早應在接種這樣的活性減毒病毒疫苗三到四週後才能給予。萬一人類B型肝炎免疫球蛋白在疫苗接種三到四週內必須給予，則須在投與人類B型肝炎免疫球蛋白三個月後重新接種",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "偶爾會有以下不良反應發生: 過敏性反應包括血壓下降、呼吸困難、皮膚反應，有特例曾產生休克即使是病人已顯示對先前投與的免疫球蛋白沒有過敏現象。 一般的反應如寒意、體溫上升、頭痛、抑鬱、噁心、嘔吐、關節痛及溫和的背痛。 心血管反應，特別是不小心靜脈注射產品時。 局部反應 注射部位局部疼痛、易觸痛或腫脹可見於稀少的案例 有關傳染因子的安全性，請見第5章節”警語及注意事項”。 不良反應通報 若您發現任何不良反應，請與您的主治醫生、護士或藥師討論。包涵未列在此說明書中的任何可能不良反應。透過不良反應通報，可以幫助提供此藥之安全性信息。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">偶爾會有以下不良反應發生</span>:</p><ul><li><span style=\"font-family:標楷體;\">過敏性反應包括血壓下降、呼吸困難、皮膚反應，有特例曾產生休克即使是病人已顯示對先前投與的免疫球蛋白沒有過敏現象。</span></li><li><span style=\"font-family:標楷體;\">一般的反應如寒意、體溫上升、頭痛、抑鬱、噁心、嘔吐、關節痛及溫和的背痛。</span></li><li><span style=\"font-family:標楷體;\">心血管反應，特別是不小心靜脈注射產品時。</span></li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">局部反應</span></p><p><span style=\"font-family:標楷體;\">注射部位局部疼痛、易觸痛或腫脹可見於稀少的案例</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">有關傳染因子的安全性，請見第</span>5<span style=\"font-family:標楷體;\">章節</span>”<span style=\"font-family:標楷體;\">警語及注意事項</span>”<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">不良反應通報</span></p><p><span style=\"font-family:標楷體;\">若您發現任何不良反應，請與您的主治醫生、護士或藥師討論。包涵未列在此說明書中的任何可能不良反應。透過不良反應通報，可以幫助提供此藥之安全性信息。</span></p><p>&nbsp;</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n偶爾會有以下不良反應發生: 過敏性反應包括血壓下降、呼吸困難、皮膚反應，有特例曾產生休克即使是病人已顯示對先前投與的免疫球蛋白沒有過敏現象。 一般的反應如寒意、體溫上升、頭痛、抑鬱、噁心、嘔吐、關節痛及溫和的背痛。 心血管反應，特別是不小心靜脈注射產品時。 局部反應 注射部位局部疼痛、易觸痛或腫脹可見於稀少的案例 有關傳染因子的安全性，請見第5章節”警語及注意事項”。 不良反應通報 若您發現任何不良反應，請與您的主治醫生、護士或藥師討論。包涵未列在此說明書中的任何可能不良反應。透過不良反應通報，可以幫助提供此藥之安全性信息。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "過量施打的後果尚不清楚。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">過量施打的後果尚不清楚。</span></p><p>&nbsp;</p>",
+          "search_text": "9\n過量\n過量施打的後果尚不清楚。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "B型肝炎免疫球蛋白的活性成分是源自於人類血漿，其作用類似於血漿的內源性成分。",
+          "content_html": "<p>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白的活性成分是源自於人類血漿，其作用類似於血漿的內源性成分。</span></p><p>&nbsp;</p>",
+          "search_text": "10.1\n作用機轉\nB型肝炎免疫球蛋白的活性成分是源自於人類血漿，其作用類似於血漿的內源性成分。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥物治療分組：免疫血清及免疫球蛋白，人類B型肝炎免疫球蛋白 ATC-code: J06BB04 人類B型肝炎免疫球蛋白主要含有免疫球蛋白G (IgG)，其抗B型肝炎病毒表面抗原的抗體含量非常高。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥物治療分組：免疫血清及免疫球蛋白，人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白</span></p><p>ATC-code: J06BB04</p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白主要含有免疫球蛋白</span>G (IgG)<span style=\"font-family:標楷體;\">，其抗</span>B<span style=\"font-family:標楷體;\">型肝炎病毒表面抗原的抗體含量非常高。</span></p><p>&nbsp;</p>",
+          "search_text": "10.2\n藥效藥理特性\n藥物治療分組：免疫血清及免疫球蛋白，人類B型肝炎免疫球蛋白 ATC-code: J06BB04 人類B型肝炎免疫球蛋白主要含有免疫球蛋白G (IgG)，其抗B型肝炎病毒表面抗原的抗體含量非常高。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "單劑量肌肉注射免疫球蛋白對不同種的動物而言，並未顯示出具有毒性。由於異源人類蛋白的應用的抗體發展，無法在常規的動物模型中合理地進行施打重複劑量（慢性毒性、致癌性和致突變性）的臨床前研究。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">單劑量肌肉注射免疫球蛋白對不同種的動物而言，並未顯示出具有毒性。由於異源人類蛋白的應用的抗體發展，無法在常規的動物模型中合理地進行施打重複劑量（慢性毒性、致癌性和致突變性）的臨床前研究。</span></p><p>&nbsp;</p>",
+          "search_text": "10.3\n臨床前安全性資料\n單劑量肌肉注射免疫球蛋白對不同種的動物而言，並未顯示出具有毒性。由於異源人類蛋白的應用的抗體發展，無法在常規的動物模型中合理地進行施打重複劑量（慢性毒性、致癌性和致突變性）的臨床前研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "人類B型肝炎免疫球蛋白在經過肌肉注射後的2到3天，可以在接種者體內達到循環並被生物利用。人類B型肝炎免疫球蛋白的半衰期大約是3到4週。每個病人的半衰期可能有所差異。 IgG和IgG複合物會在網狀內皮系統的細胞中被分解。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白在經過肌肉注射後的</span>2<span style=\"font-family:標楷體;\">到</span>3<span style=\"font-family:標楷體;\">天，可以在接種者體內達到循環並被生物利用。人類</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白的半衰期大約是</span>3<span style=\"font-family:標楷體;\">到</span>4<span style=\"font-family:標楷體;\">週。每個病人的半衰期可能有所差異。</span></p><p>&nbsp;</p><p>IgG<span style=\"font-family:標楷體;\">和</span>IgG<span style=\"font-family:標楷體;\">複合物會在網狀內皮系統的細胞中被分解。</span></p><p>&nbsp;</p>",
+          "search_text": "11\n藥物動力學特性\n人類B型肝炎免疫球蛋白在經過肌肉注射後的2到3天，可以在接種者體內達到循環並被生物利用。人類B型肝炎免疫球蛋白的半衰期大約是3到4週。每個病人的半衰期可能有所差異。 IgG和IgG複合物會在網狀內皮系統的細胞中被分解。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "直接容器 無色玻璃管的SCF注射器（I型，歐洲藥典） 包裝尺寸 1 ml的注射針筒包裝 5 ml的注射針筒包裝 不是所有包裝尺寸都會被銷售。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>直接容器</strong></span></p><p><span style=\"font-family:標楷體;\">無色玻璃管的</span>SCF<span style=\"font-family:標楷體;\">注射器（</span>I<span style=\"font-family:標楷體;\">型，歐洲藥典）</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>包裝尺寸</strong></span></p><p>1 ml<span style=\"font-family:標楷體;\">的注射針筒包裝</span></p><p>5 ml<span style=\"font-family:標楷體;\">的注射針筒包裝</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">不是所有包裝尺寸都會被銷售。</span></p><p>&nbsp;</p>",
+          "search_text": "13.1\n包裝\n直接容器 無色玻璃管的SCF注射器（I型，歐洲藥典） 包裝尺寸 1 ml的注射針筒包裝 5 ml的注射針筒包裝 不是所有包裝尺寸都會被銷售。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "3年 在包裝和容器上註明的有效期限過期之後，請勿使用貝靈B型肝炎免疫球蛋白。 一旦藥劑容器被打開，內容物必須立即使用。",
+          "content_html": "<p>3<span style=\"font-family:標楷體;\">年</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">在包裝和容器上註明的有效期限過期之後，請勿使用貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白。</span></p><p><span style=\"font-family:標楷體;\">一旦藥劑容器被打開，內容物必須立即使用。</span></p><p>&nbsp;</p>",
+          "search_text": "13.2\n效期\n3年 在包裝和容器上註明的有效期限過期之後，請勿使用貝靈B型肝炎免疫球蛋白。 一旦藥劑容器被打開，內容物必須立即使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "貝靈B型肝炎免疫球蛋白應貯存於冰箱內2℃到8℃。不可冷凍! 應將藥瓶放置在外包盒內保存，以避光。 置於兒童無法取得或目光能及之處!",
+          "content_html": "<p><span style=\"font-family:標楷體;\">貝靈</span>B<span style=\"font-family:標楷體;\">型肝炎免疫球蛋白應貯存於冰箱內</span>2℃<span style=\"font-family:標楷體;\">到</span>8℃<span style=\"font-family:標楷體;\">。不可冷凍</span>!</p><p><span style=\"font-family:標楷體;\">應將藥瓶放置在外包盒內保存，以避光。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">置於兒童無法取得或目光能及之處</span>!</p><p>&nbsp;</p>",
+          "search_text": "13.3\n儲存條件\n貝靈B型肝炎免疫球蛋白應貯存於冰箱內2℃到8℃。不可冷凍! 應將藥瓶放置在外包盒內保存，以避光。 置於兒童無法取得或目光能及之處!",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "任何未用完之溶液或廢棄物應依當地衛生法規處理。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">任何未用完之溶液或廢棄物應依當地衛生法規處理。</span></p><p>&nbsp;</p>",
+          "search_text": "13.4\n儲存注意事項\n任何未用完之溶液或廢棄物應依當地衛生法規處理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "更新日期：2025年06月",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>更新日期：</strong></span>2025<span style=\"font-family:標楷體;\">年</span>06<span style=\"font-family:標楷體;\">月</span></p><p>&nbsp;</p>",
+          "search_text": "15\n其他\n更新日期：2025年06月",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "使用本藥劑前請詳細閱讀此說明書 -妥善保存說明書，以便於日後閱讀 -如有任何疑問，請洽詢您的主治醫師或藥師詢問 -本藥劑屬處方用藥。即使是對方的症狀與您相同，也請勿將本藥劑提供給他人使用，因此行為可 能危害他人。 -一旦發生較嚴重或是發現一些未被列載的不良反應時，請立即告訴您的主治醫師或藥師。\n1\n性狀\n1.1\n有效成分及含量\n活性成分：人體B型肝炎免疫球蛋白 人體蛋白 100-170 mg 其中含人體免疫球蛋白 至少95 % 及B型肝炎抗原之抗體 至少200 I.U. IgA最高含量為3 mg/ml。 完整的賦形劑列表，請見第1.2章節。\n1.2\n賦形劑\nAminoacetic acid (glycine)、氯化鈉、HCl及NaOH(少量用於調整pH值)、注射用水。\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n貝靈B型肝炎免疫球蛋白為澄清溶液。在有效期間內其色澤可呈無色、淡黃色到淡棕色。\n2\n適應症\nB型肝炎的免疫預防 無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人） 針對血液透析病人，直到疫苗接種已生效。 B型肝炎病毒帶原或未知B型肝炎病毒抗體狀態的母親之新生兒 疫苗接種後沒有顯示免疫反應者（檢測不出B型肝炎抗體）且由於持續有感染B型肝炎危險需要持續預防的人 需參考國家及世界衛生組織對感染B型肝炎病毒的防護治療準則。\n3\n用法及用量\n3.1\n用法用量\n用量 無免疫者意外暴露情況下（包括那些疫苗接種未完成或狀況未知的人）預防B型肝炎: 12 IU/每公斤體重，最少500 IU，視暴露的程度而定，暴露後儘速注射本藥，宜於72小時內。 血液透析患病人之B型肝炎免疫預防： 8到12 IU/每公斤體重（最多500 IU），每2個月一次，直到接種後出現了抗B型肝炎病毒表面抗原的血清轉化。 B型肝炎病毒帶原的母親之新生兒，在出生時或出生後儘速施打: 30到100 IU/每公斤體重（通常是1 ml）。可能會需要重複注射B型肝炎免疫球蛋白，直到接種後出現了抗B型肝炎病毒表面抗原的血清轉化。 在所有這些情況下，強烈建議接種B型肝炎病毒疫苗。第一劑疫苗可以與人類B型肝炎免疫球蛋白同日施打，不過要在身體的對側部位進行。 那些疫苗接種後沒有顯示免疫反應者（測不出B型肝炎抗體）且需要持續預防的人，可以考慮每二個月投與成人500 IU，兒童8 IU/公斤體重。最小的保護性抗體濃度被認為是10 mIU/毫升。 用法 貝靈B型肝炎免疫球蛋白必須經由肌肉注射方式給予 若溶液出現混濁或含有殘留物(沉澱物/顆粒)，則不要使用。 貝靈B型肝炎免疫球蛋白為隨時可用型，應在接近人體體溫的狀態下給藥。 假使需要很大劑量，建議是分散為幾個小劑量，此適用於體重20公斤內的小孩需注射2 ml以上的劑量，及體重20公斤以上的大人需注射5 ml以上的劑量。 在同時預防注射的情形下，免疫球蛋白及疫苗應注射於身體的對側位置。出現嚴重凝血失調時，而肌肉注射方式是禁忌時，貝靈B型肝炎免疫球蛋白也可皮下注射給予，之後注射部位必須以無菌綿壓著住。然而，應該要注意並無臨床效果資料來支持皮下注射途徑給藥。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n對於任何組成物會產生過敏 對於人類免疫球蛋白會產生過敏\n5\n警語及注意事項\n5.1\n警語/注意事項\n如果接受者是B型肝炎病毒表面抗原的帶原者，投予此產品並無助益 不可靜脈注射! 其理由是因為可能會引起過敏反應。應確認貝靈B型肝炎免疫球蛋白沒有被注射入血管中，因為會有休克的危險。 真正的過敏反應是罕見的。貝靈B型肝炎免疫球蛋白包含少量免疫球蛋白A，缺乏免疫球蛋白A的人有可能形成免疫球蛋白A抗體，而在給予包含免疫球蛋白A的血液成分後可能有過敏性反應。 人類B型肝炎免疫球蛋白伴隨過敏性反應引發血壓下降是罕見的，即使是對先前已耐受過人類免疫球蛋白治療的病人。 治療程度取決於事件的種類及嚴重性。目前的醫療基準針對休克治療來看有待觀察。病人注射貝靈B型肝炎免疫球蛋白後應觀察至少20分鐘。 特別是那些不慎被靜脈注射的病人，注射後應該觀察較長的時間（至少一小時） 關於貝靈B型肝炎免疫球蛋白部分賦形劑的重要訊息 本藥品每劑包含少於一毫摩爾（23毫克）的鈉，因此基本上含鈉量近乎其微。 病原體安全性 藉由標準措施來預防因使用人類血液或血漿製備的醫療用產品導致的感染，包括捐血者的選擇、針對特殊感染的標識物進行個別捐血者和血槳匯集後的篩選，以及有效的生產作業時病毒去活性或去除化等步驟。縱然如此，當使用人類血液或血漿製成的醫藥產品時，仍無法完全地排除傳播傳染性物質的可能性。這點也適用於未知或新興的病毒或其他病原體。 對於有套膜的病毒如人類免疫缺陷病毒(HIV)、B型肝炎病毒(HBV)及C型肝炎病毒(HCV)，以及非套膜的病毒，例如A型肝炎病毒(HAV)及微小病毒(Parvovirus B19)而言，這些檢測及處理步驟是被認為有效的。 可靠臨床經驗指出沒有A型肝炎病毒(HAV)及微小病毒(Parvovirus B19)經免疫球蛋白傳播，並假定抗體含量對病毒安全性有重要貢獻。 強力地建議每次在病患施打貝靈B型肝炎免疫球蛋白時，藥劑名稱及批號均得詳細地記錄以便追蹤病患與產品批號的關聯。\n5.2\n藥物濫用及依賴性\n目前尚無資訊。\n5.3\n操作機械能力\n沒有駕駛或操作機械的能力影響效果被觀察過。\n5.4\n實驗室檢測\n血清試驗干擾 應考量注射免疫球蛋白後進行血清檢驗結果解讀時，短暫上升的被動傳送的抗體可能會導致使人誤解的陽性之結果。 被動傳送的紅血球抗原抗體，例如: A、B及D可能會干擾一些紅血球allo抗體的血清試驗。(例如: Coombs test)\n5.5\n其他注意事項\n缺乏相容性研究，本醫療產品不可和其他醫療產品、稀釋劑或溶劑混合。\n6\n特殊族群注意事項\n6.1\n懷孕\n關於在懷孕方面使用貝靈B型肝炎免疫球蛋白的可控制臨床試驗尚未建立。長期持續的免疫球蛋白臨床經驗暗示對懷孕期間沒有傷害，在胎兒或新生兒方面則仍在期待中。\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n活性減毒病毒疫苗接種 注射免疫球蛋白後可能會損害到活性減毒病毒疫苗的效力，如：麻疹、德國麻疹、腮腺炎、及水痘疫苗，長達3個月之久。人類B型肝炎免疫球蛋白最早應在接種這樣的活性減毒病毒疫苗三到四週後才能給予。萬一人類B型肝炎免疫球蛋白在疫苗接種三到四週內必須給予，則須在投與人類B型肝炎免疫球蛋白三個月後重新接種\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n偶爾會有以下不良反應發生: 過敏性反應包括血壓下降、呼吸困難、皮膚反應，有特例曾產生休克即使是病人已顯示對先前投與的免疫球蛋白沒有過敏現象。 一般的反應如寒意、體溫上升、頭痛、抑鬱、噁心、嘔吐、關節痛及溫和的背痛。 心血管反應，特別是不小心靜脈注射產品時。 局部反應 注射部位局部疼痛、易觸痛或腫脹可見於稀少的案例 有關傳染因子的安全性，請見第5章節”警語及注意事項”。 不良反應通報 若您發現任何不良反應，請與您的主治醫生、護士或藥師討論。包涵未列在此說明書中的任何可能不良反應。透過不良反應通報，可以幫助提供此藥之安全性信息。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n過量施打的後果尚不清楚。\n10\n藥理特性\n10.1\n作用機轉\nB型肝炎免疫球蛋白的活性成分是源自於人類血漿，其作用類似於血漿的內源性成分。\n10.2\n藥效藥理特性\n藥物治療分組：免疫血清及免疫球蛋白，人類B型肝炎免疫球蛋白 ATC-code: J06BB04 人類B型肝炎免疫球蛋白主要含有免疫球蛋白G (IgG)，其抗B型肝炎病毒表面抗原的抗體含量非常高。\n10.3\n臨床前安全性資料\n單劑量肌肉注射免疫球蛋白對不同種的動物而言，並未顯示出具有毒性。由於異源人類蛋白的應用的抗體發展，無法在常規的動物模型中合理地進行施打重複劑量（慢性毒性、致癌性和致突變性）的臨床前研究。\n11\n藥物動力學特性\n人類B型肝炎免疫球蛋白在經過肌肉注射後的2到3天，可以在接種者體內達到循環並被生物利用。人類B型肝炎免疫球蛋白的半衰期大約是3到4週。每個病人的半衰期可能有所差異。 IgG和IgG複合物會在網狀內皮系統的細胞中被分解。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n直接容器 無色玻璃管的SCF注射器（I型，歐洲藥典） 包裝尺寸 1 ml的注射針筒包裝 5 ml的注射針筒包裝 不是所有包裝尺寸都會被銷售。\n13.2\n效期\n3年 在包裝和容器上註明的有效期限過期之後，請勿使用貝靈B型肝炎免疫球蛋白。 一旦藥劑容器被打開，內容物必須立即使用。\n13.3\n儲存條件\n貝靈B型肝炎免疫球蛋白應貯存於冰箱內2℃到8℃。不可冷凍! 應將藥瓶放置在外包盒內保存，以避光。 置於兒童無法取得或目光能及之處!\n13.4\n儲存注意事項\n任何未用完之溶液或廢棄物應依當地衛生法規處理。\n14\n病人使用須知\n15\n其他\n更新日期：2025年06月",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "CSL BEHRING GMBH",
+          "address": "EMIL-VON-BEHRING STRASSE 76,35041 MARBURG GERMANY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "吉發企業股份有限公司中和廠",
+          "address": "新北市中和區橋和路116號6樓、6樓之1、6樓之2及6樓之3"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "傑特貝林有限公司(02)2757-6970",
+          "address": "臺北市信義區基隆路1段333號16樓(1612室)"
+        }
+      ]
+    }
+  ]
+}

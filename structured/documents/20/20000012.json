@@ -1,0 +1,1032 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:57:49.537433+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "20000012",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署罕藥輸字第000012號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署罕藥輸字第000012號",
+      "matched_license_code": "20000012",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"全可利\"膜衣錠62.5毫克",
+      "drug_name_en": "TRACLEER FILM COATED TABLETS 62.5MG",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2026-09-10",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "<p><strong>服用TRACLEER<sup>®</sup>可能對胎兒造成傷害，因此懷孕時禁止使用，請參閱第4節。也有少數肝病變及肝功能衰竭之案例，請參閱第5.4節。</strong></p>",
+        "text": "服用TRACLEER®可能對胎兒造成傷害，因此懷孕時禁止使用，請參閱第4節。也有少數肝病變及肝功能衰竭之案例，請參閱第5.4節。"
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠含62.5mg bosentan (as monohydrate)。 Bosentan monohydrate化學名為benzenesulphonamide, 4-(1,1-dimethylethyl)-N-[6-(2hydroxyethoxy)-5-(2-methoxyphenoxy)-[2,2’]- bipyrimidin-4-yl]- monohydrate。 分子結構如示：",
+          "content_html": "<p>每錠含62.5mg bosentan (as monohydrate)。</p><p style=\"text-align:justify;\">Bosentan monohydrate化學名為<i>benzenesulphonamide,&nbsp;4-(1,1-dimethylethyl)-N-[6-(2hydroxyethoxy)-5-(2-methoxyphenoxy)-[2,2’]- bipyrimidin-4-yl]- monohydrate<strong>。</strong></i></p><p style=\"text-align:justify;\">分子結構如示：</p>",
+          "search_text": "1.1\n有效成分及含量\n每錠含62.5mg bosentan (as monohydrate)。 Bosentan monohydrate化學名為benzenesulphonamide, 4-(1,1-dimethylethyl)-N-[6-(2hydroxyethoxy)-5-(2-methoxyphenoxy)-[2,2’]- bipyrimidin-4-yl]- monohydrate。 分子結構如示：",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 94880
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "已知作用之賦形劑：本藥品每錠含少於1 mmol的鈉 (23 mg)，實際上即為不含鈉。 完整賦形劑清單: 賦形劑：maize starch, pregelatinised starch, sodium starch glycolate (Type A), povidone, glycerol dibehenate, magnesium stearate。 膜衣成份：hypromellose, glycerol triacetate, talc, titanium dioxide (E171), iron oxide yellow (E172), iron oxide red (E172), ethylcellulose。",
+          "content_html": "<p>已知作用之賦形劑：本藥品每錠含少於1 mmol的鈉 (23 mg)，實際上即為不含鈉。</p><p>完整賦形劑清單:</p><p><u>賦形劑</u>：maize starch, pregelatinised starch, sodium starch glycolate (Type A), povidone, glycerol dibehenate, magnesium stearate。</p><p><u>膜衣成份</u>：hypromellose, glycerol triacetate, talc, titanium dioxide (E171), iron oxide yellow (E172), iron oxide red (E172),&nbsp;ethylcellulose。</p>",
+          "search_text": "1.2\n賦形劑\n已知作用之賦形劑：本藥品每錠含少於1 mmol的鈉 (23 mg)，實際上即為不含鈉。 完整賦形劑清單: 賦形劑：maize starch, pregelatinised starch, sodium starch glycolate (Type A), povidone, glycerol dibehenate, magnesium stearate。 膜衣成份：hypromellose, glycerol triacetate, talc, titanium dioxide (E171), iron oxide yellow (E172), iron oxide red (E172), ethylcellulose。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "膜衣錠。",
+          "content_html": "<p style=\"margin-left:1.2pt;\">膜衣錠。</p>",
+          "search_text": "1.3\n劑型\n膜衣錠。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "62.5 mg：圓型、雙凸橘白色錠劑，凹刻標示62.5於一側。",
+          "content_html": "<p style=\"margin-left:1.2pt;\">62.5 mg：圓型、雙凸橘白色錠劑，凹刻標示62.5於一側。</p>",
+          "search_text": "1.4\n藥品外觀\n62.5 mg：圓型、雙凸橘白色錠劑，凹刻標示62.5於一側。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "原發性肺動脈高血壓。",
+          "content_html": "<p style=\"text-align:justify;\">原發性肺動脈高血壓。</p>",
+          "search_text": "2\n適應症\n原發性肺動脈高血壓。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "給藥方式 錠劑須於早晚兩次口服各一錠，飯前或飯後皆可。膜衣錠須配水吞服。病人應注意不要吞服白色高密度PE瓶中的乾燥劑。 劑量 應在對肺動脈高血壓有治療經驗的醫師監督下才可開始服用TRACLEER。 成人 TRACLEER療法初始劑量應為62.5 mg每天兩次，給藥4週；調整至維持劑量125 mg每天兩次。停藥後應以相同的建議方式重新給藥(請參閱第5.4節) 在開始TRACLEER治療前以及之後治療期間的每一個月，必須監測血清肝臟轉胺酶(AST與ALT)濃度(請參閱第5.4節)。若觀察到轉胺酶濃度上升，必須以第5.4節肝臟功能一節之方式改變監測與治療。 兒童 兒童使用TRACLEER的經驗有限，依據現有資料(請參閱第10節)，1歲以上兒童建議劑量為：\n兒童藥動學資料顯示，1-15歲PAH兒童病人的bosentan血漿濃度一般比成人病人低，亦不會因TRACLEER劑量依體重調升至高於2mg/kg或因給藥次數從每日2次增為3次而上升(請參閱第11節)。增加劑量或給藥次數可能不會有額外的臨床效益。 根據這些藥物動力學結果， 1 歲及以上 PAH 兒童用藥時，建議的起始和維持劑量為早晚各2 mg/kg。 肺動脈高血壓臨床惡化時的處置方式 在給予 TRACLEER 至少8 週 (其中包含維持於標準劑量至少4週) 後，若仍發生臨床惡化 (6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。 對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至 250 mg 每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量劑量與肝臟毒性的相關性(請參閱第5.4及10節)。 體重過輕病人劑量之調整 用於低於40 公斤，但年齡超過12歲的病人，建議起始及維持劑量均為62.5 mg每天兩次。 停止治療 目前對於使用 TRACLEER 的肺動脈高血壓病人突然停藥之經驗有限，無證據顯示突然停藥會導致疾病急性反彈效應。然而，為避免潛在的反彈效應導致臨床惡化的可能性，應考慮逐漸減少藥物劑量(一半的劑量，為期3-7天)後再停藥。減少劑量期間建議增加監測頻率。 若決定停止使用 TRACLEER，必須在替代治療方式引入的同時逐漸減少劑量。",
+          "content_html": "<p style=\"text-align:justify;\"><u>給藥方式</u></p><p style=\"text-align:justify;\">錠劑須於早晚兩次口服各一錠，飯前或飯後皆可。膜衣錠須配水吞服。病人應注意不要吞服白色高密度PE瓶中的乾燥劑。</p><p style=\"text-align:justify;\"><u>劑量</u></p><p style=\"text-align:justify;\">應在對肺動脈高血壓有治療經驗的醫師監督下才可開始服用TRACLEER。</p><p style=\"text-align:justify;\"><u>成人</u></p><p style=\"text-align:justify;\">TRACLEER療法初始劑量應為62.5 mg每天兩次，給藥4週；調整至維持劑量125 mg每天兩次。停藥後應以相同的建議方式重新給藥(請參閱第5.4節)</p><p style=\"text-align:justify;\">在開始TRACLEER治療前以及之後治療期間的每一個月，必須監測血清肝臟轉胺酶(AST與ALT)濃度(請參閱第5.4節)。若觀察到轉胺酶濃度上升，必須以第5.4節肝臟功能一節之方式改變監測與治療。</p><p style=\"text-align:justify;\"><u>兒童</u></p><p style=\"text-align:justify;\">兒童使用TRACLEER的經驗有限，依據現有資料(請參閱第10節)，1歲以上兒童建議劑量為：</p>\n<p style=\"text-align:justify;\">兒童藥動學資料顯示，1-15歲PAH兒童病人的bosentan血漿濃度一般比成人病人低，亦不會因TRACLEER劑量依體重調升至高於2mg/kg或因給藥次數從每日2次增為3次而上升(請參閱第11節)。增加劑量或給藥次數可能不會有額外的臨床效益。</p><p>根據這些藥物動力學結果， 1&nbsp;歲及以上 PAH&nbsp;兒童用藥時，建議的起始和維持劑量為早晚各2 mg/kg。</p><p><u>肺動脈高血壓臨床惡化時的處置方式</u></p><p style=\"text-align:justify;\">在給予 TRACLEER&nbsp;至少8&nbsp;週 (其中包含維持於標準劑量至少4週)&nbsp;後，若仍發生臨床惡化 (6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。</p><p style=\"text-align:justify;\">對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至&nbsp; &nbsp; &nbsp; &nbsp;250 mg&nbsp;每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量劑量與肝臟毒性的相關性(請參閱第5.4及10節)。</p><p style=\"text-align:justify;\"><u>體重過輕病人劑量之調整</u></p><p style=\"text-align:justify;\">用於低於40&nbsp;公斤，但年齡超過12歲的病人，建議起始及維持劑量均為62.5 mg每天兩次。</p><p style=\"text-align:justify;\"><u>停止治療</u></p><p style=\"text-align:justify;\">目前對於使用 TRACLEER&nbsp;的肺動脈高血壓病人突然停藥之經驗有限，無證據顯示突然停藥會導致疾病急性反彈效應。然而，為避免潛在的反彈效應導致臨床惡化的可能性，應考慮逐漸減少藥物劑量(一半的劑量，為期3-7天)後再停藥。減少劑量期間建議增加監測頻率。</p><p style=\"text-align:justify;\">若決定停止使用 TRACLEER，必須在替代治療方式引入的同時逐漸減少劑量。</p>",
+          "search_text": "3.1\n用法用量\n給藥方式 錠劑須於早晚兩次口服各一錠，飯前或飯後皆可。膜衣錠須配水吞服。病人應注意不要吞服白色高密度PE瓶中的乾燥劑。 劑量 應在對肺動脈高血壓有治療經驗的醫師監督下才可開始服用TRACLEER。 成人 TRACLEER療法初始劑量應為62.5 mg每天兩次，給藥4週；調整至維持劑量125 mg每天兩次。停藥後應以相同的建議方式重新給藥(請參閱第5.4節) 在開始TRACLEER治療前以及之後治療期間的每一個月，必須監測血清肝臟轉胺酶(AST與ALT)濃度(請參閱第5.4節)。若觀察到轉胺酶濃度上升，必須以第5.4節肝臟功能一節之方式改變監測與治療。 兒童 兒童使用TRACLEER的經驗有限，依據現有資料(請參閱第10節)，1歲以上兒童建議劑量為：\n兒童藥動學資料顯示，1-15歲PAH兒童病人的bosentan血漿濃度一般比成人病人低，亦不會因TRACLEER劑量依體重調升至高於2mg/kg或因給藥次數從每日2次增為3次而上升(請參閱第11節)。增加劑量或給藥次數可能不會有額外的臨床效益。 根據這些藥物動力學結果， 1 歲及以上 PAH 兒童用藥時，建議的起始和維持劑量為早晚各2 mg/kg。 肺動脈高血壓臨床惡化時的處置方式 在給予 TRACLEER 至少8 週 (其中包含維持於標準劑量至少4週) 後，若仍發生臨床惡化 (6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。 對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至 250 mg 每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量劑量與肝臟毒性的相關性(請參閱第5.4及10節)。 體重過輕病人劑量之調整 用於低於40 公斤，但年齡超過12歲的病人，建議起始及維持劑量均為62.5 mg每天兩次。 停止治療 目前對於使用 TRACLEER 的肺動脈高血壓病人突然停藥之經驗有限，無證據顯示突然停藥會導致疾病急性反彈效應。然而，為避免潛在的反彈效應導致臨床惡化的可能性，應考慮逐漸減少藥物劑量(一半的劑量，為期3-7天)後再停藥。減少劑量期間建議增加監測頻率。 若決定停止使用 TRACLEER，必須在替代治療方式引入的同時逐漸減少劑量。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 30668
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "肝功能不全 TRACLEER不可用於原先就有中度至重度肝功能不全的病人(Child-Pugh分級B級和C級) (請參閱第4.、5.4及11節)。 TRACLEER用於原先就有輕度肝功能異常的病人(Child-Pugh分級 A級)無需調整劑量(請參閱第11節)。 腎功能不全 腎功能受損者不需要調整劑量。接受血液透析治療之病人，亦無需調整劑量(請參閱第11節)。 老年人 65歲或以上老年人無需調整劑量。",
+          "content_html": "<ul><li>肝功能不全</li></ul><p style=\"margin-left:40px;text-align:justify;\">TRACLEER不可用於原先就有中度至重度肝功能不全的病人(Child-Pugh分級B級和C級) (請參閱第4.、5.4及11節)。</p><p style=\"margin-left:40px;text-align:justify;\">TRACLEER用於原先就有輕度肝功能異常的病人(Child-Pugh分級 A級)無需調整劑量(請參閱第11節)。</p><ul><li style=\"text-align:justify;\">腎功能不全</li></ul><p style=\"margin-left:40px;text-align:justify;\">腎功能受損者不需要調整劑量。接受血液透析治療之病人，亦無需調整劑量(請參閱第11節)。</p><ul><li style=\"text-align:justify;\">老年人</li></ul><p style=\"margin-left:40px;\">65歲或以上老年人無需調整劑量。</p>",
+          "search_text": "3.3\n特殊族群用法用量\n肝功能不全 TRACLEER不可用於原先就有中度至重度肝功能不全的病人(Child-Pugh分級B級和C級) (請參閱第4.、5.4及11節)。 TRACLEER用於原先就有輕度肝功能異常的病人(Child-Pugh分級 A級)無需調整劑量(請參閱第11節)。 腎功能不全 腎功能受損者不需要調整劑量。接受血液透析治療之病人，亦無需調整劑量(請參閱第11節)。 老年人 65歲或以上老年人無需調整劑量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對bosentan或任何列於第1.2節賦形劑過敏者； 中度或重度肝功能不全( Child-Pugh 分級 B級或 C級；請參閱第11節)； 肝臟轉胺酶濃度基礎值高於三倍正常值上限 (AST 及/或 ALT > 3x ULN；請參閱第5.4節); 併用 cyclosporine A (請參閱第7節)； 已懷孕婦女(請參閱第6.1節)； 具生育能力之婦女而未使用可靠之避孕方式(請參閱第6.3及7節)",
+          "content_html": "<ul><li><strong>對bosentan或任何列於第1.2節賦形劑過敏者；</strong></li><li style=\"text-align:justify;\"><strong>中度或重度肝功能不全( Child-Pugh&nbsp;分級 B級或 C級；請參閱第11節)；</strong></li><li><strong>肝臟轉胺酶濃度基礎值高於三倍正常值上限 (AST&nbsp;及/或 ALT &gt; 3x ULN；請參閱第5.4節);</strong></li><li><strong>併用 cyclosporine A (請參閱第7節)；</strong></li><li><strong>已懷孕婦女(請參閱第6.1節)；</strong></li><li><strong>具生育能力之婦女而未使用可靠之避孕方式(請參閱第6.3及7節)</strong></li></ul>",
+          "search_text": "4\n禁忌\n對bosentan或任何列於第1.2節賦形劑過敏者； 中度或重度肝功能不全( Child-Pugh 分級 B級或 C級；請參閱第11節)； 肝臟轉胺酶濃度基礎值高於三倍正常值上限 (AST 及/或 ALT > 3x ULN；請參閱第5.4節); 併用 cyclosporine A (請參閱第7節)； 已懷孕婦女(請參閱第6.1節)； 具生育能力之婦女而未使用可靠之避孕方式(請參閱第6.3及7節)",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "TRACLEER 的臨床療效尚未建立於重度肺動脈高血壓病人。當臨床症狀惡化時，必須考慮改接受重度病程的建議治療藥物(例如 epoprostenol)。 本品對於 WHO 功能分級第一級之肺動脈高血壓病人的效益-風險評估尚未確立。 本品只應給予收縮壓高於 85 mmHg之病人。 肺動脈高血壓臨床惡化時的處置方式 在給予 TRACLEER 至少8 週 (維持於標準劑量至少4週) 後，若仍發生臨床惡化(6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。 對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至 250 mg 每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量肝臟毒性與劑量相關(請參閱第5.4及10.3節)。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>TRACLEER&nbsp;的臨床療效尚未建立於重度肺動脈高血壓病人。當臨床症狀惡化時，必須考慮改接受重度病程的建議治療藥物(例如 epoprostenol)。</strong></p><p style=\"text-align:justify;\"><strong>本品對於 WHO&nbsp;功能分級第一級之肺動脈高血壓病人的效益-風險評估尚未確立。</strong></p><p style=\"text-align:justify;\"><strong>本品只應給予收縮壓高於 85 mmHg之病人。</strong></p><p><strong><u>肺動脈高血壓臨床惡化時的處置方式</u></strong></p><p style=\"text-align:justify;\"><strong>在給予 TRACLEER&nbsp;至少8&nbsp;週 (維持於標準劑量至少4週)&nbsp;後，若仍發生臨床惡化(6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。</strong></p><p><strong>對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至&nbsp; &nbsp; &nbsp; &nbsp;250 mg&nbsp;每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量肝臟毒性與劑量相關(請參閱第5.4及10.3節)。</strong></p>",
+          "search_text": "5.1\n警語/注意事項\nTRACLEER 的臨床療效尚未建立於重度肺動脈高血壓病人。當臨床症狀惡化時，必須考慮改接受重度病程的建議治療藥物(例如 epoprostenol)。 本品對於 WHO 功能分級第一級之肺動脈高血壓病人的效益-風險評估尚未確立。 本品只應給予收縮壓高於 85 mmHg之病人。 肺動脈高血壓臨床惡化時的處置方式 在給予 TRACLEER 至少8 週 (維持於標準劑量至少4週) 後，若仍發生臨床惡化(6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。 對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至 250 mg 每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量肝臟毒性與劑量相關(請參閱第5.4及10.3節)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "尚未有探討TRACLEER對開車與操作機械能力影響的研究，但TRACLEER可能會造成低血壓併發頭暈，視力模糊及昏厥症狀，因此可能影響開車與操作機械能力。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>尚未有探討TRACLEER對開車與操作機械能力影響的研究，但TRACLEER可能會造成低血壓併發頭暈，視力模糊及昏厥症狀，因此可能影響開車與操作機械能力。</strong></p>",
+          "search_text": "5.3\n操作機械能力\n尚未有探討TRACLEER對開車與操作機械能力影響的研究，但TRACLEER可能會造成低血壓併發頭暈，視力模糊及昏厥症狀，因此可能影響開車與操作機械能力。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "肝臟功能 肝臟轉胺酶(AST及/或ALT)濃度的上升和所給予的 bosentan 劑量相關。肝臟酵素之改變通常發生在療程初始之26週內，但也可能發生在治療後期(請參閱第8節)。肝臟轉胺酶濃度的上升，可能部份來自藥物對肝臟細胞本身膽鹽排出功能的競爭性抑制，但其他未經證實的機制也可能造成肝臟功能衰退。不排除bosentan 於肝細胞的累積導致細胞溶解(cytolysis)，可能引起肝臟的嚴重受損，或有其他免疫機制。已有潛伏期為數月到數年不等自體免疫性肝炎的罕見案例報告。併用其他膽鹽排出抑制劑時(例如 rifampicin, glibenclamide 及 cyclosporine A(請參閱第4及7節) 也可能增加肝臟受損的風險，但是這部份目前資料有限。\n血紅素值變化 以TRACLEER治療時，會引起與劑量相關之血紅素值下降(請參閱第8節)。在安慰劑對照試驗中，與本品相關的血紅素值降低現象並不會持續惡化，療程開始4-12週後血紅素值就會穩定。建議在治療開始之前就檢查血紅素值，並於治療期前四個月內每個月檢查，之後則每三個月檢查一次。若觀察到臨床相關之血紅素值下降情形，則必須安排進一步的評估及調查以找出發生的原因，並決定是否需要給予病人特定的處置。產品上市後期間，曾有發生貧血需要輸血之案例。(請參閱第8節)",
+          "content_html": "<p><strong><u>肝臟功能</u></strong></p><p style=\"text-align:justify;\"><strong>肝臟轉胺酶(AST及/或ALT)濃度的上升和所給予的 bosentan&nbsp;劑量相關。肝臟酵素之改變通常發生在療程初始之26週內，但也可能發生在治療後期(請參閱第8節)。肝臟轉胺酶濃度的上升，可能部份來自藥物對肝臟細胞本身膽鹽排出功能的競爭性抑制，但其他未經證實的機制也可能造成肝臟功能衰退。不排除bosentan&nbsp;於肝細胞的累積導致細胞溶解(cytolysis)，可能引起肝臟的嚴重受損，或有其他免疫機制。已有潛伏期為數月到數年不等自體免疫性肝炎的罕見案例報告。併用其他膽鹽排出抑制劑時(例如 rifampicin, glibenclamide&nbsp;及 cyclosporine A(請參閱第4及7節)&nbsp;也可能增加肝臟受損的風險，但是這部份目前資料有限。</strong></p>\n<p style=\"text-align:justify;\"><strong><u>血紅素值變化</u></strong></p><p style=\"text-align:justify;\"><strong>以TRACLEER治療時，會引起與劑量相關之血紅素值下降(請參閱第8節)。在安慰劑對照試驗中，與本品相關的血紅素值降低現象並不會持續惡化，療程開始4-12週後血紅素值就會穩定。建議在治療開始之前就檢查血紅素值，並於治療期前四個月內每個月檢查，之後則每三個月檢查一次。若觀察到臨床相關之血紅素值下降情形，則必須安排進一步的評估及調查以找出發生的原因，並決定是否需要給予病人特定的處置。產品上市後期間，曾有發生貧血需要輸血之案例。(請參閱第8節)</strong></p>",
+          "search_text": "5.4\n實驗室檢測\n肝臟功能 肝臟轉胺酶(AST及/或ALT)濃度的上升和所給予的 bosentan 劑量相關。肝臟酵素之改變通常發生在療程初始之26週內，但也可能發生在治療後期(請參閱第8節)。肝臟轉胺酶濃度的上升，可能部份來自藥物對肝臟細胞本身膽鹽排出功能的競爭性抑制，但其他未經證實的機制也可能造成肝臟功能衰退。不排除bosentan 於肝細胞的累積導致細胞溶解(cytolysis)，可能引起肝臟的嚴重受損，或有其他免疫機制。已有潛伏期為數月到數年不等自體免疫性肝炎的罕見案例報告。併用其他膽鹽排出抑制劑時(例如 rifampicin, glibenclamide 及 cyclosporine A(請參閱第4及7節) 也可能增加肝臟受損的風險，但是這部份目前資料有限。\n血紅素值變化 以TRACLEER治療時，會引起與劑量相關之血紅素值下降(請參閱第8節)。在安慰劑對照試驗中，與本品相關的血紅素值降低現象並不會持續惡化，療程開始4-12週後血紅素值就會穩定。建議在治療開始之前就檢查血紅素值，並於治療期前四個月內每個月檢查，之後則每三個月檢查一次。若觀察到臨床相關之血紅素值下降情形，則必須安排進一步的評估及調查以找出發生的原因，並決定是否需要給予病人特定的處置。產品上市後期間，曾有發生貧血需要輸血之案例。(請參閱第8節)",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 255660
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "動物研究顯示本品具生殖毒性(致畸胎性及胚胎毒性，請參閱第10.3節)。目前沒有TRACLEER使用於孕婦的可靠資料。對人類的潛在風險尚屬未知。懷孕時禁止使用TRACLEER (請參閱第4節)。",
+          "content_html": "<p style=\"text-align:justify;\">動物研究顯示本品具生殖毒性(致畸胎性及胚胎毒性，請參閱第10.3節)。目前沒有TRACLEER使用於孕婦的可靠資料。對人類的潛在風險尚屬未知。懷孕時禁止使用TRACLEER (請參閱第4節)。</p>",
+          "search_text": "6.1\n懷孕\n動物研究顯示本品具生殖毒性(致畸胎性及胚胎毒性，請參閱第10.3節)。目前沒有TRACLEER使用於孕婦的可靠資料。對人類的潛在風險尚屬未知。懷孕時禁止使用TRACLEER (請參閱第4節)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "一案例報告的數據描述了母乳中存在低濃度的bosentan。Bosentan對母乳哺育之嬰兒的影響尚未有足夠的資訊，對母乳哺育之嬰兒無法排除其風險。服用TRACLEER期間不建議哺乳。",
+          "content_html": "<p>一案例報告的數據描述了母乳中存在低濃度的bosentan。Bosentan對母乳哺育之嬰兒的影響尚未有足夠的資訊<strong>，</strong>對母乳哺育之嬰兒無法排除其風險。服用TRACLEER期間不建議哺乳。</p>",
+          "search_text": "6.2\n哺乳\n一案例報告的數據描述了母乳中存在低濃度的bosentan。Bosentan對母乳哺育之嬰兒的影響尚未有足夠的資訊，對母乳哺育之嬰兒無法排除其風險。服用TRACLEER期間不建議哺乳。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "具生育能力之婦女 由於使用 TRACLEER 可能造成賀爾蒙類避孕劑的失效，並考量懷孕將使肺動脈高血壓病症惡化，以及在動物試驗中觀察到的致畸胎性，故： 本品不可使用於具生育能力之婦女，除非已使用適當避孕方式且懷孕檢測結果呈陰性反應 使用本品治療期間，荷爾蒙避孕劑不可作為唯一之避孕方式。 服用TRACLEER期間，應每個月進行懷孕檢測，以及早發現懷孕。 詳細資訊請參閱 第7節。 使用於具生育能力之婦女 具生育能力之婦女在開始給予TRACLEER前必須確認沒有懷孕，給予適當關於可靠避孕方式的建議並進行適當且可靠有效的避孕方式。處方醫師及病人都應了解，由於潛在的藥物動力學交互作用，TRACLEER可能會造成賀爾蒙類避孕藥的失效(請參閱第7節)。所以，具生育能力之婦女不可只用賀爾蒙類避孕藥(包括口服劑、注射劑、穿皮劑或植入式)作為單一避孕方式，而必須外加或使用另外一類可靠避孕方式。若對於應採取之避孕方式有疑問，建議向婦科醫師諮詢。由於TRACLEER治療期間可能造成賀爾蒙避孕法的失敗，以及肺高壓病症會因為懷孕而嚴重惡化，建議接受TRACLEER治療期間應每月進行懷孕檢測，以能及早發現懷孕。 生育力 動物試驗中顯示本品對睪丸的影響(請參閱第10.3節)。在一項研究bosentan 對男性肺動脈高血壓病人睪丸影響的試驗中，受試者在接受6個月bosentan 治療後，24位受試者之中有6位(25%)的精子濃度下降至少50%。基於這些結果以及臨床前資料，無法排除bosentan對男性精子生成造成有害的影響。男童病人接受bosentan治療後，無法排除對於其生育力的長期影響。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>具生育能力之婦女</u></strong></p><p style=\"text-align:justify;\"><strong>由於使用 TRACLEER&nbsp;可能造成賀爾蒙類避孕劑的失效，並考量懷孕將使肺動脈高血壓病症惡化，以及在動物試驗中觀察到的致畸胎性，故：</strong></p><ul><li style=\"text-align:justify;\"><strong>本品不可使用於具生育能力之婦女，除非已使用適當避孕方式且懷孕檢測結果呈陰性反應</strong></li><li style=\"text-align:justify;\"><strong>使用本品治療期間，荷爾蒙避孕劑不可作為唯一之避孕方式。</strong></li><li style=\"text-align:justify;\"><strong>服用TRACLEER期間，應每個月進行懷孕檢測，以及早發現懷孕。</strong></li></ul><p style=\"text-align:justify;\"><strong>詳細資訊請參閱 第7節。</strong></p><p style=\"text-align:justify;\"><strong><u>使用於具生育能力之婦女</u></strong></p><p style=\"text-align:justify;\">具<strong>生育能力之婦女在開始給予TRACLEER前必須確認沒有懷孕，給予適當關於可靠避孕方式的建議並進行適當且可靠有效的避孕方式。處方醫師及病人都應了解，由於潛在的藥物動力學交互作用，TRACLEER可能會造成賀爾蒙類避孕藥的失效(請參閱第7節)。所以，具生育能力之婦女不可只用賀爾蒙類避孕藥(包括口服劑、注射劑、穿皮劑或植入式)作為單一避孕方式，而必須外加或使用另外一類可靠避孕方式。若對於應採取之避孕方式有疑問，建議向婦科醫師諮詢。由於TRACLEER治療期間可能造成賀爾蒙避孕法的失敗，以及肺高壓病症會因為懷孕而嚴重惡化，建議接受TRACLEER治療期間應每月進行懷孕檢測，以能及早發現懷孕。</strong></p><p style=\"text-align:justify;\"><strong><u>生育力</u></strong></p><p><strong>動物試驗中顯示本品對睪丸的影響(請參閱第10.3節)。在一項研究bosentan 對男性肺動脈高血壓病人睪丸影響的試驗中，受試者在接受6個月bosentan 治療後，24位受試者之中有6位(25%)的精子濃度下降至少50%。基於這些結果以及臨床前資料，無法排除bosentan對男性精子生成造成有害的影響。男童病人接受bosentan治療後，無法排除對於其生育力的長期影響。</strong></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n具生育能力之婦女 由於使用 TRACLEER 可能造成賀爾蒙類避孕劑的失效，並考量懷孕將使肺動脈高血壓病症惡化，以及在動物試驗中觀察到的致畸胎性，故： 本品不可使用於具生育能力之婦女，除非已使用適當避孕方式且懷孕檢測結果呈陰性反應 使用本品治療期間，荷爾蒙避孕劑不可作為唯一之避孕方式。 服用TRACLEER期間，應每個月進行懷孕檢測，以及早發現懷孕。 詳細資訊請參閱 第7節。 使用於具生育能力之婦女 具生育能力之婦女在開始給予TRACLEER前必須確認沒有懷孕，給予適當關於可靠避孕方式的建議並進行適當且可靠有效的避孕方式。處方醫師及病人都應了解，由於潛在的藥物動力學交互作用，TRACLEER可能會造成賀爾蒙類避孕藥的失效(請參閱第7節)。所以，具生育能力之婦女不可只用賀爾蒙類避孕藥(包括口服劑、注射劑、穿皮劑或植入式)作為單一避孕方式，而必須外加或使用另外一類可靠避孕方式。若對於應採取之避孕方式有疑問，建議向婦科醫師諮詢。由於TRACLEER治療期間可能造成賀爾蒙避孕法的失敗，以及肺高壓病症會因為懷孕而嚴重惡化，建議接受TRACLEER治療期間應每月進行懷孕檢測，以能及早發現懷孕。 生育力 動物試驗中顯示本品對睪丸的影響(請參閱第10.3節)。在一項研究bosentan 對男性肺動脈高血壓病人睪丸影響的試驗中，受試者在接受6個月bosentan 治療後，24位受試者之中有6位(25%)的精子濃度下降至少50%。基於這些結果以及臨床前資料，無法排除bosentan對男性精子生成造成有害的影響。男童病人接受bosentan治療後，無法排除對於其生育力的長期影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "肺靜脈阻塞性疾病 曾有肺靜脈阻塞性疾病的病人使用血管擴張劑(主要是prostacyclins)時發生肺水腫的案例報導。因此，當肺動脈高血壓病人服用TRACLEER出現肺水腫的症狀時，應考慮併發肺靜脈阻塞性疾病的可能性。在上市後的這段時間，有極少數有關服用TRACLEER而發生肺水腫病人被診斷疑似有肺靜脈阻塞性疾病的報導。 伴隨左心室衰竭的肺動脈高血壓病人 過往並無任何具體針對患有伴隨左心室衰竭之肺動脈高壓病人進行的研究。 然而，有一個具安慰劑-對照組試驗，共1611位患有嚴重慢性心衰竭(CHF)的病人(804位使用bosentan和807位使用安慰劑)，平均治療1.5年 (AC-052-301/302[試驗 ENABLE 1 及 ENABLE 2])。該試驗以bosentan治療的最初4-8週期間，因慢性心衰竭而住院的發生率增加，可能是體液滯留的結果。試驗中，體液滯留的徵兆是初期體重上升、血紅素濃度降低及下肢水腫的比例增加。試驗完成時，使用bosentan與安慰劑組的病人，因心衰竭而住院及死亡之整體比例並無差異。因此，建議監測病人是否出現體液滯留情形(例如：體重上升)，特別是同時患有嚴重心臟收縮功能失調之病人。若發生此現象，建議開始給予利尿劑治療，或是調升既有利尿劑劑量。有體液滯留跡象的病人，在TRACLEER療程開始前，應考慮給予利尿劑。 人類免疫不全病毒(HIV)感染病人之用藥 目前對於已接受反轉錄病毒藥物治療人類免疫不全病毒(HIV)感染的肺動脈高血壓病人使用 TRACLEER治療的臨床試驗經驗有限(請參閱第10節)。在一個bosentan 與 lopinavir+ritonavir的藥物交互作用試驗中，健康受試者的bosentan 血漿濃度上升，最高濃度在療程前四日(請參閱第7節)。TRACLEER 併用於接受ritonavir增效蛋白酶抑制劑(ritonavir-boosted protease inhibitors)治療的病人時，必須在用藥初期特別小心並密切地監測該病人對 TRACLEER 的耐受性，以注意低血壓或肝功能指數下降的發生。當 bosentan 與抗反轉錄病毒藥物併用時，無法排除肝臟毒性長期風險及血液不良事件的增加。基於 bosentan 對 CYP450 的誘導效果(請參閱第7節)，相關的潛在交互作用可能影響抗反轉錄病毒藥物的療效，故應謹慎監測這些病人的感染情形。 慢性阻塞性肺病(COPD)引起之肺動脈高血壓 一項針對慢性肺阻塞引起之肺動脈高血壓病人的探索性臨床試驗，納入11名因嚴重慢性肺阻塞(GOLD分級第III級)引起肺動脈高血壓病人，進行為期12週無對照組的藥物試驗，研究bosentan的安全性及耐受性；試驗結果觀察到分通氣量增加(minute ventilation)及氧氣飽和度(oxygen saturation)下降情形；最常發生之不良事件是\"呼吸困難\"，症狀可在停藥後緩解。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>肺靜脈阻塞性疾病</u></strong></p><p style=\"text-align:justify;\"><strong>曾有肺靜脈阻塞性疾病的病人使用血管擴張劑(主要是prostacyclins)時發生肺水腫的案例報導。因此，當肺動脈高血壓病人服用TRACLEER出現肺水腫的症狀時，應考慮併發肺靜脈阻塞性疾病的可能性。在上市後的這段時間，有極少數有關服用TRACLEER而發生肺水腫病人被診斷疑似有肺靜脈阻塞性疾病的報導。</strong></p><p style=\"text-align:justify;\"><strong><u>伴隨左心室衰竭的肺動脈高血壓病人</u></strong></p><p style=\"text-align:justify;\"><strong>過往並無任何具體針對患有伴隨左心室衰竭之肺動脈高壓病人進行的研究。 然而，有一個具安慰劑-對照組試驗，共1611位患有嚴重慢性心衰竭(CHF)的病人(804位使用bosentan和807位使用安慰劑)，平均治療1.5年 (AC-052-301/302[試驗 ENABLE 1&nbsp;及 ENABLE 2])。該試驗以bosentan治療的最初4-8週期間，因慢性心衰竭而住院的發生率增加，可能是體液滯留的結果。試驗中，體液滯留的徵兆是初期體重上升、血紅素濃度降低及下肢水腫的比例增加。試驗完成時，使用bosentan與安慰劑組的病人，因心衰竭而住院及死亡之整體比例並無差異。因此，建議監測病人是否出現體液滯留情形(例如：體重上升)，特別是同時患有嚴重心臟收縮功能失調之病人。若發生此現象，建議開始給予利尿劑治療，或是調升既有利尿劑劑量。有體液滯留跡象的病人，在TRACLEER療程開始前，應考慮給予利尿劑。</strong></p><p style=\"text-align:justify;\"><strong><u>人類免疫不全病毒(HIV)感染病人之用藥</u></strong></p><p><strong>目前對於已接受反轉錄病毒藥物治療人類免疫不全病毒(HIV)感染的肺動脈高血壓病人使用 TRACLEER治療的臨床試驗經驗有限(請參閱第10節)。在一個bosentan&nbsp;與 lopinavir+ritonavir的藥物交互作用試驗中，健康受試者的bosentan 血漿濃度上升，最高濃度在療程前四日(請參閱第7節)。TRACLEER&nbsp;併用於接受ritonavir增效蛋白酶抑制劑(ritonavir-boosted protease inhibitors)治療的病人時，必須在用藥初期特別小心並密切地監測該病人對 TRACLEER&nbsp;的耐受性，以注意低血壓或肝功能指數下降的發生。當 bosentan&nbsp;與抗反轉錄病毒藥物併用時，無法排除肝臟毒性長期風險及血液不良事件的增加。基於 bosentan&nbsp;對 CYP450&nbsp;的誘導效果(請參閱第7節)，相關的潛在交互作用可能影響抗反轉錄病毒藥物的療效，故應謹慎監測這些病人的感染情形。</strong></p><p style=\"text-align:justify;\"><strong><u>慢性阻塞性肺病(COPD)引起之肺動脈高血壓</u></strong></p><p style=\"text-align:justify;\"><strong>一項針對慢性肺阻塞引起之肺動脈高血壓病人的探索性臨床試驗，納入11名因嚴重慢性肺阻塞(GOLD分級第III級)引起肺動脈高血壓病人，進行為期12週無對照組的藥物試驗，研究bosentan的安全性及耐受性；試驗結果觀察到分通氣量增加(minute ventilation)及氧氣飽和度(oxygen saturation)下降情形；最常發生之不良事件是\"呼吸困難\"，症狀可在停藥後緩解。</strong></p>",
+          "search_text": "6.8\n其他族群\n肺靜脈阻塞性疾病 曾有肺靜脈阻塞性疾病的病人使用血管擴張劑(主要是prostacyclins)時發生肺水腫的案例報導。因此，當肺動脈高血壓病人服用TRACLEER出現肺水腫的症狀時，應考慮併發肺靜脈阻塞性疾病的可能性。在上市後的這段時間，有極少數有關服用TRACLEER而發生肺水腫病人被診斷疑似有肺靜脈阻塞性疾病的報導。 伴隨左心室衰竭的肺動脈高血壓病人 過往並無任何具體針對患有伴隨左心室衰竭之肺動脈高壓病人進行的研究。 然而，有一個具安慰劑-對照組試驗，共1611位患有嚴重慢性心衰竭(CHF)的病人(804位使用bosentan和807位使用安慰劑)，平均治療1.5年 (AC-052-301/302[試驗 ENABLE 1 及 ENABLE 2])。該試驗以bosentan治療的最初4-8週期間，因慢性心衰竭而住院的發生率增加，可能是體液滯留的結果。試驗中，體液滯留的徵兆是初期體重上升、血紅素濃度降低及下肢水腫的比例增加。試驗完成時，使用bosentan與安慰劑組的病人，因心衰竭而住院及死亡之整體比例並無差異。因此，建議監測病人是否出現體液滯留情形(例如：體重上升)，特別是同時患有嚴重心臟收縮功能失調之病人。若發生此現象，建議開始給予利尿劑治療，或是調升既有利尿劑劑量。有體液滯留跡象的病人，在TRACLEER療程開始前，應考慮給予利尿劑。 人類免疫不全病毒(HIV)感染病人之用藥 目前對於已接受反轉錄病毒藥物治療人類免疫不全病毒(HIV)感染的肺動脈高血壓病人使用 TRACLEER治療的臨床試驗經驗有限(請參閱第10節)。在一個bosentan 與 lopinavir+ritonavir的藥物交互作用試驗中，健康受試者的bosentan 血漿濃度上升，最高濃度在療程前四日(請參閱第7節)。TRACLEER 併用於接受ritonavir增效蛋白酶抑制劑(ritonavir-boosted protease inhibitors)治療的病人時，必須在用藥初期特別小心並密切地監測該病人對 TRACLEER 的耐受性，以注意低血壓或肝功能指數下降的發生。當 bosentan 與抗反轉錄病毒藥物併用時，無法排除肝臟毒性長期風險及血液不良事件的增加。基於 bosentan 對 CYP450 的誘導效果(請參閱第7節)，相關的潛在交互作用可能影響抗反轉錄病毒藥物的療效，故應謹慎監測這些病人的感染情形。 慢性阻塞性肺病(COPD)引起之肺動脈高血壓 一項針對慢性肺阻塞引起之肺動脈高血壓病人的探索性臨床試驗，納入11名因嚴重慢性肺阻塞(GOLD分級第III級)引起肺動脈高血壓病人，進行為期12週無對照組的藥物試驗，研究bosentan的安全性及耐受性；試驗結果觀察到分通氣量增加(minute ventilation)及氧氣飽和度(oxygen saturation)下降情形；最常發生之不良事件是\"呼吸困難\"，症狀可在停藥後緩解。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "與其他藥品的合併使用 TRACLEER與cyclosporine A禁止併用(請參閱第4節)。 不建議TRACLEER與glibenclamide、fluconazole 及 rifampicin併用。 應避免使用TRACLEER時同時給予 CYP3A4 抑制劑和 CYP2C9 抑制劑。 與其他藥品間的交互作用，以及其他類型的交互作用 Bosentan 為細胞色素 P450 (CYP) 的同功酶CYP2C9 與 CYP3A4的誘導劑。體外數據也顯示其具有誘導 CYP2C19 的功能。因此，藉由這些同功酶代謝的藥物，當與 TRACLEER 併用時，其血漿濃度可能會降低。應考量由這些同功酶所代謝的藥物產品，療效可能會有變化。這些產品的劑量，在開始 TRACLEER®用藥、劑量調整或停用併用時，可能需要進行調整。 Bosentan 由 CYP2C9 與 CYP3A4 代謝。抑制這些同功酶可能使 bosentan 的血漿濃度升高(請參閱 ketoconazole節)。尚未研究 CYP2C9 抑制劑對於 bosentan 濃度的影響。併用時應謹慎。 Fluconazole以及其他CYP2C9與CYP3A4的共同抑制劑：併用fluconazole，主要是會抑制CYP2C9，但也會某種程度抑制CYP3A4時，可能導致bosentan的血漿濃度大幅增加。並不建議合併使用。基於同樣的理由，強效CYP3A4抑制劑(如ketoconazole、itraconazole或ritonavir)以及CYP2C9抑制劑(如voriconazole)不建議兩者同時與TRACLEER併用。 Cyclosporine A：TRACLEER和cyclosporine A (鈣調磷酸酶[calcineurin]抑制劑)為併用禁忌 (請參閱第4節)。併用時，bosentan的初始最低濃度相較於單獨使用bosentan時約高出30倍。在穩定狀態時，bosentan的血漿濃度相較於單獨使用bosentan時約高出3-4倍。此交互作用的機轉最有可能是因cyclosporine A抑制了肝細胞經由轉運蛋白攝入bosentan的功能。Cyclosporine A (為CYP3A4受質)的血液濃度會下降約50%。最有可能的原因是bosentan會誘導CYP3A4。 Tacrolimus、sirolimus：尚未研究過在人體中tacrolimus或sirolimus併用TRACLEER的情形，但tacrolimus或sirolimus併用TRACLEER可能會造成bosentan的血漿濃度增加，類似於併用cyclosporine A 時的情形。併用 TRACLEER 時可能會降低 tacrolimus及sirolimus的血漿濃度。因此，不建議TRACLEER與tacrolimus或sirolimus併用。有併用需要的病人，應接受密切監測，觀察是否有TRACLEER相關的不良事件，並觀察tacrolimus及sirolimus的血液濃度。 Glibenclamide：當併用bosentan 125 mg每天兩次，為期 5日， glibenclamide(為CYP3A4的受質)血漿濃度降低40%，降血糖作用也可能會顯著降低，而bosentan的血漿濃度亦降低29%。此外，在接受併用療法的病人身上，也觀察到肝臟轉胺酶血液濃度升高的發生率上升。Glibenclamide和bosentan都會抑制膽鹽輸出幫浦的作用，這可解釋肝臟轉胺酶濃度升高的原因。不應採用此併用方法(請參閱第4節)。目前尚無本品與其他磺醯尿素(sulfonylureas)相關的藥物交互作用資料。 Rifampicin：9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，有個別案例的降幅幾乎可達90%。因此， bosentan與rifampicin併用時，前者的效果預期會顯著降低。不建議rifampicin與TRACLEER併用。目前缺乏本品與其他CYP3A4誘導劑(例如carbamazepine、phenobarbital、phenytoin及聖約翰草) 併用的資料，但預期會導致bosentan的全身暴露程度降低，無法排除會造成臨床顯著的療效降低。 Lopinavir + ritonavir (與其他的ritonavir增效蛋白酶抑制劑)：健康受試者同時接受bosentan 125 mg每天兩次與lopinavir + ritonavir (400 + 100 mg)每天兩次，為期 9.5 天，bosentan 的初始最低血漿濃度相較於bosentan單獨使用時高出 48 倍。第 9 天時，bosentan的血漿濃度相較於單獨使用時高出約 5 倍。此一交互作用最可能肇因於ritonavir抑制了CYP3A4酵素活性以及肝細胞經由轉運蛋白攝入bosentan的功能，而降低了bosentan的廓清率。因此，當併用lopinavir + ritonavir或其他以ritonavir增效之蛋白酶抑制劑時，應監測病人對於TRACLEER的耐受力。 與bosentan併用9.5天後，lopinavir及ritonavir的血漿暴露量降低至不具臨床顯著性的程度(分別降低約14%及17%)。然而，bosentan可能尚未達到完整的誘導效果，因此無法排除蛋白酶抑制劑有進一步降低的可能性。建議適當的監測人類免疫缺乏病毒(HIV)的療法。預期其他的ritonavir增效蛋白酶抑制劑會有類似的效果(請參閱第6.8節)。 其他抗反轉錄病毒藥品： 由於缺乏資料，因此無法針對其他現有之抗反轉錄病毒藥品提供明確的建議。由於nevirapine具有顯著的肝毒性，可能增加bosentan的肝臟毒性，因此不建議併用。 荷爾蒙避孕藥：併用bosentan 125 mg每天兩次為期7天以及單劑口服避孕藥(內含norethisterone 1 mg + ethinyl estradiol 35 mcg)，norethisterone和ethinyl estradiol的曲線下面積 (AUC) 分別降低14%和31%。然而，個別受試者的暴露程度最多分別降低多達56% 與66%。因此，不論投藥路徑(即口服、注射、經皮或植入型)，僅使用荷爾蒙避孕法並不被視為可靠的避孕方法(請參閱第6.3節)。 Warfarin：併用bosentan 500 mg 每天兩次為期 6 天後， S-warfarin (一種CYP2C9受質)與R-warfarin (一種CYP3A4受質)的血漿濃度分別降低 29%與38%。於肺動脈高血壓病人併用 bosentan 和 warfarin 的臨床經驗中，未顯示國際標準化比值(International Normalized Ratio，INR)或warfarin劑量(比較基準值與臨床試驗結束時)會有具臨床相關性的變化。此外，在試驗期間，由於INR變化或發生不良事件而調整 warfarin 劑量的頻率，在bosentan治療組和安慰劑組之間類似。當開始使用bosentan時warfarin和類似的口服抗凝血劑皆不需調整劑量，但建議密集監測INR，尤其是在bosentan的開始給藥階段及劑量調升期間。 Simvastatin：併用bosentan 125 mg 每天兩次為期 5 日後，simvastatin (為CYP3A4受質)及其β-羥基酸活性代謝物的血漿濃度，會分別降低 34% 和46%。Bosentan 的血漿濃度並未因併用simvastatin而受到影響。應考慮監測膽固醇濃度以及進行後續的劑量調整。 Ketoconazole：併用ketoconazole (強效CYP3A4抑制劑) 及 bosentan 62.5 mg 每天兩次為期6 日後，bosentan 的血漿濃度上升約 2 倍。但並不認為需要調整TRACLEER 劑量。雖然未經體內試驗證實，在併用其他強效 CYP3A4 抑制劑(如 itraconazole 或 ritonavir) 時，bosentan 的血液濃度預期會有類似的上升情形。但對於 CYP2C9 代謝較弱的病人併用 CYP3A4 抑制劑時會有bosentan血漿濃度大幅增加的風險，而可能造成有害的不良事件。 Epoprostenol：一項試驗(AC-052-356 [BREATHE-3])的有限數據資料顯示，10 位接受 bosentan併用epoprostenol 的兒童病人，接受單次或多次給藥後，無論是否接受epoprostenol連續輸注，其 bosentan 的Cmax和AUC值都會相似(請參閱第10.2節)。 Sildenafil：健康志願受試者併用bosentan 125 mg每天兩次(穩定狀態下)以及 sildenafil 80 mg每天三次(穩定狀態下)持續 6 天後，sildenafil 的AUC會減少 63%，而 bosentan 的AUC會增加 50%。故併用時建議格外謹慎。 Tadalafil：在多次給藥且併用的情況下，bosentan (125mg 每天兩次)會減少tadalafil (40mg 每天一次) 42%的全身暴露程度和 27%的Cmax。Tadalafil不影響bosentan或其代謝物的暴露程度(AUC和Cmax)。 Digoxin： 併用bosentan 500 mg 每天兩次，持續 7 天後， digoxin 的 AUC、Cmax和 Cmin 會分別減少 12%、9% 和 23%。此交互作用的機制可能是對於P-醣蛋白的誘導作用。此交互作用不太可能具有臨床相關性。 兒童族群 目前只在成人中進行過交互作用試驗。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>與其他藥品的合併使用</u></strong></p><p style=\"text-align:justify;\"><strong>TRACLEER與cyclosporine A禁止併用(請參閱第4節)。</strong></p><p style=\"text-align:justify;\"><strong>不建議TRACLEER與glibenclamide、fluconazole&nbsp;及 rifampicin併用。</strong></p><p><strong>應避免使用TRACLEER時同時給予 CYP3A4&nbsp;抑制劑和 CYP2C9&nbsp;抑制劑。</strong></p><p>&nbsp;</p><p style=\"text-align:justify;\"><strong><u>與其他藥品間的交互作用，以及其他類型的交互作用</u></strong></p><p style=\"text-align:justify;\"><strong>Bosentan&nbsp;為細胞色素 P450 (CYP)&nbsp;的同功酶CYP2C9&nbsp;與 CYP3A4的誘導劑。體外數據也顯示其具有誘導 CYP2C19&nbsp;的功能。因此，藉由這些同功酶代謝的藥物，當與 TRACLEER&nbsp;併用時，其血漿濃度可能會降低。應考量由這些同功酶所代謝的藥物產品，療效可能會有變化。這些產品的劑量，在開始 TRACLEER<sup>®</sup>用藥、劑量調整或停用併用時，可能需要進行調整。</strong></p><p style=\"text-align:justify;\"><strong>Bosentan&nbsp;由 CYP2C9&nbsp;與 CYP3A4&nbsp;代謝。抑制這些同功酶可能使 bosentan&nbsp;的血漿濃度升高(請參閱 ketoconazole節)。尚未研究 CYP2C9&nbsp;抑制劑對於 bosentan&nbsp;濃度的影響。併用時應謹慎。</strong></p><ul><li style=\"text-align:justify;\"><strong>Fluconazole以及其他CYP2C9與CYP3A4的共同抑制劑：併用fluconazole，主要是會抑制CYP2C9，但也會某種程度抑制CYP3A4時，可能導致bosentan的血漿濃度大幅增加。並不建議合併使用。基於同樣的理由，強效CYP3A4抑制劑(如ketoconazole、itraconazole或ritonavir)以及CYP2C9抑制劑(如voriconazole)不建議兩者同時與TRACLEER併用。</strong></li><li style=\"text-align:justify;\"><strong>Cyclosporine A：TRACLEER和cyclosporine A (鈣調磷酸酶[calcineurin]抑制劑)為併用禁忌 (請參閱第4節)。併用時，bosentan的初始最低濃度相較於單獨使用bosentan時約高出30倍。在穩定狀態時，bosentan的血漿濃度相較於單獨使用bosentan時約高出3-4倍。此交互作用的機轉最有可能是因cyclosporine A抑制了肝細胞經由轉運蛋白攝入bosentan的功能。Cyclosporine A (為CYP3A4受質)的血液濃度會下降約50%。最有可能的原因是bosentan會誘導CYP3A4。</strong></li><li style=\"text-align:justify;\"><strong>Tacrolimus、sirolimus：尚未研究過在人體中tacrolimus或sirolimus併用TRACLEER的情形，但tacrolimus或sirolimus併用TRACLEER可能會造成bosentan的血漿濃度增加，類似於併用cyclosporine A&nbsp;時的情形。併用 TRACLEER&nbsp;時可能會降低 tacrolimus及sirolimus的血漿濃度。因此，不建議TRACLEER與tacrolimus或sirolimus併用。有併用需要的病人，應接受密切監測，觀察是否有TRACLEER相關的不良事件，並觀察tacrolimus及sirolimus的血液濃度。</strong></li><li style=\"text-align:justify;\"><strong>Glibenclamide：當併用bosentan 125 mg每天兩次，為期 5日， glibenclamide(為CYP3A4的受質)血漿濃度降低40%，降血糖作用也可能會顯著降低，而bosentan的血漿濃度亦降低29%。此外，在接受併用療法的病人身上，也觀察到肝臟轉胺酶血液濃度升高的發生率上升。Glibenclamide和bosentan都會抑制膽鹽輸出幫浦的作用，這可解釋肝臟轉胺酶濃度升高的原因。不應採用此併用方法(請參閱第4節)。目前尚無本品與其他磺醯尿素(sulfonylureas)相關的藥物交互作用資料。</strong></li><li style=\"text-align:justify;\"><strong>Rifampicin：9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑)&nbsp;為期7日，bosentan的血漿濃度降低58%，有個別案例的降幅幾乎可達90%。因此， bosentan與rifampicin併用時，前者的效果預期會顯著降低。不建議rifampicin與TRACLEER併用。目前缺乏本品與其他CYP3A4誘導劑(例如carbamazepine、phenobarbital、phenytoin及聖約翰草)&nbsp;併用的資料，但預期會導致bosentan的全身暴露程度降低，無法排除會造成臨床顯著的療效降低。</strong></li><li style=\"text-align:justify;\"><strong>Lopinavir + ritonavir (與其他的ritonavir增效蛋白酶抑制劑)：健康受試者同時接受bosentan 125 mg每天兩次與lopinavir + ritonavir (400 + 100 mg)每天兩次，為期 9.5&nbsp;天，bosentan&nbsp;的初始最低血漿濃度相較於bosentan單獨使用時高出 48&nbsp;倍。第 9&nbsp;天時，bosentan的血漿濃度相較於單獨使用時高出約 5&nbsp;倍。此一交互作用最可能肇因於ritonavir抑制了CYP3A4酵素活性以及肝細胞經由轉運蛋白攝入bosentan的功能，而降低了bosentan的廓清率。因此，當併用lopinavir + ritonavir或其他以ritonavir增效之蛋白酶抑制劑時，應監測病人對於TRACLEER的耐受力。</strong></li><li style=\"text-align:justify;\"><strong>與bosentan併用9.5天後，lopinavir及ritonavir的血漿暴露量降低至不具臨床顯著性的程度(分別降低約14%及17%)。然而，bosentan可能尚未達到完整的誘導效果，因此無法排除蛋白酶抑制劑有進一步降低的可能性。建議適當的監測人類免疫缺乏病毒(HIV)的療法。預期其他的ritonavir增效蛋白酶抑制劑會有類似的效果(請參閱第6.8節)。</strong></li><li style=\"text-align:justify;\"><strong>其他抗反轉錄病毒藥品： 由於缺乏資料，因此無法針對其他現有之抗反轉錄病毒藥品提供明確的建議。由於nevirapine具有顯著的肝毒性，可能增加bosentan的肝臟毒性，因此不建議併用。</strong></li><li style=\"text-align:justify;\"><strong>荷爾蒙避孕藥：併用bosentan 125 mg每天兩次為期7天以及單劑口服避孕藥(內含norethisterone 1 mg + ethinyl estradiol 35 mcg)，norethisterone和ethinyl estradiol的曲線下面積 (AUC)&nbsp;分別降低14%和31%。然而，個別受試者的暴露程度最多分別降低多達56%&nbsp;與66%。因此，不論投藥路徑(即口服、注射、經皮或植入型)，僅使用荷爾蒙避孕法並不被視為可靠的避孕方法(請參閱第6.3節)。</strong></li><li style=\"text-align:justify;\"><strong>Warfarin：併用bosentan 500 mg&nbsp;每天兩次為期 6&nbsp;天後， S-warfarin (一種CYP2C9受質)與R-warfarin (一種CYP3A4受質)的血漿濃度分別降低 29%與38%。於肺動脈高血壓病人併用 bosentan&nbsp;和 warfarin&nbsp;的臨床經驗中，未顯示國際標準化比值(International Normalized Ratio，INR)或warfarin劑量(比較基準值與臨床試驗結束時)會有具臨床相關性的變化。此外，在試驗期間，由於INR變化或發生不良事件而調整 warfarin&nbsp;劑量的頻率，在bosentan治療組和安慰劑組之間類似。當開始使用bosentan時warfarin和類似的口服抗凝血劑皆不需調整劑量，但建議密集監測INR，尤其是在bosentan的開始給藥階段及劑量調升期間。</strong></li><li style=\"text-align:justify;\"><strong>Simvastatin：併用bosentan 125 mg&nbsp;每天兩次為期 5&nbsp;日後，simvastatin (為CYP3A4受質)及其β-羥基酸活性代謝物的血漿濃度，會分別降低 34%&nbsp;和46%。Bosentan&nbsp;的血漿濃度並未因併用simvastatin而受到影響。應考慮監測膽固醇濃度以及進行後續的劑量調整。</strong></li><li style=\"text-align:justify;\"><strong>Ketoconazole：併用ketoconazole (強效CYP3A4抑制劑)&nbsp;及 bosentan&nbsp; 62.5 mg&nbsp;每天兩次為期6&nbsp;日後，bosentan&nbsp;的血漿濃度上升約 2&nbsp;倍。但並不認為需要調整TRACLEER&nbsp;劑量。雖然未經體內試驗證實，在併用其他強效 CYP3A4&nbsp;抑制劑(如 itraconazole&nbsp;或 ritonavir)&nbsp;時，bosentan 的血液濃度預期會有類似的上升情形。但對於 CYP2C9&nbsp;代謝較弱的病人併用 CYP3A4&nbsp;抑制劑時會有bosentan血漿濃度大幅增加的風險，而可能造成有害的不良事件。</strong></li><li style=\"text-align:justify;\"><strong>Epoprostenol：一項試驗(AC-052-356 [BREATHE-3])的有限數據資料顯示，10&nbsp;位接受 bosentan併用epoprostenol 的兒童病人，接受單次或多次給藥後，無論是否接受epoprostenol連續輸注，其 bosentan&nbsp;的C<sub>max</sub>和AUC值都會相似(請參閱第10.2節)。</strong></li><li style=\"text-align:justify;\"><strong>Sildenafil：健康志願受試者併用bosentan 125 mg每天兩次(穩定狀態下)以及 sildenafil 80 mg每天三次(穩定狀態下)持續 6&nbsp;天後，sildenafil&nbsp;的AUC會減少 63%，而 bosentan&nbsp;的AUC會增加 50%。故併用時建議格外謹慎。</strong></li><li style=\"text-align:justify;\"><strong>Tadalafil：在多次給藥且併用的情況下，bosentan (125mg 每天兩次)會減少tadalafil (40mg&nbsp;每天一次) 42%的全身暴露程度和 27%的C<sub>max</sub>。Tadalafil不影響bosentan或其代謝物的暴露程度(AUC和C<sub>max</sub>)。</strong></li><li style=\"text-align:justify;\"><strong>Digoxin： 併用bosentan 500 mg&nbsp;每天兩次，持續 7&nbsp;天後， digoxin&nbsp;的 AUC、C<sub>max</sub>和 C<sub>min</sub>&nbsp;會分別減少 12%、9%&nbsp;和 23%。此交互作用的機制可能是對於P-醣蛋白的誘導作用。此交互作用不太可能具有臨床相關性。</strong></li></ul><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><strong>兒童族群</strong></p><p><strong>目前只在成人中進行過交互作用試驗。</strong></p>",
+          "search_text": "7\n交互作用\n與其他藥品的合併使用 TRACLEER與cyclosporine A禁止併用(請參閱第4節)。 不建議TRACLEER與glibenclamide、fluconazole 及 rifampicin併用。 應避免使用TRACLEER時同時給予 CYP3A4 抑制劑和 CYP2C9 抑制劑。 與其他藥品間的交互作用，以及其他類型的交互作用 Bosentan 為細胞色素 P450 (CYP) 的同功酶CYP2C9 與 CYP3A4的誘導劑。體外數據也顯示其具有誘導 CYP2C19 的功能。因此，藉由這些同功酶代謝的藥物，當與 TRACLEER 併用時，其血漿濃度可能會降低。應考量由這些同功酶所代謝的藥物產品，療效可能會有變化。這些產品的劑量，在開始 TRACLEER®用藥、劑量調整或停用併用時，可能需要進行調整。 Bosentan 由 CYP2C9 與 CYP3A4 代謝。抑制這些同功酶可能使 bosentan 的血漿濃度升高(請參閱 ketoconazole節)。尚未研究 CYP2C9 抑制劑對於 bosentan 濃度的影響。併用時應謹慎。 Fluconazole以及其他CYP2C9與CYP3A4的共同抑制劑：併用fluconazole，主要是會抑制CYP2C9，但也會某種程度抑制CYP3A4時，可能導致bosentan的血漿濃度大幅增加。並不建議合併使用。基於同樣的理由，強效CYP3A4抑制劑(如ketoconazole、itraconazole或ritonavir)以及CYP2C9抑制劑(如voriconazole)不建議兩者同時與TRACLEER併用。 Cyclosporine A：TRACLEER和cyclosporine A (鈣調磷酸酶[calcineurin]抑制劑)為併用禁忌 (請參閱第4節)。併用時，bosentan的初始最低濃度相較於單獨使用bosentan時約高出30倍。在穩定狀態時，bosentan的血漿濃度相較於單獨使用bosentan時約高出3-4倍。此交互作用的機轉最有可能是因cyclosporine A抑制了肝細胞經由轉運蛋白攝入bosentan的功能。Cyclosporine A (為CYP3A4受質)的血液濃度會下降約50%。最有可能的原因是bosentan會誘導CYP3A4。 Tacrolimus、sirolimus：尚未研究過在人體中tacrolimus或sirolimus併用TRACLEER的情形，但tacrolimus或sirolimus併用TRACLEER可能會造成bosentan的血漿濃度增加，類似於併用cyclosporine A 時的情形。併用 TRACLEER 時可能會降低 tacrolimus及sirolimus的血漿濃度。因此，不建議TRACLEER與tacrolimus或sirolimus併用。有併用需要的病人，應接受密切監測，觀察是否有TRACLEER相關的不良事件，並觀察tacrolimus及sirolimus的血液濃度。 Glibenclamide：當併用bosentan 125 mg每天兩次，為期 5日， glibenclamide(為CYP3A4的受質)血漿濃度降低40%，降血糖作用也可能會顯著降低，而bosentan的血漿濃度亦降低29%。此外，在接受併用療法的病人身上，也觀察到肝臟轉胺酶血液濃度升高的發生率上升。Glibenclamide和bosentan都會抑制膽鹽輸出幫浦的作用，這可解釋肝臟轉胺酶濃度升高的原因。不應採用此併用方法(請參閱第4節)。目前尚無本品與其他磺醯尿素(sulfonylureas)相關的藥物交互作用資料。 Rifampicin：9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，有個別案例的降幅幾乎可達90%。因此， bosentan與rifampicin併用時，前者的效果預期會顯著降低。不建議rifampicin與TRACLEER併用。目前缺乏本品與其他CYP3A4誘導劑(例如carbamazepine、phenobarbital、phenytoin及聖約翰草) 併用的資料，但預期會導致bosentan的全身暴露程度降低，無法排除會造成臨床顯著的療效降低。 Lopinavir + ritonavir (與其他的ritonavir增效蛋白酶抑制劑)：健康受試者同時接受bosentan 125 mg每天兩次與lopinavir + ritonavir (400 + 100 mg)每天兩次，為期 9.5 天，bosentan 的初始最低血漿濃度相較於bosentan單獨使用時高出 48 倍。第 9 天時，bosentan的血漿濃度相較於單獨使用時高出約 5 倍。此一交互作用最可能肇因於ritonavir抑制了CYP3A4酵素活性以及肝細胞經由轉運蛋白攝入bosentan的功能，而降低了bosentan的廓清率。因此，當併用lopinavir + ritonavir或其他以ritonavir增效之蛋白酶抑制劑時，應監測病人對於TRACLEER的耐受力。 與bosentan併用9.5天後，lopinavir及ritonavir的血漿暴露量降低至不具臨床顯著性的程度(分別降低約14%及17%)。然而，bosentan可能尚未達到完整的誘導效果，因此無法排除蛋白酶抑制劑有進一步降低的可能性。建議適當的監測人類免疫缺乏病毒(HIV)的療法。預期其他的ritonavir增效蛋白酶抑制劑會有類似的效果(請參閱第6.8節)。 其他抗反轉錄病毒藥品： 由於缺乏資料，因此無法針對其他現有之抗反轉錄病毒藥品提供明確的建議。由於nevirapine具有顯著的肝毒性，可能增加bosentan的肝臟毒性，因此不建議併用。 荷爾蒙避孕藥：併用bosentan 125 mg每天兩次為期7天以及單劑口服避孕藥(內含norethisterone 1 mg + ethinyl estradiol 35 mcg)，norethisterone和ethinyl estradiol的曲線下面積 (AUC) 分別降低14%和31%。然而，個別受試者的暴露程度最多分別降低多達56% 與66%。因此，不論投藥路徑(即口服、注射、經皮或植入型)，僅使用荷爾蒙避孕法並不被視為可靠的避孕方法(請參閱第6.3節)。 Warfarin：併用bosentan 500 mg 每天兩次為期 6 天後， S-warfarin (一種CYP2C9受質)與R-warfarin (一種CYP3A4受質)的血漿濃度分別降低 29%與38%。於肺動脈高血壓病人併用 bosentan 和 warfarin 的臨床經驗中，未顯示國際標準化比值(International Normalized Ratio，INR)或warfarin劑量(比較基準值與臨床試驗結束時)會有具臨床相關性的變化。此外，在試驗期間，由於INR變化或發生不良事件而調整 warfarin 劑量的頻率，在bosentan治療組和安慰劑組之間類似。當開始使用bosentan時warfarin和類似的口服抗凝血劑皆不需調整劑量，但建議密集監測INR，尤其是在bosentan的開始給藥階段及劑量調升期間。 Simvastatin：併用bosentan 125 mg 每天兩次為期 5 日後，simvastatin (為CYP3A4受質)及其β-羥基酸活性代謝物的血漿濃度，會分別降低 34% 和46%。Bosentan 的血漿濃度並未因併用simvastatin而受到影響。應考慮監測膽固醇濃度以及進行後續的劑量調整。 Ketoconazole：併用ketoconazole (強效CYP3A4抑制劑) 及 bosentan 62.5 mg 每天兩次為期6 日後，bosentan 的血漿濃度上升約 2 倍。但並不認為需要調整TRACLEER 劑量。雖然未經體內試驗證實，在併用其他強效 CYP3A4 抑制劑(如 itraconazole 或 ritonavir) 時，bosentan 的血液濃度預期會有類似的上升情形。但對於 CYP2C9 代謝較弱的病人併用 CYP3A4 抑制劑時會有bosentan血漿濃度大幅增加的風險，而可能造成有害的不良事件。 Epoprostenol：一項試驗(AC-052-356 [BREATHE-3])的有限數據資料顯示，10 位接受 bosentan併用epoprostenol 的兒童病人，接受單次或多次給藥後，無論是否接受epoprostenol連續輸注，其 bosentan 的Cmax和AUC值都會相似(請參閱第10.2節)。 Sildenafil：健康志願受試者併用bosentan 125 mg每天兩次(穩定狀態下)以及 sildenafil 80 mg每天三次(穩定狀態下)持續 6 天後，sildenafil 的AUC會減少 63%，而 bosentan 的AUC會增加 50%。故併用時建議格外謹慎。 Tadalafil：在多次給藥且併用的情況下，bosentan (125mg 每天兩次)會減少tadalafil (40mg 每天一次) 42%的全身暴露程度和 27%的Cmax。Tadalafil不影響bosentan或其代謝物的暴露程度(AUC和Cmax)。 Digoxin： 併用bosentan 500 mg 每天兩次，持續 7 天後， digoxin 的 AUC、Cmax和 Cmin 會分別減少 12%、9% 和 23%。此交互作用的機制可能是對於P-醣蛋白的誘導作用。此交互作用不太可能具有臨床相關性。 兒童族群 目前只在成人中進行過交互作用試驗。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "在20項安慰劑對照、針對各種適應症的試驗中，共2,486位病人接受bosentan治療，每日劑量範圍為100 mg至2000 mg，而其餘1,838位病人則接受安慰劑治療。平均治療期間為45週。不良反應的定義為，發生在至少1% 的bosentan治療組病人，且發生頻率須高出安慰劑治療組至少 0.5% 的事件。頻率最高的不良反應為頭痛 (11.5%)、水腫/體液滯留 (13.2%)、肝功能測試結果異常 (10.9%) 以及貧血/血紅素下降 (9.9%)。 給予bosentan治療曾有劑量依賴性之肝臟轉胺酶濃度升高以及血紅素濃度下降相關性(請參閱第5.4節)。 在20項安慰劑對照的試驗中，以及在上市後bosentan的使用經驗中所觀察到的不良反應，依照下列慣用頻率排序：極常見 (≥ 1/10)；常見 (≥ 1/100至< 1/10)；少見 (≥ 1/1,000至< 1/100)；罕見 (≥ 1/10,000至< 1/1,000)；極罕見 (< 1/10,000)；未知 (由現有數據無法估計者)。 在各個頻率分類中，均以嚴重度遞減的順序呈現不良反應。在所觀察到的整體數據組和所核准的適應症之間，不良反應並無具臨床相關性的差異。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>在20項安慰劑對照、針對各種適應症的試驗中，共2,486位病人接受bosentan治療，每日劑量範圍為100 mg至2000 mg，而其餘1,838位病人則接受安慰劑治療。平均治療期間為45週。不良反應的定義為，發生在至少1%&nbsp;的bosentan治療組病人，且發生頻率須高出安慰劑治療組至少 0.5%&nbsp;的事件。頻率最高的不良反應為頭痛 (11.5%)、水腫/體液滯留 (13.2%)、肝功能測試結果異常 (10.9%)&nbsp;以及貧血/血紅素下降 (9.9%)。</strong></p><p style=\"text-align:justify;\"><strong>給予bosentan治療曾有劑量依賴性之肝臟轉胺酶濃度升高以及血紅素濃度下降相關性(請參閱第5.4節)。</strong></p><p><strong>在20項安慰劑對照的試驗中，以及在上市後bosentan的使用經驗中所觀察到的不良反應，依照下列慣用頻率排序：極常見 (≥ 1/10)；常見 (≥ 1/100至&lt; 1/10)；少見 (≥ 1/1,000至&lt; 1/100)；罕見 (≥ 1/10,000至&lt; 1/1,000)；極罕見 (&lt; 1/10,000)；未知 (由現有數據無法估計者)。</strong></p><p><strong>在各個頻率分類中，均以嚴重度遞減的順序呈現不良反應。在所觀察到的整體數據組和所核准的適應症之間，不良反應並無具臨床相關性的差異。</strong></p><p>&nbsp;</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n在20項安慰劑對照、針對各種適應症的試驗中，共2,486位病人接受bosentan治療，每日劑量範圍為100 mg至2000 mg，而其餘1,838位病人則接受安慰劑治療。平均治療期間為45週。不良反應的定義為，發生在至少1% 的bosentan治療組病人，且發生頻率須高出安慰劑治療組至少 0.5% 的事件。頻率最高的不良反應為頭痛 (11.5%)、水腫/體液滯留 (13.2%)、肝功能測試結果異常 (10.9%) 以及貧血/血紅素下降 (9.9%)。 給予bosentan治療曾有劑量依賴性之肝臟轉胺酶濃度升高以及血紅素濃度下降相關性(請參閱第5.4節)。 在20項安慰劑對照的試驗中，以及在上市後bosentan的使用經驗中所觀察到的不良反應，依照下列慣用頻率排序：極常見 (≥ 1/10)；常見 (≥ 1/100至< 1/10)；少見 (≥ 1/1,000至< 1/100)；罕見 (≥ 1/10,000至< 1/1,000)；極罕見 (< 1/10,000)；未知 (由現有數據無法估計者)。 在各個頻率分類中，均以嚴重度遞減的順序呈現不良反應。在所觀察到的整體數據組和所核准的適應症之間，不良反應並無具臨床相關性的差異。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 192272
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "兒童族群 兒童病人的無對照臨床試驗： 在第一項採用膜衣錠進行的兒童無對照試驗中(BREATHE-3：n = 19、年齡中位數為10歲[範圍為3 - 15歲]、開放標示、bosentan 劑量 2 mg/kg體重每天兩次；治療期間12週)，其安全性類似肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果。在BREATHE-3試驗中，頻率最高的不良反應為潮紅(21%)、頭痛以及肝功能檢測結果異常(各為16%)。 針對兒童肺動脈高血壓病人，使用bosentan 32 mg可溶錠劑型的無對照試驗(FUTURE 1/2、FUTURE 3/延長試驗)所進行的綜合分析中，共100位接受bosentan治療的兒童，使用劑量為2 mg/kg體重每天兩次(n = 33)、2 mg/kg體重每天三次(n = 31)或4 mg/kg體重每天兩次(n = 36)。在納入時，有六位病人的年齡在3個月至1歲之間、15位兒童為1歲至未滿2歲，而79位在2至12歲之間。治療期間中位數為71.8週(範圍為0.4 - 258週)。 此項綜合分析所得出的安全性，類似於肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果，但感染事件除外，感染事件較成人試驗中通報頻率為高(69.0%相較於41.3%)。感染頻率的差異，可能部分起因於兒童組的中位治療期(中位數為71.8週)相較於成人組(中位數為17.4週)較長。頻率最高的不良事件為上呼吸道感染(25%)、肺(動脈)高血壓(20%)、鼻咽炎(17%)、發熱(15%)、嘔吐(13%)、支氣管炎(10%)、腹痛(10%)和腹瀉(10%)。在年齡2歲以上或以下的病人之間，不良事件的頻率並無重要差異。不過此結論的依據僅為21位未滿2歲的兒童，其中包含6位年齡在3個月至1歲之間的病人。另外，分別有9%和5%的病人發生肝功能異常和貧血/血紅素下降的不良事件。 在一項隨機分配、安慰劑對照、針對PPHN (Persistent Pulmonary Hypertension of the Newborn)病人的試驗(FUTURE-4)中，共有13位新生兒接受bosentan可溶錠劑型治療，劑量為2 mg/kg體重每天兩次(另有8位病人接受安慰劑治療)。Bosentan和安慰劑的治療期中位數分別為4.5天(範圍為0.5 - 10.0天)以及4.0天(範圍為2.5 - 6.5天)。Bosentan和安慰劑治療的病人，其頻率最高的不良事件分別為貧血或血紅素下降(7和2位病人)、全身水腫(3和0位病人)以及嘔吐(2和0位病人)。 檢驗數值異常 肝功能檢測結果異常 在臨床計畫中，劑量依賴性之肝臟轉胺酶濃度升高情形一般發生於治療的前26週，常是逐漸產生且多半無症狀。上市後期間，曾接獲肝硬化及肝衰竭之罕見案例的通報。 此不良反應的機制尚不明確。持續以TRACLEER的維持劑量治療或降低劑量後，肝臟轉胺酶濃度的升高情形可能會自行回復，但也可能需要中斷或停止治療(請參閱第5.4節)。 在整合20項安慰劑對照試驗之綜合分析中，觀察到接受bosentan治療病人有11.2% 發生肝臟轉胺酶的升高至 ≥ 3倍正常值上限(ULN)的情形，而安慰劑治療病人則為2.4%；接受bosentan治療的病人有3.6% 發生肝臟轉胺酶升高至 ≥ 8倍正常值上限(ULN) 的情形，而接受安慰劑治療的病人則為0.4%；接受bosentan治療的病人有0.2% (5位病人)同時有肝臟轉胺酶升高和膽紅素升高(≥ 2倍ULN)，但無膽道阻塞的證據，接受安慰劑治療的的病人則為0.3% (6位病人)。 針對100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2以及FUTURE 3/延長試驗的綜合分析中，有2%的病人觀察到肝臟轉胺酶≥ 3倍正常值上限(ULN)。 在FUTURE-4試驗中，共納入13位患有PPHN的新生兒受試者，接受 bosentan 2 mg/kg體重每天兩次的治療不超過10天(範圍為0.5 - 10.0天)，治療期間沒有肝臟轉胺酶濃度升高至 ≥ 3倍正常值上限的案例，但有1位於治療結束的三天後發生肝炎。 血紅素 在成人的安慰劑對照試驗中，有8.0%接受bosentan以及3.9%接受安慰劑治療的病人，其血紅素濃度自基準值下降至低於10 g/dL (請參閱第5.4節)。 在100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2及FUTURE 3/延長試驗綜合分析中，發現10.0% 的病人其血紅素濃度從基準值下降至10 g/dL 以下。並無降低到8 g/dL以下的案例。 在FUTURE-4試驗的治療期間內，13位接受bosentan治療的PPHN新生兒中，有6位病人的血紅素值從仍在正常範圍內的基準值下降至正常範圍以下。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>兒童族群</u></strong></p><ul><li style=\"text-align:justify;\"><strong>兒童病人的無對照臨床試驗：</strong></li></ul><p style=\"text-align:justify;\"><strong>在第一項採用膜衣錠進行的兒童無對照試驗中(BREATHE-3：n = 19、年齡中位數為10歲[範圍為3 - 15歲]、開放標示、bosentan&nbsp;劑量 2 mg/kg體重每天兩次；治療期間12週)，其安全性類似肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果。在BREATHE-3試驗中，頻率最高的不良反應為潮紅(21%)、頭痛以及肝功能檢測結果異常(各為16%)。</strong></p><p><strong>針對兒童肺動脈高血壓病人，使用bosentan 32 mg可溶錠劑型的無對照試驗(FUTURE 1/2、FUTURE 3/延長試驗)所進行的綜合分析中，共100位接受bosentan治療的兒童，使用劑量為2 mg/kg體重每天兩次(n = 33)、2 mg/kg體重每天三次(n = 31)或4 mg/kg體重每天兩次(n = 36)。在納入時，有六位病人的年齡在3個月至1歲之間、15位兒童為1歲至未滿2歲，而79位在2至12歲之間。治療期間中位數為71.8週(範圍為0.4 - 258週)。</strong></p><p style=\"text-align:justify;\"><strong>此項綜合分析所得出的安全性，類似於肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果，但感染事件除外，感染事件較成人試驗中通報頻率為高(69.0%相較於41.3%)。感染頻率的差異，可能部分起因於兒童組的中位治療期(中位數為71.8週)相較於成人組(中位數為17.4週)較長。頻率最高的不良事件為上呼吸道感染(25%)、肺(動脈)高血壓(20%)、鼻咽炎(17%)、發熱(15%)、嘔吐(13%)、支氣管炎(10%)、腹痛(10%)和腹瀉(10%)。在年齡2歲以上或以下的病人之間，不良事件的頻率並無重要差異。不過此結論的依據僅為21位未滿2歲的兒童，其中包含6位年齡在3個月至1歲之間的病人。另外，分別有9%和5%的病人發生肝功能異常和貧血/血紅素下降的不良事件。</strong></p><p style=\"text-align:justify;\"><strong>在一項隨機分配、安慰劑對照、針對PPHN (Persistent Pulmonary Hypertension of the Newborn)病人的試驗(FUTURE-4)中，共有13位新生兒接受bosentan可溶錠劑型治療，劑量為2 mg/kg體重每天兩次(另有8位病人接受安慰劑治療)。Bosentan和安慰劑的治療期中位數分別為4.5天(範圍為0.5 - 10.0天)以及4.0天(範圍為2.5 - 6.5天)。Bosentan和安慰劑治療的病人，其頻率最高的不良事件分別為貧血或血紅素下降(7和2位病人)、全身水腫(3和0位病人)以及嘔吐(2和0位病人)。</strong></p><p style=\"margin-left:0cm;\"><strong><u>檢驗數值異常</u></strong></p><ul><li><strong>肝功能檢測結果異常</strong></li></ul><p style=\"text-align:justify;\"><strong>在臨床計畫中，劑量依賴性之肝臟轉胺酶濃度升高情形一般發生於治療的前26週，常是逐漸產生且多半無症狀。上市後期間，曾接獲肝硬化及肝衰竭之罕見案例的通報。</strong></p><p style=\"text-align:justify;\"><strong>此不良反應的機制尚不明確。持續以TRACLEER的維持劑量治療或降低劑量後，肝臟轉胺酶濃度的升高情形可能會自行回復，但也可能需要中斷或停止治療(請參閱第5.4節)。</strong></p><p style=\"text-align:justify;\"><strong>在整合20項安慰劑對照試驗之綜合分析中，觀察到接受bosentan治療病人有11.2%&nbsp;發生肝臟轉胺酶的升高至&nbsp;≥ 3倍正常值上限(ULN)的情形，而安慰劑治療病人則為2.4%；接受bosentan治療的病人有3.6%&nbsp;發生肝臟轉胺酶升高至&nbsp;≥ 8倍正常值上限(ULN)&nbsp;的情形，而接受安慰劑治療的病人則為0.4%；接受bosentan治療的病人有0.2% (5位病人)同時有肝臟轉胺酶升高和膽紅素升高(≥ 2倍ULN)，但無膽道阻塞的證據，接受安慰劑治療的的病人則為0.3% (6位病人)。</strong></p><p style=\"text-align:justify;\"><strong>針對100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2以及FUTURE 3/延長試驗的綜合分析中，有2%的病人觀察到肝臟轉胺酶≥ 3倍正常值上限(ULN)。</strong></p><p style=\"text-align:justify;\"><strong>在FUTURE-4試驗中，共納入13位患有PPHN的新生兒受試者，接受&nbsp;bosentan 2 mg/kg體重每天兩次的治療不超過10天(範圍為0.5 - 10.0天)，治療期間沒有肝臟轉胺酶濃度升高至&nbsp;≥ 3倍正常值上限的案例，但有1位於治療結束的三天後發生肝炎。</strong></p><ul><li style=\"text-align:justify;\"><strong>血紅素</strong></li></ul><p style=\"text-align:justify;\"><strong>在成人的安慰劑對照試驗中，有8.0%接受bosentan以及3.9%接受安慰劑治療的病人，其血紅素濃度自基準值下降至低於10 g/dL (請參閱第5.4節)。</strong></p><p style=\"text-align:justify;\"><strong>在100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2及FUTURE 3/延長試驗綜合分析中，發現10.0%&nbsp;的病人其血紅素濃度從基準值下降至10 g/dL&nbsp;以下。並無降低到8 g/dL以下的案例。</strong></p><p style=\"text-align:justify;\"><strong>在FUTURE-4試驗的治療期間內，13位接受bosentan治療的PPHN新生兒中，有6位病人的血紅素值從仍在正常範圍內的基準值下降至正常範圍以下。</strong></p>",
+          "search_text": "8.2\n臨床試驗經驗\n兒童族群 兒童病人的無對照臨床試驗： 在第一項採用膜衣錠進行的兒童無對照試驗中(BREATHE-3：n = 19、年齡中位數為10歲[範圍為3 - 15歲]、開放標示、bosentan 劑量 2 mg/kg體重每天兩次；治療期間12週)，其安全性類似肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果。在BREATHE-3試驗中，頻率最高的不良反應為潮紅(21%)、頭痛以及肝功能檢測結果異常(各為16%)。 針對兒童肺動脈高血壓病人，使用bosentan 32 mg可溶錠劑型的無對照試驗(FUTURE 1/2、FUTURE 3/延長試驗)所進行的綜合分析中，共100位接受bosentan治療的兒童，使用劑量為2 mg/kg體重每天兩次(n = 33)、2 mg/kg體重每天三次(n = 31)或4 mg/kg體重每天兩次(n = 36)。在納入時，有六位病人的年齡在3個月至1歲之間、15位兒童為1歲至未滿2歲，而79位在2至12歲之間。治療期間中位數為71.8週(範圍為0.4 - 258週)。 此項綜合分析所得出的安全性，類似於肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果，但感染事件除外，感染事件較成人試驗中通報頻率為高(69.0%相較於41.3%)。感染頻率的差異，可能部分起因於兒童組的中位治療期(中位數為71.8週)相較於成人組(中位數為17.4週)較長。頻率最高的不良事件為上呼吸道感染(25%)、肺(動脈)高血壓(20%)、鼻咽炎(17%)、發熱(15%)、嘔吐(13%)、支氣管炎(10%)、腹痛(10%)和腹瀉(10%)。在年齡2歲以上或以下的病人之間，不良事件的頻率並無重要差異。不過此結論的依據僅為21位未滿2歲的兒童，其中包含6位年齡在3個月至1歲之間的病人。另外，分別有9%和5%的病人發生肝功能異常和貧血/血紅素下降的不良事件。 在一項隨機分配、安慰劑對照、針對PPHN (Persistent Pulmonary Hypertension of the Newborn)病人的試驗(FUTURE-4)中，共有13位新生兒接受bosentan可溶錠劑型治療，劑量為2 mg/kg體重每天兩次(另有8位病人接受安慰劑治療)。Bosentan和安慰劑的治療期中位數分別為4.5天(範圍為0.5 - 10.0天)以及4.0天(範圍為2.5 - 6.5天)。Bosentan和安慰劑治療的病人，其頻率最高的不良事件分別為貧血或血紅素下降(7和2位病人)、全身水腫(3和0位病人)以及嘔吐(2和0位病人)。 檢驗數值異常 肝功能檢測結果異常 在臨床計畫中，劑量依賴性之肝臟轉胺酶濃度升高情形一般發生於治療的前26週，常是逐漸產生且多半無症狀。上市後期間，曾接獲肝硬化及肝衰竭之罕見案例的通報。 此不良反應的機制尚不明確。持續以TRACLEER的維持劑量治療或降低劑量後，肝臟轉胺酶濃度的升高情形可能會自行回復，但也可能需要中斷或停止治療(請參閱第5.4節)。 在整合20項安慰劑對照試驗之綜合分析中，觀察到接受bosentan治療病人有11.2% 發生肝臟轉胺酶的升高至 ≥ 3倍正常值上限(ULN)的情形，而安慰劑治療病人則為2.4%；接受bosentan治療的病人有3.6% 發生肝臟轉胺酶升高至 ≥ 8倍正常值上限(ULN) 的情形，而接受安慰劑治療的病人則為0.4%；接受bosentan治療的病人有0.2% (5位病人)同時有肝臟轉胺酶升高和膽紅素升高(≥ 2倍ULN)，但無膽道阻塞的證據，接受安慰劑治療的的病人則為0.3% (6位病人)。 針對100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2以及FUTURE 3/延長試驗的綜合分析中，有2%的病人觀察到肝臟轉胺酶≥ 3倍正常值上限(ULN)。 在FUTURE-4試驗中，共納入13位患有PPHN的新生兒受試者，接受 bosentan 2 mg/kg體重每天兩次的治療不超過10天(範圍為0.5 - 10.0天)，治療期間沒有肝臟轉胺酶濃度升高至 ≥ 3倍正常值上限的案例，但有1位於治療結束的三天後發生肝炎。 血紅素 在成人的安慰劑對照試驗中，有8.0%接受bosentan以及3.9%接受安慰劑治療的病人，其血紅素濃度自基準值下降至低於10 g/dL (請參閱第5.4節)。 在100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2及FUTURE 3/延長試驗綜合分析中，發現10.0% 的病人其血紅素濃度從基準值下降至10 g/dL 以下。並無降低到8 g/dL以下的案例。 在FUTURE-4試驗的治療期間內，13位接受bosentan治療的PPHN新生兒中，有6位病人的血紅素值從仍在正常範圍內的基準值下降至正常範圍以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "在上市後期間，曾有在接受TRACLEER長期治療且合併多重共病及併用其他藥品的病人中，出現原因不明的肝硬化罕見案例報告，亦有潛伏期為數月到數年不等肝功能衰竭及自體免疫性肝炎的罕見案例報告。這些案例強調了在使用TRACLEER治療期間，務必嚴格遵守每月肝功能監測的時程的重要性(請參閱第5.4節)。 通報疑似不良反應 藥品核准上市後疑似不良反應的通報相當重要。得以持續監測藥品的效益/風險均衡性。任何疑似不良反應，醫療專業人員請通報：嬌生股份有限公司 0800-211-688。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>在上市後期間，曾有在接受TRACLEER長期治療且合併多重共病及併用其他藥品的病人中，出現原因不明的肝硬化罕見案例報告，亦有潛伏期為數月到數年不等肝功能衰竭及自體免疫性肝炎的罕見案例報告。這些案例強調了在使用TRACLEER治療期間，務必嚴格遵守每月肝功能監測的時程的重要性(請參閱第5.4節)。</strong></p><p style=\"margin-left:0cm;\"><strong><u>通報疑似不良反應</u></strong></p><p style=\"text-align:justify;\"><strong>藥品核准上市後疑似不良反應的通報相當重要。得以持續監測藥品的效益/風險均衡性。任何疑似不良反應，醫療專業人員請通報：嬌生股份有限公司 0800-211-688。</strong></p>",
+          "search_text": "8.3\n上市後經驗\n在上市後期間，曾有在接受TRACLEER長期治療且合併多重共病及併用其他藥品的病人中，出現原因不明的肝硬化罕見案例報告，亦有潛伏期為數月到數年不等肝功能衰竭及自體免疫性肝炎的罕見案例報告。這些案例強調了在使用TRACLEER治療期間，務必嚴格遵守每月肝功能監測的時程的重要性(請參閱第5.4節)。 通報疑似不良反應 藥品核准上市後疑似不良反應的通報相當重要。得以持續監測藥品的效益/風險均衡性。任何疑似不良反應，醫療專業人員請通報：嬌生股份有限公司 0800-211-688。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "曾給予健康受試者bosentan單一劑量高達2,400 mg，和持續二個月給予非肺動脈高血壓之病人2000 mg/day劑量，最常見的副作用是輕度至中度頭痛。 過量使用大劑量將造成顯著的低血壓，而需要接受積極的心血管支持性療法。產品上市後期間，只有一位青春期男性病人服用bosentan 10,000 mg過量個案，出現噁心、嘔吐、低血壓、暈眩、冒汗、及視力模糊等症狀，在給予血壓維持療法後，24小時內即完全復原。注意：血液透析無法清除bosentan。",
+          "content_html": "<p style=\"text-align:justify;\">曾給予健康受試者bosentan單一劑量高達2,400 mg，和持續二個月給予非肺動脈高血壓之病人2000 mg/day劑量，最常見的副作用是輕度至中度頭痛。</p><p style=\"text-align:justify;\">過量使用大劑量將造成顯著的低血壓，而需要接受積極的心血管支持性療法。產品上市後期間，只有一位青春期男性病人服用bosentan 10,000 mg過量個案，出現噁心、嘔吐、低血壓、暈眩、冒汗、及視力模糊等症狀，在給予血壓維持療法後，24小時內即完全復原。注意：血液透析無法清除bosentan。</p>",
+          "search_text": "9\n過量\n曾給予健康受試者bosentan單一劑量高達2,400 mg，和持續二個月給予非肺動脈高血壓之病人2000 mg/day劑量，最常見的副作用是輕度至中度頭痛。 過量使用大劑量將造成顯著的低血壓，而需要接受積極的心血管支持性療法。產品上市後期間，只有一位青春期男性病人服用bosentan 10,000 mg過量個案，出現噁心、嘔吐、低血壓、暈眩、冒汗、及視力模糊等症狀，在給予血壓維持療法後，24小時內即完全復原。注意：血液透析無法清除bosentan。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Bosentan為一種雙重內皮素受體拮抗劑(ERA)，對於內皮素A和B (ETA和ETB)受體均具有親和性。Bosentan可降低肺和全身的血管阻力，在不增加心跳速率的情況下使心臟輸出增加。",
+          "content_html": "<p style=\"text-align:justify;\">Bosentan為一種雙重內皮素受體拮抗劑(ERA)，對於內皮素A和B (ET<sub>A</sub>和ET<sub>B</sub>)受體均具有親和性。Bosentan可降低肺和全身的血管阻力，在不增加心跳速率的情況下使心臟輸出增加。</p>",
+          "search_text": "10.1\n作用機轉\nBosentan為一種雙重內皮素受體拮抗劑(ERA)，對於內皮素A和B (ETA和ETB)受體均具有親和性。Bosentan可降低肺和全身的血管阻力，在不增加心跳速率的情況下使心臟輸出增加。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥物分類：其他抗高血壓藥，ATC代碼：C02KX01。 神經內泌素內皮素-1 (ET-1)是已知最強效的血管收縮劑之一，也可促進纖維化、細胞增殖、心肥大和重塑，並具有促發炎性質。這些作用是藉由內皮素結合至位於內皮和血管平滑肌細胞的ETA和ETB受體而發生。在數種心血管疾患以及結締組織疾病(包含肺動脈高血壓、硬皮病、急性和慢性心衰竭、心肌缺血、全身性高血壓以及動脈粥狀硬化)中，組織和血漿的ET-1濃度會上升，顯示ET-1在這些疾病中具有致病角色。在肺動脈高血壓和心衰竭中，在缺乏內皮素受體拮抗作用下， ET-1濃度的升高和這些疾病的嚴重度以及預後具高度相關。 Bosentan會與ET-1和其他ET胜肽競爭結合至ETA和ETB受體，且對於ETA受體的親和力 (Ki = 4.1 - 43奈莫耳)略高於ETB受體(Ki = 38－730奈莫耳)。Bosentan會專一性拮抗ET受體，不會結合至其他受體。 療效 動物模型 在肺動脈高血壓的動物模型中，長期口服投予bosentan可降低肺血管阻力，並逆轉肺血管及右心室的肥大。在肺纖維化的動物模型中，bosentan可減少肺部的膠原蛋白沉積。 在肺動脈高血壓成人病人中的療效 兩項隨機分配、雙盲、多中心、安慰劑對照的試驗，分別對32位(試驗AC-052-351)以及213位(試驗AC-052-352 [BREATHE-1]) WHO功能分級為III - IV級的肺動脈高血壓(原發性肺動脈高血壓或是硬皮症續發性肺動脈高血壓)成人病人進行試驗。在bosentan 62.5 mg 每天兩次治療4週後，試驗中所研究的維持劑量在AC-052-351中為125 mg 每天兩次，而在 AC-052-352中為125 mg 每天兩次以及250 mg 每天兩次。 試驗中將bosentan新增至病人現有的治療中，現有治療可能由以下組成：抗凝血劑、血管舒張劑(如鈣離子通道阻斷劑)、利尿劑、氧氣以及毛地黃等，但不包含epoprostenol。對照組則以安慰劑併用現有治療藥物。 試驗的主要評估指標為6分鐘步行距離的變化，第一項試驗在第12週測量，第二項試驗在第16週測量。在兩項試驗中，bosentan治療都使得運動能力顯著提升。主要評估指標量測後，經安慰劑校正的步行距離增加值，相較於基準值分別為76公尺(p = 0.02；t-test)以及44公尺 (p = 0.0002；Mann-Whitney U test)。雖然使用125 mg 每天兩次與使用250 mg 每天兩次兩組之間的差異並不具有統計顯著意義，然而250 mg 每天兩次的治療組具有傾向運動能力改善的趨勢。 步行距離在治療4週後明顯改善，而在治療8週後則顯而易見，並且在雙盲治療的病人次族群中，可維持至多28週。 一項針對具療效反應者之回溯性分析中發現，在一項針對步行距離變化、WHO功能分級以及呼吸困難症狀的對照試驗中，95位接受bosentan 125 mg 每天兩次治療的病人，在第8週有66位病人已有改善，22位狀況穩定，而7位有惡化情形。在第8週22位狀況穩定的病人中，有6位於第12或16週改善，而4位相較於基準值有惡化情形。在第8週7位惡化的病人中，於第12/16週有3位改善，而4位相較於基準值有惡化情形。 僅第一項試驗有評估侵入性的血液動力學參數。Bosentan治療使心臟指數顯著升高，並使肺動脈血壓、肺血管阻力與平均右心房壓力顯著降低。 在bosentan治療組中觀察到肺動脈高血壓的症狀有減少情形。步行距離測試期間的\"呼吸困難\"量測值顯示，接受bosentan治療的病人病情改善。在試驗AC-052-352中，213位病人中有92% 的基準值屬於WHO功能分級第III級，8%屬於第IV級。Bosentan治療使42.4%的病人WHO功能分級改善(安慰劑組30.4%)。在兩項試驗期間，接受bosentan治療的病人相較於接受安慰劑的病人，WHO功能分級的整體變化都顯著較佳。在第28週，bosentan治療相較於安慰劑，臨床惡化比率顯著降低(分別為10.7%和37.1%；p = 0.0015)。 在一項隨機分配、雙盲、多中心、安慰劑對照試驗(AC-052-364 [EARLY])中，共185位WHO功能分級第II級之肺動脈高血壓病人(平均基準值6分鐘步行距離為435公尺)，接受bosentan 62.5 mg 每天兩次治療4週，續以125 mg 每天兩次治療(n = 93)，或安慰劑治療(n = 92) 6個月。受試者為先前未曾接受過肺動脈高血壓特定治療(n= 156)、或接受sildenafil穩定劑量治療的病人(n= 29)。共同的主要評估指標為肺血管阻力(PVR)以及6分鐘步行距離自基準值至第6個月的變化。下表可說明此試驗預設的分析方法。\n相較於安慰劑組，接受bosentan治療後，臨床惡化比率降低 (風險降低比率為77%，95%信賴區間[CI]：20% - 94%，p = 0.0114)；\"臨床惡化\"定義為綜合症狀惡化、因肺動脈高血壓而住院以及死亡。治療的效果主要是藉由改善症狀惡化而達成。因肺動脈高血壓惡化而住院的案例，在bosentan組內有一例，而在安慰劑組內有三例。在6個月的雙盲試驗期間，兩治療組中各有一死亡案例，因此無法針對存活率做出結論。 長期數據源自於EARLY研究的全體173位病人，病人在對照期內接受bosentan治療，和/或在開放性延伸試驗期間由安慰劑組轉換至bosentan組。Bosentan治療的平均暴露時間為3.6 ± 1.8年(最多為6.1年)，其中73%的病人接受至少3年的治療，而62%的病人接受至少4年的治療。在開放性延伸試驗期間，病人如有需求，可接受額外的肺動脈高血壓治療。多數病人經診斷為原發性或遺傳性肺動脈高血壓(61%)。整體而言，有78%的病人維持在WHO功能分級第II級內。以Kaplan-Meier存活率分析估計，在治療開始3年和4年後，存活率分別為90% 和 85%。同時，分別有88%和79%的病人維持在無肺動脈高血壓疾病惡化狀態(定義為各種原因所導致死亡、肺臟移植、心房中膈造口術或開始接受prostanoid藥物的靜脈或皮下治療)。雙盲試驗期的安慰劑治療，以及開放性延伸試驗期內開始使用其他藥物的相對影響程度仍屬未知。 在一項前瞻性、多中心、隨機分配、雙盲、安慰劑對照的試驗(AC-052-405 [BREATHE-5])中，WHO功能分級第III級且具有先天性心臟疾病相關艾森曼格 (Eisenmenger) 生理的肺動脈高血壓病人，接受bosentan 62.5 mg每天兩次，持續 4週；隨後再接受125 mg每天兩次，持續 12週 (n = 37，其中31位具有主要為右至左的心臟雙向分流)。試驗主要目的為證實bosentan不會使低血氧症惡化。在16週後，bosentan組相較於安慰劑組(n = 17位病人)，平均氧飽和增加1.0% (95% CI：-0.7% ~ 2.8%)，證實bosentan不會使低血氧症惡化。Bosentan組的平均肺血管阻力顯著降低(在心臟雙向分流病人之子群組觀察到的效果特別顯著)。在16週後，安慰劑修正後的6分鐘步行距離平均增加量為53 m (p = 0.0079)，反映出運動能力已改善。在BREATHE-5試驗的24週開放性延長試驗 (AC-052-409)內，有26位病人繼續接受bosentan治療(平均治療期間= 24.4 ± 2.0週)，且療效大致能夠維持。 目前尚無研究可證實TRACLEER治療對於存活率之效益。不過，在兩項安慰劑對照的樞紐試驗(AC-052-351和AC-052-352)和/或其兩項未對照的開放性延長試驗中，有記錄全體235位bosentan治療病人的長期生命狀態。Bosentan的平均暴露期間為1.9年± 0.7年(最短0.1年，最長3.3年)，而觀察病人的平均時間為2.0 ± 0.6年。多數病人經診斷為原發性肺高血壓(72%)，且為WHO功能分級為第III級(84%)。在此整體族群中，以Kaplan-Meier存活率分析估計，在bosentan治療開始1和2年後，存活率分別為93%和84%。在全身性硬化症引起的續發性肺動脈高血壓病人次族群中，存活率估計值較低。這些估計值可能受到43/235位病人開始epoprostenol治療的影響。 針對肺動脈高血壓兒童病人的試驗 BREATHE-3 (AC-052-356) 於開放性無對照試驗中，針對19位年齡3至15歲的肺動脈高血壓兒童病人，對bosentan膜衣錠進行評估。本試驗主要設計為藥動學的試驗(請參閱第11節)。在基準值時，10位病人具有原發性肺動脈高血壓與9位先天性心臟疾病續發的肺動脈高血壓，且為WHO功能分級第II級(n = 15位病人，79%)或第III級(n = 4位病人，21%)。病人分入三個體重組，並接受每天兩次約2 mg/kg體重的bosentan 12週。各組有一半病人已正在接受epoprostenol靜脈注射治療，且epoprostenol的劑量於試驗期間內維持不變。 測量17位病人的血液動力學。心輸出量指數自基準值起的平均增加量為0.5L/min/m2，平均肺動脈壓力的平均減少量為8 mmHg，而PVR的平均減少量為389 dyn•sec/cm5。無論是否併用epoprostenol，血液動力學自基準值起的改善情形皆類似。第12週時，運動能力自基準值起的變化量極大，惟不具有意義。 與epoprostenol併用 已在2項試驗中評估bosentan及epoprostenol的合併療法：AC-052-355 (BREATHE-2)及AC-052-356 (BREATHE-3)。AC-052-355為一項多中心、隨機分配、雙盲、平行分組的臨床試驗，以評估bosentan相較於安慰劑，在33位併用epoprostenol治療之重度肺動脈高血壓病人的情形。AC-052-356為開放標示、無對照試驗，在19位兒童病人中，有10位在12週的試驗期間內併用bosentan和epoprostenol治療。併用與單獨用藥所預期的安全性並無差異，在兒童與成人中的耐受性均佳。此併用方式的臨床效益尚未被證實。",
+          "content_html": "<p>藥物分類：其他抗高血壓藥，ATC代碼：C02KX01。</p><p style=\"text-align:justify;\">神經內泌素內皮素-1 (ET-1)是已知最強效的血管收縮劑之一，也可促進纖維化、細胞增殖、心肥大和重塑，並具有促發炎性質。這些作用是藉由內皮素結合至位於內皮和血管平滑肌細胞的ET<sub>A</sub>和ET<sub>B</sub>受體而發生。在數種心血管疾患以及結締組織疾病(包含肺動脈高血壓、硬皮病、急性和慢性心衰竭、心肌缺血、全身性高血壓以及動脈粥狀硬化)中，組織和血漿的ET-1濃度會上升，顯示ET-1在這些疾病中具有致病角色。在肺動脈高血壓和心衰竭中，在缺乏內皮素受體拮抗作用下， ET-1濃度的升高和這些疾病的嚴重度以及預後具高度相關。</p><p style=\"text-align:justify;\">Bosentan會與ET-1和其他ET胜肽競爭結合至ET<sub>A</sub>和ET<sub>B</sub>受體，且對於ET<sub>A</sub>受體的親和力 (Ki = 4.1 - 43奈莫耳)略高於ET<sub>B</sub>受體(Ki = 38－730奈莫耳)。Bosentan會專一性拮抗ET受體，不會結合至其他受體。</p><p><strong><u>療效</u></strong></p><ul><li style=\"text-align:justify;\"><strong>動物模型</strong></li></ul><p style=\"text-align:justify;\">在肺動脈高血壓的動物模型中，長期口服投予bosentan可降低肺血管阻力，並逆轉肺血管及右心室的肥大。在肺纖維化的動物模型中，bosentan可減少肺部的膠原蛋白沉積。</p><ul><li style=\"text-align:justify;\"><strong>在肺動脈高血壓成人病人中的療效</strong></li></ul><p style=\"text-align:justify;\">兩項隨機分配、雙盲、多中心、安慰劑對照的試驗，分別對32位(試驗AC-052-351)以及213位(試驗AC-052-352 [BREATHE-1]) WHO功能分級為III - IV級的肺動脈高血壓(原發性肺動脈高血壓或是硬皮症續發性肺動脈高血壓)成人病人進行試驗。在bosentan 62.5 mg&nbsp;每天兩次治療4週後，試驗中所研究的維持劑量在AC-052-351中為125 mg&nbsp;每天兩次，而在 &nbsp; &nbsp;AC-052-352中為125 mg&nbsp;每天兩次以及250 mg&nbsp;每天兩次。</p><p style=\"text-align:justify;\">試驗中將bosentan新增至病人現有的治療中，現有治療可能由以下組成：抗凝血劑、血管舒張劑(如鈣離子通道阻斷劑)、利尿劑、氧氣以及毛地黃等，但不包含epoprostenol。對照組則以安慰劑併用現有治療藥物。</p><p style=\"text-align:justify;\">試驗的主要評估指標為6分鐘步行距離的變化，第一項試驗在第12週測量，第二項試驗在第16週測量。在兩項試驗中，bosentan治療都使得運動能力顯著提升。主要評估指標量測後，經安慰劑校正的步行距離增加值，相較於基準值分別為76公尺(p = 0.02；t-test)以及44公尺 (p = 0.0002；Mann-Whitney U test)。雖然使用125 mg&nbsp;每天兩次與使用250 mg&nbsp;每天兩次兩組之間的差異並不具有統計顯著意義，然而250 mg&nbsp;每天兩次的治療組具有傾向運動能力改善的趨勢。</p><p style=\"text-align:justify;\">步行距離在治療4週後明顯改善，而在治療8週後則顯而易見，並且在雙盲治療的病人次族群中，可維持至多28週。</p><p style=\"text-align:justify;\">一項針對具療效反應者之回溯性分析中發現，在一項針對步行距離變化、WHO功能分級以及呼吸困難症狀的對照試驗中，95位接受bosentan 125 mg&nbsp;每天兩次治療的病人，在第8週有66位病人已有改善，22位狀況穩定，而7位有惡化情形。在第8週22位狀況穩定的病人中，有6位於第12或16週改善，而4位相較於基準值有惡化情形。在第8週7位惡化的病人中，於第12/16週有3位改善，而4位相較於基準值有惡化情形。</p><p style=\"text-align:justify;\">僅第一項試驗有評估侵入性的血液動力學參數。Bosentan治療使心臟指數顯著升高，並使肺動脈血壓、肺血管阻力與平均右心房壓力顯著降低。</p><p style=\"text-align:justify;\">在bosentan治療組中觀察到肺動脈高血壓的症狀有減少情形。步行距離測試期間的\"呼吸困難\"量測值顯示，接受bosentan治療的病人病情改善。在試驗AC-052-352中，213位病人中有92%&nbsp;的基準值屬於WHO功能分級第III級，8%屬於第IV級。Bosentan治療使42.4%的病人WHO功能分級改善(安慰劑組30.4%)。在兩項試驗期間，接受bosentan治療的病人相較於接受安慰劑的病人，WHO功能分級的整體變化都顯著較佳。在第28週，bosentan治療相較於安慰劑，臨床惡化比率顯著降低(分別為10.7%和37.1%；p = 0.0015)。</p><p>在一項隨機分配、雙盲、多中心、安慰劑對照試驗(AC-052-364 [EARLY])中，共185位WHO功能分級第II級之肺動脈高血壓病人(平均基準值6分鐘步行距離為435公尺)，接受bosentan 62.5 mg&nbsp;每天兩次治療4週，續以125 mg&nbsp;每天兩次治療(n = 93)，或安慰劑治療(n = 92) &nbsp;6個月。受試者為先前未曾接受過肺動脈高血壓特定治療(n= 156)、或接受sildenafil穩定劑量治療的病人(n= 29)。共同的主要評估指標為肺血管阻力(PVR)以及6分鐘步行距離自基準值至第6個月的變化。下表可說明此試驗預設的分析方法。</p>\n<p>相較於安慰劑組，接受bosentan治療後，臨床惡化比率降低 (風險降低比率為77%，95%信賴區間[CI]：20% - 94%，p = 0.0114)；\"臨床惡化\"定義為綜合症狀惡化、因肺動脈高血壓而住院以及死亡。治療的效果主要是藉由改善症狀惡化而達成。因肺動脈高血壓惡化而住院的案例，在bosentan組內有一例，而在安慰劑組內有三例。在6個月的雙盲試驗期間，兩治療組中各有一死亡案例，因此無法針對存活率做出結論。</p><p>長期數據源自於EARLY研究的全體173位病人，病人在對照期內接受bosentan治療，和/或在開放性延伸試驗期間由安慰劑組轉換至bosentan組。Bosentan治療的平均暴露時間為3.6&nbsp;± 1.8年(最多為6.1年)，其中73%的病人接受至少3年的治療，而62%的病人接受至少4年的治療。在開放性延伸試驗期間，病人如有需求，可接受額外的肺動脈高血壓治療。多數病人經診斷為原發性或遺傳性肺動脈高血壓(61%)。整體而言，有78%的病人維持在WHO功能分級第II級內。以Kaplan-Meier存活率分析估計，在治療開始3年和4年後，存活率分別為90%&nbsp;和 85%。同時，分別有88%和79%的病人維持在無肺動脈高血壓疾病惡化狀態(定義為各種原因所導致死亡、肺臟移植、心房中膈造口術或開始接受prostanoid藥物的靜脈或皮下治療)。雙盲試驗期的安慰劑治療，以及開放性延伸試驗期內開始使用其他藥物的相對影響程度仍屬未知。</p><p>在一項前瞻性、多中心、隨機分配、雙盲、安慰劑對照的試驗(AC-052-405 [BREATHE-5])中，WHO功能分級第III級且具有先天性心臟疾病相關艾森曼格 (Eisenmenger)&nbsp;生理的肺動脈高血壓病人，接受bosentan 62.5 mg每天兩次，持續 4週；隨後再接受125 mg每天兩次，持續 12週 (n = 37，其中31位具有主要為右至左的心臟雙向分流)。試驗主要目的為證實bosentan不會使低血氧症惡化。在16週後，bosentan組相較於安慰劑組(n = 17位病人)，平均氧飽和增加1.0% (95% CI：-0.7% ~ 2.8%)，證實bosentan不會使低血氧症惡化。Bosentan組的平均肺血管阻力顯著降低(在心臟雙向分流病人之子群組觀察到的效果特別顯著)。在16週後，安慰劑修正後的6分鐘步行距離平均增加量為53 m (p = 0.0079)，反映出運動能力已改善。在BREATHE-5試驗的24週開放性延長試驗 (AC-052-409)內，有26位病人繼續接受bosentan治療(平均治療期間= 24.4&nbsp;± 2.0週)，且療效大致能夠維持。</p><p>目前尚無研究可證實TRACLEER治療對於存活率之效益。不過，在兩項安慰劑對照的樞紐試驗(AC-052-351和AC-052-352)和/或其兩項未對照的開放性延長試驗中，有記錄全體235位bosentan治療病人的長期生命狀態。Bosentan的平均暴露期間為1.9年± 0.7年(最短0.1年，最長3.3年)，而觀察病人的平均時間為2.0&nbsp;± 0.6年。多數病人經診斷為原發性肺高血壓(72%)，且為WHO功能分級為第III級(84%)。在此整體族群中，以Kaplan-Meier存活率分析估計，在bosentan治療開始1和2年後，存活率分別為93%和84%。在全身性硬化症引起的續發性肺動脈高血壓病人次族群中，存活率估計值較低。這些估計值可能受到43/235位病人開始epoprostenol治療的影響。</p><ul><li style=\"text-align:justify;\"><strong>針對肺動脈高血壓兒童病人的試驗</strong></li></ul><p style=\"text-align:justify;\"><u>BREATHE-3 (AC-052-356)</u></p><p style=\"margin-left:.85pt;text-align:justify;\">於開放性無對照試驗中，針對19位年齡3至15歲的肺動脈高血壓兒童病人，對bosentan膜衣錠進行評估。本試驗主要設計為藥動學的試驗(請參閱第11節)。在基準值時，10位病人具有原發性肺動脈高血壓與9位先天性心臟疾病續發的肺動脈高血壓，且為WHO功能分級第II級(n = 15位病人，79%)或第III級(n = 4位病人，21%)。病人分入三個體重組，並接受每天兩次約2 mg/kg體重的bosentan 12週。各組有一半病人已正在接受epoprostenol靜脈注射治療，且epoprostenol的劑量於試驗期間內維持不變。</p><p style=\"margin-left:.85pt;text-align:justify;\">測量17位病人的血液動力學。心輸出量指數自基準值起的平均增加量為0.5L/min/m<sup>2</sup>，平均肺動脈壓力的平均減少量為8 mmHg，而PVR的平均減少量為389 dyn•sec/cm<sup>5</sup>。無論是否併用epoprostenol，血液動力學自基準值起的改善情形皆類似。第12週時，運動能力自基準值起的變化量極大，惟不具有意義。</p><p style=\"text-align:justify;\"><u>與epoprostenol併用</u></p><p style=\"text-align:justify;\">已在2項試驗中評估bosentan及epoprostenol的合併療法：AC-052-355 (BREATHE-2)及AC-052-356 (BREATHE-3)。AC-052-355為一項多中心、隨機分配、雙盲、平行分組的臨床試驗，以評估bosentan相較於安慰劑，在33位併用epoprostenol治療之重度肺動脈高血壓病人的情形。AC-052-356為開放標示、無對照試驗，在19位兒童病人中，有10位在12週的試驗期間內併用bosentan和epoprostenol治療。併用與單獨用藥所預期的安全性並無差異，在兒童與成人中的耐受性均佳。此併用方式的臨床效益尚未被證實。</p>",
+          "search_text": "10.2\n藥效藥理特性\n藥物分類：其他抗高血壓藥，ATC代碼：C02KX01。 神經內泌素內皮素-1 (ET-1)是已知最強效的血管收縮劑之一，也可促進纖維化、細胞增殖、心肥大和重塑，並具有促發炎性質。這些作用是藉由內皮素結合至位於內皮和血管平滑肌細胞的ETA和ETB受體而發生。在數種心血管疾患以及結締組織疾病(包含肺動脈高血壓、硬皮病、急性和慢性心衰竭、心肌缺血、全身性高血壓以及動脈粥狀硬化)中，組織和血漿的ET-1濃度會上升，顯示ET-1在這些疾病中具有致病角色。在肺動脈高血壓和心衰竭中，在缺乏內皮素受體拮抗作用下， ET-1濃度的升高和這些疾病的嚴重度以及預後具高度相關。 Bosentan會與ET-1和其他ET胜肽競爭結合至ETA和ETB受體，且對於ETA受體的親和力 (Ki = 4.1 - 43奈莫耳)略高於ETB受體(Ki = 38－730奈莫耳)。Bosentan會專一性拮抗ET受體，不會結合至其他受體。 療效 動物模型 在肺動脈高血壓的動物模型中，長期口服投予bosentan可降低肺血管阻力，並逆轉肺血管及右心室的肥大。在肺纖維化的動物模型中，bosentan可減少肺部的膠原蛋白沉積。 在肺動脈高血壓成人病人中的療效 兩項隨機分配、雙盲、多中心、安慰劑對照的試驗，分別對32位(試驗AC-052-351)以及213位(試驗AC-052-352 [BREATHE-1]) WHO功能分級為III - IV級的肺動脈高血壓(原發性肺動脈高血壓或是硬皮症續發性肺動脈高血壓)成人病人進行試驗。在bosentan 62.5 mg 每天兩次治療4週後，試驗中所研究的維持劑量在AC-052-351中為125 mg 每天兩次，而在 AC-052-352中為125 mg 每天兩次以及250 mg 每天兩次。 試驗中將bosentan新增至病人現有的治療中，現有治療可能由以下組成：抗凝血劑、血管舒張劑(如鈣離子通道阻斷劑)、利尿劑、氧氣以及毛地黃等，但不包含epoprostenol。對照組則以安慰劑併用現有治療藥物。 試驗的主要評估指標為6分鐘步行距離的變化，第一項試驗在第12週測量，第二項試驗在第16週測量。在兩項試驗中，bosentan治療都使得運動能力顯著提升。主要評估指標量測後，經安慰劑校正的步行距離增加值，相較於基準值分別為76公尺(p = 0.02；t-test)以及44公尺 (p = 0.0002；Mann-Whitney U test)。雖然使用125 mg 每天兩次與使用250 mg 每天兩次兩組之間的差異並不具有統計顯著意義，然而250 mg 每天兩次的治療組具有傾向運動能力改善的趨勢。 步行距離在治療4週後明顯改善，而在治療8週後則顯而易見，並且在雙盲治療的病人次族群中，可維持至多28週。 一項針對具療效反應者之回溯性分析中發現，在一項針對步行距離變化、WHO功能分級以及呼吸困難症狀的對照試驗中，95位接受bosentan 125 mg 每天兩次治療的病人，在第8週有66位病人已有改善，22位狀況穩定，而7位有惡化情形。在第8週22位狀況穩定的病人中，有6位於第12或16週改善，而4位相較於基準值有惡化情形。在第8週7位惡化的病人中，於第12/16週有3位改善，而4位相較於基準值有惡化情形。 僅第一項試驗有評估侵入性的血液動力學參數。Bosentan治療使心臟指數顯著升高，並使肺動脈血壓、肺血管阻力與平均右心房壓力顯著降低。 在bosentan治療組中觀察到肺動脈高血壓的症狀有減少情形。步行距離測試期間的\"呼吸困難\"量測值顯示，接受bosentan治療的病人病情改善。在試驗AC-052-352中，213位病人中有92% 的基準值屬於WHO功能分級第III級，8%屬於第IV級。Bosentan治療使42.4%的病人WHO功能分級改善(安慰劑組30.4%)。在兩項試驗期間，接受bosentan治療的病人相較於接受安慰劑的病人，WHO功能分級的整體變化都顯著較佳。在第28週，bosentan治療相較於安慰劑，臨床惡化比率顯著降低(分別為10.7%和37.1%；p = 0.0015)。 在一項隨機分配、雙盲、多中心、安慰劑對照試驗(AC-052-364 [EARLY])中，共185位WHO功能分級第II級之肺動脈高血壓病人(平均基準值6分鐘步行距離為435公尺)，接受bosentan 62.5 mg 每天兩次治療4週，續以125 mg 每天兩次治療(n = 93)，或安慰劑治療(n = 92) 6個月。受試者為先前未曾接受過肺動脈高血壓特定治療(n= 156)、或接受sildenafil穩定劑量治療的病人(n= 29)。共同的主要評估指標為肺血管阻力(PVR)以及6分鐘步行距離自基準值至第6個月的變化。下表可說明此試驗預設的分析方法。\n相較於安慰劑組，接受bosentan治療後，臨床惡化比率降低 (風險降低比率為77%，95%信賴區間[CI]：20% - 94%，p = 0.0114)；\"臨床惡化\"定義為綜合症狀惡化、因肺動脈高血壓而住院以及死亡。治療的效果主要是藉由改善症狀惡化而達成。因肺動脈高血壓惡化而住院的案例，在bosentan組內有一例，而在安慰劑組內有三例。在6個月的雙盲試驗期間，兩治療組中各有一死亡案例，因此無法針對存活率做出結論。 長期數據源自於EARLY研究的全體173位病人，病人在對照期內接受bosentan治療，和/或在開放性延伸試驗期間由安慰劑組轉換至bosentan組。Bosentan治療的平均暴露時間為3.6 ± 1.8年(最多為6.1年)，其中73%的病人接受至少3年的治療，而62%的病人接受至少4年的治療。在開放性延伸試驗期間，病人如有需求，可接受額外的肺動脈高血壓治療。多數病人經診斷為原發性或遺傳性肺動脈高血壓(61%)。整體而言，有78%的病人維持在WHO功能分級第II級內。以Kaplan-Meier存活率分析估計，在治療開始3年和4年後，存活率分別為90% 和 85%。同時，分別有88%和79%的病人維持在無肺動脈高血壓疾病惡化狀態(定義為各種原因所導致死亡、肺臟移植、心房中膈造口術或開始接受prostanoid藥物的靜脈或皮下治療)。雙盲試驗期的安慰劑治療，以及開放性延伸試驗期內開始使用其他藥物的相對影響程度仍屬未知。 在一項前瞻性、多中心、隨機分配、雙盲、安慰劑對照的試驗(AC-052-405 [BREATHE-5])中，WHO功能分級第III級且具有先天性心臟疾病相關艾森曼格 (Eisenmenger) 生理的肺動脈高血壓病人，接受bosentan 62.5 mg每天兩次，持續 4週；隨後再接受125 mg每天兩次，持續 12週 (n = 37，其中31位具有主要為右至左的心臟雙向分流)。試驗主要目的為證實bosentan不會使低血氧症惡化。在16週後，bosentan組相較於安慰劑組(n = 17位病人)，平均氧飽和增加1.0% (95% CI：-0.7% ~ 2.8%)，證實bosentan不會使低血氧症惡化。Bosentan組的平均肺血管阻力顯著降低(在心臟雙向分流病人之子群組觀察到的效果特別顯著)。在16週後，安慰劑修正後的6分鐘步行距離平均增加量為53 m (p = 0.0079)，反映出運動能力已改善。在BREATHE-5試驗的24週開放性延長試驗 (AC-052-409)內，有26位病人繼續接受bosentan治療(平均治療期間= 24.4 ± 2.0週)，且療效大致能夠維持。 目前尚無研究可證實TRACLEER治療對於存活率之效益。不過，在兩項安慰劑對照的樞紐試驗(AC-052-351和AC-052-352)和/或其兩項未對照的開放性延長試驗中，有記錄全體235位bosentan治療病人的長期生命狀態。Bosentan的平均暴露期間為1.9年± 0.7年(最短0.1年，最長3.3年)，而觀察病人的平均時間為2.0 ± 0.6年。多數病人經診斷為原發性肺高血壓(72%)，且為WHO功能分級為第III級(84%)。在此整體族群中，以Kaplan-Meier存活率分析估計，在bosentan治療開始1和2年後，存活率分別為93%和84%。在全身性硬化症引起的續發性肺動脈高血壓病人次族群中，存活率估計值較低。這些估計值可能受到43/235位病人開始epoprostenol治療的影響。 針對肺動脈高血壓兒童病人的試驗 BREATHE-3 (AC-052-356) 於開放性無對照試驗中，針對19位年齡3至15歲的肺動脈高血壓兒童病人，對bosentan膜衣錠進行評估。本試驗主要設計為藥動學的試驗(請參閱第11節)。在基準值時，10位病人具有原發性肺動脈高血壓與9位先天性心臟疾病續發的肺動脈高血壓，且為WHO功能分級第II級(n = 15位病人，79%)或第III級(n = 4位病人，21%)。病人分入三個體重組，並接受每天兩次約2 mg/kg體重的bosentan 12週。各組有一半病人已正在接受epoprostenol靜脈注射治療，且epoprostenol的劑量於試驗期間內維持不變。 測量17位病人的血液動力學。心輸出量指數自基準值起的平均增加量為0.5L/min/m2，平均肺動脈壓力的平均減少量為8 mmHg，而PVR的平均減少量為389 dyn•sec/cm5。無論是否併用epoprostenol，血液動力學自基準值起的改善情形皆類似。第12週時，運動能力自基準值起的變化量極大，惟不具有意義。 與epoprostenol併用 已在2項試驗中評估bosentan及epoprostenol的合併療法：AC-052-355 (BREATHE-2)及AC-052-356 (BREATHE-3)。AC-052-355為一項多中心、隨機分配、雙盲、平行分組的臨床試驗，以評估bosentan相較於安慰劑，在33位併用epoprostenol治療之重度肺動脈高血壓病人的情形。AC-052-356為開放標示、無對照試驗，在19位兒童病人中，有10位在12週的試驗期間內併用bosentan和epoprostenol治療。併用與單獨用藥所預期的安全性並無差異，在兒童與成人中的耐受性均佳。此併用方式的臨床效益尚未被證實。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 45456
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "一項為期2年的小鼠致癌性試驗顯示，在血漿濃度約為人類治療劑量所達血漿濃度的2至4倍時，雄性(雌性則無)的肝細胞腺瘤和肝細胞癌的合併發生率會上升。對於大鼠投予2年的口服bosentan後，在血漿濃度約為人類治療劑量所達血漿濃度的9至14倍時，雄性(雌性則無)的甲狀腺濾泡細胞腺瘤和甲狀腺濾泡細胞癌的合併發生率會小幅但顯著地上升。Bosentan的基因毒性測試結果為陰性。在大鼠中發現bosentan會引起輕度甲狀腺荷爾蒙失衡。不過目前並無證據顯示bosentan會影響人類的甲狀腺(甲狀腺素，TSH)功能。 Bosentan對於粒線體的影響仍屬未知。 在大鼠中，當在血漿濃度高出人類治療劑量所達血漿濃度的1.5倍時，已證實bosentan有致畸胎性。致畸胎性(包含引起頭部、臉部以及大血管的畸形)和劑量相關。此致畸胎性的表現形式相似於給予其他內皮素受體拮抗劑以及內皮素基因剔除的小鼠中觀察到的畸形形式，顯示其為類別反應(class effect)。具生育能力婦女用藥時，務必採取適當的預防措施(請參閱第6.1、6.3及11節)。 在囓齒動物中，發生睪丸小管萎縮與生殖力受損的情形和長期投予內皮素受體拮抗劑有關。 雄性和雌性大鼠的生殖力試驗中，分別在暴露量高出人類治療劑量之預期暴露量的21和43倍時，未觀察到精子數量、精子活動力和精子存活率，或者交配能力或生育力受到影響；對於提早著床或著床胚胎的發育亦無任何不良影響。 在持續2年口服投予125 mg/kg/day (約為4倍人類最大建議劑量[MRHD]，及最低測試劑量)之bosentan的大鼠中觀察到睪丸小管萎縮的發生率些微升高，但在持續6個月投予 1500 mg/kg/day (約50倍MRHD)之高劑量的大鼠中則無此情況。在幼年大鼠的毒性試驗中，大鼠自產後第4天至成年期間接受藥物，在斷乳後觀察到睾丸和副睾的絕對重量減輕，同時副睾的精子數量減少。NOAEL分別高出人類治療暴露量的21倍(產後第21天)和2.3倍(產後第69天)。 然而，在產後第21天，在人類治療暴露量的7倍(雄性)和19倍(雌性)下，並未偵測到任何對於整體發育、生長、感覺、認知能力和生殖能力的影響。在成鼠年齡(產後第69天)時，在PAH兒童治療暴露量的1.3倍(雄性)和2.6倍(雌性)下，並未偵測到bosentan的任何影響。",
+          "content_html": "<p style=\"text-align:justify;\">一項為期2年的小鼠致癌性試驗顯示，在血漿濃度約為人類治療劑量所達血漿濃度的2至4倍時，雄性(雌性則無)的肝細胞腺瘤和肝細胞癌的合併發生率會上升。對於大鼠投予2年的口服bosentan後，在血漿濃度約為人類治療劑量所達血漿濃度的9至14倍時，雄性(雌性則無)的甲狀腺濾泡細胞腺瘤和甲狀腺濾泡細胞癌的合併發生率會小幅但顯著地上升。Bosentan的基因毒性測試結果為陰性。在大鼠中發現bosentan會引起輕度甲狀腺荷爾蒙失衡。不過目前並無證據顯示bosentan會影響人類的甲狀腺(甲狀腺素，TSH)功能。</p><p style=\"text-align:justify;\">Bosentan對於粒線體的影響仍屬未知。</p><p style=\"text-align:justify;\">在大鼠中，當在血漿濃度高出人類治療劑量所達血漿濃度的1.5倍時，已證實bosentan有致畸胎性。致畸胎性(包含引起頭部、臉部以及大血管的畸形)和劑量相關。此致畸胎性的表現形式相似於給予其他內皮素受體拮抗劑以及內皮素基因剔除的小鼠中觀察到的畸形形式，顯示其為類別反應(class effect)。具生育能力婦女用藥時，務必採取適當的預防措施(請參閱第6.1、6.3及11節)。</p><p style=\"text-align:justify;\">在囓齒動物中，發生睪丸小管萎縮與生殖力受損的情形和長期投予內皮素受體拮抗劑有關。</p><p style=\"text-align:justify;\">雄性和雌性大鼠的生殖力試驗中，分別在暴露量高出人類治療劑量之預期暴露量的21和43倍時，未觀察到精子數量、精子活動力和精子存活率，或者交配能力或生育力受到影響；對於提早著床或著床胚胎的發育亦無任何不良影響。</p><p style=\"text-align:justify;\">在持續2年口服投予125 mg/kg/day (約為4倍人類最大建議劑量[MRHD]，及最低測試劑量)之bosentan的大鼠中觀察到睪丸小管萎縮的發生率些微升高，但在持續6個月投予 &nbsp; &nbsp; &nbsp;1500 mg/kg/day (約50倍MRHD)之高劑量的大鼠中則無此情況。在幼年大鼠的毒性試驗中，大鼠自產後第4天至成年期間接受藥物，在斷乳後觀察到睾丸和副睾的絕對重量減輕，同時副睾的精子數量減少。NOAEL分別高出人類治療暴露量的21倍(產後第21天)和2.3倍(產後第69天)。</p><p>然而，在產後第21天，在人類治療暴露量的7倍(雄性)和19倍(雌性)下，並未偵測到任何對於整體發育、生長、感覺、認知能力和生殖能力的影響。在成鼠年齡(產後第69天)時，在PAH兒童治療暴露量的1.3倍(雄性)和2.6倍(雌性)下，並未偵測到bosentan的任何影響。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n一項為期2年的小鼠致癌性試驗顯示，在血漿濃度約為人類治療劑量所達血漿濃度的2至4倍時，雄性(雌性則無)的肝細胞腺瘤和肝細胞癌的合併發生率會上升。對於大鼠投予2年的口服bosentan後，在血漿濃度約為人類治療劑量所達血漿濃度的9至14倍時，雄性(雌性則無)的甲狀腺濾泡細胞腺瘤和甲狀腺濾泡細胞癌的合併發生率會小幅但顯著地上升。Bosentan的基因毒性測試結果為陰性。在大鼠中發現bosentan會引起輕度甲狀腺荷爾蒙失衡。不過目前並無證據顯示bosentan會影響人類的甲狀腺(甲狀腺素，TSH)功能。 Bosentan對於粒線體的影響仍屬未知。 在大鼠中，當在血漿濃度高出人類治療劑量所達血漿濃度的1.5倍時，已證實bosentan有致畸胎性。致畸胎性(包含引起頭部、臉部以及大血管的畸形)和劑量相關。此致畸胎性的表現形式相似於給予其他內皮素受體拮抗劑以及內皮素基因剔除的小鼠中觀察到的畸形形式，顯示其為類別反應(class effect)。具生育能力婦女用藥時，務必採取適當的預防措施(請參閱第6.1、6.3及11節)。 在囓齒動物中，發生睪丸小管萎縮與生殖力受損的情形和長期投予內皮素受體拮抗劑有關。 雄性和雌性大鼠的生殖力試驗中，分別在暴露量高出人類治療劑量之預期暴露量的21和43倍時，未觀察到精子數量、精子活動力和精子存活率，或者交配能力或生育力受到影響；對於提早著床或著床胚胎的發育亦無任何不良影響。 在持續2年口服投予125 mg/kg/day (約為4倍人類最大建議劑量[MRHD]，及最低測試劑量)之bosentan的大鼠中觀察到睪丸小管萎縮的發生率些微升高，但在持續6個月投予 1500 mg/kg/day (約50倍MRHD)之高劑量的大鼠中則無此情況。在幼年大鼠的毒性試驗中，大鼠自產後第4天至成年期間接受藥物，在斷乳後觀察到睾丸和副睾的絕對重量減輕，同時副睾的精子數量減少。NOAEL分別高出人類治療暴露量的21倍(產後第21天)和2.3倍(產後第69天)。 然而，在產後第21天，在人類治療暴露量的7倍(雄性)和19倍(雌性)下，並未偵測到任何對於整體發育、生長、感覺、認知能力和生殖能力的影響。在成鼠年齡(產後第69天)時，在PAH兒童治療暴露量的1.3倍(雄性)和2.6倍(雌性)下，並未偵測到bosentan的任何影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "Bosentan的藥動學資料主要來自健康受試者。有限的病人資料顯示，肺動脈高血壓成人病人對bosentan的暴露程度較健康成人受試者約高2倍。 在健康受試者中，bosentan表現出劑量及時間依賴性的藥動學。廓清率及分佈體積隨靜脈注射劑量及時間的增加而降低。口服投藥後，在500 mg的範圍內，全身暴露程度均與劑量呈比例。口服劑量較高時，Cmax和AUC的增加低於劑量增加的比例。 吸收 在健康受試者中，bosentan的絕對生體可用率(bioavailability)約為50%，且不受食物影響。3－5小時內可達到最大的血漿濃度。 分佈 Bosentan與血漿蛋白的結合度高(> 98%)，主要與白蛋白結合。Bosentan不會滲透進入紅血球中。 在給予250 mg的靜脈注射劑量後，測得約18公升的分布體積(Vss)。 生物轉化和排除 在給予單劑250 mg的靜脈注射劑量後，廓清率為8.2 L/h。最終清除半衰期(t1/2)為5.4小時。 多重給藥時，bosentan的血漿濃度逐漸降低到投予單劑藥物後的50%至65%。可能是代謝性肝臟酵素的自體誘導作用造成此降低情形。在3至5天內即會達到穩定狀態。 Bosentan在肝臟由細胞色素P450的同功酶(CYP2C9與CYP3A4)代謝後，經由膽道排泄作用排除。在尿液中回收少於3%的口服投予劑量。 Bosentan會形成三種代謝物，而只有其中一種具有藥理活性。此代謝物主要經由膽汁以原型排泄。在成人病人中，相較於健康的受試者，對於活性代謝物的暴露量較高。在確診有膽汁鬱積的病人中，此活性代謝物的暴露程度可能會變高。 Bosentan為CYP2C9與CYP3A4 (可能還包括CYP2C19以及P-醣蛋白)的誘導劑。在體外肝細胞培養中，bosentan會抑制膽鹽輸出幫浦的作用。 體外數據證實，bosentan對於所測試的CYP同功酶(CYP1A2、2A6、2B6、2C8、2C9、2D6、2E1、3A4)無相關的抑制作用。因此，並不預期bosentan會使由這些同功酶代謝之藥物產品的血漿濃度升高。 特殊族群的藥動學 根據研究各變數的結果，成人族群中性別、體重、人種或年齡對bosentan的藥動學並不預期會造成任何相關的影響。 兒童 曾於4項兒童病人的臨床試驗中探討藥動學 (BREATHE-3、FUTURE-1、FUTURE-3以及FUTURE-4，請參閱 第11節)。對於2歲以下兒童的數據有限，因此藥動學在此年齡分組中仍無法詳盡描述。 試驗AC-052-356 [BREATHE-3]評估bosentan膜衣錠劑型在單劑和多劑口服劑量下的藥動學，對象為19位年齡3至15歲、患有肺動脈高血壓的兒童，依據體重給予2 mg/kg體重每天兩次的劑量。在此試驗中，bosentan的暴露量隨時間降低，此情況與已知的bosentan自體誘導特性相符。接受每天兩次31.25mg、62.5mg或125 mg劑量治療之兒童病人，其bosentan的平均AUC (CV %) 分別為3,496 (49%)、5,428 (79%)和 6,124 (27%) ng•h/mL，數值低於接受125 mg 每天兩次劑量之成人肺動脈高血壓病人中觀察到的數值8,149 (47%) ng•h/mL。穩定狀態下，體重為10－20 kg、20－40 kg和> 40 kg的兒童病人，其全身暴露量分別為成人全身暴露量的43%、67%和75%。 在試驗AC-052-365 [FUTURE-1]中，給予36位年齡2至11歲的肺動脈高血壓兒童 bosentan可溶錠。在2 mg/kg體重和4 mg/kg體重的口服劑量下，穩定狀態的bosentan血漿濃度與AUC都相似 (2 mg/kg體重每天兩次以及4 mg/kg體重每天兩次的AUCτ分別為3,577 ng•h/mL和3,371 ng•h/mL)，並未觀察到劑量比例性。這些兒童病人的bosentan平均暴露量約為成人病人維持劑量125 mg 每天兩次之暴露量的一半，但和成人暴露量的重疊範圍很大。 在試驗AC-052-373 [FUTURE-3]中，採用可溶錠，接受2 mg/kg體重每天兩次bosentan的病人，其暴露量和FUTURE-1試驗中病人的暴露量相似。在整體族群中(n = 31)， 2 mg/kg體重每天兩次的劑量造成的每日暴露量為8,535 ng•h/mL；而AUCτ為 4,268 ng•h/mL (CV：61%)。在年齡3個月大至2歲的病人中，每日暴露量為 7,879 ng•h/mL；而AUCτ為3,939 ng•h/mL (CV：72%)。在年齡3個月大至1歲的病人中(n = 2)，AUCτ為5,914 ng•h/mL (CV：85%)，而在年齡1至2歲的病人中 (n = 7)，AUCτ為3,507 ng•h/mL (CV：70%)。在年齡超過2歲的病人中(n = 22)，每日暴露量為8,820 ng•h/mL，而AUCτ為4,410 ng•h/mL (CV：58%)。Bosentan 2 mg/kg體重每天三次的給藥方式，並未增加暴露量；每日暴露量為7,275 ng•h/mL (CV：83%， n = 27)。 根據BREATHE-3、FUTURE-1和FUTURE-3試驗的結果，bosentan在兒童病人中的暴露量相較於成人病人，似乎在較低劑量下即達到高原狀態；同時，給予高於2 mg/kg體重每天兩次的劑量(4 mg/kg體重每天兩次或2 mg/kg體重每天三次)並不會在兒童病人中造成更高的bosentan暴露量。 在針對新生兒所進行的AC-052-391 [FUTURE-4]試驗中，bosentan血漿濃度在第一次用藥期間緩慢而持續地增加，達到較低的暴露量(全血AUC0-12：164 ng•h/mL，n = 11)。在穩定狀態下，AUCτ為6,165 ng•h/mL (CV：133%，n = 7)，此結果類似在接受 125 mg 每天兩次的成人病人所觀察到的暴露量，且有考量血液/血漿分布比率0.6。 這些結果對於肝毒性的後續影響仍屬未知。性別和併用epoprostenol靜脈注射的情形，對於bosentan的藥動學沒有顯著的影響。 肝功能不全 在輕度肝功能不全的病人(Child-Pugh分級A級)，未觀察到藥動學變化。在輕度肝功能不全的病人中，bosentan穩定狀態下的AUC較健康志願者高9%，而活性代謝物Ro 48-5033的AUC則高出33%。 一項試驗納入5位患有肝門靜脈高壓續發肺高壓、Child-Pugh分級 B級的肝功能不全病人，另納入3位有其他原因所致肺動脈高血壓、但肝功能正常的病人，探討中度肝功能不全(Child-Pugh分級B級)對於bosentan藥動學以及其主要代謝物Ro 48-5033的影響。在Child-Pugh分級B級的肝功能不全病人中，在穩定狀態下bosentan的平均(95% CI) AUC為 360 (212 - 613) ng•h/mL，即高出肝功能正常病人4.7倍。而活性代謝物Ro 48-5033的平均(95% CI) AUC為106 (58.4 - 192) ng•h/mL，即高出肝功能正常病人12.4倍(bosentan：平均[95% CI] AUC：76.1 [9.07 - 638] ng•h/mL；Ro 48-5033：平均[95% CI] AUC：8.57 [1.28 - 57.2] ng•h/ml)。雖然所納入的病人人數有限且變異極大，但這些數據指出，在中度肝功能不全(Child-Pugh分級B級)病人中，bosentan以及其主要代謝物 Ro 48-5033的暴露量顯著增加。 目前尚未研究在Child-Pugh分級C級的肝功能不全病人中的bosentan藥動學。TRACLEER禁用於中至重度肝功能不全的病人(即Child-Pugh分級B或C級) (請參閱第4節)。 腎功能不全 在重度腎功能不全(肌酸酐廓清率為15 - 30 mL/min)的病人中，bosentan的血漿濃度會降低約10%。在這些病人中的bosentan代謝物血漿濃度會增加至腎功能正常受試者的2倍左右。腎功能不全病人無需進行劑量調整。目前尚無針對接受透析治療病人的臨床使用經驗。根據其物理化學性質和高度蛋白質結合力，並不預期透析對於從循環系統移除bosentan 可達任何顯著的程度 (請參閱第3.3節)。",
+          "content_html": "<p style=\"text-align:justify;\">Bosentan的藥動學資料主要來自健康受試者。有限的病人資料顯示，肺動脈高血壓成人病人對bosentan的暴露程度較健康成人受試者約高2倍。</p><p style=\"text-align:justify;\">在健康受試者中，bosentan表現出劑量及時間依賴性的藥動學。廓清率及分佈體積隨靜脈注射劑量及時間的增加而降低。口服投藥後，在500 mg的範圍內，全身暴露程度均與劑量呈比例。口服劑量較高時，C<sub>max</sub>和AUC的增加低於劑量增加的比例。</p><p style=\"text-align:justify;\"><strong><u>吸收</u></strong></p><p style=\"text-align:justify;\">在健康受試者中，bosentan的絕對生體可用率(bioavailability)約為<strong>50%</strong>，且不受食物影響。3－5小時內可達到最大的血漿濃度。</p><p style=\"text-align:justify;\"><strong><u>分佈</u></strong></p><p style=\"text-align:justify;\">Bosentan與血漿蛋白的結合度高(&gt; 98%)，主要與白蛋白結合。Bosentan不會滲透進入紅血球中。</p><p style=\"text-align:justify;\">在給予250 mg的靜脈注射劑量後，測得約18公升的分布體積(V<sub>ss</sub>)。</p><p style=\"text-align:justify;\"><strong><u>生物轉化和排除</u></strong></p><p style=\"text-align:justify;\">在給予單劑250 mg的靜脈注射劑量後，廓清率為8.2 L/h。最終清除半衰期(t<sub>1/2</sub>)為5.4小時。</p><p style=\"text-align:justify;\">多重給藥時，bosentan的血漿濃度逐漸降低到投予單劑藥物後的50%至65%。可能是代謝性肝臟酵素的自體誘導作用造成此降低情形。在3至5天內即會達到穩定狀態。</p><p style=\"text-align:justify;\">Bosentan在肝臟由細胞色素P450的同功酶(CYP2C9與CYP3A4)代謝後，經由膽道排泄作用排除。在尿液中回收少於3%的口服投予劑量。</p><p style=\"text-align:justify;\">Bosentan會形成三種代謝物，而只有其中一種具有藥理活性。此代謝物主要經由膽汁以原型排泄。在成人病人中，相較於健康的受試者，對於活性代謝物的暴露量較高。在確診有膽汁鬱積的病人中，此活性代謝物的暴露程度可能會變高。</p><p style=\"text-align:justify;\">Bosentan為CYP2C9與CYP3A4 (可能還包括CYP2C19以及P-醣蛋白)的誘導劑。在體外肝細胞培養中，bosentan會抑制膽鹽輸出幫浦的作用。</p><p style=\"text-align:justify;\">體外數據證實，bosentan對於所測試的CYP同功酶(CYP1A2、2A6、2B6、2C8、2C9、2D6、2E1、3A4)無相關的抑制作用。因此，並不預期bosentan會使由這些同功酶代謝之藥物產品的血漿濃度升高。</p><p style=\"text-align:justify;\"><strong>特殊族群的藥動學</strong></p><p style=\"text-align:justify;\">根據研究各變數的結果，成人族群中性別、體重、人種或年齡對bosentan的藥動學並不預期會造成任何相關的影響。</p><p style=\"text-align:justify;\"><strong><u>兒童</u></strong></p><p style=\"text-align:justify;\">曾於4項兒童病人的臨床試驗中探討藥動學 (BREATHE-3、FUTURE-1、FUTURE-3以及FUTURE-4，請參閱 第11節)。對於2歲以下兒童的數據有限，因此藥動學在此年齡分組中仍無法詳盡描述。</p><ul><li style=\"text-align:justify;\">試驗AC-052-356 [BREATHE-3]評估bosentan膜衣錠劑型在單劑和多劑口服劑量下的藥動學，對象為19位年齡3至15歲、患有肺動脈高血壓的兒童，依據體重給予2 mg/kg體重每天兩次的劑量。在此試驗中，bosentan的暴露量隨時間降低，此情況與已知的bosentan自體誘導特性相符。接受每天兩次31.25mg、62.5mg或125 mg劑量治療之兒童病人，其bosentan的平均AUC (CV %)&nbsp;分別為3,496 (49%)、5,428 (79%)和&nbsp; &nbsp; 6,124 (27%) ng•h/mL，數值低於接受125 mg&nbsp;每天兩次劑量之成人肺動脈高血壓病人中觀察到的數值8,149 (47%) ng•h/mL。穩定狀態下，體重為10－20 kg、20－40 kg和&gt; 40 kg的兒童病人，其全身暴露量分別為成人全身暴露量的43%、67%和75%。</li><li style=\"text-align:justify;\">在試驗AC-052-365 [FUTURE-1]中，給予36位年齡2至11歲的肺動脈高血壓兒童 bosentan可溶錠。在2 mg/kg體重和4 mg/kg體重的口服劑量下，穩定狀態的bosentan血漿濃度與AUC都相似 (2 mg/kg體重每天兩次以及4 mg/kg體重每天兩次的AUC<sub>τ</sub>分別為3,577 ng•h/mL和3,371 ng•h/mL)，並未觀察到劑量比例性。這些兒童病人的bosentan平均暴露量約為成人病人維持劑量125 mg&nbsp;每天兩次之暴露量的一半，但和成人暴露量的重疊範圍很大。</li><li style=\"text-align:justify;\">在試驗AC-052-373 [FUTURE-3]中，採用可溶錠，接受2 mg/kg體重每天兩次bosentan的病人，其暴露量和FUTURE-1試驗中病人的暴露量相似。在整體族群中(n = 31)，&nbsp; &nbsp; &nbsp; 2 mg/kg體重每天兩次的劑量造成的每日暴露量為8,535 ng•h/mL；而AUC<sub>τ</sub>為&nbsp; &nbsp; &nbsp; 4,268 ng•h/mL (CV：61%)。在年齡3個月大至2歲的病人中，每日暴露量為&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 7,879 ng•h/mL；而AUC<sub>τ</sub>為3,939 ng•h/mL (CV：72%)。在年齡3個月大至1歲的病人中(n = 2)，AUC<sub>τ</sub>為5,914 ng•h/mL (CV：85%)，而在年齡1至2歲的病人中&nbsp; &nbsp; &nbsp; &nbsp;(n = 7)，AUC<sub>τ</sub>為3,507 ng•h/mL (CV：70%)。在年齡超過2歲的病人中(n = 22)，每日暴露量為8,820 ng•h/mL，而AUC<sub>τ</sub>為4,410 ng•h/mL (CV：58%)。Bosentan 2 mg/kg體重每天三次的給藥方式，並未增加暴露量；每日暴露量為7,275 ng•h/mL (CV：83%，&nbsp; n = 27)。</li></ul><p>根據BREATHE-3、FUTURE-1和FUTURE-3試驗的結果，bosentan在兒童病人中的暴露量相較於成人病人，似乎在較低劑量下即達到高原狀態；同時，給予高於2 mg/kg體重每天兩次的劑量(4 mg/kg體重每天兩次或2 mg/kg體重每天三次)並不會在兒童病人中造成更高的bosentan暴露量。</p><ul><li style=\"text-align:justify;\">在針對新生兒所進行的AC-052-391 [FUTURE-4]試驗中，bosentan血漿濃度在第一次用藥期間緩慢而持續地增加，達到較低的暴露量(全血AUC<sub>0-12</sub>：164 ng•h/mL，n = 11)。在穩定狀態下，AUC<sub>τ</sub>為6,165 ng•h/mL (CV：133%，n = 7)，此結果類似在接受&nbsp; &nbsp; &nbsp; &nbsp; 125 mg&nbsp;每天兩次的成人病人所觀察到的暴露量，且有考量血液/血漿分布比率0.6。</li><li style=\"text-align:justify;\">這些結果對於肝毒性的後續影響仍屬未知。性別和併用epoprostenol靜脈注射的情形，對於bosentan的藥動學沒有顯著的影響。</li></ul><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><strong><u>肝功能不全</u></strong></p><p style=\"text-align:justify;\">在輕度肝功能不全的病人(Child-Pugh分級A級)，未觀察到藥動學變化。在輕度肝功能不全的病人中，bosentan穩定狀態下的AUC較健康志願者高9%，而活性代謝物Ro 48-5033的AUC則高出33%。</p><p style=\"text-align:justify;\">一項試驗納入5位患有肝門靜脈高壓續發肺高壓、Child-Pugh分級 B級的肝功能不全病人，另納入3位有其他原因所致肺動脈高血壓、但肝功能正常的病人，探討中度肝功能不全(Child-Pugh分級B級)對於bosentan藥動學以及其主要代謝物Ro 48-5033的影響。在Child-Pugh分級B級的肝功能不全病人中，在穩定狀態下bosentan的平均(95% CI) AUC為&nbsp; &nbsp; &nbsp; 360 (212 - 613) ng•h/mL，即高出肝功能正常病人4.7倍。而活性代謝物Ro 48-5033的平均(95% CI) AUC為106 (58.4 - 192) ng•h/mL，即高出肝功能正常病人12.4倍(bosentan：平均[95% CI] AUC：76.1 [9.07 - 638] ng•h/mL；Ro 48-5033：平均[95% CI] &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AUC：8.57 [1.28 - 57.2] ng•h/ml)。雖然所納入的病人人數有限且變異極大，但這些數據指出，在中度肝功能不全(Child-Pugh分級B級)病人中，bosentan以及其主要代謝物&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ro 48-5033的暴露量顯著增加。</p><p style=\"text-align:justify;\">目前尚未研究在Child-Pugh分級C級的肝功能不全病人中的bosentan藥動學。TRACLEER禁用於中至重度肝功能不全的病人(即Child-Pugh分級B或C級) (請參閱第4節)。</p><p style=\"text-align:justify;\"><strong><u>腎功能不全</u></strong></p><p style=\"text-align:justify;\">在重度腎功能不全(肌酸酐廓清率為15 - 30 mL/min)的病人中，bosentan的血漿濃度會降低約10%。在這些病人中的bosentan代謝物血漿濃度會增加至腎功能正常受試者的2倍左右。腎功能不全病人無需進行劑量調整。目前尚無針對接受透析治療病人的臨床使用經驗。根據其物理化學性質和高度蛋白質結合力，並不預期透析對於從循環系統移除bosentan&nbsp;可達任何顯著的程度 (請參閱第3.3節)。</p>",
+          "search_text": "11\n藥物動力學特性\nBosentan的藥動學資料主要來自健康受試者。有限的病人資料顯示，肺動脈高血壓成人病人對bosentan的暴露程度較健康成人受試者約高2倍。 在健康受試者中，bosentan表現出劑量及時間依賴性的藥動學。廓清率及分佈體積隨靜脈注射劑量及時間的增加而降低。口服投藥後，在500 mg的範圍內，全身暴露程度均與劑量呈比例。口服劑量較高時，Cmax和AUC的增加低於劑量增加的比例。 吸收 在健康受試者中，bosentan的絕對生體可用率(bioavailability)約為50%，且不受食物影響。3－5小時內可達到最大的血漿濃度。 分佈 Bosentan與血漿蛋白的結合度高(> 98%)，主要與白蛋白結合。Bosentan不會滲透進入紅血球中。 在給予250 mg的靜脈注射劑量後，測得約18公升的分布體積(Vss)。 生物轉化和排除 在給予單劑250 mg的靜脈注射劑量後，廓清率為8.2 L/h。最終清除半衰期(t1/2)為5.4小時。 多重給藥時，bosentan的血漿濃度逐漸降低到投予單劑藥物後的50%至65%。可能是代謝性肝臟酵素的自體誘導作用造成此降低情形。在3至5天內即會達到穩定狀態。 Bosentan在肝臟由細胞色素P450的同功酶(CYP2C9與CYP3A4)代謝後，經由膽道排泄作用排除。在尿液中回收少於3%的口服投予劑量。 Bosentan會形成三種代謝物，而只有其中一種具有藥理活性。此代謝物主要經由膽汁以原型排泄。在成人病人中，相較於健康的受試者，對於活性代謝物的暴露量較高。在確診有膽汁鬱積的病人中，此活性代謝物的暴露程度可能會變高。 Bosentan為CYP2C9與CYP3A4 (可能還包括CYP2C19以及P-醣蛋白)的誘導劑。在體外肝細胞培養中，bosentan會抑制膽鹽輸出幫浦的作用。 體外數據證實，bosentan對於所測試的CYP同功酶(CYP1A2、2A6、2B6、2C8、2C9、2D6、2E1、3A4)無相關的抑制作用。因此，並不預期bosentan會使由這些同功酶代謝之藥物產品的血漿濃度升高。 特殊族群的藥動學 根據研究各變數的結果，成人族群中性別、體重、人種或年齡對bosentan的藥動學並不預期會造成任何相關的影響。 兒童 曾於4項兒童病人的臨床試驗中探討藥動學 (BREATHE-3、FUTURE-1、FUTURE-3以及FUTURE-4，請參閱 第11節)。對於2歲以下兒童的數據有限，因此藥動學在此年齡分組中仍無法詳盡描述。 試驗AC-052-356 [BREATHE-3]評估bosentan膜衣錠劑型在單劑和多劑口服劑量下的藥動學，對象為19位年齡3至15歲、患有肺動脈高血壓的兒童，依據體重給予2 mg/kg體重每天兩次的劑量。在此試驗中，bosentan的暴露量隨時間降低，此情況與已知的bosentan自體誘導特性相符。接受每天兩次31.25mg、62.5mg或125 mg劑量治療之兒童病人，其bosentan的平均AUC (CV %) 分別為3,496 (49%)、5,428 (79%)和 6,124 (27%) ng•h/mL，數值低於接受125 mg 每天兩次劑量之成人肺動脈高血壓病人中觀察到的數值8,149 (47%) ng•h/mL。穩定狀態下，體重為10－20 kg、20－40 kg和> 40 kg的兒童病人，其全身暴露量分別為成人全身暴露量的43%、67%和75%。 在試驗AC-052-365 [FUTURE-1]中，給予36位年齡2至11歲的肺動脈高血壓兒童 bosentan可溶錠。在2 mg/kg體重和4 mg/kg體重的口服劑量下，穩定狀態的bosentan血漿濃度與AUC都相似 (2 mg/kg體重每天兩次以及4 mg/kg體重每天兩次的AUCτ分別為3,577 ng•h/mL和3,371 ng•h/mL)，並未觀察到劑量比例性。這些兒童病人的bosentan平均暴露量約為成人病人維持劑量125 mg 每天兩次之暴露量的一半，但和成人暴露量的重疊範圍很大。 在試驗AC-052-373 [FUTURE-3]中，採用可溶錠，接受2 mg/kg體重每天兩次bosentan的病人，其暴露量和FUTURE-1試驗中病人的暴露量相似。在整體族群中(n = 31)， 2 mg/kg體重每天兩次的劑量造成的每日暴露量為8,535 ng•h/mL；而AUCτ為 4,268 ng•h/mL (CV：61%)。在年齡3個月大至2歲的病人中，每日暴露量為 7,879 ng•h/mL；而AUCτ為3,939 ng•h/mL (CV：72%)。在年齡3個月大至1歲的病人中(n = 2)，AUCτ為5,914 ng•h/mL (CV：85%)，而在年齡1至2歲的病人中 (n = 7)，AUCτ為3,507 ng•h/mL (CV：70%)。在年齡超過2歲的病人中(n = 22)，每日暴露量為8,820 ng•h/mL，而AUCτ為4,410 ng•h/mL (CV：58%)。Bosentan 2 mg/kg體重每天三次的給藥方式，並未增加暴露量；每日暴露量為7,275 ng•h/mL (CV：83%， n = 27)。 根據BREATHE-3、FUTURE-1和FUTURE-3試驗的結果，bosentan在兒童病人中的暴露量相較於成人病人，似乎在較低劑量下即達到高原狀態；同時，給予高於2 mg/kg體重每天兩次的劑量(4 mg/kg體重每天兩次或2 mg/kg體重每天三次)並不會在兒童病人中造成更高的bosentan暴露量。 在針對新生兒所進行的AC-052-391 [FUTURE-4]試驗中，bosentan血漿濃度在第一次用藥期間緩慢而持續地增加，達到較低的暴露量(全血AUC0-12：164 ng•h/mL，n = 11)。在穩定狀態下，AUCτ為6,165 ng•h/mL (CV：133%，n = 7)，此結果類似在接受 125 mg 每天兩次的成人病人所觀察到的暴露量，且有考量血液/血漿分布比率0.6。 這些結果對於肝毒性的後續影響仍屬未知。性別和併用epoprostenol靜脈注射的情形，對於bosentan的藥動學沒有顯著的影響。 肝功能不全 在輕度肝功能不全的病人(Child-Pugh分級A級)，未觀察到藥動學變化。在輕度肝功能不全的病人中，bosentan穩定狀態下的AUC較健康志願者高9%，而活性代謝物Ro 48-5033的AUC則高出33%。 一項試驗納入5位患有肝門靜脈高壓續發肺高壓、Child-Pugh分級 B級的肝功能不全病人，另納入3位有其他原因所致肺動脈高血壓、但肝功能正常的病人，探討中度肝功能不全(Child-Pugh分級B級)對於bosentan藥動學以及其主要代謝物Ro 48-5033的影響。在Child-Pugh分級B級的肝功能不全病人中，在穩定狀態下bosentan的平均(95% CI) AUC為 360 (212 - 613) ng•h/mL，即高出肝功能正常病人4.7倍。而活性代謝物Ro 48-5033的平均(95% CI) AUC為106 (58.4 - 192) ng•h/mL，即高出肝功能正常病人12.4倍(bosentan：平均[95% CI] AUC：76.1 [9.07 - 638] ng•h/mL；Ro 48-5033：平均[95% CI] AUC：8.57 [1.28 - 57.2] ng•h/ml)。雖然所納入的病人人數有限且變異極大，但這些數據指出，在中度肝功能不全(Child-Pugh分級B級)病人中，bosentan以及其主要代謝物 Ro 48-5033的暴露量顯著增加。 目前尚未研究在Child-Pugh分級C級的肝功能不全病人中的bosentan藥動學。TRACLEER禁用於中至重度肝功能不全的病人(即Child-Pugh分級B或C級) (請參閱第4節)。 腎功能不全 在重度腎功能不全(肌酸酐廓清率為15 - 30 mL/min)的病人中，bosentan的血漿濃度會降低約10%。在這些病人中的bosentan代謝物血漿濃度會增加至腎功能正常受試者的2倍左右。腎功能不全病人無需進行劑量調整。目前尚無針對接受透析治療病人的臨床使用經驗。根據其物理化學性質和高度蛋白質結合力，並不預期透析對於從循環系統移除bosentan 可達任何顯著的程度 (請參閱第3.3節)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "請參閱第10.2節。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>請參閱第10.2節。</strong></p>",
+          "search_text": "12\n臨床試驗資料\n請參閱第10.2節。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "4 ~ 1000 錠瓶裝；每瓶含60錠。 白色高密度PE瓶包裝及白色PP安全蓋。",
+          "content_html": "<p>4 ~ 1000&nbsp;錠瓶裝；每瓶含60錠。</p><p>白色高密度PE瓶包裝及白色PP安全蓋。</p>",
+          "search_text": "13.1\n包裝\n4 ~ 1000 錠瓶裝；每瓶含60錠。 白色高密度PE瓶包裝及白色PP安全蓋。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "5 年。白色高密度PE瓶在首次打開後30天內使用完畢。",
+          "content_html": "<p style=\"text-align:justify;\">5&nbsp;年。白色高密度PE瓶在首次打開後30天內使用完畢。</p>",
+          "search_text": "13.2\n效期\n5 年。白色高密度PE瓶在首次打開後30天內使用完畢。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "儲存溫度不得超過 30°C。 白色高密度PE瓶：該藥品不需要任何特殊的儲存條件。",
+          "content_html": "<p>儲存溫度不得超過 30°C。</p><p>白色高密度PE瓶：該藥品不需要任何特殊的儲存條件。</p>",
+          "search_text": "13.3\n儲存條件\n儲存溫度不得超過 30°C。 白色高密度PE瓶：該藥品不需要任何特殊的儲存條件。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "有關該藥品首次開瓶後的儲存條件，請參閱第13.2及13.3節。",
+          "content_html": "<p>有關該藥品首次開瓶後的儲存條件，請參閱第13.2及13.3節。</p>",
+          "search_text": "13.4\n儲存注意事項\n有關該藥品首次開瓶後的儲存條件，請參閱第13.2及13.3節。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "用藥指南 Tracleer (tra-KLEER) (bosentan)錠劑 在您開始服用藥物前及每次領藥時，請閱讀Tracleer的「用藥指南」。可能會有新的資訊。「用藥指南」無法取代您與醫師討論您的醫療情況或您的治療。 關於Tracleer，我應該要知道的最重要資訊為何？ Tracleer可能導致嚴重的副作用，包括： 肝損傷。 肝損傷在一開始可能不會造成症狀。只有血液檢查才能瞭解您是否有早期的肝損傷。在您開始服用Tracleer前以及之後每個月，您將必須接受血液檢測，以檢測您的肝功能。您的醫師將會安排這些檢查。常規血液檢查很重要，因為它們將可幫助您的醫師在您受到永久性傷害前調整或停止您的治療。 若您曾發生肝臟問題(包括使用其他藥物時發生的肝臟問題)，請告訴您的醫師。若您在服用Tracleer期間出現下列任何肝臟問題的症狀，請立即聯絡您的醫師： 噁心 嘔吐 發燒 不尋常的疲累 胃部(腹部)疼痛 皮膚或您的眼白變黃(黃疸) 嚴重先天缺陷。 在懷孕期間服用Tracleer可能導致嚴重的先天缺陷。在您開始服用Tracleer時或在Tracleer治療期間，您不應懷孕。Tracleer造成的嚴重先天缺陷可能發生於懷孕早期。具有生育能力的女性在開始Tracleer治療前的懷孕檢測結果應為陰性。 請將您的月經週期告訴您的醫師。您的醫師會決定何時進行懷孕檢測並依照您的月經週期進行懷孕檢測。 有生育能力的女性是指： 已進入青春期，即使月經週期尚未開始，且 有子宮，且 尚未停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢。 無生育能力的女性是指： 尚未進入青春期，或 沒有子宮，或 已停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢，或 因其他醫療原因已無生育能力且此不孕為永久性且不可逆。 有生育能力的女性應在開始Tracleer治療前、治療期間及停藥後一個月內(因藥物有可能仍存留體內)採用有效的避孕方式。 請和您的醫師或婦科醫師(女性生殖專科醫師)討論，以了解您在Tracleer治療期間可採用哪些有效之避孕選項以避免懷孕。 若您決定變更您使用的避孕方式，請和您的醫師或婦科醫師討論，以確保另一種避孕方式是可靠的。 請勿進行無防護的性行為。若您發生無防護的性行為或您認為避孕可能無效，應立刻告訴您的醫師或藥師。您的醫師或藥師可能會要求您採取緊急避孕措施。 若您的月經延遲或您認為您可能懷孕時，請立刻告訴您的醫師。 若您為尚未進入青春期女孩的家長或照護者，您在孩子開始服用Tracleer之後，應定期確認您的孩子是否出現青春期的發育表徵。若您注意到孩子的乳房開始發育或出現任何陰毛，應立刻告訴您的醫師。您的醫師會確認您的孩子是否已經進入青春期。您的孩子有可能在初經來潮前就已進入青春期。\n請參閱「Tracleer有哪些可能的副作用？」以了解更多有關副作用的資訊。 Tracleer是什麼？ Tracleer是一種處方藥，用於治療某些肺動脈高血壓(PAH)分類的病人，PAH為肺部血管血壓過高的疾病。 Tracleer可改善您的運動能力，並可減緩您體能狀況與症狀的惡化情形。Tracleer可降低您肺部過高的血壓，使您的心臟泵血更有效率。 Tracleer僅可由醫師處方使用。 哪些人不應服用Tracleer？ 若您有以下情況，請勿服用Tracleer： 已懷孕、計畫懷孕，或在Tracleer治療期間懷孕。Tracleer可能導致嚴重的先天缺陷。所有女性均應閱讀過「關於Tracleer，我應該要知道的最重要資訊為何？」中的嚴重先天缺陷一節。 使用下列任一種藥物： 環孢素A (Cyclosporine A)：用於治療牛皮癬與類風濕性關節炎，以及預防對心臟、肝臟或腎臟移植物的排斥 Glyburide：用於治療糖尿病 您對於Tracleer的任何成份過敏。請參閱本用藥指南最後的Tracleer成份列表。若您在服用Tracleer後發生皮疹、蕁麻疹或嘴唇腫脹，即可能是過敏的徵兆。您應停用Tracleer並與您的醫師討論。 使用Tracleer前，有什麼我應該告訴醫師的？ Tracleer可能並不適合您。將您所有的病情告訴您的醫師，包括若您： 有肝臟問題。 已懷孕或計畫懷孕。請參閱”關於Tracleer，我應該要知道的最重要資訊為何？” 正在授乳或計畫要授乳。Tracleer會進入到您的乳汁中。目前尚未瞭解在乳汁中的Tracleer是否會危害您的嬰兒，您與您的醫師應決定您是要服用Tracleer或授乳。 告訴您的醫師您所使用的所有藥物，包括處方藥與非處方藥、維生素及草藥補充劑。Tracleer與其他藥物可能會相互影響彼此的作用而引起副作用。特別是若您使用下列藥物，必須告訴您的醫師： 以荷爾蒙為主的避孕方法，例如避孕藥、針劑、貼片與植入型避孕劑。這些避孕方法在與Tracleer同時使用時效果可能會變差。 Simvastatin或其他「statin類藥物」：用於降低膽固醇 Rifampin：用於治療結核病 Ketoconazole、fluconazole、itraconazole或voriconazole：用於治療黴菌感染 Warfarin sodium：用於預防血栓 Ritonavir：用於治療HIV 藥物可能會有不只一種商品名。若您不確定您的藥物是否為上列藥物之一，請詢問您的醫師。 了解您所使用的藥物。列一張所使用的藥物清單，並在您取得新藥物時向您的醫師或藥師出示。 我應如何服用Tracleer？ 您的醫師將會為您詳細說明。 請完全依照處方服用Tracleer。 您的醫師將會告訴您應服用的Tracleer數量以及服藥時間。 在大部分的情況中，您將會在早晚各服用1錠。 您可在餐前或餐後服用Tracleer。 若您服用的Tracleer劑量超過開立劑量，請立即聯絡您的醫師。 若您漏服一劑Tracleer，請在您想起時立刻服用。但不要一次服用2劑藥物。如果已經快要到您服用下一劑藥物的時間，則跳過這劑漏服的藥物，在您固定的服藥時間服用下一劑藥物即可。 除非您的醫師指示，否則請勿停用Tracleer。突然停止治療可能會導致您的症狀惡化。若您需要停用Tracleer，請與您的醫師討論停止治療的正確方式。 Tracleer有哪些可能的副作用？ Tracleer可能導致嚴重的副作用，包括： 請參閱「關於Tracleer，我應該要知道的最重要資訊為何？」 體液滯留及腳踝和腿部腫脹。Tracleer會使體內保留過多水分，因而導致您的腳踝和腿部腫脹。若您的腳踝和腿部腫脹，不論是否伴隨體重增加，或若您的呼吸比平時更為困難，請告訴您的醫師。您的醫師將會找出此狀況之病因。 精蟲數降低。有些男性服用Tracleer可能會減少精蟲數。這有可能影響您伴侶的受孕機率。若您擔心受孕問題，請將此疑慮告訴您的醫師。 紅血球濃度低下(貧血)。您的醫師會在Tracleer治療期間進行血液檢查，以檢測您的紅血球數。 最常見的Tracleer副作用為： 呼吸道感染 頭痛 昏厥 (暈倒) 潮紅 低血壓 鼻道發炎 (鼻竇炎) 關節痛 心率不正常 若您有任何造成困擾或持續不退的副作用，請告訴您的醫師。這些並非Tracleer所有可能發生的副作用。若您想要更多資訊，請詢問您的醫師或藥師。 聯絡您的醫師，以獲得關於副作用的醫療指示。 我應該如何儲存Tracleer？ 儲存溫度不得超過 30°C。 將Tracleer與所有藥物置於兒童無法觸及之處。 關於Tracleer的一般性資訊 有時藥物開立目的，會與「用藥指南」中的說明不同。請勿將Tracleer用於處方指示以外的疾病。請勿將Tracleer給予他人，即使他們的症狀與您相同。他們可能會因而受傷。 「用藥指南」彙整關於Tracleer最重要的資訊。若您想要更多資訊，請聯絡您的醫師。 Tracleer的成份為何？ 活性成份：bosentan 無活性成份：玉米澱粉、預糊化澱粉、甘醇酸澱粉鈉、聚維酮、甘油山崳酸酯、硬脂酸鎂、羥丙基甲基纖維素、三醋酸甘油酯、滑石、二氧化鈦、氧化鐵黃、氧化鐵紅與乙基纖維素。",
+          "content_html": "<p style=\"text-align:center;\"><strong>用藥指南</strong></p><p style=\"text-align:center;\"><strong>Tracleer (tra-KLEER)</strong><br><strong>(bosentan)錠劑</strong></p><p style=\"text-align:justify;\">在您開始服用藥物前及每次領藥時，請閱讀Tracleer的「用藥指南」。可能會有新的資訊。「用藥指南」無法取代您與醫師討論您的醫療情況或您的治療。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"margin-left:0cm;\"><strong>關於Tracleer，我應該要知道的最重要資訊為何？</strong></p><p style=\"margin-left:0cm;\"><strong>Tracleer可能導致嚴重的副作用，包括：</strong></p><p style=\"margin-left:0cm;\"><strong>肝損傷。</strong></p><ul><li style=\"text-align:justify;\">肝損傷在一開始可能不會造成症狀。只有血液檢查才能瞭解您是否有早期的肝損傷。在您開始服用Tracleer前以及之後每個月，您將必須接受血液檢測，以檢測您的肝功能。您的醫師將會安排這些檢查。常規血液檢查很重要，因為它們將可幫助您的醫師在您受到永久性傷害前調整或停止您的治療。</li><li style=\"text-align:justify;\">若您曾發生肝臟問題(包括使用其他藥物時發生的肝臟問題)，請告訴您的醫師。若您在服用Tracleer期間出現下列任何肝臟問題的症狀，請立即聯絡您的醫師：<ul><li style=\"text-align:justify;\">噁心</li><li style=\"text-align:justify;\">嘔吐</li><li style=\"text-align:justify;\">發燒</li><li style=\"text-align:justify;\">不尋常的疲累</li><li style=\"text-align:justify;\">胃部(腹部)疼痛</li><li style=\"text-align:justify;\">皮膚或您的眼白變黃(黃疸)</li></ul></li></ul><p style=\"margin-left:0cm;\"><strong>嚴重先天缺陷。</strong></p><ul><li style=\"text-align:justify;\"><strong>在懷孕期間服用Tracleer可能導致嚴重的先天缺陷。在您開始服用Tracleer時或在Tracleer治療期間，您不應懷孕。Tracleer造成的嚴重先天缺陷可能發生於懷孕早期。具有生育能力的女性在開始Tracleer治療前的懷孕檢測結果應為陰性。</strong><ul><li style=\"text-align:justify;\">請將您的月經週期告訴您的醫師。您的醫師會決定何時進行懷孕檢測並依照您的月經週期進行懷孕檢測。</li><li style=\"text-align:justify;\"><strong>有</strong>生育能力的女性是指：<ul><li style=\"text-align:justify;\">已進入青春期，即使月經週期尚未開始，<strong>且</strong></li><li style=\"text-align:justify;\">有子宮，<strong>且</strong></li><li style=\"text-align:justify;\">尚未停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢。</li></ul></li><li style=\"text-align:justify;\"><strong>無</strong>生育能力的女性是指：<ul><li style=\"text-align:justify;\">尚未進入青春期，<strong>或</strong></li><li style=\"text-align:justify;\">沒有子宮，<strong>或</strong></li><li style=\"text-align:justify;\">已停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢，<strong>或</strong></li><li style=\"text-align:justify;\">因其他醫療原因已無生育能力且此不孕為永久性且不可逆。</li></ul></li></ul></li><li style=\"text-align:justify;\"><strong>有生育能力的女性應在開始Tracleer治療前、治療期間及停藥後一個月內(因藥物有可能仍存留體內)採用有效的避孕方式。</strong><ul><li style=\"text-align:justify;\">請和您的醫師或婦科醫師(女性生殖專科醫師)討論，以了解您在Tracleer治療期間可採用哪些有效之避孕選項以避免懷孕。</li><li style=\"text-align:justify;\">若您決定變更您使用的避孕方式，請和您的醫師或婦科醫師討論，以確保另一種避孕方式是可靠的。</li></ul></li></ul><ul style=\"list-style-type:circle;\"><li style=\"text-align:justify;\">請勿<strong>進行無防護的性行為。若您發生無防護的性行為或您認為避孕可能無效，應立刻告訴您的醫師或藥師。您的醫師或藥師可能會要求您採取緊急避孕措施。</strong></li><li style=\"text-align:justify;\"><strong>若您的月經延遲或您認為您可能懷孕時，請立刻告訴您的醫師。</strong></li></ul><p>若您為尚未進入青春期女孩的家長或照護者，您在孩子開始服用Tracleer之後，應定期確認您的孩子是否出現青春期的發育表徵。若您注意到孩子的乳房開始發育或出現任何陰毛，應立刻告訴您的醫師。您的醫師會確認您的孩子是否已經進入青春期。<strong>您的孩子有可能在初經來潮前就已進入青春期。</strong></p>\n<p style=\"text-align:justify;\">請參閱「Tracleer有哪些可能的副作用？」以了解更多有關副作用的資訊。</p><p><strong>Tracleer是什麼？</strong></p><p style=\"text-align:justify;\">Tracleer是一種處方藥，用於治療某些肺動脈高血壓(PAH)分類的病人，PAH為肺部血管血壓過高的疾病。</p><p style=\"text-align:justify;\">Tracleer可改善您的運動能力，並可減緩您體能狀況與症狀的惡化情形。Tracleer可降低您肺部過高的血壓，使您的心臟泵血更有效率。</p><p><strong>Tracleer僅可由醫師處方使用。&nbsp;</strong></p><p><strong>哪些人不應服用Tracleer？</strong></p><p style=\"text-align:justify;\"><strong>若您有以下情況，請勿服用Tracleer：</strong></p><ul><li style=\"text-align:justify;\"><strong>已懷孕、計畫懷孕，或在Tracleer治療期間懷孕。Tracleer可能導致嚴重的先天缺陷。</strong>所有女性均應閱讀過「關於Tracleer，我應該要知道的最重要資訊為何？」中的嚴重<strong>先天缺陷</strong>一節。</li><li style=\"text-align:justify;\">使用下列任一種藥物：<ul style=\"list-style-type:circle;\"><li style=\"text-align:justify;\">環孢素A (Cyclosporine A)：用於治療牛皮癬與類風濕性關節炎，以及預防對心臟、肝臟或腎臟移植物的排斥</li><li style=\"text-align:justify;\">Glyburide：用於治療糖尿病</li></ul></li><li style=\"text-align:justify;\">您對於Tracleer的任何成份過敏。請參閱本用藥指南最後的Tracleer成份列表。若您在服用Tracleer後發生皮疹、蕁麻疹或嘴唇腫脹，即可能是過敏的徵兆。您應停用Tracleer並與您的醫師討論。</li></ul><p><strong>使用Tracleer前，有什麼我應該告訴醫師的？</strong></p><p style=\"text-align:justify;\">Tracleer可能並不適合您。<strong>將您所有的病情告訴您的醫師，包括若您：</strong></p><ul><li style=\"text-align:justify;\"><strong>有肝臟問題。</strong></li><li style=\"text-align:justify;\"><strong>已懷孕或計畫懷孕。請參閱”關於Tracleer，我應該要知道的最重要資訊為何？”</strong></li><li style=\"text-align:justify;\"><strong>正在授乳或計畫要授乳。</strong>Tracleer會進入到您的乳汁中。目前尚未瞭解在乳汁中的Tracleer是否會危害您的嬰兒，您與您的醫師應決定您是要服用Tracleer或授乳。</li></ul><p style=\"text-align:justify;\"><strong>告訴您的醫師您所使用的所有藥物，</strong>包括處方藥與非處方藥、維生素及草藥補充劑。Tracleer與其他藥物可能會相互影響彼此的作用而引起副作用。特別是若您使用下列藥物，必須告訴您的醫師：</p><ul style=\"list-style-type:circle;\"><li style=\"text-align:justify;\">以荷爾蒙為主的避孕方法，例如避孕藥、針劑、貼片與植入型避孕劑。這些避孕方法在與Tracleer同時使用時效果可能會變差。</li><li style=\"text-align:justify;\">Simvastatin或其他「statin類藥物」：用於降低膽固醇</li><li style=\"text-align:justify;\">Rifampin：用於治療結核病</li><li style=\"text-align:justify;\">Ketoconazole、fluconazole、itraconazole或voriconazole：用於治療黴菌感染</li><li style=\"text-align:justify;\">Warfarin sodium：用於預防血栓</li><li style=\"text-align:justify;\">Ritonavir：用於治療HIV</li></ul><p style=\"text-align:justify;\">藥物可能會有不只一種商品名。若您不確定您的藥物是否為上列藥物之一，請詢問您的醫師。</p><p style=\"text-align:justify;\">了解您所使用的藥物。列一張所使用的藥物清單，並在您取得新藥物時向您的醫師或藥師出示。</p><p><strong>我應如何服用Tracleer？</strong></p><p style=\"text-align:justify;\">您的醫師將會為您詳細說明。</p><ul><li style=\"text-align:justify;\">請完全依照處方服用Tracleer。</li><li style=\"text-align:justify;\">您的醫師將會告訴您應服用的Tracleer數量以及服藥時間。</li><li style=\"text-align:justify;\">在大部分的情況中，您將會在早晚各服用1錠。</li><li style=\"text-align:justify;\">您可在餐前或餐後服用Tracleer。</li><li style=\"text-align:justify;\">若您服用的Tracleer劑量超過開立劑量，請立即聯絡您的醫師。</li><li style=\"text-align:justify;\">若您漏服一劑Tracleer，請在您想起時立刻服用。但不要一次服用2劑藥物。如果已經快要到您服用下一劑藥物的時間，則跳過這劑漏服的藥物，在您固定的服藥時間服用下一劑藥物即可。</li><li style=\"text-align:justify;\">除非您的醫師指示，否則請勿停用Tracleer。突然停止治療可能會導致您的症狀惡化。若您需要停用Tracleer，請與您的醫師討論停止治療的正確方式。</li></ul><p><strong>Tracleer有哪些可能的副作用？</strong></p><p style=\"text-align:justify;\">Tracleer可能導致嚴重的副作用，包括：</p><ul><li style=\"text-align:justify;\"><strong>請參閱「關於Tracleer，我應該要知道的最重要資訊為何？」</strong></li><li style=\"text-align:justify;\"><strong>體液滯留及腳踝和腿部腫脹。Tracleer會使體內保留過多水分，因而導致您的腳踝和腿部腫脹。若您的腳踝和腿部腫脹，不論是否伴隨體重增加，或若您的呼吸比平時更為困難，請告訴您的醫師。您的醫師將會找出此狀況之病因。</strong></li><li style=\"text-align:justify;\"><strong>精蟲數降低。有些男性服用Tracleer可能會減少精蟲數。這有可能影響您伴侶的受孕機率。若您擔心受孕問題，請將此疑慮告訴您的醫師。</strong></li><li style=\"text-align:justify;\"><strong>紅血球濃度低下(貧血)。您的醫師會在Tracleer治療期間進行血液檢查，以檢測您的紅血球數。</strong></li></ul><p style=\"text-align:justify;\">最常見的Tracleer副作用為：</p><ul><li style=\"text-align:justify;\">呼吸道感染</li><li style=\"text-align:justify;\">頭痛</li><li style=\"text-align:justify;\">昏厥 (暈倒)</li><li style=\"text-align:justify;\">潮紅</li><li style=\"text-align:justify;\">低血壓</li><li style=\"text-align:justify;\">鼻道發炎 (鼻竇炎)</li><li style=\"text-align:justify;\">關節痛</li><li style=\"text-align:justify;\">心率不正常</li></ul><p style=\"text-align:justify;\">若您有任何造成困擾或持續不退的副作用，請告訴您的醫師。這些並非Tracleer所有可能發生的副作用。若您想要更多資訊，請詢問您的醫師或藥師。</p><p style=\"text-align:justify;\">聯絡您的醫師，以獲得關於副作用的醫療指示。</p><p><strong>我應該如何儲存Tracleer？</strong></p><ul><li style=\"text-align:justify;\">儲存溫度不得超過 30°C。</li></ul><p style=\"text-align:justify;\"><strong>將Tracleer與所有藥物置於兒童無法觸及之處。</strong></p><p><strong>關於Tracleer的一般性資訊</strong></p><p style=\"text-align:justify;\">有時藥物開立目的，會與「用藥指南」中的說明不同。請勿將Tracleer用於處方指示以外的疾病。請勿將Tracleer給予他人，即使他們的症狀與您相同。他們可能會因而受傷。</p><p style=\"text-align:justify;\">「用藥指南」彙整關於Tracleer最重要的資訊。若您想要更多資訊，請聯絡您的醫師。</p><p><strong>Tracleer的成份為何？</strong></p><p style=\"text-align:justify;\">活性成份：bosentan</p><p style=\"text-align:justify;\">無活性成份：玉米澱粉、預糊化澱粉、甘醇酸澱粉鈉、聚維酮、甘油山崳酸酯、硬脂酸鎂、羥丙基甲基纖維素、三醋酸甘油酯、滑石、二氧化鈦、氧化鐵黃、氧化鐵紅與乙基纖維素。</p>",
+          "search_text": "14\n病人使用須知\n用藥指南 Tracleer (tra-KLEER) (bosentan)錠劑 在您開始服用藥物前及每次領藥時，請閱讀Tracleer的「用藥指南」。可能會有新的資訊。「用藥指南」無法取代您與醫師討論您的醫療情況或您的治療。 關於Tracleer，我應該要知道的最重要資訊為何？ Tracleer可能導致嚴重的副作用，包括： 肝損傷。 肝損傷在一開始可能不會造成症狀。只有血液檢查才能瞭解您是否有早期的肝損傷。在您開始服用Tracleer前以及之後每個月，您將必須接受血液檢測，以檢測您的肝功能。您的醫師將會安排這些檢查。常規血液檢查很重要，因為它們將可幫助您的醫師在您受到永久性傷害前調整或停止您的治療。 若您曾發生肝臟問題(包括使用其他藥物時發生的肝臟問題)，請告訴您的醫師。若您在服用Tracleer期間出現下列任何肝臟問題的症狀，請立即聯絡您的醫師： 噁心 嘔吐 發燒 不尋常的疲累 胃部(腹部)疼痛 皮膚或您的眼白變黃(黃疸) 嚴重先天缺陷。 在懷孕期間服用Tracleer可能導致嚴重的先天缺陷。在您開始服用Tracleer時或在Tracleer治療期間，您不應懷孕。Tracleer造成的嚴重先天缺陷可能發生於懷孕早期。具有生育能力的女性在開始Tracleer治療前的懷孕檢測結果應為陰性。 請將您的月經週期告訴您的醫師。您的醫師會決定何時進行懷孕檢測並依照您的月經週期進行懷孕檢測。 有生育能力的女性是指： 已進入青春期，即使月經週期尚未開始，且 有子宮，且 尚未停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢。 無生育能力的女性是指： 尚未進入青春期，或 沒有子宮，或 已停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢，或 因其他醫療原因已無生育能力且此不孕為永久性且不可逆。 有生育能力的女性應在開始Tracleer治療前、治療期間及停藥後一個月內(因藥物有可能仍存留體內)採用有效的避孕方式。 請和您的醫師或婦科醫師(女性生殖專科醫師)討論，以了解您在Tracleer治療期間可採用哪些有效之避孕選項以避免懷孕。 若您決定變更您使用的避孕方式，請和您的醫師或婦科醫師討論，以確保另一種避孕方式是可靠的。 請勿進行無防護的性行為。若您發生無防護的性行為或您認為避孕可能無效，應立刻告訴您的醫師或藥師。您的醫師或藥師可能會要求您採取緊急避孕措施。 若您的月經延遲或您認為您可能懷孕時，請立刻告訴您的醫師。 若您為尚未進入青春期女孩的家長或照護者，您在孩子開始服用Tracleer之後，應定期確認您的孩子是否出現青春期的發育表徵。若您注意到孩子的乳房開始發育或出現任何陰毛，應立刻告訴您的醫師。您的醫師會確認您的孩子是否已經進入青春期。您的孩子有可能在初經來潮前就已進入青春期。\n請參閱「Tracleer有哪些可能的副作用？」以了解更多有關副作用的資訊。 Tracleer是什麼？ Tracleer是一種處方藥，用於治療某些肺動脈高血壓(PAH)分類的病人，PAH為肺部血管血壓過高的疾病。 Tracleer可改善您的運動能力，並可減緩您體能狀況與症狀的惡化情形。Tracleer可降低您肺部過高的血壓，使您的心臟泵血更有效率。 Tracleer僅可由醫師處方使用。 哪些人不應服用Tracleer？ 若您有以下情況，請勿服用Tracleer： 已懷孕、計畫懷孕，或在Tracleer治療期間懷孕。Tracleer可能導致嚴重的先天缺陷。所有女性均應閱讀過「關於Tracleer，我應該要知道的最重要資訊為何？」中的嚴重先天缺陷一節。 使用下列任一種藥物： 環孢素A (Cyclosporine A)：用於治療牛皮癬與類風濕性關節炎，以及預防對心臟、肝臟或腎臟移植物的排斥 Glyburide：用於治療糖尿病 您對於Tracleer的任何成份過敏。請參閱本用藥指南最後的Tracleer成份列表。若您在服用Tracleer後發生皮疹、蕁麻疹或嘴唇腫脹，即可能是過敏的徵兆。您應停用Tracleer並與您的醫師討論。 使用Tracleer前，有什麼我應該告訴醫師的？ Tracleer可能並不適合您。將您所有的病情告訴您的醫師，包括若您： 有肝臟問題。 已懷孕或計畫懷孕。請參閱”關於Tracleer，我應該要知道的最重要資訊為何？” 正在授乳或計畫要授乳。Tracleer會進入到您的乳汁中。目前尚未瞭解在乳汁中的Tracleer是否會危害您的嬰兒，您與您的醫師應決定您是要服用Tracleer或授乳。 告訴您的醫師您所使用的所有藥物，包括處方藥與非處方藥、維生素及草藥補充劑。Tracleer與其他藥物可能會相互影響彼此的作用而引起副作用。特別是若您使用下列藥物，必須告訴您的醫師： 以荷爾蒙為主的避孕方法，例如避孕藥、針劑、貼片與植入型避孕劑。這些避孕方法在與Tracleer同時使用時效果可能會變差。 Simvastatin或其他「statin類藥物」：用於降低膽固醇 Rifampin：用於治療結核病 Ketoconazole、fluconazole、itraconazole或voriconazole：用於治療黴菌感染 Warfarin sodium：用於預防血栓 Ritonavir：用於治療HIV 藥物可能會有不只一種商品名。若您不確定您的藥物是否為上列藥物之一，請詢問您的醫師。 了解您所使用的藥物。列一張所使用的藥物清單，並在您取得新藥物時向您的醫師或藥師出示。 我應如何服用Tracleer？ 您的醫師將會為您詳細說明。 請完全依照處方服用Tracleer。 您的醫師將會告訴您應服用的Tracleer數量以及服藥時間。 在大部分的情況中，您將會在早晚各服用1錠。 您可在餐前或餐後服用Tracleer。 若您服用的Tracleer劑量超過開立劑量，請立即聯絡您的醫師。 若您漏服一劑Tracleer，請在您想起時立刻服用。但不要一次服用2劑藥物。如果已經快要到您服用下一劑藥物的時間，則跳過這劑漏服的藥物，在您固定的服藥時間服用下一劑藥物即可。 除非您的醫師指示，否則請勿停用Tracleer。突然停止治療可能會導致您的症狀惡化。若您需要停用Tracleer，請與您的醫師討論停止治療的正確方式。 Tracleer有哪些可能的副作用？ Tracleer可能導致嚴重的副作用，包括： 請參閱「關於Tracleer，我應該要知道的最重要資訊為何？」 體液滯留及腳踝和腿部腫脹。Tracleer會使體內保留過多水分，因而導致您的腳踝和腿部腫脹。若您的腳踝和腿部腫脹，不論是否伴隨體重增加，或若您的呼吸比平時更為困難，請告訴您的醫師。您的醫師將會找出此狀況之病因。 精蟲數降低。有些男性服用Tracleer可能會減少精蟲數。這有可能影響您伴侶的受孕機率。若您擔心受孕問題，請將此疑慮告訴您的醫師。 紅血球濃度低下(貧血)。您的醫師會在Tracleer治療期間進行血液檢查，以檢測您的紅血球數。 最常見的Tracleer副作用為： 呼吸道感染 頭痛 昏厥 (暈倒) 潮紅 低血壓 鼻道發炎 (鼻竇炎) 關節痛 心率不正常 若您有任何造成困擾或持續不退的副作用，請告訴您的醫師。這些並非Tracleer所有可能發生的副作用。若您想要更多資訊，請詢問您的醫師或藥師。 聯絡您的醫師，以獲得關於副作用的醫療指示。 我應該如何儲存Tracleer？ 儲存溫度不得超過 30°C。 將Tracleer與所有藥物置於兒童無法觸及之處。 關於Tracleer的一般性資訊 有時藥物開立目的，會與「用藥指南」中的說明不同。請勿將Tracleer用於處方指示以外的疾病。請勿將Tracleer給予他人，即使他們的症狀與您相同。他們可能會因而受傷。 「用藥指南」彙整關於Tracleer最重要的資訊。若您想要更多資訊，請聯絡您的醫師。 Tracleer的成份為何？ 活性成份：bosentan 無活性成份：玉米澱粉、預糊化澱粉、甘醇酸澱粉鈉、聚維酮、甘油山崳酸酯、硬脂酸鎂、羥丙基甲基纖維素、三醋酸甘油酯、滑石、二氧化鈦、氧化鐵黃、氧化鐵紅與乙基纖維素。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "版本: EUPI Sep2025 + USPI Nov2025_v2601 Tracleer-PI-TWo_v2601",
+          "content_html": "<p>版本: EUPI Sep2025 + USPI Nov2025_v2601</p><p style=\"text-align:right;\">Tracleer-PI-TWo_v2601</p>",
+          "search_text": "15\n其他\n版本: EUPI Sep2025 + USPI Nov2025_v2601 Tracleer-PI-TWo_v2601",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "服用TRACLEER®可能對胎兒造成傷害，因此懷孕時禁止使用，請參閱第4節。也有少數肝病變及肝功能衰竭之案例，請參閱第5.4節。\n1\n性狀\n1.1\n有效成分及含量\n每錠含62.5mg bosentan (as monohydrate)。 Bosentan monohydrate化學名為benzenesulphonamide, 4-(1,1-dimethylethyl)-N-[6-(2hydroxyethoxy)-5-(2-methoxyphenoxy)-[2,2’]- bipyrimidin-4-yl]- monohydrate。 分子結構如示：\n1.2\n賦形劑\n已知作用之賦形劑：本藥品每錠含少於1 mmol的鈉 (23 mg)，實際上即為不含鈉。 完整賦形劑清單: 賦形劑：maize starch, pregelatinised starch, sodium starch glycolate (Type A), povidone, glycerol dibehenate, magnesium stearate。 膜衣成份：hypromellose, glycerol triacetate, talc, titanium dioxide (E171), iron oxide yellow (E172), iron oxide red (E172), ethylcellulose。\n1.3\n劑型\n膜衣錠。\n1.4\n藥品外觀\n62.5 mg：圓型、雙凸橘白色錠劑，凹刻標示62.5於一側。\n2\n適應症\n原發性肺動脈高血壓。\n3\n用法及用量\n3.1\n用法用量\n給藥方式 錠劑須於早晚兩次口服各一錠，飯前或飯後皆可。膜衣錠須配水吞服。病人應注意不要吞服白色高密度PE瓶中的乾燥劑。 劑量 應在對肺動脈高血壓有治療經驗的醫師監督下才可開始服用TRACLEER。 成人 TRACLEER療法初始劑量應為62.5 mg每天兩次，給藥4週；調整至維持劑量125 mg每天兩次。停藥後應以相同的建議方式重新給藥(請參閱第5.4節) 在開始TRACLEER治療前以及之後治療期間的每一個月，必須監測血清肝臟轉胺酶(AST與ALT)濃度(請參閱第5.4節)。若觀察到轉胺酶濃度上升，必須以第5.4節肝臟功能一節之方式改變監測與治療。 兒童 兒童使用TRACLEER的經驗有限，依據現有資料(請參閱第10節)，1歲以上兒童建議劑量為：\n兒童藥動學資料顯示，1-15歲PAH兒童病人的bosentan血漿濃度一般比成人病人低，亦不會因TRACLEER劑量依體重調升至高於2mg/kg或因給藥次數從每日2次增為3次而上升(請參閱第11節)。增加劑量或給藥次數可能不會有額外的臨床效益。 根據這些藥物動力學結果， 1 歲及以上 PAH 兒童用藥時，建議的起始和維持劑量為早晚各2 mg/kg。 肺動脈高血壓臨床惡化時的處置方式 在給予 TRACLEER 至少8 週 (其中包含維持於標準劑量至少4週) 後，若仍發生臨床惡化 (6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。 對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至 250 mg 每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量劑量與肝臟毒性的相關性(請參閱第5.4及10節)。 體重過輕病人劑量之調整 用於低於40 公斤，但年齡超過12歲的病人，建議起始及維持劑量均為62.5 mg每天兩次。 停止治療 目前對於使用 TRACLEER 的肺動脈高血壓病人突然停藥之經驗有限，無證據顯示突然停藥會導致疾病急性反彈效應。然而，為避免潛在的反彈效應導致臨床惡化的可能性，應考慮逐漸減少藥物劑量(一半的劑量，為期3-7天)後再停藥。減少劑量期間建議增加監測頻率。 若決定停止使用 TRACLEER，必須在替代治療方式引入的同時逐漸減少劑量。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n肝功能不全 TRACLEER不可用於原先就有中度至重度肝功能不全的病人(Child-Pugh分級B級和C級) (請參閱第4.、5.4及11節)。 TRACLEER用於原先就有輕度肝功能異常的病人(Child-Pugh分級 A級)無需調整劑量(請參閱第11節)。 腎功能不全 腎功能受損者不需要調整劑量。接受血液透析治療之病人，亦無需調整劑量(請參閱第11節)。 老年人 65歲或以上老年人無需調整劑量。\n4\n禁忌\n對bosentan或任何列於第1.2節賦形劑過敏者； 中度或重度肝功能不全( Child-Pugh 分級 B級或 C級；請參閱第11節)； 肝臟轉胺酶濃度基礎值高於三倍正常值上限 (AST 及/或 ALT > 3x ULN；請參閱第5.4節); 併用 cyclosporine A (請參閱第7節)； 已懷孕婦女(請參閱第6.1節)； 具生育能力之婦女而未使用可靠之避孕方式(請參閱第6.3及7節)\n5\n警語及注意事項\n5.1\n警語/注意事項\nTRACLEER 的臨床療效尚未建立於重度肺動脈高血壓病人。當臨床症狀惡化時，必須考慮改接受重度病程的建議治療藥物(例如 epoprostenol)。 本品對於 WHO 功能分級第一級之肺動脈高血壓病人的效益-風險評估尚未確立。 本品只應給予收縮壓高於 85 mmHg之病人。 肺動脈高血壓臨床惡化時的處置方式 在給予 TRACLEER 至少8 週 (維持於標準劑量至少4週) 後，若仍發生臨床惡化(6分鐘步行距離測試相對於用藥前下降至少 10%)，必須考慮其他替代治療方式。然而，部份病人雖然在給藥治療8週後沒有臨床效果，卻可在後續4週至8週的持續治療後有良好的效果。 對於TRACLEER治療後期發生的臨床惡化(即經過數個月的治療後)，應重新評估治療方式。部份病人在接受TRACLEER 125 mg每天兩次的治療時沒有良好的效果，在增加劑量至 250 mg 每天兩次的治療時，可稍微改善運動能力。應謹慎的進行用藥效益-風險評估，並考量肝臟毒性與劑量相關(請參閱第5.4及10.3節)。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n尚未有探討TRACLEER對開車與操作機械能力影響的研究，但TRACLEER可能會造成低血壓併發頭暈，視力模糊及昏厥症狀，因此可能影響開車與操作機械能力。\n5.4\n實驗室檢測\n肝臟功能 肝臟轉胺酶(AST及/或ALT)濃度的上升和所給予的 bosentan 劑量相關。肝臟酵素之改變通常發生在療程初始之26週內，但也可能發生在治療後期(請參閱第8節)。肝臟轉胺酶濃度的上升，可能部份來自藥物對肝臟細胞本身膽鹽排出功能的競爭性抑制，但其他未經證實的機制也可能造成肝臟功能衰退。不排除bosentan 於肝細胞的累積導致細胞溶解(cytolysis)，可能引起肝臟的嚴重受損，或有其他免疫機制。已有潛伏期為數月到數年不等自體免疫性肝炎的罕見案例報告。併用其他膽鹽排出抑制劑時(例如 rifampicin, glibenclamide 及 cyclosporine A(請參閱第4及7節) 也可能增加肝臟受損的風險，但是這部份目前資料有限。\n血紅素值變化 以TRACLEER治療時，會引起與劑量相關之血紅素值下降(請參閱第8節)。在安慰劑對照試驗中，與本品相關的血紅素值降低現象並不會持續惡化，療程開始4-12週後血紅素值就會穩定。建議在治療開始之前就檢查血紅素值，並於治療期前四個月內每個月檢查，之後則每三個月檢查一次。若觀察到臨床相關之血紅素值下降情形，則必須安排進一步的評估及調查以找出發生的原因，並決定是否需要給予病人特定的處置。產品上市後期間，曾有發生貧血需要輸血之案例。(請參閱第8節)\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n動物研究顯示本品具生殖毒性(致畸胎性及胚胎毒性，請參閱第10.3節)。目前沒有TRACLEER使用於孕婦的可靠資料。對人類的潛在風險尚屬未知。懷孕時禁止使用TRACLEER (請參閱第4節)。\n6.2\n哺乳\n一案例報告的數據描述了母乳中存在低濃度的bosentan。Bosentan對母乳哺育之嬰兒的影響尚未有足夠的資訊，對母乳哺育之嬰兒無法排除其風險。服用TRACLEER期間不建議哺乳。\n6.3\n有生育能力的女性與男性\n具生育能力之婦女 由於使用 TRACLEER 可能造成賀爾蒙類避孕劑的失效，並考量懷孕將使肺動脈高血壓病症惡化，以及在動物試驗中觀察到的致畸胎性，故： 本品不可使用於具生育能力之婦女，除非已使用適當避孕方式且懷孕檢測結果呈陰性反應 使用本品治療期間，荷爾蒙避孕劑不可作為唯一之避孕方式。 服用TRACLEER期間，應每個月進行懷孕檢測，以及早發現懷孕。 詳細資訊請參閱 第7節。 使用於具生育能力之婦女 具生育能力之婦女在開始給予TRACLEER前必須確認沒有懷孕，給予適當關於可靠避孕方式的建議並進行適當且可靠有效的避孕方式。處方醫師及病人都應了解，由於潛在的藥物動力學交互作用，TRACLEER可能會造成賀爾蒙類避孕藥的失效(請參閱第7節)。所以，具生育能力之婦女不可只用賀爾蒙類避孕藥(包括口服劑、注射劑、穿皮劑或植入式)作為單一避孕方式，而必須外加或使用另外一類可靠避孕方式。若對於應採取之避孕方式有疑問，建議向婦科醫師諮詢。由於TRACLEER治療期間可能造成賀爾蒙避孕法的失敗，以及肺高壓病症會因為懷孕而嚴重惡化，建議接受TRACLEER治療期間應每月進行懷孕檢測，以能及早發現懷孕。 生育力 動物試驗中顯示本品對睪丸的影響(請參閱第10.3節)。在一項研究bosentan 對男性肺動脈高血壓病人睪丸影響的試驗中，受試者在接受6個月bosentan 治療後，24位受試者之中有6位(25%)的精子濃度下降至少50%。基於這些結果以及臨床前資料，無法排除bosentan對男性精子生成造成有害的影響。男童病人接受bosentan治療後，無法排除對於其生育力的長期影響。\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n肺靜脈阻塞性疾病 曾有肺靜脈阻塞性疾病的病人使用血管擴張劑(主要是prostacyclins)時發生肺水腫的案例報導。因此，當肺動脈高血壓病人服用TRACLEER出現肺水腫的症狀時，應考慮併發肺靜脈阻塞性疾病的可能性。在上市後的這段時間，有極少數有關服用TRACLEER而發生肺水腫病人被診斷疑似有肺靜脈阻塞性疾病的報導。 伴隨左心室衰竭的肺動脈高血壓病人 過往並無任何具體針對患有伴隨左心室衰竭之肺動脈高壓病人進行的研究。 然而，有一個具安慰劑-對照組試驗，共1611位患有嚴重慢性心衰竭(CHF)的病人(804位使用bosentan和807位使用安慰劑)，平均治療1.5年 (AC-052-301/302[試驗 ENABLE 1 及 ENABLE 2])。該試驗以bosentan治療的最初4-8週期間，因慢性心衰竭而住院的發生率增加，可能是體液滯留的結果。試驗中，體液滯留的徵兆是初期體重上升、血紅素濃度降低及下肢水腫的比例增加。試驗完成時，使用bosentan與安慰劑組的病人，因心衰竭而住院及死亡之整體比例並無差異。因此，建議監測病人是否出現體液滯留情形(例如：體重上升)，特別是同時患有嚴重心臟收縮功能失調之病人。若發生此現象，建議開始給予利尿劑治療，或是調升既有利尿劑劑量。有體液滯留跡象的病人，在TRACLEER療程開始前，應考慮給予利尿劑。 人類免疫不全病毒(HIV)感染病人之用藥 目前對於已接受反轉錄病毒藥物治療人類免疫不全病毒(HIV)感染的肺動脈高血壓病人使用 TRACLEER治療的臨床試驗經驗有限(請參閱第10節)。在一個bosentan 與 lopinavir+ritonavir的藥物交互作用試驗中，健康受試者的bosentan 血漿濃度上升，最高濃度在療程前四日(請參閱第7節)。TRACLEER 併用於接受ritonavir增效蛋白酶抑制劑(ritonavir-boosted protease inhibitors)治療的病人時，必須在用藥初期特別小心並密切地監測該病人對 TRACLEER 的耐受性，以注意低血壓或肝功能指數下降的發生。當 bosentan 與抗反轉錄病毒藥物併用時，無法排除肝臟毒性長期風險及血液不良事件的增加。基於 bosentan 對 CYP450 的誘導效果(請參閱第7節)，相關的潛在交互作用可能影響抗反轉錄病毒藥物的療效，故應謹慎監測這些病人的感染情形。 慢性阻塞性肺病(COPD)引起之肺動脈高血壓 一項針對慢性肺阻塞引起之肺動脈高血壓病人的探索性臨床試驗，納入11名因嚴重慢性肺阻塞(GOLD分級第III級)引起肺動脈高血壓病人，進行為期12週無對照組的藥物試驗，研究bosentan的安全性及耐受性；試驗結果觀察到分通氣量增加(minute ventilation)及氧氣飽和度(oxygen saturation)下降情形；最常發生之不良事件是\"呼吸困難\"，症狀可在停藥後緩解。\n7\n交互作用\n與其他藥品的合併使用 TRACLEER與cyclosporine A禁止併用(請參閱第4節)。 不建議TRACLEER與glibenclamide、fluconazole 及 rifampicin併用。 應避免使用TRACLEER時同時給予 CYP3A4 抑制劑和 CYP2C9 抑制劑。 與其他藥品間的交互作用，以及其他類型的交互作用 Bosentan 為細胞色素 P450 (CYP) 的同功酶CYP2C9 與 CYP3A4的誘導劑。體外數據也顯示其具有誘導 CYP2C19 的功能。因此，藉由這些同功酶代謝的藥物，當與 TRACLEER 併用時，其血漿濃度可能會降低。應考量由這些同功酶所代謝的藥物產品，療效可能會有變化。這些產品的劑量，在開始 TRACLEER®用藥、劑量調整或停用併用時，可能需要進行調整。 Bosentan 由 CYP2C9 與 CYP3A4 代謝。抑制這些同功酶可能使 bosentan 的血漿濃度升高(請參閱 ketoconazole節)。尚未研究 CYP2C9 抑制劑對於 bosentan 濃度的影響。併用時應謹慎。 Fluconazole以及其他CYP2C9與CYP3A4的共同抑制劑：併用fluconazole，主要是會抑制CYP2C9，但也會某種程度抑制CYP3A4時，可能導致bosentan的血漿濃度大幅增加。並不建議合併使用。基於同樣的理由，強效CYP3A4抑制劑(如ketoconazole、itraconazole或ritonavir)以及CYP2C9抑制劑(如voriconazole)不建議兩者同時與TRACLEER併用。 Cyclosporine A：TRACLEER和cyclosporine A (鈣調磷酸酶[calcineurin]抑制劑)為併用禁忌 (請參閱第4節)。併用時，bosentan的初始最低濃度相較於單獨使用bosentan時約高出30倍。在穩定狀態時，bosentan的血漿濃度相較於單獨使用bosentan時約高出3-4倍。此交互作用的機轉最有可能是因cyclosporine A抑制了肝細胞經由轉運蛋白攝入bosentan的功能。Cyclosporine A (為CYP3A4受質)的血液濃度會下降約50%。最有可能的原因是bosentan會誘導CYP3A4。 Tacrolimus、sirolimus：尚未研究過在人體中tacrolimus或sirolimus併用TRACLEER的情形，但tacrolimus或sirolimus併用TRACLEER可能會造成bosentan的血漿濃度增加，類似於併用cyclosporine A 時的情形。併用 TRACLEER 時可能會降低 tacrolimus及sirolimus的血漿濃度。因此，不建議TRACLEER與tacrolimus或sirolimus併用。有併用需要的病人，應接受密切監測，觀察是否有TRACLEER相關的不良事件，並觀察tacrolimus及sirolimus的血液濃度。 Glibenclamide：當併用bosentan 125 mg每天兩次，為期 5日， glibenclamide(為CYP3A4的受質)血漿濃度降低40%，降血糖作用也可能會顯著降低，而bosentan的血漿濃度亦降低29%。此外，在接受併用療法的病人身上，也觀察到肝臟轉胺酶血液濃度升高的發生率上升。Glibenclamide和bosentan都會抑制膽鹽輸出幫浦的作用，這可解釋肝臟轉胺酶濃度升高的原因。不應採用此併用方法(請參閱第4節)。目前尚無本品與其他磺醯尿素(sulfonylureas)相關的藥物交互作用資料。 Rifampicin：9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，9位健康受試者併用bosentan 125 mg每天兩次以及rifampicin (為CYP2C9和CYP3A4的強效誘導劑) 為期7日，bosentan的血漿濃度降低58%，有個別案例的降幅幾乎可達90%。因此， bosentan與rifampicin併用時，前者的效果預期會顯著降低。不建議rifampicin與TRACLEER併用。目前缺乏本品與其他CYP3A4誘導劑(例如carbamazepine、phenobarbital、phenytoin及聖約翰草) 併用的資料，但預期會導致bosentan的全身暴露程度降低，無法排除會造成臨床顯著的療效降低。 Lopinavir + ritonavir (與其他的ritonavir增效蛋白酶抑制劑)：健康受試者同時接受bosentan 125 mg每天兩次與lopinavir + ritonavir (400 + 100 mg)每天兩次，為期 9.5 天，bosentan 的初始最低血漿濃度相較於bosentan單獨使用時高出 48 倍。第 9 天時，bosentan的血漿濃度相較於單獨使用時高出約 5 倍。此一交互作用最可能肇因於ritonavir抑制了CYP3A4酵素活性以及肝細胞經由轉運蛋白攝入bosentan的功能，而降低了bosentan的廓清率。因此，當併用lopinavir + ritonavir或其他以ritonavir增效之蛋白酶抑制劑時，應監測病人對於TRACLEER的耐受力。 與bosentan併用9.5天後，lopinavir及ritonavir的血漿暴露量降低至不具臨床顯著性的程度(分別降低約14%及17%)。然而，bosentan可能尚未達到完整的誘導效果，因此無法排除蛋白酶抑制劑有進一步降低的可能性。建議適當的監測人類免疫缺乏病毒(HIV)的療法。預期其他的ritonavir增效蛋白酶抑制劑會有類似的效果(請參閱第6.8節)。 其他抗反轉錄病毒藥品： 由於缺乏資料，因此無法針對其他現有之抗反轉錄病毒藥品提供明確的建議。由於nevirapine具有顯著的肝毒性，可能增加bosentan的肝臟毒性，因此不建議併用。 荷爾蒙避孕藥：併用bosentan 125 mg每天兩次為期7天以及單劑口服避孕藥(內含norethisterone 1 mg + ethinyl estradiol 35 mcg)，norethisterone和ethinyl estradiol的曲線下面積 (AUC) 分別降低14%和31%。然而，個別受試者的暴露程度最多分別降低多達56% 與66%。因此，不論投藥路徑(即口服、注射、經皮或植入型)，僅使用荷爾蒙避孕法並不被視為可靠的避孕方法(請參閱第6.3節)。 Warfarin：併用bosentan 500 mg 每天兩次為期 6 天後， S-warfarin (一種CYP2C9受質)與R-warfarin (一種CYP3A4受質)的血漿濃度分別降低 29%與38%。於肺動脈高血壓病人併用 bosentan 和 warfarin 的臨床經驗中，未顯示國際標準化比值(International Normalized Ratio，INR)或warfarin劑量(比較基準值與臨床試驗結束時)會有具臨床相關性的變化。此外，在試驗期間，由於INR變化或發生不良事件而調整 warfarin 劑量的頻率，在bosentan治療組和安慰劑組之間類似。當開始使用bosentan時warfarin和類似的口服抗凝血劑皆不需調整劑量，但建議密集監測INR，尤其是在bosentan的開始給藥階段及劑量調升期間。 Simvastatin：併用bosentan 125 mg 每天兩次為期 5 日後，simvastatin (為CYP3A4受質)及其β-羥基酸活性代謝物的血漿濃度，會分別降低 34% 和46%。Bosentan 的血漿濃度並未因併用simvastatin而受到影響。應考慮監測膽固醇濃度以及進行後續的劑量調整。 Ketoconazole：併用ketoconazole (強效CYP3A4抑制劑) 及 bosentan 62.5 mg 每天兩次為期6 日後，bosentan 的血漿濃度上升約 2 倍。但並不認為需要調整TRACLEER 劑量。雖然未經體內試驗證實，在併用其他強效 CYP3A4 抑制劑(如 itraconazole 或 ritonavir) 時，bosentan 的血液濃度預期會有類似的上升情形。但對於 CYP2C9 代謝較弱的病人併用 CYP3A4 抑制劑時會有bosentan血漿濃度大幅增加的風險，而可能造成有害的不良事件。 Epoprostenol：一項試驗(AC-052-356 [BREATHE-3])的有限數據資料顯示，10 位接受 bosentan併用epoprostenol 的兒童病人，接受單次或多次給藥後，無論是否接受epoprostenol連續輸注，其 bosentan 的Cmax和AUC值都會相似(請參閱第10.2節)。 Sildenafil：健康志願受試者併用bosentan 125 mg每天兩次(穩定狀態下)以及 sildenafil 80 mg每天三次(穩定狀態下)持續 6 天後，sildenafil 的AUC會減少 63%，而 bosentan 的AUC會增加 50%。故併用時建議格外謹慎。 Tadalafil：在多次給藥且併用的情況下，bosentan (125mg 每天兩次)會減少tadalafil (40mg 每天一次) 42%的全身暴露程度和 27%的Cmax。Tadalafil不影響bosentan或其代謝物的暴露程度(AUC和Cmax)。 Digoxin： 併用bosentan 500 mg 每天兩次，持續 7 天後， digoxin 的 AUC、Cmax和 Cmin 會分別減少 12%、9% 和 23%。此交互作用的機制可能是對於P-醣蛋白的誘導作用。此交互作用不太可能具有臨床相關性。 兒童族群 目前只在成人中進行過交互作用試驗。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n在20項安慰劑對照、針對各種適應症的試驗中，共2,486位病人接受bosentan治療，每日劑量範圍為100 mg至2000 mg，而其餘1,838位病人則接受安慰劑治療。平均治療期間為45週。不良反應的定義為，發生在至少1% 的bosentan治療組病人，且發生頻率須高出安慰劑治療組至少 0.5% 的事件。頻率最高的不良反應為頭痛 (11.5%)、水腫/體液滯留 (13.2%)、肝功能測試結果異常 (10.9%) 以及貧血/血紅素下降 (9.9%)。 給予bosentan治療曾有劑量依賴性之肝臟轉胺酶濃度升高以及血紅素濃度下降相關性(請參閱第5.4節)。 在20項安慰劑對照的試驗中，以及在上市後bosentan的使用經驗中所觀察到的不良反應，依照下列慣用頻率排序：極常見 (≥ 1/10)；常見 (≥ 1/100至< 1/10)；少見 (≥ 1/1,000至< 1/100)；罕見 (≥ 1/10,000至< 1/1,000)；極罕見 (< 1/10,000)；未知 (由現有數據無法估計者)。 在各個頻率分類中，均以嚴重度遞減的順序呈現不良反應。在所觀察到的整體數據組和所核准的適應症之間，不良反應並無具臨床相關性的差異。\n8.2\n臨床試驗經驗\n兒童族群 兒童病人的無對照臨床試驗： 在第一項採用膜衣錠進行的兒童無對照試驗中(BREATHE-3：n = 19、年齡中位數為10歲[範圍為3 - 15歲]、開放標示、bosentan 劑量 2 mg/kg體重每天兩次；治療期間12週)，其安全性類似肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果。在BREATHE-3試驗中，頻率最高的不良反應為潮紅(21%)、頭痛以及肝功能檢測結果異常(各為16%)。 針對兒童肺動脈高血壓病人，使用bosentan 32 mg可溶錠劑型的無對照試驗(FUTURE 1/2、FUTURE 3/延長試驗)所進行的綜合分析中，共100位接受bosentan治療的兒童，使用劑量為2 mg/kg體重每天兩次(n = 33)、2 mg/kg體重每天三次(n = 31)或4 mg/kg體重每天兩次(n = 36)。在納入時，有六位病人的年齡在3個月至1歲之間、15位兒童為1歲至未滿2歲，而79位在2至12歲之間。治療期間中位數為71.8週(範圍為0.4 - 258週)。 此項綜合分析所得出的安全性，類似於肺動脈高血壓成人病人於樞紐試驗中所觀察到的結果，但感染事件除外，感染事件較成人試驗中通報頻率為高(69.0%相較於41.3%)。感染頻率的差異，可能部分起因於兒童組的中位治療期(中位數為71.8週)相較於成人組(中位數為17.4週)較長。頻率最高的不良事件為上呼吸道感染(25%)、肺(動脈)高血壓(20%)、鼻咽炎(17%)、發熱(15%)、嘔吐(13%)、支氣管炎(10%)、腹痛(10%)和腹瀉(10%)。在年齡2歲以上或以下的病人之間，不良事件的頻率並無重要差異。不過此結論的依據僅為21位未滿2歲的兒童，其中包含6位年齡在3個月至1歲之間的病人。另外，分別有9%和5%的病人發生肝功能異常和貧血/血紅素下降的不良事件。 在一項隨機分配、安慰劑對照、針對PPHN (Persistent Pulmonary Hypertension of the Newborn)病人的試驗(FUTURE-4)中，共有13位新生兒接受bosentan可溶錠劑型治療，劑量為2 mg/kg體重每天兩次(另有8位病人接受安慰劑治療)。Bosentan和安慰劑的治療期中位數分別為4.5天(範圍為0.5 - 10.0天)以及4.0天(範圍為2.5 - 6.5天)。Bosentan和安慰劑治療的病人，其頻率最高的不良事件分別為貧血或血紅素下降(7和2位病人)、全身水腫(3和0位病人)以及嘔吐(2和0位病人)。 檢驗數值異常 肝功能檢測結果異常 在臨床計畫中，劑量依賴性之肝臟轉胺酶濃度升高情形一般發生於治療的前26週，常是逐漸產生且多半無症狀。上市後期間，曾接獲肝硬化及肝衰竭之罕見案例的通報。 此不良反應的機制尚不明確。持續以TRACLEER的維持劑量治療或降低劑量後，肝臟轉胺酶濃度的升高情形可能會自行回復，但也可能需要中斷或停止治療(請參閱第5.4節)。 在整合20項安慰劑對照試驗之綜合分析中，觀察到接受bosentan治療病人有11.2% 發生肝臟轉胺酶的升高至 ≥ 3倍正常值上限(ULN)的情形，而安慰劑治療病人則為2.4%；接受bosentan治療的病人有3.6% 發生肝臟轉胺酶升高至 ≥ 8倍正常值上限(ULN) 的情形，而接受安慰劑治療的病人則為0.4%；接受bosentan治療的病人有0.2% (5位病人)同時有肝臟轉胺酶升高和膽紅素升高(≥ 2倍ULN)，但無膽道阻塞的證據，接受安慰劑治療的的病人則為0.3% (6位病人)。 針對100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2以及FUTURE 3/延長試驗的綜合分析中，有2%的病人觀察到肝臟轉胺酶≥ 3倍正常值上限(ULN)。 在FUTURE-4試驗中，共納入13位患有PPHN的新生兒受試者，接受 bosentan 2 mg/kg體重每天兩次的治療不超過10天(範圍為0.5 - 10.0天)，治療期間沒有肝臟轉胺酶濃度升高至 ≥ 3倍正常值上限的案例，但有1位於治療結束的三天後發生肝炎。 血紅素 在成人的安慰劑對照試驗中，有8.0%接受bosentan以及3.9%接受安慰劑治療的病人，其血紅素濃度自基準值下降至低於10 g/dL (請參閱第5.4節)。 在100位肺動脈高血壓兒童病人無對照組之兒童族群試驗FUTURE 1/2及FUTURE 3/延長試驗綜合分析中，發現10.0% 的病人其血紅素濃度從基準值下降至10 g/dL 以下。並無降低到8 g/dL以下的案例。 在FUTURE-4試驗的治療期間內，13位接受bosentan治療的PPHN新生兒中，有6位病人的血紅素值從仍在正常範圍內的基準值下降至正常範圍以下。\n8.3\n上市後經驗\n在上市後期間，曾有在接受TRACLEER長期治療且合併多重共病及併用其他藥品的病人中，出現原因不明的肝硬化罕見案例報告，亦有潛伏期為數月到數年不等肝功能衰竭及自體免疫性肝炎的罕見案例報告。這些案例強調了在使用TRACLEER治療期間，務必嚴格遵守每月肝功能監測的時程的重要性(請參閱第5.4節)。 通報疑似不良反應 藥品核准上市後疑似不良反應的通報相當重要。得以持續監測藥品的效益/風險均衡性。任何疑似不良反應，醫療專業人員請通報：嬌生股份有限公司 0800-211-688。\n9\n過量\n曾給予健康受試者bosentan單一劑量高達2,400 mg，和持續二個月給予非肺動脈高血壓之病人2000 mg/day劑量，最常見的副作用是輕度至中度頭痛。 過量使用大劑量將造成顯著的低血壓，而需要接受積極的心血管支持性療法。產品上市後期間，只有一位青春期男性病人服用bosentan 10,000 mg過量個案，出現噁心、嘔吐、低血壓、暈眩、冒汗、及視力模糊等症狀，在給予血壓維持療法後，24小時內即完全復原。注意：血液透析無法清除bosentan。\n10\n藥理特性\n10.1\n作用機轉\nBosentan為一種雙重內皮素受體拮抗劑(ERA)，對於內皮素A和B (ETA和ETB)受體均具有親和性。Bosentan可降低肺和全身的血管阻力，在不增加心跳速率的情況下使心臟輸出增加。\n10.2\n藥效藥理特性\n藥物分類：其他抗高血壓藥，ATC代碼：C02KX01。 神經內泌素內皮素-1 (ET-1)是已知最強效的血管收縮劑之一，也可促進纖維化、細胞增殖、心肥大和重塑，並具有促發炎性質。這些作用是藉由內皮素結合至位於內皮和血管平滑肌細胞的ETA和ETB受體而發生。在數種心血管疾患以及結締組織疾病(包含肺動脈高血壓、硬皮病、急性和慢性心衰竭、心肌缺血、全身性高血壓以及動脈粥狀硬化)中，組織和血漿的ET-1濃度會上升，顯示ET-1在這些疾病中具有致病角色。在肺動脈高血壓和心衰竭中，在缺乏內皮素受體拮抗作用下， ET-1濃度的升高和這些疾病的嚴重度以及預後具高度相關。 Bosentan會與ET-1和其他ET胜肽競爭結合至ETA和ETB受體，且對於ETA受體的親和力 (Ki = 4.1 - 43奈莫耳)略高於ETB受體(Ki = 38－730奈莫耳)。Bosentan會專一性拮抗ET受體，不會結合至其他受體。 療效 動物模型 在肺動脈高血壓的動物模型中，長期口服投予bosentan可降低肺血管阻力，並逆轉肺血管及右心室的肥大。在肺纖維化的動物模型中，bosentan可減少肺部的膠原蛋白沉積。 在肺動脈高血壓成人病人中的療效 兩項隨機分配、雙盲、多中心、安慰劑對照的試驗，分別對32位(試驗AC-052-351)以及213位(試驗AC-052-352 [BREATHE-1]) WHO功能分級為III - IV級的肺動脈高血壓(原發性肺動脈高血壓或是硬皮症續發性肺動脈高血壓)成人病人進行試驗。在bosentan 62.5 mg 每天兩次治療4週後，試驗中所研究的維持劑量在AC-052-351中為125 mg 每天兩次，而在 AC-052-352中為125 mg 每天兩次以及250 mg 每天兩次。 試驗中將bosentan新增至病人現有的治療中，現有治療可能由以下組成：抗凝血劑、血管舒張劑(如鈣離子通道阻斷劑)、利尿劑、氧氣以及毛地黃等，但不包含epoprostenol。對照組則以安慰劑併用現有治療藥物。 試驗的主要評估指標為6分鐘步行距離的變化，第一項試驗在第12週測量，第二項試驗在第16週測量。在兩項試驗中，bosentan治療都使得運動能力顯著提升。主要評估指標量測後，經安慰劑校正的步行距離增加值，相較於基準值分別為76公尺(p = 0.02；t-test)以及44公尺 (p = 0.0002；Mann-Whitney U test)。雖然使用125 mg 每天兩次與使用250 mg 每天兩次兩組之間的差異並不具有統計顯著意義，然而250 mg 每天兩次的治療組具有傾向運動能力改善的趨勢。 步行距離在治療4週後明顯改善，而在治療8週後則顯而易見，並且在雙盲治療的病人次族群中，可維持至多28週。 一項針對具療效反應者之回溯性分析中發現，在一項針對步行距離變化、WHO功能分級以及呼吸困難症狀的對照試驗中，95位接受bosentan 125 mg 每天兩次治療的病人，在第8週有66位病人已有改善，22位狀況穩定，而7位有惡化情形。在第8週22位狀況穩定的病人中，有6位於第12或16週改善，而4位相較於基準值有惡化情形。在第8週7位惡化的病人中，於第12/16週有3位改善，而4位相較於基準值有惡化情形。 僅第一項試驗有評估侵入性的血液動力學參數。Bosentan治療使心臟指數顯著升高，並使肺動脈血壓、肺血管阻力與平均右心房壓力顯著降低。 在bosentan治療組中觀察到肺動脈高血壓的症狀有減少情形。步行距離測試期間的\"呼吸困難\"量測值顯示，接受bosentan治療的病人病情改善。在試驗AC-052-352中，213位病人中有92% 的基準值屬於WHO功能分級第III級，8%屬於第IV級。Bosentan治療使42.4%的病人WHO功能分級改善(安慰劑組30.4%)。在兩項試驗期間，接受bosentan治療的病人相較於接受安慰劑的病人，WHO功能分級的整體變化都顯著較佳。在第28週，bosentan治療相較於安慰劑，臨床惡化比率顯著降低(分別為10.7%和37.1%；p = 0.0015)。 在一項隨機分配、雙盲、多中心、安慰劑對照試驗(AC-052-364 [EARLY])中，共185位WHO功能分級第II級之肺動脈高血壓病人(平均基準值6分鐘步行距離為435公尺)，接受bosentan 62.5 mg 每天兩次治療4週，續以125 mg 每天兩次治療(n = 93)，或安慰劑治療(n = 92) 6個月。受試者為先前未曾接受過肺動脈高血壓特定治療(n= 156)、或接受sildenafil穩定劑量治療的病人(n= 29)。共同的主要評估指標為肺血管阻力(PVR)以及6分鐘步行距離自基準值至第6個月的變化。下表可說明此試驗預設的分析方法。\n相較於安慰劑組，接受bosentan治療後，臨床惡化比率降低 (風險降低比率為77%，95%信賴區間[CI]：20% - 94%，p = 0.0114)；\"臨床惡化\"定義為綜合症狀惡化、因肺動脈高血壓而住院以及死亡。治療的效果主要是藉由改善症狀惡化而達成。因肺動脈高血壓惡化而住院的案例，在bosentan組內有一例，而在安慰劑組內有三例。在6個月的雙盲試驗期間，兩治療組中各有一死亡案例，因此無法針對存活率做出結論。 長期數據源自於EARLY研究的全體173位病人，病人在對照期內接受bosentan治療，和/或在開放性延伸試驗期間由安慰劑組轉換至bosentan組。Bosentan治療的平均暴露時間為3.6 ± 1.8年(最多為6.1年)，其中73%的病人接受至少3年的治療，而62%的病人接受至少4年的治療。在開放性延伸試驗期間，病人如有需求，可接受額外的肺動脈高血壓治療。多數病人經診斷為原發性或遺傳性肺動脈高血壓(61%)。整體而言，有78%的病人維持在WHO功能分級第II級內。以Kaplan-Meier存活率分析估計，在治療開始3年和4年後，存活率分別為90% 和 85%。同時，分別有88%和79%的病人維持在無肺動脈高血壓疾病惡化狀態(定義為各種原因所導致死亡、肺臟移植、心房中膈造口術或開始接受prostanoid藥物的靜脈或皮下治療)。雙盲試驗期的安慰劑治療，以及開放性延伸試驗期內開始使用其他藥物的相對影響程度仍屬未知。 在一項前瞻性、多中心、隨機分配、雙盲、安慰劑對照的試驗(AC-052-405 [BREATHE-5])中，WHO功能分級第III級且具有先天性心臟疾病相關艾森曼格 (Eisenmenger) 生理的肺動脈高血壓病人，接受bosentan 62.5 mg每天兩次，持續 4週；隨後再接受125 mg每天兩次，持續 12週 (n = 37，其中31位具有主要為右至左的心臟雙向分流)。試驗主要目的為證實bosentan不會使低血氧症惡化。在16週後，bosentan組相較於安慰劑組(n = 17位病人)，平均氧飽和增加1.0% (95% CI：-0.7% ~ 2.8%)，證實bosentan不會使低血氧症惡化。Bosentan組的平均肺血管阻力顯著降低(在心臟雙向分流病人之子群組觀察到的效果特別顯著)。在16週後，安慰劑修正後的6分鐘步行距離平均增加量為53 m (p = 0.0079)，反映出運動能力已改善。在BREATHE-5試驗的24週開放性延長試驗 (AC-052-409)內，有26位病人繼續接受bosentan治療(平均治療期間= 24.4 ± 2.0週)，且療效大致能夠維持。 目前尚無研究可證實TRACLEER治療對於存活率之效益。不過，在兩項安慰劑對照的樞紐試驗(AC-052-351和AC-052-352)和/或其兩項未對照的開放性延長試驗中，有記錄全體235位bosentan治療病人的長期生命狀態。Bosentan的平均暴露期間為1.9年± 0.7年(最短0.1年，最長3.3年)，而觀察病人的平均時間為2.0 ± 0.6年。多數病人經診斷為原發性肺高血壓(72%)，且為WHO功能分級為第III級(84%)。在此整體族群中，以Kaplan-Meier存活率分析估計，在bosentan治療開始1和2年後，存活率分別為93%和84%。在全身性硬化症引起的續發性肺動脈高血壓病人次族群中，存活率估計值較低。這些估計值可能受到43/235位病人開始epoprostenol治療的影響。 針對肺動脈高血壓兒童病人的試驗 BREATHE-3 (AC-052-356) 於開放性無對照試驗中，針對19位年齡3至15歲的肺動脈高血壓兒童病人，對bosentan膜衣錠進行評估。本試驗主要設計為藥動學的試驗(請參閱第11節)。在基準值時，10位病人具有原發性肺動脈高血壓與9位先天性心臟疾病續發的肺動脈高血壓，且為WHO功能分級第II級(n = 15位病人，79%)或第III級(n = 4位病人，21%)。病人分入三個體重組，並接受每天兩次約2 mg/kg體重的bosentan 12週。各組有一半病人已正在接受epoprostenol靜脈注射治療，且epoprostenol的劑量於試驗期間內維持不變。 測量17位病人的血液動力學。心輸出量指數自基準值起的平均增加量為0.5L/min/m2，平均肺動脈壓力的平均減少量為8 mmHg，而PVR的平均減少量為389 dyn•sec/cm5。無論是否併用epoprostenol，血液動力學自基準值起的改善情形皆類似。第12週時，運動能力自基準值起的變化量極大，惟不具有意義。 與epoprostenol併用 已在2項試驗中評估bosentan及epoprostenol的合併療法：AC-052-355 (BREATHE-2)及AC-052-356 (BREATHE-3)。AC-052-355為一項多中心、隨機分配、雙盲、平行分組的臨床試驗，以評估bosentan相較於安慰劑，在33位併用epoprostenol治療之重度肺動脈高血壓病人的情形。AC-052-356為開放標示、無對照試驗，在19位兒童病人中，有10位在12週的試驗期間內併用bosentan和epoprostenol治療。併用與單獨用藥所預期的安全性並無差異，在兒童與成人中的耐受性均佳。此併用方式的臨床效益尚未被證實。\n10.3\n臨床前安全性資料\n一項為期2年的小鼠致癌性試驗顯示，在血漿濃度約為人類治療劑量所達血漿濃度的2至4倍時，雄性(雌性則無)的肝細胞腺瘤和肝細胞癌的合併發生率會上升。對於大鼠投予2年的口服bosentan後，在血漿濃度約為人類治療劑量所達血漿濃度的9至14倍時，雄性(雌性則無)的甲狀腺濾泡細胞腺瘤和甲狀腺濾泡細胞癌的合併發生率會小幅但顯著地上升。Bosentan的基因毒性測試結果為陰性。在大鼠中發現bosentan會引起輕度甲狀腺荷爾蒙失衡。不過目前並無證據顯示bosentan會影響人類的甲狀腺(甲狀腺素，TSH)功能。 Bosentan對於粒線體的影響仍屬未知。 在大鼠中，當在血漿濃度高出人類治療劑量所達血漿濃度的1.5倍時，已證實bosentan有致畸胎性。致畸胎性(包含引起頭部、臉部以及大血管的畸形)和劑量相關。此致畸胎性的表現形式相似於給予其他內皮素受體拮抗劑以及內皮素基因剔除的小鼠中觀察到的畸形形式，顯示其為類別反應(class effect)。具生育能力婦女用藥時，務必採取適當的預防措施(請參閱第6.1、6.3及11節)。 在囓齒動物中，發生睪丸小管萎縮與生殖力受損的情形和長期投予內皮素受體拮抗劑有關。 雄性和雌性大鼠的生殖力試驗中，分別在暴露量高出人類治療劑量之預期暴露量的21和43倍時，未觀察到精子數量、精子活動力和精子存活率，或者交配能力或生育力受到影響；對於提早著床或著床胚胎的發育亦無任何不良影響。 在持續2年口服投予125 mg/kg/day (約為4倍人類最大建議劑量[MRHD]，及最低測試劑量)之bosentan的大鼠中觀察到睪丸小管萎縮的發生率些微升高，但在持續6個月投予 1500 mg/kg/day (約50倍MRHD)之高劑量的大鼠中則無此情況。在幼年大鼠的毒性試驗中，大鼠自產後第4天至成年期間接受藥物，在斷乳後觀察到睾丸和副睾的絕對重量減輕，同時副睾的精子數量減少。NOAEL分別高出人類治療暴露量的21倍(產後第21天)和2.3倍(產後第69天)。 然而，在產後第21天，在人類治療暴露量的7倍(雄性)和19倍(雌性)下，並未偵測到任何對於整體發育、生長、感覺、認知能力和生殖能力的影響。在成鼠年齡(產後第69天)時，在PAH兒童治療暴露量的1.3倍(雄性)和2.6倍(雌性)下，並未偵測到bosentan的任何影響。\n11\n藥物動力學特性\nBosentan的藥動學資料主要來自健康受試者。有限的病人資料顯示，肺動脈高血壓成人病人對bosentan的暴露程度較健康成人受試者約高2倍。 在健康受試者中，bosentan表現出劑量及時間依賴性的藥動學。廓清率及分佈體積隨靜脈注射劑量及時間的增加而降低。口服投藥後，在500 mg的範圍內，全身暴露程度均與劑量呈比例。口服劑量較高時，Cmax和AUC的增加低於劑量增加的比例。 吸收 在健康受試者中，bosentan的絕對生體可用率(bioavailability)約為50%，且不受食物影響。3－5小時內可達到最大的血漿濃度。 分佈 Bosentan與血漿蛋白的結合度高(> 98%)，主要與白蛋白結合。Bosentan不會滲透進入紅血球中。 在給予250 mg的靜脈注射劑量後，測得約18公升的分布體積(Vss)。 生物轉化和排除 在給予單劑250 mg的靜脈注射劑量後，廓清率為8.2 L/h。最終清除半衰期(t1/2)為5.4小時。 多重給藥時，bosentan的血漿濃度逐漸降低到投予單劑藥物後的50%至65%。可能是代謝性肝臟酵素的自體誘導作用造成此降低情形。在3至5天內即會達到穩定狀態。 Bosentan在肝臟由細胞色素P450的同功酶(CYP2C9與CYP3A4)代謝後，經由膽道排泄作用排除。在尿液中回收少於3%的口服投予劑量。 Bosentan會形成三種代謝物，而只有其中一種具有藥理活性。此代謝物主要經由膽汁以原型排泄。在成人病人中，相較於健康的受試者，對於活性代謝物的暴露量較高。在確診有膽汁鬱積的病人中，此活性代謝物的暴露程度可能會變高。 Bosentan為CYP2C9與CYP3A4 (可能還包括CYP2C19以及P-醣蛋白)的誘導劑。在體外肝細胞培養中，bosentan會抑制膽鹽輸出幫浦的作用。 體外數據證實，bosentan對於所測試的CYP同功酶(CYP1A2、2A6、2B6、2C8、2C9、2D6、2E1、3A4)無相關的抑制作用。因此，並不預期bosentan會使由這些同功酶代謝之藥物產品的血漿濃度升高。 特殊族群的藥動學 根據研究各變數的結果，成人族群中性別、體重、人種或年齡對bosentan的藥動學並不預期會造成任何相關的影響。 兒童 曾於4項兒童病人的臨床試驗中探討藥動學 (BREATHE-3、FUTURE-1、FUTURE-3以及FUTURE-4，請參閱 第11節)。對於2歲以下兒童的數據有限，因此藥動學在此年齡分組中仍無法詳盡描述。 試驗AC-052-356 [BREATHE-3]評估bosentan膜衣錠劑型在單劑和多劑口服劑量下的藥動學，對象為19位年齡3至15歲、患有肺動脈高血壓的兒童，依據體重給予2 mg/kg體重每天兩次的劑量。在此試驗中，bosentan的暴露量隨時間降低，此情況與已知的bosentan自體誘導特性相符。接受每天兩次31.25mg、62.5mg或125 mg劑量治療之兒童病人，其bosentan的平均AUC (CV %) 分別為3,496 (49%)、5,428 (79%)和 6,124 (27%) ng•h/mL，數值低於接受125 mg 每天兩次劑量之成人肺動脈高血壓病人中觀察到的數值8,149 (47%) ng•h/mL。穩定狀態下，體重為10－20 kg、20－40 kg和> 40 kg的兒童病人，其全身暴露量分別為成人全身暴露量的43%、67%和75%。 在試驗AC-052-365 [FUTURE-1]中，給予36位年齡2至11歲的肺動脈高血壓兒童 bosentan可溶錠。在2 mg/kg體重和4 mg/kg體重的口服劑量下，穩定狀態的bosentan血漿濃度與AUC都相似 (2 mg/kg體重每天兩次以及4 mg/kg體重每天兩次的AUCτ分別為3,577 ng•h/mL和3,371 ng•h/mL)，並未觀察到劑量比例性。這些兒童病人的bosentan平均暴露量約為成人病人維持劑量125 mg 每天兩次之暴露量的一半，但和成人暴露量的重疊範圍很大。 在試驗AC-052-373 [FUTURE-3]中，採用可溶錠，接受2 mg/kg體重每天兩次bosentan的病人，其暴露量和FUTURE-1試驗中病人的暴露量相似。在整體族群中(n = 31)， 2 mg/kg體重每天兩次的劑量造成的每日暴露量為8,535 ng•h/mL；而AUCτ為 4,268 ng•h/mL (CV：61%)。在年齡3個月大至2歲的病人中，每日暴露量為 7,879 ng•h/mL；而AUCτ為3,939 ng•h/mL (CV：72%)。在年齡3個月大至1歲的病人中(n = 2)，AUCτ為5,914 ng•h/mL (CV：85%)，而在年齡1至2歲的病人中 (n = 7)，AUCτ為3,507 ng•h/mL (CV：70%)。在年齡超過2歲的病人中(n = 22)，每日暴露量為8,820 ng•h/mL，而AUCτ為4,410 ng•h/mL (CV：58%)。Bosentan 2 mg/kg體重每天三次的給藥方式，並未增加暴露量；每日暴露量為7,275 ng•h/mL (CV：83%， n = 27)。 根據BREATHE-3、FUTURE-1和FUTURE-3試驗的結果，bosentan在兒童病人中的暴露量相較於成人病人，似乎在較低劑量下即達到高原狀態；同時，給予高於2 mg/kg體重每天兩次的劑量(4 mg/kg體重每天兩次或2 mg/kg體重每天三次)並不會在兒童病人中造成更高的bosentan暴露量。 在針對新生兒所進行的AC-052-391 [FUTURE-4]試驗中，bosentan血漿濃度在第一次用藥期間緩慢而持續地增加，達到較低的暴露量(全血AUC0-12：164 ng•h/mL，n = 11)。在穩定狀態下，AUCτ為6,165 ng•h/mL (CV：133%，n = 7)，此結果類似在接受 125 mg 每天兩次的成人病人所觀察到的暴露量，且有考量血液/血漿分布比率0.6。 這些結果對於肝毒性的後續影響仍屬未知。性別和併用epoprostenol靜脈注射的情形，對於bosentan的藥動學沒有顯著的影響。 肝功能不全 在輕度肝功能不全的病人(Child-Pugh分級A級)，未觀察到藥動學變化。在輕度肝功能不全的病人中，bosentan穩定狀態下的AUC較健康志願者高9%，而活性代謝物Ro 48-5033的AUC則高出33%。 一項試驗納入5位患有肝門靜脈高壓續發肺高壓、Child-Pugh分級 B級的肝功能不全病人，另納入3位有其他原因所致肺動脈高血壓、但肝功能正常的病人，探討中度肝功能不全(Child-Pugh分級B級)對於bosentan藥動學以及其主要代謝物Ro 48-5033的影響。在Child-Pugh分級B級的肝功能不全病人中，在穩定狀態下bosentan的平均(95% CI) AUC為 360 (212 - 613) ng•h/mL，即高出肝功能正常病人4.7倍。而活性代謝物Ro 48-5033的平均(95% CI) AUC為106 (58.4 - 192) ng•h/mL，即高出肝功能正常病人12.4倍(bosentan：平均[95% CI] AUC：76.1 [9.07 - 638] ng•h/mL；Ro 48-5033：平均[95% CI] AUC：8.57 [1.28 - 57.2] ng•h/ml)。雖然所納入的病人人數有限且變異極大，但這些數據指出，在中度肝功能不全(Child-Pugh分級B級)病人中，bosentan以及其主要代謝物 Ro 48-5033的暴露量顯著增加。 目前尚未研究在Child-Pugh分級C級的肝功能不全病人中的bosentan藥動學。TRACLEER禁用於中至重度肝功能不全的病人(即Child-Pugh分級B或C級) (請參閱第4節)。 腎功能不全 在重度腎功能不全(肌酸酐廓清率為15 - 30 mL/min)的病人中，bosentan的血漿濃度會降低約10%。在這些病人中的bosentan代謝物血漿濃度會增加至腎功能正常受試者的2倍左右。腎功能不全病人無需進行劑量調整。目前尚無針對接受透析治療病人的臨床使用經驗。根據其物理化學性質和高度蛋白質結合力，並不預期透析對於從循環系統移除bosentan 可達任何顯著的程度 (請參閱第3.3節)。\n12\n臨床試驗資料\n請參閱第10.2節。\n13\n包裝及儲存\n13.1\n包裝\n4 ~ 1000 錠瓶裝；每瓶含60錠。 白色高密度PE瓶包裝及白色PP安全蓋。\n13.2\n效期\n5 年。白色高密度PE瓶在首次打開後30天內使用完畢。\n13.3\n儲存條件\n儲存溫度不得超過 30°C。 白色高密度PE瓶：該藥品不需要任何特殊的儲存條件。\n13.4\n儲存注意事項\n有關該藥品首次開瓶後的儲存條件，請參閱第13.2及13.3節。\n14\n病人使用須知\n用藥指南 Tracleer (tra-KLEER) (bosentan)錠劑 在您開始服用藥物前及每次領藥時，請閱讀Tracleer的「用藥指南」。可能會有新的資訊。「用藥指南」無法取代您與醫師討論您的醫療情況或您的治療。 關於Tracleer，我應該要知道的最重要資訊為何？ Tracleer可能導致嚴重的副作用，包括： 肝損傷。 肝損傷在一開始可能不會造成症狀。只有血液檢查才能瞭解您是否有早期的肝損傷。在您開始服用Tracleer前以及之後每個月，您將必須接受血液檢測，以檢測您的肝功能。您的醫師將會安排這些檢查。常規血液檢查很重要，因為它們將可幫助您的醫師在您受到永久性傷害前調整或停止您的治療。 若您曾發生肝臟問題(包括使用其他藥物時發生的肝臟問題)，請告訴您的醫師。若您在服用Tracleer期間出現下列任何肝臟問題的症狀，請立即聯絡您的醫師： 噁心 嘔吐 發燒 不尋常的疲累 胃部(腹部)疼痛 皮膚或您的眼白變黃(黃疸) 嚴重先天缺陷。 在懷孕期間服用Tracleer可能導致嚴重的先天缺陷。在您開始服用Tracleer時或在Tracleer治療期間，您不應懷孕。Tracleer造成的嚴重先天缺陷可能發生於懷孕早期。具有生育能力的女性在開始Tracleer治療前的懷孕檢測結果應為陰性。 請將您的月經週期告訴您的醫師。您的醫師會決定何時進行懷孕檢測並依照您的月經週期進行懷孕檢測。 有生育能力的女性是指： 已進入青春期，即使月經週期尚未開始，且 有子宮，且 尚未停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢。 無生育能力的女性是指： 尚未進入青春期，或 沒有子宮，或 已停經。停經是指您因自然原因至少有12個月無月經來潮，或您已經摘除兩個卵巢，或 因其他醫療原因已無生育能力且此不孕為永久性且不可逆。 有生育能力的女性應在開始Tracleer治療前、治療期間及停藥後一個月內(因藥物有可能仍存留體內)採用有效的避孕方式。 請和您的醫師或婦科醫師(女性生殖專科醫師)討論，以了解您在Tracleer治療期間可採用哪些有效之避孕選項以避免懷孕。 若您決定變更您使用的避孕方式，請和您的醫師或婦科醫師討論，以確保另一種避孕方式是可靠的。 請勿進行無防護的性行為。若您發生無防護的性行為或您認為避孕可能無效，應立刻告訴您的醫師或藥師。您的醫師或藥師可能會要求您採取緊急避孕措施。 若您的月經延遲或您認為您可能懷孕時，請立刻告訴您的醫師。 若您為尚未進入青春期女孩的家長或照護者，您在孩子開始服用Tracleer之後，應定期確認您的孩子是否出現青春期的發育表徵。若您注意到孩子的乳房開始發育或出現任何陰毛，應立刻告訴您的醫師。您的醫師會確認您的孩子是否已經進入青春期。您的孩子有可能在初經來潮前就已進入青春期。\n請參閱「Tracleer有哪些可能的副作用？」以了解更多有關副作用的資訊。 Tracleer是什麼？ Tracleer是一種處方藥，用於治療某些肺動脈高血壓(PAH)分類的病人，PAH為肺部血管血壓過高的疾病。 Tracleer可改善您的運動能力，並可減緩您體能狀況與症狀的惡化情形。Tracleer可降低您肺部過高的血壓，使您的心臟泵血更有效率。 Tracleer僅可由醫師處方使用。 哪些人不應服用Tracleer？ 若您有以下情況，請勿服用Tracleer： 已懷孕、計畫懷孕，或在Tracleer治療期間懷孕。Tracleer可能導致嚴重的先天缺陷。所有女性均應閱讀過「關於Tracleer，我應該要知道的最重要資訊為何？」中的嚴重先天缺陷一節。 使用下列任一種藥物： 環孢素A (Cyclosporine A)：用於治療牛皮癬與類風濕性關節炎，以及預防對心臟、肝臟或腎臟移植物的排斥 Glyburide：用於治療糖尿病 您對於Tracleer的任何成份過敏。請參閱本用藥指南最後的Tracleer成份列表。若您在服用Tracleer後發生皮疹、蕁麻疹或嘴唇腫脹，即可能是過敏的徵兆。您應停用Tracleer並與您的醫師討論。 使用Tracleer前，有什麼我應該告訴醫師的？ Tracleer可能並不適合您。將您所有的病情告訴您的醫師，包括若您： 有肝臟問題。 已懷孕或計畫懷孕。請參閱”關於Tracleer，我應該要知道的最重要資訊為何？” 正在授乳或計畫要授乳。Tracleer會進入到您的乳汁中。目前尚未瞭解在乳汁中的Tracleer是否會危害您的嬰兒，您與您的醫師應決定您是要服用Tracleer或授乳。 告訴您的醫師您所使用的所有藥物，包括處方藥與非處方藥、維生素及草藥補充劑。Tracleer與其他藥物可能會相互影響彼此的作用而引起副作用。特別是若您使用下列藥物，必須告訴您的醫師： 以荷爾蒙為主的避孕方法，例如避孕藥、針劑、貼片與植入型避孕劑。這些避孕方法在與Tracleer同時使用時效果可能會變差。 Simvastatin或其他「statin類藥物」：用於降低膽固醇 Rifampin：用於治療結核病 Ketoconazole、fluconazole、itraconazole或voriconazole：用於治療黴菌感染 Warfarin sodium：用於預防血栓 Ritonavir：用於治療HIV 藥物可能會有不只一種商品名。若您不確定您的藥物是否為上列藥物之一，請詢問您的醫師。 了解您所使用的藥物。列一張所使用的藥物清單，並在您取得新藥物時向您的醫師或藥師出示。 我應如何服用Tracleer？ 您的醫師將會為您詳細說明。 請完全依照處方服用Tracleer。 您的醫師將會告訴您應服用的Tracleer數量以及服藥時間。 在大部分的情況中，您將會在早晚各服用1錠。 您可在餐前或餐後服用Tracleer。 若您服用的Tracleer劑量超過開立劑量，請立即聯絡您的醫師。 若您漏服一劑Tracleer，請在您想起時立刻服用。但不要一次服用2劑藥物。如果已經快要到您服用下一劑藥物的時間，則跳過這劑漏服的藥物，在您固定的服藥時間服用下一劑藥物即可。 除非您的醫師指示，否則請勿停用Tracleer。突然停止治療可能會導致您的症狀惡化。若您需要停用Tracleer，請與您的醫師討論停止治療的正確方式。 Tracleer有哪些可能的副作用？ Tracleer可能導致嚴重的副作用，包括： 請參閱「關於Tracleer，我應該要知道的最重要資訊為何？」 體液滯留及腳踝和腿部腫脹。Tracleer會使體內保留過多水分，因而導致您的腳踝和腿部腫脹。若您的腳踝和腿部腫脹，不論是否伴隨體重增加，或若您的呼吸比平時更為困難，請告訴您的醫師。您的醫師將會找出此狀況之病因。 精蟲數降低。有些男性服用Tracleer可能會減少精蟲數。這有可能影響您伴侶的受孕機率。若您擔心受孕問題，請將此疑慮告訴您的醫師。 紅血球濃度低下(貧血)。您的醫師會在Tracleer治療期間進行血液檢查，以檢測您的紅血球數。 最常見的Tracleer副作用為： 呼吸道感染 頭痛 昏厥 (暈倒) 潮紅 低血壓 鼻道發炎 (鼻竇炎) 關節痛 心率不正常 若您有任何造成困擾或持續不退的副作用，請告訴您的醫師。這些並非Tracleer所有可能發生的副作用。若您想要更多資訊，請詢問您的醫師或藥師。 聯絡您的醫師，以獲得關於副作用的醫療指示。 我應該如何儲存Tracleer？ 儲存溫度不得超過 30°C。 將Tracleer與所有藥物置於兒童無法觸及之處。 關於Tracleer的一般性資訊 有時藥物開立目的，會與「用藥指南」中的說明不同。請勿將Tracleer用於處方指示以外的疾病。請勿將Tracleer給予他人，即使他們的症狀與您相同。他們可能會因而受傷。 「用藥指南」彙整關於Tracleer最重要的資訊。若您想要更多資訊，請聯絡您的醫師。 Tracleer的成份為何？ 活性成份：bosentan 無活性成份：玉米澱粉、預糊化澱粉、甘醇酸澱粉鈉、聚維酮、甘油山崳酸酯、硬脂酸鎂、羥丙基甲基纖維素、三醋酸甘油酯、滑石、二氧化鈦、氧化鐵黃、氧化鐵紅與乙基纖維素。\n15\n其他\n版本: EUPI Sep2025 + USPI Nov2025_v2601 Tracleer-PI-TWo_v2601",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "HAUPT PHARMA WULFING  GMBH",
+          "address": "BETHELNER LANDSTRASSE 18, D-31028 GRONAU, GERMANY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "ALLPACK GROUP AG",
+          "address": "PFEFFINGERSTRASSE 45, 4153 REINACH BL, SWITZERLAND"
+        },
+        {
+          "number": "2",
+          "name": "裕利股份有限公司",
+          "address": "桃園市大園區和平里1鄰開和路91號"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "嬌生股份有限公司",
+          "address": "台北市中山區民生東路三段2號10樓及11樓"
+        },
+        {
+          "number": "2",
+          "name": "電話:",
+          "address": "0800-211-688"
+        }
+      ]
+    }
+  ]
+}

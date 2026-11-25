@@ -1,0 +1,1338 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:03:29.835159+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01001047",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第001047號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第001047號",
+      "matched_license_code": "01001047",
+      "matched_nhi_code": "",
+      "drug_name_zh": "通舒錠",
+      "drug_name_en": "URETROPIC TABLETS",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2026-09-08",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠含Furosemide……………………..40mg",
+          "content_html": "<p>每錠含Furosemide……………………..40mg</p>",
+          "search_text": "1.1\n有效成分及含量\n每錠含Furosemide……………………..40mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Lactose、Starch 1500、Magnesium Stearate、Talc",
+          "content_html": "<p>Lactose、Starch 1500、Magnesium Stearate、Talc</p>",
+          "search_text": "1.2\n賦形劑\nLactose、Starch 1500、Magnesium Stearate、Talc",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "錠劑",
+          "content_html": "<p>錠劑</p>",
+          "search_text": "1.3\n劑型\n錠劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "白色圓扁型錠劑，錠面上刻有Code No.TKP-020",
+          "content_html": "<p>白色圓扁型錠劑，錠面上刻有Code No.TKP-020</p>",
+          "search_text": "1.4\n藥品外觀\n白色圓扁型錠劑，錠面上刻有Code No.TKP-020",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "利尿、高血壓",
+          "content_html": "<p>利尿、高血壓</p>",
+          "search_text": "2\n適應症\n利尿、高血壓",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "除非醫師另有處方，其建議劑量如下：",
+          "content_html": "<p>除非醫師另有處方，其建議劑量如下：</p>",
+          "search_text": "3.1\n用法用量\n除非醫師另有處方，其建議劑量如下：",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "一般成人劑量：",
+          "title_html": "一般成人劑量：",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "一般成人劑量："
+          ],
+          "content_text": "抗高血鈣劑─口服，一天120mg（一次或分2～3次服用）。 抗高血壓劑─口服，初劑量：40mg，一天2次，再依患者反應調整劑量。 利尿劑─口服，初劑量：20～80mg，一次服用，再每隔6～8小時另增加20～40mg，直到所期反應達到為止。經標定確定之維持劑量，每日以單劑量或分成2～3劑量給予或隔天給予。每日最高劑量不得超600mg，但慢性腎衰竭者，每日劑量有高達4g者。 【注意】年老者對一般成人劑量之效應，可能較為敏感。",
+          "content_html": "<p>抗高血鈣劑─口服，一天120mg（一次或分2～3次服用）。<br>抗高血壓劑─口服，初劑量：40mg，一天2次，再依患者反應調整劑量。<br>利尿劑─口服，初劑量：20～80mg，一次服用，再每隔6～8小時另增加20～40mg，直到所期反應達到為止。經標定確定之維持劑量，每日以單劑量或分成2～3劑量給予或隔天給予。每日最高劑量不得超600mg，但慢性腎衰竭者，每日劑量有高達4g者。<br>【注意】年老者對一般成人劑量之效應，可能較為敏感。</p>",
+          "search_text": "3.1.1\n一般成人劑量：\n抗高血鈣劑─口服，一天120mg（一次或分2～3次服用）。 抗高血壓劑─口服，初劑量：40mg，一天2次，再依患者反應調整劑量。 利尿劑─口服，初劑量：20～80mg，一次服用，再每隔6～8小時另增加20～40mg，直到所期反應達到為止。經標定確定之維持劑量，每日以單劑量或分成2～3劑量給予或隔天給予。每日最高劑量不得超600mg，但慢性腎衰竭者，每日劑量有高達4g者。 【注意】年老者對一般成人劑量之效應，可能較為敏感。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "一般兒童劑量：",
+          "title_html": "一般兒童劑量：",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "一般兒童劑量："
+          ],
+          "content_text": "利尿劑─口服，初劑量每公斤體重2mg作單劑量服用，然後每6~8小時，依每公斤體重增加1~2mg，調整劑量直到反應達到為止。但每日最高劑量不可超過40mg。 【注意】對有腎病綜合症之兒童，可能需要高達每公斤體重5mg之劑量。",
+          "content_html": "<p>利尿劑─口服，初劑量每公斤體重2mg作單劑量服用，然後每6~8小時，依每公斤體重增加1~2mg，調整劑量直到反應達到為止。但每日最高劑量不可超過40mg。<br>【注意】對有腎病綜合症之兒童，可能需要高達每公斤體重5mg之劑量。</p>",
+          "search_text": "3.1.2\n一般兒童劑量：\n利尿劑─口服，初劑量每公斤體重2mg作單劑量服用，然後每6~8小時，依每公斤體重增加1~2mg，調整劑量直到反應達到為止。但每日最高劑量不可超過40mg。 【注意】對有腎病綜合症之兒童，可能需要高達每公斤體重5mg之劑量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "4\n禁忌\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "對Sulfonamide類藥物過敏病人，對本藥亦可能產生過敏。",
+          "title_html": "對Sulfonamide類藥物過敏病人，對本藥亦可能產生過敏。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對Sulfonamide類藥物過敏病人，對本藥亦可能產生過敏。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.1\n對Sulfonamide類藥物過敏病人，對本藥亦可能產生過敏。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "如有下列醫療問題存在時，本藥之使用應加留意：",
+          "title_html": "如有下列醫療問題存在時，本藥之使用應加留意：",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "如有下列醫療問題存在時，本藥之使用應加留意："
+          ],
+          "content_text": "無尿或嚴重腎功能不良(利尿反應會延長)、糖尿病、曾有痛風、肝功能不良包括肝硬化及腹水(因為脫水與電解質不平衡會導致肝性昏迷及死亡，治療之起始最好住院)。",
+          "content_html": "<p>無尿或嚴重腎功能不良(利尿反應會延長)、糖尿病、曾有痛風、肝功能不良包括肝硬化及腹水(因為脫水與電解質不平衡會導致肝性昏迷及死亡，治療之起始最好住院)。</p>",
+          "search_text": "5.1.2\n如有下列醫療問題存在時，本藥之使用應加留意：\n無尿或嚴重腎功能不良(利尿反應會延長)、糖尿病、曾有痛風、肝功能不良包括肝硬化及腹水(因為脫水與電解質不平衡會導致肝性昏迷及死亡，治療之起始最好住院)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.3",
+          "title": "下列項目之檢查在病人的用藥監視上特別重要：",
+          "title_html": "下列項目之檢查在病人的用藥監視上特別重要：",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "下列項目之檢查在病人的用藥監視上特別重要："
+          ],
+          "content_text": "BUN、CO2、血清電解質(長期治療病人應定期實施，特別是同時服用強心配醣體或系統性作用固醇或有嚴重肝硬化存在時)。",
+          "content_html": "<p>BUN、CO<sub>2</sub>、血清電解質(長期治療病人應定期實施，特別是同時服用強心配醣體或系統性作用固醇或有嚴重肝硬化存在時)。</p>",
+          "search_text": "5.1.3\n下列項目之檢查在病人的用藥監視上特別重要：\nBUN、CO2、血清電解質(長期治療病人應定期實施，特別是同時服用強心配醣體或系統性作用固醇或有嚴重肝硬化存在時)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.4",
+          "title": "產生高鈣血危險性較高之病人，在服用本藥時須同時補充鉀離子。",
+          "title_html": "產生高鈣血危險性較高之病人，在服用本藥時須同時補充鉀離子。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "產生高鈣血危險性較高之病人，在服用本藥時須同時補充鉀離子。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.4\n產生高鈣血危險性較高之病人，在服用本藥時須同時補充鉀離子。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.5",
+          "title": "若是採用單一每日劑量給藥法時，最好在早晨服用，以使夜間睡眠，排尿次數增加之效應減至最低。",
+          "title_html": "若是採用單一每日劑量給藥法時，最好在早晨服用，以使夜間睡眠，排尿次數增加之效應減至最低。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "若是採用單一每日劑量給藥法時，最好在早晨服用，以使夜間睡眠，排尿次數增加之效應減至最低。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.5\n若是採用單一每日劑量給藥法時，最好在早晨服用，以使夜間睡眠，排尿次數增加之效應減至最低。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.6",
+          "title": "最大降血壓效應，要在治療開始後數天才會達到。",
+          "title_html": "最大降血壓效應，要在治療開始後數天才會達到。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "最大降血壓效應，要在治療開始後數天才會達到。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.6\n最大降血壓效應，要在治療開始後數天才會達到。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.7",
+          "title": "本藥如作為降壓療法上輔助劑時，降血壓藥的劑量必須減低以防血壓之過分降低。",
+          "title_html": "本藥如作為降壓療法上輔助劑時，降血壓藥的劑量必須減低以防血壓之過分降低。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "本藥如作為降壓療法上輔助劑時，降血壓藥的劑量必須減低以防血壓之過分降低。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.7\n本藥如作為降壓療法上輔助劑時，降血壓藥的劑量必須減低以防血壓之過分降低。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.8",
+          "title": "本藥如作為抗高鈣血劑使用時，應補充體液與氯化鈉，以有效維持細胞外液容積並增加鈣之排泄。",
+          "title_html": "本藥如作為抗高鈣血劑使用時，應補充體液與氯化鈉，以有效維持細胞外液容積並增加鈣之排泄。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "本藥如作為抗高鈣血劑使用時，應補充體液與氯化鈉，以有效維持細胞外液容積並增加鈣之排泄。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.8\n本藥如作為抗高鈣血劑使用時，應補充體液與氯化鈉，以有效維持細胞外液容積並增加鈣之排泄。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.9",
+          "title": "急性心肌梗塞所繼發之肺水腫或低血壓，應避免過分利尿，因有產生休克之危險。",
+          "title_html": "急性心肌梗塞所繼發之肺水腫或低血壓，應避免過分利尿，因有產生休克之危險。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "急性心肌梗塞所繼發之肺水腫或低血壓，應避免過分利尿，因有產生休克之危險。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.9\n急性心肌梗塞所繼發之肺水腫或低血壓，應避免過分利尿，因有產生休克之危險。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.10",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.10",
+          "title": "若病人須長期治療，需隨時測試病人之血中Creatinine值，尿素、電解質(如鉀離子、鈣離子、氯離子與碳酸鹽)。",
+          "title_html": "若病人須長期治療，需隨時測試病人之血中Creatinine值，尿素、電解質(如鉀離子、鈣離子、氯離子與碳酸鹽)。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "若病人須長期治療，需隨時測試病人之血中Creatinine值，尿素、電解質(如鉀離子、鈣離子、氯離子與碳酸鹽)。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.10\n若病人須長期治療，需隨時測試病人之血中Creatinine值，尿素、電解質(如鉀離子、鈣離子、氯離子與碳酸鹽)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.11",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.11",
+          "title": "若是用來治療高血壓，則須隨時測試病人情況。",
+          "title_html": "若是用來治療高血壓，則須隨時測試病人情況。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "若是用來治療高血壓，則須隨時測試病人情況。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.11\n若是用來治療高血壓，則須隨時測試病人情況。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "本藥對孕婦的安全性尚未確立。應就其使用上的危險與效益加以考慮。 在正常妊娠期，力行使用利尿劑是不適當的，因其使母體及胎兒暴露於不必要的危險。通常懷孕時不宜使用，因為在動物的生殖研究上顯示出本藥會引致畸胎。 FDA Pregnancy Category(懷孕用藥級數):C",
+          "content_html": "<p>本藥對孕婦的安全性尚未確立。應就其使用上的危險與效益加以考慮。<br>在正常妊娠期，力行使用利尿劑是不適當的，因其使母體及胎兒暴露於不必要的危險。通常懷孕時不宜使用，因為在動物的生殖研究上顯示出本藥會引致畸胎。</p><p>FDA Pregnancy Category(懷孕用藥級數):C</p>",
+          "search_text": "6.1\n懷孕\n本藥對孕婦的安全性尚未確立。應就其使用上的危險與效益加以考慮。 在正常妊娠期，力行使用利尿劑是不適當的，因其使母體及胎兒暴露於不必要的危險。通常懷孕時不宜使用，因為在動物的生殖研究上顯示出本藥會引致畸胎。 FDA Pregnancy Category(懷孕用藥級數):C",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "Furosemide會排泄於乳汁，哺乳之婦女不宜使用。",
+          "content_html": "<p>Furosemide會排泄於乳汁，哺乳之婦女不宜使用。</p>",
+          "search_text": "6.2\n哺乳\nFurosemide會排泄於乳汁，哺乳之婦女不宜使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7.1",
+          "parent_id": "6.7",
+          "level": 3,
+          "number": "6.7.1",
+          "title": "每日1或2個劑量要比小劑量頻繁給藥來得有效，特別是對腎功能不全病人。",
+          "title_html": "每日1或2個劑量要比小劑量頻繁給藥來得有效，特別是對腎功能不全病人。",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全",
+            "每日1或2個劑量要比小劑量頻繁給藥來得有效，特別是對腎功能不全病人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7.1\n每日1或2個劑量要比小劑量頻繁給藥來得有效，特別是對腎功能不全病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7.2",
+          "parent_id": "6.7",
+          "level": 3,
+          "number": "6.7.2",
+          "title": "雖然本藥對腎功能不良之患者為一有效之利尿劑，但是腎清除率之減低，可能需要使用較高的劑量並延長投藥間隔時間，以防積蓄作用並減少耳毒之危險。",
+          "title_html": "雖然本藥對腎功能不良之患者為一有效之利尿劑，但是腎清除率之減低，可能需要使用較高的劑量並延長投藥間隔時間，以防積蓄作用並減少耳毒之危險。",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全",
+            "雖然本藥對腎功能不良之患者為一有效之利尿劑，但是腎清除率之減低，可能需要使用較高的劑量並延長投藥間隔時間，以防積蓄作用並減少耳毒之危險。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7.2\n雖然本藥對腎功能不良之患者為一有效之利尿劑，但是腎清除率之減低，可能需要使用較高的劑量並延長投藥間隔時間，以防積蓄作用並減少耳毒之危險。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7.3",
+          "parent_id": "6.7",
+          "level": 3,
+          "number": "6.7.3",
+          "title": "本藥不會被透析移除。",
+          "title_html": "本藥不會被透析移除。",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全",
+            "本藥不會被透析移除。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7.3\n本藥不會被透析移除。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "7.1 Alcohol Barbiturates及麻醉劑與本藥共用時，會加重姿勢性低血壓。 7.2 Amphotericin B、Corticosteroids或ACTH與本藥共用時，會增強電解質之不平衡，特別是造成低血鉀症。 7.3 本藥會增高血液中之尿酸，使用抗痛風治療劑時，應適當調整抗痛風劑之劑量，以控制高尿酸血症及痛風症。 7.4 其他抗高血壓之治療劑（尤其是Diazoxide類），外科手術用之麻醉劑用藥與麻藥或非去極化性骨骼肌鬆弛劑與本藥共用時藥效會增強，劑量調整或有其必要。 7.5 強心配醣體（Cardiac Glycosides）與本藥共用時，會有增加與低血鉀症有關之洋地黃毒性的可能。 7.6 Cephaloridine或Cephalothin與本藥共用時，有增加腎毒性的可能。 7.7 Clofibrate與本藥共用時，會增強兩者的效能，導致肌肉酸痛、僵硬並且增加利尿作用，對有低蛋白血毒症的患者之使用，應特別注意。 7.8 本藥會增加血中葡萄糖並干擾降血糖藥之藥效。對於成年期糖尿病患者在治療期間及治療後，降血糖藥劑量需加調整。 7.9 Lithium Salts與本藥共用會引起鋰中毒，因為減低了腎清除率，除非病人可以密切監視，否則不宜使用。 7.10 Salicylates以高劑量與本藥共用，會導致水楊酸鹽毒性，因為他們競爭腎臟排泄部位。 7.11 可能加強某些抗生素的腎毒性（如胺糖類抗生素），故對因抗生素引起之腎功能不全病人須小心給藥。需切記其可能會加強胺糖類抗生素之耳毒性（如：Kanamycin、Gentamycin、Tobramycin）。這種聽力障礙 可能為不可逆，故此類藥物之併用，須僅限於真正迫切需要時。 7.12 會降低以下藥物之療效，如糖尿病製劑及增壓胺類，亦會加強以下藥物之作用，如Theophylline及箭毒類肌肉鬆弛劑。 7.13 會加強其它降血壓治療藥物之作用，尤其與ACE-Inhibitor併用時，病人血壓會明顯下降。 7.14 與非固醇類抗發炎性藥物併用（如：Indomethacin），其作用會減低而可能引起低容積血症病人之腎功能不全現象。",
+          "content_html": "<p>7.1 &nbsp; Alcohol Barbiturates及麻醉劑與本藥共用時，會加重姿勢性低血壓。<br>7.2 &nbsp; Amphotericin B、Corticosteroids或ACTH與本藥共用時，會增強電解質之不平衡，特別是造成低血鉀症。<br>7.3 &nbsp; 本藥會增高血液中之尿酸，使用抗痛風治療劑時，應適當調整抗痛風劑之劑量，以控制高尿酸血症及痛風症。<br>7.4 &nbsp; 其他抗高血壓之治療劑（尤其是Diazoxide類），外科手術用之麻醉劑用藥與麻藥或非去極化性骨骼肌鬆弛劑與本藥共用時藥效會增強，劑量調整或有其必要。<br>7.5 &nbsp; 強心配醣體（Cardiac Glycosides）與本藥共用時，會有增加與低血鉀症有關之洋地黃毒性的可能。<br>7.6 &nbsp; Cephaloridine或Cephalothin與本藥共用時，有增加腎毒性的可能。<br>7.7 &nbsp; Clofibrate與本藥共用時，會增強兩者的效能，導致肌肉酸痛、僵硬並且增加利尿作用，對有低蛋白血毒症的患者之使用，應特別注意。<br>7.8 &nbsp; 本藥會增加血中葡萄糖並干擾降血糖藥之藥效。對於成年期糖尿病患者在治療期間及治療後，降血糖藥劑量需加調整。<br>7.9 &nbsp; &nbsp;Lithium Salts與本藥共用會引起鋰中毒，因為減低了腎清除率，除非病人可以密切監視，否則不宜使用。<br>7.10 &nbsp; Salicylates以高劑量與本藥共用，會導致水楊酸鹽毒性，因為他們競爭腎臟排泄部位。<br>7.11 &nbsp; 可能加強某些抗生素的腎毒性（如胺糖類抗生素），故對因抗生素引起之腎功能不全病人須小心給藥。需切記其可能會加強胺糖類抗生素之耳毒性（如：Kanamycin、Gentamycin、Tobramycin）。這種聽力障礙 可能為不可逆，故此類藥物之併用，須僅限於真正迫切需要時。<br>7.12 &nbsp; 會降低以下藥物之療效，如糖尿病製劑及增壓胺類，亦會加強以下藥物之作用，如Theophylline及箭毒類肌肉鬆弛劑。<br>7.13 &nbsp; 會加強其它降血壓治療藥物之作用，尤其與ACE-Inhibitor併用時，病人血壓會明顯下降。<br>7.14 &nbsp; 與非固醇類抗發炎性藥物併用（如：Indomethacin），其作用會減低而可能引起低容積血症病人之腎功能不全現象。</p>",
+          "search_text": "7\n交互作用\n7.1 Alcohol Barbiturates及麻醉劑與本藥共用時，會加重姿勢性低血壓。 7.2 Amphotericin B、Corticosteroids或ACTH與本藥共用時，會增強電解質之不平衡，特別是造成低血鉀症。 7.3 本藥會增高血液中之尿酸，使用抗痛風治療劑時，應適當調整抗痛風劑之劑量，以控制高尿酸血症及痛風症。 7.4 其他抗高血壓之治療劑（尤其是Diazoxide類），外科手術用之麻醉劑用藥與麻藥或非去極化性骨骼肌鬆弛劑與本藥共用時藥效會增強，劑量調整或有其必要。 7.5 強心配醣體（Cardiac Glycosides）與本藥共用時，會有增加與低血鉀症有關之洋地黃毒性的可能。 7.6 Cephaloridine或Cephalothin與本藥共用時，有增加腎毒性的可能。 7.7 Clofibrate與本藥共用時，會增強兩者的效能，導致肌肉酸痛、僵硬並且增加利尿作用，對有低蛋白血毒症的患者之使用，應特別注意。 7.8 本藥會增加血中葡萄糖並干擾降血糖藥之藥效。對於成年期糖尿病患者在治療期間及治療後，降血糖藥劑量需加調整。 7.9 Lithium Salts與本藥共用會引起鋰中毒，因為減低了腎清除率，除非病人可以密切監視，否則不宜使用。 7.10 Salicylates以高劑量與本藥共用，會導致水楊酸鹽毒性，因為他們競爭腎臟排泄部位。 7.11 可能加強某些抗生素的腎毒性（如胺糖類抗生素），故對因抗生素引起之腎功能不全病人須小心給藥。需切記其可能會加強胺糖類抗生素之耳毒性（如：Kanamycin、Gentamycin、Tobramycin）。這種聽力障礙 可能為不可逆，故此類藥物之併用，須僅限於真正迫切需要時。 7.12 會降低以下藥物之療效，如糖尿病製劑及增壓胺類，亦會加強以下藥物之作用，如Theophylline及箭毒類肌肉鬆弛劑。 7.13 會加強其它降血壓治療藥物之作用，尤其與ACE-Inhibitor併用時，病人血壓會明顯下降。 7.14 與非固醇類抗發炎性藥物併用（如：Indomethacin），其作用會減低而可能引起低容積血症病人之腎功能不全現象。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "使用本藥時，若有以下之副作用發生時須特別注意： 口乾或口渴加重、不規則的心跳、情緒或心理狀態的改變、肌肉痙攣或疼痛、噁心、嘔吐、異常的疲累及虛弱或脈搏微弱等（可能由於低鈉血症、低血氯性鹼毒症、低血鉀症所引起的電解質不平衡所致），關節痛、腰或胃痛，耳鳴或失聰。 劇烈的胃痛並帶有噁心及嘔吐，皮疹或蕁麻疹，喉嚨痛或發燒，異常性的出血或瘀傷，黃視及眼或皮膚發黃。如有暈眩或頭昏眼花，尤其是由躺著或坐著起立時、腹瀉、皮膚對日光的敏感性增加、食慾降低及胃不舒服等症狀持續時，應予醫療照應。 皮膚及皮下組織異常 不常見：搔癢症、蕁麻疹、疹子、水泡性皮疹、多形性紅斑、類天疱瘡、剝落性皮膚炎、紫斑、光敏感性。 頻率未知：史蒂芬強生症候群、毒性表皮壞死、AGEP（急性廣泛性發疹性膿皰症）、DRESS（藥物疹合併嗜伊紅血症及全身症狀）、苔蘚樣反應（lichenoid reactions）。",
+          "content_html": "<p>使用本藥時，若有以下之副作用發生時須特別注意：</p><p>口乾或口渴加重、不規則的心跳、情緒或心理狀態的改變、肌肉痙攣或疼痛、噁心、嘔吐、異常的疲累及虛弱或脈搏微弱等（可能由於低鈉血症、低血氯性鹼毒症、低血鉀症所引起的電解質不平衡所致），關節痛、腰或胃痛，耳鳴或失聰。</p><p>劇烈的胃痛並帶有噁心及嘔吐，皮疹或蕁麻疹，喉嚨痛或發燒，異常性的出血或瘀傷，黃視及眼或皮膚發黃。如有暈眩或頭昏眼花，尤其是由躺著或坐著起立時、腹瀉、皮膚對日光的敏感性增加、食慾降低及胃不舒服等症狀持續時，應予醫療照應。</p><p><strong>皮膚及皮下組織異常</strong></p><p>不常見：搔癢症、蕁麻疹、疹子、水泡性皮疹、多形性紅斑、類天疱瘡、剝落性皮膚炎、紫斑、光敏感性。</p><p>頻率未知：史蒂芬強生症候群、毒性表皮壞死、AGEP（急性廣泛性發疹性膿皰症）、DRESS（藥物疹合併嗜伊紅血症及全身症狀）、苔蘚樣反應（lichenoid reactions）。</p>",
+          "search_text": "8\n副作用/不良反應\n使用本藥時，若有以下之副作用發生時須特別注意： 口乾或口渴加重、不規則的心跳、情緒或心理狀態的改變、肌肉痙攣或疼痛、噁心、嘔吐、異常的疲累及虛弱或脈搏微弱等（可能由於低鈉血症、低血氯性鹼毒症、低血鉀症所引起的電解質不平衡所致），關節痛、腰或胃痛，耳鳴或失聰。 劇烈的胃痛並帶有噁心及嘔吐，皮疹或蕁麻疹，喉嚨痛或發燒，異常性的出血或瘀傷，黃視及眼或皮膚發黃。如有暈眩或頭昏眼花，尤其是由躺著或坐著起立時、腹瀉、皮膚對日光的敏感性增加、食慾降低及胃不舒服等症狀持續時，應予醫療照應。 皮膚及皮下組織異常 不常見：搔癢症、蕁麻疹、疹子、水泡性皮疹、多形性紅斑、類天疱瘡、剝落性皮膚炎、紫斑、光敏感性。 頻率未知：史蒂芬強生症候群、毒性表皮壞死、AGEP（急性廣泛性發疹性膿皰症）、DRESS（藥物疹合併嗜伊紅血症及全身症狀）、苔蘚樣反應（lichenoid reactions）。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.2\n臨床試驗經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "本藥主要作用在腎臟亨利氏環的上行支，抑制電解質的再吸收；它也作用在遠端腎小管減低氯化鈉的再吸收與增加鉀的排泄，同時，還對在近端腎小管的電解質輸送呈現直接效應。它有91～97%與蛋白質結合（幾乎全與白蛋白結合），本藥主由肝臟代謝，約有88%由腎臟排泄，其餘（12％）則由膽道排泄。本藥口服時約有60～70％被吸收，食物會減低吸收速率，但不會改變生體可用率或利尿效應。腎病末期病人的吸收減到43～46%。由於充血性心臟衰竭或腎病綜合症所造成的腸水腫也會減低吸收，這些病人最好採用注射給藥。 投藥途徑 半生期(小時) 利 尿 效 應 正常／無尿 起始時間(分) 尖峰(小時) 作用期(小時) 口 服 0.5～1／0.8～15 30～60 1～2 6～8 注 射 0.5～1／0.8～15 5 1/3～1 2 半生期隨個體而有大的變異。有嚴重腎臟受損病人如腎病綜合症，其腎清除率減低，但總血漿清除率並不改變，因為肝清除率增加了。尿毒病人，其腎與非腎清除率均減低，因此排除會遲延。有腎與肝功能不全病人，其半生期約為11~20小時，新生兒之半生期為7~8小時，可能是由於大的分佈體積及低的腎與肝清除率。",
+          "content_html": "<p>本藥主要作用在腎臟亨利氏環的上行支，抑制電解質的再吸收；它也作用在遠端腎小管減低氯化鈉的再吸收與增加鉀的排泄，同時，還對在近端腎小管的電解質輸送呈現直接效應。它有91～97%與蛋白質結合（幾乎全與白蛋白結合），本藥主由肝臟代謝，約有88%由腎臟排泄，其餘（12％）則由膽道排泄。本藥口服時約有60～70％被吸收，食物會減低吸收速率，但不會改變生體可用率或利尿效應。腎病末期病人的吸收減到43～46%。由於充血性心臟衰竭或腎病綜合症所造成的腸水腫也會減低吸收，這些病人最好採用注射給藥。</p><figure class=\"table\"><table style=\"border:1.5px solid Black;\"><tbody><tr><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;text-align:center;width:33.7pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">投藥途徑</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:64.35pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">半生期(小時)</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:5.0cm;\" colspan=\"3\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">利&nbsp; &nbsp; 尿&nbsp; &nbsp; 效&nbsp; &nbsp; 應</span></p></td></tr><tr><td>&nbsp;</td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;vertical-align:top;width:64.35pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">正常／無尿</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;vertical-align:top;width:2.0cm;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">起始時間(分)</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;vertical-align:top;width:42.5pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">尖峰(小時)</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;vertical-align:top;width:42.55pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">作用期(小時)</span></p></td></tr><tr><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:33.7pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">口 服</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:64.35pt;\"><p style=\"text-align:center;\">&nbsp;0.5<span style=\"font-family:標楷體;\">～</span>1<span style=\"font-family:標楷體;\">／</span>0.8<span style=\"font-family:標楷體;\">～</span>15</p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:2.0cm;\"><p style=\"text-align:center;\">30<span style=\"font-family:標楷體;\">～</span>60</p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;text-align:center;width:42.5pt;\"><p style=\"text-align:center;\">1<span style=\"font-family:標楷體;\">～</span>2</p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;text-align:center;width:42.55pt;\"><p style=\"text-align:center;\">6<span style=\"font-family:標楷體;\">～</span>8</p></td></tr><tr><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:33.7pt;\"><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">注 射</span></p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:64.35pt;\"><p style=\"text-align:center;\">&nbsp;0.5<span style=\"font-family:標楷體;\">～</span>1<span style=\"font-family:標楷體;\">／</span>0.8<span style=\"font-family:標楷體;\">～</span>15</p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;width:2.0cm;\"><p style=\"text-align:center;\">5</p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;text-align:center;width:42.5pt;\"><p style=\"text-align:center;\">1/3<span style=\"font-family:標楷體;\">～</span>1</p></td><td style=\"border:1.5px solid Black;padding:0cm 1.4pt;text-align:center;width:42.55pt;\"><p style=\"text-align:center;\">2</p></td></tr></tbody></table></figure><p>半生期隨個體而有大的變異。有嚴重腎臟受損病人如腎病綜合症，其腎清除率減低，但總血漿清除率並不改變，因為肝清除率增加了。尿毒病人，其腎與非腎清除率均減低，因此排除會遲延。有腎與肝功能不全病人，其半生期約為11~20小時，新生兒之半生期為7~8小時，可能是由於大的分佈體積及低的腎與肝清除率。</p>",
+          "search_text": "10.1\n作用機轉\n本藥主要作用在腎臟亨利氏環的上行支，抑制電解質的再吸收；它也作用在遠端腎小管減低氯化鈉的再吸收與增加鉀的排泄，同時，還對在近端腎小管的電解質輸送呈現直接效應。它有91～97%與蛋白質結合（幾乎全與白蛋白結合），本藥主由肝臟代謝，約有88%由腎臟排泄，其餘（12％）則由膽道排泄。本藥口服時約有60～70％被吸收，食物會減低吸收速率，但不會改變生體可用率或利尿效應。腎病末期病人的吸收減到43～46%。由於充血性心臟衰竭或腎病綜合症所造成的腸水腫也會減低吸收，這些病人最好採用注射給藥。 投藥途徑 半生期(小時) 利 尿 效 應 正常／無尿 起始時間(分) 尖峰(小時) 作用期(小時) 口 服 0.5～1／0.8～15 30～60 1～2 6～8 注 射 0.5～1／0.8～15 5 1/3～1 2 半生期隨個體而有大的變異。有嚴重腎臟受損病人如腎病綜合症，其腎清除率減低，但總血漿清除率並不改變，因為肝清除率增加了。尿毒病人，其腎與非腎清除率均減低，因此排除會遲延。有腎與肝功能不全病人，其半生期約為11~20小時，新生兒之半生期為7~8小時，可能是由於大的分佈體積及低的腎與肝清除率。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資料。",
+          "content_html": "<p>目前尚無資料。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資料。",
+          "content_html": "<p>目前尚無資料。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資料。",
+          "content_html": "<p>目前尚無資料。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資料。",
+          "content_html": "<p>目前尚無資料。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "2~1000粒玻璃瓶裝及鋁箔盒裝。",
+          "content_html": "<p>2~1000粒玻璃瓶裝及鋁箔盒裝。</p>",
+          "search_text": "13.1\n包裝\n2~1000粒玻璃瓶裝及鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "請置於緊密容器內，避光保存於25℃以下存放。",
+          "content_html": "<p>請置於緊密容器內，避光保存於25℃以下存放。</p>",
+          "search_text": "13.3\n儲存條件\n請置於緊密容器內，避光保存於25℃以下存放。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每錠含Furosemide……………………..40mg\n1.2\n賦形劑\nLactose、Starch 1500、Magnesium Stearate、Talc\n1.3\n劑型\n錠劑\n1.4\n藥品外觀\n白色圓扁型錠劑，錠面上刻有Code No.TKP-020\n2\n適應症\n利尿、高血壓\n3\n用法及用量\n3.1\n用法用量\n除非醫師另有處方，其建議劑量如下：\n3.1.1\n一般成人劑量：\n抗高血鈣劑─口服，一天120mg（一次或分2～3次服用）。 抗高血壓劑─口服，初劑量：40mg，一天2次，再依患者反應調整劑量。 利尿劑─口服，初劑量：20～80mg，一次服用，再每隔6～8小時另增加20～40mg，直到所期反應達到為止。經標定確定之維持劑量，每日以單劑量或分成2～3劑量給予或隔天給予。每日最高劑量不得超600mg，但慢性腎衰竭者，每日劑量有高達4g者。 【注意】年老者對一般成人劑量之效應，可能較為敏感。\n3.1.2\n一般兒童劑量：\n利尿劑─口服，初劑量每公斤體重2mg作單劑量服用，然後每6~8小時，依每公斤體重增加1~2mg，調整劑量直到反應達到為止。但每日最高劑量不可超過40mg。 【注意】對有腎病綜合症之兒童，可能需要高達每公斤體重5mg之劑量。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n目前尚無資訊。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n對Sulfonamide類藥物過敏病人，對本藥亦可能產生過敏。\n5.1.2\n如有下列醫療問題存在時，本藥之使用應加留意：\n無尿或嚴重腎功能不良(利尿反應會延長)、糖尿病、曾有痛風、肝功能不良包括肝硬化及腹水(因為脫水與電解質不平衡會導致肝性昏迷及死亡，治療之起始最好住院)。\n5.1.3\n下列項目之檢查在病人的用藥監視上特別重要：\nBUN、CO2、血清電解質(長期治療病人應定期實施，特別是同時服用強心配醣體或系統性作用固醇或有嚴重肝硬化存在時)。\n5.1.4\n產生高鈣血危險性較高之病人，在服用本藥時須同時補充鉀離子。\n5.1.5\n若是採用單一每日劑量給藥法時，最好在早晨服用，以使夜間睡眠，排尿次數增加之效應減至最低。\n5.1.6\n最大降血壓效應，要在治療開始後數天才會達到。\n5.1.7\n本藥如作為降壓療法上輔助劑時，降血壓藥的劑量必須減低以防血壓之過分降低。\n5.1.8\n本藥如作為抗高鈣血劑使用時，應補充體液與氯化鈉，以有效維持細胞外液容積並增加鈣之排泄。\n5.1.9\n急性心肌梗塞所繼發之肺水腫或低血壓，應避免過分利尿，因有產生休克之危險。\n5.1.10\n若病人須長期治療，需隨時測試病人之血中Creatinine值，尿素、電解質(如鉀離子、鈣離子、氯離子與碳酸鹽)。\n5.1.11\n若是用來治療高血壓，則須隨時測試病人情況。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n本藥對孕婦的安全性尚未確立。應就其使用上的危險與效益加以考慮。 在正常妊娠期，力行使用利尿劑是不適當的，因其使母體及胎兒暴露於不必要的危險。通常懷孕時不宜使用，因為在動物的生殖研究上顯示出本藥會引致畸胎。 FDA Pregnancy Category(懷孕用藥級數):C\n6.2\n哺乳\nFurosemide會排泄於乳汁，哺乳之婦女不宜使用。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.7.1\n每日1或2個劑量要比小劑量頻繁給藥來得有效，特別是對腎功能不全病人。\n6.7.2\n雖然本藥對腎功能不良之患者為一有效之利尿劑，但是腎清除率之減低，可能需要使用較高的劑量並延長投藥間隔時間，以防積蓄作用並減少耳毒之危險。\n6.7.3\n本藥不會被透析移除。\n6.8\n其他族群\n7\n交互作用\n7.1 Alcohol Barbiturates及麻醉劑與本藥共用時，會加重姿勢性低血壓。 7.2 Amphotericin B、Corticosteroids或ACTH與本藥共用時，會增強電解質之不平衡，特別是造成低血鉀症。 7.3 本藥會增高血液中之尿酸，使用抗痛風治療劑時，應適當調整抗痛風劑之劑量，以控制高尿酸血症及痛風症。 7.4 其他抗高血壓之治療劑（尤其是Diazoxide類），外科手術用之麻醉劑用藥與麻藥或非去極化性骨骼肌鬆弛劑與本藥共用時藥效會增強，劑量調整或有其必要。 7.5 強心配醣體（Cardiac Glycosides）與本藥共用時，會有增加與低血鉀症有關之洋地黃毒性的可能。 7.6 Cephaloridine或Cephalothin與本藥共用時，有增加腎毒性的可能。 7.7 Clofibrate與本藥共用時，會增強兩者的效能，導致肌肉酸痛、僵硬並且增加利尿作用，對有低蛋白血毒症的患者之使用，應特別注意。 7.8 本藥會增加血中葡萄糖並干擾降血糖藥之藥效。對於成年期糖尿病患者在治療期間及治療後，降血糖藥劑量需加調整。 7.9 Lithium Salts與本藥共用會引起鋰中毒，因為減低了腎清除率，除非病人可以密切監視，否則不宜使用。 7.10 Salicylates以高劑量與本藥共用，會導致水楊酸鹽毒性，因為他們競爭腎臟排泄部位。 7.11 可能加強某些抗生素的腎毒性（如胺糖類抗生素），故對因抗生素引起之腎功能不全病人須小心給藥。需切記其可能會加強胺糖類抗生素之耳毒性（如：Kanamycin、Gentamycin、Tobramycin）。這種聽力障礙 可能為不可逆，故此類藥物之併用，須僅限於真正迫切需要時。 7.12 會降低以下藥物之療效，如糖尿病製劑及增壓胺類，亦會加強以下藥物之作用，如Theophylline及箭毒類肌肉鬆弛劑。 7.13 會加強其它降血壓治療藥物之作用，尤其與ACE-Inhibitor併用時，病人血壓會明顯下降。 7.14 與非固醇類抗發炎性藥物併用（如：Indomethacin），其作用會減低而可能引起低容積血症病人之腎功能不全現象。\n8\n副作用/不良反應\n使用本藥時，若有以下之副作用發生時須特別注意： 口乾或口渴加重、不規則的心跳、情緒或心理狀態的改變、肌肉痙攣或疼痛、噁心、嘔吐、異常的疲累及虛弱或脈搏微弱等（可能由於低鈉血症、低血氯性鹼毒症、低血鉀症所引起的電解質不平衡所致），關節痛、腰或胃痛，耳鳴或失聰。 劇烈的胃痛並帶有噁心及嘔吐，皮疹或蕁麻疹，喉嚨痛或發燒，異常性的出血或瘀傷，黃視及眼或皮膚發黃。如有暈眩或頭昏眼花，尤其是由躺著或坐著起立時、腹瀉、皮膚對日光的敏感性增加、食慾降低及胃不舒服等症狀持續時，應予醫療照應。 皮膚及皮下組織異常 不常見：搔癢症、蕁麻疹、疹子、水泡性皮疹、多形性紅斑、類天疱瘡、剝落性皮膚炎、紫斑、光敏感性。 頻率未知：史蒂芬強生症候群、毒性表皮壞死、AGEP（急性廣泛性發疹性膿皰症）、DRESS（藥物疹合併嗜伊紅血症及全身症狀）、苔蘚樣反應（lichenoid reactions）。\n8.1\n臨床重要副作用/不良反應\n目前尚無資訊。\n8.2\n臨床試驗經驗\n目前尚無資訊。\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n本藥主要作用在腎臟亨利氏環的上行支，抑制電解質的再吸收；它也作用在遠端腎小管減低氯化鈉的再吸收與增加鉀的排泄，同時，還對在近端腎小管的電解質輸送呈現直接效應。它有91～97%與蛋白質結合（幾乎全與白蛋白結合），本藥主由肝臟代謝，約有88%由腎臟排泄，其餘（12％）則由膽道排泄。本藥口服時約有60～70％被吸收，食物會減低吸收速率，但不會改變生體可用率或利尿效應。腎病末期病人的吸收減到43～46%。由於充血性心臟衰竭或腎病綜合症所造成的腸水腫也會減低吸收，這些病人最好採用注射給藥。 投藥途徑 半生期(小時) 利 尿 效 應 正常／無尿 起始時間(分) 尖峰(小時) 作用期(小時) 口 服 0.5～1／0.8～15 30～60 1～2 6～8 注 射 0.5～1／0.8～15 5 1/3～1 2 半生期隨個體而有大的變異。有嚴重腎臟受損病人如腎病綜合症，其腎清除率減低，但總血漿清除率並不改變，因為肝清除率增加了。尿毒病人，其腎與非腎清除率均減低，因此排除會遲延。有腎與肝功能不全病人，其半生期約為11~20小時，新生兒之半生期為7~8小時，可能是由於大的分佈體積及低的腎與肝清除率。\n10.2\n藥效藥理特性\n目前尚無資料。\n10.3\n臨床前安全性資料\n目前尚無資料。\n11\n藥物動力學特性\n目前尚無資料。\n12\n臨床試驗資料\n目前尚無資料。\n13\n包裝及儲存\n13.1\n包裝\n2~1000粒玻璃瓶裝及鋁箔盒裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n請置於緊密容器內，避光保存於25℃以下存放。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "杏林新生製藥股份有限公司",
+          "address": "桃園市龍潭區三和村店湖一路２３７號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "杏林新生製藥股份有限公司",
+          "address": "桃園市龍潭區三和里店湖一路237號"
+        }
+      ]
+    }
+  ]
+}

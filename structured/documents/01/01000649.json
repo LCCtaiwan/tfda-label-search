@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:03:13.919099+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01000649",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第000649號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第000649號",
+      "matched_license_code": "01000649",
+      "matched_nhi_code": "",
+      "drug_name_zh": "德利能糖衣錠10毫克",
+      "drug_name_en": "TRYNOL S.C. TABLETS 10MG",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2024-12-05",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠含Amitriptyline hydrochloride 10mg",
+          "content_html": "<p>每錠含Amitriptyline hydrochloride 10mg</p>",
+          "search_text": "1.1\n有效成分及含量\n每錠含Amitriptyline hydrochloride 10mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Lactose Monohydrate、Corn Starch、Cellulose Microcrystalline、Silicon Dioxide、Magnesium Stearate、Hydroxypropyl Methylcellulose 615、Hydroxypropyl Methylcellulose Phthalate 55、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Random Copolymer、Tartrazine Aluminum Lake、Brilliant Blue FCF Aluminum Lake",
+          "content_html": "<p>Lactose Monohydrate、Corn Starch、Cellulose Microcrystalline、Silicon Dioxide、Magnesium Stearate、Hydroxypropyl Methylcellulose 615、Hydroxypropyl Methylcellulose Phthalate 55、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Random Copolymer、Tartrazine Aluminum Lake、Brilliant Blue FCF Aluminum Lake</p>",
+          "search_text": "1.2\n賦形劑\nLactose Monohydrate、Corn Starch、Cellulose Microcrystalline、Silicon Dioxide、Magnesium Stearate、Hydroxypropyl Methylcellulose 615、Hydroxypropyl Methylcellulose Phthalate 55、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Random Copolymer、Tartrazine Aluminum Lake、Brilliant Blue FCF Aluminum Lake",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "糖衣錠",
+          "content_html": "<p>糖衣錠</p>",
+          "search_text": "1.3\n劑型\n糖衣錠",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "圓形綠色",
+          "content_html": "<p>圓形綠色</p>",
+          "search_text": "1.4\n藥品外觀\n圓形綠色",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "憂鬱病",
+          "content_html": "<p>憂鬱病</p>",
+          "search_text": "2\n適應症\n憂鬱病",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "通常成人每次25mg，1日服用2~3次，以後視症狀需要每日可增服25mg，至症狀緩解後保持維持量每日50~100mg分次服用2~3個星期，視症狀需要亦可繼續服用3個月，本藥須由醫師處方使用。",
+          "content_html": "<p>通常成人每次25mg，1日服用2~3次，以後視症狀需要每日可增服25mg，至症狀緩解後保持維持量每日50~100mg分次服用2~3個星期，視症狀需要亦可繼續服用3個月，本藥須由醫師處方使用。</p>",
+          "search_text": "3.1\n用法用量\n通常成人每次25mg，1日服用2~3次，以後視症狀需要每日可增服25mg，至症狀緩解後保持維持量每日50~100mg分次服用2~3個星期，視症狀需要亦可繼續服用3個月，本藥須由醫師處方使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "Amitriptyline hydrochloride禁用於曾對本藥過敏的病人，也不得與單胺氧化酶抑制劑併用。同時使用三環類抗抑鬱劑與單胺氧化酶抑制劑的病人，曾有出現體溫過高現象(hyperpyretic crises)、嚴重痙攣、以及死亡的情況。若要用amitriptyline hydrochloride取代單胺氧化酶抑制劑，必須在停用單胺氧化酶抑制劑後，最少隔14天以上，才可以謹慎地以amitriptyline hydrochloride開始治療，再慢慢增加劑量，直到獲得最佳療效為止。 正在服用cisapride的病人禁用amitriptyline hydrochloride，因有可能發生心臟之副作用，包括QT波延長，心律不整及擾亂傳導系統。 本藥不適用於發生心肌梗塞後的緊急恢復期(acute recovery phase)。 參見「6.1懷孕」用藥。",
+          "content_html": "<p>Amitriptyline hydrochloride禁用於曾對本藥過敏的病人，也不得與單胺氧化酶抑制劑併用。同時使用三環類抗抑鬱劑與單胺氧化酶抑制劑的病人，曾有出現體溫過高現象(hyperpyretic crises)、嚴重痙攣、以及死亡的情況。若要用amitriptyline hydrochloride取代單胺氧化酶抑制劑，必須在停用單胺氧化酶抑制劑後，最少隔14天以上，才可以謹慎地以amitriptyline hydrochloride開始治療，再慢慢增加劑量，直到獲得最佳療效為止。<br>正在服用cisapride的病人禁用amitriptyline hydrochloride，因有可能發生心臟之副作用，包括QT波延長，心律不整及擾亂傳導系統。<br>本藥不適用於發生心肌梗塞後的緊急恢復期(acute recovery phase)。<br>參見「6.1懷孕」用藥。</p>",
+          "search_text": "4\n禁忌\nAmitriptyline hydrochloride禁用於曾對本藥過敏的病人，也不得與單胺氧化酶抑制劑併用。同時使用三環類抗抑鬱劑與單胺氧化酶抑制劑的病人，曾有出現體溫過高現象(hyperpyretic crises)、嚴重痙攣、以及死亡的情況。若要用amitriptyline hydrochloride取代單胺氧化酶抑制劑，必須在停用單胺氧化酶抑制劑後，最少隔14天以上，才可以謹慎地以amitriptyline hydrochloride開始治療，再慢慢增加劑量，直到獲得最佳療效為止。 正在服用cisapride的病人禁用amitriptyline hydrochloride，因有可能發生心臟之副作用，包括QT波延長，心律不整及擾亂傳導系統。 本藥不適用於發生心肌梗塞後的緊急恢復期(acute recovery phase)。 參見「6.1懷孕」用藥。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "【警語】 1. 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial，RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。 2. 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用amitriptyline hydrochloride或其他抗憂鬱劑於小孩、青少年和年輕人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。 【注意事項】 一般性 曾有癲癇發作(seizures)病史之病人，以及肝功能受損的病人，使用amitriptyline hydrochloride時必須非常謹慎。此外因為它有類似阿托品(atropine)的作用，因此若病人曾有尿液滯留的病史，或是患有窄角性青光眼，或有眼內壓上升的情形時，亦須謹慎使用。對於患有窄角性青光眼的病人，即使只是使用一般劑量，都有可能促使發作症狀出現。 曾有報導，病人服用amitriptyline hydrochloride過量遲至56小時後發生致死性心律異常(dysrhythmia)現象。 可能的話，病人在進行事先安排之手術前數天須停藥。 曾報導當三環類抗抑鬱劑與乙醯膽鹼受體阻斷劑或抗精神分裂藥物(neuroleptic drugs)併服時，發生體溫過高的現象，尤其在天熱時更易發生。",
+          "content_html": "<p>【警語】</p><p>1. 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial，RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。</p><p><br>2. 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用amitriptyline hydrochloride或其他抗憂鬱劑於小孩、青少年和年輕人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。<br>&nbsp;</p><p>【注意事項】</p><p><u>一般性</u><br>曾有癲癇發作(seizures)病史之病人，以及肝功能受損的病人，使用amitriptyline hydrochloride時必須非常謹慎。此外因為它有類似阿托品(atropine)的作用，因此若病人曾有尿液滯留的病史，或是患有窄角性青光眼，或有眼內壓上升的情形時，亦須謹慎使用。對於患有窄角性青光眼的病人，即使只是使用一般劑量，都有可能促使發作症狀出現。<br>曾有報導，病人服用amitriptyline hydrochloride過量遲至56小時後發生致死性心律異常(dysrhythmia)現象。<br>可能的話，病人在進行事先安排之手術前數天須停藥。<br>曾報導當三環類抗抑鬱劑與乙醯膽鹼受體阻斷劑或抗精神分裂藥物(neuroleptic drugs)併服時，發生體溫過高的現象，尤其在天熱時更易發生。</p>",
+          "search_text": "5.1\n警語/注意事項\n【警語】 1. 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial，RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。 2. 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用amitriptyline hydrochloride或其他抗憂鬱劑於小孩、青少年和年輕人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。 【注意事項】 一般性 曾有癲癇發作(seizures)病史之病人，以及肝功能受損的病人，使用amitriptyline hydrochloride時必須非常謹慎。此外因為它有類似阿托品(atropine)的作用，因此若病人曾有尿液滯留的病史，或是患有窄角性青光眼，或有眼內壓上升的情形時，亦須謹慎使用。對於患有窄角性青光眼的病人，即使只是使用一般劑量，都有可能促使發作症狀出現。 曾有報導，病人服用amitriptyline hydrochloride過量遲至56小時後發生致死性心律異常(dysrhythmia)現象。 可能的話，病人在進行事先安排之手術前數天須停藥。 曾報導當三環類抗抑鬱劑與乙醯膽鹼受體阻斷劑或抗精神分裂藥物(neuroleptic drugs)併服時，發生體溫過高的現象，尤其在天熱時更易發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "此藥可能傷害某些病人之警覺性，因警覺性降低結果，若從事開車及其他活動極為危險，須予避免。",
+          "content_html": "<p>此藥可能傷害某些病人之警覺性，因警覺性降低結果，若從事開車及其他活動極為危險，須予避免。</p>",
+          "search_text": "5.3\n操作機械能力\n此藥可能傷害某些病人之警覺性，因警覺性降低結果，若從事開車及其他活動極為危險，須予避免。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "對於懷孕婦女，尚無控制良好的臨床研究，因此對於已懷孕婦女，或是可能將會懷孕的婦女，必須先衡量此藥對母親及小孩的利益，以及可能會導致的危險性，再行決定是否服藥。",
+          "content_html": "<p>對於懷孕婦女，尚無控制良好的臨床研究，因此對於已懷孕婦女，或是可能將會懷孕的婦女，必須先衡量此藥對母親及小孩的利益，以及可能會導致的危險性，再行決定是否服藥。</p>",
+          "search_text": "6.1\n懷孕\n對於懷孕婦女，尚無控制良好的臨床研究，因此對於已懷孕婦女，或是可能將會懷孕的婦女，必須先衡量此藥對母親及小孩的利益，以及可能會導致的危險性，再行決定是否服藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "Amitriptyline hydrochloride可出現於乳汁中。因amitriptyline hydrochloride可能使嬰兒造成嚴重的副作用，故應該決定是要停止哺乳或是停止用藥。",
+          "content_html": "<p>Amitriptyline hydrochloride可出現於乳汁中。因amitriptyline hydrochloride可能使嬰兒造成嚴重的副作用，故應該決定是要停止哺乳或是停止用藥。</p>",
+          "search_text": "6.2\n哺乳\nAmitriptyline hydrochloride可出現於乳汁中。因amitriptyline hydrochloride可能使嬰兒造成嚴重的副作用，故應該決定是要停止哺乳或是停止用藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "因為缺乏使用此藥治療孩童抑鬱症的實際臨床經驗，因此不建議12歲以下的抑鬱症患者使用此藥。",
+          "content_html": "<p>因為缺乏使用此藥治療孩童抑鬱症的實際臨床經驗，因此不建議12歲以下的抑鬱症患者使用此藥。</p>",
+          "search_text": "6.4\n小兒\n因為缺乏使用此藥治療孩童抑鬱症的實際臨床經驗，因此不建議12歲以下的抑鬱症患者使用此藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "心血管疾病 有心血管疾病的病人須予密切觀察。三環類抗抑鬱劑包括amitriptyline hydrochloride，特別是在使用高劑量時，曾產生心律不整、竇結性心跳加速、以及傳導時間延長的情形。使用這類藥物的病人，也曾出現過心肌梗塞以及中風的現象。 內分泌疾病 甲狀腺腫大的病人，或是正在服用治療甲狀腺藥物的病人，使用amitriptyline hydrochloride必須嚴密監督。 中樞神經系統疾病 患抑鬱症病人在接受治療期間仍有自殺可能，因此不可讓病人有機會取得大量的本藥品。 若使用amitriptyline hydrochloride治療精神分裂症(schizophrenia)的抑鬱症部分，精神方面的症狀可能會惡化；同樣的，帶有躁狂-抑鬱症狀的精神病患，抑鬱的狀態可能會轉變為躁狂的型態。妄想性精神錯亂(paranoid delusion)，不管是否帶有敵意，也都可能會有惡化現象。以上任何情況，都可能應該減低amitriptyline hydrochloride的用量，或者是同時使用抗精神病藥物(antipsychotic drug)。",
+          "content_html": "<p><u>心血管疾病</u><br>有心血管疾病的病人須予密切觀察。三環類抗抑鬱劑包括amitriptyline hydrochloride，特別是在使用高劑量時，曾產生心律不整、竇結性心跳加速、以及傳導時間延長的情形。使用這類藥物的病人，也曾出現過心肌梗塞以及中風的現象。</p><p><br><u>內分泌疾病</u><br>甲狀腺腫大的病人，或是正在服用治療甲狀腺藥物的病人，使用amitriptyline hydrochloride必須嚴密監督。</p><p><br><u>中樞神經系統疾病</u><br>患抑鬱症病人在接受治療期間仍有自殺可能，因此不可讓病人有機會取得大量的本藥品。<br>若使用amitriptyline hydrochloride治療精神分裂症(schizophrenia)的抑鬱症部分，精神方面的症狀可能會惡化；同樣的，帶有躁狂-抑鬱症狀的精神病患，抑鬱的狀態可能會轉變為躁狂的型態。妄想性精神錯亂(paranoid delusion)，不管是否帶有敵意，也都可能會有惡化現象。以上任何情況，都可能應該減低amitriptyline hydrochloride的用量，或者是同時使用抗精神病藥物(antipsychotic drug)。</p>",
+          "search_text": "6.8\n其他族群\n心血管疾病 有心血管疾病的病人須予密切觀察。三環類抗抑鬱劑包括amitriptyline hydrochloride，特別是在使用高劑量時，曾產生心律不整、竇結性心跳加速、以及傳導時間延長的情形。使用這類藥物的病人，也曾出現過心肌梗塞以及中風的現象。 內分泌疾病 甲狀腺腫大的病人，或是正在服用治療甲狀腺藥物的病人，使用amitriptyline hydrochloride必須嚴密監督。 中樞神經系統疾病 患抑鬱症病人在接受治療期間仍有自殺可能，因此不可讓病人有機會取得大量的本藥品。 若使用amitriptyline hydrochloride治療精神分裂症(schizophrenia)的抑鬱症部分，精神方面的症狀可能會惡化；同樣的，帶有躁狂-抑鬱症狀的精神病患，抑鬱的狀態可能會轉變為躁狂的型態。妄想性精神錯亂(paranoid delusion)，不管是否帶有敵意，也都可能會有惡化現象。以上任何情況，都可能應該減低amitriptyline hydrochloride的用量，或者是同時使用抗精神病藥物(antipsychotic drug)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "其他抗憂鬱劑 因為amitriptyline hydrochloride的藥效強，因此若與它種抗抑鬱劑合用時，往往無法再使療效提高。當病人同時使用不同作用機轉的抗抑鬱劑時，曾出現不良反應。因此唯有對療效增強的可能性有充分的認知，並充分了解兩藥的藥理作用，才可併用amitriptyline hydrochloride和其他種類的抗抑鬱劑。病人服用amitriptyline hydrochloride，突然改用protriptyline，尚未曾出現過不良事件報導，反之亦然。 GUANETHIDINE Amitriptyline hydrochloride可能阻斷guanethidine或類似作用之化合物之降血壓作用。 乙醯膽鹼受體阻斷劑／擬交感神經類藥物 當amitriptyline hydrochloride與乙醯膽鹼受體阻斷劑或是擬交感神經類藥物（包括局部麻醉劑併用腎上腺素）併用時，必須緊密監督病人，並且小心地調整劑量。當病人併用三環類抗抑鬱劑和乙醯膽鹼受體阻斷劑時，可能會出現麻痹性腸阻塞的現象。 中樞神經系統抑制劑 Amitriptyline hydrochloride可能加強病人對酒精的反應，並加強barbiturates及其他中神經系統抑制劑的藥效。 若病人同時服用大量的ethchlorvynol時，必須非常謹慎。曾經有併用ethchlorvynol 1g與amitriptyline hydrochloride 75-150mg的病人，出現暫時性精神錯亂(delirium)的情形。 DISULFIRAM 同時併用amitriptyline hydrochloride及disulfiram時，病人曾出現譫妄的現象。 電擊療法(ELECTROSHOCK THERAPY) 若服用amitriptyline hydrochloride又同時使用電擊療法，可能會增加治療的危險性。這樣的治療，應該只限於確實有必要的病人才可使用。 鎮痛劑 三環類抗抑鬱劑可能提高服用tramadol病人癲癇發作之危險性。 經CYTOCHROME P450 2D6代謝之藥物 當三環類抗抑鬱藥同時與能抑制cytochrome P450 2D6之藥物（如quinidine, cimetidine）以及P450 2D6受質(substrates)之藥物（如其他許多抗抑鬱劑，phenothiazines及1C型抗心律不整劑，propafenone及flecainide）併用時，不論是三環類抗抑鬱劑或其他藥物所需之劑量均較平常低。無論何時，當併用藥物中任何一種藥物欲停用時，須提高三環類抗憂鬱劑之劑量。而所有選擇性的serotonin再吸收抑制劑(SSRIs)，如fluoxetine，sertraline及paroxetine則會抑制P450 2D6，只是抑制的程度有所差異。 SEROTONIN症候群 曾報導當amitriptyline hydrochloride與其他serotonin促進劑同時併用時，發生「serotonin症候群」即認知力、行為、自主神經系統功能及神經肌肉之活動力改變）。",
+          "content_html": "<p><u>其他抗憂鬱劑</u><br>因為amitriptyline hydrochloride的藥效強，因此若與它種抗抑鬱劑合用時，往往無法再使療效提高。當病人同時使用不同作用機轉的抗抑鬱劑時，曾出現不良反應。因此唯有對療效增強的可能性有充分的認知，並充分了解兩藥的藥理作用，才可併用amitriptyline hydrochloride和其他種類的抗抑鬱劑。病人服用amitriptyline hydrochloride，突然改用protriptyline，尚未曾出現過不良事件報導，反之亦然。</p><p><br><u>GUANETHIDINE</u><br>Amitriptyline hydrochloride可能阻斷guanethidine或類似作用之化合物之降血壓作用。</p><p><br><u>乙醯膽鹼受體阻斷劑／擬交感神經類藥物</u><br>當amitriptyline hydrochloride與乙醯膽鹼受體阻斷劑或是擬交感神經類藥物（包括局部麻醉劑併用腎上腺素）併用時，必須緊密監督病人，並且小心地調整劑量。當病人併用三環類抗抑鬱劑和乙醯膽鹼受體阻斷劑時，可能會出現麻痹性腸阻塞的現象。<br>&nbsp;</p><p><u>中樞神經系統抑制劑</u><br>Amitriptyline hydrochloride可能加強病人對酒精的反應，並加強barbiturates及其他中神經系統抑制劑的藥效。<br>若病人同時服用大量的ethchlorvynol時，必須非常謹慎。曾經有併用ethchlorvynol 1g與amitriptyline hydrochloride 75-150mg的病人，出現暫時性精神錯亂(delirium)的情形。<br>&nbsp;</p><p><u>DISULFIRAM</u><br>同時併用amitriptyline hydrochloride及disulfiram時，病人曾出現譫妄的現象。<br>&nbsp;</p><p><u>電擊療法(ELECTROSHOCK THERAPY)</u><br>若服用amitriptyline hydrochloride又同時使用電擊療法，可能會增加治療的危險性。這樣的治療，應該只限於確實有必要的病人才可使用。</p><p><br><u>鎮痛劑</u><br>三環類抗抑鬱劑可能提高服用tramadol病人癲癇發作之危險性。<br>&nbsp;</p><p><u>經CYTOCHROME P450 2D6代謝之藥物</u><br>當三環類抗抑鬱藥同時與能抑制cytochrome P450 2D6之藥物（如quinidine, cimetidine）以及P450 2D6受質(substrates)之藥物（如其他許多抗抑鬱劑，phenothiazines及1C型抗心律不整劑，propafenone及flecainide）併用時，不論是三環類抗抑鬱劑或其他藥物所需之劑量均較平常低。無論何時，當併用藥物中任何一種藥物欲停用時，須提高三環類抗憂鬱劑之劑量。而所有選擇性的serotonin再吸收抑制劑(SSRIs)，如fluoxetine，sertraline及paroxetine則會抑制P450 2D6，只是抑制的程度有所差異。<br>&nbsp;</p><p><u>SEROTONIN症候群</u><br>曾報導當amitriptyline hydrochloride與其他serotonin促進劑同時併用時，發生「serotonin症候群」即認知力、行為、自主神經系統功能及神經肌肉之活動力改變）。</p>",
+          "search_text": "7\n交互作用\n其他抗憂鬱劑 因為amitriptyline hydrochloride的藥效強，因此若與它種抗抑鬱劑合用時，往往無法再使療效提高。當病人同時使用不同作用機轉的抗抑鬱劑時，曾出現不良反應。因此唯有對療效增強的可能性有充分的認知，並充分了解兩藥的藥理作用，才可併用amitriptyline hydrochloride和其他種類的抗抑鬱劑。病人服用amitriptyline hydrochloride，突然改用protriptyline，尚未曾出現過不良事件報導，反之亦然。 GUANETHIDINE Amitriptyline hydrochloride可能阻斷guanethidine或類似作用之化合物之降血壓作用。 乙醯膽鹼受體阻斷劑／擬交感神經類藥物 當amitriptyline hydrochloride與乙醯膽鹼受體阻斷劑或是擬交感神經類藥物（包括局部麻醉劑併用腎上腺素）併用時，必須緊密監督病人，並且小心地調整劑量。當病人併用三環類抗抑鬱劑和乙醯膽鹼受體阻斷劑時，可能會出現麻痹性腸阻塞的現象。 中樞神經系統抑制劑 Amitriptyline hydrochloride可能加強病人對酒精的反應，並加強barbiturates及其他中神經系統抑制劑的藥效。 若病人同時服用大量的ethchlorvynol時，必須非常謹慎。曾經有併用ethchlorvynol 1g與amitriptyline hydrochloride 75-150mg的病人，出現暫時性精神錯亂(delirium)的情形。 DISULFIRAM 同時併用amitriptyline hydrochloride及disulfiram時，病人曾出現譫妄的現象。 電擊療法(ELECTROSHOCK THERAPY) 若服用amitriptyline hydrochloride又同時使用電擊療法，可能會增加治療的危險性。這樣的治療，應該只限於確實有必要的病人才可使用。 鎮痛劑 三環類抗抑鬱劑可能提高服用tramadol病人癲癇發作之危險性。 經CYTOCHROME P450 2D6代謝之藥物 當三環類抗抑鬱藥同時與能抑制cytochrome P450 2D6之藥物（如quinidine, cimetidine）以及P450 2D6受質(substrates)之藥物（如其他許多抗抑鬱劑，phenothiazines及1C型抗心律不整劑，propafenone及flecainide）併用時，不論是三環類抗抑鬱劑或其他藥物所需之劑量均較平常低。無論何時，當併用藥物中任何一種藥物欲停用時，須提高三環類抗憂鬱劑之劑量。而所有選擇性的serotonin再吸收抑制劑(SSRIs)，如fluoxetine，sertraline及paroxetine則會抑制P450 2D6，只是抑制的程度有所差異。 SEROTONIN症候群 曾報導當amitriptyline hydrochloride與其他serotonin促進劑同時併用時，發生「serotonin症候群」即認知力、行為、自主神經系統功能及神經肌肉之活動力改變）。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "注意 下列的副作用，並未在使用本藥時出現過。不過，因為amitriptyline hydrochloride與其他三環類抗抑鬱劑的藥理性質相似，因此在使用amitriptyline hydrochloride時，每一種曾經出現在使用三環類抗抑鬱藥所發生過的副作用都必須列入考慮。 心血管系統 低血壓、昏厥、高血壓、心跳加速、心悸、心肌梗塞、心律不整、心臟傳導阻斷、中風、非特定性心電圖改變、心臟房室傳導改變。 中樞神經系統和神經肌肉系統 精神混亂狀態、注意力無法集中、定向力障礙、妄想、幻覺、興奮、焦慮、急躁不安、想睡、失眠、作惡夢、觸覺麻木、刺痛感、及四肢感覺異常；末梢神經病變、共濟官能喪失、運動失調、顫抖、昏迷、癲癇發作、心電圖模式改變，錐體外症狀，包括不正常之不隨意運動、遲發性運動困難、構音困難、耳鳴。 抗乙醯膽鹼作用 口乾、視覺模糊、瞳孔放大、視力調節障礙、眼內壓上升、便秘、麻痹性腸阻塞、體溫過高、尿液滯留、尿道擴張。 過敏性反應 皮膚疹、搔癢症、蕁麻疹、光敏感、顏面以及舌頭水腫。 血液方面 骨髓功能降低，包括：顆粒性白血球缺乏症、白血球減少、嗜伊紅血球過多、紫斑症、血小板缺乏症。 腸胃方面 噁心、上腹部不適、嘔吐、食慾不振、胃炎、味覺怪異、腹瀉、腮腺腫大、黑舌症、極少有肝炎出現（包括肝功能改變以及黃疸）。 內分泌方面 男性有睪丸腫大及女樣男乳的副作用出現；女性則有乳房增大以及乳漏的情形出現。另有性慾昇高或降低、性無能、血糖濃度升高或降低、ADH（抗利尿激素）不當分泌徵候群。 其他方面 頭暈、虛弱、疲勞、頭痛、體重增加或減輕、水腫、排汗量增加、頻尿、禿頭。 停藥所產生的症狀 長期用藥之病人，若突然停藥，可能會造成噁心、頭痛、及身體不適的情況。而在兩周之內逐漸減低劑量，則曾出現暫時性之症狀，如易怒、急躁不安、以及作夢和睡眠干擾。這些症狀並不表示藥品具有成癮性。在長期使用三環類抗抑鬱劑之後突然停藥，曾有極少數病人在2-7天內，出現躁狂或輕度躁狂(hypomania)的現象。 遺尿症方面 儘管病人的年齡和體重各有差異，amitriptyline hydrochloride用於治療遺尿症的劑量都較用於治療抑鬱症的劑量低，出現副作用的機率也較治療抑鬱症時來得小。最常見的副作用有： 1. 想睡：這不應算是一種缺點，因為本藥須在睡前使用，事實上應該算是一種優點。 2. 抗乙醯膽鹼作用：這也可能可以算是一種優點，因為長久以來，一直都使用抗乙醯膽鹼藥物來治療遺尿症。 Amitriptyline hydrochloride用於治療遺尿症之劑量所出現僅有的其他副作用為輕微出汗和搔癢感，但是發生的頻率並不高。",
+          "content_html": "<p><u>注意</u><br>下列的副作用，並未在使用本藥時出現過。不過，因為amitriptyline hydrochloride與其他三環類抗抑鬱劑的藥理性質相似，因此在使用amitriptyline hydrochloride時，每一種曾經出現在使用三環類抗抑鬱藥所發生過的副作用都必須列入考慮。</p><p><br><u>心血管系統</u><br>低血壓、昏厥、高血壓、心跳加速、心悸、心肌梗塞、心律不整、心臟傳導阻斷、中風、非特定性心電圖改變、心臟房室傳導改變。<br>&nbsp;</p><p><u>中樞神經系統和神經肌肉系統</u><br>精神混亂狀態、注意力無法集中、定向力障礙、妄想、幻覺、興奮、焦慮、急躁不安、想睡、失眠、作惡夢、觸覺麻木、刺痛感、及四肢感覺異常；末梢神經病變、共濟官能喪失、運動失調、顫抖、昏迷、癲癇發作、心電圖模式改變，錐體外症狀，包括不正常之不隨意運動、遲發性運動困難、構音困難、耳鳴。<br>&nbsp;</p><p><u>抗乙醯膽鹼作用</u><br>口乾、視覺模糊、瞳孔放大、視力調節障礙、眼內壓上升、便秘、麻痹性腸阻塞、體溫過高、尿液滯留、尿道擴張。<br>&nbsp;</p><p><u>過敏性反應</u><br>皮膚疹、搔癢症、蕁麻疹、光敏感、顏面以及舌頭水腫。<br>&nbsp;</p><p><u>血液方面</u><br>骨髓功能降低，包括：顆粒性白血球缺乏症、白血球減少、嗜伊紅血球過多、紫斑症、血小板缺乏症。<br>&nbsp;</p><p><u>腸胃方面</u><br>噁心、上腹部不適、嘔吐、食慾不振、胃炎、味覺怪異、腹瀉、腮腺腫大、黑舌症、極少有肝炎出現（包括肝功能改變以及黃疸）。<br>&nbsp;</p><p><u>內分泌方面</u><br>男性有睪丸腫大及女樣男乳的副作用出現；女性則有乳房增大以及乳漏的情形出現。另有性慾昇高或降低、性無能、血糖濃度升高或降低、ADH（抗利尿激素）不當分泌徵候群。<br>&nbsp;</p><p><u>其他方面</u><br>頭暈、虛弱、疲勞、頭痛、體重增加或減輕、水腫、排汗量增加、頻尿、禿頭。<br>&nbsp;</p><p><u>停藥所產生的症狀&nbsp;</u><br>長期用藥之病人，若突然停藥，可能會造成噁心、頭痛、及身體不適的情況。而在兩周之內逐漸減低劑量，則曾出現暫時性之症狀，如易怒、急躁不安、以及作夢和睡眠干擾。這些症狀並不表示藥品具有成癮性。在長期使用三環類抗抑鬱劑之後突然停藥，曾有極少數病人在2-7天內，出現躁狂或輕度躁狂(hypomania)的現象。<br>&nbsp;</p><p><u>遺尿症方面</u><br>儘管病人的年齡和體重各有差異，amitriptyline hydrochloride用於治療遺尿症的劑量都較用於治療抑鬱症的劑量低，出現副作用的機率也較治療抑鬱症時來得小。最常見的副作用有：<br>1. 想睡：這不應算是一種缺點，因為本藥須在睡前使用，事實上應該算是一種優點。<br>2. 抗乙醯膽鹼作用：這也可能可以算是一種優點，因為長久以來，一直都使用抗乙醯膽鹼藥物來治療遺尿症。<br>Amitriptyline hydrochloride用於治療遺尿症之劑量所出現僅有的其他副作用為輕微出汗和搔癢感，但是發生的頻率並不高。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n注意 下列的副作用，並未在使用本藥時出現過。不過，因為amitriptyline hydrochloride與其他三環類抗抑鬱劑的藥理性質相似，因此在使用amitriptyline hydrochloride時，每一種曾經出現在使用三環類抗抑鬱藥所發生過的副作用都必須列入考慮。 心血管系統 低血壓、昏厥、高血壓、心跳加速、心悸、心肌梗塞、心律不整、心臟傳導阻斷、中風、非特定性心電圖改變、心臟房室傳導改變。 中樞神經系統和神經肌肉系統 精神混亂狀態、注意力無法集中、定向力障礙、妄想、幻覺、興奮、焦慮、急躁不安、想睡、失眠、作惡夢、觸覺麻木、刺痛感、及四肢感覺異常；末梢神經病變、共濟官能喪失、運動失調、顫抖、昏迷、癲癇發作、心電圖模式改變，錐體外症狀，包括不正常之不隨意運動、遲發性運動困難、構音困難、耳鳴。 抗乙醯膽鹼作用 口乾、視覺模糊、瞳孔放大、視力調節障礙、眼內壓上升、便秘、麻痹性腸阻塞、體溫過高、尿液滯留、尿道擴張。 過敏性反應 皮膚疹、搔癢症、蕁麻疹、光敏感、顏面以及舌頭水腫。 血液方面 骨髓功能降低，包括：顆粒性白血球缺乏症、白血球減少、嗜伊紅血球過多、紫斑症、血小板缺乏症。 腸胃方面 噁心、上腹部不適、嘔吐、食慾不振、胃炎、味覺怪異、腹瀉、腮腺腫大、黑舌症、極少有肝炎出現（包括肝功能改變以及黃疸）。 內分泌方面 男性有睪丸腫大及女樣男乳的副作用出現；女性則有乳房增大以及乳漏的情形出現。另有性慾昇高或降低、性無能、血糖濃度升高或降低、ADH（抗利尿激素）不當分泌徵候群。 其他方面 頭暈、虛弱、疲勞、頭痛、體重增加或減輕、水腫、排汗量增加、頻尿、禿頭。 停藥所產生的症狀 長期用藥之病人，若突然停藥，可能會造成噁心、頭痛、及身體不適的情況。而在兩周之內逐漸減低劑量，則曾出現暫時性之症狀，如易怒、急躁不安、以及作夢和睡眠干擾。這些症狀並不表示藥品具有成癮性。在長期使用三環類抗抑鬱劑之後突然停藥，曾有極少數病人在2-7天內，出現躁狂或輕度躁狂(hypomania)的現象。 遺尿症方面 儘管病人的年齡和體重各有差異，amitriptyline hydrochloride用於治療遺尿症的劑量都較用於治療抑鬱症的劑量低，出現副作用的機率也較治療抑鬱症時來得小。最常見的副作用有： 1. 想睡：這不應算是一種缺點，因為本藥須在睡前使用，事實上應該算是一種優點。 2. 抗乙醯膽鹼作用：這也可能可以算是一種優點，因為長久以來，一直都使用抗乙醯膽鹼藥物來治療遺尿症。 Amitriptyline hydrochloride用於治療遺尿症之劑量所出現僅有的其他副作用為輕微出汗和搔癢感，但是發生的頻率並不高。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "若使用這類藥物過量可能會致死，在蓄意使用三環類抗抑鬱劑過量的情況中，同時服用多種藥物（包括酒類）的狀況是很常見的，由於藥物過量之處置方式很複雜而且常有新法，因此建議醫師先與毒物控制中心聯繫，以取得最新之治療資訊。三環類抗抑鬱劑服用過量後其中毒之徵象及症狀很快就出現，因此應儘速送醫監測。 特徵 用藥過量之重要特徵包括：心臟節律異常、嚴重低血壓、痙攣、中樞神經系統抑制，包括昏迷。心電圖的改變，尤其是QRS軸或寬度改變是三環類抗抑鬱劑中毒臨床上有意義的指標。 其他的用藥過量徵象可能還包括，精神混亂，注意力無法集中，暫時性的視幻覺，瞳孔放大，精神激動，反射過度，恍惚不醒人事，昏昏欲睡，肌肉僵硬，嘔吐，低體溫，體溫過高，或列於「副作用」下之任何症狀。 處置方式 一般性 立即以心電圖監測其心臟，保護病人之呼吸道，裝置好靜脈輸注系統，並開始進行洗胃(gastric decontamination)。對心臟的監測，觀察中樞神經系統或呼吸抑制現象，低血壓，心臟節律異常，及／或傳導阻斷，以及癲癇發作症狀須至少持續6小時。如果在這段時間內任何一個時候出現中毒症狀時，則須延長其監測期，有些病例係在過量後經過較長的時間才發生致死性心律異常，這些病人在死亡之前曾有顯著的中毒跡象，而且大多數病人其洗胃不夠徹底，對病人的處置是否得宜不可以藥物血中濃度之監測作為指標。 洗胃 所有疑似三環類抗抑鬱劑中毒之病人都必須接受洗胃。此方法應包括以大量液體洗胃，隨後再灌入活性碳，若病人的意識受損，在洗胃之前須保護其呼吸道安全，禁用催吐的方法。 心血管系統 以四肢為導程(limb-lead)所測出之QRS最長持續時間若大於0.10秒，則可能是用藥過量程度之最佳指標，應予靜脈注射重碳酸氫鈉以使血清之pH值維持在7.45至7.55。若pH之控制不理想，則應使用高度換氣法(hyperventilation)，若欲同時使用高度換氣法及重碳酸氫鈉法，必須極度謹慎，並須加強監測病人之血清pH值。不可使pH值 ≥ 7.60或PCO2＜20mmHg。使用重碳酸氫鈉療法或高度換氣法無效之心律異常病人若以lidocaine, bretylium或phenytoin治療可能有效。一般禁用1A型及1C型之抗心律不整劑（如：quinidine, disopyramide及procainamide）。 對於極少數之案例，使用血液灌流去除毒素(hemoperfusion)的方法治療急性中毒之病人，對其急性難治性之心血管不穩定狀態可能有所助益，但曾報導，血液透析法，腹膜透析法，換血及強制性利尿一般而言對三環類抗抑鬱劑之中毒無效。 中樞神經系統 中樞神經系統受抑制的病人，因有急速惡化的可能，建議及早施予插管法，癲癇發作的狀況應以benzodiazepines來控制，當此類藥物無效時，或可使用其他之抗驚厥劑（如phenobarbital, phenytoin）。除非發生危及生命的症狀，且其他方法治療無效，否則並不建議使用physostigmine來治療，且唯有經中毒控制中心之嚴謹諮詢後才可使用。 精神科追蹤治療 因為服藥過量，通常是蓄意的，在治療恢復期，病人仍可能以其他方法企圖自殺，因此宜讓病人獲得精神科之照顧。 小兒科處置方法 處置孩童及成人用藥過量的原則類似，對於特定的兒科治療方法，強烈建議醫師與地方之中毒控制中心聯絡。",
+          "content_html": "<p>若使用這類藥物過量可能會致死，在蓄意使用三環類抗抑鬱劑過量的情況中，同時服用多種藥物（包括酒類）的狀況是很常見的，由於藥物過量之處置方式很複雜而且常有新法，因此建議醫師先與毒物控制中心聯繫，以取得最新之治療資訊。三環類抗抑鬱劑服用過量後其中毒之徵象及症狀很快就出現，因此應儘速送醫監測。</p><p><br><u>特徵</u><br>用藥過量之重要特徵包括：心臟節律異常、嚴重低血壓、痙攣、中樞神經系統抑制，包括昏迷。心電圖的改變，尤其是QRS軸或寬度改變是三環類抗抑鬱劑中毒臨床上有意義的指標。<br>其他的用藥過量徵象可能還包括，精神混亂，注意力無法集中，暫時性的視幻覺，瞳孔放大，精神激動，反射過度，恍惚不醒人事，昏昏欲睡，肌肉僵硬，嘔吐，低體溫，體溫過高，或列於「副作用」下之任何症狀。</p><p>&nbsp;</p><p><u>處置方式</u><br><i>一般性</i><br>立即以心電圖監測其心臟，保護病人之呼吸道，裝置好靜脈輸注系統，並開始進行洗胃(gastric decontamination)。對心臟的監測，觀察中樞神經系統或呼吸抑制現象，低血壓，心臟節律異常，及／或傳導阻斷，以及癲癇發作症狀須至少持續6小時。如果在這段時間內任何一個時候出現中毒症狀時，則須延長其監測期，有些病例係在過量後經過較長的時間才發生致死性心律異常，這些病人在死亡之前曾有顯著的中毒跡象，而且大多數病人其洗胃不夠徹底，對病人的處置是否得宜不可以藥物血中濃度之監測作為指標。</p><p><br><i>洗胃</i><br>所有疑似三環類抗抑鬱劑中毒之病人都必須接受洗胃。此方法應包括以大量液體洗胃，隨後再灌入活性碳，若病人的意識受損，在洗胃之前須保護其呼吸道安全，禁用催吐的方法。</p><p><br><i>心血管系統</i><br>以四肢為導程(limb-lead)所測出之QRS最長持續時間若大於0.10秒，則可能是用藥過量程度之最佳指標，應予靜脈注射重碳酸氫鈉以使血清之pH值維持在7.45至7.55。若pH之控制不理想，則應使用高度換氣法(hyperventilation)，若欲同時使用高度換氣法及重碳酸氫鈉法，必須極度謹慎，並須加強監測病人之血清pH值。不可使pH值 ≥ 7.60或PCO2＜20mmHg。使用重碳酸氫鈉療法或高度換氣法無效之心律異常病人若以lidocaine, bretylium或phenytoin治療可能有效。一般禁用1A型及1C型之抗心律不整劑（如：quinidine, disopyramide及procainamide）。<br>對於極少數之案例，使用血液灌流去除毒素(hemoperfusion)的方法治療急性中毒之病人，對其急性難治性之心血管不穩定狀態可能有所助益，但曾報導，血液透析法，腹膜透析法，換血及強制性利尿一般而言對三環類抗抑鬱劑之中毒無效。</p><p><br><i>中樞神經系統</i><br>中樞神經系統受抑制的病人，因有急速惡化的可能，建議及早施予插管法，癲癇發作的狀況應以benzodiazepines來控制，當此類藥物無效時，或可使用其他之抗驚厥劑（如phenobarbital, phenytoin）。除非發生危及生命的症狀，且其他方法治療無效，否則並不建議使用physostigmine來治療，且唯有經中毒控制中心之嚴謹諮詢後才可使用。</p><p><br><i>精神科追蹤治療</i><br>因為服藥過量，通常是蓄意的，在治療恢復期，病人仍可能以其他方法企圖自殺，因此宜讓病人獲得精神科之照顧。</p><p><br><i>小兒科處置方法</i><br>處置孩童及成人用藥過量的原則類似，對於特定的兒科治療方法，強烈建議醫師與地方之中毒控制中心聯絡。</p>",
+          "search_text": "9\n過量\n若使用這類藥物過量可能會致死，在蓄意使用三環類抗抑鬱劑過量的情況中，同時服用多種藥物（包括酒類）的狀況是很常見的，由於藥物過量之處置方式很複雜而且常有新法，因此建議醫師先與毒物控制中心聯繫，以取得最新之治療資訊。三環類抗抑鬱劑服用過量後其中毒之徵象及症狀很快就出現，因此應儘速送醫監測。 特徵 用藥過量之重要特徵包括：心臟節律異常、嚴重低血壓、痙攣、中樞神經系統抑制，包括昏迷。心電圖的改變，尤其是QRS軸或寬度改變是三環類抗抑鬱劑中毒臨床上有意義的指標。 其他的用藥過量徵象可能還包括，精神混亂，注意力無法集中，暫時性的視幻覺，瞳孔放大，精神激動，反射過度，恍惚不醒人事，昏昏欲睡，肌肉僵硬，嘔吐，低體溫，體溫過高，或列於「副作用」下之任何症狀。 處置方式 一般性 立即以心電圖監測其心臟，保護病人之呼吸道，裝置好靜脈輸注系統，並開始進行洗胃(gastric decontamination)。對心臟的監測，觀察中樞神經系統或呼吸抑制現象，低血壓，心臟節律異常，及／或傳導阻斷，以及癲癇發作症狀須至少持續6小時。如果在這段時間內任何一個時候出現中毒症狀時，則須延長其監測期，有些病例係在過量後經過較長的時間才發生致死性心律異常，這些病人在死亡之前曾有顯著的中毒跡象，而且大多數病人其洗胃不夠徹底，對病人的處置是否得宜不可以藥物血中濃度之監測作為指標。 洗胃 所有疑似三環類抗抑鬱劑中毒之病人都必須接受洗胃。此方法應包括以大量液體洗胃，隨後再灌入活性碳，若病人的意識受損，在洗胃之前須保護其呼吸道安全，禁用催吐的方法。 心血管系統 以四肢為導程(limb-lead)所測出之QRS最長持續時間若大於0.10秒，則可能是用藥過量程度之最佳指標，應予靜脈注射重碳酸氫鈉以使血清之pH值維持在7.45至7.55。若pH之控制不理想，則應使用高度換氣法(hyperventilation)，若欲同時使用高度換氣法及重碳酸氫鈉法，必須極度謹慎，並須加強監測病人之血清pH值。不可使pH值 ≥ 7.60或PCO2＜20mmHg。使用重碳酸氫鈉療法或高度換氣法無效之心律異常病人若以lidocaine, bretylium或phenytoin治療可能有效。一般禁用1A型及1C型之抗心律不整劑（如：quinidine, disopyramide及procainamide）。 對於極少數之案例，使用血液灌流去除毒素(hemoperfusion)的方法治療急性中毒之病人，對其急性難治性之心血管不穩定狀態可能有所助益，但曾報導，血液透析法，腹膜透析法，換血及強制性利尿一般而言對三環類抗抑鬱劑之中毒無效。 中樞神經系統 中樞神經系統受抑制的病人，因有急速惡化的可能，建議及早施予插管法，癲癇發作的狀況應以benzodiazepines來控制，當此類藥物無效時，或可使用其他之抗驚厥劑（如phenobarbital, phenytoin）。除非發生危及生命的症狀，且其他方法治療無效，否則並不建議使用physostigmine來治療，且唯有經中毒控制中心之嚴謹諮詢後才可使用。 精神科追蹤治療 因為服藥過量，通常是蓄意的，在治療恢復期，病人仍可能以其他方法企圖自殺，因此宜讓病人獲得精神科之照顧。 小兒科處置方法 處置孩童及成人用藥過量的原則類似，對於特定的兒科治療方法，強烈建議醫師與地方之中毒控制中心聯絡。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Amitriptyline 是一種三環抗憂鬱劑(TCA)，有多種藥理作用，包括腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT3接受體。主要作用在神經末梢，也被用來治療憂鬱症，可以讓周邊傳回腦部的疼痛訊號變少。 Amitriptyline hydrochloride並不屬於單胺氧化酶抑制劑(monoamine oxidase inhibitor, MAOI)，而其作用亦非以刺激中樞神經系統為主。由廣泛的臨床使用經驗證實amitriptyline hydrochloride的耐受性良好。 Amitriptyline hydrochloride可有效治療某些與器官性病變無關的遺尿症，amitriptyline hydrochloride治療遺尿症的作用機轉尚未得知。不過，已知Amitriptyline hydrochloride有抗乙醯膽鹼的性質，同時這類藥物如顛茄(belladonna)，也被用於治療遺尿症。",
+          "content_html": "<p>Amitriptyline 是一種三環抗憂鬱劑(TCA)，有多種藥理作用，包括腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT3接受體。主要作用在神經末梢，也被用來治療憂鬱症，可以讓周邊傳回腦部的疼痛訊號變少。</p><p>Amitriptyline hydrochloride並不屬於單胺氧化酶抑制劑(monoamine oxidase inhibitor, MAOI)，而其作用亦非以刺激中樞神經系統為主。由廣泛的臨床使用經驗證實amitriptyline hydrochloride的耐受性良好。<br>Amitriptyline hydrochloride可有效治療某些與器官性病變無關的遺尿症，amitriptyline hydrochloride治療遺尿症的作用機轉尚未得知。不過，已知Amitriptyline hydrochloride有抗乙醯膽鹼的性質，同時這類藥物如顛茄(belladonna)，也被用於治療遺尿症。</p>",
+          "search_text": "10.1\n作用機轉\nAmitriptyline 是一種三環抗憂鬱劑(TCA)，有多種藥理作用，包括腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT3接受體。主要作用在神經末梢，也被用來治療憂鬱症，可以讓周邊傳回腦部的疼痛訊號變少。 Amitriptyline hydrochloride並不屬於單胺氧化酶抑制劑(monoamine oxidase inhibitor, MAOI)，而其作用亦非以刺激中樞神經系統為主。由廣泛的臨床使用經驗證實amitriptyline hydrochloride的耐受性良好。 Amitriptyline hydrochloride可有效治療某些與器官性病變無關的遺尿症，amitriptyline hydrochloride治療遺尿症的作用機轉尚未得知。不過，已知Amitriptyline hydrochloride有抗乙醯膽鹼的性質，同時這類藥物如顛茄(belladonna)，也被用於治療遺尿症。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "4 ~ 1,000錠 塑膠瓶裝及PTP鋁箔盒裝",
+          "content_html": "<p>4 ~ 1,000錠 塑膠瓶裝及PTP鋁箔盒裝</p>",
+          "search_text": "13.1\n包裝\n4 ~ 1,000錠 塑膠瓶裝及PTP鋁箔盒裝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所⽰。",
+          "content_html": "<p>如外包裝所⽰。</p>",
+          "search_text": "13.2\n效期\n如外包裝所⽰。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本藥應儲存於25℃以下乾燥之緊密容器，避光貯存。",
+          "content_html": "<p>本藥應儲存於25℃以下乾燥之緊密容器，避光貯存。</p>",
+          "search_text": "13.3\n儲存條件\n本藥應儲存於25℃以下乾燥之緊密容器，避光貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每錠含Amitriptyline hydrochloride 10mg\n1.2\n賦形劑\nLactose Monohydrate、Corn Starch、Cellulose Microcrystalline、Silicon Dioxide、Magnesium Stearate、Hydroxypropyl Methylcellulose 615、Hydroxypropyl Methylcellulose Phthalate 55、Sucrose、Gelatin、Calcium Phosphate Dibasic、Titanium Dioxide、Carnauba Wax、Talc、Povidone K-30、Propyleneoxide Ethyleneoxide Random Copolymer、Tartrazine Aluminum Lake、Brilliant Blue FCF Aluminum Lake\n1.3\n劑型\n糖衣錠\n1.4\n藥品外觀\n圓形綠色\n2\n適應症\n憂鬱病\n3\n用法及用量\n3.1\n用法用量\n通常成人每次25mg，1日服用2~3次，以後視症狀需要每日可增服25mg，至症狀緩解後保持維持量每日50~100mg分次服用2~3個星期，視症狀需要亦可繼續服用3個月，本藥須由醫師處方使用。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\nAmitriptyline hydrochloride禁用於曾對本藥過敏的病人，也不得與單胺氧化酶抑制劑併用。同時使用三環類抗抑鬱劑與單胺氧化酶抑制劑的病人，曾有出現體溫過高現象(hyperpyretic crises)、嚴重痙攣、以及死亡的情況。若要用amitriptyline hydrochloride取代單胺氧化酶抑制劑，必須在停用單胺氧化酶抑制劑後，最少隔14天以上，才可以謹慎地以amitriptyline hydrochloride開始治療，再慢慢增加劑量，直到獲得最佳療效為止。 正在服用cisapride的病人禁用amitriptyline hydrochloride，因有可能發生心臟之副作用，包括QT波延長，心律不整及擾亂傳導系統。 本藥不適用於發生心肌梗塞後的緊急恢復期(acute recovery phase)。 參見「6.1懷孕」用藥。\n5\n警語及注意事項\n5.1\n警語/注意事項\n【警語】 1. 依據隨機分派，有對照組的臨床試驗(Randomized controlled trial，RCT)臨床試驗及回溯性世代研究(Retrospective cohort study)發現，抗精神病藥品，包括傳統(Conventional)與非典型(Atypical)之抗精神病藥品用於治療老年失智症病患(dementia-related psychosis)的死亡率與安慰劑組比較，其死亡之相對危險性較高。 2. 重鬱症(Major depressive disorder, MDD)和其他精神障礙之短期研究，發現小孩、青少年和年輕人服用抗憂鬱劑相較於安慰劑可能增加自殺意念及行為。任何人考慮使用amitriptyline hydrochloride或其他抗憂鬱劑於小孩、青少年和年輕人時應評估臨床用藥之風險與效益。短期研究對於大於24歲以上之成年人服用抗憂鬱劑並無顯示有增加自殺意念或行為之風險，而對於65歲以上之老年人服用抗憂鬱劑，反而較服用安慰劑降低自殺之風險。憂鬱症或其他精神障礙疾病，本身即有自殺傾向之風險。無論任何年齡層之患者開始服用抗憂鬱劑時，健康照護者應嚴密監視其臨床病徵惡化、自殺意念或不尋常的行為改變，並隨時與醫師聯絡。 【注意事項】 一般性 曾有癲癇發作(seizures)病史之病人，以及肝功能受損的病人，使用amitriptyline hydrochloride時必須非常謹慎。此外因為它有類似阿托品(atropine)的作用，因此若病人曾有尿液滯留的病史，或是患有窄角性青光眼，或有眼內壓上升的情形時，亦須謹慎使用。對於患有窄角性青光眼的病人，即使只是使用一般劑量，都有可能促使發作症狀出現。 曾有報導，病人服用amitriptyline hydrochloride過量遲至56小時後發生致死性心律異常(dysrhythmia)現象。 可能的話，病人在進行事先安排之手術前數天須停藥。 曾報導當三環類抗抑鬱劑與乙醯膽鹼受體阻斷劑或抗精神分裂藥物(neuroleptic drugs)併服時，發生體溫過高的現象，尤其在天熱時更易發生。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n此藥可能傷害某些病人之警覺性，因警覺性降低結果，若從事開車及其他活動極為危險，須予避免。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n對於懷孕婦女，尚無控制良好的臨床研究，因此對於已懷孕婦女，或是可能將會懷孕的婦女，必須先衡量此藥對母親及小孩的利益，以及可能會導致的危險性，再行決定是否服藥。\n6.2\n哺乳\nAmitriptyline hydrochloride可出現於乳汁中。因amitriptyline hydrochloride可能使嬰兒造成嚴重的副作用，故應該決定是要停止哺乳或是停止用藥。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n因為缺乏使用此藥治療孩童抑鬱症的實際臨床經驗，因此不建議12歲以下的抑鬱症患者使用此藥。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n心血管疾病 有心血管疾病的病人須予密切觀察。三環類抗抑鬱劑包括amitriptyline hydrochloride，特別是在使用高劑量時，曾產生心律不整、竇結性心跳加速、以及傳導時間延長的情形。使用這類藥物的病人，也曾出現過心肌梗塞以及中風的現象。 內分泌疾病 甲狀腺腫大的病人，或是正在服用治療甲狀腺藥物的病人，使用amitriptyline hydrochloride必須嚴密監督。 中樞神經系統疾病 患抑鬱症病人在接受治療期間仍有自殺可能，因此不可讓病人有機會取得大量的本藥品。 若使用amitriptyline hydrochloride治療精神分裂症(schizophrenia)的抑鬱症部分，精神方面的症狀可能會惡化；同樣的，帶有躁狂-抑鬱症狀的精神病患，抑鬱的狀態可能會轉變為躁狂的型態。妄想性精神錯亂(paranoid delusion)，不管是否帶有敵意，也都可能會有惡化現象。以上任何情況，都可能應該減低amitriptyline hydrochloride的用量，或者是同時使用抗精神病藥物(antipsychotic drug)。\n7\n交互作用\n其他抗憂鬱劑 因為amitriptyline hydrochloride的藥效強，因此若與它種抗抑鬱劑合用時，往往無法再使療效提高。當病人同時使用不同作用機轉的抗抑鬱劑時，曾出現不良反應。因此唯有對療效增強的可能性有充分的認知，並充分了解兩藥的藥理作用，才可併用amitriptyline hydrochloride和其他種類的抗抑鬱劑。病人服用amitriptyline hydrochloride，突然改用protriptyline，尚未曾出現過不良事件報導，反之亦然。 GUANETHIDINE Amitriptyline hydrochloride可能阻斷guanethidine或類似作用之化合物之降血壓作用。 乙醯膽鹼受體阻斷劑／擬交感神經類藥物 當amitriptyline hydrochloride與乙醯膽鹼受體阻斷劑或是擬交感神經類藥物（包括局部麻醉劑併用腎上腺素）併用時，必須緊密監督病人，並且小心地調整劑量。當病人併用三環類抗抑鬱劑和乙醯膽鹼受體阻斷劑時，可能會出現麻痹性腸阻塞的現象。 中樞神經系統抑制劑 Amitriptyline hydrochloride可能加強病人對酒精的反應，並加強barbiturates及其他中神經系統抑制劑的藥效。 若病人同時服用大量的ethchlorvynol時，必須非常謹慎。曾經有併用ethchlorvynol 1g與amitriptyline hydrochloride 75-150mg的病人，出現暫時性精神錯亂(delirium)的情形。 DISULFIRAM 同時併用amitriptyline hydrochloride及disulfiram時，病人曾出現譫妄的現象。 電擊療法(ELECTROSHOCK THERAPY) 若服用amitriptyline hydrochloride又同時使用電擊療法，可能會增加治療的危險性。這樣的治療，應該只限於確實有必要的病人才可使用。 鎮痛劑 三環類抗抑鬱劑可能提高服用tramadol病人癲癇發作之危險性。 經CYTOCHROME P450 2D6代謝之藥物 當三環類抗抑鬱藥同時與能抑制cytochrome P450 2D6之藥物（如quinidine, cimetidine）以及P450 2D6受質(substrates)之藥物（如其他許多抗抑鬱劑，phenothiazines及1C型抗心律不整劑，propafenone及flecainide）併用時，不論是三環類抗抑鬱劑或其他藥物所需之劑量均較平常低。無論何時，當併用藥物中任何一種藥物欲停用時，須提高三環類抗憂鬱劑之劑量。而所有選擇性的serotonin再吸收抑制劑(SSRIs)，如fluoxetine，sertraline及paroxetine則會抑制P450 2D6，只是抑制的程度有所差異。 SEROTONIN症候群 曾報導當amitriptyline hydrochloride與其他serotonin促進劑同時併用時，發生「serotonin症候群」即認知力、行為、自主神經系統功能及神經肌肉之活動力改變）。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n注意 下列的副作用，並未在使用本藥時出現過。不過，因為amitriptyline hydrochloride與其他三環類抗抑鬱劑的藥理性質相似，因此在使用amitriptyline hydrochloride時，每一種曾經出現在使用三環類抗抑鬱藥所發生過的副作用都必須列入考慮。 心血管系統 低血壓、昏厥、高血壓、心跳加速、心悸、心肌梗塞、心律不整、心臟傳導阻斷、中風、非特定性心電圖改變、心臟房室傳導改變。 中樞神經系統和神經肌肉系統 精神混亂狀態、注意力無法集中、定向力障礙、妄想、幻覺、興奮、焦慮、急躁不安、想睡、失眠、作惡夢、觸覺麻木、刺痛感、及四肢感覺異常；末梢神經病變、共濟官能喪失、運動失調、顫抖、昏迷、癲癇發作、心電圖模式改變，錐體外症狀，包括不正常之不隨意運動、遲發性運動困難、構音困難、耳鳴。 抗乙醯膽鹼作用 口乾、視覺模糊、瞳孔放大、視力調節障礙、眼內壓上升、便秘、麻痹性腸阻塞、體溫過高、尿液滯留、尿道擴張。 過敏性反應 皮膚疹、搔癢症、蕁麻疹、光敏感、顏面以及舌頭水腫。 血液方面 骨髓功能降低，包括：顆粒性白血球缺乏症、白血球減少、嗜伊紅血球過多、紫斑症、血小板缺乏症。 腸胃方面 噁心、上腹部不適、嘔吐、食慾不振、胃炎、味覺怪異、腹瀉、腮腺腫大、黑舌症、極少有肝炎出現（包括肝功能改變以及黃疸）。 內分泌方面 男性有睪丸腫大及女樣男乳的副作用出現；女性則有乳房增大以及乳漏的情形出現。另有性慾昇高或降低、性無能、血糖濃度升高或降低、ADH（抗利尿激素）不當分泌徵候群。 其他方面 頭暈、虛弱、疲勞、頭痛、體重增加或減輕、水腫、排汗量增加、頻尿、禿頭。 停藥所產生的症狀 長期用藥之病人，若突然停藥，可能會造成噁心、頭痛、及身體不適的情況。而在兩周之內逐漸減低劑量，則曾出現暫時性之症狀，如易怒、急躁不安、以及作夢和睡眠干擾。這些症狀並不表示藥品具有成癮性。在長期使用三環類抗抑鬱劑之後突然停藥，曾有極少數病人在2-7天內，出現躁狂或輕度躁狂(hypomania)的現象。 遺尿症方面 儘管病人的年齡和體重各有差異，amitriptyline hydrochloride用於治療遺尿症的劑量都較用於治療抑鬱症的劑量低，出現副作用的機率也較治療抑鬱症時來得小。最常見的副作用有： 1. 想睡：這不應算是一種缺點，因為本藥須在睡前使用，事實上應該算是一種優點。 2. 抗乙醯膽鹼作用：這也可能可以算是一種優點，因為長久以來，一直都使用抗乙醯膽鹼藥物來治療遺尿症。 Amitriptyline hydrochloride用於治療遺尿症之劑量所出現僅有的其他副作用為輕微出汗和搔癢感，但是發生的頻率並不高。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n若使用這類藥物過量可能會致死，在蓄意使用三環類抗抑鬱劑過量的情況中，同時服用多種藥物（包括酒類）的狀況是很常見的，由於藥物過量之處置方式很複雜而且常有新法，因此建議醫師先與毒物控制中心聯繫，以取得最新之治療資訊。三環類抗抑鬱劑服用過量後其中毒之徵象及症狀很快就出現，因此應儘速送醫監測。 特徵 用藥過量之重要特徵包括：心臟節律異常、嚴重低血壓、痙攣、中樞神經系統抑制，包括昏迷。心電圖的改變，尤其是QRS軸或寬度改變是三環類抗抑鬱劑中毒臨床上有意義的指標。 其他的用藥過量徵象可能還包括，精神混亂，注意力無法集中，暫時性的視幻覺，瞳孔放大，精神激動，反射過度，恍惚不醒人事，昏昏欲睡，肌肉僵硬，嘔吐，低體溫，體溫過高，或列於「副作用」下之任何症狀。 處置方式 一般性 立即以心電圖監測其心臟，保護病人之呼吸道，裝置好靜脈輸注系統，並開始進行洗胃(gastric decontamination)。對心臟的監測，觀察中樞神經系統或呼吸抑制現象，低血壓，心臟節律異常，及／或傳導阻斷，以及癲癇發作症狀須至少持續6小時。如果在這段時間內任何一個時候出現中毒症狀時，則須延長其監測期，有些病例係在過量後經過較長的時間才發生致死性心律異常，這些病人在死亡之前曾有顯著的中毒跡象，而且大多數病人其洗胃不夠徹底，對病人的處置是否得宜不可以藥物血中濃度之監測作為指標。 洗胃 所有疑似三環類抗抑鬱劑中毒之病人都必須接受洗胃。此方法應包括以大量液體洗胃，隨後再灌入活性碳，若病人的意識受損，在洗胃之前須保護其呼吸道安全，禁用催吐的方法。 心血管系統 以四肢為導程(limb-lead)所測出之QRS最長持續時間若大於0.10秒，則可能是用藥過量程度之最佳指標，應予靜脈注射重碳酸氫鈉以使血清之pH值維持在7.45至7.55。若pH之控制不理想，則應使用高度換氣法(hyperventilation)，若欲同時使用高度換氣法及重碳酸氫鈉法，必須極度謹慎，並須加強監測病人之血清pH值。不可使pH值 ≥ 7.60或PCO2＜20mmHg。使用重碳酸氫鈉療法或高度換氣法無效之心律異常病人若以lidocaine, bretylium或phenytoin治療可能有效。一般禁用1A型及1C型之抗心律不整劑（如：quinidine, disopyramide及procainamide）。 對於極少數之案例，使用血液灌流去除毒素(hemoperfusion)的方法治療急性中毒之病人，對其急性難治性之心血管不穩定狀態可能有所助益，但曾報導，血液透析法，腹膜透析法，換血及強制性利尿一般而言對三環類抗抑鬱劑之中毒無效。 中樞神經系統 中樞神經系統受抑制的病人，因有急速惡化的可能，建議及早施予插管法，癲癇發作的狀況應以benzodiazepines來控制，當此類藥物無效時，或可使用其他之抗驚厥劑（如phenobarbital, phenytoin）。除非發生危及生命的症狀，且其他方法治療無效，否則並不建議使用physostigmine來治療，且唯有經中毒控制中心之嚴謹諮詢後才可使用。 精神科追蹤治療 因為服藥過量，通常是蓄意的，在治療恢復期，病人仍可能以其他方法企圖自殺，因此宜讓病人獲得精神科之照顧。 小兒科處置方法 處置孩童及成人用藥過量的原則類似，對於特定的兒科治療方法，強烈建議醫師與地方之中毒控制中心聯絡。\n10\n藥理特性\n10.1\n作用機轉\nAmitriptyline 是一種三環抗憂鬱劑(TCA)，有多種藥理作用，包括腎上腺素分解、抗組織胺、抗膽鹼及阻斷5-HT3接受體。主要作用在神經末梢，也被用來治療憂鬱症，可以讓周邊傳回腦部的疼痛訊號變少。 Amitriptyline hydrochloride並不屬於單胺氧化酶抑制劑(monoamine oxidase inhibitor, MAOI)，而其作用亦非以刺激中樞神經系統為主。由廣泛的臨床使用經驗證實amitriptyline hydrochloride的耐受性良好。 Amitriptyline hydrochloride可有效治療某些與器官性病變無關的遺尿症，amitriptyline hydrochloride治療遺尿症的作用機轉尚未得知。不過，已知Amitriptyline hydrochloride有抗乙醯膽鹼的性質，同時這類藥物如顛茄(belladonna)，也被用於治療遺尿症。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n4 ~ 1,000錠 塑膠瓶裝及PTP鋁箔盒裝\n13.2\n效期\n如外包裝所⽰。\n13.3\n儲存條件\n本藥應儲存於25℃以下乾燥之緊密容器，避光貯存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段７７號2、3樓、79號1至6樓"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段77號2、3樓、79號1至6樓"
+        }
+      ]
+    }
+  ]
+}

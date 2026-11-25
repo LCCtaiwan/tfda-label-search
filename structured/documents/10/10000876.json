@@ -1,0 +1,1222 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:00:19.086309+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000876",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000876號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000876號",
+      "matched_license_code": "10000876",
+      "matched_nhi_code": "",
+      "drug_name_zh": "容可曼針筒裝注射劑 2000 國際單位",
+      "drug_name_en": "Recormon solution for injection in pre-filled syringe 2000IU",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2025-07-25",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "<p><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">:</span><span style=\"color:black;font-family:標楷體;\">紅血球生成刺激素有增加腫瘤惡化或復發的風險</span></p><p><span style=\"color:black;font-family:標楷體;\">癌症部分</span><span style=\"color:black;\">:</span></p><p><span style=\"color:black;font-family:標楷體;\">於乳癌、非小細胞肺癌、頭頸癌、淋巴癌及子宮頸癌患者的一些臨床研究中發現，紅血球生成刺激素</span><span style=\"color:black;\">(ESAs)</span><span style=\"color:black;font-family:標楷體;\">會縮短整體存活時間及</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">或增加腫瘤惡化或復發的風險。</span></p><p><span style=\"color:black;font-family:標楷體;\">為了減少上述及嚴重心臟及血管栓塞的風險，應使用可避免紅血球輸注之最低劑量。</span></p><p><span style=\"color:black;font-family:標楷體;\">紅血球生成刺激素</span><span style=\"color:black;\">(ESAs)</span><span style=\"color:black;font-family:標楷體;\">僅可使用於因接受具骨髓抑制作用之化學治療而引起的貧血。</span></p><p><span style=\"color:black;font-family:標楷體;\">對於接受骨髓抑制治療的患者，且預期結果為可治癒時，不應使用紅血球生成刺激素。</span></p><p><span style=\"color:black;font-family:標楷體;\">在化學治療療程結束之後，應停用紅血球生成刺激素。</span></p>",
+        "text": "警語:紅血球生成刺激素有增加腫瘤惡化或復發的風險 癌症部分: 於乳癌、非小細胞肺癌、頭頸癌、淋巴癌及子宮頸癌患者的一些臨床研究中發現，紅血球生成刺激素(ESAs)會縮短整體存活時間及/或增加腫瘤惡化或復發的風險。 為了減少上述及嚴重心臟及血管栓塞的風險，應使用可避免紅血球輸注之最低劑量。 紅血球生成刺激素(ESAs)僅可使用於因接受具骨髓抑制作用之化學治療而引起的貧血。 對於接受骨髓抑制治療的患者，且預期結果為可治癒時，不應使用紅血球生成刺激素。 在化學治療療程結束之後，應停用紅血球生成刺激素。"
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "主成份：epoetin beta(重組人類紅血球生成素：係利用中國倉鼠卵巢(CHO)細胞株，以DNA重組技術來合成)。 針筒裝注射溶液: 2000 IU = 16.6 微公克之epoetin beta 溶於0.3 ml的注射用水中 5000 IU = 41.5 微公克之epoetin beta 溶於0.3 ml的注射用水中",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">主成份：</span><span style=\"color:black;\">epoetin beta(</span><span style=\"color:black;font-family:標楷體;\">重組人類紅血球生成素：係利用中國倉鼠卵巢</span><span style=\"color:black;\">(CHO)</span><span style=\"color:black;font-family:標楷體;\">細胞株，以</span><span style=\"color:black;\">DNA</span><span style=\"color:black;font-family:標楷體;\">重組技術來合成</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\"><i>針筒裝注射溶液</i></span><span style=\"color:black;\"><i>:</i></span></p><p><span style=\"color:black;\">2000 IU = 16.6&nbsp;</span><span style=\"color:black;font-family:標楷體;\">微公克之</span><span style=\"color:black;\">epoetin beta&nbsp;</span><span style=\"color:black;font-family:標楷體;\">溶於</span><span style=\"color:black;\">0.3 ml</span><span style=\"color:black;font-family:標楷體;\">的注射用水中</span></p><p><span style=\"color:black;\">5000 IU = 41.5&nbsp;</span><span style=\"color:black;font-family:標楷體;\">微公克之</span><span style=\"color:black;\">epoetin beta&nbsp;</span><span style=\"color:black;font-family:標楷體;\">溶於</span><span style=\"color:black;\">0.3 ml</span><span style=\"color:black;font-family:標楷體;\">的注射用水中</span></p>",
+          "search_text": "1.1\n有效成分及含量\n主成份：epoetin beta(重組人類紅血球生成素：係利用中國倉鼠卵巢(CHO)細胞株，以DNA重組技術來合成)。 針筒裝注射溶液: 2000 IU = 16.6 微公克之epoetin beta 溶於0.3 ml的注射用水中 5000 IU = 41.5 微公克之epoetin beta 溶於0.3 ml的注射用水中",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Urea, Sodium chloride, Polysorbate 20, Sodium dihydrogen phosphate, Disodium hydrogen phosphate, Calcium chloride, Glycine, L-Leucine, L-Isoleucine, L-Threonine, L-Glutamic acid, L-phenylalanine, Water for injection. 所有劑型均含有苯丙胺酸(L-phenylalanine)的賦形劑 (每支針筒裝注射劑內含最高達0.3毫克) (請參見5.1警語/注意事項)。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;\">Urea, Sodium chloride, Polysorbate 20, Sodium dihydrogen phosphate, Disodium hydrogen phosphate, Calcium chloride, Glycine, L-Leucine, L-Isoleucine, L-Threonine, L-Glutamic acid, L-phenylalanine, Water for injection.</span></p><p><span style=\"color:black;font-family:標楷體;\">所有劑型均含有苯丙胺酸</span><span style=\"color:black;\">(L-phenylalanine)</span><span style=\"color:black;font-family:標楷體;\">的賦形劑</span><span style=\"color:black;\"> (</span><span style=\"color:black;font-family:標楷體;\">每支針筒裝注射劑內含最高達</span><span style=\"color:black;\">0.3</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">)&nbsp;(</span><span style=\"color:black;font-family:標楷體;\">請參見</span><span style=\"color:black;\">5.1</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "1.2\n賦形劑\nUrea, Sodium chloride, Polysorbate 20, Sodium dihydrogen phosphate, Disodium hydrogen phosphate, Calcium chloride, Glycine, L-Leucine, L-Isoleucine, L-Threonine, L-Glutamic acid, L-phenylalanine, Water for injection. 所有劑型均含有苯丙胺酸(L-phenylalanine)的賦形劑 (每支針筒裝注射劑內含最高達0.3毫克) (請參見5.1警語/注意事項)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射用溶液(針筒裝注射劑)。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">注射用溶液</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">針筒裝注射劑</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "1.3\n劑型\n注射用溶液(針筒裝注射劑)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "無菌產品。 重新調配後的產品為無色、澄清至微乳白色的溶液。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">無菌產品。</span></p><p><span style=\"color:black;font-family:標楷體;\">重新調配後的產品為無色、澄清至微乳白色的溶液。</span></p>",
+          "search_text": "1.4\n藥品外觀\n無菌產品。 重新調配後的產品為無色、澄清至微乳白色的溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "容可曼適用於: 治療慢性腎衰竭且伴隨症狀性貧血病人。 治療與癌症化學治療有關的症狀性貧血。 治療正在接受抗腫瘤治療之多發性骨髓瘤(multiple myeloma)、低度非何杰金氏淋巴瘤(low grade non-Hodgkin’s lymphoma)或慢性淋巴性白血病(chronic lymphocytic leukemia)成人患者的症狀性貧血。 說明 - 治療洗腎病人因慢性腎衰竭而引起的貧血(腎因性貧血)。 - 治療尚未洗腎的腎因性貧血病人。 - 治療患有固態腫瘤且因進行含鉑藥物的化學治療(platinum-based chemotherapy) 而引發貧血的成年病人。(cisplatin：75mg/m2/cycle；carboplatin：350 mg/ m2/cycle)。 - 治療紅血球生成素相對較為缺乏且正在接受抗腫瘤治療之多發性骨髓瘤(multiple myeloma)、低度非何杰金氏淋巴瘤(low grade non-Hodgkin’s lymphoma)或慢性淋巴性白血病(chronic lymphocytic leukemia)成人患者的症狀性貧血。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">容可曼適用於</span><span style=\"color:black;\">:</span></p><p><span style=\"color:black;font-family:標楷體;\">治療慢性腎衰竭且伴隨症狀性貧血病人。</span></p><p><span style=\"color:black;font-family:標楷體;\">治療與癌症化學治療有關的症狀性貧血。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">治療正在接受抗腫瘤治療之多發性骨髓瘤</span><span style=\"color:black;\">(multiple myeloma)</span><span style=\"color:black;font-family:標楷體;\">、低度非何杰金氏淋巴瘤</span><span style=\"color:black;\">(low grade non-Hodgkin’s lymphoma)</span><span style=\"color:black;font-family:標楷體;\">或慢性淋巴性白血病</span><span style=\"color:black;\">(chronic lymphocytic leukemia)</span><span style=\"color:black;font-family:標楷體;\">成人患者的症狀性貧血。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><strong>說明</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">- </span><span style=\"color:black;font-family:標楷體;\">治療洗腎病人因慢性腎衰竭而引起的貧血</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">腎因性貧血</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">- </span><span style=\"color:black;font-family:標楷體;\">治療尚未洗腎的腎因性貧血病人。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">-&nbsp;</span><span style=\"color:black;font-family:標楷體;\">治療患有固態腫瘤且因進行含鉑藥物的化學治療</span><span style=\"color:black;\">(platinum-based chemotherapy)&nbsp;</span><span style=\"color:black;font-family:標楷體;\">而引發貧血的成年病人。</span><span style=\"color:black;\">(cisplatin</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">75mg/m<sup>2</sup>/cycle</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">carboplatin</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">350 mg/ m<sup>2</sup>/cycle)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">-&nbsp;</span><span style=\"color:black;font-family:標楷體;\">治療紅血球生成素相對較為缺乏且正在接受抗腫瘤治療之多發性骨髓瘤</span><span style=\"color:black;\">(multiple myeloma)</span><span style=\"color:black;font-family:標楷體;\">、低度非何杰金氏淋巴瘤</span><span style=\"color:black;\">(low grade non-Hodgkin’s lymphoma)</span><span style=\"color:black;font-family:標楷體;\">或慢性淋巴性白血病</span><span style=\"color:black;\">(chronic lymphocytic leukemia)</span><span style=\"color:black;font-family:標楷體;\">成人患者的症狀性貧血。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象。</span></p>",
+          "search_text": "2\n適應症\n容可曼適用於: 治療慢性腎衰竭且伴隨症狀性貧血病人。 治療與癌症化學治療有關的症狀性貧血。 治療正在接受抗腫瘤治療之多發性骨髓瘤(multiple myeloma)、低度非何杰金氏淋巴瘤(low grade non-Hodgkin’s lymphoma)或慢性淋巴性白血病(chronic lymphocytic leukemia)成人患者的症狀性貧血。 說明 - 治療洗腎病人因慢性腎衰竭而引起的貧血(腎因性貧血)。 - 治療尚未洗腎的腎因性貧血病人。 - 治療患有固態腫瘤且因進行含鉑藥物的化學治療(platinum-based chemotherapy) 而引發貧血的成年病人。(cisplatin：75mg/m2/cycle；carboplatin：350 mg/ m2/cycle)。 - 治療紅血球生成素相對較為缺乏且正在接受抗腫瘤治療之多發性骨髓瘤(multiple myeloma)、低度非何杰金氏淋巴瘤(low grade non-Hodgkin’s lymphoma)或慢性淋巴性白血病(chronic lymphocytic leukemia)成人患者的症狀性貧血。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "投予途徑 靜脈(i.v.)或皮下(s.c.)注射用溶液。 開始使用容可曼治療上述適應症時，應由有經驗的醫師指導進行。由於曾有發生類過敏反應的個案報告，因此建議第一劑應於有醫療人員監督的情況下投予。 針筒裝注射溶液: 預先填充好的容可曼針筒裝注射劑可以直接使用。每支注射針不應該在任何情況使用超過一次以上；該藥品僅供單次使用。(請參見14病人使用須知) 針對患有慢性腎衰竭的貧血病人之治療： 配製好溶液可以經由皮下或是靜脈注射使用。當使用靜脈注射時，注射藥劑的時間要大於兩分鐘，譬如說，血液透析病人可以在洗腎結束時經由動-靜脈瘻管進行注射。 對於不是進行血液透析的病人，寧可使用皮下注射以避免刺破週邊靜脈。 對慢性腎衰竭病患，其治療的目標在血紅素值達到10-12 g/dl，不可超出12 g/dl 。如果血紅素在4週內升高至超過2 g/dl (1.3 mmol/l)的程度，則應考慮將劑量降低。有高血壓或有心血管、大腦血管或週邊血管的疾病，每週的血紅素值之增加與其目標血紅素值，應依個別臨床狀況來作決定。患者應接受嚴密的監視，以確保使用最低劑量的容可曼可達到適當的控制貧血症狀。 容可曼的治療可分為兩個階段： 1. 調整階段 - 皮下注射： 初劑量是每週3×20 IU/kg體重。若血紅素值增加不理想(每星期低於0.25 g/dl)，該劑量可以每四週為間隔，每週增加3×20 IU/kg體重。 每週之劑量也可分成每日投予。 - 靜脈注射： 初劑量是每週3×40 IU/kg體重。其劑量可在四週後增加到80 IU/kg體重，每週給三次。若需進一步增加劑量，可以以月為間隔，增加幅度為每週3×20 IU/kg體重。 前述兩種給藥途徑，最大劑量不應超過每週720 IU/kg體重。 2. 維持劑量階段 為了維持目標血紅素值大約在10-12 g/dl之間，劑量先降為先前使用量的一半。隨後，以一到二週為間隔，個別為病人調整劑量(維持劑量)。在皮下注射時，可一次注射一週的劑量或將一週的劑量分成三或七次注射。當患者能適應每週一次的注射用法後，可以改成每兩週注射一次，如此一來使用劑量可能要增加。 容可曼的治療往往是長期性的治療。雖然如此，本藥能隨時因需要而中斷治療。每週一次投藥方式的資料是根據24週治療期的臨床研究。 治療固態腫瘤患者的症狀性貧血： 本製劑經由皮下注射；可一次注射一週的劑量或將一週的劑量分成三至七次注射。 建議初始劑量為每週450 IU/kg體重。 當血紅素的值≥ 10 g/dl (6.2 mmol/l)，不應開始使用容可曼治療。應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。 治療4週之後，如果血紅素值升高至少1 g/dl (0.62 mmol/l)以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少1 g/dl (0.62 mmol/l)以上，或可考慮將劑量提高一倍。若在治療8週之後，如果血紅素值仍未升高至少1 g/dl (0.62 mmol/l)以上，即表示患者可能無法產生療效反應，並應停止治療。 在化學治療療程結束之後，應停用本品。 最高劑量不可超過每週每公斤體重900 IU。 一旦達到個別病患的治療目標之後，即應將劑量降低25-50%，使血紅素維持於該目標值。必要時或可將劑量進一步降低，以確保血紅素值不至超過12 g/dl。 如果血紅素在4週內升高至超過2 g/dl (1.3 mmol/l)的程度，則應將劑量降低25-50%。 治療多發性骨髓瘤、低度非何杰金氏淋巴瘤或慢性淋巴性白血病患者的症狀性貧血： 多發性骨髓瘤、非何杰金氏淋巴瘤或慢性淋巴性白血病患者都會出現紅血球生成素相對較為缺乏的現象。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象： 在血紅素>9至<10 g/dl (>5.58至<6.21 mmol/l)的情況下，血清紅血球生成素濃度≤ 100 mU/ml 在血紅素>8至≤ 9 g/dl (>4.96至≤ 5.58 mmol/l)的情況下，血清紅血球生成素濃度≤ 180 mU/ml 在血紅素≤ 8 g/dl (≤ 4.96 mmol/l)的情況下，血清紅血球生成素濃度≤ 300 mU/ml 以上數值應於距離最後一次輸血及最後一週期細胞毒性化學治療至少7天之後進行檢測。 配製後的溶液應採皮下注射投予；可將每週劑量以每週注射一次的方式投予，亦可分成3至7次投予。 建議起始劑量為每週每公斤體重450 IU。 應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。 治療4週之後，如果血紅素值升高至少1 g/dl (0.62 mmol/l)以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少1 g/dl (0.62 mmol/l)以上，或可考慮將劑量提高至每週每公斤體重900 IU，並分成2至7次投予。治療8週之後，如果血紅素值仍未升高至少1 g/dl (0.62 mmol/l)以上，即表示患者可能無法產生療效反應，並應停止治療。 臨床研究顯示，與多發性骨髓瘤、非何杰金氏淋巴瘤或及固態腫瘤患者相比較，慢性淋巴性白血病患者對epoetin beta的療效反應會延遲2週左右。在化學治療療程結束之後，應停用本品。 最高劑量不可超過每週每公斤體重900 IU。 一旦達到個別病患的治療目標之後，應將劑量降低25至50%，以使血紅素維持在當時的濃度。如有必要，可將劑量進一步降低，以確保血紅素值不會超過12 g/dl。 如果血紅素值在4週內的升高程度超過2 g/dl (1.3 mmol/l)，也應將劑量降低25至50%。 只有在紅血球生成素缺乏為貧血之最可能導因的情況下，才可再度使用本品治療。",
+          "content_html": "<p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\"><strong>投予途徑</strong></span></p><p><span style=\"color:black;font-family:標楷體;\">靜脈</span><span style=\"color:black;\">(i.v.)</span><span style=\"color:black;font-family:標楷體;\">或皮下</span><span style=\"color:black;\">(s.c.)</span><span style=\"color:black;font-family:標楷體;\">注射用溶液。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\">開始使用容可曼治療上述適應症時，應由有經驗的醫師指導進行。由於曾有發生類過敏反應的個案報告，因此建議第一劑應於有醫療人員監督的情況下投予。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\"><i>針筒裝注射溶液</i></span><span style=\"color:black;\"><i>:</i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">預先填充好的容可曼針筒裝注射劑可以直接使用。每支注射針不應該在任何情況使用超過一次以上；該藥品僅供單次使用。</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請參見</span><span style=\"color:black;\">14</span><span style=\"color:black;font-family:標楷體;\">病人使用須知</span><span style=\"color:black;\">)</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><strong>針對患有慢性腎衰竭的貧血病人之治療：</strong></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">配製好溶液可以經由皮下或是靜脈注射使用。當使用靜脈注射時，注射藥劑的時間要大於兩分鐘，譬如說，血液透析病人可以在洗腎結束時經由動</span><span style=\"color:black;\">-</span><span style=\"color:black;font-family:標楷體;\">靜脈瘻管進行注射。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">對於不是進行血液透析的病人，寧可使用皮下注射以避免刺破週邊靜脈。</span></p><p><span style=\"color:black;font-family:標楷體;\">對慢性腎衰竭病患，其治療的目標在血紅素值達到</span><span style=\"color:black;\">10-12 g/dl</span><span style=\"color:black;font-family:標楷體;\">，不可超出</span><span style=\"color:black;\">12 g/dl&nbsp;</span><span style=\"color:black;font-family:標楷體;\">。如果血紅素在</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週內升高至超過</span><span style=\"color:black;\">2 g/dl (1.3 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">的程度，則應考慮將劑量降低。有高血壓或有心血管、大腦血管或週邊血管的疾病，每週的血紅素值之增加與其目標血紅素值，應依個別臨床狀況來作決定。患者應接受嚴密的監視，以確保使用最低劑量的容可曼可達到適當的控制貧血症狀。</span></p><p style=\"margin-left:.55pt;\">&nbsp;</p><p style=\"margin-left:.55pt;\"><span style=\"color:black;font-family:標楷體;\">容可曼的治療可分為兩個階段：</span></p><p style=\"margin-left:.55pt;\"><span style=\"color:black;\"><strong>1.&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><span style=\"color:black;font-family:標楷體;\"><strong>調整階段</strong></span></p><p><span style=\"color:black;\">- &nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"color:black;font-family:標楷體;\"><i>皮下注射</i>：</span></p><p style=\"margin-left:24.0pt;\"><span style=\"color:black;font-family:標楷體;\">初劑量是每週</span><span style=\"color:black;\">3×20 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重。若血紅素值增加不理想</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">每星期低於</span><span style=\"color:black;\">0.25 g/dl)</span><span style=\"color:black;font-family:標楷體;\">，該劑量可以每四週為間隔，每週增加</span><span style=\"color:black;\">3×20 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">每週之劑量也可分成每日投予。</span></p><p>&nbsp;</p><p><span style=\"color:black;\">- &nbsp;&nbsp;&nbsp;&nbsp; </span><span style=\"color:black;font-family:標楷體;\"><i>靜脈注射</i>：</span></p><p style=\"margin-left:24.0pt;\"><span style=\"color:black;font-family:標楷體;\">初劑量是每週</span><span style=\"color:black;\">3×40 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重。其劑量可在四週後增加到</span><span style=\"color:black;\">80 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重，每週給三次。若需進一步增加劑量，可以以月為間隔，增加幅度為每週</span><span style=\"color:black;\">3×20 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重。</span></p><p><span style=\"color:black;font-family:標楷體;\">前述兩種給藥途徑，最大劑量不應超過每週</span><span style=\"color:black;\">720 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;\"><strong>2.&nbsp;&nbsp;&nbsp;&nbsp; </strong></span><span style=\"color:black;font-family:標楷體;\"><strong>維持劑量階段</strong></span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">為了維持目標血紅素值大約在</span><span style=\"color:black;\">10-12 g/dl</span><span style=\"color:black;font-family:標楷體;\">之間，劑量先降為先前使用量的一半。隨後，以一到二週為間隔，個別為病人調整劑量</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">維持劑量</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。在皮下注射時，可一次注射一週的劑量或將一週的劑量分成三或七次注射。當患者能適應每週一次的注射用法後，可以改成每兩週注射一次，如此一來使用劑量可能要增加。</span></p><p><span style=\"color:black;font-family:標楷體;\">容可曼的治療往往是長期性的治療。雖然如此，本藥能隨時因需要而中斷治療。每週一次投藥方式的資料是根據</span><span style=\"color:black;\">24</span><span style=\"color:black;font-family:標楷體;\">週治療期的臨床研究。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><strong>治療固態腫瘤患者的症狀性貧血：</strong></i></span></p><p><span style=\"color:black;font-family:標楷體;\">本製劑經由皮下注射；可一次注射一週的劑量或將一週的劑量分成三至七次注射。</span></p><p><span style=\"color:black;font-family:標楷體;\">建議初始劑量為每週</span><span style=\"color:black;\">450 IU/kg</span><span style=\"color:black;font-family:標楷體;\">體重。</span></p><p><span style=\"color:black;font-family:標楷體;\">當血紅素的值</span><span style=\"color:black;\">≥ 10 g/dl (6.2 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">，不應開始使用容可曼治療。應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。</span></p><p><span style=\"color:black;font-family:標楷體;\">治療</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週之後，如果血紅素值升高至少</span><span style=\"color:black;\">1 g/dl&nbsp;(0.62 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少</span><span style=\"color:black;\">1 g/dl&nbsp;(0.62 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">以上，或可考慮將劑量提高一倍。若在治療</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">週之後，如果血紅素值仍未升高至少</span><span style=\"color:black;\">1 g/dl&nbsp;(0.62 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">以上，即表示患者可能無法產生療效反應，並應停止治療。</span></p><p><span style=\"color:black;font-family:標楷體;\">在化學治療療程結束之後，應停用本品。</span></p><p><span style=\"color:black;font-family:標楷體;\">最高劑量不可超過每週每公斤體重</span><span style=\"color:black;\">900 IU</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">一旦達到個別病患的治療目標之後，即應將劑量降低</span><span style=\"color:black;\">25-50%</span><span style=\"color:black;font-family:標楷體;\">，使血紅素維持於該目標值。必要時或可將劑量進一步降低，以確保血紅素值不至超過</span><span style=\"color:black;\">12 g/dl</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">如果血紅素在</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週內升高至超過</span><span style=\"color:black;\">2 g/dl (1.3 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">的程度，則應將劑量降低</span><span style=\"color:black;\">25-50%</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\"><i><strong>治療多發性骨髓瘤、低度非何杰金氏淋巴瘤或慢性淋巴性白血病患者的症狀性貧血：</strong></i></span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">多發性骨髓瘤、非何杰金氏淋巴瘤或慢性淋巴性白血病患者都會出現紅血球生成素相對較為缺乏的現象。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象：</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">在血紅素</span><span style=\"color:black;\">&gt;9</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">&lt;10 g/dl (&gt;5.58</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">&lt;6.21 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">的情況下，血清紅血球生成素濃度≤</span><span style=\"color:black;\"> 100 mU/ml</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">在血紅素</span><span style=\"color:black;\">&gt;8</span><span style=\"color:black;font-family:標楷體;\">至≤</span><span style=\"color:black;\"> 9 g/dl (&gt;4.96</span><span style=\"color:black;font-family:標楷體;\">至≤</span><span style=\"color:black;\"> 5.58 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">的情況下，血清紅血球生成素濃度≤</span><span style=\"color:black;\"> 180 mU/ml</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">在血紅素≤</span><span style=\"color:black;\"> 8 g/dl (≤ 4.96 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">的情況下，血清紅血球生成素濃度≤</span><span style=\"color:black;\"> 300 mU/ml</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">以上數值應於距離最後一次輸血及最後一週期細胞毒性化學治療至少</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">天之後進行檢測。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">配製後的溶液應採皮下注射投予；可將每週劑量以每週注射一次的方式投予，亦可分成</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">次投予。</span></p><p><span style=\"color:black;font-family:標楷體;\">建議起始劑量為每週每公斤體重</span><span style=\"color:black;\">450 IU</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。</span></p><p><span style=\"color:black;font-family:標楷體;\">治療</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週之後，如果血紅素值升高至少</span><span style=\"color:black;\">1 g/dl&nbsp;(0.62 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少</span><span style=\"color:black;\">1 g/dl&nbsp;(0.62 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">以上，或可考慮將劑量提高至每週每公斤體重</span><span style=\"color:black;\">900 IU</span><span style=\"color:black;font-family:標楷體;\">，並分成</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">次投予。治療</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">週之後，如果血紅素值仍未升高至少</span><span style=\"color:black;\">1 g/dl&nbsp;(0.62 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">以上，即表示患者可能無法產生療效反應，並應停止治療。</span></p><p><span style=\"color:black;font-family:標楷體;\">臨床研究顯示，與多發性骨髓瘤、非何杰金氏淋巴瘤或及固態腫瘤患者相比較，慢性淋巴性白血病患者對</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的療效反應會延遲</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">週左右。在化學治療療程結束之後，應停用本品。</span></p><p><span style=\"color:black;font-family:標楷體;\">最高劑量不可超過每週每公斤體重</span><span style=\"color:black;\">900 IU</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">一旦達到個別病患的治療目標之後，應將劑量降低</span><span style=\"color:black;\">25</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">50%</span><span style=\"color:black;font-family:標楷體;\">，以使血紅素維持在當時的濃度。如有必要，可將劑量進一步降低，以確保血紅素值不會超過</span><span style=\"color:black;\">12 g/dl</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">如果血紅素值在</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週內的升高程度超過</span><span style=\"color:black;\">2 g/dl (1.3 mmol/l)</span><span style=\"color:black;font-family:標楷體;\">，也應將劑量降低</span><span style=\"color:black;\">25</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">50%</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">只有在紅血球生成素缺乏為貧血之最可能導因的情況下，才可再度使用本品治療。</span></p>",
+          "search_text": "3.1\n用法用量\n投予途徑 靜脈(i.v.)或皮下(s.c.)注射用溶液。 開始使用容可曼治療上述適應症時，應由有經驗的醫師指導進行。由於曾有發生類過敏反應的個案報告，因此建議第一劑應於有醫療人員監督的情況下投予。 針筒裝注射溶液: 預先填充好的容可曼針筒裝注射劑可以直接使用。每支注射針不應該在任何情況使用超過一次以上；該藥品僅供單次使用。(請參見14病人使用須知) 針對患有慢性腎衰竭的貧血病人之治療： 配製好溶液可以經由皮下或是靜脈注射使用。當使用靜脈注射時，注射藥劑的時間要大於兩分鐘，譬如說，血液透析病人可以在洗腎結束時經由動-靜脈瘻管進行注射。 對於不是進行血液透析的病人，寧可使用皮下注射以避免刺破週邊靜脈。 對慢性腎衰竭病患，其治療的目標在血紅素值達到10-12 g/dl，不可超出12 g/dl 。如果血紅素在4週內升高至超過2 g/dl (1.3 mmol/l)的程度，則應考慮將劑量降低。有高血壓或有心血管、大腦血管或週邊血管的疾病，每週的血紅素值之增加與其目標血紅素值，應依個別臨床狀況來作決定。患者應接受嚴密的監視，以確保使用最低劑量的容可曼可達到適當的控制貧血症狀。 容可曼的治療可分為兩個階段： 1. 調整階段 - 皮下注射： 初劑量是每週3×20 IU/kg體重。若血紅素值增加不理想(每星期低於0.25 g/dl)，該劑量可以每四週為間隔，每週增加3×20 IU/kg體重。 每週之劑量也可分成每日投予。 - 靜脈注射： 初劑量是每週3×40 IU/kg體重。其劑量可在四週後增加到80 IU/kg體重，每週給三次。若需進一步增加劑量，可以以月為間隔，增加幅度為每週3×20 IU/kg體重。 前述兩種給藥途徑，最大劑量不應超過每週720 IU/kg體重。 2. 維持劑量階段 為了維持目標血紅素值大約在10-12 g/dl之間，劑量先降為先前使用量的一半。隨後，以一到二週為間隔，個別為病人調整劑量(維持劑量)。在皮下注射時，可一次注射一週的劑量或將一週的劑量分成三或七次注射。當患者能適應每週一次的注射用法後，可以改成每兩週注射一次，如此一來使用劑量可能要增加。 容可曼的治療往往是長期性的治療。雖然如此，本藥能隨時因需要而中斷治療。每週一次投藥方式的資料是根據24週治療期的臨床研究。 治療固態腫瘤患者的症狀性貧血： 本製劑經由皮下注射；可一次注射一週的劑量或將一週的劑量分成三至七次注射。 建議初始劑量為每週450 IU/kg體重。 當血紅素的值≥ 10 g/dl (6.2 mmol/l)，不應開始使用容可曼治療。應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。 治療4週之後，如果血紅素值升高至少1 g/dl (0.62 mmol/l)以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少1 g/dl (0.62 mmol/l)以上，或可考慮將劑量提高一倍。若在治療8週之後，如果血紅素值仍未升高至少1 g/dl (0.62 mmol/l)以上，即表示患者可能無法產生療效反應，並應停止治療。 在化學治療療程結束之後，應停用本品。 最高劑量不可超過每週每公斤體重900 IU。 一旦達到個別病患的治療目標之後，即應將劑量降低25-50%，使血紅素維持於該目標值。必要時或可將劑量進一步降低，以確保血紅素值不至超過12 g/dl。 如果血紅素在4週內升高至超過2 g/dl (1.3 mmol/l)的程度，則應將劑量降低25-50%。 治療多發性骨髓瘤、低度非何杰金氏淋巴瘤或慢性淋巴性白血病患者的症狀性貧血： 多發性骨髓瘤、非何杰金氏淋巴瘤或慢性淋巴性白血病患者都會出現紅血球生成素相對較為缺乏的現象。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象： 在血紅素>9至<10 g/dl (>5.58至<6.21 mmol/l)的情況下，血清紅血球生成素濃度≤ 100 mU/ml 在血紅素>8至≤ 9 g/dl (>4.96至≤ 5.58 mmol/l)的情況下，血清紅血球生成素濃度≤ 180 mU/ml 在血紅素≤ 8 g/dl (≤ 4.96 mmol/l)的情況下，血清紅血球生成素濃度≤ 300 mU/ml 以上數值應於距離最後一次輸血及最後一週期細胞毒性化學治療至少7天之後進行檢測。 配製後的溶液應採皮下注射投予；可將每週劑量以每週注射一次的方式投予，亦可分成3至7次投予。 建議起始劑量為每週每公斤體重450 IU。 應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。 治療4週之後，如果血紅素值升高至少1 g/dl (0.62 mmol/l)以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少1 g/dl (0.62 mmol/l)以上，或可考慮將劑量提高至每週每公斤體重900 IU，並分成2至7次投予。治療8週之後，如果血紅素值仍未升高至少1 g/dl (0.62 mmol/l)以上，即表示患者可能無法產生療效反應，並應停止治療。 臨床研究顯示，與多發性骨髓瘤、非何杰金氏淋巴瘤或及固態腫瘤患者相比較，慢性淋巴性白血病患者對epoetin beta的療效反應會延遲2週左右。在化學治療療程結束之後，應停用本品。 最高劑量不可超過每週每公斤體重900 IU。 一旦達到個別病患的治療目標之後，應將劑量降低25至50%，以使血紅素維持在當時的濃度。如有必要，可將劑量進一步降低，以確保血紅素值不會超過12 g/dl。 如果血紅素值在4週內的升高程度超過2 g/dl (1.3 mmol/l)，也應將劑量降低25至50%。 只有在紅血球生成素缺乏為貧血之最可能導因的情況下，才可再度使用本品治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "小兒使用: 小兒臨床研究的結果顯示，平均而言，患者越年輕，所須使用的容可曼劑量就越高。不過，由於無法預測個別病患的反應，因此仍應遵循建議的劑量療程(見6.4小兒)。 老年人使用: 目前並未進行過任何專門針對老年病患的研究。在容可曼的臨床試驗中曾收錄極高比例的老年病患，並未發現老年族群有特別劑量調整之必要。 肝功能不全: 目前並無任何專門針對肝功能不全患者所進行的臨床試驗。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\"><i><strong>小兒使用</strong></i></span><span style=\"color:black;\"><i><strong>:</strong></i></span></p><p><span style=\"color:black;font-family:標楷體;\">小兒臨床研究的結果顯示，平均而言，患者越年輕，所須使用的容可曼劑量就越高。不過，由於無法預測個別病患的反應，因此仍應遵循建議的劑量療程</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">6.4</span><span style=\"color:black;font-family:標楷體;\">小兒</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><strong>老年人使用</strong></i></span><span style=\"color:black;\"><i><strong>:&nbsp;</strong></i></span></p><p><span style=\"color:black;font-family:標楷體;\">目前並未進行過任何專門針對老年病患的研究。在容可曼的臨床試驗中曾收錄極高比例的老年病患，並未發現老年族群有特別劑量調整之必要。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><strong>肝功能不全</strong></i></span><span style=\"color:black;\"><i><strong>:</strong></i></span></p><p><span style=\"color:black;font-family:標楷體;\">目前並無任何專門針對肝功能不全患者所進行的臨床試驗。</span></p>",
+          "search_text": "3.3\n特殊族群用法用量\n小兒使用: 小兒臨床研究的結果顯示，平均而言，患者越年輕，所須使用的容可曼劑量就越高。不過，由於無法預測個別病患的反應，因此仍應遵循建議的劑量療程(見6.4小兒)。 老年人使用: 目前並未進行過任何專門針對老年病患的研究。在容可曼的臨床試驗中曾收錄極高比例的老年病患，並未發現老年族群有特別劑量調整之必要。 肝功能不全: 目前並無任何專門針對肝功能不全患者所進行的臨床試驗。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "容可曼不可使用在以下病患： - 已知對本品之活性成分或任一賦形劑過敏的患者 - 高血壓控制不良的患者",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">容可曼不可使用在以下病患：</span></p><p><span style=\"color:black;\">-&nbsp;</span><span style=\"color:black;font-family:標楷體;\">已知對本品之活性成分或任一賦形劑過敏的患者</span></p><p><span style=\"color:black;\">- </span><span style=\"color:black;font-family:標楷體;\">高血壓控制不良的患者</span></p>",
+          "search_text": "4\n禁忌\n容可曼不可使用在以下病患： - 已知對本品之活性成分或任一賦形劑過敏的患者 - 高血壓控制不良的患者",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "一般 為了提升生物製劑藥品使用之可追蹤性，給予藥物的商品名及批號應清楚地記載(或列)於病患檔案中。 在以其他生物製劑藥品取代前必須經由處方醫師同意。 對伴隨過量變形裂殖體(excess blasts in transformation)、癲癇、血小板增多症和慢性肝衰竭的頑固性貧血病人要小心使用容可曼。要排除葉酸與維他命B12缺乏因素，因它們會降低容可曼之藥效。 為確保達到有效的紅血球生成作用，所有的患者在治療前與治療期間都應評估鐵質狀態，並可能必須依據治療指示進行鐵劑補充治療。 容可曼因含苯丙胺酸(phenylalanine)做為賦形劑，因此苯酮尿症患者須評估利弊後再使用。 療效不彰：造成患者對紅血球生成刺激素(ESAs)反應不足的最常見導因為鐵質缺乏與慢性發炎(如尿毒症或晚期轉移性癌症所引起者)。下列疾病可能也會減弱紅血球生成刺激素的治療效果：慢性失血、骨髓纖維變性、腎衰竭治療所引起的嚴重鋁質過量、葉酸或維他命B12缺乏以及溶血。如果前述的疾病均已排除，但患者出現血紅素驟降的現象，並伴隨出現網狀細胞減少症及抗紅血球生成素抗體，則應考慮進行骨髓檢查，藉以診斷是否為單純紅血球再生不良(PRCA)。若診斷為單純紅血球再生不良，即應停止使用epoetin beta治療，且患者不可改用另一種紅血球生成刺激素。 在紅血球生成素治療中，包括容可曼，曾有因出現具紅血球生成素中和作用之抗體伴隨單純紅血球再生不良之通報。這些抗體可能會和所有的紅血球生成蛋白質發生交叉反應。因此，疑似或確定出現具紅血球生成素中和作用之抗體的患者不可改用容可曼(見8.1 臨床重要副作用/不良反應)。 對腫瘤生長的影響： 增加死亡及/或腫瘤惡化或復發的風險 紅血球生成刺激素會降低局部區域控制率/無惡化存活率及/或整體存活率(見表一)。這些發現來自於下列的研究：針對接受放射治療的晚期頭頸癌患者(癌症研究5及6)，和接受化學治療的轉移性乳癌(癌症研究1)或淋巴性惡性腫瘤患者(癌症研究2)，及未進行化學治療或放射治療的非小細胞肺癌或各種惡性腫瘤的患者(癌症研究7及8)。 表一 存活率降低及/或局部區域控制率(locoregional control)降低的隨機對照試驗 研究/腫瘤(n) 血紅素目標值 所達到的 血紅素值 (中位數Q1, Q3) 主要指標 含ESA之治療組中的不良結果 化學治療 癌症研究1 轉移性乳癌 (n=939) 12-14 g/dL 12.9 g/dL 12.2, 13.3 g/dL 12個月整體存活率 12個月存活率降低 癌症研究2 淋巴性惡性腫瘤 (n=344) 13-15 g/dL (男) 13-14 g/dL (女) 11.0 g/dL 9.8, 12.1 g/dL 達到血紅素反應的病患比例 整體存活率降低 癌症研究3 早期乳癌 (n=733) 12.5-13 g/dL 13.1 g/dL 12.5, 13.7 g/dL 無復發及整體存活率 3年無復發及整體存活率降低 癌症研究4 子宮頸癌 (n=114) 12-14 g/dL 12.7 g/dL 12.1, 13.3 g/dL 無惡化及整體存活率及 局部區域控制率(locoregional control) 3年無惡化及整體存活率及局部區域控制率降低 單獨使用放射治療 癌症研究5 頭頸癌 (n=351) ≥ 15 g/dL (男) ≥ 14 g/dL (女) 無資料 無局部區域惡化存活率 (LRPFS, locoregional progression-free survival) 5年無局部區域惡化存活率降低 整體存活率降低 癌症研究6 頭頸癌 (n=522) 14-15.5 g/dL 無資料 局部區域疾病控制率(LRC, locoregional disease control) 局部區域疾病控制率降低 未進行任何化學治療或放射治療 癌症研究7 非小細胞肺癌 (n=70) 12-14 g/dL 無資料 生活品質 整體存活率降低 癌症研究8 非骨髓性惡性腫瘤 (n=989) 12-13 g/dL 10.6 g/dL 9.4, 11.8 g/dL RBC輸注 整體存活率降低 整體存活率降低： 癌症研究1(\"BEST\"研究)。Epoetin alfa組中的4個月死亡率明顯較高(8.7%比3.4%)。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低(70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012)。 癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血患者所進行的第3期、雙盲、隨機(Darbepoetin alfa與安慰劑相比較)研究。經過29個月(中位數)的追蹤之後發現，隨機分配進入Darbepoetin alfa組之患者中的整體死亡率要明顯高於安慰劑組(HR 1.36，95% CI：1.02，1.82)。 癌症研究7是一項第3期、多中心、隨機(Epoetin alfa比上安慰劑)、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌患者以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/dL之間。針對300位計劃收錄病患中的70位患者進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組患者(中位存活時間分別為63與129天；HR 1.84；p=0.04)。 癌症研究8是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血患者所進行的第3期、雙盲、隨機(Darbepoetin alfa比上安慰劑)、16週研究。並無任何證據顯示接受RBC輸注的病患比例有具統計意義的降低。Darbepoetin alfa組中的中位存活時間(8個月)要比安慰劑組(10.8個月)短；HR 1.30，95% CI：1.07，1.57。 無惡化存活率(progression-free survival)與整體存活率降低： 癌症研究3 (\"PREPARE\"研究)是一項針對接受術前輔助性化學治療的733位女性乳癌患者，給予darbepoetin alfa以預防貧血所進行的隨機對照研究。在經過約三年(中位數)的追蹤觀察之後，darbepoetin alfa組中的存活率(86% vs. 90%, HR 1.42, 95% CI: 0.93, 2.18)及無復發存活率(72% vs. 78%, HR 1.33, 95% CI: 0.99, 1.79)比對照組低。 癌症研究4 (protocol GOG 191)是一項收錄114位(原本計畫收錄460位)患有子宮頸癌且接受化學治療及放射性治療中的患者所進行的隨機對照研究。患者隨機接受Epoetin alfa以維持血紅素在12至14 g/dL之間或於必要時進行紅血球輸注。此研究因接受Epoetin alfa治療的患者發生血栓栓塞事件的比例相對高於對照組(19% vs. 9%)而提早結束。Epoetin alfa組的局部復發率和轉移性復發率均高於對照組(分別為21%與20%以及12%與7%)。Epoetin alfa組的3年無惡化存活率比對照組低(59% vs. 62%, HR 1.06, 95% CI: 0.58, 1.91)。其3年整體存活率，Epoetin alfa組亦比對照組低(61% vs. 71%, HR 1.28, 95% CI: 0.68, 2.42)。 癌症研究5 (\"ENHANCE\"研究)是一項針對351位頭頸癌患者投予Epoetin beta或安慰劑的隨機對照研究，女性和男性患者的血紅素目標值分別為14與15 g/dL。接受Epoetin beta治療之患者中的無局部區域惡化存活時間明顯較短(HR 1.62，95% CI：1.22，2.14；p=0.0008)，Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之患者中的整體存活時間也明顯較短(HR 1.39，95% CI：1.05，1.84；p=0.02)。 局部區域控制率降低： 癌症研究6 (DAHANCA 10)乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌患者隨機分組後，分別以Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位患者進行期中分析的結果顯示，接受Darbepoetin alfa治療之患者中的5年局部區域控制率明顯較短(RR 1.44，95% CI：1.06，1.96；p=0.02)。接受Darbepoetin alfa治療之患者中的整體存活時間也較短(RR 1.28，95% CI：0.98，1.68；p=0.08)。 Epoetins是一種主要作用為刺激紅血球生成的生長因子。紅血球生成素接受體可能會出現於多種不同腫瘤細胞的表面。和所有的生長因子一樣，epoetins也可能會刺激任何類型之惡性腫瘤的生長。 一項針對頭頸癌患者投予epoetin beta的對照性臨床研究顯示，接受epoetin beta治療之患者其無局部區域惡化存活時間較短。另一項針對乳癌之臨床研究，其研究設計目的為驗證epoetin beta相較於未治療的對照組，對整體存活時間產生正面影響，且其整體存活時間或腫瘤惡化程度方面皆顯示不具任何統計意義。此外，針對使用epoetin beta治療癌症患者之貧血症狀的隨機、對照性臨床研究(含12項研究，2301位病患；包括上述兩項研究)所進行的統合分析資料顯示，在存活時間或腫瘤惡化程度方面皆顯示負面影響，然此負面影響未達統計意義(見12. 臨床試驗資料)。 慢性腎衰竭患者及正在接受化學治療的癌症患者，可能會發生血壓上升(高血壓)或既有之高血壓更加惡化的現象，尤其在血紅素快速升高的情況下。血壓上升的現象可使用抗高血壓藥物治療。如果血壓上升的現象無法因藥物治療而獲得控制，則建議暫時停止使用容可曼治療。建議定期監測血壓，特別是在剛開始治療時，腎因性貧血患者在兩次洗腎之間也應監測血壓。此外，血壓正常或偏低的慢性腎衰竭患者也可能會發生高血壓危象伴隨似腦病變的症狀，此時必須立即就醫與密集的醫療照護。患者如果突發刺痛性的偏頭痛樣頭痛，應特別注意，因為這可能是一個警訊。 因為腎衰竭治療導致的嚴重鋁質過量可能使容可曼藥效降低。 慢性腎衰竭患者在使用容可曼治療的過程中，由於血紅素會升高，因此，血液透析期間所使用的肝素（heparin）劑量也經常必須提高。如果肝素化（heparinisation）的程度不適當，可能會發生透析系統阻塞的現象。對有發生分流血栓之風險的慢性腎衰竭患者，應考慮及早進行分流修正，並採取血栓預防療法，如投予水楊酸。 在使用容可曼治療期間，慢性腎衰竭患者可能會出現血小板計數於正常範圍內隨劑量而中度升高的現象，特別是在靜脈注射投藥之後。這種現象在持續治療的過程中會逐漸消退。建議於最初8週的治療期間定期監測血小板計數。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\"><strong>一般</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">為了提升生物製劑藥品使用之可追蹤性，給予藥物的商品名及批號應清楚地記載</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">或列</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">於病患檔案中。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在以其他生物製劑藥品取代前必須經由處方醫師同意。</span></p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">對伴隨過量變形裂殖體</span><span style=\"color:black;\">(excess blasts in transformation)</span><span style=\"color:black;font-family:標楷體;\">、癲癇、血小板增多症和慢性肝衰竭的頑固性貧血病人要小心使用容可曼。要排除葉酸與維他命</span><span style=\"color:black;\">B<sub>12</sub></span><span style=\"color:black;font-family:標楷體;\">缺乏因素，因它們會降低容可曼之藥效。</span></p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">為確保達到有效的紅血球生成作用，所有的患者在治療前與治療期間都應評估鐵質狀態，並可能必須依據治療指示進行鐵劑補充治療。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">容可曼因含苯丙胺酸</span><span style=\"color:black;\">(phenylalanine)</span><span style=\"color:black;font-family:標楷體;\">做為賦形劑，因此苯酮尿症患者須評估利弊後再使用。</span></p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i>療效不彰：</i>造成患者對紅血球生成刺激素</span><span style=\"color:black;\">(ESAs)</span><span style=\"color:black;font-family:標楷體;\">反應不足的最常見導因為鐵質缺乏與慢性發炎</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如尿毒症或晚期轉移性癌症所引起者</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。下列疾病可能也會減弱紅血球生成刺激素的治療效果：慢性失血、骨髓纖維變性、腎衰竭治療所引起的嚴重鋁質過量、葉酸或維他命</span><span style=\"color:black;\">B<sub>12</sub></span><span style=\"color:black;font-family:標楷體;\">缺乏以及溶血。如果前述的疾病均已排除，但患者出現血紅素驟降的現象，並伴隨出現網狀細胞減少症及抗紅血球生成素抗體，則應考慮進行骨髓檢查，藉以診斷是否為單純紅血球再生不良</span><span style=\"color:black;\">(PRCA)</span><span style=\"color:black;font-family:標楷體;\">。若診斷為單純紅血球再生不良，即應停止使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療，且患者不可改用另一種紅血球生成刺激素。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在紅血球生成素治療中，包括容可曼，曾有因出現具紅血球生成素中和作用之抗體伴隨單純紅血球再生不良之通報。這些抗體可能會和所有的紅血球生成蛋白質發生交叉反應。因此，疑似或確定出現具紅血球生成素中和作用之抗體的患者不可改用容可曼</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">8.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">臨床重要副作用</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">不良反應</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\">對腫瘤生長的影響：</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">增加死亡及</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">或腫瘤惡化或復發的風險</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">紅血球生成刺激素會降低局部區域控制率</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">無惡化存活率及</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">或整體存活率</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見表一</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。這些發現來自於下列的研究：針對接受放射治療的晚期頭頸癌患者</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">5</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">6)</span><span style=\"color:black;font-family:標楷體;\">，和接受化學治療的轉移性乳癌</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">1)</span><span style=\"color:black;font-family:標楷體;\">或淋巴性惡性腫瘤患者</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">2)</span><span style=\"color:black;font-family:標楷體;\">，及未進行化學治療或放射治療的非小細胞肺癌或各種惡性腫瘤的患者</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">8)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">表一</span><span style=\"color:black;\">&nbsp; </span><span style=\"color:black;font-family:標楷體;\">存活率降低及</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">或局部區域控制率</span><span style=\"color:black;\">(locoregional control)</span><span style=\"color:black;font-family:標楷體;\">降低的隨機對照試驗</span></p><figure class=\"table\"><table><tbody><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:none;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">研究</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">腫瘤</span><span style=\"color:black;\">(n)</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:none;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">血紅素目標值</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:none;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">所達到的</span><br><span style=\"color:black;font-family:標楷體;\">血紅素值</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">中位數</span><span style=\"color:black;\">Q1, Q3)</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:none;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">主要指標</span></p></td><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">含</span><span style=\"color:black;\">ESA</span><span style=\"color:black;font-family:標楷體;\">之治療組中的不良結果</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:452.45pt;\" colspan=\"5\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">化學治療</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">1</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">轉移性乳癌</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=939)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12-14 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12.9 g/dL</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">12.2, 13.3 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">個月整體存活率</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">個月存活率降低</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">2</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">淋巴性惡性腫瘤</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=344)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">13-15 g/dL (</span><span style=\"color:black;font-family:標楷體;\">男</span><span style=\"color:black;\">)</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">13-14 g/dL (</span><span style=\"color:black;font-family:標楷體;\">女</span><span style=\"color:black;\">)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">11.0 g/dL</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">9.8, 12.1 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">達到血紅素反應的病患比例</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">整體存活率降低</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">3</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">早期乳癌</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=733)</span></p><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12.5-13 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">13.1 g/dL</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">12.5, 13.7 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無復發及整體存活率</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">年無復發及整體存活率降低</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">4</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">子宮頸癌</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=114)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12-14 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12.7 g/dL</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">12.1, 13.3 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無惡化及整體存活率及</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">局部區域控制率</span><span style=\"color:black;\">(locoregional control)</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">年無惡化及整體存活率及局部區域控制率降低</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:452.45pt;\" colspan=\"5\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">單獨使用放射治療</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">5</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">頭頸癌</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=351)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">≥ 15 g/dL (</span><span style=\"color:black;font-family:標楷體;\">男</span><span style=\"color:black;\">)</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">≥ 14 g/dL (</span><span style=\"color:black;font-family:標楷體;\">女</span><span style=\"color:black;\">)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無資料</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無局部區域惡化存活率</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(LRPFS, locoregional progression-free survival)</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">5</span><span style=\"color:black;font-family:標楷體;\">年無局部區域惡化存活率降低</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">整體存活率降低</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">6</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">頭頸癌</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=522)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">14-15.5 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無資料</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">局部區域疾病控制率</span><span style=\"color:black;\">(LRC, locoregional disease control)</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">局部區域疾病控制率降低</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:452.45pt;\" colspan=\"5\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">未進行任何化學治療或放射治療</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">7</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">非小細胞肺癌</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=70)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12-14 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無資料</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">生活品質</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">整體存活率降低</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">8</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">非骨髓性惡性腫瘤</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">(n=989)</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">12-13 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">10.6 g/dL</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">9.4, 11.8 g/dL</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left:1.0pt solid black;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;width:88.55pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;\">RBC</span><span style=\"color:black;font-family:標楷體;\">輸注</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:98.25pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">整體存活率降低</span></p></td></tr></tbody></table></figure><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">整體存活率降低：</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">1(\"BEST\"</span><span style=\"color:black;font-family:標楷體;\">研究</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組中的</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">個月死亡率明顯較高</span><span style=\"color:black;\">(8.7%</span><span style=\"color:black;font-family:標楷體;\">比</span><span style=\"color:black;\">3.4%)</span><span style=\"color:black;font-family:標楷體;\">。在試驗主持人認定的最初</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">個月內死亡的導因中，最常見的是病情惡化；在</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組的</span><span style=\"color:black;\">41</span><span style=\"color:black;font-family:標楷體;\">個死亡病例中有</span><span style=\"color:black;\">28</span><span style=\"color:black;font-family:標楷體;\">例被歸因為疾病惡化，在安慰劑組的</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">個死亡病例中則有</span><span style=\"color:black;\">13</span><span style=\"color:black;font-family:標楷體;\">例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組中的</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">個月存活率明顯較低</span><span style=\"color:black;\">(70%</span><span style=\"color:black;font-family:標楷體;\">比</span><span style=\"color:black;\">76%</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">HR 1.37</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.07</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">1.75</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">p=0.012)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">是一項針對</span><span style=\"color:black;\">344</span><span style=\"color:black;font-family:標楷體;\">位患有淋巴性惡性腫瘤且正在接受化學治療的貧血患者所進行的第</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">期、雙盲、隨機</span><span style=\"color:black;\">(Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">與安慰劑相比較</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">研究。經過</span><span style=\"color:black;\">29</span><span style=\"color:black;font-family:標楷體;\">個月</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">中位數</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的追蹤之後發現，隨機分配進入</span><span style=\"color:black;\">Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組之患者中的整體死亡率要明顯高於安慰劑組</span><span style=\"color:black;\">(HR 1.36</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.02</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">1.82)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">是一項第</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">期、多中心、隨機</span><span style=\"color:black;\">(Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">比上安慰劑</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌患者以</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">進行治療，使血紅素值達到並維持於</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">14 g/dL</span><span style=\"color:black;font-family:標楷體;\">之間。針對</span><span style=\"color:black;\">300</span><span style=\"color:black;font-family:標楷體;\">位計劃收錄病患中的</span><span style=\"color:black;\">70</span><span style=\"color:black;font-family:標楷體;\">位患者進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組患者</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">中位存活時間分別為</span><span style=\"color:black;\">63</span><span style=\"color:black;font-family:標楷體;\">與</span><span style=\"color:black;\">129</span><span style=\"color:black;font-family:標楷體;\">天；</span><span style=\"color:black;\">HR 1.84</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">p=0.04)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">是一項針對</span><span style=\"color:black;\">989</span><span style=\"color:black;font-family:標楷體;\">位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血患者所進行的第</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">期、雙盲、隨機</span><span style=\"color:black;\">(Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">比上安慰劑</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">週研究。並無任何證據顯示接受</span><span style=\"color:black;\">RBC</span><span style=\"color:black;font-family:標楷體;\">輸注的病患比例有具統計意義的降低。</span><span style=\"color:black;\">Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組中的中位存活時間</span><span style=\"color:black;\">(8</span><span style=\"color:black;font-family:標楷體;\">個月</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">要比安慰劑組</span><span style=\"color:black;\">(10.8</span><span style=\"color:black;font-family:標楷體;\">個月</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">短；</span><span style=\"color:black;\">HR 1.30</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.07</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">1.57</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">無惡化存活率</span><span style=\"color:black;\">(progression-free survival)</span><span style=\"color:black;font-family:標楷體;\">與整體存活率降低：</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">3 (\"PREPARE\"</span><span style=\"color:black;font-family:標楷體;\">研究</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">是一項針對接受術前輔助性化學治療的</span><span style=\"color:black;\">733</span><span style=\"color:black;font-family:標楷體;\">位女性乳癌患者，給予</span><span style=\"color:black;\">darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">以預防貧血所進行的隨機對照研究。在經過約三年</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">中位數</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的追蹤觀察之後，</span><span style=\"color:black;\">darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組中的存活率</span><span style=\"color:black;\">(86% vs. 90%, HR 1.42, 95% CI: 0.93, 2.18)</span><span style=\"color:black;font-family:標楷體;\">及無復發存活率</span><span style=\"color:black;\">(72% vs. 78%, HR 1.33, 95% CI: 0.99, 1.79)</span><span style=\"color:black;font-family:標楷體;\">比對照組低。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">4 (protocol GOG 191)</span><span style=\"color:black;font-family:標楷體;\">是一項收錄</span><span style=\"color:black;\">114</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">原本計畫收錄</span><span style=\"color:black;\">460</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">患有子宮頸癌且接受化學治療及放射性治療中的患者所進行的隨機對照研究。患者隨機接受</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">以維持血紅素在</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">14 g/dL</span><span style=\"color:black;font-family:標楷體;\">之間或於必要時進行紅血球輸注。此研究因接受</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">治療的患者發生血栓栓塞事件的比例相對高於對照組</span><span style=\"color:black;\">(19% vs. 9%)</span><span style=\"color:black;font-family:標楷體;\">而提早結束。</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組的局部復發率和轉移性復發率均高於對照組</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">分別為</span><span style=\"color:black;\">21%</span><span style=\"color:black;font-family:標楷體;\">與</span><span style=\"color:black;\">20%</span><span style=\"color:black;font-family:標楷體;\">以及</span><span style=\"color:black;\">12%</span><span style=\"color:black;font-family:標楷體;\">與</span><span style=\"color:black;\">7%)</span><span style=\"color:black;font-family:標楷體;\">。</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組的</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">年無惡化存活率比對照組低</span><span style=\"color:black;\">(59% vs. 62%, HR 1.06, 95% CI: 0.58, 1.91)</span><span style=\"color:black;font-family:標楷體;\">。其</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">年整體存活率，</span><span style=\"color:black;\">Epoetin alfa</span><span style=\"color:black;font-family:標楷體;\">組亦比對照組低</span><span style=\"color:black;\">(61% vs. 71%, HR 1.28, 95% CI: 0.68, 2.42)。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">5 (\"ENHANCE\"</span><span style=\"color:black;font-family:標楷體;\">研究</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">是一項針對</span><span style=\"color:black;\">351</span><span style=\"color:black;font-family:標楷體;\">位頭頸癌患者投予</span><span style=\"color:black;\">Epoetin beta</span><span style=\"color:black;font-family:標楷體;\">或安慰劑的隨機對照研究，女性和男性患者的血紅素目標值分別為</span><span style=\"color:black;\">14</span><span style=\"color:black;font-family:標楷體;\">與</span><span style=\"color:black;\">15 g/dL</span><span style=\"color:black;font-family:標楷體;\">。接受</span><span style=\"color:black;\">Epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療之患者中的無局部區域惡化存活時間明顯較短</span><span style=\"color:black;\">(HR 1.62</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.22</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">2.14</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">p=0.0008)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">Epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組的中位數為</span><span style=\"color:black;\">406</span><span style=\"color:black;font-family:標楷體;\">天，安慰劑組則為</span><span style=\"color:black;\">745</span><span style=\"color:black;font-family:標楷體;\">天。接受</span><span style=\"color:black;\">Epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療之患者中的整體存活時間也明顯較短</span><span style=\"color:black;\">(HR 1.39</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.05</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">1.84</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">p=0.02)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">局部區域控制率降低：</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">癌症研究</span><span style=\"color:black;\">6 (DAHANCA 10)</span><span style=\"color:black;font-family:標楷體;\">乃是將</span><span style=\"color:black;\">522</span><span style=\"color:black;font-family:標楷體;\">位正在接受放射治療的原發性頭頸鱗狀細胞癌患者隨機分組後，分別以</span><span style=\"color:black;\">Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">加放射療法的方式或單獨使用放射療法進行治療。針對其中</span><span style=\"color:black;\">484</span><span style=\"color:black;font-family:標楷體;\">位患者進行期中分析的結果顯示，接受</span><span style=\"color:black;\">Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">治療之患者中的</span><span style=\"color:black;\">5</span><span style=\"color:black;font-family:標楷體;\">年局部區域控制率明顯較短</span><span style=\"color:black;\">(RR 1.44</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.06</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">1.96</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">p=0.02)</span><span style=\"color:black;font-family:標楷體;\">。接受</span><span style=\"color:black;\">Darbepoetin alfa</span><span style=\"color:black;font-family:標楷體;\">治療之患者中的整體存活時間也較短</span><span style=\"color:black;\">(RR 1.28</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">0.98</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">1.68</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">p=0.08)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;\">Epoetins</span><span style=\"color:black;font-family:標楷體;\">是一種主要作用為刺激紅血球生成的生長因子。紅血球生成素接受體可能會出現於多種不同腫瘤細胞的表面。和所有的生長因子一樣，</span><span style=\"color:black;\">epoetins</span><span style=\"color:black;font-family:標楷體;\">也可能會刺激任何類型之惡性腫瘤的生長。</span></p><p><span style=\"color:black;font-family:標楷體;\">一項針對頭頸癌患者投予</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的對照性臨床研究顯示，接受</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療之患者其無局部區域惡化存活時間較短。另一項針對乳癌之臨床研究，其研究設計目的為驗證</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">相較於未治療的對照組，對整體存活時間產生正面影響，且其整體存活時間或腫瘤惡化程度方面皆顯示不具任何統計意義。此外，針對使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療癌症患者之貧血症狀的隨機、對照性臨床研究</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">含</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">項研究，</span><span style=\"color:black;\">2301</span><span style=\"color:black;font-family:標楷體;\">位病患；包括上述兩項研究</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">所進行的統合分析資料顯示，在存活時間或腫瘤惡化程度方面皆顯示負面影響，然此負面影響未達統計意義</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">12.&nbsp;</span><span style=\"color:black;font-family:標楷體;\">臨床試驗資料</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\"><i>慢性腎衰竭患者及正在接受化學治療的癌症患者</i>，可能會發生血壓上升</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">高血壓</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">或既有之高血壓更加惡化的現象，尤其在血紅素快速升高的情況下。血壓上升的現象可使用抗高血壓藥物治療。如果血壓上升的現象無法因藥物治療而獲得控制，則建議暫時停止使用容可曼治療。建議定期監測血壓，特別是在剛開始治療時，腎因性貧血患者在兩次洗腎之間也應監測血壓。此外，血壓正常或偏低的慢性腎衰竭患者也可能會發生高血壓危象伴隨似腦病變的症狀，此時必須立即就醫與密集的醫療照護。患者如果突發刺痛性的偏頭痛樣頭痛，應特別注意，因為這可能是一個警訊。</span></p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">因為腎衰竭治療導致的嚴重鋁質過量可能使容可曼藥效降低。</span></p><p><span style=\"color:black;font-family:標楷體;\">慢性腎衰竭患者在使用容可曼治療的過程中，由於血紅素會升高，因此，血液透析期間所使用的肝素（</span><span style=\"color:black;\">heparin</span><span style=\"color:black;font-family:標楷體;\">）劑量也經常必須提高。如果肝素化（</span><span style=\"color:black;\">heparinisation</span><span style=\"color:black;font-family:標楷體;\">）的程度不適當，可能會發生透析系統阻塞的現象。對有發生分流血栓之風險的慢性腎衰竭患者，應考慮及早進行分流修正，並採取血栓預防療法，如投予水楊酸。</span></p><p><span style=\"color:black;font-family:標楷體;\">在使用容可曼治療期間，慢性腎衰竭患者可能會出現血小板計數於正常範圍內隨劑量而中度升高的現象，特別是在靜脈注射投藥之後。這種現象在持續治療的過程中會逐漸消退。建議於最初</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">週的治療期間定期監測血小板計數。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n一般 為了提升生物製劑藥品使用之可追蹤性，給予藥物的商品名及批號應清楚地記載(或列)於病患檔案中。 在以其他生物製劑藥品取代前必須經由處方醫師同意。 對伴隨過量變形裂殖體(excess blasts in transformation)、癲癇、血小板增多症和慢性肝衰竭的頑固性貧血病人要小心使用容可曼。要排除葉酸與維他命B12缺乏因素，因它們會降低容可曼之藥效。 為確保達到有效的紅血球生成作用，所有的患者在治療前與治療期間都應評估鐵質狀態，並可能必須依據治療指示進行鐵劑補充治療。 容可曼因含苯丙胺酸(phenylalanine)做為賦形劑，因此苯酮尿症患者須評估利弊後再使用。 療效不彰：造成患者對紅血球生成刺激素(ESAs)反應不足的最常見導因為鐵質缺乏與慢性發炎(如尿毒症或晚期轉移性癌症所引起者)。下列疾病可能也會減弱紅血球生成刺激素的治療效果：慢性失血、骨髓纖維變性、腎衰竭治療所引起的嚴重鋁質過量、葉酸或維他命B12缺乏以及溶血。如果前述的疾病均已排除，但患者出現血紅素驟降的現象，並伴隨出現網狀細胞減少症及抗紅血球生成素抗體，則應考慮進行骨髓檢查，藉以診斷是否為單純紅血球再生不良(PRCA)。若診斷為單純紅血球再生不良，即應停止使用epoetin beta治療，且患者不可改用另一種紅血球生成刺激素。 在紅血球生成素治療中，包括容可曼，曾有因出現具紅血球生成素中和作用之抗體伴隨單純紅血球再生不良之通報。這些抗體可能會和所有的紅血球生成蛋白質發生交叉反應。因此，疑似或確定出現具紅血球生成素中和作用之抗體的患者不可改用容可曼(見8.1 臨床重要副作用/不良反應)。 對腫瘤生長的影響： 增加死亡及/或腫瘤惡化或復發的風險 紅血球生成刺激素會降低局部區域控制率/無惡化存活率及/或整體存活率(見表一)。這些發現來自於下列的研究：針對接受放射治療的晚期頭頸癌患者(癌症研究5及6)，和接受化學治療的轉移性乳癌(癌症研究1)或淋巴性惡性腫瘤患者(癌症研究2)，及未進行化學治療或放射治療的非小細胞肺癌或各種惡性腫瘤的患者(癌症研究7及8)。 表一 存活率降低及/或局部區域控制率(locoregional control)降低的隨機對照試驗 研究/腫瘤(n) 血紅素目標值 所達到的 血紅素值 (中位數Q1, Q3) 主要指標 含ESA之治療組中的不良結果 化學治療 癌症研究1 轉移性乳癌 (n=939) 12-14 g/dL 12.9 g/dL 12.2, 13.3 g/dL 12個月整體存活率 12個月存活率降低 癌症研究2 淋巴性惡性腫瘤 (n=344) 13-15 g/dL (男) 13-14 g/dL (女) 11.0 g/dL 9.8, 12.1 g/dL 達到血紅素反應的病患比例 整體存活率降低 癌症研究3 早期乳癌 (n=733) 12.5-13 g/dL 13.1 g/dL 12.5, 13.7 g/dL 無復發及整體存活率 3年無復發及整體存活率降低 癌症研究4 子宮頸癌 (n=114) 12-14 g/dL 12.7 g/dL 12.1, 13.3 g/dL 無惡化及整體存活率及 局部區域控制率(locoregional control) 3年無惡化及整體存活率及局部區域控制率降低 單獨使用放射治療 癌症研究5 頭頸癌 (n=351) ≥ 15 g/dL (男) ≥ 14 g/dL (女) 無資料 無局部區域惡化存活率 (LRPFS, locoregional progression-free survival) 5年無局部區域惡化存活率降低 整體存活率降低 癌症研究6 頭頸癌 (n=522) 14-15.5 g/dL 無資料 局部區域疾病控制率(LRC, locoregional disease control) 局部區域疾病控制率降低 未進行任何化學治療或放射治療 癌症研究7 非小細胞肺癌 (n=70) 12-14 g/dL 無資料 生活品質 整體存活率降低 癌症研究8 非骨髓性惡性腫瘤 (n=989) 12-13 g/dL 10.6 g/dL 9.4, 11.8 g/dL RBC輸注 整體存活率降低 整體存活率降低： 癌症研究1(\"BEST\"研究)。Epoetin alfa組中的4個月死亡率明顯較高(8.7%比3.4%)。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低(70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012)。 癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血患者所進行的第3期、雙盲、隨機(Darbepoetin alfa與安慰劑相比較)研究。經過29個月(中位數)的追蹤之後發現，隨機分配進入Darbepoetin alfa組之患者中的整體死亡率要明顯高於安慰劑組(HR 1.36，95% CI：1.02，1.82)。 癌症研究7是一項第3期、多中心、隨機(Epoetin alfa比上安慰劑)、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌患者以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/dL之間。針對300位計劃收錄病患中的70位患者進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組患者(中位存活時間分別為63與129天；HR 1.84；p=0.04)。 癌症研究8是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血患者所進行的第3期、雙盲、隨機(Darbepoetin alfa比上安慰劑)、16週研究。並無任何證據顯示接受RBC輸注的病患比例有具統計意義的降低。Darbepoetin alfa組中的中位存活時間(8個月)要比安慰劑組(10.8個月)短；HR 1.30，95% CI：1.07，1.57。 無惡化存活率(progression-free survival)與整體存活率降低： 癌症研究3 (\"PREPARE\"研究)是一項針對接受術前輔助性化學治療的733位女性乳癌患者，給予darbepoetin alfa以預防貧血所進行的隨機對照研究。在經過約三年(中位數)的追蹤觀察之後，darbepoetin alfa組中的存活率(86% vs. 90%, HR 1.42, 95% CI: 0.93, 2.18)及無復發存活率(72% vs. 78%, HR 1.33, 95% CI: 0.99, 1.79)比對照組低。 癌症研究4 (protocol GOG 191)是一項收錄114位(原本計畫收錄460位)患有子宮頸癌且接受化學治療及放射性治療中的患者所進行的隨機對照研究。患者隨機接受Epoetin alfa以維持血紅素在12至14 g/dL之間或於必要時進行紅血球輸注。此研究因接受Epoetin alfa治療的患者發生血栓栓塞事件的比例相對高於對照組(19% vs. 9%)而提早結束。Epoetin alfa組的局部復發率和轉移性復發率均高於對照組(分別為21%與20%以及12%與7%)。Epoetin alfa組的3年無惡化存活率比對照組低(59% vs. 62%, HR 1.06, 95% CI: 0.58, 1.91)。其3年整體存活率，Epoetin alfa組亦比對照組低(61% vs. 71%, HR 1.28, 95% CI: 0.68, 2.42)。 癌症研究5 (\"ENHANCE\"研究)是一項針對351位頭頸癌患者投予Epoetin beta或安慰劑的隨機對照研究，女性和男性患者的血紅素目標值分別為14與15 g/dL。接受Epoetin beta治療之患者中的無局部區域惡化存活時間明顯較短(HR 1.62，95% CI：1.22，2.14；p=0.0008)，Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之患者中的整體存活時間也明顯較短(HR 1.39，95% CI：1.05，1.84；p=0.02)。 局部區域控制率降低： 癌症研究6 (DAHANCA 10)乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌患者隨機分組後，分別以Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位患者進行期中分析的結果顯示，接受Darbepoetin alfa治療之患者中的5年局部區域控制率明顯較短(RR 1.44，95% CI：1.06，1.96；p=0.02)。接受Darbepoetin alfa治療之患者中的整體存活時間也較短(RR 1.28，95% CI：0.98，1.68；p=0.08)。 Epoetins是一種主要作用為刺激紅血球生成的生長因子。紅血球生成素接受體可能會出現於多種不同腫瘤細胞的表面。和所有的生長因子一樣，epoetins也可能會刺激任何類型之惡性腫瘤的生長。 一項針對頭頸癌患者投予epoetin beta的對照性臨床研究顯示，接受epoetin beta治療之患者其無局部區域惡化存活時間較短。另一項針對乳癌之臨床研究，其研究設計目的為驗證epoetin beta相較於未治療的對照組，對整體存活時間產生正面影響，且其整體存活時間或腫瘤惡化程度方面皆顯示不具任何統計意義。此外，針對使用epoetin beta治療癌症患者之貧血症狀的隨機、對照性臨床研究(含12項研究，2301位病患；包括上述兩項研究)所進行的統合分析資料顯示，在存活時間或腫瘤惡化程度方面皆顯示負面影響，然此負面影響未達統計意義(見12. 臨床試驗資料)。 慢性腎衰竭患者及正在接受化學治療的癌症患者，可能會發生血壓上升(高血壓)或既有之高血壓更加惡化的現象，尤其在血紅素快速升高的情況下。血壓上升的現象可使用抗高血壓藥物治療。如果血壓上升的現象無法因藥物治療而獲得控制，則建議暫時停止使用容可曼治療。建議定期監測血壓，特別是在剛開始治療時，腎因性貧血患者在兩次洗腎之間也應監測血壓。此外，血壓正常或偏低的慢性腎衰竭患者也可能會發生高血壓危象伴隨似腦病變的症狀，此時必須立即就醫與密集的醫療照護。患者如果突發刺痛性的偏頭痛樣頭痛，應特別注意，因為這可能是一個警訊。 因為腎衰竭治療導致的嚴重鋁質過量可能使容可曼藥效降低。 慢性腎衰竭患者在使用容可曼治療的過程中，由於血紅素會升高，因此，血液透析期間所使用的肝素（heparin）劑量也經常必須提高。如果肝素化（heparinisation）的程度不適當，可能會發生透析系統阻塞的現象。對有發生分流血栓之風險的慢性腎衰竭患者，應考慮及早進行分流修正，並採取血栓預防療法，如投予水楊酸。 在使用容可曼治療期間，慢性腎衰竭患者可能會出現血小板計數於正常範圍內隨劑量而中度升高的現象，特別是在靜脈注射投藥之後。這種現象在持續治療的過程中會逐漸消退。建議於最初8週的治療期間定期監測血小板計數。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "非貧血者誤用時，可能會導致血紅素過高。這也可能伴隨著威脅生命的心血管系統併發症。 目前並無使用epoetin beta出現依賴性之通報。",
+          "content_html": "<p style=\"margin-left:1.55pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">非貧血者誤用時，可能會導致血紅素過高。這也可能伴隨著威脅生命的心血管系統併發症。</span></p><p><span style=\"color:black;font-family:標楷體;\">目前並無使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">出現依賴性之通報。</span></p>",
+          "search_text": "5.2\n藥物濫用及依賴性\n非貧血者誤用時，可能會導致血紅素過高。這也可能伴隨著威脅生命的心血管系統併發症。 目前並無使用epoetin beta出現依賴性之通報。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "容可曼對駕駛能力和機械操作能力並無影響或為可忽略的影響。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">容可曼對駕駛能力和機械操作能力並無影響或為可忽略的影響。</span></p>",
+          "search_text": "5.3\n操作機械能力\n容可曼對駕駛能力和機械操作能力並無影響或為可忽略的影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "所有的患者均應定期監測血小板計數和血容比/血紅素值。 在患有慢性腎衰竭患者中，曾有通報接受容可曼治療時出現鉀離子升高的報告，然而因果關係尚未建立。如果發現到血清中鉀量的上升，應考慮中斷容可曼的投予，直到鉀濃度恢復正常。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">所有的患者均應定期監測血小板計數和血容比</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">血紅素值。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在患有慢性腎衰竭患者中，曾有通報接受容可曼治療時出現鉀離子升高的報告，然而因果關係尚未建立。如果發現到血清中鉀量的上升，應考慮中斷容可曼的投予，直到鉀濃度恢復正常。</span></p>",
+          "search_text": "5.4\n實驗室檢測\n所有的患者均應定期監測血小板計數和血容比/血紅素值。 在患有慢性腎衰竭患者中，曾有通報接受容可曼治療時出現鉀離子升高的報告，然而因果關係尚未建立。如果發現到血清中鉀量的上升，應考慮中斷容可曼的投予，直到鉀濃度恢復正常。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "動物研究並未顯示本品會對懷孕、胚胎/胎兒發育、分娩或出生後發育造成直接或間接的傷害(10.3 臨床前安全性資料)。 就epoetin beta而言，在懷孕期間接觸到容可曼有關的所有安全性資料，都是源自上市後的使用經驗。在一項針對現有之上市後資料所進行的探討中，並未發現任何證據顯示懷孕、胚胎/胎兒發育或出生後發育方面的傷害作用和使用容可曼治療之間有因果上的關聯性。不過，由於缺乏臨床研究的資料，對懷孕婦女處方本品時仍應謹慎從事。 陣痛及分娩 動物研究並未顯示本品會對懷孕、胚胎/胎兒發育、分娩或出生後發育造成直接或間接的傷害(10.3 臨床前安全性資料)。 就epoetin beta而言，在陣痛及分娩期間接觸到本產品有關的所有安全性資料都是源自上市後的使用經驗。未曾發現任何證據顯示本品會造成陣痛及分娩方面的傷害作用。不過，由於缺乏臨床研究的資料，對於面臨陣痛的孕婦，處方本品時仍應謹慎從事。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">動物研究並未顯示本品會對懷孕、胚胎</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">胎兒發育、分娩或出生後發育造成直接或間接的傷害</span><span style=\"color:black;\">(10.3&nbsp;</span><span style=\"color:black;font-family:標楷體;\">臨床前安全性資料</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">就</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">而言，在懷孕期間接觸到容可曼有關的所有安全性資料，都是源自上市後的使用經驗。在一項針對現有之上市後資料所進行的探討中，並未發現任何證據顯示懷孕、胚胎</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">胎兒發育或出生後發育方面的傷害作用和使用容可曼治療之間有因果上的關聯性。不過，由於缺乏臨床研究的資料，對懷孕婦女處方本品時仍應謹慎從事。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>陣痛及分娩</strong></span></p><p><span style=\"color:black;font-family:標楷體;\">動物研究並未顯示本品會對懷孕、胚胎</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">胎兒發育、分娩或出生後發育造成直接或間接的傷害</span><span style=\"color:black;\">(10.3&nbsp;</span><span style=\"color:black;font-family:標楷體;\">臨床前安全性資料</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">就</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">而言，在陣痛及分娩期間接觸到本產品有關的所有安全性資料都是源自上市後的使用經驗。未曾發現任何證據顯示本品會造成陣痛及分娩方面的傷害作用。不過，由於缺乏臨床研究的資料，對於面臨陣痛的孕婦，處方本品時仍應謹慎從事。</span></p><p>&nbsp;</p>",
+          "search_text": "6.1\n懷孕\n動物研究並未顯示本品會對懷孕、胚胎/胎兒發育、分娩或出生後發育造成直接或間接的傷害(10.3 臨床前安全性資料)。 就epoetin beta而言，在懷孕期間接觸到容可曼有關的所有安全性資料，都是源自上市後的使用經驗。在一項針對現有之上市後資料所進行的探討中，並未發現任何證據顯示懷孕、胚胎/胎兒發育或出生後發育方面的傷害作用和使用容可曼治療之間有因果上的關聯性。不過，由於缺乏臨床研究的資料，對懷孕婦女處方本品時仍應謹慎從事。 陣痛及分娩 動物研究並未顯示本品會對懷孕、胚胎/胎兒發育、分娩或出生後發育造成直接或間接的傷害(10.3 臨床前安全性資料)。 就epoetin beta而言，在陣痛及分娩期間接觸到本產品有關的所有安全性資料都是源自上市後的使用經驗。未曾發現任何證據顯示本品會造成陣痛及分娩方面的傷害作用。不過，由於缺乏臨床研究的資料，對於面臨陣痛的孕婦，處方本品時仍應謹慎從事。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "在人類授乳期間使用本品目前僅有有限的經驗。內源性紅血球生成素會分泌進入人類的乳汁，並且很容易為新生兒的胃腸道所吸收。應衡量餵哺母乳對兒童的效益以及使用epoetin beta治療對婦女的效益，再做出是否要繼續或停止餵哺母乳，或是否要繼續或停止使用epoetin beta治療之決定。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">在人類授乳期間使用本品目前僅有有限的經驗。內源性紅血球生成素會分泌進入人類的乳汁，並且很容易為新生兒的胃腸道所吸收。應衡量餵哺母乳對兒童的效益以及使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療對婦女的效益，再做出是否要繼續或停止餵哺母乳，或是否要繼續或停止使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療之決定。</span></p>",
+          "search_text": "6.2\n哺乳\n在人類授乳期間使用本品目前僅有有限的經驗。內源性紅血球生成素會分泌進入人類的乳汁，並且很容易為新生兒的胃腸道所吸收。應衡量餵哺母乳對兒童的效益以及使用epoetin beta治療對婦女的效益，再做出是否要繼續或停止餵哺母乳，或是否要繼續或停止使用epoetin beta治療之決定。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "研究人員曾針對因慢性腎衰竭而發生貧血的兒童與青少年，以及因早產而須預防貧血的新生兒進行查驗登記用臨床試驗。 在使用於慢性腎衰竭所引起的貧血時，容可曼不可用於嬰兒(即2歲以下的幼兒)(見3.3 特殊族群用法用量，5.1 警語/注意事項)。 在使用於接受化學治療之癌症患者所引起的貧血時，容可曼並不使用於小兒族群。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">研究人員曾針對因慢性腎衰竭而發生貧血的兒童與青少年，以及因早產而須預防貧血的新生兒進行查驗登記用臨床試驗。</span></p><p><span style=\"color:black;font-family:標楷體;\">在使用於慢性腎衰竭所引起的貧血時，容可曼不可用於嬰兒</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">即</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">歲以下的幼兒</span><span style=\"color:black;\">)(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">3.3&nbsp;</span><span style=\"color:black;font-family:標楷體;\">特殊族群用法用量，</span><span style=\"color:black;\">5.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">在使用於接受化學治療之癌症患者所引起的貧血時，容可曼並不使用於小兒族群。</span></p>",
+          "search_text": "6.4\n小兒\n研究人員曾針對因慢性腎衰竭而發生貧血的兒童與青少年，以及因早產而須預防貧血的新生兒進行查驗登記用臨床試驗。 在使用於慢性腎衰竭所引起的貧血時，容可曼不可用於嬰兒(即2歲以下的幼兒)(見3.3 特殊族群用法用量，5.1 警語/注意事項)。 在使用於接受化學治療之癌症患者所引起的貧血時，容可曼並不使用於小兒族群。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "見3.3 特殊族群用法用量。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">3.3&nbsp;</span><span style=\"color:black;font-family:標楷體;\">特殊族群用法用量。</span></p>",
+          "search_text": "6.5\n老年人\n見3.3 特殊族群用法用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "請參見3.3 特殊族群用法用量。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">請參見</span><span style=\"color:black;\">3.3&nbsp;</span><span style=\"color:black;font-family:標楷體;\">特殊族群用法用量。</span></p>",
+          "search_text": "6.6\n肝功能不全\n請參見3.3 特殊族群用法用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "與其他藥品之交互作用及其他形式之交互作用 目前並未進行任何針對交互作用之臨床研究。 依目前的臨床經驗看來，並未發現任何證據顯示可能有與容可曼產生交互作用的藥物。(進一步資料請見10.3 臨床前安全性資料)。 由動物實驗看來，紅血球生成素並不會增加抑制細胞生長藥物(如:etoposide、cisplatin、cyclophosphamide及fluorouracil)的骨髓毒性。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>與其他藥品之交互作用及其他形式之交互作用</strong></span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">目前並未進行任何針對交互作用之臨床研究。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">依目前的臨床經驗看來，並未發現任何證據顯示可能有與容可曼產生交互作用的藥物。</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">進一步資料請見</span><span style=\"color:black;\">10.3&nbsp;</span><span style=\"color:black;font-family:標楷體;\">臨床前安全性資料</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">由動物實驗看來，紅血球生成素並不會增加抑制細胞生長藥物</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如</span><span style=\"color:black;\">:etoposide</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">cisplatin</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">cyclophosphamide</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">fluorouracil)</span><span style=\"color:black;font-family:標楷體;\">的骨髓毒性。</span></p>",
+          "search_text": "7\n交互作用\n與其他藥品之交互作用及其他形式之交互作用 目前並未進行任何針對交互作用之臨床研究。 依目前的臨床經驗看來，並未發現任何證據顯示可能有與容可曼產生交互作用的藥物。(進一步資料請見10.3 臨床前安全性資料)。 由動物實驗看來，紅血球生成素並不會增加抑制細胞生長藥物(如:etoposide、cisplatin、cyclophosphamide及fluorouracil)的骨髓毒性。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "依據涵蓋1,725名患者之臨床試驗的結果，在使用容可曼治療的患者中，約有8%被認定為發生不良藥物反應。 臨床試驗藥物不良反應摘要表: 將臨床試驗發生之藥物不良反應依MedDRA系統器官分類列表(表2及表3)。每個藥物不良反應所對應的頻率類別係基於下列分類: 極常見(≥1/10)、常見(≥1/100 至<1/10)、不常見(≥1/1,000至<1/100)、罕見 (≥1/10,000至<1/1,000)、極罕見 (<1/10,000)。 因慢性腎衰竭引起的貧血病患 最常發生的藥物不良反應(常見1-10%)，特別是在容可曼的起始治療期間，為血壓上升事件，包括高血壓、高血壓危象伴隨或不伴隨似腦病變(encephalopathy-like symptoms)的症狀(如頭痛、混亂、感覺運動的不協調－例如像是說話障礙或是步伐不穩到強直性的癲癇)。這些血壓上升的現象也可能會發生於血壓正常的患者，或是使既有的高血壓更加惡化(見5.1 警語/注意事項)。 可能會發生分流血栓，尤其當病患患有低血壓傾向或曾有動-靜脈瘻管的併發症(如狹窄、血管瘤)(見5.1警語/注意事項)。多數的病例，血清儲鐵蛋白值(serum ferritin values)會隨血紅素值增加而降低。除此之外，某些病例可能有暫時性的血鉀和血磷酸鹽增加的情況。 臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。 表二 以容可曼治療因慢性腎病引起貧血病患發生的藥物不良反應 系統器官分類 頻率類別 血管疾患 高血壓 常見 高血壓危象 不常見 神經系統疾患 頭痛 常見 血液淋巴系統疾患 分流血栓 罕見 血小板增多症 極罕見 接受化學治療並有症狀性貧血的癌症患者 高血壓事件為常見(1-10%)的不良藥物反應，特別是在起始治療期間。 在某些病例中，血清鐵參數值會下降。 臨床研究顯示，在接受容可曼治療的癌症病患與未接受容可曼治療的患者或安慰劑組相較下，有較高的血栓栓塞事件發生率。在使用容可曼治療的患者中，其發生率為7 %，在對照組中則為4% (兩者皆屬“常見”)；和對照組相比較，這種現象並不會升高血栓栓塞相關的死亡率。 臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。 表三 接受化療並以容可曼治療症狀性貧血的癌症病患發生的藥物不良反應摘要表 系統器官分類 頻率類別 血管疾患 高血壓 常見 血液淋巴系統疾患 血栓栓塞事件 常見 神經系統疾患 頭痛 常見 所有適應症 罕見( ≥ 1/10,000 to ≤ 1/1,000)：皮膚反應，如皮疹、搔癢、蕁麻疹或注射部位反應等皮膚反應可能發生。在極罕見案例(≤ 1/10,000)中，曾有對epoetin beta發生類過敏反應的通報。然而在對照性的臨床研究中，未發現有過敏反應發生率增加的現象。 在極罕見案例(≤ 1/10,000)中有報告指出，特別是在剛接受治療的患者，有類似流行性感冒症狀發生如：發燒、寒慄、頭痛、手腳酸痛、身體不適和/或骨頭酸痛等。這些輕度至中度的反應在接受治療後數小時或數天後將可獲得緩解。 實驗檢驗值異常 見5.1 警語/注意事項及5.4 實驗室檢測。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">依據涵蓋</span><span style=\"color:black;\">1,725</span><span style=\"color:black;font-family:標楷體;\">名患者之臨床試驗的結果，在使用容可曼治療的患者中，約有</span><span style=\"color:black;\">8%</span><span style=\"color:black;font-family:標楷體;\">被認定為發生不良藥物反應。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>臨床試驗藥物不良反應摘要表</strong></span><span style=\"color:black;\"><strong>:</strong></span></p><p><span style=\"color:black;font-family:標楷體;\">將臨床試驗發生之藥物不良反應依</span><span style=\"color:black;\">MedDRA</span><span style=\"color:black;font-family:標楷體;\">系統器官分類列表</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">表</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">及表</span><span style=\"color:black;\">3)</span><span style=\"color:black;font-family:標楷體;\">。每個藥物不良反應所對應的頻率類別係基於下列分類</span><span style=\"color:black;\">:&nbsp;</span><span style=\"color:black;font-family:標楷體;\">極常見</span><span style=\"color:black;\">(≥1/10)</span><span style=\"color:black;font-family:標楷體;\">、常見</span><span style=\"color:black;\">(≥1/100&nbsp;</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">&lt;1/10)</span><span style=\"color:black;font-family:標楷體;\">、不常見</span><span style=\"color:black;\">(≥1/1,000</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">&lt;1/100)</span><span style=\"color:black;font-family:標楷體;\">、罕見</span><span style=\"color:black;\"> (≥1/10,000</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">&lt;1/1,000)</span><span style=\"color:black;font-family:標楷體;\">、極罕見</span><span style=\"color:black;\"> (&lt;1/10,000)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"margin-left:1.4pt;text-align:justify;\">&nbsp;</p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong><u>因慢性腎衰竭引起的貧血病患</u></strong></span></p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">最常發生的藥物不良反應</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">常見</span><span style=\"color:black;\">1-10%)</span><span style=\"color:black;font-family:標楷體;\">，特別是在容可曼的起始治療期間，為血壓上升事件，包括高血壓、高血壓危象伴隨或不伴隨似腦病變</span><span style=\"color:black;\">(encephalopathy-like symptoms)</span><span style=\"color:black;font-family:標楷體;\">的症狀</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如頭痛、混亂、感覺運動的不協調－例如像是說話障礙或是步伐不穩到強直性的癲癇</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。這些血壓上升的現象也可能會發生於血壓正常的患者，或是使既有的高血壓更加惡化</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">5.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"margin-left:1.4pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">可能會發生分流血栓，尤其當病患患有低血壓傾向或曾有動</span><span style=\"color:black;\">-</span><span style=\"color:black;font-family:標楷體;\">靜脈瘻管的併發症</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如狹窄、血管瘤</span><span style=\"color:black;\">)(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">5.1</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。多數的病例，血清儲鐵蛋白值</span><span style=\"color:black;\">(serum ferritin values)</span><span style=\"color:black;font-family:標楷體;\">會隨血紅素值增加而降低。除此之外，某些病例可能有暫時性的血鉀和血磷酸鹽增加的情況。</span></p><p><span style=\"color:black;font-family:標楷體;\">臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。</span></p><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>表二</strong></span><span style=\"color:black;\"><strong> &nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>以容可曼治療因慢性腎病引起貧血病患發生的藥物不良反應</strong></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>系統器官分類</strong></span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong>頻率類別</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:442.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>血管疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">高血壓</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">常見</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">高血壓危象</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">不常見</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:442.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>神經系統疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">頭痛</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">常見</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:442.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>血液淋巴系統疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">分流血栓</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">罕見</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">血小板增多症</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">極罕見</span></p></td></tr></tbody></table></figure><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><strong><u>接受化學治療並有症狀性貧血的癌症患者</u></strong></span></p><p><span style=\"color:black;font-family:標楷體;\">高血壓事件為常見</span><span style=\"color:black;\">(1-10%)</span><span style=\"color:black;font-family:標楷體;\">的不良藥物反應，特別是在起始治療期間。</span></p><p><span style=\"color:black;font-family:標楷體;\">在某些病例中，血清鐵參數值會下降。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">臨床研究顯示，在接受容可曼治療的癌症病患與未接受容可曼治療的患者或安慰劑組相較下，有較高的血栓栓塞事件發生率。在使用容可曼治療的患者中，其發生率為</span><span style=\"color:black;\">7&nbsp;%</span><span style=\"color:black;font-family:標楷體;\">，在對照組中則為</span><span style=\"color:black;\">4% (</span><span style=\"color:black;font-family:標楷體;\">兩者皆屬</span><span style=\"color:black;\">“</span><span style=\"color:black;font-family:標楷體;\">常見</span><span style=\"color:black;\">”)</span><span style=\"color:black;font-family:標楷體;\">；和對照組相比較，這種現象並不會升高血栓栓塞相關的死亡率。</span></p><p><span style=\"color:black;font-family:標楷體;\">臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>表三</strong></span><span style=\"color:black;\"><strong> &nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>接受化療並以容可曼治療症狀性貧血的癌症病患發生的藥物不良反應摘要表</strong></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>系統器官分類</strong></span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong>頻率類別</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:442.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>血管疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">高血壓</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">常見</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:442.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>血液淋巴系統疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">血栓栓塞事件</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">常見</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:442.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>神經系統疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:221.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">頭痛</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:221.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">常見</span></p></td></tr></tbody></table></figure><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><strong><u>所有適應症</u></strong></span></p><p style=\"margin-left:1.55pt;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">罕見</span><span style=\"color:black;\">( ≥ 1/10,000 to ≤ 1/1,000</span><span style=\"color:black;font-family:標楷體;\">)：皮膚反應，如皮疹、搔癢、蕁麻疹或注射部位反應等皮膚反應可能發生。在極罕見案例</span><span style=\"color:black;\">(≤ 1/10,000)</span><span style=\"color:black;font-family:標楷體;\">中，曾有對</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">發生類過敏反應的通報。然而在對照性的臨床研究中，未發現有過敏反應發生率增加的現象。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在極罕見案例</span><span style=\"color:black;\">(≤ 1/10,000)</span><span style=\"color:black;font-family:標楷體;\">中有報告指出，特別是在剛接受治療的患者，有類似流行性感冒症狀發生如：發燒、寒慄、頭痛、手腳酸痛、身體不適和</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">或骨頭酸痛等。這些輕度至中度的反應在接受治療後數小時或數天後將可獲得緩解。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><strong>實驗檢驗值異常</strong></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">5.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項及</span><span style=\"color:black;\">5.4 </span><span style=\"color:black;font-family:標楷體;\">實驗室檢測。</span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n依據涵蓋1,725名患者之臨床試驗的結果，在使用容可曼治療的患者中，約有8%被認定為發生不良藥物反應。 臨床試驗藥物不良反應摘要表: 將臨床試驗發生之藥物不良反應依MedDRA系統器官分類列表(表2及表3)。每個藥物不良反應所對應的頻率類別係基於下列分類: 極常見(≥1/10)、常見(≥1/100 至<1/10)、不常見(≥1/1,000至<1/100)、罕見 (≥1/10,000至<1/1,000)、極罕見 (<1/10,000)。 因慢性腎衰竭引起的貧血病患 最常發生的藥物不良反應(常見1-10%)，特別是在容可曼的起始治療期間，為血壓上升事件，包括高血壓、高血壓危象伴隨或不伴隨似腦病變(encephalopathy-like symptoms)的症狀(如頭痛、混亂、感覺運動的不協調－例如像是說話障礙或是步伐不穩到強直性的癲癇)。這些血壓上升的現象也可能會發生於血壓正常的患者，或是使既有的高血壓更加惡化(見5.1 警語/注意事項)。 可能會發生分流血栓，尤其當病患患有低血壓傾向或曾有動-靜脈瘻管的併發症(如狹窄、血管瘤)(見5.1警語/注意事項)。多數的病例，血清儲鐵蛋白值(serum ferritin values)會隨血紅素值增加而降低。除此之外，某些病例可能有暫時性的血鉀和血磷酸鹽增加的情況。 臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。 表二 以容可曼治療因慢性腎病引起貧血病患發生的藥物不良反應 系統器官分類 頻率類別 血管疾患 高血壓 常見 高血壓危象 不常見 神經系統疾患 頭痛 常見 血液淋巴系統疾患 分流血栓 罕見 血小板增多症 極罕見 接受化學治療並有症狀性貧血的癌症患者 高血壓事件為常見(1-10%)的不良藥物反應，特別是在起始治療期間。 在某些病例中，血清鐵參數值會下降。 臨床研究顯示，在接受容可曼治療的癌症病患與未接受容可曼治療的患者或安慰劑組相較下，有較高的血栓栓塞事件發生率。在使用容可曼治療的患者中，其發生率為7 %，在對照組中則為4% (兩者皆屬“常見”)；和對照組相比較，這種現象並不會升高血栓栓塞相關的死亡率。 臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。 表三 接受化療並以容可曼治療症狀性貧血的癌症病患發生的藥物不良反應摘要表 系統器官分類 頻率類別 血管疾患 高血壓 常見 血液淋巴系統疾患 血栓栓塞事件 常見 神經系統疾患 頭痛 常見 所有適應症 罕見( ≥ 1/10,000 to ≤ 1/1,000)：皮膚反應，如皮疹、搔癢、蕁麻疹或注射部位反應等皮膚反應可能發生。在極罕見案例(≤ 1/10,000)中，曾有對epoetin beta發生類過敏反應的通報。然而在對照性的臨床研究中，未發現有過敏反應發生率增加的現象。 在極罕見案例(≤ 1/10,000)中有報告指出，特別是在剛接受治療的患者，有類似流行性感冒症狀發生如：發燒、寒慄、頭痛、手腳酸痛、身體不適和/或骨頭酸痛等。這些輕度至中度的反應在接受治療後數小時或數天後將可獲得緩解。 實驗檢驗值異常 見5.1 警語/注意事項及5.4 實驗室檢測。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "自容可曼之上市後經驗發現了下列藥物不良反應(表4)；依MedDRA系統器官分類列表，藥物不良反應所對應的頻率類別係基於下列分類估算:極常見(≥ 1/10)、常見(≥ 1/100 至 < 1/10)、不常見(≥ 1/1,000 至 < 1/100) 、罕見 (≥1/10,000 至 <1/1,000)、極罕見 (<1/10,000) 、未知(依現有資料無法估算)。 表四 上市後經驗之藥物不良反應 系統器官分類 頻率類別 血液淋巴系統疾患 單純紅血球再生不良1,2 未知 皮膚和皮下組織異常 史帝芬-強生症候群/毒性表皮壞死 未知 1請參見5. 警語及注意事項 2依現有資料無法估算發生率及頻率類別 實驗檢驗值異常 在上市後使用期間所接獲的實驗室檢驗值異常通報，係顯示出臨床試驗中所得的經驗(見5.1 警語/注意事項，8.1 臨床重要副作用/不良反應)。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">自容可曼之上市後經驗發現了下列藥物不良反應</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">表</span><span style=\"color:black;\">4)</span><span style=\"color:black;font-family:標楷體;\">；依</span><span style=\"color:black;\">MedDRA</span><span style=\"color:black;font-family:標楷體;\">系統器官分類列表，藥物不良反應所對應的頻率類別係基於下列分類估算</span><span style=\"color:black;\">:</span><span style=\"color:black;font-family:標楷體;\">極常見</span><span style=\"color:black;\">(≥ 1/10)</span><span style=\"color:black;font-family:標楷體;\">、常見</span><span style=\"color:black;\">(≥ 1/100&nbsp;</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\"> &lt; 1/10)</span><span style=\"color:black;font-family:標楷體;\">、不常見</span><span style=\"color:black;\">(≥ 1/1,000&nbsp;</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\"> &lt; 1/100)&nbsp;</span><span style=\"color:black;font-family:標楷體;\">、罕見</span><span style=\"color:black;\"> (≥1/10,000&nbsp;</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\"> &lt;1/1,000)</span><span style=\"color:black;font-family:標楷體;\">、極罕見</span><span style=\"color:black;\"> (&lt;1/10,000)&nbsp;</span><span style=\"color:black;font-family:標楷體;\">、未知</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">依現有資料無法估算</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>表四</strong></span><span style=\"color:black;\"><strong> &nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>上市後經驗之藥物不良反應</strong></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:207.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>系統器官分類</strong></span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:207.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong>頻率類別</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:414.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>血液淋巴系統疾患</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:207.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">單純紅血球再生不良</span><span style=\"color:black;\"><sup>1,2</sup></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:207.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">未知</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:414.8pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>皮膚和皮下組織異常</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:207.4pt;\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">史帝芬</span><span style=\"color:black;\">-</span><span style=\"color:black;font-family:標楷體;\">強生症候群</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">毒性表皮壞死</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:207.4pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">未知</span></p></td></tr></tbody></table></figure><p style=\"text-align:justify;\"><span style=\"color:black;\"><sup>1</sup></span><span style=\"color:black;font-family:標楷體;\">請參見</span><span style=\"color:black;\"><strong>5.&nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>警語及注意事項</strong></span><span style=\"color:black;\"><strong>&nbsp;</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;\"><sup>2</sup></span><span style=\"color:black;font-family:標楷體;\">依現有資料無法估算發生率及頻率類別</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><strong>實驗檢驗值異常</strong></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在上市後使用期間所接獲的實驗室檢驗值異常通報，係顯示出臨床試驗中所得的經驗</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">5.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項，</span><span style=\"color:black;\">8.1 </span><span style=\"color:black;font-family:標楷體;\">臨床重要副作用</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">不良反應</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p>&nbsp;</p>",
+          "search_text": "8.3\n上市後經驗\n自容可曼之上市後經驗發現了下列藥物不良反應(表4)；依MedDRA系統器官分類列表，藥物不良反應所對應的頻率類別係基於下列分類估算:極常見(≥ 1/10)、常見(≥ 1/100 至 < 1/10)、不常見(≥ 1/1,000 至 < 1/100) 、罕見 (≥1/10,000 至 <1/1,000)、極罕見 (<1/10,000) 、未知(依現有資料無法估算)。 表四 上市後經驗之藥物不良反應 系統器官分類 頻率類別 血液淋巴系統疾患 單純紅血球再生不良1,2 未知 皮膚和皮下組織異常 史帝芬-強生症候群/毒性表皮壞死 未知 1請參見5. 警語及注意事項 2依現有資料無法估算發生率及頻率類別 實驗檢驗值異常 在上市後使用期間所接獲的實驗室檢驗值異常通報，係顯示出臨床試驗中所得的經驗(見5.1 警語/注意事項，8.1 臨床重要副作用/不良反應)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "容可曼的治療範圍極廣，但開始使用容可曼治療時，仍須注意個別病患的治療反應。使用過量可能會引發藥效作用擴大的表現，如紅血球生成過量，這可能會伴隨發生具生命威脅性的心血管系統併發症。如果血紅素值過高，則應暫時停用容可曼(見3.1 用法用量)。如果臨床狀況顯示有必要，或可進行靜脈穿刺放血。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">容可曼的治療範圍極廣，但開始使用容可曼治療時，仍須注意個別病患的治療反應。使用過量可能會引發藥效作用擴大的表現，如紅血球生成過量，這可能會伴隨發生具生命威脅性的心血管系統併發症。如果血紅素值過高，則應暫時停用容可曼</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">3.1 </span><span style=\"color:black;font-family:標楷體;\">用法用量</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。如果臨床狀況顯示有必要，或可進行靜脈穿刺放血。</span></p>",
+          "search_text": "9\n過量\n容可曼的治療範圍極廣，但開始使用容可曼治療時，仍須注意個別病患的治療反應。使用過量可能會引發藥效作用擴大的表現，如紅血球生成過量，這可能會伴隨發生具生命威脅性的心血管系統併發症。如果血紅素值過高，則應暫時停用容可曼(見3.1 用法用量)。如果臨床狀況顯示有必要，或可進行靜脈穿刺放血。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "抗貧血劑。 ATC 代碼: B03XA。 紅血球生成素是一種醣蛋白，為刺激紅血球生成前驅物生成紅血球的生長因子。它可作為有絲分裂刺激因子以及分化賀爾蒙。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">抗貧血劑。</span></p><p><span style=\"color:black;\">ATC </span><span style=\"color:black;font-family:標楷體;\">代碼</span><span style=\"color:black;\">: B03XA</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">紅血球生成素是一種醣蛋白，為刺激紅血球生成前驅物生成紅血球的生長因子。它可作為有絲分裂刺激因子以及分化賀爾蒙。</span></p>",
+          "search_text": "10.1\n作用機轉\n抗貧血劑。 ATC 代碼: B03XA。 紅血球生成素是一種醣蛋白，為刺激紅血球生成前驅物生成紅血球的生長因子。它可作為有絲分裂刺激因子以及分化賀爾蒙。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "Epoetin beta的生物效用已經由靜脈注射及皮下注射在不同動物(正常及患有尿毒症的老鼠、真性紅血球增多症的老鼠和狗)的體內獲得證實。在使用epoetin beta後，紅血球的數目、血紅素值和網狀細胞的數量會增加，而且鐵59的納入速率也會增加。 在體外用epoetin beta培養後也發現紅色核狀的脾臟細胞(老鼠之脾臟細胞培養)的氫3-胸腺嘧啶納入速率會增多。 人類骨髓細胞培養研究顯示，epoetin beta能特別刺激紅血球生成卻不會影響白血球的生成。尚未發現任何epoetin beta 對骨髓細胞或人類皮膚細胞的細胞毒性。 投與單一劑量的epoetin beta後，不會影響到老鼠的行為或局部運動活性，以及狗的循環或呼吸功能。 Epoetin beta與貧血患者尿液中分離出的紅血球生成素有相同的氨基酸和碳水化合物組成。 紅血球生成素是一種醣蛋白，可以刺激其前驅物生成紅血球。它可作為有絲分裂刺激因子以及分化賀爾蒙。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;\">Epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的生物效用已經由靜脈注射及皮下注射在不同動物</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">正常及患有尿毒症的老鼠、真性紅血球增多症的老鼠和狗</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的<i>體內</i>獲得證實。在使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">後，紅血球的數目、血紅素值和網狀細胞的數量會增加，而且鐵</span><span style=\"color:black;\"><sup>59</sup></span><span style=\"color:black;font-family:標楷體;\">的納入速率也會增加。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在<i>體外</i>用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">培養後也發現紅色核狀的脾臟細胞</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">老鼠之脾臟細胞培養</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的氫</span><span style=\"color:black;\"><sup>3</sup>-</span><span style=\"color:black;font-family:標楷體;\">胸腺嘧啶納入速率會增多。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">人類骨髓細胞培養研究顯示，</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">能特別刺激紅血球生成卻不會影響白血球的生成。尚未發現任何</span><span style=\"color:black;\">epoetin beta&nbsp;</span><span style=\"color:black;font-family:標楷體;\">對骨髓細胞或人類皮膚細胞的細胞毒性。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">投與單一劑量的</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">後，不會影響到老鼠的行為或局部運動活性，以及狗的循環或呼吸功能。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">Epoetin beta</span><span style=\"color:black;font-family:標楷體;\">與貧血患者尿液中分離出的紅血球生成素有相同的氨基酸和碳水化合物組成。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">紅血球生成素是一種醣蛋白，可以刺激其前驅物生成紅血球。它可作為有絲分裂刺激因子以及分化賀爾蒙。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\nEpoetin beta的生物效用已經由靜脈注射及皮下注射在不同動物(正常及患有尿毒症的老鼠、真性紅血球增多症的老鼠和狗)的體內獲得證實。在使用epoetin beta後，紅血球的數目、血紅素值和網狀細胞的數量會增加，而且鐵59的納入速率也會增加。 在體外用epoetin beta培養後也發現紅色核狀的脾臟細胞(老鼠之脾臟細胞培養)的氫3-胸腺嘧啶納入速率會增多。 人類骨髓細胞培養研究顯示，epoetin beta能特別刺激紅血球生成卻不會影響白血球的生成。尚未發現任何epoetin beta 對骨髓細胞或人類皮膚細胞的細胞毒性。 投與單一劑量的epoetin beta後，不會影響到老鼠的行為或局部運動活性，以及狗的循環或呼吸功能。 Epoetin beta與貧血患者尿液中分離出的紅血球生成素有相同的氨基酸和碳水化合物組成。 紅血球生成素是一種醣蛋白，可以刺激其前驅物生成紅血球。它可作為有絲分裂刺激因子以及分化賀爾蒙。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.3\n臨床前安全性資料",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.1",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.1",
+          "title": "致癌性",
+          "title_html": "致癌性",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "致癌性"
+          ],
+          "content_text": "在一項針對小鼠使用同源紅血球生成素的致癌性研究中，並未發現任何的組織增生現象或腫瘤生成作用。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">在一項針對小鼠使用同源紅血球生成素的致癌性研究中，並未發現任何的組織增生現象或腫瘤生成作用。</span></p>",
+          "search_text": "10.3.1\n致癌性\n在一項針對小鼠使用同源紅血球生成素的致癌性研究中，並未發現任何的組織增生現象或腫瘤生成作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.2",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.2",
+          "title": "基因毒性",
+          "title_html": "基因毒性",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "基因毒性"
+          ],
+          "content_text": "不適用。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">不適用。</span></p>",
+          "search_text": "10.3.2\n基因毒性\n不適用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.3",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.3",
+          "title": "生育力損害",
+          "title_html": "生育力損害",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "生育力損害"
+          ],
+          "content_text": "不適用。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">不適用。</span></p>",
+          "search_text": "10.3.3\n生育力損害\n不適用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.4",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.4",
+          "title": "生殖毒性",
+          "title_html": "生殖毒性",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "生殖毒性"
+          ],
+          "content_text": "不適用。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">不適用。</span></p>",
+          "search_text": "10.3.4\n生殖毒性\n不適用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.5",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.5",
+          "title": "其它",
+          "title_html": "其它",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "其它"
+          ],
+          "content_text": "在探討安全性藥理學、重複投藥毒性、基因毒性及生殖毒性之傳統研究中所獲得的非臨床資料顯示，本品並不會對人體造成任何特殊傷害。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">在探討安全性藥理學、重複投藥毒性、基因毒性及生殖毒性之傳統研究中所獲得的非臨床資料顯示，本品並不會對人體造成任何特殊傷害。</span></p>",
+          "search_text": "10.3.5\n其它\n在探討安全性藥理學、重複投藥毒性、基因毒性及生殖毒性之傳統研究中所獲得的非臨床資料顯示，本品並不會對人體造成任何特殊傷害。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "健康志願者及尿毒症患者的藥物動力學研究顯示，靜脈注射epoetin beta的半衰期為4-12小時，分佈體積是血漿體積的1-2倍。在有尿毒症的老鼠和正常老鼠的動物實驗中也發現有相似的結果。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">健康志願者及尿毒症患者的藥物動力學研究顯示，靜脈注射</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的半衰期為</span><span style=\"color:black;\">4-12</span><span style=\"color:black;font-family:標楷體;\">小時，分佈體積是血漿體積的</span><span style=\"color:black;\">1-2</span><span style=\"color:black;font-family:標楷體;\">倍。在有尿毒症的老鼠和正常老鼠的動物實驗中也發現有相似的結果。</span></p>",
+          "search_text": "11\n藥物動力學特性\n健康志願者及尿毒症患者的藥物動力學研究顯示，靜脈注射epoetin beta的半衰期為4-12小時，分佈體積是血漿體積的1-2倍。在有尿毒症的老鼠和正常老鼠的動物實驗中也發現有相似的結果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.1",
+          "parent_id": "11",
+          "level": 2,
+          "number": "11.1",
+          "title": "吸收",
+          "title_html": "吸收",
+          "path": [
+            "藥物動力學特性",
+            "吸收"
+          ],
+          "content_text": "經皮下注射epoetin beta到尿毒症病患後發現，延長性的吸收作用會導致血清濃度高原，平均在12-28小時後達到最大濃度。 經皮下注射epoetin beta之生體可用率為靜脈注射的23-42%。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">經皮下注射</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">到尿毒症病患後發現，延長性的吸收作用會導致血清濃度高原，平均在</span><span style=\"color:black;\">12-28</span><span style=\"color:black;font-family:標楷體;\">小時後達到最大濃度。</span></p><p><span style=\"color:black;font-family:標楷體;\">經皮下注射</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">之生體可用率為靜脈注射的</span><span style=\"color:black;\">23-42%</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "11.1\n吸收\n經皮下注射epoetin beta到尿毒症病患後發現，延長性的吸收作用會導致血清濃度高原，平均在12-28小時後達到最大濃度。 經皮下注射epoetin beta之生體可用率為靜脈注射的23-42%。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.2",
+          "parent_id": "11",
+          "level": 2,
+          "number": "11.2",
+          "title": "分佈",
+          "title_html": "分佈",
+          "path": [
+            "藥物動力學特性",
+            "分佈"
+          ],
+          "content_text": "針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，其分佈體積相當於血漿容積的一至兩倍。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，其分佈體積相當於血漿容積的一至兩倍。</span></p>",
+          "search_text": "11.2\n分佈\n針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，其分佈體積相當於血漿容積的一至兩倍。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.3",
+          "parent_id": "11",
+          "level": 2,
+          "number": "11.3",
+          "title": "代謝",
+          "title_html": "代謝",
+          "path": [
+            "藥物動力學特性",
+            "代謝"
+          ],
+          "content_text": "不適用。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">不適用。</span></p>",
+          "search_text": "11.3\n代謝\n不適用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.4",
+          "parent_id": "11",
+          "level": 2,
+          "number": "11.4",
+          "title": "排除",
+          "title_html": "排除",
+          "path": [
+            "藥物動力學特性",
+            "排除"
+          ],
+          "content_text": "針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，經靜脈注射投予之epoetin beta的半衰期為4至12小時之間。 對尿毒症患者皮下注射epoetin beta之最終半衰期要比靜脈注射時長，平均為13-28小時。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，經靜脈注射投予之</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的半衰期為</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">小時之間。</span></p><p><span style=\"color:black;font-family:標楷體;\">對尿毒症患者皮下注射</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">之最終半衰期要比靜脈注射時長，平均為</span><span style=\"color:black;\">13-28</span><span style=\"color:black;font-family:標楷體;\">小時。</span></p>",
+          "search_text": "11.4\n排除\n針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，經靜脈注射投予之epoetin beta的半衰期為4至12小時之間。 對尿毒症患者皮下注射epoetin beta之最終半衰期要比靜脈注射時長，平均為13-28小時。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.5",
+          "parent_id": "11",
+          "level": 2,
+          "number": "11.5",
+          "title": "特殊族群的藥物動力學",
+          "title_html": "特殊族群的藥物動力學",
+          "path": [
+            "藥物動力學特性",
+            "特殊族群的藥物動力學"
+          ],
+          "content_text": "目前並未正式進行過探討肝功能受損對epoetin beta之藥物動力學的影響之研究。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">目前並未正式進行過探討肝功能受損對</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">之藥物動力學的影響之研究。</span></p>",
+          "search_text": "11.5\n特殊族群的藥物動力學\n目前並未正式進行過探討肝功能受損對epoetin beta之藥物動力學的影響之研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "臨床/療效研究 本節將說明最近完成的針對腎因性貧血患者或正在接受化學治療/放射治療的癌症患者使用epoetin beta之隨機、對照性研究。 因慢性腎衰竭而產生貧血的患者 研究人員曾針對605位併有輕至中度貧血(血紅素值：11-12.5 g/dl)的透析前患者進行一項使用epoetin beta的開放性、隨機研究(CREATE研究)。主要的研究目的為探討高血紅素值調整治療(13–15 g/dl)和標準貧血治療(血紅素目標值為10.5–11.5 g/dl)相比較是否可降低心血管(CV)罹病率。其結果並未發現高血紅素值調整治療和標準貧血治療相比較有任何的優勢。相反的，標準治療組中發生第一次心血管事件數較少(分別為47例和58例，HR為0.78，p=0.20)。進入研究的患者到開始接受透析治療的時間方面有較有利於標準貧血調整治療組的差異(分別為111例與127例，其中位時間分別為41個月與36個月，對數等級檢定的p值=0.034)，但在中位肌酸酐清除率的隨時間變化方面，在兩個治療組間並無任何差異。經過1年之後，高目標血紅素值組在生活品質方面(以SF-36健康調查問卷進行評估)有明顯的改善(p=0.003)。 在另一項針對172位早期糖尿病腎病變患者所進行的開放性、隨機研究中(ACORD研究)，研究人員曾針對高血紅素值調整治療(血紅素值目標值為13-15 g/dl)與標準血紅素值調整治療(血紅素目標值為10.5-11.5 g/dl)，對心臟組織及心臟功能的影響進行探討。 研究結束時，在主要評估參數方面，亦即依基礎值調整後的左心室質量指數，兩組間並無任何明顯差異(p=0.88)。在肌酸酐清除率估算值相對於基礎值的變化、血清肌酸酐倍增的時間、或快速惡化(rapid progressors)分析等方面，兩個治療組間皆無任何具統計意義的差異。在生活品質評估的整體健康分數方面(利用SF-36健康調查問卷進行評估)，高血紅素目標值組有明顯的改善(p=0.04)。 正在接受化學治療並有症狀性貧血的癌症患者 在一項針對351位頭頸癌患者使用epoetin beta治療的安慰劑對照研究中(ENHANCE),，研究人員利用研究藥物使女性患者的血紅素值維持於14 g/dl，並使男性患者的血紅素值維持於15 g/dl。接受epoetin beta治療之患者中的無局部惡化存活時間明顯較短(HR=1.62，p=0.0008)。但這項研究的結果及解讀因各治療組間的不平衡現象而未獲得確立，特別是腫瘤局部化、抽煙狀態以及研究對象之異質性等方面的不平衡。 一項涵蓋463位使用epoetin beta，正在接受化學治療的轉移性乳癌患者，其設計目的為驗證存活率可獲得明顯改善的對照性、開放、隨機研究(BRAVE臨床試驗)顯示，在整體存活率(p=0.52)或腫瘤開始出現惡化現象的時間(p=0.45)方面，對照組與epoetin beta組間皆無任何具統計意義的差異。在對照組中，須接受輸血及發生嚴重貧血事件的患者(64/232；27.6%)要比epoetin beta組(40/231；17.3%)為多(p=0.009)，這也反映了epoetin beta在有效提高血紅素從而避免輸血方面的治療效果。 在研究期間，epoetin beta組發生血栓栓塞事件(TEEs)的病患比例要比對照組高(分別為13%與6%)，且epoetin beta治療組開始發生TEE的時間也要比對照組早(p=0.008)。不過，在發生嚴重TEE (對照組為3%，epoetin beta組為4%)或因發生TEE而死亡(各組皆為2%)的病患比例方面，兩組大致相當。 在一項針對74位正在接受放射化學治療之子宮頸癌患者所進行的使用epoetin beta的對照性、開放、隨機研究中(MARCH臨床試驗)，並未發現血紅素升高與治療失敗率(對放射化學治療的反應)降低之間存有關聯性。因此，研究人員便決定不繼續進行這項研究的第二階段。 研究人員曾針對所有使用epoetin beta治療貧血癌症患者的對照性臨床研究(12項研究，共涵蓋2301位患者)進行統合分析。這項最新統合分析的結果印證了epoetin beta在提高血紅素值及降低輸血風險方面的已知療效。 就包含Hb基礎值高達13 g/dl之患者在內的整體病患群而言，epoetin beta組中的死亡風險，和對照組相比較，並未出現具統計意義的升高現象(HR：1.13，95% CI為0.87至1.46，p=0.34)。就基礎血紅素值≤11 g/dl的患者而言，整體存活率的HR為1.09 (95 % CI為0.80至1.47，p=0.58)。在整體病患群中，開始出現疾病惡化現象之時間方面的HR為0.85 (95% CI為0.72至1.01，p=0.07)。當將分析的對象侷限於基礎血紅素值≤11 g/dl的患者時，HR為0.80 (95% CI為0.65至0.99，p=0.04)。 這項統合分析也顯示，血栓栓塞事件(TEE)的發生率有升高的現象(見8.1 臨床重要副作用/不良反應)，epoetin beta組中的TEE發生率為7%，對照組則為4%。 免疫原性 請參見5.1 警語/注意事項。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\"><strong>臨床</strong></span><span style=\"color:black;\"><strong>/</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>療效研究</strong></span></p><p><span style=\"color:black;font-family:標楷體;\">本節將說明最近完成的針對腎因性貧血患者或正在接受化學治療</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">放射治療的癌症患者使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">之隨機、對照性研究。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i>因慢性腎衰竭而產生貧血的患者</i></span></p><p><span style=\"color:black;font-family:標楷體;\">研究人員曾針對</span><span style=\"color:black;\">605</span><span style=\"color:black;font-family:標楷體;\">位併有輕至中度貧血</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">血紅素值：</span><span style=\"color:black;\">11-12.5 g/dl)</span><span style=\"color:black;font-family:標楷體;\">的透析前患者進行一項使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的開放性、隨機研究</span><span style=\"color:black;\">(CREATE</span><span style=\"color:black;font-family:標楷體;\">研究</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。主要的研究目的為探討高血紅素值調整治療</span><span style=\"color:black;\">(13–15 g/dl)</span><span style=\"color:black;font-family:標楷體;\">和標準貧血治療</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">血紅素目標值為</span><span style=\"color:black;\">10.5–11.5 g/dl)</span><span style=\"color:black;font-family:標楷體;\">相比較是否可降低心血管</span><span style=\"color:black;\">(CV)</span><span style=\"color:black;font-family:標楷體;\">罹病率。其結果並未發現高血紅素值調整治療和標準貧血治療相比較有任何的優勢。相反的，標準治療組中發生第一次心血管事件數較少</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">分別為</span><span style=\"color:black;\">47</span><span style=\"color:black;font-family:標楷體;\">例和</span><span style=\"color:black;\">58</span><span style=\"color:black;font-family:標楷體;\">例，</span><span style=\"color:black;\">HR</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.78</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">p=0.20)</span><span style=\"color:black;font-family:標楷體;\">。進入研究的患者到開始接受透析治療的時間方面有較有利於標準貧血調整治療組的差異</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">分別為</span><span style=\"color:black;\">111</span><span style=\"color:black;font-family:標楷體;\">例與</span><span style=\"color:black;\">127</span><span style=\"color:black;font-family:標楷體;\">例，其中位時間分別為</span><span style=\"color:black;\">41</span><span style=\"color:black;font-family:標楷體;\">個月與</span><span style=\"color:black;\">36</span><span style=\"color:black;font-family:標楷體;\">個月，對數等級檢定的</span><span style=\"color:black;\">p</span><span style=\"color:black;font-family:標楷體;\">值</span><span style=\"color:black;\">=0.034)</span><span style=\"color:black;font-family:標楷體;\">，但在中位肌酸酐清除率的隨時間變化方面，在兩個治療組間並無任何差異。經過</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">年之後，高目標血紅素值組在生活品質方面</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">以</span><span style=\"color:black;\">SF-36</span><span style=\"color:black;font-family:標楷體;\">健康調查問卷進行評估</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">有明顯的改善</span><span style=\"color:black;\">(p=0.003)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">在另一項針對</span><span style=\"color:black;\">172</span><span style=\"color:black;font-family:標楷體;\">位早期糖尿病腎病變患者所進行的開放性、隨機研究中</span><span style=\"color:black;\">(ACORD</span><span style=\"color:black;font-family:標楷體;\">研究</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，研究人員曾針對高血紅素值調整治療</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">血紅素值目標值為</span><span style=\"color:black;\">13-15 g/dl)</span><span style=\"color:black;font-family:標楷體;\">與標準血紅素值調整治療</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">血紅素目標值為</span><span style=\"color:black;\">10.5-11.5 g/dl</span><span style=\"color:black;font-family:標楷體;\">)，對心臟組織及心臟功能的影響進行探討。</span></p><p><span style=\"color:black;font-family:標楷體;\">研究結束時，在主要評估參數方面，亦即依基礎值調整後的左心室質量指數，兩組間並無任何明顯差異(p=0.88)。在肌酸酐清除率估算值相對於基礎值的變化、血清肌酸酐倍增的時間、或快速惡化(rapid progressors)分析等方面，兩個治療組間皆無任何具統計意義的差異。在生活品質評估的整體健康分數方面(利用SF-36健康調查問卷進行評估)，高血紅素目標值組有明顯的改善(</span><span style=\"color:black;\">p=0.04</span><span style=\"color:black;font-family:標楷體;\">)。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i>正在接受化學治療並有症狀性貧血的癌症患者</i></span></p><p><span style=\"color:black;font-family:標楷體;\">在一項針對</span><span style=\"color:black;\">351</span><span style=\"color:black;font-family:標楷體;\">位頭頸癌患者使用</span><span style=\"color:black;\">epoetin&nbsp;beta</span><span style=\"color:black;font-family:標楷體;\">治療的安慰劑對照研究中</span><span style=\"color:black;\">(ENHANCE),</span><span style=\"color:black;font-family:標楷體;\">，研究人員利用研究藥物使女性患者的血紅素值維持於</span><span style=\"color:black;\">14 g/dl</span><span style=\"color:black;font-family:標楷體;\">，並使男性患者的血紅素值維持於</span><span style=\"color:black;\">15 g/dl</span><span style=\"color:black;font-family:標楷體;\">。接受</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療之患者中的無局部惡化存活時間明顯較短</span><span style=\"color:black;\">(HR=1.62</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">p=0.0008)</span><span style=\"color:black;font-family:標楷體;\">。但這項研究的結果及解讀因各治療組間的不平衡現象而未獲得確立，特別是腫瘤局部化、抽煙狀態以及研究對象之異質性等方面的不平衡。</span></p><p><span style=\"color:black;font-family:標楷體;\">一項涵蓋</span><span style=\"color:black;\">463</span><span style=\"color:black;font-family:標楷體;\">位使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">，正在接受化學治療的轉移性乳癌患者，其設計目的為驗證存活率可獲得明顯改善的對照性、開放、隨機研究</span><span style=\"color:black;\">(BRAVE</span><span style=\"color:black;font-family:標楷體;\">臨床試驗</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">顯示，在整體存活率</span><span style=\"color:black;\">(p=0.52)</span><span style=\"color:black;font-family:標楷體;\">或腫瘤開始出現惡化現象的時間</span><span style=\"color:black;\">(p=0.45)</span><span style=\"color:black;font-family:標楷體;\">方面，對照組與</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組間皆無任何具統計意義的差異。在對照組中，須接受輸血及發生嚴重貧血事件的患者</span><span style=\"color:black;\">(64/232</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">27.6%</span><span style=\"color:black;font-family:標楷體;\">)要比</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組</span><span style=\"color:black;\">(40/231</span><span style=\"color:black;font-family:標楷體;\">；</span><span style=\"color:black;\">17.3%)</span><span style=\"color:black;font-family:標楷體;\">為多</span><span style=\"color:black;\">(p=0.009)</span><span style=\"color:black;font-family:標楷體;\">，這也反映了</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">在有效提高血紅素從而避免輸血方面的治療效果。</span></p><p><span style=\"color:black;font-family:標楷體;\">在研究期間，</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組發生血栓栓塞事件</span><span style=\"color:black;\">(TEEs)</span><span style=\"color:black;font-family:標楷體;\">的病患比例要比對照組高</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">分別為</span><span style=\"color:black;\">13%</span><span style=\"color:black;font-family:標楷體;\">與</span><span style=\"color:black;\">6%)</span><span style=\"color:black;font-family:標楷體;\">，且</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療組開始發生</span><span style=\"color:black;\">TEE</span><span style=\"color:black;font-family:標楷體;\">的時間也要比對照組早</span><span style=\"color:black;\">(p=0.008)</span><span style=\"color:black;font-family:標楷體;\">。不過，在發生嚴重</span><span style=\"color:black;\">TEE&nbsp;(</span><span style=\"color:black;font-family:標楷體;\">對照組為</span><span style=\"color:black;\">3%</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組為</span><span style=\"color:black;\">4%)</span><span style=\"color:black;font-family:標楷體;\">或因發生</span><span style=\"color:black;\">TEE</span><span style=\"color:black;font-family:標楷體;\">而死亡</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">各組皆為</span><span style=\"color:black;\">2%)</span><span style=\"color:black;font-family:標楷體;\">的病患比例方面，兩組大致相當。</span></p><p><span style=\"color:black;font-family:標楷體;\">在一項針對</span><span style=\"color:black;\">74</span><span style=\"color:black;font-family:標楷體;\">位正在接受放射化學治療之子宮頸癌患者所進行的使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">的對照性、開放、隨機研究中</span><span style=\"color:black;\">(MARCH</span><span style=\"color:black;font-family:標楷體;\">臨床試驗</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，並未發現血紅素升高與治療失敗率</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">對放射化學治療的反應</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">降低之間存有關聯性。因此，研究人員便決定不繼續進行這項研究的第二階段。</span></p><p><span style=\"color:black;font-family:標楷體;\">研究人員曾針對所有使用</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">治療貧血癌症患者的對照性臨床研究</span><span style=\"color:black;\">(12</span><span style=\"color:black;font-family:標楷體;\">項研究，共涵蓋</span><span style=\"color:black;\">2301</span><span style=\"color:black;font-family:標楷體;\">位患者</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">進行統合分析。這項最新統合分析的結果印證了</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">在提高血紅素值及降低輸血風險方面的已知療效。</span></p><p><span style=\"color:black;font-family:標楷體;\">就包含</span><span style=\"color:black;\">Hb</span><span style=\"color:black;font-family:標楷體;\">基礎值高達</span><span style=\"color:black;\">13 g/dl</span><span style=\"color:black;font-family:標楷體;\">之患者在內的整體病患群而言，</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組中的死亡風險，和對照組相比較，並未出現具統計意義的升高現象</span><span style=\"color:black;\">(HR</span><span style=\"color:black;font-family:標楷體;\">：</span><span style=\"color:black;\">1.13</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">95% CI</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.87</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">1.46</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">p=0.34)</span><span style=\"color:black;font-family:標楷體;\">。就基礎血紅素值</span><span style=\"color:black;\">≤11 g/dl</span><span style=\"color:black;font-family:標楷體;\">的患者而言，整體存活率的</span><span style=\"color:black;\">HR</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">1.09 (95 % CI</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.80</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">1.47</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">p=0.58)</span><span style=\"color:black;font-family:標楷體;\">。在整體病患群中，開始出現疾病惡化現象之時間方面的</span><span style=\"color:black;\">HR</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.85 (95% CI</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.72</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">1.01</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">p=0.07)</span><span style=\"color:black;font-family:標楷體;\">。當將分析的對象侷限於基礎血紅素值</span><span style=\"color:black;\">≤11 g/dl</span><span style=\"color:black;font-family:標楷體;\">的患者時，</span><span style=\"color:black;\">HR</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.80 (95% CI</span><span style=\"color:black;font-family:標楷體;\">為</span><span style=\"color:black;\">0.65</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">0.99</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">p=0.04)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p><span style=\"color:black;font-family:標楷體;\">這項統合分析也顯示，血栓栓塞事件</span><span style=\"color:black;\">(TEE)</span><span style=\"color:black;font-family:標楷體;\">的發生率有升高的現象</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">見</span><span style=\"color:black;\">8.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">臨床重要副作用</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">不良反應</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">epoetin beta</span><span style=\"color:black;font-family:標楷體;\">組中的</span><span style=\"color:black;\">TEE</span><span style=\"color:black;font-family:標楷體;\">發生率為</span><span style=\"color:black;\">7%</span><span style=\"color:black;font-family:標楷體;\">，對照組則為</span><span style=\"color:black;\">4%</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><strong>免疫原性</strong></span></p><p><span style=\"color:black;font-family:標楷體;\">請參見</span><span style=\"color:black;\">5.1&nbsp;</span><span style=\"color:black;font-family:標楷體;\">警語</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">注意事項。</span></p>",
+          "search_text": "12\n臨床試驗資料\n臨床/療效研究 本節將說明最近完成的針對腎因性貧血患者或正在接受化學治療/放射治療的癌症患者使用epoetin beta之隨機、對照性研究。 因慢性腎衰竭而產生貧血的患者 研究人員曾針對605位併有輕至中度貧血(血紅素值：11-12.5 g/dl)的透析前患者進行一項使用epoetin beta的開放性、隨機研究(CREATE研究)。主要的研究目的為探討高血紅素值調整治療(13–15 g/dl)和標準貧血治療(血紅素目標值為10.5–11.5 g/dl)相比較是否可降低心血管(CV)罹病率。其結果並未發現高血紅素值調整治療和標準貧血治療相比較有任何的優勢。相反的，標準治療組中發生第一次心血管事件數較少(分別為47例和58例，HR為0.78，p=0.20)。進入研究的患者到開始接受透析治療的時間方面有較有利於標準貧血調整治療組的差異(分別為111例與127例，其中位時間分別為41個月與36個月，對數等級檢定的p值=0.034)，但在中位肌酸酐清除率的隨時間變化方面，在兩個治療組間並無任何差異。經過1年之後，高目標血紅素值組在生活品質方面(以SF-36健康調查問卷進行評估)有明顯的改善(p=0.003)。 在另一項針對172位早期糖尿病腎病變患者所進行的開放性、隨機研究中(ACORD研究)，研究人員曾針對高血紅素值調整治療(血紅素值目標值為13-15 g/dl)與標準血紅素值調整治療(血紅素目標值為10.5-11.5 g/dl)，對心臟組織及心臟功能的影響進行探討。 研究結束時，在主要評估參數方面，亦即依基礎值調整後的左心室質量指數，兩組間並無任何明顯差異(p=0.88)。在肌酸酐清除率估算值相對於基礎值的變化、血清肌酸酐倍增的時間、或快速惡化(rapid progressors)分析等方面，兩個治療組間皆無任何具統計意義的差異。在生活品質評估的整體健康分數方面(利用SF-36健康調查問卷進行評估)，高血紅素目標值組有明顯的改善(p=0.04)。 正在接受化學治療並有症狀性貧血的癌症患者 在一項針對351位頭頸癌患者使用epoetin beta治療的安慰劑對照研究中(ENHANCE),，研究人員利用研究藥物使女性患者的血紅素值維持於14 g/dl，並使男性患者的血紅素值維持於15 g/dl。接受epoetin beta治療之患者中的無局部惡化存活時間明顯較短(HR=1.62，p=0.0008)。但這項研究的結果及解讀因各治療組間的不平衡現象而未獲得確立，特別是腫瘤局部化、抽煙狀態以及研究對象之異質性等方面的不平衡。 一項涵蓋463位使用epoetin beta，正在接受化學治療的轉移性乳癌患者，其設計目的為驗證存活率可獲得明顯改善的對照性、開放、隨機研究(BRAVE臨床試驗)顯示，在整體存活率(p=0.52)或腫瘤開始出現惡化現象的時間(p=0.45)方面，對照組與epoetin beta組間皆無任何具統計意義的差異。在對照組中，須接受輸血及發生嚴重貧血事件的患者(64/232；27.6%)要比epoetin beta組(40/231；17.3%)為多(p=0.009)，這也反映了epoetin beta在有效提高血紅素從而避免輸血方面的治療效果。 在研究期間，epoetin beta組發生血栓栓塞事件(TEEs)的病患比例要比對照組高(分別為13%與6%)，且epoetin beta治療組開始發生TEE的時間也要比對照組早(p=0.008)。不過，在發生嚴重TEE (對照組為3%，epoetin beta組為4%)或因發生TEE而死亡(各組皆為2%)的病患比例方面，兩組大致相當。 在一項針對74位正在接受放射化學治療之子宮頸癌患者所進行的使用epoetin beta的對照性、開放、隨機研究中(MARCH臨床試驗)，並未發現血紅素升高與治療失敗率(對放射化學治療的反應)降低之間存有關聯性。因此，研究人員便決定不繼續進行這項研究的第二階段。 研究人員曾針對所有使用epoetin beta治療貧血癌症患者的對照性臨床研究(12項研究，共涵蓋2301位患者)進行統合分析。這項最新統合分析的結果印證了epoetin beta在提高血紅素值及降低輸血風險方面的已知療效。 就包含Hb基礎值高達13 g/dl之患者在內的整體病患群而言，epoetin beta組中的死亡風險，和對照組相比較，並未出現具統計意義的升高現象(HR：1.13，95% CI為0.87至1.46，p=0.34)。就基礎血紅素值≤11 g/dl的患者而言，整體存活率的HR為1.09 (95 % CI為0.80至1.47，p=0.58)。在整體病患群中，開始出現疾病惡化現象之時間方面的HR為0.85 (95% CI為0.72至1.01，p=0.07)。當將分析的對象侷限於基礎血紅素值≤11 g/dl的患者時，HR為0.80 (95% CI為0.65至0.99，p=0.04)。 這項統合分析也顯示，血栓栓塞事件(TEE)的發生率有升高的現象(見8.1 臨床重要副作用/不良反應)，epoetin beta組中的TEE發生率為7%，對照組則為4%。 免疫原性 請參見5.1 警語/注意事項。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "含注射溶液的針筒裝： 容可曼2000國際單位，5000國際單位。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\"><u>含注射溶液的針筒裝：</u></span></p><p><span style=\"color:black;font-family:標楷體;\">容可曼</span><span style=\"color:black;\">2000</span><span style=\"color:black;font-family:標楷體;\">國際單位，</span><span style=\"color:black;\">5000</span><span style=\"color:black;font-family:標楷體;\">國際單位。</span></p>",
+          "search_text": "13.1\n包裝\n含注射溶液的針筒裝： 容可曼2000國際單位，5000國際單位。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "架儲期 此藥物在過期後(EXP)不得繼續使用，期限如包裝上標示。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">架儲期</span></p><p><span style=\"color:black;font-family:標楷體;\">此藥物在過期後</span><span style=\"color:black;\">(EXP)</span><span style=\"color:black;font-family:標楷體;\">不得繼續使用，期限如包裝上標示。</span></p>",
+          "search_text": "13.2\n效期\n架儲期 此藥物在過期後(EXP)不得繼續使用，期限如包裝上標示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "儲存 維持溫度在2 到 8°C。(存放在冰箱) 將針筒裝容器保存在外盒中以避光。 針筒裝注射液： 為便利病患可外出使用，病患可將本藥移出冰箱，於單一時間內在室溫下(不超過25oC)存放最多三天的時間。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">儲存</span></p><p><span style=\"color:black;font-family:標楷體;\">維持溫度在</span><span style=\"color:black;\">2&nbsp;</span><span style=\"color:black;font-family:標楷體;\">到</span><span style=\"color:black;\"> 8°C</span><span style=\"color:black;font-family:標楷體;\">。</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">存放在冰箱</span><span style=\"color:black;\">)</span></p><p><span style=\"color:black;font-family:標楷體;\">將針筒裝容器保存在外盒中以避光。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><u>針筒裝注射液：</u></i></span></p><p><span style=\"color:black;font-family:標楷體;\">為便利病患可外出使用，病患可將本藥移出冰箱，於單一時間內在室溫下</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">不超過</span><span style=\"color:black;\">25<sup>o</sup>C)</span><span style=\"color:black;font-family:標楷體;\">存放最多三天的時間。</span></p>",
+          "search_text": "13.3\n儲存條件\n儲存 維持溫度在2 到 8°C。(存放在冰箱) 將針筒裝容器保存在外盒中以避光。 針筒裝注射液： 為便利病患可外出使用，病患可將本藥移出冰箱，於單一時間內在室溫下(不超過25oC)存放最多三天的時間。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "使用、操作及處置之特殊指示 針筒裝注射液： 不相容性 在沒有相容性研究的情況下，本品不可與其它藥物混合使用。 使用及操作指示 請您先洗手! 自盒中取出一支針筒，檢查溶液是否澄清無色，且幾無肉眼可見的微粒物質。移除針筒上的保護套。 自盒中取出一支針頭，將它固定在針筒上，然後移除針頭上的保護套。 垂直握住針筒，將推桿輕輕向上壓，藉此排除針筒及針頭內的空氣。持續推壓推桿，直到針筒內的容可曼含量和處方相符為止。 利用酒精棉片清潔注射部位的皮膚。以拇指和食指捏起皮膚，使皮膚形成一處隆起。握住靠近針頭端的針筒，並以快速而穩定的動作將針頭插入捏起的皮膚內。注入容可曼溶液。快速拔出針頭，並以一片乾燥的無菌棉片壓住注射部位。 本品僅供單次使用。 處置指示 下列幾點關於注射器及其他醫療用銳器之使用及處置指示應嚴格遵守： • 針頭及注射器不能重複使用。 • 將所有用過的針頭及注射器放置於裝銳器的容器(防穿刺的拋棄式容器)中。 • 該容器請放於孩童無法觸及之處。 • 應避免該容器置放於家庭廢棄物中。 應依照當地規定或醫療提供者之指示處置裝滿的容器。 應盡量減少藥物在環境中釋放。藥物不應經由廢水處置，也應避免經由家庭廢棄物的方式丟棄。如果您的所在地區有的話，請使用”收集系統”來處置藥物。 請將本藥放置於孩童無法取得之處。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\"><strong>使用、操作及處置之特殊指示</strong></span></p><p><span style=\"color:black;font-family:標楷體;\"><i><u>針筒裝注射液：</u></i></span></p><p><span style=\"color:black;font-family:標楷體;\"><i>不相容性</i></span></p><p><span style=\"color:black;font-family:標楷體;\">在沒有相容性研究的情況下，本品不可與其它藥物混合使用。</span></p><p>&nbsp;</p><p><span style=\"color:black;font-family:標楷體;\"><i><strong>使用及操作指示</strong></i></span></p><p style=\"margin-left:1.4pt;\"><span style=\"color:black;font-family:標楷體;\">請您先洗手</span><span style=\"color:black;\">!</span></p><ol><li><span style=\"color:black;font-family:標楷體;\">自盒中取出一支針筒，檢查溶液是否澄清無色，且幾無肉眼可見的微粒物質。移除針筒上的保護套。</span></li><li><span style=\"color:black;font-family:標楷體;\">自盒中取出一支針頭，將它固定在針筒上，然後移除針頭上的保護套。</span></li><li><span style=\"color:black;font-family:標楷體;\">垂直握住針筒，將推桿輕輕向上壓，藉此排除針筒及針頭內的空氣。持續推壓推桿，直到針筒內的容可曼含量和處方相符為止。</span></li><li><span style=\"color:black;font-family:標楷體;\">利用酒精棉片清潔注射部位的皮膚。以拇指和食指捏起皮膚，使皮膚形成一處隆起。握住靠近針頭端的針筒，並以快速而穩定的動作將針頭插入捏起的皮膚內。注入容可曼溶液。快速拔出針頭，並以一片乾燥的無菌棉片壓住注射部位。</span></li></ol><p style=\"margin-left:0cm;\">&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">本品僅供單次使用。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">處置指示</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">下列幾點關於注射器及其他醫療用銳器之使用及處置指示應嚴格遵守：</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">•</span><span style=\"color:black;\">&nbsp;&nbsp;&nbsp; </span><span style=\"color:black;font-family:標楷體;\">針頭及注射器不能重複使用。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">•</span><span style=\"color:black;\">&nbsp;&nbsp;&nbsp; </span><span style=\"color:black;font-family:標楷體;\">將所有用過的針頭及注射器放置於裝銳器的容器</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">防穿刺的拋棄式容器</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">中。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">•</span><span style=\"color:black;\">&nbsp;&nbsp;&nbsp; </span><span style=\"color:black;font-family:標楷體;\">該容器請放於孩童無法觸及之處。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">•</span><span style=\"color:black;\">&nbsp;&nbsp;&nbsp; </span><span style=\"color:black;font-family:標楷體;\">應避免該容器置放於家庭廢棄物中。</span></p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">應依照當地規定或醫療提供者之指示處置裝滿的容器。</span></p><p style=\"margin-left:0cm;\">&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">應盡量減少藥物在環境中釋放。藥物不應經由廢水處置，也應避免經由家庭廢棄物的方式丟棄。如果您的所在地區有的話，請使用”收集系統”來處置藥物。</span></p><p>&nbsp;</p><p style=\"margin-left:0cm;\"><span style=\"color:black;font-family:標楷體;\">請將本藥放置於孩童無法取得之處。</span></p>",
+          "search_text": "14\n病人使用須知\n使用、操作及處置之特殊指示 針筒裝注射液： 不相容性 在沒有相容性研究的情況下，本品不可與其它藥物混合使用。 使用及操作指示 請您先洗手! 自盒中取出一支針筒，檢查溶液是否澄清無色，且幾無肉眼可見的微粒物質。移除針筒上的保護套。 自盒中取出一支針頭，將它固定在針筒上，然後移除針頭上的保護套。 垂直握住針筒，將推桿輕輕向上壓，藉此排除針筒及針頭內的空氣。持續推壓推桿，直到針筒內的容可曼含量和處方相符為止。 利用酒精棉片清潔注射部位的皮膚。以拇指和食指捏起皮膚，使皮膚形成一處隆起。握住靠近針頭端的針筒，並以快速而穩定的動作將針頭插入捏起的皮膚內。注入容可曼溶液。快速拔出針頭，並以一片乾燥的無菌棉片壓住注射部位。 本品僅供單次使用。 處置指示 下列幾點關於注射器及其他醫療用銳器之使用及處置指示應嚴格遵守： • 針頭及注射器不能重複使用。 • 將所有用過的針頭及注射器放置於裝銳器的容器(防穿刺的拋棄式容器)中。 • 該容器請放於孩童無法觸及之處。 • 應避免該容器置放於家庭廢棄物中。 應依照當地規定或醫療提供者之指示處置裝滿的容器。 應盡量減少藥物在環境中釋放。藥物不應經由廢水處置，也應避免經由家庭廢棄物的方式丟棄。如果您的所在地區有的話，請使用”收集系統”來處置藥物。 請將本藥放置於孩童無法取得之處。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "CDS 3.0_10.18-REC-3B01 2018年5月 容可曼®針筒裝注射劑2000國際單位 衛署菌疫輸字第000876號 容可曼®針筒裝注射劑5000國際單位 衛署菌疫輸字第000875號 (1)成品製造廠: 廠名：Vetter Pharma-Fertigung GmbH & CO. KG. 廠址：Schutzenstrasse 87 and 99/101, D-88212 Ravensburg, Germany (2)成品製造廠: 廠名: Roche Diagnostics GmbH 廠址: Sandhofer Strasse 116, D-68305 Mannheim, Germany (3)成品製造廠: 廠名: F. Hoffmann-La Roche Ltd. 廠址: Wurmisweg, CH-4303, Kaiseraugst, Switzerland 包裝廠: 廠名：Roche Diagnostics GmbH 廠址：Sandhofer Strasse 116, D-68305 Mannheim, Germany 藥商：羅氏大藥廠股份有限公司 地址：臺北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8 電話：(02) 27153111 “容可曼”與“Recormon”註冊商標係由赫夫門羅氏藥廠授權羅氏大藥廠股份有限公司使用。",
+          "content_html": "<p>CDS 3.0_10.18-REC-3B01</p><p>2018<span style=\"font-family:標楷體;\">年</span>5<span style=\"font-family:標楷體;\">月</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">容可曼</span><sup>®</sup><span style=\"font-family:標楷體;\">針筒裝注射劑</span>2000<span style=\"font-family:標楷體;\">國際單位</span>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">衛署菌疫輸字第</span>000876<span style=\"font-family:標楷體;\">號</span></p><p><span style=\"font-family:標楷體;\">容可曼</span><sup>®</sup><span style=\"font-family:標楷體;\">針筒裝注射劑</span>5000<span style=\"font-family:標楷體;\">國際單位</span>&nbsp; &nbsp;&nbsp;<span style=\"font-family:標楷體;\">衛署菌疫輸字第</span>000875<span style=\"font-family:標楷體;\">號</span></p><p>&nbsp;</p><p>(1)<span style=\"font-family:標楷體;\">成品製造廠</span>:</p><p><span style=\"font-family:標楷體;\">廠名：</span>Vetter Pharma-Fertigung GmbH &amp; CO. KG.</p><p><span style=\"font-family:標楷體;\">廠址：</span>Schutzenstrasse 87 and 99/101, D-88212 Ravensburg, Germany</p><p>&nbsp;</p><p>(2)<span style=\"font-family:標楷體;\">成品製造廠</span>:</p><p><span style=\"font-family:標楷體;\">廠名</span>:&nbsp;Roche Diagnostics GmbH</p><p><span style=\"font-family:標楷體;\">廠址</span>:&nbsp;Sandhofer Strasse 116, D-68305 Mannheim, Germany</p><p>&nbsp;</p><p>(3)<span style=\"font-family:標楷體;\">成品製造廠</span>:</p><p><span style=\"font-family:標楷體;\">廠名</span>:&nbsp;F. Hoffmann-La Roche Ltd.</p><p><span style=\"font-family:標楷體;\">廠址</span>:&nbsp;Wurmisweg, CH-4303, Kaiseraugst, Switzerland</p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">包裝廠</span>:</p><p><span style=\"font-family:標楷體;\">廠名</span>：Roche Diagnostics GmbH</p><p><span style=\"font-family:標楷體;\">廠址</span>：Sandhofer Strasse 116, D-68305 Mannheim, Germany</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">藥商：羅氏大藥廠股份有限公司</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">地址：臺北市南港區經貿一路</span>170<span style=\"font-family:標楷體;\">號</span>10<span style=\"font-family:標楷體;\">樓、</span>10<span style=\"font-family:標楷體;\">樓之</span>1<span style=\"font-family:標楷體;\">至之</span>3<span style=\"font-family:標楷體;\">、</span>10<span style=\"font-family:標楷體;\">樓之</span>5<span style=\"font-family:標楷體;\">至之</span>8</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">電話：</span>(02) 27153111</p><p style=\"text-align:justify;\">“<span style=\"font-family:標楷體;\">容可曼</span>”<span style=\"font-family:標楷體;\">與</span>“Recormon”<span style=\"font-family:標楷體;\">註冊商標係由赫夫門羅氏藥廠授權羅氏大藥廠股份有限公司使用。</span></p>",
+          "search_text": "15\n其他\nCDS 3.0_10.18-REC-3B01 2018年5月 容可曼®針筒裝注射劑2000國際單位 衛署菌疫輸字第000876號 容可曼®針筒裝注射劑5000國際單位 衛署菌疫輸字第000875號 (1)成品製造廠: 廠名：Vetter Pharma-Fertigung GmbH & CO. KG. 廠址：Schutzenstrasse 87 and 99/101, D-88212 Ravensburg, Germany (2)成品製造廠: 廠名: Roche Diagnostics GmbH 廠址: Sandhofer Strasse 116, D-68305 Mannheim, Germany (3)成品製造廠: 廠名: F. Hoffmann-La Roche Ltd. 廠址: Wurmisweg, CH-4303, Kaiseraugst, Switzerland 包裝廠: 廠名：Roche Diagnostics GmbH 廠址：Sandhofer Strasse 116, D-68305 Mannheim, Germany 藥商：羅氏大藥廠股份有限公司 地址：臺北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8 電話：(02) 27153111 “容可曼”與“Recormon”註冊商標係由赫夫門羅氏藥廠授權羅氏大藥廠股份有限公司使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "警語:紅血球生成刺激素有增加腫瘤惡化或復發的風險 癌症部分: 於乳癌、非小細胞肺癌、頭頸癌、淋巴癌及子宮頸癌患者的一些臨床研究中發現，紅血球生成刺激素(ESAs)會縮短整體存活時間及/或增加腫瘤惡化或復發的風險。 為了減少上述及嚴重心臟及血管栓塞的風險，應使用可避免紅血球輸注之最低劑量。 紅血球生成刺激素(ESAs)僅可使用於因接受具骨髓抑制作用之化學治療而引起的貧血。 對於接受骨髓抑制治療的患者，且預期結果為可治癒時，不應使用紅血球生成刺激素。 在化學治療療程結束之後，應停用紅血球生成刺激素。\n1\n性狀\n1.1\n有效成分及含量\n主成份：epoetin beta(重組人類紅血球生成素：係利用中國倉鼠卵巢(CHO)細胞株，以DNA重組技術來合成)。 針筒裝注射溶液: 2000 IU = 16.6 微公克之epoetin beta 溶於0.3 ml的注射用水中 5000 IU = 41.5 微公克之epoetin beta 溶於0.3 ml的注射用水中\n1.2\n賦形劑\nUrea, Sodium chloride, Polysorbate 20, Sodium dihydrogen phosphate, Disodium hydrogen phosphate, Calcium chloride, Glycine, L-Leucine, L-Isoleucine, L-Threonine, L-Glutamic acid, L-phenylalanine, Water for injection. 所有劑型均含有苯丙胺酸(L-phenylalanine)的賦形劑 (每支針筒裝注射劑內含最高達0.3毫克) (請參見5.1警語/注意事項)。\n1.3\n劑型\n注射用溶液(針筒裝注射劑)。\n1.4\n藥品外觀\n無菌產品。 重新調配後的產品為無色、澄清至微乳白色的溶液。\n2\n適應症\n容可曼適用於: 治療慢性腎衰竭且伴隨症狀性貧血病人。 治療與癌症化學治療有關的症狀性貧血。 治療正在接受抗腫瘤治療之多發性骨髓瘤(multiple myeloma)、低度非何杰金氏淋巴瘤(low grade non-Hodgkin’s lymphoma)或慢性淋巴性白血病(chronic lymphocytic leukemia)成人患者的症狀性貧血。 說明 - 治療洗腎病人因慢性腎衰竭而引起的貧血(腎因性貧血)。 - 治療尚未洗腎的腎因性貧血病人。 - 治療患有固態腫瘤且因進行含鉑藥物的化學治療(platinum-based chemotherapy) 而引發貧血的成年病人。(cisplatin：75mg/m2/cycle；carboplatin：350 mg/ m2/cycle)。 - 治療紅血球生成素相對較為缺乏且正在接受抗腫瘤治療之多發性骨髓瘤(multiple myeloma)、低度非何杰金氏淋巴瘤(low grade non-Hodgkin’s lymphoma)或慢性淋巴性白血病(chronic lymphocytic leukemia)成人患者的症狀性貧血。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象。\n3\n用法及用量\n3.1\n用法用量\n投予途徑 靜脈(i.v.)或皮下(s.c.)注射用溶液。 開始使用容可曼治療上述適應症時，應由有經驗的醫師指導進行。由於曾有發生類過敏反應的個案報告，因此建議第一劑應於有醫療人員監督的情況下投予。 針筒裝注射溶液: 預先填充好的容可曼針筒裝注射劑可以直接使用。每支注射針不應該在任何情況使用超過一次以上；該藥品僅供單次使用。(請參見14病人使用須知) 針對患有慢性腎衰竭的貧血病人之治療： 配製好溶液可以經由皮下或是靜脈注射使用。當使用靜脈注射時，注射藥劑的時間要大於兩分鐘，譬如說，血液透析病人可以在洗腎結束時經由動-靜脈瘻管進行注射。 對於不是進行血液透析的病人，寧可使用皮下注射以避免刺破週邊靜脈。 對慢性腎衰竭病患，其治療的目標在血紅素值達到10-12 g/dl，不可超出12 g/dl 。如果血紅素在4週內升高至超過2 g/dl (1.3 mmol/l)的程度，則應考慮將劑量降低。有高血壓或有心血管、大腦血管或週邊血管的疾病，每週的血紅素值之增加與其目標血紅素值，應依個別臨床狀況來作決定。患者應接受嚴密的監視，以確保使用最低劑量的容可曼可達到適當的控制貧血症狀。 容可曼的治療可分為兩個階段： 1. 調整階段 - 皮下注射： 初劑量是每週3×20 IU/kg體重。若血紅素值增加不理想(每星期低於0.25 g/dl)，該劑量可以每四週為間隔，每週增加3×20 IU/kg體重。 每週之劑量也可分成每日投予。 - 靜脈注射： 初劑量是每週3×40 IU/kg體重。其劑量可在四週後增加到80 IU/kg體重，每週給三次。若需進一步增加劑量，可以以月為間隔，增加幅度為每週3×20 IU/kg體重。 前述兩種給藥途徑，最大劑量不應超過每週720 IU/kg體重。 2. 維持劑量階段 為了維持目標血紅素值大約在10-12 g/dl之間，劑量先降為先前使用量的一半。隨後，以一到二週為間隔，個別為病人調整劑量(維持劑量)。在皮下注射時，可一次注射一週的劑量或將一週的劑量分成三或七次注射。當患者能適應每週一次的注射用法後，可以改成每兩週注射一次，如此一來使用劑量可能要增加。 容可曼的治療往往是長期性的治療。雖然如此，本藥能隨時因需要而中斷治療。每週一次投藥方式的資料是根據24週治療期的臨床研究。 治療固態腫瘤患者的症狀性貧血： 本製劑經由皮下注射；可一次注射一週的劑量或將一週的劑量分成三至七次注射。 建議初始劑量為每週450 IU/kg體重。 當血紅素的值≥ 10 g/dl (6.2 mmol/l)，不應開始使用容可曼治療。應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。 治療4週之後，如果血紅素值升高至少1 g/dl (0.62 mmol/l)以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少1 g/dl (0.62 mmol/l)以上，或可考慮將劑量提高一倍。若在治療8週之後，如果血紅素值仍未升高至少1 g/dl (0.62 mmol/l)以上，即表示患者可能無法產生療效反應，並應停止治療。 在化學治療療程結束之後，應停用本品。 最高劑量不可超過每週每公斤體重900 IU。 一旦達到個別病患的治療目標之後，即應將劑量降低25-50%，使血紅素維持於該目標值。必要時或可將劑量進一步降低，以確保血紅素值不至超過12 g/dl。 如果血紅素在4週內升高至超過2 g/dl (1.3 mmol/l)的程度，則應將劑量降低25-50%。 治療多發性骨髓瘤、低度非何杰金氏淋巴瘤或慢性淋巴性白血病患者的症狀性貧血： 多發性骨髓瘤、非何杰金氏淋巴瘤或慢性淋巴性白血病患者都會出現紅血球生成素相對較為缺乏的現象。缺乏的定義為，相對於貧血的程度，血清紅血球生成素濃度呈現出不當偏低的現象： 在血紅素>9至<10 g/dl (>5.58至<6.21 mmol/l)的情況下，血清紅血球生成素濃度≤ 100 mU/ml 在血紅素>8至≤ 9 g/dl (>4.96至≤ 5.58 mmol/l)的情況下，血清紅血球生成素濃度≤ 180 mU/ml 在血紅素≤ 8 g/dl (≤ 4.96 mmol/l)的情況下，血清紅血球生成素濃度≤ 300 mU/ml 以上數值應於距離最後一次輸血及最後一週期細胞毒性化學治療至少7天之後進行檢測。 配製後的溶液應採皮下注射投予；可將每週劑量以每週注射一次的方式投予，亦可分成3至7次投予。 建議起始劑量為每週每公斤體重450 IU。 應調整容可曼的劑量，以使患者的血紅素可維持在最低不需輸血的狀況。 治療4週之後，如果血紅素值升高至少1 g/dl (0.62 mmol/l)以上，則應繼續採用相同的劑量。如果血紅素值並未升高至少1 g/dl (0.62 mmol/l)以上，或可考慮將劑量提高至每週每公斤體重900 IU，並分成2至7次投予。治療8週之後，如果血紅素值仍未升高至少1 g/dl (0.62 mmol/l)以上，即表示患者可能無法產生療效反應，並應停止治療。 臨床研究顯示，與多發性骨髓瘤、非何杰金氏淋巴瘤或及固態腫瘤患者相比較，慢性淋巴性白血病患者對epoetin beta的療效反應會延遲2週左右。在化學治療療程結束之後，應停用本品。 最高劑量不可超過每週每公斤體重900 IU。 一旦達到個別病患的治療目標之後，應將劑量降低25至50%，以使血紅素維持在當時的濃度。如有必要，可將劑量進一步降低，以確保血紅素值不會超過12 g/dl。 如果血紅素值在4週內的升高程度超過2 g/dl (1.3 mmol/l)，也應將劑量降低25至50%。 只有在紅血球生成素缺乏為貧血之最可能導因的情況下，才可再度使用本品治療。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n小兒使用: 小兒臨床研究的結果顯示，平均而言，患者越年輕，所須使用的容可曼劑量就越高。不過，由於無法預測個別病患的反應，因此仍應遵循建議的劑量療程(見6.4小兒)。 老年人使用: 目前並未進行過任何專門針對老年病患的研究。在容可曼的臨床試驗中曾收錄極高比例的老年病患，並未發現老年族群有特別劑量調整之必要。 肝功能不全: 目前並無任何專門針對肝功能不全患者所進行的臨床試驗。\n4\n禁忌\n容可曼不可使用在以下病患： - 已知對本品之活性成分或任一賦形劑過敏的患者 - 高血壓控制不良的患者\n5\n警語及注意事項\n5.1\n警語/注意事項\n一般 為了提升生物製劑藥品使用之可追蹤性，給予藥物的商品名及批號應清楚地記載(或列)於病患檔案中。 在以其他生物製劑藥品取代前必須經由處方醫師同意。 對伴隨過量變形裂殖體(excess blasts in transformation)、癲癇、血小板增多症和慢性肝衰竭的頑固性貧血病人要小心使用容可曼。要排除葉酸與維他命B12缺乏因素，因它們會降低容可曼之藥效。 為確保達到有效的紅血球生成作用，所有的患者在治療前與治療期間都應評估鐵質狀態，並可能必須依據治療指示進行鐵劑補充治療。 容可曼因含苯丙胺酸(phenylalanine)做為賦形劑，因此苯酮尿症患者須評估利弊後再使用。 療效不彰：造成患者對紅血球生成刺激素(ESAs)反應不足的最常見導因為鐵質缺乏與慢性發炎(如尿毒症或晚期轉移性癌症所引起者)。下列疾病可能也會減弱紅血球生成刺激素的治療效果：慢性失血、骨髓纖維變性、腎衰竭治療所引起的嚴重鋁質過量、葉酸或維他命B12缺乏以及溶血。如果前述的疾病均已排除，但患者出現血紅素驟降的現象，並伴隨出現網狀細胞減少症及抗紅血球生成素抗體，則應考慮進行骨髓檢查，藉以診斷是否為單純紅血球再生不良(PRCA)。若診斷為單純紅血球再生不良，即應停止使用epoetin beta治療，且患者不可改用另一種紅血球生成刺激素。 在紅血球生成素治療中，包括容可曼，曾有因出現具紅血球生成素中和作用之抗體伴隨單純紅血球再生不良之通報。這些抗體可能會和所有的紅血球生成蛋白質發生交叉反應。因此，疑似或確定出現具紅血球生成素中和作用之抗體的患者不可改用容可曼(見8.1 臨床重要副作用/不良反應)。 對腫瘤生長的影響： 增加死亡及/或腫瘤惡化或復發的風險 紅血球生成刺激素會降低局部區域控制率/無惡化存活率及/或整體存活率(見表一)。這些發現來自於下列的研究：針對接受放射治療的晚期頭頸癌患者(癌症研究5及6)，和接受化學治療的轉移性乳癌(癌症研究1)或淋巴性惡性腫瘤患者(癌症研究2)，及未進行化學治療或放射治療的非小細胞肺癌或各種惡性腫瘤的患者(癌症研究7及8)。 表一 存活率降低及/或局部區域控制率(locoregional control)降低的隨機對照試驗 研究/腫瘤(n) 血紅素目標值 所達到的 血紅素值 (中位數Q1, Q3) 主要指標 含ESA之治療組中的不良結果 化學治療 癌症研究1 轉移性乳癌 (n=939) 12-14 g/dL 12.9 g/dL 12.2, 13.3 g/dL 12個月整體存活率 12個月存活率降低 癌症研究2 淋巴性惡性腫瘤 (n=344) 13-15 g/dL (男) 13-14 g/dL (女) 11.0 g/dL 9.8, 12.1 g/dL 達到血紅素反應的病患比例 整體存活率降低 癌症研究3 早期乳癌 (n=733) 12.5-13 g/dL 13.1 g/dL 12.5, 13.7 g/dL 無復發及整體存活率 3年無復發及整體存活率降低 癌症研究4 子宮頸癌 (n=114) 12-14 g/dL 12.7 g/dL 12.1, 13.3 g/dL 無惡化及整體存活率及 局部區域控制率(locoregional control) 3年無惡化及整體存活率及局部區域控制率降低 單獨使用放射治療 癌症研究5 頭頸癌 (n=351) ≥ 15 g/dL (男) ≥ 14 g/dL (女) 無資料 無局部區域惡化存活率 (LRPFS, locoregional progression-free survival) 5年無局部區域惡化存活率降低 整體存活率降低 癌症研究6 頭頸癌 (n=522) 14-15.5 g/dL 無資料 局部區域疾病控制率(LRC, locoregional disease control) 局部區域疾病控制率降低 未進行任何化學治療或放射治療 癌症研究7 非小細胞肺癌 (n=70) 12-14 g/dL 無資料 生活品質 整體存活率降低 癌症研究8 非骨髓性惡性腫瘤 (n=989) 12-13 g/dL 10.6 g/dL 9.4, 11.8 g/dL RBC輸注 整體存活率降低 整體存活率降低： 癌症研究1(\"BEST\"研究)。Epoetin alfa組中的4個月死亡率明顯較高(8.7%比3.4%)。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低(70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012)。 癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血患者所進行的第3期、雙盲、隨機(Darbepoetin alfa與安慰劑相比較)研究。經過29個月(中位數)的追蹤之後發現，隨機分配進入Darbepoetin alfa組之患者中的整體死亡率要明顯高於安慰劑組(HR 1.36，95% CI：1.02，1.82)。 癌症研究7是一項第3期、多中心、隨機(Epoetin alfa比上安慰劑)、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌患者以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/dL之間。針對300位計劃收錄病患中的70位患者進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組患者(中位存活時間分別為63與129天；HR 1.84；p=0.04)。 癌症研究8是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血患者所進行的第3期、雙盲、隨機(Darbepoetin alfa比上安慰劑)、16週研究。並無任何證據顯示接受RBC輸注的病患比例有具統計意義的降低。Darbepoetin alfa組中的中位存活時間(8個月)要比安慰劑組(10.8個月)短；HR 1.30，95% CI：1.07，1.57。 無惡化存活率(progression-free survival)與整體存活率降低： 癌症研究3 (\"PREPARE\"研究)是一項針對接受術前輔助性化學治療的733位女性乳癌患者，給予darbepoetin alfa以預防貧血所進行的隨機對照研究。在經過約三年(中位數)的追蹤觀察之後，darbepoetin alfa組中的存活率(86% vs. 90%, HR 1.42, 95% CI: 0.93, 2.18)及無復發存活率(72% vs. 78%, HR 1.33, 95% CI: 0.99, 1.79)比對照組低。 癌症研究4 (protocol GOG 191)是一項收錄114位(原本計畫收錄460位)患有子宮頸癌且接受化學治療及放射性治療中的患者所進行的隨機對照研究。患者隨機接受Epoetin alfa以維持血紅素在12至14 g/dL之間或於必要時進行紅血球輸注。此研究因接受Epoetin alfa治療的患者發生血栓栓塞事件的比例相對高於對照組(19% vs. 9%)而提早結束。Epoetin alfa組的局部復發率和轉移性復發率均高於對照組(分別為21%與20%以及12%與7%)。Epoetin alfa組的3年無惡化存活率比對照組低(59% vs. 62%, HR 1.06, 95% CI: 0.58, 1.91)。其3年整體存活率，Epoetin alfa組亦比對照組低(61% vs. 71%, HR 1.28, 95% CI: 0.68, 2.42)。 癌症研究5 (\"ENHANCE\"研究)是一項針對351位頭頸癌患者投予Epoetin beta或安慰劑的隨機對照研究，女性和男性患者的血紅素目標值分別為14與15 g/dL。接受Epoetin beta治療之患者中的無局部區域惡化存活時間明顯較短(HR 1.62，95% CI：1.22，2.14；p=0.0008)，Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之患者中的整體存活時間也明顯較短(HR 1.39，95% CI：1.05，1.84；p=0.02)。 局部區域控制率降低： 癌症研究6 (DAHANCA 10)乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌患者隨機分組後，分別以Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位患者進行期中分析的結果顯示，接受Darbepoetin alfa治療之患者中的5年局部區域控制率明顯較短(RR 1.44，95% CI：1.06，1.96；p=0.02)。接受Darbepoetin alfa治療之患者中的整體存活時間也較短(RR 1.28，95% CI：0.98，1.68；p=0.08)。 Epoetins是一種主要作用為刺激紅血球生成的生長因子。紅血球生成素接受體可能會出現於多種不同腫瘤細胞的表面。和所有的生長因子一樣，epoetins也可能會刺激任何類型之惡性腫瘤的生長。 一項針對頭頸癌患者投予epoetin beta的對照性臨床研究顯示，接受epoetin beta治療之患者其無局部區域惡化存活時間較短。另一項針對乳癌之臨床研究，其研究設計目的為驗證epoetin beta相較於未治療的對照組，對整體存活時間產生正面影響，且其整體存活時間或腫瘤惡化程度方面皆顯示不具任何統計意義。此外，針對使用epoetin beta治療癌症患者之貧血症狀的隨機、對照性臨床研究(含12項研究，2301位病患；包括上述兩項研究)所進行的統合分析資料顯示，在存活時間或腫瘤惡化程度方面皆顯示負面影響，然此負面影響未達統計意義(見12. 臨床試驗資料)。 慢性腎衰竭患者及正在接受化學治療的癌症患者，可能會發生血壓上升(高血壓)或既有之高血壓更加惡化的現象，尤其在血紅素快速升高的情況下。血壓上升的現象可使用抗高血壓藥物治療。如果血壓上升的現象無法因藥物治療而獲得控制，則建議暫時停止使用容可曼治療。建議定期監測血壓，特別是在剛開始治療時，腎因性貧血患者在兩次洗腎之間也應監測血壓。此外，血壓正常或偏低的慢性腎衰竭患者也可能會發生高血壓危象伴隨似腦病變的症狀，此時必須立即就醫與密集的醫療照護。患者如果突發刺痛性的偏頭痛樣頭痛，應特別注意，因為這可能是一個警訊。 因為腎衰竭治療導致的嚴重鋁質過量可能使容可曼藥效降低。 慢性腎衰竭患者在使用容可曼治療的過程中，由於血紅素會升高，因此，血液透析期間所使用的肝素（heparin）劑量也經常必須提高。如果肝素化（heparinisation）的程度不適當，可能會發生透析系統阻塞的現象。對有發生分流血栓之風險的慢性腎衰竭患者，應考慮及早進行分流修正，並採取血栓預防療法，如投予水楊酸。 在使用容可曼治療期間，慢性腎衰竭患者可能會出現血小板計數於正常範圍內隨劑量而中度升高的現象，特別是在靜脈注射投藥之後。這種現象在持續治療的過程中會逐漸消退。建議於最初8週的治療期間定期監測血小板計數。\n5.2\n藥物濫用及依賴性\n非貧血者誤用時，可能會導致血紅素過高。這也可能伴隨著威脅生命的心血管系統併發症。 目前並無使用epoetin beta出現依賴性之通報。\n5.3\n操作機械能力\n容可曼對駕駛能力和機械操作能力並無影響或為可忽略的影響。\n5.4\n實驗室檢測\n所有的患者均應定期監測血小板計數和血容比/血紅素值。 在患有慢性腎衰竭患者中，曾有通報接受容可曼治療時出現鉀離子升高的報告，然而因果關係尚未建立。如果發現到血清中鉀量的上升，應考慮中斷容可曼的投予，直到鉀濃度恢復正常。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n動物研究並未顯示本品會對懷孕、胚胎/胎兒發育、分娩或出生後發育造成直接或間接的傷害(10.3 臨床前安全性資料)。 就epoetin beta而言，在懷孕期間接觸到容可曼有關的所有安全性資料，都是源自上市後的使用經驗。在一項針對現有之上市後資料所進行的探討中，並未發現任何證據顯示懷孕、胚胎/胎兒發育或出生後發育方面的傷害作用和使用容可曼治療之間有因果上的關聯性。不過，由於缺乏臨床研究的資料，對懷孕婦女處方本品時仍應謹慎從事。 陣痛及分娩 動物研究並未顯示本品會對懷孕、胚胎/胎兒發育、分娩或出生後發育造成直接或間接的傷害(10.3 臨床前安全性資料)。 就epoetin beta而言，在陣痛及分娩期間接觸到本產品有關的所有安全性資料都是源自上市後的使用經驗。未曾發現任何證據顯示本品會造成陣痛及分娩方面的傷害作用。不過，由於缺乏臨床研究的資料，對於面臨陣痛的孕婦，處方本品時仍應謹慎從事。\n6.2\n哺乳\n在人類授乳期間使用本品目前僅有有限的經驗。內源性紅血球生成素會分泌進入人類的乳汁，並且很容易為新生兒的胃腸道所吸收。應衡量餵哺母乳對兒童的效益以及使用epoetin beta治療對婦女的效益，再做出是否要繼續或停止餵哺母乳，或是否要繼續或停止使用epoetin beta治療之決定。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n研究人員曾針對因慢性腎衰竭而發生貧血的兒童與青少年，以及因早產而須預防貧血的新生兒進行查驗登記用臨床試驗。 在使用於慢性腎衰竭所引起的貧血時，容可曼不可用於嬰兒(即2歲以下的幼兒)(見3.3 特殊族群用法用量，5.1 警語/注意事項)。 在使用於接受化學治療之癌症患者所引起的貧血時，容可曼並不使用於小兒族群。\n6.5\n老年人\n見3.3 特殊族群用法用量。\n6.6\n肝功能不全\n請參見3.3 特殊族群用法用量。\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n與其他藥品之交互作用及其他形式之交互作用 目前並未進行任何針對交互作用之臨床研究。 依目前的臨床經驗看來，並未發現任何證據顯示可能有與容可曼產生交互作用的藥物。(進一步資料請見10.3 臨床前安全性資料)。 由動物實驗看來，紅血球生成素並不會增加抑制細胞生長藥物(如:etoposide、cisplatin、cyclophosphamide及fluorouracil)的骨髓毒性。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n依據涵蓋1,725名患者之臨床試驗的結果，在使用容可曼治療的患者中，約有8%被認定為發生不良藥物反應。 臨床試驗藥物不良反應摘要表: 將臨床試驗發生之藥物不良反應依MedDRA系統器官分類列表(表2及表3)。每個藥物不良反應所對應的頻率類別係基於下列分類: 極常見(≥1/10)、常見(≥1/100 至<1/10)、不常見(≥1/1,000至<1/100)、罕見 (≥1/10,000至<1/1,000)、極罕見 (<1/10,000)。 因慢性腎衰竭引起的貧血病患 最常發生的藥物不良反應(常見1-10%)，特別是在容可曼的起始治療期間，為血壓上升事件，包括高血壓、高血壓危象伴隨或不伴隨似腦病變(encephalopathy-like symptoms)的症狀(如頭痛、混亂、感覺運動的不協調－例如像是說話障礙或是步伐不穩到強直性的癲癇)。這些血壓上升的現象也可能會發生於血壓正常的患者，或是使既有的高血壓更加惡化(見5.1 警語/注意事項)。 可能會發生分流血栓，尤其當病患患有低血壓傾向或曾有動-靜脈瘻管的併發症(如狹窄、血管瘤)(見5.1警語/注意事項)。多數的病例，血清儲鐵蛋白值(serum ferritin values)會隨血紅素值增加而降低。除此之外，某些病例可能有暫時性的血鉀和血磷酸鹽增加的情況。 臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。 表二 以容可曼治療因慢性腎病引起貧血病患發生的藥物不良反應 系統器官分類 頻率類別 血管疾患 高血壓 常見 高血壓危象 不常見 神經系統疾患 頭痛 常見 血液淋巴系統疾患 分流血栓 罕見 血小板增多症 極罕見 接受化學治療並有症狀性貧血的癌症患者 高血壓事件為常見(1-10%)的不良藥物反應，特別是在起始治療期間。 在某些病例中，血清鐵參數值會下降。 臨床研究顯示，在接受容可曼治療的癌症病患與未接受容可曼治療的患者或安慰劑組相較下，有較高的血栓栓塞事件發生率。在使用容可曼治療的患者中，其發生率為7 %，在對照組中則為4% (兩者皆屬“常見”)；和對照組相比較，這種現象並不會升高血栓栓塞相關的死亡率。 臨床試驗中的不良藥物反應發生率如下表所示。此表也顯示接受容可曼治療的患者與對照組患者在不良事件發生頻率方面的差異。 表三 接受化療並以容可曼治療症狀性貧血的癌症病患發生的藥物不良反應摘要表 系統器官分類 頻率類別 血管疾患 高血壓 常見 血液淋巴系統疾患 血栓栓塞事件 常見 神經系統疾患 頭痛 常見 所有適應症 罕見( ≥ 1/10,000 to ≤ 1/1,000)：皮膚反應，如皮疹、搔癢、蕁麻疹或注射部位反應等皮膚反應可能發生。在極罕見案例(≤ 1/10,000)中，曾有對epoetin beta發生類過敏反應的通報。然而在對照性的臨床研究中，未發現有過敏反應發生率增加的現象。 在極罕見案例(≤ 1/10,000)中有報告指出，特別是在剛接受治療的患者，有類似流行性感冒症狀發生如：發燒、寒慄、頭痛、手腳酸痛、身體不適和/或骨頭酸痛等。這些輕度至中度的反應在接受治療後數小時或數天後將可獲得緩解。 實驗檢驗值異常 見5.1 警語/注意事項及5.4 實驗室檢測。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n自容可曼之上市後經驗發現了下列藥物不良反應(表4)；依MedDRA系統器官分類列表，藥物不良反應所對應的頻率類別係基於下列分類估算:極常見(≥ 1/10)、常見(≥ 1/100 至 < 1/10)、不常見(≥ 1/1,000 至 < 1/100) 、罕見 (≥1/10,000 至 <1/1,000)、極罕見 (<1/10,000) 、未知(依現有資料無法估算)。 表四 上市後經驗之藥物不良反應 系統器官分類 頻率類別 血液淋巴系統疾患 單純紅血球再生不良1,2 未知 皮膚和皮下組織異常 史帝芬-強生症候群/毒性表皮壞死 未知 1請參見5. 警語及注意事項 2依現有資料無法估算發生率及頻率類別 實驗檢驗值異常 在上市後使用期間所接獲的實驗室檢驗值異常通報，係顯示出臨床試驗中所得的經驗(見5.1 警語/注意事項，8.1 臨床重要副作用/不良反應)。\n9\n過量\n容可曼的治療範圍極廣，但開始使用容可曼治療時，仍須注意個別病患的治療反應。使用過量可能會引發藥效作用擴大的表現，如紅血球生成過量，這可能會伴隨發生具生命威脅性的心血管系統併發症。如果血紅素值過高，則應暫時停用容可曼(見3.1 用法用量)。如果臨床狀況顯示有必要，或可進行靜脈穿刺放血。\n10\n藥理特性\n10.1\n作用機轉\n抗貧血劑。 ATC 代碼: B03XA。 紅血球生成素是一種醣蛋白，為刺激紅血球生成前驅物生成紅血球的生長因子。它可作為有絲分裂刺激因子以及分化賀爾蒙。\n10.2\n藥效藥理特性\nEpoetin beta的生物效用已經由靜脈注射及皮下注射在不同動物(正常及患有尿毒症的老鼠、真性紅血球增多症的老鼠和狗)的體內獲得證實。在使用epoetin beta後，紅血球的數目、血紅素值和網狀細胞的數量會增加，而且鐵59的納入速率也會增加。 在體外用epoetin beta培養後也發現紅色核狀的脾臟細胞(老鼠之脾臟細胞培養)的氫3-胸腺嘧啶納入速率會增多。 人類骨髓細胞培養研究顯示，epoetin beta能特別刺激紅血球生成卻不會影響白血球的生成。尚未發現任何epoetin beta 對骨髓細胞或人類皮膚細胞的細胞毒性。 投與單一劑量的epoetin beta後，不會影響到老鼠的行為或局部運動活性，以及狗的循環或呼吸功能。 Epoetin beta與貧血患者尿液中分離出的紅血球生成素有相同的氨基酸和碳水化合物組成。 紅血球生成素是一種醣蛋白，可以刺激其前驅物生成紅血球。它可作為有絲分裂刺激因子以及分化賀爾蒙。\n10.3\n臨床前安全性資料\n10.3.1\n致癌性\n在一項針對小鼠使用同源紅血球生成素的致癌性研究中，並未發現任何的組織增生現象或腫瘤生成作用。\n10.3.2\n基因毒性\n不適用。\n10.3.3\n生育力損害\n不適用。\n10.3.4\n生殖毒性\n不適用。\n10.3.5\n其它\n在探討安全性藥理學、重複投藥毒性、基因毒性及生殖毒性之傳統研究中所獲得的非臨床資料顯示，本品並不會對人體造成任何特殊傷害。\n11\n藥物動力學特性\n健康志願者及尿毒症患者的藥物動力學研究顯示，靜脈注射epoetin beta的半衰期為4-12小時，分佈體積是血漿體積的1-2倍。在有尿毒症的老鼠和正常老鼠的動物實驗中也發現有相似的結果。\n11.1\n吸收\n經皮下注射epoetin beta到尿毒症病患後發現，延長性的吸收作用會導致血清濃度高原，平均在12-28小時後達到最大濃度。 經皮下注射epoetin beta之生體可用率為靜脈注射的23-42%。\n11.2\n分佈\n針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，其分佈體積相當於血漿容積的一至兩倍。\n11.3\n代謝\n不適用。\n11.4\n排除\n針對健康志願者與尿毒症患者所進行的藥物動力學研究顯示，經靜脈注射投予之epoetin beta的半衰期為4至12小時之間。 對尿毒症患者皮下注射epoetin beta之最終半衰期要比靜脈注射時長，平均為13-28小時。\n11.5\n特殊族群的藥物動力學\n目前並未正式進行過探討肝功能受損對epoetin beta之藥物動力學的影響之研究。\n12\n臨床試驗資料\n臨床/療效研究 本節將說明最近完成的針對腎因性貧血患者或正在接受化學治療/放射治療的癌症患者使用epoetin beta之隨機、對照性研究。 因慢性腎衰竭而產生貧血的患者 研究人員曾針對605位併有輕至中度貧血(血紅素值：11-12.5 g/dl)的透析前患者進行一項使用epoetin beta的開放性、隨機研究(CREATE研究)。主要的研究目的為探討高血紅素值調整治療(13–15 g/dl)和標準貧血治療(血紅素目標值為10.5–11.5 g/dl)相比較是否可降低心血管(CV)罹病率。其結果並未發現高血紅素值調整治療和標準貧血治療相比較有任何的優勢。相反的，標準治療組中發生第一次心血管事件數較少(分別為47例和58例，HR為0.78，p=0.20)。進入研究的患者到開始接受透析治療的時間方面有較有利於標準貧血調整治療組的差異(分別為111例與127例，其中位時間分別為41個月與36個月，對數等級檢定的p值=0.034)，但在中位肌酸酐清除率的隨時間變化方面，在兩個治療組間並無任何差異。經過1年之後，高目標血紅素值組在生活品質方面(以SF-36健康調查問卷進行評估)有明顯的改善(p=0.003)。 在另一項針對172位早期糖尿病腎病變患者所進行的開放性、隨機研究中(ACORD研究)，研究人員曾針對高血紅素值調整治療(血紅素值目標值為13-15 g/dl)與標準血紅素值調整治療(血紅素目標值為10.5-11.5 g/dl)，對心臟組織及心臟功能的影響進行探討。 研究結束時，在主要評估參數方面，亦即依基礎值調整後的左心室質量指數，兩組間並無任何明顯差異(p=0.88)。在肌酸酐清除率估算值相對於基礎值的變化、血清肌酸酐倍增的時間、或快速惡化(rapid progressors)分析等方面，兩個治療組間皆無任何具統計意義的差異。在生活品質評估的整體健康分數方面(利用SF-36健康調查問卷進行評估)，高血紅素目標值組有明顯的改善(p=0.04)。 正在接受化學治療並有症狀性貧血的癌症患者 在一項針對351位頭頸癌患者使用epoetin beta治療的安慰劑對照研究中(ENHANCE),，研究人員利用研究藥物使女性患者的血紅素值維持於14 g/dl，並使男性患者的血紅素值維持於15 g/dl。接受epoetin beta治療之患者中的無局部惡化存活時間明顯較短(HR=1.62，p=0.0008)。但這項研究的結果及解讀因各治療組間的不平衡現象而未獲得確立，特別是腫瘤局部化、抽煙狀態以及研究對象之異質性等方面的不平衡。 一項涵蓋463位使用epoetin beta，正在接受化學治療的轉移性乳癌患者，其設計目的為驗證存活率可獲得明顯改善的對照性、開放、隨機研究(BRAVE臨床試驗)顯示，在整體存活率(p=0.52)或腫瘤開始出現惡化現象的時間(p=0.45)方面，對照組與epoetin beta組間皆無任何具統計意義的差異。在對照組中，須接受輸血及發生嚴重貧血事件的患者(64/232；27.6%)要比epoetin beta組(40/231；17.3%)為多(p=0.009)，這也反映了epoetin beta在有效提高血紅素從而避免輸血方面的治療效果。 在研究期間，epoetin beta組發生血栓栓塞事件(TEEs)的病患比例要比對照組高(分別為13%與6%)，且epoetin beta治療組開始發生TEE的時間也要比對照組早(p=0.008)。不過，在發生嚴重TEE (對照組為3%，epoetin beta組為4%)或因發生TEE而死亡(各組皆為2%)的病患比例方面，兩組大致相當。 在一項針對74位正在接受放射化學治療之子宮頸癌患者所進行的使用epoetin beta的對照性、開放、隨機研究中(MARCH臨床試驗)，並未發現血紅素升高與治療失敗率(對放射化學治療的反應)降低之間存有關聯性。因此，研究人員便決定不繼續進行這項研究的第二階段。 研究人員曾針對所有使用epoetin beta治療貧血癌症患者的對照性臨床研究(12項研究，共涵蓋2301位患者)進行統合分析。這項最新統合分析的結果印證了epoetin beta在提高血紅素值及降低輸血風險方面的已知療效。 就包含Hb基礎值高達13 g/dl之患者在內的整體病患群而言，epoetin beta組中的死亡風險，和對照組相比較，並未出現具統計意義的升高現象(HR：1.13，95% CI為0.87至1.46，p=0.34)。就基礎血紅素值≤11 g/dl的患者而言，整體存活率的HR為1.09 (95 % CI為0.80至1.47，p=0.58)。在整體病患群中，開始出現疾病惡化現象之時間方面的HR為0.85 (95% CI為0.72至1.01，p=0.07)。當將分析的對象侷限於基礎血紅素值≤11 g/dl的患者時，HR為0.80 (95% CI為0.65至0.99，p=0.04)。 這項統合分析也顯示，血栓栓塞事件(TEE)的發生率有升高的現象(見8.1 臨床重要副作用/不良反應)，epoetin beta組中的TEE發生率為7%，對照組則為4%。 免疫原性 請參見5.1 警語/注意事項。\n13\n包裝及儲存\n13.1\n包裝\n含注射溶液的針筒裝： 容可曼2000國際單位，5000國際單位。\n13.2\n效期\n架儲期 此藥物在過期後(EXP)不得繼續使用，期限如包裝上標示。\n13.3\n儲存條件\n儲存 維持溫度在2 到 8°C。(存放在冰箱) 將針筒裝容器保存在外盒中以避光。 針筒裝注射液： 為便利病患可外出使用，病患可將本藥移出冰箱，於單一時間內在室溫下(不超過25oC)存放最多三天的時間。\n13.4\n儲存注意事項\n14\n病人使用須知\n使用、操作及處置之特殊指示 針筒裝注射液： 不相容性 在沒有相容性研究的情況下，本品不可與其它藥物混合使用。 使用及操作指示 請您先洗手! 自盒中取出一支針筒，檢查溶液是否澄清無色，且幾無肉眼可見的微粒物質。移除針筒上的保護套。 自盒中取出一支針頭，將它固定在針筒上，然後移除針頭上的保護套。 垂直握住針筒，將推桿輕輕向上壓，藉此排除針筒及針頭內的空氣。持續推壓推桿，直到針筒內的容可曼含量和處方相符為止。 利用酒精棉片清潔注射部位的皮膚。以拇指和食指捏起皮膚，使皮膚形成一處隆起。握住靠近針頭端的針筒，並以快速而穩定的動作將針頭插入捏起的皮膚內。注入容可曼溶液。快速拔出針頭，並以一片乾燥的無菌棉片壓住注射部位。 本品僅供單次使用。 處置指示 下列幾點關於注射器及其他醫療用銳器之使用及處置指示應嚴格遵守： • 針頭及注射器不能重複使用。 • 將所有用過的針頭及注射器放置於裝銳器的容器(防穿刺的拋棄式容器)中。 • 該容器請放於孩童無法觸及之處。 • 應避免該容器置放於家庭廢棄物中。 應依照當地規定或醫療提供者之指示處置裝滿的容器。 應盡量減少藥物在環境中釋放。藥物不應經由廢水處置，也應避免經由家庭廢棄物的方式丟棄。如果您的所在地區有的話，請使用”收集系統”來處置藥物。 請將本藥放置於孩童無法取得之處。\n15\n其他\nCDS 3.0_10.18-REC-3B01 2018年5月 容可曼®針筒裝注射劑2000國際單位 衛署菌疫輸字第000876號 容可曼®針筒裝注射劑5000國際單位 衛署菌疫輸字第000875號 (1)成品製造廠: 廠名：Vetter Pharma-Fertigung GmbH & CO. KG. 廠址：Schutzenstrasse 87 and 99/101, D-88212 Ravensburg, Germany (2)成品製造廠: 廠名: Roche Diagnostics GmbH 廠址: Sandhofer Strasse 116, D-68305 Mannheim, Germany (3)成品製造廠: 廠名: F. Hoffmann-La Roche Ltd. 廠址: Wurmisweg, CH-4303, Kaiseraugst, Switzerland 包裝廠: 廠名：Roche Diagnostics GmbH 廠址：Sandhofer Strasse 116, D-68305 Mannheim, Germany 藥商：羅氏大藥廠股份有限公司 地址：臺北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8 電話：(02) 27153111 “容可曼”與“Recormon”註冊商標係由赫夫門羅氏藥廠授權羅氏大藥廠股份有限公司使用。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "ROCHE DIAGNOSTICS GMBH",
+          "address": "SANDHOFER STRASSE 116, 68305 MANNHEIM, GERMANY"
+        },
+        {
+          "number": "2",
+          "name": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
+          "address": "SCHUTZENSTRASSE 87 AND 99/101, D-88212 RAVENSBURG, GERMANY"
+        },
+        {
+          "number": "3",
+          "name": "F. HOFFMANN-LA ROCHE LTD.",
+          "address": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "ROCHE DIAGNOSTICS GMBH",
+          "address": "SANDHOFER STRASSE 116, 68305 MANNHEIM, GERMANY"
+        },
+        {
+          "number": "2",
+          "name": "ROCHE DIAGNOSTICS GMBH",
+          "address": "NONNENWALD 2, D-82377 PENZBERG, GERMANY"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "羅氏大藥廠股份有限公司",
+          "address": "台北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8"
+        }
+      ]
+    }
+  ]
+}

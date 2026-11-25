@@ -1,0 +1,906 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:54:14.210535+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12010577",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第010577號:7",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第010577號",
+      "matched_license_code": "12010577",
+      "matched_nhi_code": "",
+      "drug_name_zh": "臨得隆乳膏",
+      "drug_name_en": "RINDERON-V CREAM 0.06%",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "7",
+      "approved_at": "2026-07-13",
+      "characteristics": {
+        "html": "<p>臨得隆乳膏為乳膏用乾性雪花膏型之基劑。皮膚用腎上腺皮質荷爾蒙製劑。</p>",
+        "text": "臨得隆乳膏為乳膏用乾性雪花膏型之基劑。皮膚用腎上腺皮質荷爾蒙製劑。"
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分及含量(1g)中為Betamethasone valerate 0.6mg (相當於Betamethasone 0.5 mg)。",
+          "content_html": "<p><strong>有效成分及含量(1g)中</strong><span style=\"color:Black;\"><strong>為Betamethasone valerate 0.6mg </strong></span><strong>(相當於</strong><span style=\"color:Black;\"><strong>Betamethasone 0.5 mg</strong></span><strong>)。</strong></p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分及含量(1g)中為Betamethasone valerate 0.6mg (相當於Betamethasone 0.5 mg)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "White vaseline、Liquid paraffin、Cetanol、Polyoxyethylene stearyl ether、Butylparaben、Methylparaben、Phosphoric acid、Sodium phosphate monobasic、Sodium hydroxide、Purified water。",
+          "content_html": "<p>White vaseline、Liquid paraffin、Cetanol、Polyoxyethylene stearyl ether、Butylparaben、Methylparaben、Phosphoric acid、Sodium phosphate monobasic、Sodium hydroxide、Purified water。</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nWhite vaseline、Liquid paraffin、Cetanol、Polyoxyethylene stearyl ether、Butylparaben、Methylparaben、Phosphoric acid、Sodium phosphate monobasic、Sodium hydroxide、Purified water。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "濕疹或皮膚炎。",
+          "content_html": "<p>濕疹或皮膚炎。</p>",
+          "search_text": "2\n用途(適應症)\n濕疹或皮膚炎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n有下列情形者，請勿使用",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "曾因本藥成分引起過敏的人。",
+          "title_html": "曾因本藥成分引起過敏的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "曾因本藥成分引起過敏的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.1\n曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "有深部皮膚組織感染的人。",
+          "title_html": "有深部皮膚組織感染的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "有深部皮膚組織感染的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n有深部皮膚組織感染的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "3歲以下。",
+          "title_html": "3歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "3歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n3歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "兒童、孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "兒童、孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "兒童、孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n兒童、孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.2",
+          "title": "要使用於臉部。",
+          "title_html": "要使用於臉部。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "要使用於臉部。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.2\n要使用於臉部。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "為防止兒童誤食請妥善保管。",
+          "title_html": "為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "勿超過建議使用量或使用次數。",
+          "title_html": "勿超過建議使用量或使用次數。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量或使用次數。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n勿超過建議使用量或使用次數。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "本藥限於外用不得內服，亦不得用於眼睛四周或黏膜(如口腔、鼻腔、陰道 、陰囊、外陰部等)，潰爛、龜裂或嚴重外傷之患部。",
+          "title_html": "本藥限於外用不得內服，亦不得用於眼睛四周或黏膜(如口腔、鼻腔、陰道 、陰囊、外陰部等)，潰爛、龜裂或嚴重外傷之患部。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "本藥限於外用不得內服，亦不得用於眼睛四周或黏膜(如口腔、鼻腔、陰道 、陰囊、外陰部等)，潰爛、龜裂或嚴重外傷之患部。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n本藥限於外用不得內服，亦不得用於眼睛四周或黏膜(如口腔、鼻腔、陰道 、陰囊、外陰部等)，潰爛、龜裂或嚴重外傷之患部。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。",
+          "title_html": "本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.6",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.6",
+          "title": "使用後請保持塗抹部位透氣，勿密封，以免增加副作用。",
+          "title_html": "使用後請保持塗抹部位透氣，勿密封，以免增加副作用。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "使用後請保持塗抹部位透氣，勿密封，以免增加副作用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.6\n使用後請保持塗抹部位透氣，勿密封，以免增加副作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.7",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.7",
+          "title": "使用本藥前應徹底洗淨雙手。",
+          "title_html": "使用本藥前應徹底洗淨雙手。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "使用本藥前應徹底洗淨雙手。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.7\n使用本藥前應徹底洗淨雙手。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.8",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.8",
+          "title": "本藥不可連續使用超過7天。",
+          "title_html": "本藥不可連續使用超過7天。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "本藥不可連續使用超過7天。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.8\n本藥不可連續使用超過7天。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.9",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.9",
+          "title": "皮膚的黴菌或細菌性皮膚感染有時不易與其他皮膚炎區分，誤用類固醇會使病情惡化並造成日後診斷及治療之困難。",
+          "title_html": "皮膚的黴菌或細菌性皮膚感染有時不易與其他皮膚炎區分，誤用類固醇會使病情惡化並造成日後診斷及治療之困難。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "皮膚的黴菌或細菌性皮膚感染有時不易與其他皮膚炎區分，誤用類固醇會使病情惡化並造成日後診斷及治療之困難。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.9\n皮膚的黴菌或細菌性皮膚感染有時不易與其他皮膚炎區分，誤用類固醇會使病情惡化並造成日後診斷及治療之困難。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.10",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.10",
+          "title": "小孩長期使用較易引起庫欣氏症候群及腎上腺功能障礙。",
+          "title_html": "小孩長期使用較易引起庫欣氏症候群及腎上腺功能障礙。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "小孩長期使用較易引起庫欣氏症候群及腎上腺功能障礙。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.10\n小孩長期使用較易引起庫欣氏症候群及腎上腺功能障礙。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.11",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.11",
+          "title": "臉部、腋部及鼠蹊部，若長期使用類固醇容易出現局部皮膚萎縮。",
+          "title_html": "臉部、腋部及鼠蹊部，若長期使用類固醇容易出現局部皮膚萎縮。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "臉部、腋部及鼠蹊部，若長期使用類固醇容易出現局部皮膚萎縮。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.11\n臉部、腋部及鼠蹊部，若長期使用類固醇容易出現局部皮膚萎縮。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.12",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.12",
+          "title": "癬類或其他皮膚感染症，應使用抗感染劑，單獨使用類固醇會使病情惡化。",
+          "title_html": "癬類或其他皮膚感染症，應使用抗感染劑，單獨使用類固醇會使病情惡化。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "癬類或其他皮膚感染症，應使用抗感染劑，單獨使用類固醇會使病情惡化。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.12\n癬類或其他皮膚感染症，應使用抗感染劑，單獨使用類固醇會使病情惡化。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.13",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.13",
+          "title": "請注意不要誤入眼睛。萬一誤入眼睛，請立即以水或溫水沖洗，並立即前往眼科就醫。",
+          "title_html": "請注意不要誤入眼睛。萬一誤入眼睛，請立即以水或溫水沖洗，並立即前往眼科就醫。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "請注意不要誤入眼睛。萬一誤入眼睛，請立即以水或溫水沖洗，並立即前往眼科就醫。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.13\n請注意不要誤入眼睛。萬一誤入眼睛，請立即以水或溫水沖洗，並立即前往眼科就醫。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.14",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.14",
+          "title": "使用部位或其周圍髒污時，請洗乾淨後再用藥。",
+          "title_html": "使用部位或其周圍髒污時，請洗乾淨後再用藥。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "使用部位或其周圍髒污時，請洗乾淨後再用藥。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.14\n使用部位或其周圍髒污時，請洗乾淨後再用藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.15",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.15",
+          "title": "請勿使用在患部以外，也勿當作預防使用。",
+          "title_html": "請勿使用在患部以外，也勿當作預防使用。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "請勿使用在患部以外，也勿當作預防使用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.15\n請勿使用在患部以外，也勿當作預防使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.16",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.16",
+          "title": "若在停止使用本藥後數周(通常為兩周內)症狀復發，或症狀已緩解，但皮膚發紅、刺痛、灼熱感，可能為停藥症候群，請持此說明書諮詢醫師藥師藥劑生。",
+          "title_html": "若在停止使用本藥後數周(通常為兩周內)症狀復發，或症狀已緩解，但皮膚發紅、刺痛、灼熱感，可能為停藥症候群，請持此說明書諮詢醫師藥師藥劑生。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "若在停止使用本藥後數周(通常為兩周內)症狀復發，或症狀已緩解，但皮膚發紅、刺痛、灼熱感，可能為停藥症候群，請持此說明書諮詢醫師藥師藥劑生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.16\n若在停止使用本藥後數周(通常為兩周內)症狀復發，或症狀已緩解，但皮膚發紅、刺痛、灼熱感，可能為停藥症候群，請持此說明書諮詢醫師藥師藥劑生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "塗於患部。",
+          "content_html": "<p>塗於患部。</p>",
+          "search_text": "4\n用法用量\n塗於患部。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位副作用 皮膚 搔癢、刺痛、紅斑、皮膚感染、毛囊炎、青春痘、皮膚濕軟、繼發性感染、多毛症、皮膚萎縮、痱子、毛細管擴張。 停藥症候群(使用本藥一段時間後，停藥時可能會有發紅、灼熱或刺痛感、劇烈搔癢、脫皮、滲膿等相關副作用，且可能蔓延超出原本治療範圍)。 全身性庫欣氏症候群（如滿月臉、體重增加、疲倦、高血壓、多毛症、月經異常、人格異常、水腫、多尿、多渴等）。繼發性腎上腺功能不足（如疲倦、無力、噁心嘔吐、食慾不振、體重減輕、低血壓、腹痛、便秘或腹瀉等）。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;vertical-align:top;width:90.45pt;\">身體部位</td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:333.15pt;\">副作用</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:90.45pt;\">皮膚</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:333.15pt;\"><p><span style=\"color:black;\">搔癢、刺痛、紅斑、皮膚感染、毛囊炎、青春痘、皮膚濕軟、繼發性感染、多毛症、皮膚萎縮、痱子、毛細管擴張。</span></p><p><span style=\"color:black;\">停藥症候群(使用本藥一段時間後，停藥時可能會有發紅、灼熱或刺痛感、劇烈搔癢、脫皮、滲膿等相關副作用，且可能蔓延超出原本治療範圍)。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:90.45pt;\">全身性</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:333.15pt;\">庫欣氏症候群（如滿月臉、體重增加、疲倦、高血壓、多毛症、月經異常、人格異常、水腫、多尿、多渴等）。繼發性腎上腺功能不足（如疲倦、無力、噁心嘔吐、食慾不振、體重減輕、低血壓、腹痛、便秘或腹瀉等）。</td></tr></tbody></table></figure><p>&nbsp;</p>",
+          "search_text": "5.1\n使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 皮膚 搔癢、刺痛、紅斑、皮膚感染、毛囊炎、青春痘、皮膚濕軟、繼發性感染、多毛症、皮膚萎縮、痱子、毛細管擴張。 停藥症候群(使用本藥一段時間後，停藥時可能會有發紅、灼熱或刺痛感、劇烈搔癢、脫皮、滲膿等相關副作用，且可能蔓延超出原本治療範圍)。 全身性庫欣氏症候群（如滿月臉、體重增加、疲倦、高血壓、多毛症、月經異常、人格異常、水腫、多尿、多渴等）。繼發性腎上腺功能不足（如疲倦、無力、噁心嘔吐、食慾不振、體重減輕、低血壓、腹痛、便秘或腹瀉等）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有上述外之其他不適情況發生。",
+          "title_html": "若有上述外之其他不適情況發生。",
+          "path": [
+            "警語",
+            "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有上述外之其他不適情況發生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有上述外之其他不適情況發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "使用7天後，自覺狀況沒有改善或更惡化。",
+          "title_html": "使用7天後，自覺狀況沒有改善或更惡化。",
+          "path": [
+            "警語",
+            "使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "使用7天後，自覺狀況沒有改善或更惡化。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n使用7天後，自覺狀況沒有改善或更惡化。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "100公克以下鋁軟管裝。",
+          "content_html": "<p>100公克以下鋁軟管裝。</p>",
+          "search_text": "6\n包裝\n100公克以下鋁軟管裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "儲存於30℃以下。",
+          "content_html": "<p>儲存於30℃以下。</p>",
+          "search_text": "7\n儲存方式\n儲存於30℃以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品。",
+          "content_html": "<p>醫師藥師藥劑生指示藥品。</p>",
+          "search_text": "8\n類別\n醫師藥師藥劑生指示藥品。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 107276
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 4032
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "臨得隆乳膏為乳膏用乾性雪花膏型之基劑。皮膚用腎上腺皮質荷爾蒙製劑。\n1\n成分\n1.1\n有效成分及含量\n有效成分及含量(1g)中為Betamethasone valerate 0.6mg (相當於Betamethasone 0.5 mg)。\n1.2\n其他成分(賦形劑)\nWhite vaseline、Liquid paraffin、Cetanol、Polyoxyethylene stearyl ether、Butylparaben、Methylparaben、Phosphoric acid、Sodium phosphate monobasic、Sodium hydroxide、Purified water。\n2\n用途(適應症)\n濕疹或皮膚炎。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n3.1.1\n曾因本藥成分引起過敏的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n有深部皮膚組織感染的人。\n3.2.2\n3歲以下。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n兒童、孕婦、可能懷孕婦女及哺乳婦。\n3.3.2\n要使用於臉部。\n3.4\n其他使用上注意事項\n3.4.1\n為防止兒童誤食請妥善保管。\n3.4.2\n避免陽光直射。\n3.4.3\n勿超過建議使用量或使用次數。\n3.4.4\n本藥限於外用不得內服，亦不得用於眼睛四周或黏膜(如口腔、鼻腔、陰道 、陰囊、外陰部等)，潰爛、龜裂或嚴重外傷之患部。\n3.4.5\n本藥勿使用於大面積之體表(以超過使用者的兩手掌面積為參考)。\n3.4.6\n使用後請保持塗抹部位透氣，勿密封，以免增加副作用。\n3.4.7\n使用本藥前應徹底洗淨雙手。\n3.4.8\n本藥不可連續使用超過7天。\n3.4.9\n皮膚的黴菌或細菌性皮膚感染有時不易與其他皮膚炎區分，誤用類固醇會使病情惡化並造成日後診斷及治療之困難。\n3.4.10\n小孩長期使用較易引起庫欣氏症候群及腎上腺功能障礙。\n3.4.11\n臉部、腋部及鼠蹊部，若長期使用類固醇容易出現局部皮膚萎縮。\n3.4.12\n癬類或其他皮膚感染症，應使用抗感染劑，單獨使用類固醇會使病情惡化。\n3.4.13\n請注意不要誤入眼睛。萬一誤入眼睛，請立即以水或溫水沖洗，並立即前往眼科就醫。\n3.4.14\n使用部位或其周圍髒污時，請洗乾淨後再用藥。\n3.4.15\n請勿使用在患部以外，也勿當作預防使用。\n3.4.16\n若在停止使用本藥後數周(通常為兩周內)症狀復發，或症狀已緩解，但皮膚發紅、刺痛、灼熱感，可能為停藥症候群，請持此說明書諮詢醫師藥師藥劑生。\n4\n用法用量\n塗於患部。\n5\n警語\n5.1\n使用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 皮膚 搔癢、刺痛、紅斑、皮膚感染、毛囊炎、青春痘、皮膚濕軟、繼發性感染、多毛症、皮膚萎縮、痱子、毛細管擴張。 停藥症候群(使用本藥一段時間後，停藥時可能會有發紅、灼熱或刺痛感、劇烈搔癢、脫皮、滲膿等相關副作用，且可能蔓延超出原本治療範圍)。 全身性庫欣氏症候群（如滿月臉、體重增加、疲倦、高血壓、多毛症、月經異常、人格異常、水腫、多尿、多渴等）。繼發性腎上腺功能不足（如疲倦、無力、噁心嘔吐、食慾不振、體重減輕、低血壓、腹痛、便秘或腹瀉等）。\n5.2\n使用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有上述外之其他不適情況發生。\n5.2.2\n使用7天後，自覺狀況沒有改善或更惡化。\n6\n包裝\n100公克以下鋁軟管裝。\n7\n儲存方式\n儲存於30℃以下。\n8\n類別\n醫師藥師藥劑生指示藥品。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "杏輝藥品工業股份有限公司",
+          "address": "宜蘭縣冬山鄉中山村中山路８４號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣塩野義製藥股份有限公司",
+          "address": "台北市中山區松江路106號4樓B戶"
+        },
+        {
+          "number": "2",
+          "name": "",
+          "address": "電話: (02)25516336 (代表線)"
+        }
+      ]
+    }
+  ]
+}

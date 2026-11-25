@@ -1,0 +1,648 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:05:31.073522+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01002760",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第002760號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第002760號",
+      "matched_license_code": "01002760",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"優生\"祈祥錠",
+      "drug_name_en": "THIAN TABLETS \"YU SHENG\"",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分含量：每錠中含Dextromethorphan HBr…………………15mg",
+          "content_html": "<p><span style=\"color:#050505;font-family:標楷體;\">有效成分含量：每錠中含Dextromethorphan&nbsp;HBr…………………15mg</span></p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分含量：每錠中含Dextromethorphan HBr…………………15mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Lactose S.G, Polyvinyl Pyrrolidone K30(PVPK-30), Sodium Starch Glycolate (Primojel), Magnesium Stearate, Magnesium Aluminometasilicate (Neusilin UFL2), Sucralose, Peppermint Oil, Silicon Dioxide (Silica Gel), Glucose, Pineapple Micron",
+          "content_html": "<p style=\"margin-left:32.05pt;\"><span style=\"color:#050505;font-family:標楷體;\">Lactose S.G, Polyvinyl Pyrrolidone K30(PVPK-30), Sodium Starch Glycolate (Primojel), Magnesium Stearate, Magnesium Aluminometasilicate (Neusilin UFL2), Sucralose, Peppermint Oil, Silicon Dioxide (Silica Gel), Glucose, Pineapple Micron</span></p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nLactose S.G, Polyvinyl Pyrrolidone K30(PVPK-30), Sodium Starch Glycolate (Primojel), Magnesium Stearate, Magnesium Aluminometasilicate (Neusilin UFL2), Sucralose, Peppermint Oil, Silicon Dioxide (Silica Gel), Glucose, Pineapple Micron",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "鎮咳。",
+          "content_html": "<p><span style=\"color:#050505;font-family:標楷體;\">鎮咳</span><span style=\"color:#494949;font-family:標楷體;\">。</span></p>",
+          "search_text": "2\n用途(適應症)\n鎮咳。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n有下列情形者，請勿使用",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "曾因本藥成分引起過敏的人。",
+          "title_html": "曾因本藥成分引起過敏的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "曾因本藥成分引起過敏的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.1\n曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "服用單胺氧化酶抑制劑(MAOI ) 或血清素回收抑制劑型的抗憂鬱劑(SSRI) 的人。",
+          "title_html": "服用單胺氧化酶抑制劑(MAOI ) 或血清素回收抑制劑型的抗憂鬱劑(SSRI) 的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "服用單胺氧化酶抑制劑(MAOI ) 或血清素回收抑制劑型的抗憂鬱劑(SSRI) 的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.2\n服用單胺氧化酶抑制劑(MAOI ) 或血清素回收抑制劑型的抗憂鬱劑(SSRI) 的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "吸菸、氣喘、慢性阻塞性肺疾（慢性支氣管炎、肺氣腫）所引起的咳嗽及咳嗽有濃痰的人。",
+          "title_html": "吸菸、氣喘、慢性阻塞性肺疾（慢性支氣管炎、肺氣腫）所引起的咳嗽及咳嗽有濃痰的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "吸菸、氣喘、慢性阻塞性肺疾（慢性支氣管炎、肺氣腫）所引起的咳嗽及咳嗽有濃痰的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n吸菸、氣喘、慢性阻塞性肺疾（慢性支氣管炎、肺氣腫）所引起的咳嗽及咳嗽有濃痰的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "3歲以下。",
+          "title_html": "3歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "3歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n3歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "為 防止兒童誤食，本藥請妥善保管。",
+          "title_html": "為 防止兒童誤食，本藥請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為 防止兒童誤食，本藥請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n為 防止兒童誤食，本藥請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "勿超過建議使用量。",
+          "title_html": "勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "不得與含酒精飲料併用 。",
+          "title_html": "不得與含酒精飲料併用 。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "不得與含酒精飲料併用 。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n不得與含酒精飲料併用 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "本藥有失眠之副作用，正在服用本藥的人，對駕車或操作危險為器械，應該要特別注意 。",
+          "title_html": "本藥有失眠之副作用，正在服用本藥的人，對駕車或操作危險為器械，應該要特別注意 。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "本藥有失眠之副作用，正在服用本藥的人，對駕車或操作危險為器械，應該要特別注意 。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n本藥有失眠之副作用，正在服用本藥的人，對駕車或操作危險為器械，應該要特別注意 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "年齡 用量 用法 成人及12歲以上 一次1錠 一天3至4次。 6歲以上未滿12歲 一次1/ 2錠 3歲以上未滿6歲 一次1/ 4錠 3歲以下 請洽醫師診治",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:11.5pt;padding:0cm;vertical-align:top;width:145.45pt;\"><p style=\"margin-left:5.3pt;\"><span style=\"color:#050505;font-family:標楷體;\">年齡</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:11.5pt;padding:0cm;vertical-align:top;width:5.0cm;\"><p style=\"margin-left:6.85pt;\"><span style=\"color:#050505;font-family:標楷體;\">用量</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:11.5pt;padding:0cm;vertical-align:top;width:3.0cm;\"><p style=\"margin-left:5.45pt;\"><span style=\"color:#050505;font-family:標楷體;\">用法</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:11.5pt;padding:0cm;vertical-align:top;width:145.45pt;\"><span style=\"color:#050505;font-family:標楷體;\">成人及12歲以上</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:11.5pt;padding:0cm;vertical-align:top;width:5.0cm;\"><p style=\"margin-left:6.9pt;\"><span style=\"color:#050505;font-family:標楷體;\">一次1錠</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:11.5pt;padding:0cm;vertical-align:top;width:3.0cm;\" rowspan=\"3\"><p style=\"margin-left:5.35pt;\"><span style=\"color:#050505;font-family:標楷體;\">一天3至4次</span><span style=\"color:#494949;font-family:標楷體;\">。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:11.95pt;padding:0cm;vertical-align:top;width:145.45pt;\"><span style=\"color:#1D1D1D;font-family:標楷體;\">6歲以上未滿12歲</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:11.95pt;padding:0cm;vertical-align:top;width:5.0cm;\"><p style=\"margin-left:6.55pt;\"><span style=\"color:#050505;font-family:標楷體;\">一次1</span><span style=\"color:#494949;font-family:標楷體;\">/&nbsp;</span><span style=\"color:#1D1D1D;font-family:標楷體;\">2錠</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:11.25pt;padding:0cm;vertical-align:top;width:145.45pt;\"><span style=\"color:#1D1D1D;font-family:標楷體;\">3歲以上未滿6歲</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:11.25pt;padding:0cm;vertical-align:top;width:5.0cm;\"><p style=\"margin-left:6.55pt;\"><span style=\"color:#050505;font-family:標楷體;\">一次1</span><span style=\"color:#494949;font-family:標楷體;\">/&nbsp;</span><span style=\"color:#1D1D1D;font-family:標楷體;\">4錠</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:11.5pt;padding:0cm;vertical-align:top;width:145.45pt;\"><span style=\"color:#1D1D1D;font-family:標楷體;\">3歲以下</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:11.5pt;padding:0cm;vertical-align:top;width:8.0cm;\" colspan=\"2\"><p style=\"margin-left:6.8pt;\"><span style=\"color:#050505;font-family:標楷體;\">請洽醫師診治</span></p></td></tr></tbody></table></figure>",
+          "search_text": "4\n用法用量\n年齡 用量 用法 成人及12歲以上 一次1錠 一天3至4次。 6歲以上未滿12歲 一次1/ 2錠 3歲以上未滿6歲 一次1/ 4錠 3歲以下 請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位副作用 神經系統失眠、頭痛、眩暈、偶有不適、不眠等 消化器官噁心、嘔吐、食慾不振、便秘、腹痛、口渴、噯氣等。 皮膚過敏現象(皮膚起疹子、紅斑、搔癢等)",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;vertical-align:top;width:77.4pt;\"><span style=\"color:#050505;font-family:標楷體;\">身體部位</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:306.1pt;\"><span style=\"color:#050505;font-family:標楷體;\">副作用</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:77.4pt;\"><span style=\"color:#050505;font-family:標楷體;\">神經系統</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:306.1pt;\"><span style=\"color:#050505;font-family:標楷體;\">失眠、頭痛、眩暈、偶有不適、不眠等</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:77.4pt;\"><span style=\"color:#050505;font-family:標楷體;\">消化器官</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:306.1pt;\"><span style=\"color:#050505;font-family:標楷體;\">噁心、嘔吐、食慾不振、便秘、腹痛、口渴、噯氣等。</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:77.4pt;\"><span style=\"color:#050505;font-family:標楷體;\">皮膚</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:306.1pt;\"><span style=\"color:#050505;font-family:標楷體;\">過敏現象(皮膚起疹子、紅斑、搔癢等)</span></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 神經系統失眠、頭痛、眩暈、偶有不適、不眠等 消化器官噁心、嘔吐、食慾不振、便秘、腹痛、口渴、噯氣等。 皮膚過敏現象(皮膚起疹子、紅斑、搔癢等)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有任何不適情形產生 。",
+          "title_html": "若有任何不適情形產生 。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有任何不適情形產生 。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有任何不適情形產生 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "有高燒、出疹、持續性頭痛，及持續達一星期以上的咳嗽，或有復發情形。",
+          "title_html": "有高燒、出疹、持續性頭痛，及持續達一星期以上的咳嗽，或有復發情形。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "有高燒、出疹、持續性頭痛，及持續達一星期以上的咳嗽，或有復發情形。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n有高燒、出疹、持續性頭痛，及持續達一星期以上的咳嗽，或有復發情形。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "6~1000錠塑膠瓶裝。",
+          "content_html": "<p><span style=\"color:#050505;font-family:標楷體;\">6~1000錠塑膠瓶裝</span><span style=\"color:#494949;font-family:標楷體;\">。</span></p>",
+          "search_text": "6\n包裝\n6~1000錠塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "儲存條件"
+          ],
+          "content_text": "請於25°C以下貯存。",
+          "content_html": "<p><span style=\"color:#050505;font-family:標楷體;\">請於25</span><span style=\"color:#494949;font-family:標楷體;\">°</span><span style=\"color:#050505;font-family:標楷體;\">C以下貯存</span><span style=\"color:#494949;font-family:標楷體;\">。</span></p>",
+          "search_text": "7\n儲存條件\n請於25°C以下貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品 。",
+          "content_html": "<p><span style=\"color:#050505;font-family:標楷體;\">醫師藥師藥劑生指示藥品&nbsp;</span><span style=\"color:#494949;font-family:標楷體;\">。</span></p>",
+          "search_text": "8\n類別\n醫師藥師藥劑生指示藥品 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        }
+      ],
+      "full_text": "1\n成分\n1.1\n有效成分及含量\n有效成分含量：每錠中含Dextromethorphan HBr…………………15mg\n1.2\n其他成分(賦形劑)\nLactose S.G, Polyvinyl Pyrrolidone K30(PVPK-30), Sodium Starch Glycolate (Primojel), Magnesium Stearate, Magnesium Aluminometasilicate (Neusilin UFL2), Sucralose, Peppermint Oil, Silicon Dioxide (Silica Gel), Glucose, Pineapple Micron\n2\n用途(適應症)\n鎮咳。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n3.1.1\n曾因本藥成分引起過敏的人。\n3.1.2\n服用單胺氧化酶抑制劑(MAOI ) 或血清素回收抑制劑型的抗憂鬱劑(SSRI) 的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n吸菸、氣喘、慢性阻塞性肺疾（慢性支氣管炎、肺氣腫）所引起的咳嗽及咳嗽有濃痰的人。\n3.2.2\n3歲以下。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n孕婦、可能懷孕婦女及哺乳婦。\n3.4\n其他使用上注意事項\n3.4.1\n為 防止兒童誤食，本藥請妥善保管。\n3.4.2\n避免陽光直射。\n3.4.3\n勿超過建議使用量。\n3.4.4\n不得與含酒精飲料併用 。\n3.4.5\n本藥有失眠之副作用，正在服用本藥的人，對駕車或操作危險為器械，應該要特別注意 。\n4\n用法用量\n年齡 用量 用法 成人及12歲以上 一次1錠 一天3至4次。 6歲以上未滿12歲 一次1/ 2錠 3歲以上未滿6歲 一次1/ 4錠 3歲以下 請洽醫師診治\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 神經系統失眠、頭痛、眩暈、偶有不適、不眠等 消化器官噁心、嘔吐、食慾不振、便秘、腹痛、口渴、噯氣等。 皮膚過敏現象(皮膚起疹子、紅斑、搔癢等)\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有任何不適情形產生 。\n5.2.2\n有高燒、出疹、持續性頭痛，及持續達一星期以上的咳嗽，或有復發情形。\n6\n包裝\n6~1000錠塑膠瓶裝。\n7\n儲存條件\n請於25°C以下貯存。\n8\n類別\n醫師藥師藥劑生指示藥品 。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "優生製藥廠股份有限公司",
+          "address": "台中市南屯區寶山里工業區21路14號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "優生製藥廠股份有限公司",
+          "address": "台中市南屯區寶山里工業區21路14號"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:52.433741+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000841",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000841號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000841號",
+      "matched_license_code": "10000841",
+      "matched_nhi_code": "",
+      "drug_name_zh": "“國血製劑益康”人類免疫球蛋白靜脈注射劑",
+      "drug_name_en": "\"TBSF\" Human Immunoglobulin for Intravenous Use",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2025-01-21",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "<p><span style=\"font-family:細明體;\">１、含</span>human immune globulin<span style=\"font-family:細明體;\">成分藥品可能發生血栓。</span></p><p><span style=\"font-family:細明體;\">２、血栓的危險因子包括：高齡、長時間不活動、血液過度凝集的狀態、具靜脈或動脈血栓病史、使用雌激素、裝有留置型的中央靜脈導管、患血液高度黏稠之疾病及具心血管危險因子。</span></p><p><span style=\"font-family:細明體;\">３、無已知血栓危險因子者亦可能發生血栓。</span></p><p><span style=\"font-family:細明體;\">４、具血栓風險的病人，應以最低有效劑量及適當的最小輸注速率投予含</span>human immune globulin<span style=\"font-family:細明體;\">成分藥品。</span></p><p><span style=\"font-family:細明體;\">５、投予前應確保病人有足夠的水分。</span></p><p><span style=\"font-family:細明體;\">６、具血液高度黏稠風險的病人，應監測血栓相關徵兆及症狀並評估血液之黏稠度。</span></p>",
+        "text": "１、含human immune globulin成分藥品可能發生血栓。 ２、血栓的危險因子包括：高齡、長時間不活動、血液過度凝集的狀態、具靜脈或動脈血栓病史、使用雌激素、裝有留置型的中央靜脈導管、患血液高度黏稠之疾病及具心血管危險因子。 ３、無已知血栓危險因子者亦可能發生血栓。 ４、具血栓風險的病人，應以最低有效劑量及適當的最小輸注速率投予含human immune globulin成分藥品。 ５、投予前應確保病人有足夠的水分。 ６、具血液高度黏稠風險的病人，應監測血栓相關徵兆及症狀並評估血液之黏稠度。"
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "人類免疫球蛋白靜脈注射劑 說明 本產品係配合行政院衛生署執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人類免疫球蛋白靜脈注射劑。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是一種無菌、不含防腐劑的溶液。每 100 ml 當中含有 6 g 人血蛋白質和10 g 麥芽糖。溶液的 pH值為 4.25。添加的麥芽糖是用來達成溶液之等滲透壓性。至少 98% 蛋白質具有相同於免疫球蛋白G的電泳移動性，至少90% 蛋白質是 IgG 單體和雙體。根據三個臨床前批次 (preclinical batches)，和四個臨床批次 (clinical batches) 報告，“國血製劑益康”人類免疫球蛋白靜脈注射劑所含的 IgG 亞型之分布情形，其平均值是61% IgG1, 36% IgG2, 3% IgG3和 1% IgG4.。“國血製劑益康”人類免疫球蛋白靜脈注射劑的IgA (Immunoglobulin A)含量極少，(通常< 0.025 mg/mL)。“國血製劑益康”人類免疫球蛋白靜脈注射劑用於靜脈注射。",
+          "content_html": "<p><span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>說明</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">本產品係配合行政院衛生署執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人類免疫球蛋白靜脈注射劑。</span></p><p style=\"text-align:justify;\"><span style=\"color:windowtext;\">“</span><span style=\"color:windowtext;font-family:細明體;\">國血製劑益康</span><span style=\"color:windowtext;\">”</span><span style=\"color:windowtext;font-family:細明體;\">人類免疫球蛋白靜脈注射劑是一種無菌、不含防腐劑的溶液。每</span><span style=\"color:windowtext;\"> 100&nbsp;ml&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">當中含有</span><span style=\"color:windowtext;\"> 6&nbsp;g&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">人血蛋白質和</span><span style=\"color:windowtext;\">10&nbsp;g&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">麥芽糖。溶液的</span><span style=\"color:windowtext;\"> pH</span><span style=\"color:windowtext;font-family:細明體;\">值為</span><span style=\"color:windowtext;\"> 4.25</span><span style=\"color:windowtext;font-family:細明體;\">。添加的麥芽糖是用來達成溶液之等滲透壓性。至少</span><span style=\"color:windowtext;\"> 98%&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">蛋白質具有相同於免疫球蛋白</span><span style=\"color:windowtext;\">G</span><span style=\"color:windowtext;font-family:細明體;\">的電泳移動性，至少</span><span style=\"color:windowtext;\">90%&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">蛋白質是</span><span style=\"color:windowtext;\"> IgG&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">單體和雙體。根據三個臨床前批次</span><span style=\"color:windowtext;\"> (preclinical batches)</span><span style=\"color:windowtext;font-family:細明體;\">，和四個臨床批次</span><span style=\"color:windowtext;\"> (clinical batches)&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">報告，</span><span style=\"color:windowtext;\">“</span><span style=\"color:windowtext;font-family:細明體;\">國血製劑益康</span><span style=\"color:windowtext;\">”</span><span style=\"color:windowtext;font-family:細明體;\">人類免疫球蛋白靜脈注射劑所含的</span><span style=\"color:windowtext;\"> IgG&nbsp;</span><span style=\"color:windowtext;font-family:細明體;\">亞型之分布情形，其平均值是</span><span style=\"color:windowtext;\">61% IgG<sub>1</sub>, 36% IgG<sub>2</sub>, 3% IgG<sub>3</sub></span><span style=\"color:windowtext;font-family:細明體;\">和</span><span style=\"color:windowtext;\"> 1% IgG<sub>4</sub>.</span><span style=\"color:windowtext;font-family:細明體;\">。</span><span style=\"color:windowtext;\">“</span><span style=\"color:windowtext;font-family:細明體;\">國血製劑益康</span><span style=\"color:windowtext;\">”</span><span style=\"color:windowtext;font-family:細明體;\">人類免疫球蛋白靜脈注射劑的</span><span style=\"color:windowtext;\">IgA (Immunoglobulin A)</span><span style=\"color:windowtext;font-family:細明體;\">含量極少，</span><span style=\"color:windowtext;\">(</span><span style=\"color:windowtext;font-family:細明體;\">通常</span><span style=\"color:windowtext;\">&lt;&nbsp;0.025&nbsp;mg/mL)</span><span style=\"color:windowtext;font-family:細明體;\">。</span><span style=\"color:windowtext;\">“</span><span style=\"color:windowtext;font-family:細明體;\">國血製劑益康</span><span style=\"color:windowtext;\">”</span><span style=\"color:windowtext;font-family:細明體;\">人類免疫球蛋白靜脈注射劑用於靜脈注射。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n人類免疫球蛋白靜脈注射劑 說明 本產品係配合行政院衛生署執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人類免疫球蛋白靜脈注射劑。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是一種無菌、不含防腐劑的溶液。每 100 ml 當中含有 6 g 人血蛋白質和10 g 麥芽糖。溶液的 pH值為 4.25。添加的麥芽糖是用來達成溶液之等滲透壓性。至少 98% 蛋白質具有相同於免疫球蛋白G的電泳移動性，至少90% 蛋白質是 IgG 單體和雙體。根據三個臨床前批次 (preclinical batches)，和四個臨床批次 (clinical batches) 報告，“國血製劑益康”人類免疫球蛋白靜脈注射劑所含的 IgG 亞型之分布情形，其平均值是61% IgG1, 36% IgG2, 3% IgG3和 1% IgG4.。“國血製劑益康”人類免疫球蛋白靜脈注射劑的IgA (Immunoglobulin A)含量極少，(通常< 0.025 mg/mL)。“國血製劑益康”人類免疫球蛋白靜脈注射劑用於靜脈注射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "麥芽糖",
+          "content_html": "<p>麥芽糖</p>",
+          "search_text": "1.2\n賦形劑\n麥芽糖",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p>注射劑</p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑是透明或略為半透明，無色或淺黃色的液體。",
+          "content_html": "<p>“國血製劑益康”人類免疫球蛋白靜脈注射劑是透明或略為半透明，無色或淺黃色的液體。</p>",
+          "search_text": "1.4\n藥品外觀\n“國血製劑益康”人類免疫球蛋白靜脈注射劑是透明或略為半透明，無色或淺黃色的液體。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑是 IgG 的替代治療用藥，適應症包括： • 原發性免疫不全症 (primary immune deficiency (PID))。 •由潛在疾病或治療所引發之次發性症狀性低伽瑪球蛋白血症。 “國血製劑益康”人類免疫球蛋白靜脈注射劑也可用於改善免疫調節機能，適應症包括： • 原發性血小板缺乏性紫斑症(Idiopathic Thrombocytopenic Purpura (ITP))，高危險出血的成人或小孩 ITP 病人；或者，手術前用以修正血小板數目。 • 異體骨髓移植 (allogeneic bone marrow transplantation)。 • 川崎氏症 (Kawasaki Disease)。 • Guillain-Barré症候群 (Guillain-Barré Syndrome (GBS))。 敘述IVIg用於 ITP之適當臨床使用的規範均有相關的文獻記載，應遵照以避免本血液產品的不當使用1, 2。",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑是</span> IgG&nbsp;<span style=\"font-family:細明體;\">的替代治療用藥，適應症包括：</span></p><p style=\"margin-left:14.2pt;text-align:justify;\">•&nbsp;<span style=\"font-family:細明體;\">原發性免疫不全症</span> (primary immune deficiency (PID))<span style=\"font-family:細明體;\">。</span></p><p style=\"margin-left:14.2pt;text-align:justify;\">•<span style=\"font-family:細明體;\">由</span>潛在疾病或治療所引發之<span style=\"font-family:細明體;\">次發性症狀性低</span>伽瑪球蛋白血症。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑也可用於改善免疫調節機能，適應症包括：</span></p><p style=\"margin-left:14.2pt;text-align:justify;\">•&nbsp;<span style=\"font-family:細明體;\">原發性血小板缺乏性紫斑症</span>(Idiopathic Thrombocytopenic Purpura (ITP))<span style=\"font-family:細明體;\">，高危險出血的成人或小孩</span> ITP&nbsp;<span style=\"font-family:細明體;\">病人；或者，手術前用以修正血小板數目。</span></p><p style=\"margin-left:14.2pt;text-align:justify;\">•&nbsp;<span style=\"font-family:細明體;\">異體骨髓移植</span> (allogeneic bone marrow transplantation)<span style=\"font-family:細明體;\">。</span></p><p style=\"margin-left:14.2pt;text-align:justify;\">•&nbsp;<span style=\"font-family:細明體;\">川崎氏症</span> (Kawasaki Disease)<span style=\"font-family:細明體;\">。</span></p><p style=\"margin-left:14.2pt;text-align:justify;\">• Guillain-Barré<span style=\"font-family:細明體;\">症候群</span> (Guillain-Barré Syndrome (GBS))<span style=\"font-family:細明體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">敘述</span>IVIg<span style=\"font-family:細明體;\">用於</span> ITP<span style=\"font-family:細明體;\">之適當臨床使用的規範均有相關的文獻記載，應遵照以避免本血液產品的不當使用</span><sup>1, 2</sup><span style=\"font-family:細明體;\">。</span></p><p>&nbsp;</p>",
+          "search_text": "2\n適應症\n“國血製劑益康”人類免疫球蛋白靜脈注射劑是 IgG 的替代治療用藥，適應症包括： • 原發性免疫不全症 (primary immune deficiency (PID))。 •由潛在疾病或治療所引發之次發性症狀性低伽瑪球蛋白血症。 “國血製劑益康”人類免疫球蛋白靜脈注射劑也可用於改善免疫調節機能，適應症包括： • 原發性血小板缺乏性紫斑症(Idiopathic Thrombocytopenic Purpura (ITP))，高危險出血的成人或小孩 ITP 病人；或者，手術前用以修正血小板數目。 • 異體骨髓移植 (allogeneic bone marrow transplantation)。 • 川崎氏症 (Kawasaki Disease)。 • Guillain-Barré症候群 (Guillain-Barré Syndrome (GBS))。 敘述IVIg用於 ITP之適當臨床使用的規範均有相關的文獻記載，應遵照以避免本血液產品的不當使用1, 2。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "劑量 補充治療 (Replacement therapy) 替代療法應在具有免疫缺陷治療經驗的醫護人員的監督下開始和監測。 “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。血清中 IgG 濃度保持在 5 g/L 以上，通常就能夠避免復發性的細菌感染。大部分病人每個月接受的劑量介於 0.2‑0.6 g IgG /kg 體重。可以單一劑量施給，也可以平分兩次劑量隔週施給。為了使復發性感染的病人得到最快速的保護效果，病人經過初步診斷之後，可能需要高一點的劑量 (每個月0.4‑0.6 g IgG /kg 體重)，持續治療數個月。使用劑量和給藥頻率的調整，須靠經驗決定，而且必須視病人的臨床狀況及其注射前 IgG 濃度而定。 免疫調節療法 (Immunomodulatory therapy) 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人在 2 到 5 天之內接受的最高累積劑量可達 2 g IgG /kg 體重。使用劑量和給藥頻率的調整純靠經驗決定，而且必須視病人的臨床狀況而定。 川崎氏症 (Kawasaki disease) “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人可以 2 到 5 天內接受 1.6‑2.0 g IgG /kg 體重的劑量，分次施給，或以單一次劑量2 g IgG /kg 體重施給。病人必須同時施以乙醯水楊酸治療。 異體骨髓移植 (Allogeneic bone marrow transplantation) 可以將 “國血製劑益康”人類免疫球蛋白靜脈注射劑當作調整療法 (conditioning regime) 的一部份，也可以用於移植之後。 “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。建議的起始劑量為每週 0.5 g IgG /kg 體重。 Guillain‑Barré症候群(Guillain‑Barré Syndrome (GBS)) 施打“國血製劑益康”人類免疫球蛋白靜脈注射劑每日0.4g IgG /kg 體重，持續五天。 使用方法說明 注意：“國血製劑益康”人類免疫球蛋白靜脈注射劑不含任何抗微生物防腐劑，因此打開瓶子之後必須立即使用。每次僅可使用於單一病人。 任何未用完的藥劑都必須適當丟棄。切勿使用曾經被冷凍過的溶液。如果發現“國血製劑益康”人類免疫球蛋白靜脈注射劑有混濁現象或含有沉澱物，切勿使用，並將產品原封不動退回給標籤上標示的代理商。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是靜脈內給藥。 注射速度應該以每分鐘 1 mL(每小時60 mL)開始，持續15 分鐘以上，然後注射速度可以漸增，直到15分鐘後達最高的每分鐘 3‑4 mL(每小時180-240 mL)。以下病人應考慮降低輸注速度：初次使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的病人、轉換自其他IVIg產品的病人、長期未接受IVIg的病人、小兒和高齡病人及有腎臟病的病人。（請參閱 “特殊警語和注意事項-一般”）。 太快的注射速度會造成臉部潮紅、心跳和血壓的改變。 “國血製劑益康”人類免疫球蛋白靜脈注射劑必須與病人接受的其它靜脈注射液或用藥分開使用。 “國血製劑益康”人類免疫球蛋白靜脈注射劑可以經由標準的一般靜脈注射套組給藥。我們建議以下的程序： 靜待本產品回復到室溫再使用。 移除塑膠封套。 將曝露在外的橡皮塞做適當消毒，並靜待其乾燥。 將點滴瓶直立，從點滴瓶橡皮塞的一個凹痕處，垂直插入排氣針，最好是一個附有過濾器的長針，不然，也可以使用一個附有非濕性過濾器的短針。 夾緊點滴管，以位於點滴管終端的針頭，垂直插入點滴瓶橡皮塞的另一個凹處。如果橡皮塞有移位或鬆動情形，請停止使用該點滴瓶，並小心丟棄裡面的溶液。 倒轉點滴瓶，把它吊在一個適當的點滴架上，大約高於病人一公尺的高度。 調整夾子，使點滴管充滿溶液。接通點滴管到靜脈插管 (套管 (cannula))，並調整適當流速。 當點滴瓶空了以後，夾住點滴管，將點滴管終端的針頭轉插到一瓶新的 “國血製劑益康”人類免疫球蛋白靜脈注射劑。 給藥當中，如果發生明顯滲漏，停止點滴並小心丟棄瓶中溶液。請更換一個新的藥瓶與新的點滴套組使用。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>劑量</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><u>補充治療</u></span><u> (Replacement therapy)</u></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><u>替代療法應在具有免疫缺陷治療經驗的醫護人員的監督下開始和監測。</u></span></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。血清中</span> IgG&nbsp;<span style=\"font-family:細明體;\">濃度保持在</span> 5&nbsp;g/L&nbsp;<span style=\"font-family:細明體;\">以上，通常就能夠避免復發性的細菌感染。大部分病人每個月接受的劑量介於</span> 0.2‑0.6&nbsp;g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重。可以單一劑量施給，也可以平分兩次劑量隔週施給。為了使復發性感染的病人得到最快速的保護效果，病人經過初步診斷之後，可能需要高一點的劑量</span> (<span style=\"font-family:細明體;\">每個月</span>0.4‑0.6&nbsp;g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重</span>)<span style=\"font-family:細明體;\">，持續治療數個月。使用劑量和給藥頻率的調整，須靠經驗決定，而且必須視病人的臨床狀況及其注射前</span> IgG&nbsp;<span style=\"font-family:細明體;\">濃度而定。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><u>免疫調節療法</u></span><u> (Immunomodulatory therapy)</u></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><i>原發性血小板缺乏性紫斑症</i></span><i> (Idiopathic Thrombocytopenic Purpura (ITP))</i></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人在</span> 2&nbsp;<span style=\"font-family:細明體;\">到</span> 5&nbsp;<span style=\"font-family:細明體;\">天之內接受的最高累積劑量可達</span> 2&nbsp;g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重。使用劑量和給藥頻率的調整純靠經驗決定，而且必須視病人的臨床狀況而定。</span></p><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><i>川崎氏症</i></span><i> (Kawasaki disease)</i></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人可以</span> 2&nbsp;<span style=\"font-family:細明體;\">到</span> 5&nbsp;<span style=\"font-family:細明體;\">天內接受</span> 1.6‑2.0&nbsp;g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重的劑量，分次施給，或以單一次劑量</span>2&nbsp;g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重施給。病人必須同時施以乙醯水楊酸治療。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><i>異體骨髓移植</i></span><i> (Allogeneic bone marrow transplantation)</i></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">可以將</span> “<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑當作調整療法</span> (conditioning regime)&nbsp;<span style=\"font-family:細明體;\">的一部份，也可以用於移植之後。</span> “<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。建議的起始劑量為每週</span> 0.5&nbsp;g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><i>Guillain‑Barré</i><span style=\"font-family:細明體;\"><i>症候群</i></span><i>(Guillain‑Barré Syndrome (GBS))</i></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">施打</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑每日</span>0.4g IgG /kg&nbsp;<span style=\"font-family:細明體;\">體重，持續五天。</span></p><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>使用方法說明</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">注意：</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑不含任何抗微生物防腐劑，因此打開瓶子之後必須立即使用。每次僅可使用於單一病人。</span>&nbsp;<span style=\"font-family:細明體;\">任何未用完的藥劑都必須適當丟棄。切勿使用曾經被冷凍過的溶液。如果發現</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑有混濁現象或含有沉澱物，切勿使用，並將產品原封不動退回給標籤上標示的代理商。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑是靜脈內給藥。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">注射速度應該以每分鐘</span> 1 mL(<span style=\"font-family:細明體;\">每小時</span>60 mL)<span style=\"font-family:細明體;\">開始，持續</span>15&nbsp;<span style=\"font-family:細明體;\">分鐘以上，然後注射速度可以漸增，直到</span>15<span style=\"font-family:細明體;\">分鐘後達最高的每分鐘</span> 3‑4 mL(<span style=\"font-family:細明體;\">每小時</span>180-240 mL)<span style=\"font-family:細明體;\">。以下病人應考慮降低輸注速度</span>：<span style=\"font-family:細明體;\">初次使用</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的病人、轉換自其他</span>IVIg<span style=\"font-family:細明體;\">產品的病人、長期未接受</span>IVIg<span style=\"font-family:細明體;\">的病人、小兒和高齡病人及有腎臟病的病人。（請參閱</span> “<span style=\"font-family:細明體;\">特殊警語和注意事項</span>-<span style=\"font-family:細明體;\">一般</span>”<span style=\"font-family:細明體;\">）。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">太快的注射速度會造成臉部潮紅、心跳和血壓的改變。</span></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑必須與病人接受的其它靜脈注射液或用藥分開使用。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑可以經由標準的一般靜脈注射套組給藥。我們建議以下的程序：</span></p><ol><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">靜待本產品回復到室溫再使用。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">移除塑膠封套。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">將曝露在外的橡皮塞做適當消毒，並靜待其乾燥。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">將點滴瓶直立，從點滴瓶橡皮塞的一個凹痕處，垂直插入排氣針，最好是一個附有過濾器的長針，不然，也可以使用一個附有非濕性過濾器的短針。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">夾緊點滴管，以位於點滴管終端的針頭，垂直插入點滴瓶橡皮塞的另一個凹處。如果橡皮塞有移位或鬆動情形，請停止使用該點滴瓶，並小心丟棄裡面的溶液。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">倒轉點滴瓶，把它吊在一個適當的點滴架上，大約高於病人一公尺的高度。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">調整夾子，使點滴管充滿溶液。接通點滴管到靜脈插管</span> (<span style=\"font-family:細明體;\">套管</span> (cannula))<span style=\"font-family:細明體;\">，並調整適當流速。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">當點滴瓶空了以後，夾住點滴管，將點滴管終端的針頭轉插到一瓶新的</span> “<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">給藥當中，如果發生明顯滲漏，停止點滴並小心丟棄瓶中溶液。請更換一個新的藥瓶與新的點滴套組使用。</span></li></ol>",
+          "search_text": "3.1\n用法用量\n劑量 補充治療 (Replacement therapy) 替代療法應在具有免疫缺陷治療經驗的醫護人員的監督下開始和監測。 “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。血清中 IgG 濃度保持在 5 g/L 以上，通常就能夠避免復發性的細菌感染。大部分病人每個月接受的劑量介於 0.2‑0.6 g IgG /kg 體重。可以單一劑量施給，也可以平分兩次劑量隔週施給。為了使復發性感染的病人得到最快速的保護效果，病人經過初步診斷之後，可能需要高一點的劑量 (每個月0.4‑0.6 g IgG /kg 體重)，持續治療數個月。使用劑量和給藥頻率的調整，須靠經驗決定，而且必須視病人的臨床狀況及其注射前 IgG 濃度而定。 免疫調節療法 (Immunomodulatory therapy) 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人在 2 到 5 天之內接受的最高累積劑量可達 2 g IgG /kg 體重。使用劑量和給藥頻率的調整純靠經驗決定，而且必須視病人的臨床狀況而定。 川崎氏症 (Kawasaki disease) “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人可以 2 到 5 天內接受 1.6‑2.0 g IgG /kg 體重的劑量，分次施給，或以單一次劑量2 g IgG /kg 體重施給。病人必須同時施以乙醯水楊酸治療。 異體骨髓移植 (Allogeneic bone marrow transplantation) 可以將 “國血製劑益康”人類免疫球蛋白靜脈注射劑當作調整療法 (conditioning regime) 的一部份，也可以用於移植之後。 “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。建議的起始劑量為每週 0.5 g IgG /kg 體重。 Guillain‑Barré症候群(Guillain‑Barré Syndrome (GBS)) 施打“國血製劑益康”人類免疫球蛋白靜脈注射劑每日0.4g IgG /kg 體重，持續五天。 使用方法說明 注意：“國血製劑益康”人類免疫球蛋白靜脈注射劑不含任何抗微生物防腐劑，因此打開瓶子之後必須立即使用。每次僅可使用於單一病人。 任何未用完的藥劑都必須適當丟棄。切勿使用曾經被冷凍過的溶液。如果發現“國血製劑益康”人類免疫球蛋白靜脈注射劑有混濁現象或含有沉澱物，切勿使用，並將產品原封不動退回給標籤上標示的代理商。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是靜脈內給藥。 注射速度應該以每分鐘 1 mL(每小時60 mL)開始，持續15 分鐘以上，然後注射速度可以漸增，直到15分鐘後達最高的每分鐘 3‑4 mL(每小時180-240 mL)。以下病人應考慮降低輸注速度：初次使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的病人、轉換自其他IVIg產品的病人、長期未接受IVIg的病人、小兒和高齡病人及有腎臟病的病人。（請參閱 “特殊警語和注意事項-一般”）。 太快的注射速度會造成臉部潮紅、心跳和血壓的改變。 “國血製劑益康”人類免疫球蛋白靜脈注射劑必須與病人接受的其它靜脈注射液或用藥分開使用。 “國血製劑益康”人類免疫球蛋白靜脈注射劑可以經由標準的一般靜脈注射套組給藥。我們建議以下的程序： 靜待本產品回復到室溫再使用。 移除塑膠封套。 將曝露在外的橡皮塞做適當消毒，並靜待其乾燥。 將點滴瓶直立，從點滴瓶橡皮塞的一個凹痕處，垂直插入排氣針，最好是一個附有過濾器的長針，不然，也可以使用一個附有非濕性過濾器的短針。 夾緊點滴管，以位於點滴管終端的針頭，垂直插入點滴瓶橡皮塞的另一個凹處。如果橡皮塞有移位或鬆動情形，請停止使用該點滴瓶，並小心丟棄裡面的溶液。 倒轉點滴瓶，把它吊在一個適當的點滴架上，大約高於病人一公尺的高度。 調整夾子，使點滴管充滿溶液。接通點滴管到靜脈插管 (套管 (cannula))，並調整適當流速。 當點滴瓶空了以後，夾住點滴管，將點滴管終端的針頭轉插到一瓶新的 “國血製劑益康”人類免疫球蛋白靜脈注射劑。 給藥當中，如果發生明顯滲漏，停止點滴並小心丟棄瓶中溶液。請更換一個新的藥瓶與新的點滴套組使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑可以不經稀釋施打，也可以用兩倍量的 0.9% 生理食鹽水或 5% 葡萄糖水稀釋後再注射。",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑可以不經稀釋施打，也可以用兩倍量的</span> 0.9%&nbsp;<span style=\"font-family:細明體;\">生理食鹽水或</span> 5%&nbsp;<span style=\"font-family:細明體;\">葡萄糖水稀釋後再注射。</span></p>",
+          "search_text": "3.2\n調製方式\n“國血製劑益康”人類免疫球蛋白靜脈注射劑可以不經稀釋施打，也可以用兩倍量的 0.9% 生理食鹽水或 5% 葡萄糖水稀釋後再注射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "忌用“國血製劑益康”人類免疫球蛋白靜脈注射劑: 對人類免疫球蛋白會產生真正過敏反應的病人。 具有抗IgA抗體的IgA缺乏症病人及有過敏史的病人。 對賦形劑麥芽糖有過敏史的病人。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">忌用</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑</span>:</p><ul><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對人類免疫球蛋白會產生真正過敏反應的病人</span><span style=\"font-family:標楷體;\">。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">具有抗</span>IgA<span style=\"font-family:細明體;\">抗體的</span>IgA<span style=\"font-family:細明體;\">缺乏症病人及有過敏史的病人</span>。</li><li style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對賦形劑麥芽糖有過敏史的病人。</span></li></ul>",
+          "search_text": "4\n禁忌\n忌用“國血製劑益康”人類免疫球蛋白靜脈注射劑: 對人類免疫球蛋白會產生真正過敏反應的病人。 具有抗IgA抗體的IgA缺乏症病人及有過敏史的病人。 對賦形劑麥芽糖有過敏史的病人。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑只能以靜脈注射使用，尚未有其它使用途徑的評估。 一般 IVIg的反應傾向與輸注速率有關，且大多發生在輸注的第一個小時。建議在輸注的過程中規律地監控病人的生命跡象與一般狀態。如果發生不良反應，則必須降低給藥速率或停止輸注。 某些不良反應可能會更頻繁地發生： 在高輸注速度的情況下 無論有無IgA缺乏症的丙種免疫球蛋白缺乏症(agammaglobulinemia)或丙種免疫球蛋白過低症(hypogammamaglobulinemia)的病人 初次接受人免疫球蛋白的病人，或在較罕見的案例，如轉換自另一種人類免疫球蛋白產品或距上次輸注以來間隔很長的病人。 過敏反應 “國血製劑益康”人類免疫球蛋白靜脈注射劑含有微量 IgA，其對於體內具有抗 IgA 抗體的病人，可能會引發過敏反應，特別是IgA 缺乏症 (IgA deficiency) 病人。 在一些罕見的案例中，人體免疫球蛋白會使血壓驟降並有嚴重過敏性反應 (anaphylactoid reaction)，即使是先前對人體免疫球蛋白治療耐受性良好的病人也有可能發生。 如果發生嚴重過敏反應，應立即停止輸液。 腎上腺素和氧氣必須隨時備妥，以處理這種急性反應。 急性腎衰竭 偶而會有一些報告指出，病人在使用 IVIg 產品後，發生腎功能不全和急性腎臟衰竭。風險增加的病人包括，原先即有腎功能不全、糖尿病、年齡 65 歲以上、體液缺乏 (volume depletion)、敗血症 (sepsis)、單株伽瑪球蛋白症 (monoclonal gammopathy)、以及同時正在服用具腎毒性 (nephrotoxic) 藥品的病人。雖然這些關於腎功能不全和急性腎功能衰竭的案例與多種含有各式賦形劑（如蔗糖、葡萄糖和麥芽糖）的核准上市IVIg產品有關，其中多有以蔗糖作為安定劑的IVIg產品。“國血製劑益康”人類免疫球蛋白靜脈注射劑含有麥芽糖但不含蔗糖。應該遵循以下的預防措施：病人在 IVIg 注射給藥之前，必須給予適當足夠的水分，以及勿使用超過建議的劑量。如果腎功能惡化，必須考慮停止 IVIg 的治療。 對於有急性腎衰竭風險的病人，應根據臨床判斷，以可能的最小輸注速率和劑量給予IVIg產品。 血栓栓塞事件 血栓栓塞的事件已被報導和IgG治療有關。風險因素包含高齡、不動性、使用雌激素、血管留置導管、後天性或遺傳性高凝血狀態、靜脈或動脈血栓形成、心臟血管風險因子(包含動脈粥狀硬化症病史、及/或心臟輸出量不足)、血漿黏度增加的相關症狀，如冷凝球蛋白血症、空腹高乳糜粒血症、及/或高三酸甘油酯、及單株伽瑪球蛋白症。 具有血栓形成風險的病人應以最低注射速率，及依臨床判斷的適當劑量輸注IVIg產品，且應監控血栓形成的併發症。對於血液高度黏稠風險的病人，應評估其血液黏稠度。 使用含human immune globulin成分藥品治療可能發生血栓栓塞事件，如心肌梗塞、中風、肺栓塞與深層靜脈阻塞，用於不同疾病適應症之血栓栓塞事件發生頻率可能有所差異。 無菌性腦膜炎 靜脈注射免疫球蛋白 (IVIg) 使用後曾有發生過無菌性腦膜炎(Aseptic Meningitis Syndrome (AMS))。這些症狀通常在使用 IVIg 之後數小時到兩天之內發生，其病徵包括，嚴重頭痛、頸背僵硬、困倦、發燒、畏光 (photophobia)、眼球移動觸痛、噁心及嘔吐。腦脊髓液 (cerebrospinal fluid, CSF) 分析常會發現白血球增多現象 (pleocytosis)，且多為顆粒性細胞 (granulocytic series)，腦脊髓液的蛋白質濃度也會增加。發生這些徵狀的病人，必須接受仔細的神經學檢查，包括腦脊髓液分析，以排除腦膜炎是否有其它原因造成。AMS 比較有可能與高劑量的 IVIg(2 g/kg) 治療有關係，停止 IVIg 治療後，AMS 會在幾天之內緩解，不留後遺症。 溶血性貧血 曾有報告指出，因於產品內含有血型抗體(如:抗A、抗B、及偶有的抗D或其它抗紅血球的抗體存)，使用高劑量靜脈注射免疫球蛋白後發生直接抗球蛋白抗體試驗 (direct antiglobulin test)呈陽性反應，及發生紅血球溶血 (haemolysis)現象，這種紅血球敏感症可能引起紅血球交叉比對試驗 (crossmatching) 的困難度，以及造成暫時性的溶血性貧血。 以下風險因素與溶血發展有關：高劑量IVIg（每4週大於 0.4 g / kg），非O血型和潛在的發炎狀態，尤其是在骨髓細胞量減少或造血幹細胞移植後的病人。 接受高劑量IVIg治療(每四週大於0.4 g/kg) 的病人，應該在注射前確定ABO血型。在治療期間應監控血紅素以追蹤是否有臨床上明顯溶血的證據。 如果在輸注IVIg期間或之後出現溶血的跡象和/或症狀，則治療醫師應考慮終止IVIg治療。 酸負荷 對於酸鹼平衡調節機制正常的病人，其血中的緩衝能力能夠中和最大劑量造成的酸性負擔，即使該劑量是以快速的靜脈注射注入。如果病人的酸鹼平衡調節機制不良者，包括新生兒在內，這類藥劑可能造成的酸性負擔必須加以考量。 血栓性靜脈炎 高劑量 (大於 0.4 g/kg)，長時間的給藥(6 小時以上)後，可能會在注射處引起血栓性靜脈炎 (thrombophlebitis)。 病原體安全性 本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病 (Creutzfeldt-Jakob Disease, CJD)之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。 此外，生產過程包括病毒去除及去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如HIV (人類免疫缺乏病毒)、B型及C型肝炎病毒，及不含外套膜的A型肝炎病毒。這些方法對抗不具外套膜的parvovirus B19之效果可能有限，然而本產品含有獨特的抗體可直接對抗parvovirus B19。 惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。 使用血漿製品時可考慮給予疫苗之注射。",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑只能以靜脈注射使用，尚未有其它使用途徑的評估。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>一般</strong></span></p><p>IVIg<span style=\"font-family:細明體;\">的反應傾向與輸注速率有關，且大多發生在輸注的第一個小時。建議在輸注的過程中規律地監控病人的生命跡象與一般狀態。</span>如果發生不良反應，則必須降低給藥速率或停止輸注。</p><p>某些不良反應可能會更頻繁地發生：</p><ul><li>在高輸注速度的情況下</li><li>無論有無IgA缺乏症的丙種免疫球蛋白缺乏症(agammaglobulinemia)或丙種免疫球蛋白過低症(hypogammamaglobulinemia)的病人</li><li>初次接受人免疫球蛋白的病人，或在較罕見的案例，如轉換自另一種人類免疫球蛋白產品或距上次輸注以來間隔很長的病人。</li></ul><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><strong>過敏反應</strong></p><p style=\"text-align:justify;\">“國血製劑益康”人類免疫球蛋白靜脈注射劑含有微量 IgA，其對於體內具有抗 IgA&nbsp;抗體的病人，可能會引發過敏反應，特別是IgA&nbsp;缺乏症 (IgA deficiency)&nbsp;病人。</p><p style=\"text-align:justify;\">在一些罕見的案例中，人體免疫球蛋白會使血壓驟降並有嚴重過敏性反應 (anaphylactoid reaction)，即使是先前對人體免疫球蛋白治療耐受性良好的病人也有可能發生。&nbsp;如果發生嚴重過敏反應，應立即停止輸液。&nbsp;腎上腺素和氧氣必須隨時備妥，以處理這種急性反應。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>急性腎衰竭</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">偶而會有一些報告指出，病人在使用</span> IVIg&nbsp;<span style=\"font-family:細明體;\">產品後，發生腎功能不全和急性腎臟衰竭。風險增加的病人包括，原先即有腎功能不全、糖尿病、年齡</span> 65&nbsp;<span style=\"font-family:細明體;\">歲以上、體液缺乏</span> (volume depletion)<span style=\"font-family:細明體;\">、敗血症</span> (sepsis)<span style=\"font-family:細明體;\">、單株伽瑪球蛋白症</span> (monoclonal gammopathy)<span style=\"font-family:細明體;\">、以及同時正在服用具腎毒性</span> (nephrotoxic)&nbsp;<span style=\"font-family:細明體;\">藥品的病人。雖然這些關於腎功能不全和急性腎功能衰竭的案例與多種含有各式賦形劑（如蔗糖、葡萄糖和麥芽糖）的核准上市</span>IVIg<span style=\"font-family:細明體;\">產品有關，其中多有以蔗糖作為安定劑的</span>IVIg<span style=\"font-family:細明體;\">產品。</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑含有麥芽糖但不含蔗糖。應該遵循以下的預防措施：病人在</span> IVIg&nbsp;<span style=\"font-family:細明體;\">注射給藥之前，必須給予適當足夠的水分，以及勿使用超過建議的劑量。如果腎功能惡化，必須考慮停止</span> IVIg&nbsp;<span style=\"font-family:細明體;\">的治療。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對於有急性腎衰竭風險的病人，應根據臨床判斷，以可能的最小輸注速率和劑量給予</span>IVIg<span style=\"font-family:細明體;\">產品。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>血栓栓塞事件</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">血栓栓塞的事件已被報導和</span>IgG<span style=\"font-family:細明體;\">治療有關。風險因素包含高齡、不動性</span>、使用雌激素、血管留置導管、後天性或遺傳性高凝血狀態、靜脈或動脈血栓形成、心臟血管風險因子(包含動脈粥狀硬化症病史<span style=\"font-family:細明體;\">、</span>及/或<span style=\"font-family:細明體;\">心臟輸出量不足</span>)<span style=\"font-family:細明體;\">、血漿黏度增加的相關症狀，如</span>冷凝球蛋白血症、<span style=\"font-family:細明體;\">空腹</span>高乳糜粒血症、及/或高三酸甘油酯、<span style=\"font-family:細明體;\">及</span>單株伽瑪球蛋白症<span style=\"font-family:細明體;\">。</span></p><p style=\"text-align:justify;\">具有血栓形成風險的病人應以最低注射速率，及依臨床判斷的適當劑量輸注IVIg產品，且應監控血栓形成的併發症。對於血液高度黏稠風險的病人，應評估其血液黏稠度。</p><p style=\"text-align:justify;\">使用含human immune globulin成分藥品治療可能發生血栓<u>栓塞事件，如心肌梗塞、中風、肺栓塞與深層靜脈阻塞，用於不同疾病適應症之血栓栓塞事件發生頻率可能有所差異。</u></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>無菌性腦膜炎</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">靜脈注射免疫球蛋白</span> (IVIg)&nbsp;<span style=\"font-family:細明體;\">使用後曾有發生過無菌性腦膜炎</span>(Aseptic Meningitis Syndrome (AMS))<span style=\"font-family:細明體;\">。這些症狀通常在使用</span> IVIg&nbsp;<span style=\"font-family:細明體;\">之後數小時到兩天之內發生，其病徵包括，嚴重頭痛、頸背僵硬、困倦、發燒、畏光</span> (photophobia)<span style=\"font-family:細明體;\">、眼球移動觸痛、噁心及嘔吐。腦脊髓液</span> (cerebrospinal fluid, CSF)&nbsp;<span style=\"font-family:細明體;\">分析常會發現白血球增多現象</span> (pleocytosis)<span style=\"font-family:細明體;\">，且多為顆粒性細胞</span> (granulocytic series)<span style=\"font-family:細明體;\">，腦脊髓液的蛋白質濃度也會增加。發生這些徵狀的病人，必須接受仔細的神經學檢查，包括腦脊髓液分析，以排除腦膜炎是否有其它原因造成。</span>AMS&nbsp;<span style=\"font-family:細明體;\">比較有可能與高劑量的</span> IVIg(2 g/kg)&nbsp;<span style=\"font-family:細明體;\">治療有關係，停止</span> IVIg&nbsp;<span style=\"font-family:細明體;\">治療後，</span>AMS&nbsp;<span style=\"font-family:細明體;\">會在幾天之內緩解，不留後遺症。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>溶血性貧血</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">曾有報告指出，因於產品內含有血型抗體</span>(<span style=\"font-family:細明體;\">如</span>:<span style=\"font-family:細明體;\">抗</span>A<span style=\"font-family:細明體;\">、抗</span>B<span style=\"font-family:細明體;\">、及偶有的抗</span>D<span style=\"font-family:細明體;\">或其它抗紅血球的抗體存</span>)<span style=\"font-family:細明體;\">，使用高劑量靜脈注射免疫球蛋白後發生直接抗球蛋白抗體試驗</span> (direct antiglobulin test)<span style=\"font-family:細明體;\">呈陽性反應，及發生紅血球溶血</span> (haemolysis)<span style=\"font-family:細明體;\">現象，這種紅血球敏感症可能引起紅血球交叉比對試驗</span> (crossmatching)&nbsp;<span style=\"font-family:細明體;\">的困難度，以及造成暫時性的溶血性貧血。</span></p><p style=\"text-align:justify;\">以下風險因素與溶血發展有關：高劑量IVIg（每4週大於 0.4 g / kg），非O血型和潛在的發炎狀態，尤其是在骨髓細胞量減少或造血幹細胞移植後的病人。</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">接受高劑量</span>IVIg<span style=\"font-family:細明體;\">治療</span>(<span style=\"font-family:細明體;\">每四週大於</span>0.4 g/kg)&nbsp;<span style=\"font-family:細明體;\">的病人，應該在注射前確定</span>ABO<span style=\"font-family:細明體;\">血型。在治療期間應監控血紅素以追蹤是否有臨床上明顯溶血的證據。</span></p><p style=\"text-align:justify;\">如果在輸注IVIg期間或之後出現溶血的跡象和/或症狀，則治療醫師應考慮終止IVIg治療。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>酸負荷</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對於酸鹼平衡調節機制正常的病人，其血中的緩衝能力能夠中和最大劑量造成的酸性負擔，即使該劑量是以快速的靜脈注射注入。如果病人的酸鹼平衡調節機制不良者，包括新生兒在內，這類藥劑可能造成的酸性負擔必須加以考量。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>血栓性靜脈炎</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">高劑量</span> (<span style=\"font-family:細明體;\">大於</span> 0.4&nbsp;g/kg)<span style=\"font-family:細明體;\">，長時間的給藥</span>(6&nbsp;<span style=\"font-family:細明體;\">小時以上</span>)<span style=\"font-family:細明體;\">後，可能會在注射處引起血栓性靜脈炎</span> (thrombophlebitis)<span style=\"font-family:細明體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>病原體安全性</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病</span> (Creutzfeldt-Jakob Disease, CJD)<span style=\"font-family:細明體;\">之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">此外，生產過程包括病毒去除及去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如</span>HIV (<span style=\"font-family:細明體;\">人類免疫缺乏病毒</span>)<span style=\"font-family:細明體;\">、</span>B<span style=\"font-family:細明體;\">型及</span>C<span style=\"font-family:細明體;\">型肝炎病毒，及不含外套膜的</span>A<span style=\"font-family:細明體;\">型肝炎病毒。這些方法對抗不具外套膜的</span>parvovirus B19<span style=\"font-family:細明體;\">之效果可能有限，然而本產品含有獨特的抗體可直接對抗</span>parvovirus B19<span style=\"font-family:細明體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">使用血漿製品時可考慮給予疫苗之注射。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n“國血製劑益康”人類免疫球蛋白靜脈注射劑只能以靜脈注射使用，尚未有其它使用途徑的評估。 一般 IVIg的反應傾向與輸注速率有關，且大多發生在輸注的第一個小時。建議在輸注的過程中規律地監控病人的生命跡象與一般狀態。如果發生不良反應，則必須降低給藥速率或停止輸注。 某些不良反應可能會更頻繁地發生： 在高輸注速度的情況下 無論有無IgA缺乏症的丙種免疫球蛋白缺乏症(agammaglobulinemia)或丙種免疫球蛋白過低症(hypogammamaglobulinemia)的病人 初次接受人免疫球蛋白的病人，或在較罕見的案例，如轉換自另一種人類免疫球蛋白產品或距上次輸注以來間隔很長的病人。 過敏反應 “國血製劑益康”人類免疫球蛋白靜脈注射劑含有微量 IgA，其對於體內具有抗 IgA 抗體的病人，可能會引發過敏反應，特別是IgA 缺乏症 (IgA deficiency) 病人。 在一些罕見的案例中，人體免疫球蛋白會使血壓驟降並有嚴重過敏性反應 (anaphylactoid reaction)，即使是先前對人體免疫球蛋白治療耐受性良好的病人也有可能發生。 如果發生嚴重過敏反應，應立即停止輸液。 腎上腺素和氧氣必須隨時備妥，以處理這種急性反應。 急性腎衰竭 偶而會有一些報告指出，病人在使用 IVIg 產品後，發生腎功能不全和急性腎臟衰竭。風險增加的病人包括，原先即有腎功能不全、糖尿病、年齡 65 歲以上、體液缺乏 (volume depletion)、敗血症 (sepsis)、單株伽瑪球蛋白症 (monoclonal gammopathy)、以及同時正在服用具腎毒性 (nephrotoxic) 藥品的病人。雖然這些關於腎功能不全和急性腎功能衰竭的案例與多種含有各式賦形劑（如蔗糖、葡萄糖和麥芽糖）的核准上市IVIg產品有關，其中多有以蔗糖作為安定劑的IVIg產品。“國血製劑益康”人類免疫球蛋白靜脈注射劑含有麥芽糖但不含蔗糖。應該遵循以下的預防措施：病人在 IVIg 注射給藥之前，必須給予適當足夠的水分，以及勿使用超過建議的劑量。如果腎功能惡化，必須考慮停止 IVIg 的治療。 對於有急性腎衰竭風險的病人，應根據臨床判斷，以可能的最小輸注速率和劑量給予IVIg產品。 血栓栓塞事件 血栓栓塞的事件已被報導和IgG治療有關。風險因素包含高齡、不動性、使用雌激素、血管留置導管、後天性或遺傳性高凝血狀態、靜脈或動脈血栓形成、心臟血管風險因子(包含動脈粥狀硬化症病史、及/或心臟輸出量不足)、血漿黏度增加的相關症狀，如冷凝球蛋白血症、空腹高乳糜粒血症、及/或高三酸甘油酯、及單株伽瑪球蛋白症。 具有血栓形成風險的病人應以最低注射速率，及依臨床判斷的適當劑量輸注IVIg產品，且應監控血栓形成的併發症。對於血液高度黏稠風險的病人，應評估其血液黏稠度。 使用含human immune globulin成分藥品治療可能發生血栓栓塞事件，如心肌梗塞、中風、肺栓塞與深層靜脈阻塞，用於不同疾病適應症之血栓栓塞事件發生頻率可能有所差異。 無菌性腦膜炎 靜脈注射免疫球蛋白 (IVIg) 使用後曾有發生過無菌性腦膜炎(Aseptic Meningitis Syndrome (AMS))。這些症狀通常在使用 IVIg 之後數小時到兩天之內發生，其病徵包括，嚴重頭痛、頸背僵硬、困倦、發燒、畏光 (photophobia)、眼球移動觸痛、噁心及嘔吐。腦脊髓液 (cerebrospinal fluid, CSF) 分析常會發現白血球增多現象 (pleocytosis)，且多為顆粒性細胞 (granulocytic series)，腦脊髓液的蛋白質濃度也會增加。發生這些徵狀的病人，必須接受仔細的神經學檢查，包括腦脊髓液分析，以排除腦膜炎是否有其它原因造成。AMS 比較有可能與高劑量的 IVIg(2 g/kg) 治療有關係，停止 IVIg 治療後，AMS 會在幾天之內緩解，不留後遺症。 溶血性貧血 曾有報告指出，因於產品內含有血型抗體(如:抗A、抗B、及偶有的抗D或其它抗紅血球的抗體存)，使用高劑量靜脈注射免疫球蛋白後發生直接抗球蛋白抗體試驗 (direct antiglobulin test)呈陽性反應，及發生紅血球溶血 (haemolysis)現象，這種紅血球敏感症可能引起紅血球交叉比對試驗 (crossmatching) 的困難度，以及造成暫時性的溶血性貧血。 以下風險因素與溶血發展有關：高劑量IVIg（每4週大於 0.4 g / kg），非O血型和潛在的發炎狀態，尤其是在骨髓細胞量減少或造血幹細胞移植後的病人。 接受高劑量IVIg治療(每四週大於0.4 g/kg) 的病人，應該在注射前確定ABO血型。在治療期間應監控血紅素以追蹤是否有臨床上明顯溶血的證據。 如果在輸注IVIg期間或之後出現溶血的跡象和/或症狀，則治療醫師應考慮終止IVIg治療。 酸負荷 對於酸鹼平衡調節機制正常的病人，其血中的緩衝能力能夠中和最大劑量造成的酸性負擔，即使該劑量是以快速的靜脈注射注入。如果病人的酸鹼平衡調節機制不良者，包括新生兒在內，這類藥劑可能造成的酸性負擔必須加以考量。 血栓性靜脈炎 高劑量 (大於 0.4 g/kg)，長時間的給藥(6 小時以上)後，可能會在注射處引起血栓性靜脈炎 (thrombophlebitis)。 病原體安全性 本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病 (Creutzfeldt-Jakob Disease, CJD)之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。 此外，生產過程包括病毒去除及去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如HIV (人類免疫缺乏病毒)、B型及C型肝炎病毒，及不含外套膜的A型肝炎病毒。這些方法對抗不具外套膜的parvovirus B19之效果可能有限，然而本產品含有獨特的抗體可直接對抗parvovirus B19。 惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。 使用血漿製品時可考慮給予疫苗之注射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "“國血製劑益康”靜脈使用人類免疫球蛋白相關的某些不良反應可能會損害駕駛和操作機械的能力。 在治療期間發生不良反應的病人，應等這些症狀獲得解決後再駕駛或操作機器。",
+          "content_html": "<p>“國血製劑益康”靜脈使用人類免疫球蛋白相關的某些不良反應可能會損害駕駛和操作機械的能力。&nbsp;在治療期間發生不良反應的病人，應等這些症狀獲得解決後再駕駛或操作機器。</p>",
+          "search_text": "5.3\n操作機械能力\n“國血製劑益康”靜脈使用人類免疫球蛋白相關的某些不良反應可能會損害駕駛和操作機械的能力。 在治療期間發生不良反應的病人，應等這些症狀獲得解決後再駕駛或操作機器。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "血清干擾測試 免疫球蛋白輸注後，病人血液中，各種被動輸入的抗體會瞬間增加，可能會導致血清學檢測中的偽陽性。 被動輸入對抗紅血球抗原（例如A、B、D的抗體）可能會干擾某些針對紅血球異體抗體的血清學檢測（例如Coombs檢測）。 葡萄糖估計的干擾情形 “國血製劑益康”人類免疫球蛋白靜脈注射劑裡的麥芽糖可能會干擾血中葡萄糖的測量，導致高估血中葡萄糖含量。假如此葡萄糖測量是用於治療的指引，低血糖症可能會發生。只有特定使用葡萄糖去氫酵素的檢驗方法會被影響，所以當監控輸注“國血製劑益康”人類免疫球蛋白靜脈注射劑病人的葡萄糖含量時，應注意葡萄糖量尺及/或檢驗試劑製造商的資訊，以確認麥芽糖不會干擾血中葡萄糖的判讀。注射“國血製劑益康”人類免疫球蛋白靜脈注射劑也可能導致一時性糖尿。",
+          "content_html": "<p><strong>血清干擾測試</strong></p><p>免疫球蛋白輸注後，病人血液中，各種被動輸入的抗體會瞬間增加，可能會導致血清學檢測中的偽陽性。</p><p style=\"text-align:justify;\">被動輸入對抗紅血球抗原（例如A、B、D的抗體）可能會干擾某些針對紅血球異體抗體的血清學檢測（例如Coombs檢測）。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>葡萄糖估計的干擾情形</strong></span></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑裡的麥芽糖可能會干擾血中葡萄糖的測量，導致高估血中葡萄糖含量。假如此葡萄糖測量是用於治療的指引，低血糖症可能會發生。只有特定使用葡萄糖去氫酵素的檢驗方法會被影響，所以當監控輸注</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑病人的葡萄糖含量時，應注意葡萄糖量尺及</span>/<span style=\"font-family:細明體;\">或檢驗試劑製造商的資訊，以確認麥芽糖不會干擾血中葡萄糖的判讀。注射</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑也可能導致一時性糖尿。</span></p><p style=\"margin-left:21.25pt;\">&nbsp;</p>",
+          "search_text": "5.4\n實驗室檢測\n血清干擾測試 免疫球蛋白輸注後，病人血液中，各種被動輸入的抗體會瞬間增加，可能會導致血清學檢測中的偽陽性。 被動輸入對抗紅血球抗原（例如A、B、D的抗體）可能會干擾某些針對紅血球異體抗體的血清學檢測（例如Coombs檢測）。 葡萄糖估計的干擾情形 “國血製劑益康”人類免疫球蛋白靜脈注射劑裡的麥芽糖可能會干擾血中葡萄糖的測量，導致高估血中葡萄糖含量。假如此葡萄糖測量是用於治療的指引，低血糖症可能會發生。只有特定使用葡萄糖去氫酵素的檢驗方法會被影響，所以當監控輸注“國血製劑益康”人類免疫球蛋白靜脈注射劑病人的葡萄糖含量時，應注意葡萄糖量尺及/或檢驗試劑製造商的資訊，以確認麥芽糖不會干擾血中葡萄糖的判讀。注射“國血製劑益康”人類免疫球蛋白靜脈注射劑也可能導致一時性糖尿。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "治療期間記錄 建議每次給病人“國血製劑益康”人類免疫球蛋白靜脈注射劑時，都要記錄“國血製劑益康”人類免疫球蛋白靜脈注射劑的名稱和批號，以維持病人與產品批次的連結。",
+          "content_html": "<p><strong>治療期間記錄</strong></p><p>建議每次給病人“國血製劑益康”人類免疫球蛋白靜脈注射劑時，都要記錄“國血製劑益康”人類免疫球蛋白靜脈注射劑的名稱和批號，以維持病人與產品批次的連結。</p>",
+          "search_text": "5.5\n其他注意事項\n治療期間記錄 建議每次給病人“國血製劑益康”人類免疫球蛋白靜脈注射劑時，都要記錄“國血製劑益康”人類免疫球蛋白靜脈注射劑的名稱和批號，以維持病人與產品批次的連結。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "懷孕期間使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對懷孕婦女施用 “國血製劑益康”人類免疫球蛋白靜脈注射劑要特別小心。臨床經驗顯示使用免疫球蛋白，對懷孕過程、或是胎兒及新生兒並無出現有害的影響。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">懷孕期間使用</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對懷孕婦女施用</span> “<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑要特別小心。臨床經驗顯示使用免疫球蛋白，對懷孕過程、或是胎兒及新生兒並無出現有害的影響。</span></p>",
+          "search_text": "6.1\n懷孕\n懷孕期間使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對懷孕婦女施用 “國血製劑益康”人類免疫球蛋白靜脈注射劑要特別小心。臨床經驗顯示使用免疫球蛋白，對懷孕過程、或是胎兒及新生兒並無出現有害的影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "哺乳期間使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對哺乳婦女施用 “國血製劑益康”人類免疫球蛋白靜脈注射劑要特別小心。免疫球蛋白會分泌到母乳裡面。臨床經驗顯示使用免疫球蛋白，對新生兒並無出現有害的影響。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">哺乳期間使用</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對哺乳婦女施用</span> “<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑要特別小心。免疫球蛋白會分泌到母乳裡面。臨床經驗顯示使用免疫球蛋白，對新生兒並無出現有害的影響。</span></p>",
+          "search_text": "6.2\n哺乳\n哺乳期間使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對哺乳婦女施用 “國血製劑益康”人類免疫球蛋白靜脈注射劑要特別小心。免疫球蛋白會分泌到母乳裡面。臨床經驗顯示使用免疫球蛋白，對新生兒並無出現有害的影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑尚未有生育力方面相關的研究。臨床經驗顯示使用免疫球蛋白，對生育力並無出現有害的影響。",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑尚未有生育力方面相關的研究。臨床經驗顯示使用免疫球蛋白，對生育力並無出現有害的影響。</span></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n“國血製劑益康”人類免疫球蛋白靜脈注射劑尚未有生育力方面相關的研究。臨床經驗顯示使用免疫球蛋白，對生育力並無出現有害的影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "尚未有臨床試驗確立“國血製劑益康”人類免疫球蛋白靜脈注射劑使用於小兒族群。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">尚未有臨床試驗確立</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑使用於小兒族群。</span></p>",
+          "search_text": "6.4\n小兒\n尚未有臨床試驗確立“國血製劑益康”人類免疫球蛋白靜脈注射劑使用於小兒族群。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的臨床試驗未包含足夠數目的65歲或以上的個體，故無法決定是否與較年輕個體有反應差異。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">使用</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的臨床試驗未包含足夠數目的</span>65<span style=\"font-family:細明體;\">歲或以上的個體，故無法決定是否與較年輕個體有反應差異。</span></p>",
+          "search_text": "6.5\n老年人\n使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的臨床試驗未包含足夠數目的65歲或以上的個體，故無法決定是否與較年輕個體有反應差異。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑與其它藥物的交互作用情形，還沒有相關研究報告。 活性滅毒疫苗 經輸入而獲得的抗體 (被動免疫抗體)，會干擾人體對活性減毒疫苗的反應。因此，接種疫苗，例如小兒麻痺症，腮腺炎，德國麻疹，麻疹和水痘/水痘疫苗，必須延到給藥後約三個月再施打；施打疫苗後，也必須至少等兩個星期以上，才能使用免疫球蛋白。 如果是麻疹疫苗接種，藥效下降情形可能會持續長達一年。 因此，接受麻疹疫苗接種的病人應檢查其抗體狀態。",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑與其它藥物的交互作用情形，還沒有相關研究報告。</span></p><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>活性滅毒疫苗</strong></span></p><p><span style=\"font-family:細明體;\">經輸入而獲得的抗體</span> (<span style=\"font-family:細明體;\">被動免疫抗體</span>)<span style=\"font-family:細明體;\">，會干擾人體對活性減毒疫苗的反應。因此，接種疫苗，例如小兒麻痺症，腮腺炎，德國麻疹，麻疹和水痘</span>/<span style=\"font-family:細明體;\">水痘疫苗，必須延到給藥後約三個月再施打；施打疫苗後，也必須至少等兩個星期以上，才能使用免疫球蛋白。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">如果是麻疹疫苗接種，藥效下降情形可能會持續長達一年。</span>&nbsp;<span style=\"font-family:細明體;\">因此，接受麻疹疫苗接種的病人應檢查其抗體狀態。</span></p>",
+          "search_text": "7\n交互作用\n“國血製劑益康”人類免疫球蛋白靜脈注射劑與其它藥物的交互作用情形，還沒有相關研究報告。 活性滅毒疫苗 經輸入而獲得的抗體 (被動免疫抗體)，會干擾人體對活性減毒疫苗的反應。因此，接種疫苗，例如小兒麻痺症，腮腺炎，德國麻疹，麻疹和水痘/水痘疫苗，必須延到給藥後約三個月再施打；施打疫苗後，也必須至少等兩個星期以上，才能使用免疫球蛋白。 如果是麻疹疫苗接種，藥效下降情形可能會持續長達一年。 因此，接受麻疹疫苗接種的病人應檢查其抗體狀態。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "未注射過免疫球蛋白的病人可能會有較高產生不良反應的頻率，包含那些本質上較輕微的。病人對靜脈注射免疫球蛋白的反應，大多與注射的速度有關，而且都發生在注射後的第一個小時內，病人的生命跡象和一般狀況，在注射期間應該隨時加以監控。 常見與靜脈注射免疫球蛋白有關的反應 可能發生的反應類型包括：身體不適、腹痛、頭痛、胸悶 (chest tightness)、臉部潮紅或臉色蒼白、紅斑、躁熱感 (hot sensations)、呼吸困難 (dyspnea or respiratory difficulty)、非蕁麻皮膚疹 (non-urticarial skin rash)、皮膚血管炎、手掌/腳掌汗疱、發癢、組織腫大、血壓改變、噁心或嘔吐。如果在靜脈注射“國血製劑益康”人類免疫球蛋白靜脈注射劑時發生任何這種反應，必須暫停注射動作，直到病人臨床狀況改善 (5到10分鐘)，然後再小心地以緩慢一點的速度恢復注射。 有些病人對靜脈注射免疫球蛋白 (IVIg) 產生的不良反應可能會有延遲發生的現象，例如，噁心、嘔吐、胸痛、寒顫、暈眩、腿痛或關節痛。這些不良反應會發生在注射結束以後，但通常在 24 小時之內。 對IVIg產生嚴重的過敏反應，例如蕁麻疹 (urticaria)、血管性水腫 (angioedema)、支氣管痙攣 (bronchospasm)、或低血壓，很少發生。如果對 “國血製劑益康”人類免疫球蛋白靜脈注射劑產生過敏反應，注射動作應該停止，並且對病人施以腎上腺素 (adrenaline)、氧氣、抗組織氨和類固醇治療。 雖然極少發生，還是有一些與 IVIg 治療有關的溶血性貧血 (hemolytic anemia)，以及嗜中性白血球減少症 (neutropenia) 發生的報告。 少數接受 IVIg 治療的病人，發生血清之氨基轉移酶 (transaminases： AST, ALT, gamma-GT) 輕微到中度的濃度提高現象，這些改變都是暫時性的，而且與肝炎的感染無關。部份未治療的Guillain‑Barré症候群(GBS)病人曾被報導有肝功能指數上升。 接受 IVIg 治療的病人當中，曾有報告發生無菌性腦膜炎(aseptic meningitis syndrome (AMS)) 和靜脈炎 (thrombophlebitis) (請參見「第5.1節 警語/注意事項」章節)。 血栓栓塞事件已被報導和IVIg治療有關。雖然極少發生，但是有人報告過，腎臟機能障礙和急性腎臟衰竭的發生 (請參見「第5.1節 警語/注意事項」章節)。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">未注射過免疫球蛋白的病人可能會有較高產生不良反應的頻率，包含那些本質上較輕微的。病人對靜脈注射免疫球蛋白的反應，大多與注射的速度有關，而且都發生在注射後的第一個小時內，病人的生命跡象和一般狀況，在注射期間應該隨時加以監控。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>常見與靜脈注射免疫球蛋白有關的反應</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">可能發生的反應類型包括：身體不適、腹痛、頭痛、胸悶</span> (chest tightness)<span style=\"font-family:細明體;\">、臉部潮紅或臉色蒼白、紅斑、躁熱感</span> (hot sensations)<span style=\"font-family:細明體;\">、呼吸困難</span> (dyspnea or respiratory difficulty)<span style=\"font-family:細明體;\">、非蕁麻皮膚疹</span> (non-urticarial skin rash)<span style=\"font-family:細明體;\">、皮膚血管炎、手掌</span>/<span style=\"font-family:細明體;\">腳掌汗疱、發癢、組織腫大、血壓改變、噁心或嘔吐。如果在靜脈注射</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑時發生任何這種反應，必須暫停注射動作，直到病人臨床狀況改善</span> (5<span style=\"font-family:細明體;\">到</span>10<span style=\"font-family:細明體;\">分鐘</span>)<span style=\"font-family:細明體;\">，然後再小心地以緩慢一點的速度恢復注射。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">有些病人對靜脈注射免疫球蛋白</span> (IVIg)&nbsp;<span style=\"font-family:細明體;\">產生的不良反應可能會有延遲發生的現象，例如，噁心、嘔吐、胸痛、寒顫、暈眩、腿痛或關節痛。這些不良反應會發生在注射結束以後，但通常在</span> 24&nbsp;<span style=\"font-family:細明體;\">小時之內。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對</span>IVIg<span style=\"font-family:細明體;\">產生嚴重的過敏反應，例如蕁麻疹</span> (urticaria)<span style=\"font-family:細明體;\">、血管性水腫</span> (angioedema)<span style=\"font-family:細明體;\">、支氣管痙攣</span> (bronchospasm)<span style=\"font-family:細明體;\">、或低血壓，很少發生。如果對</span> “<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑產生過敏反應，注射動作應該停止，並且對病人施以腎上腺素</span> (adrenaline)<span style=\"font-family:細明體;\">、氧氣、抗組織氨和類固醇治療。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">雖然極少發生，還是有一些與</span> IVIg&nbsp;<span style=\"font-family:細明體;\">治療有關的溶血性貧血</span> (hemolytic anemia)<span style=\"font-family:細明體;\">，以及嗜中性白血球減少症</span> (neutropenia)&nbsp;<span style=\"font-family:細明體;\">發生的報告。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">少數接受</span> IVIg&nbsp;<span style=\"font-family:細明體;\">治療的病人，發生血清之氨基轉移酶</span> (transaminases<span style=\"font-family:細明體;\">：</span> AST, ALT, gamma-GT)&nbsp;<span style=\"font-family:細明體;\">輕微到中度的濃度提高現象，這些改變都是暫時性的，而且與肝炎的感染無關。部份未治療的</span>Guillain‑Barré<span style=\"font-family:細明體;\">症候群</span>(GBS)<span style=\"font-family:細明體;\">病人曾被報導有肝功能指數上升。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">接受</span> IVIg&nbsp;<span style=\"font-family:細明體;\">治療的病人當中，曾有報告發生無菌性腦膜炎</span>(aseptic meningitis syndrome (AMS))&nbsp;<span style=\"font-family:細明體;\">和靜脈炎</span> (thrombophlebitis) (<span style=\"font-family:細明體;\">請參見「第</span>5.1<span style=\"font-family:細明體;\">節</span>&nbsp;<span style=\"font-family:細明體;\">警語</span>/<span style=\"font-family:細明體;\">注意事項」章節</span>)<span style=\"font-family:細明體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">血栓栓塞事件已被報導和</span>IVIg<span style=\"font-family:細明體;\">治療有關。雖然極少發生，但是有人報告過，腎臟機能障礙和急性腎臟衰竭的發生</span> (<span style=\"font-family:細明體;\">請參見「第</span>5.1<span style=\"font-family:細明體;\">節</span>&nbsp;<span style=\"font-family:細明體;\">警語</span>/<span style=\"font-family:細明體;\">注意事項」章節</span>)<span style=\"font-family:細明體;\">。</span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n未注射過免疫球蛋白的病人可能會有較高產生不良反應的頻率，包含那些本質上較輕微的。病人對靜脈注射免疫球蛋白的反應，大多與注射的速度有關，而且都發生在注射後的第一個小時內，病人的生命跡象和一般狀況，在注射期間應該隨時加以監控。 常見與靜脈注射免疫球蛋白有關的反應 可能發生的反應類型包括：身體不適、腹痛、頭痛、胸悶 (chest tightness)、臉部潮紅或臉色蒼白、紅斑、躁熱感 (hot sensations)、呼吸困難 (dyspnea or respiratory difficulty)、非蕁麻皮膚疹 (non-urticarial skin rash)、皮膚血管炎、手掌/腳掌汗疱、發癢、組織腫大、血壓改變、噁心或嘔吐。如果在靜脈注射“國血製劑益康”人類免疫球蛋白靜脈注射劑時發生任何這種反應，必須暫停注射動作，直到病人臨床狀況改善 (5到10分鐘)，然後再小心地以緩慢一點的速度恢復注射。 有些病人對靜脈注射免疫球蛋白 (IVIg) 產生的不良反應可能會有延遲發生的現象，例如，噁心、嘔吐、胸痛、寒顫、暈眩、腿痛或關節痛。這些不良反應會發生在注射結束以後，但通常在 24 小時之內。 對IVIg產生嚴重的過敏反應，例如蕁麻疹 (urticaria)、血管性水腫 (angioedema)、支氣管痙攣 (bronchospasm)、或低血壓，很少發生。如果對 “國血製劑益康”人類免疫球蛋白靜脈注射劑產生過敏反應，注射動作應該停止，並且對病人施以腎上腺素 (adrenaline)、氧氣、抗組織氨和類固醇治療。 雖然極少發生，還是有一些與 IVIg 治療有關的溶血性貧血 (hemolytic anemia)，以及嗜中性白血球減少症 (neutropenia) 發生的報告。 少數接受 IVIg 治療的病人，發生血清之氨基轉移酶 (transaminases： AST, ALT, gamma-GT) 輕微到中度的濃度提高現象，這些改變都是暫時性的，而且與肝炎的感染無關。部份未治療的Guillain‑Barré症候群(GBS)病人曾被報導有肝功能指數上升。 接受 IVIg 治療的病人當中，曾有報告發生無菌性腦膜炎(aseptic meningitis syndrome (AMS)) 和靜脈炎 (thrombophlebitis) (請參見「第5.1節 警語/注意事項」章節)。 血栓栓塞事件已被報導和IVIg治療有關。雖然極少發生，但是有人報告過，腎臟機能障礙和急性腎臟衰竭的發生 (請參見「第5.1節 警語/注意事項」章節)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "臨床試驗中與“Intragam® P”有關的反應 原發性免疫不全症 (Primary Immune Deficiency (PID) 在臨床試驗當中，在 35 個接受“Intragam® P”的原發性免疫不全症病人身上觀察到以下的不良反應(括弧內數字為發生該不良反應的病人人數)：頭痛 (8)、偏頭痛 (migraine) (2)、貧血 (2)、噁心 (2)、眩暈 (vertigo) (1)、嗜中性白血球減少症 (neutropenia) (1)、血小板減少症 (thrombocytopenia) (1)、疲勞倦怠 (1)。病人的每個月人類免疫球蛋白靜脈注射劑，劑量介於 0.2-0.67 g/kg體重。 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) 在臨床試驗當中，在 17 個接受“Intragam® P”的原發性血小板缺乏性紫斑症病人身上觀察到以下的不良反應(括弧內數字為發生該不良反應的病人人數)：頭痛 (10)、直接庫姆氏試驗 (Direct Coombs test) 陽性 (5)、溶血 (hemolysis) (4)、噁心 (3)、寒顫 (rigors) (3)、發燒 (2)、肌痛 (myalgia) (1)、嗜睡 (somnolence) (1)、腹痛 (1)、嘔吐 (1)、高血壓 (1)、潮紅 (1)、溶血性貧血 (hemolytic anemia) (1)、白血球減少 (leucopenia) (1)、網狀細胞增多 (reticulocytosis) (1)、淋巴球減少 (lymphopenia) (1)、過敏反應 (1)、熱潮紅 (1)、以及注射處發炎 (1)。病人的人類免疫球蛋白靜脈注射劑，靜脈注射劑量介於0.66‑2 g/kg體重，每天一次，連續注射 1‑3 天。",
+          "content_html": "<p><span style=\"font-family:細明體;\"><strong>臨床試驗中與</strong></span><strong>“Intragam<sup>®</sup>&nbsp;P”</strong><span style=\"font-family:細明體;\"><strong>有關的反應</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><u>原發性免疫不全症</u></span><u> (Primary Immune Deficiency (PID)</u></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">在臨床試驗當中，在</span> 35&nbsp;<span style=\"font-family:細明體;\">個接受</span>“Intragam<sup>®</sup>&nbsp;P”<span style=\"font-family:細明體;\">的原發性免疫不全症病人身上觀察到以下的不良反應</span>(<span style=\"font-family:細明體;\">括弧內數字為發生該不良反應的病人人數</span>)<span style=\"font-family:細明體;\">：頭痛</span> (8)<span style=\"font-family:細明體;\">、偏頭痛</span> (migraine) (2)<span style=\"font-family:細明體;\">、貧血</span> (2)<span style=\"font-family:細明體;\">、噁心</span> (2)<span style=\"font-family:細明體;\">、眩暈</span> (vertigo) (1)<span style=\"font-family:細明體;\">、嗜中性白血球減少症</span> (neutropenia) (1)<span style=\"font-family:細明體;\">、血小板減少症</span> (thrombocytopenia) (1)<span style=\"font-family:細明體;\">、疲勞倦怠</span> (1)<span style=\"font-family:細明體;\">。病人的每個月人類免疫球蛋白靜脈注射劑，劑量介於</span> 0.2-0.67&nbsp;g/kg<span style=\"font-family:細明體;\">體重。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><u>原發性血小板缺乏性紫斑症</u></span><u> (Idiopathic Thrombocytopenic Purpura (ITP))</u></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">在臨床試驗當中，在</span> 17&nbsp;<span style=\"font-family:細明體;\">個接受</span>“Intragam<sup>®</sup>&nbsp;P”<span style=\"font-family:細明體;\">的原發性血小板缺乏性紫斑症病人身上觀察到以下的不良反應</span>(<span style=\"font-family:細明體;\">括弧內數字為發生該不良反應的病人人數</span>)<span style=\"font-family:細明體;\">：頭痛</span> (10)<span style=\"font-family:細明體;\">、直接庫姆氏試驗</span> (Direct Coombs test)&nbsp;<span style=\"font-family:細明體;\">陽性</span> (5)<span style=\"font-family:細明體;\">、溶血</span> (hemolysis) (4)<span style=\"font-family:細明體;\">、噁心</span> (3)<span style=\"font-family:細明體;\">、寒顫</span> (rigors) (3)<span style=\"font-family:細明體;\">、發燒</span> (2)<span style=\"font-family:細明體;\">、肌痛</span> (myalgia) (1)<span style=\"font-family:細明體;\">、嗜睡</span> (somnolence) (1)<span style=\"font-family:細明體;\">、腹痛</span> (1)<span style=\"font-family:細明體;\">、嘔吐</span> (1)<span style=\"font-family:細明體;\">、高血壓</span> (1)<span style=\"font-family:細明體;\">、潮紅</span> (1)<span style=\"font-family:細明體;\">、溶血性貧血</span> (hemolytic anemia) (1)<span style=\"font-family:細明體;\">、白血球減少</span> (leucopenia) (1)<span style=\"font-family:細明體;\">、網狀細胞增多</span> (reticulocytosis) (1)<span style=\"font-family:細明體;\">、淋巴球減少</span> (lymphopenia) (1)<span style=\"font-family:細明體;\">、過敏反應</span> (1)<span style=\"font-family:細明體;\">、熱潮紅</span> (1)<span style=\"font-family:細明體;\">、以及注射處發炎</span> (1)<span style=\"font-family:細明體;\">。病人的人類免疫球蛋白靜脈注射劑，靜脈注射劑量介於</span>0.66‑2&nbsp;g/kg<span style=\"font-family:細明體;\">體重，每天一次，連續注射</span> 1‑3&nbsp;<span style=\"font-family:細明體;\">天。</span></p>",
+          "search_text": "8.2\n臨床試驗經驗\n臨床試驗中與“Intragam® P”有關的反應 原發性免疫不全症 (Primary Immune Deficiency (PID) 在臨床試驗當中，在 35 個接受“Intragam® P”的原發性免疫不全症病人身上觀察到以下的不良反應(括弧內數字為發生該不良反應的病人人數)：頭痛 (8)、偏頭痛 (migraine) (2)、貧血 (2)、噁心 (2)、眩暈 (vertigo) (1)、嗜中性白血球減少症 (neutropenia) (1)、血小板減少症 (thrombocytopenia) (1)、疲勞倦怠 (1)。病人的每個月人類免疫球蛋白靜脈注射劑，劑量介於 0.2-0.67 g/kg體重。 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) 在臨床試驗當中，在 17 個接受“Intragam® P”的原發性血小板缺乏性紫斑症病人身上觀察到以下的不良反應(括弧內數字為發生該不良反應的病人人數)：頭痛 (10)、直接庫姆氏試驗 (Direct Coombs test) 陽性 (5)、溶血 (hemolysis) (4)、噁心 (3)、寒顫 (rigors) (3)、發燒 (2)、肌痛 (myalgia) (1)、嗜睡 (somnolence) (1)、腹痛 (1)、嘔吐 (1)、高血壓 (1)、潮紅 (1)、溶血性貧血 (hemolytic anemia) (1)、白血球減少 (leucopenia) (1)、網狀細胞增多 (reticulocytosis) (1)、淋巴球減少 (lymphopenia) (1)、過敏反應 (1)、熱潮紅 (1)、以及注射處發炎 (1)。病人的人類免疫球蛋白靜脈注射劑，靜脈注射劑量介於0.66‑2 g/kg體重，每天一次，連續注射 1‑3 天。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "上市後使用與Intragam® P有關的反應 非O型血型(A型、B型或AB型血型)的病人接受高劑量Intragam® P治療後(每四週大於0.4 g/kg)，被報導有與出現anti-A及/或 anti-B抗體有關的溶血性貧血，特別是那些骨髓細胞量減少或造血幹細胞移植後的病人。 除了在臨床試驗觀察到的反應，上市後使用也觀察到下列反應： 免疫系統疾病：過敏反應/嚴重過敏反應 神經系統疾病：無菌性腦膜炎、感覺異常、顫抖症 血管疾病：血栓性栓塞 皮膚和皮下組織疾病：剝落性皮膚炎 肌肉骨骼及結締組織疾病：關節疼痛 一般疾病及注射部位反應：注射部位反應、疼痛 上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。",
+          "content_html": "<p><span style=\"font-family:細明體;\"><strong>上市後使用與</strong></span><strong>Intragam<sup>®</sup>&nbsp;P</strong><span style=\"font-family:細明體;\"><strong>有關的反應</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">非</span>O<span style=\"font-family:細明體;\">型血型</span>(A<span style=\"font-family:細明體;\">型</span>、B型<span style=\"font-family:細明體;\">或</span>AB<span style=\"font-family:細明體;\">型血型</span>)<span style=\"font-family:細明體;\">的病人接受高劑量</span>Intragam<sup>®</sup>&nbsp;P<span style=\"font-family:細明體;\">治療後</span>(<span style=\"font-family:細明體;\">每四週大於</span>0.4&nbsp;g/kg)<span style=\"font-family:細明體;\">，被報導有與出現</span>anti-A及/或 anti-B<span style=\"font-family:細明體;\">抗體有關的溶血性貧血，特別是那些骨髓細胞量減少或造血幹細胞移植後的病人。</span></p><p style=\"text-align:justify;\">除了在臨床試驗觀察到的反應，上市後使用也觀察到下列反應：</p><p style=\"text-align:justify;\">免疫系統疾病：過敏反應/嚴重過敏反應</p><p style=\"text-align:justify;\">神經系統疾病：無菌性腦膜炎、感覺異常、顫抖症</p><p style=\"text-align:justify;\">血管疾病：血栓性栓塞</p><p style=\"text-align:justify;\">皮膚和皮下組織疾病：剝落性皮膚炎</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">肌肉骨骼及結締組織疾病：關節疼痛</p><p style=\"text-align:justify;\">一般疾病及注射部位反應：注射部位反應、疼痛</p><p style=\"text-align:justify;\">上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。</p>",
+          "search_text": "8.3\n上市後經驗\n上市後使用與Intragam® P有關的反應 非O型血型(A型、B型或AB型血型)的病人接受高劑量Intragam® P治療後(每四週大於0.4 g/kg)，被報導有與出現anti-A及/或 anti-B抗體有關的溶血性貧血，特別是那些骨髓細胞量減少或造血幹細胞移植後的病人。 除了在臨床試驗觀察到的反應，上市後使用也觀察到下列反應： 免疫系統疾病：過敏反應/嚴重過敏反應 神經系統疾病：無菌性腦膜炎、感覺異常、顫抖症 血管疾病：血栓性栓塞 皮膚和皮下組織疾病：剝落性皮膚炎 肌肉骨骼及結締組織疾病：關節疼痛 一般疾病及注射部位反應：注射部位反應、疼痛 上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "使用過量可能造成輸液過多(fluid overload) 和高黏度血症 (hyperviscosity)，尤其是在老年人和患有腎臟疾病的病人。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">使用過量可能造成輸液過多</span>(fluid overload)&nbsp;<span style=\"font-family:細明體;\">和高黏度血症</span> (hyperviscosity)<span style=\"font-family:細明體;\">，尤其是在老年人和患有腎臟疾病的病人。</span></p>",
+          "search_text": "9\n過量\n使用過量可能造成輸液過多(fluid overload) 和高黏度血症 (hyperviscosity)，尤其是在老年人和患有腎臟疾病的病人。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "“國血製劑益康”人類免疫球蛋白靜脈注射劑包含捐血者功能完整的IgG，是具廣效抵禦感染物的抗體。適量的IgG可將病人異常低的IgG值恢復到正常範圍。 除替代療法外，用於其他適應症的作用機轉尚未完全明瞭，但具有免疫調節效果。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是由大量匯集的人類血漿，經過色層分析法分離純化而來。其蛋白質未經過任何化學或酵素作用改變過。其生產過程包含用以降低病毒傳染可能性的專用步驟，包括巴斯德氏消毒法 (60°C加熱10小時)，以及以低pH 處理。 “國血製劑益康”人類免疫球蛋白靜脈注射劑之臨床試驗係根據Intragam® P。Intragam® P係為由CSL Limited生產並在澳洲銷售之可對照經純化人類靜脈注射免疫球蛋白(IVIg)。",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑包含捐血者功能完整的</span>IgG<span style=\"font-family:細明體;\">，是具廣效抵禦感染物的抗體。適量的</span>IgG<span style=\"font-family:細明體;\">可將病人異常低的</span>IgG<span style=\"font-family:細明體;\">值恢復到正常範圍。</span>&nbsp;<span style=\"font-family:細明體;\">除替代療法外，用於其他適應症的作用機轉尚未完全明瞭，但具有免疫調節效果。</span></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑是由大量匯集的人類血漿，經過色層分析法分離純化而來。其蛋白質未經過任何化學或酵素作用改變過。其生產過程包含用以降低病毒傳染可能性的專用步驟，包括巴斯德氏消毒法</span> (60°C<span style=\"font-family:細明體;\">加熱</span>10<span style=\"font-family:細明體;\">小時</span>)<span style=\"font-family:細明體;\">，以及以低</span>pH&nbsp;<span style=\"font-family:細明體;\">處理。</span></p><p style=\"text-align:justify;\">“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑之臨床試驗係根據</span>Intragam<sup>®</sup>&nbsp;P<span style=\"font-family:細明體;\">。</span>Intragam<sup>®</sup>&nbsp;P<span style=\"font-family:細明體;\">係為由</span>CSL Limited<span style=\"font-family:細明體;\">生產並在澳洲銷售之可對照經純化人類靜脈注射免疫球蛋白</span>(IVIg)<span style=\"font-family:細明體;\">。</span></p>",
+          "search_text": "10.1\n作用機轉\n“國血製劑益康”人類免疫球蛋白靜脈注射劑包含捐血者功能完整的IgG，是具廣效抵禦感染物的抗體。適量的IgG可將病人異常低的IgG值恢復到正常範圍。 除替代療法外，用於其他適應症的作用機轉尚未完全明瞭，但具有免疫調節效果。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是由大量匯集的人類血漿，經過色層分析法分離純化而來。其蛋白質未經過任何化學或酵素作用改變過。其生產過程包含用以降低病毒傳染可能性的專用步驟，包括巴斯德氏消毒法 (60°C加熱10小時)，以及以低pH 處理。 “國血製劑益康”人類免疫球蛋白靜脈注射劑之臨床試驗係根據Intragam® P。Intragam® P係為由CSL Limited生產並在澳洲銷售之可對照經純化人類靜脈注射免疫球蛋白(IVIg)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "基因毒性 尚未有“國血製劑益康”人類免疫球蛋白靜脈注射在基因毒性的研究。 致癌毒性 尚未有“國血製劑益康”人類免疫球蛋白靜脈注射在致癌毒性的研究。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>基因毒性</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">尚未有</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射在基因毒性的研究。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>致癌毒性</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">尚未有</span>“<span style=\"font-family:細明體;\">國血製劑益康</span>”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射在致癌毒性的研究。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n基因毒性 尚未有“國血製劑益康”人類免疫球蛋白靜脈注射在基因毒性的研究。 致癌毒性 尚未有“國血製劑益康”人類免疫球蛋白靜脈注射在致癌毒性的研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "在每月一次，施以Intragam® P 6 個月之後，對 11 個( 9 個男性，年紀介於 28‑76 歲之間)，患有原發性免疫不全症 (primary immunodeficiency disorder) 的病人，測定其 IgG 的穩定狀態動力學 (steady-state kinetic) 參數，劑量視個別病人而異，介於 0.35‑0.53 g/kg。平均血清 IgG 濃度從谷底的 7.4±1.1 g/L，到高峰的 15.8±1.7 g/L。平均清除率是 4.1±0.8 mL/h。平均半衰期為 39.7±7.8 天。平均回復率 (注射Intragam® P之後，血清 IgG 濃度增加到預期濃度的百分比值) 為 44.0±2.0% (請參見「第12節 臨床試驗資料」章節)。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">在每月一次，施以</span>Intragam<sup>®</sup>&nbsp;P 6&nbsp;<span style=\"font-family:細明體;\">個月之後，對</span> 11&nbsp;<span style=\"font-family:細明體;\">個</span>( 9&nbsp;<span style=\"font-family:細明體;\">個男性，年紀介於</span> 28‑76&nbsp;<span style=\"font-family:細明體;\">歲之間</span>)<span style=\"font-family:細明體;\">，患有原發性免疫不全症</span> (primary immunodeficiency disorder)&nbsp;<span style=\"font-family:細明體;\">的病人，測定其</span> IgG&nbsp;<span style=\"font-family:細明體;\">的穩定狀態動力學</span> (steady-state kinetic)&nbsp;<span style=\"font-family:細明體;\">參數，劑量視個別病人而異，介於</span> 0.35‑0.53&nbsp;g/kg<span style=\"font-family:細明體;\">。平均血清</span> IgG&nbsp;<span style=\"font-family:細明體;\">濃度從谷底的</span> 7.4±1.1&nbsp;g/L<span style=\"font-family:細明體;\">，到高峰的</span> 15.8±1.7&nbsp;g/L<span style=\"font-family:細明體;\">。平均清除率是</span> 4.1±0.8&nbsp;mL/h<span style=\"font-family:細明體;\">。平均半衰期為</span> 39.7±7.8&nbsp;<span style=\"font-family:細明體;\">天。平均回復率</span> (<span style=\"font-family:細明體;\">注射</span>Intragam<sup>®</sup>&nbsp;P<span style=\"font-family:細明體;\">之後，血清</span> IgG&nbsp;<span style=\"font-family:細明體;\">濃度增加到預期濃度的百分比值</span>)&nbsp;<span style=\"font-family:細明體;\">為</span> 44.0±2.0% (<span style=\"font-family:細明體;\">請參見「<strong>第</strong></span><strong>12</strong><span style=\"font-family:細明體;\"><strong>節</strong></span>&nbsp;<span style=\"font-family:細明體;\"><strong>臨床試驗資料</strong>」章節</span>)<span style=\"font-family:細明體;\">。</span></p>",
+          "search_text": "11\n藥物動力學特性\n在每月一次，施以Intragam® P 6 個月之後，對 11 個( 9 個男性，年紀介於 28‑76 歲之間)，患有原發性免疫不全症 (primary immunodeficiency disorder) 的病人，測定其 IgG 的穩定狀態動力學 (steady-state kinetic) 參數，劑量視個別病人而異，介於 0.35‑0.53 g/kg。平均血清 IgG 濃度從谷底的 7.4±1.1 g/L，到高峰的 15.8±1.7 g/L。平均清除率是 4.1±0.8 mL/h。平均半衰期為 39.7±7.8 天。平均回復率 (注射Intragam® P之後，血清 IgG 濃度增加到預期濃度的百分比值) 為 44.0±2.0% (請參見「第12節 臨床試驗資料」章節)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "原發性免疫不全症 (Primary Immune Deficiency (PID)) 對35 個患有原發性免疫缺陷病的病人 (年紀介於 6‑76 歲；男性 21 位)試驗 “Intragam® P”人類免疫球蛋白靜脈注射劑的有效性。每月一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續 6 個月，劑量視個別病人而異，介於 0.2‑0.67 g/kg 之間。在這 6 個月期間，每個病人平均住院天數為 2.8±9.0。因為病況而沒去工作或上學的平均天數為 5.3±6.4。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) 對17 個患有 ITP (6 個急性、11 個慢性) 的病人 (年紀介於 21‑72 歲；男性 5 位)試驗“Intragam® P”人類免疫球蛋白靜脈注射劑的有效性。每天一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續 1-3 天。人類免疫球蛋白靜脈注射劑的劑量視個別病人而異，累積劑量最高達到 2 g/kg體重。施以人類免疫球蛋白靜脈注射劑治療之後，其中有 13 個病人(76.5%) 的血小板數目到達良好(50 x 109/L‑150 x 109/L)，或很好(>150 x 109/L). 的標準，其血小板數目可維持在³50 x 109/L 最久達到 35 天，平均是 17.24天(95% 信賴區間 (CI) 10.35, 24.12)。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。 這兩次試驗中所發生的任何不良反應，都記錄在 「第8.1節 臨床重要副作用/不良反應」 章節之中。 Guillain-Barré症候群 (Guillain-Barré Syndrome (GBS)) 有數個隨機對照的臨床試驗證實使用人類靜脈注射免疫球蛋白(IVIg)治療Guillain-Barré症候群病人的有效性與安全性。一項以379位病人的大型多中心臨床試驗(年紀大於16歲且在過去14天內有神經病變症狀)隨機分成3個治療組(IVIg 人數130人、血漿置換術人數121人、血漿置換術後進行IVIg人數 128人)。IVIg 的使用劑量為每日0.4 g/kg 體重，連續五天。 整體來說，對於Guillain-Barré症候群治療，IVIg和血漿置換術的效果相當。IVIg在改善初級及二級GBS療效參數，如失能等級、肺活量、末稍喚起混合肌肉行動潛力、可不經協助行走所需時間、平均恢復率等是有效的。 文獻報告，使用IVIg治療GBS的不良反應與和治療其他適應症的一致。(見「第8.1節 臨床重要副作用/不良反應」 章節) Intragam® P 和與其他IVIg具有相似的特性，且已被用於Guillain-Barré症候群管理。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>原發性免疫不全症</strong></span><strong> (Primary Immune Deficiency (PID))</strong></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對</span>35&nbsp;<span style=\"font-family:細明體;\">個患有原發性免疫缺陷病的病人</span> (<span style=\"font-family:細明體;\">年紀介於</span> 6‑76&nbsp;<span style=\"font-family:細明體;\">歲；男性</span> 21&nbsp;<span style=\"font-family:細明體;\">位</span>)<span style=\"font-family:細明體;\">試驗</span> “Intragam<sup>®</sup>&nbsp;P”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的有效性。每月一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續</span> 6&nbsp;<span style=\"font-family:細明體;\">個月，劑量視個別病人而異，介於</span> 0.2‑0.67&nbsp;g/kg&nbsp;<span style=\"font-family:細明體;\">之間。在這</span> 6&nbsp;<span style=\"font-family:細明體;\">個月期間，每個病人平均住院天數為</span> 2.8±9.0<span style=\"font-family:細明體;\">。因為病況而沒去工作或上學的平均天數為</span> 5.3±6.4<span style=\"font-family:細明體;\">。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>原發性血小板缺乏性紫斑症</strong></span><strong> (Idiopathic Thrombocytopenic Purpura (ITP))</strong></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">對</span>17 <span style=\"font-family:細明體;\">個患有</span> ITP (6&nbsp;<span style=\"font-family:細明體;\">個急性、</span>11&nbsp;<span style=\"font-family:細明體;\">個慢性</span>)&nbsp;<span style=\"font-family:細明體;\">的病人</span> (<span style=\"font-family:細明體;\">年紀介於</span> 21‑72&nbsp;<span style=\"font-family:細明體;\">歲；男性</span> 5&nbsp;<span style=\"font-family:細明體;\">位</span>)<span style=\"font-family:細明體;\">試驗</span>“Intragam<sup>®</sup>&nbsp;P”<span style=\"font-family:細明體;\">人類免疫球蛋白靜脈注射劑的有效性。每天一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續</span> 1-3&nbsp;<span style=\"font-family:細明體;\">天。人類免疫球蛋白靜脈注射劑的劑量視個別病人而異，累積劑量最高達到</span> 2&nbsp;g/kg<span style=\"font-family:細明體;\">體重。施以人類免疫球蛋白靜脈注射劑治療之後，其中有</span> 13&nbsp;<span style=\"font-family:細明體;\">個病人</span>(76.5%)&nbsp;<span style=\"font-family:細明體;\">的血小板數目到達良好</span>(50&nbsp;x&nbsp;10<sup>9</sup>/L‑150&nbsp;x&nbsp;10<sup>9</sup>/L)<span style=\"font-family:細明體;\">，或很好</span>(&gt;150&nbsp;x&nbsp;10<sup>9</sup>/L).&nbsp;<span style=\"font-family:細明體;\">的標準，其血小板數目可維持在</span>³50&nbsp;x&nbsp;10<sup>9</sup>/L&nbsp;<span style=\"font-family:細明體;\">最久達到</span> 35&nbsp;<span style=\"font-family:細明體;\">天，平均是</span> 17.24<span style=\"font-family:細明體;\">天</span>(95%&nbsp;<span style=\"font-family:細明體;\">信賴區間</span> (CI) 10.35, 24.12)<span style=\"font-family:細明體;\">。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">這兩次試驗中所發生的任何不良反應，都記錄在</span>&nbsp;<span style=\"font-family:細明體;\">「<strong>第</strong></span><strong>8.1</strong><span style=\"font-family:細明體;\"><strong>節</strong></span><strong>&nbsp;</strong><span style=\"font-family:細明體;\"><strong>臨床重要副作用</strong></span><strong>/</strong><span style=\"font-family:細明體;\"><strong>不良反應</strong>」</span>&nbsp;<span style=\"font-family:細明體;\">章節之中。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><strong>Guillain-Barré</strong><span style=\"font-family:細明體;\"><strong>症候群</strong></span><strong>&nbsp;(Guillain-Barré Syndrome (GBS))</strong></p><p><span style=\"font-family:細明體;\">有數個隨機對照的臨床試驗證實使用人類靜脈注射免疫球蛋白</span>(IVIg)<span style=\"font-family:細明體;\">治療</span>Guillain-Barré<span style=\"font-family:細明體;\">症候群病人的有效性與安全性。一項以</span>379<span style=\"font-family:細明體;\">位病人的大型多中心臨床試驗</span>(<span style=\"font-family:細明體;\">年紀大於</span>16<span style=\"font-family:細明體;\">歲且在過去</span>14<span style=\"font-family:細明體;\">天內有神經病變症狀</span>)<span style=\"font-family:細明體;\">隨機分成</span>3<span style=\"font-family:細明體;\">個治療組</span>(IVIg&nbsp;<span style=\"font-family:細明體;\">人數</span>130<span style=\"font-family:細明體;\">人、血漿置換術人數</span>121<span style=\"font-family:細明體;\">人、血漿置換術後進行</span>IVIg<span style=\"font-family:細明體;\">人數</span> 128<span style=\"font-family:細明體;\">人</span>)<span style=\"font-family:細明體;\">。</span>IVIg&nbsp;<span style=\"font-family:細明體;\">的使用劑量為每日</span>0.4 g/kg&nbsp;<span style=\"font-family:細明體;\">體重，連續五天。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">整體來說，對於</span>Guillain-Barré<span style=\"font-family:細明體;\">症候群治療，</span>IVIg<span style=\"font-family:細明體;\">和血漿置換術的效果相當。</span>IVIg<span style=\"font-family:細明體;\">在改善初級及二級</span>GBS<span style=\"font-family:細明體;\">療效參數，如失能等級、肺活量、末稍喚起混合肌肉行動潛力、可不經協助行走所需時間、平均恢復率等是有效的。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">文獻報告，使用</span>IVIg<span style=\"font-family:細明體;\">治療</span>GBS<span style=\"font-family:細明體;\">的不良反應與和治療其他適應症的一致。</span>(<span style=\"font-family:細明體;\">見「<strong>第</strong></span><strong>8.1</strong><span style=\"font-family:細明體;\"><strong>節</strong></span><strong>&nbsp;</strong><span style=\"font-family:細明體;\"><strong>臨床重要副作用</strong></span><strong>/</strong><span style=\"font-family:細明體;\"><strong>不良反應</strong>」</span>&nbsp;<span style=\"font-family:細明體;\">章節</span>)</p><p style=\"text-align:justify;\">Intragam<sup>®</sup>&nbsp;P&nbsp;<span style=\"font-family:細明體;\">和與其他</span>IVIg<span style=\"font-family:細明體;\">具有相似的特性，且已被用於</span>Guillain-Barré症候群管理<span style=\"font-family:細明體;\">。</span></p>",
+          "search_text": "12\n臨床試驗資料\n原發性免疫不全症 (Primary Immune Deficiency (PID)) 對35 個患有原發性免疫缺陷病的病人 (年紀介於 6‑76 歲；男性 21 位)試驗 “Intragam® P”人類免疫球蛋白靜脈注射劑的有效性。每月一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續 6 個月，劑量視個別病人而異，介於 0.2‑0.67 g/kg 之間。在這 6 個月期間，每個病人平均住院天數為 2.8±9.0。因為病況而沒去工作或上學的平均天數為 5.3±6.4。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) 對17 個患有 ITP (6 個急性、11 個慢性) 的病人 (年紀介於 21‑72 歲；男性 5 位)試驗“Intragam® P”人類免疫球蛋白靜脈注射劑的有效性。每天一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續 1-3 天。人類免疫球蛋白靜脈注射劑的劑量視個別病人而異，累積劑量最高達到 2 g/kg體重。施以人類免疫球蛋白靜脈注射劑治療之後，其中有 13 個病人(76.5%) 的血小板數目到達良好(50 x 109/L‑150 x 109/L)，或很好(>150 x 109/L). 的標準，其血小板數目可維持在³50 x 109/L 最久達到 35 天，平均是 17.24天(95% 信賴區間 (CI) 10.35, 24.12)。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。 這兩次試驗中所發生的任何不良反應，都記錄在 「第8.1節 臨床重要副作用/不良反應」 章節之中。 Guillain-Barré症候群 (Guillain-Barré Syndrome (GBS)) 有數個隨機對照的臨床試驗證實使用人類靜脈注射免疫球蛋白(IVIg)治療Guillain-Barré症候群病人的有效性與安全性。一項以379位病人的大型多中心臨床試驗(年紀大於16歲且在過去14天內有神經病變症狀)隨機分成3個治療組(IVIg 人數130人、血漿置換術人數121人、血漿置換術後進行IVIg人數 128人)。IVIg 的使用劑量為每日0.4 g/kg 體重，連續五天。 整體來說，對於Guillain-Barré症候群治療，IVIg和血漿置換術的效果相當。IVIg在改善初級及二級GBS療效參數，如失能等級、肺活量、末稍喚起混合肌肉行動潛力、可不經協助行走所需時間、平均恢復率等是有效的。 文獻報告，使用IVIg治療GBS的不良反應與和治療其他適應症的一致。(見「第8.1節 臨床重要副作用/不良反應」 章節) Intragam® P 和與其他IVIg具有相似的特性，且已被用於Guillain-Barré症候群管理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "本產品有兩種大小包裝：50 和 200 mL 藥瓶，每瓶分別含有3 g和12 g 的 IgG 免疫球蛋白，以及 5 g和 20 g的麥芽糖。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">本產品有兩種大小包裝：</span>50&nbsp;<span style=\"font-family:細明體;\">和</span> 200&nbsp;mL&nbsp;<span style=\"font-family:細明體;\">藥瓶，每瓶分別含有</span>3&nbsp;g<span style=\"font-family:細明體;\">和</span>12&nbsp;g&nbsp;<span style=\"font-family:細明體;\">的</span> IgG&nbsp;<span style=\"font-family:細明體;\">免疫球蛋白，以及</span> 5&nbsp;g<span style=\"font-family:細明體;\">和</span> 20&nbsp;g<span style=\"font-family:細明體;\">的麥芽糖。</span></p>",
+          "search_text": "13.1\n包裝\n本產品有兩種大小包裝：50 和 200 mL 藥瓶，每瓶分別含有3 g和12 g 的 IgG 免疫球蛋白，以及 5 g和 20 g的麥芽糖。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "保存日期印製於包裝盒上。 超過效期切勿再使用。",
+          "content_html": "<p>保存日期印製於包裝盒上。</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">超過效期切勿再使用。</span></p>",
+          "search_text": "13.2\n效期\n保存日期印製於包裝盒上。 超過效期切勿再使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "應儲存於 2oC~8oC 之間 (冷藏，切勿冷凍)。從冰箱中取出後，請存放在25°C以下並在3個月內使用。請避光儲存。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">應儲存於</span> 2<sup>o</sup>C~8<sup>o</sup>C <span style=\"font-family:細明體;\">之間</span> (<span style=\"font-family:細明體;\">冷藏，切勿冷凍</span>)<span style=\"font-family:細明體;\">。從冰箱中取出後，請存放在</span>25°C<span style=\"font-family:細明體;\">以下並在</span>3<span style=\"font-family:細明體;\">個月內使用。請避光儲存。</span></p>",
+          "search_text": "13.3\n儲存條件\n應儲存於 2oC~8oC 之間 (冷藏，切勿冷凍)。從冰箱中取出後，請存放在25°C以下並在3個月內使用。請避光儲存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "文獻 George, JN et al: Idiopathic Thrombocytopenic Purpura: A Practice Guideline Developed by Explicit Methods for The American Society of Hematology. Blood 88, 3-40, 1996. The American Society of Hematology ITP Guideline Panel: Diagnosis and Treatment of Idiopathic Thrombocytopenic Purpura: Recommendations of The American Society of Hematology: Ann Intern Med 126, 319‑326, 1997. ®是CSL Limited的註冊商標 修訂日期: 2024年12月",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:細明體;\"><strong>文獻</strong></span></p><ol><li style=\"text-align:justify;\">George, JN <i>et al</i>: Idiopathic Thrombocytopenic Purpura: A Practice Guideline Developed by Explicit Methods for The American Society of Hematology. Blood 88, 3-40, 1996.</li><li style=\"text-align:justify;\">The American Society of Hematology ITP Guideline Panel: Diagnosis and Treatment of Idiopathic Thrombocytopenic Purpura: Recommendations of The American Society of Hematology: Ann Intern Med 126, 319‑326, 1997.</li></ol><p style=\"text-align:justify;\"><sup>®</sup><span style=\"font-family:細明體;\">是</span>CSL Limited<span style=\"font-family:細明體;\">的註冊商標</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:細明體;\">修訂日期</span>: 2024<span style=\"font-family:細明體;\">年</span>12<span style=\"font-family:細明體;\">月</span></p>",
+          "search_text": "15\n其他\n文獻 George, JN et al: Idiopathic Thrombocytopenic Purpura: A Practice Guideline Developed by Explicit Methods for The American Society of Hematology. Blood 88, 3-40, 1996. The American Society of Hematology ITP Guideline Panel: Diagnosis and Treatment of Idiopathic Thrombocytopenic Purpura: Recommendations of The American Society of Hematology: Ann Intern Med 126, 319‑326, 1997. ®是CSL Limited的註冊商標 修訂日期: 2024年12月",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "１、含human immune globulin成分藥品可能發生血栓。 ２、血栓的危險因子包括：高齡、長時間不活動、血液過度凝集的狀態、具靜脈或動脈血栓病史、使用雌激素、裝有留置型的中央靜脈導管、患血液高度黏稠之疾病及具心血管危險因子。 ３、無已知血栓危險因子者亦可能發生血栓。 ４、具血栓風險的病人，應以最低有效劑量及適當的最小輸注速率投予含human immune globulin成分藥品。 ５、投予前應確保病人有足夠的水分。 ６、具血液高度黏稠風險的病人，應監測血栓相關徵兆及症狀並評估血液之黏稠度。\n1\n性狀\n1.1\n有效成分及含量\n人類免疫球蛋白靜脈注射劑 說明 本產品係配合行政院衛生署執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人類免疫球蛋白靜脈注射劑。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是一種無菌、不含防腐劑的溶液。每 100 ml 當中含有 6 g 人血蛋白質和10 g 麥芽糖。溶液的 pH值為 4.25。添加的麥芽糖是用來達成溶液之等滲透壓性。至少 98% 蛋白質具有相同於免疫球蛋白G的電泳移動性，至少90% 蛋白質是 IgG 單體和雙體。根據三個臨床前批次 (preclinical batches)，和四個臨床批次 (clinical batches) 報告，“國血製劑益康”人類免疫球蛋白靜脈注射劑所含的 IgG 亞型之分布情形，其平均值是61% IgG1, 36% IgG2, 3% IgG3和 1% IgG4.。“國血製劑益康”人類免疫球蛋白靜脈注射劑的IgA (Immunoglobulin A)含量極少，(通常< 0.025 mg/mL)。“國血製劑益康”人類免疫球蛋白靜脈注射劑用於靜脈注射。\n1.2\n賦形劑\n麥芽糖\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n“國血製劑益康”人類免疫球蛋白靜脈注射劑是透明或略為半透明，無色或淺黃色的液體。\n2\n適應症\n“國血製劑益康”人類免疫球蛋白靜脈注射劑是 IgG 的替代治療用藥，適應症包括： • 原發性免疫不全症 (primary immune deficiency (PID))。 •由潛在疾病或治療所引發之次發性症狀性低伽瑪球蛋白血症。 “國血製劑益康”人類免疫球蛋白靜脈注射劑也可用於改善免疫調節機能，適應症包括： • 原發性血小板缺乏性紫斑症(Idiopathic Thrombocytopenic Purpura (ITP))，高危險出血的成人或小孩 ITP 病人；或者，手術前用以修正血小板數目。 • 異體骨髓移植 (allogeneic bone marrow transplantation)。 • 川崎氏症 (Kawasaki Disease)。 • Guillain-Barré症候群 (Guillain-Barré Syndrome (GBS))。 敘述IVIg用於 ITP之適當臨床使用的規範均有相關的文獻記載，應遵照以避免本血液產品的不當使用1, 2。\n3\n用法及用量\n3.1\n用法用量\n劑量 補充治療 (Replacement therapy) 替代療法應在具有免疫缺陷治療經驗的醫護人員的監督下開始和監測。 “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。血清中 IgG 濃度保持在 5 g/L 以上，通常就能夠避免復發性的細菌感染。大部分病人每個月接受的劑量介於 0.2‑0.6 g IgG /kg 體重。可以單一劑量施給，也可以平分兩次劑量隔週施給。為了使復發性感染的病人得到最快速的保護效果，病人經過初步診斷之後，可能需要高一點的劑量 (每個月0.4‑0.6 g IgG /kg 體重)，持續治療數個月。使用劑量和給藥頻率的調整，須靠經驗決定，而且必須視病人的臨床狀況及其注射前 IgG 濃度而定。 免疫調節療法 (Immunomodulatory therapy) 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人在 2 到 5 天之內接受的最高累積劑量可達 2 g IgG /kg 體重。使用劑量和給藥頻率的調整純靠經驗決定，而且必須視病人的臨床狀況而定。 川崎氏症 (Kawasaki disease) “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。病人可以 2 到 5 天內接受 1.6‑2.0 g IgG /kg 體重的劑量，分次施給，或以單一次劑量2 g IgG /kg 體重施給。病人必須同時施以乙醯水楊酸治療。 異體骨髓移植 (Allogeneic bone marrow transplantation) 可以將 “國血製劑益康”人類免疫球蛋白靜脈注射劑當作調整療法 (conditioning regime) 的一部份，也可以用於移植之後。 “國血製劑益康”人類免疫球蛋白靜脈注射劑的最適劑量和給藥頻率必須視個別病人而定。建議的起始劑量為每週 0.5 g IgG /kg 體重。 Guillain‑Barré症候群(Guillain‑Barré Syndrome (GBS)) 施打“國血製劑益康”人類免疫球蛋白靜脈注射劑每日0.4g IgG /kg 體重，持續五天。 使用方法說明 注意：“國血製劑益康”人類免疫球蛋白靜脈注射劑不含任何抗微生物防腐劑，因此打開瓶子之後必須立即使用。每次僅可使用於單一病人。 任何未用完的藥劑都必須適當丟棄。切勿使用曾經被冷凍過的溶液。如果發現“國血製劑益康”人類免疫球蛋白靜脈注射劑有混濁現象或含有沉澱物，切勿使用，並將產品原封不動退回給標籤上標示的代理商。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是靜脈內給藥。 注射速度應該以每分鐘 1 mL(每小時60 mL)開始，持續15 分鐘以上，然後注射速度可以漸增，直到15分鐘後達最高的每分鐘 3‑4 mL(每小時180-240 mL)。以下病人應考慮降低輸注速度：初次使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的病人、轉換自其他IVIg產品的病人、長期未接受IVIg的病人、小兒和高齡病人及有腎臟病的病人。（請參閱 “特殊警語和注意事項-一般”）。 太快的注射速度會造成臉部潮紅、心跳和血壓的改變。 “國血製劑益康”人類免疫球蛋白靜脈注射劑必須與病人接受的其它靜脈注射液或用藥分開使用。 “國血製劑益康”人類免疫球蛋白靜脈注射劑可以經由標準的一般靜脈注射套組給藥。我們建議以下的程序： 靜待本產品回復到室溫再使用。 移除塑膠封套。 將曝露在外的橡皮塞做適當消毒，並靜待其乾燥。 將點滴瓶直立，從點滴瓶橡皮塞的一個凹痕處，垂直插入排氣針，最好是一個附有過濾器的長針，不然，也可以使用一個附有非濕性過濾器的短針。 夾緊點滴管，以位於點滴管終端的針頭，垂直插入點滴瓶橡皮塞的另一個凹處。如果橡皮塞有移位或鬆動情形，請停止使用該點滴瓶，並小心丟棄裡面的溶液。 倒轉點滴瓶，把它吊在一個適當的點滴架上，大約高於病人一公尺的高度。 調整夾子，使點滴管充滿溶液。接通點滴管到靜脈插管 (套管 (cannula))，並調整適當流速。 當點滴瓶空了以後，夾住點滴管，將點滴管終端的針頭轉插到一瓶新的 “國血製劑益康”人類免疫球蛋白靜脈注射劑。 給藥當中，如果發生明顯滲漏，停止點滴並小心丟棄瓶中溶液。請更換一個新的藥瓶與新的點滴套組使用。\n3.2\n調製方式\n“國血製劑益康”人類免疫球蛋白靜脈注射劑可以不經稀釋施打，也可以用兩倍量的 0.9% 生理食鹽水或 5% 葡萄糖水稀釋後再注射。\n3.3\n特殊族群用法用量\n4\n禁忌\n忌用“國血製劑益康”人類免疫球蛋白靜脈注射劑: 對人類免疫球蛋白會產生真正過敏反應的病人。 具有抗IgA抗體的IgA缺乏症病人及有過敏史的病人。 對賦形劑麥芽糖有過敏史的病人。\n5\n警語及注意事項\n5.1\n警語/注意事項\n“國血製劑益康”人類免疫球蛋白靜脈注射劑只能以靜脈注射使用，尚未有其它使用途徑的評估。 一般 IVIg的反應傾向與輸注速率有關，且大多發生在輸注的第一個小時。建議在輸注的過程中規律地監控病人的生命跡象與一般狀態。如果發生不良反應，則必須降低給藥速率或停止輸注。 某些不良反應可能會更頻繁地發生： 在高輸注速度的情況下 無論有無IgA缺乏症的丙種免疫球蛋白缺乏症(agammaglobulinemia)或丙種免疫球蛋白過低症(hypogammamaglobulinemia)的病人 初次接受人免疫球蛋白的病人，或在較罕見的案例，如轉換自另一種人類免疫球蛋白產品或距上次輸注以來間隔很長的病人。 過敏反應 “國血製劑益康”人類免疫球蛋白靜脈注射劑含有微量 IgA，其對於體內具有抗 IgA 抗體的病人，可能會引發過敏反應，特別是IgA 缺乏症 (IgA deficiency) 病人。 在一些罕見的案例中，人體免疫球蛋白會使血壓驟降並有嚴重過敏性反應 (anaphylactoid reaction)，即使是先前對人體免疫球蛋白治療耐受性良好的病人也有可能發生。 如果發生嚴重過敏反應，應立即停止輸液。 腎上腺素和氧氣必須隨時備妥，以處理這種急性反應。 急性腎衰竭 偶而會有一些報告指出，病人在使用 IVIg 產品後，發生腎功能不全和急性腎臟衰竭。風險增加的病人包括，原先即有腎功能不全、糖尿病、年齡 65 歲以上、體液缺乏 (volume depletion)、敗血症 (sepsis)、單株伽瑪球蛋白症 (monoclonal gammopathy)、以及同時正在服用具腎毒性 (nephrotoxic) 藥品的病人。雖然這些關於腎功能不全和急性腎功能衰竭的案例與多種含有各式賦形劑（如蔗糖、葡萄糖和麥芽糖）的核准上市IVIg產品有關，其中多有以蔗糖作為安定劑的IVIg產品。“國血製劑益康”人類免疫球蛋白靜脈注射劑含有麥芽糖但不含蔗糖。應該遵循以下的預防措施：病人在 IVIg 注射給藥之前，必須給予適當足夠的水分，以及勿使用超過建議的劑量。如果腎功能惡化，必須考慮停止 IVIg 的治療。 對於有急性腎衰竭風險的病人，應根據臨床判斷，以可能的最小輸注速率和劑量給予IVIg產品。 血栓栓塞事件 血栓栓塞的事件已被報導和IgG治療有關。風險因素包含高齡、不動性、使用雌激素、血管留置導管、後天性或遺傳性高凝血狀態、靜脈或動脈血栓形成、心臟血管風險因子(包含動脈粥狀硬化症病史、及/或心臟輸出量不足)、血漿黏度增加的相關症狀，如冷凝球蛋白血症、空腹高乳糜粒血症、及/或高三酸甘油酯、及單株伽瑪球蛋白症。 具有血栓形成風險的病人應以最低注射速率，及依臨床判斷的適當劑量輸注IVIg產品，且應監控血栓形成的併發症。對於血液高度黏稠風險的病人，應評估其血液黏稠度。 使用含human immune globulin成分藥品治療可能發生血栓栓塞事件，如心肌梗塞、中風、肺栓塞與深層靜脈阻塞，用於不同疾病適應症之血栓栓塞事件發生頻率可能有所差異。 無菌性腦膜炎 靜脈注射免疫球蛋白 (IVIg) 使用後曾有發生過無菌性腦膜炎(Aseptic Meningitis Syndrome (AMS))。這些症狀通常在使用 IVIg 之後數小時到兩天之內發生，其病徵包括，嚴重頭痛、頸背僵硬、困倦、發燒、畏光 (photophobia)、眼球移動觸痛、噁心及嘔吐。腦脊髓液 (cerebrospinal fluid, CSF) 分析常會發現白血球增多現象 (pleocytosis)，且多為顆粒性細胞 (granulocytic series)，腦脊髓液的蛋白質濃度也會增加。發生這些徵狀的病人，必須接受仔細的神經學檢查，包括腦脊髓液分析，以排除腦膜炎是否有其它原因造成。AMS 比較有可能與高劑量的 IVIg(2 g/kg) 治療有關係，停止 IVIg 治療後，AMS 會在幾天之內緩解，不留後遺症。 溶血性貧血 曾有報告指出，因於產品內含有血型抗體(如:抗A、抗B、及偶有的抗D或其它抗紅血球的抗體存)，使用高劑量靜脈注射免疫球蛋白後發生直接抗球蛋白抗體試驗 (direct antiglobulin test)呈陽性反應，及發生紅血球溶血 (haemolysis)現象，這種紅血球敏感症可能引起紅血球交叉比對試驗 (crossmatching) 的困難度，以及造成暫時性的溶血性貧血。 以下風險因素與溶血發展有關：高劑量IVIg（每4週大於 0.4 g / kg），非O血型和潛在的發炎狀態，尤其是在骨髓細胞量減少或造血幹細胞移植後的病人。 接受高劑量IVIg治療(每四週大於0.4 g/kg) 的病人，應該在注射前確定ABO血型。在治療期間應監控血紅素以追蹤是否有臨床上明顯溶血的證據。 如果在輸注IVIg期間或之後出現溶血的跡象和/或症狀，則治療醫師應考慮終止IVIg治療。 酸負荷 對於酸鹼平衡調節機制正常的病人，其血中的緩衝能力能夠中和最大劑量造成的酸性負擔，即使該劑量是以快速的靜脈注射注入。如果病人的酸鹼平衡調節機制不良者，包括新生兒在內，這類藥劑可能造成的酸性負擔必須加以考量。 血栓性靜脈炎 高劑量 (大於 0.4 g/kg)，長時間的給藥(6 小時以上)後，可能會在注射處引起血栓性靜脈炎 (thrombophlebitis)。 病原體安全性 本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病 (Creutzfeldt-Jakob Disease, CJD)之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。 此外，生產過程包括病毒去除及去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如HIV (人類免疫缺乏病毒)、B型及C型肝炎病毒，及不含外套膜的A型肝炎病毒。這些方法對抗不具外套膜的parvovirus B19之效果可能有限，然而本產品含有獨特的抗體可直接對抗parvovirus B19。 惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。 使用血漿製品時可考慮給予疫苗之注射。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n“國血製劑益康”靜脈使用人類免疫球蛋白相關的某些不良反應可能會損害駕駛和操作機械的能力。 在治療期間發生不良反應的病人，應等這些症狀獲得解決後再駕駛或操作機器。\n5.4\n實驗室檢測\n血清干擾測試 免疫球蛋白輸注後，病人血液中，各種被動輸入的抗體會瞬間增加，可能會導致血清學檢測中的偽陽性。 被動輸入對抗紅血球抗原（例如A、B、D的抗體）可能會干擾某些針對紅血球異體抗體的血清學檢測（例如Coombs檢測）。 葡萄糖估計的干擾情形 “國血製劑益康”人類免疫球蛋白靜脈注射劑裡的麥芽糖可能會干擾血中葡萄糖的測量，導致高估血中葡萄糖含量。假如此葡萄糖測量是用於治療的指引，低血糖症可能會發生。只有特定使用葡萄糖去氫酵素的檢驗方法會被影響，所以當監控輸注“國血製劑益康”人類免疫球蛋白靜脈注射劑病人的葡萄糖含量時，應注意葡萄糖量尺及/或檢驗試劑製造商的資訊，以確認麥芽糖不會干擾血中葡萄糖的判讀。注射“國血製劑益康”人類免疫球蛋白靜脈注射劑也可能導致一時性糖尿。\n5.5\n其他注意事項\n治療期間記錄 建議每次給病人“國血製劑益康”人類免疫球蛋白靜脈注射劑時，都要記錄“國血製劑益康”人類免疫球蛋白靜脈注射劑的名稱和批號，以維持病人與產品批次的連結。\n6\n特殊族群注意事項\n6.1\n懷孕\n懷孕期間使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對懷孕婦女施用 “國血製劑益康”人類免疫球蛋白靜脈注射劑要特別小心。臨床經驗顯示使用免疫球蛋白，對懷孕過程、或是胎兒及新生兒並無出現有害的影響。\n6.2\n哺乳\n哺乳期間使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的安全性，還沒有對照臨床試驗。因此，對哺乳婦女施用 “國血製劑益康”人類免疫球蛋白靜脈注射劑要特別小心。免疫球蛋白會分泌到母乳裡面。臨床經驗顯示使用免疫球蛋白，對新生兒並無出現有害的影響。\n6.3\n有生育能力的女性與男性\n“國血製劑益康”人類免疫球蛋白靜脈注射劑尚未有生育力方面相關的研究。臨床經驗顯示使用免疫球蛋白，對生育力並無出現有害的影響。\n6.4\n小兒\n尚未有臨床試驗確立“國血製劑益康”人類免疫球蛋白靜脈注射劑使用於小兒族群。\n6.5\n老年人\n使用“國血製劑益康”人類免疫球蛋白靜脈注射劑的臨床試驗未包含足夠數目的65歲或以上的個體，故無法決定是否與較年輕個體有反應差異。\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n“國血製劑益康”人類免疫球蛋白靜脈注射劑與其它藥物的交互作用情形，還沒有相關研究報告。 活性滅毒疫苗 經輸入而獲得的抗體 (被動免疫抗體)，會干擾人體對活性減毒疫苗的反應。因此，接種疫苗，例如小兒麻痺症，腮腺炎，德國麻疹，麻疹和水痘/水痘疫苗，必須延到給藥後約三個月再施打；施打疫苗後，也必須至少等兩個星期以上，才能使用免疫球蛋白。 如果是麻疹疫苗接種，藥效下降情形可能會持續長達一年。 因此，接受麻疹疫苗接種的病人應檢查其抗體狀態。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n未注射過免疫球蛋白的病人可能會有較高產生不良反應的頻率，包含那些本質上較輕微的。病人對靜脈注射免疫球蛋白的反應，大多與注射的速度有關，而且都發生在注射後的第一個小時內，病人的生命跡象和一般狀況，在注射期間應該隨時加以監控。 常見與靜脈注射免疫球蛋白有關的反應 可能發生的反應類型包括：身體不適、腹痛、頭痛、胸悶 (chest tightness)、臉部潮紅或臉色蒼白、紅斑、躁熱感 (hot sensations)、呼吸困難 (dyspnea or respiratory difficulty)、非蕁麻皮膚疹 (non-urticarial skin rash)、皮膚血管炎、手掌/腳掌汗疱、發癢、組織腫大、血壓改變、噁心或嘔吐。如果在靜脈注射“國血製劑益康”人類免疫球蛋白靜脈注射劑時發生任何這種反應，必須暫停注射動作，直到病人臨床狀況改善 (5到10分鐘)，然後再小心地以緩慢一點的速度恢復注射。 有些病人對靜脈注射免疫球蛋白 (IVIg) 產生的不良反應可能會有延遲發生的現象，例如，噁心、嘔吐、胸痛、寒顫、暈眩、腿痛或關節痛。這些不良反應會發生在注射結束以後，但通常在 24 小時之內。 對IVIg產生嚴重的過敏反應，例如蕁麻疹 (urticaria)、血管性水腫 (angioedema)、支氣管痙攣 (bronchospasm)、或低血壓，很少發生。如果對 “國血製劑益康”人類免疫球蛋白靜脈注射劑產生過敏反應，注射動作應該停止，並且對病人施以腎上腺素 (adrenaline)、氧氣、抗組織氨和類固醇治療。 雖然極少發生，還是有一些與 IVIg 治療有關的溶血性貧血 (hemolytic anemia)，以及嗜中性白血球減少症 (neutropenia) 發生的報告。 少數接受 IVIg 治療的病人，發生血清之氨基轉移酶 (transaminases： AST, ALT, gamma-GT) 輕微到中度的濃度提高現象，這些改變都是暫時性的，而且與肝炎的感染無關。部份未治療的Guillain‑Barré症候群(GBS)病人曾被報導有肝功能指數上升。 接受 IVIg 治療的病人當中，曾有報告發生無菌性腦膜炎(aseptic meningitis syndrome (AMS)) 和靜脈炎 (thrombophlebitis) (請參見「第5.1節 警語/注意事項」章節)。 血栓栓塞事件已被報導和IVIg治療有關。雖然極少發生，但是有人報告過，腎臟機能障礙和急性腎臟衰竭的發生 (請參見「第5.1節 警語/注意事項」章節)。\n8.2\n臨床試驗經驗\n臨床試驗中與“Intragam® P”有關的反應 原發性免疫不全症 (Primary Immune Deficiency (PID) 在臨床試驗當中，在 35 個接受“Intragam® P”的原發性免疫不全症病人身上觀察到以下的不良反應(括弧內數字為發生該不良反應的病人人數)：頭痛 (8)、偏頭痛 (migraine) (2)、貧血 (2)、噁心 (2)、眩暈 (vertigo) (1)、嗜中性白血球減少症 (neutropenia) (1)、血小板減少症 (thrombocytopenia) (1)、疲勞倦怠 (1)。病人的每個月人類免疫球蛋白靜脈注射劑，劑量介於 0.2-0.67 g/kg體重。 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) 在臨床試驗當中，在 17 個接受“Intragam® P”的原發性血小板缺乏性紫斑症病人身上觀察到以下的不良反應(括弧內數字為發生該不良反應的病人人數)：頭痛 (10)、直接庫姆氏試驗 (Direct Coombs test) 陽性 (5)、溶血 (hemolysis) (4)、噁心 (3)、寒顫 (rigors) (3)、發燒 (2)、肌痛 (myalgia) (1)、嗜睡 (somnolence) (1)、腹痛 (1)、嘔吐 (1)、高血壓 (1)、潮紅 (1)、溶血性貧血 (hemolytic anemia) (1)、白血球減少 (leucopenia) (1)、網狀細胞增多 (reticulocytosis) (1)、淋巴球減少 (lymphopenia) (1)、過敏反應 (1)、熱潮紅 (1)、以及注射處發炎 (1)。病人的人類免疫球蛋白靜脈注射劑，靜脈注射劑量介於0.66‑2 g/kg體重，每天一次，連續注射 1‑3 天。\n8.3\n上市後經驗\n上市後使用與Intragam® P有關的反應 非O型血型(A型、B型或AB型血型)的病人接受高劑量Intragam® P治療後(每四週大於0.4 g/kg)，被報導有與出現anti-A及/或 anti-B抗體有關的溶血性貧血，特別是那些骨髓細胞量減少或造血幹細胞移植後的病人。 除了在臨床試驗觀察到的反應，上市後使用也觀察到下列反應： 免疫系統疾病：過敏反應/嚴重過敏反應 神經系統疾病：無菌性腦膜炎、感覺異常、顫抖症 血管疾病：血栓性栓塞 皮膚和皮下組織疾病：剝落性皮膚炎 肌肉骨骼及結締組織疾病：關節疼痛 一般疾病及注射部位反應：注射部位反應、疼痛 上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。\n9\n過量\n使用過量可能造成輸液過多(fluid overload) 和高黏度血症 (hyperviscosity)，尤其是在老年人和患有腎臟疾病的病人。\n10\n藥理特性\n10.1\n作用機轉\n“國血製劑益康”人類免疫球蛋白靜脈注射劑包含捐血者功能完整的IgG，是具廣效抵禦感染物的抗體。適量的IgG可將病人異常低的IgG值恢復到正常範圍。 除替代療法外，用於其他適應症的作用機轉尚未完全明瞭，但具有免疫調節效果。 “國血製劑益康”人類免疫球蛋白靜脈注射劑是由大量匯集的人類血漿，經過色層分析法分離純化而來。其蛋白質未經過任何化學或酵素作用改變過。其生產過程包含用以降低病毒傳染可能性的專用步驟，包括巴斯德氏消毒法 (60°C加熱10小時)，以及以低pH 處理。 “國血製劑益康”人類免疫球蛋白靜脈注射劑之臨床試驗係根據Intragam® P。Intragam® P係為由CSL Limited生產並在澳洲銷售之可對照經純化人類靜脈注射免疫球蛋白(IVIg)。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n基因毒性 尚未有“國血製劑益康”人類免疫球蛋白靜脈注射在基因毒性的研究。 致癌毒性 尚未有“國血製劑益康”人類免疫球蛋白靜脈注射在致癌毒性的研究。\n11\n藥物動力學特性\n在每月一次，施以Intragam® P 6 個月之後，對 11 個( 9 個男性，年紀介於 28‑76 歲之間)，患有原發性免疫不全症 (primary immunodeficiency disorder) 的病人，測定其 IgG 的穩定狀態動力學 (steady-state kinetic) 參數，劑量視個別病人而異，介於 0.35‑0.53 g/kg。平均血清 IgG 濃度從谷底的 7.4±1.1 g/L，到高峰的 15.8±1.7 g/L。平均清除率是 4.1±0.8 mL/h。平均半衰期為 39.7±7.8 天。平均回復率 (注射Intragam® P之後，血清 IgG 濃度增加到預期濃度的百分比值) 為 44.0±2.0% (請參見「第12節 臨床試驗資料」章節)。\n12\n臨床試驗資料\n原發性免疫不全症 (Primary Immune Deficiency (PID)) 對35 個患有原發性免疫缺陷病的病人 (年紀介於 6‑76 歲；男性 21 位)試驗 “Intragam® P”人類免疫球蛋白靜脈注射劑的有效性。每月一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續 6 個月，劑量視個別病人而異，介於 0.2‑0.67 g/kg 之間。在這 6 個月期間，每個病人平均住院天數為 2.8±9.0。因為病況而沒去工作或上學的平均天數為 5.3±6.4。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。 原發性血小板缺乏性紫斑症 (Idiopathic Thrombocytopenic Purpura (ITP)) 對17 個患有 ITP (6 個急性、11 個慢性) 的病人 (年紀介於 21‑72 歲；男性 5 位)試驗“Intragam® P”人類免疫球蛋白靜脈注射劑的有效性。每天一次施以靜脈注射人類免疫球蛋白靜脈注射劑，連續 1-3 天。人類免疫球蛋白靜脈注射劑的劑量視個別病人而異，累積劑量最高達到 2 g/kg體重。施以人類免疫球蛋白靜脈注射劑治療之後，其中有 13 個病人(76.5%) 的血小板數目到達良好(50 x 109/L‑150 x 109/L)，或很好(>150 x 109/L). 的標準，其血小板數目可維持在³50 x 109/L 最久達到 35 天，平均是 17.24天(95% 信賴區間 (CI) 10.35, 24.12)。這些數字與其它靜脈注射用免疫球蛋白的歷史數據相仿。 這兩次試驗中所發生的任何不良反應，都記錄在 「第8.1節 臨床重要副作用/不良反應」 章節之中。 Guillain-Barré症候群 (Guillain-Barré Syndrome (GBS)) 有數個隨機對照的臨床試驗證實使用人類靜脈注射免疫球蛋白(IVIg)治療Guillain-Barré症候群病人的有效性與安全性。一項以379位病人的大型多中心臨床試驗(年紀大於16歲且在過去14天內有神經病變症狀)隨機分成3個治療組(IVIg 人數130人、血漿置換術人數121人、血漿置換術後進行IVIg人數 128人)。IVIg 的使用劑量為每日0.4 g/kg 體重，連續五天。 整體來說，對於Guillain-Barré症候群治療，IVIg和血漿置換術的效果相當。IVIg在改善初級及二級GBS療效參數，如失能等級、肺活量、末稍喚起混合肌肉行動潛力、可不經協助行走所需時間、平均恢復率等是有效的。 文獻報告，使用IVIg治療GBS的不良反應與和治療其他適應症的一致。(見「第8.1節 臨床重要副作用/不良反應」 章節) Intragam® P 和與其他IVIg具有相似的特性，且已被用於Guillain-Barré症候群管理。\n13\n包裝及儲存\n13.1\n包裝\n本產品有兩種大小包裝：50 和 200 mL 藥瓶，每瓶分別含有3 g和12 g 的 IgG 免疫球蛋白，以及 5 g和 20 g的麥芽糖。\n13.2\n效期\n保存日期印製於包裝盒上。 超過效期切勿再使用。\n13.3\n儲存條件\n應儲存於 2oC~8oC 之間 (冷藏，切勿冷凍)。從冰箱中取出後，請存放在25°C以下並在3個月內使用。請避光儲存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n文獻 George, JN et al: Idiopathic Thrombocytopenic Purpura: A Practice Guideline Developed by Explicit Methods for The American Society of Hematology. Blood 88, 3-40, 1996. The American Society of Hematology ITP Guideline Panel: Diagnosis and Treatment of Idiopathic Thrombocytopenic Purpura: Recommendations of The American Society of Hematology: Ann Intern Med 126, 319‑326, 1997. ®是CSL Limited的註冊商標 修訂日期: 2024年12月",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "CSL BEHRING (AUSTRALIA) PTY LTD",
+          "address": "189-209 CAMP ROAD BROADMEADOWS VICTORIA 3047 AUSTRALIA"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "裕利股份有限公司",
+          "address": "桃園市大園區和平里1鄰開和路91號"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "醫療財團法人台灣血液基金會",
+          "address": "台北市中正區南海路３號３樓 (02) 23511600"
+        }
+      ]
+    }
+  ]
+}

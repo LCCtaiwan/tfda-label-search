@@ -1,0 +1,1693 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:51:22.835729+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12005854",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第005854號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第005854號",
+      "matched_license_code": "12005854",
+      "matched_nhi_code": "",
+      "drug_name_zh": "普力能錠",
+      "drug_name_en": "PRENIN TABLETS \"N.C.P.\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-04-04",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Each tablet contains： Prednisolone………………………………….5mg",
+          "content_html": "<p style=\"text-align:justify;\">&nbsp;Each tablet contains：</p><p style=\"text-align:justify;\"><strong>&nbsp;Prednisolone………………………………….5mg</strong></p>",
+          "search_text": "1.1\n有效成分及含量\nEach tablet contains： Prednisolone………………………………….5mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Lactose G、Microcrystalline Cellulose、Sodium Starch Glycolate、Magnesium Stearate、Tartrazine Aluminum Lake。",
+          "content_html": "<p style=\"margin-left:12.0pt;text-align:justify;\">&nbsp; Lactose G、Microcrystalline Cellulose、Sodium Starch Glycolate、Magnesium Stearate、Tartrazine Aluminum Lake。</p>",
+          "search_text": "1.2\n賦形劑\nLactose G、Microcrystalline Cellulose、Sodium Starch Glycolate、Magnesium Stearate、Tartrazine Aluminum Lake。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "錠劑",
+          "content_html": "<p>&nbsp; 錠劑</p>",
+          "search_text": "1.3\n劑型\n錠劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "黃色錠劑",
+          "content_html": "<p>&nbsp;黃色錠劑</p>",
+          "search_text": "1.4\n藥品外觀\n黃色錠劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "2\n適應症",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1",
+          "parent_id": "2",
+          "level": 2,
+          "number": "1",
+          "title": "風濕性疾患",
+          "title_html": "風濕性疾患",
+          "path": [
+            "適應症",
+            "風濕性疾患"
+          ],
+          "content_text": "風濕性關節炎、風濕熱、Still氏病、風濕性心炎、乾癬性關節炎、恥骨炎、強直性脊椎炎、骨關節炎、風濕性脊椎炎、痛風性關節炎等。",
+          "content_html": "<p>風濕性關節炎、風濕熱、Still氏病、風濕性心炎、乾癬性關節炎、恥骨炎、強直性脊椎炎、骨關節炎、風濕性脊椎炎、痛風性關節炎等。</p>",
+          "search_text": "1\n風濕性疾患\n風濕性關節炎、風濕熱、Still氏病、風濕性心炎、乾癬性關節炎、恥骨炎、強直性脊椎炎、骨關節炎、風濕性脊椎炎、痛風性關節炎等。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": "2",
+          "level": 2,
+          "number": "2",
+          "title": "支氣管氣喘及過敏性疾病",
+          "title_html": "支氣管氣喘及過敏性疾病",
+          "path": [
+            "適應症",
+            "支氣管氣喘及過敏性疾病"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "2\n支氣管氣喘及過敏性疾病",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": "2",
+          "level": 2,
+          "number": "3",
+          "title": "紅斑性狼瘡",
+          "title_html": "紅斑性狼瘡",
+          "path": [
+            "適應症",
+            "紅斑性狼瘡"
+          ],
+          "content_text": "對其他各種炎症性皮膚疾患頗有效果，目前凡對Cortisone及Hydrocortisone 有效之全部適應症，本劑皆有效。",
+          "content_html": "<p>對其他各種炎症性皮膚疾患頗有效果，目前凡對Cortisone及Hydrocortisone&nbsp;有效之全部適應症，本劑皆有效。</p>",
+          "search_text": "3\n紅斑性狼瘡\n對其他各種炎症性皮膚疾患頗有效果，目前凡對Cortisone及Hydrocortisone 有效之全部適應症，本劑皆有效。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-12",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "",
+          "title": "本藥須由醫師處方使用。本劑將普通一日之全投與量分為每餐後及就寢前4次或朝夕2次 服用，症狀好轉後每隔2~3日將1日投與量減少2.5~5mg(1/2~1錠)作維持療法，若萬一再發時，漸次增量而 抑制症狀，以下所述之用法用量係適應於各種疾患及其症狀程度之一般使用法，故仍應視 個人差別及症狀之輕重加以適當之增減。",
+          "title_html": "本藥須由醫師處方使用。本劑將普通一日之全投與量分為每餐後及就寢前4次或朝夕2次  服用，症狀好轉後每隔2~3日將1日投與量減少2.5~5mg(1/2~1錠)作維持療法，若萬一再發時，漸次增量而        抑制症狀，以下所述之用法用量係適應於各種疾患及其症狀程度之一般使用法，故仍應視 個人差別及症狀之輕重加以適當之增減。",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "本藥須由醫師處方使用。本劑將普通一日之全投與量分為每餐後及就寢前4次或朝夕2次 服用，症狀好轉後每隔2~3日將1日投與量減少2.5~5mg(1/2~1錠)作維持療法，若萬一再發時，漸次增量而 抑制症狀，以下所述之用法用量係適應於各種疾患及其症狀程度之一般使用法，故仍應視 個人差別及症狀之輕重加以適當之增減。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "本藥須由醫師處方使用。本劑將普通一日之全投與量分為每餐後及就寢前4次或朝夕2次 服用，症狀好轉後每隔2~3日將1日投與量減少2.5~5mg(1/2~1錠)作維持療法，若萬一再發時，漸次增量而 抑制症狀，以下所述之用法用量係適應於各種疾患及其症狀程度之一般使用法，故仍應視 個人差別及症狀之輕重加以適當之增減。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "1.",
+          "title": "風濕性關節炎：",
+          "title_html": "風濕性關節炎：",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "風濕性關節炎："
+          ],
+          "content_text": "初期投與量（抑制量），重症：1日30mg（6粒） 其他：1日20mg（4粒）普通本劑治療開始後3~4日症狀即應見好轉，若繼續初期投與量7日仍 不見效時，應懷疑該症是否真性風濕性關節炎，症狀好轉後，將投與量每隔2~3日減少2.5mg（1/2粒）至適當量後為維持量，必要時與安靜療法，食餌療法，整形外科療法等合併治療亦無妨。",
+          "content_html": "<p>初期投與量（抑制量），重症：1日30mg（6粒） 其他：1日20mg（4粒）普通本劑治療開始後3~4日症狀即應見好轉，若繼續初期投與量7日仍 不見效時，應懷疑該症是否真性風濕性關節炎，症狀好轉後，將投與量每隔2~3日減少2.5mg（1/2粒）至適當量後為維持量，必要時與安靜療法，食餌療法，整形外科療法等合併治療亦無妨。</p>",
+          "search_text": "1.\n風濕性關節炎：\n初期投與量（抑制量），重症：1日30mg（6粒） 其他：1日20mg（4粒）普通本劑治療開始後3~4日症狀即應見好轉，若繼續初期投與量7日仍 不見效時，應懷疑該症是否真性風濕性關節炎，症狀好轉後，將投與量每隔2~3日減少2.5mg（1/2粒）至適當量後為維持量，必要時與安靜療法，食餌療法，整形外科療法等合併治療亦無妨。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2.",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "2.",
+          "title": "風濕熱、風濕性心疾、骨關節炎等風濕性疾患：",
+          "title_html": "風濕熱、風濕性心疾、骨關節炎等風濕性疾患：",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "風濕熱、風濕性心疾、骨關節炎等風濕性疾患："
+          ],
+          "content_text": "使用法與風濕性關節炎之方法相同，視症狀之輕重，投與有效之最低 量。",
+          "content_html": "<p>使用法與風濕性關節炎之方法相同，視症狀之輕重，投與有效之最低 量。</p>",
+          "search_text": "2.\n風濕熱、風濕性心疾、骨關節炎等風濕性疾患：\n使用法與風濕性關節炎之方法相同，視症狀之輕重，投與有效之最低 量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3",
+          "title": "支氣管氣喘：",
+          "title_html": "支氣管氣喘：",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "支氣管氣喘："
+          ],
+          "content_text": "投與風濕性關節炎治療略同量為抑制量，普通症狀於12~24小時內即可好轉，但如喘息發作停止後，勿立即休藥，而將1日投與量減少2.5~5mg （1/2~1粒）後改為維持療法，治療開始後3~4日，呼吸困難會消失， 肺活量亦有顯著之增加。",
+          "content_html": "<p>投與風濕性關節炎治療略同量為抑制量，普通症狀於12~24小時內即可好轉，但如喘息發作停止後，勿立即休藥，而將1日投與量減少2.5~5mg&nbsp;（1/2~1粒）後改為維持療法，治療開始後3~4日，呼吸困難會消失， 肺活量亦有顯著之增加。</p>",
+          "search_text": "3\n支氣管氣喘：\n投與風濕性關節炎治療略同量為抑制量，普通症狀於12~24小時內即可好轉，但如喘息發作停止後，勿立即休藥，而將1日投與量減少2.5~5mg （1/2~1粒）後改為維持療法，治療開始後3~4日，呼吸困難會消失， 肺活量亦有顯著之增加。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "4",
+          "title": "播種性紅斑性狼瘡等：",
+          "title_html": "播種性紅斑性狼瘡等：",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "播種性紅斑性狼瘡等："
+          ],
+          "content_text": "一般於此種皮膚疾患，需要投與較大量，初期抑制量，普通使用量1日 須30mg（6粒）以上。",
+          "content_html": "<p>&nbsp;一般於此種皮膚疾患，需要投與較大量，初期抑制量，普通使用量1日 須30mg（6粒）以上。</p>",
+          "search_text": "4\n播種性紅斑性狼瘡等：\n一般於此種皮膚疾患，需要投與較大量，初期抑制量，普通使用量1日 須30mg（6粒）以上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>&nbsp; &nbsp; &nbsp;目前尚無資訊。</p>",
+          "search_text": "4\n禁忌\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-22",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "",
+          "title": "【注意事項】",
+          "title_html": "【注意事項】",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "【注意事項】"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "【注意事項】",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "1.",
+          "title": "本劑雖具有較其他副腎皮質荷爾蒙劑有較強之作用，但並無其他副腎皮質荷爾蒙劑等之重大副作用，普通之初期投與量或維持量下， 雖長期投與亦不起鈉及水之貯留及鉀之損失，有時亦有Cortisone、Hydrocortisone療法常有之Moon-face(圓形臉)及輕度多毛症、不眠症。",
+          "title_html": "本劑雖具有較其他副腎皮質荷爾蒙劑有較強之作用，但並無其他副腎皮質荷爾蒙劑等之重大副作用，普通之初期投與量或維持量下，       雖長期投與亦不起鈉及水之貯留及鉀之損失，有時亦有Cortisone、Hydrocortisone療法常有之Moon-face(圓形臉)及輕度多毛症、不眠症。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "本劑雖具有較其他副腎皮質荷爾蒙劑有較強之作用，但並無其他副腎皮質荷爾蒙劑等之重大副作用，普通之初期投與量或維持量下， 雖長期投與亦不起鈉及水之貯留及鉀之損失，有時亦有Cortisone、Hydrocortisone療法常有之Moon-face(圓形臉)及輕度多毛症、不眠症。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1.\n本劑雖具有較其他副腎皮質荷爾蒙劑有較強之作用，但並無其他副腎皮質荷爾蒙劑等之重大副作用，普通之初期投與量或維持量下， 雖長期投與亦不起鈉及水之貯留及鉀之損失，有時亦有Cortisone、Hydrocortisone療法常有之Moon-face(圓形臉)及輕度多毛症、不眠症。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "2.",
+          "title": "經長期療法後欲中止服用時，不可立即中止，必先漸減用量，最後中止投藥。",
+          "title_html": "經長期療法後欲中止服用時，不可立即中止，必先漸減用量，最後中止投藥。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "經長期療法後欲中止服用時，不可立即中止，必先漸減用量，最後中止投藥。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "2.\n經長期療法後欲中止服用時，不可立即中止，必先漸減用量，最後中止投藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "3.",
+          "title": "雖無明顯之Cortisone長期療法時所引起之消化器潰瘍及增惡之發生，但亦要小心，如有胃部異常感，請投與制酸劑併用。",
+          "title_html": "雖無明顯之Cortisone長期療法時所引起之消化器潰瘍及增惡之發生，但亦要小心，如有胃部異常感，請投與制酸劑併用。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "雖無明顯之Cortisone長期療法時所引起之消化器潰瘍及增惡之發生，但亦要小心，如有胃部異常感，請投與制酸劑併用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.\n雖無明顯之Cortisone長期療法時所引起之消化器潰瘍及增惡之發生，但亦要小心，如有胃部異常感，請投與制酸劑併用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "4.",
+          "title": "活動性結核患者，不應使用本劑，結核以外之急慢性細菌感染症患者，投與本劑時，應先以抗生劑或化學療法劑抑制其感染，與Cortisone療法完全相同。",
+          "title_html": "活動性結核患者，不應使用本劑，結核以外之急慢性細菌感染症患者，投與本劑時，應先以抗生劑或化學療法劑抑制其感染，與Cortisone療法完全相同。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "活動性結核患者，不應使用本劑，結核以外之急慢性細菌感染症患者，投與本劑時，應先以抗生劑或化學療法劑抑制其感染，與Cortisone療法完全相同。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4.\n活動性結核患者，不應使用本劑，結核以外之急慢性細菌感染症患者，投與本劑時，應先以抗生劑或化學療法劑抑制其感染，與Cortisone療法完全相同。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.",
+          "title": "對於蛋白質限制中之患者，本劑1日30mg之服用量下，僅有氮素損失，反之對於自由攝取蛋白質之患者，雖投與大量(每日50mg)亦無氮素損失，因此本劑服用中之患者，需要攝取充分之蛋白質。",
+          "title_html": "對於蛋白質限制中之患者，本劑1日30mg之服用量下，僅有氮素損失，反之對於自由攝取蛋白質之患者，雖投與大量(每日50mg)亦無氮素損失，因此本劑服用中之患者，需要攝取充分之蛋白質。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對於蛋白質限制中之患者，本劑1日30mg之服用量下，僅有氮素損失，反之對於自由攝取蛋白質之患者，雖投與大量(每日50mg)亦無氮素損失，因此本劑服用中之患者，需要攝取充分之蛋白質。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.\n對於蛋白質限制中之患者，本劑1日30mg之服用量下，僅有氮素損失，反之對於自由攝取蛋白質之患者，雖投與大量(每日50mg)亦無氮素損失，因此本劑服用中之患者，需要攝取充分之蛋白質。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "6.",
+          "title": "時有多幸症(Euphoria)及健康感之發生，但不像Cortisone及Hydrocortisone療法時厲害，但對於有精神病或感情不安者，投與本劑應十分注意。",
+          "title_html": "時有多幸症(Euphoria)及健康感之發生，但不像Cortisone及Hydrocortisone療法時厲害，但對於有精神病或感情不安者，投與本劑應十分注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "時有多幸症(Euphoria)及健康感之發生，但不像Cortisone及Hydrocortisone療法時厲害，但對於有精神病或感情不安者，投與本劑應十分注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.\n時有多幸症(Euphoria)及健康感之發生，但不像Cortisone及Hydrocortisone療法時厲害，但對於有精神病或感情不安者，投與本劑應十分注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "7.",
+          "title": "對於糖尿病患者，需增加Insulin必要量，故需要有相同於Cortisone、Hydrocortisone服用時之注意。",
+          "title_html": "對於糖尿病患者，需增加Insulin必要量，故需要有相同於Cortisone、Hydrocortisone服用時之注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對於糖尿病患者，需增加Insulin必要量，故需要有相同於Cortisone、Hydrocortisone服用時之注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "7.\n對於糖尿病患者，需增加Insulin必要量，故需要有相同於Cortisone、Hydrocortisone服用時之注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "8.",
+          "title": "急慢性感染症，使用時請同時併用適當的化學療法劑或抗生素藥品以治療感染疾病。",
+          "title_html": "急慢性感染症，使用時請同時併用適當的化學療法劑或抗生素藥品以治療感染疾病。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "急慢性感染症，使用時請同時併用適當的化學療法劑或抗生素藥品以治療感染疾病。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.\n急慢性感染症，使用時請同時併用適當的化學療法劑或抗生素藥品以治療感染疾病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "9.",
+          "title": "對消化管障礙如胃腸潰瘍患者務請特別注意。",
+          "title_html": "對消化管障礙如胃腸潰瘍患者務請特別注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對消化管障礙如胃腸潰瘍患者務請特別注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9.\n對消化管障礙如胃腸潰瘍患者務請特別注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "10.",
+          "title": "因主要副作用引起浮腫、血壓上升，尤以腎臟疾患及高血壓患者應注意。",
+          "title_html": "因主要副作用引起浮腫、血壓上升，尤以腎臟疾患及高血壓患者應注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "因主要副作用引起浮腫、血壓上升，尤以腎臟疾患及高血壓患者應注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.\n因主要副作用引起浮腫、血壓上升，尤以腎臟疾患及高血壓患者應注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "11.",
+          "title": "糖尿病患者使用時，請注意增加Insulin之用量。",
+          "title_html": "糖尿病患者使用時，請注意增加Insulin之用量。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "糖尿病患者使用時，請注意增加Insulin之用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "11.\n糖尿病患者使用時，請注意增加Insulin之用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "12.",
+          "title": "對於有精神病因素者多加注意。",
+          "title_html": "對於有精神病因素者多加注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對於有精神病因素者多加注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "12.\n對於有精神病因素者多加注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "13.",
+          "title": "服用本劑期間請充分補充蛋白質。",
+          "title_html": "服用本劑期間請充分補充蛋白質。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "服用本劑期間請充分補充蛋白質。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.\n服用本劑期間請充分補充蛋白質。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.1\n懷孕",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">&nbsp; &nbsp; 目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.1\n臨床重要副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "1",
+          "title": "節炎、風濕熱、風濕性心炎、骨關節炎、脊椎炎、痛風性關節炎、乾癬性關節炎。",
+          "title_html": "節炎、風濕熱、風濕性心炎、骨關節炎、脊椎炎、痛風性關節炎、乾癬性關節炎。",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "節炎、風濕熱、風濕性心炎、骨關節炎、脊椎炎、痛風性關節炎、乾癬性關節炎。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n節炎、風濕熱、風濕性心炎、骨關節炎、脊椎炎、痛風性關節炎、乾癬性關節炎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "2",
+          "title": "過敏性疾病：支氣管氣喘(尤其是重症支氣管氣喘)、Behcet ，s症候群，蕁麻疹。",
+          "title_html": "過敏性疾病：支氣管氣喘(尤其是重症支氣管氣喘)、Behcet ，s症候群，蕁麻疹。",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "過敏性疾病：支氣管氣喘(尤其是重症支氣管氣喘)、Behcet ，s症候群，蕁麻疹。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "2\n過敏性疾病：支氣管氣喘(尤其是重症支氣管氣喘)、Behcet ，s症候群，蕁麻疹。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "3",
+          "title": "各種皮膚疾患：播種性紅斑性狼瘡、結節性動脈周圍炎、鞏皮症、尋常性天疱瘡、多形滲出性紅斑、中毒性皮膚炎、接觸性皮膚炎。",
+          "title_html": "各種皮膚疾患：播種性紅斑性狼瘡、結節性動脈周圍炎、鞏皮症、尋常性天疱瘡、多形滲出性紅斑、中毒性皮膚炎、接觸性皮膚炎。",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "各種皮膚疾患：播種性紅斑性狼瘡、結節性動脈周圍炎、鞏皮症、尋常性天疱瘡、多形滲出性紅斑、中毒性皮膚炎、接觸性皮膚炎。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n各種皮膚疾患：播種性紅斑性狼瘡、結節性動脈周圍炎、鞏皮症、尋常性天疱瘡、多形滲出性紅斑、中毒性皮膚炎、接觸性皮膚炎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "4",
+          "title": "腎病症候群。",
+          "title_html": "腎病症候群。",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "腎病症候群。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4\n腎病症候群。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "5",
+          "title": "眼科疾患：虹彩毛樣體炎、瀰漫性葡萄膜炎、手術後之炎症、周邊角膜潰瘍、角膜炎、過敏性結膜炎、春季卡他兒、Reiter氏 症候群，Meta疱疹性角膜炎(Metaherpetica)、脈絡膜潰瘍。",
+          "title_html": "眼科疾患：虹彩毛樣體炎、瀰漫性葡萄膜炎、手術後之炎症、周邊角膜潰瘍、角膜炎、過敏性結膜炎、春季卡他兒、Reiter氏 症候群，Meta疱疹性角膜炎(Metaherpetica)、脈絡膜潰瘍。",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "眼科疾患：虹彩毛樣體炎、瀰漫性葡萄膜炎、手術後之炎症、周邊角膜潰瘍、角膜炎、過敏性結膜炎、春季卡他兒、Reiter氏 症候群，Meta疱疹性角膜炎(Metaherpetica)、脈絡膜潰瘍。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n眼科疾患：虹彩毛樣體炎、瀰漫性葡萄膜炎、手術後之炎症、周邊角膜潰瘍、角膜炎、過敏性結膜炎、春季卡他兒、Reiter氏 症候群，Meta疱疹性角膜炎(Metaherpetica)、脈絡膜潰瘍。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>&nbsp; &nbsp; 目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>&nbsp; &nbsp;目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.2\n藥效藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "1",
+          "title": "本劑之Glucocorticoid作用，強於Cortisone及Hydrocortisone之3~5倍，故臨床上可以少量而得確實效果。",
+          "title_html": "本劑之Glucocorticoid作用，強於Cortisone及Hydrocortisone之3~5倍，故臨床上可以少量而得確實效果。",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "本劑之Glucocorticoid作用，強於Cortisone及Hydrocortisone之3~5倍，故臨床上可以少量而得確實效果。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n本劑之Glucocorticoid作用，強於Cortisone及Hydrocortisone之3~5倍，故臨床上可以少量而得確實效果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "2",
+          "title": "對於投用Corticoid或ACTH製劑之治療量不能得到滿足效果及因副作用而不能繼續治療之患者，本劑以其治療量即可奏效。",
+          "title_html": "對於投用Corticoid或ACTH製劑之治療量不能得到滿足效果及因副作用而不能繼續治療之患者，本劑以其治療量即可奏效。",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "對於投用Corticoid或ACTH製劑之治療量不能得到滿足效果及因副作用而不能繼續治療之患者，本劑以其治療量即可奏效。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "2\n對於投用Corticoid或ACTH製劑之治療量不能得到滿足效果及因副作用而不能繼續治療之患者，本劑以其治療量即可奏效。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "3",
+          "title": "長期之Cortisone，Hydrocortisone治療，因鈉及水之貯留引起浮腫及體重增加或鉀之損失引起心臟衰弱而不得不中止治療，服用倍樂寧殆無鈉及水貯留、鉀之損失等電解質代謝之異常，故普通用量下，亦不要限制食物中之食鹽及補給鉀素。",
+          "title_html": "長期之Cortisone，Hydrocortisone治療，因鈉及水之貯留引起浮腫及體重增加或鉀之損失引起心臟衰弱而不得不中止治療，服用倍樂寧殆無鈉及水貯留、鉀之損失等電解質代謝之異常，故普通用量下，亦不要限制食物中之食鹽及補給鉀素。",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "長期之Cortisone，Hydrocortisone治療，因鈉及水之貯留引起浮腫及體重增加或鉀之損失引起心臟衰弱而不得不中止治療，服用倍樂寧殆無鈉及水貯留、鉀之損失等電解質代謝之異常，故普通用量下，亦不要限制食物中之食鹽及補給鉀素。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n長期之Cortisone，Hydrocortisone治療，因鈉及水之貯留引起浮腫及體重增加或鉀之損失引起心臟衰弱而不得不中止治療，服用倍樂寧殆無鈉及水貯留、鉀之損失等電解質代謝之異常，故普通用量下，亦不要限制食物中之食鹽及補給鉀素。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "4",
+          "title": "投與本劑不引起造血器官之障礙，治療前有紅血球沈降速度促進之患者，本劑投與後即有一般狀態之好轉及紅血球沈降速度遲延，這可視為症狀減輕之標示。",
+          "title_html": "投與本劑不引起造血器官之障礙，治療前有紅血球沈降速度促進之患者，本劑投與後即有一般狀態之好轉及紅血球沈降速度遲延，這可視為症狀減輕之標示。",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "投與本劑不引起造血器官之障礙，治療前有紅血球沈降速度促進之患者，本劑投與後即有一般狀態之好轉及紅血球沈降速度遲延，這可視為症狀減輕之標示。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4\n投與本劑不引起造血器官之障礙，治療前有紅血球沈降速度促進之患者，本劑投與後即有一般狀態之好轉及紅血球沈降速度遲延，這可視為症狀減輕之標示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "5",
+          "title": "普通治療量下，對血壓殆無影響，故對合併高血壓之患者，亦可使用本劑。",
+          "title_html": "普通治療量下，對血壓殆無影響，故對合併高血壓之患者，亦可使用本劑。",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "普通治療量下，對血壓殆無影響，故對合併高血壓之患者，亦可使用本劑。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n普通治療量下，對血壓殆無影響，故對合併高血壓之患者，亦可使用本劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>&nbsp; &nbsp; &nbsp;目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>&nbsp; &nbsp; 目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>&nbsp; &nbsp; 目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "1000粒以下塑膠瓶裝",
+          "content_html": "<p>&nbsp; &nbsp;1000粒以下塑膠瓶裝</p>",
+          "search_text": "13.1\n包裝\n1000粒以下塑膠瓶裝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "2年。",
+          "content_html": "<p>&nbsp; &nbsp;2年。</p>",
+          "search_text": "13.2\n效期\n2年。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "室溫25℃ ± 2℃以下儲存。",
+          "content_html": "<p>&nbsp; &nbsp; 室溫25℃&nbsp;± 2℃以下儲存。</p>",
+          "search_text": "13.3\n儲存條件\n室溫25℃ ± 2℃以下儲存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "【組成及性狀】 普力能錠係將 Hydrocortisone A 環上之 1 及 2 位脫水素而成的，具有下列化學構造，其性狀為白色或淡黃色之結晶性粉末，於 235℃熔融分解。",
+          "content_html": "<p>&nbsp; &nbsp;【組成及性狀】</p><p style=\"margin-left:12.0pt;\">&nbsp; &nbsp; 普力能錠係將 Hydrocortisone A&nbsp;環上之 1&nbsp;及 2&nbsp;位脫水素而成的，具有下列化學構造，其性狀為白色或淡黃色之結晶性粉末，於 235℃熔融分解。</p>",
+          "search_text": "15\n其他\n【組成及性狀】 普力能錠係將 Hydrocortisone A 環上之 1 及 2 位脫水素而成的，具有下列化學構造，其性狀為白色或淡黃色之結晶性粉末，於 235℃熔融分解。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 42424
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nEach tablet contains： Prednisolone………………………………….5mg\n1.2\n賦形劑\nLactose G、Microcrystalline Cellulose、Sodium Starch Glycolate、Magnesium Stearate、Tartrazine Aluminum Lake。\n1.3\n劑型\n錠劑\n1.4\n藥品外觀\n黃色錠劑\n2\n適應症\n1\n風濕性疾患\n風濕性關節炎、風濕熱、Still氏病、風濕性心炎、乾癬性關節炎、恥骨炎、強直性脊椎炎、骨關節炎、風濕性脊椎炎、痛風性關節炎等。\n2\n支氣管氣喘及過敏性疾病\n3\n紅斑性狼瘡\n對其他各種炎症性皮膚疾患頗有效果，目前凡對Cortisone及Hydrocortisone 有效之全部適應症，本劑皆有效。\n3\n用法及用量\n3.1\n用法用量\n本藥須由醫師處方使用。本劑將普通一日之全投與量分為每餐後及就寢前4次或朝夕2次 服用，症狀好轉後每隔2~3日將1日投與量減少2.5~5mg(1/2~1錠)作維持療法，若萬一再發時，漸次增量而 抑制症狀，以下所述之用法用量係適應於各種疾患及其症狀程度之一般使用法，故仍應視 個人差別及症狀之輕重加以適當之增減。\n1.\n風濕性關節炎：\n初期投與量（抑制量），重症：1日30mg（6粒） 其他：1日20mg（4粒）普通本劑治療開始後3~4日症狀即應見好轉，若繼續初期投與量7日仍 不見效時，應懷疑該症是否真性風濕性關節炎，症狀好轉後，將投與量每隔2~3日減少2.5mg（1/2粒）至適當量後為維持量，必要時與安靜療法，食餌療法，整形外科療法等合併治療亦無妨。\n2.\n風濕熱、風濕性心疾、骨關節炎等風濕性疾患：\n使用法與風濕性關節炎之方法相同，視症狀之輕重，投與有效之最低 量。\n3\n支氣管氣喘：\n投與風濕性關節炎治療略同量為抑制量，普通症狀於12~24小時內即可好轉，但如喘息發作停止後，勿立即休藥，而將1日投與量減少2.5~5mg （1/2~1粒）後改為維持療法，治療開始後3~4日，呼吸困難會消失， 肺活量亦有顯著之增加。\n4\n播種性紅斑性狼瘡等：\n一般於此種皮膚疾患，需要投與較大量，初期抑制量，普通使用量1日 須30mg（6粒）以上。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n目前尚無資訊。\n5\n警語及注意事項\n5.1\n警語/注意事項\n【注意事項】\n1.\n本劑雖具有較其他副腎皮質荷爾蒙劑有較強之作用，但並無其他副腎皮質荷爾蒙劑等之重大副作用，普通之初期投與量或維持量下， 雖長期投與亦不起鈉及水之貯留及鉀之損失，有時亦有Cortisone、Hydrocortisone療法常有之Moon-face(圓形臉)及輕度多毛症、不眠症。\n2.\n經長期療法後欲中止服用時，不可立即中止，必先漸減用量，最後中止投藥。\n3.\n雖無明顯之Cortisone長期療法時所引起之消化器潰瘍及增惡之發生，但亦要小心，如有胃部異常感，請投與制酸劑併用。\n4.\n活動性結核患者，不應使用本劑，結核以外之急慢性細菌感染症患者，投與本劑時，應先以抗生劑或化學療法劑抑制其感染，與Cortisone療法完全相同。\n5.\n對於蛋白質限制中之患者，本劑1日30mg之服用量下，僅有氮素損失，反之對於自由攝取蛋白質之患者，雖投與大量(每日50mg)亦無氮素損失，因此本劑服用中之患者，需要攝取充分之蛋白質。\n6.\n時有多幸症(Euphoria)及健康感之發生，但不像Cortisone及Hydrocortisone療法時厲害，但對於有精神病或感情不安者，投與本劑應十分注意。\n7.\n對於糖尿病患者，需增加Insulin必要量，故需要有相同於Cortisone、Hydrocortisone服用時之注意。\n8.\n急慢性感染症，使用時請同時併用適當的化學療法劑或抗生素藥品以治療感染疾病。\n9.\n對消化管障礙如胃腸潰瘍患者務請特別注意。\n10.\n因主要副作用引起浮腫、血壓上升，尤以腎臟疾患及高血壓患者應注意。\n11.\n糖尿病患者使用時，請注意增加Insulin之用量。\n12.\n對於有精神病因素者多加注意。\n13.\n服用本劑期間請充分補充蛋白質。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n1\n節炎、風濕熱、風濕性心炎、骨關節炎、脊椎炎、痛風性關節炎、乾癬性關節炎。\n2\n過敏性疾病：支氣管氣喘(尤其是重症支氣管氣喘)、Behcet ，s症候群，蕁麻疹。\n3\n各種皮膚疾患：播種性紅斑性狼瘡、結節性動脈周圍炎、鞏皮症、尋常性天疱瘡、多形滲出性紅斑、中毒性皮膚炎、接觸性皮膚炎。\n4\n腎病症候群。\n5\n眼科疾患：虹彩毛樣體炎、瀰漫性葡萄膜炎、手術後之炎症、周邊角膜潰瘍、角膜炎、過敏性結膜炎、春季卡他兒、Reiter氏 症候群，Meta疱疹性角膜炎(Metaherpetica)、脈絡膜潰瘍。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n1\n本劑之Glucocorticoid作用，強於Cortisone及Hydrocortisone之3~5倍，故臨床上可以少量而得確實效果。\n2\n對於投用Corticoid或ACTH製劑之治療量不能得到滿足效果及因副作用而不能繼續治療之患者，本劑以其治療量即可奏效。\n3\n長期之Cortisone，Hydrocortisone治療，因鈉及水之貯留引起浮腫及體重增加或鉀之損失引起心臟衰弱而不得不中止治療，服用倍樂寧殆無鈉及水貯留、鉀之損失等電解質代謝之異常，故普通用量下，亦不要限制食物中之食鹽及補給鉀素。\n4\n投與本劑不引起造血器官之障礙，治療前有紅血球沈降速度促進之患者，本劑投與後即有一般狀態之好轉及紅血球沈降速度遲延，這可視為症狀減輕之標示。\n5\n普通治療量下，對血壓殆無影響，故對合併高血壓之患者，亦可使用本劑。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n1000粒以下塑膠瓶裝\n13.2\n效期\n2年。\n13.3\n儲存條件\n室溫25℃ ± 2℃以下儲存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n【組成及性狀】 普力能錠係將 Hydrocortisone A 環上之 1 及 2 位脫水素而成的，具有下列化學構造，其性狀為白色或淡黃色之結晶性粉末，於 235℃熔融分解。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "新喜國際企業股份有限公司",
+          "address": "台南市鹽水區孫厝里孫厝寮４之６號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "新喜國際企業股份有限公司",
+          "address": "台南市鹽水區文昌里孫厝寮４之６號"
+        }
+      ]
+    }
+  ]
+}

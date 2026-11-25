@@ -1,0 +1,824 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:46:41.898320+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12001500",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第001500號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第001500號",
+      "matched_license_code": "12001500",
+      "matched_nhi_code": "",
+      "drug_name_zh": "滅咳康錠15毫克",
+      "drug_name_en": "MEDICON TABLETS 15MG",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1.1\n有效成分及含量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1.1",
+          "parent_id": "1.1",
+          "level": 3,
+          "number": "1.1.1",
+          "title": "組成",
+          "title_html": "組成",
+          "path": [
+            "成分",
+            "有效成分及含量",
+            "組成"
+          ],
+          "content_text": "有效成分及含量:Dextromethorphan HBr 15 mg",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\"><strong>有效成分及含量:Dextromethorphan HBr 15 mg</strong></span></p>",
+          "search_text": "1.1.1\n組成\n有效成分及含量:Dextromethorphan HBr 15 mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1.2",
+          "parent_id": "1.1",
+          "level": 3,
+          "number": "1.1.2",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "成分",
+            "有效成分及含量",
+            "性狀"
+          ],
+          "content_text": "商品名Medicon tablets 15 mg 性狀●劑型白色圓形之膜衣錠 大小 直徑約 8.0 mm 厚度約 3.4 mm 重量約 0.184 g 識別碼15 外形如下",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;vertical-align:top;width:111.75pt;\"><span style=\"color:black;font-family:標楷體;\">商品名</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:304.75pt;\"><span style=\"color:black;font-family:標楷體;\">Medicon tablets 15 mg</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:111.75pt;\"><span style=\"color:black;font-family:標楷體;\">性狀●劑型</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:304.75pt;\"><span style=\"color:black;font-family:標楷體;\">白色圓形之膜衣錠</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:111.75pt;\"><span style=\"color:black;font-family:標楷體;\">大小</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:304.75pt;\"><p><span style=\"color:black;font-family:標楷體;\">直徑約 8.0 mm</span></p><p><span style=\"color:black;font-family:標楷體;\">厚度約 3.4 mm</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.35pt;padding:0cm 5.4pt;vertical-align:top;width:111.75pt;\"><span style=\"color:black;font-family:標楷體;\">重量</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.35pt;padding:0cm 5.4pt;vertical-align:top;width:304.75pt;\"><span style=\"color:black;font-family:標楷體;\">約 0.184 g</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:111.75pt;\"><span style=\"color:black;font-family:標楷體;\">識別碼</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:304.75pt;\"><span style=\"color:black;font-family:標楷體;\">15</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:111.75pt;\"><span style=\"color:black;font-family:標楷體;\">外形</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:304.75pt;\">如下</td></tr></tbody></table></figure>",
+          "search_text": "1.1.2\n性狀\n商品名Medicon tablets 15 mg 性狀●劑型白色圓形之膜衣錠 大小 直徑約 8.0 mm 厚度約 3.4 mm 重量約 0.184 g 識別碼15 外形如下",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 8228
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Lactose、Talc、Wheat Starch、Potato Starch、Magnesium Stearate、Hydroxypropyl Cellulose、Microcrystalline Cellulose",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">Lactose、Talc、Wheat Starch、Potato Starch、Magnesium Stearate、Hydroxypropyl Cellulose、Microcrystalline Cellulose</span></p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nLactose、Talc、Wheat Starch、Potato Starch、Magnesium Stearate、Hydroxypropyl Cellulose、Microcrystalline Cellulose",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "鎮咳。",
+          "content_html": "<p>鎮咳。</p>",
+          "search_text": "2\n用途(適應症)\n鎮咳。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n有下列情形者，請勿使用",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "曾因本藥成分引起過敏的人。",
+          "title_html": "曾因本藥成分引起過敏的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "曾因本藥成分引起過敏的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.1\n曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "服用單胺氧化酶抑制劑(MAOI)或血清素回收抑制劑的抗憂鬱劑(SSRI)的人。",
+          "title_html": "服用單胺氧化酶抑制劑(MAOI)或血清素回收抑制劑的抗憂鬱劑(SSRI)的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "服用單胺氧化酶抑制劑(MAOI)或血清素回收抑制劑的抗憂鬱劑(SSRI)的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.2\n服用單胺氧化酶抑制劑(MAOI)或血清素回收抑制劑的抗憂鬱劑(SSRI)的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "3 歲以下。",
+          "title_html": "3 歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "3 歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n3 歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "吸煙、氣喘、慢性阻塞性肺疾患(包括如慢性支氣管炎、肺氣腫)所引起之咳嗽、及伴有濃痰之咳嗽的人。",
+          "title_html": "吸煙、氣喘、慢性阻塞性肺疾患(包括如慢性支氣管炎、肺氣腫)所引起之咳嗽、及伴有濃痰之咳嗽的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "吸煙、氣喘、慢性阻塞性肺疾患(包括如慢性支氣管炎、肺氣腫)所引起之咳嗽、及伴有濃痰之咳嗽的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n吸煙、氣喘、慢性阻塞性肺疾患(包括如慢性支氣管炎、肺氣腫)所引起之咳嗽、及伴有濃痰之咳嗽的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.3",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.3",
+          "title": "65 歲以上之高齡者。",
+          "title_html": "65 歲以上之高齡者。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "65 歲以上之高齡者。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.3\n65 歲以上之高齡者。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.2",
+          "title": "同時服用抑制藥物代謝酵素(CYP2D6)之藥物: Quinidine、Amiodarone、Terbinafine。",
+          "title_html": "同時服用抑制藥物代謝酵素(CYP2D6)之藥物: Quinidine、Amiodarone、Terbinafine。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "同時服用抑制藥物代謝酵素(CYP2D6)之藥物: Quinidine、Amiodarone、Terbinafine。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.2\n同時服用抑制藥物代謝酵素(CYP2D6)之藥物: Quinidine、Amiodarone、Terbinafine。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "可能引起嗜睡，勿駕車或操作危險性機械。",
+          "title_html": "可能引起嗜睡，勿駕車或操作危險性機械。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "可能引起嗜睡，勿駕車或操作危險性機械。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n可能引起嗜睡，勿駕車或操作危險性機械。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "為防止兒童誤食請妥善保管。",
+          "title_html": "為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "勿超過建議使用量。",
+          "title_html": "勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "不得與含酒精飲料併用。",
+          "title_html": "不得與含酒精飲料併用。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "不得與含酒精飲料併用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n不得與含酒精飲料併用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.6",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.6",
+          "title": "調劑時: 與藥水一同使用時，會與碘化鉀、碘化鈉等生成難溶性之氫碘酸鹽。另外，如與碳酸氫鈉、氨、茴香精等配合時，會析出游離鹽基，故要避免與上述物質配合使用。",
+          "title_html": "調劑時: 與藥水一同使用時，會與碘化鉀、碘化鈉等生成難溶性之氫碘酸鹽。另外，如與碳酸氫鈉、氨、茴香精等配合時，會析出游離鹽基，故要避免與上述物質配合使用。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "調劑時: 與藥水一同使用時，會與碘化鉀、碘化鈉等生成難溶性之氫碘酸鹽。另外，如與碳酸氫鈉、氨、茴香精等配合時，會析出游離鹽基，故要避免與上述物質配合使用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.6\n調劑時: 與藥水一同使用時，會與碘化鉀、碘化鈉等生成難溶性之氫碘酸鹽。另外，如與碳酸氫鈉、氨、茴香精等配合時，會析出游離鹽基，故要避免與上述物質配合使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "年齡 每次服用量 一日服用次數 12 歲以上 1 錠3~4 次 6 歲以上未滿 12 歲 1/2 錠 3 歲以上未滿 6 歲 1/4 錠 3 歲以下請洽醫師診治",
+          "content_html": "<figure class=\"table\" style=\"width:423.6pt;\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;width:140.1pt;\"><span style=\"color:black;font-family:標楷體;\">年齡</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:127.55pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">每次服用量</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">一日服用次數</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:140.1pt;\"><span style=\"font-family:標楷體;\">12&nbsp;歲以上&nbsp;</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:127.55pt;\"><span style=\"color:black;font-family:標楷體;\">1&nbsp;錠</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:155.95pt;\" rowspan=\"4\"><span style=\"color:black;font-family:標楷體;\">3~4&nbsp;次</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:140.1pt;\"><span style=\"font-family:標楷體;\">6&nbsp;歲以上未滿 12&nbsp;歲&nbsp;</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:127.55pt;\"><span style=\"color:black;font-family:標楷體;\">1/2&nbsp;錠</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:140.1pt;\"><span style=\"font-family:標楷體;\">3&nbsp;歲以上未滿 6&nbsp;歲&nbsp;</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:127.55pt;\"><span style=\"color:black;font-family:標楷體;\">1/4&nbsp;錠</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:140.1pt;\"><span style=\"font-family:標楷體;\">3&nbsp;歲以下</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:127.55pt;\"><span style=\"color:black;font-family:標楷體;\">請洽醫師診治</span></td></tr></tbody></table></figure>",
+          "search_text": "4\n用法用量\n年齡 每次服用量 一日服用次數 12 歲以上 1 錠3~4 次 6 歲以上未滿 12 歲 1/2 錠 3 歲以上未滿 6 歲 1/4 錠 3 歲以下請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位副作用 皮膚 發疹 神經系統嗜睡、頭痛、眩暈、不適、失眠等 消化道噁心、嘔吐、食慾不振、便秘、腹痛、口渴、打嗝",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:20.5pt;padding:0cm 5.4pt;vertical-align:top;width:133.0pt;\"><span style=\"color:black;font-family:標楷體;\">身體部位</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:20.5pt;padding:0cm 5.4pt;vertical-align:top;width:290.6pt;\"><span style=\"color:black;font-family:標楷體;\">副作用</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:13.75pt;padding:0cm 5.4pt;vertical-align:top;width:133.0pt;\"><span style=\"font-family:標楷體;\">皮膚 &nbsp;</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:13.75pt;padding:0cm 5.4pt;vertical-align:top;width:290.6pt;\"><span style=\"color:black;font-family:標楷體;\">發疹</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:133.0pt;\"><span style=\"font-family:標楷體;\">神經系統</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:290.6pt;\"><span style=\"color:black;font-family:標楷體;\">嗜睡、頭痛、眩暈、不適、失眠等</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:133.0pt;\"><span style=\"color:black;font-family:標楷體;\">消化道</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:290.6pt;\"><span style=\"color:black;font-family:標楷體;\">噁心、嘔吐、食慾不振、便秘、腹痛、口渴、打嗝</span></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 皮膚 發疹 神經系統嗜睡、頭痛、眩暈、不適、失眠等 消化道噁心、嘔吐、食慾不振、便秘、腹痛、口渴、打嗝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有任何不適情況產生。",
+          "title_html": "若有任何不適情況產生。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有任何不適情況產生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有任何不適情況產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "有高燒、出疹、持續性頭痛、及持續達一星期以上之咳嗽、或有復發現象的人。",
+          "title_html": "有高燒、出疹、持續性頭痛、及持續達一星期以上之咳嗽、或有復發現象的人。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "有高燒、出疹、持續性頭痛、及持續達一星期以上之咳嗽、或有復發現象的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n有高燒、出疹、持續性頭痛、及持續達一星期以上之咳嗽、或有復發現象的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.3",
+          "title": "呼吸抑制、過敏性反應症狀 (呼吸困難、蕁麻疹、血管浮腫等)，如有此症狀出現時請中止給藥。",
+          "title_html": "呼吸抑制、過敏性反應症狀 (呼吸困難、蕁麻疹、血管浮腫等)，如有此症狀出現時請中止給藥。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "呼吸抑制、過敏性反應症狀 (呼吸困難、蕁麻疹、血管浮腫等)，如有此症狀出現時請中止給藥。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.3\n呼吸抑制、過敏性反應症狀 (呼吸困難、蕁麻疹、血管浮腫等)，如有此症狀出現時請中止給藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.4",
+          "title": "過量投與後發生嘔氣、嘔吐、尿滯留、運動失調、精神混亂、興奮、神經過敏、幻覺、呼吸抑制、嗜睡等症狀。",
+          "title_html": "過量投與後發生嘔氣、嘔吐、尿滯留、運動失調、精神混亂、興奮、神經過敏、幻覺、呼吸抑制、嗜睡等症狀。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "過量投與後發生嘔氣、嘔吐、尿滯留、運動失調、精神混亂、興奮、神經過敏、幻覺、呼吸抑制、嗜睡等症狀。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.4\n過量投與後發生嘔氣、嘔吐、尿滯留、運動失調、精神混亂、興奮、神經過敏、幻覺、呼吸抑制、嗜睡等症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "6~1000 錠塑膠瓶裝。",
+          "content_html": "<p>6~1000 錠塑膠瓶裝。</p>",
+          "search_text": "6\n包裝\n6~1000 錠塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "請儲存於 30°C 以下。",
+          "content_html": "<p>請儲存於 30°C 以下。</p>",
+          "search_text": "7\n儲存方式\n請儲存於 30°C 以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品。\n【有效成分及其物理化學資料】 一般名: Dextromethorphan Hydrobromide Hydrate 化學名: (9S, 13S, 14S)-3-Methoxy-17-methylmorphinan monohydrobromide monohydrate 分子式:C18H25NOHBrH20 分子量:370.32 化學結構式:",
+          "content_html": "<p>醫師藥師藥劑生指示藥品。</p>\n<p>【有效成分及其物理化學資料】&nbsp;<br>一般名: Dextromethorphan Hydrobromide Hydrate 化學名: (9S, 13S, 14S)-3-Methoxy-17-methylmorphinan monohydrobromide monohydrate &nbsp;<br>分子式:C18H25NOHBrH20&nbsp;<br>分子量:370.32&nbsp;<br>化學結構式: &nbsp;&nbsp;</p>",
+          "search_text": "8\n類別\n醫師藥師藥劑生指示藥品。\n【有效成分及其物理化學資料】 一般名: Dextromethorphan Hydrobromide Hydrate 化學名: (9S, 13S, 14S)-3-Methoxy-17-methylmorphinan monohydrobromide monohydrate 分子式:C18H25NOHBrH20 分子量:370.32 化學結構式:",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 10024
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 33132
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n成分\n1.1\n有效成分及含量\n1.1.1\n組成\n有效成分及含量:Dextromethorphan HBr 15 mg\n1.1.2\n性狀\n商品名Medicon tablets 15 mg 性狀●劑型白色圓形之膜衣錠 大小 直徑約 8.0 mm 厚度約 3.4 mm 重量約 0.184 g 識別碼15 外形如下\n1.2\n其他成分(賦形劑)\nLactose、Talc、Wheat Starch、Potato Starch、Magnesium Stearate、Hydroxypropyl Cellulose、Microcrystalline Cellulose\n2\n用途(適應症)\n鎮咳。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n3.1.1\n曾因本藥成分引起過敏的人。\n3.1.2\n服用單胺氧化酶抑制劑(MAOI)或血清素回收抑制劑的抗憂鬱劑(SSRI)的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n3 歲以下。\n3.2.2\n吸煙、氣喘、慢性阻塞性肺疾患(包括如慢性支氣管炎、肺氣腫)所引起之咳嗽、及伴有濃痰之咳嗽的人。\n3.2.3\n65 歲以上之高齡者。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n孕婦、可能懷孕婦女及哺乳婦。\n3.3.2\n同時服用抑制藥物代謝酵素(CYP2D6)之藥物: Quinidine、Amiodarone、Terbinafine。\n3.4\n其他使用上注意事項\n3.4.1\n可能引起嗜睡，勿駕車或操作危險性機械。\n3.4.2\n為防止兒童誤食請妥善保管。\n3.4.3\n避免陽光直射。\n3.4.4\n勿超過建議使用量。\n3.4.5\n不得與含酒精飲料併用。\n3.4.6\n調劑時: 與藥水一同使用時，會與碘化鉀、碘化鈉等生成難溶性之氫碘酸鹽。另外，如與碳酸氫鈉、氨、茴香精等配合時，會析出游離鹽基，故要避免與上述物質配合使用。\n4\n用法用量\n年齡 每次服用量 一日服用次數 12 歲以上 1 錠3~4 次 6 歲以上未滿 12 歲 1/2 錠 3 歲以上未滿 6 歲 1/4 錠 3 歲以下請洽醫師診治\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 皮膚 發疹 神經系統嗜睡、頭痛、眩暈、不適、失眠等 消化道噁心、嘔吐、食慾不振、便秘、腹痛、口渴、打嗝\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有任何不適情況產生。\n5.2.2\n有高燒、出疹、持續性頭痛、及持續達一星期以上之咳嗽、或有復發現象的人。\n5.2.3\n呼吸抑制、過敏性反應症狀 (呼吸困難、蕁麻疹、血管浮腫等)，如有此症狀出現時請中止給藥。\n5.2.4\n過量投與後發生嘔氣、嘔吐、尿滯留、運動失調、精神混亂、興奮、神經過敏、幻覺、呼吸抑制、嗜睡等症狀。\n6\n包裝\n6~1000 錠塑膠瓶裝。\n7\n儲存方式\n請儲存於 30°C 以下。\n8\n類別\n醫師藥師藥劑生指示藥品。\n【有效成分及其物理化學資料】 一般名: Dextromethorphan Hydrobromide Hydrate 化學名: (9S, 13S, 14S)-3-Methoxy-17-methylmorphinan monohydrobromide monohydrate 分子式:C18H25NOHBrH20 分子量:370.32 化學結構式:",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "台灣東洋藥品工業股份有限公司六堵廠",
+          "address": "基隆市七堵區工建西路5號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "",
+          "address": "電話: (02)25516336 (代表線)"
+        },
+        {
+          "number": "2",
+          "name": "台灣塩野義製藥股份有限公司",
+          "address": "台北市中山區南京東路二段２號４樓"
+        }
+      ]
+    }
+  ]
+}

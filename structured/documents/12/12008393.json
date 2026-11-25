@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:52:55.684819+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12008393",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第008393號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第008393號",
+      "matched_license_code": "12008393",
+      "matched_nhi_code": "",
+      "drug_name_zh": "免嗽克喘注射液",
+      "drug_name_en": "METHOXINE M INJECTION",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-04-07",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每ml中含有： Methoxyphenamine HCl………………………….………50mg Guaiacol Glyceryl Ether ………………………….……… 20mg Dihydroxypropyl Theophylline………………………...40mg DL-Methylephedrine HCl…………………………….…..12mg Chlorpheniramine Maleate…………………………..…...2mg",
+          "content_html": "<p><span style=\"font-family:標楷體;\">每</span>ml<span style=\"font-family:標楷體;\">中含有：</span></p><p>Methoxyphenamine HCl………………………….………50mg</p><p>Guaiacol Glyceryl Ether ………………………….……… 20mg</p><p>Dihydroxypropyl Theophylline………………………...40mg</p><p>DL-Methylephedrine HCl…………………………….…..12mg</p><p>Chlorpheniramine Maleate…………………………..…...2mg</p>",
+          "search_text": "1.1\n有效成分及含量\n每ml中含有： Methoxyphenamine HCl………………………….………50mg Guaiacol Glyceryl Ether ………………………….……… 20mg Dihydroxypropyl Theophylline………………………...40mg DL-Methylephedrine HCl…………………………….…..12mg Chlorpheniramine Maleate…………………………..…...2mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Calcium Gluconate, Benzyl Alcohol, Water for Injection.",
+          "content_html": "<p>&nbsp;Calcium Gluconate, Benzyl Alcohol, Water for Injection.</p>",
+          "search_text": "1.2\n賦形劑\nCalcium Gluconate, Benzyl Alcohol, Water for Injection.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射液劑。",
+          "content_html": "<p>注射液劑。</p>",
+          "search_text": "1.3\n劑型\n注射液劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "無色澄明液。",
+          "content_html": "<p><span style=\"font-family:細明體;\">無色澄明液。</span></p>",
+          "search_text": "1.4\n藥品外觀\n無色澄明液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "支氣管氣喘、支氣管炎、小兒氣喘、咳嗽、蕁麻疹、過敏性鼻炎、過敏性疾患。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">支氣管氣喘、支氣管炎、小兒氣喘、咳嗽、蕁麻疹、過敏性鼻炎、過敏性疾患。</span></p>",
+          "search_text": "2\n適應症\n支氣管氣喘、支氣管炎、小兒氣喘、咳嗽、蕁麻疹、過敏性鼻炎、過敏性疾患。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "通常1回1~2ml注射於皮下或肌肉，依症狀或年齡增減使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">通常</span>1<span style=\"font-family:標楷體;\">回</span>1~2ml<span style=\"font-family:標楷體;\">注射於皮下或肌肉，依症狀或年齡增減使用。</span></p>",
+          "search_text": "3.1\n用法用量\n通常1回1~2ml注射於皮下或肌肉，依症狀或年齡增減使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "直接使⽤，無須調製。",
+          "content_html": "<p>直接使⽤，無須調製。</p>",
+          "search_text": "3.2\n調製方式\n直接使⽤，無須調製。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "4\n禁忌\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "5.1\n警語/注意事項\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "5.2\n藥物濫用及依賴性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "5.3\n操作機械能力\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "5.4\n實驗室檢測\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.1\n懷孕",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "10.1.1.Methoxyphenamine HCl係能作用於交感神經，而具有支氣管收縮緩解及擴張作用與平滑肌痙孿之緩解作用及抗 Histamine作用。 10.1.2.Guaiacol Glyceryl Ether 即具有平滑肌弛緩與支氣管擴張。 10.1.3.Dihydroxypropyl Theophylline係具有強心、利尿、冠狀動脈擴張作用及平滑肌弛緩作用。 10.1.4.DL-Methylephedrine HCl係具有交感神經興奮及抗Histamine作用。 10.1.5.Chlorpheniramine Maleate係具有強力之抗Histamine作用。",
+          "content_html": "<p>10.1.1.Methoxyphenamine HCl<span style=\"font-family:標楷體;\">係能作用於交感神經，而具有支氣管收縮緩解及擴張作用與平滑肌痙孿之緩解作用及抗</span> Histamine<span style=\"font-family:標楷體;\">作用。</span></p><p>10.1.2.Guaiacol Glyceryl Ether&nbsp;<span style=\"font-family:標楷體;\">即具有平滑肌弛緩與支氣管擴張。</span></p><p>10.1.3.Dihydroxypropyl Theophylline<span style=\"font-family:標楷體;\">係具有強心、利尿、冠狀動脈擴張作用及平滑肌弛緩作用。</span></p><p>10.1.4.DL-Methylephedrine HCl<span style=\"font-family:標楷體;\">係具有交感神經興奮及抗</span>Histamine<span style=\"font-family:標楷體;\">作用。</span></p><p>10.1.5.Chlorpheniramine Maleate<span style=\"font-family:標楷體;\">係具有強力之抗</span>Histamine<span style=\"font-family:標楷體;\">作用。</span></p>",
+          "search_text": "10.1\n作用機轉\n10.1.1.Methoxyphenamine HCl係能作用於交感神經，而具有支氣管收縮緩解及擴張作用與平滑肌痙孿之緩解作用及抗 Histamine作用。 10.1.2.Guaiacol Glyceryl Ether 即具有平滑肌弛緩與支氣管擴張。 10.1.3.Dihydroxypropyl Theophylline係具有強心、利尿、冠狀動脈擴張作用及平滑肌弛緩作用。 10.1.4.DL-Methylephedrine HCl係具有交感神經興奮及抗Histamine作用。 10.1.5.Chlorpheniramine Maleate係具有強力之抗Histamine作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "10.2.1. Methoxyphenamine HCl並無類似其他交感神經興奮劑之血管收縮，血壓上昇及心臟刺激等之作用或由於中樞神經興奮作用所起因之心悸亢進、不眠、嘔吐等副作用對於支氣管喘息及各種咳嗽能緩解發作時之呼吸困難及上昇肺活量等，對於鎮咳、袪痰、抗喘息之預防及治療均具卓效。 10.2.2.Guaiacol Glyceryl Ether方可排出難於喀出分泌物(痰)同時能抑制腺分泌及抗菌作用之抗菌袪痰劑。 10.2.3.DL-Methylephedrine HCl對於支氣管喘息之效果可與Ephedrine HCl相等，但其血壓上昇作用約1/10及並無中樞神經興奮、心悸亢進、不眠等副作用之新麻黃素也。 10.2.4.Chlorpheniramine Maleate使用少量即能奏效又殆無不快嗜眠或倦怠感等副作用在各種抗過敏性藥劑中被咸認為優秀之過敏性(Allergy)疾患治療劑。 10.2.5.在臨床治療上對於支氣管喘息之藥劑甚多，從來所用之Adrenaline及Ephedrine等之交感神經興奮劑性作用於中樞神經系及血管系而發生血壓上昇及心悸亢進、不眠、嘔吐或習慣性等副作用，本劑Methoxyphenamine HCl即具有強力支氣管擴張作用，而並無如上記副作用之藥劑為主劑外，混合Guaiacol Glyceryl Ether, Dihydroxypropyl Theophylline, DL-Methylephedrine HCl及Chlorpheniramine Maleate 而成之，以各種藥劑各以獨特之效用並相乘合同作用成為一適於支氣管氣喘，百日咳及各種咳嗽治療劑。",
+          "content_html": "<p>10.2.1. Methoxyphenamine HCl<span style=\"font-family:標楷體;\">並無類似其他交感神經興奮劑之血管收縮，血壓上昇及心臟刺激等之作用或由於中樞神經興奮作用所起因之心悸亢進、不眠、嘔吐等副作用對於支氣管喘息及各種咳嗽能緩解發作時之呼吸困難及上昇肺活量等，對於鎮咳、袪痰、抗喘息之預防及治療均具卓效。</span></p><p>10.2.2.Guaiacol Glyceryl Ether<span style=\"font-family:標楷體;\">方可排出難於喀出分泌物</span>(<span style=\"font-family:標楷體;\">痰</span>)<span style=\"font-family:標楷體;\">同時能抑制腺分泌及抗菌作用之抗菌袪痰劑。</span></p><p>10.2.3.DL-Methylephedrine HCl<span style=\"font-family:標楷體;\">對於支氣管喘息之效果可與</span>Ephedrine HCl<span style=\"font-family:標楷體;\">相等，但其血壓上昇作用約</span>1/10<span style=\"font-family:標楷體;\">及並無中樞神經興奮、心悸亢進、不眠等副作用之新麻黃素也。</span></p><p>10.2.4.Chlorpheniramine Maleate<span style=\"font-family:標楷體;\">使用少量即能奏效又殆無不快嗜眠或倦怠感等副作用在各種抗過敏性藥劑中被咸認為優秀之過敏性</span>(Allergy)<span style=\"font-family:標楷體;\">疾患治療劑。</span></p><p>10.2.5.<span style=\"font-family:標楷體;\">在臨床治療上對於支氣管喘息之藥劑甚多，從來所用之Adrenaline及Ephedrine等之交感神經興奮劑性作用於中樞神經系及血管系而發生血壓上昇及心悸亢進、不眠、嘔吐或習慣性等副作用，本劑Methoxyphenamine HCl即具有強力支氣管擴張作用，而並無如上記副作用之藥劑為主劑外，混合Guaiacol Glyceryl Ether, Dihydroxypropyl Theophylline, DL-Methylephedrine HCl及Chlorpheniramine Maleate&nbsp;而成之，以各種藥劑各以獨特之效用並相乘合同作用成為一適於支氣管氣喘，百日咳及各種咳嗽治療劑。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n10.2.1. Methoxyphenamine HCl並無類似其他交感神經興奮劑之血管收縮，血壓上昇及心臟刺激等之作用或由於中樞神經興奮作用所起因之心悸亢進、不眠、嘔吐等副作用對於支氣管喘息及各種咳嗽能緩解發作時之呼吸困難及上昇肺活量等，對於鎮咳、袪痰、抗喘息之預防及治療均具卓效。 10.2.2.Guaiacol Glyceryl Ether方可排出難於喀出分泌物(痰)同時能抑制腺分泌及抗菌作用之抗菌袪痰劑。 10.2.3.DL-Methylephedrine HCl對於支氣管喘息之效果可與Ephedrine HCl相等，但其血壓上昇作用約1/10及並無中樞神經興奮、心悸亢進、不眠等副作用之新麻黃素也。 10.2.4.Chlorpheniramine Maleate使用少量即能奏效又殆無不快嗜眠或倦怠感等副作用在各種抗過敏性藥劑中被咸認為優秀之過敏性(Allergy)疾患治療劑。 10.2.5.在臨床治療上對於支氣管喘息之藥劑甚多，從來所用之Adrenaline及Ephedrine等之交感神經興奮劑性作用於中樞神經系及血管系而發生血壓上昇及心悸亢進、不眠、嘔吐或習慣性等副作用，本劑Methoxyphenamine HCl即具有強力支氣管擴張作用，而並無如上記副作用之藥劑為主劑外，混合Guaiacol Glyceryl Ether, Dihydroxypropyl Theophylline, DL-Methylephedrine HCl及Chlorpheniramine Maleate 而成之，以各種藥劑各以獨特之效用並相乘合同作用成為一適於支氣管氣喘，百日咳及各種咳嗽治療劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "1毫升、1.5毫升及2毫升玻璃安瓿裝，100支以下盒裝。",
+          "content_html": "<p>1<span style=\"font-family:標楷體;\">毫升、</span>1.5<span style=\"font-family:標楷體;\">毫升及</span>2<span style=\"font-family:標楷體;\">毫升玻璃安瓿裝，</span>100<span style=\"font-family:標楷體;\">支以下盒裝。</span></p>",
+          "search_text": "13.1\n包裝\n1毫升、1.5毫升及2毫升玻璃安瓿裝，100支以下盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "應儲藏於25℃以下。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">應儲藏於25℃以下。</span></p>",
+          "search_text": "13.3\n儲存條件\n應儲藏於25℃以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每ml中含有： Methoxyphenamine HCl………………………….………50mg Guaiacol Glyceryl Ether ………………………….……… 20mg Dihydroxypropyl Theophylline………………………...40mg DL-Methylephedrine HCl…………………………….…..12mg Chlorpheniramine Maleate…………………………..…...2mg\n1.2\n賦形劑\nCalcium Gluconate, Benzyl Alcohol, Water for Injection.\n1.3\n劑型\n注射液劑。\n1.4\n藥品外觀\n無色澄明液。\n2\n適應症\n支氣管氣喘、支氣管炎、小兒氣喘、咳嗽、蕁麻疹、過敏性鼻炎、過敏性疾患。\n3\n用法及用量\n3.1\n用法用量\n通常1回1~2ml注射於皮下或肌肉，依症狀或年齡增減使用。\n3.2\n調製方式\n直接使⽤，無須調製。\n3.3\n特殊族群用法用量\n4\n禁忌\n目前尚無資訊。\n5\n警語及注意事項\n5.1\n警語/注意事項\n目前尚無資訊。\n5.2\n藥物濫用及依賴性\n目前尚無資訊。\n5.3\n操作機械能力\n目前尚無資訊。\n5.4\n實驗室檢測\n目前尚無資訊。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n目前尚無資訊。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n10.1.1.Methoxyphenamine HCl係能作用於交感神經，而具有支氣管收縮緩解及擴張作用與平滑肌痙孿之緩解作用及抗 Histamine作用。 10.1.2.Guaiacol Glyceryl Ether 即具有平滑肌弛緩與支氣管擴張。 10.1.3.Dihydroxypropyl Theophylline係具有強心、利尿、冠狀動脈擴張作用及平滑肌弛緩作用。 10.1.4.DL-Methylephedrine HCl係具有交感神經興奮及抗Histamine作用。 10.1.5.Chlorpheniramine Maleate係具有強力之抗Histamine作用。\n10.2\n藥效藥理特性\n10.2.1. Methoxyphenamine HCl並無類似其他交感神經興奮劑之血管收縮，血壓上昇及心臟刺激等之作用或由於中樞神經興奮作用所起因之心悸亢進、不眠、嘔吐等副作用對於支氣管喘息及各種咳嗽能緩解發作時之呼吸困難及上昇肺活量等，對於鎮咳、袪痰、抗喘息之預防及治療均具卓效。 10.2.2.Guaiacol Glyceryl Ether方可排出難於喀出分泌物(痰)同時能抑制腺分泌及抗菌作用之抗菌袪痰劑。 10.2.3.DL-Methylephedrine HCl對於支氣管喘息之效果可與Ephedrine HCl相等，但其血壓上昇作用約1/10及並無中樞神經興奮、心悸亢進、不眠等副作用之新麻黃素也。 10.2.4.Chlorpheniramine Maleate使用少量即能奏效又殆無不快嗜眠或倦怠感等副作用在各種抗過敏性藥劑中被咸認為優秀之過敏性(Allergy)疾患治療劑。 10.2.5.在臨床治療上對於支氣管喘息之藥劑甚多，從來所用之Adrenaline及Ephedrine等之交感神經興奮劑性作用於中樞神經系及血管系而發生血壓上昇及心悸亢進、不眠、嘔吐或習慣性等副作用，本劑Methoxyphenamine HCl即具有強力支氣管擴張作用，而並無如上記副作用之藥劑為主劑外，混合Guaiacol Glyceryl Ether, Dihydroxypropyl Theophylline, DL-Methylephedrine HCl及Chlorpheniramine Maleate 而成之，以各種藥劑各以獨特之效用並相乘合同作用成為一適於支氣管氣喘，百日咳及各種咳嗽治療劑。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n1毫升、1.5毫升及2毫升玻璃安瓿裝，100支以下盒裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n應儲藏於25℃以下。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "杏林新生製藥股份有限公司",
+          "address": "桃園市龍潭區三和村店湖一路２３７號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "東洲化學製藥廠股份有限公司",
+          "address": "新北市蘆洲區中山二路195巷12號1-2樓"
+        }
+      ]
+    }
+  ]
+}

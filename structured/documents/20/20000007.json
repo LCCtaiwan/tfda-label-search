@@ -1,0 +1,1025 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:57:42.941471+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "20000007",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署罕藥輸字第000007號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署罕藥輸字第000007號",
+      "matched_license_code": "20000007",
+      "matched_nhi_code": "",
+      "drug_name_zh": "安閣靈 0.5毫克膠囊",
+      "drug_name_en": "AGRYLIN 0.5MG CAPSULES",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2024-01-10",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每1顆膠囊含0.5毫克anagrelide，相當於0.61毫克anagrelide hydrochloride。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">每</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">顆膠囊含</span><span style=\"color:black;\">0.5</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">，相當於</span><span style=\"color:black;\">0.61</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">anagrelide hydrochloride</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n每1顆膠囊含0.5毫克anagrelide，相當於0.61毫克anagrelide hydrochloride。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "膠囊同時含非活性成分anhydrous lactose、crospovidone、lactose monohydrate、magnesium stearate、 microcrystalline cellulose、povidone、purified water。膠囊殼含gelatin、titanium dioxide、black ink。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">膠囊同時含非活性成分</span><span style=\"color:black;\">anhydrous lactose</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">crospovidone</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">lactose monohydrate</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">magnesium stearate</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\"> microcrystalline cellulose</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">povidone</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">purified water</span><span style=\"color:black;font-family:標楷體;\">。膠囊殼含</span>gelatin<span style=\"font-family:標楷體;\">、</span>titanium dioxide<span style=\"font-family:標楷體;\">、</span>black ink<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "1.2\n賦形劑\n膠囊同時含非活性成分anhydrous lactose、crospovidone、lactose monohydrate、magnesium stearate、 microcrystalline cellulose、povidone、purified water。膠囊殼含gelatin、titanium dioxide、black ink。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "膠囊。",
+          "content_html": "<p>膠囊。</p>",
+          "search_text": "1.3\n劑型\n膠囊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "白色、不透明膠囊，印有黑色「S 063」。(其中S為符號，如下圖所示)",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">白色、不透明膠囊，印有黑色「</span><strong>S</strong> 063<span style=\"font-family:標楷體;\">」。(其中S為符號，如下圖所示)</span></p>",
+          "search_text": "1.4\n藥品外觀\n白色、不透明膠囊，印有黑色「S 063」。(其中S為符號，如下圖所示)",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 1824
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "原發性血小板過多症(請見臨床試驗資料、用法及用量)。",
+          "content_html": "<p><span style=\"color:black;font-family:標楷體;\">原發性血小板過多症</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>臨床試驗資料</i>、<i>用法及用量</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "2\n適應症\n原發性血小板過多症(請見臨床試驗資料、用法及用量)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "建議起始劑量 成人：AGRYLIN的建議起始劑量為每日1毫克，1顆0.5毫克每天2次，或2顆0.5毫克每天1次。 孩童：AGRYLIN的建議起始劑量為每日0.5毫克。 根據血小板數目調整劑量 先以起始劑量持續治療至少一週，接著將劑量調整到使血小板數目降低並維持在600,000/μL以下，以150,000/µL至400,000/µL之間最為理想。增加劑量時，一週內增加量不可超過0.5毫克/天，每天總劑量不可超過10毫克，單次劑量不可超過2.5毫克(請見警語及注意事項)。大部分病人在1.5至3毫克/天的劑量下可達到適當的反應。調整劑量期間，應每週監測血小板數目，之後每個月一次或視需要監測。 臨床監測 使用AGRYLIN治療需要臨床監測，包括全血計數、肝腎功能的評估和電解質。 為了防止血小板減少症的發生，治療第一週須每隔兩天監測血小板數目，之後至少每週一次，直到達到維持劑量。通常在適當劑量下，血小板計數會在7至14天開始下降。在臨床試驗中，達到完全反應(定義為血小板數目≤ 600,000/µL)的時間是在4至12 週。當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基線水準，甚至可能反彈到基線水準以上。應時常監測血小板數目。 血栓風險 應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。",
+          "content_html": "<p><u>建議起始劑量</u></p><p>成人：AGRYLIN的建議起始劑量為每日1毫克，1顆0.5毫克每天2次，或2顆0.5毫克每天1次。<br>孩童：AGRYLIN的建議起始劑量為每日0.5毫克。</p><p>&nbsp;</p><p><u>根據血小板數目調整劑量</u></p><p>先以起始劑量持續治療至少一週，接著將劑量調整到使血小板數目降低並維持在600,000/μL以下，以150,000/µL至400,000/µL之間最為理想。增加劑量時，一週內增加量不可超過0.5毫克/天，每天總劑量不可超過10毫克，單次劑量不可超過2.5毫克(請見警語及注意事項)。大部分病人在1.5至3毫克/天的劑量下可達到適當的反應。調整劑量期間，應每週監測血小板數目，之後每個月一次或視需要監測。</p><p>&nbsp;</p><p><u>臨床監測</u></p><p>使用AGRYLIN治療需要臨床監測，包括全血計數、肝腎功能的評估和電解質。</p><p>為了防止血小板減少症的發生，治療第一週須每隔兩天監測血小板數目，之後至少每週一次，直到達到維持劑量。通常在適當劑量下，血小板計數會在7至14天開始下降。在臨床試驗中，達到完全反應(定義為血小板數目≤ 600,000/µL)的時間是在4至12 週。當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基線水準，甚至可能反彈到基線水準以上。應時常監測血小板數目。</p><p>&nbsp;</p><p><u>血栓風險</u></p><p>應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。<br>&nbsp;</p>",
+          "search_text": "3.1\n用法用量\n建議起始劑量 成人：AGRYLIN的建議起始劑量為每日1毫克，1顆0.5毫克每天2次，或2顆0.5毫克每天1次。 孩童：AGRYLIN的建議起始劑量為每日0.5毫克。 根據血小板數目調整劑量 先以起始劑量持續治療至少一週，接著將劑量調整到使血小板數目降低並維持在600,000/μL以下，以150,000/µL至400,000/µL之間最為理想。增加劑量時，一週內增加量不可超過0.5毫克/天，每天總劑量不可超過10毫克，單次劑量不可超過2.5毫克(請見警語及注意事項)。大部分病人在1.5至3毫克/天的劑量下可達到適當的反應。調整劑量期間，應每週監測血小板數目，之後每個月一次或視需要監測。 臨床監測 使用AGRYLIN治療需要臨床監測，包括全血計數、肝腎功能的評估和電解質。 為了防止血小板減少症的發生，治療第一週須每隔兩天監測血小板數目，之後至少每週一次，直到達到維持劑量。通常在適當劑量下，血小板計數會在7至14天開始下降。在臨床試驗中，達到完全反應(定義為血小板數目≤ 600,000/µL)的時間是在4至12 週。當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基線水準，甚至可能反彈到基線水準以上。應時常監測血小板數目。 血栓風險 應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "用於肝功能不全的劑量調整 中度肝功能不全(Child Pugh score 7-9)病人建議以每日0.5毫克的劑量開始治療，並密切監測心血管功能(請見警語及注意事項、特殊族群注意事項和藥理特性)。中度肝功能不全病人能忍受AGRYLIN治療一週以上時，可考慮調高其劑量。當要增加劑量時，一週內的增加量不可超過0.5毫克/天。避免將AGRYLIN用於嚴重肝功能不全病人。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>用於肝功能不全的劑量調整</u></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">中度肝功能不全</span>(Child Pugh score 7-9)<span style=\"color:black;font-family:標楷體;\">病人建議以每日</span><span style=\"color:black;\">0.5</span><span style=\"color:black;font-family:標楷體;\">毫克的劑量開始治療，並密切監測心血管功能</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i>、<i>特殊族群注意事項</i>和<i>藥理特性</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。中度肝功能不全病人能忍受</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">治療一週以上時，可考慮調高其劑量。當要增加劑量時，一週內的增加量不可超過</span><span style=\"color:black;\">0.5</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">天。避免將</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">用於嚴重肝功能不全病人。</span></p>",
+          "search_text": "3.3\n特殊族群用法用量\n用於肝功能不全的劑量調整 中度肝功能不全(Child Pugh score 7-9)病人建議以每日0.5毫克的劑量開始治療，並密切監測心血管功能(請見警語及注意事項、特殊族群注意事項和藥理特性)。中度肝功能不全病人能忍受AGRYLIN治療一週以上時，可考慮調高其劑量。當要增加劑量時，一週內的增加量不可超過0.5毫克/天。避免將AGRYLIN用於嚴重肝功能不全病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "無。",
+          "content_html": "<p>無。</p>",
+          "search_text": "4\n禁忌\n無。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "心血管毒性 曾有使用AGRYLIN發生尖端扭轉型心搏過速(torsades de pointes)和心室性心搏過速。所有病人於治療前應先接受含心電圖在內的心血管檢查。AGRYLIN治療期間應視需要監測及評估對病人的心血管效應。 AGRYLIN會造成健康受試者心電圖上QTc間隔明顯增加，並使心跳速率增加(請見藥理特性)。 勿將AGRYLIN用於已知有QT間隔延長的危險因子之病人，如先天性QT延長症候群、已知有後天性QTc延長病史、服用會使QTc延長的藥物及低血鉀症(請見交互作用)。 肝臟受損會使anagrelide的暴露量增加而可能增加QTc延長的風險。對於肝功能不全的病人須監測QTc延長及其他心血管不良反應。在輕至中度肝功能不全病人接受AGRYLIN治療之前，應先評估其潛在風險與效益。AGRYLIN用於中度肝功能不全病人時，應降低劑量。AGRYLIN避免用於嚴重肝功能不全病人。 對於心衰竭、心搏徐緩或電解質異常的病人，須考慮定期監測心電圖(請見藥理特性)。 AGRYLIN是磷酸二酯酶3 (phosphodiesterase 3，PDE3)抑制劑，可能導致血管舒張、心搏過速、心悸和充血性心衰竭。相較於使用安慰劑的Class III-IV充血性心衰竭的病人，使用其他抑制PDE3的藥物者會減少其存活率(請見交互作用)。 對於有心臟疾病的人，只有利大於弊時方可使用AGRYLIN。 肺高壓 曾有使用AGRYLIN的病人發生肺高壓的案例報導。在AGRYLIN治療開始前及治療期間須評估病人潛在心肺疾病的徵象與症狀(請見副作用/不良反應)。 出血風險 在上市後研究中，AGRYLIN與aspirin併用使大出血事件增加。由於可能增加出血的風險，須評估AGRYLIN與aspirin併用的潛在風險及效益。監測病人出血的狀況，包括同時服用其他已知會造成出血的藥物之病人(如：抗凝血劑、PDE3 抑制劑、非類固醇消炎止痛藥、抗血小板藥物、選擇性血清素再回收抑制劑) (請見交互作用、藥理特性)。 肺毒性 上市後的報告曾有使用AGRYLIN發生間質性肺病(包含過敏性肺泡炎、嗜酸性肺炎和間質性肺炎)的報告。大部分案例都呈現逐漸惡化的呼吸困難伴隨肺浸潤。發生時間由使用AGRYLIN後一星期至數年。若懷疑為AGRYLIN引起，應停藥並進行評估。停止使用anagrelide後症狀可能會改善(請見副作用/不良反應)。 血栓風險 應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。 停止治療/臨床監測 當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基值，甚至可能反彈到基值以上。應時常監測血小板數目。",
+          "content_html": "<p><u>心血管毒性</u></p><p>曾有使用AGRYLIN發生尖端扭轉型心搏過速(torsades de pointes)和心室性心搏過速。所有病人於治療前應先接受含心電圖在內的心血管檢查。AGRYLIN治療期間應視需要監測及評估對病人的心血管效應。</p><p>AGRYLIN會造成健康受試者心電圖上QTc間隔明顯增加，並使心跳速率增加(請見藥理特性)。</p><p>勿將AGRYLIN用於已知有QT間隔延長的危險因子之病人，如先天性QT延長症候群、已知有後天性QTc延長病史、服用會使QTc延長的藥物及低血鉀症(請見交互作用)。</p><p>肝臟受損會使anagrelide的暴露量增加而可能增加QTc延長的風險。對於肝功能不全的病人須監測QTc延長及其他心血管不良反應。在輕至中度肝功能不全病人接受AGRYLIN治療之前，應先評估其潛在風險與效益。AGRYLIN用於中度肝功能不全病人時，應降低劑量。AGRYLIN避免用於嚴重肝功能不全病人。</p><p>對於心衰竭、心搏徐緩或電解質異常的病人，須考慮定期監測心電圖(請見藥理特性)。</p><p>AGRYLIN是磷酸二酯酶3 (phosphodiesterase 3，PDE3)抑制劑，可能導致血管舒張、心搏過速、心悸和充血性心衰竭。相較於使用安慰劑的Class III-IV充血性心衰竭的病人，使用其他抑制PDE3的藥物者會減少其存活率(請見交互作用)。</p><p>對於有心臟疾病的人，只有利大於弊時方可使用AGRYLIN。</p><p>&nbsp;</p><p><u>肺高壓</u></p><p>曾有使用AGRYLIN的病人發生肺高壓的案例報導。在AGRYLIN治療開始前及治療期間須評估病人潛在心肺疾病的徵象與症狀(請見副作用/不良反應)。</p><p>&nbsp;</p><p><u>出血風險</u></p><p>在上市後研究中，AGRYLIN與aspirin併用使大出血事件增加。由於可能增加出血的風險，須評估AGRYLIN與aspirin併用的潛在風險及效益。監測病人出血的狀況，包括同時服用其他已知會造成出血的藥物之病人(如：抗凝血劑、PDE3 抑制劑、非類固醇消炎止痛藥、抗血小板藥物、選擇性血清素再回收抑制劑) (請見交互作用、藥理特性)。</p><p>&nbsp;</p><p><u>肺毒性</u></p><p>上市後的報告曾有使用AGRYLIN發生間質性肺病(包含過敏性肺泡炎、嗜酸性肺炎和間質性肺炎)的報告。大部分案例都呈現逐漸惡化的呼吸困難伴隨肺浸潤。發生時間由使用AGRYLIN後一星期至數年。若懷疑為AGRYLIN引起，應停藥並進行評估。停止使用anagrelide後症狀可能會改善(請見副作用/不良反應)。</p><p>&nbsp;</p><p><u>血栓風險</u></p><p>應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。</p><p>&nbsp;</p><p><u>停止治療/臨床監測</u></p><p>當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基值，甚至可能反彈到基值以上。應時常監測血小板數目。<br>&nbsp;</p>",
+          "search_text": "5.1\n警語/注意事項\n心血管毒性 曾有使用AGRYLIN發生尖端扭轉型心搏過速(torsades de pointes)和心室性心搏過速。所有病人於治療前應先接受含心電圖在內的心血管檢查。AGRYLIN治療期間應視需要監測及評估對病人的心血管效應。 AGRYLIN會造成健康受試者心電圖上QTc間隔明顯增加，並使心跳速率增加(請見藥理特性)。 勿將AGRYLIN用於已知有QT間隔延長的危險因子之病人，如先天性QT延長症候群、已知有後天性QTc延長病史、服用會使QTc延長的藥物及低血鉀症(請見交互作用)。 肝臟受損會使anagrelide的暴露量增加而可能增加QTc延長的風險。對於肝功能不全的病人須監測QTc延長及其他心血管不良反應。在輕至中度肝功能不全病人接受AGRYLIN治療之前，應先評估其潛在風險與效益。AGRYLIN用於中度肝功能不全病人時，應降低劑量。AGRYLIN避免用於嚴重肝功能不全病人。 對於心衰竭、心搏徐緩或電解質異常的病人，須考慮定期監測心電圖(請見藥理特性)。 AGRYLIN是磷酸二酯酶3 (phosphodiesterase 3，PDE3)抑制劑，可能導致血管舒張、心搏過速、心悸和充血性心衰竭。相較於使用安慰劑的Class III-IV充血性心衰竭的病人，使用其他抑制PDE3的藥物者會減少其存活率(請見交互作用)。 對於有心臟疾病的人，只有利大於弊時方可使用AGRYLIN。 肺高壓 曾有使用AGRYLIN的病人發生肺高壓的案例報導。在AGRYLIN治療開始前及治療期間須評估病人潛在心肺疾病的徵象與症狀(請見副作用/不良反應)。 出血風險 在上市後研究中，AGRYLIN與aspirin併用使大出血事件增加。由於可能增加出血的風險，須評估AGRYLIN與aspirin併用的潛在風險及效益。監測病人出血的狀況，包括同時服用其他已知會造成出血的藥物之病人(如：抗凝血劑、PDE3 抑制劑、非類固醇消炎止痛藥、抗血小板藥物、選擇性血清素再回收抑制劑) (請見交互作用、藥理特性)。 肺毒性 上市後的報告曾有使用AGRYLIN發生間質性肺病(包含過敏性肺泡炎、嗜酸性肺炎和間質性肺炎)的報告。大部分案例都呈現逐漸惡化的呼吸困難伴隨肺浸潤。發生時間由使用AGRYLIN後一星期至數年。若懷疑為AGRYLIN引起，應停藥並進行評估。停止使用anagrelide後症狀可能會改善(請見副作用/不良反應)。 血栓風險 應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。 停止治療/臨床監測 當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基值，甚至可能反彈到基值以上。應時常監測血小板數目。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "風險摘要 可用數據來自AGRYLIN用於孕婦的案例報告並未證實有重大先天缺陷、流產或母體或胎兒不良結果的藥物相關風險。在動物胚胎胎兒研究中，在器官形成期根據體表面積(請見資料)。對大鼠投予約97倍臨床最高劑量(10 毫克/天)之anagrelide hydrochloride，觀察到延遲胎兒發育(骨骼骨化作用延遲及體重減輕) 的現象。血小板過多症與妊娠中母體和胎兒的不良影響有關(請見臨床考慮因素)。 重大先天缺陷和流產在特定族群的估計背景風險尚不清楚。所有妊娠都有先天缺陷、流產或其他不良結果的背景風險。在美國一般族群中，臨床認可妊娠的重大先天缺陷和流產的估計背景風險分別為2至4%和15至20%。 臨床考慮因素 疾病相關的母體及/或胚胎/胎兒風險 血栓事件如中風、深靜脈栓塞或心肌梗塞可能是血小板增多症的併發症。 妊娠期血小板過多症與流產、死胎及其他孕婦結果(如子癇前症)的風險增加有關。 資料 動物資料 在器官形成期對懷孕大鼠經口投予900mg/kg/day的劑量或對懷孕兔子以口服投予20mg/kg/day的劑量之anagrelide hydrochloride (以體表面積計算分別為最高臨床建議劑量的 875及39倍)，在大鼠觀察到發育遲緩的現象，包括在300及900mg/kg/day的劑量下胎兒體重減輕，及在100mg/kg/day以上的劑量下骨骼骨化作用延遲。大鼠100 mg/kg/day (600mg/m2/day)的劑量約當於以體表面積計算最高臨床建議劑量之97倍。 在最高20mg/kg/day的劑量(以體表面積計算為最高臨床建議劑量的39倍)下，並未發現對兔子的胚胎或胎兒具有不良效應。 以雌大鼠進行的產前與產後研究中，在器官形成期至哺乳期以口服投予anagrelide hydrochloride 60mg/kg/day (以體表面積計算分別為最高臨床建議劑量的58倍)以上的劑量會延緩或阻斷分娩，造成未分娩的母鼠及已發育完全的胎兒死亡，使出生不久的幼鼠之死亡率增加。 在胎盤轉移研究中，為懷孕第17天的大鼠經口投予單次劑量的[14C]-anagrelide hydrochloride (3mg/kg)，在母體和胎兒組織中都檢測到與藥物有關的放射活性。",
+          "content_html": "<p><strong>風險摘要</strong></p><p>可用數據來自AGRYLIN用於孕婦的案例報告並未證實有重大先天缺陷、流產或母體或胎兒不良結果的藥物相關風險。在動物胚胎胎兒研究中，在器官形成期根據體表面積(請見資料)。對大鼠投予約97倍臨床最高劑量(10 毫克/天)之anagrelide hydrochloride，觀察到延遲胎兒發育(骨骼骨化作用延遲及體重減輕) 的現象。血小板過多症與妊娠中母體和胎兒的不良影響有關(請見臨床考慮因素)。</p><p>重大先天缺陷和流產在特定族群的估計背景風險尚不清楚。所有妊娠都有先天缺陷、流產或其他不良結果的背景風險。在美國一般族群中，臨床認可妊娠的重大先天缺陷和流產的估計背景風險分別為2至4%和15至20%。</p><p>&nbsp;</p><p><strong>臨床考慮因素</strong></p><p><u>疾病相關的母體及/或胚胎/胎兒風險</u></p><p>血栓事件如中風、深靜脈栓塞或心肌梗塞可能是血小板增多症的併發症。 妊娠期血小板過多症與流產、死胎及其他孕婦結果(如子癇前症)的風險增加有關。</p><p>&nbsp;</p><p><strong>資料</strong></p><p><u>動物資料</u></p><p>在器官形成期對懷孕大鼠經口投予900mg/kg/day的劑量或對懷孕兔子以口服投予20mg/kg/day的劑量之anagrelide hydrochloride (以體表面積計算分別為最高臨床建議劑量的 875及39倍)，在大鼠觀察到發育遲緩的現象，包括在300及900mg/kg/day的劑量下胎兒體重減輕，及在100mg/kg/day以上的劑量下骨骼骨化作用延遲。大鼠100 mg/kg/day (600mg/m<sup>2</sup>/day)的劑量約當於以體表面積計算最高臨床建議劑量之97倍。 在最高20mg/kg/day的劑量(以體表面積計算為最高臨床建議劑量的39倍)下，並未發現對兔子的胚胎或胎兒具有不良效應。</p><p>以雌大鼠進行的產前與產後研究中，在器官形成期至哺乳期以口服投予anagrelide hydrochloride 60mg/kg/day (以體表面積計算分別為最高臨床建議劑量的58倍)以上的劑量會延緩或阻斷分娩，造成未分娩的母鼠及已發育完全的胎兒死亡，使出生不久的幼鼠之死亡率增加。</p><p>在胎盤轉移研究中，為懷孕第17天的大鼠經口投予單次劑量的[14C]-anagrelide hydrochloride (3mg/kg)，在母體和胎兒組織中都檢測到與藥物有關的放射活性。<br>&nbsp;</p>",
+          "search_text": "6.1\n懷孕\n風險摘要 可用數據來自AGRYLIN用於孕婦的案例報告並未證實有重大先天缺陷、流產或母體或胎兒不良結果的藥物相關風險。在動物胚胎胎兒研究中，在器官形成期根據體表面積(請見資料)。對大鼠投予約97倍臨床最高劑量(10 毫克/天)之anagrelide hydrochloride，觀察到延遲胎兒發育(骨骼骨化作用延遲及體重減輕) 的現象。血小板過多症與妊娠中母體和胎兒的不良影響有關(請見臨床考慮因素)。 重大先天缺陷和流產在特定族群的估計背景風險尚不清楚。所有妊娠都有先天缺陷、流產或其他不良結果的背景風險。在美國一般族群中，臨床認可妊娠的重大先天缺陷和流產的估計背景風險分別為2至4%和15至20%。 臨床考慮因素 疾病相關的母體及/或胚胎/胎兒風險 血栓事件如中風、深靜脈栓塞或心肌梗塞可能是血小板增多症的併發症。 妊娠期血小板過多症與流產、死胎及其他孕婦結果(如子癇前症)的風險增加有關。 資料 動物資料 在器官形成期對懷孕大鼠經口投予900mg/kg/day的劑量或對懷孕兔子以口服投予20mg/kg/day的劑量之anagrelide hydrochloride (以體表面積計算分別為最高臨床建議劑量的 875及39倍)，在大鼠觀察到發育遲緩的現象，包括在300及900mg/kg/day的劑量下胎兒體重減輕，及在100mg/kg/day以上的劑量下骨骼骨化作用延遲。大鼠100 mg/kg/day (600mg/m2/day)的劑量約當於以體表面積計算最高臨床建議劑量之97倍。 在最高20mg/kg/day的劑量(以體表面積計算為最高臨床建議劑量的39倍)下，並未發現對兔子的胚胎或胎兒具有不良效應。 以雌大鼠進行的產前與產後研究中，在器官形成期至哺乳期以口服投予anagrelide hydrochloride 60mg/kg/day (以體表面積計算分別為最高臨床建議劑量的58倍)以上的劑量會延緩或阻斷分娩，造成未分娩的母鼠及已發育完全的胎兒死亡，使出生不久的幼鼠之死亡率增加。 在胎盤轉移研究中，為懷孕第17天的大鼠經口投予單次劑量的[14C]-anagrelide hydrochloride (3mg/kg)，在母體和胎兒組織中都檢測到與藥物有關的放射活性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "風險摘要 目前尚無資料關於anagrelide是否存在人類乳汁中、是否影響哺乳嬰兒或乳汁分泌。在授乳的雌大鼠曾偵測到乳汁中含有anagrelide或其代謝物(請見資料)。由於哺乳中嬰兒可能有潛在嚴重不良反應如血小板低下，請告知病人在接受AGRYLIN治療期間及最後一次服藥一週內不建議哺乳。 資料 在大鼠乳汁分泌研究中，在產後第10天對授乳的雌大鼠經口投予單次劑量[14C]- anagrelide hydrochloride (3 mg/kg)，在母體乳汁及血液中都檢測到與藥物有關的放射活性。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>風險摘要</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">目前尚無資料關於</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">是否存在人類乳汁中、是否影響哺乳嬰兒或乳汁分泌。在授乳的雌大鼠曾偵測到乳汁中含有</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">或其代謝物</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>資料</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。由於哺乳中嬰兒可能有潛在嚴重不良反應如血小板低下，請告知病人在接受</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">治療期間及最後一次服藥一週內不建議哺乳。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>資料</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在大鼠乳汁分泌研究中，在產後第</span><span style=\"color:black;\">10</span><span style=\"color:black;font-family:標楷體;\">天對授乳的雌大鼠經口投予單次劑量</span><span style=\"color:black;\">[<sup>14</sup>C]- anagrelide hydrochloride (3 mg/kg)</span><span style=\"color:black;font-family:標楷體;\">，在母體乳汁及血液中都檢測到與藥物有關的放射活性。</span></p>",
+          "search_text": "6.2\n哺乳\n風險摘要 目前尚無資料關於anagrelide是否存在人類乳汁中、是否影響哺乳嬰兒或乳汁分泌。在授乳的雌大鼠曾偵測到乳汁中含有anagrelide或其代謝物(請見資料)。由於哺乳中嬰兒可能有潛在嚴重不良反應如血小板低下，請告知病人在接受AGRYLIN治療期間及最後一次服藥一週內不建議哺乳。 資料 在大鼠乳汁分泌研究中，在產後第10天對授乳的雌大鼠經口投予單次劑量[14C]- anagrelide hydrochloride (3 mg/kg)，在母體乳汁及血液中都檢測到與藥物有關的放射活性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "不孕 女性 根據動物研究之發現，AGRYLIN可能損害女性生殖能力(請見臨床前安全性資料)。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>不孕</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>女性</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">根據動物研究之發現，</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">可能損害女性生殖能力</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>臨床前安全性資料</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n不孕 女性 根據動物研究之發現，AGRYLIN可能損害女性生殖能力(請見臨床前安全性資料)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "AGRYLIN的安全及有效性已確立於7歲以上兒科病人。目前無7歲以下兒科病人的資料。支持AGRYLIN用於這群兒科病人的證據包含AGRYLIN在成人適當且控制良好研究的附加藥動學和藥效學，以及對象為18位7至16歲因ET導致血小板過多的兒科病人的安全性資料(請見用法及用量、藥理特性和臨床試驗資料)。 相較於成年病人，兒科病人發生不良反應的類型並無明顯趨勢或差異。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">的安全及有效性已確立於</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">歲以上兒科病人。目前無</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">歲以下兒科病人的資料。支持</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">用於這群兒科病人的證據包含</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">在成人適當且控制良好研究的附加藥動學和藥效學，以及對象為</span><span style=\"color:black;\">18</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">歲因</span><span style=\"color:black;\">ET</span><span style=\"color:black;font-family:標楷體;\">導致血小板過多的兒科病人的安全性資料</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>用法及用量</i>、<i>藥理特性</i>和<i>臨床試驗資料</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">相較於成年病人，兒科病人發生不良反應的類型並無明顯趨勢或差異。</span></p>",
+          "search_text": "6.4\n小兒\nAGRYLIN的安全及有效性已確立於7歲以上兒科病人。目前無7歲以下兒科病人的資料。支持AGRYLIN用於這群兒科病人的證據包含AGRYLIN在成人適當且控制良好研究的附加藥動學和藥效學，以及對象為18位7至16歲因ET導致血小板過多的兒科病人的安全性資料(請見用法及用量、藥理特性和臨床試驗資料)。 相較於成年病人，兒科病人發生不良反應的類型並無明顯趨勢或差異。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "參與 AGRYLIN臨床試驗的942人當中，有42.1%年齡在65歲以上，14.9%在75歲以上。整體而言，在這些受試者所觀察到的安全性及有效性和年輕族群相比並無差異，其他臨床經驗臨床試驗報告也顯示用於年長及年輕的病人在反應上無明顯差異，但不能排除有些較高齡個案對此藥物的敏感性較高之可能。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">參與</span><span style=\"color:black;\"> AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">臨床試驗的</span><span style=\"color:black;\">942</span><span style=\"color:black;font-family:標楷體;\">人當中，有</span><span style=\"color:black;\">42.1%</span><span style=\"color:black;font-family:標楷體;\">年齡在</span><span style=\"color:black;\">65</span><span style=\"color:black;font-family:標楷體;\">歲以上，</span><span style=\"color:black;\">14.9%</span><span style=\"color:black;font-family:標楷體;\">在</span><span style=\"color:black;\">75</span><span style=\"color:black;font-family:標楷體;\">歲以上。整體而言，在這些受試者所觀察到的安全性及有效性和年輕族群相比並無差異，其他臨床經驗臨床試驗報告也顯示用於年長及年輕的病人在反應上無明顯差異，但不能排除有些較高齡個案對此藥物的敏感性較高之可能。</span></p>",
+          "search_text": "6.5\n老年人\n參與 AGRYLIN臨床試驗的942人當中，有42.1%年齡在65歲以上，14.9%在75歲以上。整體而言，在這些受試者所觀察到的安全性及有效性和年輕族群相比並無差異，其他臨床經驗臨床試驗報告也顯示用於年長及年輕的病人在反應上無明顯差異，但不能排除有些較高齡個案對此藥物的敏感性較高之可能。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "經肝臟代謝是清除anagrelide的主要途徑。中度肝功能不全的病人之anagrelide暴露量增為8倍(請見藥理特性)且須降低劑量(請見用法及用量)。未曾進行AGRYLIN用於嚴重肝功能不全病人的研究。避免AGRYLIN用於嚴重肝功能不全的病人。對於輕至中度肝功能不全的病人，在開始治療前應將AGRYLIN療法的潛在效益和風險列入評估。在AGRYLIN開始治療前及療程中應進行肝功能檢測(請見警語及注意事項)。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">經肝臟代謝是清除</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">的主要途徑。中度肝功能不全的病人之</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">暴露量增為</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">倍</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>藥理特性</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">且須降低劑量</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>用法及用量</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。未曾進行</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">用於嚴重肝功能不全病人的研究。避免</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">用於嚴重肝功能不全的病人。對於輕至中度肝功能不全的病人，在開始治療前應將</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">療法的潛在效益和風險列入評估。在</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">開始治療前及療程中應進行肝功能檢測</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "6.6\n肝功能不全\n經肝臟代謝是清除anagrelide的主要途徑。中度肝功能不全的病人之anagrelide暴露量增為8倍(請見藥理特性)且須降低劑量(請見用法及用量)。未曾進行AGRYLIN用於嚴重肝功能不全病人的研究。避免AGRYLIN用於嚴重肝功能不全的病人。對於輕至中度肝功能不全的病人，在開始治療前應將AGRYLIN療法的潛在效益和風險列入評估。在AGRYLIN開始治療前及療程中應進行肝功能檢測(請見警語及注意事項)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "延長QT的藥物 避免AGRYLIN用於正在服用可能使QT延長的藥物之病人(包括但不限於chloroquine、clarithromycin、haloperidol、methadone、moxifloxacin、amiodarone、disopyramide、procainamide和pimozide) (請見警語及注意事項和藥理特性)。 PDE3抑制劑 AGRYLIN是磷酸二酯酶3 (PDE3)抑制劑，避免同時使用其他有相同作用的藥品(如：心血管肌力作用劑)和其他PDE3抑制劑(如：cilostazol、milrinone、enoximone、aminone、olprinone等) (請見警語及注意事項和藥理特性)。 Aspirin和增加出血風險的藥物 同時單次或重複併用AGRYLIN和aspirin比單獨使用aspirin更容易造成體外抗血小板聚集作用(請見藥理特性)。以原發性血小板增多症病人為對象的觀察研究結果顯示，使用AGRYLIN治療的病人之重大出血事件(major hemorrhagic events，MHEs)的發生率高於使用其他消減腫瘤細胞療法(cytoreductive treatment)的病人。大多數的發生重大出血事件發生於同時接受其他抗凝集藥物治療(主要是aspirin)的病人。因此，在開始治療之前應將同時使用AGRYLIN和aspirin的潛在風險列入評估，特別是針對出血風險高的病人(請見警語及注意事項)。 應針對病人的出血狀況進行監測，尤其是同時使用已知會導致出血的其他藥物(如抗凝血劑、PDE3抑制劑、NSAIDs、抗血小板藥物、選擇性血清素再回收抑制劑)治療的病人。 CYP450交互作用 CYP1A2抑制劑：AGRYLIN及其活性代謝物主要經由CYP1A2代謝。抑制CYP1A2的藥物(如：fluvoxamine、ciprofloxacin)可以使AGRYLIN的暴露量增加。同時使用多種CYP1A2抑制劑時，應監測病人的心血管事件並據以調節劑量。 CYP1A2誘導劑：CYP1A2誘導劑可以減少AGRYLIN的暴露量。對於同時服用CYP1A2誘導劑(如：omeprazole)的病人，可能需要調整其劑量以彌補AGRYLIN暴露量的不足。 CYP1A2受質： 研究證明AGRYLIN在活體外(in vitro)對CYP1A2具有限的抑制活性，同時使用時可能會改變CYP1A2受質(如：theophylline、fluvoxamine、ondansetron)的暴露量。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>延長</u></span><span style=\"color:black;\"><u>QT</u></span><span style=\"color:black;font-family:標楷體;\"><u>的藥物</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">避免</span>AGRYLIN<span style=\"font-family:標楷體;\">用於正在服用可能使</span>QT<span style=\"font-family:標楷體;\">延長的藥物之病人</span>(<span style=\"font-family:標楷體;\">包括但不限於</span>chloroquine<span style=\"font-family:標楷體;\">、</span>clarithromycin<span style=\"font-family:標楷體;\">、</span>haloperidol<span style=\"font-family:標楷體;\">、</span>methadone<span style=\"font-family:標楷體;\">、</span>moxifloxacin<span style=\"font-family:標楷體;\">、</span>amiodarone<span style=\"font-family:標楷體;\">、</span>disopyramide<span style=\"font-family:標楷體;\">、</span>procainamide<span style=\"font-family:標楷體;\">和</span>pimozide)<span style=\"color:black;\"> (</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i>和<i>藥理特性</i></span><span style=\"color:black;\">)</span><span style=\"font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><u>PDE3</u><span style=\"font-family:標楷體;\"><u>抑制劑</u></span></p><p style=\"text-align:justify;\">AGRYLIN<span style=\"font-family:標楷體;\">是磷酸二酯酶</span>3 (PDE3)<span style=\"color:black;font-family:標楷體;\">抑制劑，避免同時使用其他有相同作用的藥品</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如：心血管肌力作用劑</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">和其他</span><span style=\"color:black;\">PDE3</span><span style=\"color:black;font-family:標楷體;\">抑制劑</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如：</span><span style=\"color:black;\">cilostazol</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">milrinone</span><span style=\"font-family:標楷體;\">、</span><span style=\"color:black;\">enoximone</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">aminone</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">olprinone</span><span style=\"color:black;font-family:標楷體;\">等</span><span style=\"color:black;\">) (</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i>和<i>藥理特性</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;\"><u>Aspirin</u></span><span style=\"color:black;font-family:標楷體;\"><u>和增加出血風險的藥物</u></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">同時單次或重複併用</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">和</span><span style=\"color:black;\">aspirin</span><span style=\"color:black;font-family:標楷體;\">比單獨使用</span><span style=\"color:black;\">aspirin</span><span style=\"color:black;font-family:標楷體;\">更容易造成體外抗血小板聚集作用</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>藥理特性</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。以原發性血小板增多症病人為對象的觀察研究結果顯示，使用</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">治療的病人之重大出血事件</span><span style=\"color:black;\">(major hemorrhagic events</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">MHEs)</span><span style=\"color:black;font-family:標楷體;\">的發生率高於使用其他消減腫瘤細胞療法</span><span style=\"color:black;\">(cytoreductive treatment)</span><span style=\"color:black;font-family:標楷體;\">的病人。大多數的發生重大出血事件發生於同時接受其他抗凝集藥物治療</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">主要是</span><span style=\"color:black;\">aspirin)</span><span style=\"color:black;font-family:標楷體;\">的病人。因此，在開始治療之前應將同時使用</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">和</span><span style=\"color:black;\">aspirin</span><span style=\"color:black;font-family:標楷體;\">的潛在風險列入評估，特別是針對出血風險高的病人</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">應針對病人的出血狀況進行監測，尤其是同時使用已知會導致出血的其他藥物</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">如抗凝血劑、</span><span style=\"color:black;\">PDE3</span><span style=\"color:black;font-family:標楷體;\">抑制劑、</span><span style=\"color:black;\">NSAIDs</span><span style=\"color:black;font-family:標楷體;\">、抗血小板藥物、選擇性血清素再回收抑制劑</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">治療的病人。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;\"><u>CYP450</u></span><span style=\"color:black;font-family:標楷體;\"><u>交互作用</u></span></p><p style=\"text-align:justify;\">CYP1A2<span style=\"font-family:標楷體;\">抑制劑：</span>AGRYLIN<span style=\"font-family:標楷體;\">及其活性代謝物主要經由</span>CYP1A2<span style=\"font-family:標楷體;\">代謝。抑制</span>CYP1A2<span style=\"font-family:標楷體;\">的藥物</span>(<span style=\"font-family:標楷體;\">如：</span>fluvoxamine<span style=\"font-family:標楷體;\">、</span>ciprofloxacin)<span style=\"font-family:標楷體;\">可以使</span>AGRYLIN<span style=\"font-family:標楷體;\">的暴露量增加。同時使用多種</span>CYP1A2<span style=\"font-family:標楷體;\">抑制劑時，應監測病人的心血管事件並據以調節劑量。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">CYP1A2<span style=\"font-family:標楷體;\">誘導劑：</span>CYP1A2<span style=\"font-family:標楷體;\">誘導劑可以減少</span>AGRYLIN<span style=\"font-family:標楷體;\">的暴露量。對於同時服用</span>CYP1A2<span style=\"font-family:標楷體;\">誘導劑</span>(<span style=\"font-family:標楷體;\">如：</span>omeprazole)<span style=\"font-family:標楷體;\">的病人，可能需要調整其劑量以彌補</span>AGRYLIN<span style=\"font-family:標楷體;\">暴露量的不足。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">CYP1A2<span style=\"font-family:標楷體;\">受質：</span><i>&nbsp;</i><span style=\"font-family:標楷體;\">研究證明</span>AGRYLIN<span style=\"font-family:標楷體;\">在活體外</span>(<i>in vitro</i>)<span style=\"font-family:標楷體;\">對</span>CYP1A2<span style=\"font-family:標楷體;\">具有限的抑制活性，同時使用時可能會改變</span>CYP1A2<span style=\"font-family:標楷體;\">受質</span>(<span style=\"font-family:標楷體;\">如：</span>theophylline<span style=\"font-family:標楷體;\">、</span>fluvoxamine<span style=\"font-family:標楷體;\">、</span>ondansetron)<span style=\"font-family:標楷體;\">的暴露量。</span></p>",
+          "search_text": "7\n交互作用\n延長QT的藥物 避免AGRYLIN用於正在服用可能使QT延長的藥物之病人(包括但不限於chloroquine、clarithromycin、haloperidol、methadone、moxifloxacin、amiodarone、disopyramide、procainamide和pimozide) (請見警語及注意事項和藥理特性)。 PDE3抑制劑 AGRYLIN是磷酸二酯酶3 (PDE3)抑制劑，避免同時使用其他有相同作用的藥品(如：心血管肌力作用劑)和其他PDE3抑制劑(如：cilostazol、milrinone、enoximone、aminone、olprinone等) (請見警語及注意事項和藥理特性)。 Aspirin和增加出血風險的藥物 同時單次或重複併用AGRYLIN和aspirin比單獨使用aspirin更容易造成體外抗血小板聚集作用(請見藥理特性)。以原發性血小板增多症病人為對象的觀察研究結果顯示，使用AGRYLIN治療的病人之重大出血事件(major hemorrhagic events，MHEs)的發生率高於使用其他消減腫瘤細胞療法(cytoreductive treatment)的病人。大多數的發生重大出血事件發生於同時接受其他抗凝集藥物治療(主要是aspirin)的病人。因此，在開始治療之前應將同時使用AGRYLIN和aspirin的潛在風險列入評估，特別是針對出血風險高的病人(請見警語及注意事項)。 應針對病人的出血狀況進行監測，尤其是同時使用已知會導致出血的其他藥物(如抗凝血劑、PDE3抑制劑、NSAIDs、抗血小板藥物、選擇性血清素再回收抑制劑)治療的病人。 CYP450交互作用 CYP1A2抑制劑：AGRYLIN及其活性代謝物主要經由CYP1A2代謝。抑制CYP1A2的藥物(如：fluvoxamine、ciprofloxacin)可以使AGRYLIN的暴露量增加。同時使用多種CYP1A2抑制劑時，應監測病人的心血管事件並據以調節劑量。 CYP1A2誘導劑：CYP1A2誘導劑可以減少AGRYLIN的暴露量。對於同時服用CYP1A2誘導劑(如：omeprazole)的病人，可能需要調整其劑量以彌補AGRYLIN暴露量的不足。 CYP1A2受質： 研究證明AGRYLIN在活體外(in vitro)對CYP1A2具有限的抑制活性，同時使用時可能會改變CYP1A2受質(如：theophylline、fluvoxamine、ondansetron)的暴露量。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "以下具臨床意義之不良反應會在仿單的其他段落中進行更詳細的討論： 心血管毒性(請見警語及注意事項) 肺高壓(請見警語及注意事項) 出血風險(請見警語及注意事項) 肺毒性(請見警語及注意事項)",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">以下具臨床意義之不良反應會在仿單的其他段落中進行更詳細的討論：</span></p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">心血管毒性</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span></li><li style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">肺高壓</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span></li><li style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">出血風險</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span></li><li style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">肺毒性</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span></li></ul>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n以下具臨床意義之不良反應會在仿單的其他段落中進行更詳細的討論： 心血管毒性(請見警語及注意事項) 肺高壓(請見警語及注意事項) 出血風險(請見警語及注意事項) 肺毒性(請見警語及注意事項)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "由於臨床試驗是在各種差異頗大的條件下進行的，在臨床試驗中觀察到一藥物的不良反應發生率無法直接與另一藥物的臨床試驗數據相比，而且可能無法反映臨床實務上觀察到的發生率。 用於成年病人的臨床研究 在採單一治療組設計的三個臨床試驗中，942位(請見臨床試驗資料)因各種病因而被診斷為骨髓異常增生症病人(ET: 551，PV: 117，OMPN: 274)接受AGRYLIN治療，平均暴露於藥物約65週。這些病人發生的嚴重不良反應包括：充血性心臟衰竭、心肌梗塞、心肌疾病、心臟肥大、完全房室傳導阻斷、心房纖維顫動、腦血管意外、心包滲出(請見警語及注意事項)、胸腔積液、肺浸潤、肺纖維化、肺高壓和胰腺炎。在942位接受AGRYLIN治療的病人中，有161位(17%)因不良反應或實驗室檢驗結果異常而停藥。造成停藥的不良反應中，最常見的是頭痛、腹瀉、水腫、心悸、腹痛。 在臨床試驗中，使用 AGRYLIN最常發生的不良反應列於表1 (在942位骨髓異常增生病人中，發生率5%以上者)。 表1 在AGRYLIN臨床研究中至少 5% 的病人報告之不良反應 不良反應 AGRYLIN (N=942) (%) 心臟疾病 心悸 26% 心搏過速 8% 胸痛 8% 一般疾病與給藥部位問題 虛弱 23% 水腫 21% 疼痛 15% 發燒 9% 週邊水腫 9% 乏力 6% 胃腸疾病 腹瀉 26% 噁心 17% 腹痛 16% 嘔吐 10% 脹氣 10% 缺乏食慾 8% 消化不良 5% 呼吸、胸廓和縱膈疾病 呼吸困難 12% 咳嗽 6% 皮膚及皮下組織疾病 皮疹 8% 搔癢 6% 骨骼肌與結締組織疾病 背痛 6% 神經系統疾病 頭痛 44% 頭暈 15% 感覺異常 6% 不良反應 (發生率1至<5 %) 包括： 一般疾病與給藥部位問題：流行性感冒症狀、顫寒。 心臟疾病：心律不整、心絞痛、心臟衰竭、昏厥。 血管疾病：出血、高血壓、姿態性低血壓、血管擴張。 消化疾病：便秘、胃腸出血、胃炎。 血液及淋巴系統疾病 : 貧血、血小板減少、瘀斑。 肝臟疾病：肝酵素升高。 肌肉骨骼系統與結締組織疾病：關節痛、肌痛。 精神疾病：憂鬱、混亂、緊張不安。 神經系統疾病：嗜睡、失眠、健忘症、偏頭痛。 營養失調：脫水。 呼吸、胸廓和縱膈疾病：鼻出血、肺炎。 皮膚系統及皮下組織疾病：禿髮。 眼部疾病：視力異常、複視。 耳朵及內耳迷路疾病：耳鳴。 腎臟及泌尿疾病：血尿、腎衰竭。 其他較不常見不良反應 (發生率<1 %) 有： 心臟疾病：室性心搏過速、室上性心搏過速。 神經系統疾病：感覺減退。 用於兒科病人的臨床研究 在兒科病人中觀察到的不良反應發生頻率和成人病人相似。研究中觀察接受AGRYLIN治療3個月的兒科病人，最常見的不良反應是發燒、鼻出血、頭痛及疲勞，也觀察到脈搏增加和收縮壓或舒張壓下降至超出正常範圍但無臨床症狀的情形。其他不良反應報告在這些接受AGRYLIN治療的兒科病人有心悸、頭痛、噁心、嘔吐、腹痛、背痛、厭食、疲勞和肌肉痙攣。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">由於臨床試驗是在各種差異頗大的條件下進行的，在臨床試驗中觀察到一藥物的不良反應發生率無法直接與另一藥物的臨床試驗數據相比，而且可能無法反映臨床實務上觀察到的發生率。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>用於成年病人的臨床研究</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在採單一治療組設計的三個臨床試驗中，</span><span style=\"color:black;\">942</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>臨床試驗資料</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">因各種病因而被診斷為骨髓異常增生症病人</span><span style=\"color:black;\">(ET: 551</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">PV: 117</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">OMPN: 274)</span><span style=\"color:black;font-family:標楷體;\">接受</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">治療，平均暴露於藥物約</span><span style=\"color:black;\">65</span><span style=\"color:black;font-family:標楷體;\">週。這些病人發生的嚴重不良反應包括：充血性心臟衰竭、心肌梗塞、心肌疾病、心臟肥大、完全房室傳導阻斷、心房纖維顫動、腦血管意外、心包滲出</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">請見<i>警語及注意事項</i></span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">、胸腔積液、肺浸潤、肺纖維化、肺高壓和胰腺炎。在</span><span style=\"color:black;\">942</span><span style=\"color:black;font-family:標楷體;\">位接受</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">治療的病人中，有</span><span style=\"color:black;\">161</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">(17%)</span><span style=\"color:black;font-family:標楷體;\">因不良反應或實驗室檢驗結果異常而停藥。造成停藥的不良反應中，最常見的是頭痛、腹瀉、水腫、心悸、腹痛。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在臨床試驗中，使用</span><span style=\"color:black;\">&nbsp;</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">最常發生的不良反應列於表</span><span style=\"color:black;\">1 (</span><span style=\"color:black;font-family:標楷體;\">在</span><span style=\"color:black;\">942</span><span style=\"color:black;font-family:標楷體;\">位骨髓異常增生病人中，發生率</span><span style=\"color:black;\">5%</span><span style=\"color:black;font-family:標楷體;\">以上者</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>表</strong></span><span style=\"color:black;\"><strong>1&nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>在</strong></span><strong>AGRYLIN</strong><span style=\"color:black;font-family:標楷體;\"><strong>臨床研究中至少</strong></span><span style=\"color:black;\"><strong> 5%&nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>的病人報告之不良反應</strong></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>不良反應</u></strong></span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\"><strong>AGRYLIN</strong></p><p style=\"text-align:center;\"><strong>(N=942)</strong></p><p style=\"text-align:center;\"><strong>(%)</strong></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>心臟疾病</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">心悸</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">26%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">心搏過速</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">8%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">胸痛</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">8%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>一般疾病與給藥部位問題</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">虛弱</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">23%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">水腫</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">21%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">疼痛</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">15%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">發燒</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">9%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">週邊水腫</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">9%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">乏力</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">6%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>胃腸疾病</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">腹瀉</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">26%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">噁心</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">17%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">腹痛</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">16%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">嘔吐</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">10%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">脹氣</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">10%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">缺乏食慾</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">8%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">消化不良</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">5%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>呼吸、胸廓和縱膈疾病</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">呼吸困難</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">12%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">咳嗽</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">6%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>皮膚及皮下組織疾病</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">皮疹</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">8%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">搔癢</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">6%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>骨骼肌與結締組織疾病</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">背痛</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">6%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong><u>神經系統疾病</u></strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">頭痛</span>&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">44%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">頭暈</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">15%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">感覺異常</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:215.75pt;\"><p style=\"text-align:center;\">6%</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>不良反應</strong></span><span style=\"color:black;\"><strong> (</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>發生率</strong></span><span style=\"color:black;\"><strong>1</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>至</strong></span><span style=\"color:black;\"><strong>&lt;5 %)&nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>包括：</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>一般疾病與給藥部位問題</u>：流行性感冒症狀、顫寒。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>心臟疾病</u>：心律不整、心絞痛、心臟衰竭、昏厥。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>血管疾病</u>：出血、高血壓、姿態性低血壓、血管擴張。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>消化疾病</u>：便秘、胃腸出血、胃炎。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>血液及淋巴系統疾病</u></span><span style=\"color:black;\"> :&nbsp;</span><span style=\"color:black;font-family:標楷體;\">貧血、血小板減少、瘀斑。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>肝臟疾病</u>：肝酵素升高。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>肌肉骨骼系統與結締組織疾病</u>：關節痛、肌痛。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>精神疾病</u>：憂鬱、混亂、緊張不安。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>神經系統疾病</u>：嗜睡、失眠、健忘症、偏頭痛。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>營養失調</u>：脫水。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>呼吸、胸廓和縱膈疾病</u>：鼻出血、肺炎。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>皮膚系統及皮下組織疾病</u>：禿髮。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>眼部疾病</u>：視力異常、複視。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>耳朵及內耳迷路疾病</u>：耳鳴。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>腎臟及泌尿疾病</u>：血尿、腎衰竭。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>其他較不常見不良反應</strong></span><span style=\"color:black;\"><strong> (</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>發生率</strong></span><span style=\"color:black;\"><strong>&lt;1 %)&nbsp;</strong></span><span style=\"color:black;font-family:標楷體;\"><strong>有：</strong></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>心臟疾病</u>：室性心搏過速、室上性心搏過速。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>神經系統疾病</u>：感覺減退。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>用於兒科病人的臨床研究</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在兒科病人中觀察到的不良反應發生頻率和成人病人相似。研究中觀察接受</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">治療</span><span style=\"color:black;\">3</span><span style=\"color:black;font-family:標楷體;\">個月的兒科病人，最常見的不良反應是發燒、鼻出血、頭痛及疲勞，也觀察到脈搏增加和收縮壓或舒張壓下降至超出正常範圍但無臨床症狀的情形。其他不良反應報告在這些接受</span>AGRYLIN<span style=\"color:black;font-family:標楷體;\">治療的兒科病人有心悸、頭痛、噁心、嘔吐、腹痛、背痛、厭食、疲勞和肌肉痙攣。</span></p>",
+          "search_text": "8.2\n臨床試驗經驗\n由於臨床試驗是在各種差異頗大的條件下進行的，在臨床試驗中觀察到一藥物的不良反應發生率無法直接與另一藥物的臨床試驗數據相比，而且可能無法反映臨床實務上觀察到的發生率。 用於成年病人的臨床研究 在採單一治療組設計的三個臨床試驗中，942位(請見臨床試驗資料)因各種病因而被診斷為骨髓異常增生症病人(ET: 551，PV: 117，OMPN: 274)接受AGRYLIN治療，平均暴露於藥物約65週。這些病人發生的嚴重不良反應包括：充血性心臟衰竭、心肌梗塞、心肌疾病、心臟肥大、完全房室傳導阻斷、心房纖維顫動、腦血管意外、心包滲出(請見警語及注意事項)、胸腔積液、肺浸潤、肺纖維化、肺高壓和胰腺炎。在942位接受AGRYLIN治療的病人中，有161位(17%)因不良反應或實驗室檢驗結果異常而停藥。造成停藥的不良反應中，最常見的是頭痛、腹瀉、水腫、心悸、腹痛。 在臨床試驗中，使用 AGRYLIN最常發生的不良反應列於表1 (在942位骨髓異常增生病人中，發生率5%以上者)。 表1 在AGRYLIN臨床研究中至少 5% 的病人報告之不良反應 不良反應 AGRYLIN (N=942) (%) 心臟疾病 心悸 26% 心搏過速 8% 胸痛 8% 一般疾病與給藥部位問題 虛弱 23% 水腫 21% 疼痛 15% 發燒 9% 週邊水腫 9% 乏力 6% 胃腸疾病 腹瀉 26% 噁心 17% 腹痛 16% 嘔吐 10% 脹氣 10% 缺乏食慾 8% 消化不良 5% 呼吸、胸廓和縱膈疾病 呼吸困難 12% 咳嗽 6% 皮膚及皮下組織疾病 皮疹 8% 搔癢 6% 骨骼肌與結締組織疾病 背痛 6% 神經系統疾病 頭痛 44% 頭暈 15% 感覺異常 6% 不良反應 (發生率1至<5 %) 包括： 一般疾病與給藥部位問題：流行性感冒症狀、顫寒。 心臟疾病：心律不整、心絞痛、心臟衰竭、昏厥。 血管疾病：出血、高血壓、姿態性低血壓、血管擴張。 消化疾病：便秘、胃腸出血、胃炎。 血液及淋巴系統疾病 : 貧血、血小板減少、瘀斑。 肝臟疾病：肝酵素升高。 肌肉骨骼系統與結締組織疾病：關節痛、肌痛。 精神疾病：憂鬱、混亂、緊張不安。 神經系統疾病：嗜睡、失眠、健忘症、偏頭痛。 營養失調：脫水。 呼吸、胸廓和縱膈疾病：鼻出血、肺炎。 皮膚系統及皮下組織疾病：禿髮。 眼部疾病：視力異常、複視。 耳朵及內耳迷路疾病：耳鳴。 腎臟及泌尿疾病：血尿、腎衰竭。 其他較不常見不良反應 (發生率<1 %) 有： 心臟疾病：室性心搏過速、室上性心搏過速。 神經系統疾病：感覺減退。 用於兒科病人的臨床研究 在兒科病人中觀察到的不良反應發生頻率和成人病人相似。研究中觀察接受AGRYLIN治療3個月的兒科病人，最常見的不良反應是發燒、鼻出血、頭痛及疲勞，也觀察到脈搏增加和收縮壓或舒張壓下降至超出正常範圍但無臨床症狀的情形。其他不良反應報告在這些接受AGRYLIN治療的兒科病人有心悸、頭痛、噁心、嘔吐、腹痛、背痛、厭食、疲勞和肌肉痙攣。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "在AGRYLIN上市後使用已有以下的不良反應報告。由於這些反應是由人數不明的群體所自願通報，並不總是能準確的估算發生率或確認與藥物暴露的因果關係。 心臟疾病：變異型心絞痛(Prinzmental angina)、尖端扭轉型心搏過速(Torsades de pointes) 呼吸、胸、縱膈疾病：間質性肺病(包括過敏性肺泡炎、嗜酸細胞性肺炎和間質性肺炎) (請見警語及注意事項) 腎及泌尿道疾病：腎小管間質腎炎 肝膽道疾病：具臨床意義的肝毒性(包括有症狀的ALT、AST高於三倍ULN) 神經系統疾病：腦梗塞。 自發報告和文獻回顧報告的其他兒科病人不良反應尚包括： 血液及淋巴系統疾病：貧血 皮膚及皮下組織疾病：皮膚光敏感性 檢查：白血球數增加",
+          "content_html": "<p>在AGRYLIN上市後使用已有以下的不良反應報告。由於這些反應是由人數不明的群體所自願通報，並不總是能準確的估算發生率或確認與藥物暴露的因果關係。</p><p><u>心臟疾病</u>：變異型心絞痛(Prinzmental angina)、尖端扭轉型心搏過速(Torsades de pointes)<br><u>呼吸、胸、縱膈疾病</u>：間質性肺病(包括過敏性肺泡炎、嗜酸細胞性肺炎和間質性肺炎) (請見警語及注意事項)<br><u>腎及泌尿道疾病</u>：腎小管間質腎炎<br><u>肝膽道疾病</u>：具臨床意義的肝毒性(包括有症狀的ALT、AST高於三倍ULN)<br><u>神經系統疾病</u>：腦梗塞。</p><p>自發報告和文獻回顧報告的其他兒科病人不良反應尚包括：<br><u>血液及淋巴系統疾病</u>：貧血<br><u>皮膚及皮下組織疾病</u>：皮膚光敏感性<br><u>檢查</u>：白血球數增加</p>",
+          "search_text": "8.3\n上市後經驗\n在AGRYLIN上市後使用已有以下的不良反應報告。由於這些反應是由人數不明的群體所自願通報，並不總是能準確的估算發生率或確認與藥物暴露的因果關係。 心臟疾病：變異型心絞痛(Prinzmental angina)、尖端扭轉型心搏過速(Torsades de pointes) 呼吸、胸、縱膈疾病：間質性肺病(包括過敏性肺泡炎、嗜酸細胞性肺炎和間質性肺炎) (請見警語及注意事項) 腎及泌尿道疾病：腎小管間質腎炎 肝膽道疾病：具臨床意義的肝毒性(包括有症狀的ALT、AST高於三倍ULN) 神經系統疾病：腦梗塞。 自發報告和文獻回顧報告的其他兒科病人不良反應尚包括： 血液及淋巴系統疾病：貧血 皮膚及皮下組織疾病：皮膚光敏感性 檢查：白血球數增加",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "AGRYLIN在超過建議劑量時曾有造成低血壓的報告。AGRYLIN上市後曾有蓄意使用過量的案例，報告的症狀包括竇性心搏過速及嘔吐。經過支持性處置後症狀解除。AGRYLIN療法造成的血小板降低與劑量有關，因此，預期過量會引起血小板低下症而可能引發出血。 一旦服用過量時，停止使用AGRYLIN並且監測血小板的數目以察知血小板低下症，觀察可能的併發症如流血。一旦血小板數目回到正常範圍即可考慮恢復使用AGRYLIN。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">在超過建議劑量時曾有造成低血壓的報告。</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">上市後曾有蓄意使用過量的案例，報告的症狀包括竇性心搏過速及嘔吐。經過支持性處置後症狀解除。</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">療法造成的血小板降低與劑量有關，因此，預期過量會引起血小板低下症而可能引發出血。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">一旦服用過量時，停止使用</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">並且監測血小板的數目以察知血小板低下症，觀察可能的併發症如流血。一旦血小板數目回到正常範圍即可考慮恢復使用</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "9\n過量\nAGRYLIN在超過建議劑量時曾有造成低血壓的報告。AGRYLIN上市後曾有蓄意使用過量的案例，報告的症狀包括竇性心搏過速及嘔吐。經過支持性處置後症狀解除。AGRYLIN療法造成的血小板降低與劑量有關，因此，預期過量會引起血小板低下症而可能引發出血。 一旦服用過量時，停止使用AGRYLIN並且監測血小板的數目以察知血小板低下症，觀察可能的併發症如流血。一旦血小板數目回到正常範圍即可考慮恢復使用AGRYLIN。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "AGRYLIN (anagrelide hydrochloride)為一降血小板藥物。化學名為6,7-dichloro-1,5- dihydroimidazo [2,1-b]quinazolin-2(3H)-one monohydrochloride monohydrate，分子式為C10H7Cl2N3O．HCl．H2O，分子量310.55。結構式為：\nAnagrelide hydrochloride外觀為灰白色粉狀物，極微溶於水，略溶於dimethyl sulfoxide及dimethylformamide。 AGRYLIN為白色、不透明膠囊，供口服使用，含有0.5毫克anagrelide base (相當於0.61毫克anagrelide hydrochloride)。 目前仍不清楚anagrelide降低血小板數目的確實機轉。在細胞培養研究中，anagrelide能抑制GATA-1和FOG-1等巨核細胞形成(megakaryocytopoiesis)所需的轉錄因子之表現，最終導致血小板的生成減少。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;\">AGRYLIN (anagrelide hydrochloride)</span><span style=\"color:black;font-family:標楷體;\">為一降血小板藥物。化學名為</span><span style=\"color:black;\">6,7-dichloro-1,5- dihydroimidazo [2,1-b]quinazolin-2(3H)-one monohydrochloride monohydrate</span><span style=\"color:black;font-family:標楷體;\">，分子式為</span><span style=\"color:black;\">C<sub>10</sub>H<sub>7</sub>Cl<sub>2</sub>N<sub>3</sub>O</span><span style=\"color:black;font-family:標楷體;\">．</span><span style=\"color:black;\">HCl</span><span style=\"color:black;font-family:標楷體;\">．</span><span style=\"color:black;\">H<sub>2</sub>O</span><span style=\"color:black;font-family:標楷體;\">，分子量</span><span style=\"color:black;\">310.55</span><span style=\"color:black;font-family:標楷體;\">。結構式為：</span></p>\n<p style=\"text-align:justify;\"><span style=\"color:black;\">Anagrelide hydrochloride</span><span style=\"color:black;font-family:標楷體;\">外觀為灰白色粉狀物，極微溶於水，略溶於</span><span style=\"color:black;\">dimethyl sulfoxide</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">dimethylformamide</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">為白色、不透明膠囊，供口服使用，含有</span><span style=\"color:black;\">0.5</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">anagrelide base (</span><span style=\"color:black;font-family:標楷體;\">相當於</span><span style=\"color:black;\">0.61</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">anagrelide hydrochloride)</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">目前仍不清楚</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">降低血小板數目的確實機轉。在細胞培養研究中，</span>anagrelide<span style=\"font-family:標楷體;\">能抑制</span>GATA-1<span style=\"font-family:標楷體;\">和</span>FOG-1<span style=\"font-family:標楷體;\">等巨核細胞形成</span>(megakaryocytopoiesis)<span style=\"font-family:標楷體;\">所需的轉錄因子之表現，最終導致血小板的生成減少。</span></p>",
+          "search_text": "10.1\n作用機轉\nAGRYLIN (anagrelide hydrochloride)為一降血小板藥物。化學名為6,7-dichloro-1,5- dihydroimidazo [2,1-b]quinazolin-2(3H)-one monohydrochloride monohydrate，分子式為C10H7Cl2N3O．HCl．H2O，分子量310.55。結構式為：\nAnagrelide hydrochloride外觀為灰白色粉狀物，極微溶於水，略溶於dimethyl sulfoxide及dimethylformamide。 AGRYLIN為白色、不透明膠囊，供口服使用，含有0.5毫克anagrelide base (相當於0.61毫克anagrelide hydrochloride)。 目前仍不清楚anagrelide降低血小板數目的確實機轉。在細胞培養研究中，anagrelide能抑制GATA-1和FOG-1等巨核細胞形成(megakaryocytopoiesis)所需的轉錄因子之表現，最終導致血小板的生成減少。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 61172
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "從接受anagrelide治療的正常志願受試者抽出的血液中發現巨核細胞發育的後有絲分裂期中斷的情形，且巨核細胞體積變小及倍數性減少。治療劑量下，anagrelide不會使白血球數目或血液凝集參數產生明顯變化，而對於紅血球參數可能有些微但不具臨床意義的影響。其活性代謝物3-hydroxy anagrelide在減少血小板的作用上具有和anagrelide類似的強度和效果，然而，3-hydroxy anagrelide的暴露量(以血漿AUC計)約比anagrelide高出兩倍。Anagrelide和3-hydroxy anagrelide能抑制環腺苷單磷酸磷酸二酯酶3 (cyclic AMP phosphodiesterase 3)，其中3-hydroxy anagrelide的強度約為anagrelide的40倍(IC50s分別為0.9和36nM)。抑制PDE3不會改變血小板的生成。PDE3抑制劑是一類能抑制血小板凝集的藥物。然而，anagrelide只有在比一般減少血小板數所需劑量更高的劑量下才能觀察到顯著的抑制血小板凝集效果。PDE3抑制劑對心血管(CV)的影響包括使血管舒張、加強收縮力及加快心跳。 心臟電生理 一項雙盲、隨機、安慰劑和活性對照的交叉研究評估服用anagrelide (0.5毫克及2.5毫克單一劑量)對60位健康成年男性和女性的心跳速率和QTc間隔延長的可能性之影響。 研究當中觀察到心跳速率增加，劑量愈高愈明顯。藥物到達最高濃度時(0.5 – 4小時)增加最多。平均心跳變化最大發生在投藥2小時後，接受0.5毫克劑量者每分鐘增加7.8下(+7.8 bpm)，接受2.5毫克劑量者則為+29.1 bpm。 研究當中也觀察到平均QTc增加，劑量愈高愈明顯。相較於安慰劑，在投予0.5毫克及2.5毫克anagrelide後，經基期校正的平均QTcI (依個別受試者進行校正)最大平均變化(95%信心上限)分別為7.0 (9.8)毫秒及13.0 (15.7)毫秒。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">從接受</span>anagrelide<span style=\"font-family:標楷體;\">治療的正常志願受試者抽出的血液中發現巨核細胞發育的後有絲分裂期中斷的情形，且巨核細胞體積變小及倍數性減少。治療劑量下，</span>anagrelide<span style=\"font-family:標楷體;\">不會使白血球數目或血液凝集參數產生明顯變化，而對於紅血球參數可能有些微但不具臨床意義的影響。其活性代謝物</span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">在減少血小板的作用上具有和</span>anagrelide<span style=\"font-family:標楷體;\">類似的強度和效果，然而，</span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">的暴露量</span>(<span style=\"font-family:標楷體;\">以血漿</span>AUC<span style=\"font-family:標楷體;\">計</span>)<span style=\"font-family:標楷體;\">約比</span>anagrelide<span style=\"font-family:標楷體;\">高出兩倍。</span>Anagrelide<span style=\"font-family:標楷體;\"><strong>和</strong></span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">能抑制環腺苷單磷酸磷酸二酯酶</span>3 (cyclic AMP phosphodiesterase 3)<span style=\"font-family:標楷體;\">，其中</span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">的強度約為</span>anagrelide<span style=\"font-family:標楷體;\">的</span>40<span style=\"font-family:標楷體;\">倍</span>(IC<sub>50s</sub><span style=\"font-family:標楷體;\">分別為</span>0.9<span style=\"font-family:標楷體;\">和</span>36nM)<span style=\"font-family:標楷體;\">。抑制</span>PDE3<span style=\"font-family:標楷體;\">不會改變血小板的生成。</span>PDE3<span style=\"font-family:標楷體;\">抑制劑是一類能抑制血小板凝集的藥物。然而，</span>anagrelide<span style=\"font-family:標楷體;\">只有在比一般減少血小板數所需劑量更高的劑量下才能觀察到顯著的抑制血小板凝集效果。</span>PDE3<span style=\"font-family:標楷體;\">抑制劑對心血管</span>(CV)<span style=\"font-family:標楷體;\">的影響包括使血管舒張、加強收縮力及加快心跳。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><i><u>心臟電生理</u></i></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">一項雙盲、隨機、安慰劑和活性對照的交叉研究評估服用</span>anagrelide (0.5<span style=\"font-family:標楷體;\">毫克及</span>2.5<span style=\"font-family:標楷體;\">毫克單一劑量</span>)<span style=\"font-family:標楷體;\">對</span>60<span style=\"font-family:標楷體;\">位健康成年男性和女性的心跳速率和</span>QTc<span style=\"font-family:標楷體;\">間隔延長的可能性之影響。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">研究當中觀察到心跳速率增加，劑量愈高愈明顯。藥物到達最高濃度時</span>(0.5 – 4<span style=\"font-family:標楷體;\">小時</span>)<span style=\"font-family:標楷體;\">增加最多。平均心跳變化最大發生在投藥</span>2<span style=\"font-family:標楷體;\">小時後，接受</span>0.5<span style=\"font-family:標楷體;\">毫克劑量者每分鐘增加</span>7.8<span style=\"font-family:標楷體;\">下</span>(+7.8 bpm)<span style=\"font-family:標楷體;\">，接受</span>2.5<span style=\"font-family:標楷體;\">毫克劑量者則為</span>+29.1 bpm<span style=\"font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">研究當中也觀察到平均</span>QTc<span style=\"font-family:標楷體;\">增加，劑量愈高愈明顯。相較於安慰劑，在投予</span>0.5<span style=\"font-family:標楷體;\">毫克及</span>2.5<span style=\"font-family:標楷體;\">毫克</span>anagrelide<span style=\"font-family:標楷體;\">後，經基期校正的平均</span>QTcI (<span style=\"font-family:標楷體;\">依個別受試者進行校正</span>)<span style=\"font-family:標楷體;\">最大平均變化</span>(95%<span style=\"font-family:標楷體;\">信心上限</span>)<span style=\"font-family:標楷體;\">分別為</span>7.0 (9.8)<span style=\"font-family:標楷體;\">毫秒及</span>13.0 (15.7)<span style=\"font-family:標楷體;\">毫秒。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n從接受anagrelide治療的正常志願受試者抽出的血液中發現巨核細胞發育的後有絲分裂期中斷的情形，且巨核細胞體積變小及倍數性減少。治療劑量下，anagrelide不會使白血球數目或血液凝集參數產生明顯變化，而對於紅血球參數可能有些微但不具臨床意義的影響。其活性代謝物3-hydroxy anagrelide在減少血小板的作用上具有和anagrelide類似的強度和效果，然而，3-hydroxy anagrelide的暴露量(以血漿AUC計)約比anagrelide高出兩倍。Anagrelide和3-hydroxy anagrelide能抑制環腺苷單磷酸磷酸二酯酶3 (cyclic AMP phosphodiesterase 3)，其中3-hydroxy anagrelide的強度約為anagrelide的40倍(IC50s分別為0.9和36nM)。抑制PDE3不會改變血小板的生成。PDE3抑制劑是一類能抑制血小板凝集的藥物。然而，anagrelide只有在比一般減少血小板數所需劑量更高的劑量下才能觀察到顯著的抑制血小板凝集效果。PDE3抑制劑對心血管(CV)的影響包括使血管舒張、加強收縮力及加快心跳。 心臟電生理 一項雙盲、隨機、安慰劑和活性對照的交叉研究評估服用anagrelide (0.5毫克及2.5毫克單一劑量)對60位健康成年男性和女性的心跳速率和QTc間隔延長的可能性之影響。 研究當中觀察到心跳速率增加，劑量愈高愈明顯。藥物到達最高濃度時(0.5 – 4小時)增加最多。平均心跳變化最大發生在投藥2小時後，接受0.5毫克劑量者每分鐘增加7.8下(+7.8 bpm)，接受2.5毫克劑量者則為+29.1 bpm。 研究當中也觀察到平均QTc增加，劑量愈高愈明顯。相較於安慰劑，在投予0.5毫克及2.5毫克anagrelide後，經基期校正的平均QTcI (依個別受試者進行校正)最大平均變化(95%信心上限)分別為7.0 (9.8)毫秒及13.0 (15.7)毫秒。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "致癌性、致突變性、生育力損傷 為期兩年的大鼠致癌性研究發現，與對照組相比，投予30mg/kg/day (至少為人類在1毫克每天兩次劑量下的AUC暴露之174倍)的雌鼠之子宮腺癌發生率較高。雄鼠接受3 mg/kg/day以上的劑量及雌鼠接受10 mg/kg/day以上的劑量(分別至少為人類在1毫克每天兩次劑量下的AUC暴露之10及18倍)，腎上腺嗜鉻細胞瘤(phaeochromotomas)的發生率都比對照組高。 在細菌突變試驗(Ames)或小鼠淋巴瘤細胞(L5178Y，TK+/-)突變試驗中，anagrelide hydrochloride不具致突變性，在人類淋巴球進行離體染色體異常分析法或在活體小鼠微核試驗中也都不具致染色體斷裂性。 口服anagrelide至劑量最高達 240 mg/kg/day (以體表面積計算為人體最大建議劑量10毫克/天之233倍)對雄大鼠的生育力及生殖功能沒有影響。然而，在雌大鼠的生育研究中，口服30 mg/kg/day以上(以體表面積計算為人體最大建議劑量之29倍)的劑量會阻礙著床，並使存活的胚胎數減少。 動物毒性及/或藥理學 在為期兩年的大鼠研究中，在經anagrelide治療的雄性和雌性大鼠觀察到非腫瘤性病變顯著增加，包括腎上腺(髓質增生症)、心臟(心肌肥厚與腔室擴張)、腎(腎積水、腎小管擴張和尿路上皮增生)和骨(股骨內生骨疣)。在經anagrelide治療的雄性大鼠觀察到下列組織中有血管方面的作用：胰臟(動脈炎/動脈周圍炎、內膜增生和中間肥大)、腎(動脈炎/動脈周圍炎、內膜增生和中間肥大)、坐骨神經(血管礦化)和睾丸(生精小管萎縮和血管栓塞)。",
+          "content_html": "<p style=\"margin-left:0cm;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>致癌性、致突變性、生育力損傷</u></span></p><p style=\"margin-left:0cm;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">為期兩年的大鼠致癌性研究發現，與對照組相比，投予</span><span style=\"color:black;\">30mg/kg/day (</span><span style=\"color:black;font-family:標楷體;\">至少為人類在</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">毫克每天兩次劑量下的</span><span style=\"color:black;\">AUC</span><span style=\"color:black;font-family:標楷體;\">暴露之</span><span style=\"color:black;\">174</span><span style=\"color:black;font-family:標楷體;\">倍</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的雌鼠之子宮腺癌發生率較高。雄鼠接受</span><span style=\"color:black;\">3 mg/kg/day</span><span style=\"color:black;font-family:標楷體;\">以上的劑量及雌鼠接受</span><span style=\"color:black;\">10 mg/kg/day</span><span style=\"font-family:標楷體;\">以上的劑量</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">分別至少為人類在</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">毫克每天兩次劑量下的</span><span style=\"color:black;\">AUC</span><span style=\"color:black;font-family:標楷體;\">暴露之</span><span style=\"color:black;\">10</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">18</span><span style=\"color:black;font-family:標楷體;\">倍</span><span style=\"color:black;\">)</span><span style=\"font-family:標楷體;\">，腎上腺嗜鉻細胞瘤</span>(phaeochromotomas<span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的發生率都比對照組高。</span></p><p style=\"margin-left:0cm;text-align:justify;\">&nbsp;</p><p style=\"margin-left:0cm;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在細菌突變試驗</span><span style=\"color:black;\">(Ames)</span><span style=\"color:black;font-family:標楷體;\">或小鼠淋巴瘤細胞</span><span style=\"color:black;\">(L5178Y</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">TK+/-)</span><span style=\"color:black;font-family:標楷體;\">突變試驗中，</span><span style=\"color:black;\">anagrelide hydrochloride</span><span style=\"color:black;font-family:標楷體;\">不具致突變性，在人類淋巴球進行離體染色體異常分析法或在活體小鼠微核試驗中也都不具致染色體斷裂性。</span></p><p style=\"margin-left:0cm;text-align:justify;\">&nbsp;</p><p style=\"margin-left:0cm;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">口服</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">至劑量最高達</span><span style=\"color:black;\"> 240 mg/kg/day (</span><span style=\"color:black;font-family:標楷體;\">以體表面積計算為人體最大建議劑量</span><span style=\"color:black;\">10</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">天之</span><span style=\"color:black;\">233</span><span style=\"color:black;font-family:標楷體;\">倍</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">對雄大鼠的生育力及生殖功能沒有影響。然而，在雌大鼠的生育研究中，口服</span><span style=\"color:black;\">30 mg/kg/day</span><span style=\"color:black;font-family:標楷體;\">以上</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">以體表面積計算為人體最大建議劑量之</span><span style=\"color:black;\">29</span><span style=\"color:black;font-family:標楷體;\">倍</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的劑量會阻礙著床，並使存活的胚胎數減少。</span></p><p style=\"margin-left:0cm;text-align:justify;\">&nbsp;</p><p style=\"margin-left:0cm;text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>動物毒性及</u></span><span style=\"color:black;\"><u>/</u></span><span style=\"color:black;font-family:標楷體;\"><u>或藥理學</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">在為期兩年的大鼠研究中，在經</span>anagrelide<span style=\"font-family:標楷體;\">治療的雄性和雌性大鼠觀察到非腫瘤性病變顯著增加，包括腎上腺</span>(<span style=\"font-family:標楷體;\">髓質增生症</span>)<span style=\"font-family:標楷體;\">、心臟</span>(<span style=\"font-family:標楷體;\">心肌肥厚與腔室擴張</span>)<span style=\"font-family:標楷體;\">、腎</span>(<span style=\"font-family:標楷體;\">腎積水、腎小管擴張和尿路上皮增生</span>)<span style=\"font-family:標楷體;\">和骨</span>(<span style=\"font-family:標楷體;\">股骨內生骨疣</span>)<span style=\"font-family:標楷體;\">。在經</span>anagrelide<span style=\"font-family:標楷體;\">治療的雄性大鼠觀察到下列組織中有血管方面的作用：胰臟</span>(<span style=\"font-family:標楷體;\">動脈炎</span>/<span style=\"font-family:標楷體;\">動脈周圍炎、內膜增生和中間肥大</span>)<span style=\"font-family:標楷體;\">、腎</span>(<span style=\"font-family:標楷體;\">動脈炎</span>/<span style=\"font-family:標楷體;\">動脈周圍炎、內膜增生和中間肥大</span>)<span style=\"font-family:標楷體;\">、坐骨神經</span>(<span style=\"font-family:標楷體;\">血管礦化</span>)<span style=\"font-family:標楷體;\">和睾丸</span>(<span style=\"font-family:標楷體;\">生精小管萎縮和血管栓塞</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n致癌性、致突變性、生育力損傷 為期兩年的大鼠致癌性研究發現，與對照組相比，投予30mg/kg/day (至少為人類在1毫克每天兩次劑量下的AUC暴露之174倍)的雌鼠之子宮腺癌發生率較高。雄鼠接受3 mg/kg/day以上的劑量及雌鼠接受10 mg/kg/day以上的劑量(分別至少為人類在1毫克每天兩次劑量下的AUC暴露之10及18倍)，腎上腺嗜鉻細胞瘤(phaeochromotomas)的發生率都比對照組高。 在細菌突變試驗(Ames)或小鼠淋巴瘤細胞(L5178Y，TK+/-)突變試驗中，anagrelide hydrochloride不具致突變性，在人類淋巴球進行離體染色體異常分析法或在活體小鼠微核試驗中也都不具致染色體斷裂性。 口服anagrelide至劑量最高達 240 mg/kg/day (以體表面積計算為人體最大建議劑量10毫克/天之233倍)對雄大鼠的生育力及生殖功能沒有影響。然而，在雌大鼠的生育研究中，口服30 mg/kg/day以上(以體表面積計算為人體最大建議劑量之29倍)的劑量會阻礙著床，並使存活的胚胎數減少。 動物毒性及/或藥理學 在為期兩年的大鼠研究中，在經anagrelide治療的雄性和雌性大鼠觀察到非腫瘤性病變顯著增加，包括腎上腺(髓質增生症)、心臟(心肌肥厚與腔室擴張)、腎(腎積水、腎小管擴張和尿路上皮增生)和骨(股骨內生骨疣)。在經anagrelide治療的雄性大鼠觀察到下列組織中有血管方面的作用：胰臟(動脈炎/動脈周圍炎、內膜增生和中間肥大)、腎(動脈炎/動脈周圍炎、內膜增生和中間肥大)、坐骨神經(血管礦化)和睾丸(生精小管萎縮和血管栓塞)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "在0.5毫克至2.5毫克的劑量範圍內呈現劑量比例性。 吸收 口服AGRYLIN之後，至少70%經由胃腸道吸收。空腹的受試者在服藥後約一小時內anagrelide可達血漿中最高濃度。 在健康志願受試者所得到的藥動學資料中，比較進食與空腹狀態下anagrelide的藥物動力學，發現1毫克的anagrelide與食物併服時最高血中濃度(Cmax)減少14%，但曲線下面積(AUC)增加了20%。食物也使其活性代謝物3-hydroxy anagrelide之Cmax下降29 %，但AUC不受影響。 排除 Anagrelide和3-hydroxy-anagrelide的血漿排除半衰期分別為1.5及2.5小時。服用臨床治療劑量時，anagrelide和3-hydroxy-anagrelide都不會蓄積在血漿中。 代謝 Anagrelide主要經由CYP1A2代謝為活性代謝物3-hydroxy anagrelide，接著經CYP1A2代謝為非活性代謝物RL603。給藥劑量中只有低於1%以anagrelide的形式出現在尿液中，3-hydroxy-anagrelide及RL603的形式則分別約占給藥劑量的3%和16-20%。 藥物交互作用 Aspirin：以健康志願者為對象的兩項藥效學交互作用研究顯示，同時併用單一劑量anagrelide 1毫克和aspirin 900毫克或重覆劑量每天各一次的anagrelide 1毫克和aspirin 75毫克，體外抗血小板凝集效果比單獨服用aspirin來得大。同時併用單一劑量anagrelide 1毫克和aspirin 900毫克對出血時間、前凝血酶凝血時間(PT)或活性局部凝血激素時間(aPTT)並無影響。 Digoxin或warfarin：人類活體交互作用研究顯示，anagrelide不會影響digoxin或warfarin的藥動學性質，digoxin或warfarin也不會影響anagrelide的藥動學性質。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在</span><span style=\"color:black;\">0.5</span><span style=\"color:black;font-family:標楷體;\">毫克至</span><span style=\"color:black;\">2.5</span><span style=\"color:black;font-family:標楷體;\">毫克的劑量範圍內呈現劑量比例性。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>吸收</u></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">口服</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">之後，至少</span><span style=\"color:black;\">70%</span><span style=\"color:black;font-family:標楷體;\">經由胃腸道吸收。空腹的受試者在服藥後約一小時內</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">可達血漿中最高濃度。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在健康志願受試者所得到的藥動學資料中，比較進食與空腹狀態下</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">的藥物動力學，發現</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">毫克的</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">與食物併服時最高血中濃度</span><span style=\"color:black;\">(C<sub>max</sub>)</span><span style=\"color:black;font-family:標楷體;\">減少</span><span style=\"color:black;\">14%</span><span style=\"color:black;font-family:標楷體;\">，但曲線下面積</span><span style=\"color:black;\">(AUC)</span><span style=\"color:black;font-family:標楷體;\">增加了</span><span style=\"color:black;\">20%</span><span style=\"color:black;font-family:標楷體;\">。食物也使其活性代謝物</span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">之</span><span style=\"color:black;\">C<sub>max</sub></span><span style=\"color:black;font-family:標楷體;\">下降</span><span style=\"color:black;\">29 %</span><span style=\"color:black;font-family:標楷體;\">，但</span><span style=\"color:black;\">AUC</span><span style=\"color:black;font-family:標楷體;\">不受影響。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>排除</u></span></p><p style=\"text-align:justify;\">Anagrelide<span style=\"font-family:標楷體;\">和</span>3<strong>-</strong>hydroxy-anagrelide<span style=\"font-family:標楷體;\">的血漿排除半衰期分別為</span>1.5<span style=\"font-family:標楷體;\">及</span>2.5<span style=\"font-family:標楷體;\">小時。服用臨床治療劑量時，</span>anagrelide<span style=\"font-family:標楷體;\">和</span>3<strong>-</strong>hydroxy-anagrelide<span style=\"font-family:標楷體;\">都不會蓄積在血漿中。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><u>代謝</u></span></p><p style=\"text-align:justify;\">Anagrelide<span style=\"font-family:標楷體;\">主要經由</span>CYP1A2<span style=\"font-family:標楷體;\">代謝為活性代謝物</span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">，接著經</span>CYP1A2<span style=\"font-family:標楷體;\">代謝為非活性代謝物</span>RL603<span style=\"font-family:標楷體;\">。給藥劑量中只有低於</span>1%<span style=\"font-family:標楷體;\">以</span>anagrelide<span style=\"font-family:標楷體;\">的形式出現在尿液中，</span>3<strong>-</strong>hydroxy-anagrelide<span style=\"font-family:標楷體;\">及</span>RL603<span style=\"font-family:標楷體;\">的形式則分別約占給藥劑量的</span>3%<span style=\"font-family:標楷體;\">和</span>16-20%<span style=\"font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i>藥物交互作用</i></span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;\"><i>Aspirin</i></span><span style=\"color:black;font-family:標楷體;\">：以健康志願者為對象的兩項藥效學交互作用研究顯示，同時併用單一劑量</span><span style=\"color:black;\">anagrelide 1</span><span style=\"color:black;font-family:標楷體;\">毫克和</span><span style=\"color:black;\">aspirin 900</span><span style=\"color:black;font-family:標楷體;\">毫克或重覆劑量每天各一次的</span><span style=\"color:black;\">anagrelide 1</span><span style=\"color:black;font-family:標楷體;\">毫克和</span><span style=\"color:black;\">aspirin 75</span><span style=\"color:black;font-family:標楷體;\">毫克，體外抗血小板凝集效果比單獨服用</span><span style=\"color:black;\">aspirin</span><span style=\"color:black;font-family:標楷體;\">來得大。同時併用單一劑量</span><span style=\"color:black;\">anagrelide 1</span><span style=\"color:black;font-family:標楷體;\">毫克和</span><span style=\"color:black;\">aspirin 900</span><span style=\"color:black;font-family:標楷體;\">毫克對出血時間、前凝血酶凝血時間</span><span style=\"color:black;\">(PT)</span><span style=\"color:black;font-family:標楷體;\">或活性局部凝血激素時間</span><span style=\"color:black;\">(aPTT)</span><span style=\"color:black;font-family:標楷體;\">並無影響。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;\"><i>Digoxin</i></span><span style=\"color:black;font-family:標楷體;\"><i>或</i></span><span style=\"color:black;\"><i>warfarin</i></span><span style=\"color:black;font-family:標楷體;\">：人類活體交互作用研究顯示，</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">不會影響</span><span style=\"color:black;\">digoxin</span><span style=\"color:black;font-family:標楷體;\">或</span><span style=\"color:black;\">warfarin</span><span style=\"color:black;font-family:標楷體;\">的藥動學性質，</span><span style=\"color:black;\">digoxin</span><span style=\"color:black;font-family:標楷體;\">或</span><span style=\"color:black;\">warfarin</span><span style=\"color:black;font-family:標楷體;\">也不會影響</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">的藥動學性質。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">&nbsp;</p>",
+          "search_text": "11\n藥物動力學特性\n在0.5毫克至2.5毫克的劑量範圍內呈現劑量比例性。 吸收 口服AGRYLIN之後，至少70%經由胃腸道吸收。空腹的受試者在服藥後約一小時內anagrelide可達血漿中最高濃度。 在健康志願受試者所得到的藥動學資料中，比較進食與空腹狀態下anagrelide的藥物動力學，發現1毫克的anagrelide與食物併服時最高血中濃度(Cmax)減少14%，但曲線下面積(AUC)增加了20%。食物也使其活性代謝物3-hydroxy anagrelide之Cmax下降29 %，但AUC不受影響。 排除 Anagrelide和3-hydroxy-anagrelide的血漿排除半衰期分別為1.5及2.5小時。服用臨床治療劑量時，anagrelide和3-hydroxy-anagrelide都不會蓄積在血漿中。 代謝 Anagrelide主要經由CYP1A2代謝為活性代謝物3-hydroxy anagrelide，接著經CYP1A2代謝為非活性代謝物RL603。給藥劑量中只有低於1%以anagrelide的形式出現在尿液中，3-hydroxy-anagrelide及RL603的形式則分別約占給藥劑量的3%和16-20%。 藥物交互作用 Aspirin：以健康志願者為對象的兩項藥效學交互作用研究顯示，同時併用單一劑量anagrelide 1毫克和aspirin 900毫克或重覆劑量每天各一次的anagrelide 1毫克和aspirin 75毫克，體外抗血小板凝集效果比單獨服用aspirin來得大。同時併用單一劑量anagrelide 1毫克和aspirin 900毫克對出血時間、前凝血酶凝血時間(PT)或活性局部凝血激素時間(aPTT)並無影響。 Digoxin或warfarin：人類活體交互作用研究顯示，anagrelide不會影響digoxin或warfarin的藥動學性質，digoxin或warfarin也不會影響anagrelide的藥動學性質。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.1",
+          "parent_id": "11",
+          "level": 2,
+          "number": "11.1",
+          "title": "特定族群",
+          "title_html": "特定族群",
+          "path": [
+            "藥物動力學特性",
+            "特定族群"
+          ],
+          "content_text": "兒科病人 相較於成年病人(介於19至57歲)，孩童和青春期(介於7至16歲)的原發性血小板增多症病人之anagrelide劑量標準化Cmax和AUC較高，分別高出17%及56%。 老年病人 相較於年輕成年病人(介於22至50歲)，老年病人(介於65至75歲)的anagrelide Cmax和AUC分別高出36%及61%，但在老年病人活性代謝物3-hydroxy anagrelide的Cmax和AUC卻分別低了42%及37%。 腎功能不全 單一劑量1毫克anagrelide的藥動學結果顯示，用於重度腎功能不全(肌酸酐清除率<30 mL/min)的病人對anagrelide的藥動學無顯著影響。 肝功能不全 單一劑量1毫克anagrelide的藥動學結果顯示，中度肝功能不全(Child Pugh score 7-9)的病人平均anagrelide Cmax為健康受試者的兩倍，總暴露量(AUC)則增為8倍。此外，相較於健康受試者，中度肝功能不全的病人平均3-hydroxy anagrelide Cmax低了24%，而平均3-hydroxy anagrelide AUC高了77%。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>兒科病人</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">相較於成年病人</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">介於</span><span style=\"color:black;\">19</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">57</span><span style=\"color:black;font-family:標楷體;\">歲</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，孩童和青春期</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">介於</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">歲</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的原發性血小板增多症病人之</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">劑量標準化</span><span style=\"color:black;\">C<sub>max</sub></span><span style=\"color:black;font-family:標楷體;\">和</span><span style=\"color:black;\">AUC</span><span style=\"color:black;font-family:標楷體;\">較高，分別高出</span><span style=\"color:black;\">17%</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">56%</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>老年病人</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">相較於年輕成年病人</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">介於</span><span style=\"color:black;\">22</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">50</span><span style=\"color:black;font-family:標楷體;\">歲</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，老年病人</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">介於</span><span style=\"color:black;\">65</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">75</span><span style=\"color:black;font-family:標楷體;\">歲</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">的</span><span style=\"color:black;\">anagrelide C<sub>max</sub></span><span style=\"color:black;font-family:標楷體;\">和</span><span style=\"color:black;\">AUC</span><span style=\"color:black;font-family:標楷體;\">分別高出</span><span style=\"color:black;\">36%</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">61%</span><span style=\"color:black;font-family:標楷體;\">，但在老年病人活性代謝物</span>3-hydroxy anagrelide<span style=\"font-family:標楷體;\">的</span><span style=\"color:black;\">C<sub>max</sub></span><span style=\"color:black;font-family:標楷體;\">和</span><span style=\"color:black;\">AUC</span><span style=\"color:black;font-family:標楷體;\">卻分別低了</span><span style=\"color:black;\">42%</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">37%</span><span style=\"color:black;font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>腎功能不全</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">單一劑量</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">的藥動學結果顯示，用於重度腎功能不全</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">肌酸酐清除率</span><span style=\"color:black;\">&lt;30 mL/min)</span><span style=\"color:black;font-family:標楷體;\">的病人對</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">的藥動學無顯著影響。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i><u>肝功能不全</u></i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">單一劑量</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">毫克</span><span style=\"color:black;\">anagrelide</span><span style=\"color:black;font-family:標楷體;\">的藥動學結果顯示，中度肝功能不全</span><span style=\"color:black;\">(Child Pugh score 7-9)</span><span style=\"color:black;font-family:標楷體;\">的病人平均</span><span style=\"color:black;\">anagrelide C<sub>max</sub></span><span style=\"color:black;font-family:標楷體;\">為健康受試者的兩倍，總暴露量</span><span style=\"color:black;\">(AUC)</span><span style=\"color:black;font-family:標楷體;\">則增為</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">倍。此外，相較於健康受試者，中度肝功能不全的病人平均</span><span style=\"color:black;\">3-hydroxy anagrelide C<sub>max</sub></span><span style=\"color:black;font-family:標楷體;\">低了</span><span style=\"color:black;\">24%</span><span style=\"color:black;font-family:標楷體;\">，而平均</span><span style=\"color:black;\">3-hydroxy anagrelide AUC</span><span style=\"color:black;font-family:標楷體;\">高了</span><span style=\"color:black;\">77%</span><span style=\"color:black;font-family:標楷體;\">。</span></p>",
+          "search_text": "11.1\n特定族群\n兒科病人 相較於成年病人(介於19至57歲)，孩童和青春期(介於7至16歲)的原發性血小板增多症病人之anagrelide劑量標準化Cmax和AUC較高，分別高出17%及56%。 老年病人 相較於年輕成年病人(介於22至50歲)，老年病人(介於65至75歲)的anagrelide Cmax和AUC分別高出36%及61%，但在老年病人活性代謝物3-hydroxy anagrelide的Cmax和AUC卻分別低了42%及37%。 腎功能不全 單一劑量1毫克anagrelide的藥動學結果顯示，用於重度腎功能不全(肌酸酐清除率<30 mL/min)的病人對anagrelide的藥動學無顯著影響。 肝功能不全 單一劑量1毫克anagrelide的藥動學結果顯示，中度肝功能不全(Child Pugh score 7-9)的病人平均anagrelide Cmax為健康受試者的兩倍，總暴露量(AUC)則增為8倍。此外，相較於健康受試者，中度肝功能不全的病人平均3-hydroxy anagrelide Cmax低了24%，而平均3-hydroxy anagrelide AUC高了77%。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "用於成年病人的臨床試驗： 在三項臨床試驗中，共942位骨髓增生腫瘤病人接受AGRYLIN治療，其中551位為原發性血小板增多症(ET)，117位為真性紅血球過多症(PV)，178為慢性骨髓性白血病(CML)，96位為其他種類的骨髓增生性腫瘤(OMPN)，OMPN當中有87位是骨髓組織變形伴隨骨髓纖維化(MMM)，9位是無法分類的骨髓增生性腫瘤。 病人的血小板數目必須至少有二次達到 900,000/μL 以上或者達650,000/μL以上者並有確實證據可以證實是因血小板異常增殖造成的血小板增多症，始可參加本臨床試驗。ET、PV、CML、OMPN 病人平均接受AGRYLIN治療的時間分別為65、67、40及44週，大約有23%病人接受長達2年的治療。AGRYLIN的起始劑量為0.5-2.0毫克，每隔6小時給藥一次，如果血小板數目仍居高不下，則可增加劑量，但每日不得超過12毫克。有效的定義是指血小板數目降到接近生理水平(150,000-400,000/μL)。「反應者」的定義條件為：受試者血小板數目下降到£600,000/μL或比治療前減少至少50%，且持續至少4週。病人接受治療的時間不足4週者皆不列入評估。結果以圖表示如下： 骨髓增生異常造成之血小板增多症的病人：\n結果表示如下： 治療時間 週 年 基期 4 12 24 48 2 3 4 平均* 1131 683 575 526 484 460 437 457 人數 923† 868 814 662 530 407 207 55 *x 103/μL †此三項臨床試驗共收錄942位罹患骨髓增生性腫瘤的病人，其中923位病人在研究期間均接受血小板數目檢測。 AGRYLIN對於靜脈放血病人及同時接受其他療法(包括：hydroxyurea、aspirin、 interferon、radioactive phosphorus及alkylating agent)治療的病人仍然有效。 用於兒科病人的臨床試驗： 一項開放的安全性及藥動學/藥效學臨床試驗中，共收錄18位7至16歲因ET而續發血小板增多症的兒科病人(8位7至11歲孩童、10位12至16歲青少年，平均12歲；8位男孩、10位女孩)，並與17位成年病人(平均年齡66歲；9男8女)比較。在參與本試驗前，18位兒科病人中有17位已接受AGRYLIN治療平均2年，17位成年病人中則有12位如此。依照年齡將這些在進入試驗前曾服用AGRYLIN的兒科及成年ET病人按照年齡分為三組(7至11歲組、12至16歲組及成人組)，以回溯性回顧病歷的方式查看劑量，加入試驗前三組病人起始的每日劑量中位數都是1毫克。其他6位在加入試驗時未曾接受AGRYLIN治療的病人，初始劑量為每日0.5毫克。試驗結束時，各年齡組病人的日維持劑量中位數相當，分別為7至11歲孩童組的1.75毫克，12至16歲青少年組的2.25毫克，及成人組的1.5毫克。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i>用於成年病人的臨床試驗：</i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在三項臨床試驗中，共</span><span style=\"color:black;\">942</span><span style=\"color:black;font-family:標楷體;\">位骨髓增生腫瘤病人接受</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">治療，其中</span><span style=\"color:black;\">551</span><span style=\"color:black;font-family:標楷體;\">位為原發性血小板增多症</span><span style=\"color:black;\">(ET)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">117</span><span style=\"color:black;font-family:標楷體;\">位為真性紅血球過多症</span><span style=\"color:black;\">(PV)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">178</span><span style=\"color:black;font-family:標楷體;\">為慢性骨髓性白血病</span><span style=\"color:black;\">(CML)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">96</span><span style=\"color:black;font-family:標楷體;\">位為其他種類的骨髓增生性腫瘤</span><span style=\"color:black;\">(OMPN)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">OMPN</span><span style=\"color:black;font-family:標楷體;\">當中有</span><span style=\"color:black;\">87</span><span style=\"color:black;font-family:標楷體;\">位是骨髓組織變形伴隨骨髓纖維化</span><span style=\"color:black;\">(MMM)</span><span style=\"color:black;font-family:標楷體;\">，</span><span style=\"color:black;\">9</span><span style=\"color:black;font-family:標楷體;\">位是無法分類的骨髓增生性腫瘤。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">病人的血小板數目必須至少有二次達到</span><span style=\"color:black;\"> 900,000/μL&nbsp;</span><span style=\"color:black;font-family:標楷體;\">以上或者達</span><span style=\"color:black;\">650,000/μL</span><span style=\"color:black;font-family:標楷體;\">以上者並有確實證據可以證實是因血小板異常增殖造成的血小板增多症，始可參加本臨床試驗。</span><span style=\"color:black;\">ET</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">PV</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">CML</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">OMPN&nbsp;</span><span style=\"color:black;font-family:標楷體;\">病人平均接受</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">治療的時間分別為</span><span style=\"color:black;\">65</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">67</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">40</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">44</span><span style=\"color:black;font-family:標楷體;\">週，大約有</span><span style=\"color:black;\">23%</span><span style=\"color:black;font-family:標楷體;\">病人接受長達</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">年的治療。</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">的起始劑量為</span><span style=\"color:black;\">0.5-2.0</span><span style=\"color:black;font-family:標楷體;\">毫克，每隔</span><span style=\"color:black;\">6</span><span style=\"color:black;font-family:標楷體;\">小時給藥一次，如果血小板數目仍居高不下，則可增加劑量，但每日不得超過</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">毫克。有效的定義是指血小板數目降到接近生理水平</span><span style=\"color:black;\">(150,000-400,000/μL)</span><span style=\"color:black;font-family:標楷體;\">。「反應者」的定義條件為：受試者血小板數目下降到</span><span style=\"color:black;\">£600,000/μL</span><span style=\"color:black;font-family:標楷體;\">或比治療前減少至少</span><span style=\"color:black;\">50%</span><span style=\"color:black;font-family:標楷體;\">，且持續至少</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週。病人接受治療的時間不足</span><span style=\"color:black;\">4</span><span style=\"color:black;font-family:標楷體;\">週者皆不列入評估。結果以圖表示如下：</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>骨髓增生異常造成之血小板增多症的病人：</strong></span></p>\n<p>結果表示如下：</p><figure class=\"table\"><table><tbody><tr><td style=\"border-bottom-style:none;border-left:1.0pt solid windowtext;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:265.8pt;\" colspan=\"8\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong><u>治療時間</u></strong></span></p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right:1.0pt solid windowtext;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:none;border-left:1.0pt solid windowtext;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:132.8pt;\" colspan=\"4\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong><u>週</u></strong></span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:99.75pt;\" colspan=\"3\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong><u>年</u></strong></span></p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:none;border-left:1.0pt solid windowtext;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:justify;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\"><strong>基期</strong></span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>4</strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.2pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>12</strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.2pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>24</strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>48</strong></span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>2</strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>3</strong></span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\"><strong>4</strong></span></p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom-style:none;border-left:1.0pt solid windowtext;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.2pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">平均</span><span style=\"color:black;\">*</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">1131</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">683</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.2pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">575</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.2pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">526</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">484</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">460</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">437</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">457</span></p></td><td style=\"border-bottom-style:none;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left:1.0pt solid windowtext;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:66.2pt;\" colspan=\"2\"><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">人數</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.1pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">923</span><sup>†</sup></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.15pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">868</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.2pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">814</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.2pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">662</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">530</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">407</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">207</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\"><span style=\"color:black;\">55</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:33.25pt;\"><p style=\"text-align:center;\">&nbsp;</p></td></tr></tbody></table></figure><p><span style=\"color:black;\">*x 10<sup>3</sup>/μL</span></p><p style=\"text-align:justify;\"><sup>†</sup><span style=\"color:black;font-family:標楷體;\">此三項臨床試驗共收錄</span><span style=\"color:black;\">942</span><span style=\"color:black;font-family:標楷體;\">位罹患骨髓增生性腫瘤的病人，其中</span><span style=\"color:black;\">923</span><span style=\"color:black;font-family:標楷體;\">位病人在研究期間均接受血小板數目檢測。</span></p><p style=\"margin-left:11.0pt;text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">對於靜脈放血病人及同時接受其他療法</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">包括：</span><span style=\"color:black;\">hydroxyurea</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">aspirin</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\"> interferon</span><span style=\"color:black;font-family:標楷體;\">、</span><span style=\"color:black;\">radioactive phosphorus</span><span style=\"color:black;font-family:標楷體;\">及</span><span style=\"color:black;\">alkylating agent)</span><span style=\"color:black;font-family:標楷體;\">治療的病人仍然有效。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><i>用於兒科病人的臨床試驗：</i></span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">一項開放的安全性及藥動學</span><span style=\"color:black;\">/</span><span style=\"color:black;font-family:標楷體;\">藥效學臨床試驗中，共收錄</span><span style=\"color:black;\">18</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">歲因</span><span style=\"color:black;\">ET</span><span style=\"color:black;font-family:標楷體;\">而續發血小板增多症的兒科病人</span><span style=\"color:black;\">(8</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">11</span><span style=\"color:black;font-family:標楷體;\">歲孩童、</span><span style=\"color:black;\">10</span><span style=\"color:black;font-family:標楷體;\">位</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">歲青少年，平均</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">歲；</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">位男孩、</span><span style=\"color:black;\">10</span><span style=\"color:black;font-family:標楷體;\">位女孩</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，並與</span><span style=\"color:black;\">17</span><span style=\"color:black;font-family:標楷體;\">位成年病人</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">平均年齡</span><span style=\"color:black;\">66</span><span style=\"color:black;font-family:標楷體;\">歲；</span><span style=\"color:black;\">9</span><span style=\"color:black;font-family:標楷體;\">男</span><span style=\"color:black;\">8</span><span style=\"color:black;font-family:標楷體;\">女</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">比較。在參與本試驗前，</span><span style=\"color:black;\">18</span><span style=\"color:black;font-family:標楷體;\">位兒科病人中有</span><span style=\"color:black;\">17</span><span style=\"color:black;font-family:標楷體;\">位已接受</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">治療平均</span><span style=\"color:black;\">2</span><span style=\"color:black;font-family:標楷體;\">年，</span><span style=\"color:black;\">17</span><span style=\"color:black;font-family:標楷體;\">位成年病人中則有</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">位如此。依照年齡將這些在進入試驗前曾服用</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">的兒科及成年</span><span style=\"color:black;\">ET</span><span style=\"color:black;font-family:標楷體;\">病人按照年齡分為三組</span><span style=\"color:black;\">(7</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">11</span><span style=\"color:black;font-family:標楷體;\">歲組、</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">歲組及成人組</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，以回溯性回顧病歷的方式查看劑量，加入試驗前三組病人起始的每日劑量中位數都是</span><span style=\"color:black;\">1</span><span style=\"color:black;font-family:標楷體;\">毫克。其他</span><span style=\"color:black;\">6</span><span style=\"color:black;font-family:標楷體;\">位在加入試驗時未曾接受</span><span style=\"color:black;\">AGRYLIN</span><span style=\"color:black;font-family:標楷體;\">治療的病人，初始劑量為每日</span><span style=\"color:black;\">0.5</span><span style=\"color:black;font-family:標楷體;\">毫克。試驗結束時，各年齡組病人的日維持劑量中位數相當，分別為</span><span style=\"color:black;\">7</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">11</span><span style=\"color:black;font-family:標楷體;\">歲孩童組的</span><span style=\"color:black;\">1.75</span><span style=\"color:black;font-family:標楷體;\">毫克，</span><span style=\"color:black;\">12</span><span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">16</span><span style=\"color:black;font-family:標楷體;\">歲青少年組的</span><span style=\"color:black;\">2.25</span><span style=\"color:black;font-family:標楷體;\">毫克，及成人組的</span><span style=\"color:black;\">1.5</span><span style=\"color:black;font-family:標楷體;\">毫克。</span></p>",
+          "search_text": "12\n臨床試驗資料\n用於成年病人的臨床試驗： 在三項臨床試驗中，共942位骨髓增生腫瘤病人接受AGRYLIN治療，其中551位為原發性血小板增多症(ET)，117位為真性紅血球過多症(PV)，178為慢性骨髓性白血病(CML)，96位為其他種類的骨髓增生性腫瘤(OMPN)，OMPN當中有87位是骨髓組織變形伴隨骨髓纖維化(MMM)，9位是無法分類的骨髓增生性腫瘤。 病人的血小板數目必須至少有二次達到 900,000/μL 以上或者達650,000/μL以上者並有確實證據可以證實是因血小板異常增殖造成的血小板增多症，始可參加本臨床試驗。ET、PV、CML、OMPN 病人平均接受AGRYLIN治療的時間分別為65、67、40及44週，大約有23%病人接受長達2年的治療。AGRYLIN的起始劑量為0.5-2.0毫克，每隔6小時給藥一次，如果血小板數目仍居高不下，則可增加劑量，但每日不得超過12毫克。有效的定義是指血小板數目降到接近生理水平(150,000-400,000/μL)。「反應者」的定義條件為：受試者血小板數目下降到£600,000/μL或比治療前減少至少50%，且持續至少4週。病人接受治療的時間不足4週者皆不列入評估。結果以圖表示如下： 骨髓增生異常造成之血小板增多症的病人：\n結果表示如下： 治療時間 週 年 基期 4 12 24 48 2 3 4 平均* 1131 683 575 526 484 460 437 457 人數 923† 868 814 662 530 407 207 55 *x 103/μL †此三項臨床試驗共收錄942位罹患骨髓增生性腫瘤的病人，其中923位病人在研究期間均接受血小板數目檢測。 AGRYLIN對於靜脈放血病人及同時接受其他療法(包括：hydroxyurea、aspirin、 interferon、radioactive phosphorus及alkylating agent)治療的病人仍然有效。 用於兒科病人的臨床試驗： 一項開放的安全性及藥動學/藥效學臨床試驗中，共收錄18位7至16歲因ET而續發血小板增多症的兒科病人(8位7至11歲孩童、10位12至16歲青少年，平均12歲；8位男孩、10位女孩)，並與17位成年病人(平均年齡66歲；9男8女)比較。在參與本試驗前，18位兒科病人中有17位已接受AGRYLIN治療平均2年，17位成年病人中則有12位如此。依照年齡將這些在進入試驗前曾服用AGRYLIN的兒科及成年ET病人按照年齡分為三組(7至11歲組、12至16歲組及成人組)，以回溯性回顧病歷的方式查看劑量，加入試驗前三組病人起始的每日劑量中位數都是1毫克。其他6位在加入試驗時未曾接受AGRYLIN治療的病人，初始劑量為每日0.5毫克。試驗結束時，各年齡組病人的日維持劑量中位數相當，分別為7至11歲孩童組的1.75毫克，12至16歲青少年組的2.25毫克，及成人組的1.5毫克。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 144296
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "2-1000顆/瓶",
+          "content_html": "<p><span style=\"color:black;\">2-</span>1000<span style=\"font-family:標楷體;\">顆</span>/<span style=\"font-family:標楷體;\">瓶</span></p>",
+          "search_text": "13.1\n包裝\n2-1000顆/瓶",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">如外包裝所示。</span></p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "儲存溫度25°C (77°F)，運送溫度15°C至30℃ (59°F至86°F) [參見 USP 控制室溫]，存放於避光容器內。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">儲存溫度</span><span style=\"color:black;\">25</span>°C<span style=\"color:black;\"> (77</span>°F<span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">，運送溫度</span><span style=\"color:black;\">15</span>°C<span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">30℃ (59</span>°F<span style=\"color:black;font-family:標楷體;\">至</span><span style=\"color:black;\">86</span>°F<span style=\"color:black;\">) [</span><span style=\"color:black;font-family:標楷體;\">參見</span><span style=\"color:black;\"> USP&nbsp;</span><span style=\"color:black;font-family:標楷體;\">控制室溫</span><span style=\"color:black;\">]</span><span style=\"color:black;font-family:標楷體;\">，存放於避光容器內。</span></p>",
+          "search_text": "13.3\n儲存條件\n儲存溫度25°C (77°F)，運送溫度15°C至30℃ (59°F至86°F) [參見 USP 控制室溫]，存放於避光容器內。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "劑量：告知病人將以週為單位調整其劑量，直到血小板數目降低到適當水準的劑量。這也將會幫助病人適應常見的不良反應。告訴病人若出現耐受性方面的問題，應與醫生聯繫以調整劑量或給藥頻率(請見用法及用量)。 心血管效應：告知病人，若出現胸痛、心悸，甚至感覺自己心跳不規則，須立即聯繫醫生(請見警語及注意事項)。 肺高壓風險：告知病人，若出現呼吸急促、雙腿或踝腫大、嘴唇及皮膚呈藍色，須立即聯繫醫生(請見警語及注意事項)。 出血風險：警告病人同時使用aspirin (或其他影響血液凝結的藥物)可能會增加出血的風險。告訴病人若發生出血的徵象或症狀(如：吐血、血便或解黑便)或出現不明原因且比平時更常出現的瘀傷時，須立即聯繫醫生(請見警語及注意事項、交互作用)。 哺乳期：告知病人在AGRYLIN治療期間及最後一次服藥一週內不要哺乳(請見特殊族群注意事項)。 不孕：告知具潛在生殖力之女性AGRYLIN治療可能損害生育(請見特殊族群注意事項、臨床前安全性資料)。 血栓風險：告知病人在使用含anagrelide hydrochloride成分藥品期間或停藥後出現任何可能為血栓相關併發症(包含腦梗塞)之徵象或症狀(如：不明原因的頭痛、頭暈、說話含糊不清、眼歪嘴斜、單側虛弱無力、感覺異常、步態不穩、視覺障礙、意識不清等)，請立即聯繫醫生。",
+          "content_html": "<ul style=\"list-style-type:disc;\"><li><strong>劑量：</strong>告知病人將以週為單位調整其劑量，直到血小板數目降低到適當水準的劑量。這也將會幫助病人適應常見的不良反應。告訴病人若出現耐受性方面的問題，應與醫生聯繫以調整劑量或給藥頻率(請見用法及用量)。<br>&nbsp;</li><li><strong>心血管效應：</strong>告知病人，若出現胸痛、心悸，甚至感覺自己心跳不規則，須立即聯繫醫生(請見警語及注意事項)。<br>&nbsp;</li><li><strong>肺高壓風險：</strong>告知病人，若出現呼吸急促、雙腿或踝腫大、嘴唇及皮膚呈藍色，須立即聯繫醫生(請見警語及注意事項)。<br>&nbsp;</li><li><strong>出血風險：</strong>警告病人同時使用aspirin (或其他影響血液凝結的藥物)可能會增加出血的風險。告訴病人若發生出血的徵象或症狀(如：吐血、血便或解黑便)或出現不明原因且比平時更常出現的瘀傷時，須立即聯繫醫生(請見警語及注意事項、交互作用)。<br>&nbsp;</li><li><strong>哺乳期：</strong>告知病人在AGRYLIN治療期間及最後一次服藥一週內不要哺乳(請見特殊族群注意事項)。<br>&nbsp;</li><li><strong>不孕：</strong>告知具潛在生殖力之女性AGRYLIN治療可能損害生育(請見特殊族群注意事項、臨床前安全性資料)。<br>&nbsp;</li><li><strong>血栓風險：</strong>告知病人在使用含anagrelide hydrochloride成分藥品期間或停藥後出現任何可能為血栓相關併發症(包含腦梗塞)之徵象或症狀(如：不明原因的頭痛、頭暈、說話含糊不清、眼歪嘴斜、單側虛弱無力、感覺異常、步態不穩、視覺障礙、意識不清等)，請立即聯繫醫生。<br>&nbsp;</li></ul>",
+          "search_text": "14\n病人使用須知\n劑量：告知病人將以週為單位調整其劑量，直到血小板數目降低到適當水準的劑量。這也將會幫助病人適應常見的不良反應。告訴病人若出現耐受性方面的問題，應與醫生聯繫以調整劑量或給藥頻率(請見用法及用量)。 心血管效應：告知病人，若出現胸痛、心悸，甚至感覺自己心跳不規則，須立即聯繫醫生(請見警語及注意事項)。 肺高壓風險：告知病人，若出現呼吸急促、雙腿或踝腫大、嘴唇及皮膚呈藍色，須立即聯繫醫生(請見警語及注意事項)。 出血風險：警告病人同時使用aspirin (或其他影響血液凝結的藥物)可能會增加出血的風險。告訴病人若發生出血的徵象或症狀(如：吐血、血便或解黑便)或出現不明原因且比平時更常出現的瘀傷時，須立即聯繫醫生(請見警語及注意事項、交互作用)。 哺乳期：告知病人在AGRYLIN治療期間及最後一次服藥一週內不要哺乳(請見特殊族群注意事項)。 不孕：告知具潛在生殖力之女性AGRYLIN治療可能損害生育(請見特殊族群注意事項、臨床前安全性資料)。 血栓風險：告知病人在使用含anagrelide hydrochloride成分藥品期間或停藥後出現任何可能為血栓相關併發症(包含腦梗塞)之徵象或症狀(如：不明原因的頭痛、頭暈、說話含糊不清、眼歪嘴斜、單側虛弱無力、感覺異常、步態不穩、視覺障礙、意識不清等)，請立即聯繫醫生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "電話：0800-008-999 版本：US202110TW02",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">電話：</span><span style=\"color:black;\">0800-008-999</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">版本：</span><span style=\"color:black;\">US202110TW02</span></p>",
+          "search_text": "15\n其他\n電話：0800-008-999 版本：US202110TW02",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每1顆膠囊含0.5毫克anagrelide，相當於0.61毫克anagrelide hydrochloride。\n1.2\n賦形劑\n膠囊同時含非活性成分anhydrous lactose、crospovidone、lactose monohydrate、magnesium stearate、 microcrystalline cellulose、povidone、purified water。膠囊殼含gelatin、titanium dioxide、black ink。\n1.3\n劑型\n膠囊。\n1.4\n藥品外觀\n白色、不透明膠囊，印有黑色「S 063」。(其中S為符號，如下圖所示)\n2\n適應症\n原發性血小板過多症(請見臨床試驗資料、用法及用量)。\n3\n用法及用量\n3.1\n用法用量\n建議起始劑量 成人：AGRYLIN的建議起始劑量為每日1毫克，1顆0.5毫克每天2次，或2顆0.5毫克每天1次。 孩童：AGRYLIN的建議起始劑量為每日0.5毫克。 根據血小板數目調整劑量 先以起始劑量持續治療至少一週，接著將劑量調整到使血小板數目降低並維持在600,000/μL以下，以150,000/µL至400,000/µL之間最為理想。增加劑量時，一週內增加量不可超過0.5毫克/天，每天總劑量不可超過10毫克，單次劑量不可超過2.5毫克(請見警語及注意事項)。大部分病人在1.5至3毫克/天的劑量下可達到適當的反應。調整劑量期間，應每週監測血小板數目，之後每個月一次或視需要監測。 臨床監測 使用AGRYLIN治療需要臨床監測，包括全血計數、肝腎功能的評估和電解質。 為了防止血小板減少症的發生，治療第一週須每隔兩天監測血小板數目，之後至少每週一次，直到達到維持劑量。通常在適當劑量下，血小板計數會在7至14天開始下降。在臨床試驗中，達到完全反應(定義為血小板數目≤ 600,000/µL)的時間是在4至12 週。當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基線水準，甚至可能反彈到基線水準以上。應時常監測血小板數目。 血栓風險 應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n用於肝功能不全的劑量調整 中度肝功能不全(Child Pugh score 7-9)病人建議以每日0.5毫克的劑量開始治療，並密切監測心血管功能(請見警語及注意事項、特殊族群注意事項和藥理特性)。中度肝功能不全病人能忍受AGRYLIN治療一週以上時，可考慮調高其劑量。當要增加劑量時，一週內的增加量不可超過0.5毫克/天。避免將AGRYLIN用於嚴重肝功能不全病人。\n4\n禁忌\n無。\n5\n警語及注意事項\n5.1\n警語/注意事項\n心血管毒性 曾有使用AGRYLIN發生尖端扭轉型心搏過速(torsades de pointes)和心室性心搏過速。所有病人於治療前應先接受含心電圖在內的心血管檢查。AGRYLIN治療期間應視需要監測及評估對病人的心血管效應。 AGRYLIN會造成健康受試者心電圖上QTc間隔明顯增加，並使心跳速率增加(請見藥理特性)。 勿將AGRYLIN用於已知有QT間隔延長的危險因子之病人，如先天性QT延長症候群、已知有後天性QTc延長病史、服用會使QTc延長的藥物及低血鉀症(請見交互作用)。 肝臟受損會使anagrelide的暴露量增加而可能增加QTc延長的風險。對於肝功能不全的病人須監測QTc延長及其他心血管不良反應。在輕至中度肝功能不全病人接受AGRYLIN治療之前，應先評估其潛在風險與效益。AGRYLIN用於中度肝功能不全病人時，應降低劑量。AGRYLIN避免用於嚴重肝功能不全病人。 對於心衰竭、心搏徐緩或電解質異常的病人，須考慮定期監測心電圖(請見藥理特性)。 AGRYLIN是磷酸二酯酶3 (phosphodiesterase 3，PDE3)抑制劑，可能導致血管舒張、心搏過速、心悸和充血性心衰竭。相較於使用安慰劑的Class III-IV充血性心衰竭的病人，使用其他抑制PDE3的藥物者會減少其存活率(請見交互作用)。 對於有心臟疾病的人，只有利大於弊時方可使用AGRYLIN。 肺高壓 曾有使用AGRYLIN的病人發生肺高壓的案例報導。在AGRYLIN治療開始前及治療期間須評估病人潛在心肺疾病的徵象與症狀(請見副作用/不良反應)。 出血風險 在上市後研究中，AGRYLIN與aspirin併用使大出血事件增加。由於可能增加出血的風險，須評估AGRYLIN與aspirin併用的潛在風險及效益。監測病人出血的狀況，包括同時服用其他已知會造成出血的藥物之病人(如：抗凝血劑、PDE3 抑制劑、非類固醇消炎止痛藥、抗血小板藥物、選擇性血清素再回收抑制劑) (請見交互作用、藥理特性)。 肺毒性 上市後的報告曾有使用AGRYLIN發生間質性肺病(包含過敏性肺泡炎、嗜酸性肺炎和間質性肺炎)的報告。大部分案例都呈現逐漸惡化的呼吸困難伴隨肺浸潤。發生時間由使用AGRYLIN後一星期至數年。若懷疑為AGRYLIN引起，應停藥並進行評估。停止使用anagrelide後症狀可能會改善(請見副作用/不良反應)。 血栓風險 應避免突然停止治療而造成血小板數量驟然上升之風險，可能會導致潛在的致命性血栓性併發症，例如腦梗塞。應告知病人如何辨識疑似血栓性併發症(包含腦梗塞)的早期徵兆和症狀，若病人發生症狀應尋求醫療協助。 停止治療/臨床監測 當劑量中斷或停止治療時，血小板數目反彈的情況變化無常，但血小板數目通常會在4天內開始上升，在一到兩個星期內回到基值，甚至可能反彈到基值以上。應時常監測血小板數目。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n風險摘要 可用數據來自AGRYLIN用於孕婦的案例報告並未證實有重大先天缺陷、流產或母體或胎兒不良結果的藥物相關風險。在動物胚胎胎兒研究中，在器官形成期根據體表面積(請見資料)。對大鼠投予約97倍臨床最高劑量(10 毫克/天)之anagrelide hydrochloride，觀察到延遲胎兒發育(骨骼骨化作用延遲及體重減輕) 的現象。血小板過多症與妊娠中母體和胎兒的不良影響有關(請見臨床考慮因素)。 重大先天缺陷和流產在特定族群的估計背景風險尚不清楚。所有妊娠都有先天缺陷、流產或其他不良結果的背景風險。在美國一般族群中，臨床認可妊娠的重大先天缺陷和流產的估計背景風險分別為2至4%和15至20%。 臨床考慮因素 疾病相關的母體及/或胚胎/胎兒風險 血栓事件如中風、深靜脈栓塞或心肌梗塞可能是血小板增多症的併發症。 妊娠期血小板過多症與流產、死胎及其他孕婦結果(如子癇前症)的風險增加有關。 資料 動物資料 在器官形成期對懷孕大鼠經口投予900mg/kg/day的劑量或對懷孕兔子以口服投予20mg/kg/day的劑量之anagrelide hydrochloride (以體表面積計算分別為最高臨床建議劑量的 875及39倍)，在大鼠觀察到發育遲緩的現象，包括在300及900mg/kg/day的劑量下胎兒體重減輕，及在100mg/kg/day以上的劑量下骨骼骨化作用延遲。大鼠100 mg/kg/day (600mg/m2/day)的劑量約當於以體表面積計算最高臨床建議劑量之97倍。 在最高20mg/kg/day的劑量(以體表面積計算為最高臨床建議劑量的39倍)下，並未發現對兔子的胚胎或胎兒具有不良效應。 以雌大鼠進行的產前與產後研究中，在器官形成期至哺乳期以口服投予anagrelide hydrochloride 60mg/kg/day (以體表面積計算分別為最高臨床建議劑量的58倍)以上的劑量會延緩或阻斷分娩，造成未分娩的母鼠及已發育完全的胎兒死亡，使出生不久的幼鼠之死亡率增加。 在胎盤轉移研究中，為懷孕第17天的大鼠經口投予單次劑量的[14C]-anagrelide hydrochloride (3mg/kg)，在母體和胎兒組織中都檢測到與藥物有關的放射活性。\n6.2\n哺乳\n風險摘要 目前尚無資料關於anagrelide是否存在人類乳汁中、是否影響哺乳嬰兒或乳汁分泌。在授乳的雌大鼠曾偵測到乳汁中含有anagrelide或其代謝物(請見資料)。由於哺乳中嬰兒可能有潛在嚴重不良反應如血小板低下，請告知病人在接受AGRYLIN治療期間及最後一次服藥一週內不建議哺乳。 資料 在大鼠乳汁分泌研究中，在產後第10天對授乳的雌大鼠經口投予單次劑量[14C]- anagrelide hydrochloride (3 mg/kg)，在母體乳汁及血液中都檢測到與藥物有關的放射活性。\n6.3\n有生育能力的女性與男性\n不孕 女性 根據動物研究之發現，AGRYLIN可能損害女性生殖能力(請見臨床前安全性資料)。\n6.4\n小兒\nAGRYLIN的安全及有效性已確立於7歲以上兒科病人。目前無7歲以下兒科病人的資料。支持AGRYLIN用於這群兒科病人的證據包含AGRYLIN在成人適當且控制良好研究的附加藥動學和藥效學，以及對象為18位7至16歲因ET導致血小板過多的兒科病人的安全性資料(請見用法及用量、藥理特性和臨床試驗資料)。 相較於成年病人，兒科病人發生不良反應的類型並無明顯趨勢或差異。\n6.5\n老年人\n參與 AGRYLIN臨床試驗的942人當中，有42.1%年齡在65歲以上，14.9%在75歲以上。整體而言，在這些受試者所觀察到的安全性及有效性和年輕族群相比並無差異，其他臨床經驗臨床試驗報告也顯示用於年長及年輕的病人在反應上無明顯差異，但不能排除有些較高齡個案對此藥物的敏感性較高之可能。\n6.6\n肝功能不全\n經肝臟代謝是清除anagrelide的主要途徑。中度肝功能不全的病人之anagrelide暴露量增為8倍(請見藥理特性)且須降低劑量(請見用法及用量)。未曾進行AGRYLIN用於嚴重肝功能不全病人的研究。避免AGRYLIN用於嚴重肝功能不全的病人。對於輕至中度肝功能不全的病人，在開始治療前應將AGRYLIN療法的潛在效益和風險列入評估。在AGRYLIN開始治療前及療程中應進行肝功能檢測(請見警語及注意事項)。\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n延長QT的藥物 避免AGRYLIN用於正在服用可能使QT延長的藥物之病人(包括但不限於chloroquine、clarithromycin、haloperidol、methadone、moxifloxacin、amiodarone、disopyramide、procainamide和pimozide) (請見警語及注意事項和藥理特性)。 PDE3抑制劑 AGRYLIN是磷酸二酯酶3 (PDE3)抑制劑，避免同時使用其他有相同作用的藥品(如：心血管肌力作用劑)和其他PDE3抑制劑(如：cilostazol、milrinone、enoximone、aminone、olprinone等) (請見警語及注意事項和藥理特性)。 Aspirin和增加出血風險的藥物 同時單次或重複併用AGRYLIN和aspirin比單獨使用aspirin更容易造成體外抗血小板聚集作用(請見藥理特性)。以原發性血小板增多症病人為對象的觀察研究結果顯示，使用AGRYLIN治療的病人之重大出血事件(major hemorrhagic events，MHEs)的發生率高於使用其他消減腫瘤細胞療法(cytoreductive treatment)的病人。大多數的發生重大出血事件發生於同時接受其他抗凝集藥物治療(主要是aspirin)的病人。因此，在開始治療之前應將同時使用AGRYLIN和aspirin的潛在風險列入評估，特別是針對出血風險高的病人(請見警語及注意事項)。 應針對病人的出血狀況進行監測，尤其是同時使用已知會導致出血的其他藥物(如抗凝血劑、PDE3抑制劑、NSAIDs、抗血小板藥物、選擇性血清素再回收抑制劑)治療的病人。 CYP450交互作用 CYP1A2抑制劑：AGRYLIN及其活性代謝物主要經由CYP1A2代謝。抑制CYP1A2的藥物(如：fluvoxamine、ciprofloxacin)可以使AGRYLIN的暴露量增加。同時使用多種CYP1A2抑制劑時，應監測病人的心血管事件並據以調節劑量。 CYP1A2誘導劑：CYP1A2誘導劑可以減少AGRYLIN的暴露量。對於同時服用CYP1A2誘導劑(如：omeprazole)的病人，可能需要調整其劑量以彌補AGRYLIN暴露量的不足。 CYP1A2受質： 研究證明AGRYLIN在活體外(in vitro)對CYP1A2具有限的抑制活性，同時使用時可能會改變CYP1A2受質(如：theophylline、fluvoxamine、ondansetron)的暴露量。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n以下具臨床意義之不良反應會在仿單的其他段落中進行更詳細的討論： 心血管毒性(請見警語及注意事項) 肺高壓(請見警語及注意事項) 出血風險(請見警語及注意事項) 肺毒性(請見警語及注意事項)\n8.2\n臨床試驗經驗\n由於臨床試驗是在各種差異頗大的條件下進行的，在臨床試驗中觀察到一藥物的不良反應發生率無法直接與另一藥物的臨床試驗數據相比，而且可能無法反映臨床實務上觀察到的發生率。 用於成年病人的臨床研究 在採單一治療組設計的三個臨床試驗中，942位(請見臨床試驗資料)因各種病因而被診斷為骨髓異常增生症病人(ET: 551，PV: 117，OMPN: 274)接受AGRYLIN治療，平均暴露於藥物約65週。這些病人發生的嚴重不良反應包括：充血性心臟衰竭、心肌梗塞、心肌疾病、心臟肥大、完全房室傳導阻斷、心房纖維顫動、腦血管意外、心包滲出(請見警語及注意事項)、胸腔積液、肺浸潤、肺纖維化、肺高壓和胰腺炎。在942位接受AGRYLIN治療的病人中，有161位(17%)因不良反應或實驗室檢驗結果異常而停藥。造成停藥的不良反應中，最常見的是頭痛、腹瀉、水腫、心悸、腹痛。 在臨床試驗中，使用 AGRYLIN最常發生的不良反應列於表1 (在942位骨髓異常增生病人中，發生率5%以上者)。 表1 在AGRYLIN臨床研究中至少 5% 的病人報告之不良反應 不良反應 AGRYLIN (N=942) (%) 心臟疾病 心悸 26% 心搏過速 8% 胸痛 8% 一般疾病與給藥部位問題 虛弱 23% 水腫 21% 疼痛 15% 發燒 9% 週邊水腫 9% 乏力 6% 胃腸疾病 腹瀉 26% 噁心 17% 腹痛 16% 嘔吐 10% 脹氣 10% 缺乏食慾 8% 消化不良 5% 呼吸、胸廓和縱膈疾病 呼吸困難 12% 咳嗽 6% 皮膚及皮下組織疾病 皮疹 8% 搔癢 6% 骨骼肌與結締組織疾病 背痛 6% 神經系統疾病 頭痛 44% 頭暈 15% 感覺異常 6% 不良反應 (發生率1至<5 %) 包括： 一般疾病與給藥部位問題：流行性感冒症狀、顫寒。 心臟疾病：心律不整、心絞痛、心臟衰竭、昏厥。 血管疾病：出血、高血壓、姿態性低血壓、血管擴張。 消化疾病：便秘、胃腸出血、胃炎。 血液及淋巴系統疾病 : 貧血、血小板減少、瘀斑。 肝臟疾病：肝酵素升高。 肌肉骨骼系統與結締組織疾病：關節痛、肌痛。 精神疾病：憂鬱、混亂、緊張不安。 神經系統疾病：嗜睡、失眠、健忘症、偏頭痛。 營養失調：脫水。 呼吸、胸廓和縱膈疾病：鼻出血、肺炎。 皮膚系統及皮下組織疾病：禿髮。 眼部疾病：視力異常、複視。 耳朵及內耳迷路疾病：耳鳴。 腎臟及泌尿疾病：血尿、腎衰竭。 其他較不常見不良反應 (發生率<1 %) 有： 心臟疾病：室性心搏過速、室上性心搏過速。 神經系統疾病：感覺減退。 用於兒科病人的臨床研究 在兒科病人中觀察到的不良反應發生頻率和成人病人相似。研究中觀察接受AGRYLIN治療3個月的兒科病人，最常見的不良反應是發燒、鼻出血、頭痛及疲勞，也觀察到脈搏增加和收縮壓或舒張壓下降至超出正常範圍但無臨床症狀的情形。其他不良反應報告在這些接受AGRYLIN治療的兒科病人有心悸、頭痛、噁心、嘔吐、腹痛、背痛、厭食、疲勞和肌肉痙攣。\n8.3\n上市後經驗\n在AGRYLIN上市後使用已有以下的不良反應報告。由於這些反應是由人數不明的群體所自願通報，並不總是能準確的估算發生率或確認與藥物暴露的因果關係。 心臟疾病：變異型心絞痛(Prinzmental angina)、尖端扭轉型心搏過速(Torsades de pointes) 呼吸、胸、縱膈疾病：間質性肺病(包括過敏性肺泡炎、嗜酸細胞性肺炎和間質性肺炎) (請見警語及注意事項) 腎及泌尿道疾病：腎小管間質腎炎 肝膽道疾病：具臨床意義的肝毒性(包括有症狀的ALT、AST高於三倍ULN) 神經系統疾病：腦梗塞。 自發報告和文獻回顧報告的其他兒科病人不良反應尚包括： 血液及淋巴系統疾病：貧血 皮膚及皮下組織疾病：皮膚光敏感性 檢查：白血球數增加\n9\n過量\nAGRYLIN在超過建議劑量時曾有造成低血壓的報告。AGRYLIN上市後曾有蓄意使用過量的案例，報告的症狀包括竇性心搏過速及嘔吐。經過支持性處置後症狀解除。AGRYLIN療法造成的血小板降低與劑量有關，因此，預期過量會引起血小板低下症而可能引發出血。 一旦服用過量時，停止使用AGRYLIN並且監測血小板的數目以察知血小板低下症，觀察可能的併發症如流血。一旦血小板數目回到正常範圍即可考慮恢復使用AGRYLIN。\n10\n藥理特性\n10.1\n作用機轉\nAGRYLIN (anagrelide hydrochloride)為一降血小板藥物。化學名為6,7-dichloro-1,5- dihydroimidazo [2,1-b]quinazolin-2(3H)-one monohydrochloride monohydrate，分子式為C10H7Cl2N3O．HCl．H2O，分子量310.55。結構式為：\nAnagrelide hydrochloride外觀為灰白色粉狀物，極微溶於水，略溶於dimethyl sulfoxide及dimethylformamide。 AGRYLIN為白色、不透明膠囊，供口服使用，含有0.5毫克anagrelide base (相當於0.61毫克anagrelide hydrochloride)。 目前仍不清楚anagrelide降低血小板數目的確實機轉。在細胞培養研究中，anagrelide能抑制GATA-1和FOG-1等巨核細胞形成(megakaryocytopoiesis)所需的轉錄因子之表現，最終導致血小板的生成減少。\n10.2\n藥效藥理特性\n從接受anagrelide治療的正常志願受試者抽出的血液中發現巨核細胞發育的後有絲分裂期中斷的情形，且巨核細胞體積變小及倍數性減少。治療劑量下，anagrelide不會使白血球數目或血液凝集參數產生明顯變化，而對於紅血球參數可能有些微但不具臨床意義的影響。其活性代謝物3-hydroxy anagrelide在減少血小板的作用上具有和anagrelide類似的強度和效果，然而，3-hydroxy anagrelide的暴露量(以血漿AUC計)約比anagrelide高出兩倍。Anagrelide和3-hydroxy anagrelide能抑制環腺苷單磷酸磷酸二酯酶3 (cyclic AMP phosphodiesterase 3)，其中3-hydroxy anagrelide的強度約為anagrelide的40倍(IC50s分別為0.9和36nM)。抑制PDE3不會改變血小板的生成。PDE3抑制劑是一類能抑制血小板凝集的藥物。然而，anagrelide只有在比一般減少血小板數所需劑量更高的劑量下才能觀察到顯著的抑制血小板凝集效果。PDE3抑制劑對心血管(CV)的影響包括使血管舒張、加強收縮力及加快心跳。 心臟電生理 一項雙盲、隨機、安慰劑和活性對照的交叉研究評估服用anagrelide (0.5毫克及2.5毫克單一劑量)對60位健康成年男性和女性的心跳速率和QTc間隔延長的可能性之影響。 研究當中觀察到心跳速率增加，劑量愈高愈明顯。藥物到達最高濃度時(0.5 – 4小時)增加最多。平均心跳變化最大發生在投藥2小時後，接受0.5毫克劑量者每分鐘增加7.8下(+7.8 bpm)，接受2.5毫克劑量者則為+29.1 bpm。 研究當中也觀察到平均QTc增加，劑量愈高愈明顯。相較於安慰劑，在投予0.5毫克及2.5毫克anagrelide後，經基期校正的平均QTcI (依個別受試者進行校正)最大平均變化(95%信心上限)分別為7.0 (9.8)毫秒及13.0 (15.7)毫秒。\n10.3\n臨床前安全性資料\n致癌性、致突變性、生育力損傷 為期兩年的大鼠致癌性研究發現，與對照組相比，投予30mg/kg/day (至少為人類在1毫克每天兩次劑量下的AUC暴露之174倍)的雌鼠之子宮腺癌發生率較高。雄鼠接受3 mg/kg/day以上的劑量及雌鼠接受10 mg/kg/day以上的劑量(分別至少為人類在1毫克每天兩次劑量下的AUC暴露之10及18倍)，腎上腺嗜鉻細胞瘤(phaeochromotomas)的發生率都比對照組高。 在細菌突變試驗(Ames)或小鼠淋巴瘤細胞(L5178Y，TK+/-)突變試驗中，anagrelide hydrochloride不具致突變性，在人類淋巴球進行離體染色體異常分析法或在活體小鼠微核試驗中也都不具致染色體斷裂性。 口服anagrelide至劑量最高達 240 mg/kg/day (以體表面積計算為人體最大建議劑量10毫克/天之233倍)對雄大鼠的生育力及生殖功能沒有影響。然而，在雌大鼠的生育研究中，口服30 mg/kg/day以上(以體表面積計算為人體最大建議劑量之29倍)的劑量會阻礙著床，並使存活的胚胎數減少。 動物毒性及/或藥理學 在為期兩年的大鼠研究中，在經anagrelide治療的雄性和雌性大鼠觀察到非腫瘤性病變顯著增加，包括腎上腺(髓質增生症)、心臟(心肌肥厚與腔室擴張)、腎(腎積水、腎小管擴張和尿路上皮增生)和骨(股骨內生骨疣)。在經anagrelide治療的雄性大鼠觀察到下列組織中有血管方面的作用：胰臟(動脈炎/動脈周圍炎、內膜增生和中間肥大)、腎(動脈炎/動脈周圍炎、內膜增生和中間肥大)、坐骨神經(血管礦化)和睾丸(生精小管萎縮和血管栓塞)。\n11\n藥物動力學特性\n在0.5毫克至2.5毫克的劑量範圍內呈現劑量比例性。 吸收 口服AGRYLIN之後，至少70%經由胃腸道吸收。空腹的受試者在服藥後約一小時內anagrelide可達血漿中最高濃度。 在健康志願受試者所得到的藥動學資料中，比較進食與空腹狀態下anagrelide的藥物動力學，發現1毫克的anagrelide與食物併服時最高血中濃度(Cmax)減少14%，但曲線下面積(AUC)增加了20%。食物也使其活性代謝物3-hydroxy anagrelide之Cmax下降29 %，但AUC不受影響。 排除 Anagrelide和3-hydroxy-anagrelide的血漿排除半衰期分別為1.5及2.5小時。服用臨床治療劑量時，anagrelide和3-hydroxy-anagrelide都不會蓄積在血漿中。 代謝 Anagrelide主要經由CYP1A2代謝為活性代謝物3-hydroxy anagrelide，接著經CYP1A2代謝為非活性代謝物RL603。給藥劑量中只有低於1%以anagrelide的形式出現在尿液中，3-hydroxy-anagrelide及RL603的形式則分別約占給藥劑量的3%和16-20%。 藥物交互作用 Aspirin：以健康志願者為對象的兩項藥效學交互作用研究顯示，同時併用單一劑量anagrelide 1毫克和aspirin 900毫克或重覆劑量每天各一次的anagrelide 1毫克和aspirin 75毫克，體外抗血小板凝集效果比單獨服用aspirin來得大。同時併用單一劑量anagrelide 1毫克和aspirin 900毫克對出血時間、前凝血酶凝血時間(PT)或活性局部凝血激素時間(aPTT)並無影響。 Digoxin或warfarin：人類活體交互作用研究顯示，anagrelide不會影響digoxin或warfarin的藥動學性質，digoxin或warfarin也不會影響anagrelide的藥動學性質。\n11.1\n特定族群\n兒科病人 相較於成年病人(介於19至57歲)，孩童和青春期(介於7至16歲)的原發性血小板增多症病人之anagrelide劑量標準化Cmax和AUC較高，分別高出17%及56%。 老年病人 相較於年輕成年病人(介於22至50歲)，老年病人(介於65至75歲)的anagrelide Cmax和AUC分別高出36%及61%，但在老年病人活性代謝物3-hydroxy anagrelide的Cmax和AUC卻分別低了42%及37%。 腎功能不全 單一劑量1毫克anagrelide的藥動學結果顯示，用於重度腎功能不全(肌酸酐清除率<30 mL/min)的病人對anagrelide的藥動學無顯著影響。 肝功能不全 單一劑量1毫克anagrelide的藥動學結果顯示，中度肝功能不全(Child Pugh score 7-9)的病人平均anagrelide Cmax為健康受試者的兩倍，總暴露量(AUC)則增為8倍。此外，相較於健康受試者，中度肝功能不全的病人平均3-hydroxy anagrelide Cmax低了24%，而平均3-hydroxy anagrelide AUC高了77%。\n12\n臨床試驗資料\n用於成年病人的臨床試驗： 在三項臨床試驗中，共942位骨髓增生腫瘤病人接受AGRYLIN治療，其中551位為原發性血小板增多症(ET)，117位為真性紅血球過多症(PV)，178為慢性骨髓性白血病(CML)，96位為其他種類的骨髓增生性腫瘤(OMPN)，OMPN當中有87位是骨髓組織變形伴隨骨髓纖維化(MMM)，9位是無法分類的骨髓增生性腫瘤。 病人的血小板數目必須至少有二次達到 900,000/μL 以上或者達650,000/μL以上者並有確實證據可以證實是因血小板異常增殖造成的血小板增多症，始可參加本臨床試驗。ET、PV、CML、OMPN 病人平均接受AGRYLIN治療的時間分別為65、67、40及44週，大約有23%病人接受長達2年的治療。AGRYLIN的起始劑量為0.5-2.0毫克，每隔6小時給藥一次，如果血小板數目仍居高不下，則可增加劑量，但每日不得超過12毫克。有效的定義是指血小板數目降到接近生理水平(150,000-400,000/μL)。「反應者」的定義條件為：受試者血小板數目下降到£600,000/μL或比治療前減少至少50%，且持續至少4週。病人接受治療的時間不足4週者皆不列入評估。結果以圖表示如下： 骨髓增生異常造成之血小板增多症的病人：\n結果表示如下： 治療時間 週 年 基期 4 12 24 48 2 3 4 平均* 1131 683 575 526 484 460 437 457 人數 923† 868 814 662 530 407 207 55 *x 103/μL †此三項臨床試驗共收錄942位罹患骨髓增生性腫瘤的病人，其中923位病人在研究期間均接受血小板數目檢測。 AGRYLIN對於靜脈放血病人及同時接受其他療法(包括：hydroxyurea、aspirin、 interferon、radioactive phosphorus及alkylating agent)治療的病人仍然有效。 用於兒科病人的臨床試驗： 一項開放的安全性及藥動學/藥效學臨床試驗中，共收錄18位7至16歲因ET而續發血小板增多症的兒科病人(8位7至11歲孩童、10位12至16歲青少年，平均12歲；8位男孩、10位女孩)，並與17位成年病人(平均年齡66歲；9男8女)比較。在參與本試驗前，18位兒科病人中有17位已接受AGRYLIN治療平均2年，17位成年病人中則有12位如此。依照年齡將這些在進入試驗前曾服用AGRYLIN的兒科及成年ET病人按照年齡分為三組(7至11歲組、12至16歲組及成人組)，以回溯性回顧病歷的方式查看劑量，加入試驗前三組病人起始的每日劑量中位數都是1毫克。其他6位在加入試驗時未曾接受AGRYLIN治療的病人，初始劑量為每日0.5毫克。試驗結束時，各年齡組病人的日維持劑量中位數相當，分別為7至11歲孩童組的1.75毫克，12至16歲青少年組的2.25毫克，及成人組的1.5毫克。\n13\n包裝及儲存\n13.1\n包裝\n2-1000顆/瓶\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n儲存溫度25°C (77°F)，運送溫度15°C至30℃ (59°F至86°F) [參見 USP 控制室溫]，存放於避光容器內。\n13.4\n儲存注意事項\n14\n病人使用須知\n劑量：告知病人將以週為單位調整其劑量，直到血小板數目降低到適當水準的劑量。這也將會幫助病人適應常見的不良反應。告訴病人若出現耐受性方面的問題，應與醫生聯繫以調整劑量或給藥頻率(請見用法及用量)。 心血管效應：告知病人，若出現胸痛、心悸，甚至感覺自己心跳不規則，須立即聯繫醫生(請見警語及注意事項)。 肺高壓風險：告知病人，若出現呼吸急促、雙腿或踝腫大、嘴唇及皮膚呈藍色，須立即聯繫醫生(請見警語及注意事項)。 出血風險：警告病人同時使用aspirin (或其他影響血液凝結的藥物)可能會增加出血的風險。告訴病人若發生出血的徵象或症狀(如：吐血、血便或解黑便)或出現不明原因且比平時更常出現的瘀傷時，須立即聯繫醫生(請見警語及注意事項、交互作用)。 哺乳期：告知病人在AGRYLIN治療期間及最後一次服藥一週內不要哺乳(請見特殊族群注意事項)。 不孕：告知具潛在生殖力之女性AGRYLIN治療可能損害生育(請見特殊族群注意事項、臨床前安全性資料)。 血栓風險：告知病人在使用含anagrelide hydrochloride成分藥品期間或停藥後出現任何可能為血栓相關併發症(包含腦梗塞)之徵象或症狀(如：不明原因的頭痛、頭暈、說話含糊不清、眼歪嘴斜、單側虛弱無力、感覺異常、步態不穩、視覺障礙、意識不清等)，請立即聯繫醫生。\n15\n其他\n電話：0800-008-999 版本：US202110TW02",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "Patheon Manufacturing Services LLC.",
+          "address": "5900 Martin Luther King Jr. Highway,Greenville,NC27834,USA"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣武田藥品工業股份有限公司",
+          "address": "台北市信義區松高路1號17樓"
+        }
+      ]
+    }
+  ]
+}

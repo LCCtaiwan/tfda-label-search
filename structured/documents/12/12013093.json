@@ -1,0 +1,1204 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:55:34.230780+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12013093",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第013093號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第013093號",
+      "matched_license_code": "12013093",
+      "matched_nhi_code": "",
+      "drug_name_zh": "力克能片",
+      "drug_name_en": "DEXAMETHASONE TABLETS \"SENTAI\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-09-11",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Each Tablet Contains: Dexamethasone . . . . . . . . . . . .0.5mg",
+          "content_html": "<p>Each Tablet Contains:<br>Dexamethasone . . . . . . . . . . . .0.5mg</p>",
+          "search_text": "1.1\n有效成分及含量\nEach Tablet Contains: Dexamethasone . . . . . . . . . . . .0.5mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Potato starch、Lactose、Microcrystalline cellulose 101、Tartrazine、Methylcellulose 400、Magnesium stearate、Calcium Carboxymethylcellulose。",
+          "content_html": "<p>Potato starch、Lactose、Microcrystalline cellulose 101、Tartrazine、Methylcellulose 400、Magnesium stearate、Calcium Carboxymethylcellulose。</p>",
+          "search_text": "1.2\n賦形劑\nPotato starch、Lactose、Microcrystalline cellulose 101、Tartrazine、Methylcellulose 400、Magnesium stearate、Calcium Carboxymethylcellulose。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "錠劑。",
+          "content_html": "<p>錠劑。</p>",
+          "search_text": "1.3\n劑型\n錠劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "本品為黃色之圓形錠，刻字STP102，反面一橫線。",
+          "content_html": "<p>本品為黃色之圓形錠，刻字STP102，反面一橫線。</p>",
+          "search_text": "1.4\n藥品外觀\n本品為黃色之圓形錠，刻字STP102，反面一橫線。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "僂麻質斯樣關節炎，僂麻質斯熱，過敏性疾患，皮膚疾患，過敏性皮膚炎疾患，肉芽腫。",
+          "content_html": "<p>僂麻質斯樣關節炎，僂麻質斯熱，過敏性疾患，皮膚疾患，過敏性皮膚炎疾患，肉芽腫。</p>",
+          "search_text": "2\n適應症\n僂麻質斯樣關節炎，僂麻質斯熱，過敏性疾患，皮膚疾患，過敏性皮膚炎疾患，肉芽腫。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "僂麻質斯樣關節炎，支氣管喘息等慢性疾患：初期服用量一日 1.5~3mg（3~6片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用開水服用。",
+          "title_html": "僂麻質斯樣關節炎，支氣管喘息等慢性疾患：初期服用量一日 1.5~3mg（3~6片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用開水服用。",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "僂麻質斯樣關節炎，支氣管喘息等慢性疾患：初期服用量一日 1.5~3mg（3~6片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用開水服用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.1\n僂麻質斯樣關節炎，支氣管喘息等慢性疾患：初期服用量一日 1.5~3mg（3~6片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用開水服用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "急性僂麻質斯，重症支氣管喘息等：初期服用量一日 2~4mg（4~8片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用水服用。",
+          "title_html": "急性僂麻質斯，重症支氣管喘息等：初期服用量一日 2~4mg（4~8片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用水服用。",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "急性僂麻質斯，重症支氣管喘息等：初期服用量一日 2~4mg（4~8片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用水服用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.2\n急性僂麻質斯，重症支氣管喘息等：初期服用量一日 2~4mg（4~8片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用水服用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4\n禁忌",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4.1",
+          "parent_id": "4",
+          "level": 2,
+          "number": "4.1",
+          "title": "精神病，消化管潰瘍、抗生物質不能奏效之須要手術之感染性疾患。",
+          "title_html": "精神病，消化管潰瘍、抗生物質不能奏效之須要手術之感染性疾患。",
+          "path": [
+            "禁忌",
+            "精神病，消化管潰瘍、抗生物質不能奏效之須要手術之感染性疾患。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4.1\n精神病，消化管潰瘍、抗生物質不能奏效之須要手術之感染性疾患。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4.2",
+          "parent_id": "4",
+          "level": 2,
+          "number": "4.2",
+          "title": "心臟的血管障礙，腎機能不全，糖尿病，閉塞性靜脈炎，骨粗鬆病，痙攣性疾病，結核。",
+          "title_html": "心臟的血管障礙，腎機能不全，糖尿病，閉塞性靜脈炎，骨粗鬆病，痙攣性疾病，結核。",
+          "path": [
+            "禁忌",
+            "心臟的血管障礙，腎機能不全，糖尿病，閉塞性靜脈炎，骨粗鬆病，痙攣性疾病，結核。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "4.2\n心臟的血管障礙，腎機能不全，糖尿病，閉塞性靜脈炎，骨粗鬆病，痙攣性疾病，結核。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "急慢性感染症：使用時請同時併用適當的化學療法劑或抗生素藥品，以治療感染疾病。",
+          "title_html": "急慢性感染症：使用時請同時併用適當的化學療法劑或抗生素藥品，以治療感染疾病。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "急慢性感染症：使用時請同時併用適當的化學療法劑或抗生素藥品，以治療感染疾病。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.1\n急慢性感染症：使用時請同時併用適當的化學療法劑或抗生素藥品，以治療感染疾病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "對消化管障礙如胃腸潰瘍患者務請特別注意。",
+          "title_html": "對消化管障礙如胃腸潰瘍患者務請特別注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對消化管障礙如胃腸潰瘍患者務請特別注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.2\n對消化管障礙如胃腸潰瘍患者務請特別注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.3",
+          "title": "因主要副作用為引起浮腫，血壓上昇尤以腎臟疾患及高血壓患者應注意。",
+          "title_html": "因主要副作用為引起浮腫，血壓上昇尤以腎臟疾患及高血壓患者應注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "因主要副作用為引起浮腫，血壓上昇尤以腎臟疾患及高血壓患者應注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.3\n因主要副作用為引起浮腫，血壓上昇尤以腎臟疾患及高血壓患者應注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.4",
+          "title": "糖尿病患者使用時有增加 Insulin 藥量的必要請注意。",
+          "title_html": "糖尿病患者使用時有增加 Insulin 藥量的必要請注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "糖尿病患者使用時有增加 Insulin 藥量的必要請注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.4\n糖尿病患者使用時有增加 Insulin 藥量的必要請注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.5",
+          "title": "對於有精神病因素者多加注意。",
+          "title_html": "對於有精神病因素者多加注意。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "對於有精神病因素者多加注意。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.5\n對於有精神病因素者多加注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.6",
+          "title": "服用本劑期間請充分補充蛋白質。",
+          "title_html": "服用本劑期間請充分補充蛋白質。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "服用本劑期間請充分補充蛋白質。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.6\n服用本劑期間請充分補充蛋白質。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.1\n懷孕",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。﻿",
+          "content_html": "<p>目前尚無資訊。﻿</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "100 、500、1000 等粒瓶裝。",
+          "content_html": "<p>100 、500、1000 等粒瓶裝。</p>",
+          "search_text": "13.1\n包裝\n100 、500、1000 等粒瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "25℃以下儲存。",
+          "content_html": "<p>25℃以下儲存。</p>",
+          "search_text": "13.3\n儲存條件\n25℃以下儲存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nEach Tablet Contains: Dexamethasone . . . . . . . . . . . .0.5mg\n1.2\n賦形劑\nPotato starch、Lactose、Microcrystalline cellulose 101、Tartrazine、Methylcellulose 400、Magnesium stearate、Calcium Carboxymethylcellulose。\n1.3\n劑型\n錠劑。\n1.4\n藥品外觀\n本品為黃色之圓形錠，刻字STP102，反面一橫線。\n2\n適應症\n僂麻質斯樣關節炎，僂麻質斯熱，過敏性疾患，皮膚疾患，過敏性皮膚炎疾患，肉芽腫。\n3\n用法及用量\n3.1\n用法用量\n3.1.1\n僂麻質斯樣關節炎，支氣管喘息等慢性疾患：初期服用量一日 1.5~3mg（3~6片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用開水服用。\n3.1.2\n急性僂麻質斯，重症支氣管喘息等：初期服用量一日 2~4mg（4~8片），每 3~4 日減 0.25mg（半片），至 0.5~0.75mg（1~1.5片）為維持量，分 3~4 次服用，均用水服用。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n4.1\n精神病，消化管潰瘍、抗生物質不能奏效之須要手術之感染性疾患。\n4.2\n心臟的血管障礙，腎機能不全，糖尿病，閉塞性靜脈炎，骨粗鬆病，痙攣性疾病，結核。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n急慢性感染症：使用時請同時併用適當的化學療法劑或抗生素藥品，以治療感染疾病。\n5.1.2\n對消化管障礙如胃腸潰瘍患者務請特別注意。\n5.1.3\n因主要副作用為引起浮腫，血壓上昇尤以腎臟疾患及高血壓患者應注意。\n5.1.4\n糖尿病患者使用時有增加 Insulin 藥量的必要請注意。\n5.1.5\n對於有精神病因素者多加注意。\n5.1.6\n服用本劑期間請充分補充蛋白質。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n目前尚無資訊。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n目前尚無資訊。﻿\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n100 、500、1000 等粒瓶裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n25℃以下儲存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "仙台藥品工業股份有限公司",
+          "address": "台南市新營區嘉芳里新工路35號A棟、35之1號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "仙台藥品工業股份有限公司",
+          "address": "台南市新營區嘉芳里新工路35號A棟、35之1號"
+        }
+      ]
+    }
+  ]
+}

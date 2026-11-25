@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:54:47.422408+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12011747",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第011747號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第011747號",
+      "matched_license_code": "12011747",
+      "matched_nhi_code": "",
+      "drug_name_zh": "可待因咳嗽糖漿",
+      "drug_name_en": "COUGH SYRUP WITH CODEINE \"CBC\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2024-05-21",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "本產品為一種有效的鎮咳、袪痰糖漿，其成份係採用磷酸可待因抑制咳嗽反射作用，而Diphenhydramine HCL則為安全且具有良效之抗組織胺藥物之一類。本品可直接抑制延腦的咳嗽中樞，而抑制咳嗽反射作用。本品可緩解無益處咳嗽的症狀。",
+          "content_html": "<p>本產品為一種有效的鎮咳、袪痰糖漿，其成份係採用磷酸可待因抑制咳嗽反射作用，而Diphenhydramine HCL則為安全且具有良效之抗組織胺藥物之一類。本品可直接抑制延腦的咳嗽中樞，而抑制咳嗽反射作用。本品可緩解無益處咳嗽的症狀。</p>",
+          "search_text": "1\n性狀\n本產品為一種有效的鎮咳、袪痰糖漿，其成份係採用磷酸可待因抑制咳嗽反射作用，而Diphenhydramine HCL則為安全且具有良效之抗組織胺藥物之一類。本品可直接抑制延腦的咳嗽中樞，而抑制咳嗽反射作用。本品可緩解無益處咳嗽的症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Codeine Phosphate ----------------------------------------------0.1gm Diphenhydramine HCL ----------------------------------------0.15gm Ammonium Chloride ------------------------------------------ 2.15gm",
+          "content_html": "<p>Codeine Phosphate ----------------------------------------------0.1gm&nbsp;</p><p>Diphenhydramine HCL ----------------------------------------0.15gm&nbsp;</p><p>Ammonium Chloride ------------------------------------------ 2.15gm</p>",
+          "search_text": "1.1\n有效成分及含量\nCodeine Phosphate ----------------------------------------------0.1gm Diphenhydramine HCL ----------------------------------------0.15gm Ammonium Chloride ------------------------------------------ 2.15gm",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Sugar、Sodium Citrate、Sodium Benzoate、Citric Acid、New Coccine、Almond Oil、Alcohol、 Purified Water",
+          "content_html": "<p>Sugar、Sodium Citrate、Sodium Benzoate、Citric Acid、New Coccine、Almond Oil、Alcohol、 Purified Water</p>",
+          "search_text": "1.2\n賦形劑\nSugar、Sodium Citrate、Sodium Benzoate、Citric Acid、New Coccine、Almond Oil、Alcohol、 Purified Water",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "糖漿劑",
+          "content_html": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(51,51,51);\">糖漿劑</span></p>",
+          "search_text": "1.3\n劑型\n糖漿劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "紅棕色糖漿",
+          "content_html": "<p><span style=\"background-color:rgb(255,255,255);color:rgb(32,33,36);\">紅棕色糖漿</span></p>",
+          "search_text": "1.4\n藥品外觀\n紅棕色糖漿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "因氣喘、受涼及傷風感冒所引起之咳嗽及過敏性咳嗽。",
+          "content_html": "<p>因氣喘、受涼及傷風感冒所引起之咳嗽及過敏性咳嗽。</p>",
+          "search_text": "2\n適應症\n因氣喘、受涼及傷風感冒所引起之咳嗽及過敏性咳嗽。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "通常劑量成人每三至四小時服一至二茶匙(5-10cc)，兒童一至五歲四小時服半至一茶匙(2.5-5cc)，六至十二歲服一茶匙(5cc)。",
+          "content_html": "<p>通常劑量成人每三至四小時服一至二茶匙(5-10cc)，兒童一至五歲四小時服半至一茶匙(2.5-5cc)，六至十二歲服一茶匙(5cc)。</p>",
+          "search_text": "3.1\n用法用量\n通常劑量成人每三至四小時服一至二茶匙(5-10cc)，兒童一至五歲四小時服半至一茶匙(2.5-5cc)，六至十二歲服一茶匙(5cc)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "(一) 已知或疑似麻醉藥成癮的病人。 (二) 已知CYP2D6超級快速藥物代謝者(ultra-rapid metabolizers)。 (三) 哺乳婦女。 (四) 兒童扁桃腺及腺樣體切除術後止痛(有止痛相關適應症者尚須標示)。",
+          "content_html": "<p>(一) 已知或疑似麻醉藥成癮的病人。&nbsp;</p><p>(二) 已知CYP2D6超級快速藥物代謝者(ultra-rapid metabolizers)。&nbsp;</p><p>(三) 哺乳婦女。&nbsp;</p><p>(四) 兒童扁桃腺及腺樣體切除術後止痛(有止痛相關適應症者尚須標示)。</p>",
+          "search_text": "4\n禁忌\n(一) 已知或疑似麻醉藥成癮的病人。 (二) 已知CYP2D6超級快速藥物代謝者(ultra-rapid metabolizers)。 (三) 哺乳婦女。 (四) 兒童扁桃腺及腺樣體切除術後止痛(有止痛相關適應症者尚須標示)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "1. 服用本劑數次仍未見症狀改善時應即停用。 2. 服用本劑應避免開車。 3. 須置於小孩接觸不到之處。 4. 避免陽光直射、宜保存於陰涼之處。 5. 除非藥師、藥劑生或醫師指示，孕婦及授乳婦不建議自行使用。 6. 勿超過建議劑量，若有副作用產生，應立即停藥就醫。 7. 使用前須振搖均勻，並使用廠商所附量器量取藥量。 8. 吸煙、慢性阻塞性肺疾(Chronic Obstructive、Pulmonary Disense, 包括氣喘、慢性氣管炎或肺氣腫)所引起之持續或慢性咳嗽，及伴有膿痰之咳嗽患者請勿自行使用。 9. 有高燒、出疹、持續性頭痛，及持續達一星期以上之咳嗽，或有復發現象，應洽醫師。 10. 本劑含袪痰劑宜空腹服用。 11. Codeine會經由肝臟酵素CYP2D6代謝為活性成分morphine。如果病人屬於快速代謝者(extensive metabolizer)或超級快速代謝者(ultra-rapid metabolizer)，即使是在正常使用劑量，亦可能會發生鴉片中毒症狀，且可以於病人血液中檢測到比預期高之morphine成分。在亞洲族群，超級快速代謝者(ultra-rapid metabolizer)之盛行率為1.2%～2%。一般鴉片中毒症狀包括意識混亂、異常嗜睡、癱軟、呼吸緩慢或微弱、瞳孔變小、噁心、嘔吐、便秘、食慾不振等，嚴重會導致呼吸抑制，甚至導致死亡。 12. 謹慎使用本品於未滿12歲兒童，因可能會增加發生嚴重不良反應之風險。經醫師專業評估臨床效益大於風險時，方可考慮使用，且應依年齡減量使用，並特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。 13. 不建議使用本品於12至18歲具呼吸功能不全之兒童，例如具有神經肌肉疾病、嚴重心臟或呼吸系統疾病、上呼吸道或肺部感染及多重創傷或大範圍外科手術等，因可能會增加發生嚴重不良反應之風險，倘經評估仍需使用，應特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。 14. 禁止產婦於哺乳期間使用本品，因可能對於受哺乳嬰兒造成鴉片中毒之風險。雖然在正常治療劑量下，母乳中僅存在極低濃度之codeine與其活性代謝物，不太會對嬰兒產生不良反應，但屬CYP2D6超級快速藥物代謝之哺乳婦女，母乳中可能會存在高濃度之活性代謝物，可能對於受哺乳嬰兒產生鴉片中毒症狀，例如異常嗜睡、癱軟、餵養困難、呼吸困難，嚴重可能會致死。因此，產婦如需使用本品治療，應避免以用藥期間之母乳哺餵嬰兒。 15. 肝、腎功能不全者，應小心謹慎減量使用。 16. 長期使用易致成癮。 17. 腎上腺功能不全風險：曾有使用opioid類藥品發生腎上腺功能不全之通報案例，且多數案例為使用該類藥品超過一個月者。腎上腺功能不全可能以非特異性症狀表現，例如噁心、嘔吐、厭食、疲倦、虛弱、眩暈及低血壓等。如懷疑病人發生腎上腺功能不全，應儘速進行相關檢查，倘經確診為腎上腺功能不全，應停止使用原opioid成分藥品，並持續使用皮質類固醇類藥品進行治療，直到腎上腺功能復原。另可嘗試使用其他不同成分之opioid藥品，因曾有通報案件，於更換其他不同成分之opioid藥品後，未再出現腎上腺功能不全之情形。惟依目前現有資料，尚無法認定有特定opioid成分與腎上腺功能不全較有相關性。 18. 併用benzodiazepine類藥品或其他中樞神經系統抑制劑之風險：含codeine成分藥品併用benzodiazepine類藥品或其他中樞神經系統抑制劑(如：肌肉鬆弛劑、全身麻醉劑、酒精)，可能會引起重度鎮靜(profound sedation)、呼吸抑制、昏迷及死亡等風險，故除非無其他適當治療方式，方可考慮使用。倘同時處方opioid類止痛藥品及benzodiazepine成分藥品或其他中樞神經系統抑制劑，應使用最低有效劑量及最短治療期程。當對於正在使用opioid類止痛藥之病人，新增處方benzodiazepine成分藥品或其他中樞神經系統抑制劑時，抑或針對正在使用benzodiazepine成分藥品或其他中樞神經系統抑制劑之病人，新增處方opioid類止痛藥品時，應使用較低之初始劑量，且依據病人臨床表現調整劑量，並嚴密監測病人相關不良反應之發生。此外，應特別提醒病人及護理人員注意呼吸抑制和鎮靜之風險，病人於用藥期間亦不宜駕駛或操作危險器械。另針對具有濫用藥物可能之病人，應警告病人切勿飲酒或使用不法濫用藥物，否則可能會有過量和致死之風險。 19. 國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害（如中樞神經功能障礙等）之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。",
+          "content_html": "<p>1.&nbsp;服用本劑數次仍未見症狀改善時應即停用。&nbsp;<br>2.&nbsp;服用本劑應避免開車。&nbsp;<br>3.&nbsp;須置於小孩接觸不到之處。&nbsp;<br>4.&nbsp;避免陽光直射、宜保存於陰涼之處。&nbsp;<br>5.&nbsp;除非藥師、藥劑生或醫師指示，孕婦及授乳婦不建議自行使用。&nbsp;<br>6.&nbsp;勿超過建議劑量，若有副作用產生，應立即停藥就醫。&nbsp;<br>7.&nbsp;使用前須振搖均勻，並使用廠商所附量器量取藥量。&nbsp;<br>8.&nbsp;吸煙、慢性阻塞性肺疾(Chronic Obstructive、Pulmonary Disense,&nbsp;包括氣喘、慢性氣管炎或肺氣腫)所引起之持續或慢性咳嗽，及伴有膿痰之咳嗽患者請勿自行使用。&nbsp;<br>9.&nbsp;有高燒、出疹、持續性頭痛，及持續達一星期以上之咳嗽，或有復發現象，應洽醫師。&nbsp;<br>10.&nbsp;本劑含袪痰劑宜空腹服用。&nbsp;<br>11. Codeine會經由肝臟酵素CYP2D6代謝為活性成分morphine。如果病人屬於快速代謝者(extensive metabolizer)或超級快速代謝者(ultra-rapid metabolizer)，即使是在正常使用劑量，亦可能會發生鴉片中毒症狀，且可以於病人血液中檢測到比預期高之morphine成分。在亞洲族群，超級快速代謝者(ultra-rapid metabolizer)之盛行率為1.2%～2%。一般鴉片中毒症狀包括意識混亂、異常嗜睡、癱軟、呼吸緩慢或微弱、瞳孔變小、噁心、嘔吐、便秘、食慾不振等，嚴重會導致呼吸抑制，甚至導致死亡。&nbsp;<br>12.&nbsp;謹慎使用本品於未滿12歲兒童，因可能會增加發生嚴重不良反應之風險。經醫師專業評估臨床效益大於風險時，方可考慮使用，且應依年齡減量使用，並特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。&nbsp;<br>13.&nbsp;不建議使用本品於12至18歲具呼吸功能不全之兒童，例如具有神經肌肉疾病、嚴重心臟或呼吸系統疾病、上呼吸道或肺部感染及多重創傷或大範圍外科手術等，因可能會增加發生嚴重不良反應之風險，倘經評估仍需使用，應特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。&nbsp;<br>14.&nbsp;禁止產婦於哺乳期間使用本品，因可能對於受哺乳嬰兒造成鴉片中毒之風險。雖然在正常治療劑量下，母乳中僅存在極低濃度之codeine與其活性代謝物，不太會對嬰兒產生不良反應，但屬CYP2D6超級快速藥物代謝之哺乳婦女，母乳中可能會存在高濃度之活性代謝物，可能對於受哺乳嬰兒產生鴉片中毒症狀，例如異常嗜睡、癱軟、餵養困難、呼吸困難，嚴重可能會致死。因此，產婦如需使用本品治療，應避免以用藥期間之母乳哺餵嬰兒。&nbsp;<br>15.&nbsp;肝、腎功能不全者，應小心謹慎減量使用。&nbsp;<br>16.&nbsp;長期使用易致成癮。&nbsp;<br>17.&nbsp;腎上腺功能不全風險：曾有使用opioid類藥品發生腎上腺功能不全之通報案例，且多數案例為使用該類藥品超過一個月者。腎上腺功能不全可能以非特異性症狀表現，例如噁心、嘔吐、厭食、疲倦、虛弱、眩暈及低血壓等。如懷疑病人發生腎上腺功能不全，應儘速進行相關檢查，倘經確診為腎上腺功能不全，應停止使用原opioid成分藥品，並持續使用皮質類固醇類藥品進行治療，直到腎上腺功能復原。另可嘗試使用其他不同成分之opioid藥品，因曾有通報案件，於更換其他不同成分之opioid藥品後，未再出現腎上腺功能不全之情形。惟依目前現有資料，尚無法認定有特定opioid成分與腎上腺功能不全較有相關性。&nbsp;<br>18.&nbsp;併用benzodiazepine類藥品或其他中樞神經系統抑制劑之風險：含codeine成分藥品併用benzodiazepine類藥品或其他中樞神經系統抑制劑(如：肌肉鬆弛劑、全身麻醉劑、酒精)，可能會引起重度鎮靜(profound sedation)、呼吸抑制、昏迷及死亡等風險，故除非無其他適當治療方式，方可考慮使用。倘同時處方opioid類止痛藥品及benzodiazepine成分藥品或其他中樞神經系統抑制劑，應使用最低有效劑量及最短治療期程。當對於正在使用opioid類止痛藥之病人，新增處方benzodiazepine成分藥品或其他中樞神經系統抑制劑時，抑或針對正在使用benzodiazepine成分藥品或其他中樞神經系統抑制劑之病人，新增處方opioid類止痛藥品時，應使用較低之初始劑量，且依據病人臨床表現調整劑量，並嚴密監測病人相關不良反應之發生。此外，應特別提醒病人及護理人員注意呼吸抑制和鎮靜之風險，病人於用藥期間亦不宜駕駛或操作危險器械。另針對具有濫用藥物可能之病人，應警告病人切勿飲酒或使用不法濫用藥物，否則可能會有過量和致死之風險。&nbsp;<br>19.&nbsp;國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害（如中樞神經功能障礙等）之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。</p>",
+          "search_text": "5.1\n警語/注意事項\n1. 服用本劑數次仍未見症狀改善時應即停用。 2. 服用本劑應避免開車。 3. 須置於小孩接觸不到之處。 4. 避免陽光直射、宜保存於陰涼之處。 5. 除非藥師、藥劑生或醫師指示，孕婦及授乳婦不建議自行使用。 6. 勿超過建議劑量，若有副作用產生，應立即停藥就醫。 7. 使用前須振搖均勻，並使用廠商所附量器量取藥量。 8. 吸煙、慢性阻塞性肺疾(Chronic Obstructive、Pulmonary Disense, 包括氣喘、慢性氣管炎或肺氣腫)所引起之持續或慢性咳嗽，及伴有膿痰之咳嗽患者請勿自行使用。 9. 有高燒、出疹、持續性頭痛，及持續達一星期以上之咳嗽，或有復發現象，應洽醫師。 10. 本劑含袪痰劑宜空腹服用。 11. Codeine會經由肝臟酵素CYP2D6代謝為活性成分morphine。如果病人屬於快速代謝者(extensive metabolizer)或超級快速代謝者(ultra-rapid metabolizer)，即使是在正常使用劑量，亦可能會發生鴉片中毒症狀，且可以於病人血液中檢測到比預期高之morphine成分。在亞洲族群，超級快速代謝者(ultra-rapid metabolizer)之盛行率為1.2%～2%。一般鴉片中毒症狀包括意識混亂、異常嗜睡、癱軟、呼吸緩慢或微弱、瞳孔變小、噁心、嘔吐、便秘、食慾不振等，嚴重會導致呼吸抑制，甚至導致死亡。 12. 謹慎使用本品於未滿12歲兒童，因可能會增加發生嚴重不良反應之風險。經醫師專業評估臨床效益大於風險時，方可考慮使用，且應依年齡減量使用，並特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。 13. 不建議使用本品於12至18歲具呼吸功能不全之兒童，例如具有神經肌肉疾病、嚴重心臟或呼吸系統疾病、上呼吸道或肺部感染及多重創傷或大範圍外科手術等，因可能會增加發生嚴重不良反應之風險，倘經評估仍需使用，應特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。 14. 禁止產婦於哺乳期間使用本品，因可能對於受哺乳嬰兒造成鴉片中毒之風險。雖然在正常治療劑量下，母乳中僅存在極低濃度之codeine與其活性代謝物，不太會對嬰兒產生不良反應，但屬CYP2D6超級快速藥物代謝之哺乳婦女，母乳中可能會存在高濃度之活性代謝物，可能對於受哺乳嬰兒產生鴉片中毒症狀，例如異常嗜睡、癱軟、餵養困難、呼吸困難，嚴重可能會致死。因此，產婦如需使用本品治療，應避免以用藥期間之母乳哺餵嬰兒。 15. 肝、腎功能不全者，應小心謹慎減量使用。 16. 長期使用易致成癮。 17. 腎上腺功能不全風險：曾有使用opioid類藥品發生腎上腺功能不全之通報案例，且多數案例為使用該類藥品超過一個月者。腎上腺功能不全可能以非特異性症狀表現，例如噁心、嘔吐、厭食、疲倦、虛弱、眩暈及低血壓等。如懷疑病人發生腎上腺功能不全，應儘速進行相關檢查，倘經確診為腎上腺功能不全，應停止使用原opioid成分藥品，並持續使用皮質類固醇類藥品進行治療，直到腎上腺功能復原。另可嘗試使用其他不同成分之opioid藥品，因曾有通報案件，於更換其他不同成分之opioid藥品後，未再出現腎上腺功能不全之情形。惟依目前現有資料，尚無法認定有特定opioid成分與腎上腺功能不全較有相關性。 18. 併用benzodiazepine類藥品或其他中樞神經系統抑制劑之風險：含codeine成分藥品併用benzodiazepine類藥品或其他中樞神經系統抑制劑(如：肌肉鬆弛劑、全身麻醉劑、酒精)，可能會引起重度鎮靜(profound sedation)、呼吸抑制、昏迷及死亡等風險，故除非無其他適當治療方式，方可考慮使用。倘同時處方opioid類止痛藥品及benzodiazepine成分藥品或其他中樞神經系統抑制劑，應使用最低有效劑量及最短治療期程。當對於正在使用opioid類止痛藥之病人，新增處方benzodiazepine成分藥品或其他中樞神經系統抑制劑時，抑或針對正在使用benzodiazepine成分藥品或其他中樞神經系統抑制劑之病人，新增處方opioid類止痛藥品時，應使用較低之初始劑量，且依據病人臨床表現調整劑量，並嚴密監測病人相關不良反應之發生。此外，應特別提醒病人及護理人員注意呼吸抑制和鎮靜之風險，病人於用藥期間亦不宜駕駛或操作危險器械。另針對具有濫用藥物可能之病人，應警告病人切勿飲酒或使用不法濫用藥物，否則可能會有過量和致死之風險。 19. 國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害（如中樞神經功能障礙等）之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "下列病人使用本品宜小心：氣喘或其他肺疾，心臟疾病(包括心律不整)，驚厥的疾病，腎臟或肝臟受損，前列腺肥大，嚴重的CNS抑制作用，毒性精神病，頭部受傷，顱內病灶，甲狀腺機能不足，愛迪生症；此外，還有酒精中毒和懷孕的婦女也要小心。",
+          "content_html": "<p>下列病人使用本品宜小心：氣喘或其他肺疾，心臟疾病(包括心律不整)，驚厥的疾病，腎臟或肝臟受損，前列腺肥大，嚴重的CNS抑制作用，毒性精神病，頭部受傷，顱內病灶，甲狀腺機能不足，愛迪生症；此外，還有酒精中毒和懷孕的婦女也要小心。</p>",
+          "search_text": "6\n特殊族群注意事項\n下列病人使用本品宜小心：氣喘或其他肺疾，心臟疾病(包括心律不整)，驚厥的疾病，腎臟或肝臟受損，前列腺肥大，嚴重的CNS抑制作用，毒性精神病，頭部受傷，顱內病灶，甲狀腺機能不足，愛迪生症；此外，還有酒精中毒和懷孕的婦女也要小心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.1\n懷孕",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "(一) 輕微的暈眩、思睡、噁心、嘔吐及胃痛。 (二) 雄性激素缺乏：曾有使用opioid類藥品發生雄性激素缺乏之通報案例，且多數案例為使用該藥品超過一個月者。 (三) 血清素症候群：曾有使用opioid類藥品併用血清素作用劑藥品(serotonergic drugs)發生危及生命之血清素症候群(serotonin syndrome)通報案例。",
+          "content_html": "<p>(一) 輕微的暈眩、思睡、噁心、嘔吐及胃痛。&nbsp;</p><p>(二) 雄性激素缺乏：曾有使用opioid類藥品發生雄性激素缺乏之通報案例，且多數案例為使用該藥品超過一個月者。&nbsp;</p><p>(三) 血清素症候群：曾有使用opioid類藥品併用血清素作用劑藥品(serotonergic drugs)發生危及生命之血清素症候群(serotonin syndrome)通報案例。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n(一) 輕微的暈眩、思睡、噁心、嘔吐及胃痛。 (二) 雄性激素缺乏：曾有使用opioid類藥品發生雄性激素缺乏之通報案例，且多數案例為使用該藥品超過一個月者。 (三) 血清素症候群：曾有使用opioid類藥品併用血清素作用劑藥品(serotonergic drugs)發生危及生命之血清素症候群(serotonin syndrome)通報案例。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "警告病人不可超過推薦量使用，因為超量使用時，鎮咳作用不會明顯的加強，但是不良反應和成癮的危險性增加。",
+          "content_html": "<p>警告病人不可超過推薦量使用，因為超量使用時，鎮咳作用不會明顯的加強，但是不良反應和成癮的危險性增加。</p>",
+          "search_text": "9\n過量\n警告病人不可超過推薦量使用，因為超量使用時，鎮咳作用不會明顯的加強，但是不良反應和成癮的危險性增加。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "本品口服吸收良好，作用起始時間10分鐘至20分鐘：作用期從3小時至6小時。本品在肝臟代謝，大部份由尿液排出。",
+          "content_html": "<p>本品口服吸收良好，作用起始時間10分鐘至20分鐘：作用期從3小時至6小時。本品在肝臟代謝，大部份由尿液排出。</p>",
+          "search_text": "11\n藥物動力學特性\n本品口服吸收良好，作用起始時間10分鐘至20分鐘：作用期從3小時至6小時。本品在肝臟代謝，大部份由尿液排出。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "60-4000毫升瓶裝。",
+          "content_html": "<p>60-4000毫升瓶裝。</p>",
+          "search_text": "13.1\n包裝\n60-4000毫升瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "儲存於25℃以下",
+          "content_html": "<p>儲存於25℃以下</p>",
+          "search_text": "13.3\n儲存條件\n儲存於25℃以下",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n本產品為一種有效的鎮咳、袪痰糖漿，其成份係採用磷酸可待因抑制咳嗽反射作用，而Diphenhydramine HCL則為安全且具有良效之抗組織胺藥物之一類。本品可直接抑制延腦的咳嗽中樞，而抑制咳嗽反射作用。本品可緩解無益處咳嗽的症狀。\n1.1\n有效成分及含量\nCodeine Phosphate ----------------------------------------------0.1gm Diphenhydramine HCL ----------------------------------------0.15gm Ammonium Chloride ------------------------------------------ 2.15gm\n1.2\n賦形劑\nSugar、Sodium Citrate、Sodium Benzoate、Citric Acid、New Coccine、Almond Oil、Alcohol、 Purified Water\n1.3\n劑型\n糖漿劑\n1.4\n藥品外觀\n紅棕色糖漿\n2\n適應症\n因氣喘、受涼及傷風感冒所引起之咳嗽及過敏性咳嗽。\n3\n用法及用量\n3.1\n用法用量\n通常劑量成人每三至四小時服一至二茶匙(5-10cc)，兒童一至五歲四小時服半至一茶匙(2.5-5cc)，六至十二歲服一茶匙(5cc)。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n(一) 已知或疑似麻醉藥成癮的病人。 (二) 已知CYP2D6超級快速藥物代謝者(ultra-rapid metabolizers)。 (三) 哺乳婦女。 (四) 兒童扁桃腺及腺樣體切除術後止痛(有止痛相關適應症者尚須標示)。\n5\n警語及注意事項\n5.1\n警語/注意事項\n1. 服用本劑數次仍未見症狀改善時應即停用。 2. 服用本劑應避免開車。 3. 須置於小孩接觸不到之處。 4. 避免陽光直射、宜保存於陰涼之處。 5. 除非藥師、藥劑生或醫師指示，孕婦及授乳婦不建議自行使用。 6. 勿超過建議劑量，若有副作用產生，應立即停藥就醫。 7. 使用前須振搖均勻，並使用廠商所附量器量取藥量。 8. 吸煙、慢性阻塞性肺疾(Chronic Obstructive、Pulmonary Disense, 包括氣喘、慢性氣管炎或肺氣腫)所引起之持續或慢性咳嗽，及伴有膿痰之咳嗽患者請勿自行使用。 9. 有高燒、出疹、持續性頭痛，及持續達一星期以上之咳嗽，或有復發現象，應洽醫師。 10. 本劑含袪痰劑宜空腹服用。 11. Codeine會經由肝臟酵素CYP2D6代謝為活性成分morphine。如果病人屬於快速代謝者(extensive metabolizer)或超級快速代謝者(ultra-rapid metabolizer)，即使是在正常使用劑量，亦可能會發生鴉片中毒症狀，且可以於病人血液中檢測到比預期高之morphine成分。在亞洲族群，超級快速代謝者(ultra-rapid metabolizer)之盛行率為1.2%～2%。一般鴉片中毒症狀包括意識混亂、異常嗜睡、癱軟、呼吸緩慢或微弱、瞳孔變小、噁心、嘔吐、便秘、食慾不振等，嚴重會導致呼吸抑制，甚至導致死亡。 12. 謹慎使用本品於未滿12歲兒童，因可能會增加發生嚴重不良反應之風險。經醫師專業評估臨床效益大於風險時，方可考慮使用，且應依年齡減量使用，並特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。 13. 不建議使用本品於12至18歲具呼吸功能不全之兒童，例如具有神經肌肉疾病、嚴重心臟或呼吸系統疾病、上呼吸道或肺部感染及多重創傷或大範圍外科手術等，因可能會增加發生嚴重不良反應之風險，倘經評估仍需使用，應特別提醒病人及其照護者，如發生鴉片中毒之相關症狀，應立即停藥並就醫治療。 14. 禁止產婦於哺乳期間使用本品，因可能對於受哺乳嬰兒造成鴉片中毒之風險。雖然在正常治療劑量下，母乳中僅存在極低濃度之codeine與其活性代謝物，不太會對嬰兒產生不良反應，但屬CYP2D6超級快速藥物代謝之哺乳婦女，母乳中可能會存在高濃度之活性代謝物，可能對於受哺乳嬰兒產生鴉片中毒症狀，例如異常嗜睡、癱軟、餵養困難、呼吸困難，嚴重可能會致死。因此，產婦如需使用本品治療，應避免以用藥期間之母乳哺餵嬰兒。 15. 肝、腎功能不全者，應小心謹慎減量使用。 16. 長期使用易致成癮。 17. 腎上腺功能不全風險：曾有使用opioid類藥品發生腎上腺功能不全之通報案例，且多數案例為使用該類藥品超過一個月者。腎上腺功能不全可能以非特異性症狀表現，例如噁心、嘔吐、厭食、疲倦、虛弱、眩暈及低血壓等。如懷疑病人發生腎上腺功能不全，應儘速進行相關檢查，倘經確診為腎上腺功能不全，應停止使用原opioid成分藥品，並持續使用皮質類固醇類藥品進行治療，直到腎上腺功能復原。另可嘗試使用其他不同成分之opioid藥品，因曾有通報案件，於更換其他不同成分之opioid藥品後，未再出現腎上腺功能不全之情形。惟依目前現有資料，尚無法認定有特定opioid成分與腎上腺功能不全較有相關性。 18. 併用benzodiazepine類藥品或其他中樞神經系統抑制劑之風險：含codeine成分藥品併用benzodiazepine類藥品或其他中樞神經系統抑制劑(如：肌肉鬆弛劑、全身麻醉劑、酒精)，可能會引起重度鎮靜(profound sedation)、呼吸抑制、昏迷及死亡等風險，故除非無其他適當治療方式，方可考慮使用。倘同時處方opioid類止痛藥品及benzodiazepine成分藥品或其他中樞神經系統抑制劑，應使用最低有效劑量及最短治療期程。當對於正在使用opioid類止痛藥之病人，新增處方benzodiazepine成分藥品或其他中樞神經系統抑制劑時，抑或針對正在使用benzodiazepine成分藥品或其他中樞神經系統抑制劑之病人，新增處方opioid類止痛藥品時，應使用較低之初始劑量，且依據病人臨床表現調整劑量，並嚴密監測病人相關不良反應之發生。此外，應特別提醒病人及護理人員注意呼吸抑制和鎮靜之風險，病人於用藥期間亦不宜駕駛或操作危險器械。另針對具有濫用藥物可能之病人，應警告病人切勿飲酒或使用不法濫用藥物，否則可能會有過量和致死之風險。 19. 國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害（如中樞神經功能障礙等）之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n下列病人使用本品宜小心：氣喘或其他肺疾，心臟疾病(包括心律不整)，驚厥的疾病，腎臟或肝臟受損，前列腺肥大，嚴重的CNS抑制作用，毒性精神病，頭部受傷，顱內病灶，甲狀腺機能不足，愛迪生症；此外，還有酒精中毒和懷孕的婦女也要小心。\n6.1\n懷孕\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n(一) 輕微的暈眩、思睡、噁心、嘔吐及胃痛。 (二) 雄性激素缺乏：曾有使用opioid類藥品發生雄性激素缺乏之通報案例，且多數案例為使用該藥品超過一個月者。 (三) 血清素症候群：曾有使用opioid類藥品併用血清素作用劑藥品(serotonergic drugs)發生危及生命之血清素症候群(serotonin syndrome)通報案例。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n警告病人不可超過推薦量使用，因為超量使用時，鎮咳作用不會明顯的加強，但是不良反應和成癮的危險性增加。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n本品口服吸收良好，作用起始時間10分鐘至20分鐘：作用期從3小時至6小時。本品在肝臟代謝，大部份由尿液排出。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n60-4000毫升瓶裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n儲存於25℃以下\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "中生生技製藥股份有限公司淡水廠",
+          "address": "新北市淡水區埤島里行忠路120號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "中生生技製藥股份有限公司淡水廠",
+          "address": "新北市淡水區埤島里行忠路120號"
+        }
+      ]
+    }
+  ]
+}

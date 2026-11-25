@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:02:16.136242+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01000072",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第000072號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第000072號",
+      "matched_license_code": "01000072",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"黃氏\" 鹽酸麻黃鹼錠２５毫克",
+      "drug_name_en": "EPHEDRINE HCL TABLETS 25MG \"H.S.\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-11-18",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Each Tablet Contains： Ephedrine HCL ………………………………………………… 25mg",
+          "content_html": "<p>Each Tablet Contains：<br>Ephedrine HCL ………………………………………………… 25mg</p>",
+          "search_text": "1.1\n有效成分及含量\nEach Tablet Contains： Ephedrine HCL ………………………………………………… 25mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Lactose、Potato Starch、Tartrazine、Cochineal Red A (New Coccin)(food color red no.6)、Magnesium Stearate。",
+          "content_html": "<p>Lactose、Potato Starch、Tartrazine、Cochineal Red A (New Coccin)(food color red no.6)、Magnesium Stearate。</p>",
+          "search_text": "1.2\n賦形劑\nLactose、Potato Starch、Tartrazine、Cochineal Red A (New Coccin)(food color red no.6)、Magnesium Stearate。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "錠劑。",
+          "content_html": "<p>錠劑。</p>",
+          "search_text": "1.3\n劑型\n錠劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "粉橘色圓形錠。",
+          "content_html": "<p>粉橘色圓形錠。</p>",
+          "search_text": "1.4\n藥品外觀\n粉橘色圓形錠。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "支氣管性氣喘、血管運動神經性鼻炎、過敏性鼻炎。",
+          "content_html": "<p>支氣管性氣喘、血管運動神經性鼻炎、過敏性鼻炎。</p>",
+          "search_text": "2\n適應症\n支氣管性氣喘、血管運動神經性鼻炎、過敏性鼻炎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "本藥須由醫師處方使用。 一般成人劑量：口服，1~2錠(25~50mg)，必要時每3~4小時一次。 一般兒童劑量：口服，每公斤體重0.5mg或每平方公尺體表面16.7mg，每4~6小時服一次。",
+          "content_html": "<p>本藥須由醫師處方使用。<br>一般成人劑量：口服，1~2錠(25~50mg)，必要時每3~4小時一次。<br>一般兒童劑量：口服，每公斤體重0.5mg或每平方公尺體表面16.7mg，每4~6小時服一次。</p>",
+          "search_text": "3.1\n用法用量\n本藥須由醫師處方使用。 一般成人劑量：口服，1~2錠(25~50mg)，必要時每3~4小時一次。 一般兒童劑量：口服，每公斤體重0.5mg或每平方公尺體表面16.7mg，每4~6小時服一次。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "4\n禁忌\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "(一)病人若與其它擬交感神經作用藥(諸如Amphetamines、 Phenylpropanolamine、Epinephrine、Isoproterenol、Metapreterenol、Norepinephrine、Phenylephrine、Pseudoephedrine、Terbutaline)過敏，亦可能會對本藥過敏。 (二)有下列醫療問題時，本藥之使用應小心考慮： (1)心血管疾病包括心絞痛、心律不整或冠狀動脈功能不全。 (2)糖尿病。 (3)有閉角青光眼素質者。 (4)高血壓。 (5)甲狀腺機能亢進症。 (6)前列腺肥大。 (三)使用本藥時，切忌服用超過處方指示用量。 (四)一天中的最後劑量應在就寢前幾小時服用，以使失眠的可能性減至最低。",
+          "content_html": "<p>(一)病人若與其它擬交感神經作用藥(諸如Amphetamines、<br>Phenylpropanolamine、Epinephrine、Isoproterenol、Metapreterenol、Norepinephrine、Phenylephrine、Pseudoephedrine、Terbutaline)過敏，亦可能會對本藥過敏。<br>(二)有下列醫療問題時，本藥之使用應小心考慮：<br>&nbsp; &nbsp; &nbsp; &nbsp;(1)心血管疾病包括心絞痛、心律不整或冠狀動脈功能不全。<br>&nbsp; &nbsp; &nbsp; &nbsp;(2)糖尿病。</p><p>&nbsp; &nbsp; &nbsp; &nbsp;(3)有閉角青光眼素質者。<br>&nbsp; &nbsp; &nbsp; &nbsp;(4)高血壓。<br>&nbsp; &nbsp; &nbsp; &nbsp;(5)甲狀腺機能亢進症。<br>&nbsp; &nbsp; &nbsp; &nbsp;(6)前列腺肥大。<br>(三)使用本藥時，切忌服用超過處方指示用量。<br>(四)一天中的最後劑量應在就寢前幾小時服用，以使失眠的可能性減至最低。</p>",
+          "search_text": "5.1\n警語/注意事項\n(一)病人若與其它擬交感神經作用藥(諸如Amphetamines、 Phenylpropanolamine、Epinephrine、Isoproterenol、Metapreterenol、Norepinephrine、Phenylephrine、Pseudoephedrine、Terbutaline)過敏，亦可能會對本藥過敏。 (二)有下列醫療問題時，本藥之使用應小心考慮： (1)心血管疾病包括心絞痛、心律不整或冠狀動脈功能不全。 (2)糖尿病。 (3)有閉角青光眼素質者。 (4)高血壓。 (5)甲狀腺機能亢進症。 (6)前列腺肥大。 (三)使用本藥時，切忌服用超過處方指示用量。 (四)一天中的最後劑量應在就寢前幾小時服用，以使失眠的可能性減至最低。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "懷孕婦女使用本藥之安全性尚未確立，應就其使用之危險與效益加以考慮。FDA Pregnancy Category(懷孕用藥級數)：C",
+          "content_html": "<p>懷孕婦女使用本藥之安全性尚未確立，應就其使用之危險與效益加以考慮。FDA Pregnancy Category(懷孕用藥級數)：C</p>",
+          "search_text": "6.1\n懷孕\n懷孕婦女使用本藥之安全性尚未確立，應就其使用之危險與效益加以考慮。FDA Pregnancy Category(懷孕用藥級數)：C",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "哺乳婦女不宜使用本藥，因本藥可分泌至乳汁中，會對嬰兒造成危險。",
+          "content_html": "<p>哺乳婦女不宜使用本藥，因本藥可分泌至乳汁中，會對嬰兒造成危險。</p>",
+          "search_text": "6.2\n哺乳\n哺乳婦女不宜使用本藥，因本藥可分泌至乳汁中，會對嬰兒造成危險。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "(一)全身麻醉劑(尤其是Cyclopropane或Halogenated Hydrocarbons)Digitalis glycosides與本藥合用時，會產生心律不整，因這些藥物可能使心肌對 Ephedrine效應變得敏感。 (二)Ergonovine、Methylergonovine或Oxytocin與本藥合用會引發嚴重高血壓。 (三)Guanethidine與本藥合用時，會減弱其降血壓效應。 (四)MAO抑制劑與本藥合用時，會增強Ephedrine的加壓效應，可能導致高血壓危急； 因此，在MAO抑制劑投用期中或投藥後14天內不應投用本藥。 (五)Reserpine或Tricyclic antidepressants與本藥合用會減低Ephedrine的效應。 (六)其他類擬交感神經作用劑與本藥合用時，會增加彼此的藥效和潛在副作用。",
+          "content_html": "<p>(一)全身麻醉劑(尤其是Cyclopropane或Halogenated Hydrocarbons)Digitalis<br>&nbsp; &nbsp; glycosides與本藥合用時，會產生心律不整，因這些藥物可能使心肌對<br>&nbsp; &nbsp; Ephedrine效應變得敏感。<br> </p><p>(二)Ergonovine、Methylergonovine或Oxytocin與本藥合用會引發嚴重高血壓。<br>(三)Guanethidine與本藥合用時，會減弱其降血壓效應。<br>(四)MAO抑制劑與本藥合用時，會增強Ephedrine的加壓效應，可能導致高血壓危急；<br>&nbsp; &nbsp; 因此，在MAO抑制劑投用期中或投藥後14天內不應投用本藥。<br>(五)Reserpine或Tricyclic antidepressants與本藥合用會減低Ephedrine的效應。<br>(六)其他類擬交感神經作用劑與本藥合用時，會增加彼此的藥效和潛在副作用。</p><p><br></p>",
+          "search_text": "7\n交互作用\n(一)全身麻醉劑(尤其是Cyclopropane或Halogenated Hydrocarbons)Digitalis glycosides與本藥合用時，會產生心律不整，因這些藥物可能使心肌對 Ephedrine效應變得敏感。 (二)Ergonovine、Methylergonovine或Oxytocin與本藥合用會引發嚴重高血壓。 (三)Guanethidine與本藥合用時，會減弱其降血壓效應。 (四)MAO抑制劑與本藥合用時，會增強Ephedrine的加壓效應，可能導致高血壓危急； 因此，在MAO抑制劑投用期中或投藥後14天內不應投用本藥。 (五)Reserpine或Tricyclic antidepressants與本藥合用會減低Ephedrine的效應。 (六)其他類擬交感神經作用劑與本藥合用時，會增加彼此的藥效和潛在副作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "使用本藥如有胸痛或心跳不規則或高劑量下發生的幻覺或情緒或心理變化時，應予醫療照應。使用本藥如有下列徵象持續發生時，亦應給予醫療照應： 神經緊張、煩躁不安、入睡困難、排尿困難或疼痛、眩暈或頭昏眼花、溫熱感、頭痛、食慾不振、噁心、嘔吐、震顫、呼吸困難、盜汗、異常蒼白、心跳異常快速及虛弱等。",
+          "content_html": "<p>使用本藥如有胸痛或心跳不規則或高劑量下發生的幻覺或情緒或心理變化時，應予醫療照應。使用本藥如有下列徵象持續發生時，亦應給予醫療照應：</p><p>神經緊張、煩躁不安、入睡困難、排尿困難或疼痛、眩暈或頭昏眼花、溫熱感、頭痛、食慾不振、噁心、嘔吐、震顫、呼吸困難、盜汗、異常蒼白、心跳異常快速及虛弱等。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n使用本藥如有胸痛或心跳不規則或高劑量下發生的幻覺或情緒或心理變化時，應予醫療照應。使用本藥如有下列徵象持續發生時，亦應給予醫療照應： 神經緊張、煩躁不安、入睡困難、排尿困難或疼痛、眩暈或頭昏眼花、溫熱感、頭痛、食慾不振、噁心、嘔吐、震顫、呼吸困難、盜汗、異常蒼白、心跳異常快速及虛弱等。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "由於長期或過量使用本藥，會使病人對Ephedrine產生耐藥性，停服本藥幾天後再投服，即可恢復其藥效。",
+          "content_html": "<p>由於長期或過量使用本藥，會使病人對Ephedrine產生耐藥性，停服本藥幾天後再投服，即可恢復其藥效。</p>",
+          "search_text": "9\n過量\n由於長期或過量使用本藥，會使病人對Ephedrine產生耐藥性，停服本藥幾天後再投服，即可恢復其藥效。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "1.Ephedrine為兼具直接作用性與間接作用性的擬交感神經作用胺，主要作用在α與β的腎上腺素激導性接受體上。Ephedrine的某些活性是由於正腎上腺素自貯藏部位釋出的刺激所致。其作用機轉為： A.支氣管擴張劑： Ephedrine藉著β-2-腎上腺素激導性接受體之興奮而產生支氣管平滑肌鬆弛的作 用，面緩解輕度支氣管痙攣、加肺活量、增進空氣交換並減少殘餘容量。 Ephedrine亦可抑制抗原誘生性組織胺的釋出。 B.血管收縮劑： Ephedrine作用在鼻黏膜血管的α-腎上腺素激導性接受體上，因此產生血管收縮 作用而解除鼻充血。 C.血管加壓劑： Ephedrine作用在心臟的β-1-腎上腺素激導性接受體上，經由對心肌收縮力增強 的效應，而產生收縮力之增加，這種作用會增加心臟的輸出量，進而促使收縮壓 與舒張壓的增高。 Ephedrine亦可作用在骨骼肌血管的α-腎上腺素激導性接受體上，產生血管收縮 作用，促使周邊血管阻力增加，可能因而生加壓效應。 2.本藥口服後15-60分鐘內產生支氣管擴張作用，並可持續藥效2-4小時，心臟效應及 加壓效應的作用可高達4小時，但經由注射給藥時則作用期大約為1小時左右。 3.本藥的半生期視尿液ph值而定。尿液ph值為5時，半生期約為3小時；尿液ph值 為6.3時，半生期約為6小時。 4.本藥係在肝臟代謝，經由腎臟排出，在酸性尿液下排泄加速。",
+          "content_html": "<p>1.Ephedrine為兼具直接作用性與間接作用性的擬交感神經作用胺，主要作用在α與β的腎上腺素激導性接受體上。Ephedrine的某些活性是由於正腎上腺素自貯藏部位釋出的刺激所致。其作用機轉為：<br>&nbsp; &nbsp; &nbsp;A.支氣管擴張劑：<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ephedrine藉著β-2-腎上腺素激導性接受體之興奮而產生支氣管平滑肌鬆弛的作<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;用，面緩解輕度支氣管痙攣、加肺活量、增進空氣交換並減少殘餘容量。<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ephedrine亦可抑制抗原誘生性組織胺的釋出。<br>&nbsp; &nbsp; &nbsp;B.血管收縮劑：<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ephedrine作用在鼻黏膜血管的α-腎上腺素激導性接受體上，因此產生血管收縮<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;作用而解除鼻充血。<br>&nbsp; &nbsp; &nbsp;C.血管加壓劑：<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ephedrine作用在心臟的β-1-腎上腺素激導性接受體上，經由對心肌收縮力增強<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;的效應，而產生收縮力之增加，這種作用會增加心臟的輸出量，進而促使收縮壓<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;與舒張壓的增高。<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ephedrine亦可作用在骨骼肌血管的α-腎上腺素激導性接受體上，產生血管收縮<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;作用，促使周邊血管阻力增加，可能因而生加壓效應。<br>2.本藥口服後15-60分鐘內產生支氣管擴張作用，並可持續藥效2-4小時，心臟效應及<br>&nbsp; &nbsp;加壓效應的作用可高達4小時，但經由注射給藥時則作用期大約為1小時左右。<br>3.本藥的半生期視尿液ph值而定。尿液ph值為5時，半生期約為3小時；尿液ph值<br>&nbsp; &nbsp;為6.3時，半生期約為6小時。<br>4.本藥係在肝臟代謝，經由腎臟排出，在酸性尿液下排泄加速。</p>",
+          "search_text": "10.2\n藥效藥理特性\n1.Ephedrine為兼具直接作用性與間接作用性的擬交感神經作用胺，主要作用在α與β的腎上腺素激導性接受體上。Ephedrine的某些活性是由於正腎上腺素自貯藏部位釋出的刺激所致。其作用機轉為： A.支氣管擴張劑： Ephedrine藉著β-2-腎上腺素激導性接受體之興奮而產生支氣管平滑肌鬆弛的作 用，面緩解輕度支氣管痙攣、加肺活量、增進空氣交換並減少殘餘容量。 Ephedrine亦可抑制抗原誘生性組織胺的釋出。 B.血管收縮劑： Ephedrine作用在鼻黏膜血管的α-腎上腺素激導性接受體上，因此產生血管收縮 作用而解除鼻充血。 C.血管加壓劑： Ephedrine作用在心臟的β-1-腎上腺素激導性接受體上，經由對心肌收縮力增強 的效應，而產生收縮力之增加，這種作用會增加心臟的輸出量，進而促使收縮壓 與舒張壓的增高。 Ephedrine亦可作用在骨骼肌血管的α-腎上腺素激導性接受體上，產生血管收縮 作用，促使周邊血管阻力增加，可能因而生加壓效應。 2.本藥口服後15-60分鐘內產生支氣管擴張作用，並可持續藥效2-4小時，心臟效應及 加壓效應的作用可高達4小時，但經由注射給藥時則作用期大約為1小時左右。 3.本藥的半生期視尿液ph值而定。尿液ph值為5時，半生期約為3小時；尿液ph值 為6.3時，半生期約為6小時。 4.本藥係在肝臟代謝，經由腎臟排出，在酸性尿液下排泄加速。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "2~1000錠鋁箔盒裝。",
+          "content_html": "<p>2~1000錠鋁箔盒裝。</p>",
+          "search_text": "13.1\n包裝\n2~1000錠鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "貯於25℃以下乾燥避光處所。",
+          "content_html": "<p>貯於25℃以下乾燥避光處所。</p>",
+          "search_text": "13.3\n儲存條件\n貯於25℃以下乾燥避光處所。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "包裝於緊密容器。",
+          "content_html": "<p>包裝於緊密容器。</p>",
+          "search_text": "13.4\n儲存注意事項\n包裝於緊密容器。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nEach Tablet Contains： Ephedrine HCL ………………………………………………… 25mg\n1.2\n賦形劑\nLactose、Potato Starch、Tartrazine、Cochineal Red A (New Coccin)(food color red no.6)、Magnesium Stearate。\n1.3\n劑型\n錠劑。\n1.4\n藥品外觀\n粉橘色圓形錠。\n2\n適應症\n支氣管性氣喘、血管運動神經性鼻炎、過敏性鼻炎。\n3\n用法及用量\n3.1\n用法用量\n本藥須由醫師處方使用。 一般成人劑量：口服，1~2錠(25~50mg)，必要時每3~4小時一次。 一般兒童劑量：口服，每公斤體重0.5mg或每平方公尺體表面16.7mg，每4~6小時服一次。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n目前尚無資訊。\n5\n警語及注意事項\n5.1\n警語/注意事項\n(一)病人若與其它擬交感神經作用藥(諸如Amphetamines、 Phenylpropanolamine、Epinephrine、Isoproterenol、Metapreterenol、Norepinephrine、Phenylephrine、Pseudoephedrine、Terbutaline)過敏，亦可能會對本藥過敏。 (二)有下列醫療問題時，本藥之使用應小心考慮： (1)心血管疾病包括心絞痛、心律不整或冠狀動脈功能不全。 (2)糖尿病。 (3)有閉角青光眼素質者。 (4)高血壓。 (5)甲狀腺機能亢進症。 (6)前列腺肥大。 (三)使用本藥時，切忌服用超過處方指示用量。 (四)一天中的最後劑量應在就寢前幾小時服用，以使失眠的可能性減至最低。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n懷孕婦女使用本藥之安全性尚未確立，應就其使用之危險與效益加以考慮。FDA Pregnancy Category(懷孕用藥級數)：C\n6.2\n哺乳\n哺乳婦女不宜使用本藥，因本藥可分泌至乳汁中，會對嬰兒造成危險。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n(一)全身麻醉劑(尤其是Cyclopropane或Halogenated Hydrocarbons)Digitalis glycosides與本藥合用時，會產生心律不整，因這些藥物可能使心肌對 Ephedrine效應變得敏感。 (二)Ergonovine、Methylergonovine或Oxytocin與本藥合用會引發嚴重高血壓。 (三)Guanethidine與本藥合用時，會減弱其降血壓效應。 (四)MAO抑制劑與本藥合用時，會增強Ephedrine的加壓效應，可能導致高血壓危急； 因此，在MAO抑制劑投用期中或投藥後14天內不應投用本藥。 (五)Reserpine或Tricyclic antidepressants與本藥合用會減低Ephedrine的效應。 (六)其他類擬交感神經作用劑與本藥合用時，會增加彼此的藥效和潛在副作用。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n使用本藥如有胸痛或心跳不規則或高劑量下發生的幻覺或情緒或心理變化時，應予醫療照應。使用本藥如有下列徵象持續發生時，亦應給予醫療照應： 神經緊張、煩躁不安、入睡困難、排尿困難或疼痛、眩暈或頭昏眼花、溫熱感、頭痛、食慾不振、噁心、嘔吐、震顫、呼吸困難、盜汗、異常蒼白、心跳異常快速及虛弱等。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n由於長期或過量使用本藥，會使病人對Ephedrine產生耐藥性，停服本藥幾天後再投服，即可恢復其藥效。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n1.Ephedrine為兼具直接作用性與間接作用性的擬交感神經作用胺，主要作用在α與β的腎上腺素激導性接受體上。Ephedrine的某些活性是由於正腎上腺素自貯藏部位釋出的刺激所致。其作用機轉為： A.支氣管擴張劑： Ephedrine藉著β-2-腎上腺素激導性接受體之興奮而產生支氣管平滑肌鬆弛的作 用，面緩解輕度支氣管痙攣、加肺活量、增進空氣交換並減少殘餘容量。 Ephedrine亦可抑制抗原誘生性組織胺的釋出。 B.血管收縮劑： Ephedrine作用在鼻黏膜血管的α-腎上腺素激導性接受體上，因此產生血管收縮 作用而解除鼻充血。 C.血管加壓劑： Ephedrine作用在心臟的β-1-腎上腺素激導性接受體上，經由對心肌收縮力增強 的效應，而產生收縮力之增加，這種作用會增加心臟的輸出量，進而促使收縮壓 與舒張壓的增高。 Ephedrine亦可作用在骨骼肌血管的α-腎上腺素激導性接受體上，產生血管收縮 作用，促使周邊血管阻力增加，可能因而生加壓效應。 2.本藥口服後15-60分鐘內產生支氣管擴張作用，並可持續藥效2-4小時，心臟效應及 加壓效應的作用可高達4小時，但經由注射給藥時則作用期大約為1小時左右。 3.本藥的半生期視尿液ph值而定。尿液ph值為5時，半生期約為3小時；尿液ph值 為6.3時，半生期約為6小時。 4.本藥係在肝臟代謝，經由腎臟排出，在酸性尿液下排泄加速。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n2~1000錠鋁箔盒裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n貯於25℃以下乾燥避光處所。\n13.4\n儲存注意事項\n包裝於緊密容器。\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "黃氏製藥股份有限公司",
+          "address": "雲林縣斗南鎮小東里大同路４４４巷１１號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "黃氏製藥股份有限公司",
+          "address": "雲林縣斗南鎮小東里大同路４４４巷１１號"
+        }
+      ]
+    }
+  ]
+}

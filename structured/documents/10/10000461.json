@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:32.769073+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000461",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000461號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000461號",
+      "matched_license_code": "10000461",
+      "matched_nhi_code": "",
+      "drug_name_zh": "破傷風預防注射劑 250 Units",
+      "drug_name_en": "HYPERTET",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2025-10-23",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human))—HyperTET不含防腐劑。HyperTET是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH靜置處理等技術製備而成。HyperTET為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘氨酸。本產品符合美國標準抗毒素(U.S. Standard Antitoxin)及美國破傷風毒素控制(U.S. Control Tetanus Toxin)的標準，每1毫升中含有至少250個單位的破傷風抗毒素(≧250 Units/mL)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperTET的製程中，有幾個步驟可將病毒去活化或移除。(1)製程中有助於清除病毒的主要步驟如下： • 辛酸鹽沉澱／深層過濾 • 辛酸鹽靜置處理 • 深層過濾 • 管柱層析法 • 奈米過濾 • 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperTET製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症 variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。。(1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量CJD/vCJD感染原。",
+          "content_html": "<p>破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human))—HyperTET不含防腐劑。HyperTET是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH靜置處理等技術製備而成。HyperTET為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘氨酸。本產品符合美國標準抗毒素(U.S. Standard Antitoxin)及美國破傷風毒素控制(U.S. Control Tetanus Toxin)的標準，每1毫升中含有至少250個單位的破傷風抗毒素(≧250 Units/mL)。<br>使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。<br>在HyperTET的製程中，有幾個步驟可將病毒去活化或移除。(1)製程中有助於清除病毒的主要步驟如下：<br>• 辛酸鹽沉澱／深層過濾<br>• 辛酸鹽靜置處理</p><p>• 深層過濾<br>• 管柱層析法<br>• 奈米過濾<br>• 最終容器的低pH值中靜置處理<br>為進一步確保最終產品在病原體方面的安全性，HyperTET製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。<br>在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症 variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。。(1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量CJD/vCJD感染原。</p>",
+          "search_text": "1\n性狀\n破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human))—HyperTET不含防腐劑。HyperTET是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH靜置處理等技術製備而成。HyperTET為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘氨酸。本產品符合美國標準抗毒素(U.S. Standard Antitoxin)及美國破傷風毒素控制(U.S. Control Tetanus Toxin)的標準，每1毫升中含有至少250個單位的破傷風抗毒素(≧250 Units/mL)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperTET的製程中，有幾個步驟可將病毒去活化或移除。(1)製程中有助於清除病毒的主要步驟如下： • 辛酸鹽沉澱／深層過濾 • 辛酸鹽靜置處理 • 深層過濾 • 管柱層析法 • 奈米過濾 • 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperTET製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症 variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。。(1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量CJD/vCJD感染原。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分：破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human)) 每1支注射針筒含有250單位破傷風免疫球蛋白（人類）",
+          "content_html": "<p>有效成分：破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human))<br>每1支注射針筒含有250單位破傷風免疫球蛋白（人類）</p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分：破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human)) 每1支注射針筒含有250單位破傷風免疫球蛋白（人類）",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Glycine，Water for Injection。",
+          "content_html": "<p>Glycine，Water for Injection。</p>",
+          "search_text": "1.2\n賦形劑\nGlycine，Water for Injection。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑 (肌肉注射劑)。",
+          "content_html": "<p>注射劑 (肌肉注射劑)。</p>",
+          "search_text": "1.3\n劑型\n注射劑 (肌肉注射劑)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。",
+          "content_html": "<p>澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。</p>",
+          "search_text": "1.4\n藥品外觀\n澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "預防破傷風。 [說明] HyperTET可用於免疫反應不全或不確定病患受傷後破傷風的預防。也可以用於破傷風發病以後的治療，雖然證明此種用法的研究有限。(2-4)",
+          "content_html": "<p>預防破傷風。<br>[說明]<br>HyperTET可用於免疫反應不全或不確定病患受傷後破傷風的預防。也可以用於破傷風發病以後的治療，雖然證明此種用法的研究有限。(2-4)</p>",
+          "search_text": "2\n適應症\n預防破傷風。 [說明] HyperTET可用於免疫反應不全或不確定病患受傷後破傷風的預防。也可以用於破傷風發病以後的治療，雖然證明此種用法的研究有限。(2-4)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "肌肉注射。不可靜脈注射。 必須百分之百確定病人是否完成了基礎的疫苗注射，不清楚或不確定的話，就應視為沒有接受過破傷風類毒素。1941年後曾在軍中服役者，可視為至少接受過一劑，雖然這些人大部份都接種了基礎的破傷風疫苗系列，但不能確定每一個人都如此。沒有完成基礎疫苗系列接種的人，在進行清創術、擴創術時可能需要破傷風類毒素及被動免疫。(5) 下表為處理創傷時預防破傷風的用法摘要： 處理創傷時預防破傷風的用法摘要(3) 破傷風免疫記錄（劑量） 乾淨、輕微創傷 其它創傷* Td† TIG‡ Td TIG 不確定或少於三劑 三劑或三劑以上§ 是 否|| 否 否 是 否¶ 是 否 * 這類創傷包括受塵土、糞便、泥土、或唾液污染的傷口（但不僅限於此）；穿刺傷、撕裂傷、槍傷、輾壓受傷、燒傷、和凍傷。 † 成人型破傷風和白喉類毒素。七歲以下的病人使用 DT 或 DTP 比單獨用破傷風類毒素要好，七歲以上者使用 Td 也比單獨使用破傷風類毒素好。 ‡ 破傷風免疫球蛋白（人類） § 如果僅接受三劑液體破傷風類毒素，應給予第四劑（吸附性的類毒素較佳） || 如果前一劑使用超過十年，則為是。 ¶ 如果前一劑使用超過五年，則為是。（更頻繁的追加接種並不需要，而且它可能增加副作用） 例行預防療法 成人和七歲及七歲以上兒童：250單位HyperTET進行深部的肌肉注射，同時在不同的四肢部位、以不同的針筒給予成人使用的破傷風─白喉類毒素(Td)，用法則參照其仿單。若不清楚成年病患過去是否完成基本的疫苗接種，應使用Td複合類毒素做為需接種的基礎疫苗系列。為確保持續的效果，每隔十年應再追加一劑Td。(5) 七歲以下幼童：小孩子使用HyperTET的預防劑量可以用體重來計算（每公斤四單位），不過也有建議：不論小孩的體重多少，都使用整瓶或整支針筒的HyperTET（250單位），因為理論上破傷風菌在小孩體內產生的毒素和在成人體內一樣多。應在同時，但不同的四肢部位、以不同的針注射白喉─破傷風類毒素─百日咳三合一疫苗(DTP)或小孩用的白喉─破傷風類毒素(DT)（如果禁用百日咳疫苗），請參照各製劑的仿單。 注意：單一劑的破傷風類毒素只是啟動人體的主動免疫，醫師必須提醒病人：在一個月和一年後要再追加類毒素，否則主動免疫系列接種就不完全。對於未完成基礎系列的破傷風疫苗接種，且又不能使用含有破傷風類毒素的製劑者，這種人在受傷時，若傷口既不乾淨也不小，應給予破傷風免疫球蛋白展開被動免疫。(5)（詳見上表） 證據顯示，完整的破傷風類毒素之基礎疫苗注射，對大部份的接種者而言，可提供十年以上的保護效果。因此在完成基礎的破傷風疫苗接種後，就算為了傷口的處理（只要傷口輕微且未受污染），只須每十年再追加即可。但對於其它傷口，如果病人在之前五年內都沒有使用破傷風類毒素，可以再追加接種。曾接受至少兩劑以上的破傷風類毒素者可以迅速產生抗體。(5) 對這種病患或免疫力不全、不確定的人，預防性用藥劑量請見上表。 由於破傷風實際上是一種局部的感染，因此傷口最初適當的護理最重要，抗毒素的使用為輔助療法。不過最近的破傷風病例中，約有百分之十的人並未伴隨有傷口、皮膚或黏膜的裂縫。(6) 破傷風發病後的治療 破傷風發病後標準的治療法包括：立即使用HyperTET，劑量則視感染的嚴重程度而做調整。(2,3)",
+          "content_html": "<p><strong>肌肉注射。不可靜脈注射。</strong><br>必須百分之百確定病人是否完成了基礎的疫苗注射，不清楚或不確定的話，就應視為沒有接受過破傷風類毒素。1941年後曾在軍中服役者，可視為至少接受過一劑，雖然這些人大部份都接種了基礎的破傷風疫苗系列，但不能確定每一個人都如此。沒有完成基礎疫苗系列接種的人，在進行清創術、擴創術時可能需要破傷風類毒素及被動免疫。(5)<br>下表為處理創傷時預防破傷風的用法摘要：</p><p style=\"text-align:center;\"><strong>處理創傷時預防破傷風的用法</strong><span style=\"color:Black;\"><strong>摘要(3)</strong></span></p><figure class=\"table\"><table><tbody><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:18.55pt;padding:0cm;vertical-align:top;width:161.4pt;\" rowspan=\"2\"><p style=\"margin-left:14.6pt;\"><strong>破傷風免疫記錄（劑量）</strong></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:18.55pt;padding:0cm;vertical-align:top;width:132.0pt;\" colspan=\"2\"><p style=\"margin-left:23.6pt;\"><strong>乾淨、輕微創傷</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top:1.0pt solid black;height:18.55pt;padding:0cm;vertical-align:top;width:152.15pt;\" colspan=\"2\"><p style=\"margin-left:48.8pt;\"><strong>其它創傷*</strong></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;height:16.75pt;padding:0cm;vertical-align:top;width:64.2pt;\"><p style=\"margin-left:22.4pt;\"><strong>Td†</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:16.75pt;padding:0cm;vertical-align:top;width:67.8pt;\"><p style=\"margin-left:20.75pt;\"><strong>TIG‡</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;height:16.75pt;padding:0cm;vertical-align:top;width:76.2pt;\"><p style=\"margin-left:1.8pt;text-align:center;\"><strong>Td</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;height:16.75pt;padding:0cm;vertical-align:top;width:75.95pt;\"><p style=\"margin-left:1.8pt;text-align:center;\"><strong>TIG</strong></p></td></tr><tr><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:37.3pt;padding:0cm;vertical-align:top;width:161.4pt;\"><p style=\"margin-left:5.4pt;\"><strong>不確定或少於三劑</strong></p><p style=\"margin-left:5.4pt;\"><strong>三劑或三劑以上§</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;height:37.3pt;padding:0cm;vertical-align:top;width:64.2pt;\"><p style=\"margin-left:1.55pt;text-align:center;\"><strong>是</strong></p><p style=\"margin-left:1.55pt;text-align:center;\"><strong>否||</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:37.3pt;padding:0cm;vertical-align:top;width:67.8pt;\"><p style=\"margin-left:2.05pt;text-align:center;\"><strong>否</strong></p><p style=\"margin-left:2.05pt;text-align:center;\"><strong>否</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;height:37.3pt;padding:0cm;vertical-align:top;width:76.2pt;\"><p style=\"margin-left:1.8pt;text-align:center;\"><strong>是</strong></p><p style=\"margin-left:1.8pt;text-align:center;\"><strong>否¶</strong></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;height:37.3pt;padding:0cm;vertical-align:top;width:75.95pt;\"><p style=\"margin-left:1.8pt;text-align:center;\"><strong>是</strong></p><p style=\"margin-left:1.8pt;text-align:center;\"><strong>否</strong></p></td></tr></tbody></table></figure><p>*&nbsp;這類創傷包括受塵土、糞便、泥土、或唾液污染的傷口（但不僅限於此）；穿刺傷、撕裂傷、槍傷、輾壓受傷、燒傷、和凍傷。</p><p><strong>†&nbsp;</strong>成人型破傷風和白喉類毒素。七歲以下的病人使用 DT&nbsp;或&nbsp;DTP&nbsp;比單獨用破傷風類毒素要好，七歲以上者使用&nbsp;Td&nbsp;也比單獨使用破傷風類毒素好。</p><p><strong>‡&nbsp;</strong>破傷風免疫球蛋白（人類）</p><p><strong>§&nbsp;</strong>如果僅接受三劑液體破傷風類毒素，應給予第四劑（吸附性的類毒素較佳）</p><p><strong>||&nbsp;</strong>如果前一劑使用超過十年，則為是。</p><p><strong>¶&nbsp;</strong>如果前一劑使用超過五年，則為是。（更頻繁的追加接種並不需要，而且它可能增加副作用）</p><p style=\"margin-left:40px;\"><strong>例行預防療法</strong><br>成人和七歲及七歲以上兒童：250單位HyperTET進行深部的肌肉注射，同時在不同的四肢部位、以不同的針筒給予成人使用的破傷風─白喉類毒素(Td)，用法則參照其仿單。若不清楚成年病患過去是否完成基本的疫苗接種，應使用Td複合類毒素做為需接種的基礎疫苗系列。為確保持續的效果，每隔十年應再追加一劑Td。(5)<br>七歲以下幼童：小孩子使用HyperTET的預防劑量可以用體重來計算（每公斤四單位），不過也有建議：不論小孩的體重多少，都使用整瓶或整支針筒的HyperTET（250單位），因為理論上破傷風菌在小孩體內產生的毒素和在成人體內一樣多。應在同時，但不同的四肢部位、以不同的針注射白喉─破傷風類毒素─百日咳三合一疫苗(DTP)或小孩用的白喉─破傷風類毒素(DT)（如果禁用百日咳疫苗），請參照各製劑的仿單。<br>注意：單一劑的破傷風類毒素只是啟動人體的主動免疫，醫師必須提醒病人：在一個月和一年後要再追加類毒素，否則主動免疫系列接種就不完全。對於未完成基礎系列的破傷風疫苗接種，且又不能使用含有破傷風類毒素的製劑者，這種人在受傷時，若傷口既不乾淨也不小，應給予破傷風免疫球蛋白展開被動免疫。(5)（詳見上表）<br>證據顯示，完整的破傷風類毒素之基礎疫苗注射，對大部份的接種者而言，可提供十年以上的保護效果。因此在完成基礎的破傷風疫苗接種後，就算為了傷口的處理（只要傷口輕微且未受污染），只須每十年再追加即可。但對於其它傷口，如果病人在之前五年內都沒有使用破傷風類毒素，可以再追加接種。曾接受至少兩劑以上的破傷風類毒素者可以迅速產生抗體。(5) 對這種病患或免疫力不全、不確定的人，預防性用藥劑量請見上表。<br>由於破傷風實際上是一種局部的感染，因此傷口最初適當的護理最重要，抗毒素的使用為輔助療法。不過最近的破傷風病例中，約有百分之十的人並未伴隨有傷口、皮膚或黏膜的裂縫。(6)</p><p><strong>破傷風發病後的治療</strong></p><p style=\"margin-left:40px;\">破傷風發病後標準的治療法包括：立即使用HyperTET，劑量則視感染的嚴重程度而做調整。(2,3)</p>",
+          "search_text": "3.1\n用法用量\n肌肉注射。不可靜脈注射。 必須百分之百確定病人是否完成了基礎的疫苗注射，不清楚或不確定的話，就應視為沒有接受過破傷風類毒素。1941年後曾在軍中服役者，可視為至少接受過一劑，雖然這些人大部份都接種了基礎的破傷風疫苗系列，但不能確定每一個人都如此。沒有完成基礎疫苗系列接種的人，在進行清創術、擴創術時可能需要破傷風類毒素及被動免疫。(5) 下表為處理創傷時預防破傷風的用法摘要： 處理創傷時預防破傷風的用法摘要(3) 破傷風免疫記錄（劑量） 乾淨、輕微創傷 其它創傷* Td† TIG‡ Td TIG 不確定或少於三劑 三劑或三劑以上§ 是 否|| 否 否 是 否¶ 是 否 * 這類創傷包括受塵土、糞便、泥土、或唾液污染的傷口（但不僅限於此）；穿刺傷、撕裂傷、槍傷、輾壓受傷、燒傷、和凍傷。 † 成人型破傷風和白喉類毒素。七歲以下的病人使用 DT 或 DTP 比單獨用破傷風類毒素要好，七歲以上者使用 Td 也比單獨使用破傷風類毒素好。 ‡ 破傷風免疫球蛋白（人類） § 如果僅接受三劑液體破傷風類毒素，應給予第四劑（吸附性的類毒素較佳） || 如果前一劑使用超過十年，則為是。 ¶ 如果前一劑使用超過五年，則為是。（更頻繁的追加接種並不需要，而且它可能增加副作用） 例行預防療法 成人和七歲及七歲以上兒童：250單位HyperTET進行深部的肌肉注射，同時在不同的四肢部位、以不同的針筒給予成人使用的破傷風─白喉類毒素(Td)，用法則參照其仿單。若不清楚成年病患過去是否完成基本的疫苗接種，應使用Td複合類毒素做為需接種的基礎疫苗系列。為確保持續的效果，每隔十年應再追加一劑Td。(5) 七歲以下幼童：小孩子使用HyperTET的預防劑量可以用體重來計算（每公斤四單位），不過也有建議：不論小孩的體重多少，都使用整瓶或整支針筒的HyperTET（250單位），因為理論上破傷風菌在小孩體內產生的毒素和在成人體內一樣多。應在同時，但不同的四肢部位、以不同的針注射白喉─破傷風類毒素─百日咳三合一疫苗(DTP)或小孩用的白喉─破傷風類毒素(DT)（如果禁用百日咳疫苗），請參照各製劑的仿單。 注意：單一劑的破傷風類毒素只是啟動人體的主動免疫，醫師必須提醒病人：在一個月和一年後要再追加類毒素，否則主動免疫系列接種就不完全。對於未完成基礎系列的破傷風疫苗接種，且又不能使用含有破傷風類毒素的製劑者，這種人在受傷時，若傷口既不乾淨也不小，應給予破傷風免疫球蛋白展開被動免疫。(5)（詳見上表） 證據顯示，完整的破傷風類毒素之基礎疫苗注射，對大部份的接種者而言，可提供十年以上的保護效果。因此在完成基礎的破傷風疫苗接種後，就算為了傷口的處理（只要傷口輕微且未受污染），只須每十年再追加即可。但對於其它傷口，如果病人在之前五年內都沒有使用破傷風類毒素，可以再追加接種。曾接受至少兩劑以上的破傷風類毒素者可以迅速產生抗體。(5) 對這種病患或免疫力不全、不確定的人，預防性用藥劑量請見上表。 由於破傷風實際上是一種局部的感染，因此傷口最初適當的護理最重要，抗毒素的使用為輔助療法。不過最近的破傷風病例中，約有百分之十的人並未伴隨有傷口、皮膚或黏膜的裂縫。(6) 破傷風發病後的治療 破傷風發病後標準的治療法包括：立即使用HyperTET，劑量則視感染的嚴重程度而做調整。(2,3)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "HyperTET不可靜脈注射。 只應做肌肉注射，因此，在針頭刺進肌肉後，推注藥品前，應回抽一點針柄，以確認針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(7) 腸外投藥（注射）製劑在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。如果有顆粒或變色就不可使用。 為了安全及方便使用，HyperTET注射針筒附有安全護套。請依照下列指示正確使用。 針劑的使用方法 1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。 3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。 7. 注入藥物。 8. 保持手在針頭後方，另一隻手握繄安全護套並滑向針頭直到完全蓋住針頭，若未聽到喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）\n許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。",
+          "content_html": "<p><strong>HyperTET不可靜脈注射。</strong><br>只應做肌肉注射，因此，在針頭刺進肌肉後，推注藥品前，應回抽一點針柄，以確認針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(7)<br>腸外投藥（注射）製劑在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。如果有顆粒或變色就不可使用。<br>為了安全及方便使用，HyperTET注射針筒附有安全護套。請依照下列指示正確使用。<br>針劑的使用方法<br>1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。<br>2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。<br>3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。<br>4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】<br>5. 將針頭刺進皮下。<br>6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。<br>7. 注入藥物。<br>8. 保持手在針頭後方，另一隻手握繄安全護套並滑向針頭直到完全蓋住針頭，若未聽到喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B）<br>9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）</p>\n<p>許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。</p>",
+          "search_text": "3.2\n調製方式\nHyperTET不可靜脈注射。 只應做肌肉注射，因此，在針頭刺進肌肉後，推注藥品前，應回抽一點針柄，以確認針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(7) 腸外投藥（注射）製劑在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。如果有顆粒或變色就不可使用。 為了安全及方便使用，HyperTET注射針筒附有安全護套。請依照下列指示正確使用。 針劑的使用方法 1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。 3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。 7. 注入藥物。 8. 保持手在針頭後方，另一隻手握繄安全護套並滑向針頭直到完全蓋住針頭，若未聽到喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）\n許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 9920
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "未知。",
+          "content_html": "<p>未知。</p>",
+          "search_text": "4\n禁忌\n未知。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 處理傷口時，以化學（抗生素）預防療法對付破傷風既不實際也沒有效果，而以清創術、擴創術及適當的免疫作用較重要。是否需要破傷風類毒素（主動免疫）、是否要併用TIG（被動免疫），必須視傷口的情況和病人過去接種疫苗的記錄而定。破傷風很少會發生於曾經接種基礎的類毒素疫苗系列者。(5)（請見上表） 曾對人類免疫球蛋白製劑有全身性過敏反應者，在使用HyperTET時應特別小心。 不應做皮膚測驗。因為高濃度的IgG溶液注射到皮下時，常會導致局部發炎，如此很容易被誤判為陽性的過敏反應，實際上不是過敏，而是局部組織受到刺激。錯誤地解讀皮膚試驗的結果，可能讓醫師不敢對於事實上沒有過敏的病人，投予人類抗毒素。遵照處方給予肌肉注射的人類IgG，很少造成真正的過敏反應。 HyperTET不可做靜脈注射。限於肌肉注射的免疫球蛋白製劑，如果做靜脈注射有時會導致血壓急速下降，同時會有過敏的類似反應。 雖然人類免疫球蛋白製劑很少有全身性反應，但仍應準備腎上腺素，供發生急性過敏反應時治療之用。 有嚴重的血小板缺乏症、或有其它凝血性疾病患者禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用HyperTET。 強烈建議醫護人員在每次注射HyperTET時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。",
+          "content_html": "<p>【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。<br>處理傷口時，以化學（抗生素）預防療法對付破傷風既不實際也沒有效果，而以清創術、擴創術及適當的免疫作用較重要。是否需要破傷風類毒素（主動免疫）、是否要併用TIG（被動免疫），必須視傷口的情況和病人過去接種疫苗的記錄而定。破傷風很少會發生於曾經接種基礎的類毒素疫苗系列者。(5)（請見上表）<br>曾對人類免疫球蛋白製劑有全身性過敏反應者，在使用HyperTET時應特別小心。<br>不應做皮膚測驗。因為高濃度的IgG溶液注射到皮下時，常會導致局部發炎，如此很容易被誤判為陽性的過敏反應，實際上不是過敏，而是局部組織受到刺激。錯誤地解讀皮膚試驗的結果，可能讓醫師不敢對於事實上沒有過敏的病人，投予人類抗毒素。遵照處方給予肌肉注射的人類IgG，很少造成真正的過敏反應。<br>HyperTET不可做靜脈注射。限於肌肉注射的免疫球蛋白製劑，如果做靜脈注射有時會導致血壓急速下降，同時會有過敏的類似反應。<br>雖然人類免疫球蛋白製劑很少有全身性反應，但仍應準備腎上腺素，供發生急性過敏反應時治療之用。<br>有嚴重的血小板缺乏症、或有其它凝血性疾病患者禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用HyperTET。<br>強烈建議醫護人員在每次注射HyperTET時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。</p>",
+          "search_text": "5.1\n警語/注意事項\n【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 處理傷口時，以化學（抗生素）預防療法對付破傷風既不實際也沒有效果，而以清創術、擴創術及適當的免疫作用較重要。是否需要破傷風類毒素（主動免疫）、是否要併用TIG（被動免疫），必須視傷口的情況和病人過去接種疫苗的記錄而定。破傷風很少會發生於曾經接種基礎的類毒素疫苗系列者。(5)（請見上表） 曾對人類免疫球蛋白製劑有全身性過敏反應者，在使用HyperTET時應特別小心。 不應做皮膚測驗。因為高濃度的IgG溶液注射到皮下時，常會導致局部發炎，如此很容易被誤判為陽性的過敏反應，實際上不是過敏，而是局部組織受到刺激。錯誤地解讀皮膚試驗的結果，可能讓醫師不敢對於事實上沒有過敏的病人，投予人類抗毒素。遵照處方給予肌肉注射的人類IgG，很少造成真正的過敏反應。 HyperTET不可做靜脈注射。限於肌肉注射的免疫球蛋白製劑，如果做靜脈注射有時會導致血壓急速下降，同時會有過敏的類似反應。 雖然人類免疫球蛋白製劑很少有全身性反應，但仍應準備腎上腺素，供發生急性過敏反應時治療之用。 有嚴重的血小板缺乏症、或有其它凝血性疾病患者禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用HyperTET。 強烈建議醫護人員在每次注射HyperTET時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "未觀察到對駕駛車輛和使用機器的能力具有影響。",
+          "content_html": "<p>未觀察到對駕駛車輛和使用機器的能力具有影響。</p>",
+          "search_text": "5.3\n操作機械能力\n未觀察到對駕駛車輛和使用機器的能力具有影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "用藥分級C 尚未以HyperTET進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。",
+          "content_html": "<p>用藥分級C<br>尚未以HyperTET進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。</p>",
+          "search_text": "6.1\n懷孕\n用藥分級C 尚未以HyperTET進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前尚無HyperTET是否會出現在人乳中、其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperTET的臨床需要，以及HyperTET或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。",
+          "content_html": "<p>目前尚無HyperTET是否會出現在人乳中、其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperTET的臨床需要，以及HyperTET或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。</p>",
+          "search_text": "6.2\n哺乳\n目前尚無HyperTET是否會出現在人乳中、其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperTET的臨床需要，以及HyperTET或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "安全性和有效性都尚未確立。",
+          "content_html": "<p>安全性和有效性都尚未確立。</p>",
+          "search_text": "6.4\n小兒\n安全性和有效性都尚未確立。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "免疫球蛋白製劑的抗體可能干擾活病毒（減毒）疫苗的作用，例如麻疹、腮腺炎、小兒麻痺和德國麻疹。因此，這些疫苗最好延至HyperTET使用三個月以後再接種。 未知與其它藥物的交互作用。",
+          "content_html": "<p>免疫球蛋白製劑的抗體可能干擾活病毒（減毒）疫苗的作用，例如麻疹、腮腺炎、小兒麻痺和德國麻疹。因此，這些疫苗最好延至HyperTET使用三個月以後再接種。<br>未知與其它藥物的交互作用。</p>",
+          "search_text": "7\n交互作用\n免疫球蛋白製劑的抗體可能干擾活病毒（減毒）疫苗的作用，例如麻疹、腮腺炎、小兒麻痺和德國麻疹。因此，這些疫苗最好延至HyperTET使用三個月以後再接種。 未知與其它藥物的交互作用。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "有時可能出現注射部位輕微疼痛和輕微發燒。因重複注射人類免疫球蛋白而引起致敏反應的情況極為罕見。 在免疫球蛋白例行性注射的眾多人當中，只有少數個案曾出現血管神經性水腫、腎病症候群、和注射後的過敏性休克反應。",
+          "content_html": "<p>有時可能出現注射部位輕微疼痛和輕微發燒。因重複注射人類免疫球蛋白而引起致敏反應的情況極為罕見。<br>在免疫球蛋白例行性注射的眾多人當中，只有少數個案曾出現血管神經性水腫、腎病症候群、和注射後的過敏性休克反應。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n有時可能出現注射部位輕微疼痛和輕微發燒。因重複注射人類免疫球蛋白而引起致敏反應的情況極為罕見。 在免疫球蛋白例行性注射的眾多人當中，只有少數個案曾出現血管神經性水腫、腎病症候群、和注射後的過敏性休克反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.2\n臨床試驗經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛的情形發生。",
+          "content_html": "<p>目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛的情形發生。</p>",
+          "search_text": "9\n過量\n目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛的情形發生。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥物類別：免疫血清類，特異性免疫球蛋白，人類破傷風免疫球蛋白； ATC代碼：J06BB02 對破傷風病原體─Clostridium tetani 的毒素沒有免疫反應、或免疫反應很低者，HyperTET可提供被動免疫，其抗體可中和病菌所產生的游離型態的強力外毒素。過去這種被動保護作用是以牛或馬血清中分離出來的抗毒素提供，不過這種異種產品的外來蛋白質，通常會造成嚴重的過敏反應，甚至在使用前接受皮膚或結膜測試為陰性者也發生過敏反應。據估計，來自馬的抗毒素發生外來蛋白反應的比率為5-30%。(8-11) 因此如果需要被動免疫，破傷風免疫球蛋白(人類)(TIG)為優先選擇，它的保護效果比動物來源的抗毒素要長，而且副作用較少。(5) 在美國破傷風病例已經大幅減少，從1947年開始做全國性通報時的560個報告病例，減到1987年只有48例的最低記錄。(12) 病例減少主要是因破傷風類毒素的廣泛應用及傷口處理技術的進步，包括在急診室中使用預防破傷風的措施。(5) 多項研究顯示出人類破傷風抗毒素在治療破傷風上的價值。(2,3) 1961 與 1962年時，Nation等人(2) 以Hyper-Tet治療20名破傷風病患，劑量是一劑3000到6000單位的抗毒素，並採取了其他已被接受的臨床上及護理方面的措施，其中有六名超過45歲的病人因破傷風以外的因素死亡。研究者認為30%的死亡率比以前使用較大劑量的馬抗毒素要好，也比1951到1954年間全國破傷風60%的死亡率要好得多。(13) Blake等人(14) 分析1965到1971年間向疾病控制中心通報的545個破傷風病例的資料，結果發現使用8000單位TIG時的存活率並未高於使用500單位，不過也未定出一個最適當的劑量。 血清學上的檢驗顯示，在美國並沒有發現自然獲得破傷風類毒素免疫作用的例子。因此各年齡層都需要全面接種疫苗基礎注射，並在適當時間追加接種以保持足夠的抗毒素濃度。破傷風類毒素是一種高效能的抗原，在完成基礎疫苗系列接種後，血中抗毒素有效濃度可持續十年以上。(5) 被動免疫的HyperTET及主動免疫的類毒素可同時使用於必須立即注射破傷風抗毒素的人、或需要進行主動免疫防疫者。Rubbo (15) 、McComb與 Dwyer(16)、Levine等人(17)的研究指出，醫師可因此立即提供被動免疫來對抗破傷風，並因在同時對受傷病患接種完整的類毒素系列，使其產生主動免疫，此後即不需再注射抗毒素。",
+          "content_html": "<p>藥物類別：免疫血清類，特異性免疫球蛋白，人類破傷風免疫球蛋白；<br>ATC代碼：J06BB02</p><p>對破傷風病原體─Clostridium tetani 的毒素沒有免疫反應、或免疫反應很低者，HyperTET可提供被動免疫，其抗體可中和病菌所產生的游離型態的強力外毒素。過去這種被動保護作用是以牛或馬血清中分離出來的抗毒素提供，不過這種異種產品的外來蛋白質，通常會造成嚴重的過敏反應，甚至在使用前接受皮膚或結膜測試為陰性者也發生過敏反應。據估計，來自馬的抗毒素發生外來蛋白反應的比率為5-30%。(8-11) 因此如果需要被動免疫，破傷風免疫球蛋白(人類)(TIG)為優先選擇，它的保護效果比動物來源的抗毒素要長，而且副作用較少。(5)<br>在美國破傷風病例已經大幅減少，從1947年開始做全國性通報時的560個報告病例，減到1987年只有48例的最低記錄。(12) 病例減少主要是因破傷風類毒素的廣泛應用及傷口處理技術的進步，包括在急診室中使用預防破傷風的措施。(5)<br>多項研究顯示出人類破傷風抗毒素在治療破傷風上的價值。(2,3) 1961 與 1962年時，Nation等人(2) 以Hyper-Tet治療20名破傷風病患，劑量是一劑3000到6000單位的抗毒素，並採取了其他已被接受的臨床上及護理方面的措施，其中有六名超過45歲的病人因破傷風以外的因素死亡。研究者認為30%的死亡率比以前使用較大劑量的馬抗毒素要好，也比1951到1954年間全國破傷風60%的死亡率要好得多。(13) Blake等人(14) 分析1965到1971年間向疾病控制中心通報的545個破傷風病例的資料，結果發現使用8000單位TIG時的存活率並未高於使用500單位，不過也未定出一個最適當的劑量。<br>血清學上的檢驗顯示，在美國並沒有發現自然獲得破傷風類毒素免疫作用的例子。因此各年齡層都需要全面接種疫苗基礎注射，並在適當時間追加接種以保持足夠的抗毒素濃度。破傷風類毒素是一種高效能的抗原，在完成基礎疫苗系列接種後，血中抗毒素有效濃度可持續十年以上。(5)<br>被動免疫的HyperTET及主動免疫的類毒素可同時使用於必須立即注射破傷風抗毒素的人、或需要進行主動免疫防疫者。Rubbo (15) 、McComb與 Dwyer(16)、Levine等人(17)的研究指出，醫師可因此立即提供被動免疫來對抗破傷風，並因在同時對受傷病患接種完整的類毒素系列，使其產生主動免疫，此後即不需再注射抗毒素。</p>",
+          "search_text": "10.2\n藥效藥理特性\n藥物類別：免疫血清類，特異性免疫球蛋白，人類破傷風免疫球蛋白； ATC代碼：J06BB02 對破傷風病原體─Clostridium tetani 的毒素沒有免疫反應、或免疫反應很低者，HyperTET可提供被動免疫，其抗體可中和病菌所產生的游離型態的強力外毒素。過去這種被動保護作用是以牛或馬血清中分離出來的抗毒素提供，不過這種異種產品的外來蛋白質，通常會造成嚴重的過敏反應，甚至在使用前接受皮膚或結膜測試為陰性者也發生過敏反應。據估計，來自馬的抗毒素發生外來蛋白反應的比率為5-30%。(8-11) 因此如果需要被動免疫，破傷風免疫球蛋白(人類)(TIG)為優先選擇，它的保護效果比動物來源的抗毒素要長，而且副作用較少。(5) 在美國破傷風病例已經大幅減少，從1947年開始做全國性通報時的560個報告病例，減到1987年只有48例的最低記錄。(12) 病例減少主要是因破傷風類毒素的廣泛應用及傷口處理技術的進步，包括在急診室中使用預防破傷風的措施。(5) 多項研究顯示出人類破傷風抗毒素在治療破傷風上的價值。(2,3) 1961 與 1962年時，Nation等人(2) 以Hyper-Tet治療20名破傷風病患，劑量是一劑3000到6000單位的抗毒素，並採取了其他已被接受的臨床上及護理方面的措施，其中有六名超過45歲的病人因破傷風以外的因素死亡。研究者認為30%的死亡率比以前使用較大劑量的馬抗毒素要好，也比1951到1954年間全國破傷風60%的死亡率要好得多。(13) Blake等人(14) 分析1965到1971年間向疾病控制中心通報的545個破傷風病例的資料，結果發現使用8000單位TIG時的存活率並未高於使用500單位，不過也未定出一個最適當的劑量。 血清學上的檢驗顯示，在美國並沒有發現自然獲得破傷風類毒素免疫作用的例子。因此各年齡層都需要全面接種疫苗基礎注射，並在適當時間追加接種以保持足夠的抗毒素濃度。破傷風類毒素是一種高效能的抗原，在完成基礎疫苗系列接種後，血中抗毒素有效濃度可持續十年以上。(5) 被動免疫的HyperTET及主動免疫的類毒素可同時使用於必須立即注射破傷風抗毒素的人、或需要進行主動免疫防疫者。Rubbo (15) 、McComb與 Dwyer(16)、Levine等人(17)的研究指出，醫師可因此立即提供被動免疫來對抗破傷風，並因在同時對受傷病患接種完整的類毒素系列，使其產生主動免疫，此後即不需再注射抗毒素。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "IgG的最高血中濃度出現於肌肉注射後大約兩天。在具有正常IgG濃度人體的血液循環中，IgG的半衰期為23天。(18) 在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。",
+          "content_html": "<p>IgG的最高血中濃度出現於肌肉注射後大約兩天。在具有正常IgG濃度人體的血液循環中，IgG的半衰期為23天。(18)<br>在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。</p>",
+          "search_text": "11\n藥物動力學特性\nIgG的最高血中濃度出現於肌肉注射後大約兩天。在具有正常IgG濃度人體的血液循環中，IgG的半衰期為23天。(18) 在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "250單位注射針筒附針頭(syringe with attached needle)。HyperTET不含防腐劑且包材非由天然橡膠乳膠製成。",
+          "content_html": "<p>250單位注射針筒附針頭(syringe with attached needle)。HyperTET不含防腐劑且包材非由天然橡膠乳膠製成。</p>",
+          "search_text": "13.1\n包裝\n250單位注射針筒附針頭(syringe with attached needle)。HyperTET不含防腐劑且包材非由天然橡膠乳膠製成。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "24個月。",
+          "content_html": "<p>24個月。</p>",
+          "search_text": "13.2\n效期\n24個月。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "在2-8℃下儲存。",
+          "content_html": "<p>在2-8℃下儲存。</p>",
+          "search_text": "13.3\n儲存條件\n在2-8℃下儲存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "冰凍過的溶液不得使用。未使用的部分也須丟棄。",
+          "content_html": "<p>冰凍過的溶液不得使用。未使用的部分也須丟棄。</p>",
+          "search_text": "13.4\n儲存注意事項\n冰凍過的溶液不得使用。未使用的部分也須丟棄。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "參考資料 1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtrationmodified process. Biologicals 2012;40:247-53. 2. Nation NS, Pierce NF, Adler SJ, et al: Tetanus: the use of human hyperimmune globulin in treatment. Calif Med 98(6):305-6, 1963. 3. Ellis M: Human antitetanus serum in the treatment of tetanus. Br Med J 1(5338):1123-6, 1963. 4. McCracken GH Jr., Dowell DL, Marshall FN: Double-blind trial of equine antitoxin and human immune globulin in tetanus neonatorum. Lancet 1(7710):1146-9, 1971. 5. Diphtheria, Tetanus, and Pertussis: Recommendations for Vaccine Use and Other Preventive Measures. Recommendations of the Immunization Practices Advisory Committee (ACIP). MMWR 40 (RR-10): 1-28, 1991. 6. Tetanus-Rates by year, United States, 1955-1984. Annual Summary 1984. MMWR 33 (54):61, 1986. 7. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 8. Moynihan NH: Tetanus prophylaxis and serum sensitivity tests. Br Med J 1:260-4, 1956. 9. Scheibel I: The uses and results of active tetanus immunization. Bull WHO 13:381-94, 1955. 10. Edsall G: Specific prophylaxis of tetanus. JAMA 171(4):417-27, 1959. 11. Bardenwerper HW: Serum neuritis from tetanus antitoxin. JAMA 179(10):763-6, 1962. 12. Tetanus — United States, 1987 and 1988, MMWR 39(3): 37-41, 1990. 13. Axnick NW, Alexander ER: Tetanus in the United States: A review of the problem. Am J Public Health 47(12):1493-1501, 1957. 14. Blake PA, Feldman RA, Buchanan TM, et al: Serologic therapy of tetanus in the United States, 1965-1971. JAMA 235(1):42-4, 1976. 15. Rubbo SD: New approaches to tetanus prophylaxis. Lancet 2(7461):449-53, 1966. 16. McComb JA, Dwyer RC: Passive-active immunization with tetanus immune globulin (human). N Engl J Med 268(16):857-62, 1963. 17. Levine L, McComb JA, Dwyer RC, et al: Active-passive tetanus immunization; choice of toxoid, dose of tetanus immune globulin and timing of injections. N Engl J Med 274(4):186-90, 1966. 18. Waldmann TA, Strober W, Blaese RM: Variations in the metabolism of immunoglobulins measured by turnover rates. In Merler E (ed.): Immunoglobulins: biologic aspects and clinical uses. Washington, DC, Nat Acad Sci, 1970, p. 33-51.",
+          "content_html": "<p>參考資料<br>1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtrationmodified process. Biologicals 2012;40:247-53.<br>2. Nation NS, Pierce NF, Adler SJ, et al: Tetanus: the use of human hyperimmune globulin in treatment. Calif Med 98(6):305-6, 1963.<br>3. Ellis M: Human antitetanus serum in the treatment of tetanus. Br Med J 1(5338):1123-6, 1963.<br>4. McCracken GH Jr., Dowell DL, Marshall FN: Double-blind trial of equine antitoxin and human immune globulin in tetanus neonatorum. Lancet 1(7710):1146-9, 1971.<br>5. Diphtheria, Tetanus, and Pertussis: Recommendations for Vaccine Use and Other Preventive Measures. Recommendations of the Immunization Practices Advisory Committee (ACIP). MMWR 40 (RR-10): 1-28, 1991.<br>6. Tetanus-Rates by year, United States, 1955-1984. Annual Summary 1984. MMWR 33 (54):61, 1986.<br>7. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36.<br>8. Moynihan NH: Tetanus prophylaxis and serum sensitivity tests. Br Med J 1:260-4, 1956.<br>9. Scheibel I: The uses and results of active tetanus immunization. Bull WHO 13:381-94, 1955.<br>10. Edsall G: Specific prophylaxis of tetanus. JAMA 171(4):417-27, 1959.<br>11. Bardenwerper HW: Serum neuritis from tetanus antitoxin. JAMA 179(10):763-6, 1962.<br>12. Tetanus — United States, 1987 and 1988, MMWR 39(3): 37-41, 1990.<br>13. Axnick NW, Alexander ER: Tetanus in the United States: A review of the problem. Am J Public Health 47(12):1493-1501, 1957.<br>14. Blake PA, Feldman RA, Buchanan TM, et al: Serologic therapy of tetanus in the United States, 1965-1971. JAMA 235(1):42-4, 1976.<br>15. Rubbo SD: New approaches to tetanus prophylaxis. Lancet 2(7461):449-53, 1966.<br>16. McComb JA, Dwyer RC: Passive-active immunization with tetanus immune globulin (human). N Engl J Med 268(16):857-62, 1963.<br>17. Levine L, McComb JA, Dwyer RC, et al: Active-passive tetanus immunization; choice of toxoid, dose of tetanus immune globulin and timing of injections. N Engl J Med 274(4):186-90, 1966.<br>18. Waldmann TA, Strober W, Blaese RM: Variations in the metabolism of immunoglobulins measured by turnover rates. In Merler E (ed.): Immunoglobulins: biologic aspects and clinical uses. Washington, DC, Nat Acad Sci, 1970, p. 33-51.</p>",
+          "search_text": "15\n其他\n參考資料 1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtrationmodified process. Biologicals 2012;40:247-53. 2. Nation NS, Pierce NF, Adler SJ, et al: Tetanus: the use of human hyperimmune globulin in treatment. Calif Med 98(6):305-6, 1963. 3. Ellis M: Human antitetanus serum in the treatment of tetanus. Br Med J 1(5338):1123-6, 1963. 4. McCracken GH Jr., Dowell DL, Marshall FN: Double-blind trial of equine antitoxin and human immune globulin in tetanus neonatorum. Lancet 1(7710):1146-9, 1971. 5. Diphtheria, Tetanus, and Pertussis: Recommendations for Vaccine Use and Other Preventive Measures. Recommendations of the Immunization Practices Advisory Committee (ACIP). MMWR 40 (RR-10): 1-28, 1991. 6. Tetanus-Rates by year, United States, 1955-1984. Annual Summary 1984. MMWR 33 (54):61, 1986. 7. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 8. Moynihan NH: Tetanus prophylaxis and serum sensitivity tests. Br Med J 1:260-4, 1956. 9. Scheibel I: The uses and results of active tetanus immunization. Bull WHO 13:381-94, 1955. 10. Edsall G: Specific prophylaxis of tetanus. JAMA 171(4):417-27, 1959. 11. Bardenwerper HW: Serum neuritis from tetanus antitoxin. JAMA 179(10):763-6, 1962. 12. Tetanus — United States, 1987 and 1988, MMWR 39(3): 37-41, 1990. 13. Axnick NW, Alexander ER: Tetanus in the United States: A review of the problem. Am J Public Health 47(12):1493-1501, 1957. 14. Blake PA, Feldman RA, Buchanan TM, et al: Serologic therapy of tetanus in the United States, 1965-1971. JAMA 235(1):42-4, 1976. 15. Rubbo SD: New approaches to tetanus prophylaxis. Lancet 2(7461):449-53, 1966. 16. McComb JA, Dwyer RC: Passive-active immunization with tetanus immune globulin (human). N Engl J Med 268(16):857-62, 1963. 17. Levine L, McComb JA, Dwyer RC, et al: Active-passive tetanus immunization; choice of toxoid, dose of tetanus immune globulin and timing of injections. N Engl J Med 274(4):186-90, 1966. 18. Waldmann TA, Strober W, Blaese RM: Variations in the metabolism of immunoglobulins measured by turnover rates. In Merler E (ed.): Immunoglobulins: biologic aspects and clinical uses. Washington, DC, Nat Acad Sci, 1970, p. 33-51.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human))—HyperTET不含防腐劑。HyperTET是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH靜置處理等技術製備而成。HyperTET為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘氨酸。本產品符合美國標準抗毒素(U.S. Standard Antitoxin)及美國破傷風毒素控制(U.S. Control Tetanus Toxin)的標準，每1毫升中含有至少250個單位的破傷風抗毒素(≧250 Units/mL)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperTET的製程中，有幾個步驟可將病毒去活化或移除。(1)製程中有助於清除病毒的主要步驟如下： • 辛酸鹽沉澱／深層過濾 • 辛酸鹽靜置處理 • 深層過濾 • 管柱層析法 • 奈米過濾 • 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperTET製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症 variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。。(1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量CJD/vCJD感染原。\n1.1\n有效成分及含量\n有效成分：破傷風免疫球蛋白（人類）(Tetanus Immune Globulin (Human)) 每1支注射針筒含有250單位破傷風免疫球蛋白（人類）\n1.2\n賦形劑\nGlycine，Water for Injection。\n1.3\n劑型\n注射劑 (肌肉注射劑)。\n1.4\n藥品外觀\n澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。\n2\n適應症\n預防破傷風。 [說明] HyperTET可用於免疫反應不全或不確定病患受傷後破傷風的預防。也可以用於破傷風發病以後的治療，雖然證明此種用法的研究有限。(2-4)\n3\n用法及用量\n3.1\n用法用量\n肌肉注射。不可靜脈注射。 必須百分之百確定病人是否完成了基礎的疫苗注射，不清楚或不確定的話，就應視為沒有接受過破傷風類毒素。1941年後曾在軍中服役者，可視為至少接受過一劑，雖然這些人大部份都接種了基礎的破傷風疫苗系列，但不能確定每一個人都如此。沒有完成基礎疫苗系列接種的人，在進行清創術、擴創術時可能需要破傷風類毒素及被動免疫。(5) 下表為處理創傷時預防破傷風的用法摘要： 處理創傷時預防破傷風的用法摘要(3) 破傷風免疫記錄（劑量） 乾淨、輕微創傷 其它創傷* Td† TIG‡ Td TIG 不確定或少於三劑 三劑或三劑以上§ 是 否|| 否 否 是 否¶ 是 否 * 這類創傷包括受塵土、糞便、泥土、或唾液污染的傷口（但不僅限於此）；穿刺傷、撕裂傷、槍傷、輾壓受傷、燒傷、和凍傷。 † 成人型破傷風和白喉類毒素。七歲以下的病人使用 DT 或 DTP 比單獨用破傷風類毒素要好，七歲以上者使用 Td 也比單獨使用破傷風類毒素好。 ‡ 破傷風免疫球蛋白（人類） § 如果僅接受三劑液體破傷風類毒素，應給予第四劑（吸附性的類毒素較佳） || 如果前一劑使用超過十年，則為是。 ¶ 如果前一劑使用超過五年，則為是。（更頻繁的追加接種並不需要，而且它可能增加副作用） 例行預防療法 成人和七歲及七歲以上兒童：250單位HyperTET進行深部的肌肉注射，同時在不同的四肢部位、以不同的針筒給予成人使用的破傷風─白喉類毒素(Td)，用法則參照其仿單。若不清楚成年病患過去是否完成基本的疫苗接種，應使用Td複合類毒素做為需接種的基礎疫苗系列。為確保持續的效果，每隔十年應再追加一劑Td。(5) 七歲以下幼童：小孩子使用HyperTET的預防劑量可以用體重來計算（每公斤四單位），不過也有建議：不論小孩的體重多少，都使用整瓶或整支針筒的HyperTET（250單位），因為理論上破傷風菌在小孩體內產生的毒素和在成人體內一樣多。應在同時，但不同的四肢部位、以不同的針注射白喉─破傷風類毒素─百日咳三合一疫苗(DTP)或小孩用的白喉─破傷風類毒素(DT)（如果禁用百日咳疫苗），請參照各製劑的仿單。 注意：單一劑的破傷風類毒素只是啟動人體的主動免疫，醫師必須提醒病人：在一個月和一年後要再追加類毒素，否則主動免疫系列接種就不完全。對於未完成基礎系列的破傷風疫苗接種，且又不能使用含有破傷風類毒素的製劑者，這種人在受傷時，若傷口既不乾淨也不小，應給予破傷風免疫球蛋白展開被動免疫。(5)（詳見上表） 證據顯示，完整的破傷風類毒素之基礎疫苗注射，對大部份的接種者而言，可提供十年以上的保護效果。因此在完成基礎的破傷風疫苗接種後，就算為了傷口的處理（只要傷口輕微且未受污染），只須每十年再追加即可。但對於其它傷口，如果病人在之前五年內都沒有使用破傷風類毒素，可以再追加接種。曾接受至少兩劑以上的破傷風類毒素者可以迅速產生抗體。(5) 對這種病患或免疫力不全、不確定的人，預防性用藥劑量請見上表。 由於破傷風實際上是一種局部的感染，因此傷口最初適當的護理最重要，抗毒素的使用為輔助療法。不過最近的破傷風病例中，約有百分之十的人並未伴隨有傷口、皮膚或黏膜的裂縫。(6) 破傷風發病後的治療 破傷風發病後標準的治療法包括：立即使用HyperTET，劑量則視感染的嚴重程度而做調整。(2,3)\n3.2\n調製方式\nHyperTET不可靜脈注射。 只應做肌肉注射，因此，在針頭刺進肌肉後，推注藥品前，應回抽一點針柄，以確認針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(7) 腸外投藥（注射）製劑在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。如果有顆粒或變色就不可使用。 為了安全及方便使用，HyperTET注射針筒附有安全護套。請依照下列指示正確使用。 針劑的使用方法 1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。 3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。 7. 注入藥物。 8. 保持手在針頭後方，另一隻手握繄安全護套並滑向針頭直到完全蓋住針頭，若未聽到喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）\n許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。\n3.3\n特殊族群用法用量\n4\n禁忌\n未知。\n5\n警語及注意事項\n5.1\n警語/注意事項\n【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 處理傷口時，以化學（抗生素）預防療法對付破傷風既不實際也沒有效果，而以清創術、擴創術及適當的免疫作用較重要。是否需要破傷風類毒素（主動免疫）、是否要併用TIG（被動免疫），必須視傷口的情況和病人過去接種疫苗的記錄而定。破傷風很少會發生於曾經接種基礎的類毒素疫苗系列者。(5)（請見上表） 曾對人類免疫球蛋白製劑有全身性過敏反應者，在使用HyperTET時應特別小心。 不應做皮膚測驗。因為高濃度的IgG溶液注射到皮下時，常會導致局部發炎，如此很容易被誤判為陽性的過敏反應，實際上不是過敏，而是局部組織受到刺激。錯誤地解讀皮膚試驗的結果，可能讓醫師不敢對於事實上沒有過敏的病人，投予人類抗毒素。遵照處方給予肌肉注射的人類IgG，很少造成真正的過敏反應。 HyperTET不可做靜脈注射。限於肌肉注射的免疫球蛋白製劑，如果做靜脈注射有時會導致血壓急速下降，同時會有過敏的類似反應。 雖然人類免疫球蛋白製劑很少有全身性反應，但仍應準備腎上腺素，供發生急性過敏反應時治療之用。 有嚴重的血小板缺乏症、或有其它凝血性疾病患者禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用HyperTET。 強烈建議醫護人員在每次注射HyperTET時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n未觀察到對駕駛車輛和使用機器的能力具有影響。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n用藥分級C 尚未以HyperTET進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。\n6.2\n哺乳\n目前尚無HyperTET是否會出現在人乳中、其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperTET的臨床需要，以及HyperTET或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n安全性和有效性都尚未確立。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n免疫球蛋白製劑的抗體可能干擾活病毒（減毒）疫苗的作用，例如麻疹、腮腺炎、小兒麻痺和德國麻疹。因此，這些疫苗最好延至HyperTET使用三個月以後再接種。 未知與其它藥物的交互作用。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n有時可能出現注射部位輕微疼痛和輕微發燒。因重複注射人類免疫球蛋白而引起致敏反應的情況極為罕見。 在免疫球蛋白例行性注射的眾多人當中，只有少數個案曾出現血管神經性水腫、腎病症候群、和注射後的過敏性休克反應。\n8.2\n臨床試驗經驗\n目前尚無資訊。\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛的情形發生。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n藥物類別：免疫血清類，特異性免疫球蛋白，人類破傷風免疫球蛋白； ATC代碼：J06BB02 對破傷風病原體─Clostridium tetani 的毒素沒有免疫反應、或免疫反應很低者，HyperTET可提供被動免疫，其抗體可中和病菌所產生的游離型態的強力外毒素。過去這種被動保護作用是以牛或馬血清中分離出來的抗毒素提供，不過這種異種產品的外來蛋白質，通常會造成嚴重的過敏反應，甚至在使用前接受皮膚或結膜測試為陰性者也發生過敏反應。據估計，來自馬的抗毒素發生外來蛋白反應的比率為5-30%。(8-11) 因此如果需要被動免疫，破傷風免疫球蛋白(人類)(TIG)為優先選擇，它的保護效果比動物來源的抗毒素要長，而且副作用較少。(5) 在美國破傷風病例已經大幅減少，從1947年開始做全國性通報時的560個報告病例，減到1987年只有48例的最低記錄。(12) 病例減少主要是因破傷風類毒素的廣泛應用及傷口處理技術的進步，包括在急診室中使用預防破傷風的措施。(5) 多項研究顯示出人類破傷風抗毒素在治療破傷風上的價值。(2,3) 1961 與 1962年時，Nation等人(2) 以Hyper-Tet治療20名破傷風病患，劑量是一劑3000到6000單位的抗毒素，並採取了其他已被接受的臨床上及護理方面的措施，其中有六名超過45歲的病人因破傷風以外的因素死亡。研究者認為30%的死亡率比以前使用較大劑量的馬抗毒素要好，也比1951到1954年間全國破傷風60%的死亡率要好得多。(13) Blake等人(14) 分析1965到1971年間向疾病控制中心通報的545個破傷風病例的資料，結果發現使用8000單位TIG時的存活率並未高於使用500單位，不過也未定出一個最適當的劑量。 血清學上的檢驗顯示，在美國並沒有發現自然獲得破傷風類毒素免疫作用的例子。因此各年齡層都需要全面接種疫苗基礎注射，並在適當時間追加接種以保持足夠的抗毒素濃度。破傷風類毒素是一種高效能的抗原，在完成基礎疫苗系列接種後，血中抗毒素有效濃度可持續十年以上。(5) 被動免疫的HyperTET及主動免疫的類毒素可同時使用於必須立即注射破傷風抗毒素的人、或需要進行主動免疫防疫者。Rubbo (15) 、McComb與 Dwyer(16)、Levine等人(17)的研究指出，醫師可因此立即提供被動免疫來對抗破傷風，並因在同時對受傷病患接種完整的類毒素系列，使其產生主動免疫，此後即不需再注射抗毒素。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\nIgG的最高血中濃度出現於肌肉注射後大約兩天。在具有正常IgG濃度人體的血液循環中，IgG的半衰期為23天。(18) 在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n250單位注射針筒附針頭(syringe with attached needle)。HyperTET不含防腐劑且包材非由天然橡膠乳膠製成。\n13.2\n效期\n24個月。\n13.3\n儲存條件\n在2-8℃下儲存。\n13.4\n儲存注意事項\n冰凍過的溶液不得使用。未使用的部分也須丟棄。\n14\n病人使用須知\n15\n其他\n參考資料 1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtrationmodified process. Biologicals 2012;40:247-53. 2. Nation NS, Pierce NF, Adler SJ, et al: Tetanus: the use of human hyperimmune globulin in treatment. Calif Med 98(6):305-6, 1963. 3. Ellis M: Human antitetanus serum in the treatment of tetanus. Br Med J 1(5338):1123-6, 1963. 4. McCracken GH Jr., Dowell DL, Marshall FN: Double-blind trial of equine antitoxin and human immune globulin in tetanus neonatorum. Lancet 1(7710):1146-9, 1971. 5. Diphtheria, Tetanus, and Pertussis: Recommendations for Vaccine Use and Other Preventive Measures. Recommendations of the Immunization Practices Advisory Committee (ACIP). MMWR 40 (RR-10): 1-28, 1991. 6. Tetanus-Rates by year, United States, 1955-1984. Annual Summary 1984. MMWR 33 (54):61, 1986. 7. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 8. Moynihan NH: Tetanus prophylaxis and serum sensitivity tests. Br Med J 1:260-4, 1956. 9. Scheibel I: The uses and results of active tetanus immunization. Bull WHO 13:381-94, 1955. 10. Edsall G: Specific prophylaxis of tetanus. JAMA 171(4):417-27, 1959. 11. Bardenwerper HW: Serum neuritis from tetanus antitoxin. JAMA 179(10):763-6, 1962. 12. Tetanus — United States, 1987 and 1988, MMWR 39(3): 37-41, 1990. 13. Axnick NW, Alexander ER: Tetanus in the United States: A review of the problem. Am J Public Health 47(12):1493-1501, 1957. 14. Blake PA, Feldman RA, Buchanan TM, et al: Serologic therapy of tetanus in the United States, 1965-1971. JAMA 235(1):42-4, 1976. 15. Rubbo SD: New approaches to tetanus prophylaxis. Lancet 2(7461):449-53, 1966. 16. McComb JA, Dwyer RC: Passive-active immunization with tetanus immune globulin (human). N Engl J Med 268(16):857-62, 1963. 17. Levine L, McComb JA, Dwyer RC, et al: Active-passive tetanus immunization; choice of toxoid, dose of tetanus immune globulin and timing of injections. N Engl J Med 274(4):186-90, 1966. 18. Waldmann TA, Strober W, Blaese RM: Variations in the metabolism of immunoglobulins measured by turnover rates. In Merler E (ed.): Immunoglobulins: biologic aspects and clinical uses. Washington, DC, Nat Acad Sci, 1970, p. 33-51.",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "GRIFOLS THERAPEUTICS LLC",
+          "address": "8368 CLAYTON BLVD, CLAYTON, NC 27520, USA"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "INSTITUTO GRIFOLS S.A.",
+          "address": "POLIGONO LEVANTE C/CAN GUASCH 2, 08150 PARETS DEL VALLES BARCELONA SPAIN"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "天行貿易股份有限公司",
+          "address": "台北市中山區長安東路一段21號2樓"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1713 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:03.034657+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000711",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000711號:5",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000711號",
+      "matched_license_code": "10000711",
+      "matched_nhi_code": "",
+      "drug_name_zh": "惠爾血添注射劑 150",
+      "drug_name_en": "FILGRASTIM INJECTION 150 μG/0.6ML",
+      "drug_category": "限由醫師使用",
+      "display_category": "本藥限由醫師使用",
+      "version": "5",
+      "approved_at": "2025-09-19",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "品名每一安瓿之主成分含量 Filgrastim –75針劑 (0.3mL中) Filgrastim, JP (基因重組) 75μg Filgrastim –150針劑 (0.6mL中)150μg Filgrastim –M300針劑 (0.7mL中)300μg 一般名: Filgrastim（Genetical recombination）基因重組 分子量: 18,798.61 本質: Filgrastim是一種基因重組人類顆粒球集落形成刺激因子，含有175個氨基酸（C845H1339N223O243S9），於N端帶有甲硫氨酸的蛋白質。",
+          "content_html": "<figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\">品名</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"2\">每一安瓿之主成分含量</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">Filgrastim –75針劑 (0.3mL中)</td><td style=\"border-color:Black;border-style:solid;\" rowspan=\"3\"><p>Filgrastim, JP</p><p>(基因重組)</p></td><td style=\"border-color:Black;border-style:solid;\">75μg</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;width:157.35pt;\">Filgrastim –150針劑 (0.6mL中)</td><td style=\"border-color:Black;border-style:solid;\">150μg</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;width:157.35pt;\">Filgrastim –M300針劑 (0.7mL中)</td><td style=\"border-color:Black;border-style:solid;\">300μg</td></tr></tbody></table></figure><p>一般名: Filgrastim（Genetical recombination）基因重組</p><p>分子量: 18,798.61</p><p>本質: Filgrastim是一種基因重組人類顆粒球集落形成刺激因子，含有175個氨基酸（C<sub>845</sub>H<sub>1339</sub>N<sub>223</sub>O<sub>243</sub>S<sub>9</sub>），於N端帶有甲硫氨酸的蛋白質。</p>",
+          "search_text": "1.1\n有效成分及含量\n品名每一安瓿之主成分含量 Filgrastim –75針劑 (0.3mL中) Filgrastim, JP (基因重組) 75μg Filgrastim –150針劑 (0.6mL中)150μg Filgrastim –M300針劑 (0.7mL中)300μg 一般名: Filgrastim（Genetical recombination）基因重組 分子量: 18,798.61 本質: Filgrastim是一種基因重組人類顆粒球集落形成刺激因子，含有175個氨基酸（C845H1339N223O243S9），於N端帶有甲硫氨酸的蛋白質。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "品名每一安瓿之賦形劑含量PH滲透壓比 Filgrastim –75針劑 (0.3mL中) Polysorbate80 0.012mg Acetic acid 0.18mg D-mannitol 15mg Sodium hydroxide appropriate amount 3.7~ 4.3約1(與生理食鹽水對比) Filgrastim –150針劑 (0.6mL中) Polysorbate80 0.024mg Acetic acid 0.36mg D-mannitol 30mg Sodium hydroxide appropriate amount Filgrastim –M300針劑 (0.7mL中) Polysorbate80 0.028mg Acetic acid 0.42mg D-mannitol 35mg Sodium hydroxide appropriate amount",
+          "content_html": "<figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\">品名</td><td style=\"border-color:Black;border-style:solid;\">每一安瓿之賦形劑含量</td><td style=\"border-color:Black;border-style:solid;\">PH</td><td style=\"border-color:Black;border-style:solid;\">滲透壓比</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;width:157.35pt;\"><p style=\"margin-left:.2pt;\">Filgrastim –75針劑 (0.3mL中)</p></td><td style=\"border-color:Black;border-style:solid;\"><p>Polysorbate80 &nbsp;0.012mg&nbsp; &nbsp;Acetic acid &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.18mg</p><p>D-mannitol &nbsp;&nbsp; &nbsp; &nbsp;15mg&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Sodium hydroxide &nbsp;appropriate amount</p></td><td style=\"border-color:Black;border-style:solid;\" rowspan=\"3\">3.7~ 4.3</td><td style=\"border-color:Black;border-style:solid;\" rowspan=\"3\">約1(與生理食鹽水對比)</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;width:157.35pt;\">Filgrastim –150針劑 (0.6mL中)</td><td style=\"border-color:Black;border-style:solid;\"><p>Polysorbate80 &nbsp;0.024mg&nbsp; &nbsp;Acetic acid &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0.36mg</p><p>D-mannitol &nbsp;&nbsp; &nbsp; &nbsp;30mg&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Sodium hydroxide &nbsp;appropriate amount</p></td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;width:157.35pt;\">Filgrastim –M300針劑 (0.7mL中)</td><td style=\"border-color:Black;border-style:solid;\"><p>Polysorbate80 &nbsp;0.028mg&nbsp; &nbsp;Acetic acid &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.42mg</p><p>D-mannitol &nbsp;&nbsp; &nbsp; &nbsp;35mg&nbsp; &nbsp;&nbsp; &nbsp; Sodium hydroxide &nbsp;appropriate amount</p></td></tr></tbody></table></figure>",
+          "search_text": "1.2\n賦形劑\n品名每一安瓿之賦形劑含量PH滲透壓比 Filgrastim –75針劑 (0.3mL中) Polysorbate80 0.012mg Acetic acid 0.18mg D-mannitol 15mg Sodium hydroxide appropriate amount 3.7~ 4.3約1(與生理食鹽水對比) Filgrastim –150針劑 (0.6mL中) Polysorbate80 0.024mg Acetic acid 0.36mg D-mannitol 30mg Sodium hydroxide appropriate amount Filgrastim –M300針劑 (0.7mL中) Polysorbate80 0.028mg Acetic acid 0.42mg D-mannitol 35mg Sodium hydroxide appropriate amount",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p>注射劑</p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "本品為無色澄明的液體。",
+          "content_html": "<p style=\"text-align:justify;\">本品為無色澄明的液體。</p>",
+          "search_text": "1.4\n藥品外觀\n本品為無色澄明的液體。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "2.1 動員造血幹細胞至周邊血中 2.2 促進造血幹細胞移植時嗜中性白血球數的增加 2.3 癌症化學療法所引起之嗜中性白血球減少症 2.4 骨髓發育不良症候群的嗜中性白血球缺乏症 2.5 先天性．特異性嗜中性白血球缺乏症",
+          "content_html": "<p>2.1 動員造血幹細胞至周邊血中</p><p>2.2 促進造血幹細胞移植時嗜中性白血球數的增加</p><p>2.3 癌症化學療法所引起之嗜中性白血球減少症</p><p>2.4 骨髓發育不良症候群的嗜中性白血球缺乏症</p><p>2.5 先天性．特異性嗜中性白血球缺乏症</p>",
+          "search_text": "2\n適應症\n2.1 動員造血幹細胞至周邊血中 2.2 促進造血幹細胞移植時嗜中性白血球數的增加 2.3 癌症化學療法所引起之嗜中性白血球減少症 2.4 骨髓發育不良症候群的嗜中性白血球缺乏症 2.5 先天性．特異性嗜中性白血球缺乏症",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "適應症 用法．用量 動員造血幹細胞至周邊血中異體及自體周邊血幹細胞收集時利用Filgrastim(基因重組)的單獨投與來動員。 成人 ． 小兒 通常，Filgrastim(基因重組)400 μg/m2 1日1次或分為2次，連續5天或至周邊血幹細胞收集終了為止，施與皮下注射。此時，周邊血幹細胞收集在Filgrastim(基因重組)投與開始後4~6日實施。但是，若周邊血幹細胞收集終了前的白血球數增加到50,000/mm3以上時，需減量。減量後，白血球數達到75,000/mm3時，需中止投藥。 癌症化學療法後的自體周邊血幹細胞收集﹐利用Filgrastim(基因重組)的投與來動員。 成人 ． 小兒 通常，癌症化學療法後的隔天或因癌症化學療法所引起之嗜中性白血球數的最低值經過後，Filgrastim(基因重組)400 μg/m2 1日1次或分為2次，至周邊血幹細胞收集終了為止，連續施予皮下注射。 此外，無論何種情況，皆須觀察症狀而加以適當的減量。 適應症 用法．用量 促進造血幹細胞移植時嗜中性白血球數的增加 成人． 小兒 通常，造血幹細胞移植實施翌日或5日後，開始以Filgrastim300 μg/m2，1日1次，點滴靜脈注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而中止投藥。 此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球數之一半來推斷其嗜中性白血球數。 癌症化學療法所引起之嗜中性白血球減少症 急性白血病 成人 ． 小兒 通常，在投與癌症化學療法後(第二天後)，骨髓中芽球十分稀少，而且無法認出周邊血液中之骨髓芽球時，可以給予Filgrastim200 μg/m2，1日1次，靜脈注射(含點滴)。若無出血傾向等問題(造成皮下注射困難)，則可投與Filgrastim100 μg/m2，1日1次﹐皮下注射。但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm3以上時，須停止投藥。 惡性淋巴瘤、小細胞肺癌、胚細胞腫瘤(睪丸及卵巢腫瘤等)、神經母細胞瘤及小兒癌症 成人 ． 小兒 通常在投與癌症化學療法後(第二天後)，給予Filgrastim50 μg/m2，1日1次﹐皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m2，1日1次。 此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。 適應症 用法．用量 癌症化學療法所引起之嗜中性白血球減少症 其他癌症腫瘤 成人．小兒 通常，因癌症化學療法導致的嗜中性白血球少於1,000/mm3，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm3，給予Filgrastim50 μg/m2，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100μg/㎡，1日1次。此外，因癌症化學療法導致的嗜中性白血球少於1,000/mm3，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm3，而必須持續同一化學治療之病人，再下一次以後的化學治療進行時，觀察發現到嗜中性白血球少於1,000/ mm3時，給予Filgrastim50 μg/m2，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m2，1日1次。但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm3以上時，須觀察症狀，停止投藥。 此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球之一半來推斷其嗜中性白血球數。 骨髓發育不良症候群的嗜中性白血球缺乏症 成人通常，嗜中性白血球低於1,000/mm3時， Filgrastim 100 μg/m2，1日1次，點滴靜脈注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而減量或停止投藥。 先天性．特異性嗜中性白血球缺乏症成人通常，嗜中性白血球低於1,000/mm3時， Filgrastim50 μg/m2，1日1次，皮下注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而減量或停止投藥。 小兒嗜中性白血球低於1,000/mm3時， Filgrastim50 μg/m2，1日1次，皮下注射。 此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。",
+          "content_html": "<figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\">適應症</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\"><p style=\"text-align:center;\">用法．用量</p></td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">動員造血幹細胞至周邊血中</td><td style=\"border-color:Black;border-style:solid;\">異體及自體周邊血幹細胞收集時利用Filgrastim(基因重組)的單獨投與來動員。</td><td style=\"border-color:Black;border-style:solid;\"><p style=\"text-align:center;\">成人</p><p style=\"text-align:center;\">．</p><p>小兒</p></td><td style=\"border-color:Black;border-style:solid;\">通常，Filgrastim(基因重組)400 μg/m<sup>2 </sup>1日1次或分為2次，連續5天或至周邊血幹細胞收集終了為止，施與皮下注射。此時，周邊血幹細胞收集在Filgrastim(基因重組)投與開始後4~6日實施。</td><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">但是，若周邊血幹細胞收集終了前的白血球數增加到50,000/mm<sup>3</sup>以上時，需減量。減量後，白血球數達到75,000/mm<sup>3</sup>時，需中止投藥。</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">癌症化學療法後的自體周邊血幹細胞收集﹐利用Filgrastim(基因重組)的投與來動員。</td><td style=\"border-color:Black;border-style:solid;\"><p style=\"text-align:center;\">成人</p><p style=\"text-align:center;\">．</p><p>小兒</p></td><td style=\"border-color:Black;border-style:solid;\">通常，癌症化學療法後的隔天或因癌症化學療法所引起之嗜中性白血球數的最低值經過後，Filgrastim(基因重組)400 μg/m<sup>2&nbsp;</sup>1日1次或分為2次，至周邊血幹細胞收集終了為止，連續施予皮下注射。</td></tr></tbody></table></figure><p style=\"text-align:right;\">此外，無論何種情況，皆須觀察症狀而加以適當的減量。</p><figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\">適應症</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\"><p style=\"text-align:center;\">用法．用量</p></td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">促進造血幹細胞移植時嗜中性白血球數的增加</td><td style=\"border-color:Black;border-style:solid;\"><p>成人．</p><p>小兒</p></td><td style=\"border-color:Black;border-style:solid;\" colspan=\"2\">通常，造血幹細胞移植實施翌日或5日後，開始以Filgrastim300 μg/m<sup>2</sup>，1日1次，點滴靜脈注射。</td><td style=\"border-color:Black;border-style:solid;\">但是，嗜中性白血球數增加到5,000/mm<sup>3</sup>以上時，需觀察症狀而中止投藥。</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\">此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球數之一半來推斷其嗜中性白血球數。</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">癌症化學療法所引起之嗜中性白血球減少症</td><td style=\"border:1.0pt solid Black;height:54.4pt;padding:0cm 1.4pt;width:89.75pt;\"><p style=\"text-align:center;\">急性白血病</p></td><td style=\"border:1.0pt solid Black;height:54.4pt;padding:0cm 1.4pt;width:44.85pt;\"><p style=\"text-align:center;\">成人</p><p style=\"text-align:center;\">．</p><p style=\"text-align:center;\">小兒</p></td><td style=\"border:1.0pt solid Black;height:54.4pt;padding:0cm 1.4pt;width:206.4pt;\">通常，在投與癌症化學療法後(第二天後)，骨髓中芽球十分稀少，而且無法認出周邊血液中之骨髓芽球時，可以給予Filgrastim200 μg/m<sup>2</sup>，1日1次，靜脈注射(含點滴)。若無出血傾向等問題(造成皮下注射困難)，則可投與Filgrastim100 μg/m<sup>2</sup>，1日1次﹐皮下注射。</td><td rowspan=\"2\">但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm<sup>3</sup>以上時，須停止投藥。</td></tr><tr><td style=\"border:1.0pt solid Black;height:28.75pt;padding:0cm 1.4pt;width:89.75pt;\"><p style=\"text-align:justify;\">惡性淋巴瘤、小細胞肺癌、胚細胞腫瘤(睪丸及卵巢腫瘤等)、神經母細胞瘤及小兒癌症</p></td><td style=\"border:1.0pt solid Black;height:28.75pt;padding:0cm 1.4pt;width:44.85pt;\"><p style=\"text-align:center;\">成人</p><p style=\"text-align:center;\">．</p><p style=\"text-align:center;\">小兒</p></td><td style=\"border:1.0pt solid Black;height:28.75pt;padding:0cm 1.4pt;width:206.4pt;\">通常在投與癌症化學療法後(第二天後)，給予Filgrastim50 μg/m<sup>2</sup>，1日1次﹐皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m<sup>2</sup>，1日1次。</td></tr></tbody></table></figure><p style=\"text-align:right;\">此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。</p><figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\">適應症</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\"><p style=\"text-align:center;\">用法．用量</p></td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">癌症化學療法所引起之嗜中性白血球減少症</td><td style=\"border:1.0pt solid Black;height:35.75pt;padding:0cm 1.4pt;width:71.8pt;\"><p style=\"text-align:center;\">其他癌症腫瘤</p></td><td style=\"border:1.0pt solid Black;height:35.75pt;padding:0cm 1.4pt;width:26.9pt;\"><p style=\"margin-left:5.65pt;text-align:center;\">成人．小兒</p></td><td style=\"border:1.0pt solid Black;height:35.75pt;padding:0cm 1.4pt;width:225.55pt;\">通常，因癌症化學療法導致的嗜中性白血球少於1,000/mm<sup>3</sup>，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm<sup>3</sup>，給予Filgrastim50 μg/m<sup>2</sup>，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100μg/㎡，1日1次。此外，因癌症化學療法導致的嗜中性白血球少於1,000/mm<sup>3</sup>，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm<sup>3</sup>，而必須持續同一化學治療之病人，再下一次以後的化學治療進行時，觀察發現到嗜中性白血球少於1,000/ mm<sup>3</sup>時，給予Filgrastim50 μg/m<sup>2</sup>，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m<sup>2</sup>，1日1次。</td><td style=\"border:1.0pt solid Black;height:35.75pt;padding:0cm 1.4pt;width:98.9pt;\">但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm<sup>3</sup>以上時，須觀察症狀，停止投藥。</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\">此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球之一半來推斷其嗜中性白血球數。</td></tr><tr><td style=\"border:1.0pt solid Black;height:33.2pt;padding:0cm 1.4pt;width:82.15pt;\"><p style=\"text-align:justify;\">骨髓發育不良症候群的嗜中性白血球缺乏症</p></td><td style=\"border-color:Black;border-style:solid;\">成人</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"2\">通常，嗜中性白血球低於1,000/mm<sup>3</sup>時， Filgrastim 100 μg/m<sup>2</sup>，1日1次，點滴靜脈注射。</td><td style=\"border-color:Black;border-style:solid;\">但是，嗜中性白血球數增加到5,000/mm<sup>3</sup>以上時，需觀察症狀而減量或停止投藥。</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">先天性．特異性嗜中性白血球缺乏症</td><td style=\"border-color:Black;border-style:solid;\">成人</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"2\">通常，嗜中性白血球低於1,000/mm<sup>3</sup>時， Filgrastim50 μg/m<sup>2</sup>，1日1次，皮下注射。</td><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">但是，嗜中性白血球數增加到5,000/mm<sup>3</sup>以上時，需觀察症狀而減量或停止投藥。</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">小兒</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"2\">嗜中性白血球低於1,000/mm<sup>3</sup>時， Filgrastim50 μg/m<sup>2</sup>，1日1次，皮下注射。</td></tr></tbody></table></figure><p style=\"text-align:right;\">此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。</p>",
+          "search_text": "3.1\n用法用量\n適應症 用法．用量 動員造血幹細胞至周邊血中異體及自體周邊血幹細胞收集時利用Filgrastim(基因重組)的單獨投與來動員。 成人 ． 小兒 通常，Filgrastim(基因重組)400 μg/m2 1日1次或分為2次，連續5天或至周邊血幹細胞收集終了為止，施與皮下注射。此時，周邊血幹細胞收集在Filgrastim(基因重組)投與開始後4~6日實施。但是，若周邊血幹細胞收集終了前的白血球數增加到50,000/mm3以上時，需減量。減量後，白血球數達到75,000/mm3時，需中止投藥。 癌症化學療法後的自體周邊血幹細胞收集﹐利用Filgrastim(基因重組)的投與來動員。 成人 ． 小兒 通常，癌症化學療法後的隔天或因癌症化學療法所引起之嗜中性白血球數的最低值經過後，Filgrastim(基因重組)400 μg/m2 1日1次或分為2次，至周邊血幹細胞收集終了為止，連續施予皮下注射。 此外，無論何種情況，皆須觀察症狀而加以適當的減量。 適應症 用法．用量 促進造血幹細胞移植時嗜中性白血球數的增加 成人． 小兒 通常，造血幹細胞移植實施翌日或5日後，開始以Filgrastim300 μg/m2，1日1次，點滴靜脈注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而中止投藥。 此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球數之一半來推斷其嗜中性白血球數。 癌症化學療法所引起之嗜中性白血球減少症 急性白血病 成人 ． 小兒 通常，在投與癌症化學療法後(第二天後)，骨髓中芽球十分稀少，而且無法認出周邊血液中之骨髓芽球時，可以給予Filgrastim200 μg/m2，1日1次，靜脈注射(含點滴)。若無出血傾向等問題(造成皮下注射困難)，則可投與Filgrastim100 μg/m2，1日1次﹐皮下注射。但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm3以上時，須停止投藥。 惡性淋巴瘤、小細胞肺癌、胚細胞腫瘤(睪丸及卵巢腫瘤等)、神經母細胞瘤及小兒癌症 成人 ． 小兒 通常在投與癌症化學療法後(第二天後)，給予Filgrastim50 μg/m2，1日1次﹐皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m2，1日1次。 此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。 適應症 用法．用量 癌症化學療法所引起之嗜中性白血球減少症 其他癌症腫瘤 成人．小兒 通常，因癌症化學療法導致的嗜中性白血球少於1,000/mm3，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm3，給予Filgrastim50 μg/m2，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100μg/㎡，1日1次。此外，因癌症化學療法導致的嗜中性白血球少於1,000/mm3，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm3，而必須持續同一化學治療之病人，再下一次以後的化學治療進行時，觀察發現到嗜中性白血球少於1,000/ mm3時，給予Filgrastim50 μg/m2，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m2，1日1次。但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm3以上時，須觀察症狀，停止投藥。 此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球之一半來推斷其嗜中性白血球數。 骨髓發育不良症候群的嗜中性白血球缺乏症 成人通常，嗜中性白血球低於1,000/mm3時， Filgrastim 100 μg/m2，1日1次，點滴靜脈注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而減量或停止投藥。 先天性．特異性嗜中性白血球缺乏症成人通常，嗜中性白血球低於1,000/mm3時， Filgrastim50 μg/m2，1日1次，皮下注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而減量或停止投藥。 小兒嗜中性白血球低於1,000/mm3時， Filgrastim50 μg/m2，1日1次，皮下注射。 此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "用法及用量的使用上之注意",
+          "title_html": "用法及用量的使用上之注意",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "用法及用量的使用上之注意"
+          ],
+          "content_text": "3.1.1.1 動員造血幹細胞至周邊血中 當進行自體周邊血幹細胞採集，於癌症化學療法後使用本劑採集造血幹細胞時，最好在白血球數經過最低時期後，上升到5,000~10,000/mm3再開始周邊血幹細胞採集。 3.1.1.2 癌症化學療法引起的嗜中性白血球缺乏症 (1) 應避免在投與化療前 24 小時和化療後 24 小時內使用本品。 (2) 癌症化學療法引起的嗜中性白血球缺乏症中，提到的同一化學治療，就是使用相同的抗腫瘤藥物種類及劑量之同一化學治療方案。 (3) 投予本劑後，雖然一般應在嗜中性白血球數經過最低值時期且上升達5,000/mm3時，停止投與。但是嗜中性白血球回復到2,000/mm3以上，且無疑似感染之症狀時，在已判斷本劑效用，可確保病人安全的前提下，應檢討是否減低劑量或是停止投與。 (4) 胚細胞腫瘤之卵巢腫瘤包括未成熟畸形腫瘤、未分化胚細胞腫瘤及卵巢囊腫。 3.1.1.3 使用上的注意 在靜脈注射時，要儘量放慢注射速度。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>3.1.1.1&nbsp;動員造血幹細胞至周邊血中</strong></p><p style=\"text-align:justify;\">當進行自體周邊血幹細胞採集，於癌症化學療法後使用本劑採集造血幹細胞時，最好在白血球數經過最低時期後，上升到5,000~10,000/mm<sup>3</sup>再開始周邊血幹細胞採集。</p><p style=\"text-align:justify;\"><strong>3.1.1.2 癌症化學療法引起的嗜中性白血球缺乏症</strong></p><p style=\"text-align:justify;\">(1) 應避免在投與化療前 24&nbsp;小時和化療後 24&nbsp;小時內使用本品。</p><p>(2) 癌症化學療法引起的嗜中性白血球缺乏症中，提到的同一化學治療，就是使用相同的抗腫瘤藥物種類及劑量之同一化學治療方案。</p><p>(3) 投予本劑後，雖然一般應在嗜中性白血球數經過最低值時期且上升達5,000/mm<sup>3</sup>時，停止投與。但是嗜中性白血球回復到2,000/mm<sup>3</sup>以上，且無疑似感染之症狀時，在已判斷本劑效用，可確保病人安全的前提下，應檢討是否減低劑量或是停止投與。</p><p style=\"text-align:justify;\">(4) 胚細胞腫瘤之卵巢腫瘤包括未成熟畸形腫瘤、未分化胚細胞腫瘤及卵巢囊腫。</p><p style=\"text-align:justify;\"><strong>3.1.1.3 使用上的注意</strong></p><p style=\"text-align:justify;\">在靜脈注射時，要儘量放慢注射速度。</p>",
+          "search_text": "3.1.1\n用法及用量的使用上之注意\n3.1.1.1 動員造血幹細胞至周邊血中 當進行自體周邊血幹細胞採集，於癌症化學療法後使用本劑採集造血幹細胞時，最好在白血球數經過最低時期後，上升到5,000~10,000/mm3再開始周邊血幹細胞採集。 3.1.1.2 癌症化學療法引起的嗜中性白血球缺乏症 (1) 應避免在投與化療前 24 小時和化療後 24 小時內使用本品。 (2) 癌症化學療法引起的嗜中性白血球缺乏症中，提到的同一化學治療，就是使用相同的抗腫瘤藥物種類及劑量之同一化學治療方案。 (3) 投予本劑後，雖然一般應在嗜中性白血球數經過最低值時期且上升達5,000/mm3時，停止投與。但是嗜中性白血球回復到2,000/mm3以上，且無疑似感染之症狀時，在已判斷本劑效用，可確保病人安全的前提下，應檢討是否減低劑量或是停止投與。 (4) 胚細胞腫瘤之卵巢腫瘤包括未成熟畸形腫瘤、未分化胚細胞腫瘤及卵巢囊腫。 3.1.1.3 使用上的注意 在靜脈注射時，要儘量放慢注射速度。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "靜注點滴使用時，應與5%葡萄糖注射劑、生理食鹽水等輸液混合使用。另外，使用本劑時，切勿與其他注射藥液。",
+          "content_html": "<p>靜注點滴使用時，應與5%葡萄糖注射劑、生理食鹽水等輸液混合使用。另外，使用本劑時，切勿與其他注射藥液。</p>",
+          "search_text": "3.2\n調製方式\n靜注點滴使用時，應與5%葡萄糖注射劑、生理食鹽水等輸液混合使用。另外，使用本劑時，切勿與其他注射藥液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "(本品禁用於下列病人。) (1) 對本劑中的成分及其他顆粒球集落形成因子製劑過敏的病人。 (2) 骨髓中芽球未有效減少，或由周邊血液中可以觀察到骨髓芽球之骨髓性白血病的病人。(請參考5.1.3, 8.1.4)",
+          "content_html": "<p>(本品禁用於下列病人。)</p><p>(1) 對本劑中的成分及其他顆粒球集落形成因子製劑過敏的病人。</p><p>(2) 骨髓中芽球未有效減少，或由周邊血液中可以觀察到骨髓芽球之骨髓性白血病的病人。(請參考5.1.3, 8.1.4)</p>",
+          "search_text": "4\n禁忌\n(本品禁用於下列病人。) (1) 對本劑中的成分及其他顆粒球集落形成因子製劑過敏的病人。 (2) 骨髓中芽球未有效減少，或由周邊血液中可以觀察到骨髓芽球之骨髓性白血病的病人。(請參考5.1.3, 8.1.4)",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "適用於所有適應症的重要注意事項",
+          "title_html": "適用於所有適應症的重要注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "適用於所有適應症的重要注意事項"
+          ],
+          "content_text": "1) 注射本液時，須定期進行血液的檢查，須特別注意不可讓嗜中性白血球增加到必須數量以上。如嗜中性白血球已增至必要數量以上時，須採取適當的減藥或停藥措施。 ※ 2) 本劑有引起過敏的可能性，發生時須立即停止用藥，並給予適當的處置。為了預測過敏的風險，建議在使用前仔細詢問病人的過敏史和藥物過敏反應史。(請參考6.8, 8.1.1) 3) 本劑的投與有引起骨痛、腰痛等的可能性，這時就需要投與非麻藥性鎮痛劑等給予適當的處置。 ※ 4) 使用本品治療後可能出現脾腫大和脾臟破裂，曾有死亡案例的通報，故應監測血液學檢查結果的變化，並使用腹部超音波觀察可能對脾臟的影響。(請參考8.1.7)",
+          "content_html": "<p>1) 注射本液時，須定期進行血液的檢查，須特別注意不可讓嗜中性白血球增加到必須數量以上。如嗜中性白血球已增至必要數量以上時，須採取適當的減藥或停藥措施。</p><p>※ 2) 本劑有引起過敏的可能性，發生時須立即停止用藥，並給予適當的處置。為了預測過敏的風險，建議在使用前仔細詢問病人的過敏史和藥物過敏反應史。(請參考6.8, 8.1.1)</p><p>3) 本劑的投與有引起骨痛、腰痛等的可能性，這時就需要投與非麻藥性鎮痛劑等給予適當的處置。</p><p>※ 4) 使用本品治療後可能出現脾腫大和脾臟破裂，曾有死亡案例的通報，故應監測血液學檢查結果的變化，並使用腹部超音波觀察可能對脾臟的影響。(請參考8.1.7)</p>",
+          "search_text": "5.1.1\n適用於所有適應症的重要注意事項\n1) 注射本液時，須定期進行血液的檢查，須特別注意不可讓嗜中性白血球增加到必須數量以上。如嗜中性白血球已增至必要數量以上時，須採取適當的減藥或停藥措施。 ※ 2) 本劑有引起過敏的可能性，發生時須立即停止用藥，並給予適當的處置。為了預測過敏的風險，建議在使用前仔細詢問病人的過敏史和藥物過敏反應史。(請參考6.8, 8.1.1) 3) 本劑的投與有引起骨痛、腰痛等的可能性，這時就需要投與非麻藥性鎮痛劑等給予適當的處置。 ※ 4) 使用本品治療後可能出現脾腫大和脾臟破裂，曾有死亡案例的通報，故應監測血液學檢查結果的變化，並使用腹部超音波觀察可能對脾臟的影響。(請參考8.1.7)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "動員周邊血中造血幹細胞",
+          "title_html": "動員周邊血中造血幹細胞",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "動員周邊血中造血幹細胞"
+          ],
+          "content_text": "1) 對捐贈者動員周邊血中幹細胞時，請參考相關規範後適當的實施。周邊血幹細胞採集時會伴隨有全身倦怠、四肢麻痺、血管迷走神經反應等現象，因此必需注意血壓等全身狀態的變化，一但發現異常，立即採取適當的處置。 2) 對捐贈者使用本劑時，須對捐贈者或捐贈者無充分能力時對代言者，充分的說明本劑長期使用的安全性尚未確認以及目前仍在收集科學的數據，並取得同意後使用。 3) 本劑的投與須考慮捐贈者的全身狀態，須特別加以觀察，慎重的投與。 4) 對捐贈者投與本劑時，為避免對接受者的感染，建議應先實施HBs抗原、HBc抗體、HCV抗體、HIV-1、-2、HTLV-I抗體及梅毒血清檢查，確認皆為陰性。此外，最好進行CMV, Herpes 血清學的檢查。 5) 動員捐贈(捐贈者)的周邊血幹細胞時，因本劑的投與常有引起骨痛、腰痛等的可能性，因此需要投與非麻藥性鎮痛劑等給予適當的處置。 6) 本劑投與後及周邊血幹細胞採集後，有可能會出現血小板減少的情況，須特別注意使用阿斯匹靈等有血小板凝集抑制作用的藥劑。若出現血小板嚴重減少時，則由周邊血幹細胞採集後的血中，進行自體血小板回輸的適當處理。 7) 周邊血幹細胞採集後1~2週後，有可能會出現白血球(嗜中性白血球)減少的情形，須特別注意。",
+          "content_html": "<p>1) 對捐贈者動員周邊血中幹細胞時，請參考相關規範後適當的實施。周邊血幹細胞採集時會伴隨有全身倦怠、四肢麻痺、血管迷走神經反應等現象，因此必需注意血壓等全身狀態的變化，一但發現異常，立即採取適當的處置。</p><p>2) 對捐贈者使用本劑時，須對捐贈者或捐贈者無充分能力時對代言者，充分的說明本劑長期使用的安全性尚未確認以及目前仍在收集科學的數據，並取得同意後使用。</p><p>3) 本劑的投與須考慮捐贈者的全身狀態，須特別加以觀察，慎重的投與。</p><p>4) 對捐贈者投與本劑時，為避免對接受者的感染，建議應先實施HBs抗原、HBc抗體、HCV抗體、HIV-1、-2、HTLV-I抗體及梅毒血清檢查，確認皆為陰性。此外，最好進行CMV, Herpes&nbsp;血清學的檢查。</p><p>5) 動員捐贈(捐贈者)的周邊血幹細胞時，因本劑的投與常有引起骨痛、腰痛等的可能性，因此需要投與非麻藥性鎮痛劑等給予適當的處置。</p><p>6) 本劑投與後及周邊血幹細胞採集後，有可能會出現血小板減少的情況，須特別注意使用阿斯匹靈等有血小板凝集抑制作用的藥劑。若出現血小板嚴重減少時，則由周邊血幹細胞採集後的血中，進行自體血小板回輸的適當處理。</p><p>7) 周邊血幹細胞採集後1~2週後，有可能會出現白血球(嗜中性白血球)減少的情形，須特別注意。</p>",
+          "search_text": "5.1.2\n動員周邊血中造血幹細胞\n1) 對捐贈者動員周邊血中幹細胞時，請參考相關規範後適當的實施。周邊血幹細胞採集時會伴隨有全身倦怠、四肢麻痺、血管迷走神經反應等現象，因此必需注意血壓等全身狀態的變化，一但發現異常，立即採取適當的處置。 2) 對捐贈者使用本劑時，須對捐贈者或捐贈者無充分能力時對代言者，充分的說明本劑長期使用的安全性尚未確認以及目前仍在收集科學的數據，並取得同意後使用。 3) 本劑的投與須考慮捐贈者的全身狀態，須特別加以觀察，慎重的投與。 4) 對捐贈者投與本劑時，為避免對接受者的感染，建議應先實施HBs抗原、HBc抗體、HCV抗體、HIV-1、-2、HTLV-I抗體及梅毒血清檢查，確認皆為陰性。此外，最好進行CMV, Herpes 血清學的檢查。 5) 動員捐贈(捐贈者)的周邊血幹細胞時，因本劑的投與常有引起骨痛、腰痛等的可能性，因此需要投與非麻藥性鎮痛劑等給予適當的處置。 6) 本劑投與後及周邊血幹細胞採集後，有可能會出現血小板減少的情況，須特別注意使用阿斯匹靈等有血小板凝集抑制作用的藥劑。若出現血小板嚴重減少時，則由周邊血幹細胞採集後的血中，進行自體血小板回輸的適當處理。 7) 周邊血幹細胞採集後1~2週後，有可能會出現白血球(嗜中性白血球)減少的情形，須特別注意。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "※ 5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "※ 5.1.3",
+          "title": "造血幹細胞移植時，促進嗜中性白血球的增加及癌症化學療法後的嗜中性白血球缺乏症",
+          "title_html": "造血幹細胞移植時，促進嗜中性白血球的增加及癌症化學療法後的嗜中性白血球缺乏症",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "造血幹細胞移植時，促進嗜中性白血球的增加及癌症化學療法後的嗜中性白血球缺乏症"
+          ],
+          "content_text": "對急性骨髓性白血球病人(進行化學療法或骨髓移植時)投與本劑前，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。此外，定期的進行血液檢查及骨髓檢查，若有芽球增加的情況時應停止投藥。(請參考4, 8.1.4)",
+          "content_html": "<p>對急性骨髓性白血球病人(進行化學療法或骨髓移植時)投與本劑前，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。此外，定期的進行血液檢查及骨髓檢查，若有芽球增加的情況時應停止投藥。(請參考4, 8.1.4)</p>",
+          "search_text": "※ 5.1.3\n造血幹細胞移植時，促進嗜中性白血球的增加及癌症化學療法後的嗜中性白血球缺乏症\n對急性骨髓性白血球病人(進行化學療法或骨髓移植時)投與本劑前，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。此外，定期的進行血液檢查及骨髓檢查，若有芽球增加的情況時應停止投藥。(請參考4, 8.1.4)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.4",
+          "title": "與骨髓發育不良症候群相關的嗜中性白血球缺乏症",
+          "title_html": "與骨髓發育不良症候群相關的嗜中性白血球缺乏症",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "與骨髓發育不良症候群相關的嗜中性白血球缺乏症"
+          ],
+          "content_text": "已知在骨髓發育不良症候群中，伴隨有芽球增加的病例，有移轉成骨髓性白血病的危險。所以在使用本劑時，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。",
+          "content_html": "<p>已知在骨髓發育不良症候群中，伴隨有芽球增加的病例，有移轉成骨髓性白血病的危險。所以在使用本劑時，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。</p>",
+          "search_text": "5.1.4\n與骨髓發育不良症候群相關的嗜中性白血球缺乏症\n已知在骨髓發育不良症候群中，伴隨有芽球增加的病例，有移轉成骨髓性白血病的危險。所以在使用本劑時，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "※ 5.1.5",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "※ 5.1.5",
+          "title": "先天性嗜中性白血球缺乏症",
+          "title_html": "先天性嗜中性白血球缺乏症",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "先天性嗜中性白血球缺乏症"
+          ],
+          "content_text": "病人自行注射本品的施行應受醫師的監督，首先須慎重評估每位病人自行注射的適當性，並在充分提供有關自行注射的教育訓練後，確認病人能夠自行安全注射藥物。此外，應告知病人如果在自行注射後出現疑似與本品有關的不良反應，或對繼續自行注射感到困難時，應立即向醫師報告。應指導病人切勿重複使用用過的針頭，並應指導病人安全處置用過的針頭的方法。",
+          "content_html": "<p>病人自行注射本品的施行應受醫師的監督，首先須慎重評估每位病人自行注射的適當性，並在充分提供有關自行注射的教育訓練後，確認病人能夠自行安全注射藥物。此外，應告知病人如果在自行注射後出現疑似與本品有關的不良反應，或對繼續自行注射感到困難時，應立即向醫師報告。應指導病人切勿重複使用用過的針頭，並應指導病人安全處置用過的針頭的方法。</p>",
+          "search_text": "※ 5.1.5\n先天性嗜中性白血球缺乏症\n病人自行注射本品的施行應受醫師的監督，首先須慎重評估每位病人自行注射的適當性，並在充分提供有關自行注射的教育訓練後，確認病人能夠自行安全注射藥物。此外，應告知病人如果在自行注射後出現疑似與本品有關的不良反應，或對繼續自行注射感到困難時，應立即向醫師報告。應指導病人切勿重複使用用過的針頭，並應指導病人安全處置用過的針頭的方法。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "※ 不建議孕婦或可能懷孕的婦女使用本劑。",
+          "content_html": "<p><strong>※ </strong>不建議孕婦或可能懷孕的婦女使用本劑。</p>",
+          "search_text": "6.1\n懷孕\n※ 不建議孕婦或可能懷孕的婦女使用本劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "※應考量治療對母親的益處和母乳餵養對嬰幼兒的益處，以決定繼續或停止母乳餵養。",
+          "content_html": "<p>※應考量治療對母親的益處和母乳餵養對嬰幼兒的益處，以決定繼續或停止母乳餵養。</p>",
+          "search_text": "6.2\n哺乳\n※應考量治療對母親的益處和母乳餵養對嬰幼兒的益處，以決定繼續或停止母乳餵養。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "※1)尚無在兒童執行以療效和安全性為指標的臨床試驗。 2)對早產兒、新生兒、嬰兒投與的安全性尚未確立，所以不推薦投與(使用經驗少)。 3)對兒童的投與應注意觀察，謹慎使用。特別是對動員周邊血幹細胞捐贈者的使用經驗少。本劑的投與需考慮捐贈者的全身狀態，細心觀察謹慎投與。",
+          "content_html": "<p>※1)尚無在兒童執行以療效和安全性為指標的臨床試驗。</p><p>2)對早產兒、新生兒、嬰兒投與的安全性尚未確立，所以不推薦投與(使用經驗少)。</p><p>3)對兒童的投與應注意觀察，謹慎使用。特別是對動員周邊血幹細胞捐贈者的使用經驗少。本劑的投與需考慮捐贈者的全身狀態，細心觀察謹慎投與。</p>",
+          "search_text": "6.4\n小兒\n※1)尚無在兒童執行以療效和安全性為指標的臨床試驗。 2)對早產兒、新生兒、嬰兒投與的安全性尚未確立，所以不推薦投與(使用經驗少)。 3)對兒童的投與應注意觀察，謹慎使用。特別是對動員周邊血幹細胞捐贈者的使用經驗少。本劑的投與需考慮捐贈者的全身狀態，細心觀察謹慎投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "老年人一般的生理功能（造血功能、肝功能、腎功能等）均較弱，投與間隔及用量應特別留意，須依病人之臨床症狀審慎投與。",
+          "content_html": "<p>老年人一般的生理功能（造血功能、肝功能、腎功能等）均較弱，投與間隔及用量應特別留意，須依病人之臨床症狀審慎投與。</p>",
+          "search_text": "6.5\n老年人\n老年人一般的生理功能（造血功能、肝功能、腎功能等）均較弱，投與間隔及用量應特別留意，須依病人之臨床症狀審慎投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "對下列病人，須小心投與 1)有藥物過敏史的病人。(請參考5.1.1, 8.1.1) 2)有過敏傾向的病人。(請參考5.1.1, 8.1.1)",
+          "content_html": "<p>對下列病人，須小心投與</p><p style=\"margin-left:0cm;\">1)有藥物過敏史的病人。(請參考5.1.1, 8.1.1)</p><p style=\"margin-left:0cm;\">2)有過敏傾向的病人。(請參考5.1.1, 8.1.1)</p>",
+          "search_text": "6.8\n其他族群\n對下列病人，須小心投與 1)有藥物過敏史的病人。(請參考5.1.1, 8.1.1) 2)有過敏傾向的病人。(請參考5.1.1, 8.1.1)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "※目前尚無資訊。",
+          "content_html": "<p><strong>※</strong>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n※目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+          "title_html": "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)"
+          ],
+          "content_text": "動員周邊血幹細胞的捐髓者 51例中全有不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是腰痛24件（47.1%）、頭痛10件（19.6%）、關節痛8件（15.7%）、發燒6件（11.8%）等。主要的臨床檢查值異常為LDH上升44件（86.3%）、Al-P上升35件（68.6%）、白血球減少．嗜中性白血球減少15件（29.4%）、尿酸上升12件（23.5%）、血小板減少7件（13.7%）、CRP上升6件（11.8%）等。〔適應症追加時〕 嗜中性白血球缺乏症的對象病人 總共7,175例中有935例（13.0%）不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是骨痛（胸部、腰部、骨盆部等）124件（1.7%）、發燒者117件（1.6%）、腰痛108件（1.5%）、肝功能異常40件（0.6%）等。主要的臨床檢查值異常為LDH上升348件（4.9%）、Al-P上升264件（3.7%）、ALT(GPT)上升89件（1.2%）、AST(GOT)上升68件（0.9%）及CRP上升45件(0.6%)等。〔統計至2004年再審查結束時〕",
+          "content_html": "<p>動員周邊血幹細胞的捐髓者</p><p>51例中全有不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是腰痛24件（47.1%）、頭痛10件（19.6%）、關節痛8件（15.7%）、發燒6件（11.8%）等。主要的臨床檢查值異常為LDH上升44件（86.3%）、Al-P上升35件（68.6%）、白血球減少．嗜中性白血球減少15件（29.4%）、尿酸上升12件（23.5%）、血小板減少7件（13.7%）、CRP上升6件（11.8%）等。〔適應症追加時〕</p><p>嗜中性白血球缺乏症的對象病人</p><p>總共7,175例中有935例（13.0%）不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是骨痛（胸部、腰部、骨盆部等）124件（1.7%）、發燒者117件（1.6%）、腰痛108件（1.5%）、肝功能異常40件（0.6%）等。主要的臨床檢查值異常為LDH上升348件（4.9%）、Al-P上升264件（3.7%）、ALT(GPT)上升89件（1.2%）、AST(GOT)上升68件（0.9%）及CRP上升45件(0.6%)等。〔統計至2004年再審查結束時〕</p>",
+          "search_text": "8\n副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)\n動員周邊血幹細胞的捐髓者 51例中全有不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是腰痛24件（47.1%）、頭痛10件（19.6%）、關節痛8件（15.7%）、發燒6件（11.8%）等。主要的臨床檢查值異常為LDH上升44件（86.3%）、Al-P上升35件（68.6%）、白血球減少．嗜中性白血球減少15件（29.4%）、尿酸上升12件（23.5%）、血小板減少7件（13.7%）、CRP上升6件（11.8%）等。〔適應症追加時〕 嗜中性白血球缺乏症的對象病人 總共7,175例中有935例（13.0%）不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是骨痛（胸部、腰部、骨盆部等）124件（1.7%）、發燒者117件（1.6%）、腰痛108件（1.5%）、肝功能異常40件（0.6%）等。主要的臨床檢查值異常為LDH上升348件（4.9%）、Al-P上升264件（3.7%）、ALT(GPT)上升89件（1.2%）、AST(GOT)上升68件（0.9%）及CRP上升45件(0.6%)等。〔統計至2004年再審查結束時〕",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "可能會出現以下不良反應。應仔細監測病人，如觀察到任何異狀，應採取適當措施(如停止給藥)。",
+          "content_html": "<p style=\"text-align:justify;\">可能會出現以下不良反應。應仔細監測病人，如觀察到任何異狀，應採取適當措施(如停止給藥)。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n可能會出現以下不良反應。應仔細監測病人，如觀察到任何異狀，應採取適當措施(如停止給藥)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.1",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.1",
+          "title": "休克、全身性過敏反應(anaphylaxis)(頻率不明)",
+          "title_html": "休克、全身性過敏反應(anaphylaxis)(頻率不明)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "休克、全身性過敏反應(anaphylaxis)(頻率不明)"
+          ],
+          "content_text": "當發現異常時應停止用藥並給予適當的處理。(請參考5.1.1, 6.8)。",
+          "content_html": "<p>當發現異常時應停止用藥並給予適當的處理。(請參考5.1.1, 6.8)。</p>",
+          "search_text": "8.1.1\n休克、全身性過敏反應(anaphylaxis)(頻率不明)\n當發現異常時應停止用藥並給予適當的處理。(請參考5.1.1, 6.8)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.2",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.2",
+          "title": "間質性肺炎(頻率不明)",
+          "title_html": "間質性肺炎(頻率不明)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "間質性肺炎(頻率不明)"
+          ],
+          "content_text": "如有間質性肺炎或促使其惡化的情形發生，或發現有發燒、咳嗽、呼吸困難及胸部X光檢查異常時，應停止投用本劑，並給予副腎皮質荷爾蒙等適當處置。",
+          "content_html": "<p>如有間質性肺炎或促使其惡化的情形發生，或發現有發燒、咳嗽、呼吸困難及胸部X光檢查異常時，應停止投用本劑，並給予副腎皮質荷爾蒙等適當處置。</p>",
+          "search_text": "8.1.2\n間質性肺炎(頻率不明)\n如有間質性肺炎或促使其惡化的情形發生，或發現有發燒、咳嗽、呼吸困難及胸部X光檢查異常時，應停止投用本劑，並給予副腎皮質荷爾蒙等適當處置。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.3",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.3",
+          "title": "急性呼吸窘迫症候群(頻率不明)",
+          "title_html": "急性呼吸窘迫症候群(頻率不明)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "急性呼吸窘迫症候群(頻率不明)"
+          ],
+          "content_text": "如發現有急速的呼吸困難，低氧血、兩側瀰漫性肺浸潤影像等的X光檢查異常時，應停止投與本劑，並給予呼吸治療等適當的處理。",
+          "content_html": "<p>如發現有急速的呼吸困難，低氧血、兩側瀰漫性肺浸潤影像等的X光檢查異常時，應停止投與本劑，並給予呼吸治療等適當的處理。</p>",
+          "search_text": "8.1.3\n急性呼吸窘迫症候群(頻率不明)\n如發現有急速的呼吸困難，低氧血、兩側瀰漫性肺浸潤影像等的X光檢查異常時，應停止投與本劑，並給予呼吸治療等適當的處理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.4",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.4",
+          "title": "芽球的增加(頻率不明)",
+          "title_html": "芽球的增加(頻率不明)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "芽球的增加(頻率不明)"
+          ],
+          "content_text": "對急性骨髓性白血病和骨髓發育不良症候群病人，有促使芽球增加的可能，如發現芽球增加時，應停止投藥。(請參考4, 5.1.3)",
+          "content_html": "<p>對急性骨髓性白血病和骨髓發育不良症候群病人，有促使芽球增加的可能，如發現芽球增加時，應停止投藥。(請參考4, 5.1.3)</p>",
+          "search_text": "8.1.4\n芽球的增加(頻率不明)\n對急性骨髓性白血病和骨髓發育不良症候群病人，有促使芽球增加的可能，如發現芽球增加時，應停止投藥。(請參考4, 5.1.3)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.5",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.5",
+          "title": "微血管滲漏症候群(<0.1%)",
+          "title_html": "微血管滲漏症候群(<0.1%)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "微血管滲漏症候群(<0.1%)"
+          ],
+          "content_text": "若觀察到低血壓、低白蛋白血症、浮腫、肺水腫、肋膜積液、腹水及血液濃縮等症狀，應採取適當措施，如停止投藥。",
+          "content_html": "<p>若觀察到低血壓、低白蛋白血症、浮腫、肺水腫、肋膜積液、腹水及血液濃縮等症狀，應採取適當措施，如停止投藥。</p>",
+          "search_text": "8.1.5\n微血管滲漏症候群(<0.1%)\n若觀察到低血壓、低白蛋白血症、浮腫、肺水腫、肋膜積液、腹水及血液濃縮等症狀，應採取適當措施，如停止投藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.6",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.6",
+          "title": "大型血管炎(主動脈、總頸動脈、鎖骨下動脈等炎症)(頻率不明)",
+          "title_html": "大型血管炎(主動脈、總頸動脈、鎖骨下動脈等炎症)(頻率不明)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "大型血管炎(主動脈、總頸動脈、鎖骨下動脈等炎症)(頻率不明)"
+          ],
+          "content_text": "如發現發燒、CRP上升、主動脈壁肥大等時，應採取適當措施，如停止投藥。",
+          "content_html": "<p>如發現發燒、CRP上升、主動脈壁肥大等時，應採取適當措施，如停止投藥。</p>",
+          "search_text": "8.1.6\n大型血管炎(主動脈、總頸動脈、鎖骨下動脈等炎症)(頻率不明)\n如發現發燒、CRP上升、主動脈壁肥大等時，應採取適當措施，如停止投藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.7",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.7",
+          "title": "脾臟破裂(頻率不明)、脾腫大(1~10%)",
+          "title_html": "脾臟破裂(頻率不明)、脾腫大(1~10%)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "脾臟破裂(頻率不明)、脾腫大(1~10%)"
+          ],
+          "content_text": "對於接受filgrastim治療且反應左上腹和/或肩膀尖端疼痛的病人，應評估是否發生脾臟腫大或脾破裂；如發現脾臟突然腫大，應採取適當措施，如停止投藥(請參考5.1.1)。(Amgen CDS V18)",
+          "content_html": "<p>對於接受filgrastim治療且反應左上腹和/或肩膀尖端疼痛的病人，應評估是否發生脾臟腫大或脾破裂；如發現脾臟突然腫大，應採取適當措施，如停止投藥(請參考5.1.1)。<sup>(Amgen CDS V18)</sup></p>",
+          "search_text": "8.1.7\n脾臟破裂(頻率不明)、脾腫大(1~10%)\n對於接受filgrastim治療且反應左上腹和/或肩膀尖端疼痛的病人，應評估是否發生脾臟腫大或脾破裂；如發現脾臟突然腫大，應採取適當措施，如停止投藥(請參考5.1.1)。(Amgen CDS V18)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.8",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.8",
+          "title": "乳癌和肺癌病人之骨髓增生不良症候群(MDS)和急性骨髓性白血病(AML)",
+          "title_html": "乳癌和肺癌病人之骨髓增生不良症候群(MDS)和急性骨髓性白血病(AML)",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "乳癌和肺癌病人之骨髓增生不良症候群(MDS)和急性骨髓性白血病(AML)"
+          ],
+          "content_text": "在上市後的觀察性研究中，乳癌和肺癌病人的化療和/或放射治療中併用filgrastim與MDS和AML的發生相關。監測這些病人MDS /AML的訊號和症狀。(Amgen CDS V18)",
+          "content_html": "<p>在上市後的觀察性研究中，乳癌和肺癌病人的化療和/或放射治療中併用filgrastim與MDS和AML的發生相關。監測這些病人MDS&nbsp;/AML的訊號和症狀。<sup>(Amgen CDS V18)</sup></p>",
+          "search_text": "8.1.8\n乳癌和肺癌病人之骨髓增生不良症候群(MDS)和急性骨髓性白血病(AML)\n在上市後的觀察性研究中，乳癌和肺癌病人的化療和/或放射治療中併用filgrastim與MDS和AML的發生相關。監測這些病人MDS /AML的訊號和症狀。(Amgen CDS V18)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.9",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.9",
+          "title": "其他的不良反應",
+          "title_html": "其他的不良反應",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "其他的不良反應"
+          ],
+          "content_text": "不良反應的頻率(%) 5%以上 1~5%未滿 1%未滿 頻率不明 皮膚 發疹、潮紅 嗜中性白血球浸潤、疼痛性紅斑、發熱等皮膚症狀(Sweet Syndrome等) 肌肉 、 骨骼 骨痛、 腰痛 胸痛、關節痛、肌痛四肢疼痛 消化器官 噁心、嘔吐 肝臟 ALT(GPT)上升 肝功能異常、AST(GOT)上升 ※血液 白血球增多血小板減少、髓外造血 腎臟 腎絲球腎炎 其他 LDH上升 發燒、 Al-P上升 頭痛、倦怠感、心悸、尿酸上升、血清中creatinine上升、CRP上升浮腫 註)發生率包括使用結果調查。",
+          "content_html": "<figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\">不良反應的頻率(%)</td></tr><tr><td style=\"border:1.0pt solid Black;height:5.9pt;padding:0cm 1.4pt;width:55.25pt;\"><p style=\"text-align:center;\">5%以上</p></td><td style=\"border:1.0pt solid Black;height:5.9pt;padding:0cm 1.4pt;width:50.75pt;\"><p style=\"text-align:center;\">1~5%未滿</p></td><td style=\"border:1.0pt solid Black;height:5.9pt;padding:0cm 1.4pt;width:54.45pt;\"><p style=\"text-align:center;\">1%未滿</p></td><td style=\"border:1.0pt solid Black;height:5.9pt;padding:0cm 1.4pt;width:55.25pt;\"><p style=\"text-align:center;\">頻率不明</p></td></tr><tr><td style=\"border-color:Black;border-style:solid;\">皮膚</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border:1.0pt solid Black;height:13.7pt;padding:0cm 1.4pt;vertical-align:top;width:54.45pt;\"><p style=\"text-align:justify;\">發疹、潮紅</p></td><td style=\"border:1.0pt solid Black;height:13.7pt;padding:0cm 1.4pt;vertical-align:top;width:55.25pt;\"><p style=\"text-align:justify;\">嗜中性白血球浸潤、疼痛性紅斑、發熱等皮膚症狀(Sweet Syndrome等)</p></td></tr><tr><td style=\"border:1.0pt solid Black;height:12.15pt;padding:0cm 1.4pt;width:30.1pt;\"><p>肌肉</p><p>、</p><p>骨骼</p></td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border:1.0pt solid Black;height:12.15pt;padding:0cm 1.4pt;width:50.75pt;\"><p style=\"text-align:center;\">骨痛、</p><p style=\"text-align:center;\">腰痛</p></td><td style=\"border:1.0pt solid Black;height:12.15pt;padding:0cm 1.4pt;width:54.45pt;\">胸痛、關節痛、肌痛</td><td style=\"border:1.0pt solid Black;height:12.15pt;padding:0cm 1.4pt;width:55.25pt;\">四肢疼痛</td></tr><tr><td style=\"border:1.0pt solid Black;height:12.15pt;padding:0cm 1.4pt;width:30.1pt;\"><p style=\"text-align:center;\">消化器官</p></td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">噁心、嘔吐</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">肝臟</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border:1.0pt solid Black;height:13.8pt;padding:0cm 1.4pt;width:50.75pt;\"><p style=\"text-align:center;\">ALT(GPT)上升</p></td><td style=\"border:1.0pt solid Black;height:13.8pt;padding:0cm 1.4pt;width:54.45pt;\">肝功能異常、AST(GOT)上升</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;\"><strong>※</strong>血液</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">白血球增多</td><td style=\"border-color:Black;border-style:solid;\">血小板減少、髓外造血</td></tr><tr><td style=\"border:1.0pt solid Black;height:5.9pt;padding:0cm 1.4pt;width:30.1pt;\"><p style=\"text-align:center;\">腎臟</p></td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">腎絲球腎炎</td></tr><tr><td style=\"border:1.0pt solid Black;height:31.7pt;padding:0cm 1.4pt;width:30.1pt;\"><p style=\"text-align:center;\">其他</p></td><td style=\"border:1.0pt solid Black;height:31.7pt;padding:0cm 1.4pt;width:55.25pt;\"><p style=\"text-align:justify;\">LDH上升</p></td><td style=\"border:1.0pt solid Black;height:31.7pt;padding:0cm 1.4pt;width:50.75pt;\"><p>發燒、</p><p>Al-P上升</p></td><td style=\"border:1.0pt solid Black;height:31.7pt;padding:0cm 1.4pt;width:54.45pt;\">頭痛、倦怠感、心悸、尿酸上升、血清中creatinine上升、CRP上升</td><td style=\"border:1.0pt solid Black;height:31.7pt;padding:0cm 1.4pt;width:55.25pt;\">浮腫</td></tr></tbody></table></figure><p style=\"text-align:justify;\">註)發生率包括使用結果調查。</p>",
+          "search_text": "8.1.9\n其他的不良反應\n不良反應的頻率(%) 5%以上 1~5%未滿 1%未滿 頻率不明 皮膚 發疹、潮紅 嗜中性白血球浸潤、疼痛性紅斑、發熱等皮膚症狀(Sweet Syndrome等) 肌肉 、 骨骼 骨痛、 腰痛 胸痛、關節痛、肌痛四肢疼痛 消化器官 噁心、嘔吐 肝臟 ALT(GPT)上升 肝功能異常、AST(GOT)上升 ※血液 白血球增多血小板減少、髓外造血 腎臟 腎絲球腎炎 其他 LDH上升 發燒、 Al-P上升 頭痛、倦怠感、心悸、尿酸上升、血清中creatinine上升、CRP上升浮腫 註)發生率包括使用結果調查。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.10",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.10",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床重要副作用/不良反應",
+            "其他注意事項"
+          ],
+          "content_text": "基於臨床使用的訊息 (1) 有報告指出，對再生不良性貧血或先天性嗜中性白血球缺乏症病人，有因投與顆粒球集落形成刺激因子製劑而轉變為骨髓發育不良症候群或急性骨髓性白血病之病例。 (2) 對再生不良性貧血，骨髓發育不良症候群或先天性嗜中性白血球缺乏症病人，投與顆粒球集落形成刺激因子製劑，曾有發生染色體異常的病例。 (3) 有報告指出，對於投與顆粒球集落形成刺激因子製劑以動員周邊血幹細胞的捐贈者而言，曾發生骨髓增殖性疾病及急性骨髓性白血病。 (4) 除不良反應項目中所記載之外，雖然因果關係仍不明確，但曾有報告指出，動員周邊血幹細胞捐髓者，因投與顆粒球集落形成刺激因子製劑而發生暫時性心臟驟停。日本以外的捐贈者，曾有報告心衰竭、血管炎、腦血管障礙、偏頭痛、腹瀉、重聽、地中海型貧血、鎌狀紅血球貧血、痛風、高血糖、軟骨障礙、缺血性心臟病、心肌炎、無月經、肺出血及腎癌等不良事件。 (5) 有報告指出，乳癌、惡性淋巴腫瘤及骨髓腫瘤病人，採集的自體周邊血幹細胞中有腫瘤細胞的混入。 (6)白血球增多: 在使用filgrastim的病人中有觀察到白血球計數等於或大於100,000/mm3的現象。建議在filgrastim治療期間監測全血細胞計數(CBC)。當癌症病人使用filgrastim來動員周邊造血幹細胞的期間，如果白血球計數升高至>100,000/mm3，停止使用filgrastim是適當的。(Amgen CDS V18) 基於臨床前研究的訊息 有報告指出，顆粒球集落形成刺激因子在in vitro或in vivo試驗中，對數種人體膀胱癌細胞株和骨肉腫瘤細胞株有促進增殖的傾向。",
+          "content_html": "<p><u>基於臨床使用的訊息</u></p><p style=\"text-align:justify;\">(1) 有報告指出，對再生不良性貧血或先天性嗜中性白血球缺乏症病人，有因投與顆粒球集落形成刺激因子製劑而轉變為骨髓發育不良症候群或急性骨髓性白血病之病例。</p><p style=\"text-align:justify;\">(2) 對再生不良性貧血，骨髓發育不良症候群或先天性嗜中性白血球缺乏症病人，投與顆粒球集落形成刺激因子製劑，曾有發生染色體異常的病例。</p><p style=\"text-align:justify;\">(3) 有報告指出，對於投與顆粒球集落形成刺激因子製劑以動員周邊血幹細胞的捐贈者而言，曾發生骨髓增殖性疾病及急性骨髓性白血病。</p><p style=\"text-align:justify;\">(4) 除不良反應項目中所記載之外，雖然因果關係仍不明確，但曾有報告指出，動員周邊血幹細胞捐髓者，因投與顆粒球集落形成刺激因子製劑而發生暫時性心臟驟停。日本以外的捐贈者，曾有報告心衰竭、血管炎、腦血管障礙、偏頭痛、腹瀉、重聽、地中海型貧血、鎌狀紅血球貧血、痛風、高血糖、軟骨障礙、缺血性心臟病、心肌炎、無月經、肺出血及腎癌等不良事件。</p><p style=\"text-align:justify;\">(5) 有報告指出，乳癌、惡性淋巴腫瘤及骨髓腫瘤病人，採集的自體周邊血幹細胞中有腫瘤細胞的混入。</p><p style=\"text-align:justify;\">(6)白血球增多:&nbsp;在使用filgrastim的病人中有觀察到白血球計數等於或大於100,000/mm<sup>3</sup>的現象。建議在filgrastim治療期間監測全血細胞計數(CBC)。當癌症病人使用filgrastim來動員周邊造血幹細胞的期間，如果白血球計數升高至&gt;100,000/mm<sup>3</sup>，停止使用filgrastim是適當的。<sup>(Amgen CDS V18)</sup></p><p style=\"text-align:justify;\"><u>基於臨床前研究的訊息</u></p><p>有報告指出，顆粒球集落形成刺激因子在in vitro或in vivo試驗中，對數種人體膀胱癌細胞株和骨肉腫瘤細胞株有促進增殖的傾向。<br>&nbsp;</p>",
+          "search_text": "8.1.10\n其他注意事項\n基於臨床使用的訊息 (1) 有報告指出，對再生不良性貧血或先天性嗜中性白血球缺乏症病人，有因投與顆粒球集落形成刺激因子製劑而轉變為骨髓發育不良症候群或急性骨髓性白血病之病例。 (2) 對再生不良性貧血，骨髓發育不良症候群或先天性嗜中性白血球缺乏症病人，投與顆粒球集落形成刺激因子製劑，曾有發生染色體異常的病例。 (3) 有報告指出，對於投與顆粒球集落形成刺激因子製劑以動員周邊血幹細胞的捐贈者而言，曾發生骨髓增殖性疾病及急性骨髓性白血病。 (4) 除不良反應項目中所記載之外，雖然因果關係仍不明確，但曾有報告指出，動員周邊血幹細胞捐髓者，因投與顆粒球集落形成刺激因子製劑而發生暫時性心臟驟停。日本以外的捐贈者，曾有報告心衰竭、血管炎、腦血管障礙、偏頭痛、腹瀉、重聽、地中海型貧血、鎌狀紅血球貧血、痛風、高血糖、軟骨障礙、缺血性心臟病、心肌炎、無月經、肺出血及腎癌等不良事件。 (5) 有報告指出，乳癌、惡性淋巴腫瘤及骨髓腫瘤病人，採集的自體周邊血幹細胞中有腫瘤細胞的混入。 (6)白血球增多: 在使用filgrastim的病人中有觀察到白血球計數等於或大於100,000/mm3的現象。建議在filgrastim治療期間監測全血細胞計數(CBC)。當癌症病人使用filgrastim來動員周邊造血幹細胞的期間，如果白血球計數升高至>100,000/mm3，停止使用filgrastim是適當的。(Amgen CDS V18) 基於臨床前研究的訊息 有報告指出，顆粒球集落形成刺激因子在in vitro或in vivo試驗中，對數種人體膀胱癌細胞株和骨肉腫瘤細胞株有促進增殖的傾向。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "※目前尚無資訊。",
+          "content_html": "<p><strong>※</strong>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n※目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "對於對小鼠骨髓細胞，人類嗜中性白血球細胞的受體結合試驗中，本劑會與存在於嗜中性白血球前趨細胞至成熟嗜中性白血球細胞上的受體產生特異的結合，對於嗜中性白血球前趨細胞有促進其分化、增殖，而對成熟嗜中性白血球則有亢進其機能之作用 12)。",
+          "content_html": "<p style=\"text-align:justify;\">對於對小鼠骨髓細胞，人類嗜中性白血球細胞的受體結合試驗中，本劑會與存在於嗜中性白血球前趨細胞至成熟嗜中性白血球細胞上的受體產生特異的結合，對於嗜中性白血球前趨細胞有促進其分化、增殖，而對成熟嗜中性白血球則有亢進其機能之作用 <sup>12)</sup>。</p>",
+          "search_text": "10.1\n作用機轉\n對於對小鼠骨髓細胞，人類嗜中性白血球細胞的受體結合試驗中，本劑會與存在於嗜中性白血球前趨細胞至成熟嗜中性白血球細胞上的受體產生特異的結合，對於嗜中性白血球前趨細胞有促進其分化、增殖，而對成熟嗜中性白血球則有亢進其機能之作用 12)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.2\n藥效藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2.1",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "10.2.1",
+          "title": "嗜中性球數增加作用",
+          "title_html": "嗜中性球數增加作用",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "嗜中性球數增加作用"
+          ],
+          "content_text": "(1) 促進嗜中性白血球前驅細胞分化．增殖之作用，及促進成熟的嗜中性白血球由骨髓釋出的作用 於活體外進行集落形成試驗，小鼠的骨髓細胞於本劑存在下培養時，本劑有嗜中性白血球前驅細胞的分化．增殖作用。此外，對注射Cyclophosphamide引起嗜中性白血球減少的小鼠，投與本劑時，防止了周邊血液中嗜中性白血球數的減少，骨髓的檢驗，表現從最不成熟的骨髓芽球細胞到成熟的嗜中性白血球的順序上均能看到顯著性的增加13)。 對大白鼠投與本劑時，可估計有促進骨髓中成熟的嗜中性白血球向周邊血流釋出14)。 (2) 動員造血幹細胞至周邊血中 對正常以及抗癌劑投與的小鼠投與本劑時，會增加周邊血中的CFU-GM、BFU-E、CFU-Mk以及CFU-Mix。 (3) 於嗜中性白血球缺乏動物Model的藥理作用 對於小鼠、大白鼠、狗及猴子的嗜中性球缺乏動物Model(抗癌劑投與、造血幹細胞移植、遺傳性嗜中性白血球缺乏症)，有嗜中性白血球增加的效果 15,16)。",
+          "content_html": "<p>(1) 促進嗜中性白血球前驅細胞分化．增殖之作用，及促進成熟的嗜中性白血球由骨髓釋出的作用</p><p style=\"margin-left:0cm;\">於活體外進行集落形成試驗，小鼠的骨髓細胞於本劑存在下培養時，本劑有嗜中性白血球前驅細胞的分化．增殖作用。此外，對注射Cyclophosphamide引起嗜中性白血球減少的小鼠，投與本劑時，防止了周邊血液中嗜中性白血球數的減少，骨髓的檢驗，表現從最不成熟的骨髓芽球細胞到成熟的嗜中性白血球的順序上均能看到顯著性的增加<sup>13)</sup>。</p><p>對大白鼠投與本劑時，可估計有促進骨髓中成熟的嗜中性白血球向周邊血流釋出<sup>14)</sup>。</p><p>(2) 動員造血幹細胞至周邊血中</p><p>對正常以及抗癌劑投與的小鼠投與本劑時，會增加周邊血中的CFU-GM、BFU-E、CFU-Mk以及CFU-Mix。</p><p>(3) 於嗜中性白血球缺乏動物Model的藥理作用</p><p>對於小鼠、大白鼠、狗及猴子的嗜中性球缺乏動物Model(抗癌劑投與、造血幹細胞移植、遺傳性嗜中性白血球缺乏症)，有嗜中性白血球增加的效果 <sup>15,16)</sup>。</p>",
+          "search_text": "10.2.1\n嗜中性球數增加作用\n(1) 促進嗜中性白血球前驅細胞分化．增殖之作用，及促進成熟的嗜中性白血球由骨髓釋出的作用 於活體外進行集落形成試驗，小鼠的骨髓細胞於本劑存在下培養時，本劑有嗜中性白血球前驅細胞的分化．增殖作用。此外，對注射Cyclophosphamide引起嗜中性白血球減少的小鼠，投與本劑時，防止了周邊血液中嗜中性白血球數的減少，骨髓的檢驗，表現從最不成熟的骨髓芽球細胞到成熟的嗜中性白血球的順序上均能看到顯著性的增加13)。 對大白鼠投與本劑時，可估計有促進骨髓中成熟的嗜中性白血球向周邊血流釋出14)。 (2) 動員造血幹細胞至周邊血中 對正常以及抗癌劑投與的小鼠投與本劑時，會增加周邊血中的CFU-GM、BFU-E、CFU-Mk以及CFU-Mix。 (3) 於嗜中性白血球缺乏動物Model的藥理作用 對於小鼠、大白鼠、狗及猴子的嗜中性球缺乏動物Model(抗癌劑投與、造血幹細胞移植、遺傳性嗜中性白血球缺乏症)，有嗜中性白血球增加的效果 15,16)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2.2",
+          "parent_id": "10.2",
+          "level": 3,
+          "number": "10.2.2",
+          "title": "嗜中性白血球機能亢進作用",
+          "title_html": "嗜中性白血球機能亢進作用",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性",
+            "嗜中性白血球機能亢進作用"
+          ],
+          "content_text": "用小鼠進行生體外及生體內試驗，投與本劑後可看到貪食殺菌作用的亢進。用大白鼠進行生體外及生體內試驗，投與本劑後可看到嗜中性白血球的趨化性亢進。健康人的末梢嗜中性白血球在本劑存在下培養後，用FMLP加以刺激，會有增加Super oxide的產生(in vitro)17)。對惡性淋巴瘤病人施行癌化學療法後，投與本劑，於分離出周邊血嗜中性白血球中，用FMLP加以刺激，Super oxide的產生有顯著地增加(ex vivo)18)。",
+          "content_html": "<p style=\"text-align:justify;\">用小鼠進行生體外及生體內試驗，投與本劑後可看到貪食殺菌作用的亢進。用大白鼠進行生體外及生體內試驗，投與本劑後可看到嗜中性白血球的趨化性亢進。健康人的末梢嗜中性白血球在本劑存在下培養後，用FMLP加以刺激，會有增加Super oxide的產生(in vitro)<sup>17)</sup>。對惡性淋巴瘤病人施行癌化學療法後，投與本劑，於分離出周邊血嗜中性白血球中，用FMLP加以刺激，Super oxide的產生有顯著地增加(ex vivo)<sup>18)</sup>。</p>",
+          "search_text": "10.2.2\n嗜中性白血球機能亢進作用\n用小鼠進行生體外及生體內試驗，投與本劑後可看到貪食殺菌作用的亢進。用大白鼠進行生體外及生體內試驗，投與本劑後可看到嗜中性白血球的趨化性亢進。健康人的末梢嗜中性白血球在本劑存在下培養後，用FMLP加以刺激，會有增加Super oxide的產生(in vitro)17)。對惡性淋巴瘤病人施行癌化學療法後，投與本劑，於分離出周邊血嗜中性白血球中，用FMLP加以刺激，Super oxide的產生有顯著地增加(ex vivo)18)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "※目前尚無資訊。",
+          "content_html": "<p><strong>※</strong>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n※目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "11\n藥物動力學特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "※11.1",
+          "parent_id": "11",
+          "level": 2,
+          "number": "※11.1",
+          "title": "血中濃度",
+          "title_html": "血中濃度",
+          "path": [
+            "藥物動力學特性",
+            "血中濃度"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "※11.1\n血中濃度",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.1.1",
+          "parent_id": "※11.1",
+          "level": 3,
+          "number": "11.1.1",
+          "title": "單次投予",
+          "title_html": "單次投予",
+          "path": [
+            "藥物動力學特性",
+            "血中濃度",
+            "單次投予"
+          ],
+          "content_text": "男性健康成人單劑1.0 μg/kg點滴靜脈注射或皮下注射後，點滴靜注(30分)後之半衰期是1.40小時，AUC是21.60ng．hr/ml。皮下注射後半衰期是2.15小時，AUC是11.71ng．hr/ml 1,2)。",
+          "content_html": "<p>男性健康成人單劑1.0 μg/kg點滴靜脈注射或皮下注射後，點滴靜注(30分)後之半衰期是1.40小時，AUC是21.60ng．hr/ml。皮下注射後半衰期是2.15小時，AUC是11.71ng．hr/ml <sup>1,2)</sup>。</p>",
+          "search_text": "11.1.1\n單次投予\n男性健康成人單劑1.0 μg/kg點滴靜脈注射或皮下注射後，點滴靜注(30分)後之半衰期是1.40小時，AUC是21.60ng．hr/ml。皮下注射後半衰期是2.15小時，AUC是11.71ng．hr/ml 1,2)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.1.2",
+          "parent_id": "※11.1",
+          "level": 3,
+          "number": "11.1.2",
+          "title": "多次投予",
+          "title_html": "多次投予",
+          "path": [
+            "藥物動力學特性",
+            "血中濃度",
+            "多次投予"
+          ],
+          "content_text": "男性健康成人連續點滴靜脈注射或皮下注射，給藥第一天和第6天之血漿濃度無顯著差異 3,4)。",
+          "content_html": "<p>男性健康成人連續點滴靜脈注射或皮下注射，給藥第一天和第6天之血漿濃度無顯著差異 <sup>3,4)</sup>。</p>",
+          "search_text": "11.1.2\n多次投予\n男性健康成人連續點滴靜脈注射或皮下注射，給藥第一天和第6天之血漿濃度無顯著差異 3,4)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "※11.2",
+          "parent_id": "11",
+          "level": 2,
+          "number": "※11.2",
+          "title": "吸收",
+          "title_html": "吸收",
+          "path": [
+            "藥物動力學特性",
+            "吸收"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "※11.2\n吸收",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11.2.1",
+          "parent_id": "※11.2",
+          "level": 3,
+          "number": "11.2.1",
+          "title": "生體可用率",
+          "title_html": "生體可用率",
+          "path": [
+            "藥物動力學特性",
+            "吸收",
+            "生體可用率"
+          ],
+          "content_text": "男性健康成人皮下注射本劑1.0 μg/kg 後的生體可用率為54%。",
+          "content_html": "<p><span style=\"color:rgb(0,0,0);\">男性健康成人皮下注射本劑1.0 μg/kg 後的生體可用率為54%。</span></p>",
+          "search_text": "11.2.1\n生體可用率\n男性健康成人皮下注射本劑1.0 μg/kg 後的生體可用率為54%。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "※11.3",
+          "parent_id": "11",
+          "level": 2,
+          "number": "※11.3",
+          "title": "分布",
+          "title_html": "分布",
+          "path": [
+            "藥物動力學特性",
+            "分布"
+          ],
+          "content_text": "雄性大鼠靜脈或皮下注射給予5 μg /kg 125 I-filgrastim時，靜脈給藥後組織總放射性濃度以血漿最高，其次為腎上腺、血液、腎臟、甲狀腺、肝臟、骨髓、氣管、脾臟和腦垂體。皮下注射給藥後組織總放射性濃度以甲狀腺最高，其次為腎臟、胃內容物、血漿、血液、骨髓和膀胱。",
+          "content_html": "<p>雄性大鼠靜脈或皮下注射給予5 μg /kg <sup>125&nbsp;</sup>I-filgrastim時，靜脈給藥後組織總放射性濃度以血漿最高，其次為腎上腺、血液、腎臟、甲狀腺、肝臟、骨髓、氣管、脾臟和腦垂體。皮下注射給藥後組織總放射性濃度以甲狀腺最高，其次為腎臟、胃內容物、血漿、血液、骨髓和膀胱。</p>",
+          "search_text": "※11.3\n分布\n雄性大鼠靜脈或皮下注射給予5 μg /kg 125 I-filgrastim時，靜脈給藥後組織總放射性濃度以血漿最高，其次為腎上腺、血液、腎臟、甲狀腺、肝臟、骨髓、氣管、脾臟和腦垂體。皮下注射給藥後組織總放射性濃度以甲狀腺最高，其次為腎臟、胃內容物、血漿、血液、骨髓和膀胱。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "12\n臨床試驗資料",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.1",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.1",
+          "title": "動員造血幹細胞至周邊血中",
+          "title_html": "動員造血幹細胞至周邊血中",
+          "path": [
+            "臨床試驗資料",
+            "動員造血幹細胞至周邊血中"
+          ],
+          "content_text": "對動員周邊血幹細胞的捐贈者，以皮下注射投與本劑時，開放性試驗為捐贈者體重比例的CD34+細胞數(3×106/kg以上)的收集可能的捐贈者為85.7%(6/7)、國外隨機比較試驗(投與量10 μg/kg)中病人體重比例的CD34+細胞數(3×106/kg以上)的收集可能的病人為88.0%(88/100）。另外、在動員病人的自體周邊血幹細胞時，以乳癌為對象的開放性試驗中，單獨使用本劑及合併癌症化學療法製劑的CD34+細胞數(2×106/kg以上)的收集可能的病人分別為57.1%(4/7)、100%(6/6)。 (社內資料)",
+          "content_html": "<p>對動員周邊血幹細胞的捐贈者，以皮下注射投與本劑時，開放性試驗為捐贈者體重比例的CD34<sup>+</sup>細胞數(3×10<sup>6</sup>/kg以上)的收集可能的捐贈者為85.7%(6/7)、國外隨機比較試驗(投與量10 μg/kg)中病人體重比例的CD34<sup>+</sup>細胞數(3×10<sup>6</sup>/kg以上)的收集可能的病人為88.0%(88/100）。另外、在動員病人的自體周邊血幹細胞時，以乳癌為對象的開放性試驗中，單獨使用本劑及合併癌症化學療法製劑的CD34<sup>+</sup>細胞數(2×10<sup>6</sup>/kg以上)的收集可能的病人分別為57.1%(4/7)、100%(6/6)。&nbsp; &nbsp; &nbsp; (社內資料)</p>",
+          "search_text": "12.1\n動員造血幹細胞至周邊血中\n對動員周邊血幹細胞的捐贈者，以皮下注射投與本劑時，開放性試驗為捐贈者體重比例的CD34+細胞數(3×106/kg以上)的收集可能的捐贈者為85.7%(6/7)、國外隨機比較試驗(投與量10 μg/kg)中病人體重比例的CD34+細胞數(3×106/kg以上)的收集可能的病人為88.0%(88/100）。另外、在動員病人的自體周邊血幹細胞時，以乳癌為對象的開放性試驗中，單獨使用本劑及合併癌症化學療法製劑的CD34+細胞數(2×106/kg以上)的收集可能的病人分別為57.1%(4/7)、100%(6/6)。 (社內資料)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.2",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.2",
+          "title": "促進造血幹細胞移植時的嗜中性球增加",
+          "title_html": "促進造血幹細胞移植時的嗜中性球增加",
+          "path": [
+            "臨床試驗資料",
+            "促進造血幹細胞移植時的嗜中性球增加"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "12.2\n促進造血幹細胞移植時的嗜中性球增加",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.2.1",
+          "parent_id": "12.2",
+          "level": 3,
+          "number": "12.2.1",
+          "title": "周邊血幹細胞移植",
+          "title_html": "周邊血幹細胞移植",
+          "path": [
+            "臨床試驗資料",
+            "促進造血幹細胞移植時的嗜中性球增加",
+            "周邊血幹細胞移植"
+          ],
+          "content_text": "異體周邊血幹細胞移植中，以急性白血病為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射)，此外，自體周邊血幹細胞移植中，以乳癌為對象的開放性試驗及以惡性淋巴瘤為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射或點滴靜脈注射)，有促進周邊血幹細胞移植後，嗜中性白血球增加的效果。異體及自體周邊血幹細胞移植時，嗜中性白血球數(≧500mm3)回復日數的中間值分別為13日、9~11日。 (社內資料)",
+          "content_html": "<p>異體周邊血幹細胞移植中，以急性白血病為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射)，此外，自體周邊血幹細胞移植中，以乳癌為對象的開放性試驗及以惡性淋巴瘤為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射或點滴靜脈注射)，有促進周邊血幹細胞移植後，嗜中性白血球增加的效果。異體及自體周邊血幹細胞移植時，嗜中性白血球數(≧500mm<sup>3</sup>)回復日數的中間值分別為13日、9~11日。 (社內資料)</p>",
+          "search_text": "12.2.1\n周邊血幹細胞移植\n異體周邊血幹細胞移植中，以急性白血病為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射)，此外，自體周邊血幹細胞移植中，以乳癌為對象的開放性試驗及以惡性淋巴瘤為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射或點滴靜脈注射)，有促進周邊血幹細胞移植後，嗜中性白血球增加的效果。異體及自體周邊血幹細胞移植時，嗜中性白血球數(≧500mm3)回復日數的中間值分別為13日、9~11日。 (社內資料)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.2.2",
+          "parent_id": "12.2",
+          "level": 3,
+          "number": "12.2.2",
+          "title": "骨髓移植5,6)",
+          "title_html": "骨髓移植5,6)",
+          "path": [
+            "臨床試驗資料",
+            "促進造血幹細胞移植時的嗜中性球增加",
+            "骨髓移植5,6)"
+          ],
+          "content_text": "以同種、同系骨髓移植病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑點滴靜注組比Placebo組的嗜中性白血球數有顯著增加。其有效率為，本劑投與組78.1%(25/32)、Placebo組35.3%(12/34)。 此外，以自體骨髓移植病人為對象的開放性臨床試驗，也同樣有促進嗜中性白血球增加的效果，其有效率為90.6%(29/32)。",
+          "content_html": "<p>以同種、同系骨髓移植病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑點滴靜注組比Placebo組的嗜中性白血球數有顯著增加。其有效率為，本劑投與組78.1%(25/32)、Placebo組35.3%(12/34)。</p><p style=\"text-align:justify;\">此外，以自體骨髓移植病人為對象的開放性臨床試驗，也同樣有促進嗜中性白血球增加的效果，其有效率為90.6%(29/32)。</p>",
+          "search_text": "12.2.2\n骨髓移植5,6)\n以同種、同系骨髓移植病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑點滴靜注組比Placebo組的嗜中性白血球數有顯著增加。其有效率為，本劑投與組78.1%(25/32)、Placebo組35.3%(12/34)。 此外，以自體骨髓移植病人為對象的開放性臨床試驗，也同樣有促進嗜中性白血球增加的效果，其有效率為90.6%(29/32)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.3",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.3",
+          "title": "由癌症化學療法所引起的嗜中性白血球缺乏症7~9)",
+          "title_html": "由癌症化學療法所引起的嗜中性白血球缺乏症7~9)",
+          "path": [
+            "臨床試驗資料",
+            "由癌症化學療法所引起的嗜中性白血球缺乏症7~9)"
+          ],
+          "content_text": "以惡性淋巴瘤病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑皮下注射組比Placebo組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組89.3%(25/28)、Placebo組13.8%(4/29)。 以乳癌病人為對象，用adenine，為對照藥的雙盲比較試驗結果，本劑皮下注射組比adenine組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組93.1%(27/29)、adenine組14.2%(4/28)。 以急性白血病人者為對象的非盲檢比較試驗結果，本劑點滴靜注組比非投與組，有顯著增加嗜中性白血球的效果及減少感染症的發生。",
+          "content_html": "<p style=\"text-align:justify;\">以惡性淋巴瘤病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑皮下注射組比Placebo組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組89.3%(25/28)、Placebo組13.8%(4/29)。</p><p style=\"text-align:justify;\">以乳癌病人為對象，用adenine，為對照藥的雙盲比較試驗結果，本劑皮下注射組比adenine組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組93.1%(27/29)、adenine組14.2%(4/28)。&nbsp; &nbsp;</p><p style=\"text-align:justify;\">以急性白血病人者為對象的非盲檢比較試驗結果，本劑點滴靜注組比非投與組，有顯著增加嗜中性白血球的效果及減少感染症的發生。</p>",
+          "search_text": "12.3\n由癌症化學療法所引起的嗜中性白血球缺乏症7~9)\n以惡性淋巴瘤病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑皮下注射組比Placebo組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組89.3%(25/28)、Placebo組13.8%(4/29)。 以乳癌病人為對象，用adenine，為對照藥的雙盲比較試驗結果，本劑皮下注射組比adenine組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組93.1%(27/29)、adenine組14.2%(4/28)。 以急性白血病人者為對象的非盲檢比較試驗結果，本劑點滴靜注組比非投與組，有顯著增加嗜中性白血球的效果及減少感染症的發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.4",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.4",
+          "title": "伴隨骨髓發育不良症候群之嗜中性白血球缺乏症10)",
+          "title_html": "伴隨骨髓發育不良症候群之嗜中性白血球缺乏症10)",
+          "path": [
+            "臨床試驗資料",
+            "伴隨骨髓發育不良症候群之嗜中性白血球缺乏症10)"
+          ],
+          "content_text": "開放性臨床試驗的結果，對於骨髓發育不良症候群的21例病人，施與漸增法，以本劑50~400 μg/m2(通常100 μg/m2)點滴靜注後，有20例測出嗜中性白血球數的增加效果，及17例中6例有骨髓的改善。",
+          "content_html": "<p style=\"text-align:justify;\">開放性臨床試驗的結果，對於骨髓發育不良症候群的21例病人，施與漸增法，以本劑50~400 μg/m<sup>2</sup>(通常100&nbsp;μg/m<sup>2</sup>)點滴靜注後，有20例測出嗜中性白血球數的增加效果，及17例中6例有骨髓的改善。</p>",
+          "search_text": "12.4\n伴隨骨髓發育不良症候群之嗜中性白血球缺乏症10)\n開放性臨床試驗的結果，對於骨髓發育不良症候群的21例病人，施與漸增法，以本劑50~400 μg/m2(通常100 μg/m2)點滴靜注後，有20例測出嗜中性白血球數的增加效果，及17例中6例有骨髓的改善。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12.5",
+          "parent_id": "12",
+          "level": 2,
+          "number": "12.5",
+          "title": "先天性．特異性嗜中性球減少症11)",
+          "title_html": "先天性．特異性嗜中性球減少症11)",
+          "path": [
+            "臨床試驗資料",
+            "先天性．特異性嗜中性球減少症11)"
+          ],
+          "content_text": "開放性臨床試驗的結果，以本劑25~200 μg/m2(通常50 μg/m2)皮下注射後，有嗜中性白血球增加的效果，其有效率為78.0%(32/41)。",
+          "content_html": "<p>開放性臨床試驗的結果，以本劑25~200 μg/m<sup>2</sup>(通常50 μg/m<sup>2</sup>)皮下注射後，有嗜中性白血球增加的效果，其有效率為78.0%(32/41)。</p>",
+          "search_text": "12.5\n先天性．特異性嗜中性球減少症11)\n開放性臨床試驗的結果，以本劑25~200 μg/m2(通常50 μg/m2)皮下注射後，有嗜中性白血球增加的效果，其有效率為78.0%(32/41)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "Filgrastim injection 75μg/0.3ml: 10安瓿 Filgrastim injection 150μg/0.6ml: 10安瓿 Filgrastim injection M300 300μg/0.7ml: 10安瓿",
+          "content_html": "<p>Filgrastim injection&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;75μg/0.3ml: 10安瓿</p><p>Filgrastim injection&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;150μg/0.6ml: 10安瓿</p><p>Filgrastim injection M300&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 300μg/0.7ml: 10安瓿</p>",
+          "search_text": "13.1\n包裝\nFilgrastim injection 75μg/0.3ml: 10安瓿 Filgrastim injection 150μg/0.6ml: 10安瓿 Filgrastim injection M300 300μg/0.7ml: 10安瓿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "超過包裝上所載明有效期限，請勿使用。",
+          "content_html": "<p style=\"text-align:justify;\">超過包裝上所載明有效期限，請勿使用。</p>",
+          "search_text": "13.2\n效期\n超過包裝上所載明有效期限，請勿使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "保存於10oC或低於10oC，避免冰凍。 本產品外包裝打開後應避光保存。",
+          "content_html": "<p style=\"text-align:justify;\">保存於10<sup>o</sup>C或低於10<sup>o</sup>C，避免冰凍。</p><p style=\"text-align:justify;\">本產品外包裝打開後應避光保存。</p>",
+          "search_text": "13.3\n儲存條件\n保存於10oC或低於10oC，避免冰凍。 本產品外包裝打開後應避光保存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15.1",
+          "parent_id": "15",
+          "level": 2,
+          "number": "15.1",
+          "title": "版本",
+          "title_html": "版本",
+          "path": [
+            "其他",
+            "版本"
+          ],
+          "content_text": "※2023年07月修訂 2020年12月修訂 GCSF 製劑 Filgrastim (基因重組) Injection, JP 共用仿單 許可證字號藥品名稱 衛署菌疫輸字第000711號惠爾血添注射劑150 Filgrastim Injection 150 μg/0.6ml 衛署菌疫輸字第000712號惠爾血添注射劑75 Filgrastim Injection 75 μg/0.3ml 衛署菌疫輸字第000670號惠爾血添注射劑M300 Filgrastim Injection M300 300μg/0.7ml",
+          "content_html": "<p style=\"text-align:justify;\">※2023年07月修訂</p><p>&nbsp; 2020年12月修訂</p><p>&nbsp;</p><p>GCSF&nbsp;製劑</p><p>Filgrastim (基因重組) Injection, JP</p><p>&nbsp;</p><p>共用仿單</p><figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;vertical-align:top;width:126.4pt;\">許可證字號</td><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;vertical-align:top;width:123.4pt;\">藥品名稱</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;vertical-align:top;width:126.4pt;\">衛署菌疫輸字第000711號</td><td style=\"border-bottom-width:1.0pt;border-color:Black;border-right-width:1.0pt;border-style:solid;padding:0cm 5.4pt;vertical-align:top;width:123.4pt;\">惠爾血添注射劑150 Filgrastim Injection 150 μg/0.6ml</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;vertical-align:top;width:126.4pt;\">衛署菌疫輸字第000712號</td><td style=\"border-bottom-width:1.0pt;border-color:Black;border-right-width:1.0pt;border-style:solid;padding:0cm 5.4pt;vertical-align:top;width:123.4pt;\">惠爾血添注射劑75 &nbsp;Filgrastim Injection 75 μg/0.3ml</td></tr><tr><td style=\"border:1.0pt solid Black;padding:0cm 5.4pt;vertical-align:top;width:126.4pt;\">衛署菌疫輸字第000670號</td><td style=\"border-bottom-width:1.0pt;border-color:Black;border-right-width:1.0pt;border-style:solid;padding:0cm 5.4pt;vertical-align:top;width:123.4pt;\">惠爾血添注射劑M300 &nbsp;Filgrastim Injection M300 300μg/0.7ml</td></tr></tbody></table></figure>",
+          "search_text": "15.1\n版本\n※2023年07月修訂 2020年12月修訂 GCSF 製劑 Filgrastim (基因重組) Injection, JP 共用仿單 許可證字號藥品名稱 衛署菌疫輸字第000711號惠爾血添注射劑150 Filgrastim Injection 150 μg/0.6ml 衛署菌疫輸字第000712號惠爾血添注射劑75 Filgrastim Injection 75 μg/0.3ml 衛署菌疫輸字第000670號惠爾血添注射劑M300 Filgrastim Injection M300 300μg/0.7ml",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15.2",
+          "parent_id": "15",
+          "level": 2,
+          "number": "15.2",
+          "title": "參考文獻",
+          "title_html": "參考文獻",
+          "path": [
+            "其他",
+            "參考文獻"
+          ],
+          "content_text": "1)東 純一等: 臨床醫藥1989;1579-1603 2)東 純一等: 臨床醫藥1989;5:2231-2252 3)東 純一等: 臨床醫藥1989;5:1605-1622 4)東 純一等: 臨床醫藥1989;52253:2269 5)正岡 徹等: 今日的移植1990;3: 233-239 6)正岡 徹等: 今日的移植1990;3: 169-173 7)小川一誠等: 癌和化學療法1990;17: 365-373 8)富永 健等: Biotherapy.1994; 8: 1503-1516 9)大野龍三等: 醫學的步1990; 152: 789-796 10)外山圭助等: 臨床血液1990; 31: 937-945 11)今宿普作等: 日小血會誌1990;4: 420-427 12)Watanabe, M.等: Anal. Biochem. 195,38(1991) 13)Kabaya，K.et al.: in vivo.1994; 8: 1033-1039 14)Ulich，T.R.et al.: Am.J.Pathol.1988;133: 630-638 15)Lothrop，CD,et al.: Blood.1989; 72: 1324-1328 16)Gillio, AP,et al.: Transplant. Proc. 1987;19:153-156 17)Kitagawa,S.et al.: Biochem. Biophys. Res. Commun.1987;144:1143-1146 18)Osaka, A.et al.: Blood.1989; 74:2743-2748 【詳細文獻備索】",
+          "content_html": "<p style=\"text-align:justify;\">1)東&nbsp; 純一等:&nbsp;臨床醫藥1989;1579-1603</p><p style=\"text-align:justify;\">2)東&nbsp; 純一等:&nbsp;臨床醫藥1989;5:2231-2252</p><p style=\"text-align:justify;\">3)東&nbsp; 純一等:&nbsp;臨床醫藥1989;5:1605-1622</p><p style=\"text-align:justify;\">4)東&nbsp; 純一等:&nbsp;臨床醫藥1989;52253:2269</p><p style=\"text-align:justify;\">5)正岡&nbsp; 徹等:&nbsp;今日的移植1990;3: 233-239</p><p style=\"text-align:justify;\">6)正岡&nbsp; 徹等:&nbsp;今日的移植1990;3: 169-173</p><p style=\"text-align:justify;\">7)小川一誠等:&nbsp;癌和化學療法1990;17: 365-373</p><p style=\"text-align:justify;\">8)富永&nbsp; 健等: Biotherapy.1994; 8: 1503-1516</p><p style=\"text-align:justify;\">9)大野龍三等:&nbsp;醫學的步1990; 152: 789-796</p><p style=\"text-align:justify;\">10)外山圭助等:&nbsp;臨床血液1990; 31: 937-945</p><p style=\"text-align:justify;\">11)今宿普作等:&nbsp;日小血會誌1990;4: 420-427</p><p style=\"text-align:justify;\">12)Watanabe, M.等: Anal. Biochem. 195,38(1991)</p><p style=\"text-align:justify;\">13)Kabaya，K.et al.: in vivo.1994; 8: 1033-1039</p><p style=\"text-align:justify;\">14)Ulich，T.R.et al.: Am.J.Pathol.1988;133: 630-638</p><p style=\"text-align:justify;\">15)Lothrop，CD,et al.: Blood.1989; 72: 1324-1328</p><p style=\"text-align:justify;\">16)Gillio, AP,et al.: Transplant. Proc. 1987;19:153-156</p><p style=\"text-align:justify;\">17)Kitagawa,S.et al.: Biochem. Biophys. Res. Commun.1987;144:1143-1146</p><p style=\"text-align:justify;\">18)Osaka, A.et al.: Blood.1989; 74:2743-2748</p><p style=\"text-align:justify;\"><strong>【</strong>詳細文獻備索<strong>】</strong></p><p style=\"text-align:justify;\">&nbsp;</p>",
+          "search_text": "15.2\n參考文獻\n1)東 純一等: 臨床醫藥1989;1579-1603 2)東 純一等: 臨床醫藥1989;5:2231-2252 3)東 純一等: 臨床醫藥1989;5:1605-1622 4)東 純一等: 臨床醫藥1989;52253:2269 5)正岡 徹等: 今日的移植1990;3: 233-239 6)正岡 徹等: 今日的移植1990;3: 169-173 7)小川一誠等: 癌和化學療法1990;17: 365-373 8)富永 健等: Biotherapy.1994; 8: 1503-1516 9)大野龍三等: 醫學的步1990; 152: 789-796 10)外山圭助等: 臨床血液1990; 31: 937-945 11)今宿普作等: 日小血會誌1990;4: 420-427 12)Watanabe, M.等: Anal. Biochem. 195,38(1991) 13)Kabaya，K.et al.: in vivo.1994; 8: 1033-1039 14)Ulich，T.R.et al.: Am.J.Pathol.1988;133: 630-638 15)Lothrop，CD,et al.: Blood.1989; 72: 1324-1328 16)Gillio, AP,et al.: Transplant. Proc. 1987;19:153-156 17)Kitagawa,S.et al.: Biochem. Biophys. Res. Commun.1987;144:1143-1146 18)Osaka, A.et al.: Blood.1989; 74:2743-2748 【詳細文獻備索】",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n品名每一安瓿之主成分含量 Filgrastim –75針劑 (0.3mL中) Filgrastim, JP (基因重組) 75μg Filgrastim –150針劑 (0.6mL中)150μg Filgrastim –M300針劑 (0.7mL中)300μg 一般名: Filgrastim（Genetical recombination）基因重組 分子量: 18,798.61 本質: Filgrastim是一種基因重組人類顆粒球集落形成刺激因子，含有175個氨基酸（C845H1339N223O243S9），於N端帶有甲硫氨酸的蛋白質。\n1.2\n賦形劑\n品名每一安瓿之賦形劑含量PH滲透壓比 Filgrastim –75針劑 (0.3mL中) Polysorbate80 0.012mg Acetic acid 0.18mg D-mannitol 15mg Sodium hydroxide appropriate amount 3.7~ 4.3約1(與生理食鹽水對比) Filgrastim –150針劑 (0.6mL中) Polysorbate80 0.024mg Acetic acid 0.36mg D-mannitol 30mg Sodium hydroxide appropriate amount Filgrastim –M300針劑 (0.7mL中) Polysorbate80 0.028mg Acetic acid 0.42mg D-mannitol 35mg Sodium hydroxide appropriate amount\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n本品為無色澄明的液體。\n2\n適應症\n2.1 動員造血幹細胞至周邊血中 2.2 促進造血幹細胞移植時嗜中性白血球數的增加 2.3 癌症化學療法所引起之嗜中性白血球減少症 2.4 骨髓發育不良症候群的嗜中性白血球缺乏症 2.5 先天性．特異性嗜中性白血球缺乏症\n3\n用法及用量\n3.1\n用法用量\n適應症 用法．用量 動員造血幹細胞至周邊血中異體及自體周邊血幹細胞收集時利用Filgrastim(基因重組)的單獨投與來動員。 成人 ． 小兒 通常，Filgrastim(基因重組)400 μg/m2 1日1次或分為2次，連續5天或至周邊血幹細胞收集終了為止，施與皮下注射。此時，周邊血幹細胞收集在Filgrastim(基因重組)投與開始後4~6日實施。但是，若周邊血幹細胞收集終了前的白血球數增加到50,000/mm3以上時，需減量。減量後，白血球數達到75,000/mm3時，需中止投藥。 癌症化學療法後的自體周邊血幹細胞收集﹐利用Filgrastim(基因重組)的投與來動員。 成人 ． 小兒 通常，癌症化學療法後的隔天或因癌症化學療法所引起之嗜中性白血球數的最低值經過後，Filgrastim(基因重組)400 μg/m2 1日1次或分為2次，至周邊血幹細胞收集終了為止，連續施予皮下注射。 此外，無論何種情況，皆須觀察症狀而加以適當的減量。 適應症 用法．用量 促進造血幹細胞移植時嗜中性白血球數的增加 成人． 小兒 通常，造血幹細胞移植實施翌日或5日後，開始以Filgrastim300 μg/m2，1日1次，點滴靜脈注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而中止投藥。 此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球數之一半來推斷其嗜中性白血球數。 癌症化學療法所引起之嗜中性白血球減少症 急性白血病 成人 ． 小兒 通常，在投與癌症化學療法後(第二天後)，骨髓中芽球十分稀少，而且無法認出周邊血液中之骨髓芽球時，可以給予Filgrastim200 μg/m2，1日1次，靜脈注射(含點滴)。若無出血傾向等問題(造成皮下注射困難)，則可投與Filgrastim100 μg/m2，1日1次﹐皮下注射。但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm3以上時，須停止投藥。 惡性淋巴瘤、小細胞肺癌、胚細胞腫瘤(睪丸及卵巢腫瘤等)、神經母細胞瘤及小兒癌症 成人 ． 小兒 通常在投與癌症化學療法後(第二天後)，給予Filgrastim50 μg/m2，1日1次﹐皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m2，1日1次。 此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。 適應症 用法．用量 癌症化學療法所引起之嗜中性白血球減少症 其他癌症腫瘤 成人．小兒 通常，因癌症化學療法導致的嗜中性白血球少於1,000/mm3，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm3，給予Filgrastim50 μg/m2，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100μg/㎡，1日1次。此外，因癌症化學療法導致的嗜中性白血球少於1,000/mm3，而且發燒(38.0℃以上為標準)，或是觀察發現到嗜中性白血球少於500/mm3，而必須持續同一化學治療之病人，再下一次以後的化學治療進行時，觀察發現到嗜中性白血球少於1,000/ mm3時，給予Filgrastim50 μg/m2，1日1次，皮下注射。如有出血傾向等導致皮下注射困難時，可改為靜脈注射(含點滴)Filgrastim100 μg/m2，1日1次。但是，嗜中性白血球數經過最低值時期後，上升到5,000/mm3以上時，須觀察症狀，停止投藥。 此外，做為是否中止投與本劑指標之嗜中性白血球數，基於緊急狀況而無法確認時，應以白血球之一半來推斷其嗜中性白血球數。 骨髓發育不良症候群的嗜中性白血球缺乏症 成人通常，嗜中性白血球低於1,000/mm3時， Filgrastim 100 μg/m2，1日1次，點滴靜脈注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而減量或停止投藥。 先天性．特異性嗜中性白血球缺乏症成人通常，嗜中性白血球低於1,000/mm3時， Filgrastim50 μg/m2，1日1次，皮下注射。但是，嗜中性白血球數增加到5,000/mm3以上時，需觀察症狀而減量或停止投藥。 小兒嗜中性白血球低於1,000/mm3時， Filgrastim50 μg/m2，1日1次，皮下注射。 此外，無論何種情況，皆須依年齡．症狀而加以適當的增減。\n3.1.1\n用法及用量的使用上之注意\n3.1.1.1 動員造血幹細胞至周邊血中 當進行自體周邊血幹細胞採集，於癌症化學療法後使用本劑採集造血幹細胞時，最好在白血球數經過最低時期後，上升到5,000~10,000/mm3再開始周邊血幹細胞採集。 3.1.1.2 癌症化學療法引起的嗜中性白血球缺乏症 (1) 應避免在投與化療前 24 小時和化療後 24 小時內使用本品。 (2) 癌症化學療法引起的嗜中性白血球缺乏症中，提到的同一化學治療，就是使用相同的抗腫瘤藥物種類及劑量之同一化學治療方案。 (3) 投予本劑後，雖然一般應在嗜中性白血球數經過最低值時期且上升達5,000/mm3時，停止投與。但是嗜中性白血球回復到2,000/mm3以上，且無疑似感染之症狀時，在已判斷本劑效用，可確保病人安全的前提下，應檢討是否減低劑量或是停止投與。 (4) 胚細胞腫瘤之卵巢腫瘤包括未成熟畸形腫瘤、未分化胚細胞腫瘤及卵巢囊腫。 3.1.1.3 使用上的注意 在靜脈注射時，要儘量放慢注射速度。\n3.2\n調製方式\n靜注點滴使用時，應與5%葡萄糖注射劑、生理食鹽水等輸液混合使用。另外，使用本劑時，切勿與其他注射藥液。\n3.3\n特殊族群用法用量\n4\n禁忌\n(本品禁用於下列病人。) (1) 對本劑中的成分及其他顆粒球集落形成因子製劑過敏的病人。 (2) 骨髓中芽球未有效減少，或由周邊血液中可以觀察到骨髓芽球之骨髓性白血病的病人。(請參考5.1.3, 8.1.4)\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n適用於所有適應症的重要注意事項\n1) 注射本液時，須定期進行血液的檢查，須特別注意不可讓嗜中性白血球增加到必須數量以上。如嗜中性白血球已增至必要數量以上時，須採取適當的減藥或停藥措施。 ※ 2) 本劑有引起過敏的可能性，發生時須立即停止用藥，並給予適當的處置。為了預測過敏的風險，建議在使用前仔細詢問病人的過敏史和藥物過敏反應史。(請參考6.8, 8.1.1) 3) 本劑的投與有引起骨痛、腰痛等的可能性，這時就需要投與非麻藥性鎮痛劑等給予適當的處置。 ※ 4) 使用本品治療後可能出現脾腫大和脾臟破裂，曾有死亡案例的通報，故應監測血液學檢查結果的變化，並使用腹部超音波觀察可能對脾臟的影響。(請參考8.1.7)\n5.1.2\n動員周邊血中造血幹細胞\n1) 對捐贈者動員周邊血中幹細胞時，請參考相關規範後適當的實施。周邊血幹細胞採集時會伴隨有全身倦怠、四肢麻痺、血管迷走神經反應等現象，因此必需注意血壓等全身狀態的變化，一但發現異常，立即採取適當的處置。 2) 對捐贈者使用本劑時，須對捐贈者或捐贈者無充分能力時對代言者，充分的說明本劑長期使用的安全性尚未確認以及目前仍在收集科學的數據，並取得同意後使用。 3) 本劑的投與須考慮捐贈者的全身狀態，須特別加以觀察，慎重的投與。 4) 對捐贈者投與本劑時，為避免對接受者的感染，建議應先實施HBs抗原、HBc抗體、HCV抗體、HIV-1、-2、HTLV-I抗體及梅毒血清檢查，確認皆為陰性。此外，最好進行CMV, Herpes 血清學的檢查。 5) 動員捐贈(捐贈者)的周邊血幹細胞時，因本劑的投與常有引起骨痛、腰痛等的可能性，因此需要投與非麻藥性鎮痛劑等給予適當的處置。 6) 本劑投與後及周邊血幹細胞採集後，有可能會出現血小板減少的情況，須特別注意使用阿斯匹靈等有血小板凝集抑制作用的藥劑。若出現血小板嚴重減少時，則由周邊血幹細胞採集後的血中，進行自體血小板回輸的適當處理。 7) 周邊血幹細胞採集後1~2週後，有可能會出現白血球(嗜中性白血球)減少的情形，須特別注意。\n※ 5.1.3\n造血幹細胞移植時，促進嗜中性白血球的增加及癌症化學療法後的嗜中性白血球缺乏症\n對急性骨髓性白血球病人(進行化學療法或骨髓移植時)投與本劑前，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。此外，定期的進行血液檢查及骨髓檢查，若有芽球增加的情況時應停止投藥。(請參考4, 8.1.4)\n5.1.4\n與骨髓發育不良症候群相關的嗜中性白血球缺乏症\n已知在骨髓發育不良症候群中，伴隨有芽球增加的病例，有移轉成骨髓性白血病的危險。所以在使用本劑時，建議應先採樣細胞，確認，經過體外試驗後沒有芽球集落增加的情形。\n※ 5.1.5\n先天性嗜中性白血球缺乏症\n病人自行注射本品的施行應受醫師的監督，首先須慎重評估每位病人自行注射的適當性，並在充分提供有關自行注射的教育訓練後，確認病人能夠自行安全注射藥物。此外，應告知病人如果在自行注射後出現疑似與本品有關的不良反應，或對繼續自行注射感到困難時，應立即向醫師報告。應指導病人切勿重複使用用過的針頭，並應指導病人安全處置用過的針頭的方法。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n※ 不建議孕婦或可能懷孕的婦女使用本劑。\n6.2\n哺乳\n※應考量治療對母親的益處和母乳餵養對嬰幼兒的益處，以決定繼續或停止母乳餵養。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n※1)尚無在兒童執行以療效和安全性為指標的臨床試驗。 2)對早產兒、新生兒、嬰兒投與的安全性尚未確立，所以不推薦投與(使用經驗少)。 3)對兒童的投與應注意觀察，謹慎使用。特別是對動員周邊血幹細胞捐贈者的使用經驗少。本劑的投與需考慮捐贈者的全身狀態，細心觀察謹慎投與。\n6.5\n老年人\n老年人一般的生理功能（造血功能、肝功能、腎功能等）均較弱，投與間隔及用量應特別留意，須依病人之臨床症狀審慎投與。\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n對下列病人，須小心投與 1)有藥物過敏史的病人。(請參考5.1.1, 8.1.1) 2)有過敏傾向的病人。(請參考5.1.1, 8.1.1)\n7\n交互作用\n※目前尚無資訊。\n8\n副作用/不良反應(本項目包含無法計算出發生頻率的不良反應報告)\n動員周邊血幹細胞的捐髓者 51例中全有不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是腰痛24件（47.1%）、頭痛10件（19.6%）、關節痛8件（15.7%）、發燒6件（11.8%）等。主要的臨床檢查值異常為LDH上升44件（86.3%）、Al-P上升35件（68.6%）、白血球減少．嗜中性白血球減少15件（29.4%）、尿酸上升12件（23.5%）、血小板減少7件（13.7%）、CRP上升6件（11.8%）等。〔適應症追加時〕 嗜中性白血球缺乏症的對象病人 總共7,175例中有935例（13.0%）不良反應發生（包含臨床檢查值異常變動）。主要的不良反應是骨痛（胸部、腰部、骨盆部等）124件（1.7%）、發燒者117件（1.6%）、腰痛108件（1.5%）、肝功能異常40件（0.6%）等。主要的臨床檢查值異常為LDH上升348件（4.9%）、Al-P上升264件（3.7%）、ALT(GPT)上升89件（1.2%）、AST(GOT)上升68件（0.9%）及CRP上升45件(0.6%)等。〔統計至2004年再審查結束時〕\n8.1\n臨床重要副作用/不良反應\n可能會出現以下不良反應。應仔細監測病人，如觀察到任何異狀，應採取適當措施(如停止給藥)。\n8.1.1\n休克、全身性過敏反應(anaphylaxis)(頻率不明)\n當發現異常時應停止用藥並給予適當的處理。(請參考5.1.1, 6.8)。\n8.1.2\n間質性肺炎(頻率不明)\n如有間質性肺炎或促使其惡化的情形發生，或發現有發燒、咳嗽、呼吸困難及胸部X光檢查異常時，應停止投用本劑，並給予副腎皮質荷爾蒙等適當處置。\n8.1.3\n急性呼吸窘迫症候群(頻率不明)\n如發現有急速的呼吸困難，低氧血、兩側瀰漫性肺浸潤影像等的X光檢查異常時，應停止投與本劑，並給予呼吸治療等適當的處理。\n8.1.4\n芽球的增加(頻率不明)\n對急性骨髓性白血病和骨髓發育不良症候群病人，有促使芽球增加的可能，如發現芽球增加時，應停止投藥。(請參考4, 5.1.3)\n8.1.5\n微血管滲漏症候群(<0.1%)\n若觀察到低血壓、低白蛋白血症、浮腫、肺水腫、肋膜積液、腹水及血液濃縮等症狀，應採取適當措施，如停止投藥。\n8.1.6\n大型血管炎(主動脈、總頸動脈、鎖骨下動脈等炎症)(頻率不明)\n如發現發燒、CRP上升、主動脈壁肥大等時，應採取適當措施，如停止投藥。\n8.1.7\n脾臟破裂(頻率不明)、脾腫大(1~10%)\n對於接受filgrastim治療且反應左上腹和/或肩膀尖端疼痛的病人，應評估是否發生脾臟腫大或脾破裂；如發現脾臟突然腫大，應採取適當措施，如停止投藥(請參考5.1.1)。(Amgen CDS V18)\n8.1.8\n乳癌和肺癌病人之骨髓增生不良症候群(MDS)和急性骨髓性白血病(AML)\n在上市後的觀察性研究中，乳癌和肺癌病人的化療和/或放射治療中併用filgrastim與MDS和AML的發生相關。監測這些病人MDS /AML的訊號和症狀。(Amgen CDS V18)\n8.1.9\n其他的不良反應\n不良反應的頻率(%) 5%以上 1~5%未滿 1%未滿 頻率不明 皮膚 發疹、潮紅 嗜中性白血球浸潤、疼痛性紅斑、發熱等皮膚症狀(Sweet Syndrome等) 肌肉 、 骨骼 骨痛、 腰痛 胸痛、關節痛、肌痛四肢疼痛 消化器官 噁心、嘔吐 肝臟 ALT(GPT)上升 肝功能異常、AST(GOT)上升 ※血液 白血球增多血小板減少、髓外造血 腎臟 腎絲球腎炎 其他 LDH上升 發燒、 Al-P上升 頭痛、倦怠感、心悸、尿酸上升、血清中creatinine上升、CRP上升浮腫 註)發生率包括使用結果調查。\n8.1.10\n其他注意事項\n基於臨床使用的訊息 (1) 有報告指出，對再生不良性貧血或先天性嗜中性白血球缺乏症病人，有因投與顆粒球集落形成刺激因子製劑而轉變為骨髓發育不良症候群或急性骨髓性白血病之病例。 (2) 對再生不良性貧血，骨髓發育不良症候群或先天性嗜中性白血球缺乏症病人，投與顆粒球集落形成刺激因子製劑，曾有發生染色體異常的病例。 (3) 有報告指出，對於投與顆粒球集落形成刺激因子製劑以動員周邊血幹細胞的捐贈者而言，曾發生骨髓增殖性疾病及急性骨髓性白血病。 (4) 除不良反應項目中所記載之外，雖然因果關係仍不明確，但曾有報告指出，動員周邊血幹細胞捐髓者，因投與顆粒球集落形成刺激因子製劑而發生暫時性心臟驟停。日本以外的捐贈者，曾有報告心衰竭、血管炎、腦血管障礙、偏頭痛、腹瀉、重聽、地中海型貧血、鎌狀紅血球貧血、痛風、高血糖、軟骨障礙、缺血性心臟病、心肌炎、無月經、肺出血及腎癌等不良事件。 (5) 有報告指出，乳癌、惡性淋巴腫瘤及骨髓腫瘤病人，採集的自體周邊血幹細胞中有腫瘤細胞的混入。 (6)白血球增多: 在使用filgrastim的病人中有觀察到白血球計數等於或大於100,000/mm3的現象。建議在filgrastim治療期間監測全血細胞計數(CBC)。當癌症病人使用filgrastim來動員周邊造血幹細胞的期間，如果白血球計數升高至>100,000/mm3，停止使用filgrastim是適當的。(Amgen CDS V18) 基於臨床前研究的訊息 有報告指出，顆粒球集落形成刺激因子在in vitro或in vivo試驗中，對數種人體膀胱癌細胞株和骨肉腫瘤細胞株有促進增殖的傾向。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n※目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n對於對小鼠骨髓細胞，人類嗜中性白血球細胞的受體結合試驗中，本劑會與存在於嗜中性白血球前趨細胞至成熟嗜中性白血球細胞上的受體產生特異的結合，對於嗜中性白血球前趨細胞有促進其分化、增殖，而對成熟嗜中性白血球則有亢進其機能之作用 12)。\n10.2\n藥效藥理特性\n10.2.1\n嗜中性球數增加作用\n(1) 促進嗜中性白血球前驅細胞分化．增殖之作用，及促進成熟的嗜中性白血球由骨髓釋出的作用 於活體外進行集落形成試驗，小鼠的骨髓細胞於本劑存在下培養時，本劑有嗜中性白血球前驅細胞的分化．增殖作用。此外，對注射Cyclophosphamide引起嗜中性白血球減少的小鼠，投與本劑時，防止了周邊血液中嗜中性白血球數的減少，骨髓的檢驗，表現從最不成熟的骨髓芽球細胞到成熟的嗜中性白血球的順序上均能看到顯著性的增加13)。 對大白鼠投與本劑時，可估計有促進骨髓中成熟的嗜中性白血球向周邊血流釋出14)。 (2) 動員造血幹細胞至周邊血中 對正常以及抗癌劑投與的小鼠投與本劑時，會增加周邊血中的CFU-GM、BFU-E、CFU-Mk以及CFU-Mix。 (3) 於嗜中性白血球缺乏動物Model的藥理作用 對於小鼠、大白鼠、狗及猴子的嗜中性球缺乏動物Model(抗癌劑投與、造血幹細胞移植、遺傳性嗜中性白血球缺乏症)，有嗜中性白血球增加的效果 15,16)。\n10.2.2\n嗜中性白血球機能亢進作用\n用小鼠進行生體外及生體內試驗，投與本劑後可看到貪食殺菌作用的亢進。用大白鼠進行生體外及生體內試驗，投與本劑後可看到嗜中性白血球的趨化性亢進。健康人的末梢嗜中性白血球在本劑存在下培養後，用FMLP加以刺激，會有增加Super oxide的產生(in vitro)17)。對惡性淋巴瘤病人施行癌化學療法後，投與本劑，於分離出周邊血嗜中性白血球中，用FMLP加以刺激，Super oxide的產生有顯著地增加(ex vivo)18)。\n10.3\n臨床前安全性資料\n※目前尚無資訊。\n11\n藥物動力學特性\n※11.1\n血中濃度\n11.1.1\n單次投予\n男性健康成人單劑1.0 μg/kg點滴靜脈注射或皮下注射後，點滴靜注(30分)後之半衰期是1.40小時，AUC是21.60ng．hr/ml。皮下注射後半衰期是2.15小時，AUC是11.71ng．hr/ml 1,2)。\n11.1.2\n多次投予\n男性健康成人連續點滴靜脈注射或皮下注射，給藥第一天和第6天之血漿濃度無顯著差異 3,4)。\n※11.2\n吸收\n11.2.1\n生體可用率\n男性健康成人皮下注射本劑1.0 μg/kg 後的生體可用率為54%。\n※11.3\n分布\n雄性大鼠靜脈或皮下注射給予5 μg /kg 125 I-filgrastim時，靜脈給藥後組織總放射性濃度以血漿最高，其次為腎上腺、血液、腎臟、甲狀腺、肝臟、骨髓、氣管、脾臟和腦垂體。皮下注射給藥後組織總放射性濃度以甲狀腺最高，其次為腎臟、胃內容物、血漿、血液、骨髓和膀胱。\n12\n臨床試驗資料\n12.1\n動員造血幹細胞至周邊血中\n對動員周邊血幹細胞的捐贈者，以皮下注射投與本劑時，開放性試驗為捐贈者體重比例的CD34+細胞數(3×106/kg以上)的收集可能的捐贈者為85.7%(6/7)、國外隨機比較試驗(投與量10 μg/kg)中病人體重比例的CD34+細胞數(3×106/kg以上)的收集可能的病人為88.0%(88/100）。另外、在動員病人的自體周邊血幹細胞時，以乳癌為對象的開放性試驗中，單獨使用本劑及合併癌症化學療法製劑的CD34+細胞數(2×106/kg以上)的收集可能的病人分別為57.1%(4/7)、100%(6/6)。 (社內資料)\n12.2\n促進造血幹細胞移植時的嗜中性球增加\n12.2.1\n周邊血幹細胞移植\n異體周邊血幹細胞移植中，以急性白血病為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射)，此外，自體周邊血幹細胞移植中，以乳癌為對象的開放性試驗及以惡性淋巴瘤為對象的國外隨機比較試驗(投與量5 μg/kg、皮下注射或點滴靜脈注射)，有促進周邊血幹細胞移植後，嗜中性白血球增加的效果。異體及自體周邊血幹細胞移植時，嗜中性白血球數(≧500mm3)回復日數的中間值分別為13日、9~11日。 (社內資料)\n12.2.2\n骨髓移植5,6)\n以同種、同系骨髓移植病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑點滴靜注組比Placebo組的嗜中性白血球數有顯著增加。其有效率為，本劑投與組78.1%(25/32)、Placebo組35.3%(12/34)。 此外，以自體骨髓移植病人為對象的開放性臨床試驗，也同樣有促進嗜中性白血球增加的效果，其有效率為90.6%(29/32)。\n12.3\n由癌症化學療法所引起的嗜中性白血球缺乏症7~9)\n以惡性淋巴瘤病人為對象，用Placebo為對照藥的雙盲比較試驗結果，本劑皮下注射組比Placebo組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組89.3%(25/28)、Placebo組13.8%(4/29)。 以乳癌病人為對象，用adenine，為對照藥的雙盲比較試驗結果，本劑皮下注射組比adenine組的嗜中性白血球回復有顯著性促進效果。其有效率為，本劑投與組93.1%(27/29)、adenine組14.2%(4/28)。 以急性白血病人者為對象的非盲檢比較試驗結果，本劑點滴靜注組比非投與組，有顯著增加嗜中性白血球的效果及減少感染症的發生。\n12.4\n伴隨骨髓發育不良症候群之嗜中性白血球缺乏症10)\n開放性臨床試驗的結果，對於骨髓發育不良症候群的21例病人，施與漸增法，以本劑50~400 μg/m2(通常100 μg/m2)點滴靜注後，有20例測出嗜中性白血球數的增加效果，及17例中6例有骨髓的改善。\n12.5\n先天性．特異性嗜中性球減少症11)\n開放性臨床試驗的結果，以本劑25~200 μg/m2(通常50 μg/m2)皮下注射後，有嗜中性白血球增加的效果，其有效率為78.0%(32/41)。\n13\n包裝及儲存\n13.1\n包裝\nFilgrastim injection 75μg/0.3ml: 10安瓿 Filgrastim injection 150μg/0.6ml: 10安瓿 Filgrastim injection M300 300μg/0.7ml: 10安瓿\n13.2\n效期\n超過包裝上所載明有效期限，請勿使用。\n13.3\n儲存條件\n保存於10oC或低於10oC，避免冰凍。 本產品外包裝打開後應避光保存。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n15.1\n版本\n※2023年07月修訂 2020年12月修訂 GCSF 製劑 Filgrastim (基因重組) Injection, JP 共用仿單 許可證字號藥品名稱 衛署菌疫輸字第000711號惠爾血添注射劑150 Filgrastim Injection 150 μg/0.6ml 衛署菌疫輸字第000712號惠爾血添注射劑75 Filgrastim Injection 75 μg/0.3ml 衛署菌疫輸字第000670號惠爾血添注射劑M300 Filgrastim Injection M300 300μg/0.7ml\n15.2\n參考文獻\n1)東 純一等: 臨床醫藥1989;1579-1603 2)東 純一等: 臨床醫藥1989;5:2231-2252 3)東 純一等: 臨床醫藥1989;5:1605-1622 4)東 純一等: 臨床醫藥1989;52253:2269 5)正岡 徹等: 今日的移植1990;3: 233-239 6)正岡 徹等: 今日的移植1990;3: 169-173 7)小川一誠等: 癌和化學療法1990;17: 365-373 8)富永 健等: Biotherapy.1994; 8: 1503-1516 9)大野龍三等: 醫學的步1990; 152: 789-796 10)外山圭助等: 臨床血液1990; 31: 937-945 11)今宿普作等: 日小血會誌1990;4: 420-427 12)Watanabe, M.等: Anal. Biochem. 195,38(1991) 13)Kabaya，K.et al.: in vivo.1994; 8: 1033-1039 14)Ulich，T.R.et al.: Am.J.Pathol.1988;133: 630-638 15)Lothrop，CD,et al.: Blood.1989; 72: 1324-1328 16)Gillio, AP,et al.: Transplant. Proc. 1987;19:153-156 17)Kitagawa,S.et al.: Biochem. Biophys. Res. Commun.1987;144:1143-1146 18)Osaka, A.et al.: Blood.1989; 74:2743-2748 【詳細文獻備索】",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "KYOWA KIRIN CO, LTD., TAKASAKI PLANT",
+          "address": "100-1, HAGIWARA-MACHI, TAKASAKI-SHI, GUNMA, JAPAN"
+        },
+        {
+          "number": "2",
+          "name": "Nipro Pharma Corporation Ise Plant",
+          "address": "647-240, Ureshinotengeji-cho, Matsusaka-shi, Mie 515-2302, Japan"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "KYOWA KIRIN CO., LTD. TAKASAKI PLANT",
+          "address": "100-1 HAGIWARA-MACHI, TAKASAKISHI, GUNMAN, JAPAN"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣大昌華嘉股份有限公司",
+          "address": "臺北市內湖區堤頂大道2段407巷20弄1、3、5、7號10樓，及22、24、26號10樓及22號10樓之1"
+        }
+      ]
+    }
+  ]
+}

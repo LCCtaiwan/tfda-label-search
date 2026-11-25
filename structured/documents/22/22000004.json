@@ -1,0 +1,1018 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:57:21.089853+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "22000004",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署罕菌疫輸字第000004號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署罕菌疫輸字第000004號",
+      "matched_license_code": "22000004",
+      "matched_nhi_code": "",
+      "drug_name_zh": "利甫蓋素濃縮注射液１毫克/毫升",
+      "drug_name_en": "REPLAGAL 1MG/ML CONCENTRATION FOR SOLUTION FOR INFUSION",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-09-24",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "1毫升濃縮注射液含1毫克 α –agalsidase，每支3.5毫升濃縮注射液小瓶含3.5毫克 α –agalsidase。 α -agalsidase 是由人體蛋白質α –galactosidase A 經由基因工程技術在人體細胞株中產生。",
+          "content_html": "<p>1<span style=\"font-family:標楷體;\">毫升濃縮注射液含</span>1<span style=\"font-family:標楷體;\">毫克</span>&nbsp;α&nbsp;–agalsidase<span style=\"font-family:標楷體;\">，每支</span>3.5<span style=\"font-family:標楷體;\">毫升濃縮注射液小瓶含</span>3.5<span style=\"font-family:標楷體;\">毫克</span>&nbsp;α&nbsp;–agalsidase<span style=\"font-family:標楷體;\">。</span></p><p>α&nbsp;-agalsidase&nbsp;<span style=\"font-family:標楷體;\">是由人體蛋白質</span>α&nbsp;–galactosidase A&nbsp;<span style=\"font-family:標楷體;\">經由基因工程技術在人體細胞株中產生。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n1毫升濃縮注射液含1毫克 α –agalsidase，每支3.5毫升濃縮注射液小瓶含3.5毫克 α –agalsidase。 α -agalsidase 是由人體蛋白質α –galactosidase A 經由基因工程技術在人體細胞株中產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Sodium phosphate monobasic, monohydrate (E339)；Polysorbate 20 (E432)；Sodium chloride；Sodium hydroxide (E524)；Water for injections。 賦形劑有已知的影響 本藥品每瓶含有14.2毫克鈉。",
+          "content_html": "<p>Sodium phosphate monobasic, monohydrate (E339)<span style=\"font-family:標楷體;\">；</span>Polysorbate 20 (E432)<span style=\"font-family:標楷體;\">；</span>Sodium chloride<span style=\"font-family:標楷體;\">；</span>Sodium hydroxide (E524)<span style=\"font-family:標楷體;\">；</span>Water for injections<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\"><u>賦形劑有已知的影響</u></span></p><p><span style=\"font-family:標楷體;\">本藥品每瓶含有</span>14.2<span style=\"font-family:標楷體;\">毫克鈉。</span></p>",
+          "search_text": "1.2\n賦形劑\nSodium phosphate monobasic, monohydrate (E339)；Polysorbate 20 (E432)；Sodium chloride；Sodium hydroxide (E524)；Water for injections。 賦形劑有已知的影響 本藥品每瓶含有14.2毫克鈉。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "濃縮注射劑。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">濃縮注射劑。</span></p>",
+          "search_text": "1.3\n劑型\n濃縮注射劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "澄清無色溶液。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">澄清無色溶液。</span></p>",
+          "search_text": "1.4\n藥品外觀\n澄清無色溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "用於治療 α –galactosidase A 缺乏患者（即Fabry Disease），提供長期酵素補充治療。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">用於治療</span>&nbsp;α&nbsp;–galactosidase A&nbsp;<span style=\"font-family:標楷體;\">缺乏患者（即</span>Fabry Disease<span style=\"font-family:標楷體;\">），提供長期酵素補充治療。</span></p>",
+          "search_text": "2\n適應症\n用於治療 α –galactosidase A 缺乏患者（即Fabry Disease），提供長期酵素補充治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "使用Replagal來治療，須由處理Fabry Disease病人或其他遺傳代謝疾病病人有經驗之專科醫師來使用。 使用劑量 Replagal一次劑量為每公斤體重0.2 mg，以靜脈輸注至少40分鐘，隔週注射一次。 使用方法 以靜脈輸注至少40分鐘，並使用附有過濾器之靜脈注射管線。 Replagal不要與其他藥品在同一靜脈注射管線使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">使用</span>Replagal<span style=\"font-family:標楷體;\">來治療，須由處理</span>Fabry Disease<span style=\"font-family:標楷體;\">病人或其他遺傳代謝疾病病人有經驗之專科醫師來使用。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>使用劑量</u></span></p><p>Replagal<span style=\"font-family:標楷體;\">一次劑量為每公斤體重</span>0.2 mg<span style=\"font-family:標楷體;\">，以靜脈輸注至少</span>40<span style=\"font-family:標楷體;\">分鐘，隔週注射一次。</span></p><p><span style=\"font-family:標楷體;\"><u>使用方法</u></span></p><p><span style=\"font-family:標楷體;\">以靜脈輸注至少</span>40<span style=\"font-family:標楷體;\">分鐘，並使用附有過濾器之靜脈注射管線。</span></p><p>Replagal<span style=\"font-family:標楷體;\">不要與其他藥品在同一靜脈注射管線使用。</span></p>",
+          "search_text": "3.1\n用法用量\n使用Replagal來治療，須由處理Fabry Disease病人或其他遺傳代謝疾病病人有經驗之專科醫師來使用。 使用劑量 Replagal一次劑量為每公斤體重0.2 mg，以靜脈輸注至少40分鐘，隔週注射一次。 使用方法 以靜脈輸注至少40分鐘，並使用附有過濾器之靜脈注射管線。 Replagal不要與其他藥品在同一靜脈注射管線使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "本藥品投予前需稀釋，稀釋方法如下。 • 計算所需Replagal劑量及小瓶數。 • 以100 ml之sodium chloride solution (0.9%) 來稀釋所需之Replagal濃縮注射液。Replagal不含任何防腐劑或制菌劑，因此製備過程應於無菌下操作以確保配製溶液的無菌性。溶液應輕輕的小心混合，但不要搖晃。 • 因為本藥不含防腐劑，建議稀釋後儘快使用。 • 使用前，應由視覺檢查溶液是否有微粒物質及變色。 • 本藥只供單次使用。 不相容性：並無執行藥品間相容性試驗，本藥品不可與其他藥品混合使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">本藥品投予前需稀釋，稀釋方法如下。</span></p><p>•&nbsp;<span style=\"font-family:標楷體;\">計算所需</span>Replagal<span style=\"font-family:標楷體;\">劑量及小瓶數。</span></p><p>•&nbsp;<span style=\"font-family:標楷體;\">以</span>100 ml<span style=\"font-family:標楷體;\">之</span>sodium chloride solution (0.9%)&nbsp;<span style=\"font-family:標楷體;\">來稀釋所需之</span>Replagal<span style=\"font-family:標楷體;\">濃縮注射液。</span>Replagal<span style=\"font-family:標楷體;\">不含任何防腐劑或制菌劑，因此製備過程應於無菌下操作以確保配製溶液的無菌性。溶液應輕輕的小心混合，但不要搖晃。</span></p><p>•&nbsp;<span style=\"font-family:標楷體;\">因為本藥不含防腐劑，建議稀釋後儘快使用。</span></p><p>•&nbsp;<span style=\"font-family:標楷體;\">使用前，應由視覺檢查溶液是否有微粒物質及變色。</span></p><p>•&nbsp;<span style=\"font-family:標楷體;\">本藥只供單次使用。</span>&nbsp;</p><p><span style=\"font-family:標楷體;\">不相容性：並無執行藥品間相容性試驗，本藥品不可與其他藥品混合使用。</span></p>",
+          "search_text": "3.2\n調製方式\n本藥品投予前需稀釋，稀釋方法如下。 • 計算所需Replagal劑量及小瓶數。 • 以100 ml之sodium chloride solution (0.9%) 來稀釋所需之Replagal濃縮注射液。Replagal不含任何防腐劑或制菌劑，因此製備過程應於無菌下操作以確保配製溶液的無菌性。溶液應輕輕的小心混合，但不要搖晃。 • 因為本藥不含防腐劑，建議稀釋後儘快使用。 • 使用前，應由視覺檢查溶液是否有微粒物質及變色。 • 本藥只供單次使用。 不相容性：並無執行藥品間相容性試驗，本藥品不可與其他藥品混合使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "老年病人 由於安全性與有效性未被確立，目前不建議本藥品用於超過65歲病人。 肝功能受損之病人 無肝功能受損病人使用之研究。 腎功能受損之病人 對腎功能受損病人使用無需調整劑量。擴大腎臟傷害（eGFR＜60 mL/min），可能限制腎臟對酵素替代療法的反應；依據洗腎病人或腎臟移植病人之有限資料，不建議調整劑量。 兒童病人 由於安全性與有效性未被確立，目前不建議本藥品用於0-17歲兒童病人。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><i class=\"active\">老年病人</i></span></p><p><span style=\"font-family:標楷體;\">由於安全性與有效性未被確立，目前不建議本藥品用於超過</span>65<span style=\"font-family:標楷體;\">歲病人。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">肝功能受損之病人</i></span></p><p><span style=\"font-family:標楷體;\">無肝功能受損病人使用之研究。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">腎功能受損之病人</i></span></p><p><span style=\"font-family:標楷體;\">對腎功能受損病人使用無需調整劑量。擴大腎臟傷害（</span>eGFR<span style=\"font-family:標楷體;\">＜</span>60 mL/min<span style=\"font-family:標楷體;\">），可能限制腎臟對酵素替代療法的反應；依據洗腎病人或腎臟移植病人之有限資料，不建議調整劑量。</span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">兒童病人</i></span></p><p><span style=\"font-family:標楷體;\">由於安全性與有效性未被確立，目前不建議本藥品用於</span>0-17<span style=\"font-family:標楷體;\">歲兒童病人。</span></p>",
+          "search_text": "3.3\n特殊族群用法用量\n老年病人 由於安全性與有效性未被確立，目前不建議本藥品用於超過65歲病人。 肝功能受損之病人 無肝功能受損病人使用之研究。 腎功能受損之病人 對腎功能受損病人使用無需調整劑量。擴大腎臟傷害（eGFR＜60 mL/min），可能限制腎臟對酵素替代療法的反應；依據洗腎病人或腎臟移植病人之有限資料，不建議調整劑量。 兒童病人 由於安全性與有效性未被確立，目前不建議本藥品用於0-17歲兒童病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對主成分或任何賦形劑產生過敏反應者，不可使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對主成分或任何賦形劑產生過敏反應者，不可使用。</span></p>",
+          "search_text": "4\n禁忌\n對主成分或任何賦形劑產生過敏反應者，不可使用。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "可追溯性 為了增進生物藥品的可追溯性，施用產品的名稱和批號都應被清楚地記錄。 特異輸注反應（Idiosyncratic infusion related reaction） 在臨床試驗中，13.7%成人病人對Replagal產生特異輸注反應。最常見的症狀有惡寒、頭痛、噁心、發熱、潮紅及疲勞。嚴重的輸注反應並不常見，被報告的症狀包括：發熱、惡寒、心搏過快、蕁麻疹、噁心/嘔吐、血管神經性水腫導致咽喉緊縮、嘯喘、舌頭腫大。其他的輸注反應可能有暈眩、多汗。 回顧心臟方面的臨床事件（cardiac events），結果發現輸注反應可能與血液動力學之壓力有關，而在原先已有心臟方面臨床表現（cardiac manifestations）之Fabry Disease病人中引發臨床事件。 通常產生輸注反應在使用Replagal最初2-4個月，然而亦有在使用後一年後才發生輸注反應的案例報告。輸注反應會隨時間減少。假如輕微或中度急性輸注反應發生，醫療單位應迅速發現並建立適度處理原則。注射應暫時中斷5-10分鐘，直到症狀消退，再繼續注射。輕微及暫時不良反應不須藥物治療或中斷注射。對於必須給予症狀治療的病人，為避免急性輸注反應，可以在輸注前之1-24小時給予口服或靜脈注射之antihistamines（抗組織胺）及corticosteroids（類固醇）作為前治療。 過敏反應（Hypersensitivity reactions） 已有過敏反應之案例報告。假如嚴重過敏或過敏型反應發生，應迅速停止注射Replagal，並應立即給予適當的處理。應隨時注意現行緊急處置之醫療標準。 對抗蛋白質之抗體 如同所有蛋白質藥品製劑，病人可能會產生對抗此蛋白質之抗體。約有24%以Replagal治療之男性病人，會有低效價的IgG抗體反應。根據有限研究資料，在男性兒童病人產生IgG抗體反應的比例僅約7%。約經過3-12個月的治療期間會產生IgG抗體。經過12-54個月的治療，17% Replagal治療病人的抗體仍呈陽性，而7% Replagal治療病人其IgG抗體隨著時間逐漸減少，有免疫耐受性產生。其餘76% Replagal治療病人始終沒有產生IgG抗體。在臨床試驗中，有極少數的病人報導出與過敏性反應無關之IgE抗體陽性。 腎損傷病人 大範圍的腎臟損傷由於有潛在不可逆的病理變化，可能限制酵素取代療法在腎臟的療效反應，此種病人，腎功能的損失維持在Fabry Disease自然病程的範圍內。 鈉 本藥品每瓶含有14.2毫克鈉，等同於WHO建議最高每日劑量2公克鈉的0.7%。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><u>可追溯性</u></span></p><p><span style=\"font-family:標楷體;\">為了增進生物藥品的可追溯性，施用產品的名稱和批號都應被清楚地記錄。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>特異輸注反應（</u></span><u>Idiosyncratic infusion related reaction</u><span style=\"font-family:標楷體;\"><u>）</u></span></p><p><span style=\"font-family:標楷體;\">在臨床試驗中，</span>13.7%<span style=\"font-family:標楷體;\">成人病人對</span>Replagal<span style=\"font-family:標楷體;\">產生特異輸注反應。最常見的症狀有惡寒、頭痛、噁心、發熱、潮紅及疲勞。嚴重的輸注反應並不常見，被報告的症狀包括：發熱、惡寒、心搏過快、蕁麻疹、噁心</span>/<span style=\"font-family:標楷體;\">嘔吐、血管神經性水腫導致咽喉緊縮、嘯喘、舌頭腫大。其他的輸注反應可能有暈眩、多汗。</span></p><p><span style=\"font-family:標楷體;\">回顧心臟方面的臨床事件（</span>cardiac events<span style=\"font-family:標楷體;\">），結果發現輸注反應可能與血液動力學之壓力有關，而在原先已有心臟方面臨床表現（</span>cardiac manifestations<span style=\"font-family:標楷體;\">）之</span>Fabry Disease<span style=\"font-family:標楷體;\">病人中引發臨床事件。</span></p><p><span style=\"font-family:標楷體;\">通常產生輸注反應在使用</span>Replagal<span style=\"font-family:標楷體;\">最初</span>2-4<span style=\"font-family:標楷體;\">個月，然而亦有在使用後一年後才發生輸注反應的案例報告。輸注反應會隨時間減少。假如輕微或中度急性輸注反應發生，醫療單位應迅速發現並建立適度處理原則。注射應暫時中斷</span>5-10<span style=\"font-family:標楷體;\">分鐘，直到症狀消退，再繼續注射。輕微及暫時不良反應不須藥物治療或中斷注射。對於必須給予症狀治療的病人，為避免急性輸注反應，可以在輸注前之</span>1-24<span style=\"font-family:標楷體;\">小時給予口服或靜脈注射之</span>antihistamines<span style=\"font-family:標楷體;\">（抗組織胺）及</span>corticosteroids<span style=\"font-family:標楷體;\">（類固醇）作為前治療。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>過敏反應（</u></span><u>Hypersensitivity reactions</u><span style=\"font-family:標楷體;\"><u>）</u></span></p><p><span style=\"font-family:標楷體;\">已有過敏反應之案例報告。假如嚴重過敏或過敏型反應發生，應迅速停止注射</span>Replagal<span style=\"font-family:標楷體;\">，並應立即給予適當的處理。應隨時注意現行緊急處置之醫療標準。</span></p><p><span style=\"font-family:標楷體;\"><u>對抗蛋白質之抗體</u></span></p><p><span style=\"font-family:標楷體;\">如同所有蛋白質藥品製劑，病人可能會產生對抗此蛋白質之抗體。約有</span>24%<span style=\"font-family:標楷體;\">以</span>Replagal<span style=\"font-family:標楷體;\">治療之男性病人，會有低效價的</span>IgG<span style=\"font-family:標楷體;\">抗體反應。根據有限研究資料，在男性兒童病人產生</span>IgG<span style=\"font-family:標楷體;\">抗體反應的比例僅約</span>7%<span style=\"font-family:標楷體;\">。約經過</span>3-12<span style=\"font-family:標楷體;\">個月的治療期間會產生</span>IgG<span style=\"font-family:標楷體;\">抗體。經過</span>12-54<span style=\"font-family:標楷體;\">個月的治療，</span>17% Replagal<span style=\"font-family:標楷體;\">治療病人的抗體仍呈陽性，而</span>7% Replagal<span style=\"font-family:標楷體;\">治療病人其</span>IgG<span style=\"font-family:標楷體;\">抗體隨著時間逐漸減少，有免疫耐受性產生。其餘</span>76% Replagal<span style=\"font-family:標楷體;\">治療病人始終沒有產生</span>IgG<span style=\"font-family:標楷體;\">抗體。在臨床試驗中，有極少數的病人報導出與過敏性反應無關之</span>IgE<span style=\"font-family:標楷體;\">抗體陽性。</span></p><p><span style=\"font-family:標楷體;\"><u>腎損傷病人</u></span></p><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">大範圍的腎臟損傷由於有潛在不可逆的病理變化，可能限制酵素取代療法在腎臟的療效反應，此種病人，腎功能的損失維持在</span>Fabry Disease<span style=\"font-family:標楷體;\">自然病程的範圍內。</span></p><p><span style=\"font-family:標楷體;\"><u>鈉</u></span></p><p><span style=\"font-family:標楷體;\">本藥品每瓶含有</span>14.2<span style=\"font-family:標楷體;\">毫克鈉，等同於</span>WHO<span style=\"font-family:標楷體;\">建議最高每日劑量</span>2<span style=\"font-family:標楷體;\">公克鈉的</span>0.7%<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n可追溯性 為了增進生物藥品的可追溯性，施用產品的名稱和批號都應被清楚地記錄。 特異輸注反應（Idiosyncratic infusion related reaction） 在臨床試驗中，13.7%成人病人對Replagal產生特異輸注反應。最常見的症狀有惡寒、頭痛、噁心、發熱、潮紅及疲勞。嚴重的輸注反應並不常見，被報告的症狀包括：發熱、惡寒、心搏過快、蕁麻疹、噁心/嘔吐、血管神經性水腫導致咽喉緊縮、嘯喘、舌頭腫大。其他的輸注反應可能有暈眩、多汗。 回顧心臟方面的臨床事件（cardiac events），結果發現輸注反應可能與血液動力學之壓力有關，而在原先已有心臟方面臨床表現（cardiac manifestations）之Fabry Disease病人中引發臨床事件。 通常產生輸注反應在使用Replagal最初2-4個月，然而亦有在使用後一年後才發生輸注反應的案例報告。輸注反應會隨時間減少。假如輕微或中度急性輸注反應發生，醫療單位應迅速發現並建立適度處理原則。注射應暫時中斷5-10分鐘，直到症狀消退，再繼續注射。輕微及暫時不良反應不須藥物治療或中斷注射。對於必須給予症狀治療的病人，為避免急性輸注反應，可以在輸注前之1-24小時給予口服或靜脈注射之antihistamines（抗組織胺）及corticosteroids（類固醇）作為前治療。 過敏反應（Hypersensitivity reactions） 已有過敏反應之案例報告。假如嚴重過敏或過敏型反應發生，應迅速停止注射Replagal，並應立即給予適當的處理。應隨時注意現行緊急處置之醫療標準。 對抗蛋白質之抗體 如同所有蛋白質藥品製劑，病人可能會產生對抗此蛋白質之抗體。約有24%以Replagal治療之男性病人，會有低效價的IgG抗體反應。根據有限研究資料，在男性兒童病人產生IgG抗體反應的比例僅約7%。約經過3-12個月的治療期間會產生IgG抗體。經過12-54個月的治療，17% Replagal治療病人的抗體仍呈陽性，而7% Replagal治療病人其IgG抗體隨著時間逐漸減少，有免疫耐受性產生。其餘76% Replagal治療病人始終沒有產生IgG抗體。在臨床試驗中，有極少數的病人報導出與過敏性反應無關之IgE抗體陽性。 腎損傷病人 大範圍的腎臟損傷由於有潛在不可逆的病理變化，可能限制酵素取代療法在腎臟的療效反應，此種病人，腎功能的損失維持在Fabry Disease自然病程的範圍內。 鈉 本藥品每瓶含有14.2毫克鈉，等同於WHO建議最高每日劑量2公克鈉的0.7%。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "Replagal對駕駛及機械操作能力沒有或幾乎沒有影響。",
+          "content_html": "<p>Replagal<span style=\"font-family:標楷體;\">對駕駛及機械操作能力沒有或幾乎沒有影響。</span></p>",
+          "search_text": "5.3\n操作機械能力\nReplagal對駕駛及機械操作能力沒有或幾乎沒有影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "Replagal用於懷孕婦女之資料非常有限。動物實驗顯示，在器官形成的過程中暴露在藥品下，並未發現會對懷孕或胚胎∕胎兒發育產生直接或間接的傷害（請見10.3）。懷孕婦女使用Replagal應格外小心。",
+          "content_html": "<p>Replagal<span style=\"font-family:標楷體;\">用於懷孕婦女之資料非常有限。動物實驗顯示，在器官形成的過程中暴露在藥品下，並未發現會對懷孕或胚胎</span>∕<span style=\"font-family:標楷體;\">胎兒發育產生直接或間接的傷害（請見</span>10.3<span style=\"font-family:標楷體;\">）。懷孕婦女使用</span>Replagal<span style=\"font-family:標楷體;\">應格外小心。</span></p>",
+          "search_text": "6.1\n懷孕\nReplagal用於懷孕婦女之資料非常有限。動物實驗顯示，在器官形成的過程中暴露在藥品下，並未發現會對懷孕或胚胎∕胎兒發育產生直接或間接的傷害（請見10.3）。懷孕婦女使用Replagal應格外小心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "對於Replagal是否會被排泄至人體乳汁中並不清楚，因此授乳婦女使用Replagal應格外小心。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對於</span>Replagal<span style=\"font-family:標楷體;\">是否會被排泄至人體乳汁中並不清楚，因此授乳婦女使用</span>Replagal<span style=\"font-family:標楷體;\">應格外小心。</span></p>",
+          "search_text": "6.2\n哺乳\n對於Replagal是否會被排泄至人體乳汁中並不清楚，因此授乳婦女使用Replagal應格外小心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "雄性大鼠之生殖試驗，並未顯示本藥品會對男性生殖能力產生影響。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">雄性大鼠之生殖試驗，並未顯示本藥品會對男性生殖能力產生影響。</span></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n雄性大鼠之生殖試驗，並未顯示本藥品會對男性生殖能力產生影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "Replagal不可與chloroquine、amiodarone、benoquin或gentamicin等藥物一起使用，它們可能會抑制細胞內 α–galactosidase的活性。 α–galactosidase A是一種酵素，它可能不是細胞色素P450之候補者，而參與藥物間反應。臨床研究上，對大部份病人同時使用神經疼痛藥物（如：carbamazepine、phenytoin及gabapentin），不會有藥物間反應發生。",
+          "content_html": "<p>Replagal<span style=\"font-family:標楷體;\">不可與</span>chloroquine<span style=\"font-family:標楷體;\">、</span>amiodarone<span style=\"font-family:標楷體;\">、</span>benoquin<span style=\"font-family:標楷體;\">或</span>gentamicin<span style=\"font-family:標楷體;\">等藥物一起使用，它們可能會抑制細胞內</span> α–galactosidase<span style=\"font-family:標楷體;\">的活性。</span></p><p>α–galactosidase A<span style=\"font-family:標楷體;\">是一種酵素，它可能不是細胞色素</span>P450<span style=\"font-family:標楷體;\">之候補者，而參與藥物間反應。臨床研究上，對大部份病人同時使用神經疼痛藥物（如：</span>carbamazepine<span style=\"font-family:標楷體;\">、</span>phenytoin<span style=\"font-family:標楷體;\">及</span>gabapentin<span style=\"font-family:標楷體;\">），不會有藥物間反應發生。</span></p>",
+          "search_text": "7\n交互作用\nReplagal不可與chloroquine、amiodarone、benoquin或gentamicin等藥物一起使用，它們可能會抑制細胞內 α–galactosidase的活性。 α–galactosidase A是一種酵素，它可能不是細胞色素P450之候補者，而參與藥物間反應。臨床研究上，對大部份病人同時使用神經疼痛藥物（如：carbamazepine、phenytoin及gabapentin），不會有藥物間反應發生。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "安全性資料摘要 本藥品在臨床試驗中，最常見的不良反應是輸注相關反應，13.7%以Replagal治療之成人病人產生該不良反應。大部份不良反應為輕微至中度嚴重度。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><u>安全性資料摘要</u></span></p><p><span style=\"font-family:標楷體;\">本藥品在臨床試驗中，最常見的不良反應是輸注相關反應，</span>13.7%<span style=\"font-family:標楷體;\">以</span>Replagal<span style=\"font-family:標楷體;\">治療之成人病人產生該不良反應。大部份不良反應為輕微至中度嚴重度。</span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n安全性資料摘要 本藥品在臨床試驗中，最常見的不良反應是輸注相關反應，13.7%以Replagal治療之成人病人產生該不良反應。大部份不良反應為輕微至中度嚴重度。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "不良反應列表 表一列出臨床試驗中344位使用Replagal治療之病人所發生的副作用報告，其中包含21位有末期腎病病史的病人、30位兒科病人(年齡≤18歲)、98位女性病人及藥品上市後自發性通報之不良反應。資料是以器官系統分類及所發生之頻率來表示（非常常見：≧1/10；常見：≧1/100至＜1/10；不常見：≧1/1,000至＜1/100）。藥品上市後自發性通報之不良反應，屬於”發生頻率未知”的群組（無法由現有資料估計其發生頻率）。在各別發生頻率群組內，不良反應依嚴重程度遞減次序排列。將單一病人之事件的發生，鑒於所治療的病人數目，定義為不常見的；單一病人可能發生多種不良反應。 表一. α –agalsidase治療期間觀察到的不良反應如下： 代謝及營養方面障礙非常常見現象：週邊水腫 神經系統方面障礙非常常見現象：頭痛、眩暈、神經痛、震顫、感覺遲鈍、感覺異常 常見現象：味覺不良、嗜睡 不常見現象：嗅覺反常 眼睛方面障礙常見現象：眼淚分泌增加 不常見現象：角膜反射減緩 耳朵和(內耳的)迷路方面障礙非常常見現象：耳鳴 常見現象：耳鳴現象加重 心臟方面障礙非常常見現象：心臟急速跳動 常見現象：心搏過速、心房顫動 不常見現象：頻脈心律不整 發生頻率未知：心肌缺氧、心衰竭、心室期外收縮 血管方面障礙常見現象：高血壓、低血壓、(臉)潮紅 呼吸系統、胸廓和(胸)縱隔的障礙非常常見現象：呼吸困難、咳嗽、鼻咽炎、咽炎 常見現象：發聲困難、喉嚨緊縮、流鼻水 不常見現象：氧飽和度降低、上呼吸道分泌物增加 腸胃道障礙非常常見現象：嘔吐、噁心、腹部疼痛、腹瀉 常見現象：腹部不適 皮膚及皮下組織障礙非常常見現象：皮疹 常見現象：蕁麻疹、紅斑、搔癢、痤瘡、多汗 不常見現象：血管性水腫、網狀青斑(livedo reticularis) 骨骼肌肉系統、結締組織和骨骼障礙非常常見現象：關節痛、肢體疼痛、肌肉疼痛、背部疼痛 常見現象：肌肉與骨骼不適、週邊腫脹、關節腫脹 不常見現象：感覺沉重 免疫系統障礙常見現象：過敏 不常見現象：過敏性反應(Anaphylactic reaction) 一般障礙和執行部位的情況非常常見現象：胸痛、寒顫、發熱、疼痛、無力、疲累 常見現象：胸悶、疲勞加重、感覺熱、感覺冷、似感冒症狀、不適、身體不適 不常見現象：注射部位皮疹 請見5.1。 兒科病人 兒科病人（包括兒童與青少年）所發生之藥物不良反應，相似於成人病人。然而，輸注相關反應（發熱、呼吸困難、胸痛）及疼痛加劇現象發生更為頻繁。」 其他特殊族群 腎病病人 末期腎病病史病人所發生之藥物不良反應，相似於一般病人。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><u>不良反應列表</u></span></p><p><span style=\"font-family:標楷體;\">表一列出臨床試驗中</span>344<span style=\"font-family:標楷體;\">位使用</span>Replagal<span style=\"font-family:標楷體;\">治療之病人所發生的副作用報告，其中包含</span>21<span style=\"font-family:標楷體;\">位有末期腎病病史的病人、30位兒科病人(年齡</span>≤<span style=\"font-family:標楷體;\">18歲)、</span>98<span style=\"font-family:標楷體;\">位女性病人及藥品上市後自發性通報之不良反應。資料是以器官系統分類及所發生之頻率來表示（非常常見：</span>≧1/10<span style=\"font-family:標楷體;\">；常見：</span>≧1/100<span style=\"font-family:標楷體;\">至＜</span>1/10<span style=\"font-family:標楷體;\">；不常見：</span>≧1/1,000<span style=\"font-family:標楷體;\">至＜</span>1/100<span style=\"font-family:標楷體;\">）。藥品上市後自發性通報之不良反應，屬於</span>”<span style=\"font-family:標楷體;\">發生頻率未知</span>”<span style=\"font-family:標楷體;\">的群組（無法由現有資料估計其發生頻率）。在各別發生頻率群組內，不良反應依嚴重程度遞減次序排列。將單一病人之事件的發生，鑒於所治療的病人數目，定義為不常見的；單一病人可能發生多種不良反應。</span></p><p><span style=\"font-family:標楷體;\">表一</span>. α –agalsidase<span style=\"font-family:標楷體;\">治療期間觀察到的不良反應如下：</span></p><figure class=\"table\" style=\"width:418.3pt;\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;height:20.4pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\"><span style=\"font-family:標楷體;\">代謝及營養方面障礙</span></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:20.4pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:20.4pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">週邊水腫</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:27.45pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"3\"><span style=\"font-family:標楷體;\">神經系統方面障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:27.45pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:27.45pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">頭痛、眩暈、神經痛、震顫、感覺遲鈍、感覺異常</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:18.45pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:18.45pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">味覺不良、嗜睡</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:8.15pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:8.15pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">嗅覺反常</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:2.85pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"2\"><span style=\"font-family:標楷體;\">眼睛方面障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:2.85pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:2.85pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">眼淚分泌增加</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.1pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.1pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">角膜反射減緩</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:10.35pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"2\"><span style=\"font-family:標楷體;\">耳朵和</span>(<span style=\"font-family:標楷體;\">內耳的</span>)<span style=\"font-family:標楷體;\">迷路方面障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:10.35pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:10.35pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">耳鳴</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.55pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:15.55pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">耳鳴現象加重</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:19.85pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"4\"><span style=\"font-family:標楷體;\">心臟方面障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:19.85pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:19.85pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">心臟急速跳動</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:17.15pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:17.15pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">心搏過速、心房顫動</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:20.3pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:20.3pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">頻脈心律不整</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.0pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">發生頻率未知：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.0pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">心肌缺氧、心衰竭、心室期外收縮</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:12.25pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\"><span style=\"font-family:標楷體;\">血管方面障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.25pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.25pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">高血壓、低血壓、</span>(<span style=\"font-family:標楷體;\">臉</span>)<span style=\"font-family:標楷體;\">潮紅</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:6.95pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"3\"><span style=\"font-family:標楷體;\">呼吸系統、胸廓和</span>(<span style=\"font-family:標楷體;\">胸</span>)<span style=\"font-family:標楷體;\">縱隔的障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:6.95pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:6.95pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">呼吸困難、咳嗽、鼻咽炎、咽炎</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:16.35pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:16.35pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">發聲困難、喉嚨緊縮、流鼻水</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:18.2pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:18.2pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">氧飽和度降低、上呼吸道分泌物增加</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:12.6pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"2\"><span style=\"font-family:標楷體;\">腸胃道障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.6pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.6pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">嘔吐、噁心、腹部疼痛、腹瀉</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:10.55pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:10.55pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">腹部不適</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:7.55pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"3\"><span style=\"font-family:標楷體;\">皮膚及皮下組織障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:7.55pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:7.55pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">皮疹</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:2.5pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:2.5pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">蕁麻疹、紅斑、搔癢、痤瘡、多汗</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.3pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:14.3pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">血管性水腫、網狀青斑</span>(livedo reticularis)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:39.3pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"3\"><span style=\"font-family:標楷體;\">骨骼肌肉系統、結締組織和骨骼障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:39.3pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:39.3pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">關節痛、肢體疼痛、肌肉疼痛、背部疼痛</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:33.35pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:33.35pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">肌肉與骨骼不適、週邊腫脹、關節腫脹</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:13.05pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:13.05pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">感覺沉重</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:19.0pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"2\"><span style=\"font-family:標楷體;\">免疫系統障礙</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:19.0pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:19.0pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">過敏</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.55pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:12.55pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">過敏性反應</span>(Anaphylactic reaction)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:25.55pt;padding:0cm 1.4pt;vertical-align:top;width:129.45pt;\" rowspan=\"3\"><span style=\"font-family:標楷體;\">一般障礙和執行部位的情況</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.55pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">非常常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:25.55pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">胸痛、寒顫、發熱、疼痛、無力、疲累</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:33.45pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:33.45pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">胸悶、疲勞加重、感覺熱、感覺冷、似感冒症狀、不適、身體不適</span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:10.75pt;padding:0cm 1.4pt;vertical-align:top;width:93.5pt;\"><span style=\"font-family:標楷體;\">不常見現象：</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;height:10.75pt;padding:0cm 1.4pt;vertical-align:top;width:179.85pt;\"><span style=\"font-family:標楷體;\">注射部位皮疹</span></td></tr></tbody></table></figure><p><span style=\"font-family:標楷體;\">請見</span>5.1<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\"><u>兒科病人</u></span></p><p><span style=\"font-family:標楷體;\">兒科病人（包括兒童與青少年）所發生之藥物不良反應，相似於成人病人。然而，輸注相關反應（發熱、呼吸困難、胸痛）及疼痛加劇現象發生更為頻繁。」</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>其他特殊族群</u></span></p><p><span style=\"font-family:標楷體;\"><i class=\"active\">腎病病人</i></span></p><p><span style=\"font-family:標楷體;\">末期腎病病史病人所發生之藥物不良反應，相似於一般病人。</span></p>",
+          "search_text": "8.2\n臨床試驗經驗\n不良反應列表 表一列出臨床試驗中344位使用Replagal治療之病人所發生的副作用報告，其中包含21位有末期腎病病史的病人、30位兒科病人(年齡≤18歲)、98位女性病人及藥品上市後自發性通報之不良反應。資料是以器官系統分類及所發生之頻率來表示（非常常見：≧1/10；常見：≧1/100至＜1/10；不常見：≧1/1,000至＜1/100）。藥品上市後自發性通報之不良反應，屬於”發生頻率未知”的群組（無法由現有資料估計其發生頻率）。在各別發生頻率群組內，不良反應依嚴重程度遞減次序排列。將單一病人之事件的發生，鑒於所治療的病人數目，定義為不常見的；單一病人可能發生多種不良反應。 表一. α –agalsidase治療期間觀察到的不良反應如下： 代謝及營養方面障礙非常常見現象：週邊水腫 神經系統方面障礙非常常見現象：頭痛、眩暈、神經痛、震顫、感覺遲鈍、感覺異常 常見現象：味覺不良、嗜睡 不常見現象：嗅覺反常 眼睛方面障礙常見現象：眼淚分泌增加 不常見現象：角膜反射減緩 耳朵和(內耳的)迷路方面障礙非常常見現象：耳鳴 常見現象：耳鳴現象加重 心臟方面障礙非常常見現象：心臟急速跳動 常見現象：心搏過速、心房顫動 不常見現象：頻脈心律不整 發生頻率未知：心肌缺氧、心衰竭、心室期外收縮 血管方面障礙常見現象：高血壓、低血壓、(臉)潮紅 呼吸系統、胸廓和(胸)縱隔的障礙非常常見現象：呼吸困難、咳嗽、鼻咽炎、咽炎 常見現象：發聲困難、喉嚨緊縮、流鼻水 不常見現象：氧飽和度降低、上呼吸道分泌物增加 腸胃道障礙非常常見現象：嘔吐、噁心、腹部疼痛、腹瀉 常見現象：腹部不適 皮膚及皮下組織障礙非常常見現象：皮疹 常見現象：蕁麻疹、紅斑、搔癢、痤瘡、多汗 不常見現象：血管性水腫、網狀青斑(livedo reticularis) 骨骼肌肉系統、結締組織和骨骼障礙非常常見現象：關節痛、肢體疼痛、肌肉疼痛、背部疼痛 常見現象：肌肉與骨骼不適、週邊腫脹、關節腫脹 不常見現象：感覺沉重 免疫系統障礙常見現象：過敏 不常見現象：過敏性反應(Anaphylactic reaction) 一般障礙和執行部位的情況非常常見現象：胸痛、寒顫、發熱、疼痛、無力、疲累 常見現象：胸悶、疲勞加重、感覺熱、感覺冷、似感冒症狀、不適、身體不適 不常見現象：注射部位皮疹 請見5.1。 兒科病人 兒科病人（包括兒童與青少年）所發生之藥物不良反應，相似於成人病人。然而，輸注相關反應（發熱、呼吸困難、胸痛）及疼痛加劇現象發生更為頻繁。」 其他特殊族群 腎病病人 末期腎病病史病人所發生之藥物不良反應，相似於一般病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "特定的不良反應 產品上市後所通報的輸注相關反應（請見5.1），在Fabry disease病人中，可能包括與心臟結構有關之臨床事件：心律不整（心房顫動、心室期外收縮、頻脈心律不整）、心肌缺氧、心臟衰竭。最常見的輸注相關反應都屬輕微，包括：寒顫、發熱、（臉）潮紅、頭痛、噁心、呼吸困難、震顫及搔癢。輸注相關症狀也可能包括：眩暈、多汗、低血壓、咳嗽、嘔吐及疲累。曾有過敏反應（包括過敏性反應）之案例報告。 通報疑似的不良反應 藥品授權上市後，通報疑似的不良反應十分重要，這樣能夠持續監控藥品的益處/風險平衡。醫療專業人員應通報任何疑似的不良反應，請通知全國藥物不良反應通報系統（網址：adr.fda.gov.tw）。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><u>特定的不良反應</u></span></p><p><span style=\"font-family:標楷體;\">產品上市後所通報的輸注相關反應（請見</span>5.1<span style=\"font-family:標楷體;\">），在</span>Fabry disease<span style=\"font-family:標楷體;\">病人中，可能包括與心臟結構有關之臨床事件：心律不整（心房顫動、心室期外收縮、頻脈心律不整）、心肌缺氧、心臟衰竭。最常見的輸注相關反應都屬輕微，包括：寒顫、發熱、（臉）潮紅、頭痛、噁心、呼吸困難、震顫及搔癢。輸注相關症狀也可能包括：眩暈、多汗、低血壓、咳嗽、嘔吐及疲累。曾有過敏反應（包括過敏性反應）之案例報告。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>通報疑似的不良反應</u></span></p><p><span style=\"font-family:標楷體;\">藥品授權上市後，通報疑似的不良反應十分重要，這樣能夠持續監控藥品的益處</span>/<span style=\"font-family:標楷體;\">風險平衡。醫療專業人員應通報任何疑似的不良反應，請通知全國藥物不良反應通報系統（網址：</span>adr.fda.gov.tw<span style=\"font-family:標楷體;\">）。</span></p>",
+          "search_text": "8.3\n上市後經驗\n特定的不良反應 產品上市後所通報的輸注相關反應（請見5.1），在Fabry disease病人中，可能包括與心臟結構有關之臨床事件：心律不整（心房顫動、心室期外收縮、頻脈心律不整）、心肌缺氧、心臟衰竭。最常見的輸注相關反應都屬輕微，包括：寒顫、發熱、（臉）潮紅、頭痛、噁心、呼吸困難、震顫及搔癢。輸注相關症狀也可能包括：眩暈、多汗、低血壓、咳嗽、嘔吐及疲累。曾有過敏反應（包括過敏性反應）之案例報告。 通報疑似的不良反應 藥品授權上市後，通報疑似的不良反應十分重要，這樣能夠持續監控藥品的益處/風險平衡。醫療專業人員應通報任何疑似的不良反應，請通知全國藥物不良反應通報系統（網址：adr.fda.gov.tw）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "在臨床試驗中，劑量達每公斤體重0.4 mg，每週注射一次。高劑量的安全性資料與建議劑量（每公斤體重0.2 mg，隔週注射一次）的安全性資料並無差異。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">在臨床試驗中，劑量達每公斤體重</span>0.4 mg<span style=\"font-family:標楷體;\">，每週注射一次。高劑量的安全性資料與建議劑量（每公斤體重</span>0.2 mg<span style=\"font-family:標楷體;\">，隔週注射一次）的安全性資料並無差異。</span></p>",
+          "search_text": "9\n過量\n在臨床試驗中，劑量達每公斤體重0.4 mg，每週注射一次。高劑量的安全性資料與建議劑量（每公斤體重0.2 mg，隔週注射一次）的安全性資料並無差異。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Fabry Disease是分解微粒酵素 α –galactosidase A缺乏活性，造成醣神經鞘脂（glycosphingolipid）儲存失調，結果引起globotriaosylceramide（Gb3或GL-3，也稱為ceramidetrihexoside, CTH）堆積，glycosphingolipid就是受此酵素分解之物質。 α –agalsidase催化Gb3水解，從分子中切斷最終產物galactose。在各類細胞中包括內皮及主質細胞用此酵素治療會減少Gb3堆積。 α –agalsidase是由人體細胞株中產生，提供人體醣化機制，影響目標細胞表面mannose-6-phosphate receptor的攝入。",
+          "content_html": "<p>Fabry Disease<span style=\"font-family:標楷體;\">是分解微粒酵素</span>&nbsp;α –galactosidase A<span style=\"font-family:標楷體;\">缺乏活性，造成醣神經鞘脂（</span>glycosphingolipid<span style=\"font-family:標楷體;\">）儲存失調，結果引起</span>globotriaosylceramide<span style=\"font-family:標楷體;\">（</span>Gb3<span style=\"font-family:標楷體;\">或</span>GL-3<span style=\"font-family:標楷體;\">，也稱為</span>ceramidetrihexoside, CTH<span style=\"font-family:標楷體;\">）堆積，</span>glycosphingolipid<span style=\"font-family:標楷體;\">就是受此酵素分解之物質。</span></p><p>α –agalsidase<span style=\"font-family:標楷體;\">催化</span>Gb3<span style=\"font-family:標楷體;\">水解，從分子中切斷最終產物</span>galactose<span style=\"font-family:標楷體;\">。在各類細胞中包括內皮及主質細胞用此酵素治療會減少</span>Gb3<span style=\"font-family:標楷體;\">堆積。</span></p><p>α –agalsidase<span style=\"font-family:標楷體;\">是由人體細胞株中產生，提供人體醣化機制，影響目標細胞表面</span>mannose-6-phosphate receptor<span style=\"font-family:標楷體;\">的攝入。</span></p>",
+          "search_text": "10.1\n作用機轉\nFabry Disease是分解微粒酵素 α –galactosidase A缺乏活性，造成醣神經鞘脂（glycosphingolipid）儲存失調，結果引起globotriaosylceramide（Gb3或GL-3，也稱為ceramidetrihexoside, CTH）堆積，glycosphingolipid就是受此酵素分解之物質。 α –agalsidase催化Gb3水解，從分子中切斷最終產物galactose。在各類細胞中包括內皮及主質細胞用此酵素治療會減少Gb3堆積。 α –agalsidase是由人體細胞株中產生，提供人體醣化機制，影響目標細胞表面mannose-6-phosphate receptor的攝入。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥物療法：其他消化道及代謝產品－酵素。 ATC code：A16AB03。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥物療法：其他消化道及代謝產品－酵素。</span></p><p>ATC code<span style=\"font-family:標楷體;\">：</span>A16AB03<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n藥物療法：其他消化道及代謝產品－酵素。 ATC code：A16AB03。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "以重複毒性劑量研究為基礎，臨床前資料顯示對人體無特殊危害，也無基因毒性及致癌毒性。對母老鼠及兔子作生殖毒性試驗，發現不影響懷孕或胎兒發展。對生產或產前產後的影響並無研究，因此也不知Replagal是否會通過胎盤。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">以重複毒性劑量研究為基礎，臨床前資料顯示對人體無特殊危害，也無基因毒性及致癌毒性。對母老鼠及兔子作生殖毒性試驗，發現不影響懷孕或胎兒發展。對生產或產前產後的影響並無研究，因此也不知</span>Replagal<span style=\"font-family:標楷體;\">是否會通過胎盤。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n以重複毒性劑量研究為基礎，臨床前資料顯示對人體無特殊危害，也無基因毒性及致癌毒性。對母老鼠及兔子作生殖毒性試驗，發現不影響懷孕或胎兒發展。對生產或產前產後的影響並無研究，因此也不知Replagal是否會通過胎盤。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.4",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.4",
+          "title": "免疫原性（Immunogenicity）",
+          "title_html": "免疫原性（Immunogenicity）",
+          "path": [
+            "藥理特性",
+            "免疫原性（Immunogenicity）"
+          ],
+          "content_text": "對α –agalsidase產生抗體，與任何臨床安全性（如：輸注反應）或有效性並無關聯。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對</span>α –agalsidase<span style=\"font-family:標楷體;\">產生抗體，與任何臨床安全性（如：輸注反應）或有效性並無關聯。</span></p>",
+          "search_text": "10.4\n免疫原性（Immunogenicity）\n對α –agalsidase產生抗體，與任何臨床安全性（如：輸注反應）或有效性並無關聯。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "成人男性病人，單次使用劑量從每公斤體重0.007-0.2 mg以20-40分鐘內靜脈輸注方式給藥，女性病人每公斤體重接受0.2 mg酵素以40分鐘靜脈輸注方式給藥。藥物動力學性質不受酵素劑量影響，以單次靜脈注射劑量0.2 mg/kg，從循環觀點視之，α –agalsidase具分佈及排泄兩相性質。在男性與女性病人間，藥物動力學之係數並無明顯差異，男性排除之半衰期約108 ±17分鐘，女性約89 ±28分鐘，兩性之分佈體積約體重之17%。男性、女性體重標準之廓清率分別為2.66 ml/min/kg、2.10 ml/min/kg。基於這些相似之藥物動力學性質，α –agalsidase用於男性或女性病人，在主要組織及器官之組織分佈也預期是相似的。 經6個月Replagal藥物治療，28位男性病人中有12位顯示藥物動力學特性改變，包括廓清率明顯增加，這些改變與低效價的 α –agalsidase抗體出現有關，但臨床上，病人並無明顯安全性或有效性被觀察到。 對Fabry Disease男性病人用藥前後肝活體切片檢查分析，組織半衰期預估超過24小時，肝攝入之酵素預估約投予劑量之10%。 α –agalsidase是一種蛋白質，它不被預期與蛋白質結合，它被預期隨著其他蛋白質代謝路徑而分解，如：多肽類水解。α –agalsidase不參與藥物間交互作用。 腎功能不全 由於α –agalsidase藥物動力學參數並未受到腎功能不全的影響，因此腎臟排除可被認為是α –agalsidase的次要排除路徑。 肝功能不全 胜肽類水解被預期是α –agalsidase的代謝途徑，因此不預期肝功能不全會對 α –agalsidase之藥物動力學性質產生具臨床意義的影響。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">成人男性病人，單次使用劑量從每公斤體重</span>0.007-0.2 mg<span style=\"font-family:標楷體;\">以</span>20-40<span style=\"font-family:標楷體;\">分鐘內靜脈輸注方式給藥，女性病人每公斤體重接受</span>0.2 mg<span style=\"font-family:標楷體;\">酵素以</span>40<span style=\"font-family:標楷體;\">分鐘靜脈輸注方式給藥。藥物動力學性質不受酵素劑量影響，以單次靜脈注射劑量</span>0.2 mg/kg<span style=\"font-family:標楷體;\">，從循環觀點視之，</span>α –agalsidase<span style=\"font-family:標楷體;\">具分佈及排泄兩相性質。在男性與女性病人間，藥物動力學之係數並無明顯差異，男性排除之半衰期約</span>108 ±17<span style=\"font-family:標楷體;\">分鐘，女性約</span>89 ±28<span style=\"font-family:標楷體;\">分鐘，兩性之分佈體積約體重之</span>17%<span style=\"font-family:標楷體;\">。男性、女性體重標準之廓清率分別為</span>2.66 ml/min/kg<span style=\"font-family:標楷體;\">、</span>2.10 ml/min/kg<span style=\"font-family:標楷體;\">。基於這些相似之藥物動力學性質，</span>α –agalsidase<span style=\"font-family:標楷體;\">用於男性或女性病人，在主要組織及器官之組織分佈也預期是相似的。</span></p><p><span style=\"font-family:標楷體;\">經</span>6<span style=\"font-family:標楷體;\">個月</span>Replagal<span style=\"font-family:標楷體;\">藥物治療，</span>28<span style=\"font-family:標楷體;\">位男性病人中有</span>12<span style=\"font-family:標楷體;\">位顯示藥物動力學特性改變，包括廓清率明顯增加，這些改變與低效價的</span>&nbsp;α –agalsidase<span style=\"font-family:標楷體;\">抗體出現有關，但臨床上，病人並無明顯安全性或有效性被觀察到。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">對</span>Fabry Disease<span style=\"font-family:標楷體;\">男性病人用藥前後肝活體切片檢查分析，組織半衰期預估超過</span>24<span style=\"font-family:標楷體;\">小時，肝攝入之酵素預估約投予劑量之</span>10%<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p>α –agalsidase<span style=\"font-family:標楷體;\">是一種蛋白質，它不被預期與蛋白質結合，它被預期隨著其他蛋白質代謝路徑而分解，如：多肽類水解。</span>α –agalsidase<span style=\"font-family:標楷體;\">不參與藥物間交互作用。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>腎功能不全</u></span></p><p><span style=\"font-family:標楷體;\">由於</span>α –agalsidase<span style=\"font-family:標楷體;\">藥物動力學參數並未受到腎功能不全的影響，因此腎臟排除可被認為是</span>α –agalsidase<span style=\"font-family:標楷體;\">的次要排除路徑。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>肝功能不全</u></span></p><p><span style=\"font-family:標楷體;\">胜肽類水解被預期是</span>α –agalsidase<span style=\"font-family:標楷體;\">的代謝途徑，因此不預期肝功能不全會對</span>&nbsp;α –agalsidase<span style=\"font-family:標楷體;\">之藥物動力學性質產生具臨床意義的影響。</span></p>",
+          "search_text": "11\n藥物動力學特性\n成人男性病人，單次使用劑量從每公斤體重0.007-0.2 mg以20-40分鐘內靜脈輸注方式給藥，女性病人每公斤體重接受0.2 mg酵素以40分鐘靜脈輸注方式給藥。藥物動力學性質不受酵素劑量影響，以單次靜脈注射劑量0.2 mg/kg，從循環觀點視之，α –agalsidase具分佈及排泄兩相性質。在男性與女性病人間，藥物動力學之係數並無明顯差異，男性排除之半衰期約108 ±17分鐘，女性約89 ±28分鐘，兩性之分佈體積約體重之17%。男性、女性體重標準之廓清率分別為2.66 ml/min/kg、2.10 ml/min/kg。基於這些相似之藥物動力學性質，α –agalsidase用於男性或女性病人，在主要組織及器官之組織分佈也預期是相似的。 經6個月Replagal藥物治療，28位男性病人中有12位顯示藥物動力學特性改變，包括廓清率明顯增加，這些改變與低效價的 α –agalsidase抗體出現有關，但臨床上，病人並無明顯安全性或有效性被觀察到。 對Fabry Disease男性病人用藥前後肝活體切片檢查分析，組織半衰期預估超過24小時，肝攝入之酵素預估約投予劑量之10%。 α –agalsidase是一種蛋白質，它不被預期與蛋白質結合，它被預期隨著其他蛋白質代謝路徑而分解，如：多肽類水解。α –agalsidase不參與藥物間交互作用。 腎功能不全 由於α –agalsidase藥物動力學參數並未受到腎功能不全的影響，因此腎臟排除可被認為是α –agalsidase的次要排除路徑。 肝功能不全 胜肽類水解被預期是α –agalsidase的代謝途徑，因此不預期肝功能不全會對 α –agalsidase之藥物動力學性質產生具臨床意義的影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "Replagal的安全性和有效性已在兩項隨機、雙盲、安慰劑對照及開放性延伸試驗中評估，共納入40位經臨床和生化證據診斷為Fabry Disease的病人，病人接受Replagal藥物治療，建議劑量每公斤體重0.2 mg。 25位病人完成第一項試驗及進入另一延伸試驗，經6個月治療後，兩組比較，使用Replagal藥物治療組比安慰劑組，明顯疼痛減輕（p=0.021），它是以Brief Pain Inventory（疼痛測量計分表）來評估疼痛指數，也明顯減少使用慢性神經痛藥物及使用天數。 接受Replagal治療12-18個月，透過確效的評估方法所得到的結果顯示，病人的生活品質（quality of life, QoL）獲得改善。 經6個月治療，與安慰劑組比較，使用Replagal藥物治療組可穩定腎功能。由腎活體組織切片檢體檢查，發現正常腎絲球部份明顯增加，腎小球環間膜變寬部份明顯減少。 經12-18個月維持治療，測定腎功能指標inulin為基準的腎絲球體過濾速率（Glomerular filtration rate, GFR）為8.7 ± 3.7 ml/min，說明Replagal可改善腎功能（p=0.030）。 更長期的治療（48-54個月），對GFR在正常範圍的基線（GFR≧90 ml/min/1.73m2）及腎功能的損傷維持在輕微的範圍（GFR 60 to＜90 ml/min/1.73m2）的男性病人，Replagal可穩定其GFR；對腎功能損傷較嚴重（GFR 30 to＜60 ml/min/1.73m2）的Fabry Disease男性病人，Replagal可減緩腎功能損傷及惡化至末期腎病的速度。 第二項試驗，以左心室肥大之15位病人持續6個月進行安慰劑與控制組之臨床試驗研究，結果使用Replagal藥物治療組，以magnetic resonance imaging（MRI）方法測得左心室重量減輕11.5公克，接受安慰劑組，左心室重量增加21.8公克。 除此之外，在第一項25人試驗中，經12-18個月維持治療，Replagal藥物明顯減輕心臟重量，改善心肌收縮，平均QRS持續時間縮短，從超音波心臟動態診斷發現中膈厚度減少，試驗中使用Replagal藥物治療之2位病人，右側分支傳導變為正常。 隨後的開放試驗結果顯示，使用Replagal 24-36個月的男性及女性病人，經由心臟超音波（echocardiography）發現其左心室重量減少，並伴隨有意義的症狀改善（對在試驗基線具有嚴重心衰竭或心絞痛症狀的Fabry Disease病人進行NYHA和CCS的測量）。 與安慰劑組比較，用Replagal藥物治療也會減少Gb3堆積，最初6個月治療後，在血漿、尿沉積、肝、腎及心臟活組織切片中觀察到平均減少約20-50%；經12-18個月的治療後，在血漿、尿沉積中觀察到減少約50-80%。」臨床上體重明顯增加、排汗量與能量都增加，這些都與代謝有關。 Replagal臨床效果是以酵素治療，以減少Gb3在各類細胞堆積，包括：腎絲球及腎小管上皮細胞、腎微血管內皮細胞（心臟及皮膚微血管內皮細胞未被檢查）、心肌細胞等。 對於輸注耐受良好的病人可考慮在家輸注。 病人從ß–agalsidase轉換到Replagal（α –agalsidase）之研究試驗 一開放性、無對照組之研究試驗包括100位病人（其中29位首次接受agalsidase治療，71位先以ß–agalsidase治療然後轉換到Replagal），治療期間達30個月。分析結果指出，病人發生嚴重不良事件的比例，從ß–agalsidase轉換到Replagal的病人是39.4%，而首次接受agalsidase治療的病人則是31.0%。從ß–agalsidase轉換到Replagal的病人安全性資料與其他臨床研究經驗相符合。轉換藥物的病人組別中有27位產生輸注反應（38.0%），首次用藥的病人組別則有9位產生輸注反應（31.0%）。 不同劑量方案（dosing regimen）之研究試驗 在一開放性、隨機分配之研究試驗中，成人病人接受為期52週、單次劑量0.2 mg/kg的治療，20位病人隔週注射一次，19位病人每週注射一次。結果兩組病人的LVMI平均變化值及其他評估指標（心臟功能、腎功能、藥效學活性）在統計學上都沒有顯著差異。 兩組病人的LVMI在治療期間都保持穩定。整體的嚴重不良事件發生率顯示，不同劑量方案對於各組之嚴重不良事件資料並無明顯影響。",
+          "content_html": "<p>Replagal<span style=\"font-family:標楷體;\">的安全性和有效性已在兩項隨機、雙盲、安慰劑對照及開放性延伸試驗中評估，共納入</span>40<span style=\"font-family:標楷體;\">位經臨床和生化證據診斷為</span>Fabry Disease<span style=\"font-family:標楷體;\">的病人，病人接受</span>Replagal<span style=\"font-family:標楷體;\">藥物治療，建議劑量每公斤體重</span>0.2 mg<span style=\"font-family:標楷體;\">。</span></p><p>25<span style=\"font-family:標楷體;\">位病人完成第一項試驗及進入另一延伸試驗，經</span>6<span style=\"font-family:標楷體;\">個月治療後，兩組比較，使用</span>Replagal<span style=\"font-family:標楷體;\">藥物治療組比安慰劑組，明顯疼痛減輕（</span>p=0.021<span style=\"font-family:標楷體;\">），它是以</span>Brief Pain Inventory<span style=\"font-family:標楷體;\">（疼痛測量計分表）來評估疼痛指數，也明顯減少使用慢性神經痛藥物及使用天數。</span></p><p><span style=\"font-family:標楷體;\">接受</span>Replagal<span style=\"font-family:標楷體;\">治療</span>12-18<span style=\"font-family:標楷體;\">個月，透過確效的評估方法所得到的結果顯示，病人的生活品質（</span>quality of life, QoL<span style=\"font-family:標楷體;\">）獲得改善。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">經</span>6<span style=\"font-family:標楷體;\">個月治療，與安慰劑組比較，使用</span>Replagal<span style=\"font-family:標楷體;\">藥物治療組可穩定腎功能。由腎活體組織切片檢體檢查，發現正常腎絲球部份明顯增加，腎小球環間膜變寬部份明顯減少。</span></p><p><span style=\"font-family:標楷體;\">經</span>12-18<span style=\"font-family:標楷體;\">個月維持治療，測定腎功能指標</span>inulin<span style=\"font-family:標楷體;\">為基準的腎絲球體過濾速率（</span>Glomerular filtration rate, GFR<span style=\"font-family:標楷體;\">）為</span>8.7 ± 3.7 ml/min<span style=\"font-family:標楷體;\">，說明</span>Replagal<span style=\"font-family:標楷體;\">可改善腎功能（</span>p=0.030<span style=\"font-family:標楷體;\">）。</span></p><p><span style=\"font-family:標楷體;\">更長期的治療（</span>48-54<span style=\"font-family:標楷體;\">個月），對</span>GFR<span style=\"font-family:標楷體;\">在正常範圍的基線（</span>GFR≧90 ml/min/1.73m<sup>2</sup><span style=\"font-family:標楷體;\">）及腎功能的損傷維持在輕微的範圍（</span>GFR 60 to<span style=\"font-family:標楷體;\">＜</span>90 ml/min/1.73m<sup>2</sup><span style=\"font-family:標楷體;\">）的男性病人，</span>Replagal<span style=\"font-family:標楷體;\">可穩定其</span>GFR<span style=\"font-family:標楷體;\">；對腎功能損傷較嚴重（</span>GFR 30 to<span style=\"font-family:標楷體;\">＜</span>60 ml/min/1.73m<sup>2</sup><span style=\"font-family:標楷體;\">）的</span>Fabry Disease<span style=\"font-family:標楷體;\">男性病人，</span>Replagal<span style=\"font-family:標楷體;\">可減緩腎功能損傷及惡化至末期腎病的速度。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">第二項試驗，以左心室肥大之</span>15<span style=\"font-family:標楷體;\">位病人持續</span>6<span style=\"font-family:標楷體;\">個月進行安慰劑與控制組之臨床試驗研究，結果使用</span>Replagal<span style=\"font-family:標楷體;\">藥物治療組，以</span>magnetic resonance imaging<span style=\"font-family:標楷體;\">（</span>MRI<span style=\"font-family:標楷體;\">）方法測得左心室重量減輕</span>11.5<span style=\"font-family:標楷體;\">公克，接受安慰劑組，左心室重量增加</span>21.8<span style=\"font-family:標楷體;\">公克。</span></p><p><span style=\"font-family:標楷體;\">除此之外，在第一項</span>25<span style=\"font-family:標楷體;\">人試驗中，經</span>12-18<span style=\"font-family:標楷體;\">個月維持治療，</span>Replagal<span style=\"font-family:標楷體;\">藥物明顯減輕心臟重量，改善心肌收縮，平均</span>QRS<span style=\"font-family:標楷體;\">持續時間縮短，從超音波心臟動態診斷發現中膈厚度減少，試驗中使用</span>Replagal<span style=\"font-family:標楷體;\">藥物治療之</span>2<span style=\"font-family:標楷體;\">位病人，右側分支傳導變為正常。</span></p><p><span style=\"font-family:標楷體;\">隨後的開放試驗結果顯示，使用</span>Replagal 24-36<span style=\"font-family:標楷體;\">個月的男性及女性病人，經由心臟超音波（</span>echocardiography<span style=\"font-family:標楷體;\">）發現其左心室重量減少，並伴隨有意義的症狀改善（對在試驗基線具有嚴重心衰竭或心絞痛症狀的</span>Fabry Disease<span style=\"font-family:標楷體;\">病人進行</span>NYHA<span style=\"font-family:標楷體;\">和</span>CCS<span style=\"font-family:標楷體;\">的測量）。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">與安慰劑組比較，用</span>Replagal<span style=\"font-family:標楷體;\">藥物治療也會減少</span>Gb3<span style=\"font-family:標楷體;\">堆積，最初</span>6<span style=\"font-family:標楷體;\">個月治療後，在血漿、尿沉積、肝、腎及心臟活組織切片中觀察到平均減少約</span>20-50%<span style=\"font-family:標楷體;\">；經</span>12-18<span style=\"font-family:標楷體;\">個月的治療後，在血漿、尿沉積中觀察到減少約</span>50-80%<span style=\"font-family:標楷體;\">。」臨床上體重明顯增加、排汗量與能量都增加，這些都與代謝有關。</span></p><p>Replagal<span style=\"font-family:標楷體;\">臨床效果是以酵素治療，以減少</span>Gb3<span style=\"font-family:標楷體;\">在各類細胞堆積，包括：腎絲球及腎小管上皮細胞、腎微血管內皮細胞（心臟及皮膚微血管內皮細胞未被檢查）、心肌細胞等。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">對於輸注耐受良好的病人可考慮在家輸注。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i class=\"active\">病人從</i></span><i class=\"active\">ß–agalsidase</i><span style=\"font-family:標楷體;\"><i class=\"active\">轉換到</i></span><i class=\"active\">Replagal</i><span style=\"font-family:標楷體;\"><i class=\"active\">（</i></span><i class=\"active\">α –agalsidase</i><span style=\"font-family:標楷體;\"><i class=\"active\">）之研究試驗</i></span></p><p><span style=\"font-family:標楷體;\">一開放性、無對照組之研究試驗包括</span>100<span style=\"font-family:標楷體;\">位病人（其中</span>29<span style=\"font-family:標楷體;\">位首次接受</span>agalsidase<span style=\"font-family:標楷體;\">治療，</span>71<span style=\"font-family:標楷體;\">位先以</span>ß–agalsidase<span style=\"font-family:標楷體;\">治療然後轉換到</span>Replagal<span style=\"font-family:標楷體;\">），治療期間達</span>30<span style=\"font-family:標楷體;\">個月。分析結果指出，病人發生嚴重不良事件的比例，從</span>ß–agalsidase<span style=\"font-family:標楷體;\">轉換到</span>Replagal<span style=\"font-family:標楷體;\">的病人是</span>39.4%<span style=\"font-family:標楷體;\">，而首次接受</span>agalsidase<span style=\"font-family:標楷體;\">治療的病人則是</span>31.0%<span style=\"font-family:標楷體;\">。從</span>ß–agalsidase<span style=\"font-family:標楷體;\">轉換到</span>Replagal<span style=\"font-family:標楷體;\">的病人安全性資料與其他臨床研究經驗相符合。轉換藥物的病人組別中有</span>27<span style=\"font-family:標楷體;\">位產生輸注反應（</span>38.0%<span style=\"font-family:標楷體;\">），首次用藥的病人組別則有</span>9<span style=\"font-family:標楷體;\">位產生輸注反應（</span>31.0%<span style=\"font-family:標楷體;\">）。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><i class=\"active\">不同劑量方案（</i></span><i class=\"active\">dosing regimen</i><span style=\"font-family:標楷體;\"><i class=\"active\">）之研究試驗</i></span></p><p><span style=\"font-family:標楷體;\">在一開放性、隨機分配之研究試驗中，成人病人接受為期</span>52<span style=\"font-family:標楷體;\">週、單次劑量</span>0.2 mg/kg<span style=\"font-family:標楷體;\">的治療，</span>20<span style=\"font-family:標楷體;\">位病人隔週注射一次，</span>19<span style=\"font-family:標楷體;\">位病人每週注射一次。結果兩組病人的</span>LVMI<span style=\"font-family:標楷體;\">平均變化值及其他評估指標（心臟功能、腎功能、藥效學活性）在統計學上都沒有顯著差異。</span></p><p><span style=\"font-family:標楷體;\">兩組病人的</span>LVMI<span style=\"font-family:標楷體;\">在治療期間都保持穩定。整體的嚴重不良事件發生率顯示，不同劑量方案對於各組之嚴重不良事件資料並無明顯影響。</span></p>",
+          "search_text": "12\n臨床試驗資料\nReplagal的安全性和有效性已在兩項隨機、雙盲、安慰劑對照及開放性延伸試驗中評估，共納入40位經臨床和生化證據診斷為Fabry Disease的病人，病人接受Replagal藥物治療，建議劑量每公斤體重0.2 mg。 25位病人完成第一項試驗及進入另一延伸試驗，經6個月治療後，兩組比較，使用Replagal藥物治療組比安慰劑組，明顯疼痛減輕（p=0.021），它是以Brief Pain Inventory（疼痛測量計分表）來評估疼痛指數，也明顯減少使用慢性神經痛藥物及使用天數。 接受Replagal治療12-18個月，透過確效的評估方法所得到的結果顯示，病人的生活品質（quality of life, QoL）獲得改善。 經6個月治療，與安慰劑組比較，使用Replagal藥物治療組可穩定腎功能。由腎活體組織切片檢體檢查，發現正常腎絲球部份明顯增加，腎小球環間膜變寬部份明顯減少。 經12-18個月維持治療，測定腎功能指標inulin為基準的腎絲球體過濾速率（Glomerular filtration rate, GFR）為8.7 ± 3.7 ml/min，說明Replagal可改善腎功能（p=0.030）。 更長期的治療（48-54個月），對GFR在正常範圍的基線（GFR≧90 ml/min/1.73m2）及腎功能的損傷維持在輕微的範圍（GFR 60 to＜90 ml/min/1.73m2）的男性病人，Replagal可穩定其GFR；對腎功能損傷較嚴重（GFR 30 to＜60 ml/min/1.73m2）的Fabry Disease男性病人，Replagal可減緩腎功能損傷及惡化至末期腎病的速度。 第二項試驗，以左心室肥大之15位病人持續6個月進行安慰劑與控制組之臨床試驗研究，結果使用Replagal藥物治療組，以magnetic resonance imaging（MRI）方法測得左心室重量減輕11.5公克，接受安慰劑組，左心室重量增加21.8公克。 除此之外，在第一項25人試驗中，經12-18個月維持治療，Replagal藥物明顯減輕心臟重量，改善心肌收縮，平均QRS持續時間縮短，從超音波心臟動態診斷發現中膈厚度減少，試驗中使用Replagal藥物治療之2位病人，右側分支傳導變為正常。 隨後的開放試驗結果顯示，使用Replagal 24-36個月的男性及女性病人，經由心臟超音波（echocardiography）發現其左心室重量減少，並伴隨有意義的症狀改善（對在試驗基線具有嚴重心衰竭或心絞痛症狀的Fabry Disease病人進行NYHA和CCS的測量）。 與安慰劑組比較，用Replagal藥物治療也會減少Gb3堆積，最初6個月治療後，在血漿、尿沉積、肝、腎及心臟活組織切片中觀察到平均減少約20-50%；經12-18個月的治療後，在血漿、尿沉積中觀察到減少約50-80%。」臨床上體重明顯增加、排汗量與能量都增加，這些都與代謝有關。 Replagal臨床效果是以酵素治療，以減少Gb3在各類細胞堆積，包括：腎絲球及腎小管上皮細胞、腎微血管內皮細胞（心臟及皮膚微血管內皮細胞未被檢查）、心肌細胞等。 對於輸注耐受良好的病人可考慮在家輸注。 病人從ß–agalsidase轉換到Replagal（α –agalsidase）之研究試驗 一開放性、無對照組之研究試驗包括100位病人（其中29位首次接受agalsidase治療，71位先以ß–agalsidase治療然後轉換到Replagal），治療期間達30個月。分析結果指出，病人發生嚴重不良事件的比例，從ß–agalsidase轉換到Replagal的病人是39.4%，而首次接受agalsidase治療的病人則是31.0%。從ß–agalsidase轉換到Replagal的病人安全性資料與其他臨床研究經驗相符合。轉換藥物的病人組別中有27位產生輸注反應（38.0%），首次用藥的病人組別則有9位產生輸注反應（31.0%）。 不同劑量方案（dosing regimen）之研究試驗 在一開放性、隨機分配之研究試驗中，成人病人接受為期52週、單次劑量0.2 mg/kg的治療，20位病人隔週注射一次，19位病人每週注射一次。結果兩組病人的LVMI平均變化值及其他評估指標（心臟功能、腎功能、藥效學活性）在統計學上都沒有顯著差異。 兩組病人的LVMI在治療期間都保持穩定。整體的嚴重不良事件發生率顯示，不同劑量方案對於各組之嚴重不良事件資料並無明顯影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "5 ml玻璃小瓶（第一型玻璃）含3.5 ml濃縮注射液，上覆有含氟樹脂之橡皮套，再由一層鋁箔密封。 包裝有：1支小瓶/每盒，4支小瓶/每盒，10支小瓶/每盒。",
+          "content_html": "<p>5 ml<span style=\"font-family:標楷體;\">玻璃小瓶（第一型玻璃）含</span>3.5 ml<span style=\"font-family:標楷體;\">濃縮注射液，上覆有含氟樹脂之橡皮套，再由一層鋁箔密封。</span></p><p><span style=\"font-family:標楷體;\">包裝有：</span>1<span style=\"font-family:標楷體;\">支小瓶</span>/<span style=\"font-family:標楷體;\">每盒，</span>4<span style=\"font-family:標楷體;\">支小瓶</span>/<span style=\"font-family:標楷體;\">每盒，</span>10<span style=\"font-family:標楷體;\">支小瓶</span>/<span style=\"font-family:標楷體;\">每盒。</span></p>",
+          "search_text": "13.1\n包裝\n5 ml玻璃小瓶（第一型玻璃）含3.5 ml濃縮注射液，上覆有含氟樹脂之橡皮套，再由一層鋁箔密封。 包裝有：1支小瓶/每盒，4支小瓶/每盒，10支小瓶/每盒。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外盒所示 預備使用中藥品之化學及物理安定性在25˚C環境下可持續24小時。 然而，從微生物觀點考量，本藥品應立即使用。若未能立即使用，預備使用中但未立即使用的儲存時間及儲存狀態為使用者之責任，通常為2-8˚C，24小時以內應使用完畢，除非稀釋過程是在嚴密控制及確效的無菌狀態下執行。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如外盒所示</span></p><p><span style=\"font-family:標楷體;\">預備使用中藥品之化學及物理安定性在</span>25˚C<span style=\"font-family:標楷體;\">環境下可持續</span>24<span style=\"font-family:標楷體;\">小時。</span></p><p><span style=\"font-family:標楷體;\">然而，從微生物觀點考量，本藥品應立即使用。若未能立即使用，預備使用中但未立即使用的儲存時間及儲存狀態為使用者之責任，通常為</span>2-8˚C<span style=\"font-family:標楷體;\">，</span>24<span style=\"font-family:標楷體;\">小時以內應使用完畢，除非稀釋過程是在嚴密控制及確效的無菌狀態下執行。</span></p>",
+          "search_text": "13.2\n效期\n如外盒所示 預備使用中藥品之化學及物理安定性在25˚C環境下可持續24小時。 然而，從微生物觀點考量，本藥品應立即使用。若未能立即使用，預備使用中但未立即使用的儲存時間及儲存狀態為使用者之責任，通常為2-8˚C，24小時以內應使用完畢，除非稀釋過程是在嚴密控制及確效的無菌狀態下執行。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "應存放於2˚C - 8˚C冰箱冷藏。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">應存放於</span>2˚C - 8˚C<span style=\"font-family:標楷體;\">冰箱冷藏。</span></p>",
+          "search_text": "13.3\n儲存條件\n應存放於2˚C - 8˚C冰箱冷藏。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "任何未用完藥品或廢棄物都應依各醫院規定丟棄。 版本日期: EU 20250917TW01",
+          "content_html": "<p><span style=\"font-family:標楷體;\">任何未用完藥品或廢棄物都應依各醫院規定丟棄。</span></p><p><span style=\"font-family:標楷體;\">版本日期</span>: EU 20250917TW01</p>",
+          "search_text": "15\n其他\n任何未用完藥品或廢棄物都應依各醫院規定丟棄。 版本日期: EU 20250917TW01",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n1毫升濃縮注射液含1毫克 α –agalsidase，每支3.5毫升濃縮注射液小瓶含3.5毫克 α –agalsidase。 α -agalsidase 是由人體蛋白質α –galactosidase A 經由基因工程技術在人體細胞株中產生。\n1.2\n賦形劑\nSodium phosphate monobasic, monohydrate (E339)；Polysorbate 20 (E432)；Sodium chloride；Sodium hydroxide (E524)；Water for injections。 賦形劑有已知的影響 本藥品每瓶含有14.2毫克鈉。\n1.3\n劑型\n濃縮注射劑。\n1.4\n藥品外觀\n澄清無色溶液。\n2\n適應症\n用於治療 α –galactosidase A 缺乏患者（即Fabry Disease），提供長期酵素補充治療。\n3\n用法及用量\n3.1\n用法用量\n使用Replagal來治療，須由處理Fabry Disease病人或其他遺傳代謝疾病病人有經驗之專科醫師來使用。 使用劑量 Replagal一次劑量為每公斤體重0.2 mg，以靜脈輸注至少40分鐘，隔週注射一次。 使用方法 以靜脈輸注至少40分鐘，並使用附有過濾器之靜脈注射管線。 Replagal不要與其他藥品在同一靜脈注射管線使用。\n3.2\n調製方式\n本藥品投予前需稀釋，稀釋方法如下。 • 計算所需Replagal劑量及小瓶數。 • 以100 ml之sodium chloride solution (0.9%) 來稀釋所需之Replagal濃縮注射液。Replagal不含任何防腐劑或制菌劑，因此製備過程應於無菌下操作以確保配製溶液的無菌性。溶液應輕輕的小心混合，但不要搖晃。 • 因為本藥不含防腐劑，建議稀釋後儘快使用。 • 使用前，應由視覺檢查溶液是否有微粒物質及變色。 • 本藥只供單次使用。 不相容性：並無執行藥品間相容性試驗，本藥品不可與其他藥品混合使用。\n3.3\n特殊族群用法用量\n老年病人 由於安全性與有效性未被確立，目前不建議本藥品用於超過65歲病人。 肝功能受損之病人 無肝功能受損病人使用之研究。 腎功能受損之病人 對腎功能受損病人使用無需調整劑量。擴大腎臟傷害（eGFR＜60 mL/min），可能限制腎臟對酵素替代療法的反應；依據洗腎病人或腎臟移植病人之有限資料，不建議調整劑量。 兒童病人 由於安全性與有效性未被確立，目前不建議本藥品用於0-17歲兒童病人。\n4\n禁忌\n對主成分或任何賦形劑產生過敏反應者，不可使用。\n5\n警語及注意事項\n5.1\n警語/注意事項\n可追溯性 為了增進生物藥品的可追溯性，施用產品的名稱和批號都應被清楚地記錄。 特異輸注反應（Idiosyncratic infusion related reaction） 在臨床試驗中，13.7%成人病人對Replagal產生特異輸注反應。最常見的症狀有惡寒、頭痛、噁心、發熱、潮紅及疲勞。嚴重的輸注反應並不常見，被報告的症狀包括：發熱、惡寒、心搏過快、蕁麻疹、噁心/嘔吐、血管神經性水腫導致咽喉緊縮、嘯喘、舌頭腫大。其他的輸注反應可能有暈眩、多汗。 回顧心臟方面的臨床事件（cardiac events），結果發現輸注反應可能與血液動力學之壓力有關，而在原先已有心臟方面臨床表現（cardiac manifestations）之Fabry Disease病人中引發臨床事件。 通常產生輸注反應在使用Replagal最初2-4個月，然而亦有在使用後一年後才發生輸注反應的案例報告。輸注反應會隨時間減少。假如輕微或中度急性輸注反應發生，醫療單位應迅速發現並建立適度處理原則。注射應暫時中斷5-10分鐘，直到症狀消退，再繼續注射。輕微及暫時不良反應不須藥物治療或中斷注射。對於必須給予症狀治療的病人，為避免急性輸注反應，可以在輸注前之1-24小時給予口服或靜脈注射之antihistamines（抗組織胺）及corticosteroids（類固醇）作為前治療。 過敏反應（Hypersensitivity reactions） 已有過敏反應之案例報告。假如嚴重過敏或過敏型反應發生，應迅速停止注射Replagal，並應立即給予適當的處理。應隨時注意現行緊急處置之醫療標準。 對抗蛋白質之抗體 如同所有蛋白質藥品製劑，病人可能會產生對抗此蛋白質之抗體。約有24%以Replagal治療之男性病人，會有低效價的IgG抗體反應。根據有限研究資料，在男性兒童病人產生IgG抗體反應的比例僅約7%。約經過3-12個月的治療期間會產生IgG抗體。經過12-54個月的治療，17% Replagal治療病人的抗體仍呈陽性，而7% Replagal治療病人其IgG抗體隨著時間逐漸減少，有免疫耐受性產生。其餘76% Replagal治療病人始終沒有產生IgG抗體。在臨床試驗中，有極少數的病人報導出與過敏性反應無關之IgE抗體陽性。 腎損傷病人 大範圍的腎臟損傷由於有潛在不可逆的病理變化，可能限制酵素取代療法在腎臟的療效反應，此種病人，腎功能的損失維持在Fabry Disease自然病程的範圍內。 鈉 本藥品每瓶含有14.2毫克鈉，等同於WHO建議最高每日劑量2公克鈉的0.7%。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\nReplagal對駕駛及機械操作能力沒有或幾乎沒有影響。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\nReplagal用於懷孕婦女之資料非常有限。動物實驗顯示，在器官形成的過程中暴露在藥品下，並未發現會對懷孕或胚胎∕胎兒發育產生直接或間接的傷害（請見10.3）。懷孕婦女使用Replagal應格外小心。\n6.2\n哺乳\n對於Replagal是否會被排泄至人體乳汁中並不清楚，因此授乳婦女使用Replagal應格外小心。\n6.3\n有生育能力的女性與男性\n雄性大鼠之生殖試驗，並未顯示本藥品會對男性生殖能力產生影響。\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\nReplagal不可與chloroquine、amiodarone、benoquin或gentamicin等藥物一起使用，它們可能會抑制細胞內 α–galactosidase的活性。 α–galactosidase A是一種酵素，它可能不是細胞色素P450之候補者，而參與藥物間反應。臨床研究上，對大部份病人同時使用神經疼痛藥物（如：carbamazepine、phenytoin及gabapentin），不會有藥物間反應發生。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n安全性資料摘要 本藥品在臨床試驗中，最常見的不良反應是輸注相關反應，13.7%以Replagal治療之成人病人產生該不良反應。大部份不良反應為輕微至中度嚴重度。\n8.2\n臨床試驗經驗\n不良反應列表 表一列出臨床試驗中344位使用Replagal治療之病人所發生的副作用報告，其中包含21位有末期腎病病史的病人、30位兒科病人(年齡≤18歲)、98位女性病人及藥品上市後自發性通報之不良反應。資料是以器官系統分類及所發生之頻率來表示（非常常見：≧1/10；常見：≧1/100至＜1/10；不常見：≧1/1,000至＜1/100）。藥品上市後自發性通報之不良反應，屬於”發生頻率未知”的群組（無法由現有資料估計其發生頻率）。在各別發生頻率群組內，不良反應依嚴重程度遞減次序排列。將單一病人之事件的發生，鑒於所治療的病人數目，定義為不常見的；單一病人可能發生多種不良反應。 表一. α –agalsidase治療期間觀察到的不良反應如下： 代謝及營養方面障礙非常常見現象：週邊水腫 神經系統方面障礙非常常見現象：頭痛、眩暈、神經痛、震顫、感覺遲鈍、感覺異常 常見現象：味覺不良、嗜睡 不常見現象：嗅覺反常 眼睛方面障礙常見現象：眼淚分泌增加 不常見現象：角膜反射減緩 耳朵和(內耳的)迷路方面障礙非常常見現象：耳鳴 常見現象：耳鳴現象加重 心臟方面障礙非常常見現象：心臟急速跳動 常見現象：心搏過速、心房顫動 不常見現象：頻脈心律不整 發生頻率未知：心肌缺氧、心衰竭、心室期外收縮 血管方面障礙常見現象：高血壓、低血壓、(臉)潮紅 呼吸系統、胸廓和(胸)縱隔的障礙非常常見現象：呼吸困難、咳嗽、鼻咽炎、咽炎 常見現象：發聲困難、喉嚨緊縮、流鼻水 不常見現象：氧飽和度降低、上呼吸道分泌物增加 腸胃道障礙非常常見現象：嘔吐、噁心、腹部疼痛、腹瀉 常見現象：腹部不適 皮膚及皮下組織障礙非常常見現象：皮疹 常見現象：蕁麻疹、紅斑、搔癢、痤瘡、多汗 不常見現象：血管性水腫、網狀青斑(livedo reticularis) 骨骼肌肉系統、結締組織和骨骼障礙非常常見現象：關節痛、肢體疼痛、肌肉疼痛、背部疼痛 常見現象：肌肉與骨骼不適、週邊腫脹、關節腫脹 不常見現象：感覺沉重 免疫系統障礙常見現象：過敏 不常見現象：過敏性反應(Anaphylactic reaction) 一般障礙和執行部位的情況非常常見現象：胸痛、寒顫、發熱、疼痛、無力、疲累 常見現象：胸悶、疲勞加重、感覺熱、感覺冷、似感冒症狀、不適、身體不適 不常見現象：注射部位皮疹 請見5.1。 兒科病人 兒科病人（包括兒童與青少年）所發生之藥物不良反應，相似於成人病人。然而，輸注相關反應（發熱、呼吸困難、胸痛）及疼痛加劇現象發生更為頻繁。」 其他特殊族群 腎病病人 末期腎病病史病人所發生之藥物不良反應，相似於一般病人。\n8.3\n上市後經驗\n特定的不良反應 產品上市後所通報的輸注相關反應（請見5.1），在Fabry disease病人中，可能包括與心臟結構有關之臨床事件：心律不整（心房顫動、心室期外收縮、頻脈心律不整）、心肌缺氧、心臟衰竭。最常見的輸注相關反應都屬輕微，包括：寒顫、發熱、（臉）潮紅、頭痛、噁心、呼吸困難、震顫及搔癢。輸注相關症狀也可能包括：眩暈、多汗、低血壓、咳嗽、嘔吐及疲累。曾有過敏反應（包括過敏性反應）之案例報告。 通報疑似的不良反應 藥品授權上市後，通報疑似的不良反應十分重要，這樣能夠持續監控藥品的益處/風險平衡。醫療專業人員應通報任何疑似的不良反應，請通知全國藥物不良反應通報系統（網址：adr.fda.gov.tw）。\n9\n過量\n在臨床試驗中，劑量達每公斤體重0.4 mg，每週注射一次。高劑量的安全性資料與建議劑量（每公斤體重0.2 mg，隔週注射一次）的安全性資料並無差異。\n10\n藥理特性\n10.1\n作用機轉\nFabry Disease是分解微粒酵素 α –galactosidase A缺乏活性，造成醣神經鞘脂（glycosphingolipid）儲存失調，結果引起globotriaosylceramide（Gb3或GL-3，也稱為ceramidetrihexoside, CTH）堆積，glycosphingolipid就是受此酵素分解之物質。 α –agalsidase催化Gb3水解，從分子中切斷最終產物galactose。在各類細胞中包括內皮及主質細胞用此酵素治療會減少Gb3堆積。 α –agalsidase是由人體細胞株中產生，提供人體醣化機制，影響目標細胞表面mannose-6-phosphate receptor的攝入。\n10.2\n藥效藥理特性\n藥物療法：其他消化道及代謝產品－酵素。 ATC code：A16AB03。\n10.3\n臨床前安全性資料\n以重複毒性劑量研究為基礎，臨床前資料顯示對人體無特殊危害，也無基因毒性及致癌毒性。對母老鼠及兔子作生殖毒性試驗，發現不影響懷孕或胎兒發展。對生產或產前產後的影響並無研究，因此也不知Replagal是否會通過胎盤。\n10.4\n免疫原性（Immunogenicity）\n對α –agalsidase產生抗體，與任何臨床安全性（如：輸注反應）或有效性並無關聯。\n11\n藥物動力學特性\n成人男性病人，單次使用劑量從每公斤體重0.007-0.2 mg以20-40分鐘內靜脈輸注方式給藥，女性病人每公斤體重接受0.2 mg酵素以40分鐘靜脈輸注方式給藥。藥物動力學性質不受酵素劑量影響，以單次靜脈注射劑量0.2 mg/kg，從循環觀點視之，α –agalsidase具分佈及排泄兩相性質。在男性與女性病人間，藥物動力學之係數並無明顯差異，男性排除之半衰期約108 ±17分鐘，女性約89 ±28分鐘，兩性之分佈體積約體重之17%。男性、女性體重標準之廓清率分別為2.66 ml/min/kg、2.10 ml/min/kg。基於這些相似之藥物動力學性質，α –agalsidase用於男性或女性病人，在主要組織及器官之組織分佈也預期是相似的。 經6個月Replagal藥物治療，28位男性病人中有12位顯示藥物動力學特性改變，包括廓清率明顯增加，這些改變與低效價的 α –agalsidase抗體出現有關，但臨床上，病人並無明顯安全性或有效性被觀察到。 對Fabry Disease男性病人用藥前後肝活體切片檢查分析，組織半衰期預估超過24小時，肝攝入之酵素預估約投予劑量之10%。 α –agalsidase是一種蛋白質，它不被預期與蛋白質結合，它被預期隨著其他蛋白質代謝路徑而分解，如：多肽類水解。α –agalsidase不參與藥物間交互作用。 腎功能不全 由於α –agalsidase藥物動力學參數並未受到腎功能不全的影響，因此腎臟排除可被認為是α –agalsidase的次要排除路徑。 肝功能不全 胜肽類水解被預期是α –agalsidase的代謝途徑，因此不預期肝功能不全會對 α –agalsidase之藥物動力學性質產生具臨床意義的影響。\n12\n臨床試驗資料\nReplagal的安全性和有效性已在兩項隨機、雙盲、安慰劑對照及開放性延伸試驗中評估，共納入40位經臨床和生化證據診斷為Fabry Disease的病人，病人接受Replagal藥物治療，建議劑量每公斤體重0.2 mg。 25位病人完成第一項試驗及進入另一延伸試驗，經6個月治療後，兩組比較，使用Replagal藥物治療組比安慰劑組，明顯疼痛減輕（p=0.021），它是以Brief Pain Inventory（疼痛測量計分表）來評估疼痛指數，也明顯減少使用慢性神經痛藥物及使用天數。 接受Replagal治療12-18個月，透過確效的評估方法所得到的結果顯示，病人的生活品質（quality of life, QoL）獲得改善。 經6個月治療，與安慰劑組比較，使用Replagal藥物治療組可穩定腎功能。由腎活體組織切片檢體檢查，發現正常腎絲球部份明顯增加，腎小球環間膜變寬部份明顯減少。 經12-18個月維持治療，測定腎功能指標inulin為基準的腎絲球體過濾速率（Glomerular filtration rate, GFR）為8.7 ± 3.7 ml/min，說明Replagal可改善腎功能（p=0.030）。 更長期的治療（48-54個月），對GFR在正常範圍的基線（GFR≧90 ml/min/1.73m2）及腎功能的損傷維持在輕微的範圍（GFR 60 to＜90 ml/min/1.73m2）的男性病人，Replagal可穩定其GFR；對腎功能損傷較嚴重（GFR 30 to＜60 ml/min/1.73m2）的Fabry Disease男性病人，Replagal可減緩腎功能損傷及惡化至末期腎病的速度。 第二項試驗，以左心室肥大之15位病人持續6個月進行安慰劑與控制組之臨床試驗研究，結果使用Replagal藥物治療組，以magnetic resonance imaging（MRI）方法測得左心室重量減輕11.5公克，接受安慰劑組，左心室重量增加21.8公克。 除此之外，在第一項25人試驗中，經12-18個月維持治療，Replagal藥物明顯減輕心臟重量，改善心肌收縮，平均QRS持續時間縮短，從超音波心臟動態診斷發現中膈厚度減少，試驗中使用Replagal藥物治療之2位病人，右側分支傳導變為正常。 隨後的開放試驗結果顯示，使用Replagal 24-36個月的男性及女性病人，經由心臟超音波（echocardiography）發現其左心室重量減少，並伴隨有意義的症狀改善（對在試驗基線具有嚴重心衰竭或心絞痛症狀的Fabry Disease病人進行NYHA和CCS的測量）。 與安慰劑組比較，用Replagal藥物治療也會減少Gb3堆積，最初6個月治療後，在血漿、尿沉積、肝、腎及心臟活組織切片中觀察到平均減少約20-50%；經12-18個月的治療後，在血漿、尿沉積中觀察到減少約50-80%。」臨床上體重明顯增加、排汗量與能量都增加，這些都與代謝有關。 Replagal臨床效果是以酵素治療，以減少Gb3在各類細胞堆積，包括：腎絲球及腎小管上皮細胞、腎微血管內皮細胞（心臟及皮膚微血管內皮細胞未被檢查）、心肌細胞等。 對於輸注耐受良好的病人可考慮在家輸注。 病人從ß–agalsidase轉換到Replagal（α –agalsidase）之研究試驗 一開放性、無對照組之研究試驗包括100位病人（其中29位首次接受agalsidase治療，71位先以ß–agalsidase治療然後轉換到Replagal），治療期間達30個月。分析結果指出，病人發生嚴重不良事件的比例，從ß–agalsidase轉換到Replagal的病人是39.4%，而首次接受agalsidase治療的病人則是31.0%。從ß–agalsidase轉換到Replagal的病人安全性資料與其他臨床研究經驗相符合。轉換藥物的病人組別中有27位產生輸注反應（38.0%），首次用藥的病人組別則有9位產生輸注反應（31.0%）。 不同劑量方案（dosing regimen）之研究試驗 在一開放性、隨機分配之研究試驗中，成人病人接受為期52週、單次劑量0.2 mg/kg的治療，20位病人隔週注射一次，19位病人每週注射一次。結果兩組病人的LVMI平均變化值及其他評估指標（心臟功能、腎功能、藥效學活性）在統計學上都沒有顯著差異。 兩組病人的LVMI在治療期間都保持穩定。整體的嚴重不良事件發生率顯示，不同劑量方案對於各組之嚴重不良事件資料並無明顯影響。\n13\n包裝及儲存\n13.1\n包裝\n5 ml玻璃小瓶（第一型玻璃）含3.5 ml濃縮注射液，上覆有含氟樹脂之橡皮套，再由一層鋁箔密封。 包裝有：1支小瓶/每盒，4支小瓶/每盒，10支小瓶/每盒。\n13.2\n效期\n如外盒所示 預備使用中藥品之化學及物理安定性在25˚C環境下可持續24小時。 然而，從微生物觀點考量，本藥品應立即使用。若未能立即使用，預備使用中但未立即使用的儲存時間及儲存狀態為使用者之責任，通常為2-8˚C，24小時以內應使用完畢，除非稀釋過程是在嚴密控制及確效的無菌狀態下執行。\n13.3\n儲存條件\n應存放於2˚C - 8˚C冰箱冷藏。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n任何未用完藥品或廢棄物都應依各醫院規定丟棄。 版本日期: EU 20250917TW01",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
+          "address": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "DHL SUPPLY CHAIN (NETHERLANDS) B.V",
+          "address": "BIJSTERHUIZEN 3142, WIJCHEN, 6604 LV, NETHERLANDS"
+        },
+        {
+          "number": "2",
+          "name": "SHIRE HUMAN GENETIC THERAPIES, INC.",
+          "address": "400 SHIRE WAY LEXINGTON, MA 02421, USA"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣武田藥品工業股份有限公司",
+          "address": "台北市信義區松高路1號17樓"
+        }
+      ]
+    }
+  ]
+}

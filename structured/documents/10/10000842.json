@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:54.573133+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000842",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000842號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000842號",
+      "matched_license_code": "10000842",
+      "matched_nhi_code": "",
+      "drug_name_zh": "“國血製劑益康”(20%)人血清白蛋白注射劑",
+      "drug_name_en": "\"TBSF\" (20%) Human Albumin Solution",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-04-29",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "成分名稱 台灣 人血清白蛋白 人血清白蛋白20% 200 克/公升 (g/L) 說明 本產品係配合衛生福利部執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人血清白蛋白注射劑。 主要以採用管柱層析技術製備而成。此為無菌、不含防腐劑的20% w/v人類白蛋白溶液，相較於人血清屬於高膠體滲透壓與低滲透性溶液。本產品標記之滲透壓為130 mOsm/kg ，為低張溶液，其pH值為6.7 至 7.3。“國血製劑益康”(20%)人血清白蛋白注射劑之製程包含專作為降低病毒傳染可能性之步驟，包括經60°C下加熱10小時，並在低pH值下放置以去除病毒活性。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>成分名稱</strong></span></p><p><span style=\"font-family:標楷體;\">台灣</span></p><p><span style=\"font-family:標楷體;\">人血清白蛋白</span></p><p><span style=\"font-family:標楷體;\">人血清白蛋白</span>20% 200&nbsp;<span style=\"font-family:標楷體;\">克</span>/<span style=\"font-family:標楷體;\">公升</span> (g/L)</p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\"><strong>說明</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">本產品係配合衛生福利部執行「推動我國血漿製劑方案」所製造，是由台灣</span><span style=\"color:black;font-family:標楷體;\">自願、無償捐血者捐血</span><span style=\"font-family:標楷體;\">之血漿原料，經製備而得之人血清白蛋白注射劑。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">主要以採用管柱層析技術製備而成。此為無菌、不含防腐劑的</span>20% w/v<span style=\"font-family:標楷體;\">人類白蛋白溶液，相較於人血清屬於高膠體滲透壓與低滲透性溶液。本產品標記之滲透壓為</span>130 mOsm/kg&nbsp;<span style=\"font-family:標楷體;\">，為低張溶液，其</span>pH<span style=\"font-family:標楷體;\">值為</span>6.7&nbsp;<span style=\"font-family:標楷體;\">至</span> 7.3<span style=\"font-family:標楷體;\">。“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑之製程包含專作為降低病毒傳染可能性之步驟，包括經</span>60<span style=\"font-family:標楷體;\">°</span>C<span style=\"font-family:標楷體;\">下加熱</span>10<span style=\"font-family:標楷體;\">小時，並在低</span>pH<span style=\"font-family:標楷體;\">值下放置以去除病毒活性。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n成分名稱 台灣 人血清白蛋白 人血清白蛋白20% 200 克/公升 (g/L) 說明 本產品係配合衛生福利部執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人血清白蛋白注射劑。 主要以採用管柱層析技術製備而成。此為無菌、不含防腐劑的20% w/v人類白蛋白溶液，相較於人血清屬於高膠體滲透壓與低滲透性溶液。本產品標記之滲透壓為130 mOsm/kg ，為低張溶液，其pH值為6.7 至 7.3。“國血製劑益康”(20%)人血清白蛋白注射劑之製程包含專作為降低病毒傳染可能性之步驟，包括經60°C下加熱10小時，並在低pH值下放置以去除病毒活性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "“國血製劑益康”(20%)人血清白蛋白注射劑的組成如下： 人類白蛋白 200 克/公升 (g/L) 鈉 48-100 毫莫耳/公升 (mmol/L) Octanoate 32 毫莫耳/公升 (mmol/L)",
+          "content_html": "<p style=\"text-align:justify;\">“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑的組成如下：</span></p><p><span style=\"font-family:標楷體;\">人類白蛋白</span>&nbsp;&nbsp;&nbsp; 200&nbsp;<span style=\"font-family:標楷體;\">克</span>/<span style=\"font-family:標楷體;\">公升</span> (g/L)</p><p><span style=\"font-family:標楷體;\">鈉</span>&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;48-100&nbsp;<span style=\"font-family:標楷體;\">毫莫耳</span>/<span style=\"font-family:標楷體;\">公升</span> (mmol/L)</p><p>Octanoate&nbsp;&nbsp;&nbsp;&nbsp;32&nbsp;<span style=\"font-family:標楷體;\">毫莫耳</span>/<span style=\"font-family:標楷體;\">公升</span> (mmol/L)</p>",
+          "search_text": "1.2\n賦形劑\n“國血製劑益康”(20%)人血清白蛋白注射劑的組成如下： 人類白蛋白 200 克/公升 (g/L) 鈉 48-100 毫莫耳/公升 (mmol/L) Octanoate 32 毫莫耳/公升 (mmol/L)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "靜脈注射劑",
+          "content_html": "<p><span style=\"font-family:標楷體;\">靜脈注射劑</span></p>",
+          "search_text": "1.3\n劑型\n靜脈注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "“國血製劑益康”(20%)人血清白蛋白注射劑為澄清、微黏稠液體，幾乎為無色、黃色、琥珀色、或綠色。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑為澄清、微黏稠液體，幾乎為無色、黃色、琥珀色、或綠色。</span></p>",
+          "search_text": "1.4\n藥品外觀\n“國血製劑益康”(20%)人血清白蛋白注射劑為澄清、微黏稠液體，幾乎為無色、黃色、琥珀色、或綠色。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "低蛋白血症、休克、燒傷 適應症說明 急病患者的低蛋白血症 當病患因膠體滲透壓降低而引起臨床問題或併發症，可給予”國血製劑益康”(20%)人血清白蛋白注射劑作為利尿之輔助治療。 休克 “國血製劑益康”(20%)人血清白蛋白注射劑可以用來復甦因急性失血或流失血漿導致之休克，但應優先給予4～5% 的人類白蛋白為宜。 燒傷 大範圍灼傷會伴隨身體水份、鹽類及蛋白質之分佈失調，而導致病患引起血液容積減少性休克及循環衰竭。 在一開始的24小時，血管滲透性會增加並導致水份及蛋白質流失至血管外區間及血濃度增加。應灌注大量的晶體溶液以復原壓縮的血管內液體空間，少量的”國血製劑益康”(20%)人血清白蛋白注射劑可以維持適當的血漿容積及膠體滲透壓。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">低蛋白血症、休克、燒傷</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>適應症說明</strong></span></p><p><span style=\"font-family:標楷體;\"><i><strong>急病患者的低蛋白血症</strong></i></span></p><p><span style=\"font-family:標楷體;\">當病患因膠體滲透壓降低而引起臨床問題或併發症，可給予”國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑作為利尿之輔助治療。</span></p><p><span style=\"font-family:標楷體;\"><i><strong>休克</strong></i></span></p><p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑可以用來復甦因急性失血或流失血漿導致之休克，但應優先給予</span>4<span style=\"font-family:標楷體;\">～</span>5%&nbsp;<span style=\"font-family:標楷體;\">的人類白蛋白為宜。</span></p><p><span style=\"font-family:標楷體;\"><i><strong>燒傷</strong></i></span></p><p><span style=\"font-family:標楷體;\">大範圍灼傷會伴隨身體水份、鹽類及蛋白質之分佈失調，而導致病患引起血液容積減少性休克及循環衰竭。</span></p><p><span style=\"font-family:標楷體;\">在一開始的</span>24<span style=\"font-family:標楷體;\">小時，血管滲透性會增加並導致水份及蛋白質流失至血管外區間及血濃度增加。應灌注大量的晶體溶液以復原壓縮的血管內液體空間，少量的”國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑可以維持適當的血漿容積及膠體滲透壓。</span></p><p>&nbsp;</p>",
+          "search_text": "2\n適應症\n低蛋白血症、休克、燒傷 適應症說明 急病患者的低蛋白血症 當病患因膠體滲透壓降低而引起臨床問題或併發症，可給予”國血製劑益康”(20%)人血清白蛋白注射劑作為利尿之輔助治療。 休克 “國血製劑益康”(20%)人血清白蛋白注射劑可以用來復甦因急性失血或流失血漿導致之休克，但應優先給予4～5% 的人類白蛋白為宜。 燒傷 大範圍灼傷會伴隨身體水份、鹽類及蛋白質之分佈失調，而導致病患引起血液容積減少性休克及循環衰竭。 在一開始的24小時，血管滲透性會增加並導致水份及蛋白質流失至血管外區間及血濃度增加。應灌注大量的晶體溶液以復原壓縮的血管內液體空間，少量的”國血製劑益康”(20%)人血清白蛋白注射劑可以維持適當的血漿容積及膠體滲透壓。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "劑量 急性病人的低蛋白血症 一般的每日劑量為50～75克人類白蛋白(250-375 mL之“國血製劑益康”(20%)人血清白蛋白注射劑)。給予的速度每分鐘不應超過2毫升，若是注入速度超過此限，將會導致循環負荷過重及肺部水腫。 “國血製劑益康”(20%)人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。 休克 藥量因病患的情況及治療的反應而異。一般的開始劑量20克人類白蛋白(100mL之“國血製劑益康”(20%)人血清白蛋白注射劑)應當做血液體積的擴張劑來給予，每分鐘2～4 毫升。 緊急的情況時可增加輸注速度，如有需要可以每15到30分鐘重複一次。當沒有主動出血時，總劑量不應超過一般正常個體的白蛋白總量，即約為每公斤體重2克。 如果給予濃縮的白蛋白(>4～5%)，則必須伴隨晶體溶液的靜脈注射，若是未補充此額外的溶液，則會造成組織脫水。 晶體溶液正確的種類和濃度依病患對電解質和液體的需要而有所不同。 燒傷 一般的劑量是每日給予20到80克人類白蛋白(100-400 mL之“國血製劑益康”(20%)人血清白蛋白注射劑)。注入速度為每分鐘1毫升。 24小時後，“國血製劑益康”(20%)人血清白蛋白注射劑就可用來維持血漿膠體滲透壓。合理的目標是血漿的白蛋白濃度要維持在25克/公升或膠體滲透壓為20毫米汞柱。 因應白蛋白自燒傷的裸露區域流失和合成減少，以決定持續需要白蛋白之使用。 使用說明 “國血製劑益康”(20%)人血清白蛋白注射劑應使用適當的靜脈注射設備，作靜脈點滴注射。“國血製劑益康”(20%)人血清白蛋白注射劑是包裝於玻璃瓶內，使用時必須排氣。 在某些病例，給予一特定劑量的白蛋白加在合適的晶體溶液中，其比例為1毫升”國血製劑益康”(20%)人血清白蛋白注射劑比4毫升晶體溶液，再以平常的靜脈注射法給予。(請見特殊警語 20%白蛋白的稀釋的章節) 若產品保存在冷藏室，應回復至室溫或體溫後再給予；若曾冷凍過，請勿使用。 強烈建議每次注射“國血製劑益康”(20%)人血清白蛋白注射劑時，應記錄品名、批號以連結病人及該批產品。 下列調配步驟適用於50毫升和100毫升的包裝： 自封口處移去塑膠蓋。 在橡皮塞的外露部分給予適當的消毒，並待其乾燥。 使瓶身保持直立，並在橡皮塞的一凹痕處垂直插入排氣針，最好是一個附有過濾器的長針。如果沒有，也可以使用附有非濕性過濾器的短針。 夾緊點滴管，將點滴穿刺針垂直地插入橡皮塞的一凹痕處。若此橡皮塞移位或鬆動，請勿使用此瓶並適當地丟棄之。 倒轉瓶身，掛在支撐架的掛鉤上，約高於病人1公尺。 調整夾子使點滴管充滿液體，將點滴用的套針插入靜脈血管，並調整流速。 當瓶內無液體後，夾住點滴管，根據需要將排氣針及點滴套組上端的針移到另一瓶“國血製劑益康”(20%)人血清白蛋白注射劑或晶體溶液。 給予時若滲漏變得明顯，應停止注射並適當地丟棄此溶液，再重新給予新的藥瓶及新的點滴套組。 和其他液體的相容性 尚未評估加入其他藥物至“國血製劑益康”(20%)人血清白蛋白注射劑。 “國血製劑益康”(20%)人血清白蛋白注射劑不可和蛋白質水解物、胺基酸溶液、含酒精溶液或含與白蛋白可結合的藥物混合，如鈣離子通道阻斷劑、抗生素及苯二氮平類藥物。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>劑量</strong></span></p><p><span style=\"font-family:標楷體;\"><i><strong>急性病人的低蛋白血症</strong></i></span></p><p><span style=\"font-family:標楷體;\">一般的每日劑量為</span>50<span style=\"font-family:標楷體;\">～</span>75<span style=\"font-family:標楷體;\">克人類白蛋白</span>(250-375 mL<span style=\"font-family:標楷體;\">之</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑</span>)<span style=\"font-family:標楷體;\">。給予的速度每分鐘不應超過</span>2<span style=\"font-family:標楷體;\">毫升，若是注入速度超過此限，將會導致循環負荷過重及肺部水腫。</span></p><p>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。</span></p><p><span style=\"font-family:標楷體;\"><i><strong>休克</strong></i></span></p><p><span style=\"font-family:標楷體;\">藥量因病患的情況及治療的反應而異。一般的開始劑量</span>20<span style=\"font-family:標楷體;\">克人類白蛋白</span>(100mL<span style=\"font-family:標楷體;\">之</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑</span>)<span style=\"font-family:標楷體;\">應當做血液體積的擴張劑來給予，每分鐘</span>2<span style=\"font-family:標楷體;\">～</span>4 <span style=\"font-family:標楷體;\">毫升。</span></p><p><span style=\"font-family:標楷體;\">緊急的情況時可增加輸注速度，如有需要可以每</span>15<span style=\"font-family:標楷體;\">到</span>30<span style=\"font-family:標楷體;\">分鐘重複一次。當沒有主動出血時，總劑量不應超過一般正常個體的白蛋白總量，即約為每公斤體重</span>2<span style=\"font-family:標楷體;\">克。</span></p><p><span style=\"font-family:標楷體;\">如果給予濃縮的白蛋白</span>(&gt;4<span style=\"font-family:標楷體;\">～</span>5%)<span style=\"font-family:標楷體;\">，則必須伴隨晶體溶液的靜脈注射，若是未補充此額外的溶液，則會造成組織脫水。</span></p><p><span style=\"font-family:標楷體;\">晶體溶液正確的種類和濃度依病患對電解質和液體的需要而有所不同。</span></p><p><span style=\"font-family:標楷體;\"><i><strong>燒傷</strong></i></span></p><p><span style=\"font-family:標楷體;\">一般的劑量是每日給予</span>20<span style=\"font-family:標楷體;\">到</span>80<span style=\"font-family:標楷體;\">克人類白蛋白</span>(100-400 mL<span style=\"font-family:標楷體;\">之</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑</span>)<span style=\"font-family:標楷體;\">。注入速度為每分鐘</span>1<span style=\"font-family:標楷體;\">毫升。</span></p><p>24<span style=\"font-family:標楷體;\">小時後，</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑就可用來維持血漿膠體滲透壓。合理的目標是血漿的白蛋白濃度要維持在</span>25<span style=\"font-family:標楷體;\">克</span>/<span style=\"font-family:標楷體;\">公升或膠體滲透壓為</span>20<span style=\"font-family:標楷體;\">毫米汞柱。</span></p><p><span style=\"font-family:標楷體;\">因應白蛋白自燒傷的裸露區域流失和合成減少，以決定持續需要白蛋白之使用。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>使用說明</strong></span></p><p>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑應使用適當的靜脈注射設備，作靜脈點滴注射。</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑是包裝於玻璃瓶內，使用時必須排氣。</span></p><p><span style=\"font-family:標楷體;\">在某些病例，給予一特定劑量的白蛋白加在合適的晶體溶液中，其比例為</span>1<span style=\"font-family:標楷體;\">毫升</span>”<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑比</span>4<span style=\"font-family:標楷體;\">毫升晶體溶液，再以平常的靜脈注射法給予。</span>(<span style=\"font-family:標楷體;\">請見特殊警語</span><strong> </strong><i><strong>20%</strong></i><span style=\"font-family:標楷體;\"><i><strong>白蛋白的稀釋</strong></i>的章節</span>)</p><p><span style=\"font-family:標楷體;\">若產品保存在冷藏室，應回復至室溫或體溫後再給予；若曾冷凍過，請勿使用。</span></p><p><span style=\"font-family:標楷體;\">強烈建議每次注射</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑時，應記錄品名、批號以連結病人及該批產品。</span></p><p><span style=\"font-family:標楷體;\"><i>下列調配步驟適用於</i></span><i>50</i><span style=\"font-family:標楷體;\"><i>毫升和</i></span><i>100</i><span style=\"font-family:標楷體;\"><i>毫升的包裝：</i></span></p><ol><li><span style=\"font-family:標楷體;\">自封口處移去塑膠蓋。</span></li><li><span style=\"font-family:標楷體;\">在橡皮塞的外露部分給予適當的消毒，並待其乾燥。</span></li><li><span style=\"font-family:標楷體;\">使瓶身保持直立，並在橡皮塞的一凹痕處垂直插入排氣針，最好是一個附有過濾器的長針。如果沒有，也可以使用附有非濕性過濾器的短針。</span></li><li><span style=\"font-family:標楷體;\">夾緊點滴管，將點滴穿刺針垂直地插入橡皮塞的一凹痕處。<strong>若此橡皮塞移位或鬆動，請勿使用此瓶並適當地丟棄之。</strong></span></li><li><span style=\"font-family:標楷體;\">倒轉瓶身，掛在支撐架的掛鉤上，約高於病人</span>1<span style=\"font-family:標楷體;\">公尺。</span></li><li><span style=\"font-family:標楷體;\">調整夾子使點滴管充滿液體，將點滴用的套針插入靜脈血管，並調整流速。</span></li><li><span style=\"font-family:標楷體;\">當瓶內無液體後，夾住點滴管，根據需要將排氣針及點滴套組上端的針移到另一瓶</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑或晶體溶液。</span></li><li><span style=\"font-family:標楷體;\"><strong>給予時若滲漏變得明顯，應停止注射並適當地丟棄此溶液，再重新給予新的藥瓶及新的點滴套組。</strong></span></li></ol><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>和其他液體的相容性</strong></span></p><p><span style=\"font-family:標楷體;\">尚未評估加入其他藥物至</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑。</span></p><p>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑不可和蛋白質水解物、胺基酸溶液、含酒精溶液或含與白蛋白可結合的藥物混合，如鈣離子通道阻斷劑、抗生素及苯二氮平類藥物。</span></p>",
+          "search_text": "3.1\n用法用量\n劑量 急性病人的低蛋白血症 一般的每日劑量為50～75克人類白蛋白(250-375 mL之“國血製劑益康”(20%)人血清白蛋白注射劑)。給予的速度每分鐘不應超過2毫升，若是注入速度超過此限，將會導致循環負荷過重及肺部水腫。 “國血製劑益康”(20%)人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。 休克 藥量因病患的情況及治療的反應而異。一般的開始劑量20克人類白蛋白(100mL之“國血製劑益康”(20%)人血清白蛋白注射劑)應當做血液體積的擴張劑來給予，每分鐘2～4 毫升。 緊急的情況時可增加輸注速度，如有需要可以每15到30分鐘重複一次。當沒有主動出血時，總劑量不應超過一般正常個體的白蛋白總量，即約為每公斤體重2克。 如果給予濃縮的白蛋白(>4～5%)，則必須伴隨晶體溶液的靜脈注射，若是未補充此額外的溶液，則會造成組織脫水。 晶體溶液正確的種類和濃度依病患對電解質和液體的需要而有所不同。 燒傷 一般的劑量是每日給予20到80克人類白蛋白(100-400 mL之“國血製劑益康”(20%)人血清白蛋白注射劑)。注入速度為每分鐘1毫升。 24小時後，“國血製劑益康”(20%)人血清白蛋白注射劑就可用來維持血漿膠體滲透壓。合理的目標是血漿的白蛋白濃度要維持在25克/公升或膠體滲透壓為20毫米汞柱。 因應白蛋白自燒傷的裸露區域流失和合成減少，以決定持續需要白蛋白之使用。 使用說明 “國血製劑益康”(20%)人血清白蛋白注射劑應使用適當的靜脈注射設備，作靜脈點滴注射。“國血製劑益康”(20%)人血清白蛋白注射劑是包裝於玻璃瓶內，使用時必須排氣。 在某些病例，給予一特定劑量的白蛋白加在合適的晶體溶液中，其比例為1毫升”國血製劑益康”(20%)人血清白蛋白注射劑比4毫升晶體溶液，再以平常的靜脈注射法給予。(請見特殊警語 20%白蛋白的稀釋的章節) 若產品保存在冷藏室，應回復至室溫或體溫後再給予；若曾冷凍過，請勿使用。 強烈建議每次注射“國血製劑益康”(20%)人血清白蛋白注射劑時，應記錄品名、批號以連結病人及該批產品。 下列調配步驟適用於50毫升和100毫升的包裝： 自封口處移去塑膠蓋。 在橡皮塞的外露部分給予適當的消毒，並待其乾燥。 使瓶身保持直立，並在橡皮塞的一凹痕處垂直插入排氣針，最好是一個附有過濾器的長針。如果沒有，也可以使用附有非濕性過濾器的短針。 夾緊點滴管，將點滴穿刺針垂直地插入橡皮塞的一凹痕處。若此橡皮塞移位或鬆動，請勿使用此瓶並適當地丟棄之。 倒轉瓶身，掛在支撐架的掛鉤上，約高於病人1公尺。 調整夾子使點滴管充滿液體，將點滴用的套針插入靜脈血管，並調整流速。 當瓶內無液體後，夾住點滴管，根據需要將排氣針及點滴套組上端的針移到另一瓶“國血製劑益康”(20%)人血清白蛋白注射劑或晶體溶液。 給予時若滲漏變得明顯，應停止注射並適當地丟棄此溶液，再重新給予新的藥瓶及新的點滴套組。 和其他液體的相容性 尚未評估加入其他藥物至“國血製劑益康”(20%)人血清白蛋白注射劑。 “國血製劑益康”(20%)人血清白蛋白注射劑不可和蛋白質水解物、胺基酸溶液、含酒精溶液或含與白蛋白可結合的藥物混合，如鈣離子通道阻斷劑、抗生素及苯二氮平類藥物。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "如過去曾對此產品過敏，請勿使用“國血製劑益康”(20%)人血清白蛋白注射劑。白蛋白禁用於心臟衰竭、肺水腫及嚴重貧血的病人。 “國血製劑益康”(20%)人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。 慢性腎病注入20% 的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">如過去曾對此產品過敏，請勿使用“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑。白蛋白禁用於心臟衰竭、肺水腫及嚴重貧血的病人。</span></p><p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。</span></p><p><span style=\"font-family:標楷體;\">慢性腎病注入</span>20%&nbsp;<span style=\"font-family:標楷體;\">的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。</span></p>",
+          "search_text": "4\n禁忌\n如過去曾對此產品過敏，請勿使用“國血製劑益康”(20%)人血清白蛋白注射劑。白蛋白禁用於心臟衰竭、肺水腫及嚴重貧血的病人。 “國血製劑益康”(20%)人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。 慢性腎病注入20% 的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "特殊警語 本產品的鈉含量為48-100毫莫耳/公升 (mmol/L)，使用本產品時應注意有鈉限制的病患。 白蛋白的給予會加重休克病人的心肌抑制。曾有報告指出，燒傷病人給予白蛋白後出現頑固性的少尿症，可能是因為同時給予的晶體輸液不足。 “國血製劑益康”(20%)人血清白蛋白注射劑正常的情況是透明或稍微帶些乳白色，若在透射光下觀察到混濁的情形則不應使用，應將此瓶產品維持封瓶狀態退至標籤上標示的代理商。 本產品不含任何抗微生物防腐劑，因此，在開瓶後應馬上使用。任何未用完的溶液應妥善丟棄處理。每次僅可使用於單一病人。切勿使用曾經被冷凍過的溶液。 過敏反應 當給予人類白蛋白溶液很少發生過度敏感反應，因為產品係源自人體。若因是注射“國血製劑益康”(20%)人血清白蛋白注射劑之故引起嚴重過敏反應，應停止注射，並且應適當地給予腎上腺素、氫皮質酮(hydrocortisone)及抗組織胺。 循環系統負荷過重 “國血製劑益康”(20%)人血清白蛋白注射劑的膠體滲透效應約是血漿的4倍，應隨時監測病人是否有循環系統負荷過重的症狀(請見以下監測建議之章節)。 若劑量及注射速率不依照病人循環情況調整，則有心衰竭、肺水腫病史，或腎功能不全、嚴重或慢性貧血或進行心肺分流術的病患，有較高的風險會發生循環系統負荷過重。應小心病人監控這些潛在的併發症。 當出現循環系統負荷過重的初期臨床徵兆(頭痛、呼吸困難、頸靜脈鬱血)或血 在脫水狀況下，因“國血製劑益康”(20%)人血清白蛋白注射劑是高膠體滲透壓，本產品應和晶體輸液同時給予，或於之後補充晶體輸液。(請見以下20%白蛋白的稀釋的章節) 因快速給予白蛋白可能伴隨的血壓升高，使得有必要觀察受傷病患以檢視因血壓較低時不會流血的出血點，否則，可能會發生新的出血及休克。 不建議白蛋白用於創傷性腦損傷病患之輸液復甦。 慢性腎病注入20% 的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。 監測之建議 建議應監測病患在“國血製劑益康”(20%)人血清白蛋白注射劑給予期間的血壓。 為避免循環負荷過重，應頻繁地監測注射的速率及體積。 應監測心肌功能，如中央靜脈壓、動脈壓及脈搏速率。 建議應監測血漿電解質、凝血酶原時間、生化及血液學狀態。 “國血製劑益康”(20%)人血清白蛋白注射劑包含少量鋁元素(≤ 200 微克/ 公升)。患有慢性腎功能不全的病患，體內累積鋁會產生中毒現象，如高血鈣症、抗維生素D之骨骼發育不全、貧血及嚴重的漸進性腦病。因此當大量白蛋白給予此種病人時，應嚴謹考慮由此獲得的益處以及相對引發的潛在風險性。 注意事項 本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病 (Creutzfeldt Jakob Disease, CJD)之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。 此外，生產過程包括病毒去除/去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如HIV (人類免疫缺乏病毒)、B型及C型肝炎病毒，及不含外套膜的A型肝炎病毒。這些方法可顯著地確保免除parvovirus B19。 惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。因此注射本產品後，若有感染之病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。 使用血漿製品時可考慮給予疫苗之注射。 20%白蛋白的稀釋 在給予病患之前，“國血製劑益康”(20%)人血清白蛋白注射劑可稀釋成等膠體滲透壓之蛋白質溶液(4 ~ 5% 白蛋白)，其比例為1 mL”國血製劑益康”(20%)人血清白蛋白注射劑比4 mL晶體溶液，再以平常的靜脈注射法給予。不可用水來稀釋，因為其低滲透壓會導致血管內溶血。 休克時的使用 在休克時的使用上，應隨時監測血壓，脈搏壓變寬和心肌的輸出量有關。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>特殊警語</strong></span></p><p><span style=\"font-family:標楷體;\">本產品的鈉含量為</span>48-100<span style=\"font-family:標楷體;\">毫莫耳</span>/<span style=\"font-family:標楷體;\">公升</span> (mmol/L)<span style=\"font-family:標楷體;\">，使用本產品時應注意有鈉限制的病患。</span></p><p><span style=\"font-family:標楷體;\">白蛋白的給予會加重休克病人的心肌抑制。曾有報告指出，燒傷病人給予白蛋白後出現頑固性的少尿症，可能是因為同時給予的晶體輸液不足。</span></p><p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑正常的情況是透明或稍微帶些乳白色，若在透射光下觀察到混濁的情形則不應使用，應將此瓶產品維持封瓶狀態退至標籤上標示的代理商。</span></p><p><span style=\"font-family:標楷體;\"><strong>本產品不含任何抗微生物防腐劑，因此，在開瓶後應馬上使用。任何未用完的溶液應妥善丟棄處理。每次僅可使用於單一病人。切勿使用曾經被冷凍過的溶液。</strong></span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>過敏反應</strong></span></p><p><span style=\"font-family:標楷體;\">當給予人類白蛋白溶液很少發生過度敏感反應，因為產品係源自人體。若因是注射“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑之故引起嚴重過敏反應，應停止注射，並且應適當地給予腎上腺素、氫皮質酮</span>(hydrocortisone)<span style=\"font-family:標楷體;\">及抗組織胺。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>循環系統負荷過重</strong></span></p><p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑的膠體滲透效應約是血漿的</span>4<span style=\"font-family:標楷體;\">倍，應隨時監測病人是否有循環系統負荷過重的症狀</span>(<span style=\"font-family:標楷體;\">請見以下<strong>監測建議</strong>之章節</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">若劑量及注射速率不依照病人循環情況調整，則有心衰竭、肺水腫病史，或腎功能不全、嚴重或慢性貧血或進行心肺分流術的病患，有較高的風險會發生循環系統負荷過重。應小心病人監控這些潛在的併發症。</span></p><p><span style=\"font-family:標楷體;\">當出現循環系統負荷過重的初期臨床徵兆</span>(<span style=\"font-family:標楷體;\">頭痛、呼吸困難、頸靜脈鬱血</span>)<span style=\"font-family:標楷體;\">或血</span></p><p><span style=\"font-family:標楷體;\">在脫水狀況下，因“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑是高膠體滲透壓，本產品應和晶體輸液同時給予，或於之後補充晶體輸液。</span>(<span style=\"font-family:標楷體;\">請見以下</span><strong>20%</strong><span style=\"font-family:標楷體;\"><strong>白蛋白的稀釋</strong>的章節</span>)</p><p><span style=\"font-family:標楷體;\">因快速給予白蛋白可能伴隨的血壓升高，使得有必要觀察受傷病患以檢視因血壓較低時不會流血的出血點，否則，可能會發生新的出血及休克。</span></p><p><span style=\"font-family:標楷體;\">不建議白蛋白用於創傷性腦損傷病患之輸液復甦。</span></p><p><span style=\"font-family:標楷體;\">慢性腎病注入</span>20%&nbsp;<span style=\"font-family:標楷體;\">的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>監測之建議</strong></span></p><p><span style=\"font-family:標楷體;\">建議應監測病患在“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑給予期間的血壓。</span></p><p><span style=\"font-family:標楷體;\">為避免循環負荷過重，應頻繁地監測注射的速率及體積。</span></p><p><span style=\"font-family:標楷體;\">應監測心肌功能，如中央靜脈壓、動脈壓及脈搏速率。</span></p><p><span style=\"font-family:標楷體;\">建議應監測血漿電解質、凝血酶原時間、生化及血液學狀態。</span></p><p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑包含少量鋁元素</span>(≤ 200&nbsp;<span style=\"font-family:標楷體;\">微克</span>/&nbsp;<span style=\"font-family:標楷體;\">公升</span>)<span style=\"font-family:標楷體;\">。患有慢性腎功能不全的病患，體內累積鋁會產生中毒現象，如高血鈣症、抗維生素</span>D<span style=\"font-family:標楷體;\">之骨骼發育不全、貧血及嚴重的漸進性腦病。因此當大量白蛋白給予此種病人時，應嚴謹考慮由此獲得的益處以及相對引發的潛在風險性。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>注意事項</strong></span></p><p><span style=\"font-family:標楷體;\">本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病</span> (Creutzfeldt Jakob Disease, CJD)<span style=\"font-family:標楷體;\">之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。</span></p><p><span style=\"font-family:標楷體;\">此外，生產過程包括病毒去除</span>/<span style=\"font-family:標楷體;\">去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如</span>HIV (<span style=\"font-family:標楷體;\">人類免疫缺乏病毒</span>)<span style=\"font-family:標楷體;\">、</span>B<span style=\"font-family:標楷體;\">型及</span>C<span style=\"font-family:標楷體;\">型肝炎病毒，及不含外套膜的</span>A<span style=\"font-family:標楷體;\">型肝炎病毒。這些方法可顯著地確保免除</span>parvovirus B19<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。因此注射本產品後，若有感染之病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。</span></p><p><span style=\"font-family:標楷體;\">使用血漿製品時可考慮給予疫苗之注射。</span></p><p>&nbsp;</p><p><strong>20%</strong><span style=\"font-family:標楷體;\"><strong>白蛋白的稀釋</strong></span></p><p><span style=\"font-family:標楷體;\">在給予病患之前，“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑可稀釋成等膠體滲透壓之蛋白質溶液</span>(4 ~ 5%&nbsp;<span style=\"font-family:標楷體;\">白蛋白</span>)<span style=\"font-family:標楷體;\">，其比例為</span>1 mL<span style=\"font-family:標楷體;\">”國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑比</span>4 mL<span style=\"font-family:標楷體;\">晶體溶液，再以平常的靜脈注射法給予。不可用水來稀釋，因為其低滲透壓會導致血管內溶血。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>休克時的使用</strong></span></p><p><span style=\"font-family:標楷體;\">在休克時的使用上，應隨時監測血壓，脈搏壓變寬和心肌的輸出量有關。</span></p><p>&nbsp;</p>",
+          "search_text": "5.1\n警語/注意事項\n特殊警語 本產品的鈉含量為48-100毫莫耳/公升 (mmol/L)，使用本產品時應注意有鈉限制的病患。 白蛋白的給予會加重休克病人的心肌抑制。曾有報告指出，燒傷病人給予白蛋白後出現頑固性的少尿症，可能是因為同時給予的晶體輸液不足。 “國血製劑益康”(20%)人血清白蛋白注射劑正常的情況是透明或稍微帶些乳白色，若在透射光下觀察到混濁的情形則不應使用，應將此瓶產品維持封瓶狀態退至標籤上標示的代理商。 本產品不含任何抗微生物防腐劑，因此，在開瓶後應馬上使用。任何未用完的溶液應妥善丟棄處理。每次僅可使用於單一病人。切勿使用曾經被冷凍過的溶液。 過敏反應 當給予人類白蛋白溶液很少發生過度敏感反應，因為產品係源自人體。若因是注射“國血製劑益康”(20%)人血清白蛋白注射劑之故引起嚴重過敏反應，應停止注射，並且應適當地給予腎上腺素、氫皮質酮(hydrocortisone)及抗組織胺。 循環系統負荷過重 “國血製劑益康”(20%)人血清白蛋白注射劑的膠體滲透效應約是血漿的4倍，應隨時監測病人是否有循環系統負荷過重的症狀(請見以下監測建議之章節)。 若劑量及注射速率不依照病人循環情況調整，則有心衰竭、肺水腫病史，或腎功能不全、嚴重或慢性貧血或進行心肺分流術的病患，有較高的風險會發生循環系統負荷過重。應小心病人監控這些潛在的併發症。 當出現循環系統負荷過重的初期臨床徵兆(頭痛、呼吸困難、頸靜脈鬱血)或血 在脫水狀況下，因“國血製劑益康”(20%)人血清白蛋白注射劑是高膠體滲透壓，本產品應和晶體輸液同時給予，或於之後補充晶體輸液。(請見以下20%白蛋白的稀釋的章節) 因快速給予白蛋白可能伴隨的血壓升高，使得有必要觀察受傷病患以檢視因血壓較低時不會流血的出血點，否則，可能會發生新的出血及休克。 不建議白蛋白用於創傷性腦損傷病患之輸液復甦。 慢性腎病注入20% 的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。 監測之建議 建議應監測病患在“國血製劑益康”(20%)人血清白蛋白注射劑給予期間的血壓。 為避免循環負荷過重，應頻繁地監測注射的速率及體積。 應監測心肌功能，如中央靜脈壓、動脈壓及脈搏速率。 建議應監測血漿電解質、凝血酶原時間、生化及血液學狀態。 “國血製劑益康”(20%)人血清白蛋白注射劑包含少量鋁元素(≤ 200 微克/ 公升)。患有慢性腎功能不全的病患，體內累積鋁會產生中毒現象，如高血鈣症、抗維生素D之骨骼發育不全、貧血及嚴重的漸進性腦病。因此當大量白蛋白給予此種病人時，應嚴謹考慮由此獲得的益處以及相對引發的潛在風險性。 注意事項 本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病 (Creutzfeldt Jakob Disease, CJD)之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。 此外，生產過程包括病毒去除/去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如HIV (人類免疫缺乏病毒)、B型及C型肝炎病毒，及不含外套膜的A型肝炎病毒。這些方法可顯著地確保免除parvovirus B19。 惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。因此注射本產品後，若有感染之病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。 使用血漿製品時可考慮給予疫苗之注射。 20%白蛋白的稀釋 在給予病患之前，“國血製劑益康”(20%)人血清白蛋白注射劑可稀釋成等膠體滲透壓之蛋白質溶液(4 ~ 5% 白蛋白)，其比例為1 mL”國血製劑益康”(20%)人血清白蛋白注射劑比4 mL晶體溶液，再以平常的靜脈注射法給予。不可用水來稀釋，因為其低滲透壓會導致血管內溶血。 休克時的使用 在休克時的使用上，應隨時監測血壓，脈搏壓變寬和心肌的輸出量有關。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "白蛋白是內生性的血漿蛋白質，因此預期不會有對實驗室檢驗的特別影響。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">白蛋白是內生性的血漿蛋白質，因此預期不會有對實驗室檢驗的特別影響。</span></p>",
+          "search_text": "5.4\n實驗室檢測\n白蛋白是內生性的血漿蛋白質，因此預期不會有對實驗室檢驗的特別影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "尚未有“國血製劑益康”(20%)人血清白蛋白注射劑在動物生殖毒性的研究。因為在動物模式中會對人類白蛋白產生抗體而無法進行此研究。 在懷孕期間使用“國血製劑益康”(20%)人血清白蛋白注射劑，尚未建立於對照臨床試驗中確立，因此，如有明確的需要才可給予孕婦。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">尚未有</span><span style=\"color:black;\">“</span><span style=\"color:black;font-family:標楷體;\">國血製劑益康</span><span style=\"color:black;\">”(20%)</span><span style=\"color:black;font-family:標楷體;\">人血清白蛋白注射劑在動物生殖毒性的研究。因為在動物模式中會對人類白蛋白產生抗體而無法進行此研究。</span></p><p style=\"text-align:justify;\"><span style=\"color:black;font-family:標楷體;\">在懷孕期間使用</span><span style=\"color:black;\">“</span><span style=\"color:black;font-family:標楷體;\">國血製劑益康</span><span style=\"color:black;\">”(20%)</span><span style=\"color:black;font-family:標楷體;\">人血清白蛋白注射劑，尚未建立於對照臨床試驗中確立，因此，如有明確的需要才可給予孕婦。</span></p>",
+          "search_text": "6.1\n懷孕\n尚未有“國血製劑益康”(20%)人血清白蛋白注射劑在動物生殖毒性的研究。因為在動物模式中會對人類白蛋白產生抗體而無法進行此研究。 在懷孕期間使用“國血製劑益康”(20%)人血清白蛋白注射劑，尚未建立於對照臨床試驗中確立，因此，如有明確的需要才可給予孕婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "與內生性血清白蛋白相似，“國血製劑益康”(20%)人血清白蛋白注射劑可能分泌至乳汁。尚無此方面的安全資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">與內生性血清白蛋白相似，“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑可能分泌至乳汁。尚無此方面的安全資訊。</span></p>",
+          "search_text": "6.2\n哺乳\n與內生性血清白蛋白相似，“國血製劑益康”(20%)人血清白蛋白注射劑可能分泌至乳汁。尚無此方面的安全資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "尚未有研究調查“國血製劑益康”(20%)人血清白蛋白注射劑對生育能力之影響。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">尚未有研究調查“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑對生育能力之影響。</span></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n尚未有研究調查“國血製劑益康”(20%)人血清白蛋白注射劑對生育能力之影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "“國血製劑益康”(20%)人血清白蛋白注射劑尚未有專為小兒的臨床研究。",
+          "content_html": "<p>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑尚未有專為小兒的臨床研究。</span></p>",
+          "search_text": "6.4\n小兒\n“國血製劑益康”(20%)人血清白蛋白注射劑尚未有專為小兒的臨床研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "“國血製劑益康”(20%)人血清白蛋白注射劑尚未有專為老年人的臨床研究。",
+          "content_html": "<p>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑尚未有專為老年人的臨床研究。</span></p>",
+          "search_text": "6.5\n老年人\n“國血製劑益康”(20%)人血清白蛋白注射劑尚未有專為老年人的臨床研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "曾有報告指出正在服用ACE(Angiotensin Converting Enzyme血管收縮素轉換酵素)抑制劑的病患，在給予白蛋白後出現低血壓。加入其他藥物至“國血製劑益康”(20%)人血清白蛋白注射劑則未評估。(請見和其他液體的相容性)",
+          "content_html": "<p><span style=\"font-family:標楷體;\">曾有報告指出正在服用</span>ACE(Angiotensin Converting Enzyme<span style=\"font-family:標楷體;\">血管收縮素轉換酵素</span>)<span style=\"font-family:標楷體;\">抑制劑的病患，在給予白蛋白後出現低血壓。加入其他藥物至“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑則未評估。</span>(<span style=\"font-family:標楷體;\">請見<strong>和其他液體的相容性</strong></span>)</p>",
+          "search_text": "7\n交互作用\n曾有報告指出正在服用ACE(Angiotensin Converting Enzyme血管收縮素轉換酵素)抑制劑的病患，在給予白蛋白後出現低血壓。加入其他藥物至“國血製劑益康”(20%)人血清白蛋白注射劑則未評估。(請見和其他液體的相容性)",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "對白蛋白溶液的不良反應並不常見，且通常為輕微及短暫的。 報告指出白蛋白溶液的不良反應一般包括低血壓、發冷、發燒及過敏反應包含急性嚴重過敏反應、蕁麻疹、皮膚疹、噁心、嘔吐和唾液分泌增加。當降低注射速率或停止注射，輕微反應如輕微低血壓、面潮紅、頭痛、蕁麻疹、發燒、噁心通常會迅速消失(請見監測建議之章節)。 雖然非常罕見，但嚴重過敏反應例如過敏性休克仍可能會發生。一旦發生應停止注射，並且應啟動適當的處理。(請見特殊警語之章節)",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對白蛋白溶液的不良反應並不常見，且通常為輕微及短暫的。</span></p><p><span style=\"font-family:標楷體;\">報告指出白蛋白溶液的不良反應一般包括低血壓、發冷、發燒及過敏反應包含急性嚴重過敏反應、蕁麻疹、皮膚疹、噁心、嘔吐和唾液分泌增加。當降低注射速率或停止注射，輕微反應如輕微低血壓、面潮紅、頭痛、蕁麻疹、發燒、噁心通常會迅速消失</span>(<span style=\"font-family:標楷體;\">請見<strong>監測建議</strong>之章節</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">雖然非常罕見，但嚴重過敏反應例如過敏性休克仍可能會發生。一旦發生應停止注射，並且應啟動適當的處理。</span>(<span style=\"font-family:標楷體;\">請見<strong>特殊警語</strong>之章節</span>)</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n對白蛋白溶液的不良反應並不常見，且通常為輕微及短暫的。 報告指出白蛋白溶液的不良反應一般包括低血壓、發冷、發燒及過敏反應包含急性嚴重過敏反應、蕁麻疹、皮膚疹、噁心、嘔吐和唾液分泌增加。當降低注射速率或停止注射，輕微反應如輕微低血壓、面潮紅、頭痛、蕁麻疹、發燒、噁心通常會迅速消失(請見監測建議之章節)。 雖然非常罕見，但嚴重過敏反應例如過敏性休克仍可能會發生。一旦發生應停止注射，並且應啟動適當的處理。(請見特殊警語之章節)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "臨床試驗之不良反應 雖然未以Albumex® 20進行正式臨床試驗評估不良反應發生的頻率及嚴重性，但以Albumex® 4 and 5 (分別為4%及5%白蛋白溶液)進行的研究結果仍可適用。澳洲及紐西蘭重症照護協會臨床研究組曾進行生理食鹽水對照白蛋白溶液的評估試驗(SAFE)。自該比較白蛋白與生理食鹽水試驗(SAFE)所統計之不良反應如表一。 表一：SAFE試驗之不良反應 產品Albumex® 4生理食鹽水 (n = 3497)(n = 3500) 不良反應總數2214 肝膽疾病 腹水-1 腎臟及泌尿疾病 高氯血性酸中毒14 高鈉血症11 乳酸性酸中毒-1 呼吸、胸、縱隔 缺氧71 胸水-1 肺栓塞-1 肺水腫123 皮膚及皮下組織 水腫-1 血管 低血壓1- 在前一代的Albumex®，當使用於血漿交換術，1% (1/99)的病人在臨床上顯著增加凝血酶原時間，且發生鉀、鈣、碳酸氫鈉、血清總蛋白質濃度、血小板數量之下降。這些結果在血漿置換術被合理預期會發生。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>臨床試驗之不良反應</strong></span></p><p><span style=\"font-family:標楷體;\">雖然未以</span>Albumex<sup>®</sup> 20<span style=\"font-family:標楷體;\">進行正式臨床試驗評估不良反應發生的頻率及嚴重性，但以</span>Albumex<sup>®&nbsp;</sup>4 and 5 (<span style=\"font-family:標楷體;\">分別為</span>4%<span style=\"font-family:標楷體;\">及</span>5%<span style=\"font-family:標楷體;\">白蛋白溶液</span>)<span style=\"font-family:標楷體;\">進行的研究結果仍可適用。澳洲及紐西蘭重症照護協會臨床研究組曾進行生理食鹽水對照白蛋白溶液的評估試驗</span>(SAFE)<span style=\"font-family:標楷體;\">。自該比較白蛋白與生理食鹽水試驗</span>(SAFE)<span style=\"font-family:標楷體;\">所統計之不良反應如<strong>表一</strong>。</span></p><p><span style=\"font-family:標楷體;\"><strong>表一：</strong></span><strong>SAFE</strong><span style=\"font-family:標楷體;\"><strong>試驗之不良反應</strong></span></p><figure class=\"table\"><table><thead><tr><th style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\"><i><strong>產品</strong></i></span></th><th style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\"><i><strong>Albumex<sup>®</sup>&nbsp;4</strong></i></th><th style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><span style=\"font-family:標楷體;\"><i><strong>生理食鹽水</strong></i></span></th></tr><tr><th style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\">&nbsp;</th><th style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\"><i><strong>(n&nbsp;=&nbsp;3497)</strong></i></th><th style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><i><strong>(n&nbsp;=&nbsp;3500)</strong></i></th></tr><tr><th style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\"><i><strong>不良反應總數</strong></i></span></th><th style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\"><i><strong>22</strong></i></th><th style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><i><strong>14</strong></i></th></tr></thead><tbody><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:366.8pt;\" colspan=\"3\"><span style=\"font-family:標楷體;\"><i><strong>肝膽疾病</strong></i></span></td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">腹水</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">-</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:366.8pt;\" colspan=\"3\"><span style=\"font-family:標楷體;\"><i><strong>腎臟及泌尿疾病</strong></i></span></td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">高氯血性酸中毒</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">1</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">4</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">高鈉血症</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">1</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">乳酸性酸中毒</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">-</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:366.8pt;\" colspan=\"3\"><span style=\"font-family:標楷體;\"><i><strong>呼吸、胸、縱隔</strong></i></span></td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">缺氧</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">7</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">胸水</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">-</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">肺栓塞</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">-</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">肺水腫</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">12</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">3</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:366.8pt;\" colspan=\"3\"><span style=\"font-family:標楷體;\"><i><strong>皮膚及皮下組織</strong></i></span></td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">水腫</span></td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">-</td><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">1</td></tr><tr><td style=\"height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:366.8pt;\" colspan=\"3\"><span style=\"font-family:標楷體;\"><i><strong>血管</strong></i></span></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:bottom;width:195.8pt;\"><span style=\"font-family:標楷體;\">低血壓</span></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:90.0pt;\">1</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;height:12.75pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\">-</td></tr></tbody></table></figure><p><span style=\"font-family:標楷體;\">在前一代的</span>Albumex<sup>®</sup><span style=\"font-family:標楷體;\">，當使用於血漿交換術，</span>1% (1/99)<span style=\"font-family:標楷體;\">的病人在臨床上顯著增加凝血酶原時間，且發生鉀、鈣、碳酸氫鈉、血清總蛋白質濃度、血小板數量之下降。這些結果在血漿置換術被合理預期會發生。</span></p><p>&nbsp;</p>",
+          "search_text": "8.2\n臨床試驗經驗\n臨床試驗之不良反應 雖然未以Albumex® 20進行正式臨床試驗評估不良反應發生的頻率及嚴重性，但以Albumex® 4 and 5 (分別為4%及5%白蛋白溶液)進行的研究結果仍可適用。澳洲及紐西蘭重症照護協會臨床研究組曾進行生理食鹽水對照白蛋白溶液的評估試驗(SAFE)。自該比較白蛋白與生理食鹽水試驗(SAFE)所統計之不良反應如表一。 表一：SAFE試驗之不良反應 產品Albumex® 4生理食鹽水 (n = 3497)(n = 3500) 不良反應總數2214 肝膽疾病 腹水-1 腎臟及泌尿疾病 高氯血性酸中毒14 高鈉血症11 乳酸性酸中毒-1 呼吸、胸、縱隔 缺氧71 胸水-1 肺栓塞-1 肺水腫123 皮膚及皮下組織 水腫-1 血管 低血壓1- 在前一代的Albumex®，當使用於血漿交換術，1% (1/99)的病人在臨床上顯著增加凝血酶原時間，且發生鉀、鈣、碳酸氫鈉、血清總蛋白質濃度、血小板數量之下降。這些結果在血漿置換術被合理預期會發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。 在這一代Albumex® 20發生不良反應的總體次數是很低的，初期涉及發冷及發燒。在例行監控所發生的主要不良反應包含低血壓、高血壓、心搏過速、血氧飽和度下降、呼吸困難、面潮紅、頭昏、發冷、發熱及肌肉痙孿。雖然真正的嚴重過敏反應係為罕見，但從未接獲嚴重過敏反應報告。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。</span></p><p><span style=\"font-family:標楷體;\">在這一代</span>Albumex<sup>®&nbsp;</sup>20<span style=\"font-family:標楷體;\">發生不良反應的總體次數是很低的，初期涉及發冷及發燒。在例行監控所發生的主要不良反應包含低血壓、高血壓、心搏過速、血氧飽和度下降、呼吸困難、面潮紅、頭昏、發冷、發熱及肌肉痙孿。雖然真正的嚴重過敏反應係為罕見，但從未接獲嚴重過敏反應報告。</span></p>",
+          "search_text": "8.3\n上市後經驗\n上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。 在這一代Albumex® 20發生不良反應的總體次數是很低的，初期涉及發冷及發燒。在例行監控所發生的主要不良反應包含低血壓、高血壓、心搏過速、血氧飽和度下降、呼吸困難、面潮紅、頭昏、發冷、發熱及肌肉痙孿。雖然真正的嚴重過敏反應係為罕見，但從未接獲嚴重過敏反應報告。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "過量的人類白蛋白會導致循環負荷過重。(請見特殊警語)",
+          "content_html": "<p><span style=\"font-family:標楷體;\">過量的人類白蛋白會導致循環負荷過重。</span>(<span style=\"font-family:標楷體;\">請見<strong>特殊警語</strong></span><strong>)</strong></p>",
+          "search_text": "9\n過量\n過量的人類白蛋白會導致循環負荷過重。(請見特殊警語)",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "“國血製劑益康”(20%)人血清白蛋白注射劑有二個主要的功能：可維持血漿的膠體滲透壓及在交換和運輸組織代謝物過程中攜帶中間產物。 人類白蛋白用於輸液復甦的效益被認為主因於對膠體滲透壓的貢獻。(亦即oncotic pressure)",
+          "content_html": "<p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑有二個主要的功能：可維持血漿的膠體滲透壓及在交換和運輸組織代謝物過程中攜帶中間產物。</span></p><p><span style=\"font-family:標楷體;\">人類白蛋白用於輸液復甦的效益被認為主因於對膠體滲透壓的貢獻。</span>(<span style=\"font-family:標楷體;\">亦即</span>oncotic pressure)</p>",
+          "search_text": "10.1\n作用機轉\n“國血製劑益康”(20%)人血清白蛋白注射劑有二個主要的功能：可維持血漿的膠體滲透壓及在交換和運輸組織代謝物過程中攜帶中間產物。 人類白蛋白用於輸液復甦的效益被認為主因於對膠體滲透壓的貢獻。(亦即oncotic pressure)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "白蛋白占血漿中蛋白質含量的半數以上，亦反映肝臟約10%的蛋白質合成之活性。 “國血製劑益康”(20%)人血清白蛋白注射劑為含有較高膠體滲透壓的人類血清，其膠體滲透壓約和人類血漿的4倍體積等值。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">白蛋白占血漿中蛋白質含量的半數以上，亦反映肝臟約</span>10%<span style=\"font-family:標楷體;\">的蛋白質合成之活性。</span></p><p><span style=\"font-family:標楷體;\">“國血製劑益康”</span>(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑為含有較高膠體滲透壓的人類血清，其膠體滲透壓約和人類血漿的</span>4<span style=\"font-family:標楷體;\">倍體積等值。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n白蛋白占血漿中蛋白質含量的半數以上，亦反映肝臟約10%的蛋白質合成之活性。 “國血製劑益康”(20%)人血清白蛋白注射劑為含有較高膠體滲透壓的人類血清，其膠體滲透壓約和人類血漿的4倍體積等值。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "基因毒性 尚未有“國血製劑益康”(20%)人血清白蛋白注射劑的基因毒性研究。 致癌性 尚未有“國血製劑益康”(20%)人血清白蛋白注射劑的致癌性研究。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>基因毒性</strong></span></p><p><span style=\"font-family:標楷體;\">尚未有</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑的基因毒性研究。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>致癌性</strong></span></p><p><span style=\"font-family:標楷體;\">尚未有</span>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑的致癌性研究。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n基因毒性 尚未有“國血製劑益康”(20%)人血清白蛋白注射劑的基因毒性研究。 致癌性 尚未有“國血製劑益康”(20%)人血清白蛋白注射劑的致癌性研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "白蛋白在體內的代謝半衰期約19日，成人的汰換率約每日15克。血管內和血管外的白蛋白交換速率很快速。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">白蛋白在體內的代謝半衰期約</span>19<span style=\"font-family:標楷體;\">日，成人的汰換率約每日</span>15<span style=\"font-family:標楷體;\">克。血管內和血管外的白蛋白交換速率很快速。</span></p>",
+          "search_text": "11\n藥物動力學特性\n白蛋白在體內的代謝半衰期約19日，成人的汰換率約每日15克。血管內和血管外的白蛋白交換速率很快速。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊</span></p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "“國血製劑益康”(20%)人血清白蛋白注射劑有二種規格： 10克人類白蛋白溶於50毫升電解質溶液。 20克人類白蛋白溶於100毫升電解質溶液。",
+          "content_html": "<p>“<span style=\"font-family:標楷體;\">國血製劑益康</span>”(20%)<span style=\"font-family:標楷體;\">人血清白蛋白注射劑有二種規格：</span></p><ul><li>10<span style=\"font-family:標楷體;\">克人類白蛋白溶於</span>50<span style=\"font-family:標楷體;\">毫升電解質溶液。</span></li><li>20<span style=\"font-family:標楷體;\">克人類白蛋白溶於</span>100<span style=\"font-family:標楷體;\">毫升電解質溶液。</span></li></ul>",
+          "search_text": "13.1\n包裝\n“國血製劑益康”(20%)人血清白蛋白注射劑有二種規格： 10克人類白蛋白溶於50毫升電解質溶液。 20克人類白蛋白溶於100毫升電解質溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "超過保存期限者請勿使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">超過保存期限者請勿使用。</span></p>",
+          "search_text": "13.2\n效期\n超過保存期限者請勿使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "儲存在30°C以下(不可冷凍)。應防止光線照射。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">儲存在</span>30<span style=\"font-family:標楷體;\">°</span>C<span style=\"font-family:標楷體;\">以下</span>(<span style=\"font-family:標楷體;\">不可冷凍</span>)<span style=\"font-family:標楷體;\">。應防止光線照射。</span></p>",
+          "search_text": "13.3\n儲存條件\n儲存在30°C以下(不可冷凍)。應防止光線照射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "® 是CSL Limited的註冊商標",
+          "content_html": "<p><sup>®&nbsp;</sup><span style=\"font-family:標楷體;\">是</span>CSL Limited<span style=\"font-family:標楷體;\">的註冊商標</span></p>",
+          "search_text": "15\n其他\n® 是CSL Limited的註冊商標",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n成分名稱 台灣 人血清白蛋白 人血清白蛋白20% 200 克/公升 (g/L) 說明 本產品係配合衛生福利部執行「推動我國血漿製劑方案」所製造，是由台灣自願、無償捐血者捐血之血漿原料，經製備而得之人血清白蛋白注射劑。 主要以採用管柱層析技術製備而成。此為無菌、不含防腐劑的20% w/v人類白蛋白溶液，相較於人血清屬於高膠體滲透壓與低滲透性溶液。本產品標記之滲透壓為130 mOsm/kg ，為低張溶液，其pH值為6.7 至 7.3。“國血製劑益康”(20%)人血清白蛋白注射劑之製程包含專作為降低病毒傳染可能性之步驟，包括經60°C下加熱10小時，並在低pH值下放置以去除病毒活性。\n1.2\n賦形劑\n“國血製劑益康”(20%)人血清白蛋白注射劑的組成如下： 人類白蛋白 200 克/公升 (g/L) 鈉 48-100 毫莫耳/公升 (mmol/L) Octanoate 32 毫莫耳/公升 (mmol/L)\n1.3\n劑型\n靜脈注射劑\n1.4\n藥品外觀\n“國血製劑益康”(20%)人血清白蛋白注射劑為澄清、微黏稠液體，幾乎為無色、黃色、琥珀色、或綠色。\n2\n適應症\n低蛋白血症、休克、燒傷 適應症說明 急病患者的低蛋白血症 當病患因膠體滲透壓降低而引起臨床問題或併發症，可給予”國血製劑益康”(20%)人血清白蛋白注射劑作為利尿之輔助治療。 休克 “國血製劑益康”(20%)人血清白蛋白注射劑可以用來復甦因急性失血或流失血漿導致之休克，但應優先給予4～5% 的人類白蛋白為宜。 燒傷 大範圍灼傷會伴隨身體水份、鹽類及蛋白質之分佈失調，而導致病患引起血液容積減少性休克及循環衰竭。 在一開始的24小時，血管滲透性會增加並導致水份及蛋白質流失至血管外區間及血濃度增加。應灌注大量的晶體溶液以復原壓縮的血管內液體空間，少量的”國血製劑益康”(20%)人血清白蛋白注射劑可以維持適當的血漿容積及膠體滲透壓。\n3\n用法及用量\n3.1\n用法用量\n劑量 急性病人的低蛋白血症 一般的每日劑量為50～75克人類白蛋白(250-375 mL之“國血製劑益康”(20%)人血清白蛋白注射劑)。給予的速度每分鐘不應超過2毫升，若是注入速度超過此限，將會導致循環負荷過重及肺部水腫。 “國血製劑益康”(20%)人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。 休克 藥量因病患的情況及治療的反應而異。一般的開始劑量20克人類白蛋白(100mL之“國血製劑益康”(20%)人血清白蛋白注射劑)應當做血液體積的擴張劑來給予，每分鐘2～4 毫升。 緊急的情況時可增加輸注速度，如有需要可以每15到30分鐘重複一次。當沒有主動出血時，總劑量不應超過一般正常個體的白蛋白總量，即約為每公斤體重2克。 如果給予濃縮的白蛋白(>4～5%)，則必須伴隨晶體溶液的靜脈注射，若是未補充此額外的溶液，則會造成組織脫水。 晶體溶液正確的種類和濃度依病患對電解質和液體的需要而有所不同。 燒傷 一般的劑量是每日給予20到80克人類白蛋白(100-400 mL之“國血製劑益康”(20%)人血清白蛋白注射劑)。注入速度為每分鐘1毫升。 24小時後，“國血製劑益康”(20%)人血清白蛋白注射劑就可用來維持血漿膠體滲透壓。合理的目標是血漿的白蛋白濃度要維持在25克/公升或膠體滲透壓為20毫米汞柱。 因應白蛋白自燒傷的裸露區域流失和合成減少，以決定持續需要白蛋白之使用。 使用說明 “國血製劑益康”(20%)人血清白蛋白注射劑應使用適當的靜脈注射設備，作靜脈點滴注射。“國血製劑益康”(20%)人血清白蛋白注射劑是包裝於玻璃瓶內，使用時必須排氣。 在某些病例，給予一特定劑量的白蛋白加在合適的晶體溶液中，其比例為1毫升”國血製劑益康”(20%)人血清白蛋白注射劑比4毫升晶體溶液，再以平常的靜脈注射法給予。(請見特殊警語 20%白蛋白的稀釋的章節) 若產品保存在冷藏室，應回復至室溫或體溫後再給予；若曾冷凍過，請勿使用。 強烈建議每次注射“國血製劑益康”(20%)人血清白蛋白注射劑時，應記錄品名、批號以連結病人及該批產品。 下列調配步驟適用於50毫升和100毫升的包裝： 自封口處移去塑膠蓋。 在橡皮塞的外露部分給予適當的消毒，並待其乾燥。 使瓶身保持直立，並在橡皮塞的一凹痕處垂直插入排氣針，最好是一個附有過濾器的長針。如果沒有，也可以使用附有非濕性過濾器的短針。 夾緊點滴管，將點滴穿刺針垂直地插入橡皮塞的一凹痕處。若此橡皮塞移位或鬆動，請勿使用此瓶並適當地丟棄之。 倒轉瓶身，掛在支撐架的掛鉤上，約高於病人1公尺。 調整夾子使點滴管充滿液體，將點滴用的套針插入靜脈血管，並調整流速。 當瓶內無液體後，夾住點滴管，根據需要將排氣針及點滴套組上端的針移到另一瓶“國血製劑益康”(20%)人血清白蛋白注射劑或晶體溶液。 給予時若滲漏變得明顯，應停止注射並適當地丟棄此溶液，再重新給予新的藥瓶及新的點滴套組。 和其他液體的相容性 尚未評估加入其他藥物至“國血製劑益康”(20%)人血清白蛋白注射劑。 “國血製劑益康”(20%)人血清白蛋白注射劑不可和蛋白質水解物、胺基酸溶液、含酒精溶液或含與白蛋白可結合的藥物混合，如鈣離子通道阻斷劑、抗生素及苯二氮平類藥物。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n如過去曾對此產品過敏，請勿使用“國血製劑益康”(20%)人血清白蛋白注射劑。白蛋白禁用於心臟衰竭、肺水腫及嚴重貧血的病人。 “國血製劑益康”(20%)人血清白蛋白注射劑並未被證實適用於慢性肝硬化、吸收障礙、腸道蛋白質流失、胰臟功能不全及營養不良所引起的低蛋白血症。 慢性腎病注入20% 的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。\n5\n警語及注意事項\n5.1\n警語/注意事項\n特殊警語 本產品的鈉含量為48-100毫莫耳/公升 (mmol/L)，使用本產品時應注意有鈉限制的病患。 白蛋白的給予會加重休克病人的心肌抑制。曾有報告指出，燒傷病人給予白蛋白後出現頑固性的少尿症，可能是因為同時給予的晶體輸液不足。 “國血製劑益康”(20%)人血清白蛋白注射劑正常的情況是透明或稍微帶些乳白色，若在透射光下觀察到混濁的情形則不應使用，應將此瓶產品維持封瓶狀態退至標籤上標示的代理商。 本產品不含任何抗微生物防腐劑，因此，在開瓶後應馬上使用。任何未用完的溶液應妥善丟棄處理。每次僅可使用於單一病人。切勿使用曾經被冷凍過的溶液。 過敏反應 當給予人類白蛋白溶液很少發生過度敏感反應，因為產品係源自人體。若因是注射“國血製劑益康”(20%)人血清白蛋白注射劑之故引起嚴重過敏反應，應停止注射，並且應適當地給予腎上腺素、氫皮質酮(hydrocortisone)及抗組織胺。 循環系統負荷過重 “國血製劑益康”(20%)人血清白蛋白注射劑的膠體滲透效應約是血漿的4倍，應隨時監測病人是否有循環系統負荷過重的症狀(請見以下監測建議之章節)。 若劑量及注射速率不依照病人循環情況調整，則有心衰竭、肺水腫病史，或腎功能不全、嚴重或慢性貧血或進行心肺分流術的病患，有較高的風險會發生循環系統負荷過重。應小心病人監控這些潛在的併發症。 當出現循環系統負荷過重的初期臨床徵兆(頭痛、呼吸困難、頸靜脈鬱血)或血 在脫水狀況下，因“國血製劑益康”(20%)人血清白蛋白注射劑是高膠體滲透壓，本產品應和晶體輸液同時給予，或於之後補充晶體輸液。(請見以下20%白蛋白的稀釋的章節) 因快速給予白蛋白可能伴隨的血壓升高，使得有必要觀察受傷病患以檢視因血壓較低時不會流血的出血點，否則，可能會發生新的出血及休克。 不建議白蛋白用於創傷性腦損傷病患之輸液復甦。 慢性腎病注入20% 的白蛋白溶液，會迅速地被腎臟排出而無法解除慢性水腫。 監測之建議 建議應監測病患在“國血製劑益康”(20%)人血清白蛋白注射劑給予期間的血壓。 為避免循環負荷過重，應頻繁地監測注射的速率及體積。 應監測心肌功能，如中央靜脈壓、動脈壓及脈搏速率。 建議應監測血漿電解質、凝血酶原時間、生化及血液學狀態。 “國血製劑益康”(20%)人血清白蛋白注射劑包含少量鋁元素(≤ 200 微克/ 公升)。患有慢性腎功能不全的病患，體內累積鋁會產生中毒現象，如高血鈣症、抗維生素D之骨骼發育不全、貧血及嚴重的漸進性腦病。因此當大量白蛋白給予此種病人時，應嚴謹考慮由此獲得的益處以及相對引發的潛在風險性。 注意事項 本品係由人類血漿製得，自人類血漿所製得之產品，可能存在著某些感染原，例如致病性之病毒和庫賈氏病 (Creutzfeldt Jakob Disease, CJD)之病原；藉由篩檢血漿之捐血者，檢驗某些現有病毒感染原標記，即可降低此產品傳染感染原之危險性。 此外，生產過程包括病毒去除/去活化步驟。本產品製造過程所採用的方法，可有效地對抗含外套膜的病毒，如HIV (人類免疫缺乏病毒)、B型及C型肝炎病毒，及不含外套膜的A型肝炎病毒。這些方法可顯著地確保免除parvovirus B19。 惟縱然採取上述措施，此類產品仍有可能存在某些未知的感染原。因此注射本產品後，若有感染之病人，均應直接向診療醫師及製造廠或代理商報告。請與你的醫師討論使用此產品之風險及利益。 使用血漿製品時可考慮給予疫苗之注射。 20%白蛋白的稀釋 在給予病患之前，“國血製劑益康”(20%)人血清白蛋白注射劑可稀釋成等膠體滲透壓之蛋白質溶液(4 ~ 5% 白蛋白)，其比例為1 mL”國血製劑益康”(20%)人血清白蛋白注射劑比4 mL晶體溶液，再以平常的靜脈注射法給予。不可用水來稀釋，因為其低滲透壓會導致血管內溶血。 休克時的使用 在休克時的使用上，應隨時監測血壓，脈搏壓變寬和心肌的輸出量有關。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n白蛋白是內生性的血漿蛋白質，因此預期不會有對實驗室檢驗的特別影響。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n尚未有“國血製劑益康”(20%)人血清白蛋白注射劑在動物生殖毒性的研究。因為在動物模式中會對人類白蛋白產生抗體而無法進行此研究。 在懷孕期間使用“國血製劑益康”(20%)人血清白蛋白注射劑，尚未建立於對照臨床試驗中確立，因此，如有明確的需要才可給予孕婦。\n6.2\n哺乳\n與內生性血清白蛋白相似，“國血製劑益康”(20%)人血清白蛋白注射劑可能分泌至乳汁。尚無此方面的安全資訊。\n6.3\n有生育能力的女性與男性\n尚未有研究調查“國血製劑益康”(20%)人血清白蛋白注射劑對生育能力之影響。\n6.4\n小兒\n“國血製劑益康”(20%)人血清白蛋白注射劑尚未有專為小兒的臨床研究。\n6.5\n老年人\n“國血製劑益康”(20%)人血清白蛋白注射劑尚未有專為老年人的臨床研究。\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n曾有報告指出正在服用ACE(Angiotensin Converting Enzyme血管收縮素轉換酵素)抑制劑的病患，在給予白蛋白後出現低血壓。加入其他藥物至“國血製劑益康”(20%)人血清白蛋白注射劑則未評估。(請見和其他液體的相容性)\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n對白蛋白溶液的不良反應並不常見，且通常為輕微及短暫的。 報告指出白蛋白溶液的不良反應一般包括低血壓、發冷、發燒及過敏反應包含急性嚴重過敏反應、蕁麻疹、皮膚疹、噁心、嘔吐和唾液分泌增加。當降低注射速率或停止注射，輕微反應如輕微低血壓、面潮紅、頭痛、蕁麻疹、發燒、噁心通常會迅速消失(請見監測建議之章節)。 雖然非常罕見，但嚴重過敏反應例如過敏性休克仍可能會發生。一旦發生應停止注射，並且應啟動適當的處理。(請見特殊警語之章節)\n8.2\n臨床試驗經驗\n臨床試驗之不良反應 雖然未以Albumex® 20進行正式臨床試驗評估不良反應發生的頻率及嚴重性，但以Albumex® 4 and 5 (分別為4%及5%白蛋白溶液)進行的研究結果仍可適用。澳洲及紐西蘭重症照護協會臨床研究組曾進行生理食鹽水對照白蛋白溶液的評估試驗(SAFE)。自該比較白蛋白與生理食鹽水試驗(SAFE)所統計之不良反應如表一。 表一：SAFE試驗之不良反應 產品Albumex® 4生理食鹽水 (n = 3497)(n = 3500) 不良反應總數2214 肝膽疾病 腹水-1 腎臟及泌尿疾病 高氯血性酸中毒14 高鈉血症11 乳酸性酸中毒-1 呼吸、胸、縱隔 缺氧71 胸水-1 肺栓塞-1 肺水腫123 皮膚及皮下組織 水腫-1 血管 低血壓1- 在前一代的Albumex®，當使用於血漿交換術，1% (1/99)的病人在臨床上顯著增加凝血酶原時間，且發生鉀、鈣、碳酸氫鈉、血清總蛋白質濃度、血小板數量之下降。這些結果在血漿置換術被合理預期會發生。\n8.3\n上市後經驗\n上市後不良反應來自主動通報且其母群體數量未知，因此這些不良反應發生頻率難以正確估計且無法確認是否具因果關係。 在這一代Albumex® 20發生不良反應的總體次數是很低的，初期涉及發冷及發燒。在例行監控所發生的主要不良反應包含低血壓、高血壓、心搏過速、血氧飽和度下降、呼吸困難、面潮紅、頭昏、發冷、發熱及肌肉痙孿。雖然真正的嚴重過敏反應係為罕見，但從未接獲嚴重過敏反應報告。\n9\n過量\n過量的人類白蛋白會導致循環負荷過重。(請見特殊警語)\n10\n藥理特性\n10.1\n作用機轉\n“國血製劑益康”(20%)人血清白蛋白注射劑有二個主要的功能：可維持血漿的膠體滲透壓及在交換和運輸組織代謝物過程中攜帶中間產物。 人類白蛋白用於輸液復甦的效益被認為主因於對膠體滲透壓的貢獻。(亦即oncotic pressure)\n10.2\n藥效藥理特性\n白蛋白占血漿中蛋白質含量的半數以上，亦反映肝臟約10%的蛋白質合成之活性。 “國血製劑益康”(20%)人血清白蛋白注射劑為含有較高膠體滲透壓的人類血清，其膠體滲透壓約和人類血漿的4倍體積等值。\n10.3\n臨床前安全性資料\n基因毒性 尚未有“國血製劑益康”(20%)人血清白蛋白注射劑的基因毒性研究。 致癌性 尚未有“國血製劑益康”(20%)人血清白蛋白注射劑的致癌性研究。\n11\n藥物動力學特性\n白蛋白在體內的代謝半衰期約19日，成人的汰換率約每日15克。血管內和血管外的白蛋白交換速率很快速。\n12\n臨床試驗資料\n目前尚無資訊\n13\n包裝及儲存\n13.1\n包裝\n“國血製劑益康”(20%)人血清白蛋白注射劑有二種規格： 10克人類白蛋白溶於50毫升電解質溶液。 20克人類白蛋白溶於100毫升電解質溶液。\n13.2\n效期\n超過保存期限者請勿使用。\n13.3\n儲存條件\n儲存在30°C以下(不可冷凍)。應防止光線照射。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n® 是CSL Limited的註冊商標",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "CSL BEHRING (AUSTRALIA) PTY LTD",
+          "address": "189-209 CAMP ROAD BROADMEADOWS VICTORIA 3047 AUSTRALIA"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "裕利股份有限公司",
+          "address": "桃園市大園區和平里1鄰開和路91號"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "醫療財團法人台灣血液基金會",
+          "address": "台北市中正區南海路３號３樓(02) 23511600"
+        }
+      ]
+    }
+  ]
+}

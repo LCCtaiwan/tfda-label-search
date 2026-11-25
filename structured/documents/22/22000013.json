@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:57:22.668527+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "22000013",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署罕菌疫輸字第000013號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署罕菌疫輸字第000013號",
+      "matched_license_code": "22000013",
+      "matched_nhi_code": "",
+      "drug_name_zh": "立比扶注射劑 132 mcg",
+      "drug_name_en": "Rebif solution for injection 132 micrograms",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2026-02-10",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每支1.5 mL注射液的預填藥匣內含interferon beta-1a** 66 mcg (18 MIU*)，其含量相當於44 mcg/mL。 每支1.5 mL注射液的預填藥匣內含interferon beta-1a** 132 mcg (36 MIU*)，其含量相當於88 mcg/mL。 * 百萬國際單位(Million International Units)，測量方式藉由細胞病變效應(CPE)之生物鑑定法對照廠內interferon beta-1a的標準品測得，其廠內標準品可用來校正目前的國際NIH標準品(GB-23-902-531)。 ** 經基因重組技術由中國倉鼠卵巢細胞(CHO-K1)製造產生。",
+          "content_html": "<p style=\"margin-left:7.1pt;text-align:justify;\"><span style=\"font-family:標楷體;\">每支</span>1.5 mL<span style=\"font-family:標楷體;\">注射液的預填藥匣內含</span>interferon beta-1a** 66 mcg (18 MIU*)<span style=\"font-family:標楷體;\">，其含量相當於</span>44 mcg/mL<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:7.1pt;text-align:justify;\"><span style=\"font-family:標楷體;\">每支</span>1.5 mL<span style=\"font-family:標楷體;\">注射液的預填藥匣內含</span>interferon beta-1a** 132 mcg (36 MIU*)<span style=\"font-family:標楷體;\">，其含量相當於</span>88 mcg/mL<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:7.1pt;text-align:justify;\">*&nbsp;<span style=\"font-family:標楷體;\">百萬國際單位</span>(Million International Units)<span style=\"font-family:標楷體;\">，測量方式藉由細胞病變效應</span>(CPE)<span style=\"font-family:標楷體;\">之生物鑑定法對照廠內</span>interferon beta-1a<span style=\"font-family:標楷體;\">的標準品測得，其廠內標準品可用來校正目前的國際</span>NIH<span style=\"font-family:標楷體;\">標準品</span>(GB-23-902-531)<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:7.1pt;text-align:justify;\">**&nbsp;<span style=\"font-family:標楷體;\">經基因重組技術由中國倉鼠卵巢細胞</span>(CHO-K1)<span style=\"font-family:標楷體;\">製造產生。</span></p><p>&nbsp;</p>",
+          "search_text": "1.1\n有效成分及含量\n每支1.5 mL注射液的預填藥匣內含interferon beta-1a** 66 mcg (18 MIU*)，其含量相當於44 mcg/mL。 每支1.5 mL注射液的預填藥匣內含interferon beta-1a** 132 mcg (36 MIU*)，其含量相當於88 mcg/mL。 * 百萬國際單位(Million International Units)，測量方式藉由細胞病變效應(CPE)之生物鑑定法對照廠內interferon beta-1a的標準品測得，其廠內標準品可用來校正目前的國際NIH標準品(GB-23-902-531)。 ** 經基因重組技術由中國倉鼠卵巢細胞(CHO-K1)製造產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Benzyl alcohol D-Mannitol L-Methionine Poloxamer 188 0.01M Sodium acetate buffer pH3.9",
+          "content_html": "<p style=\"text-align:justify;\">Benzyl alcohol</p><p style=\"text-align:justify;\">D-Mannitol</p><p style=\"text-align:justify;\">L-Methionine</p><p style=\"text-align:justify;\">Poloxamer 188</p><p style=\"text-align:justify;\">0.01M Sodium acetate buffer pH3.9</p>",
+          "search_text": "1.2\n賦形劑\nBenzyl alcohol D-Mannitol L-Methionine Poloxamer 188 0.01M Sodium acetate buffer pH3.9",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射用溶液置於藥匣中 pH值為3.7-4.1，滲透壓為250-450 mOsm/l。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">注射用溶液置於藥匣中</span></p><p style=\"text-align:justify;\">pH<span style=\"font-family:標楷體;\">值為</span>3.7-4.1<span style=\"font-family:標楷體;\">，滲透壓為</span>250-450 mOsm/l<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "1.3\n劑型\n注射用溶液置於藥匣中 pH值為3.7-4.1，滲透壓為250-450 mOsm/l。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "注射用溶液置於藥匣中，透明至乳白色溶液。",
+          "content_html": "<p style=\"margin-left:21.25pt;\"><span style=\"color:black;font-family:標楷體;\">注射用溶液置於藥匣中，透明至乳白色溶液</span><span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "1.4\n藥品外觀\n注射用溶液置於藥匣中，透明至乳白色溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "復發型多發性硬化症。臨床試驗中，此定義為近兩年內曾有兩次或兩次以上急性復發的情況。 無復發情況的續發性漸進型多發性硬化症(secondary progressive multiple sclerosis)使用療效尚未證實。 發生單一臨床症狀(Clinically Isolated Syndrome)疑似多發性硬化症的病人，可延緩其惡化成多發性硬化症。",
+          "content_html": "<p style=\"margin-left:21.25pt;text-align:justify;\"><span style=\"font-family:標楷體;\">復發型多發性硬化症。臨床試驗中，此定義為近兩年內曾有兩次或兩次以上急性復發的情況。</span></p><p style=\"margin-left:21.25pt;text-align:justify;\"><span style=\"font-family:標楷體;\">無復發情況的續發性漸進型多發性硬化症</span>(secondary progressive multiple sclerosis)<span style=\"font-family:標楷體;\">使用療效尚未證實。</span></p><p style=\"margin-left:21.25pt;text-align:justify;\">&nbsp;</p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">發生單一臨床症狀</span>(Clinically Isolated Syndrome)<span style=\"font-family:標楷體;\">疑似多發性硬化症的病人，可延緩其惡化成多發性硬化症。</span></p>",
+          "search_text": "2\n適應症\n復發型多發性硬化症。臨床試驗中，此定義為近兩年內曾有兩次或兩次以上急性復發的情況。 無復發情況的續發性漸進型多發性硬化症(secondary progressive multiple sclerosis)使用療效尚未證實。 發生單一臨床症狀(Clinically Isolated Syndrome)疑似多發性硬化症的病人，可延緩其惡化成多發性硬化症。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "復發型多發性硬化症 所有治療均需由有經驗的醫師監督下使用。 Rebif ®建議劑量為44mcg，每週三次皮下注射。 若經醫師評估不適合使用高劑量者，則建議將劑量調整為低劑量的22mcg，每週三次皮下注射。 為避免急性反應並減少副作用的發生，第一次使用Rebif ®時，須逐步增加劑量。 建議逐步增加劑量方式如下: 治療的第一、二週，每次注射8.8mcg，之後的兩週，每次注射22mcg，第五週後，每次注射44mcg。 兒童病人 Rebif ®尚未有使用在16歲以下兒童的臨床報告，故16歲以下兒童不應使用Rebif®。 單一臨床症狀(Clinically Isolated Syndrome) 疑似多發性硬化症 為避免急性反應並減少副作用的發生，第一次使用Rebif時，建議病人從8.8 mcg皮下注射的劑量開始，並依下表所示，在四週的期間內逐步增加劑量至目標劑量。 建議逐步增加劑量方式 (目標劑量的百分比) 以Rebif每次44 mcg 每週三次 為目標劑量的逐步增加劑量方式 第1-2週20%每次8.8 mcg 每週三次 第3-4週50%每次22 mcg 每週三次 第5週以後100%每次44 mcg 每週三次 小兒患者 在兒童或青少年並沒有執行正式的臨床試驗或藥物動力學研究。但有一個小兒族群回溯性研究結果指出從醫療紀錄蒐集兒童(n=52)和青少年(n=225)使用Rebif的安全性資料中，其兒童(2-11歲)和青少年(12-17歲)接受Rebif 22 mcg或44 mcg每週三次皮下注射的安全性相似於成人。 Rebif對於2歲以下兒童的安全性及有效性的研究尚未建立。故Rebif不應用於此年齡族群。 Rebif以皮下注射使用。Rebif在注射之前或注射後24小時，建議可使用解熱鎮痛劑降低因使用Rebif相關的類感冒症狀。 至目前為止，治療時間的長短並無定論。目前Rebif未有超過四年以上的安全、效能報告。因此建議在開始使用Rebif後最少每兩年，應由醫師針對每位患者情況決定是否繼續使用。",
+          "content_html": "<p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\"><u>復發型多發性硬化症</u></span></p><p style=\"margin-left:21.1pt;\"><span style=\"font-family:標楷體;\">所有治療均需由有經驗的醫師監督下使用。</span></p><p style=\"margin-left:21.1pt;\">Rebif <sup>®</sup><span style=\"font-family:標楷體;\">建議劑量為</span>44mcg<span style=\"font-family:標楷體;\">，每週三次皮下注射。</span></p><p style=\"margin-left:21.1pt;\"><span style=\"font-family:標楷體;\">若經醫師評估不適合使用高劑量者，則建議將劑量調整為低劑量的</span>22mcg<span style=\"font-family:標楷體;\">，每週三次皮下注射。</span></p><p style=\"margin-left:21.1pt;\"><span style=\"font-family:標楷體;\">為避免急性反應並減少副作用的發生，第一次使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">時，須逐步增加劑量。</span></p><p style=\"margin-left:21.1pt;\"><span style=\"font-family:標楷體;\">建議逐步增加劑量方式如下</span>:&nbsp;<span style=\"font-family:標楷體;\">治療的第一、二週，每次注射</span>8.8mcg<span style=\"font-family:標楷體;\">，之後的兩週，每次注射</span>22mcg<span style=\"font-family:標楷體;\">，第五週後，每次注射</span>44mcg<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:21.1pt;\">&nbsp;</p><p style=\"margin-left:21.1pt;\"><span style=\"font-family:標楷體;\">兒童病人</span></p><p style=\"margin-left:21.1pt;\">Rebif <sup>®</sup><span style=\"font-family:標楷體;\">尚未有使用在</span>16<span style=\"font-family:標楷體;\">歲以下兒童的臨床報告，故</span>16<span style=\"font-family:標楷體;\">歲以下兒童不應使用</span>Rebif<sup>®</sup><span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:21.1pt;\">&nbsp;</p><p style=\"margin-left:21.1pt;\"><span style=\"font-family:標楷體;\"><u>單一臨床症狀</u></span><u>(Clinically Isolated Syndrome)&nbsp;</u><span style=\"font-family:標楷體;\"><u>疑似多發性硬化症</u></span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">為避免急性反應並減少副作用的發生，第一次使用</span>Rebif<span style=\"font-family:標楷體;\">時，建議病人從</span>8.8 mcg<span style=\"font-family:標楷體;\">皮下注射的劑量開始，並依下表所示，在四週的期間內逐步增加劑量至目標劑量。</span></p><figure class=\"table\"><table><tbody><tr><td>&nbsp;</td><td><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">建議逐步增加劑量方式</span></p><p>(<span style=\"font-family:標楷體;\">目標劑量的百分比</span>)</p></td><td><p style=\"text-align:center;\"><span style=\"font-family:標楷體;\">以</span>Rebif<span style=\"font-family:標楷體;\">每次</span>44 mcg&nbsp;<span style=\"font-family:標楷體;\">每週三次</span></p><p><span style=\"font-family:標楷體;\">為目標劑量的逐步增加劑量方式</span></p></td></tr><tr><td><span style=\"font-family:標楷體;\">第</span>1-2<span style=\"font-family:標楷體;\">週</span></td><td>20%</td><td><span style=\"font-family:標楷體;\">每次</span>8.8 mcg&nbsp;<span style=\"font-family:標楷體;\">每週三次</span></td></tr><tr><td><span style=\"font-family:標楷體;\">第</span>3-4<span style=\"font-family:標楷體;\">週</span></td><td>50%</td><td><span style=\"font-family:標楷體;\">每次</span>22 mcg&nbsp;<span style=\"font-family:標楷體;\">每週三次</span></td></tr><tr><td><span style=\"font-family:標楷體;\">第</span>5<span style=\"font-family:標楷體;\">週以後</span></td><td>100%</td><td><span style=\"font-family:標楷體;\">每次</span>44 mcg&nbsp;<span style=\"font-family:標楷體;\">每週三次</span></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"margin-left:21.25pt;text-align:justify;\"><span style=\"font-family:標楷體;\"><u>小兒患者</u></span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">在兒童或青少年並沒有執行正式的臨床試驗或藥物動力學研究。但有一個小兒族群回溯性研究結果指出從醫療紀錄蒐集兒童</span>(n=52)<span style=\"font-family:標楷體;\">和青少年</span>(n=225)<span style=\"font-family:標楷體;\">使用</span>Rebif<span style=\"font-family:標楷體;\">的安全性資料中，其兒童</span>(2-11<span style=\"font-family:標楷體;\">歲</span>)<span style=\"font-family:標楷體;\">和青少年</span>(12-17<span style=\"font-family:標楷體;\">歲</span>)<span style=\"font-family:標楷體;\">接受</span>Rebif 22 mcg<span style=\"font-family:標楷體;\">或</span>44 mcg<span style=\"font-family:標楷體;\">每週三次皮下注射的安全性相似於成人。</span></p><p>&nbsp;</p><p style=\"margin-left:21.25pt;\">Rebif<span style=\"font-family:標楷體;\">對於</span>2<span style=\"font-family:標楷體;\">歲以下兒童的安全性及有效性的研究尚未建立。故</span>Rebif<span style=\"font-family:標楷體;\">不應用於此年齡族群。</span></p><p style=\"margin-left:21.25pt;\">Rebif<span style=\"font-family:標楷體;\">以皮下注射使用。</span>Rebif<span style=\"font-family:標楷體;\">在注射之前或注射後</span>24<span style=\"font-family:標楷體;\">小時，建議可使用解熱鎮痛劑降低因使用</span>Rebif<span style=\"font-family:標楷體;\">相關的類感冒症狀。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">至目前為止，治療時間的長短並無定論。目前</span>Rebif<span style=\"font-family:標楷體;\">未有超過四年以上的安全、效能報告。因此建議在開始使用</span>Rebif<span style=\"font-family:標楷體;\">後最少每兩年，應由醫師針對每位患者情況決定是否繼續使用。</span></p><p style=\"margin-left:21.1pt;\">&nbsp;</p>",
+          "search_text": "3.1\n用法用量\n復發型多發性硬化症 所有治療均需由有經驗的醫師監督下使用。 Rebif ®建議劑量為44mcg，每週三次皮下注射。 若經醫師評估不適合使用高劑量者，則建議將劑量調整為低劑量的22mcg，每週三次皮下注射。 為避免急性反應並減少副作用的發生，第一次使用Rebif ®時，須逐步增加劑量。 建議逐步增加劑量方式如下: 治療的第一、二週，每次注射8.8mcg，之後的兩週，每次注射22mcg，第五週後，每次注射44mcg。 兒童病人 Rebif ®尚未有使用在16歲以下兒童的臨床報告，故16歲以下兒童不應使用Rebif®。 單一臨床症狀(Clinically Isolated Syndrome) 疑似多發性硬化症 為避免急性反應並減少副作用的發生，第一次使用Rebif時，建議病人從8.8 mcg皮下注射的劑量開始，並依下表所示，在四週的期間內逐步增加劑量至目標劑量。 建議逐步增加劑量方式 (目標劑量的百分比) 以Rebif每次44 mcg 每週三次 為目標劑量的逐步增加劑量方式 第1-2週20%每次8.8 mcg 每週三次 第3-4週50%每次22 mcg 每週三次 第5週以後100%每次44 mcg 每週三次 小兒患者 在兒童或青少年並沒有執行正式的臨床試驗或藥物動力學研究。但有一個小兒族群回溯性研究結果指出從醫療紀錄蒐集兒童(n=52)和青少年(n=225)使用Rebif的安全性資料中，其兒童(2-11歲)和青少年(12-17歲)接受Rebif 22 mcg或44 mcg每週三次皮下注射的安全性相似於成人。 Rebif對於2歲以下兒童的安全性及有效性的研究尚未建立。故Rebif不應用於此年齡族群。 Rebif以皮下注射使用。Rebif在注射之前或注射後24小時，建議可使用解熱鎮痛劑降低因使用Rebif相關的類感冒症狀。 至目前為止，治療時間的長短並無定論。目前Rebif未有超過四年以上的安全、效能報告。因此建議在開始使用Rebif後最少每兩年，應由醫師針對每位患者情況決定是否繼續使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "無",
+          "content_html": "<p style=\"margin-left:28.3pt;\"><span style=\"font-family:標楷體;\">無</span></p>",
+          "search_text": "3.3\n特殊族群用法用量\n無",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "• 曾有對天然或重組interferon beta或其他段落1.2所列賦形劑成份過敏者。 • 目前有嚴重憂鬱症病人且/或有自殺傾向者 (請參見第5.1及8節)。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">•</span>&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">曾有對天然或重組</span>interferon beta<span style=\"font-family:標楷體;\">或其他段落</span>1.2<span style=\"font-family:標楷體;\">所列賦形劑成份過敏者。</span></p><p><span style=\"font-family:標楷體;\">•</span>&nbsp;&nbsp; <span style=\"font-family:標楷體;\">目前有嚴重憂鬱症病人且</span>/<span style=\"font-family:標楷體;\">或有自殺傾向者</span> (<span style=\"font-family:標楷體;\">請參見第</span>5.1<span style=\"font-family:標楷體;\">及</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "4\n禁忌\n• 曾有對天然或重組interferon beta或其他段落1.2所列賦形劑成份過敏者。 • 目前有嚴重憂鬱症病人且/或有自殺傾向者 (請參見第5.1及8節)。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "病人應被告知可能發生十分常見的副作用，包括類似感冒的症狀(請參見第8節)。這些症狀多在治療初期發生，持續治療後即會消失。 血栓性微血管病變(Thrombotic microangiopathy, TMA) 已有使用interferon beta藥品發生血栓性微血管病變的案例之報告，如血栓性血小板減少性紫斑症(Thrombotic Thrombocytopenic Purpura, TTP)或溶血性尿毒症候群(Haemolytic Uremic Syndrome, HUS)，包含死亡個案。前述案例的通報來自治療期間不同時間點，且可能在開始使用interferon beta治療後的數週至數年後發生。早期的臨床表徵包含血小板減少症、新發生的高血壓、發燒、中樞神經系統症狀(如精神錯亂，輕癱)以及腎功能受損。若觀察到有TMA的臨床表徵，建議進一步檢測血小板濃度、血清乳酸脫氫酶(LDH)、血液抹片的破碎狀紅血球(schistocytes)以及腎功能。如果經診斷為TMA，應立即治療(考慮進行血漿置換)並停止使用Rebif。 抑鬱與自殺企圖 曾患有或現在有憂鬱症的病人，特別是先前曾有自殺傾向者，在使用Rebif ®時應特別給予警告(請參閱第4節)。多發性硬化症病人或使用干擾素類藥品者一般會有情緒沮喪或自殺傾向增加的情況。若使用Rebif後如有憂鬱症或有自殺傾向等症狀發生時，應立即與醫師連絡。憂鬱症病人在使用Rebif ®時應小心監測，必要時可暫停Rebif ®的治療(請參見第4及8節)。 癲癇 對有癲癇病史的病人、正在使用抗癲癇藥物，尤其是癲癇未被抗癲癇藥物適當控制的病人，使用Rebif ®前應先予以警告(請參見第7及8節)。 心臟疾病 患有心臟疾病如心絞痛、充血性心衰竭、心律不整開始使用interferon beta-1a時需嚴密的監測。使用interferon beta-1a所引起的類似感冒症狀可能會對患有心臟疾病病人造成影響。 注射部位壞死 曾有注射部位壞死的報告(請參見第8節)。為防止壞死現象發生，建議： • 使用無菌的注射操作 • 每次改變不同的注射部位 病人的自我注射方式須定期檢查，尤其當有注射部位反應發生時。 當病人注射部位有皮膚損傷如紅腫或注射部位有滲出體液時，在繼續使用Rebif前須與醫師討論。若病人注射部位有多處的傷口，則必須暫時中斷Rebif的治療，直到傷口癒合為止。若只有一處傷口，且面積不大，則可繼續接受治療。 肝臟功能異常 在Rebif ®的臨床試驗中，沒有症狀的肝轉胺基酶數值上升是普遍的(特別是alanine aminotransferase, ALT)，約有1~3%病人的肝轉胺基酶數值高過正常值上限的五倍。由於無臨床症狀，應在治療前及開始治療後的第1、3、6個月定期監測ALT，往後仍應定期監測。如果ALT值高於正常值上限的五倍，則應考慮降低Rebif ®劑量，並在酵素數值回覆正常後逐步的調升劑量。曾有明顯肝臟疾病病史、有臨床症狀的進行性肝臟疾病、酒精濫用或血清ALT增高(>2.5倍正常值上限)者使用Rebif ®前即需先給予警告。如有黃疸或其他肝功能障礙的臨床症狀發生，則應停止使用Rebif ®。 Rebif ®與其他的interferon beta一樣，有引發嚴重肝損害，包括急性肝臟衰竭的可能性(請參見第8節)。大部分嚴重肝損害的案例都發生在治療初期的六個月內。目前對於引發此種少見的肝功能障礙臨床症狀的機轉尚未明朗，沒有已知的特殊危險因子與此副作用的發生相關聯。 檢驗數值異常 使用干擾素類藥品會造成檢驗數值改變。Rebif ®44 mcg的總發生率略高於Rebif ®22 mcg。除了多發性硬化症病人需監測檢驗數值外，建議在開始Rebif ®治療後，應在第1、3、6個月監測肝功能酵素指數、血球總數、血球分類計數、血小板數等血液檢查。之後沒有臨床症狀也應定期檢查。在剛開始使用Rebif ®44 mcg時，應增加上述實驗室檢查的頻率。 甲狀腺失調 使用Rebif ®病人偶爾會產生新的或惡化的甲狀腺功能異常。建議在治療前檢測甲狀腺功能，如有不正常情況則需每6~12個月定期檢查；如果治療前甲狀腺功能正常，則不需定期檢查，但一旦有臨床症狀發生時，則應進行檢測 (請參見第8節) 嚴重肝腎功能衰竭與骨髓抑制 患有嚴重腎臟或肝臟功能衰竭或骨髓抑制病人使用interferon beta-1a治療須特別小心使用。 中和性抗體 中和interferon beta-1a的抗體可能會在血清中出現。目前並不了解抗體於臨床上之意義。臨床資料顯示在治療24~48個月後，使用22 mcg及44 mcg Rebif ®劑量的病人，產生抗體的比例大約分別為24%及13%~14%。這些抗體會減低beta-2 microglobulin及neopterin對於interferon beta-1a的藥效作用。目前抗體與療效間的關係尚未建立，但抗體的產生會降低臨床療效與MRI結果。如果病人對Rebif ®治療反應不佳並已產生中和性抗體時，醫師需加以評估是否值得繼續使用Rebif ®。 由於鑑定抗體的方法及定義尚未統一，目前無法比較不同產品間的抗原性。 其他形式的多發性硬化症 無法行動的多發性硬化症病人使用療效與安全性報告較少。Rebif ®並未有在原發漸進型多發性硬化症病人之研究，所以這類病人不應使用。 賦形劑 鈉含量 本藥每一劑量含少於1 mmol鈉(23毫克)，幾近於不含鈉。 Benzyl alcohol 本藥含benzyl alcohol。Benzyl alcohol可能會導致過敏反應。 監測3歲以下孩童的呼吸症狀。 應告知懷孕或哺乳的病人有潛在的風險來自於賦形劑benzyl alcohol，可能會因為長時間的累積導致代謝性酸中毒。 應謹慎使用在肝或腎功能不全的病人，因為有潛在的風險來自於賦形劑benzyl alcohol，可能會因為長時間的累積導致代謝性酸中毒。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">病人應被告知可能發生十分常見的副作用，包括類似感冒的症狀</span>(<span style=\"font-family:標楷體;\">請參見第</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。這些症狀多在治療初期發生，持續治療後即會消失。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>血栓性微血管病變</u></span><u>(Thrombotic microangiopathy, TMA)</u></p><p><span style=\"font-family:標楷體;\">已有使用</span>interferon beta<span style=\"font-family:標楷體;\">藥品發生血栓性微血管病變的案例之報告，如血栓性血小板減少性紫斑症</span>(Thrombotic Thrombocytopenic Purpura, TTP)<span style=\"font-family:標楷體;\">或溶血性尿毒症候群</span>(Haemolytic Uremic Syndrome, HUS)<span style=\"font-family:標楷體;\">，包含死亡個案。前述案例的通報來自治療期間不同時間點，且可能在開始使用</span>interferon beta<span style=\"font-family:標楷體;\">治療後的數週至數年後發生。早期的臨床表徵包含血小板減少症、新發生的高血壓、發燒、中樞神經系統症狀</span>(<span style=\"font-family:標楷體;\">如精神錯亂，輕癱</span>)<span style=\"font-family:標楷體;\">以及腎功能受損。若觀察到有</span>TMA<span style=\"font-family:標楷體;\">的臨床表徵，建議進一步檢測血小板濃度、血清乳酸脫氫酶</span>(LDH)<span style=\"font-family:標楷體;\">、血液抹片的破碎狀紅血球</span>(schistocytes)<span style=\"font-family:標楷體;\">以及腎功能。如果經診斷為</span>TMA<span style=\"font-family:標楷體;\">，應立即治療</span>(<span style=\"font-family:標楷體;\">考慮進行血漿置換</span>)<span style=\"font-family:標楷體;\">並停止使用</span>Rebif<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>抑鬱與自殺企圖</u></span></p><p><span style=\"font-family:標楷體;\">曾患有或現在有憂鬱症的病人，特別是先前曾有自殺傾向者，在使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">時應特別給予警告</span>(<span style=\"font-family:標楷體;\">請參閱第</span>4<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。多發性硬化症病人或使用干擾素類藥品者一般會有情緒沮喪或自殺傾向增加的情況。若使用</span>Rebif<span style=\"font-family:標楷體;\">後如有憂鬱症或有自殺傾向等症狀發生時，應立即與醫師連絡。憂鬱症病人在使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">時應小心監測，必要時可暫停</span>Rebif ®<span style=\"font-family:標楷體;\">的治療</span>(<span style=\"font-family:標楷體;\">請參見第</span>4<span style=\"font-family:標楷體;\">及</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>癲癇</u></span></p><p><span style=\"font-family:標楷體;\">對有癲癇病史的病人、正在使用抗癲癇藥物，尤其是癲癇未被抗癲癇藥物適當控制的病人，使用</span>Rebif<sup> ®</sup><span style=\"font-family:標楷體;\">前應先予以警告</span>(<span style=\"font-family:標楷體;\">請參見第</span>7<span style=\"font-family:標楷體;\">及</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>心臟疾病</u></span></p><p><span style=\"font-family:標楷體;\">患有心臟疾病如心絞痛、充血性心衰竭、心律不整開始使用</span>interferon beta-1a<span style=\"font-family:標楷體;\">時需嚴密的監測。使用</span>interferon beta-1a<span style=\"font-family:標楷體;\">所引起的類似感冒症狀可能會對患有心臟疾病病人造成影響。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>注射部位壞死</u></span></p><p><span style=\"font-family:標楷體;\">曾有注射部位壞死的報告</span>(<span style=\"font-family:標楷體;\">請參見第</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。為防止壞死現象發生，建議：</span></p><p><span style=\"font-family:標楷體;\">•</span>&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">使用無菌的注射操作</span></p><p><span style=\"font-family:標楷體;\">•</span>&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">每次改變不同的注射部位</span></p><p><span style=\"font-family:標楷體;\">病人的自我注射方式須定期檢查，尤其當有注射部位反應發生時。</span></p><p><span style=\"font-family:標楷體;\">當病人注射部位有皮膚損傷如紅腫或注射部位有滲出體液時，在繼續使用</span>Rebif<span style=\"font-family:標楷體;\">前須與醫師討論。若病人注射部位有多處的傷口，則必須暫時中斷</span>Rebif<span style=\"font-family:標楷體;\">的治療，直到傷口癒合為止。若只有一處傷口，且面積不大，則可繼續接受治療。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>肝臟功能異常</u></span></p><p><span style=\"font-family:標楷體;\">在</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">的臨床試驗中，沒有症狀的肝轉胺基酶數值上升是普遍的</span>(<span style=\"font-family:標楷體;\">特別是</span>alanine aminotransferase, ALT)<span style=\"font-family:標楷體;\">，約有</span>1~3%<span style=\"font-family:標楷體;\">病人的肝轉胺基酶數值高過正常值上限的五倍。由於無臨床症狀，應在治療前及開始治療後的第</span>1<span style=\"font-family:標楷體;\">、</span>3<span style=\"font-family:標楷體;\">、</span>6<span style=\"font-family:標楷體;\">個月定期監測</span>ALT<span style=\"font-family:標楷體;\">，往後仍應定期監測。如果</span>ALT<span style=\"font-family:標楷體;\">值高於正常值上限的五倍，則應考慮降低</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">劑量，並在酵素數值回覆正常後逐步的調升劑量。曾有明顯肝臟疾病病史、有臨床症狀的進行性肝臟疾病、酒精濫用或血清</span>ALT<span style=\"font-family:標楷體;\">增高</span>(&gt;2.5<span style=\"font-family:標楷體;\">倍正常值上限</span>)<span style=\"font-family:標楷體;\">者使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">前即需先給予警告。如有黃疸或其他肝功能障礙的臨床症狀發生，則應停止使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">。</span></p><p>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">與其他的</span>interferon beta<span style=\"font-family:標楷體;\">一樣，有引發嚴重肝損害，包括急性肝臟衰竭的可能性</span>(<span style=\"font-family:標楷體;\">請參見第</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。大部分嚴重肝損害的案例都發生在治療初期的六個月內。目前對於引發此種少見的肝功能障礙臨床症狀的機轉尚未明朗，沒有已知的特殊危險因子與此副作用的發生相關聯。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>檢驗數值異常</u></span></p><p><span style=\"font-family:標楷體;\">使用干擾素類藥品會造成檢驗數值改變。</span>Rebif <sup>®</sup>44 mcg<span style=\"font-family:標楷體;\">的總發生率略高於</span>Rebif <sup>®</sup>22 mcg<span style=\"font-family:標楷體;\">。除了多發性硬化症病人需監測檢驗數值外，建議在開始</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">治療後，應在第</span>1<span style=\"font-family:標楷體;\">、</span>3<span style=\"font-family:標楷體;\">、</span>6<span style=\"font-family:標楷體;\">個月監測肝功能酵素指數、血球總數、血球分類計數、血小板數等血液檢查。之後沒有臨床症狀也應定期檢查。在剛開始使用</span>Rebif <sup>®</sup>44 mcg<span style=\"font-family:標楷體;\">時，應增加上述實驗室檢查的頻率。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>甲狀腺失調</u></span></p><p><span style=\"font-family:標楷體;\">使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">病人偶爾會產生新的或惡化的甲狀腺功能異常。建議在治療前檢測甲狀腺功能，如有不正常情況則需每</span>6~12<span style=\"font-family:標楷體;\">個月定期檢查；如果治療前甲狀腺功能正常，則不需定期檢查，但一旦有臨床症狀發生時，則應進行檢測</span> (<span style=\"font-family:標楷體;\">請參見第</span>8<span style=\"font-family:標楷體;\">節</span>)</p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>嚴重肝腎功能衰竭與骨髓抑制</u></span></p><p><span style=\"font-family:標楷體;\">患有嚴重腎臟或肝臟功能衰竭或骨髓抑制病人使用</span>interferon beta-1a<span style=\"font-family:標楷體;\">治療須特別小心使用。</span></p><p><span style=\"font-family:標楷體;\"><u>中和性抗體</u></span></p><p><span style=\"font-family:標楷體;\">中和</span>interferon beta-1a<span style=\"font-family:標楷體;\">的抗體可能會在血清中出現。目前並不了解抗體於臨床上之意義。臨床資料顯示在治療</span>24~48<span style=\"font-family:標楷體;\">個月後，使用</span>22 mcg<span style=\"font-family:標楷體;\">及</span>44 mcg Rebif <sup>®</sup><span style=\"font-family:標楷體;\">劑量的病人，產生抗體的比例大約分別為</span>24%<span style=\"font-family:標楷體;\">及</span>13%~14%<span style=\"font-family:標楷體;\">。這些抗體會減低</span>beta-2 microglobulin<span style=\"font-family:標楷體;\">及</span>neopterin<span style=\"font-family:標楷體;\">對於</span>interferon beta-1a<span style=\"font-family:標楷體;\">的藥效作用。目前抗體與療效間的關係尚未建立，但抗體的產生會降低臨床療效與</span>MRI<span style=\"font-family:標楷體;\">結果。如果病人對</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">治療反應不佳並已產生中和性抗體時，醫師需加以評估是否值得繼續使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">由於鑑定抗體的方法及定義尚未統一，目前無法比較不同產品間的抗原性。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>其他形式的多發性硬化症</u></span></p><p><span style=\"font-family:標楷體;\">無法行動的多發性硬化症病人使用療效與安全性報告較少。</span>Rebif ®<span style=\"font-family:標楷體;\">並未有在原發漸進型多發性硬化症病人之研究，所以這類病人不應使用。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>賦形劑</u></span></p><p><span style=\"font-family:標楷體;\">鈉含量</span></p><p><span style=\"font-family:標楷體;\">本藥每一劑量含少於</span>1 mmol<span style=\"font-family:標楷體;\">鈉</span>(23<span style=\"font-family:標楷體;\">毫克</span>)<span style=\"font-family:標楷體;\">，幾近於不含鈉。</span></p><p>&nbsp;</p><p><u>Benzyl alcohol</u></p><p><span style=\"font-family:標楷體;\">本藥含</span>benzyl alcohol<span style=\"font-family:標楷體;\">。</span>Benzyl alcohol<span style=\"font-family:標楷體;\">可能會導致過敏反應。</span></p><p><span style=\"font-family:標楷體;\">監測</span>3<span style=\"font-family:標楷體;\">歲以下孩童的呼吸症狀。</span></p><p><span style=\"font-family:標楷體;\">應告知懷孕或哺乳的病人有潛在的風險來自於賦形劑</span>benzyl alcohol<span style=\"font-family:標楷體;\">，可能會因為長時間的累積導致代謝性酸中毒。</span></p><p><span style=\"font-family:標楷體;\">應謹慎使用在肝或腎功能不全的病人，因為有潛在的風險來自於賦形劑</span>benzyl alcohol<span style=\"font-family:標楷體;\">，可能會因為長時間的累積導致代謝性酸中毒。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n病人應被告知可能發生十分常見的副作用，包括類似感冒的症狀(請參見第8節)。這些症狀多在治療初期發生，持續治療後即會消失。 血栓性微血管病變(Thrombotic microangiopathy, TMA) 已有使用interferon beta藥品發生血栓性微血管病變的案例之報告，如血栓性血小板減少性紫斑症(Thrombotic Thrombocytopenic Purpura, TTP)或溶血性尿毒症候群(Haemolytic Uremic Syndrome, HUS)，包含死亡個案。前述案例的通報來自治療期間不同時間點，且可能在開始使用interferon beta治療後的數週至數年後發生。早期的臨床表徵包含血小板減少症、新發生的高血壓、發燒、中樞神經系統症狀(如精神錯亂，輕癱)以及腎功能受損。若觀察到有TMA的臨床表徵，建議進一步檢測血小板濃度、血清乳酸脫氫酶(LDH)、血液抹片的破碎狀紅血球(schistocytes)以及腎功能。如果經診斷為TMA，應立即治療(考慮進行血漿置換)並停止使用Rebif。 抑鬱與自殺企圖 曾患有或現在有憂鬱症的病人，特別是先前曾有自殺傾向者，在使用Rebif ®時應特別給予警告(請參閱第4節)。多發性硬化症病人或使用干擾素類藥品者一般會有情緒沮喪或自殺傾向增加的情況。若使用Rebif後如有憂鬱症或有自殺傾向等症狀發生時，應立即與醫師連絡。憂鬱症病人在使用Rebif ®時應小心監測，必要時可暫停Rebif ®的治療(請參見第4及8節)。 癲癇 對有癲癇病史的病人、正在使用抗癲癇藥物，尤其是癲癇未被抗癲癇藥物適當控制的病人，使用Rebif ®前應先予以警告(請參見第7及8節)。 心臟疾病 患有心臟疾病如心絞痛、充血性心衰竭、心律不整開始使用interferon beta-1a時需嚴密的監測。使用interferon beta-1a所引起的類似感冒症狀可能會對患有心臟疾病病人造成影響。 注射部位壞死 曾有注射部位壞死的報告(請參見第8節)。為防止壞死現象發生，建議： • 使用無菌的注射操作 • 每次改變不同的注射部位 病人的自我注射方式須定期檢查，尤其當有注射部位反應發生時。 當病人注射部位有皮膚損傷如紅腫或注射部位有滲出體液時，在繼續使用Rebif前須與醫師討論。若病人注射部位有多處的傷口，則必須暫時中斷Rebif的治療，直到傷口癒合為止。若只有一處傷口，且面積不大，則可繼續接受治療。 肝臟功能異常 在Rebif ®的臨床試驗中，沒有症狀的肝轉胺基酶數值上升是普遍的(特別是alanine aminotransferase, ALT)，約有1~3%病人的肝轉胺基酶數值高過正常值上限的五倍。由於無臨床症狀，應在治療前及開始治療後的第1、3、6個月定期監測ALT，往後仍應定期監測。如果ALT值高於正常值上限的五倍，則應考慮降低Rebif ®劑量，並在酵素數值回覆正常後逐步的調升劑量。曾有明顯肝臟疾病病史、有臨床症狀的進行性肝臟疾病、酒精濫用或血清ALT增高(>2.5倍正常值上限)者使用Rebif ®前即需先給予警告。如有黃疸或其他肝功能障礙的臨床症狀發生，則應停止使用Rebif ®。 Rebif ®與其他的interferon beta一樣，有引發嚴重肝損害，包括急性肝臟衰竭的可能性(請參見第8節)。大部分嚴重肝損害的案例都發生在治療初期的六個月內。目前對於引發此種少見的肝功能障礙臨床症狀的機轉尚未明朗，沒有已知的特殊危險因子與此副作用的發生相關聯。 檢驗數值異常 使用干擾素類藥品會造成檢驗數值改變。Rebif ®44 mcg的總發生率略高於Rebif ®22 mcg。除了多發性硬化症病人需監測檢驗數值外，建議在開始Rebif ®治療後，應在第1、3、6個月監測肝功能酵素指數、血球總數、血球分類計數、血小板數等血液檢查。之後沒有臨床症狀也應定期檢查。在剛開始使用Rebif ®44 mcg時，應增加上述實驗室檢查的頻率。 甲狀腺失調 使用Rebif ®病人偶爾會產生新的或惡化的甲狀腺功能異常。建議在治療前檢測甲狀腺功能，如有不正常情況則需每6~12個月定期檢查；如果治療前甲狀腺功能正常，則不需定期檢查，但一旦有臨床症狀發生時，則應進行檢測 (請參見第8節) 嚴重肝腎功能衰竭與骨髓抑制 患有嚴重腎臟或肝臟功能衰竭或骨髓抑制病人使用interferon beta-1a治療須特別小心使用。 中和性抗體 中和interferon beta-1a的抗體可能會在血清中出現。目前並不了解抗體於臨床上之意義。臨床資料顯示在治療24~48個月後，使用22 mcg及44 mcg Rebif ®劑量的病人，產生抗體的比例大約分別為24%及13%~14%。這些抗體會減低beta-2 microglobulin及neopterin對於interferon beta-1a的藥效作用。目前抗體與療效間的關係尚未建立，但抗體的產生會降低臨床療效與MRI結果。如果病人對Rebif ®治療反應不佳並已產生中和性抗體時，醫師需加以評估是否值得繼續使用Rebif ®。 由於鑑定抗體的方法及定義尚未統一，目前無法比較不同產品間的抗原性。 其他形式的多發性硬化症 無法行動的多發性硬化症病人使用療效與安全性報告較少。Rebif ®並未有在原發漸進型多發性硬化症病人之研究，所以這類病人不應使用。 賦形劑 鈉含量 本藥每一劑量含少於1 mmol鈉(23毫克)，幾近於不含鈉。 Benzyl alcohol 本藥含benzyl alcohol。Benzyl alcohol可能會導致過敏反應。 監測3歲以下孩童的呼吸症狀。 應告知懷孕或哺乳的病人有潛在的風險來自於賦形劑benzyl alcohol，可能會因為長時間的累積導致代謝性酸中毒。 應謹慎使用在肝或腎功能不全的病人，因為有潛在的風險來自於賦形劑benzyl alcohol，可能會因為長時間的累積導致代謝性酸中毒。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "因使用interferon beta造成的中樞神經系統方面副作用(例如:眩暈)可能會影響駕車及機械操作的能力(請參見第8節)。",
+          "content_html": "<p style=\"margin-left:1.0cm;\"><span style=\"font-family:標楷體;\">因使用</span>interferon beta<span style=\"font-family:標楷體;\">造成的中樞神經系統方面副作用</span>(<span style=\"font-family:標楷體;\">例如</span>:<span style=\"font-family:標楷體;\">眩暈</span>)<span style=\"font-family:標楷體;\">可能會影響駕車及機械操作的能力</span>(<span style=\"font-family:標楷體;\">請參見第</span>8<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "5.3\n操作機械能力\n因使用interferon beta造成的中樞神經系統方面副作用(例如:眩暈)可能會影響駕車及機械操作的能力(請參見第8節)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "來自登錄研究及上市後經驗的大量數據（超過1000個懷孕結果）指出，於受孕前或妊娠第一期時暴露於interferon beta，其發生重大先天性異常的風險並未增加。然而，由於在收集此數據時interferon beta尚屬懷孕期間之使用禁忌，在檢測出/或確認懷孕後可能會中斷治療，因此無法確定在妊娠第一期的暴露時間，而暴露於妊娠第二期及第三期的經驗非常有限。 依據動物試驗數據（請參閱10.3），自發性流產的風險可能會增加。然而依據目前可獲得的數據，尚無法充分評估暴露於interferon beta的孕婦其自發性流產的風險，但目前該數據並未顯示有增加的風險。 如有臨床需要，可以在懷孕期間考慮使用Rebif。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">來自登錄研究及上市後經驗的大量數據（超過</span>1000<span style=\"font-family:標楷體;\">個懷孕結果）指出，於受孕前或妊娠第一期時暴露於</span>interferon beta<span style=\"font-family:標楷體;\">，其發生重大先天性異常的風險並未增加。然而，由於在收集此數據時</span>interferon beta<span style=\"font-family:標楷體;\">尚屬懷孕期間之使用禁忌，在檢測出</span>/<span style=\"font-family:標楷體;\">或確認懷孕後可能會中斷治療，因此無法確定在妊娠第一期的暴露時間，而暴露於妊娠第二期及第三期的經驗非常有限。</span></p><p><span style=\"font-family:標楷體;\">依據動物試驗數據（請參閱</span>10.3<span style=\"font-family:標楷體;\">），自發性流產的風險可能會增加。然而依據目前可獲得的數據，尚無法充分評估暴露於</span>interferon beta<span style=\"font-family:標楷體;\">的孕婦其自發性流產的風險，但目前該數據並未顯示有增加的風險。</span></p><p><span style=\"font-family:標楷體;\">如有臨床需要，可以在懷孕期間考慮使用</span>Rebif<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "6.1\n懷孕\n來自登錄研究及上市後經驗的大量數據（超過1000個懷孕結果）指出，於受孕前或妊娠第一期時暴露於interferon beta，其發生重大先天性異常的風險並未增加。然而，由於在收集此數據時interferon beta尚屬懷孕期間之使用禁忌，在檢測出/或確認懷孕後可能會中斷治療，因此無法確定在妊娠第一期的暴露時間，而暴露於妊娠第二期及第三期的經驗非常有限。 依據動物試驗數據（請參閱10.3），自發性流產的風險可能會增加。然而依據目前可獲得的數據，尚無法充分評估暴露於interferon beta的孕婦其自發性流產的風險，但目前該數據並未顯示有增加的風險。 如有臨床需要，可以在懷孕期間考慮使用Rebif。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "關於interferon beta-1a是否會分佈到母乳中，目前可獲得的資訊有限。若一併考量interferon beta的化學/生理學特性，則乳汁中分泌的interferon beta-1a濃度應很低。 哺乳的效益及可能風險應與病人對於interferon beta-1a治療的臨床需求一併考量。",
+          "content_html": "<p style=\"margin-left:32.05pt;\"><span style=\"font-family:標楷體;\">關於</span>interferon beta-1a<span style=\"font-family:標楷體;\">是否會分佈到母乳中，目前可獲得的資訊有限。若一併考量</span>interferon beta<span style=\"font-family:標楷體;\">的化學</span>/<span style=\"font-family:標楷體;\">生理學特性，則乳汁中分泌的</span>interferon beta-1a<span style=\"font-family:標楷體;\">濃度應很低。</span></p><p style=\"margin-left:32.05pt;\"><span style=\"font-family:標楷體;\">哺乳的效益及可能風險應與病人對於</span>interferon beta-1a<span style=\"font-family:標楷體;\">治療的臨床需求一併考量。</span></p>",
+          "search_text": "6.2\n哺乳\n關於interferon beta-1a是否會分佈到母乳中，目前可獲得的資訊有限。若一併考量interferon beta的化學/生理學特性，則乳汁中分泌的interferon beta-1a濃度應很低。 哺乳的效益及可能風險應與病人對於interferon beta-1a治療的臨床需求一併考量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "Rebif對生育能力的影響尚未被研究。",
+          "content_html": "<p>Rebif<span style=\"font-family:標楷體;\">對生育能力的影響尚未被研究。</span></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\nRebif對生育能力的影響尚未被研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "未在人體進行interferon beta-1a與其他藥物交互反應之研究。 在人體及動物體內，interferon類藥物會降低cytochrome P450-dependent liver enzymes活性，若Rebif ®併用治療範圍狹窄且主要需經肝臟cytochrome P450系統代謝的藥品，如抗癲癇或某些類別的抗憂鬱藥品，則需小心使用。 有關Rebif ®與皮質類固醇或促腎上腺皮質激素(adrenocorticotropic hormone, ATCH)類藥物的交互反應尚未完全了解。臨床研究建議，多發性硬化症病人復發時，應同時使用Rebif與皮質類固醇或ACTH藥物。",
+          "content_html": "<p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">未在人體進行</span>interferon beta-1a<span style=\"font-family:標楷體;\">與其他藥物交互反應之研究。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">在人體及動物體內，</span>interferon<span style=\"font-family:標楷體;\">類藥物會降低</span>cytochrome P450-dependent liver enzymes<span style=\"font-family:標楷體;\">活性，若</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">併用治療範圍狹窄且主要需經肝臟</span>cytochrome P450<span style=\"font-family:標楷體;\">系統代謝的藥品，如抗癲癇或某些類別的抗憂鬱藥品，則需小心使用。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">有關</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">與皮質類固醇或促腎上腺皮質激素</span>(adrenocorticotropic hormone, ATCH)<span style=\"font-family:標楷體;\">類藥物的交互反應尚未完全了解。臨床研究建議，多發性硬化症病人復發時，應同時使用</span>Rebif<span style=\"font-family:標楷體;\">與皮質類固醇或</span>ACTH<span style=\"font-family:標楷體;\">藥物。</span></p>",
+          "search_text": "7\n交互作用\n未在人體進行interferon beta-1a與其他藥物交互反應之研究。 在人體及動物體內，interferon類藥物會降低cytochrome P450-dependent liver enzymes活性，若Rebif ®併用治療範圍狹窄且主要需經肝臟cytochrome P450系統代謝的藥品，如抗癲癇或某些類別的抗憂鬱藥品，則需小心使用。 有關Rebif ®與皮質類固醇或促腎上腺皮質激素(adrenocorticotropic hormone, ATCH)類藥物的交互反應尚未完全了解。臨床研究建議，多發性硬化症病人復發時，應同時使用Rebif與皮質類固醇或ACTH藥物。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "安全性的概述 類感冒症狀是使用Rebif ®治療發生頻率最高的不良反應，類感冒症狀於初始治療時最為顯著，於持續治療時，其發生率會降低；使用Rebif ®治療的初期六個月內，預期大約有70%的病人發生典型的類感冒症狀。約有30%的病人也會發生注射部位的反應，大部分症狀為輕微發炎或發紅反應。臨床上無症狀之肝功能指數上升、白血球血液檢驗數值下降也是常見的。 大部份因interferon beta-1a治療而產生的不良反應通常是輕微且可復原，降低治療劑量後副作用通常可很快緩解。有時為避免嚴重或長期性的副作用，醫師會建議暫時降低治療劑量或停藥。 不良反應列表 呈現之不良反應是由臨床研究或上市後報告資訊所得(*號表示不良反應來自上市後藥品監視資料)。以下為頻率分類的定義：十分常見的(≥ 1/10)；常見的(≥1/100 ~ <1/10)；不常見的(≥1/1,000 ~ <1/100)；罕見的(≥1/10,000 ~ <1/1,000)；非常罕見的(<1/10,000)；頻率未知(無法由現有資料評估)。 血液及淋巴系統失調 十分常見的 嗜中性白血球低下、淋巴球低下、白血球低下、血小板低下、貧血 罕見的 血栓性微血管病變包含血栓性血小板減少性紫斑症/溶血性尿毒症候群*、全血球減少* 內分泌系統失調 不常見的 甲狀腺機能異常、最常以甲狀腺功能低下或甲狀腺功能亢進表現 免疫系統失調 罕見的 過敏性反應* 肝膽失調 十分常見的 無症狀轉胺基酶上升 常見的 嚴重轉胺基酶上升 不常見的 伴隨或不伴隨黃疸之肝炎* 罕見的 肝衰竭* (請參閱5.1)、自體免疫性肝炎* 精神失調 常見的 抑鬱、失眠 罕見的 自殺意圖* 神經系統失調 十分常見的 頭痛 不常見的 癲癇* 頻率未知的 暫時性神經系統症狀(例如：感覺減退、肌肉痙攣、感覺異常、行走不便、肌肉骨骼僵硬)類似多發性硬化症發作* 眼失調 不常見的 視網膜血管疾病(例如視網膜病變、棉絮狀斑及視網膜動脈或靜脈阻塞)* 血管失調 不常見的 血管栓塞事件* 呼吸、胸腔和縱膈失調 不常見的 呼吸困難* 胃腸失調 常見的 腹瀉、嘔吐、噁心 皮膚及皮下組織失調 常見的 皮膚搔癢、皮疹、紅斑皮疹、斑狀丘疹、脫髮* 不常見的 蕁麻疹* 罕見的 Quincke水腫(血管性水腫)*、多形性紅斑*、類似多形性紅斑的皮膚反應*、Stevens Johnson症候群* 肌肉骨骼及結締組織失調 常見的 肌肉疼痛、關節痛 罕見的 藥物性紅斑性狼瘡* 全身性失調及注射部位情形 十分常見的 注射部位發炎、注射部位反應、類感冒症狀 常見的 注射部位疼痛、疲倦、冷顫、發燒 不常見的 注射部位壞死、注射部位硬塊、注射部位膿瘡、注射部位感染*、出汗增加* 罕見的 注射部位蜂窩性組織炎* 小兒族群 在兒童或青少年尚未執行正式的臨床試驗或藥物動力學研究。但有限的文獻資料指出青少年(12-16歲)接受皮下注射Rebif 22 mcg每週三次的安全性與成人相似。 藥物類別效果 使用干擾素可能發生的其他副作用包括：缺乏食慾、頭暈、焦慮、心律不整、血管擴張、心悸、月經過多和子宮出血等。 在interferon beta治療期間可能會增加自體抗體的形成。 藥品不良反應的通報 藥品核准上市後的不良反應通報是很重要的。它讓藥品的風險效益得以持續監控。請依國內「嚴重藥物不良反應通報辦法」辦理。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>安全性的概述</u></span></p><p style=\"margin-left:21.25pt;text-align:justify;\"><span style=\"font-family:標楷體;\">類感冒症狀是使用</span>Rebif<sup> ®</sup><span style=\"font-family:標楷體;\">治療發生頻率最高的不良反應，類感冒症狀於初始治療時最為顯著，於持續治療時，其發生率會降低；使用</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">治療的初期六個月內，預期大約有</span>70%<span style=\"font-family:標楷體;\">的病人發生典型的類感冒症狀。約有</span>30%<span style=\"font-family:標楷體;\">的病人也會發生注射部位的反應，大部分症狀為輕微發炎或發紅反應。臨床上無症狀之肝功能指數上升、白血球血液檢驗數值下降也是常見的。</span></p><p style=\"margin-left:21.25pt;text-align:justify;\"><span style=\"font-family:標楷體;\">大部份因</span>interferon beta-1a<span style=\"font-family:標楷體;\">治療而產生的不良反應通常是輕微且可復原，降低治療劑量後副作用通常可很快緩解。有時為避免嚴重或長期性的副作用，醫師會建議暫時降低治療劑量或停藥。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>不良反應列表</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">呈現之不良反應是由臨床研究或上市後報告資訊所得</span>(*<span style=\"font-family:標楷體;\">號表示不良反應來自上市後藥品監視資料</span>)<span style=\"font-family:標楷體;\">。以下為頻率分類的定義：十分常見的</span>(≥ 1/10)<span style=\"font-family:標楷體;\">；常見的</span>(≥1/100 ~ &lt;1/10)<span style=\"font-family:標楷體;\">；不常見的</span>(≥1/1,000 ~ &lt;1/100)<span style=\"font-family:標楷體;\">；罕見的</span>(≥1/10,000 ~ &lt;1/1,000)<span style=\"font-family:標楷體;\">；非常罕見的</span>(&lt;1/10,000)<span style=\"font-family:標楷體;\">；頻率未知</span>(<span style=\"font-family:標楷體;\">無法由現有資料評估</span>)<span style=\"font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>血液及淋巴系統失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">十分常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">嗜中性白血球低下、淋巴球低下、白血球低下、血小板低下、貧血</span></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">血栓性微血管病變包含血栓性血小板減少性紫斑症</span>/<span style=\"font-family:標楷體;\">溶血性尿毒症候群</span>*<span style=\"font-family:標楷體;\">、全血球減少</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>內分泌系統失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">甲狀腺機能異常、最常以甲狀腺功能低下或甲狀腺功能亢進表現</span></p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>免疫系統失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">過敏性反應</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>肝膽失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">十分常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">無症狀轉胺基酶上升</span></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">嚴重轉胺基酶上升</span></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">伴隨或不伴隨黃疸之肝炎</span>*</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">肝衰竭</span>* (<span style=\"font-family:標楷體;\">請參閱</span>5.1)<span style=\"font-family:標楷體;\">、自體免疫性肝炎</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>精神失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">抑鬱、失眠</span></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">自殺意圖</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>神經系統失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">十分常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">頭痛</span></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">癲癇</span>*</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">頻率未知的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">暫時性神經系統症狀</span>(<span style=\"font-family:標楷體;\">例如：感覺減退、肌肉痙攣、感覺異常、行走不便、肌肉骨骼僵硬</span>)<span style=\"font-family:標楷體;\">類似多發性硬化症發作</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>眼失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">視網膜血管疾病</span>(<span style=\"font-family:標楷體;\">例如視網膜病變、棉絮狀斑及視網膜動脈或靜脈阻塞</span>)*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>血管失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"height:10.0pt;padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"height:10.0pt;padding:0cm 5.4pt;vertical-align:top;width:393.6pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">血管栓塞事件</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>呼吸、胸腔和縱膈失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">呼吸困難</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>胃腸失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">腹瀉、嘔吐、噁心</span></p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>皮膚及皮下組織失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">皮膚搔癢、皮疹、紅斑皮疹、斑狀丘疹、脫髮</span>*</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">蕁麻疹</span>*</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\">Quincke<span style=\"font-family:標楷體;\">水腫</span>(<span style=\"font-family:標楷體;\">血管性水腫</span>)*<span style=\"font-family:標楷體;\">、多形性紅斑</span>*<span style=\"font-family:標楷體;\">、類似多形性紅斑的皮膚反應</span>*<span style=\"font-family:標楷體;\">、</span>Stevens Johnson<span style=\"font-family:標楷體;\">症候群</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>肌肉骨骼及結締組織失調</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">常見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">肌肉疼痛、關節痛</span></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:120.5pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:394.05pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">藥物性紅斑性狼瘡</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>全身性失調及注射部位情形</u></span></p><figure class=\"table\"><table><tbody><tr><td style=\"height:6.15pt;padding:0cm 5.4pt;vertical-align:top;width:120.6pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">十分常見的</span></p></td><td style=\"height:6.15pt;padding:0cm 5.4pt;vertical-align:top;width:394.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">注射部位發炎、注射部位反應、類感冒症狀</span></p></td></tr><tr><td style=\"height:4.1pt;padding:0cm 5.4pt;vertical-align:top;width:120.6pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">常見的</span></p></td><td style=\"height:4.1pt;padding:0cm 5.4pt;vertical-align:top;width:394.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">注射部位疼痛、疲倦、冷顫、發燒</span></p></td></tr><tr><td style=\"height:8.2pt;padding:0cm 5.4pt;vertical-align:top;width:120.6pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">不常見的</span></p></td><td style=\"height:8.2pt;padding:0cm 5.4pt;vertical-align:top;width:394.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">注射部位壞死、注射部位硬塊、注射部位膿瘡、注射部位感染</span>*<span style=\"font-family:標楷體;\">、出汗增加</span>*</p></td></tr><tr><td style=\"height:4.1pt;padding:0cm 5.4pt;vertical-align:top;width:120.6pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">罕見的</span></p></td><td style=\"height:4.1pt;padding:0cm 5.4pt;vertical-align:top;width:394.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">注射部位蜂窩性組織炎</span>*</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>小兒族群</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">在兒童或青少年尚未執行正式的臨床試驗或藥物動力學研究。但有限的文獻資料指出青少年</span>(12-16<span style=\"font-family:標楷體;\">歲</span>)<span style=\"font-family:標楷體;\">接受皮下注射</span>Rebif 22 mcg<span style=\"font-family:標楷體;\">每週三次的安全性與成人相似。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>藥物類別效果</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">使用干擾素可能發生的其他副作用包括：缺乏食慾、頭暈、焦慮、心律不整、血管擴張、心悸、月經過多和子宮出血等。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">在</span>interferon beta<span style=\"font-family:標楷體;\">治療期間可能會增加自體抗體的形成。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>藥品不良反應的通報</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">藥品核准上市後的不良反應通報是很重要的。它讓藥品的風險效益得以持續監控。請依國內「嚴重藥物不良反應通報辦法」辦理。</span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n安全性的概述 類感冒症狀是使用Rebif ®治療發生頻率最高的不良反應，類感冒症狀於初始治療時最為顯著，於持續治療時，其發生率會降低；使用Rebif ®治療的初期六個月內，預期大約有70%的病人發生典型的類感冒症狀。約有30%的病人也會發生注射部位的反應，大部分症狀為輕微發炎或發紅反應。臨床上無症狀之肝功能指數上升、白血球血液檢驗數值下降也是常見的。 大部份因interferon beta-1a治療而產生的不良反應通常是輕微且可復原，降低治療劑量後副作用通常可很快緩解。有時為避免嚴重或長期性的副作用，醫師會建議暫時降低治療劑量或停藥。 不良反應列表 呈現之不良反應是由臨床研究或上市後報告資訊所得(*號表示不良反應來自上市後藥品監視資料)。以下為頻率分類的定義：十分常見的(≥ 1/10)；常見的(≥1/100 ~ <1/10)；不常見的(≥1/1,000 ~ <1/100)；罕見的(≥1/10,000 ~ <1/1,000)；非常罕見的(<1/10,000)；頻率未知(無法由現有資料評估)。 血液及淋巴系統失調 十分常見的 嗜中性白血球低下、淋巴球低下、白血球低下、血小板低下、貧血 罕見的 血栓性微血管病變包含血栓性血小板減少性紫斑症/溶血性尿毒症候群*、全血球減少* 內分泌系統失調 不常見的 甲狀腺機能異常、最常以甲狀腺功能低下或甲狀腺功能亢進表現 免疫系統失調 罕見的 過敏性反應* 肝膽失調 十分常見的 無症狀轉胺基酶上升 常見的 嚴重轉胺基酶上升 不常見的 伴隨或不伴隨黃疸之肝炎* 罕見的 肝衰竭* (請參閱5.1)、自體免疫性肝炎* 精神失調 常見的 抑鬱、失眠 罕見的 自殺意圖* 神經系統失調 十分常見的 頭痛 不常見的 癲癇* 頻率未知的 暫時性神經系統症狀(例如：感覺減退、肌肉痙攣、感覺異常、行走不便、肌肉骨骼僵硬)類似多發性硬化症發作* 眼失調 不常見的 視網膜血管疾病(例如視網膜病變、棉絮狀斑及視網膜動脈或靜脈阻塞)* 血管失調 不常見的 血管栓塞事件* 呼吸、胸腔和縱膈失調 不常見的 呼吸困難* 胃腸失調 常見的 腹瀉、嘔吐、噁心 皮膚及皮下組織失調 常見的 皮膚搔癢、皮疹、紅斑皮疹、斑狀丘疹、脫髮* 不常見的 蕁麻疹* 罕見的 Quincke水腫(血管性水腫)*、多形性紅斑*、類似多形性紅斑的皮膚反應*、Stevens Johnson症候群* 肌肉骨骼及結締組織失調 常見的 肌肉疼痛、關節痛 罕見的 藥物性紅斑性狼瘡* 全身性失調及注射部位情形 十分常見的 注射部位發炎、注射部位反應、類感冒症狀 常見的 注射部位疼痛、疲倦、冷顫、發燒 不常見的 注射部位壞死、注射部位硬塊、注射部位膿瘡、注射部位感染*、出汗增加* 罕見的 注射部位蜂窩性組織炎* 小兒族群 在兒童或青少年尚未執行正式的臨床試驗或藥物動力學研究。但有限的文獻資料指出青少年(12-16歲)接受皮下注射Rebif 22 mcg每週三次的安全性與成人相似。 藥物類別效果 使用干擾素可能發生的其他副作用包括：缺乏食慾、頭暈、焦慮、心律不整、血管擴張、心悸、月經過多和子宮出血等。 在interferon beta治療期間可能會增加自體抗體的形成。 藥品不良反應的通報 藥品核准上市後的不良反應通報是很重要的。它讓藥品的風險效益得以持續監控。請依國內「嚴重藥物不良反應通報辦法」辦理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "有使用過量情況發生，病人應住院接受適當的支持性治療及監測。",
+          "content_html": "<p style=\"margin-left:21.25pt;text-align:justify;\"><span style=\"font-family:標楷體;\">有使用過量情況發生，病人應住院接受適當的支持性治療及監測。</span></p>",
+          "search_text": "9\n過量\n有使用過量情況發生，病人應住院接受適當的支持性治療及監測。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Rebif作用在多發性硬化症的真正機制仍在研究探討中。",
+          "content_html": "<p style=\"margin-left:0cm;\">Rebif<span style=\"font-family:標楷體;\">作用在多發性硬化症的真正機制仍在研究探討中。</span></p>",
+          "search_text": "10.1\n作用機轉\nRebif作用在多發性硬化症的真正機制仍在研究探討中。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥理治療分類：Immunostimulants, Interferons, ATC code: L03AB07。 干擾素包括數種醣化蛋白質，具免疫調節、抗病毒，抗增生等作用。 Rebif ® (interferon beta-1a)與人體interferon beta內生性胺基酸序列相同。它是經由哺乳動物細胞(中國倉鼠卵巢細胞)製造產生，所以具有與天然蛋白質相同的醣基化結構。 藥效學的顯著改變和Rebif的投與方式是相關聯的。在投與單一劑量後，細胞內和血清中2', 5'-OAS synthetase的活性和血清中microglobulin、neopterin的濃度會在24小時內增加，並且在2天內開始下降。肌肉和皮下投與會產生完整的加成反應。在每48小時一次，共四次皮下投與之後，這些生物反應指標仍然會上升並且沒有耐受性的徵狀發生。 健康受試者在皮下注射interferon beta-1a後會誘導生物反應指標(如2', 5-OAS activity、neopterin與beta-2 microglobulin)之生成。單劑量皮下注射後neopterin、beta-2 microglobulin、與2', 5'-OAS達到最高濃度的時間為24~48小時、MX1為12小時、OAS1與OAS2基因表現為24小時。在第一次與第六次給藥後，大多數這些指標在達到最高濃度的值與時間相似。 反覆發作型多發性硬化症 Rebif ®的安全性及效用已在患有反覆發作型多發性硬化症病人使用11～44 mcg (相當於3~12 MIU) 每週三次皮下注射的研究結果中證實。在核准的劑量(Rebif ®22 mcg及Rebif ®44 mcg)下，Rebif ®可降低前兩年至少有兩次發作且開始治療時EDSS值介於0~5.0病人的復發次數(兩年期間降低30%)及嚴重性。以三個月內EDSS增加一分以上作為行動不能進展的評估，Rebif ®22 mcg可將發生比例由安慰劑組的39%降為30%；Rebif ®44 mcg可降為27%。經過四年的治療，與使用安慰劑兩年後改用22 mcg或44 mcg治療2年組的平均復發次數相較，Rebif ® 22 mcg可降低22%；Rebif ®44 mcg可降低29%。 續發漸進型多發性硬化症 續發性漸進型多發性硬化症(近兩年內具有行動不能進展的證據，EDSS介於3-6.5，8週內未有發作)的三年臨床試驗顯示，Rebif ®能有效降低復發次數約30%，而對於行動不能進展的延緩則無明顯效果。若將病人依進入試驗前兩年間有無復發紀錄分為兩組，則前兩年間無復發紀錄的病人對於行動不能進展的延緩並無明顯效果，但對於前兩年間有復發紀錄的病人，其對於行動不能進展的延緩能由安慰劑組的70%降至使用Rebif ®22 mcg、44 mcg的57%。應謹慎告知病人此不同的結果。 原發漸進型多發性硬化症 Rebif ®尚未針對原發性漸進型多發性硬化症病人進行研究，故不應使用於該類病人。 單一臨床癥狀疑似多發性硬化症 一項Rebif 用於疑似多發性硬化症造成的單一臨床脫髓鞘癥狀病患為期2年的對照臨床研究。在T2加權MRI掃描下，至少顯示有2個3 mm以上的臨床無症狀病變，其中至少一個橢圓形、或在腦室旁、或在天幕下的病患才納入研究。除了多發性硬化症以外，任何疾病能解釋病患癥象或症狀的情形者都會被排除納入研究。 病患隨機且雙盲地被分配至Rebif 44 mcg 每週三次、Rebif 44 mcg每週一次、或安慰劑組。在病患第二次臨床脫髓鞘發作且確診為多發性硬化症時，病患即解盲轉換至Rebif 44 mcg每週三次建議用量組別。 研究中投與Rebif 44 mcg每週三次與安慰劑的有效性結果比較如下： Parameter Statistics Treatment Treatment Comparison Rebif 44 mcg tiw versus Placebo Placebo (n=171) Rebif 44 mcg tiw* (n=171) Risk Reduction Cox’s Proportional Hazard Ratio [95% CI] Log-Rank p-value McDonald (2005) Conversion Number of events 144 106 51% 0.49 [0.38;0.64] <0.001 KM Estimate 85.8% 62.5% CDMS Conversion Number of events 60 33 52% 0.48 [0.31;0.73] <0.001 KM Estimate 37.5% 20.6% Mean CUA Lesions per Subject per Scan During the Double Blind Period Least Square Means (SE) 2.58 (0.30) 0.50 (0.06) 81% 0.19 [0.14;0.26] <0.001 * tiw – 每週三次 暫時對高風險病患並沒有一個完整的定義。然而有一個較保守且被接受的方法是初期掃描顯示至少有九個T2高信號病變且在一個月後的後續追蹤掃描也有至少一個T2或Gd-增強掃描到的新病變。在任何狀況下，被列為高風險的病患應接受治療。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥理治療分類：</span>Immunostimulants, Interferons, ATC code: L03AB07<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">干擾素包括數種醣化蛋白質，具免疫調節、抗病毒，抗增生等作用。</span></p><p style=\"margin-left:21.25pt;\">Rebif <sup>®</sup> (interferon beta-1a)<span style=\"font-family:標楷體;\">與人體</span>interferon beta<span style=\"font-family:標楷體;\">內生性胺基酸序列相同。它是經由哺乳動物細胞</span>(<span style=\"font-family:標楷體;\">中國倉鼠卵巢細胞</span>)<span style=\"font-family:標楷體;\">製造產生，所以具有與天然蛋白質相同的醣基化結構。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">藥效學的顯著改變和</span>Rebif<span style=\"font-family:標楷體;\">的投與方式是相關聯的。在投與單一劑量後，細胞內和血清中</span>2', 5'-OAS synthetase<span style=\"font-family:標楷體;\">的活性和血清中</span>microglobulin<span style=\"font-family:標楷體;\">、</span>neopterin<span style=\"font-family:標楷體;\">的濃度會在</span>24<span style=\"font-family:標楷體;\">小時內增加，並且在</span>2<span style=\"font-family:標楷體;\">天內開始下降。肌肉和皮下投與會產生完整的加成反應。在每</span>48<span style=\"font-family:標楷體;\">小時一次，共四次皮下投與之後，這些生物反應指標仍然會上升並且沒有耐受性的徵狀發生。</span></p><p style=\"margin-left:21.25pt;\">&nbsp;</p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">健康受試者在皮下注射</span>interferon beta-1a<span style=\"font-family:標楷體;\">後會誘導生物反應指標</span>(<span style=\"font-family:標楷體;\">如2'</span>, 5-OAS activity<span style=\"font-family:標楷體;\">、</span>neopterin<span style=\"font-family:標楷體;\">與</span>beta-2 microglobulin)<span style=\"font-family:標楷體;\">之生成。單劑量皮下注射後</span>neopterin<span style=\"font-family:標楷體;\">、</span>beta-2 microglobulin<span style=\"font-family:標楷體;\">、與2', 5'</span>-OAS<span style=\"font-family:標楷體;\">達到最高濃度的時間為</span>24~48<span style=\"font-family:標楷體;\">小時、</span>MX1<span style=\"font-family:標楷體;\">為</span>12<span style=\"font-family:標楷體;\">小時、</span>OAS1<span style=\"font-family:標楷體;\">與</span>OAS2<span style=\"font-family:標楷體;\">基因表現為</span>24<span style=\"font-family:標楷體;\">小時。在第一次與第六次給藥後，大多數這些指標在達到最高濃度的值與時間相似。</span></p><p>&nbsp;</p><p style=\"margin-left:7.1pt;\"><span style=\"font-family:標楷體;\"><u>反覆發作型多發性硬化症</u></span></p><p style=\"margin-left:7.1pt;\">Rebif ®<span style=\"font-family:標楷體;\">的安全性及效用已在患有反覆發作型多發性硬化症病人使用</span>11<span style=\"font-family:標楷體;\">～</span>44 mcg (<span style=\"font-family:標楷體;\">相當於</span>3~12 MIU)&nbsp;<span style=\"font-family:標楷體;\">每週三次皮下注射的研究結果中證實。在核准的劑量</span>(Rebif <sup>®</sup>22 mcg<span style=\"font-family:標楷體;\">及</span>Rebif <sup>®</sup>44 mcg)<span style=\"font-family:標楷體;\">下，</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">可降低前兩年至少有兩次發作且開始治療時</span>EDSS<span style=\"font-family:標楷體;\">值介於</span>0~5.0<span style=\"font-family:標楷體;\">病人的復發次數</span>(<span style=\"font-family:標楷體;\">兩年期間降低</span>30%)<span style=\"font-family:標楷體;\">及嚴重性。以三個月內</span>EDSS<span style=\"font-family:標楷體;\">增加一分以上作為行動不能進展的評估，</span>Rebif <sup>®</sup>22 mcg<span style=\"font-family:標楷體;\">可將發生比例由安慰劑組的</span>39%<span style=\"font-family:標楷體;\">降為</span>30%<span style=\"font-family:標楷體;\">；</span>Rebif <sup>®</sup>44 mcg<span style=\"font-family:標楷體;\">可降為</span>27%<span style=\"font-family:標楷體;\">。經過四年的治療，與使用安慰劑兩年後改用</span>22 mcg<span style=\"font-family:標楷體;\">或</span>44 mcg<span style=\"font-family:標楷體;\">治療</span>2<span style=\"font-family:標楷體;\">年組的平均復發次數相較，</span>Rebif <sup>®</sup> 22 mcg<span style=\"font-family:標楷體;\">可降低</span>22%<span style=\"font-family:標楷體;\">；</span>Rebif <sup>®</sup>44 mcg<span style=\"font-family:標楷體;\">可降低</span>29%<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>續發漸進型多發性硬化症</u></span></p><p><span style=\"font-family:標楷體;\">續發性漸進型多發性硬化症</span>(<span style=\"font-family:標楷體;\">近兩年內具有行動不能進展的證據，</span>EDSS<span style=\"font-family:標楷體;\">介於</span>3-6.5<span style=\"font-family:標楷體;\">，</span>8<span style=\"font-family:標楷體;\">週內未有發作</span>)<span style=\"font-family:標楷體;\">的三年臨床試驗顯示，</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">能有效降低復發次數約</span>30%<span style=\"font-family:標楷體;\">，而對於行動不能進展的延緩則無明顯效果。若將病人依進入試驗前兩年間有無復發紀錄分為兩組，則前兩年間無復發紀錄的病人對於行動不能進展的延緩並無明顯效果，但對於前兩年間有復發紀錄的病人，其對於行動不能進展的延緩能由安慰劑組的</span>70%<span style=\"font-family:標楷體;\">降至使用</span>Rebif <sup>®</sup>22 mcg<span style=\"font-family:標楷體;\">、</span>44 mcg<span style=\"font-family:標楷體;\">的</span>57%<span style=\"font-family:標楷體;\">。應謹慎告知病人此不同的結果。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>原發漸進型多發性硬化症</u></span></p><p>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">尚未針對原發性漸進型多發性硬化症病人進行研究，故不應使用於該類病人。</span></p><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>單一臨床癥狀疑似多發性硬化症</u></span></p><p><span style=\"font-family:標楷體;\">一項</span>Rebif&nbsp;<span style=\"font-family:標楷體;\">用於疑似多發性硬化症造成的單一臨床脫髓鞘癥狀病患為期</span>2<span style=\"font-family:標楷體;\">年的對照臨床研究。在</span>T2<span style=\"font-family:標楷體;\">加權</span>MRI<span style=\"font-family:標楷體;\">掃描下，至少顯示有</span>2<span style=\"font-family:標楷體;\">個</span>3 mm<span style=\"font-family:標楷體;\">以上的臨床無症狀病變，其中至少一個橢圓形、或在腦室旁、或在天幕下的病患才納入研究。除了多發性硬化症以外，任何疾病能解釋病患癥象或症狀的情形者都會被排除納入研究。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\">病患隨機且雙盲地被分配至</span>Rebif 44 mcg&nbsp;<span style=\"font-family:標楷體;\">每週三次、</span>Rebif 44 mcg<span style=\"font-family:標楷體;\">每週一次、或安慰劑組。在病患第二次臨床脫髓鞘發作且確診為多發性硬化症時，病患即解盲轉換至</span>Rebif 44 mcg<span style=\"font-family:標楷體;\">每週三次建議用量組別。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\">研究中投與</span>Rebif 44 mcg<span style=\"font-family:標楷體;\">每週三次與安慰劑的有效性結果比較如下：</span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;height:22.2pt;padding:0cm 5.4pt;vertical-align:top;width:70.65pt;\" rowspan=\"2\"><p>Parameter</p><p style=\"text-align:justify;\">Statistics</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:22.2pt;padding:0cm 5.4pt;vertical-align:top;width:99.2pt;\" colspan=\"2\"><p style=\"text-align:justify;\">Treatment</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:22.2pt;padding:0cm 5.4pt;vertical-align:top;width:233.9pt;\" colspan=\"3\">Treatment Comparison Rebif 44 mcg tiw versus Placebo</td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\"><p style=\"text-align:center;\">Placebo</p><p style=\"text-align:center;\">(n=171)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.6pt;\"><p style=\"text-align:center;\">Rebif 44</p><p style=\"text-align:center;\">mcg tiw*</p><p style=\"text-align:center;\">(n=171)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:63.8pt;\"><p style=\"text-align:center;\">Risk</p><p style=\"text-align:center;\">Reduction</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:70.9pt;\"><p style=\"text-align:center;\">Cox’s</p><p style=\"text-align:center;\">Proportional</p><p style=\"text-align:center;\">Hazard Ratio</p><p style=\"text-align:center;\">[95% CI]</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:99.2pt;\"><p style=\"text-align:center;\">Log-Rank</p><p style=\"text-align:center;\">p-value</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:403.75pt;\" colspan=\"6\"><p style=\"text-align:justify;\">McDonald (2005) Conversion</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:70.65pt;\">Number of events</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">144</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">106</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:63.8pt;\" rowspan=\"2\"><p style=\"text-align:center;\">51%</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:70.9pt;\" rowspan=\"2\"><p style=\"text-align:center;\">0.49 [0.38;0.64]</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:99.2pt;\" rowspan=\"2\"><p style=\"text-align:center;\">&lt;0.001</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:70.65pt;\">KM Estimate</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">85.8%</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">62.5%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:403.75pt;\" colspan=\"6\"><p style=\"text-align:center;\">CDMS Conversion</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:70.65pt;\">Number of events</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">60</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">33</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:63.8pt;\" rowspan=\"2\"><p style=\"text-align:center;\">52%</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:70.9pt;\" rowspan=\"2\"><p style=\"text-align:center;\">0.48 [0.31;0.73]</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:99.2pt;\" rowspan=\"2\"><p style=\"text-align:center;\">&lt;0.001</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:70.65pt;\">KM Estimate</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">37.5%</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">20.6%</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:403.75pt;\" colspan=\"6\"><p style=\"text-align:center;\">Mean CUA Lesions per Subject per Scan During the Double Blind Period</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:70.65pt;\"><p>Least Square Means</p><p>(SE)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">2.58 (0.30)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:49.6pt;\"><p style=\"text-align:center;\">0.50 (0.06)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:63.8pt;\"><p style=\"text-align:center;\">81%</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:70.9pt;\"><p style=\"text-align:center;\">0.19 [0.14;0.26]</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:99.2pt;\"><p style=\"text-align:center;\">&lt;0.001</p></td></tr></tbody></table></figure><p style=\"text-align:justify;\">* tiw –&nbsp;<span style=\"font-family:標楷體;\">每週三次</span></p><p style=\"text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\">暫時對高風險病患並沒有一個完整的定義。然而有一個較保守且被接受的方法是初期掃描顯示至少有九個</span>T2<span style=\"font-family:標楷體;\">高信號病變且在一個月後的後續追蹤掃描也有至少一個</span>T2<span style=\"font-family:標楷體;\">或</span>Gd-<span style=\"font-family:標楷體;\">增強掃描到的新病變。在任何狀況下，被列為高風險的病患應接受治療。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n藥理治療分類：Immunostimulants, Interferons, ATC code: L03AB07。 干擾素包括數種醣化蛋白質，具免疫調節、抗病毒，抗增生等作用。 Rebif ® (interferon beta-1a)與人體interferon beta內生性胺基酸序列相同。它是經由哺乳動物細胞(中國倉鼠卵巢細胞)製造產生，所以具有與天然蛋白質相同的醣基化結構。 藥效學的顯著改變和Rebif的投與方式是相關聯的。在投與單一劑量後，細胞內和血清中2', 5'-OAS synthetase的活性和血清中microglobulin、neopterin的濃度會在24小時內增加，並且在2天內開始下降。肌肉和皮下投與會產生完整的加成反應。在每48小時一次，共四次皮下投與之後，這些生物反應指標仍然會上升並且沒有耐受性的徵狀發生。 健康受試者在皮下注射interferon beta-1a後會誘導生物反應指標(如2', 5-OAS activity、neopterin與beta-2 microglobulin)之生成。單劑量皮下注射後neopterin、beta-2 microglobulin、與2', 5'-OAS達到最高濃度的時間為24~48小時、MX1為12小時、OAS1與OAS2基因表現為24小時。在第一次與第六次給藥後，大多數這些指標在達到最高濃度的值與時間相似。 反覆發作型多發性硬化症 Rebif ®的安全性及效用已在患有反覆發作型多發性硬化症病人使用11～44 mcg (相當於3~12 MIU) 每週三次皮下注射的研究結果中證實。在核准的劑量(Rebif ®22 mcg及Rebif ®44 mcg)下，Rebif ®可降低前兩年至少有兩次發作且開始治療時EDSS值介於0~5.0病人的復發次數(兩年期間降低30%)及嚴重性。以三個月內EDSS增加一分以上作為行動不能進展的評估，Rebif ®22 mcg可將發生比例由安慰劑組的39%降為30%；Rebif ®44 mcg可降為27%。經過四年的治療，與使用安慰劑兩年後改用22 mcg或44 mcg治療2年組的平均復發次數相較，Rebif ® 22 mcg可降低22%；Rebif ®44 mcg可降低29%。 續發漸進型多發性硬化症 續發性漸進型多發性硬化症(近兩年內具有行動不能進展的證據，EDSS介於3-6.5，8週內未有發作)的三年臨床試驗顯示，Rebif ®能有效降低復發次數約30%，而對於行動不能進展的延緩則無明顯效果。若將病人依進入試驗前兩年間有無復發紀錄分為兩組，則前兩年間無復發紀錄的病人對於行動不能進展的延緩並無明顯效果，但對於前兩年間有復發紀錄的病人，其對於行動不能進展的延緩能由安慰劑組的70%降至使用Rebif ®22 mcg、44 mcg的57%。應謹慎告知病人此不同的結果。 原發漸進型多發性硬化症 Rebif ®尚未針對原發性漸進型多發性硬化症病人進行研究，故不應使用於該類病人。 單一臨床癥狀疑似多發性硬化症 一項Rebif 用於疑似多發性硬化症造成的單一臨床脫髓鞘癥狀病患為期2年的對照臨床研究。在T2加權MRI掃描下，至少顯示有2個3 mm以上的臨床無症狀病變，其中至少一個橢圓形、或在腦室旁、或在天幕下的病患才納入研究。除了多發性硬化症以外，任何疾病能解釋病患癥象或症狀的情形者都會被排除納入研究。 病患隨機且雙盲地被分配至Rebif 44 mcg 每週三次、Rebif 44 mcg每週一次、或安慰劑組。在病患第二次臨床脫髓鞘發作且確診為多發性硬化症時，病患即解盲轉換至Rebif 44 mcg每週三次建議用量組別。 研究中投與Rebif 44 mcg每週三次與安慰劑的有效性結果比較如下： Parameter Statistics Treatment Treatment Comparison Rebif 44 mcg tiw versus Placebo Placebo (n=171) Rebif 44 mcg tiw* (n=171) Risk Reduction Cox’s Proportional Hazard Ratio [95% CI] Log-Rank p-value McDonald (2005) Conversion Number of events 144 106 51% 0.49 [0.38;0.64] <0.001 KM Estimate 85.8% 62.5% CDMS Conversion Number of events 60 33 52% 0.48 [0.31;0.73] <0.001 KM Estimate 37.5% 20.6% Mean CUA Lesions per Subject per Scan During the Double Blind Period Least Square Means (SE) 2.58 (0.30) 0.50 (0.06) 81% 0.19 [0.14;0.26] <0.001 * tiw – 每週三次 暫時對高風險病患並沒有一個完整的定義。然而有一個較保守且被接受的方法是初期掃描顯示至少有九個T2高信號病變且在一個月後的後續追蹤掃描也有至少一個T2或Gd-增強掃描到的新病變。在任何狀況下，被列為高風險的病患應接受治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "根據一般的安全性藥理研究、重覆劑量毒性試驗及基因毒性試驗，非臨床資料顯示並無對人類有特殊的傷害。 Rebif ®是否具致癌性並未研究。 在猴子胚胎及胎兒的研究中並未顯示Rebif ®會影響生殖發展。依據其他interferon alpha及beta的觀察，並無法排除流產危險因子發生率的升高。Interferon beta-1a對於男性生殖的影響並未知。",
+          "content_html": "<p style=\"margin-left:28.2pt;\"><span style=\"font-family:標楷體;\">根據一般的安全性藥理研究、重覆劑量毒性試驗及基因毒性試驗，非臨床資料顯示並無對人類有特殊的傷害。</span></p><p style=\"margin-left:28.2pt;\">Rebif <sup>®</sup><span style=\"font-family:標楷體;\">是否具致癌性並未研究。</span></p><p style=\"margin-left:28.3pt;\"><span style=\"font-family:標楷體;\">在猴子胚胎及胎兒的研究中並未顯示</span>Rebif <sup>®</sup><span style=\"font-family:標楷體;\">會影響生殖發展。依據其他</span>interferon alpha<span style=\"font-family:標楷體;\">及</span>beta<span style=\"font-family:標楷體;\">的觀察，並無法排除流產危險因子發生率的升高。</span>Interferon beta-1a<span style=\"font-family:標楷體;\">對於男性生殖的影響並未知。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n根據一般的安全性藥理研究、重覆劑量毒性試驗及基因毒性試驗，非臨床資料顯示並無對人類有特殊的傷害。 Rebif ®是否具致癌性並未研究。 在猴子胚胎及胎兒的研究中並未顯示Rebif ®會影響生殖發展。依據其他interferon alpha及beta的觀察，並無法排除流產危險因子發生率的升高。Interferon beta-1a對於男性生殖的影響並未知。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "吸收 健康受試者以靜脈注射interferon beta-1a後，血中濃度與投與劑量成正比，呈現快速的多指數下降。皮下或肌肉注射兩者的動力學是相同的。 分佈 在重覆投與Rebif ®22mcg與44mcg皮下注射後，最高濃度通常發生在8小時後，但其變異度極大。 排除 在健康受試者重複投與皮下注射後，主要的藥物動力學參數(如AUCtau與Cmax)會隨著劑量由22 mcg增加至44 mcg而呈等比例的增加。其擬似半衰期為50-60小時，與多劑投與後的累積程度推估相同。 代謝 Interferon beta-1a主要由肝臟及腎臟代謝與排除。",
+          "content_html": "<p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\"><u>吸收</u></span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">健康受試者以靜脈注射</span>interferon beta-1a<span style=\"font-family:標楷體;\">後，血中濃度與投與劑量成正比，呈現快速的多指數下降。皮下或肌肉注射兩者的動力學是相同的。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\"><u>分佈</u></span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">在重覆投與</span>Rebif ®22mcg<span style=\"font-family:標楷體;\">與</span>44mcg<span style=\"font-family:標楷體;\">皮下注射後，最高濃度通常發生在</span>8<span style=\"font-family:標楷體;\">小時後，但其變異度極大。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\"><u>排除</u></span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">在健康受試者重複投與皮下注射後，主要的藥物動力學參數</span>(<span style=\"font-family:標楷體;\">如</span>AUCtau<span style=\"font-family:標楷體;\">與</span>Cmax)<span style=\"font-family:標楷體;\">會隨著劑量由</span>22 mcg<span style=\"font-family:標楷體;\">增加至</span>44 mcg<span style=\"font-family:標楷體;\">而呈等比例的增加。其擬似半衰期為</span>50-60<span style=\"font-family:標楷體;\">小時，與多劑投與後的累積程度推估相同。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\"><u>代謝</u></span></p><p style=\"margin-left:21.25pt;\">Interferon beta-1a<span style=\"font-family:標楷體;\">主要由肝臟及腎臟代謝與排除。</span></p>",
+          "search_text": "11\n藥物動力學特性\n吸收 健康受試者以靜脈注射interferon beta-1a後，血中濃度與投與劑量成正比，呈現快速的多指數下降。皮下或肌肉注射兩者的動力學是相同的。 分佈 在重覆投與Rebif ®22mcg與44mcg皮下注射後，最高濃度通常發生在8小時後，但其變異度極大。 排除 在健康受試者重複投與皮下注射後，主要的藥物動力學參數(如AUCtau與Cmax)會隨著劑量由22 mcg增加至44 mcg而呈等比例的增加。其擬似半衰期為50-60小時，與多劑投與後的累積程度推估相同。 代謝 Interferon beta-1a主要由肝臟及腎臟代謝與排除。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "無",
+          "content_html": "<p><span style=\"font-family:標楷體;\">無</span></p>",
+          "search_text": "12\n臨床試驗資料\n無",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "藥匣(第一型玻璃)附橡皮塞並套上封口蓋(材質為鋁及橡膠)內含1.5毫升注射液。 每盒裝有4或12支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。",
+          "content_html": "<p style=\"margin-left:1.0cm;\"><span style=\"font-family:標楷體;\">藥匣</span>(<span style=\"font-family:標楷體;\">第一型玻璃</span>)<span style=\"font-family:標楷體;\">附橡皮塞並套上封口蓋</span>(<span style=\"font-family:標楷體;\">材質為鋁及橡膠</span>)<span style=\"font-family:標楷體;\">內含</span>1.5<span style=\"font-family:標楷體;\">毫升注射液。</span></p><p style=\"margin-left:1.0cm;\"><span style=\"font-family:標楷體;\">每盒裝有</span>4<span style=\"font-family:標楷體;\">或</span>12<span style=\"font-family:標楷體;\">支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。</span></p>",
+          "search_text": "13\n包裝及儲存\n藥匣(第一型玻璃)附橡皮塞並套上封口蓋(材質為鋁及橡膠)內含1.5毫升注射液。 每盒裝有4或12支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "藥匣(第一型玻璃)附橡皮塞並套上封口蓋(材質為鋁及橡膠)內含1.5毫升注射液。 每盒裝有4或12支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。",
+          "content_html": "<p style=\"margin-left:1.0cm;\"><span style=\"font-family:標楷體;\">藥匣</span>(<span style=\"font-family:標楷體;\">第一型玻璃</span>)<span style=\"font-family:標楷體;\">附橡皮塞並套上封口蓋</span>(<span style=\"font-family:標楷體;\">材質為鋁及橡膠</span>)<span style=\"font-family:標楷體;\">內含</span>1.5<span style=\"font-family:標楷體;\">毫升注射液。</span></p><p style=\"margin-left:1.0cm;\"><span style=\"font-family:標楷體;\">每盒裝有</span>4<span style=\"font-family:標楷體;\">或</span>12<span style=\"font-family:標楷體;\">支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。</span></p>",
+          "search_text": "13.1\n包裝\n藥匣(第一型玻璃)附橡皮塞並套上封口蓋(材質為鋁及橡膠)內含1.5毫升注射液。 每盒裝有4或12支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "有效期限標示於外盒上。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">有效期限標示於外盒上。</span></p>",
+          "search_text": "13.2\n效期\n有效期限標示於外盒上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "Rebif®需放在2-8 ℃(冰箱)中保存，勿置於靠近冷凍室之處。請勿冷凍。藥匣需置於原包裝中避光。 含Rebif®預充填藥匣之注射器(RebiSmart or RebiSlide)必須貯存於注射器存放盒並放置於冷藏室中(2 °C- 8°C)。 為了方便攜帶使用，病人可將Rebif®由冷藏室中取出並貯存不超過25°C的環境一次，此期間最多為14天，然後Rebif®必須放回冷藏室中，超過有效期限請勿使用。",
+          "content_html": "<p style=\"margin-left:28.3pt;\">Rebif<sup>®</sup><span style=\"font-family:標楷體;\">需放在</span>2-8&nbsp;<span style=\"font-family:標楷體;\">℃</span>(<span style=\"font-family:標楷體;\">冰箱</span>)<span style=\"font-family:標楷體;\">中保存，勿置於靠近冷凍室之處。請勿冷凍。藥匣需置於原包裝中避光。</span></p><p style=\"margin-left:28.3pt;\"><span style=\"font-family:標楷體;\">含</span>Rebif<sup>®</sup><span style=\"font-family:標楷體;\">預充填藥匣之注射器</span>(RebiSmart or RebiSlide)<span style=\"font-family:標楷體;\">必須貯存於注射器存放盒並放置於冷藏室中</span>(2&nbsp;<span style=\"font-family:標楷體;\">°</span>C- 8<span style=\"font-family:標楷體;\">°</span>C)<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:28.3pt;\"><span style=\"font-family:標楷體;\">為了方便攜帶使用，病人可將</span>Rebif<sup>®</sup><span style=\"font-family:標楷體;\">由冷藏室中取出並貯存不超過</span>25<span style=\"font-family:標楷體;\">°</span>C<span style=\"font-family:標楷體;\">的環境一次，此期間最多為</span>14<span style=\"font-family:標楷體;\">天，然後</span>Rebif<sup>®</sup><span style=\"font-family:標楷體;\">必須放回冷藏室中，超過有效期限請勿使用。</span></p>",
+          "search_text": "13.3\n儲存條件\nRebif®需放在2-8 ℃(冰箱)中保存，勿置於靠近冷凍室之處。請勿冷凍。藥匣需置於原包裝中避光。 含Rebif®預充填藥匣之注射器(RebiSmart or RebiSlide)必須貯存於注射器存放盒並放置於冷藏室中(2 °C- 8°C)。 為了方便攜帶使用，病人可將Rebif®由冷藏室中取出並貯存不超過25°C的環境一次，此期間最多為14天，然後Rebif®必須放回冷藏室中，超過有效期限請勿使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "使用用法 Rebif注射液藥匣之設計為配合RebiSmart自動注射器或手動式RebiSlide注射器，在患者及/或照顧者經過適當訓練後，做多次性皮下注射使用。 醫師需與患者討論並建議最適合其使用之注射輔具。 除非有其他無視力問題的人可提供協助, 否則視力不佳之患者不建議使用RebiSlide。 關於用法，RebiSmart及RebiSlide包裝內皆附有操作說明，使用者需遵守其操作方式。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">使用用法</span></p><p>Rebif<span style=\"font-family:標楷體;\">注射液藥匣之設計為配合</span>RebiSmart<span style=\"font-family:標楷體;\">自動注射器或手動式</span>RebiSlide<span style=\"font-family:標楷體;\">注射器，在患者及</span>/<span style=\"font-family:標楷體;\">或照顧者經過適當訓練後，做多次性皮下注射使用。</span></p><p><span style=\"font-family:標楷體;\">醫師需與患者討論並建議最適合其使用之注射輔具。</span></p><p><span style=\"font-family:標楷體;\">除非有其他無視力問題的人可提供協助</span>,&nbsp;<span style=\"font-family:標楷體;\">否則視力不佳之患者不建議使用</span>RebiSlide<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">關於用法，</span>RebiSmart<span style=\"font-family:標楷體;\">及</span>RebiSlide<span style=\"font-family:標楷體;\">包裝內皆附有操作說明，使用者需遵守其操作方式。</span></p>",
+          "search_text": "14\n病人使用須知\n使用用法 Rebif注射液藥匣之設計為配合RebiSmart自動注射器或手動式RebiSlide注射器，在患者及/或照顧者經過適當訓練後，做多次性皮下注射使用。 醫師需與患者討論並建議最適合其使用之注射輔具。 除非有其他無視力問題的人可提供協助, 否則視力不佳之患者不建議使用RebiSlide。 關於用法，RebiSmart及RebiSlide包裝內皆附有操作說明，使用者需遵守其操作方式。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "已預先填充於藥匣之注射液可立即於RebiSmart自動注射器或手動式RebiSlide注射器使用。關於如何貯存含藥匣之注射器，請參閱13.3。並非全部適用於Rebif®之注射器均在台灣上市。 多次劑量使用。只有澄清至乳白色溶液、無顆粒、無可見變質跡象的注射液才可使用。 任何未使用完的產品或是醫療廢棄物請依當地規定丟棄。 立比扶®注射劑66 mcg/ Rebif® Solution for injection 66 micrograms 立比扶®注射劑132 mcg/ Rebif® Solution for injection 132 micrograms 資料日期 2023年3月_EMA SmPC 07/01/2021_RMS+CIS",
+          "content_html": "<p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">已預先填充於藥匣之注射液可立即於</span>RebiSmart<span style=\"font-family:標楷體;\">自動注射器或手動式</span>RebiSlide<span style=\"font-family:標楷體;\">注射器使用。關於如何貯存含藥匣之注射器，請參閱</span>13.3<span style=\"font-family:標楷體;\">。並非全部適用於</span>Rebif<sup>®</sup><span style=\"font-family:標楷體;\">之注射器均在台灣上市。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">多次劑量使用。只有澄清至乳白色溶液、無顆粒、無可見變質跡象的注射液才可使用。</span></p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">任何未使用完的產品或是醫療廢棄物請依當地規定丟棄。</span></p><p style=\"margin-left:21.25pt;\">&nbsp;</p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">立比扶</span><sup>®</sup><span style=\"font-family:標楷體;\">注射劑</span>66 mcg/ Rebif<sup>®&nbsp;</sup>Solution for injection 66 micrograms</p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">立比扶</span><sup>®</sup><span style=\"font-family:標楷體;\">注射劑</span>132 mcg/ Rebif<sup>®</sup> Solution for injection 132 micrograms</p><p style=\"margin-left:21.25pt;\">&nbsp;</p><p style=\"margin-left:21.25pt;\"><span style=\"font-family:標楷體;\">資料日期</span></p><p style=\"margin-left:21.25pt;\">2023<span style=\"font-family:標楷體;\">年</span>3<span style=\"font-family:標楷體;\">月</span>_EMA SmPC 07/01/2021_RMS+CIS</p>",
+          "search_text": "15\n其他\n已預先填充於藥匣之注射液可立即於RebiSmart自動注射器或手動式RebiSlide注射器使用。關於如何貯存含藥匣之注射器，請參閱13.3。並非全部適用於Rebif®之注射器均在台灣上市。 多次劑量使用。只有澄清至乳白色溶液、無顆粒、無可見變質跡象的注射液才可使用。 任何未使用完的產品或是醫療廢棄物請依當地規定丟棄。 立比扶®注射劑66 mcg/ Rebif® Solution for injection 66 micrograms 立比扶®注射劑132 mcg/ Rebif® Solution for injection 132 micrograms 資料日期 2023年3月_EMA SmPC 07/01/2021_RMS+CIS",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每支1.5 mL注射液的預填藥匣內含interferon beta-1a** 66 mcg (18 MIU*)，其含量相當於44 mcg/mL。 每支1.5 mL注射液的預填藥匣內含interferon beta-1a** 132 mcg (36 MIU*)，其含量相當於88 mcg/mL。 * 百萬國際單位(Million International Units)，測量方式藉由細胞病變效應(CPE)之生物鑑定法對照廠內interferon beta-1a的標準品測得，其廠內標準品可用來校正目前的國際NIH標準品(GB-23-902-531)。 ** 經基因重組技術由中國倉鼠卵巢細胞(CHO-K1)製造產生。\n1.2\n賦形劑\nBenzyl alcohol D-Mannitol L-Methionine Poloxamer 188 0.01M Sodium acetate buffer pH3.9\n1.3\n劑型\n注射用溶液置於藥匣中 pH值為3.7-4.1，滲透壓為250-450 mOsm/l。\n1.4\n藥品外觀\n注射用溶液置於藥匣中，透明至乳白色溶液。\n2\n適應症\n復發型多發性硬化症。臨床試驗中，此定義為近兩年內曾有兩次或兩次以上急性復發的情況。 無復發情況的續發性漸進型多發性硬化症(secondary progressive multiple sclerosis)使用療效尚未證實。 發生單一臨床症狀(Clinically Isolated Syndrome)疑似多發性硬化症的病人，可延緩其惡化成多發性硬化症。\n3\n用法及用量\n3.1\n用法用量\n復發型多發性硬化症 所有治療均需由有經驗的醫師監督下使用。 Rebif ®建議劑量為44mcg，每週三次皮下注射。 若經醫師評估不適合使用高劑量者，則建議將劑量調整為低劑量的22mcg，每週三次皮下注射。 為避免急性反應並減少副作用的發生，第一次使用Rebif ®時，須逐步增加劑量。 建議逐步增加劑量方式如下: 治療的第一、二週，每次注射8.8mcg，之後的兩週，每次注射22mcg，第五週後，每次注射44mcg。 兒童病人 Rebif ®尚未有使用在16歲以下兒童的臨床報告，故16歲以下兒童不應使用Rebif®。 單一臨床症狀(Clinically Isolated Syndrome) 疑似多發性硬化症 為避免急性反應並減少副作用的發生，第一次使用Rebif時，建議病人從8.8 mcg皮下注射的劑量開始，並依下表所示，在四週的期間內逐步增加劑量至目標劑量。 建議逐步增加劑量方式 (目標劑量的百分比) 以Rebif每次44 mcg 每週三次 為目標劑量的逐步增加劑量方式 第1-2週20%每次8.8 mcg 每週三次 第3-4週50%每次22 mcg 每週三次 第5週以後100%每次44 mcg 每週三次 小兒患者 在兒童或青少年並沒有執行正式的臨床試驗或藥物動力學研究。但有一個小兒族群回溯性研究結果指出從醫療紀錄蒐集兒童(n=52)和青少年(n=225)使用Rebif的安全性資料中，其兒童(2-11歲)和青少年(12-17歲)接受Rebif 22 mcg或44 mcg每週三次皮下注射的安全性相似於成人。 Rebif對於2歲以下兒童的安全性及有效性的研究尚未建立。故Rebif不應用於此年齡族群。 Rebif以皮下注射使用。Rebif在注射之前或注射後24小時，建議可使用解熱鎮痛劑降低因使用Rebif相關的類感冒症狀。 至目前為止，治療時間的長短並無定論。目前Rebif未有超過四年以上的安全、效能報告。因此建議在開始使用Rebif後最少每兩年，應由醫師針對每位患者情況決定是否繼續使用。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n無\n4\n禁忌\n• 曾有對天然或重組interferon beta或其他段落1.2所列賦形劑成份過敏者。 • 目前有嚴重憂鬱症病人且/或有自殺傾向者 (請參見第5.1及8節)。\n5\n警語及注意事項\n5.1\n警語/注意事項\n病人應被告知可能發生十分常見的副作用，包括類似感冒的症狀(請參見第8節)。這些症狀多在治療初期發生，持續治療後即會消失。 血栓性微血管病變(Thrombotic microangiopathy, TMA) 已有使用interferon beta藥品發生血栓性微血管病變的案例之報告，如血栓性血小板減少性紫斑症(Thrombotic Thrombocytopenic Purpura, TTP)或溶血性尿毒症候群(Haemolytic Uremic Syndrome, HUS)，包含死亡個案。前述案例的通報來自治療期間不同時間點，且可能在開始使用interferon beta治療後的數週至數年後發生。早期的臨床表徵包含血小板減少症、新發生的高血壓、發燒、中樞神經系統症狀(如精神錯亂，輕癱)以及腎功能受損。若觀察到有TMA的臨床表徵，建議進一步檢測血小板濃度、血清乳酸脫氫酶(LDH)、血液抹片的破碎狀紅血球(schistocytes)以及腎功能。如果經診斷為TMA，應立即治療(考慮進行血漿置換)並停止使用Rebif。 抑鬱與自殺企圖 曾患有或現在有憂鬱症的病人，特別是先前曾有自殺傾向者，在使用Rebif ®時應特別給予警告(請參閱第4節)。多發性硬化症病人或使用干擾素類藥品者一般會有情緒沮喪或自殺傾向增加的情況。若使用Rebif後如有憂鬱症或有自殺傾向等症狀發生時，應立即與醫師連絡。憂鬱症病人在使用Rebif ®時應小心監測，必要時可暫停Rebif ®的治療(請參見第4及8節)。 癲癇 對有癲癇病史的病人、正在使用抗癲癇藥物，尤其是癲癇未被抗癲癇藥物適當控制的病人，使用Rebif ®前應先予以警告(請參見第7及8節)。 心臟疾病 患有心臟疾病如心絞痛、充血性心衰竭、心律不整開始使用interferon beta-1a時需嚴密的監測。使用interferon beta-1a所引起的類似感冒症狀可能會對患有心臟疾病病人造成影響。 注射部位壞死 曾有注射部位壞死的報告(請參見第8節)。為防止壞死現象發生，建議： • 使用無菌的注射操作 • 每次改變不同的注射部位 病人的自我注射方式須定期檢查，尤其當有注射部位反應發生時。 當病人注射部位有皮膚損傷如紅腫或注射部位有滲出體液時，在繼續使用Rebif前須與醫師討論。若病人注射部位有多處的傷口，則必須暫時中斷Rebif的治療，直到傷口癒合為止。若只有一處傷口，且面積不大，則可繼續接受治療。 肝臟功能異常 在Rebif ®的臨床試驗中，沒有症狀的肝轉胺基酶數值上升是普遍的(特別是alanine aminotransferase, ALT)，約有1~3%病人的肝轉胺基酶數值高過正常值上限的五倍。由於無臨床症狀，應在治療前及開始治療後的第1、3、6個月定期監測ALT，往後仍應定期監測。如果ALT值高於正常值上限的五倍，則應考慮降低Rebif ®劑量，並在酵素數值回覆正常後逐步的調升劑量。曾有明顯肝臟疾病病史、有臨床症狀的進行性肝臟疾病、酒精濫用或血清ALT增高(>2.5倍正常值上限)者使用Rebif ®前即需先給予警告。如有黃疸或其他肝功能障礙的臨床症狀發生，則應停止使用Rebif ®。 Rebif ®與其他的interferon beta一樣，有引發嚴重肝損害，包括急性肝臟衰竭的可能性(請參見第8節)。大部分嚴重肝損害的案例都發生在治療初期的六個月內。目前對於引發此種少見的肝功能障礙臨床症狀的機轉尚未明朗，沒有已知的特殊危險因子與此副作用的發生相關聯。 檢驗數值異常 使用干擾素類藥品會造成檢驗數值改變。Rebif ®44 mcg的總發生率略高於Rebif ®22 mcg。除了多發性硬化症病人需監測檢驗數值外，建議在開始Rebif ®治療後，應在第1、3、6個月監測肝功能酵素指數、血球總數、血球分類計數、血小板數等血液檢查。之後沒有臨床症狀也應定期檢查。在剛開始使用Rebif ®44 mcg時，應增加上述實驗室檢查的頻率。 甲狀腺失調 使用Rebif ®病人偶爾會產生新的或惡化的甲狀腺功能異常。建議在治療前檢測甲狀腺功能，如有不正常情況則需每6~12個月定期檢查；如果治療前甲狀腺功能正常，則不需定期檢查，但一旦有臨床症狀發生時，則應進行檢測 (請參見第8節) 嚴重肝腎功能衰竭與骨髓抑制 患有嚴重腎臟或肝臟功能衰竭或骨髓抑制病人使用interferon beta-1a治療須特別小心使用。 中和性抗體 中和interferon beta-1a的抗體可能會在血清中出現。目前並不了解抗體於臨床上之意義。臨床資料顯示在治療24~48個月後，使用22 mcg及44 mcg Rebif ®劑量的病人，產生抗體的比例大約分別為24%及13%~14%。這些抗體會減低beta-2 microglobulin及neopterin對於interferon beta-1a的藥效作用。目前抗體與療效間的關係尚未建立，但抗體的產生會降低臨床療效與MRI結果。如果病人對Rebif ®治療反應不佳並已產生中和性抗體時，醫師需加以評估是否值得繼續使用Rebif ®。 由於鑑定抗體的方法及定義尚未統一，目前無法比較不同產品間的抗原性。 其他形式的多發性硬化症 無法行動的多發性硬化症病人使用療效與安全性報告較少。Rebif ®並未有在原發漸進型多發性硬化症病人之研究，所以這類病人不應使用。 賦形劑 鈉含量 本藥每一劑量含少於1 mmol鈉(23毫克)，幾近於不含鈉。 Benzyl alcohol 本藥含benzyl alcohol。Benzyl alcohol可能會導致過敏反應。 監測3歲以下孩童的呼吸症狀。 應告知懷孕或哺乳的病人有潛在的風險來自於賦形劑benzyl alcohol，可能會因為長時間的累積導致代謝性酸中毒。 應謹慎使用在肝或腎功能不全的病人，因為有潛在的風險來自於賦形劑benzyl alcohol，可能會因為長時間的累積導致代謝性酸中毒。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n因使用interferon beta造成的中樞神經系統方面副作用(例如:眩暈)可能會影響駕車及機械操作的能力(請參見第8節)。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n來自登錄研究及上市後經驗的大量數據（超過1000個懷孕結果）指出，於受孕前或妊娠第一期時暴露於interferon beta，其發生重大先天性異常的風險並未增加。然而，由於在收集此數據時interferon beta尚屬懷孕期間之使用禁忌，在檢測出/或確認懷孕後可能會中斷治療，因此無法確定在妊娠第一期的暴露時間，而暴露於妊娠第二期及第三期的經驗非常有限。 依據動物試驗數據（請參閱10.3），自發性流產的風險可能會增加。然而依據目前可獲得的數據，尚無法充分評估暴露於interferon beta的孕婦其自發性流產的風險，但目前該數據並未顯示有增加的風險。 如有臨床需要，可以在懷孕期間考慮使用Rebif。\n6.2\n哺乳\n關於interferon beta-1a是否會分佈到母乳中，目前可獲得的資訊有限。若一併考量interferon beta的化學/生理學特性，則乳汁中分泌的interferon beta-1a濃度應很低。 哺乳的效益及可能風險應與病人對於interferon beta-1a治療的臨床需求一併考量。\n6.3\n有生育能力的女性與男性\nRebif對生育能力的影響尚未被研究。\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n未在人體進行interferon beta-1a與其他藥物交互反應之研究。 在人體及動物體內，interferon類藥物會降低cytochrome P450-dependent liver enzymes活性，若Rebif ®併用治療範圍狹窄且主要需經肝臟cytochrome P450系統代謝的藥品，如抗癲癇或某些類別的抗憂鬱藥品，則需小心使用。 有關Rebif ®與皮質類固醇或促腎上腺皮質激素(adrenocorticotropic hormone, ATCH)類藥物的交互反應尚未完全了解。臨床研究建議，多發性硬化症病人復發時，應同時使用Rebif與皮質類固醇或ACTH藥物。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n安全性的概述 類感冒症狀是使用Rebif ®治療發生頻率最高的不良反應，類感冒症狀於初始治療時最為顯著，於持續治療時，其發生率會降低；使用Rebif ®治療的初期六個月內，預期大約有70%的病人發生典型的類感冒症狀。約有30%的病人也會發生注射部位的反應，大部分症狀為輕微發炎或發紅反應。臨床上無症狀之肝功能指數上升、白血球血液檢驗數值下降也是常見的。 大部份因interferon beta-1a治療而產生的不良反應通常是輕微且可復原，降低治療劑量後副作用通常可很快緩解。有時為避免嚴重或長期性的副作用，醫師會建議暫時降低治療劑量或停藥。 不良反應列表 呈現之不良反應是由臨床研究或上市後報告資訊所得(*號表示不良反應來自上市後藥品監視資料)。以下為頻率分類的定義：十分常見的(≥ 1/10)；常見的(≥1/100 ~ <1/10)；不常見的(≥1/1,000 ~ <1/100)；罕見的(≥1/10,000 ~ <1/1,000)；非常罕見的(<1/10,000)；頻率未知(無法由現有資料評估)。 血液及淋巴系統失調 十分常見的 嗜中性白血球低下、淋巴球低下、白血球低下、血小板低下、貧血 罕見的 血栓性微血管病變包含血栓性血小板減少性紫斑症/溶血性尿毒症候群*、全血球減少* 內分泌系統失調 不常見的 甲狀腺機能異常、最常以甲狀腺功能低下或甲狀腺功能亢進表現 免疫系統失調 罕見的 過敏性反應* 肝膽失調 十分常見的 無症狀轉胺基酶上升 常見的 嚴重轉胺基酶上升 不常見的 伴隨或不伴隨黃疸之肝炎* 罕見的 肝衰竭* (請參閱5.1)、自體免疫性肝炎* 精神失調 常見的 抑鬱、失眠 罕見的 自殺意圖* 神經系統失調 十分常見的 頭痛 不常見的 癲癇* 頻率未知的 暫時性神經系統症狀(例如：感覺減退、肌肉痙攣、感覺異常、行走不便、肌肉骨骼僵硬)類似多發性硬化症發作* 眼失調 不常見的 視網膜血管疾病(例如視網膜病變、棉絮狀斑及視網膜動脈或靜脈阻塞)* 血管失調 不常見的 血管栓塞事件* 呼吸、胸腔和縱膈失調 不常見的 呼吸困難* 胃腸失調 常見的 腹瀉、嘔吐、噁心 皮膚及皮下組織失調 常見的 皮膚搔癢、皮疹、紅斑皮疹、斑狀丘疹、脫髮* 不常見的 蕁麻疹* 罕見的 Quincke水腫(血管性水腫)*、多形性紅斑*、類似多形性紅斑的皮膚反應*、Stevens Johnson症候群* 肌肉骨骼及結締組織失調 常見的 肌肉疼痛、關節痛 罕見的 藥物性紅斑性狼瘡* 全身性失調及注射部位情形 十分常見的 注射部位發炎、注射部位反應、類感冒症狀 常見的 注射部位疼痛、疲倦、冷顫、發燒 不常見的 注射部位壞死、注射部位硬塊、注射部位膿瘡、注射部位感染*、出汗增加* 罕見的 注射部位蜂窩性組織炎* 小兒族群 在兒童或青少年尚未執行正式的臨床試驗或藥物動力學研究。但有限的文獻資料指出青少年(12-16歲)接受皮下注射Rebif 22 mcg每週三次的安全性與成人相似。 藥物類別效果 使用干擾素可能發生的其他副作用包括：缺乏食慾、頭暈、焦慮、心律不整、血管擴張、心悸、月經過多和子宮出血等。 在interferon beta治療期間可能會增加自體抗體的形成。 藥品不良反應的通報 藥品核准上市後的不良反應通報是很重要的。它讓藥品的風險效益得以持續監控。請依國內「嚴重藥物不良反應通報辦法」辦理。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n有使用過量情況發生，病人應住院接受適當的支持性治療及監測。\n10\n藥理特性\n10.1\n作用機轉\nRebif作用在多發性硬化症的真正機制仍在研究探討中。\n10.2\n藥效藥理特性\n藥理治療分類：Immunostimulants, Interferons, ATC code: L03AB07。 干擾素包括數種醣化蛋白質，具免疫調節、抗病毒，抗增生等作用。 Rebif ® (interferon beta-1a)與人體interferon beta內生性胺基酸序列相同。它是經由哺乳動物細胞(中國倉鼠卵巢細胞)製造產生，所以具有與天然蛋白質相同的醣基化結構。 藥效學的顯著改變和Rebif的投與方式是相關聯的。在投與單一劑量後，細胞內和血清中2', 5'-OAS synthetase的活性和血清中microglobulin、neopterin的濃度會在24小時內增加，並且在2天內開始下降。肌肉和皮下投與會產生完整的加成反應。在每48小時一次，共四次皮下投與之後，這些生物反應指標仍然會上升並且沒有耐受性的徵狀發生。 健康受試者在皮下注射interferon beta-1a後會誘導生物反應指標(如2', 5-OAS activity、neopterin與beta-2 microglobulin)之生成。單劑量皮下注射後neopterin、beta-2 microglobulin、與2', 5'-OAS達到最高濃度的時間為24~48小時、MX1為12小時、OAS1與OAS2基因表現為24小時。在第一次與第六次給藥後，大多數這些指標在達到最高濃度的值與時間相似。 反覆發作型多發性硬化症 Rebif ®的安全性及效用已在患有反覆發作型多發性硬化症病人使用11～44 mcg (相當於3~12 MIU) 每週三次皮下注射的研究結果中證實。在核准的劑量(Rebif ®22 mcg及Rebif ®44 mcg)下，Rebif ®可降低前兩年至少有兩次發作且開始治療時EDSS值介於0~5.0病人的復發次數(兩年期間降低30%)及嚴重性。以三個月內EDSS增加一分以上作為行動不能進展的評估，Rebif ®22 mcg可將發生比例由安慰劑組的39%降為30%；Rebif ®44 mcg可降為27%。經過四年的治療，與使用安慰劑兩年後改用22 mcg或44 mcg治療2年組的平均復發次數相較，Rebif ® 22 mcg可降低22%；Rebif ®44 mcg可降低29%。 續發漸進型多發性硬化症 續發性漸進型多發性硬化症(近兩年內具有行動不能進展的證據，EDSS介於3-6.5，8週內未有發作)的三年臨床試驗顯示，Rebif ®能有效降低復發次數約30%，而對於行動不能進展的延緩則無明顯效果。若將病人依進入試驗前兩年間有無復發紀錄分為兩組，則前兩年間無復發紀錄的病人對於行動不能進展的延緩並無明顯效果，但對於前兩年間有復發紀錄的病人，其對於行動不能進展的延緩能由安慰劑組的70%降至使用Rebif ®22 mcg、44 mcg的57%。應謹慎告知病人此不同的結果。 原發漸進型多發性硬化症 Rebif ®尚未針對原發性漸進型多發性硬化症病人進行研究，故不應使用於該類病人。 單一臨床癥狀疑似多發性硬化症 一項Rebif 用於疑似多發性硬化症造成的單一臨床脫髓鞘癥狀病患為期2年的對照臨床研究。在T2加權MRI掃描下，至少顯示有2個3 mm以上的臨床無症狀病變，其中至少一個橢圓形、或在腦室旁、或在天幕下的病患才納入研究。除了多發性硬化症以外，任何疾病能解釋病患癥象或症狀的情形者都會被排除納入研究。 病患隨機且雙盲地被分配至Rebif 44 mcg 每週三次、Rebif 44 mcg每週一次、或安慰劑組。在病患第二次臨床脫髓鞘發作且確診為多發性硬化症時，病患即解盲轉換至Rebif 44 mcg每週三次建議用量組別。 研究中投與Rebif 44 mcg每週三次與安慰劑的有效性結果比較如下： Parameter Statistics Treatment Treatment Comparison Rebif 44 mcg tiw versus Placebo Placebo (n=171) Rebif 44 mcg tiw* (n=171) Risk Reduction Cox’s Proportional Hazard Ratio [95% CI] Log-Rank p-value McDonald (2005) Conversion Number of events 144 106 51% 0.49 [0.38;0.64] <0.001 KM Estimate 85.8% 62.5% CDMS Conversion Number of events 60 33 52% 0.48 [0.31;0.73] <0.001 KM Estimate 37.5% 20.6% Mean CUA Lesions per Subject per Scan During the Double Blind Period Least Square Means (SE) 2.58 (0.30) 0.50 (0.06) 81% 0.19 [0.14;0.26] <0.001 * tiw – 每週三次 暫時對高風險病患並沒有一個完整的定義。然而有一個較保守且被接受的方法是初期掃描顯示至少有九個T2高信號病變且在一個月後的後續追蹤掃描也有至少一個T2或Gd-增強掃描到的新病變。在任何狀況下，被列為高風險的病患應接受治療。\n10.3\n臨床前安全性資料\n根據一般的安全性藥理研究、重覆劑量毒性試驗及基因毒性試驗，非臨床資料顯示並無對人類有特殊的傷害。 Rebif ®是否具致癌性並未研究。 在猴子胚胎及胎兒的研究中並未顯示Rebif ®會影響生殖發展。依據其他interferon alpha及beta的觀察，並無法排除流產危險因子發生率的升高。Interferon beta-1a對於男性生殖的影響並未知。\n11\n藥物動力學特性\n吸收 健康受試者以靜脈注射interferon beta-1a後，血中濃度與投與劑量成正比，呈現快速的多指數下降。皮下或肌肉注射兩者的動力學是相同的。 分佈 在重覆投與Rebif ®22mcg與44mcg皮下注射後，最高濃度通常發生在8小時後，但其變異度極大。 排除 在健康受試者重複投與皮下注射後，主要的藥物動力學參數(如AUCtau與Cmax)會隨著劑量由22 mcg增加至44 mcg而呈等比例的增加。其擬似半衰期為50-60小時，與多劑投與後的累積程度推估相同。 代謝 Interferon beta-1a主要由肝臟及腎臟代謝與排除。\n12\n臨床試驗資料\n無\n13\n包裝及儲存\n藥匣(第一型玻璃)附橡皮塞並套上封口蓋(材質為鋁及橡膠)內含1.5毫升注射液。 每盒裝有4或12支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。\n13.1\n包裝\n藥匣(第一型玻璃)附橡皮塞並套上封口蓋(材質為鋁及橡膠)內含1.5毫升注射液。 每盒裝有4或12支藥匣。並非所有不同藥匣支數包裝皆會在台灣上市。\n13.2\n效期\n有效期限標示於外盒上。\n13.3\n儲存條件\nRebif®需放在2-8 ℃(冰箱)中保存，勿置於靠近冷凍室之處。請勿冷凍。藥匣需置於原包裝中避光。 含Rebif®預充填藥匣之注射器(RebiSmart or RebiSlide)必須貯存於注射器存放盒並放置於冷藏室中(2 °C- 8°C)。 為了方便攜帶使用，病人可將Rebif®由冷藏室中取出並貯存不超過25°C的環境一次，此期間最多為14天，然後Rebif®必須放回冷藏室中，超過有效期限請勿使用。\n13.4\n儲存注意事項\n14\n病人使用須知\n使用用法 Rebif注射液藥匣之設計為配合RebiSmart自動注射器或手動式RebiSlide注射器，在患者及/或照顧者經過適當訓練後，做多次性皮下注射使用。 醫師需與患者討論並建議最適合其使用之注射輔具。 除非有其他無視力問題的人可提供協助, 否則視力不佳之患者不建議使用RebiSlide。 關於用法，RebiSmart及RebiSlide包裝內皆附有操作說明，使用者需遵守其操作方式。\n15\n其他\n已預先填充於藥匣之注射液可立即於RebiSmart自動注射器或手動式RebiSlide注射器使用。關於如何貯存含藥匣之注射器，請參閱13.3。並非全部適用於Rebif®之注射器均在台灣上市。 多次劑量使用。只有澄清至乳白色溶液、無顆粒、無可見變質跡象的注射液才可使用。 任何未使用完的產品或是醫療廢棄物請依當地規定丟棄。 立比扶®注射劑66 mcg/ Rebif® Solution for injection 66 micrograms 立比扶®注射劑132 mcg/ Rebif® Solution for injection 132 micrograms 資料日期 2023年3月_EMA SmPC 07/01/2021_RMS+CIS",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "MERCK SERONO S.P.A.",
+          "address": "VIA DELLE MAGNOLIE 15, ZONA INDUSTRIALE DI MODUGNO, 70026 MODUGNO, ITALY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "MERCK SERONO S.A.-CORSIER-SUR-VEVEY",
+          "address": "ROUTE DE FENIL, 25 ZONE INDUSTRIELLE B, 1804 CORSIER-SUR-VEVEY, SWITZERLAND"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "臺灣默克股份有限公司",
+          "address": "台北市南港區經貿二路121號20樓"
+        }
+      ]
+    }
+  ]
+}

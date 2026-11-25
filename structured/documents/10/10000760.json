@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:31.482162+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000760",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000760號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000760號",
+      "matched_license_code": "10000760",
+      "matched_nhi_code": "",
+      "drug_name_zh": "因速來達胰島素注射液",
+      "drug_name_en": "Insulatard",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2025-08-18",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "人體胰島素，rDNA (在 Saccharomyces cerevisiae 菌種中經重組 DNA 技術製成)。 每 1 毫升含有 100 單位的人體胰島素。 每 1 個玻璃瓶內含有 10 毫升，相當於 1,000 單位。 每 1 單位 (IU, International Unit) 相當於 0.035 毫克的無水人體胰島素。 Insulatard® 是一種含 isophane (NPH) 的胰島素懸浮液。",
+          "content_html": "<p>人體胰島素，rDNA (在 Saccharomyces cerevisiae 菌種中經重組 DNA 技術製成)。&nbsp;</p><p>每 1 毫升含有 100 單位的人體胰島素。&nbsp;</p><p>每 1 個玻璃瓶內含有 10 毫升，相當於 1,000 單位。&nbsp;</p><p>每 1 單位 (IU, International Unit) 相當於 0.035 毫克的無水人體胰島素。&nbsp;</p><p>Insulatard<sup>®</sup> 是一種含 isophane (NPH) 的胰島素懸浮液。</p>",
+          "search_text": "1.1\n有效成分及含量\n人體胰島素，rDNA (在 Saccharomyces cerevisiae 菌種中經重組 DNA 技術製成)。 每 1 毫升含有 100 單位的人體胰島素。 每 1 個玻璃瓶內含有 10 毫升，相當於 1,000 單位。 每 1 單位 (IU, International Unit) 相當於 0.035 毫克的無水人體胰島素。 Insulatard® 是一種含 isophane (NPH) 的胰島素懸浮液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Zinc chloride, glycerol, metacresol, phenol, disodium phosphate dihydrate, sodium hydroxide/hydrochloric acid (for pH adjustment), protamine sulphate and water for injections.",
+          "content_html": "<p>Zinc chloride, glycerol, metacresol, phenol, disodium phosphate dihydrate, sodium hydroxide/hydrochloric acid (for pH adjustment), protamine sulphate and water for injections.</p>",
+          "search_text": "1.2\n賦形劑\nZinc chloride, glycerol, metacresol, phenol, disodium phosphate dihydrate, sodium hydroxide/hydrochloric acid (for pH adjustment), protamine sulphate and water for injections.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p>注射劑</p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "置於玻璃瓶內的懸浮注射液。 白色混濁的懸浮液。",
+          "content_html": "<p>置於玻璃瓶內的懸浮注射液。&nbsp;</p><p>白色混濁的懸浮液。</p>",
+          "search_text": "1.4\n藥品外觀\n置於玻璃瓶內的懸浮注射液。 白色混濁的懸浮液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "糖尿病。",
+          "content_html": "<p>糖尿病。</p>",
+          "search_text": "2\n適應症\n糖尿病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "Insulatard® 是一種長效型的胰島素，可以單獨使用或是與短效或速效型胰島素製劑併用。 劑量 劑量是按照個別情況與患者的需要而決定。每個人的胰島素需求量通常是介於 0.3 和 1.0 Units/kg/day 之間，胰島素的每日需求量在具有胰島素抗性 (例如：在青春期間或肥胖) 的患者較高，而在體內仍有內生性胰島素分泌的患者則較低。 調整劑量 併存他種疾病，尤其是感染及發燒，經常會增加患者胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。 如果患者改變日常飲食習慣或是體能活動；或是當患者轉換不同類型的胰島素時，也可能需要依情況調整劑量。 投予方式 皮下注射。胰島素懸浮液絕對不可由靜脈注射。 Insulatard® 採大腿皮下注射。方便的話，亦可以注射於腹壁、臀部或三角肌部位。在相同部位的注射點應該要一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。大腿皮下注射的吸收速率比其他部位注射吸收較慢且變異較小。 注射在捏起的皮膚可減低不小心注射到肌肉的風險。 應讓針頭停留於皮下至少 6 秒以上再拔出，以確定胰島素都已完全注射。 Insulatard®玻璃瓶應與具有適當單位刻度的胰島素注射針筒併用。",
+          "content_html": "<p>Insulatard<sup>®</sup> 是一種長效型的胰島素，可以單獨使用或是與短效或速效型胰島素製劑併用。</p><p>&nbsp;</p><p><strong>劑量</strong><br>劑量是按照個別情況與患者的需要而決定。每個人的胰島素需求量通常是介於 0.3 和 1.0 Units/kg/day 之間，胰島素的每日需求量在具有胰島素抗性 (例如：在青春期間或肥胖) 的患者較高，而在體內仍有內生性胰島素分泌的患者則較低。&nbsp;</p><p>&nbsp;</p><p><strong>調整劑量</strong><br>併存他種疾病，尤其是感染及發燒，經常會增加患者胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。</p><p>&nbsp;</p><p>如果患者改變日常飲食習慣或是體能活動；或是當患者轉換不同類型的胰島素時，也可能需要依情況調整劑量。</p><p>&nbsp;</p><p><strong>投予方式&nbsp;</strong></p><p>皮下注射。胰島素懸浮液絕對不可由靜脈注射。&nbsp;</p><p>Insulatard<sup>®</sup> 採大腿皮下注射。方便的話，亦可以注射於腹壁、臀部或三角肌部位。在相同部位的注射點應該要一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。大腿皮下注射的吸收速率比其他部位注射吸收較慢且變異較小。&nbsp;</p><p>注射在捏起的皮膚可減低不小心注射到肌肉的風險。 應讓針頭停留於皮下至少 6 秒以上再拔出，以確定胰島素都已完全注射。&nbsp;</p><p>Insulatard<sup>®</sup>玻璃瓶應與具有適當單位刻度的胰島素注射針筒併用。</p>",
+          "search_text": "3.1\n用法用量\nInsulatard® 是一種長效型的胰島素，可以單獨使用或是與短效或速效型胰島素製劑併用。 劑量 劑量是按照個別情況與患者的需要而決定。每個人的胰島素需求量通常是介於 0.3 和 1.0 Units/kg/day 之間，胰島素的每日需求量在具有胰島素抗性 (例如：在青春期間或肥胖) 的患者較高，而在體內仍有內生性胰島素分泌的患者則較低。 調整劑量 併存他種疾病，尤其是感染及發燒，經常會增加患者胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。 如果患者改變日常飲食習慣或是體能活動；或是當患者轉換不同類型的胰島素時，也可能需要依情況調整劑量。 投予方式 皮下注射。胰島素懸浮液絕對不可由靜脈注射。 Insulatard® 採大腿皮下注射。方便的話，亦可以注射於腹壁、臀部或三角肌部位。在相同部位的注射點應該要一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。大腿皮下注射的吸收速率比其他部位注射吸收較慢且變異較小。 注射在捏起的皮膚可減低不小心注射到肌肉的風險。 應讓針頭停留於皮下至少 6 秒以上再拔出，以確定胰島素都已完全注射。 Insulatard®玻璃瓶應與具有適當單位刻度的胰島素注射針筒併用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對主成分或其中任何賦形劑過敏者。",
+          "content_html": "<p>對主成分或其中任何賦形劑過敏者。</p>",
+          "search_text": "4\n禁忌\n對主成分或其中任何賦形劑過敏者。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "使用不恰當之劑量或中斷治療，尤其對於第 1 型糖尿病患者，可能會導致高血糖症。高血糖症的初期症狀在數小時或 數天內逐漸出現。這些症狀包括口渴、頻尿、噁心、嘔吐、昏沉、皮膚乾燥潮紅、口乾、沒有食慾及呼吸出空氣含有丙酮香味。 第 1 型糖尿病患者發生高血糖症狀若未接受治療會造成糖尿病性酮酸中毒，可能致命。 投予的胰島素劑量在超過所需的量時，可能會發生低血糖症狀。 誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖。 血糖控制情形大幅改善的患者，例如：藉由密集的胰島素治療 ，其發生低血糖時的警告症狀可能產生改變，因此應該 接受相關指導。 長期患有糖尿病的患者，其一般常發生的警告症狀可能會逐漸消失。 患者轉換新型或新廠牌的胰島素必須有嚴格的醫療監控。藥效、廠牌(製造廠)、類型、來源(人類胰島素、胰島素類似 物)、和/或製造方法的改變，可能需要調整劑量。患者由其他類型胰島素轉換成 Insulatard®時，可能需要改變每天的投予次數或劑量。當患者轉換使用 Insulatard®而須調整劑量時，可在第一次投予劑量或前幾週或前幾個月內調整。 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢反應。在同一部位的注射點不停地輪替可以減少或是預防這些不良反應。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用 Insulatard®。 跨越時區旅行前，患者應接受醫師指導，因為患者可能因為旅行而必須在不同的時間點使用胰島素及用餐。 胰島素懸浮劑不可用於胰島素輸注幫浦。 皮膚和皮下組織異常 務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症(cutaneous amyloidosis)的 風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收和血糖控制惡化。曾有報告顯示，突然改變注射區域至未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。",
+          "content_html": "<p>使用不恰當之劑量或中斷治療，尤其對於第 1 型糖尿病患者，可能會導致<strong>高血糖症</strong>。高血糖症的初期症狀在數小時或 數天內逐漸出現。這些症狀包括口渴、頻尿、噁心、嘔吐、昏沉、皮膚乾燥潮紅、口乾、沒有食慾及呼吸出空氣含有丙酮香味。</p><p>第 1 型糖尿病患者發生高血糖症狀若未接受治療會造成糖尿病性酮酸中毒，可能致命。&nbsp;</p><p>投予的胰島素劑量在超過所需的量時，可能會發生<strong>低血糖症</strong>狀。</p><p>誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖。</p><p>血糖控制情形大幅改善的患者，例如：藉由密集的胰島素治療 ，其發生低血糖時的警告症狀可能產生改變，因此應該 接受相關指導。</p><p>長期患有糖尿病的患者，其一般常發生的警告症狀可能會逐漸消失。</p><p>患者轉換新型或新廠牌的胰島素必須有嚴格的醫療監控。藥效、廠牌(製造廠)、類型、來源(人類胰島素、胰島素類似 物)、和/或製造方法的改變，可能需要調整劑量。患者由其他類型胰島素轉換成 Insulatard<sup>®</sup>時，可能需要改變每天的投予次數或劑量。當患者轉換使用 Insulatard<sup>®</sup>而須調整劑量時，可在第一次投予劑量或前幾週或前幾個月內調整。 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢反應。在同一部位的注射點不停地輪替可以減少或是預防這些不良反應。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用 Insulatard<sup>®</sup>。</p><p>跨越時區旅行前，患者應接受醫師指導，因為患者可能因為旅行而必須在不同的時間點使用胰島素及用餐。 胰島素懸浮劑不可用於胰島素輸注幫浦。</p><p><strong><u>皮膚和皮下組織異常&nbsp;</u></strong></p><p>務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症(cutaneous amyloidosis)的 風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收和血糖控制惡化。曾有報告顯示，突然改變注射區域至未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。</p>",
+          "search_text": "5.1\n警語/注意事項\n使用不恰當之劑量或中斷治療，尤其對於第 1 型糖尿病患者，可能會導致高血糖症。高血糖症的初期症狀在數小時或 數天內逐漸出現。這些症狀包括口渴、頻尿、噁心、嘔吐、昏沉、皮膚乾燥潮紅、口乾、沒有食慾及呼吸出空氣含有丙酮香味。 第 1 型糖尿病患者發生高血糖症狀若未接受治療會造成糖尿病性酮酸中毒，可能致命。 投予的胰島素劑量在超過所需的量時，可能會發生低血糖症狀。 誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖。 血糖控制情形大幅改善的患者，例如：藉由密集的胰島素治療 ，其發生低血糖時的警告症狀可能產生改變，因此應該 接受相關指導。 長期患有糖尿病的患者，其一般常發生的警告症狀可能會逐漸消失。 患者轉換新型或新廠牌的胰島素必須有嚴格的醫療監控。藥效、廠牌(製造廠)、類型、來源(人類胰島素、胰島素類似 物)、和/或製造方法的改變，可能需要調整劑量。患者由其他類型胰島素轉換成 Insulatard®時，可能需要改變每天的投予次數或劑量。當患者轉換使用 Insulatard®而須調整劑量時，可在第一次投予劑量或前幾週或前幾個月內調整。 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢反應。在同一部位的注射點不停地輪替可以減少或是預防這些不良反應。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用 Insulatard®。 跨越時區旅行前，患者應接受醫師指導，因為患者可能因為旅行而必須在不同的時間點使用胰島素及用餐。 胰島素懸浮劑不可用於胰島素輸注幫浦。 皮膚和皮下組織異常 務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症(cutaneous amyloidosis)的 風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收和血糖控制惡化。曾有報告顯示，突然改變注射區域至未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "患者可能因低血糖而注意力無法集中或反應較慢，在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。 患者應被告知採取預防措施以避免駕車時發生低血糖。對於對低血糖症狀較無或已無感受，或是常發生低血糖症的患者更是特別重要。應考慮這些患者是否仍適宜駕車。",
+          "content_html": "<p>患者可能因低血糖而注意力無法集中或反應較慢，在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。</p><p>患者應被告知採取預防措施以避免駕車時發生低血糖。對於對低血糖症狀較無或已無感受，或是常發生低血糖症的患者更是特別重要。應考慮這些患者是否仍適宜駕車。</p>",
+          "search_text": "5.3\n操作機械能力\n患者可能因低血糖而注意力無法集中或反應較慢，在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。 患者應被告知採取預防措施以避免駕車時發生低血糖。對於對低血糖症狀較無或已無感受，或是常發生低血糖症的患者更是特別重要。應考慮這些患者是否仍適宜駕車。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "不相容性 胰島素懸浮液不應加入輸注液內。",
+          "content_html": "<p><strong>不相容性&nbsp;</strong></p><p>胰島素懸浮液不應加入輸注液內。</p>",
+          "search_text": "5.5\n其他注意事項\n不相容性 胰島素懸浮液不應加入輸注液內。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "因為胰島素不會穿過胎盤屏障，懷孕期間使用胰島素治療糖尿病沒有任何限制。 糖尿病的治療若未妥善控制，無論是低血糖或高血糖，都會增加子宮內畸形與死亡的風險。 糖尿病婦女懷孕期間或計劃懷孕時，建議應加強血糖控制及監控。 胰島素需求量通常在懷孕的第 1 至 3 個月會下降，隨後在第 4 至 9 個月則逐漸增加。 胰島素需求量在產後通常會即刻回到懷孕前的需求量。",
+          "content_html": "<p>因為胰島素不會穿過胎盤屏障，懷孕期間使用胰島素治療糖尿病沒有任何限制。</p><p>糖尿病的治療若未妥善控制，無論是低血糖或高血糖，都會增加子宮內畸形與死亡的風險。&nbsp;</p><p>糖尿病婦女懷孕期間或計劃懷孕時，建議應加強血糖控制及監控。</p><p>胰島素需求量通常在懷孕的第 1 至 3 個月會下降，隨後在第 4 至 9 個月則逐漸增加。</p><p>胰島素需求量在產後通常會即刻回到懷孕前的需求量。</p>",
+          "search_text": "6.1\n懷孕\n因為胰島素不會穿過胎盤屏障，懷孕期間使用胰島素治療糖尿病沒有任何限制。 糖尿病的治療若未妥善控制，無論是低血糖或高血糖，都會增加子宮內畸形與死亡的風險。 糖尿病婦女懷孕期間或計劃懷孕時，建議應加強血糖控制及監控。 胰島素需求量通常在懷孕的第 1 至 3 個月會下降，隨後在第 4 至 9 個月則逐漸增加。 胰島素需求量在產後通常會即刻回到懷孕前的需求量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "授乳期間使用 Insulatard®來治療是沒有限制的。 授乳期間母親接受胰島素治療對嬰兒沒有風險，但 Insulatard®的劑量，飲食或是兩者都可能需要調整。",
+          "content_html": "<p>授乳期間使用 Insulatard<sup>®</sup>來治療是沒有限制的。</p><p>授乳期間母親接受胰島素治療對嬰兒沒有風險，但 Insulatard<sup>®</sup>的劑量，飲食或是兩者都可能需要調整。</p>",
+          "search_text": "6.2\n哺乳\n授乳期間使用 Insulatard®來治療是沒有限制的。 授乳期間母親接受胰島素治療對嬰兒沒有風險，但 Insulatard®的劑量，飲食或是兩者都可能需要調整。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "併用 thiazolidinediones 及胰島素製劑 在 thiazolidinediones 與 insulin 併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的患者，故在考慮併用 thiazolidinediones 與 insulin 來治療時，應特別注意。在給予併用療法時，應觀察患者鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用 thiazolidinediones。 避免出現意外地混合或用藥錯誤 患者必須告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生 Insulatard®和其他胰島素產品混合的事件。 與其他藥物的交互作用及其他形式的交互作用 有些藥品已知會影響葡萄糖代謝。 下列物質可能會減少患者的胰島素需求量： Oral anti-diabetic products, monoamine oxidase inhibitors (MAOI), non-selective beta-blocking agents, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids 和 sulphonamides。 下列物質可能會增加患者的胰島素需求量： 口服避孕藥, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone 和 danazol。 Beta-blocking agents 可能會遮蔽低血糖症狀並延緩低血糖症狀之復原。 Octreotide/lanreotide 可能會增加或減低胰島素需求量。 酒精會加重或降低胰島素降低血糖的作用。",
+          "content_html": "<p><strong>併用 thiazolidinediones 及胰島素製劑&nbsp;</strong></p><p>在 thiazolidinediones 與 insulin 併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的患者，故在考慮併用 thiazolidinediones 與 insulin 來治療時，應特別注意。在給予併用療法時，應觀察患者鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用 thiazolidinediones。&nbsp;</p><p><strong>避免出現意外地混合或用藥錯誤&nbsp;</strong></p><p>患者必須告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生 Insulatard<sup>®</sup>和其他胰島素產品混合的事件。</p><p><strong>與其他藥物的交互作用及其他形式的交互作用&nbsp;</strong></p><p>有些藥品已知會影響葡萄糖代謝。&nbsp;</p><p><strong>下列物質可能會減少患者的胰島素需求量：</strong></p><p>Oral anti-diabetic products, monoamine oxidase inhibitors (MAOI), non-selective beta-blocking agents, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids 和 sulphonamides。</p><p><strong>下列物質可能會增加患者的胰島素需求量：&nbsp;</strong></p><p>口服避孕藥, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone 和 danazol。</p><p>Beta-blocking agents 可能會遮蔽低血糖症狀並延緩低血糖症狀之復原。</p><p>Octreotide/lanreotide 可能會增加或減低胰島素需求量。</p><p>酒精會加重或降低胰島素降低血糖的作用。&nbsp;</p>",
+          "search_text": "7\n交互作用\n併用 thiazolidinediones 及胰島素製劑 在 thiazolidinediones 與 insulin 併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的患者，故在考慮併用 thiazolidinediones 與 insulin 來治療時，應特別注意。在給予併用療法時，應觀察患者鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用 thiazolidinediones。 避免出現意外地混合或用藥錯誤 患者必須告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生 Insulatard®和其他胰島素產品混合的事件。 與其他藥物的交互作用及其他形式的交互作用 有些藥品已知會影響葡萄糖代謝。 下列物質可能會減少患者的胰島素需求量： Oral anti-diabetic products, monoamine oxidase inhibitors (MAOI), non-selective beta-blocking agents, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids 和 sulphonamides。 下列物質可能會增加患者的胰島素需求量： 口服避孕藥, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone 和 danazol。 Beta-blocking agents 可能會遮蔽低血糖症狀並延緩低血糖症狀之復原。 Octreotide/lanreotide 可能會增加或減低胰島素需求量。 酒精會加重或降低胰島素降低血糖的作用。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "a. 安全性評估概要 在治療期間，最常發生的不良反應為低血糖。在臨床試驗及上市後使用期間，低血糖的發生率會依患者的族群、治療 劑量以及血糖控制的程度而異，見以下的 c 章節。 在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、泛紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。 b.不良反應列表 以下表格所列出的不良反應是根據臨床試驗的數據，並且按照 MedDRA frequency and System Organ Class 來分類。發生率的定義為：極常見(≥1/10)；常見(≥1/100 至<1/10)；不常見(≥1/1,000 至<1/100)；罕見(≥1/10,000 至<1/1,000)；極罕見 (<1/10,000)與未知(無法由目前的資料來評估)。 免疫系統異常不常見 - 蕁麻疹、發疹* 極罕見 - 過敏反應* 代謝及營養異常極常見 - 低血糖* 神經系統異常極罕見 - 周邊神經病變 (疼痛性神經病變) 眼部異常極罕見 - 屈光異常 不常見 - 糖尿病視網膜病變 皮膚與皮下組織異常不常見 - 脂肪病變* 未知 -皮膚類澱粉沉積症*† 一般性及注射部位的問題不常見 - 注射部位不良反應* 不常見 - 水腫\n*見 c. 小節。 †上市後不良反應資料 c. 不良反應描述 過敏反應 全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、血壓下降及昏厥/失去意識)的發生率是極罕見的，但是有可能會危及生命。 低血糖 通報的不良反應中，最常發生的是低血糖。當給予的劑量高於患者所需的胰島素時即可能發生。嚴重低血糖可能引起 失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷 汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視 力改變、頭痛、噁心及心悸。 皮膚和皮下組織異常 脂肪病變(包括脂質增生、脂質萎縮)與皮膚類澱粉沉積症(cutaneous amyloidosis)，可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應。",
+          "content_html": "<p><u>a. 安全性評估概要</u></p><p>在治療期間，最常發生的不良反應為低血糖。在臨床試驗及上市後使用期間，低血糖的發生率會依患者的族群、治療 劑量以及血糖控制的程度而異，見以下的 c 章節。&nbsp;</p><p>在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、泛紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。</p><p><u>b.不良反應列表&nbsp;</u></p><p>以下表格所列出的不良反應是根據臨床試驗的數據，並且按照 MedDRA frequency and System Organ Class 來分類。發生率的定義為：極常見(<strong>≥</strong>1/10)；常見(<strong>≥</strong>1/100 至&lt;1/10)；不常見(<strong>≥</strong>1/1,000 至&lt;1/100)；罕見(<strong>≥</strong>1/10,000 至&lt;1/1,000)；極罕見 (&lt;1/10,000)與未知(無法由目前的資料來評估)。</p><figure class=\"table\"><table style=\"background-color:White;border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">免疫系統異常</td><td style=\"border-color:Black;border-style:solid;\">不常見 - 蕁麻疹、發疹*</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">極罕見 - 過敏反應*</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">代謝及營養異常</td><td style=\"border-color:Black;border-style:solid;\">極常見 - 低血糖*</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">神經系統異常</td><td style=\"border-color:Black;border-style:solid;\">極罕見 - 周邊神經病變<br>(疼痛性神經病變)</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">眼部異常</td><td style=\"border-color:Black;border-style:solid;\">極罕見 - 屈光異常</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">不常見 - 糖尿病視網膜病變</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">皮膚與皮下組織異常</td><td style=\"border-color:Black;border-style:solid;\">不常見 - 脂肪病變*</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">未知 -皮膚類澱粉沉積症*†</td></tr><tr><td style=\"border-color:Black;border-style:solid;\" rowspan=\"2\">一般性及注射部位的問題</td><td style=\"border-color:Black;border-style:solid;\">不常見 - 注射部位不良反應*</td></tr><tr><td style=\"border-color:Black;border-style:solid;\">不常見 - 水腫</td></tr></tbody></table></figure><p>&nbsp;</p>\n<p>*見 c. 小節。<br>†上市後不良反應資料</p><p><u>c. 不良反應描述</u><br>過敏反應<br>全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、血壓下降及昏厥/失去意識)的發生率是極罕見的，但是有可能會危及生命。</p><p>低血糖&nbsp;</p><p>通報的不良反應中，最常發生的是低血糖。當給予的劑量高於患者所需的胰島素時即可能發生。嚴重低血糖可能引起 失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷 汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視 力改變、頭痛、噁心及心悸。</p><p>皮膚和皮下組織異常<br>脂肪病變(包括脂質增生、脂質萎縮)與皮膚類澱粉沉積症(cutaneous amyloidosis)，可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應。</p><p>&nbsp;</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\na. 安全性評估概要 在治療期間，最常發生的不良反應為低血糖。在臨床試驗及上市後使用期間，低血糖的發生率會依患者的族群、治療 劑量以及血糖控制的程度而異，見以下的 c 章節。 在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、泛紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。 b.不良反應列表 以下表格所列出的不良反應是根據臨床試驗的數據，並且按照 MedDRA frequency and System Organ Class 來分類。發生率的定義為：極常見(≥1/10)；常見(≥1/100 至<1/10)；不常見(≥1/1,000 至<1/100)；罕見(≥1/10,000 至<1/1,000)；極罕見 (<1/10,000)與未知(無法由目前的資料來評估)。 免疫系統異常不常見 - 蕁麻疹、發疹* 極罕見 - 過敏反應* 代謝及營養異常極常見 - 低血糖* 神經系統異常極罕見 - 周邊神經病變 (疼痛性神經病變) 眼部異常極罕見 - 屈光異常 不常見 - 糖尿病視網膜病變 皮膚與皮下組織異常不常見 - 脂肪病變* 未知 -皮膚類澱粉沉積症*† 一般性及注射部位的問題不常見 - 注射部位不良反應* 不常見 - 水腫\n*見 c. 小節。 †上市後不良反應資料 c. 不良反應描述 過敏反應 全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、血壓下降及昏厥/失去意識)的發生率是極罕見的，但是有可能會危及生命。 低血糖 通報的不良反應中，最常發生的是低血糖。當給予的劑量高於患者所需的胰島素時即可能發生。嚴重低血糖可能引起 失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷 汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視 力改變、頭痛、噁心及心悸。 皮膚和皮下組織異常 脂肪病變(包括脂質增生、脂質萎縮)與皮膚類澱粉沉積症(cutaneous amyloidosis)，可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。&nbsp;</p>",
+          "search_text": "8.2\n臨床試驗經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "胰島素的過量難以定義，然而如果給予的劑量遠高於患者所需，低血糖症狀可能如下列階段發生： • 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病患者應隨時攜帶一些含糖製品。 • 嚴重低血糖症，患者已經失去意識，可由已接受過訓練的人以肌肉或皮下注射昇糖素(0.5 至 1 mg)方式急救患者， 或是由醫療專業人員以靜脈注射葡萄糖。若患者在 10 至 15 分鐘內對昇糖素沒有反應，則必須靜脈注射葡萄糖。 當患者恢復意識後，應馬上進食碳水化合物以防患者再發生低血糖。",
+          "content_html": "<p>胰島素的過量難以定義，然而如果給予的劑量遠高於患者所需，低血糖症狀可能如下列階段發生：&nbsp;</p><p>• 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病患者應隨時攜帶一些含糖製品。&nbsp;</p><p>• 嚴重低血糖症，患者已經失去意識，可由已接受過訓練的人以肌肉或皮下注射昇糖素(0.5 至 1 mg)方式急救患者， 或是由醫療專業人員以靜脈注射葡萄糖。若患者在 10 至 15 分鐘內對昇糖素沒有反應，則必須靜脈注射葡萄糖。&nbsp;</p><p>當患者恢復意識後，應馬上進食碳水化合物以防患者再發生低血糖。</p>",
+          "search_text": "9\n過量\n胰島素的過量難以定義，然而如果給予的劑量遠高於患者所需，低血糖症狀可能如下列階段發生： • 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病患者應隨時攜帶一些含糖製品。 • 嚴重低血糖症，患者已經失去意識，可由已接受過訓練的人以肌肉或皮下注射昇糖素(0.5 至 1 mg)方式急救患者， 或是由醫療專業人員以靜脈注射葡萄糖。若患者在 10 至 15 分鐘內對昇糖素沒有反應，則必須靜脈注射葡萄糖。 當患者恢復意識後，應馬上進食碳水化合物以防患者再發生低血糖。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "藥理治療分類：糖尿病用藥。胰島素與類似物注射劑，中長效型，人類胰島素。 ATC code: A10AC01。 胰島素是藉由與肌肉細胞及脂肪細胞上的胰島素接受器結合以促進葡萄糖進入細胞內，並且抑制肝臟中葡萄糖的釋 出，而達到降血糖的效果。",
+          "content_html": "<p>藥理治療分類：糖尿病用藥。胰島素與類似物注射劑，中長效型，人類胰島素。&nbsp;</p><p>ATC code: A10AC01。&nbsp;</p><p>胰島素是藉由與肌肉細胞及脂肪細胞上的胰島素接受器結合以促進葡萄糖進入細胞內，並且抑制肝臟中葡萄糖的釋 出，而達到降血糖的效果。</p>",
+          "search_text": "10.1\n作用機轉\n藥理治療分類：糖尿病用藥。胰島素與類似物注射劑，中長效型，人類胰島素。 ATC code: A10AC01。 胰島素是藉由與肌肉細胞及脂肪細胞上的胰島素接受器結合以促進葡萄糖進入細胞內，並且抑制肝臟中葡萄糖的釋 出，而達到降血糖的效果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "Insulatard® 是作用效果較長的胰島素。 作用起始時間在 1½ 小時內，在第 4 至第 12 小時之間發生最大作用效果，而作用持續時間約為 24 小時。",
+          "content_html": "<p>Insulatard<sup>®</sup> 是作用效果較長的胰島素。&nbsp;</p><p>作用起始時間在 1½ 小時內，在第 4 至第 12 小時之間發生最大作用效果，而作用持續時間約為 24 小時。&nbsp;</p>",
+          "search_text": "10.2\n藥效藥理特性\nInsulatard® 是作用效果較長的胰島素。 作用起始時間在 1½ 小時內，在第 4 至第 12 小時之間發生最大作用效果，而作用持續時間約為 24 小時。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "依據藥理安全性、重複劑量毒性、基因毒性、潛在致癌性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。",
+          "content_html": "<p>依據藥理安全性、重複劑量毒性、基因毒性、潛在致癌性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n依據藥理安全性、重複劑量毒性、基因毒性、潛在致癌性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "胰島素在血液中的半衰期僅有幾分鐘。因此，胰島素製劑的作用特性完全由吸收速率來決定。 此過程受幾個因素所影響(例如：胰島素劑量、注射途徑及部位、皮下脂肪厚度、糖尿病類型)。因此，胰島素製品的藥物動力學因個體內與個體之間的明顯差異而不同。 吸收 胰島素皮下注射後 2 至 18 小時內可達到最大血中濃度。 分布 除了血液循環中可能存在的胰島素抗體，並未觀察到明顯與血漿蛋白結合的現象。 代謝 據報導，人類胰島素會被 insulin protease 或 insulin-degrading enzymes，也有可能是 protein disulfide isomerase 而分解。 已有人提出人類胰島素分子上的一些切割(水解) 點，切割後的代謝產物並無活性。 排除 最終半衰期是由皮下組織的吸收速率而決定。因此，最終半衰期 (t½ ) 是用來測量血中胰島素的吸收而不是排除本身 (胰島素在血流中的 t½僅有幾分鐘)。臨床試驗顯示 t½約為 5 至 10 小時。",
+          "content_html": "<p>胰島素在血液中的半衰期僅有幾分鐘。因此，胰島素製劑的作用特性完全由吸收速率來決定。&nbsp;</p><p>此過程受幾個因素所影響(例如：胰島素劑量、注射途徑及部位、皮下脂肪厚度、糖尿病類型)。因此，胰島素製品的藥物動力學因個體內與個體之間的明顯差異而不同。</p><p>&nbsp;</p><p><strong>吸收&nbsp;</strong></p><p>胰島素皮下注射後 2 至 18 小時內可達到最大血中濃度。</p><p><strong>分布&nbsp;</strong></p><p>除了血液循環中可能存在的胰島素抗體，並未觀察到明顯與血漿蛋白結合的現象。</p><p><strong>代謝&nbsp;</strong></p><p>據報導，人類胰島素會被 insulin protease 或 insulin-degrading enzymes，也有可能是 protein disulfide isomerase 而分解。 已有人提出人類胰島素分子上的一些切割(水解) 點，切割後的代謝產物並無活性。<br><strong>排除</strong></p><p>最終半衰期是由皮下組織的吸收速率而決定。因此，最終半衰期 (t<sub>½</sub> ) 是用來測量血中胰島素的吸收而不是排除本身 (胰島素在血流中的 t<sub>½</sub>僅有幾分鐘)。臨床試驗顯示 t<sub>½</sub>約為 5 至 10 小時。</p>",
+          "search_text": "11\n藥物動力學特性\n胰島素在血液中的半衰期僅有幾分鐘。因此，胰島素製劑的作用特性完全由吸收速率來決定。 此過程受幾個因素所影響(例如：胰島素劑量、注射途徑及部位、皮下脂肪厚度、糖尿病類型)。因此，胰島素製品的藥物動力學因個體內與個體之間的明顯差異而不同。 吸收 胰島素皮下注射後 2 至 18 小時內可達到最大血中濃度。 分布 除了血液循環中可能存在的胰島素抗體，並未觀察到明顯與血漿蛋白結合的現象。 代謝 據報導，人類胰島素會被 insulin protease 或 insulin-degrading enzymes，也有可能是 protein disulfide isomerase 而分解。 已有人提出人類胰島素分子上的一些切割(水解) 點，切割後的代謝產物並無活性。 排除 最終半衰期是由皮下組織的吸收速率而決定。因此，最終半衰期 (t½ ) 是用來測量血中胰島素的吸收而不是排除本身 (胰島素在血流中的 t½僅有幾分鐘)。臨床試驗顯示 t½約為 5 至 10 小時。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "盒裝的10 ml 玻璃瓶裝懸浮液(type 1 玻璃)，以圓型墊片(bromobutyl/ polyisoprene 橡膠)及防開封保護蓋密封。 包裝大小：1 或 5 玻璃瓶。 並非所有包裝均有上市。",
+          "content_html": "<p>盒裝的10 ml 玻璃瓶裝懸浮液(type 1 玻璃)，以圓型墊片(bromobutyl/ polyisoprene 橡膠)及防開封保護蓋密封。&nbsp;</p><p>包裝大小：1 或 5 玻璃瓶。&nbsp;</p><p>並非所有包裝均有上市。</p>",
+          "search_text": "13.1\n包裝\n盒裝的10 ml 玻璃瓶裝懸浮液(type 1 玻璃)，以圓型墊片(bromobutyl/ polyisoprene 橡膠)及防開封保護蓋密封。 包裝大小：1 或 5 玻璃瓶。 並非所有包裝均有上市。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "存放在冰箱中 (2°C-8°C)。不可太靠近冷凍庫。不可冷凍。",
+          "content_html": "<p>存放在冰箱中 (2°C-8°C)。不可太靠近冷凍庫。不可冷凍。</p>",
+          "search_text": "13.3\n儲存條件\n存放在冰箱中 (2°C-8°C)。不可太靠近冷凍庫。不可冷凍。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "請將玻璃瓶放在紙盒內以避光。 Insulatard®應避免過熱及避光。 在第一次開封使用後或是攜帶作為備用時：不需冷藏 使用中的架存期在低於25°C為6個星期，或低於30°C為4個星期。",
+          "content_html": "<p>請將玻璃瓶放在紙盒內以避光。&nbsp;</p><p>Insulatard<sup>®</sup>應避免過熱及避光。&nbsp;</p><p>在第一次開封使用後或是攜帶作為備用時：不需冷藏&nbsp;</p><p>使用中的架存期在低於25°C為6個星期，或低於30°C為4個星期。</p>",
+          "search_text": "13.4\n儲存注意事項\n請將玻璃瓶放在紙盒內以避光。 Insulatard®應避免過熱及避光。 在第一次開封使用後或是攜帶作為備用時：不需冷藏 使用中的架存期在低於25°C為6個星期，或低於30°C為4個星期。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "冷凍過的胰島素製品是不能夠使用的。 將 Insulatard®玻璃瓶從冰箱拿出來後，在第一次使用均勻振搖前，建議讓此玻璃瓶回復到室溫。 如果胰島素懸浮液在重新均勻振搖後，不是呈現均勻白色混濁時是不能夠使用的。",
+          "content_html": "<p>冷凍過的胰島素製品是不能夠使用的。&nbsp;</p><p>將 Insulatard<sup>®</sup>玻璃瓶從冰箱拿出來後，在第一次使用均勻振搖前，建議讓此玻璃瓶回復到室溫。&nbsp;</p><p>如果胰島素懸浮液在重新均勻振搖後，不是呈現均勻白色混濁時是不能夠使用的。</p>",
+          "search_text": "14\n病人使用須知\n冷凍過的胰島素製品是不能夠使用的。 將 Insulatard®玻璃瓶從冰箱拿出來後，在第一次使用均勻振搖前，建議讓此玻璃瓶回復到室溫。 如果胰島素懸浮液在重新均勻振搖後，不是呈現均勻白色混濁時是不能夠使用的。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "因速來達® Insulatard® 是 Novo Nordisk A/S, Denmark 所擁有之商標。 © 2021 Novo Nordisk A/S 藥商 台灣諾和諾德藥品股份有限公司 電話02-7704-9988 傳真02-2377-0111 網址www.novonordisk.com.tw",
+          "content_html": "<p>因速來達<sup>®</sup> Insulatard<sup>®</sup> 是 Novo Nordisk A/S, Denmark 所擁有之商標。</p><p>© 2021 Novo Nordisk A/S</p><p>&nbsp;</p><p><strong>藥商</strong></p><p>台灣諾和諾德藥品股份有限公司<br>電話02-7704-9988<br>傳真02-2377-0111<br>網址www.novonordisk.com.tw</p>",
+          "search_text": "15\n其他\n因速來達® Insulatard® 是 Novo Nordisk A/S, Denmark 所擁有之商標。 © 2021 Novo Nordisk A/S 藥商 台灣諾和諾德藥品股份有限公司 電話02-7704-9988 傳真02-2377-0111 網址www.novonordisk.com.tw",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n人體胰島素，rDNA (在 Saccharomyces cerevisiae 菌種中經重組 DNA 技術製成)。 每 1 毫升含有 100 單位的人體胰島素。 每 1 個玻璃瓶內含有 10 毫升，相當於 1,000 單位。 每 1 單位 (IU, International Unit) 相當於 0.035 毫克的無水人體胰島素。 Insulatard® 是一種含 isophane (NPH) 的胰島素懸浮液。\n1.2\n賦形劑\nZinc chloride, glycerol, metacresol, phenol, disodium phosphate dihydrate, sodium hydroxide/hydrochloric acid (for pH adjustment), protamine sulphate and water for injections.\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n置於玻璃瓶內的懸浮注射液。 白色混濁的懸浮液。\n2\n適應症\n糖尿病。\n3\n用法及用量\n3.1\n用法用量\nInsulatard® 是一種長效型的胰島素，可以單獨使用或是與短效或速效型胰島素製劑併用。 劑量 劑量是按照個別情況與患者的需要而決定。每個人的胰島素需求量通常是介於 0.3 和 1.0 Units/kg/day 之間，胰島素的每日需求量在具有胰島素抗性 (例如：在青春期間或肥胖) 的患者較高，而在體內仍有內生性胰島素分泌的患者則較低。 調整劑量 併存他種疾病，尤其是感染及發燒，經常會增加患者胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。 如果患者改變日常飲食習慣或是體能活動；或是當患者轉換不同類型的胰島素時，也可能需要依情況調整劑量。 投予方式 皮下注射。胰島素懸浮液絕對不可由靜脈注射。 Insulatard® 採大腿皮下注射。方便的話，亦可以注射於腹壁、臀部或三角肌部位。在相同部位的注射點應該要一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。大腿皮下注射的吸收速率比其他部位注射吸收較慢且變異較小。 注射在捏起的皮膚可減低不小心注射到肌肉的風險。 應讓針頭停留於皮下至少 6 秒以上再拔出，以確定胰島素都已完全注射。 Insulatard®玻璃瓶應與具有適當單位刻度的胰島素注射針筒併用。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n對主成分或其中任何賦形劑過敏者。\n5\n警語及注意事項\n5.1\n警語/注意事項\n使用不恰當之劑量或中斷治療，尤其對於第 1 型糖尿病患者，可能會導致高血糖症。高血糖症的初期症狀在數小時或 數天內逐漸出現。這些症狀包括口渴、頻尿、噁心、嘔吐、昏沉、皮膚乾燥潮紅、口乾、沒有食慾及呼吸出空氣含有丙酮香味。 第 1 型糖尿病患者發生高血糖症狀若未接受治療會造成糖尿病性酮酸中毒，可能致命。 投予的胰島素劑量在超過所需的量時，可能會發生低血糖症狀。 誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖。 血糖控制情形大幅改善的患者，例如：藉由密集的胰島素治療 ，其發生低血糖時的警告症狀可能產生改變，因此應該 接受相關指導。 長期患有糖尿病的患者，其一般常發生的警告症狀可能會逐漸消失。 患者轉換新型或新廠牌的胰島素必須有嚴格的醫療監控。藥效、廠牌(製造廠)、類型、來源(人類胰島素、胰島素類似 物)、和/或製造方法的改變，可能需要調整劑量。患者由其他類型胰島素轉換成 Insulatard®時，可能需要改變每天的投予次數或劑量。當患者轉換使用 Insulatard®而須調整劑量時，可在第一次投予劑量或前幾週或前幾個月內調整。 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢反應。在同一部位的注射點不停地輪替可以減少或是預防這些不良反應。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用 Insulatard®。 跨越時區旅行前，患者應接受醫師指導，因為患者可能因為旅行而必須在不同的時間點使用胰島素及用餐。 胰島素懸浮劑不可用於胰島素輸注幫浦。 皮膚和皮下組織異常 務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症(cutaneous amyloidosis)的 風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收和血糖控制惡化。曾有報告顯示，突然改變注射區域至未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n患者可能因低血糖而注意力無法集中或反應較慢，在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。 患者應被告知採取預防措施以避免駕車時發生低血糖。對於對低血糖症狀較無或已無感受，或是常發生低血糖症的患者更是特別重要。應考慮這些患者是否仍適宜駕車。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n不相容性 胰島素懸浮液不應加入輸注液內。\n6\n特殊族群注意事項\n6.1\n懷孕\n因為胰島素不會穿過胎盤屏障，懷孕期間使用胰島素治療糖尿病沒有任何限制。 糖尿病的治療若未妥善控制，無論是低血糖或高血糖，都會增加子宮內畸形與死亡的風險。 糖尿病婦女懷孕期間或計劃懷孕時，建議應加強血糖控制及監控。 胰島素需求量通常在懷孕的第 1 至 3 個月會下降，隨後在第 4 至 9 個月則逐漸增加。 胰島素需求量在產後通常會即刻回到懷孕前的需求量。\n6.2\n哺乳\n授乳期間使用 Insulatard®來治療是沒有限制的。 授乳期間母親接受胰島素治療對嬰兒沒有風險，但 Insulatard®的劑量，飲食或是兩者都可能需要調整。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n併用 thiazolidinediones 及胰島素製劑 在 thiazolidinediones 與 insulin 併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的患者，故在考慮併用 thiazolidinediones 與 insulin 來治療時，應特別注意。在給予併用療法時，應觀察患者鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用 thiazolidinediones。 避免出現意外地混合或用藥錯誤 患者必須告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生 Insulatard®和其他胰島素產品混合的事件。 與其他藥物的交互作用及其他形式的交互作用 有些藥品已知會影響葡萄糖代謝。 下列物質可能會減少患者的胰島素需求量： Oral anti-diabetic products, monoamine oxidase inhibitors (MAOI), non-selective beta-blocking agents, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids 和 sulphonamides。 下列物質可能會增加患者的胰島素需求量： 口服避孕藥, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone 和 danazol。 Beta-blocking agents 可能會遮蔽低血糖症狀並延緩低血糖症狀之復原。 Octreotide/lanreotide 可能會增加或減低胰島素需求量。 酒精會加重或降低胰島素降低血糖的作用。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\na. 安全性評估概要 在治療期間，最常發生的不良反應為低血糖。在臨床試驗及上市後使用期間，低血糖的發生率會依患者的族群、治療 劑量以及血糖控制的程度而異，見以下的 c 章節。 在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、泛紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。 b.不良反應列表 以下表格所列出的不良反應是根據臨床試驗的數據，並且按照 MedDRA frequency and System Organ Class 來分類。發生率的定義為：極常見(≥1/10)；常見(≥1/100 至<1/10)；不常見(≥1/1,000 至<1/100)；罕見(≥1/10,000 至<1/1,000)；極罕見 (<1/10,000)與未知(無法由目前的資料來評估)。 免疫系統異常不常見 - 蕁麻疹、發疹* 極罕見 - 過敏反應* 代謝及營養異常極常見 - 低血糖* 神經系統異常極罕見 - 周邊神經病變 (疼痛性神經病變) 眼部異常極罕見 - 屈光異常 不常見 - 糖尿病視網膜病變 皮膚與皮下組織異常不常見 - 脂肪病變* 未知 -皮膚類澱粉沉積症*† 一般性及注射部位的問題不常見 - 注射部位不良反應* 不常見 - 水腫\n*見 c. 小節。 †上市後不良反應資料 c. 不良反應描述 過敏反應 全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、血壓下降及昏厥/失去意識)的發生率是極罕見的，但是有可能會危及生命。 低血糖 通報的不良反應中，最常發生的是低血糖。當給予的劑量高於患者所需的胰島素時即可能發生。嚴重低血糖可能引起 失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷 汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視 力改變、頭痛、噁心及心悸。 皮膚和皮下組織異常 脂肪病變(包括脂質增生、脂質萎縮)與皮膚類澱粉沉積症(cutaneous amyloidosis)，可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應。\n8.2\n臨床試驗經驗\n目前尚無資訊。\n8.3\n上市後經驗\n9\n過量\n胰島素的過量難以定義，然而如果給予的劑量遠高於患者所需，低血糖症狀可能如下列階段發生： • 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病患者應隨時攜帶一些含糖製品。 • 嚴重低血糖症，患者已經失去意識，可由已接受過訓練的人以肌肉或皮下注射昇糖素(0.5 至 1 mg)方式急救患者， 或是由醫療專業人員以靜脈注射葡萄糖。若患者在 10 至 15 分鐘內對昇糖素沒有反應，則必須靜脈注射葡萄糖。 當患者恢復意識後，應馬上進食碳水化合物以防患者再發生低血糖。\n10\n藥理特性\n10.1\n作用機轉\n藥理治療分類：糖尿病用藥。胰島素與類似物注射劑，中長效型，人類胰島素。 ATC code: A10AC01。 胰島素是藉由與肌肉細胞及脂肪細胞上的胰島素接受器結合以促進葡萄糖進入細胞內，並且抑制肝臟中葡萄糖的釋 出，而達到降血糖的效果。\n10.2\n藥效藥理特性\nInsulatard® 是作用效果較長的胰島素。 作用起始時間在 1½ 小時內，在第 4 至第 12 小時之間發生最大作用效果，而作用持續時間約為 24 小時。\n10.3\n臨床前安全性資料\n依據藥理安全性、重複劑量毒性、基因毒性、潛在致癌性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。\n11\n藥物動力學特性\n胰島素在血液中的半衰期僅有幾分鐘。因此，胰島素製劑的作用特性完全由吸收速率來決定。 此過程受幾個因素所影響(例如：胰島素劑量、注射途徑及部位、皮下脂肪厚度、糖尿病類型)。因此，胰島素製品的藥物動力學因個體內與個體之間的明顯差異而不同。 吸收 胰島素皮下注射後 2 至 18 小時內可達到最大血中濃度。 分布 除了血液循環中可能存在的胰島素抗體，並未觀察到明顯與血漿蛋白結合的現象。 代謝 據報導，人類胰島素會被 insulin protease 或 insulin-degrading enzymes，也有可能是 protein disulfide isomerase 而分解。 已有人提出人類胰島素分子上的一些切割(水解) 點，切割後的代謝產物並無活性。 排除 最終半衰期是由皮下組織的吸收速率而決定。因此，最終半衰期 (t½ ) 是用來測量血中胰島素的吸收而不是排除本身 (胰島素在血流中的 t½僅有幾分鐘)。臨床試驗顯示 t½約為 5 至 10 小時。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n盒裝的10 ml 玻璃瓶裝懸浮液(type 1 玻璃)，以圓型墊片(bromobutyl/ polyisoprene 橡膠)及防開封保護蓋密封。 包裝大小：1 或 5 玻璃瓶。 並非所有包裝均有上市。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n存放在冰箱中 (2°C-8°C)。不可太靠近冷凍庫。不可冷凍。\n13.4\n儲存注意事項\n請將玻璃瓶放在紙盒內以避光。 Insulatard®應避免過熱及避光。 在第一次開封使用後或是攜帶作為備用時：不需冷藏 使用中的架存期在低於25°C為6個星期，或低於30°C為4個星期。\n14\n病人使用須知\n冷凍過的胰島素製品是不能夠使用的。 將 Insulatard®玻璃瓶從冰箱拿出來後，在第一次使用均勻振搖前，建議讓此玻璃瓶回復到室溫。 如果胰島素懸浮液在重新均勻振搖後，不是呈現均勻白色混濁時是不能夠使用的。\n15\n其他\n因速來達® Insulatard® 是 Novo Nordisk A/S, Denmark 所擁有之商標。 © 2021 Novo Nordisk A/S 藥商 台灣諾和諾德藥品股份有限公司 電話02-7704-9988 傳真02-2377-0111 網址www.novonordisk.com.tw",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "Novo Nordisk Production SAS",
+          "address": "45, Avenue d’Orleans, F-28000 Chartres, France"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "NOVO NORDISK A/S",
+          "address": "Hallas Alle 1, DK-4400 Kalundborg, Denmark"
+        },
+        {
+          "number": "2",
+          "name": "NOVO NORDISK A/S",
+          "address": "Novo Alle, DK 2880 Bagsvaerd, Denmark"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "臺灣諾和諾德藥品股份有限公司",
+          "address": "台北市大安區敦化南路2段207號10樓"
+        }
+      ]
+    }
+  ]
+}

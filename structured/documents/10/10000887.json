@@ -1,0 +1,1460 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:00:27.868702+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000887",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000887號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000887號",
+      "matched_license_code": "10000887",
+      "matched_nhi_code": "",
+      "drug_name_zh": "美血樂針筒裝注射劑 30 微公克/0.3毫升",
+      "drug_name_en": "Mircera solution for injection in pre-filled syringe 30 mcg/0.3 ml",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2024-08-02",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "<p style=\"text-align:center;\"><strong>警語：死亡、嚴重心血管事件及血栓栓塞事件、以及腫瘤惡化的病例有增加的現象。</strong></p><p><strong>腎衰竭：兩項臨床研究顯示，使用紅血球生成刺激劑（ESAs，erythropoiesis– stimulating agents）治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人高（一項研究為13.5比上11.3 g/dl；另一項研究為14比上10 g/dl）。應視個人狀況調整劑量，以使血紅素值達到並維持於10至12 g/dl的範圍內[參見警語及注意事項（5.1.1）]。</strong></p><p><strong>癌症：Mircera並不適用於治療癌症化療所引起的貧血。有一項Mircera的劑量範圍研究因接受Mircera治療之病人中的死亡病例明顯較使用另一種ESA的病人多而提早終止。其它針對癌症病人所進行的ESAs研究：</strong></p><ul style=\"list-style-type:disc;\"><li><strong>針對晚期乳癌、頭頸癌、淋巴癌及非小細胞肺癌病人所進行的臨床研究顯示，當投藥治療的血紅素目標值≥ 12 g/dl時，ESAs會縮短整體存活時間及（或）開始出現腫瘤惡化現象的時間。</strong></li><li><strong>目前仍不能排除投予ESAs治療的血紅素目標值&lt;12 g/dl時，是否也會有存活時間縮短及促使腫瘤惡化的風險[參見警語及注意事項（5.1.1）]。</strong></li></ul>",
+        "text": "警語：死亡、嚴重心血管事件及血栓栓塞事件、以及腫瘤惡化的病例有增加的現象。 腎衰竭：兩項臨床研究顯示，使用紅血球生成刺激劑（ESAs，erythropoiesis– stimulating agents）治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人高（一項研究為13.5比上11.3 g/dl；另一項研究為14比上10 g/dl）。應視個人狀況調整劑量，以使血紅素值達到並維持於10至12 g/dl的範圍內[參見警語及注意事項（5.1.1）]。 癌症：Mircera並不適用於治療癌症化療所引起的貧血。有一項Mircera的劑量範圍研究因接受Mircera治療之病人中的死亡病例明顯較使用另一種ESA的病人多而提早終止。其它針對癌症病人所進行的ESAs研究： 針對晚期乳癌、頭頸癌、淋巴癌及非小細胞肺癌病人所進行的臨床研究顯示，當投藥治療的血紅素目標值≥ 12 g/dl時，ESAs會縮短整體存活時間及（或）開始出現腫瘤惡化現象的時間。 目前仍不能排除投予ESAs治療的血紅素目標值<12 g/dl時，是否也會有存活時間縮短及促使腫瘤惡化的風險[參見警語及注意事項（5.1.1）]。"
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分：Methoxy polyethylene glycol-epoetin beta 含量：單次使用型預先充填針筒有0.3毫升溶液裝，内含30、50、75、100或120微公克的Mircera Mircera （甲氧基聚乙二醇紅血球生成素，Methoxy polyethylene glycol-epoetin beta）是一種不同於紅血球生成素（erythropoietin）的ESA，它是將紅血球生成素（erythropoietin）的N端胺基或8個lysine中任ㄧ胺基（主要為Lys52與Lys45）以化學鍵和甲氧基聚乙二醇（PEG）丁酸（約30,000 daltons）連結在一起。如此形成的總分子量約為60,000 daltons。",
+          "content_html": "<p>有效成分：Methoxy polyethylene glycol-epoetin beta</p><p>含量：<strong>單次使用型預先充填針筒</strong>有0.3毫升溶液裝，内含30、50、75、100或120微公克的Mircera</p><p>Mircera （甲氧基聚乙二醇紅血球生成素，Methoxy polyethylene glycol-epoetin beta）是一種不同於紅血球生成素（erythropoietin）的ESA，它是將紅血球生成素（erythropoietin）的N端胺基或8個lysine中任ㄧ胺基（主要為Lys52與Lys45）以化學鍵和甲氧基聚乙二醇（PEG）丁酸（約30,000 daltons）連結在一起。如此形成的總分子量約為60,000 daltons。</p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分：Methoxy polyethylene glycol-epoetin beta 含量：單次使用型預先充填針筒有0.3毫升溶液裝，内含30、50、75、100或120微公克的Mircera Mircera （甲氧基聚乙二醇紅血球生成素，Methoxy polyethylene glycol-epoetin beta）是一種不同於紅血球生成素（erythropoietin）的ESA，它是將紅血球生成素（erythropoietin）的N端胺基或8個lysine中任ㄧ胺基（主要為Lys52與Lys45）以化學鍵和甲氧基聚乙二醇（PEG）丁酸（約30,000 daltons）連結在一起。如此形成的總分子量約為60,000 daltons。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "L-methionine, Sodium sulphate anhydrous, Sodium dihydrogen, phosphate monohydrate, Mannitol, Poloxamer 188, Hydrochloric acid diluted, Sodium hydroxide diluted solution, Water for injection。 預先充填針筒中的Mircera注射液是含磷酸鈉、硫酸鈉、甘露醇、甲硫胺酸與poloxamer 188的水溶液。",
+          "content_html": "<p>L-methionine, Sodium sulphate anhydrous, Sodium dihydrogen, phosphate monohydrate, Mannitol, Poloxamer 188, Hydrochloric acid diluted, Sodium hydroxide diluted solution, Water for injection。</p><p>預先充填針筒中的Mircera注射液是含磷酸鈉、硫酸鈉、甘露醇、甲硫胺酸與poloxamer 188的水溶液。</p>",
+          "search_text": "1.2\n賦形劑\nL-methionine, Sodium sulphate anhydrous, Sodium dihydrogen, phosphate monohydrate, Mannitol, Poloxamer 188, Hydrochloric acid diluted, Sodium hydroxide diluted solution, Water for injection。 預先充填針筒中的Mircera注射液是含磷酸鈉、硫酸鈉、甘露醇、甲硫胺酸與poloxamer 188的水溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑。",
+          "content_html": "<p>注射劑。</p>",
+          "search_text": "1.3\n劑型\n注射劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "Mircera為一無菌且不含防腐劑的靜脈注射或皮下注射用蛋白質溶液。此注射液為無色至略帶淡黃色的澄清溶液，且pH值為6.2 ± 0.2。",
+          "content_html": "<p>Mircera為一無菌且不含防腐劑的靜脈注射或皮下注射用蛋白質溶液。此注射液為無色至略帶淡黃色的澄清溶液，且pH值為6.2 ± 0.2。</p>",
+          "search_text": "1.4\n藥品外觀\nMircera為一無菌且不含防腐劑的靜脈注射或皮下注射用蛋白質溶液。此注射液為無色至略帶淡黃色的澄清溶液，且pH值為6.2 ± 0.2。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "治療慢性腎病（CKD，chronic kidney disease）所引起的症狀性貧血。 Mircera尚未核准於治療因癌症化學治療引起的貧血 [見警語及注意事項（5.1.2）]。",
+          "content_html": "<p>治療慢性腎病（CKD，chronic kidney disease）所引起的症狀性貧血。<br>Mircera尚未核准於治療因癌症化學治療引起的貧血 [見警語及注意事項（5.1.2）]。<br>&nbsp;</p>",
+          "search_text": "2\n適應症\n治療慢性腎病（CKD，chronic kidney disease）所引起的症狀性貧血。 Mircera尚未核准於治療因癌症化學治療引起的貧血 [見警語及注意事項（5.1.2）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "重要用藥須知",
+          "title_html": "重要用藥須知",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "重要用藥須知"
+          ],
+          "content_text": "當血紅素值趨近12 g/dl或在任2週期間內的上升程度超過1 g/dl時，應降低Mircera的劑量[參見警語及注意事項（5.1.1）]。治療期間應定期監測血液學參數。根據目前指引的建議，血紅素值的上升率及目標值應為每位病人個別訂定。對於慢性腎病病人，治療目標為使血紅素值達到10至12 g/dl的範圍。應密切監測病人，確保Mircera最低有效劑量的使用足以控制貧血症狀。 Mircera應以靜脈（IV）或皮下（SC）注射的方式給藥。對正在進行血液透析的病人，建議採用靜脈途徑給藥，因為靜脈途徑可能較不易引起免疫反應[參見副作用/不良反應（8.3）]。 採用皮下注射的方式給藥時，應將Mircera注射於腹部、手臂或大腿。",
+          "content_html": "<p>當血紅素值趨近12 g/d<strong>l</strong>或在任2週期間內的上升程度超過1 g/d<strong>l</strong>時，應降低Mircera的劑量[參見警語及注意事項（5.1.1）]。治療期間應定期監測血液學參數。根據目前指引的建議，血紅素值的上升率及目標值應為每位病人個別訂定。對於慢性腎病病人，治療目標為使血紅素值達到10至12 g/d<strong>l</strong>的範圍。應密切監測病人，確保Mircera最低有效劑量的使用足以控制貧血症狀。</p><p>Mircera應以靜脈（IV）或皮下（SC）注射的方式給藥。對正在進行血液透析的病人，建議採用靜脈途徑給藥，因為靜脈途徑可能較不易引起免疫反應[參見副作用/不良反應（8.3）]。</p><p>採用皮下注射的方式給藥時，應將Mircera注射於腹部、手臂或大腿。</p>",
+          "search_text": "3.1.1\n重要用藥須知\n當血紅素值趨近12 g/dl或在任2週期間內的上升程度超過1 g/dl時，應降低Mircera的劑量[參見警語及注意事項（5.1.1）]。治療期間應定期監測血液學參數。根據目前指引的建議，血紅素值的上升率及目標值應為每位病人個別訂定。對於慢性腎病病人，治療目標為使血紅素值達到10至12 g/dl的範圍。應密切監測病人，確保Mircera最低有效劑量的使用足以控制貧血症狀。 Mircera應以靜脈（IV）或皮下（SC）注射的方式給藥。對正在進行血液透析的病人，建議採用靜脈途徑給藥，因為靜脈途徑可能較不易引起免疫反應[參見副作用/不良反應（8.3）]。 採用皮下注射的方式給藥時，應將Mircera注射於腹部、手臂或大腿。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "起始劑量",
+          "title_html": "起始劑量",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "起始劑量"
+          ],
+          "content_text": "目前未使用任何ESA治療的病人： 用於治療目前未使用任何ESA之成人慢性腎衰竭病人的症狀性貧血時，Mircera的建議起始劑量為每兩週一次，以靜脈或皮下注射的方式投予單劑0.6微公克/公斤體重的劑量。 投予Mircera的目標應為使血紅素值達到並維持於10至12 g/dl之間。一旦血紅素值維持在這個範圍內之後，Mircera的給藥方式可改成每月施打一次，使用每兩週施打一次的兩倍劑量，然後再視需要調整劑量。 目前正在使用ESA治療的病人： 對目前正在使用ESA治療且血紅素值已維持穩定的病人，可改成每兩週或每月施打一劑Mircera （參見表1）。Mircera的單劑靜脈或皮下注射劑量應視更換藥物時原先所使用之ESA的每週總劑量而定。 表1 依據原先使用Epoetin或Darbepoetin的劑量，換算成Mircera起始劑量之方式 原先的 Epoetin alfa 或 beta 每週劑量 （單位/週）原先的 Darbepoetin alfa 每週劑量 （微公克/週）Mircera劑量 每月一次 （微公克/月）每兩週一次 （微公克/每兩週） < 4000< 208040 4000 - < 800020 - < 4012060 8000 - 1600040 - 80200100 > 16000> 80360180",
+          "content_html": "<p><u>目前未使用任何ESA治療的病人：</u></p><p>用於治療目前未使用任何ESA之成人慢性腎衰竭病人的症狀性貧血時，Mircera的建議起始劑量為每兩週一次，以靜脈或皮下注射的方式投予單劑0.6微公克/公斤體重的劑量。</p><p>投予Mircera的目標應為使血紅素值達到並維持於10至12 g/d<strong>l</strong>之間。一旦血紅素值維持在這個範圍內之後，Mircera的給藥方式可改成每月施打一次，使用每兩週施打一次的兩倍劑量，然後再視需要調整劑量。</p><p><u>目前正在使用ESA治療的病人：</u></p><p>對目前正在使用ESA治療且血紅素值已維持穩定的病人，可改成每兩週或每月施打一劑Mircera （參見表1）。Mircera的單劑靜脈或皮下注射劑量應視更換藥物時原先所使用之ESA的每週總劑量而定。</p><p><strong>表1 依據原先使用Epoetin或Darbepoetin的劑量，換算成Mircera起始劑量之方式</strong></p><figure class=\"table\"><table><thead><tr><th style=\"border-style:solid;text-align:center;\" rowspan=\"2\"><strong>原先的</strong><br><strong>Epoetin alfa 或 beta</strong><br><strong>每週劑量</strong><br><strong>（單位/週）</strong></th><th style=\"border-style:solid;text-align:center;\" rowspan=\"2\"><strong>原先的</strong><br><strong>Darbepoetin alfa</strong><br><strong>每週劑量</strong><br><strong>（微公克/週）</strong></th><th style=\"border-style:solid;text-align:center;\" colspan=\"2\"><strong>Mircera劑量</strong></th></tr><tr><th style=\"border-style:solid;text-align:center;\">每月一次<br>（微公克/月）</th><th style=\"border-style:solid;text-align:center;\">每兩週一次<br>（微公克/每兩週）</th></tr></thead><tbody><tr><td style=\"border-style:solid;text-align:center;\">&lt; 4000</td><td style=\"border-style:solid;text-align:center;\">&lt; 20</td><td style=\"border-style:solid;text-align:center;\">80</td><td style=\"border-style:solid;text-align:center;\">40</td></tr><tr><td style=\"border-style:solid;text-align:center;\">4000 - &lt; 8000</td><td style=\"border-style:solid;text-align:center;\">20 - &lt; 40</td><td style=\"border-style:solid;text-align:center;\">120</td><td style=\"border-style:solid;text-align:center;\">60</td></tr><tr><td style=\"border-style:solid;text-align:center;\">8000 - 16000</td><td style=\"border-style:solid;text-align:center;\">40 - 80</td><td style=\"border-style:solid;text-align:center;\">200</td><td style=\"border-style:solid;text-align:center;\">100</td></tr><tr><td style=\"border-style:solid;text-align:center;\">&gt; 16000</td><td style=\"border-style:solid;text-align:center;\">&gt; 80</td><td style=\"border-style:solid;text-align:center;\">360</td><td style=\"border-style:solid;text-align:center;\">180</td></tr></tbody></table></figure><p>&nbsp;</p>",
+          "search_text": "3.1.2\n起始劑量\n目前未使用任何ESA治療的病人： 用於治療目前未使用任何ESA之成人慢性腎衰竭病人的症狀性貧血時，Mircera的建議起始劑量為每兩週一次，以靜脈或皮下注射的方式投予單劑0.6微公克/公斤體重的劑量。 投予Mircera的目標應為使血紅素值達到並維持於10至12 g/dl之間。一旦血紅素值維持在這個範圍內之後，Mircera的給藥方式可改成每月施打一次，使用每兩週施打一次的兩倍劑量，然後再視需要調整劑量。 目前正在使用ESA治療的病人： 對目前正在使用ESA治療且血紅素值已維持穩定的病人，可改成每兩週或每月施打一劑Mircera （參見表1）。Mircera的單劑靜脈或皮下注射劑量應視更換藥物時原先所使用之ESA的每週總劑量而定。 表1 依據原先使用Epoetin或Darbepoetin的劑量，換算成Mircera起始劑量之方式 原先的 Epoetin alfa 或 beta 每週劑量 （單位/週）原先的 Darbepoetin alfa 每週劑量 （微公克/週）Mircera劑量 每月一次 （微公克/月）每兩週一次 （微公克/每兩週） < 4000< 208040 4000 - < 800020 - < 4012060 8000 - 1600040 - 80200100 > 16000> 80360180",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.3",
+          "title": "監視與劑量調整",
+          "title_html": "監視與劑量調整",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "監視與劑量調整"
+          ],
+          "content_text": "開始使用或調整Mircera的劑量時，應每兩週監測一次血紅素，直到達到穩定狀態為止，之後仍應每二到四週監測一次。對於在12週期間，即便採取了適當的Mircera劑量調整措施，血紅素值仍未達10至12 g/dl之範圍內的病人： 切勿投予更高的Mircera劑量，而應採用可維持足以避免必須再度輸注紅血球之血紅素值的最低劑量 評估並治療其它的貧血導因 然後繼續監測血紅素值，如果治療反應有所改善，則依上述方式調整Mircera的劑量；如果治療反應未見改善，且病人須再度輸注紅血球，則應停用Mircera [參見警語及注意事項（5.1.6、5.1.7、5.4）]。 劑量調整的頻率不可超過一個月一次。在調整劑量之後，血紅素可能要經過數週才會出現明顯的變化。當必須調整劑量以維持建議的血紅素值時，可視須要增減25%左右的劑量。 在使用Mircera治療期間，如果血紅素值在2週內的上升程度超過1 g/dl，或血紅素值不斷升高並趨近12 g/dl，則應將劑量降低約25%。如果血紅素值仍持續升高，則應停用Mircera，直到血紅素值開始降低為止。然後可以較上次施打劑量低25%左右的劑量重新開始使用Mircera。 對不是從另一種ESA改為Mircera的病人，如果血紅素值在最初4週治療期間的上升程度低於1.0 g/dl，且鐵儲量足夠，可將Mircera的劑量提高25%左右[參見警語及注意事項（5.4）]。 如果漏打一劑Mircera，應盡快補行注射，然後依處方指示的投藥頻率重新開始施打Mircera。",
+          "content_html": "<p>開始使用或調整Mircera的劑量時，應每兩週監測一次血紅素，直到達到穩定狀態為止，之後仍應每二到四週監測一次。對於在12週期間，即便採取了適當的Mircera劑量調整措施，血紅素值仍未達10至12 g/d<strong>l</strong>之範圍內的病人：</p><ul><li>切勿投予更高的Mircera劑量，而應採用可維持足以避免必須再度輸注紅血球之血紅素值的最低劑量</li><li>評估並治療其它的貧血導因</li><li>然後繼續監測血紅素值，如果治療反應有所改善，則依上述方式調整Mircera的劑量；如果治療反應未見改善，且病人須再度輸注紅血球，則應停用Mircera [參見警語及注意事項（5.1.6、5.1.7、5.4）]。</li></ul><p>劑量調整的頻率不可超過一個月一次。在調整劑量之後，血紅素可能要經過數週才會出現明顯的變化。當必須調整劑量以維持建議的血紅素值時，可視須要增減25%左右的劑量。</p><p>在使用Mircera治療期間，如果血紅素值在2週內的上升程度超過1 g/d<strong>l</strong>，或血紅素值不斷升高並趨近12 g/d<strong>l</strong>，則應將劑量降低約25%。如果血紅素值仍持續升高，則應停用Mircera，直到血紅素值開始降低為止。然後可以較上次施打劑量低25%左右的劑量重新開始使用Mircera。</p><p>對不是從另一種ESA改為Mircera的病人，如果血紅素值在最初4週治療期間的上升程度低於1.0 g/d<strong>l</strong>，且鐵儲量足夠，可將Mircera的劑量提高25%左右[參見警語及注意事項（5.4）]。</p><p>如果漏打一劑Mircera，應盡快補行注射，然後依處方指示的投藥頻率重新開始施打Mircera。</p>",
+          "search_text": "3.1.3\n監視與劑量調整\n開始使用或調整Mircera的劑量時，應每兩週監測一次血紅素，直到達到穩定狀態為止，之後仍應每二到四週監測一次。對於在12週期間，即便採取了適當的Mircera劑量調整措施，血紅素值仍未達10至12 g/dl之範圍內的病人： 切勿投予更高的Mircera劑量，而應採用可維持足以避免必須再度輸注紅血球之血紅素值的最低劑量 評估並治療其它的貧血導因 然後繼續監測血紅素值，如果治療反應有所改善，則依上述方式調整Mircera的劑量；如果治療反應未見改善，且病人須再度輸注紅血球，則應停用Mircera [參見警語及注意事項（5.1.6、5.1.7、5.4）]。 劑量調整的頻率不可超過一個月一次。在調整劑量之後，血紅素可能要經過數週才會出現明顯的變化。當必須調整劑量以維持建議的血紅素值時，可視須要增減25%左右的劑量。 在使用Mircera治療期間，如果血紅素值在2週內的上升程度超過1 g/dl，或血紅素值不斷升高並趨近12 g/dl，則應將劑量降低約25%。如果血紅素值仍持續升高，則應停用Mircera，直到血紅素值開始降低為止。然後可以較上次施打劑量低25%左右的劑量重新開始使用Mircera。 對不是從另一種ESA改為Mircera的病人，如果血紅素值在最初4週治療期間的上升程度低於1.0 g/dl，且鐵儲量足夠，可將Mircera的劑量提高25%左右[參見警語及注意事項（5.4）]。 如果漏打一劑Mircera，應盡快補行注射，然後依處方指示的投藥頻率重新開始施打Mircera。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.4",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.4",
+          "title": "使用Mircera時的事前準備與投藥方式",
+          "title_html": "使用Mircera時的事前準備與投藥方式",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "使用Mircera時的事前準備與投藥方式"
+          ],
+          "content_text": "Mircera為單次使用型預先充填針筒裝。Mircera不含防腐劑。未用完的部份請予以丟棄。切勿將預先充填針筒中未用完的部份集中起來使用。預先充填針筒切勿使用超過一次。 請將預先充填針筒裝的Mircera保存於原包裝盒中。應避免劇烈振搖或長時間光照。 切勿將Mircera和任何注射溶液混合在一起使用。 注射用藥品在施打前皆應目視檢查是否有微粒異物及變色的現象。切勿使用任何出現微粒異物或呈現出無色至淡黃色以外之其它顏色的預先充填針筒。 使用預先充填針筒投藥時，注射時必須將推桿推到底，藉以啟動針頭護套的作用。注射結束後，自注射部位拔出針頭，然後鬆開推桿，讓針頭護套向上移動，直到整支針頭都包覆在護套裡面。 使用Mircera時之事前準備與投藥方式方面的完整說明請參見「病人使用須知（14）」。",
+          "content_html": "<p>Mircera為單次使用型預先充填針筒裝。Mircera不含防腐劑。未用完的部份請予以丟棄。<u>切勿將預先充填針筒中未用完的部份集中起來使用。預先充填針筒切勿使用超過一次。</u></p><p>請將預先充填針筒裝的Mircera保存於原包裝盒中。應避免劇烈振搖或長時間光照。</p><p>切勿將Mircera和任何注射溶液混合在一起使用。</p><p>注射用藥品在施打前皆應目視檢查是否有微粒異物及變色的現象。切勿使用任何出現微粒異物或呈現出無色至淡黃色以外之其它顏色的預先充填針筒。</p><p>使用預先充填針筒投藥時，注射時必須將推桿推到底，藉以啟動針頭護套的作用。注射結束後，自注射部位拔出針頭，然後鬆開推桿，讓針頭護套向上移動，直到整支針頭都包覆在護套裡面。</p><p>使用Mircera時之事前準備與投藥方式方面的完整說明請參見「病人使用須知（14）」。</p>",
+          "search_text": "3.1.4\n使用Mircera時的事前準備與投藥方式\nMircera為單次使用型預先充填針筒裝。Mircera不含防腐劑。未用完的部份請予以丟棄。切勿將預先充填針筒中未用完的部份集中起來使用。預先充填針筒切勿使用超過一次。 請將預先充填針筒裝的Mircera保存於原包裝盒中。應避免劇烈振搖或長時間光照。 切勿將Mircera和任何注射溶液混合在一起使用。 注射用藥品在施打前皆應目視檢查是否有微粒異物及變色的現象。切勿使用任何出現微粒異物或呈現出無色至淡黃色以外之其它顏色的預先充填針筒。 使用預先充填針筒投藥時，注射時必須將推桿推到底，藉以啟動針頭護套的作用。注射結束後，自注射部位拔出針頭，然後鬆開推桿，讓針頭護套向上移動，直到整支針頭都包覆在護套裡面。 使用Mircera時之事前準備與投藥方式方面的完整說明請參見「病人使用須知（14）」。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "Mircera禁用於併有未獲控制之高血壓的病人[參見警語及注意事項（5.1.3）]。 Mircera禁用於曾對本品產生過敏反應的病人[參見警語及注意事項（5.1.8）]。",
+          "content_html": "<p>Mircera禁用於併有未獲控制之高血壓的病人[參見警語及注意事項（5.1.3）]。</p><p>Mircera禁用於曾對本品產生過敏反應的病人[參見警語及注意事項（5.1.8）]。</p>",
+          "search_text": "4\n禁忌\nMircera禁用於併有未獲控制之高血壓的病人[參見警語及注意事項（5.1.3）]。 Mircera禁用於曾對本品產生過敏反應的病人[參見警語及注意事項（5.1.8）]。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象",
+          "title_html": "死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象"
+          ],
+          "content_text": "慢性腎衰竭引起之貧血 兩項臨床研究顯示，使用ESAs治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人為高（一項研究為13.5比上11.3 g/dl；另一項研究為14比上10 g/dl）。患有慢性腎衰竭且對ESA的治療未能產生足夠血紅素反應的病人，發生心血管事件及死亡的風險甚至可能要比其它病人更高。這些事件包括心肌梗塞、中風、充血性心臟衰竭、以及血液透析瘻管栓塞。血紅素在2週期間的上升程度超過1 g/dl，可能會助長這些風險。 在一項隨機前瞻性試驗中，共有1432位有貧血且未接受透析治療的慢性腎衰竭病人接受Epoetin alfa的治療，治療的目標分別為使血紅素維持於13.5 g/dl或11.3 g/dl，在較高血紅素目標值組的715位病人中有125位（18%）發生重大心血管事件（包括死亡、心肌梗塞、中風、或因充血性心臟衰竭而住院），在較低血紅素目標值組的717位病人中則有97位（14%） （HR 1.3，95% CI：1.0，1.7；p=0.03）。 一項針對1265位併有臨床明顯心臟病（缺血性心臟病或充血性心臟衰竭）之血液透析病人所進行的隨機前瞻性試驗也指出，發生嚴重心血管事件的風險有升高的現象。在這項試驗中，病人接受Epoetin alfa的治療，治療的目標分別為使血紅素值維持於14±1 g/dl或10±1 g/dl。結果發現，634位隨機分組至血紅素目標值為14 g/dl之病人，其死亡率要高於631位隨機分組至血紅素目標值為10 g/dl之病人（35%比上29%）。目前並不清楚在這項試驗中所觀察到的死亡率升高現象的確切導因；不過，在隨機分組至血紅素目標值為14 g/dl的治療組中，非致命性心肌梗塞、透析瘻管栓塞、以及其它栓塞事件的發生率也較高。 其它疾病所引起的貧血 Mircera用於治療因癌症化療而引起之貧血的病人或用於降低手術前後輸注異體紅血球之需求的安全性與療效尚未確立。在這些狀況中，ESAs的臨床試驗已證實會有發生栓塞事件及（或）死亡的風險。 在一項針對939位正在接受化學治療之轉移性乳癌女性病人所進行的另一種ESA的隨機對照研究中（癌症研究1 - \"BEST\"研究），病人分別使用每週投藥一次的Epoetin alfa或安慰劑進行長達1年的治療。這項研究的設計目的為確認使用ESA預防貧血（使血紅素值維持於12至14 g/dl之間，或使血容比維持於36%至42%之間）是否可獲得較佳的存活率。但由於期中結果顯示，在最初4個月研究期間，使用Epoetin alfa治療的病人4個月的死亡率較高（8.7%比3.4%），且發生致命性栓塞事件的比率也較高（1.1 %比0.2%），因此這項研究便提早終止。根據Kaplan-Meier分析法的估算，在研究終止時，Epoetin alfa組中的12個月存活率要比安慰劑組低（70%比上76%；HR 1.37，95% CI：1.07，1.75；p=0.012）。 在一份評估了57個隨機對照試驗（包括癌症研究1與3 - \"BEST\"研究與\"ENHANCE\"研究），共含9353位癌症病人的系統性分析中，研究人員針對同時接受或未接受抗腫瘤治療的癌症病人，比較以ESAs加紅血球輸注或單獨輸注紅血球之方式來預防或治療貧血的結果。在接受ESA治療的病人中，發生血栓栓塞事件的相對風險（RR）有升高的現象（RR 1.67，95% CI：1.35，2.06；35個試驗，6769位病人）。接受ESA治療之病人的整體存活風險比率（survival hazard ratio）為1.08 （95% CI：0.99，1.18；42個試驗，8167位病人）。 曾在接受Epoetin alfa治療並進行骨科手術的病人中觀察到深部靜脈血栓（DVT）發生率升高的現象。在一項隨機對照研究中（\"SPINE\"研究），共有681位未接受預防性抗凝血治療且正在進行脊椎手術的成人病人，分別接受了Epoetin alfa加標準照護（SOC，standard of care）的治療，或僅接受SOC治療。初步的分析顯示，依據彩色血流都卜勒造影或臨床症狀進行判定的結果，Epoetin alfa組中的DVT發生率（16位病人（4.7%））要比SOC組（7位病人（2.1 %））高。此外，在Epoetin alfa組中有12位病人發生其它的血管性栓塞事件，在SOC組中則有7位。 曾在一項針對正在進行冠狀動脈繞道手術之成人病人所進行的隨機安慰劑對照性Epoetin alfa研究中觀察到死亡率升高的現象（在126位隨機分配到Epoetin alfa組的病人中有7個死亡病例，在安慰劑組的56位病人中則無任何死亡病例）。其中有四個死亡病例係發生於投予研究藥物期間，且這四個死亡病例都發生栓塞事件。",
+          "content_html": "<p><u>慢性腎衰竭引起之貧血</u></p><p>兩項臨床研究顯示，使用ESAs治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人為高（一項研究為13.5比上11.3 g/d<strong>l</strong>；另一項研究為14比上10 g/d<strong>l</strong>）。患有慢性腎衰竭且對ESA的治療未能產生足夠血紅素反應的病人，發生心血管事件及死亡的風險甚至可能要比其它病人更高。這些事件包括心肌梗塞、中風、充血性心臟衰竭、以及血液透析瘻管栓塞。血紅素在2週期間的上升程度超過1 g/d<strong>l</strong>，可能會助長這些風險。</p><p>在一項隨機前瞻性試驗中，共有1432位有貧血且未接受透析治療的慢性腎衰竭病人接受Epoetin alfa的治療，治療的目標分別為使血紅素維持於13.5 g/d<strong>l</strong>或11.3 g/d<strong>l</strong>，在較高血紅素目標值組的715位病人中有125位（18%）發生重大心血管事件（包括死亡、心肌梗塞、中風、或因充血性心臟衰竭而住院），在較低血紅素目標值組的717位病人中則有97位（14%） （HR 1.3，95% CI：1.0，1.7；p=0.03）。</p><p>一項針對1265位併有臨床明顯心臟病（缺血性心臟病或充血性心臟衰竭）之血液透析病人所進行的隨機前瞻性試驗也指出，發生嚴重心血管事件的風險有升高的現象。在這項試驗中，病人接受Epoetin alfa的治療，治療的目標分別為使血紅素值維持於14±1 g/d<strong>l</strong>或10±1 g/d<strong>l</strong>。結果發現，634位隨機分組至血紅素目標值為14 g/d<strong>l</strong>之病人，其死亡率要高於631位隨機分組至血紅素目標值為10 g/d<strong>l</strong>之病人（35%比上29%）。目前並不清楚在這項試驗中所觀察到的死亡率升高現象的確切導因；不過，在隨機分組至血紅素目標值為14 g/d<strong>l</strong>的治療組中，非致命性心肌梗塞、透析瘻管栓塞、以及其它栓塞事件的發生率也較高。</p><p><u>其它疾病所引起的貧血</u></p><p>Mircera用於治療因癌症化療而引起之貧血的病人或用於降低手術前後輸注異體紅血球之需求的安全性與療效尚未確立。在這些狀況中，ESAs的臨床試驗已證實會有發生栓塞事件及（或）死亡的風險。</p><p>在一項針對939位正在接受化學治療之轉移性乳癌女性病人所進行的另一種ESA的隨機對照研究中（癌症研究1 - \"BEST\"研究），病人分別使用每週投藥一次的Epoetin alfa或安慰劑進行長達1年的治療。這項研究的設計目的為確認使用ESA預防貧血（使血紅素值維持於12至14 g/d<strong>l</strong>之間，或使血容比維持於36%至42%之間）是否可獲得較佳的存活率。但由於期中結果顯示，在最初4個月研究期間，使用Epoetin alfa治療的病人4個月的死亡率較高（8.7%比3.4%），且發生致命性栓塞事件的比率也較高（1.1 %比0.2%），因此這項研究便提早終止。根據Kaplan-Meier分析法的估算，在研究終止時，Epoetin alfa組中的12個月存活率要比安慰劑組低（70%比上76%；HR 1.37，95% CI：1.07，1.75；p=0.012）。</p><p>在一份評估了57個隨機對照試驗（包括癌症研究1與3 - \"BEST\"研究與\"ENHANCE\"研究），共含9353位癌症病人的系統性分析中，研究人員針對同時接受或未接受抗腫瘤治療的癌症病人，比較以ESAs加紅血球輸注或單獨輸注紅血球之方式來預防或治療貧血的結果。在接受ESA治療的病人中，發生血栓栓塞事件的相對風險（RR）有升高的現象（RR 1.67，95% CI：1.35，2.06；35個試驗，6769位病人）。接受ESA治療之病人的整體存活風險比率（survival hazard ratio）為1.08 （95% CI：0.99，1.18；42個試驗，8167位病人）。</p><p>曾在接受Epoetin alfa治療並進行骨科手術的病人中觀察到深部靜脈血栓（DVT）發生率升高的現象。在一項隨機對照研究中（\"SPINE\"研究），共有681位未接受預防性抗凝血治療且正在進行脊椎手術的成人病人，分別接受了Epoetin alfa加標準照護（SOC，standard of care）的治療，或僅接受SOC治療。初步的分析顯示，依據彩色血流都卜勒造影或臨床症狀進行判定的結果，Epoetin alfa組中的DVT發生率（16位病人（4.7%））要比SOC組（7位病人（2.1 %））高。此外，在Epoetin alfa組中有12位病人發生其它的血管性栓塞事件，在SOC組中則有7位。</p><p>曾在一項針對正在進行冠狀動脈繞道手術之成人病人所進行的隨機安慰劑對照性Epoetin alfa研究中觀察到死亡率升高的現象（在126位隨機分配到Epoetin alfa組的病人中有7個死亡病例，在安慰劑組的56位病人中則無任何死亡病例）。其中有四個死亡病例係發生於投予研究藥物期間，且這四個死亡病例都發生栓塞事件。</p>",
+          "search_text": "5.1.1\n死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象\n慢性腎衰竭引起之貧血 兩項臨床研究顯示，使用ESAs治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人為高（一項研究為13.5比上11.3 g/dl；另一項研究為14比上10 g/dl）。患有慢性腎衰竭且對ESA的治療未能產生足夠血紅素反應的病人，發生心血管事件及死亡的風險甚至可能要比其它病人更高。這些事件包括心肌梗塞、中風、充血性心臟衰竭、以及血液透析瘻管栓塞。血紅素在2週期間的上升程度超過1 g/dl，可能會助長這些風險。 在一項隨機前瞻性試驗中，共有1432位有貧血且未接受透析治療的慢性腎衰竭病人接受Epoetin alfa的治療，治療的目標分別為使血紅素維持於13.5 g/dl或11.3 g/dl，在較高血紅素目標值組的715位病人中有125位（18%）發生重大心血管事件（包括死亡、心肌梗塞、中風、或因充血性心臟衰竭而住院），在較低血紅素目標值組的717位病人中則有97位（14%） （HR 1.3，95% CI：1.0，1.7；p=0.03）。 一項針對1265位併有臨床明顯心臟病（缺血性心臟病或充血性心臟衰竭）之血液透析病人所進行的隨機前瞻性試驗也指出，發生嚴重心血管事件的風險有升高的現象。在這項試驗中，病人接受Epoetin alfa的治療，治療的目標分別為使血紅素值維持於14±1 g/dl或10±1 g/dl。結果發現，634位隨機分組至血紅素目標值為14 g/dl之病人，其死亡率要高於631位隨機分組至血紅素目標值為10 g/dl之病人（35%比上29%）。目前並不清楚在這項試驗中所觀察到的死亡率升高現象的確切導因；不過，在隨機分組至血紅素目標值為14 g/dl的治療組中，非致命性心肌梗塞、透析瘻管栓塞、以及其它栓塞事件的發生率也較高。 其它疾病所引起的貧血 Mircera用於治療因癌症化療而引起之貧血的病人或用於降低手術前後輸注異體紅血球之需求的安全性與療效尚未確立。在這些狀況中，ESAs的臨床試驗已證實會有發生栓塞事件及（或）死亡的風險。 在一項針對939位正在接受化學治療之轉移性乳癌女性病人所進行的另一種ESA的隨機對照研究中（癌症研究1 - \"BEST\"研究），病人分別使用每週投藥一次的Epoetin alfa或安慰劑進行長達1年的治療。這項研究的設計目的為確認使用ESA預防貧血（使血紅素值維持於12至14 g/dl之間，或使血容比維持於36%至42%之間）是否可獲得較佳的存活率。但由於期中結果顯示，在最初4個月研究期間，使用Epoetin alfa治療的病人4個月的死亡率較高（8.7%比3.4%），且發生致命性栓塞事件的比率也較高（1.1 %比0.2%），因此這項研究便提早終止。根據Kaplan-Meier分析法的估算，在研究終止時，Epoetin alfa組中的12個月存活率要比安慰劑組低（70%比上76%；HR 1.37，95% CI：1.07，1.75；p=0.012）。 在一份評估了57個隨機對照試驗（包括癌症研究1與3 - \"BEST\"研究與\"ENHANCE\"研究），共含9353位癌症病人的系統性分析中，研究人員針對同時接受或未接受抗腫瘤治療的癌症病人，比較以ESAs加紅血球輸注或單獨輸注紅血球之方式來預防或治療貧血的結果。在接受ESA治療的病人中，發生血栓栓塞事件的相對風險（RR）有升高的現象（RR 1.67，95% CI：1.35，2.06；35個試驗，6769位病人）。接受ESA治療之病人的整體存活風險比率（survival hazard ratio）為1.08 （95% CI：0.99，1.18；42個試驗，8167位病人）。 曾在接受Epoetin alfa治療並進行骨科手術的病人中觀察到深部靜脈血栓（DVT）發生率升高的現象。在一項隨機對照研究中（\"SPINE\"研究），共有681位未接受預防性抗凝血治療且正在進行脊椎手術的成人病人，分別接受了Epoetin alfa加標準照護（SOC，standard of care）的治療，或僅接受SOC治療。初步的分析顯示，依據彩色血流都卜勒造影或臨床症狀進行判定的結果，Epoetin alfa組中的DVT發生率（16位病人（4.7%））要比SOC組（7位病人（2.1 %））高。此外，在Epoetin alfa組中有12位病人發生其它的血管性栓塞事件，在SOC組中則有7位。 曾在一項針對正在進行冠狀動脈繞道手術之成人病人所進行的隨機安慰劑對照性Epoetin alfa研究中觀察到死亡率升高的現象（在126位隨機分配到Epoetin alfa組的病人中有7個死亡病例，在安慰劑組的56位病人中則無任何死亡病例）。其中有四個死亡病例係發生於投予研究藥物期間，且這四個死亡病例都發生栓塞事件。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "死亡及（或）腫瘤惡化的病例有增加的現象",
+          "title_html": "死亡及（或）腫瘤惡化的病例有增加的現象",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "死亡及（或）腫瘤惡化的病例有增加的現象"
+          ],
+          "content_text": "曾針對153位正在接受化學治療的非小細胞肺癌病人進行一項Mircera劑量範圍試驗，結果因接受Mircera治療之病人中的死亡病例明顯較接受另一種ESA治療的病人多而提早終止。 對正在接受放射治療的晚期頭頸癌病人以血紅素值 >12 g/dl為目標投予ESAs時，會縮短開始出現腫瘤惡化現象的時間（time to tumor progression）[表2中的癌症研究3與4 （DAHANCA 10）]。對正在接受化學治療的轉移性乳癌病人（癌症研究1）與淋巴性惡性腫瘤病人（癌症研究2）以血紅素值 ≥ 12 g/dl為目標投予ESAs時，也會縮短其存活時間。此外，在非小細胞肺癌病人中，以及在一項針對未接受化學治療或放射治療之各種不同惡性腫瘤病人所進行的研究中，ESAs都會縮短病人的存活時間；在這兩項研究中，投予ESAs治療的血紅素目標值皆為 ≥ 12 g/dl （表2中的癌症研究5與6）。雖然研究所評估的都是血紅素目標值 ≥ 12 g/dl時對這些腫瘤類型的影響，但目前仍不能排除投予ESAs治療的血紅素目標值 < 12 g/dl時，是否也會有存活時間縮短及腫瘤惡化的風險。 表2 存活率降低及（或）局部區域控制率（locoregional control）降低的隨機對照試驗 研究/腫瘤 （n）血紅素目標值所達到的血紅素值 （中位數Q1, Q3）主要指標含ESA之治療組中的不良結果 化學治療 癌症研究1 轉移性乳癌 （n=939）12-14 g/dl12.9 g/dl 12.2, 13.3 g/dl12個月整體存活率12個月存活率降低 癌症研究2 淋巴性惡性腫瘤 （n=344）13-15 g/dl （男） 13-14 g/dl （女）11.0 g/dl 9.8, 12.1 g/dl達到血紅素反應的病人比例整體存活率降低 單獨使用放射治療 癌症研究3 頭頸癌 （n=351）> 15 g/dl （男） > 14 g/dl （女）無資料無局部區域惡化存活率 （LRPFS, locoregional progression-free survival）5年無局部區域惡化存活率降低 整體存活率降低 癌症研究4 頭頸癌 （n=522）14-15.5 g/dl無資料局部區域疾病控制率 （LRC, locoregional disease control）局部區域疾病控制率降低 未進行任何化學治療或放射治療 癌症研究5 非小細胞肺癌 （n=70）12-14 g/dl無資料生活品質整體存活率降低 癌症研究6 非骨髓性惡性腫瘤 （n=989）12-13 g/dl10.6 g/dl 9.4, 11.8 g/dl紅血球輸注整體存活率降低 整體存活率降低： 癌症研究1 （\"BEST\"研究）先前已有說明（參見警語及注意事項（5.1.1））。Epoetin alfa組中的4個月死亡率明顯較高（8.7%比3.4%）。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低（70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012）。 癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa與安慰劑相比較）研究。經過29個月（中位數）的追蹤之後發現，隨機分配進入Darbepoetin alfa組之病人中的整體死亡率要明顯高於安慰劑組（HR 1.36，95% CI：1.02，1.82） 癌症研究5是一項第3期、多中心、隨機（Epoetin alfa比上安慰劑）、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌病人以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/dl之間。針對300位計劃收錄病人中的70位病人進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組病人（中位存活時間分別為63與129天；HR 1.84；p=0.04）。 癌症研究6是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa比上安慰劑）、16週研究。並無任何證據顯示接受紅血球輸注的病人比例有具統計意義的降低。Darbepoetin alfa治療組中的中位存活時間（8個月）要比安慰劑組（10.8個月）短；HR 1.30，95% CI：1.07，1.57。 無局部區域惡化存活率（locoregional progression-free survival）與整體存活率降低： 癌症研究3 （\"ENHANCE\"研究）是一項針對351位頭頸癌病人投予Epoetin beta或安慰劑的隨機對照研究，女性和男性病人的血紅素目標值分別為14與15 g/dl。接受Epoetin beta治療之病人中的無局部區域惡化存活時間明顯較短（HR 1.62，95% CI：1.22，2.14；p=0.0008），Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之病人中的整體存活時間也明顯較短（HR 1.39，95% CI：1.05，1.84；p=0.02）。 局部區域控制率降低： 癌症研究4 （DAHANCA 10）乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌病人隨機分組至Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位病人進行期中分析的結果顯示，接受Darbepoetin alfa治療之病人中的5年局部區域控制率明顯較短（RR 1.44，95% CI：1.06，1.96；p=0.02）。接受Darbepoetin alfa治療之病人中的整體存活時間也較短（RR 1.28，95% CI：0.98，1.68；p=0.08）。",
+          "content_html": "<p>曾針對153位正在接受化學治療的非小細胞肺癌病人進行一項Mircera劑量範圍試驗，結果因接受Mircera治療之病人中的死亡病例明顯較接受另一種ESA治療的病人多而提早終止。</p><p>對正在接受放射治療的晚期頭頸癌病人以血紅素值 &gt;12 g/d<strong>l</strong>為目標投予ESAs時，會縮短開始出現腫瘤惡化現象的時間（time to tumor progression）[表2中的癌症研究3與4 （DAHANCA 10）]。對正在接受化學治療的轉移性乳癌病人（癌症研究1）與淋巴性惡性腫瘤病人（癌症研究2）以血紅素值 ≥ 12 g/d<strong>l</strong>為目標投予ESAs時，也會縮短其存活時間。此外，在非小細胞肺癌病人中，以及在一項針對未接受化學治療或放射治療之各種不同惡性腫瘤病人所進行的研究中，ESAs都會縮短病人的存活時間；在這兩項研究中，投予ESAs治療的血紅素目標值皆為 ≥ 12 g/d<strong>l</strong> （表2中的癌症研究5與6）。雖然研究所評估的都是血紅素目標值 ≥ 12 g/d<strong>l</strong>時對這些腫瘤類型的影響，但目前仍不能排除投予ESAs治療的血紅素目標值 &lt; 12 g/d<strong>l</strong>時，是否也會有存活時間縮短及腫瘤惡化的風險。</p><p><strong>表2 存活率降低及（或）局部區域控制率（locoregional control）降低的隨機對照試驗</strong></p><figure class=\"table\"><table><thead><tr><th style=\"border-style:solid;text-align:center;\">研究/腫瘤<br>（n）</th><th style=\"border-style:solid;text-align:center;\">血紅素目標值</th><th style=\"border-style:solid;text-align:center;\">所達到的血紅素值<br>（中位數Q1, Q3）</th><th style=\"border-style:solid;text-align:center;\">主要指標</th><th style=\"border-style:solid;text-align:center;\">含ESA之治療組中的不良結果</th></tr></thead><tbody><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"5\">化學治療</td></tr><tr><td style=\"border-style:solid;\">癌症研究1<br>轉移性乳癌<br>（n=939）</td><td style=\"border-style:solid;text-align:center;\">12-14 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">12.9 g/d<strong>l</strong><br>12.2, 13.3 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">12個月整體存活率</td><td style=\"border-style:solid;text-align:center;\">12個月存活率降低</td></tr><tr><td style=\"border-style:solid;\">癌症研究2<br>淋巴性惡性腫瘤<br>（n=344）</td><td style=\"border-style:solid;text-align:center;\">13-15 g/d<strong>l</strong> （男）<br>13-14 g/d<strong>l</strong> （女）</td><td style=\"border-style:solid;text-align:center;\">11.0 g/d<strong>l</strong><br>9.8, 12.1 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">達到血紅素反應的病人比例</td><td style=\"border-style:solid;text-align:center;\">整體存活率降低</td></tr><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"5\">單獨使用放射治療</td></tr><tr><td style=\"border-style:solid;\">癌症研究3<br>頭頸癌<br>（n=351）</td><td style=\"border-style:solid;text-align:center;\">&gt; 15 g/d<strong>l</strong> （男）<br>&gt; 14 g/d<strong>l</strong> （女）</td><td style=\"border-style:solid;text-align:center;\">無資料</td><td style=\"border-style:solid;text-align:center;\">無局部區域惡化存活率<br>（LRPFS, locoregional progression-free survival）</td><td style=\"border-style:solid;text-align:center;\">5年無局部區域惡化存活率降低<br>整體存活率降低</td></tr><tr><td style=\"border-style:solid;\">癌症研究4<br>頭頸癌<br>（n=522）</td><td style=\"border-style:solid;text-align:center;\">14-15.5 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">無資料</td><td style=\"border-style:solid;text-align:center;\">局部區域疾病控制率<br>（LRC, locoregional disease control）</td><td style=\"border-style:solid;text-align:center;\">局部區域疾病控制率降低</td></tr><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"5\">未進行任何化學治療或放射治療</td></tr><tr><td style=\"border-style:solid;\">癌症研究5<br>非小細胞肺癌<br>（n=70）</td><td style=\"border-style:solid;text-align:center;\">12-14 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">無資料</td><td style=\"border-style:solid;text-align:center;\">生活品質</td><td style=\"border-style:solid;text-align:center;\">整體存活率降低</td></tr><tr><td style=\"border-style:solid;\">癌症研究6<br>非骨髓性惡性腫瘤<br>（n=989）</td><td style=\"border-style:solid;text-align:center;\">12-13 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">10.6 g/d<strong>l</strong><br>9.4, 11.8 g/d<strong>l</strong></td><td style=\"border-style:solid;text-align:center;\">紅血球輸注</td><td style=\"border-style:solid;text-align:center;\">整體存活率降低</td></tr></tbody></table></figure><p>&nbsp;</p><p><u>整體存活率降低：</u></p><p>癌症研究1 （\"BEST\"研究）先前已有說明（參見警語及注意事項（5.1.1））。Epoetin alfa組中的4個月死亡率明顯較高（8.7%比3.4%）。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低（70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012）。</p><p>癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa與安慰劑相比較）研究。經過29個月（中位數）的追蹤之後發現，隨機分配進入Darbepoetin alfa組之病人中的整體死亡率要明顯高於安慰劑組（HR 1.36，95% CI：1.02，1.82）</p><p>癌症研究5是一項第3期、多中心、隨機（Epoetin alfa比上安慰劑）、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌病人以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/d<strong>l</strong>之間。針對300位計劃收錄病人中的70位病人進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組病人（中位存活時間分別為63與129天；HR 1.84；p=0.04）。</p><p>癌症研究6是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa比上安慰劑）、16週研究。並無任何證據顯示接受紅血球輸注的病人比例有具統計意義的降低。Darbepoetin alfa治療組中的中位存活時間（8個月）要比安慰劑組（10.8個月）短；HR 1.30，95% CI：1.07，1.57。</p><p><u>無局部區域惡化存活率（locoregional progression-free survival）與整體存活率降低：</u></p><p>癌症研究3 （\"ENHANCE\"研究）是一項針對351位頭頸癌病人投予Epoetin beta或安慰劑的隨機對照研究，女性和男性病人的血紅素目標值分別為14與15 g/d<strong>l</strong>。接受Epoetin beta治療之病人中的無局部區域惡化存活時間明顯較短（HR 1.62，95% CI：1.22，2.14；p=0.0008），Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之病人中的整體存活時間也明顯較短（HR 1.39，95% CI：1.05，1.84；p=0.02）。</p><p><u>局部區域控制率降低：</u></p><p>癌症研究4 （DAHANCA 10）乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌病人隨機分組至Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位病人進行期中分析的結果顯示，接受Darbepoetin alfa治療之病人中的5年局部區域控制率明顯較短（RR 1.44，95% CI：1.06，1.96；p=0.02）。接受Darbepoetin alfa治療之病人中的整體存活時間也較短（RR 1.28，95% CI：0.98，1.68；p=0.08）。</p>",
+          "search_text": "5.1.2\n死亡及（或）腫瘤惡化的病例有增加的現象\n曾針對153位正在接受化學治療的非小細胞肺癌病人進行一項Mircera劑量範圍試驗，結果因接受Mircera治療之病人中的死亡病例明顯較接受另一種ESA治療的病人多而提早終止。 對正在接受放射治療的晚期頭頸癌病人以血紅素值 >12 g/dl為目標投予ESAs時，會縮短開始出現腫瘤惡化現象的時間（time to tumor progression）[表2中的癌症研究3與4 （DAHANCA 10）]。對正在接受化學治療的轉移性乳癌病人（癌症研究1）與淋巴性惡性腫瘤病人（癌症研究2）以血紅素值 ≥ 12 g/dl為目標投予ESAs時，也會縮短其存活時間。此外，在非小細胞肺癌病人中，以及在一項針對未接受化學治療或放射治療之各種不同惡性腫瘤病人所進行的研究中，ESAs都會縮短病人的存活時間；在這兩項研究中，投予ESAs治療的血紅素目標值皆為 ≥ 12 g/dl （表2中的癌症研究5與6）。雖然研究所評估的都是血紅素目標值 ≥ 12 g/dl時對這些腫瘤類型的影響，但目前仍不能排除投予ESAs治療的血紅素目標值 < 12 g/dl時，是否也會有存活時間縮短及腫瘤惡化的風險。 表2 存活率降低及（或）局部區域控制率（locoregional control）降低的隨機對照試驗 研究/腫瘤 （n）血紅素目標值所達到的血紅素值 （中位數Q1, Q3）主要指標含ESA之治療組中的不良結果 化學治療 癌症研究1 轉移性乳癌 （n=939）12-14 g/dl12.9 g/dl 12.2, 13.3 g/dl12個月整體存活率12個月存活率降低 癌症研究2 淋巴性惡性腫瘤 （n=344）13-15 g/dl （男） 13-14 g/dl （女）11.0 g/dl 9.8, 12.1 g/dl達到血紅素反應的病人比例整體存活率降低 單獨使用放射治療 癌症研究3 頭頸癌 （n=351）> 15 g/dl （男） > 14 g/dl （女）無資料無局部區域惡化存活率 （LRPFS, locoregional progression-free survival）5年無局部區域惡化存活率降低 整體存活率降低 癌症研究4 頭頸癌 （n=522）14-15.5 g/dl無資料局部區域疾病控制率 （LRC, locoregional disease control）局部區域疾病控制率降低 未進行任何化學治療或放射治療 癌症研究5 非小細胞肺癌 （n=70）12-14 g/dl無資料生活品質整體存活率降低 癌症研究6 非骨髓性惡性腫瘤 （n=989）12-13 g/dl10.6 g/dl 9.4, 11.8 g/dl紅血球輸注整體存活率降低 整體存活率降低： 癌症研究1 （\"BEST\"研究）先前已有說明（參見警語及注意事項（5.1.1））。Epoetin alfa組中的4個月死亡率明顯較高（8.7%比3.4%）。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低（70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012）。 癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa與安慰劑相比較）研究。經過29個月（中位數）的追蹤之後發現，隨機分配進入Darbepoetin alfa組之病人中的整體死亡率要明顯高於安慰劑組（HR 1.36，95% CI：1.02，1.82） 癌症研究5是一項第3期、多中心、隨機（Epoetin alfa比上安慰劑）、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌病人以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/dl之間。針對300位計劃收錄病人中的70位病人進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組病人（中位存活時間分別為63與129天；HR 1.84；p=0.04）。 癌症研究6是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa比上安慰劑）、16週研究。並無任何證據顯示接受紅血球輸注的病人比例有具統計意義的降低。Darbepoetin alfa治療組中的中位存活時間（8個月）要比安慰劑組（10.8個月）短；HR 1.30，95% CI：1.07，1.57。 無局部區域惡化存活率（locoregional progression-free survival）與整體存活率降低： 癌症研究3 （\"ENHANCE\"研究）是一項針對351位頭頸癌病人投予Epoetin beta或安慰劑的隨機對照研究，女性和男性病人的血紅素目標值分別為14與15 g/dl。接受Epoetin beta治療之病人中的無局部區域惡化存活時間明顯較短（HR 1.62，95% CI：1.22，2.14；p=0.0008），Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之病人中的整體存活時間也明顯較短（HR 1.39，95% CI：1.05，1.84；p=0.02）。 局部區域控制率降低： 癌症研究4 （DAHANCA 10）乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌病人隨機分組至Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位病人進行期中分析的結果顯示，接受Darbepoetin alfa治療之病人中的5年局部區域控制率明顯較短（RR 1.44，95% CI：1.06，1.96；p=0.02）。接受Darbepoetin alfa治療之病人中的整體存活時間也較短（RR 1.28，95% CI：0.98，1.68；p=0.08）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.3",
+          "title": "高血壓",
+          "title_html": "高血壓",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "高血壓"
+          ],
+          "content_text": "在開始使用Mircera治療之前，應使血壓獲得適當的控制。在使用Mircera治療期間應特別注意，務必嚴密監測並控制血壓，尤其是有心血管疾病或高血壓之病史的病人。如果藥物治療或飲食控制都難以使血壓獲得控制，就必須降低Mircera的劑量或停藥。 在Mircera的臨床研究中，約有27%的慢性腎衰竭病人（包括接受透析治療及未接受透析治療的病人）必須加強高血壓的治療。在使用Mircera治療的慢性腎衰竭病人中曾有發生高血壓性腦病變及（或）癲癇發作的病例報告[參見警語及注意事項（5.1.4）]。",
+          "content_html": "<p>在開始使用Mircera治療之前，應使血壓獲得適當的控制。在使用Mircera治療期間應特別注意，務必嚴密監測並控制血壓，尤其是有心血管疾病或高血壓之病史的病人。如果藥物治療或飲食控制都難以使血壓獲得控制，就必須降低Mircera的劑量或停藥。</p><p>在Mircera的臨床研究中，約有27%的慢性腎衰竭病人（包括接受透析治療及未接受透析治療的病人）必須加強高血壓的治療。在使用Mircera治療的慢性腎衰竭病人中曾有發生高血壓性腦病變及（或）癲癇發作的病例報告[參見警語及注意事項（5.1.4）]。</p>",
+          "search_text": "5.1.3\n高血壓\n在開始使用Mircera治療之前，應使血壓獲得適當的控制。在使用Mircera治療期間應特別注意，務必嚴密監測並控制血壓，尤其是有心血管疾病或高血壓之病史的病人。如果藥物治療或飲食控制都難以使血壓獲得控制，就必須降低Mircera的劑量或停藥。 在Mircera的臨床研究中，約有27%的慢性腎衰竭病人（包括接受透析治療及未接受透析治療的病人）必須加強高血壓的治療。在使用Mircera治療的慢性腎衰竭病人中曾有發生高血壓性腦病變及（或）癲癇發作的病例報告[參見警語及注意事項（5.1.4）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.4",
+          "title": "癲癇發作",
+          "title_html": "癲癇發作",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "癲癇發作"
+          ],
+          "content_text": "在參與Mircera臨床研究的病人中曾有發生癲癇發作的病例報告。在開始治療的最初幾個月期間，應嚴密監視血壓及是否出現的神經學症狀前兆。 雖然目前並不確知癲癇發作與血紅素上升速率間的關聯性，但如果血紅素值在任2週期間的上升程度超過1 g/dl，則應降低Mircera的劑量或停藥[參見用法及用量（3.1.3）]。",
+          "content_html": "<p>在參與Mircera臨床研究的病人中曾有發生癲癇發作的病例報告。在開始治療的最初幾個月期間，應嚴密監視血壓及是否出現的神經學症狀前兆。</p><p>雖然目前並不確知癲癇發作與血紅素上升速率間的關聯性，但如果血紅素值在任2週期間的上升程度超過1 g/d<strong>l</strong>，則應降低Mircera的劑量或停藥[參見用法及用量（3.1.3）]。</p>",
+          "search_text": "5.1.4\n癲癇發作\n在參與Mircera臨床研究的病人中曾有發生癲癇發作的病例報告。在開始治療的最初幾個月期間，應嚴密監視血壓及是否出現的神經學症狀前兆。 雖然目前並不確知癲癇發作與血紅素上升速率間的關聯性，但如果血紅素值在任2週期間的上升程度超過1 g/dl，則應降低Mircera的劑量或停藥[參見用法及用量（3.1.3）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.5",
+          "title": "單純紅血球再生不良",
+          "title_html": "單純紅血球再生不良",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "單純紅血球再生不良"
+          ],
+          "content_text": "在使用ESAs治療的病人中，曾有因出現中和性紅血球生成素抗體而發生單純紅血球再生不良（PRCA）與嚴重貧血（併有或未併有其它血球減少現象）的報告。PRCA主要都是發生於以皮下注射方式投予ESA的慢性腎衰竭病人。在Mircera的臨床研究中並未發現PRCA的病例。 如果病人的Mircera治療反應突然減弱，並伴隨出現嚴重貧血及網狀細胞計數偏低的現象時，即應評估血紅素反應發生改變的導因，包括是否出現中和性紅血球生成素抗體的評估[參見警語及注意事項（5.1.6）]。應於投予最後一劑Mircera後，至少一個月再採集血清樣本，以避免Mircera對分析造成干擾。如果懷疑為抗紅血球生成素抗體所引起的貧血，請即停用Mircera及其它的紅血球生成蛋白製劑。 出現抗體誘發性貧血的病人應永久停用Mircera。由於這些抗體可能具有交叉反應性，因此病人也不可改用其它的紅血球生成刺激劑[參見副作用/不良反應（8.2）]。 PRCA: 在使用紅血球生成刺激劑(ESAs) (包含Mircera)治療的病人中，曾有因出現紅血球生成素抗體而發生單純紅血球再生不良(PRCA)。由於已證實這些抗體對所有紅血球生成刺激劑(ESAs)有交叉反應, 因此懷疑或確認病人含有紅血球生成素抗體者，不應轉換藥物為Mircera。",
+          "content_html": "<p>在使用ESAs治療的病人中，曾有因出現中和性紅血球生成素抗體而發生單純紅血球再生不良（PRCA）與嚴重貧血（併有或未併有其它血球減少現象）的報告。PRCA主要都是發生於以皮下注射方式投予ESA的慢性腎衰竭病人。在Mircera的臨床研究中並未發現PRCA的病例。</p><p>如果病人的Mircera治療反應突然減弱，並伴隨出現嚴重貧血及網狀細胞計數偏低的現象時，即應評估血紅素反應發生改變的導因，包括是否出現中和性紅血球生成素抗體的評估[參見警語及注意事項（5.1.6）]。應於投予最後一劑Mircera後，至少一個月再採集血清樣本，以避免Mircera對分析造成干擾。如果懷疑為抗紅血球生成素抗體所引起的貧血，請即停用Mircera及其它的紅血球生成蛋白製劑。</p><p>出現抗體誘發性貧血的病人應永久停用Mircera。由於這些抗體可能具有交叉反應性，因此病人也不可改用其它的紅血球生成刺激劑[參見副作用/不良反應（8.2）]。</p><p>PRCA: 在使用紅血球生成刺激劑(ESAs) (包含Mircera)治療的病人中，曾有因出現紅血球生成素抗體而發生單純紅血球再生不良(PRCA)。由於已證實這些抗體對所有紅血球生成刺激劑(ESAs)有交叉反應, 因此懷疑或確認病人含有紅血球生成素抗體者，不應轉換藥物為Mircera。</p>",
+          "search_text": "5.1.5\n單純紅血球再生不良\n在使用ESAs治療的病人中，曾有因出現中和性紅血球生成素抗體而發生單純紅血球再生不良（PRCA）與嚴重貧血（併有或未併有其它血球減少現象）的報告。PRCA主要都是發生於以皮下注射方式投予ESA的慢性腎衰竭病人。在Mircera的臨床研究中並未發現PRCA的病例。 如果病人的Mircera治療反應突然減弱，並伴隨出現嚴重貧血及網狀細胞計數偏低的現象時，即應評估血紅素反應發生改變的導因，包括是否出現中和性紅血球生成素抗體的評估[參見警語及注意事項（5.1.6）]。應於投予最後一劑Mircera後，至少一個月再採集血清樣本，以避免Mircera對分析造成干擾。如果懷疑為抗紅血球生成素抗體所引起的貧血，請即停用Mircera及其它的紅血球生成蛋白製劑。 出現抗體誘發性貧血的病人應永久停用Mircera。由於這些抗體可能具有交叉反應性，因此病人也不可改用其它的紅血球生成刺激劑[參見副作用/不良反應（8.2）]。 PRCA: 在使用紅血球生成刺激劑(ESAs) (包含Mircera)治療的病人中，曾有因出現紅血球生成素抗體而發生單純紅血球再生不良(PRCA)。由於已證實這些抗體對所有紅血球生成刺激劑(ESAs)有交叉反應, 因此懷疑或確認病人含有紅血球生成素抗體者，不應轉換藥物為Mircera。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.6",
+          "title": "Mircera治療反應不足或減弱",
+          "title_html": "Mircera治療反應不足或減弱",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "Mircera治療反應不足或減弱"
+          ],
+          "content_text": "使用建議劑量範圍內的Mircera時，如果出現血紅素反應不足或無法維持血紅素反應的現象，應立即探查其導因。鐵質、葉酸及維他命B12缺乏的問題，應予以排除或矯正。 併發感染、惡性腫瘤、發炎、潛在性的血液流失（occult blood loss）、溶血、嚴重鋁中毒、囊狀纖維性骨炎（osteitis fibrosis cystica）、潛在的血液學疾病（如地中海型貧血、頑固性貧血或骨髓造血不良(myelodysplastic disorders）、或骨髓纖維化也可能會減弱血紅素反應。如果未發現其它導因，則應評估病人是否有發生PRCA的跡象，包括進行用以檢測是否出現抗紅血球生成素抗體的檢驗[參見警語及注意事項（5.1.5）]。",
+          "content_html": "<p>使用建議劑量範圍內的Mircera時，如果出現血紅素反應不足或無法維持血紅素反應的現象，應立即探查其導因。鐵質、葉酸及維他命B<sub>12</sub>缺乏的問題，應予以排除或矯正。</p><p>併發感染、惡性腫瘤、發炎、潛在性的血液流失（occult blood loss）、溶血、嚴重鋁中毒、囊狀纖維性骨炎（osteitis fibrosis cystica）、潛在的血液學疾病（如地中海型貧血、頑固性貧血或骨髓造血不良(myelodysplastic disorders）、或骨髓纖維化也可能會減弱血紅素反應。如果未發現其它導因，則應評估病人是否有發生PRCA的跡象，包括進行用以檢測是否出現抗紅血球生成素抗體的檢驗[參見警語及注意事項（5.1.5）]。</p>",
+          "search_text": "5.1.6\nMircera治療反應不足或減弱\n使用建議劑量範圍內的Mircera時，如果出現血紅素反應不足或無法維持血紅素反應的現象，應立即探查其導因。鐵質、葉酸及維他命B12缺乏的問題，應予以排除或矯正。 併發感染、惡性腫瘤、發炎、潛在性的血液流失（occult blood loss）、溶血、嚴重鋁中毒、囊狀纖維性骨炎（osteitis fibrosis cystica）、潛在的血液學疾病（如地中海型貧血、頑固性貧血或骨髓造血不良(myelodysplastic disorders）、或骨髓纖維化也可能會減弱血紅素反應。如果未發現其它導因，則應評估病人是否有發生PRCA的跡象，包括進行用以檢測是否出現抗紅血球生成素抗體的檢驗[參見警語及注意事項（5.1.5）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.7",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.7",
+          "title": "血液學影響",
+          "title_html": "血液學影響",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "血液學影響"
+          ],
+          "content_text": "在調整後續的劑量之前，應間隔足夠時間以判定病人對某一Mircera劑量之反應。鑒於紅血球生成所需的時間以及紅血球的壽命，從劑量調整（開始投藥、增加劑量、減低劑量、或停藥）到血紅素出現明顯變化之間可能要經過2至6週的時間。為避免血紅素值超過12 g/dl或上升速度太快（2週內上升超過1 g/dl），一定要遵循劑量及調整劑量頻率指引[參見用法及用量（3.1.3）]。 臨床研究顯示，接受Mircera治療之病人的平均血小板計數會降低約7%，但大多數病人的血小板計數仍維持於正常範圍內。血小板計數降低的現象是在開始使用Mircera之後隨即出現，之後即維持穩定狀態。在使用Mircera治療的病人中，至少有一次血小板計數低於100 x 109/L的病人比例為7.5%，在使用它種ESA治療的病人中則為4.4%。",
+          "content_html": "<p>在調整後續的劑量之前，應間隔足夠時間以判定病人對某一Mircera劑量之反應。鑒於紅血球生成所需的時間以及紅血球的壽命，從劑量調整（開始投藥、增加劑量、減低劑量、或停藥）到血紅素出現明顯變化之間可能要經過2至6週的時間。為避免血紅素值超過12 g/d<strong>l</strong>或上升速度太快（2週內上升超過1 g/d<strong>l</strong>），一定要遵循劑量及調整劑量頻率指引[參見用法及用量（3.1.3）]。</p><p>臨床研究顯示，接受Mircera治療之病人的平均血小板計數會降低約7%，但大多數病人的血小板計數仍維持於正常範圍內。血小板計數降低的現象是在開始使用Mircera之後隨即出現，之後即維持穩定狀態。在使用Mircera治療的病人中，至少有一次血小板計數低於100 x 10<sup>9</sup>/L的病人比例為7.5%，在使用它種ESA治療的病人中則為4.4%。</p>",
+          "search_text": "5.1.7\n血液學影響\n在調整後續的劑量之前，應間隔足夠時間以判定病人對某一Mircera劑量之反應。鑒於紅血球生成所需的時間以及紅血球的壽命，從劑量調整（開始投藥、增加劑量、減低劑量、或停藥）到血紅素出現明顯變化之間可能要經過2至6週的時間。為避免血紅素值超過12 g/dl或上升速度太快（2週內上升超過1 g/dl），一定要遵循劑量及調整劑量頻率指引[參見用法及用量（3.1.3）]。 臨床研究顯示，接受Mircera治療之病人的平均血小板計數會降低約7%，但大多數病人的血小板計數仍維持於正常範圍內。血小板計數降低的現象是在開始使用Mircera之後隨即出現，之後即維持穩定狀態。在使用Mircera治療的病人中，至少有一次血小板計數低於100 x 109/L的病人比例為7.5%，在使用它種ESA治療的病人中則為4.4%。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.8",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.8",
+          "title": "過敏反應",
+          "title_html": "過敏反應",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "過敏反應"
+          ],
+          "content_text": "在使用Mircera治療的病人中，曾有發生嚴重過敏反應的報告，包括心跳過速、搔癢及皮疹。如果因使用Mircera而發生嚴重的過敏（allergic）或過敏性反應（anaphylactic），應立即並永久停止Mircera治療，並應採取適當的處置措施。",
+          "content_html": "<p>在使用Mircera治療的病人中，曾有發生嚴重過敏反應的報告，包括心跳過速、搔癢及皮疹。如果因使用Mircera而發生嚴重的過敏（allergic）或過敏性反應（anaphylactic），應立即並永久停止Mircera治療，並應採取適當的處置措施。</p>",
+          "search_text": "5.1.8\n過敏反應\n在使用Mircera治療的病人中，曾有發生嚴重過敏反應的報告，包括心跳過速、搔癢及皮疹。如果因使用Mircera而發生嚴重的過敏（allergic）或過敏性反應（anaphylactic），應立即並永久停止Mircera治療，並應採取適當的處置措施。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.9",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.9",
+          "title": "不需透析治療的慢性腎衰竭病人",
+          "title_html": "不需透析治療的慢性腎衰竭病人",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "不需透析治療的慢性腎衰竭病人"
+          ],
+          "content_text": "不需透析治療之慢性腎衰竭病人所需要的Mircera維持劑量可能要比接受透析治療的病人低。未接受透析治療的病人可能較容易對Mircera的作用產生反應，因此必須審慎監視血壓及血紅素值。此外也應嚴密監視腎功能與體液、電解質平衡狀態。",
+          "content_html": "<p>不需透析治療之慢性腎衰竭病人所需要的Mircera維持劑量可能要比接受透析治療的病人低。未接受透析治療的病人可能較容易對Mircera的作用產生反應，因此必須審慎監視血壓及血紅素值。此外也應嚴密監視腎功能與體液、電解質平衡狀態。</p>",
+          "search_text": "5.1.9\n不需透析治療的慢性腎衰竭病人\n不需透析治療之慢性腎衰竭病人所需要的Mircera維持劑量可能要比接受透析治療的病人低。未接受透析治療的病人可能較容易對Mircera的作用產生反應，因此必須審慎監視血壓及血紅素值。此外也應嚴密監視腎功能與體液、電解質平衡狀態。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.10",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.10",
+          "title": "透析處理",
+          "title_html": "透析處理",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "透析處理"
+          ],
+          "content_text": "使用Mircera治療會導致紅血球增加及血漿容積減少，這會降低透析的效率；對接受低量透析的病人，可能必須調整其透析劑量。",
+          "content_html": "<p>使用Mircera治療會導致紅血球增加及血漿容積減少，這會降低透析的效率；對接受低量透析的病人，可能必須調整其透析劑量。</p>",
+          "search_text": "5.1.10\n透析處理\n使用Mircera治療會導致紅血球增加及血漿容積減少，這會降低透析的效率；對接受低量透析的病人，可能必須調整其透析劑量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "非貧血者誤用可能導致血紅素過度增加。此舉可能引發危及生命的心血管系統併發症。",
+          "content_html": "<p>非貧血者誤用可能導致血紅素過度增加。此舉可能引發危及生命的心血管系統併發症。</p>",
+          "search_text": "5.2\n藥物濫用及依賴性\n非貧血者誤用可能導致血紅素過度增加。此舉可能引發危及生命的心血管系統併發症。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "補充鐵質治療 為確保達到有效的紅血球生成作用，所有的病人在治療前與治療期間都應評估其鐵質狀態，可能需要補充鐵質治療並依治療指引進行。對血清儲鐵蛋白值（ferritin）低於100微公克/公升或血清運鐵蛋白飽和度（transferrin saturation）低於20%的病人建議接受補充鐵質治療。 在使用Mircera治療期間，應每兩週監測一次血紅素，直到血紅素值穩定在10與12 g/dl之間，且Mircera的維持劑量也確立為止。之後應至少每月進行一次血紅素監測。如果病人必須調整劑量，或是從另一種ESA改成使用Mircera，應每兩週監測一次血紅素，直到血紅素值達到穩定狀態為止[參見用法及用量（3.1.1）]。",
+          "content_html": "<p><strong>補充鐵質治療</strong></p><p>為確保達到有效的紅血球生成作用，所有的病人在治療前與治療期間都應評估其鐵質狀態，可能需要補充鐵質治療並依治療指引進行。對血清儲鐵蛋白值（ferritin）低於100微公克/公升或血清運鐵蛋白飽和度（transferrin saturation）低於20%的病人建議接受補充鐵質治療。</p><p>在使用Mircera治療期間，應每兩週監測一次血紅素，直到血紅素值穩定在10與12 g/d<strong>l</strong>之間，且Mircera的維持劑量也確立為止。之後應至少每月進行一次血紅素監測。如果病人必須調整劑量，或是從另一種ESA改成使用Mircera，應每兩週監測一次血紅素，直到血紅素值達到穩定狀態為止[參見用法及用量（3.1.1）]。</p>",
+          "search_text": "5.4\n實驗室檢測\n補充鐵質治療 為確保達到有效的紅血球生成作用，所有的病人在治療前與治療期間都應評估其鐵質狀態，可能需要補充鐵質治療並依治療指引進行。對血清儲鐵蛋白值（ferritin）低於100微公克/公升或血清運鐵蛋白飽和度（transferrin saturation）低於20%的病人建議接受補充鐵質治療。 在使用Mircera治療期間，應每兩週監測一次血紅素，直到血紅素值穩定在10與12 g/dl之間，且Mircera的維持劑量也確立為止。之後應至少每月進行一次血紅素監測。如果病人必須調整劑量，或是從另一種ESA改成使用Mircera，應每兩週監測一次血紅素，直到血紅素值達到穩定狀態為止[參見用法及用量（3.1.1）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "分級：C 對大鼠和兔子於懷孕期間以皮下注射的方式投予Mircera之後，兩種物種在每三天投予一次50微公克/公斤的劑量下都有骨骼畸形的現象。所觀察到的影響為有一隻大鼠胎兒因尾椎骨缺失而形成線狀尾巴，有一隻兔子胎兒因兩隻前腳的第一指沒有掌骨與趾骨而造成大拇指缺失，另有兔子胎兒則是出現第四和第五頸椎中心融合的現象。大鼠與兔子的胎兒都有呈劑量相關性的體重減輕現象。在每三天投予一次5微公克/公斤及更高的劑量下，Mircera在母獸中的藥效學作用會更加擴大。 對懷孕母鼠每週投予一次最高達50微公克/公斤/劑之劑量的Mircera，並不會對懷孕參數、自然生產或仔鼠觀察結果造成不良的影響。F1代仔鼠在哺乳及剛斷奶期間有死亡率升高及生長速率明顯降低的現象。不過，在反射反應、身體和知能發展或生殖能力方面，各劑量組的F1代仔鼠中皆未發現任何明顯的影響。 目前並無任何適當且控制良好的孕婦研究。只有在潛在效益超越胎兒可能面臨之風險的情況下，才可於懷孕期間使用Mircera。",
+          "content_html": "<p><strong>分級：C</strong></p><p>對大鼠和兔子於懷孕期間以皮下注射的方式投予Mircera之後，兩種物種在每三天投予一次50微公克/公斤的劑量下都有骨骼畸形的現象。所觀察到的影響為有一隻大鼠胎兒因尾椎骨缺失而形成線狀尾巴，有一隻兔子胎兒因兩隻前腳的第一指沒有掌骨與趾骨而造成大拇指缺失，另有兔子胎兒則是出現第四和第五頸椎中心融合的現象。大鼠與兔子的胎兒都有呈劑量相關性的體重減輕現象。在每三天投予一次5微公克/公斤及更高的劑量下，Mircera在母獸中的藥效學作用會更加擴大。</p><p>對懷孕母鼠每週投予一次最高達50微公克/公斤/劑之劑量的Mircera，並不會對懷孕參數、自然生產或仔鼠觀察結果造成不良的影響。F1代仔鼠在哺乳及剛斷奶期間有死亡率升高及生長速率明顯降低的現象。不過，在反射反應、身體和知能發展或生殖能力方面，各劑量組的F1代仔鼠中皆未發現任何明顯的影響。</p><p>目前並無任何適當且控制良好的孕婦研究。只有在潛在效益超越胎兒可能面臨之風險的情況下，才可於懷孕期間使用Mircera。</p>",
+          "search_text": "6.1\n懷孕\n分級：C 對大鼠和兔子於懷孕期間以皮下注射的方式投予Mircera之後，兩種物種在每三天投予一次50微公克/公斤的劑量下都有骨骼畸形的現象。所觀察到的影響為有一隻大鼠胎兒因尾椎骨缺失而形成線狀尾巴，有一隻兔子胎兒因兩隻前腳的第一指沒有掌骨與趾骨而造成大拇指缺失，另有兔子胎兒則是出現第四和第五頸椎中心融合的現象。大鼠與兔子的胎兒都有呈劑量相關性的體重減輕現象。在每三天投予一次5微公克/公斤及更高的劑量下，Mircera在母獸中的藥效學作用會更加擴大。 對懷孕母鼠每週投予一次最高達50微公克/公斤/劑之劑量的Mircera，並不會對懷孕參數、自然生產或仔鼠觀察結果造成不良的影響。F1代仔鼠在哺乳及剛斷奶期間有死亡率升高及生長速率明顯降低的現象。不過，在反射反應、身體和知能發展或生殖能力方面，各劑量組的F1代仔鼠中皆未發現任何明顯的影響。 目前並無任何適當且控制良好的孕婦研究。只有在潛在效益超越胎兒可能面臨之風險的情況下，才可於懷孕期間使用Mircera。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1.1",
+          "parent_id": "6.1",
+          "level": 3,
+          "number": "6.1.1",
+          "title": "分娩與生產",
+          "title_html": "分娩與生產",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕",
+            "分娩與生產"
+          ],
+          "content_text": "無資料。",
+          "content_html": "<p>無資料。</p>",
+          "search_text": "6.1.1\n分娩與生產\n無資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前並不確知Mircera是否會分泌進入人類的乳汁。一項大鼠的研究顯示，Mircera會分泌進入母乳。由於許多藥物都會分泌進入人類的乳汁，因此，對授乳婦女投予Mircera時應謹慎。",
+          "content_html": "<p>目前並不確知Mircera是否會分泌進入人類的乳汁。一項大鼠的研究顯示，Mircera會分泌進入母乳。由於許多藥物都會分泌進入人類的乳汁，因此，對授乳婦女投予Mircera時應謹慎。</p>",
+          "search_text": "6.2\n哺乳\n目前並不確知Mircera是否會分泌進入人類的乳汁。一項大鼠的研究顯示，Mircera會分泌進入母乳。由於許多藥物都會分泌進入人類的乳汁，因此，對授乳婦女投予Mircera時應謹慎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "由於安全性與療效資料有限，無法提供18歲以下病人使用劑量的建議[參見臨床試驗資料（12）]。",
+          "content_html": "<p>由於安全性與療效資料有限，無法提供18歲以下病人使用劑量的建議[參見臨床試驗資料（12）]。</p>",
+          "search_text": "6.4\n小兒\n由於安全性與療效資料有限，無法提供18歲以下病人使用劑量的建議[參見臨床試驗資料（12）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "Mircera之臨床研究所收錄的65歲（含）以上的受試者人數並不足以判定其治療反應是否不同於較年輕的受試者。其它臨床經驗之報告也未發現老年病人與較年輕的病人之間在治療反應方面有任何差異。一般而言，老年病人的劑量選擇時都應小心謹慎，通常都是從劑量範圍的下限開始給藥，因為老年病人較常併有肝功能、腎功能或心臟功能減退的問題，也較常併有其它疾病或同時接受其它藥物的治療。",
+          "content_html": "<p>Mircera之臨床研究所收錄的65歲（含）以上的受試者人數並不足以判定其治療反應是否不同於較年輕的受試者。其它臨床經驗之報告也未發現老年病人與較年輕的病人之間在治療反應方面有任何差異。一般而言，老年病人的劑量選擇時都應小心謹慎，通常都是從劑量範圍的下限開始給藥，因為老年病人較常併有肝功能、腎功能或心臟功能減退的問題，也較常併有其它疾病或同時接受其它藥物的治療。</p>",
+          "search_text": "6.5\n老年人\nMircera之臨床研究所收錄的65歲（含）以上的受試者人數並不足以判定其治療反應是否不同於較年輕的受試者。其它臨床經驗之報告也未發現老年病人與較年輕的病人之間在治療反應方面有任何差異。一般而言，老年病人的劑量選擇時都應小心謹慎，通常都是從劑量範圍的下限開始給藥，因為老年病人較常併有肝功能、腎功能或心臟功能減退的問題，也較常併有其它疾病或同時接受其它藥物的治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "參見用法及用量（3）、警語及注意事項（5.1.9、5.1.10）與藥物動力學特性（11）。",
+          "content_html": "<p>參見用法及用量（3）、警語及注意事項（5.1.9、5.1.10）與藥物動力學特性（11）。</p>",
+          "search_text": "6.7\n腎功能不全\n參見用法及用量（3）、警語及注意事項（5.1.9、5.1.10）與藥物動力學特性（11）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚未進行過任何正式的藥物/藥物交互作用研究。",
+          "content_html": "<p>目前尚未進行過任何正式的藥物/藥物交互作用研究。</p>",
+          "search_text": "7\n交互作用\n目前尚未進行過任何正式的藥物/藥物交互作用研究。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "下列嚴重不良反應在本仿單的其它段落中有更為詳盡的討論： 死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象[參見警語及注意事項（5.1.1）]。 死亡及（或）腫瘤惡化的病例有增加的現象[參見警語及注意事項（5.1.2）]。 高血壓[參見警語及注意事項（5.1.3）] 癲癇發作[參見警語及注意事項（5.1.4）] 單純紅血球再生不良[參見警語及注意事項（5.1.5）] 最常見於報告的不良反應為高血壓[參見警語及注意事項（5.1.3）]、腹瀉、鼻咽炎、頭痛、以及上呼吸道感染。在Mircera的臨床研究中，最常導致停止治療的不良反應為：高血壓、冠狀動脈疾病、貧血、同時停止其它的慢性腎衰竭治療以及敗血性休克。",
+          "content_html": "<p>下列嚴重不良反應在本仿單的其它段落中有更為詳盡的討論：</p><ul style=\"list-style-type:disc;\"><li>死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象[參見警語及注意事項（5.1.1）]。</li><li>死亡及（或）腫瘤惡化的病例有增加的現象[參見警語及注意事項（5.1.2）]。</li><li>高血壓[參見警語及注意事項（5.1.3）]</li><li>癲癇發作[參見警語及注意事項（5.1.4）]</li><li>單純紅血球再生不良[參見警語及注意事項（5.1.5）]</li></ul><p>最常見於報告的不良反應為高血壓[參見警語及注意事項（5.1.3）]、腹瀉、鼻咽炎、頭痛、以及上呼吸道感染。在Mircera的臨床研究中，最常導致停止治療的不良反應為：高血壓、冠狀動脈疾病、貧血、同時停止其它的慢性腎衰竭治療以及敗血性休克。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n下列嚴重不良反應在本仿單的其它段落中有更為詳盡的討論： 死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象[參見警語及注意事項（5.1.1）]。 死亡及（或）腫瘤惡化的病例有增加的現象[參見警語及注意事項（5.1.2）]。 高血壓[參見警語及注意事項（5.1.3）] 癲癇發作[參見警語及注意事項（5.1.4）] 單純紅血球再生不良[參見警語及注意事項（5.1.5）] 最常見於報告的不良反應為高血壓[參見警語及注意事項（5.1.3）]、腹瀉、鼻咽炎、頭痛、以及上呼吸道感染。在Mircera的臨床研究中，最常導致停止治療的不良反應為：高血壓、冠狀動脈疾病、貧血、同時停止其它的慢性腎衰竭治療以及敗血性休克。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "下列數據乃是2737位病人使用Mircera治療的結果，包括1451位治療6個月的病人，以及1144位治療超過一年的病人。Mircera的研究主要為活性藥物對照研究（1789位接受Mircera治療，948位接受它種ESA治療）和長期追蹤研究。研究的對象為18至92歲的病人，其中有58%為男性，白種人、黑人（包括非裔美國人）、亞洲人及西班牙裔人的比例分別為73%、20%、5%及9%。約有85%的病人正在接受透析治療。大部份的病人都是採用每兩週或每四週皮下或靜脈注射一劑的投藥方式接受Mircera的治療。 由於臨床試驗的進行條件有極大的差異，因此，Mircera之臨床研究中所觀察到的不良反應發生率並不能直接和其它藥物之臨床試驗中的發生率進行比較，可能也無法反映實務中所觀察到的發生率。 在見於報告的不良反應中，有些通常都和慢性腎衰竭有關，或是已被認定為透析的併發症，並不一定可歸因於Mircera的治療。在使用Mircera治療與使用它種ESA治療的病人之間，不良反應的發生率並無任何重大差異。 表3摘列了使用Mircera治療之病人中最為常見的不良反應（≥ 5%）。 表3 在慢性腎衰竭病人中之發生率為~5%的不良反應 不良反應 使用Mircera治療的病人 (n=1789) 血管 高血壓13% 低血壓5% 胃腸道 腹瀉11% 嘔吐6% 便祕5% 感染與寄生蟲侵染 鼻咽炎11% 上呼吸道感染9% 尿道感染5% 神經系統 頭痛9% 肌肉骨骼與結締組織 肌肉痙攣8% 背痛6% 四肢疼痛5% 受傷、中毒及透析併發症 透析中低血壓8% 動靜脈瘻管血栓5% 動靜脈瘻管部位併發症5% 代謝與營養 體液過多7% 呼吸道、胸腔及縱膈 咳嗽6% 在對照試驗中，接受Mircera治療與接受它種ESA治療的病人之間，除了嚴重胃腸道出血的發生率（分別為1.2%與0.2%）之外，其它嚴重不良反應的發生率（分別為38%與42%）並無任何重大差異。在接受Mircera治療與接受它種ESA治療的病人中，所有類型之嚴重出血性不良反應的發生率分別為5%與4%。 免疫反應（Immunogenicity） 和所有的治療用蛋白質製劑一樣，本品也可能引起免疫反應。在上市後的使用經驗中，接受其它ESAs治療的病人曾有出現中和性紅血球生成素抗體並因而發生PRCA或嚴重貧血（併有或未併有其它血球減少現象）的報告[參見警語及注意事項（5.1.5）]。和皮下注射給藥相比較，採用靜脈途徑給藥或許可以降低出現Mircera抗體的風險。 曾針對1789位在臨床研究中接受Mircera治療的病人，於治療前與治療期間以酵素連結免疫吸收分析法（ELISA）進行抗體檢測。結果並未在任何病人中發現有抗體的產生。 抗體生成的發生率與分析法的敏感性和特異性有高度的關聯性。 此外，在分析中所觀察到的抗體（包括中和性抗體）陽性發生率可能會受到多種因素的影響，包括分析方法、樣品處理、採樣時間、併用藥物、以及潛在疾病。因此，將使用Mircera時出現抗體的發生率和使用其它ESAs時出現抗體的發生率進行比較，可能會導致令人誤解的結果。",
+          "content_html": "<p>下列數據乃是2737位病人使用Mircera治療的結果，包括1451位治療6個月的病人，以及1144位治療超過一年的病人。Mircera的研究主要為活性藥物對照研究（1789位接受Mircera治療，948位接受它種ESA治療）和長期追蹤研究。研究的對象為18至92歲的病人，其中有58%為男性，白種人、黑人（包括非裔美國人）、亞洲人及西班牙裔人的比例分別為73%、20%、5%及9%。約有85%的病人正在接受透析治療。大部份的病人都是採用每兩週或每四週皮下或靜脈注射一劑的投藥方式接受Mircera的治療。</p><p>由於臨床試驗的進行條件有極大的差異，因此，Mircera之臨床研究中所觀察到的不良反應發生率並不能直接和其它藥物之臨床試驗中的發生率進行比較，可能也無法反映實務中所觀察到的發生率。</p><p>在見於報告的不良反應中，有些通常都和慢性腎衰竭有關，或是已被認定為透析的併發症，並不一定可歸因於Mircera的治療。在使用Mircera治療與使用它種ESA治療的病人之間，不良反應的發生率並無任何重大差異。</p><p>表3摘列了使用Mircera治療之病人中最為常見的不良反應（≥ 5%）。</p><p><strong>表3 在慢性腎衰竭病人中之發生率為~5%的不良反應</strong></p><figure class=\"table\"><table style=\"border-style:solid;\"><thead><tr><th style=\"border-style:solid;text-align:center;\" colspan=\"2\"><strong>不良反應</strong></th><th style=\"border-style:solid;text-align:center;\"><p><strong>使用Mircera治療的病人</strong></p><p><strong>(n=1789)</strong></p></th></tr></thead><tbody><tr><td style=\"vertical-align:top;\"><strong>血管</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>高血壓</td><td style=\"text-align:center;\">13%</td></tr><tr><td>&nbsp;</td><td>低血壓</td><td style=\"text-align:center;\">5%</td></tr><tr><td><strong>胃腸道</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>腹瀉</td><td style=\"text-align:center;\">11%</td></tr><tr><td>&nbsp;</td><td>嘔吐</td><td style=\"text-align:center;\">6%</td></tr><tr><td>&nbsp;</td><td>便祕</td><td style=\"text-align:center;\">5%</td></tr><tr><td><strong>感染與寄生蟲侵染</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>鼻咽炎</td><td style=\"text-align:center;\">11%</td></tr><tr><td>&nbsp;</td><td>上呼吸道感染</td><td style=\"text-align:center;\">9%</td></tr><tr><td>&nbsp;</td><td>尿道感染</td><td style=\"text-align:center;\">5%</td></tr><tr><td><strong>神經系統</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>頭痛</td><td style=\"text-align:center;\">9%</td></tr><tr><td><strong>肌肉骨骼與結締組織</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>肌肉痙攣</td><td style=\"text-align:center;\">8%</td></tr><tr><td>&nbsp;</td><td>背痛</td><td style=\"text-align:center;\">6%</td></tr><tr><td>&nbsp;</td><td>四肢疼痛</td><td style=\"text-align:center;\">5%</td></tr><tr><td><strong>受傷、中毒及透析併發症</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>透析中低血壓</td><td style=\"text-align:center;\">8%</td></tr><tr><td>&nbsp;</td><td>動靜脈瘻管血栓</td><td style=\"text-align:center;\">5%</td></tr><tr><td>&nbsp;</td><td>動靜脈瘻管部位併發症</td><td style=\"text-align:center;\">5%</td></tr><tr><td><strong>代謝與營養</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>體液過多</td><td style=\"text-align:center;\">7%</td></tr><tr><td><strong>呼吸道、胸腔及縱膈</strong></td><td>&nbsp;</td><td style=\"text-align:center;\">&nbsp;</td></tr><tr><td>&nbsp;</td><td>咳嗽</td><td style=\"text-align:center;\">6%</td></tr></tbody></table></figure><p>在對照試驗中，接受Mircera治療與接受它種ESA治療的病人之間，除了嚴重胃腸道出血的發生率（分別為1.2%與0.2%）之外，其它嚴重不良反應的發生率（分別為38%與42%）並無任何重大差異。在接受Mircera治療與接受它種ESA治療的病人中，所有類型之嚴重出血性不良反應的發生率分別為5%與4%。</p><p><u>免疫反應（Immunogenicity）</u></p><p>和所有的治療用蛋白質製劑一樣，本品也可能引起免疫反應。在上市後的使用經驗中，接受其它ESAs治療的病人曾有出現中和性紅血球生成素抗體並因而發生PRCA或嚴重貧血（併有或未併有其它血球減少現象）的報告[參見警語及注意事項（5.1.5）]。和皮下注射給藥相比較，採用靜脈途徑給藥或許可以降低出現Mircera抗體的風險。</p><p>曾針對1789位在臨床研究中接受Mircera治療的病人，於治療前與治療期間以酵素連結免疫吸收分析法（ELISA）進行抗體檢測。結果並未在任何病人中發現有抗體的產生。</p><p>抗體生成的發生率與分析法的敏感性和特異性有高度的關聯性。</p><p>此外，在分析中所觀察到的抗體（包括中和性抗體）陽性發生率可能會受到多種因素的影響，包括分析方法、樣品處理、採樣時間、併用藥物、以及潛在疾病。因此，將使用Mircera時出現抗體的發生率和使用其它ESAs時出現抗體的發生率進行比較，可能會導致令人誤解的結果。</p>",
+          "search_text": "8.2\n臨床試驗經驗\n下列數據乃是2737位病人使用Mircera治療的結果，包括1451位治療6個月的病人，以及1144位治療超過一年的病人。Mircera的研究主要為活性藥物對照研究（1789位接受Mircera治療，948位接受它種ESA治療）和長期追蹤研究。研究的對象為18至92歲的病人，其中有58%為男性，白種人、黑人（包括非裔美國人）、亞洲人及西班牙裔人的比例分別為73%、20%、5%及9%。約有85%的病人正在接受透析治療。大部份的病人都是採用每兩週或每四週皮下或靜脈注射一劑的投藥方式接受Mircera的治療。 由於臨床試驗的進行條件有極大的差異，因此，Mircera之臨床研究中所觀察到的不良反應發生率並不能直接和其它藥物之臨床試驗中的發生率進行比較，可能也無法反映實務中所觀察到的發生率。 在見於報告的不良反應中，有些通常都和慢性腎衰竭有關，或是已被認定為透析的併發症，並不一定可歸因於Mircera的治療。在使用Mircera治療與使用它種ESA治療的病人之間，不良反應的發生率並無任何重大差異。 表3摘列了使用Mircera治療之病人中最為常見的不良反應（≥ 5%）。 表3 在慢性腎衰竭病人中之發生率為~5%的不良反應 不良反應 使用Mircera治療的病人 (n=1789) 血管 高血壓13% 低血壓5% 胃腸道 腹瀉11% 嘔吐6% 便祕5% 感染與寄生蟲侵染 鼻咽炎11% 上呼吸道感染9% 尿道感染5% 神經系統 頭痛9% 肌肉骨骼與結締組織 肌肉痙攣8% 背痛6% 四肢疼痛5% 受傷、中毒及透析併發症 透析中低血壓8% 動靜脈瘻管血栓5% 動靜脈瘻管部位併發症5% 代謝與營養 體液過多7% 呼吸道、胸腔及縱膈 咳嗽6% 在對照試驗中，接受Mircera治療與接受它種ESA治療的病人之間，除了嚴重胃腸道出血的發生率（分別為1.2%與0.2%）之外，其它嚴重不良反應的發生率（分別為38%與42%）並無任何重大差異。在接受Mircera治療與接受它種ESA治療的病人中，所有類型之嚴重出血性不良反應的發生率分別為5%與4%。 免疫反應（Immunogenicity） 和所有的治療用蛋白質製劑一樣，本品也可能引起免疫反應。在上市後的使用經驗中，接受其它ESAs治療的病人曾有出現中和性紅血球生成素抗體並因而發生PRCA或嚴重貧血（併有或未併有其它血球減少現象）的報告[參見警語及注意事項（5.1.5）]。和皮下注射給藥相比較，採用靜脈途徑給藥或許可以降低出現Mircera抗體的風險。 曾針對1789位在臨床研究中接受Mircera治療的病人，於治療前與治療期間以酵素連結免疫吸收分析法（ELISA）進行抗體檢測。結果並未在任何病人中發現有抗體的產生。 抗體生成的發生率與分析法的敏感性和特異性有高度的關聯性。 此外，在分析中所觀察到的抗體（包括中和性抗體）陽性發生率可能會受到多種因素的影響，包括分析方法、樣品處理、採樣時間、併用藥物、以及潛在疾病。因此，將使用Mircera時出現抗體的發生率和使用其它ESAs時出現抗體的發生率進行比較，可能會導致令人誤解的結果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "在上市後使用經驗中，曾有發生與Mircera治療相關的中和性抗紅血球生成素抗體造成之單純紅血球再生不良(AEAB-PRCA)[亦參見警語及注意事項(5.1.5)]。 曾有發生史帝芬-強生症候群(Stevens-Johnson syndrome)及毒性表皮溶解症(toxic epidermal necrolysis)之報告。",
+          "content_html": "<p>在上市後使用經驗中，曾有發生與Mircera治療相關的中和性抗紅血球生成素抗體造成之單純紅血球再生不良(AEAB-PRCA)[亦參見警語及注意事項(5.1.5)]。</p><p>曾有發生史帝芬-強生症候群(Stevens-Johnson syndrome)及毒性表皮溶解症(toxic epidermal necrolysis)之報告。</p>",
+          "search_text": "8.3\n上市後經驗\n在上市後使用經驗中，曾有發生與Mircera治療相關的中和性抗紅血球生成素抗體造成之單純紅血球再生不良(AEAB-PRCA)[亦參見警語及注意事項(5.1.5)]。 曾有發生史帝芬-強生症候群(Stevens-Johnson syndrome)及毒性表皮溶解症(toxic epidermal necrolysis)之報告。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "Mircera使用過量時的預期表現主要為血紅素濃度過高及（或）快速上升所引發的徵兆與症狀，包括前文所論及的各種心血管事件[參見警語及注意事項（5.1.1）與副作用/不良反應（8.2）]。對Mircera使用過量的病人，應嚴密監視是否出現心血管事件及血液學方面的異常現象。紅血球增多症應視臨床需要以靜脈放血術即時加以控制。在Mircera使用過量所造成的影響解除之後，重新開始使用Mircera治療時應嚴密監視是否出現血紅素濃度快速上升的現象（每14天上升 > 1 g/dl）。對出現過度造血反應的病人，應根據用法及用量（3.1.3）中的建議降低Mircera的劑量。",
+          "content_html": "<p>Mircera使用過量時的預期表現主要為血紅素濃度過高及（或）快速上升所引發的徵兆與症狀，包括前文所論及的各種心血管事件[參見警語及注意事項（5.1.1）與副作用/不良反應（8.2）]。對Mircera使用過量的病人，應嚴密監視是否出現心血管事件及血液學方面的異常現象。紅血球增多症應視臨床需要以靜脈放血術即時加以控制。在Mircera使用過量所造成的影響解除之後，重新開始使用Mircera治療時應嚴密監視是否出現血紅素濃度快速上升的現象（每14天上升 &gt; 1 g/d<strong>l</strong>）。對出現過度造血反應的病人，應根據用法及用量（3.1.3）中的建議降低Mircera的劑量。</p>",
+          "search_text": "9\n過量\nMircera使用過量時的預期表現主要為血紅素濃度過高及（或）快速上升所引發的徵兆與症狀，包括前文所論及的各種心血管事件[參見警語及注意事項（5.1.1）與副作用/不良反應（8.2）]。對Mircera使用過量的病人，應嚴密監視是否出現心血管事件及血液學方面的異常現象。紅血球增多症應視臨床需要以靜脈放血術即時加以控制。在Mircera使用過量所造成的影響解除之後，重新開始使用Mircera治療時應嚴密監視是否出現血紅素濃度快速上升的現象（每14天上升 > 1 g/dl）。對出現過度造血反應的病人，應根據用法及用量（3.1.3）中的建議降低Mircera的劑量。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Mircera是一種紅血球生成素接受體活化劑，其體內活性較紅血球生成素（erythropoietin）高，半衰期也較長。紅血球生成素（erythropoietin）乃是紅血球發育的主要增生因子，其生成部位為腎臟，並會因組織缺氧的刺激而釋出進入血流。在組織缺氧的刺激之下，紅血球生成素會和紅血球源祖細胞（progenitor cells）發生交互作用，從而提高紅血球的生成量。慢性腎衰竭（CRF）病人其紅血球生成素的製造會減少，而紅血球生成素不足即為貧血症狀的主要導因。",
+          "content_html": "<p>Mircera是一種紅血球生成素接受體活化劑，其體內活性較紅血球生成素（erythropoietin）高，半衰期也較長。紅血球生成素（erythropoietin）乃是紅血球發育的主要增生因子，其生成部位為腎臟，並會因組織缺氧的刺激而釋出進入血流。在組織缺氧的刺激之下，紅血球生成素會和紅血球源祖細胞（progenitor cells）發生交互作用，從而提高紅血球的生成量。慢性腎衰竭（CRF）病人其紅血球生成素的製造會減少，而紅血球生成素不足即為貧血症狀的主要導因。</p>",
+          "search_text": "10.1\n作用機轉\nMircera是一種紅血球生成素接受體活化劑，其體內活性較紅血球生成素（erythropoietin）高，半衰期也較長。紅血球生成素（erythropoietin）乃是紅血球發育的主要增生因子，其生成部位為腎臟，並會因組織缺氧的刺激而釋出進入血流。在組織缺氧的刺激之下，紅血球生成素會和紅血球源祖細胞（progenitor cells）發生交互作用，從而提高紅血球的生成量。慢性腎衰竭（CRF）病人其紅血球生成素的製造會減少，而紅血球生成素不足即為貧血症狀的主要導因。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "對慢性腎衰竭病人投予單劑Mircera之後，可於初次投藥7至15天後觀察到血紅素開始上升（定義為較基準值升高 > 0.4 g/dl）的現象[參見用法及用量（3.1.3）]。",
+          "content_html": "<p>對慢性腎衰竭病人投予單劑Mircera之後，可於初次投藥7至15天後觀察到血紅素開始上升（定義為較基準值升高 &gt; 0.4 g/d<strong>l</strong>）的現象[參見用法及用量（3.1.3）]。</p>",
+          "search_text": "10.2\n藥效藥理特性\n對慢性腎衰竭病人投予單劑Mircera之後，可於初次投藥7至15天後觀察到血紅素開始上升（定義為較基準值升高 > 0.4 g/dl）的現象[參見用法及用量（3.1.3）]。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.3\n臨床前安全性資料",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3.1",
+          "parent_id": "10.3",
+          "level": 3,
+          "number": "10.3.1",
+          "title": "致癌性、致突變性、生育力損害、致畸胎性",
+          "title_html": "致癌性、致突變性、生育力損害、致畸胎性",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料",
+            "致癌性、致突變性、生育力損害、致畸胎性"
+          ],
+          "content_text": "致癌性 目前尚未在長期動物研究中評估過Mircera的致癌性。體外試驗顯示，Mircera在紅血球生成素受體陽性細胞株（HepG2與K562）或紅血球生成素受體陰性細胞株（RTI 12）中都不會引發增生反應。此外，在利用一組人類組織所進行的體外試驗中，Mircera的結合作用僅見於骨髓源祖細胞。 致突變性 無資料。 生育力損害 在交配前與交配期間對公鼠及母鼠皮下注射Mircera之後，生殖能力、生育力與精蟲評估參數均未受到影響。 致畸胎性 參見特殊族群注意事項（6.1）。 其他 無資料。",
+          "content_html": "<p><u>致癌性</u></p><p>目前尚未在長期動物研究中評估過Mircera的致癌性。體外試驗顯示，Mircera在紅血球生成素受體陽性細胞株（HepG2與K562）或紅血球生成素受體陰性細胞株（RTI 12）中都不會引發增生反應。此外，在利用一組人類組織所進行的體外試驗中，Mircera的結合作用僅見於骨髓源祖細胞。</p><p><u>致突變性</u></p><p>無資料。</p><p><u>生育力損害</u></p><p>在交配前與交配期間對公鼠及母鼠皮下注射Mircera之後，生殖能力、生育力與精蟲評估參數均未受到影響。</p><p><u>致畸胎性</u></p><p>參見特殊族群注意事項（6.1）。</p><p><u>其他</u></p><p>無資料。</p>",
+          "search_text": "10.3.1\n致癌性、致突變性、生育力損害、致畸胎性\n致癌性 目前尚未在長期動物研究中評估過Mircera的致癌性。體外試驗顯示，Mircera在紅血球生成素受體陽性細胞株（HepG2與K562）或紅血球生成素受體陰性細胞株（RTI 12）中都不會引發增生反應。此外，在利用一組人類組織所進行的體外試驗中，Mircera的結合作用僅見於骨髓源祖細胞。 致突變性 無資料。 生育力損害 在交配前與交配期間對公鼠及母鼠皮下注射Mircera之後，生殖能力、生育力與精蟲評估參數均未受到影響。 致畸胎性 參見特殊族群注意事項（6.1）。 其他 無資料。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "針對併有慢性腎衰竭的貧血病人（包括接受透析治療及未接受透析治療的病人）研究Mircera的藥物動力學。根據群體分析的結果，Mircera的藥物動力學並不會因年齡(>18歲)、性別、種族或是否接受透析治療而有所改變。 對正在進行腹膜透析的慢性腎衰竭病人靜脈注射投予0.4微公克/公斤體重的Mircera之後發現，其最終半衰期為134±65小時（平均值±SD），全身總清除率為0.49±0.18 毫升/小時/公斤。對正在進行腹膜透析的慢性腎衰竭病人皮下注射投予0.8微公克/公斤的Mircera之後，其最終半衰期為139±67小時。Mircera皮下注射給藥後72小時（中位數）達到最高血清濃度。Mircera皮下注射給藥後的絕對生體可用率為62%。 曾針對接受多次Mircera給藥的慢性腎衰竭病人研究投予第一劑後及第9週和第19或21週時的藥物動力學。結果顯示，多次給藥對Mircera的清除率、分佈體積或生體可用率皆無任何影響。根據針對各項臨床研究所進行的族群分析，以每四週一次的方式投予Mircera之後，並不會出現蓄積的現象。不過，以每2週一次的方式投予Mircera時，穩定狀態下的血中濃度會升高12%。 一項針對41位病人比較血液透析前後之Mircera血清濃度的研究顯示，血液透析並不會改變本品的血清濃度。 針對健康志願者所進行的研究顯示，皮下注射的部位（腹部、手臂或大腿）並不會對Mircera的藥物動力學表現或藥效學表現造成任何臨床上的重大影響。 小兒族群 在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行了Mircera的藥物動力學研究。在穩定狀態下(第3次Mircera靜脈注射給藥之後)所觀察到的最大暴露量為Cmax: 66.1 ng/mL(幾何平均值)，AUC0-tau: 7170 ng.hr/mL(幾何平均值)。隨後，Mircera血清濃度以表觀平均半衰期(apparent mean half-life)約121至147小時(幾何平均值)下降，與成人相當。",
+          "content_html": "<p>針對併有慢性腎衰竭的貧血病人（包括接受透析治療及未接受透析治療的病人）研究Mircera的藥物動力學。根據群體分析的結果，Mircera的藥物動力學並不會因年齡(&gt;18歲)、性別、種族或是否接受透析治療而有所改變。</p><p>對正在進行腹膜透析的慢性腎衰竭病人靜脈注射投予0.4微公克/公斤體重的Mircera之後發現，其最終半衰期為134±65小時（平均值±SD），全身總清除率為0.49±0.18 毫升/小時/公斤。對正在進行腹膜透析的慢性腎衰竭病人皮下注射投予0.8微公克/公斤的Mircera之後，其最終半衰期為139±67小時。Mircera皮下注射給藥後72小時（中位數）達到最高血清濃度。Mircera皮下注射給藥後的絕對生體可用率為62%。</p><p>曾針對接受多次Mircera給藥的慢性腎衰竭病人研究投予第一劑後及第9週和第19或21週時的藥物動力學。結果顯示，多次給藥對Mircera的清除率、分佈體積或生體可用率皆無任何影響。根據針對各項臨床研究所進行的族群分析，以每四週一次的方式投予Mircera之後，並不會出現蓄積的現象。不過，以每2週一次的方式投予Mircera時，穩定狀態下的血中濃度會升高12%。</p><p>一項針對41位病人比較血液透析前後之Mircera血清濃度的研究顯示，血液透析並不會改變本品的血清濃度。</p><p>針對健康志願者所進行的研究顯示，皮下注射的部位（腹部、手臂或大腿）並不會對Mircera的藥物動力學表現或藥效學表現造成任何臨床上的重大影響。</p><p>小兒族群</p><p>在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行了Mircera的藥物動力學研究。在穩定狀態下(第3次Mircera靜脈注射給藥之後)所觀察到的最大暴露量為C<sub>max</sub>: 66.1 ng/mL(幾何平均值)，AUC<sub>0-tau</sub>: 7170 ng.hr/mL(幾何平均值)。隨後，Mircera血清濃度以表觀平均半衰期(apparent mean half-life)約121至147小時(幾何平均值)下降，與成人相當。</p>",
+          "search_text": "11\n藥物動力學特性\n針對併有慢性腎衰竭的貧血病人（包括接受透析治療及未接受透析治療的病人）研究Mircera的藥物動力學。根據群體分析的結果，Mircera的藥物動力學並不會因年齡(>18歲)、性別、種族或是否接受透析治療而有所改變。 對正在進行腹膜透析的慢性腎衰竭病人靜脈注射投予0.4微公克/公斤體重的Mircera之後發現，其最終半衰期為134±65小時（平均值±SD），全身總清除率為0.49±0.18 毫升/小時/公斤。對正在進行腹膜透析的慢性腎衰竭病人皮下注射投予0.8微公克/公斤的Mircera之後，其最終半衰期為139±67小時。Mircera皮下注射給藥後72小時（中位數）達到最高血清濃度。Mircera皮下注射給藥後的絕對生體可用率為62%。 曾針對接受多次Mircera給藥的慢性腎衰竭病人研究投予第一劑後及第9週和第19或21週時的藥物動力學。結果顯示，多次給藥對Mircera的清除率、分佈體積或生體可用率皆無任何影響。根據針對各項臨床研究所進行的族群分析，以每四週一次的方式投予Mircera之後，並不會出現蓄積的現象。不過，以每2週一次的方式投予Mircera時，穩定狀態下的血中濃度會升高12%。 一項針對41位病人比較血液透析前後之Mircera血清濃度的研究顯示，血液透析並不會改變本品的血清濃度。 針對健康志願者所進行的研究顯示，皮下注射的部位（腹部、手臂或大腿）並不會對Mircera的藥物動力學表現或藥效學表現造成任何臨床上的重大影響。 小兒族群 在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行了Mircera的藥物動力學研究。在穩定狀態下(第3次Mircera靜脈注射給藥之後)所觀察到的最大暴露量為Cmax: 66.1 ng/mL(幾何平均值)，AUC0-tau: 7170 ng.hr/mL(幾何平均值)。隨後，Mircera血清濃度以表觀平均半衰期(apparent mean half-life)約121至147小時(幾何平均值)下降，與成人相當。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "成人病人 有六個讓病人隨機接受Mircera或它種ESA治療的開放性多中心臨床試驗，以評估Mircera的療效性與安全性。其中兩個試驗針對原先未使用任何ESA治療的慢性腎衰竭貧血病人進行評估，其餘四個試驗則針對正在使用ESA治療慢性腎衰竭貧血的病人進行評估。在所有的研究中，病人都必須經過評估，確認其在進入試驗前處於臨床穩定狀態，並且沒有感染或發炎的跡象，判定的依據為病史與實驗室檢驗數據，包括C反應蛋白（研究1，CRP ≤ 15 毫克/公升；研究2至6，CRP ≤ 30毫克/公升）。在接受篩檢的病人中，因CRP值高於閾值而被排除的病人比例不超過3%。 在這些臨床試驗中，投予ESAs的目標皆為達到特定的血紅素值（參見表4與表5）。 在血紅素值達到穩定狀態（12 g/dl）之後，Mircera的中位每月劑量為150微公克（範圍為97微公克至270微公克）。 目前未使用任何ESA治療的病人 在試驗1中，未接受透析治療的病人經隨機分組後分別以Mircera或darbepoetin alfa治療28週。Mircera的起始劑量為每兩週一次皮下注射0.6微公克/公斤，darbepoetin alfa的起始劑量則為每週一次皮下注射0.45微公克/公斤。在試驗2中，接受透析治療的病人經隨機分組後分別以Mircera或它種ESA （Epoetin alfa或Epoetin beta）治療24週。Mircera的起始劑量為每兩週一次靜脈注射0.4微公克/公斤，對照藥物的起始劑量則為按照該產品的仿單建議劑量每週靜脈注射三次。在這些試驗中，修正/評估階段期間，每兩週投予一次之Mircera的中位劑量為0.6微公克/公斤。這兩個試驗的結果如表4所示。 表4 針對目前未使用任何ESA治療之病人所進行的臨床試驗 治療組 (n)達到治療目標*的 病人比例（95%CI）相對於基準值的平均 血紅素變化值（g/dl）紅血球輸注（%） 試驗1 Mircera (N=162)98 (94, 99)2.12.5 Darbepoetin alfa (N=162)96 (92, 99)2.06.8 試驗2 Mircera (N=135)93 (88, 97)2.75.2 Epoetin alfa/beta (N=46)91 (79, 98)2.64.3 *治療目標：在未輸注紅血球的情況下，血紅素值至少上升1 g/dl，且至少達到11 g/dl；血紅素值應維持於11至13 g/dl的範圍內。 目前正在使用它種ESA治療的病人 有四個臨床試驗曾針對目前正在使用其它ESAs治療的病人評估Mircera維持血紅素濃度的能力。病人經隨機分組後分別接受每兩週投藥一次或每四週投藥一次之Mircera的治療，或是不改變劑量與療程繼續接受目前所使用之ESA的治療。Mircera的起始劑量係取決於病人之前所使用的ESA週劑量。如表5所示，以每兩週投藥一次或每四週投藥一次的Mircera進行治療可使血紅素濃度維持於目標血紅素值的範圍之內（10至13.5 g/dl）。 表5 針對正在使用它種ESA治療之病人所進行的臨床試驗 治療組 (n)平均血紅素基準值評估期間的 血紅素值（平均值）治療組間的差異*，g/dl （95%或97.5% CI） 試驗3 Mircera每2週靜脈注射一次 （n=223）12.011.90.0 （-0.2, 0.2） Mircera每4週靜脈注射一次 （n=224）11.911.90.1 （-0.2, 0.3） Epoetin alfa/beta 靜脈注射 （n=226）12.011.9n/a 試驗4 Mircera每2週皮下注射一次 （n=190）11.711.70.1 （-0.1, 0.4） Mircera每4週皮下注射一次 （n=191）11.611.5-0.0 （-0.3, 0.2） Epoetin alfa/beta 皮下注射 （n=191）11.611.5n/a 試驗5 Mircera每2週靜脈注射一次 （n=157）12.012.10.2 （-0.0, 0.4） Darbepoetin alfa 靜脈注射 （n=156）11.911.8n/a 試驗6 Mircera每2週靜脈/皮下注射一次 （n=68）11.811.90.1 （-0.1, 0.4） Epoetin alfa/beta 靜脈/皮下注射 （n=168）11.911.80.1 （-0.1, 0.4） *Mircera與對照藥物在評估期間的平均血紅素差異值；97.5% CI是針對兩個Mircera組和它種ESA相比較的試驗（試驗3與4），而95% CI則是針對其它試驗。 n/a =不適用 小兒病人 一項第二期劑量測試、開放性、多劑量、多中心試驗，在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行，以確定自其他ESA(epoetin alfa/beta或darbepoetin alfa)維持療法轉換成Mircera靜脈注射時之有效起始劑量。本試驗已達到主要療效指標[基期和評估期間血紅素濃度(g/dl)的變化]。總體而言，所觀察到的不良事件與成人的安全性資料一致。",
+          "content_html": "<p>成人病人</p><p>有六個讓病人隨機接受Mircera或它種ESA治療的開放性多中心臨床試驗，以評估Mircera的療效性與安全性。其中兩個試驗針對原先未使用任何ESA治療的慢性腎衰竭貧血病人進行評估，其餘四個試驗則針對正在使用ESA治療慢性腎衰竭貧血的病人進行評估。在所有的研究中，病人都必須經過評估，確認其在進入試驗前處於臨床穩定狀態，並且沒有感染或發炎的跡象，判定的依據為病史與實驗室檢驗數據，包括C反應蛋白（研究1，CRP ≤ 15 毫克/公升；研究2至6，CRP ≤ 30毫克/公升）。在接受篩檢的病人中，因CRP值高於閾值而被排除的病人比例不超過3%。</p><p>在這些臨床試驗中，投予ESAs的目標皆為達到特定的血紅素值（參見表4與表5）。</p><p>在血紅素值達到穩定狀態（12 g/d<strong>l</strong>）之後，Mircera的中位每月劑量為150微公克（範圍為97微公克至270微公克）。</p><p><u>目前未使用任何ESA治療的病人</u></p><p>在試驗1中，未接受透析治療的病人經隨機分組後分別以Mircera或darbepoetin alfa治療28週。Mircera的起始劑量為每兩週一次皮下注射0.6微公克/公斤，darbepoetin alfa的起始劑量則為每週一次皮下注射0.45微公克/公斤。在試驗2中，接受透析治療的病人經隨機分組後分別以Mircera或它種ESA （Epoetin alfa或Epoetin beta）治療24週。Mircera的起始劑量為每兩週一次靜脈注射0.4微公克/公斤，對照藥物的起始劑量則為按照該產品的仿單建議劑量每週靜脈注射三次。在這些試驗中，修正/評估階段期間，每兩週投予一次之Mircera的中位劑量為0.6微公克/公斤。這兩個試驗的結果如表4所示。</p><p><strong>表4 針對目前未使用任何ESA治療之病人所進行的臨床試驗</strong></p><figure class=\"table\"><table style=\"border-style:solid;\"><thead><tr><th style=\"border-style:solid;text-align:center;\"><strong>治療組 (n)</strong></th><th style=\"border-style:solid;text-align:center;\"><strong>達到治療目標*的</strong><br><strong>病人比例（95%CI）</strong></th><th style=\"border-style:solid;text-align:center;\"><strong>相對於基準值的平均</strong><br><strong>血紅素變化值（g/dl）</strong></th><th style=\"border-style:solid;text-align:center;\"><strong>紅血球輸注（%）</strong></th></tr></thead><tbody><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"4\"><strong>試驗1</strong></td></tr><tr><td style=\"border-style:solid;\">Mircera<br>(N=162)</td><td style=\"border-style:solid;text-align:center;\">98 (94, 99)</td><td style=\"border-style:solid;text-align:center;\">2.1</td><td style=\"border-style:solid;text-align:center;\">2.5</td></tr><tr><td style=\"border-style:solid;\">Darbepoetin alfa<br>(N=162)</td><td style=\"border-style:solid;text-align:center;\">96 (92, 99)</td><td style=\"border-style:solid;text-align:center;\">2.0</td><td style=\"border-style:solid;text-align:center;\">6.8</td></tr><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"4\"><strong>試驗2</strong></td></tr><tr><td style=\"border-style:solid;\">Mircera<br>(N=135)</td><td style=\"border-style:solid;text-align:center;\">93 (88, 97)</td><td style=\"border-style:solid;text-align:center;\">2.7</td><td style=\"border-style:solid;text-align:center;\">5.2</td></tr><tr><td style=\"border-style:solid;\">Epoetin alfa/beta<br>(N=46)</td><td style=\"border-style:solid;text-align:center;\">91 (79, 98)</td><td style=\"border-style:solid;text-align:center;\">2.6</td><td style=\"border-style:solid;text-align:center;\">4.3</td></tr></tbody></table></figure><p>*治療目標：在未輸注紅血球的情況下，血紅素值至少上升1 g/d<strong>l</strong>，且至少達到11 g/d<strong>l</strong>；血紅素值應維持於11至13 g/d<strong>l</strong>的範圍內。</p><p>&nbsp;</p><p><u>目前正在使用它種ESA治療的病人</u></p><p>有四個臨床試驗曾針對目前正在使用其它ESAs治療的病人評估Mircera維持血紅素濃度的能力。病人經隨機分組後分別接受每兩週投藥一次或每四週投藥一次之Mircera的治療，或是不改變劑量與療程繼續接受目前所使用之ESA的治療。Mircera的起始劑量係取決於病人之前所使用的ESA週劑量。如表5所示，以每兩週投藥一次或每四週投藥一次的Mircera進行治療可使血紅素濃度維持於目標血紅素值的範圍之內（10至13.5 g/d<strong>l</strong>）。</p><p><strong>表5 針對正在使用它種ESA治療之病人所進行的臨床試驗</strong></p><figure class=\"table\"><table><thead><tr><th style=\"border-style:solid;\"><strong>治療組 (n)</strong></th><th style=\"border-style:solid;\"><strong>平均血紅素基準值</strong></th><th style=\"border-style:solid;\"><strong>評估期間的</strong><br><strong>血紅素值（平均值）</strong></th><th style=\"border-style:solid;\"><strong>治療組間的差異*，g/dl&nbsp;</strong><br><strong>（95%或97.5% CI）</strong></th></tr></thead><tbody><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"4\"><strong>試驗3</strong></td></tr><tr><td style=\"border-style:solid;\">Mircera每2週靜脈注射一次<br>（n=223）</td><td style=\"border-style:solid;text-align:center;\">12.0</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">0.0 （-0.2, 0.2）</td></tr><tr><td style=\"border-style:solid;\">Mircera每4週靜脈注射一次<br>（n=224）</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">0.1 （-0.2, 0.3）</td></tr><tr><td style=\"border-style:solid;\">Epoetin alfa/beta 靜脈注射<br>（n=226）</td><td style=\"border-style:solid;text-align:center;\">12.0</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">n/a</td></tr><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"4\"><strong>試驗4</strong></td></tr><tr><td style=\"border-style:solid;\">Mircera每2週皮下注射一次<br>（n=190）</td><td style=\"border-style:solid;text-align:center;\">11.7</td><td style=\"border-style:solid;text-align:center;\">11.7</td><td style=\"border-style:solid;text-align:center;\">0.1 （-0.1, 0.4）</td></tr><tr><td style=\"border-style:solid;\">Mircera每4週皮下注射一次<br>（n=191）</td><td style=\"border-style:solid;text-align:center;\">11.6</td><td style=\"border-style:solid;text-align:center;\">11.5</td><td style=\"border-style:solid;text-align:center;\">-0.0 （-0.3, 0.2）</td></tr><tr><td style=\"border-style:solid;\">Epoetin alfa/beta 皮下注射<br>（n=191）</td><td style=\"border-style:solid;text-align:center;\">11.6</td><td style=\"border-style:solid;text-align:center;\">11.5</td><td style=\"border-style:solid;text-align:center;\">n/a</td></tr><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"4\"><strong>試驗5</strong></td></tr><tr><td style=\"border-style:solid;\">Mircera每2週靜脈注射一次<br>（n=157）</td><td style=\"border-style:solid;text-align:center;\">12.0</td><td style=\"border-style:solid;text-align:center;\">12.1</td><td style=\"border-style:solid;text-align:center;\">0.2 （-0.0, 0.4）</td></tr><tr><td style=\"border-style:solid;\">Darbepoetin alfa 靜脈注射<br>（n=156）</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">11.8</td><td style=\"border-style:solid;text-align:center;\">n/a</td></tr><tr><td style=\"border-style:solid;text-align:center;\" colspan=\"4\"><strong>試驗6</strong></td></tr><tr><td style=\"border-style:solid;\">Mircera每2週靜脈/皮下注射一次<br>（n=68）</td><td style=\"border-style:solid;text-align:center;\">11.8</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">0.1 （-0.1, 0.4）</td></tr><tr><td style=\"border-style:solid;\">Epoetin alfa/beta 靜脈/皮下注射<br>（n=168）</td><td style=\"border-style:solid;text-align:center;\">11.9</td><td style=\"border-style:solid;text-align:center;\">11.8</td><td style=\"border-style:solid;text-align:center;\">0.1 （-0.1, 0.4）</td></tr></tbody></table></figure><p>*Mircera與對照藥物在評估期間的平均血紅素差異值；97.5% CI是針對兩個Mircera組和它種ESA相比較的試驗（試驗3與4），而95% CI則是針對其它試驗。<br>n/a =不適用</p><p>&nbsp;</p><p>小兒病人</p><p>一項第二期劑量測試、開放性、多劑量、多中心試驗，在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行，以確定自其他ESA(epoetin alfa/beta或darbepoetin alfa)維持療法轉換成Mircera靜脈注射時之有效起始劑量。本試驗已達到主要療效指標[基期和評估期間血紅素濃度(g/d<strong>l</strong>)的變化]。總體而言，所觀察到的不良事件與成人的安全性資料一致。</p>",
+          "search_text": "12\n臨床試驗資料\n成人病人 有六個讓病人隨機接受Mircera或它種ESA治療的開放性多中心臨床試驗，以評估Mircera的療效性與安全性。其中兩個試驗針對原先未使用任何ESA治療的慢性腎衰竭貧血病人進行評估，其餘四個試驗則針對正在使用ESA治療慢性腎衰竭貧血的病人進行評估。在所有的研究中，病人都必須經過評估，確認其在進入試驗前處於臨床穩定狀態，並且沒有感染或發炎的跡象，判定的依據為病史與實驗室檢驗數據，包括C反應蛋白（研究1，CRP ≤ 15 毫克/公升；研究2至6，CRP ≤ 30毫克/公升）。在接受篩檢的病人中，因CRP值高於閾值而被排除的病人比例不超過3%。 在這些臨床試驗中，投予ESAs的目標皆為達到特定的血紅素值（參見表4與表5）。 在血紅素值達到穩定狀態（12 g/dl）之後，Mircera的中位每月劑量為150微公克（範圍為97微公克至270微公克）。 目前未使用任何ESA治療的病人 在試驗1中，未接受透析治療的病人經隨機分組後分別以Mircera或darbepoetin alfa治療28週。Mircera的起始劑量為每兩週一次皮下注射0.6微公克/公斤，darbepoetin alfa的起始劑量則為每週一次皮下注射0.45微公克/公斤。在試驗2中，接受透析治療的病人經隨機分組後分別以Mircera或它種ESA （Epoetin alfa或Epoetin beta）治療24週。Mircera的起始劑量為每兩週一次靜脈注射0.4微公克/公斤，對照藥物的起始劑量則為按照該產品的仿單建議劑量每週靜脈注射三次。在這些試驗中，修正/評估階段期間，每兩週投予一次之Mircera的中位劑量為0.6微公克/公斤。這兩個試驗的結果如表4所示。 表4 針對目前未使用任何ESA治療之病人所進行的臨床試驗 治療組 (n)達到治療目標*的 病人比例（95%CI）相對於基準值的平均 血紅素變化值（g/dl）紅血球輸注（%） 試驗1 Mircera (N=162)98 (94, 99)2.12.5 Darbepoetin alfa (N=162)96 (92, 99)2.06.8 試驗2 Mircera (N=135)93 (88, 97)2.75.2 Epoetin alfa/beta (N=46)91 (79, 98)2.64.3 *治療目標：在未輸注紅血球的情況下，血紅素值至少上升1 g/dl，且至少達到11 g/dl；血紅素值應維持於11至13 g/dl的範圍內。 目前正在使用它種ESA治療的病人 有四個臨床試驗曾針對目前正在使用其它ESAs治療的病人評估Mircera維持血紅素濃度的能力。病人經隨機分組後分別接受每兩週投藥一次或每四週投藥一次之Mircera的治療，或是不改變劑量與療程繼續接受目前所使用之ESA的治療。Mircera的起始劑量係取決於病人之前所使用的ESA週劑量。如表5所示，以每兩週投藥一次或每四週投藥一次的Mircera進行治療可使血紅素濃度維持於目標血紅素值的範圍之內（10至13.5 g/dl）。 表5 針對正在使用它種ESA治療之病人所進行的臨床試驗 治療組 (n)平均血紅素基準值評估期間的 血紅素值（平均值）治療組間的差異*，g/dl （95%或97.5% CI） 試驗3 Mircera每2週靜脈注射一次 （n=223）12.011.90.0 （-0.2, 0.2） Mircera每4週靜脈注射一次 （n=224）11.911.90.1 （-0.2, 0.3） Epoetin alfa/beta 靜脈注射 （n=226）12.011.9n/a 試驗4 Mircera每2週皮下注射一次 （n=190）11.711.70.1 （-0.1, 0.4） Mircera每4週皮下注射一次 （n=191）11.611.5-0.0 （-0.3, 0.2） Epoetin alfa/beta 皮下注射 （n=191）11.611.5n/a 試驗5 Mircera每2週靜脈注射一次 （n=157）12.012.10.2 （-0.0, 0.4） Darbepoetin alfa 靜脈注射 （n=156）11.911.8n/a 試驗6 Mircera每2週靜脈/皮下注射一次 （n=68）11.811.90.1 （-0.1, 0.4） Epoetin alfa/beta 靜脈/皮下注射 （n=168）11.911.80.1 （-0.1, 0.4） *Mircera與對照藥物在評估期間的平均血紅素差異值；97.5% CI是針對兩個Mircera組和它種ESA相比較的試驗（試驗3與4），而95% CI則是針對其它試驗。 n/a =不適用 小兒病人 一項第二期劑量測試、開放性、多劑量、多中心試驗，在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行，以確定自其他ESA(epoetin alfa/beta或darbepoetin alfa)維持療法轉換成Mircera靜脈注射時之有效起始劑量。本試驗已達到主要療效指標[基期和評估期間血紅素濃度(g/dl)的變化]。總體而言，所觀察到的不良事件與成人的安全性資料一致。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "Mircera為單次使用預先充填針筒裝。預先充填針筒裝並附有一支27號1/2吋的針頭。為降低意外被針頭刺傷的風險，每支預先充填針筒上都裝有一個針頭護套，在處理針筒時，此護套可將針頭包覆其中。 Mircera的現有包裝規格如下： 30微公克/ 0.3毫升針筒裝 1 50微公克/ 0.3毫升針筒裝1 75微公克/ 0.3毫升針筒裝1 100微公克/ 0.3毫升針筒裝1 120微公克/ 0.3毫升針筒裝1",
+          "content_html": "<p>Mircera為單次使用預先充填針筒裝。預先充填針筒裝並附有一支27號1/2吋的針頭。為降低意外被針頭刺傷的風險，每支預先充填針筒上都裝有一個針頭護套，在處理針筒時，此護套可將針頭包覆其中。</p><p>Mircera的現有包裝規格如下：</p><figure class=\"table\"><table><tbody><tr><td>30微公克/ 0.3毫升針筒裝 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</td><td>1</td></tr><tr><td>50微公克/ 0.3毫升針筒裝</td><td>1</td></tr><tr><td>75微公克/ 0.3毫升針筒裝</td><td>1</td></tr><tr><td>100微公克/ 0.3毫升針筒裝</td><td>1</td></tr><tr><td>120微公克/ 0.3毫升針筒裝</td><td>1</td></tr></tbody></table></figure>",
+          "search_text": "13.1\n包裝\nMircera為單次使用預先充填針筒裝。預先充填針筒裝並附有一支27號1/2吋的針頭。為降低意外被針頭刺傷的風險，每支預先充填針筒上都裝有一個針頭護套，在處理針筒時，此護套可將針頭包覆其中。 Mircera的現有包裝規格如下： 30微公克/ 0.3毫升針筒裝 1 50微公克/ 0.3毫升針筒裝1 75微公克/ 0.3毫升針筒裝1 100微公克/ 0.3毫升針筒裝1 120微公克/ 0.3毫升針筒裝1",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "請檢視每一支預先充填針筒的有效日期。切勿使用已超過有效期限的Mircera。",
+          "content_html": "<p>請檢視每一支預先充填針筒的有效日期。切勿使用已超過有效期限的Mircera。</p>",
+          "search_text": "13.2\n效期\n請檢視每一支預先充填針筒的有效日期。切勿使用已超過有效期限的Mircera。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "建議貯存溫度為2°至8°C （36°F至46°F）。",
+          "content_html": "<p>建議貯存溫度為2°至8°C （36°F至46°F）。</p>",
+          "search_text": "13.3\n儲存條件\n建議貯存溫度為2°至8°C （36°F至46°F）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "切勿冷凍或振搖。請避免光照。 必要時，預先充填針筒裝亦可存放於超過建議溫度（2°C至8°C）的溫度下，但最高不可超過25°C （77°F），且不可超過30天。",
+          "content_html": "<p>切勿冷凍或振搖。請避免光照。</p><p>必要時，預先充填針筒裝亦可存放於超過建議溫度（2°C至8°C）的溫度下，但最高不可超過25°C （77°F），且不可超過30天。</p>",
+          "search_text": "13.4\n儲存注意事項\n切勿冷凍或振搖。請避免光照。 必要時，預先充填針筒裝亦可存放於超過建議溫度（2°C至8°C）的溫度下，但最高不可超過25°C （77°F），且不可超過30天。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "以下說明將解釋如何使用Mircera針筒裝注射劑對自己或他人進行注射。 請務必仔細閱讀並遵照這些說明，以便您能夠正確和安全地使用預先充填針筒。 在您確定了解如何使用預先充填針筒前，請勿嘗試進行注射，如有疑問，請聯繫醫療照護人員。 因為可能與您以往的使用經驗不同，請始終遵照此使用須知中的所有指示。這些說明將預防不正確的治療或風險，如針刺傷或過早啟動針頭安全裝置，或與針頭安裝相關的問題。 重要資訊 您的處方為此藥物時，才能使用Mircera針筒裝注射劑。 請閱讀包裝上的資訊，並確保您有醫療照護人員開立的劑量。 若針筒、外盒或塑膠包裝出現損壞，請勿使用Mircera。 針頭易碎，請小心操作。 請勿觸摸保護啟動裝置(見圖A)，否則可能會損壞針筒，導致其無法使用。 若針筒內容物呈現渾濁、霧狀或含有顆粒，請勿使用。 切勿試圖將針筒拆開。 切勿用針筒的推桿來操作或拉動針筒。 請勿取下針頭套，直到您準備進行注射。 請勿吞服針筒內的藥物。 請勿穿過衣物進行注射。 切勿重複使用或重複消毒針筒或針頭。 請將注射器、針頭及配件放置於孩童無法取得之處。 儲存 請將預先充填針筒、針頭和防穿刺/尖銳物品保存盒放置於孩童無法取得之處。 將針筒及針頭儲存於原始包裝中，直到準備使用。 請務必將針筒及針頭儲存在溫度為2 - 8°C的冰箱中。 請勿冷凍藥物，並避免藥物及針頭受到光照。請保持針筒及針頭乾燥。 包裝內包含的材料(圖A)： 含Mircera之預先充填針筒 注射針頭\n圖A 包裝內未包含的材料(圖B)：\n圖B 請在一個乾淨、光線充足的平面(如桌子)上組裝注射所需的所有用品。 如何進行注射 步驟1：讓針筒調整至室溫 請從冰箱小心取出裝有Mircera針筒裝注射劑的盒子。將針筒及針頭放置在盒內，避免陽光照射，並使其回溫至室溫至少30分鐘(圖C)。 若藥物未達到室溫可能會導致注射不舒服，而且可能難以按壓推桿。 請勿以任何其他方式讓針筒回溫。\n圖C 打開盒子，並取出含有Mircera針筒裝注射劑的塑膠包裝，先不撕除保護膜(圖D)。\n圖D 步驟2：清潔您的雙手 請用肥皂和溫水或乾洗手劑徹底消毒雙手(圖E)。\n圖E 步驟3：拆開包裝並目視檢查預先充填針筒 將塑膠包裝上的保護膜撕下，並取出包裝好的針頭和針筒，在不接觸保護啟動裝置的情況下，手握針筒筒身的中段(圖F)。 只能握取針筒筒身的位置，因為只要接觸到保護啟動裝置，都可能導致安全裝置過早釋放。\n圖F 檢查針筒是否損壞，並檢查針筒和盒上的有效期限。此步驟十分重要，能確保針筒和藥物的使用安全(圖G)。 以下情況請勿使用針筒： 針筒不小心掉落地上。 針筒的任何部分出現損壞。 內容物渾濁、霧狀或含有顆粒。 如果呈現出無色至淡黃色以外之其它顏色。 已過有效期限。\n圖G 步驟4：將針頭安裝到針筒上 握牢針筒筒身中段，緊握橡膠頂蓋，將橡膠頂蓋從針筒上取下(彎並拉)(圖H)。 一旦移除，請立即將橡膠頂蓋丟棄至尖銳物品/防穿刺保存盒中。 請勿觸摸保護啟動裝置。 請勿推推桿。 請勿拉推桿。\n圖H 雙手握緊包裝好的針頭並檢查包裝內的針頭是否損壞。使用扭轉動作解開針頭的封口，並取下蓋子(圖I)。 請立即將蓋子丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒。 請勿取下保護針的針頭套。 以下情況請勿使用針頭： 針頭不小心掉落地上。 針頭的任何部分出現損壞。\n圖I 將針頭直接緊推到針筒，並稍微扭轉或旋轉針頭，使針頭固定在針筒上(圖J)。\n圖J 步驟5：取下針頭套，準備注射 用一隻手抓牢針筒筒身中段，另一隻手將針頭套直接拉離。將針頭套丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒中(圖K)。 一旦取下針頭套，請勿觸摸針頭或讓其接觸到任何表面，因針頭可能會受到污染，且觸碰後可能導致受傷和疼痛。 你可能會在針頭末端看到一滴液體。這是正常的。 取下針頭套後，切勿再蓋上。\n圖K 請手持針筒，將針頭朝上，以去除預先充填針筒中的氣泡。 輕敲針筒，將氣泡移至頂部(圖L和M)。\n圖L 如同醫療照護人員向您展示的方法，緩緩推入推桿，將所有空氣排出。(圖M)。\n圖M 步驟6：進行注射 有兩種不同的方法(投予途徑)將Mircera注射至您體內。請遵照醫療照護人員關於該如何注射Mircera的建議。 皮下注射途徑： 若建議您以皮下注射Mircera，請按照下面的說明用藥。 挑選一個建議的注射部位，如圖所示。 您可以於上臂、大腿或腹部注射，但肚臍周圍區域除外(圖N)。 不建議自行於上臂後部進行注射。只有在幫他人注射時才可使用此注射部位。 在選擇注射部位時： 每次進行注射時，應使用不同的注射部位，且應需距離上次注射區域至少3公分。 請勿注射到可能會被皮帶或腰帶刺激到的區域。 請勿將藥物注射到痣、疤痕、瘀傷或皮膚敏感、發紅、堅硬或不完整的區域。\n圖N 使用酒精棉片清潔選定的注射部位，以降低感染風險；仔細按照酒精棉片的說明(圖O)。 讓皮膚乾燥約10秒鐘。 注射前切勿觸摸清潔區域，且不要對清潔的區域搧風或吹氣。 立即丟棄酒精棉片。\n圖O 進行Mircera注射前，請採取一個舒適的姿勢。 為確保針頭能正確插入皮下，請用未持針的手在乾淨的注射部位捏起注射部位的皮膚。捏起皮膚非常重要，能確保您注射至皮膚下(至脂肪組織)，而不是更深的區域(至肌肉)。注射到肌肉可能會導致注射不舒服(圖P)。 請小心地將針頭以90°的角度，如投擲「飛鏢」的動作，快速地將針完全插入皮膚。接著保持針筒的位置，並鬆開捏起的皮膚。 插入皮膚時請勿移動針頭。\n圖P 針頭完全插入皮膚後，請用拇指緩慢推推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢。推桿柱應可完全向下推(壓下)，且可聽到卡嗒聲，表示啟動針頭保護裝置(圖Q)。\n圖Q 請勿於注射結束前或推桿完全壓下前放開推桿。 在不鬆開推桿的情況下將針頭取出皮膚(圖R)。\n圖R 放開推桿，讓針頭保護裝置保護針頭(圖S)。\n圖S 此時如有需要，可撕下撕除標籤(圖T)。\n圖T 注射後： 將無菌棉球或紗布置於注射部位並按壓幾秒鐘。使用完畢後，立即丟棄棉球或紗布。 請勿用髒手或布擦拭注射部位。 如有需要，您可使用小繃帶覆蓋注射部位。 丟棄使用後的針筒及針頭： 將用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。 請丟棄整個防尖銳物品/穿刺的保存盒。 請勿試圖更換針頭上的針頭套。 請勿將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。 請勿重複使用或重新消毒針筒及針頭。 靜脈注射途徑： 若您的醫療照護人員建議將Mircera注射至靜脈中，您應遵照以下程序。 依照步驟1 - 5準備好針筒後： 請按照供應商或製造商的指示，使用酒精拭子清潔血液透析管的靜脈輸注口。請立即丟棄使用後的酒精拭子。 將預先充填針筒針頭插入清潔乾淨的靜脈輸注口(圖U)。 請勿觸碰靜脈輸注口的注射部位。\n圖U 請以拇指推動推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢(圖V)。 請將預先充填針筒從靜脈輸注口取下，並請勿放開推桿。 一旦取下針筒，請放開推桿，讓針頭保護裝置保護針頭。 此時如有需要，可撕下撕除標籤(見圖T)。\n圖V 步驟7：丟棄使用後的針筒及針頭 請將使用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。 請丟棄整個防尖銳物品/穿刺的保存盒。 請勿試圖更換針頭上的針頭套。 請勿將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。 請勿重複使用或重新消毒針筒及針頭。",
+          "content_html": "<p>以下說明將解釋如何使用Mircera針筒裝注射劑對自己或他人進行注射。</p><p>請務必仔細閱讀並遵照這些說明，以便您能夠正確和安全地使用預先充填針筒。</p><p>在您確定了解如何使用預先充填針筒前，<strong>請勿</strong>嘗試進行注射，如有疑問，請聯繫醫療照護人員。</p><p>因為可能與您以往的使用經驗不同，請始終遵照此使用須知中的所有指示。這些說明將預防不正確的治療或風險，如針刺傷或過早啟動針頭安全裝置，或與針頭安裝相關的問題。</p><p><strong>重要資訊</strong></p><ul style=\"list-style-type:disc;\"><li>您的處方為此藥物時，才能使用Mircera針筒裝注射劑。</li><li>請閱讀包裝上的資訊，並確保您有醫療照護人員開立的劑量。</li><li>若針筒、外盒或塑膠包裝出現損壞，<strong>請勿</strong>使用Mircera。</li><li>針頭易碎，請小心操作。</li><li><strong>請勿</strong>觸摸保護啟動裝置(見圖A)，否則可能會損壞針筒，導致其無法使用。</li><li>若針筒內容物呈現渾濁、霧狀或含有顆粒，<strong>請勿</strong>使用。</li><li>切勿試圖將針筒拆開。</li><li>切勿用針筒的推桿來操作或拉動針筒。</li><li><strong>請勿</strong>取下針頭套，直到您準備進行注射。</li><li><strong>請勿</strong>吞服針筒內的藥物。</li><li><strong>請勿</strong>穿過衣物進行注射。</li><li>切勿重複使用或重複消毒針筒或針頭。</li><li>請將注射器、針頭及配件放置於孩童無法取得之處。</li></ul><p><strong>儲存</strong></p><p><strong>請將預先充填針筒、針頭和防穿刺/尖銳物品保存盒放置於孩童無法取得之處。</strong></p><p>將針筒及針頭儲存於原始包裝中，直到準備使用。</p><p>請務必將針筒及針頭儲存在溫度為2 - 8°C的冰箱中。<br><strong>請勿</strong>冷凍藥物，並避免藥物及針頭受到光照。請保持針筒及針頭乾燥。</p><p>&nbsp;</p><p><strong>包裝內包含的材料(圖A)：</strong></p><ul style=\"list-style-type:disc;\"><li>含Mircera之預先充填針筒</li><li>注射針頭</li></ul>\n<p style=\"text-align:center;\">圖A</p><p><strong>包裝內未包含的材料(圖B)：</strong></p>\n<p style=\"text-align:center;\">圖B</p><p>請在一個乾淨、光線充足的平面(如桌子)上組裝注射所需的所有用品。</p><p>&nbsp;</p><p><strong>如何進行注射</strong></p><p><strong>步驟1：讓針筒調整至室溫</strong></p><p>請從冰箱小心取出裝有Mircera針筒裝注射劑的盒子。將針筒及針頭放置在盒內，避免陽光照射，並使其回溫至室溫至少30分鐘(圖C)。</p><ul style=\"list-style-type:disc;\"><li>若藥物未達到室溫可能會導致注射不舒服，而且可能難以按壓推桿。</li><li><strong>請勿</strong>以任何其他方式讓針筒回溫。</li></ul>\n<p style=\"text-align:center;\">圖C</p><p>打開盒子，並取出含有Mircera針筒裝注射劑的塑膠包裝，先不撕除保護膜(圖D)。</p>\n<p style=\"text-align:center;\">圖D</p><p><strong>步驟2：清潔您的雙手</strong></p><p>請用肥皂和溫水或乾洗手劑徹底消毒雙手(圖E)。</p><p>&nbsp;</p>\n<p style=\"text-align:center;\">圖E</p><p><strong>步驟3：拆開包裝並目視檢查預先充填針筒</strong></p><p>將塑膠包裝上的保護膜撕下，並取出包裝好的針頭和針筒，在不接觸保護啟動裝置的情況下，手握針筒筒身的中段(圖F)。</p><p>&nbsp;</p><p>只能握取針筒筒身的位置，因為只要接觸到保護啟動裝置，都可能導致安全裝置過早釋放。</p>\n<p style=\"text-align:center;\">圖F</p><p>檢查針筒是否損壞，並檢查針筒和盒上的有效期限。此步驟十分重要，能確保針筒和藥物的使用安全(圖G)。</p><p>&nbsp;</p><p>以下情況<strong>請勿</strong>使用針筒：</p><ul><li>針筒不小心掉落地上。</li><li>針筒的任何部分出現損壞。</li><li>內容物渾濁、霧狀或含有顆粒。</li><li>如果呈現出無色至淡黃色以外之其它顏色。</li><li>已過有效期限。</li></ul>\n<p style=\"text-align:center;\">圖G</p><p><strong>步驟4：將針頭安裝到針筒上</strong></p><p>握牢針筒筒身中段，緊握橡膠頂蓋，將橡膠頂蓋從針筒上取下(彎並拉)<u>(圖H)。</u></p><ul><li>一旦移除，請立即將橡膠頂蓋丟棄至尖銳物品/防穿刺保存盒中。</li><li><strong>請勿</strong>觸摸保護啟動裝置。</li><li><strong>請勿</strong>推推桿。</li><li><strong>請勿</strong>拉推桿。</li></ul>\n<p style=\"text-align:center;\">圖H</p><p>雙手握緊包裝好的針頭並檢查包裝內的針頭是否損壞。使用扭轉動作解開針頭的封口，並取下蓋子(圖I)。</p><p>請立即將蓋子丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒。</p><p><strong>請勿</strong>取下保護針的針頭套。</p><p>以下情況<strong>請勿</strong>使用針頭：</p><ul style=\"list-style-type:disc;\"><li>針頭不小心掉落地上。</li><li>針頭的任何部分出現損壞。</li></ul>\n<p style=\"text-align:center;\">圖I</p><p>將針頭直接緊推到針筒，並稍微扭轉或旋轉針頭，使針頭固定在針筒上(圖J)。</p>\n<p style=\"text-align:center;\">圖J</p><p><strong>步驟5：取下針頭套，準備注射</strong></p><p>用一隻手抓牢針筒筒身中段，另一隻手將針頭套直接拉離。將針頭套丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒中(圖K)。</p><ul><li>一旦取下針頭套，<strong>請勿</strong>觸摸針頭或讓其接觸到任何表面，因針頭可能會受到污染，且觸碰後可能導致受傷和疼痛。</li><li>你可能會在針頭末端看到一滴液體。這是正常的。</li><li>取下針頭套後，切勿再蓋上。</li></ul>\n<p style=\"text-align:center;\">圖K</p><p>請手持針筒，將針頭朝上，以去除預先充填針筒中的氣泡。</p><p>輕敲針筒，將氣泡移至頂部(圖L和M)。</p>\n<p style=\"text-align:center;\">圖L</p><p>如同醫療照護人員向您展示的方法，緩緩推入推桿，<u>將所有空氣排出</u>。(圖M)。</p>\n<p style=\"text-align:center;\">圖M</p><p><strong>步驟6：進行注射</strong></p><p>有兩種不同的方法(投予途徑)將Mircera注射至您體內。請遵照醫療照護人員關於該如何注射Mircera的建議。</p><p>&nbsp;</p><p><strong><u>皮下注射途徑：</u></strong></p><p>若建議您以皮下注射Mircera，請按照下面的說明用藥。</p><p>挑選一個建議的注射部位，如圖所示。</p><p>您可以於上臂、大腿或腹部注射，但肚臍周圍區域除外(圖N)。</p><p>不建議自行於上臂後部進行注射。只有在幫他人注射時才可使用此注射部位。</p><p>在選擇注射部位時：</p><ul style=\"list-style-type:disc;\"><li>每次進行注射時，應使用不同的注射部位，且應需距離上次注射區域至少3公分。</li><li><strong>請勿</strong>注射到可能會被皮帶或腰帶刺激到的區域。</li><li><strong>請勿</strong>將藥物注射到痣、疤痕、瘀傷或皮膚敏感、發紅、堅硬或不完整的區域。</li></ul>\n<p style=\"text-align:center;\">圖N</p><p>使用酒精棉片清潔選定的注射部位，以降低感染風險；仔細按照酒精棉片的說明(圖O)。</p><ul><li>讓皮膚乾燥約10秒鐘。</li><li>注射前切勿觸摸清潔區域，且<strong>不要</strong>對清潔的區域搧風或吹氣。</li><li>立即丟棄酒精棉片。</li></ul>\n<p style=\"text-align:center;\">圖O</p><p>進行Mircera注射前，請採取一個舒適的姿勢。</p><p>為確保針頭能正確插入皮下，請用未持針的手在乾淨的注射部位捏起注射部位的皮膚。捏起皮膚非常重要，能確保您注射至皮膚下(至脂肪組織)，而不是更深的區域(至肌肉)。注射到肌肉可能會導致注射不舒服(圖P)。</p><p>請小心地將針頭以90°的角度，如投擲「飛鏢」的動作，快速地將針完全插入皮膚。接著保持針筒的位置，並鬆開捏起的皮膚。</p><p>插入皮膚時<strong>請勿</strong>移動針頭。</p>\n<p style=\"text-align:center;\">圖P</p><p>針頭完全插入皮膚後，請用拇指緩慢推推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢。推桿柱應可完全向下推(壓下)，且可聽到卡嗒聲，表示啟動針頭保護裝置(圖Q)。</p>\n<p style=\"text-align:center;\">圖Q</p><p><strong>請勿</strong>於注射結束前或推桿完全壓下前放開推桿。</p><p>在<strong>不</strong>鬆開推桿的情況下將針頭取出皮膚(圖R)。</p>\n<p style=\"text-align:center;\">圖R</p><p>放開推桿，讓針頭保護裝置保護針頭(圖S)。</p>\n<p style=\"text-align:center;\">圖S</p><p>此時如有需要，可撕下撕除標籤(圖T)。</p>\n<p style=\"text-align:center;\">圖T</p><p><strong>注射後：</strong></p><ul><li>將無菌棉球或紗布置於注射部位並按壓幾秒鐘。使用完畢後，立即丟棄棉球或紗布。</li><li><strong>請勿</strong>用髒手或布擦拭注射部位。</li><li>如有需要，您可使用小繃帶覆蓋注射部位。</li></ul><p><strong>丟棄使用後的針筒及針頭：</strong></p><ul><li>將用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。</li><li>請丟棄整個防尖銳物品/穿刺的保存盒。</li><li><strong>請勿</strong>試圖更換針頭上的針頭套。</li><li><strong>請勿</strong>將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。</li><li>請勿重複使用或重新消毒針筒及針頭。</li></ul><p><strong><u>靜脈注射途徑：</u></strong></p><p>若您的醫療照護人員建議將Mircera注射至靜脈中，您應遵照以下程序。</p><p>依照步驟1 - 5準備好針筒後：</p><p>請按照供應商或製造商的指示，使用酒精拭子清潔血液透析管的靜脈輸注口。請立即丟棄使用後的酒精拭子。</p><p>&nbsp;</p><p>將預先充填針筒針頭插入<strong>清潔乾淨</strong>的靜脈輸注口(圖U)。</p><p><strong>請勿</strong>觸碰靜脈輸注口的注射部位。</p>\n<p style=\"text-align:center;\">圖U</p><p>請以拇指推動推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢(圖V)。</p><p>請將預先充填針筒從靜脈輸注口取下，並<strong>請勿</strong>放開推桿。</p><p>一旦取下針筒，請放開推桿，讓針頭保護裝置保護針頭。</p><p>此時如有需要，可撕下撕除標籤(見圖T)。</p><p>&nbsp;</p>\n<p style=\"text-align:center;\">圖V</p><p><strong>步驟7：丟棄使用後的針筒及針頭</strong></p><ul><li>請將使用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。</li><li>請丟棄整個防尖銳物品/穿刺的保存盒。</li><li><strong>請勿</strong>試圖更換針頭上的針頭套。</li><li><strong>請勿</strong>將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。</li><li>請勿重複使用或重新消毒針筒及針頭。</li></ul>",
+          "search_text": "14\n病人使用須知\n以下說明將解釋如何使用Mircera針筒裝注射劑對自己或他人進行注射。 請務必仔細閱讀並遵照這些說明，以便您能夠正確和安全地使用預先充填針筒。 在您確定了解如何使用預先充填針筒前，請勿嘗試進行注射，如有疑問，請聯繫醫療照護人員。 因為可能與您以往的使用經驗不同，請始終遵照此使用須知中的所有指示。這些說明將預防不正確的治療或風險，如針刺傷或過早啟動針頭安全裝置，或與針頭安裝相關的問題。 重要資訊 您的處方為此藥物時，才能使用Mircera針筒裝注射劑。 請閱讀包裝上的資訊，並確保您有醫療照護人員開立的劑量。 若針筒、外盒或塑膠包裝出現損壞，請勿使用Mircera。 針頭易碎，請小心操作。 請勿觸摸保護啟動裝置(見圖A)，否則可能會損壞針筒，導致其無法使用。 若針筒內容物呈現渾濁、霧狀或含有顆粒，請勿使用。 切勿試圖將針筒拆開。 切勿用針筒的推桿來操作或拉動針筒。 請勿取下針頭套，直到您準備進行注射。 請勿吞服針筒內的藥物。 請勿穿過衣物進行注射。 切勿重複使用或重複消毒針筒或針頭。 請將注射器、針頭及配件放置於孩童無法取得之處。 儲存 請將預先充填針筒、針頭和防穿刺/尖銳物品保存盒放置於孩童無法取得之處。 將針筒及針頭儲存於原始包裝中，直到準備使用。 請務必將針筒及針頭儲存在溫度為2 - 8°C的冰箱中。 請勿冷凍藥物，並避免藥物及針頭受到光照。請保持針筒及針頭乾燥。 包裝內包含的材料(圖A)： 含Mircera之預先充填針筒 注射針頭\n圖A 包裝內未包含的材料(圖B)：\n圖B 請在一個乾淨、光線充足的平面(如桌子)上組裝注射所需的所有用品。 如何進行注射 步驟1：讓針筒調整至室溫 請從冰箱小心取出裝有Mircera針筒裝注射劑的盒子。將針筒及針頭放置在盒內，避免陽光照射，並使其回溫至室溫至少30分鐘(圖C)。 若藥物未達到室溫可能會導致注射不舒服，而且可能難以按壓推桿。 請勿以任何其他方式讓針筒回溫。\n圖C 打開盒子，並取出含有Mircera針筒裝注射劑的塑膠包裝，先不撕除保護膜(圖D)。\n圖D 步驟2：清潔您的雙手 請用肥皂和溫水或乾洗手劑徹底消毒雙手(圖E)。\n圖E 步驟3：拆開包裝並目視檢查預先充填針筒 將塑膠包裝上的保護膜撕下，並取出包裝好的針頭和針筒，在不接觸保護啟動裝置的情況下，手握針筒筒身的中段(圖F)。 只能握取針筒筒身的位置，因為只要接觸到保護啟動裝置，都可能導致安全裝置過早釋放。\n圖F 檢查針筒是否損壞，並檢查針筒和盒上的有效期限。此步驟十分重要，能確保針筒和藥物的使用安全(圖G)。 以下情況請勿使用針筒： 針筒不小心掉落地上。 針筒的任何部分出現損壞。 內容物渾濁、霧狀或含有顆粒。 如果呈現出無色至淡黃色以外之其它顏色。 已過有效期限。\n圖G 步驟4：將針頭安裝到針筒上 握牢針筒筒身中段，緊握橡膠頂蓋，將橡膠頂蓋從針筒上取下(彎並拉)(圖H)。 一旦移除，請立即將橡膠頂蓋丟棄至尖銳物品/防穿刺保存盒中。 請勿觸摸保護啟動裝置。 請勿推推桿。 請勿拉推桿。\n圖H 雙手握緊包裝好的針頭並檢查包裝內的針頭是否損壞。使用扭轉動作解開針頭的封口，並取下蓋子(圖I)。 請立即將蓋子丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒。 請勿取下保護針的針頭套。 以下情況請勿使用針頭： 針頭不小心掉落地上。 針頭的任何部分出現損壞。\n圖I 將針頭直接緊推到針筒，並稍微扭轉或旋轉針頭，使針頭固定在針筒上(圖J)。\n圖J 步驟5：取下針頭套，準備注射 用一隻手抓牢針筒筒身中段，另一隻手將針頭套直接拉離。將針頭套丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒中(圖K)。 一旦取下針頭套，請勿觸摸針頭或讓其接觸到任何表面，因針頭可能會受到污染，且觸碰後可能導致受傷和疼痛。 你可能會在針頭末端看到一滴液體。這是正常的。 取下針頭套後，切勿再蓋上。\n圖K 請手持針筒，將針頭朝上，以去除預先充填針筒中的氣泡。 輕敲針筒，將氣泡移至頂部(圖L和M)。\n圖L 如同醫療照護人員向您展示的方法，緩緩推入推桿，將所有空氣排出。(圖M)。\n圖M 步驟6：進行注射 有兩種不同的方法(投予途徑)將Mircera注射至您體內。請遵照醫療照護人員關於該如何注射Mircera的建議。 皮下注射途徑： 若建議您以皮下注射Mircera，請按照下面的說明用藥。 挑選一個建議的注射部位，如圖所示。 您可以於上臂、大腿或腹部注射，但肚臍周圍區域除外(圖N)。 不建議自行於上臂後部進行注射。只有在幫他人注射時才可使用此注射部位。 在選擇注射部位時： 每次進行注射時，應使用不同的注射部位，且應需距離上次注射區域至少3公分。 請勿注射到可能會被皮帶或腰帶刺激到的區域。 請勿將藥物注射到痣、疤痕、瘀傷或皮膚敏感、發紅、堅硬或不完整的區域。\n圖N 使用酒精棉片清潔選定的注射部位，以降低感染風險；仔細按照酒精棉片的說明(圖O)。 讓皮膚乾燥約10秒鐘。 注射前切勿觸摸清潔區域，且不要對清潔的區域搧風或吹氣。 立即丟棄酒精棉片。\n圖O 進行Mircera注射前，請採取一個舒適的姿勢。 為確保針頭能正確插入皮下，請用未持針的手在乾淨的注射部位捏起注射部位的皮膚。捏起皮膚非常重要，能確保您注射至皮膚下(至脂肪組織)，而不是更深的區域(至肌肉)。注射到肌肉可能會導致注射不舒服(圖P)。 請小心地將針頭以90°的角度，如投擲「飛鏢」的動作，快速地將針完全插入皮膚。接著保持針筒的位置，並鬆開捏起的皮膚。 插入皮膚時請勿移動針頭。\n圖P 針頭完全插入皮膚後，請用拇指緩慢推推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢。推桿柱應可完全向下推(壓下)，且可聽到卡嗒聲，表示啟動針頭保護裝置(圖Q)。\n圖Q 請勿於注射結束前或推桿完全壓下前放開推桿。 在不鬆開推桿的情況下將針頭取出皮膚(圖R)。\n圖R 放開推桿，讓針頭保護裝置保護針頭(圖S)。\n圖S 此時如有需要，可撕下撕除標籤(圖T)。\n圖T 注射後： 將無菌棉球或紗布置於注射部位並按壓幾秒鐘。使用完畢後，立即丟棄棉球或紗布。 請勿用髒手或布擦拭注射部位。 如有需要，您可使用小繃帶覆蓋注射部位。 丟棄使用後的針筒及針頭： 將用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。 請丟棄整個防尖銳物品/穿刺的保存盒。 請勿試圖更換針頭上的針頭套。 請勿將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。 請勿重複使用或重新消毒針筒及針頭。 靜脈注射途徑： 若您的醫療照護人員建議將Mircera注射至靜脈中，您應遵照以下程序。 依照步驟1 - 5準備好針筒後： 請按照供應商或製造商的指示，使用酒精拭子清潔血液透析管的靜脈輸注口。請立即丟棄使用後的酒精拭子。 將預先充填針筒針頭插入清潔乾淨的靜脈輸注口(圖U)。 請勿觸碰靜脈輸注口的注射部位。\n圖U 請以拇指推動推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢(圖V)。 請將預先充填針筒從靜脈輸注口取下，並請勿放開推桿。 一旦取下針筒，請放開推桿，讓針頭保護裝置保護針頭。 此時如有需要，可撕下撕除標籤(見圖T)。\n圖V 步驟7：丟棄使用後的針筒及針頭 請將使用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。 請丟棄整個防尖銳物品/穿刺的保存盒。 請勿試圖更換針頭上的針頭套。 請勿將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。 請勿重複使用或重新消毒針筒及針頭。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 67952
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 72852
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 26472
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 28200
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 49604
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 45488
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 68620
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 29684
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 21224
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 29264
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 28256
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 35244
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 44848
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 52200
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 18860
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 30624
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 21648
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 22268
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 25640
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 46048
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 25096
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 30848
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "CDS13.0_02.24-MIR-3B01 2023年10月 預充針筒裝： 美血樂針筒裝注射劑30微公克/0.3毫升 衛署菌疫輸字第000887號 美血樂針筒裝注射劑50微公克/0.3毫升 衛署菌疫輸字第000868號 美血樂針筒裝注射劑75微公克/0.3毫升 衛署菌疫輸字第000867號 美血樂針筒裝注射劑100微公克/0.3毫升 衛署菌疫輸字第000869號 美血樂針筒裝注射劑120微公克/0.3毫升 衛署菌疫輸字第000888號 “MIRCERA”與 “美血樂”註冊商標係由瑞士商赫夫門羅氏藥廠股份有限公司授權羅氏大藥廠股份有限公司使用。",
+          "content_html": "<p>CDS13.0_02.24-MIR-3B01<br>2023年10月</p><p>&nbsp;</p><p><u>預充針筒裝：</u><br>美血樂針筒裝注射劑30微公克/0.3毫升 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;衛署菌疫輸字第000887號<br>美血樂針筒裝注射劑50微公克/0.3毫升 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;衛署菌疫輸字第000868號<br>美血樂針筒裝注射劑75微公克/0.3毫升 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;衛署菌疫輸字第000867號<br>美血樂針筒裝注射劑100微公克/0.3毫升 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;衛署菌疫輸字第000869號<br>美血樂針筒裝注射劑120微公克/0.3毫升 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;衛署菌疫輸字第000888號<br>&nbsp;</p><p>“MIRCERA”與 “美血樂”註冊商標係由瑞士商赫夫門羅氏藥廠股份有限公司授權羅氏大藥廠股份有限公司使用。</p>",
+          "search_text": "15\n其他\nCDS13.0_02.24-MIR-3B01 2023年10月 預充針筒裝： 美血樂針筒裝注射劑30微公克/0.3毫升 衛署菌疫輸字第000887號 美血樂針筒裝注射劑50微公克/0.3毫升 衛署菌疫輸字第000868號 美血樂針筒裝注射劑75微公克/0.3毫升 衛署菌疫輸字第000867號 美血樂針筒裝注射劑100微公克/0.3毫升 衛署菌疫輸字第000869號 美血樂針筒裝注射劑120微公克/0.3毫升 衛署菌疫輸字第000888號 “MIRCERA”與 “美血樂”註冊商標係由瑞士商赫夫門羅氏藥廠股份有限公司授權羅氏大藥廠股份有限公司使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "警語：死亡、嚴重心血管事件及血栓栓塞事件、以及腫瘤惡化的病例有增加的現象。 腎衰竭：兩項臨床研究顯示，使用紅血球生成刺激劑（ESAs，erythropoiesis– stimulating agents）治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人高（一項研究為13.5比上11.3 g/dl；另一項研究為14比上10 g/dl）。應視個人狀況調整劑量，以使血紅素值達到並維持於10至12 g/dl的範圍內[參見警語及注意事項（5.1.1）]。 癌症：Mircera並不適用於治療癌症化療所引起的貧血。有一項Mircera的劑量範圍研究因接受Mircera治療之病人中的死亡病例明顯較使用另一種ESA的病人多而提早終止。其它針對癌症病人所進行的ESAs研究： 針對晚期乳癌、頭頸癌、淋巴癌及非小細胞肺癌病人所進行的臨床研究顯示，當投藥治療的血紅素目標值≥ 12 g/dl時，ESAs會縮短整體存活時間及（或）開始出現腫瘤惡化現象的時間。 目前仍不能排除投予ESAs治療的血紅素目標值<12 g/dl時，是否也會有存活時間縮短及促使腫瘤惡化的風險[參見警語及注意事項（5.1.1）]。\n1\n性狀\n1.1\n有效成分及含量\n有效成分：Methoxy polyethylene glycol-epoetin beta 含量：單次使用型預先充填針筒有0.3毫升溶液裝，内含30、50、75、100或120微公克的Mircera Mircera （甲氧基聚乙二醇紅血球生成素，Methoxy polyethylene glycol-epoetin beta）是一種不同於紅血球生成素（erythropoietin）的ESA，它是將紅血球生成素（erythropoietin）的N端胺基或8個lysine中任ㄧ胺基（主要為Lys52與Lys45）以化學鍵和甲氧基聚乙二醇（PEG）丁酸（約30,000 daltons）連結在一起。如此形成的總分子量約為60,000 daltons。\n1.2\n賦形劑\nL-methionine, Sodium sulphate anhydrous, Sodium dihydrogen, phosphate monohydrate, Mannitol, Poloxamer 188, Hydrochloric acid diluted, Sodium hydroxide diluted solution, Water for injection。 預先充填針筒中的Mircera注射液是含磷酸鈉、硫酸鈉、甘露醇、甲硫胺酸與poloxamer 188的水溶液。\n1.3\n劑型\n注射劑。\n1.4\n藥品外觀\nMircera為一無菌且不含防腐劑的靜脈注射或皮下注射用蛋白質溶液。此注射液為無色至略帶淡黃色的澄清溶液，且pH值為6.2 ± 0.2。\n2\n適應症\n治療慢性腎病（CKD，chronic kidney disease）所引起的症狀性貧血。 Mircera尚未核准於治療因癌症化學治療引起的貧血 [見警語及注意事項（5.1.2）]。\n3\n用法及用量\n3.1\n用法用量\n3.1.1\n重要用藥須知\n當血紅素值趨近12 g/dl或在任2週期間內的上升程度超過1 g/dl時，應降低Mircera的劑量[參見警語及注意事項（5.1.1）]。治療期間應定期監測血液學參數。根據目前指引的建議，血紅素值的上升率及目標值應為每位病人個別訂定。對於慢性腎病病人，治療目標為使血紅素值達到10至12 g/dl的範圍。應密切監測病人，確保Mircera最低有效劑量的使用足以控制貧血症狀。 Mircera應以靜脈（IV）或皮下（SC）注射的方式給藥。對正在進行血液透析的病人，建議採用靜脈途徑給藥，因為靜脈途徑可能較不易引起免疫反應[參見副作用/不良反應（8.3）]。 採用皮下注射的方式給藥時，應將Mircera注射於腹部、手臂或大腿。\n3.1.2\n起始劑量\n目前未使用任何ESA治療的病人： 用於治療目前未使用任何ESA之成人慢性腎衰竭病人的症狀性貧血時，Mircera的建議起始劑量為每兩週一次，以靜脈或皮下注射的方式投予單劑0.6微公克/公斤體重的劑量。 投予Mircera的目標應為使血紅素值達到並維持於10至12 g/dl之間。一旦血紅素值維持在這個範圍內之後，Mircera的給藥方式可改成每月施打一次，使用每兩週施打一次的兩倍劑量，然後再視需要調整劑量。 目前正在使用ESA治療的病人： 對目前正在使用ESA治療且血紅素值已維持穩定的病人，可改成每兩週或每月施打一劑Mircera （參見表1）。Mircera的單劑靜脈或皮下注射劑量應視更換藥物時原先所使用之ESA的每週總劑量而定。 表1 依據原先使用Epoetin或Darbepoetin的劑量，換算成Mircera起始劑量之方式 原先的 Epoetin alfa 或 beta 每週劑量 （單位/週）原先的 Darbepoetin alfa 每週劑量 （微公克/週）Mircera劑量 每月一次 （微公克/月）每兩週一次 （微公克/每兩週） < 4000< 208040 4000 - < 800020 - < 4012060 8000 - 1600040 - 80200100 > 16000> 80360180\n3.1.3\n監視與劑量調整\n開始使用或調整Mircera的劑量時，應每兩週監測一次血紅素，直到達到穩定狀態為止，之後仍應每二到四週監測一次。對於在12週期間，即便採取了適當的Mircera劑量調整措施，血紅素值仍未達10至12 g/dl之範圍內的病人： 切勿投予更高的Mircera劑量，而應採用可維持足以避免必須再度輸注紅血球之血紅素值的最低劑量 評估並治療其它的貧血導因 然後繼續監測血紅素值，如果治療反應有所改善，則依上述方式調整Mircera的劑量；如果治療反應未見改善，且病人須再度輸注紅血球，則應停用Mircera [參見警語及注意事項（5.1.6、5.1.7、5.4）]。 劑量調整的頻率不可超過一個月一次。在調整劑量之後，血紅素可能要經過數週才會出現明顯的變化。當必須調整劑量以維持建議的血紅素值時，可視須要增減25%左右的劑量。 在使用Mircera治療期間，如果血紅素值在2週內的上升程度超過1 g/dl，或血紅素值不斷升高並趨近12 g/dl，則應將劑量降低約25%。如果血紅素值仍持續升高，則應停用Mircera，直到血紅素值開始降低為止。然後可以較上次施打劑量低25%左右的劑量重新開始使用Mircera。 對不是從另一種ESA改為Mircera的病人，如果血紅素值在最初4週治療期間的上升程度低於1.0 g/dl，且鐵儲量足夠，可將Mircera的劑量提高25%左右[參見警語及注意事項（5.4）]。 如果漏打一劑Mircera，應盡快補行注射，然後依處方指示的投藥頻率重新開始施打Mircera。\n3.1.4\n使用Mircera時的事前準備與投藥方式\nMircera為單次使用型預先充填針筒裝。Mircera不含防腐劑。未用完的部份請予以丟棄。切勿將預先充填針筒中未用完的部份集中起來使用。預先充填針筒切勿使用超過一次。 請將預先充填針筒裝的Mircera保存於原包裝盒中。應避免劇烈振搖或長時間光照。 切勿將Mircera和任何注射溶液混合在一起使用。 注射用藥品在施打前皆應目視檢查是否有微粒異物及變色的現象。切勿使用任何出現微粒異物或呈現出無色至淡黃色以外之其它顏色的預先充填針筒。 使用預先充填針筒投藥時，注射時必須將推桿推到底，藉以啟動針頭護套的作用。注射結束後，自注射部位拔出針頭，然後鬆開推桿，讓針頭護套向上移動，直到整支針頭都包覆在護套裡面。 使用Mircera時之事前準備與投藥方式方面的完整說明請參見「病人使用須知（14）」。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\nMircera禁用於併有未獲控制之高血壓的病人[參見警語及注意事項（5.1.3）]。 Mircera禁用於曾對本品產生過敏反應的病人[參見警語及注意事項（5.1.8）]。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象\n慢性腎衰竭引起之貧血 兩項臨床研究顯示，使用ESAs治療時之血紅素目標值較高的病人發生死亡及嚴重心血管事件的風險要比血紅素目標值較低的病人為高（一項研究為13.5比上11.3 g/dl；另一項研究為14比上10 g/dl）。患有慢性腎衰竭且對ESA的治療未能產生足夠血紅素反應的病人，發生心血管事件及死亡的風險甚至可能要比其它病人更高。這些事件包括心肌梗塞、中風、充血性心臟衰竭、以及血液透析瘻管栓塞。血紅素在2週期間的上升程度超過1 g/dl，可能會助長這些風險。 在一項隨機前瞻性試驗中，共有1432位有貧血且未接受透析治療的慢性腎衰竭病人接受Epoetin alfa的治療，治療的目標分別為使血紅素維持於13.5 g/dl或11.3 g/dl，在較高血紅素目標值組的715位病人中有125位（18%）發生重大心血管事件（包括死亡、心肌梗塞、中風、或因充血性心臟衰竭而住院），在較低血紅素目標值組的717位病人中則有97位（14%） （HR 1.3，95% CI：1.0，1.7；p=0.03）。 一項針對1265位併有臨床明顯心臟病（缺血性心臟病或充血性心臟衰竭）之血液透析病人所進行的隨機前瞻性試驗也指出，發生嚴重心血管事件的風險有升高的現象。在這項試驗中，病人接受Epoetin alfa的治療，治療的目標分別為使血紅素值維持於14±1 g/dl或10±1 g/dl。結果發現，634位隨機分組至血紅素目標值為14 g/dl之病人，其死亡率要高於631位隨機分組至血紅素目標值為10 g/dl之病人（35%比上29%）。目前並不清楚在這項試驗中所觀察到的死亡率升高現象的確切導因；不過，在隨機分組至血紅素目標值為14 g/dl的治療組中，非致命性心肌梗塞、透析瘻管栓塞、以及其它栓塞事件的發生率也較高。 其它疾病所引起的貧血 Mircera用於治療因癌症化療而引起之貧血的病人或用於降低手術前後輸注異體紅血球之需求的安全性與療效尚未確立。在這些狀況中，ESAs的臨床試驗已證實會有發生栓塞事件及（或）死亡的風險。 在一項針對939位正在接受化學治療之轉移性乳癌女性病人所進行的另一種ESA的隨機對照研究中（癌症研究1 - \"BEST\"研究），病人分別使用每週投藥一次的Epoetin alfa或安慰劑進行長達1年的治療。這項研究的設計目的為確認使用ESA預防貧血（使血紅素值維持於12至14 g/dl之間，或使血容比維持於36%至42%之間）是否可獲得較佳的存活率。但由於期中結果顯示，在最初4個月研究期間，使用Epoetin alfa治療的病人4個月的死亡率較高（8.7%比3.4%），且發生致命性栓塞事件的比率也較高（1.1 %比0.2%），因此這項研究便提早終止。根據Kaplan-Meier分析法的估算，在研究終止時，Epoetin alfa組中的12個月存活率要比安慰劑組低（70%比上76%；HR 1.37，95% CI：1.07，1.75；p=0.012）。 在一份評估了57個隨機對照試驗（包括癌症研究1與3 - \"BEST\"研究與\"ENHANCE\"研究），共含9353位癌症病人的系統性分析中，研究人員針對同時接受或未接受抗腫瘤治療的癌症病人，比較以ESAs加紅血球輸注或單獨輸注紅血球之方式來預防或治療貧血的結果。在接受ESA治療的病人中，發生血栓栓塞事件的相對風險（RR）有升高的現象（RR 1.67，95% CI：1.35，2.06；35個試驗，6769位病人）。接受ESA治療之病人的整體存活風險比率（survival hazard ratio）為1.08 （95% CI：0.99，1.18；42個試驗，8167位病人）。 曾在接受Epoetin alfa治療並進行骨科手術的病人中觀察到深部靜脈血栓（DVT）發生率升高的現象。在一項隨機對照研究中（\"SPINE\"研究），共有681位未接受預防性抗凝血治療且正在進行脊椎手術的成人病人，分別接受了Epoetin alfa加標準照護（SOC，standard of care）的治療，或僅接受SOC治療。初步的分析顯示，依據彩色血流都卜勒造影或臨床症狀進行判定的結果，Epoetin alfa組中的DVT發生率（16位病人（4.7%））要比SOC組（7位病人（2.1 %））高。此外，在Epoetin alfa組中有12位病人發生其它的血管性栓塞事件，在SOC組中則有7位。 曾在一項針對正在進行冠狀動脈繞道手術之成人病人所進行的隨機安慰劑對照性Epoetin alfa研究中觀察到死亡率升高的現象（在126位隨機分配到Epoetin alfa組的病人中有7個死亡病例，在安慰劑組的56位病人中則無任何死亡病例）。其中有四個死亡病例係發生於投予研究藥物期間，且這四個死亡病例都發生栓塞事件。\n5.1.2\n死亡及（或）腫瘤惡化的病例有增加的現象\n曾針對153位正在接受化學治療的非小細胞肺癌病人進行一項Mircera劑量範圍試驗，結果因接受Mircera治療之病人中的死亡病例明顯較接受另一種ESA治療的病人多而提早終止。 對正在接受放射治療的晚期頭頸癌病人以血紅素值 >12 g/dl為目標投予ESAs時，會縮短開始出現腫瘤惡化現象的時間（time to tumor progression）[表2中的癌症研究3與4 （DAHANCA 10）]。對正在接受化學治療的轉移性乳癌病人（癌症研究1）與淋巴性惡性腫瘤病人（癌症研究2）以血紅素值 ≥ 12 g/dl為目標投予ESAs時，也會縮短其存活時間。此外，在非小細胞肺癌病人中，以及在一項針對未接受化學治療或放射治療之各種不同惡性腫瘤病人所進行的研究中，ESAs都會縮短病人的存活時間；在這兩項研究中，投予ESAs治療的血紅素目標值皆為 ≥ 12 g/dl （表2中的癌症研究5與6）。雖然研究所評估的都是血紅素目標值 ≥ 12 g/dl時對這些腫瘤類型的影響，但目前仍不能排除投予ESAs治療的血紅素目標值 < 12 g/dl時，是否也會有存活時間縮短及腫瘤惡化的風險。 表2 存活率降低及（或）局部區域控制率（locoregional control）降低的隨機對照試驗 研究/腫瘤 （n）血紅素目標值所達到的血紅素值 （中位數Q1, Q3）主要指標含ESA之治療組中的不良結果 化學治療 癌症研究1 轉移性乳癌 （n=939）12-14 g/dl12.9 g/dl 12.2, 13.3 g/dl12個月整體存活率12個月存活率降低 癌症研究2 淋巴性惡性腫瘤 （n=344）13-15 g/dl （男） 13-14 g/dl （女）11.0 g/dl 9.8, 12.1 g/dl達到血紅素反應的病人比例整體存活率降低 單獨使用放射治療 癌症研究3 頭頸癌 （n=351）> 15 g/dl （男） > 14 g/dl （女）無資料無局部區域惡化存活率 （LRPFS, locoregional progression-free survival）5年無局部區域惡化存活率降低 整體存活率降低 癌症研究4 頭頸癌 （n=522）14-15.5 g/dl無資料局部區域疾病控制率 （LRC, locoregional disease control）局部區域疾病控制率降低 未進行任何化學治療或放射治療 癌症研究5 非小細胞肺癌 （n=70）12-14 g/dl無資料生活品質整體存活率降低 癌症研究6 非骨髓性惡性腫瘤 （n=989）12-13 g/dl10.6 g/dl 9.4, 11.8 g/dl紅血球輸注整體存活率降低 整體存活率降低： 癌症研究1 （\"BEST\"研究）先前已有說明（參見警語及注意事項（5.1.1））。Epoetin alfa組中的4個月死亡率明顯較高（8.7%比3.4%）。在試驗主持人認定的最初4個月內死亡的導因中，最常見的是病情惡化；在Epoetin alfa組的41個死亡病例中有28例被歸因為疾病惡化，在安慰劑組的16個死亡病例中則有13例。根據試驗主持人的評估，在開始出現腫瘤惡化的時間方面，兩組間並無差異。Epoetin alfa組中的12個月存活率明顯較低（70%比76%，HR 1.37，95% CI：1.07，1.75；p=0.012）。 癌症研究2是一項針對344位患有淋巴性惡性腫瘤且正在接受化學治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa與安慰劑相比較）研究。經過29個月（中位數）的追蹤之後發現，隨機分配進入Darbepoetin alfa組之病人中的整體死亡率要明顯高於安慰劑組（HR 1.36，95% CI：1.02，1.82） 癌症研究5是一項第3期、多中心、隨機（Epoetin alfa比上安慰劑）、雙盲研究，這項研究係針對僅接受緩和性放射治療或未接受任何積極治療的晚期非小細胞肺癌病人以Epoetin alfa進行治療，使血紅素值達到並維持於12至14 g/dl之間。針對300位計劃收錄病人中的70位病人進行期中分析之後發現，在存活時間方面有明顯的差異，且較有利於這項試驗的安慰劑組病人（中位存活時間分別為63與129天；HR 1.84；p=0.04）。 癌症研究6是一項針對989位患有未治癒之惡性腫瘤且未接受亦未準備接受化學治療或放射治療的貧血病人所進行的第3期、雙盲、隨機（Darbepoetin alfa比上安慰劑）、16週研究。並無任何證據顯示接受紅血球輸注的病人比例有具統計意義的降低。Darbepoetin alfa治療組中的中位存活時間（8個月）要比安慰劑組（10.8個月）短；HR 1.30，95% CI：1.07，1.57。 無局部區域惡化存活率（locoregional progression-free survival）與整體存活率降低： 癌症研究3 （\"ENHANCE\"研究）是一項針對351位頭頸癌病人投予Epoetin beta或安慰劑的隨機對照研究，女性和男性病人的血紅素目標值分別為14與15 g/dl。接受Epoetin beta治療之病人中的無局部區域惡化存活時間明顯較短（HR 1.62，95% CI：1.22，2.14；p=0.0008），Epoetin beta組的中位數為406天，安慰劑組則為745天。接受Epoetin beta治療之病人中的整體存活時間也明顯較短（HR 1.39，95% CI：1.05，1.84；p=0.02）。 局部區域控制率降低： 癌症研究4 （DAHANCA 10）乃是將522位正在接受放射治療的原發性頭頸鱗狀細胞癌病人隨機分組至Darbepoetin alfa加放射療法的方式或單獨使用放射療法進行治療。針對其中484位病人進行期中分析的結果顯示，接受Darbepoetin alfa治療之病人中的5年局部區域控制率明顯較短（RR 1.44，95% CI：1.06，1.96；p=0.02）。接受Darbepoetin alfa治療之病人中的整體存活時間也較短（RR 1.28，95% CI：0.98，1.68；p=0.08）。\n5.1.3\n高血壓\n在開始使用Mircera治療之前，應使血壓獲得適當的控制。在使用Mircera治療期間應特別注意，務必嚴密監測並控制血壓，尤其是有心血管疾病或高血壓之病史的病人。如果藥物治療或飲食控制都難以使血壓獲得控制，就必須降低Mircera的劑量或停藥。 在Mircera的臨床研究中，約有27%的慢性腎衰竭病人（包括接受透析治療及未接受透析治療的病人）必須加強高血壓的治療。在使用Mircera治療的慢性腎衰竭病人中曾有發生高血壓性腦病變及（或）癲癇發作的病例報告[參見警語及注意事項（5.1.4）]。\n5.1.4\n癲癇發作\n在參與Mircera臨床研究的病人中曾有發生癲癇發作的病例報告。在開始治療的最初幾個月期間，應嚴密監視血壓及是否出現的神經學症狀前兆。 雖然目前並不確知癲癇發作與血紅素上升速率間的關聯性，但如果血紅素值在任2週期間的上升程度超過1 g/dl，則應降低Mircera的劑量或停藥[參見用法及用量（3.1.3）]。\n5.1.5\n單純紅血球再生不良\n在使用ESAs治療的病人中，曾有因出現中和性紅血球生成素抗體而發生單純紅血球再生不良（PRCA）與嚴重貧血（併有或未併有其它血球減少現象）的報告。PRCA主要都是發生於以皮下注射方式投予ESA的慢性腎衰竭病人。在Mircera的臨床研究中並未發現PRCA的病例。 如果病人的Mircera治療反應突然減弱，並伴隨出現嚴重貧血及網狀細胞計數偏低的現象時，即應評估血紅素反應發生改變的導因，包括是否出現中和性紅血球生成素抗體的評估[參見警語及注意事項（5.1.6）]。應於投予最後一劑Mircera後，至少一個月再採集血清樣本，以避免Mircera對分析造成干擾。如果懷疑為抗紅血球生成素抗體所引起的貧血，請即停用Mircera及其它的紅血球生成蛋白製劑。 出現抗體誘發性貧血的病人應永久停用Mircera。由於這些抗體可能具有交叉反應性，因此病人也不可改用其它的紅血球生成刺激劑[參見副作用/不良反應（8.2）]。 PRCA: 在使用紅血球生成刺激劑(ESAs) (包含Mircera)治療的病人中，曾有因出現紅血球生成素抗體而發生單純紅血球再生不良(PRCA)。由於已證實這些抗體對所有紅血球生成刺激劑(ESAs)有交叉反應, 因此懷疑或確認病人含有紅血球生成素抗體者，不應轉換藥物為Mircera。\n5.1.6\nMircera治療反應不足或減弱\n使用建議劑量範圍內的Mircera時，如果出現血紅素反應不足或無法維持血紅素反應的現象，應立即探查其導因。鐵質、葉酸及維他命B12缺乏的問題，應予以排除或矯正。 併發感染、惡性腫瘤、發炎、潛在性的血液流失（occult blood loss）、溶血、嚴重鋁中毒、囊狀纖維性骨炎（osteitis fibrosis cystica）、潛在的血液學疾病（如地中海型貧血、頑固性貧血或骨髓造血不良(myelodysplastic disorders）、或骨髓纖維化也可能會減弱血紅素反應。如果未發現其它導因，則應評估病人是否有發生PRCA的跡象，包括進行用以檢測是否出現抗紅血球生成素抗體的檢驗[參見警語及注意事項（5.1.5）]。\n5.1.7\n血液學影響\n在調整後續的劑量之前，應間隔足夠時間以判定病人對某一Mircera劑量之反應。鑒於紅血球生成所需的時間以及紅血球的壽命，從劑量調整（開始投藥、增加劑量、減低劑量、或停藥）到血紅素出現明顯變化之間可能要經過2至6週的時間。為避免血紅素值超過12 g/dl或上升速度太快（2週內上升超過1 g/dl），一定要遵循劑量及調整劑量頻率指引[參見用法及用量（3.1.3）]。 臨床研究顯示，接受Mircera治療之病人的平均血小板計數會降低約7%，但大多數病人的血小板計數仍維持於正常範圍內。血小板計數降低的現象是在開始使用Mircera之後隨即出現，之後即維持穩定狀態。在使用Mircera治療的病人中，至少有一次血小板計數低於100 x 109/L的病人比例為7.5%，在使用它種ESA治療的病人中則為4.4%。\n5.1.8\n過敏反應\n在使用Mircera治療的病人中，曾有發生嚴重過敏反應的報告，包括心跳過速、搔癢及皮疹。如果因使用Mircera而發生嚴重的過敏（allergic）或過敏性反應（anaphylactic），應立即並永久停止Mircera治療，並應採取適當的處置措施。\n5.1.9\n不需透析治療的慢性腎衰竭病人\n不需透析治療之慢性腎衰竭病人所需要的Mircera維持劑量可能要比接受透析治療的病人低。未接受透析治療的病人可能較容易對Mircera的作用產生反應，因此必須審慎監視血壓及血紅素值。此外也應嚴密監視腎功能與體液、電解質平衡狀態。\n5.1.10\n透析處理\n使用Mircera治療會導致紅血球增加及血漿容積減少，這會降低透析的效率；對接受低量透析的病人，可能必須調整其透析劑量。\n5.2\n藥物濫用及依賴性\n非貧血者誤用可能導致血紅素過度增加。此舉可能引發危及生命的心血管系統併發症。\n5.3\n操作機械能力\n5.4\n實驗室檢測\n補充鐵質治療 為確保達到有效的紅血球生成作用，所有的病人在治療前與治療期間都應評估其鐵質狀態，可能需要補充鐵質治療並依治療指引進行。對血清儲鐵蛋白值（ferritin）低於100微公克/公升或血清運鐵蛋白飽和度（transferrin saturation）低於20%的病人建議接受補充鐵質治療。 在使用Mircera治療期間，應每兩週監測一次血紅素，直到血紅素值穩定在10與12 g/dl之間，且Mircera的維持劑量也確立為止。之後應至少每月進行一次血紅素監測。如果病人必須調整劑量，或是從另一種ESA改成使用Mircera，應每兩週監測一次血紅素，直到血紅素值達到穩定狀態為止[參見用法及用量（3.1.1）]。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n分級：C 對大鼠和兔子於懷孕期間以皮下注射的方式投予Mircera之後，兩種物種在每三天投予一次50微公克/公斤的劑量下都有骨骼畸形的現象。所觀察到的影響為有一隻大鼠胎兒因尾椎骨缺失而形成線狀尾巴，有一隻兔子胎兒因兩隻前腳的第一指沒有掌骨與趾骨而造成大拇指缺失，另有兔子胎兒則是出現第四和第五頸椎中心融合的現象。大鼠與兔子的胎兒都有呈劑量相關性的體重減輕現象。在每三天投予一次5微公克/公斤及更高的劑量下，Mircera在母獸中的藥效學作用會更加擴大。 對懷孕母鼠每週投予一次最高達50微公克/公斤/劑之劑量的Mircera，並不會對懷孕參數、自然生產或仔鼠觀察結果造成不良的影響。F1代仔鼠在哺乳及剛斷奶期間有死亡率升高及生長速率明顯降低的現象。不過，在反射反應、身體和知能發展或生殖能力方面，各劑量組的F1代仔鼠中皆未發現任何明顯的影響。 目前並無任何適當且控制良好的孕婦研究。只有在潛在效益超越胎兒可能面臨之風險的情況下，才可於懷孕期間使用Mircera。\n6.1.1\n分娩與生產\n無資料。\n6.2\n哺乳\n目前並不確知Mircera是否會分泌進入人類的乳汁。一項大鼠的研究顯示，Mircera會分泌進入母乳。由於許多藥物都會分泌進入人類的乳汁，因此，對授乳婦女投予Mircera時應謹慎。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n由於安全性與療效資料有限，無法提供18歲以下病人使用劑量的建議[參見臨床試驗資料（12）]。\n6.5\n老年人\nMircera之臨床研究所收錄的65歲（含）以上的受試者人數並不足以判定其治療反應是否不同於較年輕的受試者。其它臨床經驗之報告也未發現老年病人與較年輕的病人之間在治療反應方面有任何差異。一般而言，老年病人的劑量選擇時都應小心謹慎，通常都是從劑量範圍的下限開始給藥，因為老年病人較常併有肝功能、腎功能或心臟功能減退的問題，也較常併有其它疾病或同時接受其它藥物的治療。\n6.6\n肝功能不全\n6.7\n腎功能不全\n參見用法及用量（3）、警語及注意事項（5.1.9、5.1.10）與藥物動力學特性（11）。\n6.8\n其他族群\n7\n交互作用\n目前尚未進行過任何正式的藥物/藥物交互作用研究。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n下列嚴重不良反應在本仿單的其它段落中有更為詳盡的討論： 死亡、嚴重心血管事件及血栓栓塞事件的病例有增加的現象[參見警語及注意事項（5.1.1）]。 死亡及（或）腫瘤惡化的病例有增加的現象[參見警語及注意事項（5.1.2）]。 高血壓[參見警語及注意事項（5.1.3）] 癲癇發作[參見警語及注意事項（5.1.4）] 單純紅血球再生不良[參見警語及注意事項（5.1.5）] 最常見於報告的不良反應為高血壓[參見警語及注意事項（5.1.3）]、腹瀉、鼻咽炎、頭痛、以及上呼吸道感染。在Mircera的臨床研究中，最常導致停止治療的不良反應為：高血壓、冠狀動脈疾病、貧血、同時停止其它的慢性腎衰竭治療以及敗血性休克。\n8.2\n臨床試驗經驗\n下列數據乃是2737位病人使用Mircera治療的結果，包括1451位治療6個月的病人，以及1144位治療超過一年的病人。Mircera的研究主要為活性藥物對照研究（1789位接受Mircera治療，948位接受它種ESA治療）和長期追蹤研究。研究的對象為18至92歲的病人，其中有58%為男性，白種人、黑人（包括非裔美國人）、亞洲人及西班牙裔人的比例分別為73%、20%、5%及9%。約有85%的病人正在接受透析治療。大部份的病人都是採用每兩週或每四週皮下或靜脈注射一劑的投藥方式接受Mircera的治療。 由於臨床試驗的進行條件有極大的差異，因此，Mircera之臨床研究中所觀察到的不良反應發生率並不能直接和其它藥物之臨床試驗中的發生率進行比較，可能也無法反映實務中所觀察到的發生率。 在見於報告的不良反應中，有些通常都和慢性腎衰竭有關，或是已被認定為透析的併發症，並不一定可歸因於Mircera的治療。在使用Mircera治療與使用它種ESA治療的病人之間，不良反應的發生率並無任何重大差異。 表3摘列了使用Mircera治療之病人中最為常見的不良反應（≥ 5%）。 表3 在慢性腎衰竭病人中之發生率為~5%的不良反應 不良反應 使用Mircera治療的病人 (n=1789) 血管 高血壓13% 低血壓5% 胃腸道 腹瀉11% 嘔吐6% 便祕5% 感染與寄生蟲侵染 鼻咽炎11% 上呼吸道感染9% 尿道感染5% 神經系統 頭痛9% 肌肉骨骼與結締組織 肌肉痙攣8% 背痛6% 四肢疼痛5% 受傷、中毒及透析併發症 透析中低血壓8% 動靜脈瘻管血栓5% 動靜脈瘻管部位併發症5% 代謝與營養 體液過多7% 呼吸道、胸腔及縱膈 咳嗽6% 在對照試驗中，接受Mircera治療與接受它種ESA治療的病人之間，除了嚴重胃腸道出血的發生率（分別為1.2%與0.2%）之外，其它嚴重不良反應的發生率（分別為38%與42%）並無任何重大差異。在接受Mircera治療與接受它種ESA治療的病人中，所有類型之嚴重出血性不良反應的發生率分別為5%與4%。 免疫反應（Immunogenicity） 和所有的治療用蛋白質製劑一樣，本品也可能引起免疫反應。在上市後的使用經驗中，接受其它ESAs治療的病人曾有出現中和性紅血球生成素抗體並因而發生PRCA或嚴重貧血（併有或未併有其它血球減少現象）的報告[參見警語及注意事項（5.1.5）]。和皮下注射給藥相比較，採用靜脈途徑給藥或許可以降低出現Mircera抗體的風險。 曾針對1789位在臨床研究中接受Mircera治療的病人，於治療前與治療期間以酵素連結免疫吸收分析法（ELISA）進行抗體檢測。結果並未在任何病人中發現有抗體的產生。 抗體生成的發生率與分析法的敏感性和特異性有高度的關聯性。 此外，在分析中所觀察到的抗體（包括中和性抗體）陽性發生率可能會受到多種因素的影響，包括分析方法、樣品處理、採樣時間、併用藥物、以及潛在疾病。因此，將使用Mircera時出現抗體的發生率和使用其它ESAs時出現抗體的發生率進行比較，可能會導致令人誤解的結果。\n8.3\n上市後經驗\n在上市後使用經驗中，曾有發生與Mircera治療相關的中和性抗紅血球生成素抗體造成之單純紅血球再生不良(AEAB-PRCA)[亦參見警語及注意事項(5.1.5)]。 曾有發生史帝芬-強生症候群(Stevens-Johnson syndrome)及毒性表皮溶解症(toxic epidermal necrolysis)之報告。\n9\n過量\nMircera使用過量時的預期表現主要為血紅素濃度過高及（或）快速上升所引發的徵兆與症狀，包括前文所論及的各種心血管事件[參見警語及注意事項（5.1.1）與副作用/不良反應（8.2）]。對Mircera使用過量的病人，應嚴密監視是否出現心血管事件及血液學方面的異常現象。紅血球增多症應視臨床需要以靜脈放血術即時加以控制。在Mircera使用過量所造成的影響解除之後，重新開始使用Mircera治療時應嚴密監視是否出現血紅素濃度快速上升的現象（每14天上升 > 1 g/dl）。對出現過度造血反應的病人，應根據用法及用量（3.1.3）中的建議降低Mircera的劑量。\n10\n藥理特性\n10.1\n作用機轉\nMircera是一種紅血球生成素接受體活化劑，其體內活性較紅血球生成素（erythropoietin）高，半衰期也較長。紅血球生成素（erythropoietin）乃是紅血球發育的主要增生因子，其生成部位為腎臟，並會因組織缺氧的刺激而釋出進入血流。在組織缺氧的刺激之下，紅血球生成素會和紅血球源祖細胞（progenitor cells）發生交互作用，從而提高紅血球的生成量。慢性腎衰竭（CRF）病人其紅血球生成素的製造會減少，而紅血球生成素不足即為貧血症狀的主要導因。\n10.2\n藥效藥理特性\n對慢性腎衰竭病人投予單劑Mircera之後，可於初次投藥7至15天後觀察到血紅素開始上升（定義為較基準值升高 > 0.4 g/dl）的現象[參見用法及用量（3.1.3）]。\n10.3\n臨床前安全性資料\n10.3.1\n致癌性、致突變性、生育力損害、致畸胎性\n致癌性 目前尚未在長期動物研究中評估過Mircera的致癌性。體外試驗顯示，Mircera在紅血球生成素受體陽性細胞株（HepG2與K562）或紅血球生成素受體陰性細胞株（RTI 12）中都不會引發增生反應。此外，在利用一組人類組織所進行的體外試驗中，Mircera的結合作用僅見於骨髓源祖細胞。 致突變性 無資料。 生育力損害 在交配前與交配期間對公鼠及母鼠皮下注射Mircera之後，生殖能力、生育力與精蟲評估參數均未受到影響。 致畸胎性 參見特殊族群注意事項（6.1）。 其他 無資料。\n11\n藥物動力學特性\n針對併有慢性腎衰竭的貧血病人（包括接受透析治療及未接受透析治療的病人）研究Mircera的藥物動力學。根據群體分析的結果，Mircera的藥物動力學並不會因年齡(>18歲)、性別、種族或是否接受透析治療而有所改變。 對正在進行腹膜透析的慢性腎衰竭病人靜脈注射投予0.4微公克/公斤體重的Mircera之後發現，其最終半衰期為134±65小時（平均值±SD），全身總清除率為0.49±0.18 毫升/小時/公斤。對正在進行腹膜透析的慢性腎衰竭病人皮下注射投予0.8微公克/公斤的Mircera之後，其最終半衰期為139±67小時。Mircera皮下注射給藥後72小時（中位數）達到最高血清濃度。Mircera皮下注射給藥後的絕對生體可用率為62%。 曾針對接受多次Mircera給藥的慢性腎衰竭病人研究投予第一劑後及第9週和第19或21週時的藥物動力學。結果顯示，多次給藥對Mircera的清除率、分佈體積或生體可用率皆無任何影響。根據針對各項臨床研究所進行的族群分析，以每四週一次的方式投予Mircera之後，並不會出現蓄積的現象。不過，以每2週一次的方式投予Mircera時，穩定狀態下的血中濃度會升高12%。 一項針對41位病人比較血液透析前後之Mircera血清濃度的研究顯示，血液透析並不會改變本品的血清濃度。 針對健康志願者所進行的研究顯示，皮下注射的部位（腹部、手臂或大腿）並不會對Mircera的藥物動力學表現或藥效學表現造成任何臨床上的重大影響。 小兒族群 在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行了Mircera的藥物動力學研究。在穩定狀態下(第3次Mircera靜脈注射給藥之後)所觀察到的最大暴露量為Cmax: 66.1 ng/mL(幾何平均值)，AUC0-tau: 7170 ng.hr/mL(幾何平均值)。隨後，Mircera血清濃度以表觀平均半衰期(apparent mean half-life)約121至147小時(幾何平均值)下降，與成人相當。\n12\n臨床試驗資料\n成人病人 有六個讓病人隨機接受Mircera或它種ESA治療的開放性多中心臨床試驗，以評估Mircera的療效性與安全性。其中兩個試驗針對原先未使用任何ESA治療的慢性腎衰竭貧血病人進行評估，其餘四個試驗則針對正在使用ESA治療慢性腎衰竭貧血的病人進行評估。在所有的研究中，病人都必須經過評估，確認其在進入試驗前處於臨床穩定狀態，並且沒有感染或發炎的跡象，判定的依據為病史與實驗室檢驗數據，包括C反應蛋白（研究1，CRP ≤ 15 毫克/公升；研究2至6，CRP ≤ 30毫克/公升）。在接受篩檢的病人中，因CRP值高於閾值而被排除的病人比例不超過3%。 在這些臨床試驗中，投予ESAs的目標皆為達到特定的血紅素值（參見表4與表5）。 在血紅素值達到穩定狀態（12 g/dl）之後，Mircera的中位每月劑量為150微公克（範圍為97微公克至270微公克）。 目前未使用任何ESA治療的病人 在試驗1中，未接受透析治療的病人經隨機分組後分別以Mircera或darbepoetin alfa治療28週。Mircera的起始劑量為每兩週一次皮下注射0.6微公克/公斤，darbepoetin alfa的起始劑量則為每週一次皮下注射0.45微公克/公斤。在試驗2中，接受透析治療的病人經隨機分組後分別以Mircera或它種ESA （Epoetin alfa或Epoetin beta）治療24週。Mircera的起始劑量為每兩週一次靜脈注射0.4微公克/公斤，對照藥物的起始劑量則為按照該產品的仿單建議劑量每週靜脈注射三次。在這些試驗中，修正/評估階段期間，每兩週投予一次之Mircera的中位劑量為0.6微公克/公斤。這兩個試驗的結果如表4所示。 表4 針對目前未使用任何ESA治療之病人所進行的臨床試驗 治療組 (n)達到治療目標*的 病人比例（95%CI）相對於基準值的平均 血紅素變化值（g/dl）紅血球輸注（%） 試驗1 Mircera (N=162)98 (94, 99)2.12.5 Darbepoetin alfa (N=162)96 (92, 99)2.06.8 試驗2 Mircera (N=135)93 (88, 97)2.75.2 Epoetin alfa/beta (N=46)91 (79, 98)2.64.3 *治療目標：在未輸注紅血球的情況下，血紅素值至少上升1 g/dl，且至少達到11 g/dl；血紅素值應維持於11至13 g/dl的範圍內。 目前正在使用它種ESA治療的病人 有四個臨床試驗曾針對目前正在使用其它ESAs治療的病人評估Mircera維持血紅素濃度的能力。病人經隨機分組後分別接受每兩週投藥一次或每四週投藥一次之Mircera的治療，或是不改變劑量與療程繼續接受目前所使用之ESA的治療。Mircera的起始劑量係取決於病人之前所使用的ESA週劑量。如表5所示，以每兩週投藥一次或每四週投藥一次的Mircera進行治療可使血紅素濃度維持於目標血紅素值的範圍之內（10至13.5 g/dl）。 表5 針對正在使用它種ESA治療之病人所進行的臨床試驗 治療組 (n)平均血紅素基準值評估期間的 血紅素值（平均值）治療組間的差異*，g/dl （95%或97.5% CI） 試驗3 Mircera每2週靜脈注射一次 （n=223）12.011.90.0 （-0.2, 0.2） Mircera每4週靜脈注射一次 （n=224）11.911.90.1 （-0.2, 0.3） Epoetin alfa/beta 靜脈注射 （n=226）12.011.9n/a 試驗4 Mircera每2週皮下注射一次 （n=190）11.711.70.1 （-0.1, 0.4） Mircera每4週皮下注射一次 （n=191）11.611.5-0.0 （-0.3, 0.2） Epoetin alfa/beta 皮下注射 （n=191）11.611.5n/a 試驗5 Mircera每2週靜脈注射一次 （n=157）12.012.10.2 （-0.0, 0.4） Darbepoetin alfa 靜脈注射 （n=156）11.911.8n/a 試驗6 Mircera每2週靜脈/皮下注射一次 （n=68）11.811.90.1 （-0.1, 0.4） Epoetin alfa/beta 靜脈/皮下注射 （n=168）11.911.80.1 （-0.1, 0.4） *Mircera與對照藥物在評估期間的平均血紅素差異值；97.5% CI是針對兩個Mircera組和它種ESA相比較的試驗（試驗3與4），而95% CI則是針對其它試驗。 n/a =不適用 小兒病人 一項第二期劑量測試、開放性、多劑量、多中心試驗，在64名接受血液透析的慢性腎衰竭小兒病人(5-17歲)進行，以確定自其他ESA(epoetin alfa/beta或darbepoetin alfa)維持療法轉換成Mircera靜脈注射時之有效起始劑量。本試驗已達到主要療效指標[基期和評估期間血紅素濃度(g/dl)的變化]。總體而言，所觀察到的不良事件與成人的安全性資料一致。\n13\n包裝及儲存\n13.1\n包裝\nMircera為單次使用預先充填針筒裝。預先充填針筒裝並附有一支27號1/2吋的針頭。為降低意外被針頭刺傷的風險，每支預先充填針筒上都裝有一個針頭護套，在處理針筒時，此護套可將針頭包覆其中。 Mircera的現有包裝規格如下： 30微公克/ 0.3毫升針筒裝 1 50微公克/ 0.3毫升針筒裝1 75微公克/ 0.3毫升針筒裝1 100微公克/ 0.3毫升針筒裝1 120微公克/ 0.3毫升針筒裝1\n13.2\n效期\n請檢視每一支預先充填針筒的有效日期。切勿使用已超過有效期限的Mircera。\n13.3\n儲存條件\n建議貯存溫度為2°至8°C （36°F至46°F）。\n13.4\n儲存注意事項\n切勿冷凍或振搖。請避免光照。 必要時，預先充填針筒裝亦可存放於超過建議溫度（2°C至8°C）的溫度下，但最高不可超過25°C （77°F），且不可超過30天。\n14\n病人使用須知\n以下說明將解釋如何使用Mircera針筒裝注射劑對自己或他人進行注射。 請務必仔細閱讀並遵照這些說明，以便您能夠正確和安全地使用預先充填針筒。 在您確定了解如何使用預先充填針筒前，請勿嘗試進行注射，如有疑問，請聯繫醫療照護人員。 因為可能與您以往的使用經驗不同，請始終遵照此使用須知中的所有指示。這些說明將預防不正確的治療或風險，如針刺傷或過早啟動針頭安全裝置，或與針頭安裝相關的問題。 重要資訊 您的處方為此藥物時，才能使用Mircera針筒裝注射劑。 請閱讀包裝上的資訊，並確保您有醫療照護人員開立的劑量。 若針筒、外盒或塑膠包裝出現損壞，請勿使用Mircera。 針頭易碎，請小心操作。 請勿觸摸保護啟動裝置(見圖A)，否則可能會損壞針筒，導致其無法使用。 若針筒內容物呈現渾濁、霧狀或含有顆粒，請勿使用。 切勿試圖將針筒拆開。 切勿用針筒的推桿來操作或拉動針筒。 請勿取下針頭套，直到您準備進行注射。 請勿吞服針筒內的藥物。 請勿穿過衣物進行注射。 切勿重複使用或重複消毒針筒或針頭。 請將注射器、針頭及配件放置於孩童無法取得之處。 儲存 請將預先充填針筒、針頭和防穿刺/尖銳物品保存盒放置於孩童無法取得之處。 將針筒及針頭儲存於原始包裝中，直到準備使用。 請務必將針筒及針頭儲存在溫度為2 - 8°C的冰箱中。 請勿冷凍藥物，並避免藥物及針頭受到光照。請保持針筒及針頭乾燥。 包裝內包含的材料(圖A)： 含Mircera之預先充填針筒 注射針頭\n圖A 包裝內未包含的材料(圖B)：\n圖B 請在一個乾淨、光線充足的平面(如桌子)上組裝注射所需的所有用品。 如何進行注射 步驟1：讓針筒調整至室溫 請從冰箱小心取出裝有Mircera針筒裝注射劑的盒子。將針筒及針頭放置在盒內，避免陽光照射，並使其回溫至室溫至少30分鐘(圖C)。 若藥物未達到室溫可能會導致注射不舒服，而且可能難以按壓推桿。 請勿以任何其他方式讓針筒回溫。\n圖C 打開盒子，並取出含有Mircera針筒裝注射劑的塑膠包裝，先不撕除保護膜(圖D)。\n圖D 步驟2：清潔您的雙手 請用肥皂和溫水或乾洗手劑徹底消毒雙手(圖E)。\n圖E 步驟3：拆開包裝並目視檢查預先充填針筒 將塑膠包裝上的保護膜撕下，並取出包裝好的針頭和針筒，在不接觸保護啟動裝置的情況下，手握針筒筒身的中段(圖F)。 只能握取針筒筒身的位置，因為只要接觸到保護啟動裝置，都可能導致安全裝置過早釋放。\n圖F 檢查針筒是否損壞，並檢查針筒和盒上的有效期限。此步驟十分重要，能確保針筒和藥物的使用安全(圖G)。 以下情況請勿使用針筒： 針筒不小心掉落地上。 針筒的任何部分出現損壞。 內容物渾濁、霧狀或含有顆粒。 如果呈現出無色至淡黃色以外之其它顏色。 已過有效期限。\n圖G 步驟4：將針頭安裝到針筒上 握牢針筒筒身中段，緊握橡膠頂蓋，將橡膠頂蓋從針筒上取下(彎並拉)(圖H)。 一旦移除，請立即將橡膠頂蓋丟棄至尖銳物品/防穿刺保存盒中。 請勿觸摸保護啟動裝置。 請勿推推桿。 請勿拉推桿。\n圖H 雙手握緊包裝好的針頭並檢查包裝內的針頭是否損壞。使用扭轉動作解開針頭的封口，並取下蓋子(圖I)。 請立即將蓋子丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒。 請勿取下保護針的針頭套。 以下情況請勿使用針頭： 針頭不小心掉落地上。 針頭的任何部分出現損壞。\n圖I 將針頭直接緊推到針筒，並稍微扭轉或旋轉針頭，使針頭固定在針筒上(圖J)。\n圖J 步驟5：取下針頭套，準備注射 用一隻手抓牢針筒筒身中段，另一隻手將針頭套直接拉離。將針頭套丟棄至尖銳物品/防穿刺保存盒或尖銳物品保存盒中(圖K)。 一旦取下針頭套，請勿觸摸針頭或讓其接觸到任何表面，因針頭可能會受到污染，且觸碰後可能導致受傷和疼痛。 你可能會在針頭末端看到一滴液體。這是正常的。 取下針頭套後，切勿再蓋上。\n圖K 請手持針筒，將針頭朝上，以去除預先充填針筒中的氣泡。 輕敲針筒，將氣泡移至頂部(圖L和M)。\n圖L 如同醫療照護人員向您展示的方法，緩緩推入推桿，將所有空氣排出。(圖M)。\n圖M 步驟6：進行注射 有兩種不同的方法(投予途徑)將Mircera注射至您體內。請遵照醫療照護人員關於該如何注射Mircera的建議。 皮下注射途徑： 若建議您以皮下注射Mircera，請按照下面的說明用藥。 挑選一個建議的注射部位，如圖所示。 您可以於上臂、大腿或腹部注射，但肚臍周圍區域除外(圖N)。 不建議自行於上臂後部進行注射。只有在幫他人注射時才可使用此注射部位。 在選擇注射部位時： 每次進行注射時，應使用不同的注射部位，且應需距離上次注射區域至少3公分。 請勿注射到可能會被皮帶或腰帶刺激到的區域。 請勿將藥物注射到痣、疤痕、瘀傷或皮膚敏感、發紅、堅硬或不完整的區域。\n圖N 使用酒精棉片清潔選定的注射部位，以降低感染風險；仔細按照酒精棉片的說明(圖O)。 讓皮膚乾燥約10秒鐘。 注射前切勿觸摸清潔區域，且不要對清潔的區域搧風或吹氣。 立即丟棄酒精棉片。\n圖O 進行Mircera注射前，請採取一個舒適的姿勢。 為確保針頭能正確插入皮下，請用未持針的手在乾淨的注射部位捏起注射部位的皮膚。捏起皮膚非常重要，能確保您注射至皮膚下(至脂肪組織)，而不是更深的區域(至肌肉)。注射到肌肉可能會導致注射不舒服(圖P)。 請小心地將針頭以90°的角度，如投擲「飛鏢」的動作，快速地將針完全插入皮膚。接著保持針筒的位置，並鬆開捏起的皮膚。 插入皮膚時請勿移動針頭。\n圖P 針頭完全插入皮膚後，請用拇指緩慢推推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢。推桿柱應可完全向下推(壓下)，且可聽到卡嗒聲，表示啟動針頭保護裝置(圖Q)。\n圖Q 請勿於注射結束前或推桿完全壓下前放開推桿。 在不鬆開推桿的情況下將針頭取出皮膚(圖R)。\n圖R 放開推桿，讓針頭保護裝置保護針頭(圖S)。\n圖S 此時如有需要，可撕下撕除標籤(圖T)。\n圖T 注射後： 將無菌棉球或紗布置於注射部位並按壓幾秒鐘。使用完畢後，立即丟棄棉球或紗布。 請勿用髒手或布擦拭注射部位。 如有需要，您可使用小繃帶覆蓋注射部位。 丟棄使用後的針筒及針頭： 將用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。 請丟棄整個防尖銳物品/穿刺的保存盒。 請勿試圖更換針頭上的針頭套。 請勿將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。 請勿重複使用或重新消毒針筒及針頭。 靜脈注射途徑： 若您的醫療照護人員建議將Mircera注射至靜脈中，您應遵照以下程序。 依照步驟1 - 5準備好針筒後： 請按照供應商或製造商的指示，使用酒精拭子清潔血液透析管的靜脈輸注口。請立即丟棄使用後的酒精拭子。 將預先充填針筒針頭插入清潔乾淨的靜脈輸注口(圖U)。 請勿觸碰靜脈輸注口的注射部位。\n圖U 請以拇指推動推桿，同時用食指和中指抵住手指握把以持住針筒，直到所有藥物注射完畢(圖V)。 請將預先充填針筒從靜脈輸注口取下，並請勿放開推桿。 一旦取下針筒，請放開推桿，讓針頭保護裝置保護針頭。 此時如有需要，可撕下撕除標籤(見圖T)。\n圖V 步驟7：丟棄使用後的針筒及針頭 請將使用過的針筒丟棄至防尖銳物品/穿刺的保存盒中。 請丟棄整個防尖銳物品/穿刺的保存盒。 請勿試圖更換針頭上的針頭套。 請勿將使用過的針頭及針筒丟棄在家庭垃圾中，並依據衛生主管機構政策，丟棄至防尖銳物品/穿刺的保存盒中。 請勿重複使用或重新消毒針筒及針頭。\n15\n其他\nCDS13.0_02.24-MIR-3B01 2023年10月 預充針筒裝： 美血樂針筒裝注射劑30微公克/0.3毫升 衛署菌疫輸字第000887號 美血樂針筒裝注射劑50微公克/0.3毫升 衛署菌疫輸字第000868號 美血樂針筒裝注射劑75微公克/0.3毫升 衛署菌疫輸字第000867號 美血樂針筒裝注射劑100微公克/0.3毫升 衛署菌疫輸字第000869號 美血樂針筒裝注射劑120微公克/0.3毫升 衛署菌疫輸字第000888號 “MIRCERA”與 “美血樂”註冊商標係由瑞士商赫夫門羅氏藥廠股份有限公司授權羅氏大藥廠股份有限公司使用。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "F. HOFFMANN-LA ROCHE LTD.",
+          "address": "WURMISWEG, CH-4303 KAISERAUGST, SWITZERLAND"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "ROCHE DIAGNOSTICS GMBH",
+          "address": "NONNENWALD 2, D-82377 PENZBERG, GERMANY"
+        },
+        {
+          "number": "2",
+          "name": "ROCHE DIAGNOSTICS GMBH",
+          "address": "SANDHOFER STRASSE 116, 68305 MANNHEIM, GERMANY"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "羅氏大藥廠股份有限公司",
+          "address": "臺北市南港區經貿一路170號10樓、10樓之1至之3、10樓之5至之8"
+        }
+      ]
+    }
+  ]
+}

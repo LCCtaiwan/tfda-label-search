@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:44.035029+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000823",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000823號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000823號",
+      "matched_license_code": "10000823",
+      "matched_nhi_code": "",
+      "drug_name_zh": "諾和瑞 諾易筆",
+      "drug_name_en": "NovoRapid FlexPen",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-11-11",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "1 ml 溶液中含有100 U Insulin aspart*(相當於3.5 mg)。 一個預填式注射筆含有3 ml，相當於300 U。 *Insulin aspart在Saccharomyces cerevisiae菌種中經重組DNA技術製成。",
+          "content_html": "<p style=\"margin-left:18.0pt;\">1 ml&nbsp;<span style=\"font-family:標楷體;\">溶液中含有</span>100 U Insulin aspart*(<span style=\"font-family:標楷體;\">相當於</span>3.5 mg)<span style=\"font-family:標楷體;\">。</span>&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">一個預填式注射筆含有</span>3 ml<span style=\"font-family:標楷體;\">，相當於</span>300 U<span style=\"font-family:標楷體;\">。</span></p><p>*Insulin aspart<span style=\"font-family:標楷體;\">在</span><i class=\"active\">Saccharomyces cerevisiae</i><span style=\"font-family:標楷體;\">菌種中經重組</span>DNA<span style=\"font-family:標楷體;\">技術製成。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n1 ml 溶液中含有100 U Insulin aspart*(相當於3.5 mg)。 一個預填式注射筆含有3 ml，相當於300 U。 *Insulin aspart在Saccharomyces cerevisiae菌種中經重組DNA技術製成。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Glycerol, phenol, metacresol, zinc chloride, disodium phosphate dihydrate, sodium chloride, hydrochloric acid/sodium hydroxide (for pH adjustment) and water for injections.",
+          "content_html": "<p style=\"margin-left:18.0pt;\">Glycerol, phenol, metacresol, zinc chloride, disodium phosphate dihydrate, sodium chloride, hydrochloric acid/sodium hydroxide (for pH adjustment) and water for injections.</p>",
+          "search_text": "1.2\n賦形劑\nGlycerol, phenol, metacresol, zinc chloride, disodium phosphate dihydrate, sodium chloride, hydrochloric acid/sodium hydroxide (for pH adjustment) and water for injections.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "預填式注射筆內之注射液是澄清無色的水溶液。FlexPen®。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">預填式注射筆內之注射液是澄清無色的水溶液。</span>FlexPen<sup>®</sup><span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "1.3\n劑型\n預填式注射筆內之注射液是澄清無色的水溶液。FlexPen®。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "裝載於預填式注射筆的100 U/ml注射用溶液。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">裝載於預填式注射筆的</span>100 U/ml<span style=\"font-family:標楷體;\">注射用溶液。</span></p>",
+          "search_text": "1.4\n藥品外觀\n裝載於預填式注射筆的100 U/ml注射用溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "糖尿病。 治療患有糖尿病之成人、青少年及1歲以上之孩童。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">糖尿病。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">治療患有糖尿病之成人、青少年及</span>1<span style=\"font-family:標楷體;\">歲以上之孩童。</span></p>",
+          "search_text": "2\n適應症\n糖尿病。 治療患有糖尿病之成人、青少年及1歲以上之孩童。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "劑量 NovoRapid®是一種速效型胰島素類似物。NovoRapid®的劑量是按照個別情況與病人的需要而決定。其常與中效型或長效型胰島素併用治療，至少一天一次。建議進行血糖監控與胰島素劑量調整以達到最佳的血糖控制。 根據病人個別需要，成人與孩童的胰島素需求量通常為0.5至1.0 U/kg/day。此需求量的50%至70%可於basal-bolus療法中由NovoRapid®提供，其餘的量可由中效型或長效型胰島素提供。當病人的體能活動增加，改變平常的飲食或伴隨其他疾病時，可能需調整劑量。 與可溶性人類胰島素相比，NovoRapid®起始作用較快，作用時間較短。 由於起始作用時間較快，NovoRapid®應在餐前立即投予。需要時，NovoRapid®可在餐後立即投予。 由於作用時間較短，NovoRapid®發生夜間低血糖事件的風險較低。 投予方式 NovoRapid®以皮下注射方式注射在腹壁、大腿、上臂、三角肌或臀部。相同部位的注射點必須一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(請參閱警語及注意事項)的風險。與所有胰島素相同，相較於其他注射部位，腹壁皮下部位注射可確保較快的吸收速度。 作用時間會因劑量、注射部位、血流、體溫及體能活動程度的不同而有所改變。然而無論注射部位為何，其開始作用時間仍比可溶性人類胰島素較快。 NovoRapid® FlexPen®為預填式注射筆。是為了搭配長達8 mm的NovoFine®或NovoTwist®拋棄式針頭所設計的。 NovoRapid® FlexPen®具色彩識別編碼，並附有詳細使用說明之仿單供參閱。 連續皮下胰島素輸注(CSII) : NovoRapid®可使用適合胰島素輸注的幫浦系統進行連續皮下胰島素輸注(Continuous Subcutaneous Insulin Infusion - CSII)。CSII應採腹壁注射。注射處必須輪替。 在使用胰島素輸注幫浦時，NovoRapid®絕對不可與其他種類胰島素產品混合使用。 使用CSII的病人應接受詳細的指導如何使用幫浦及使用正確的容器及輸注管。輸注設備(輸注管和插管)應依據所附產品資料的指示更換。 使用CSII注射NovoRapid®的病人必須確保有其他的胰島素給藥方法，以備當輸注幫浦損壞時使用。 靜脈注射使用: 如果必要，NovoRapid®可由醫生或其他醫護人員執行靜脈內注射。 使用靜脈注射時，使用polypropylene輸注袋，並且以0.9% sodium chloride或含有40 mmol/l potassium chloride 之5%或10% dextrose為輸注溶液配製濃度0.05 U/ml到1.0 U/ml的NovoRapid® 100 U/ml之輸注系統，在室溫下可維持安定達24小時。 雖然隨著時間能保持穩定，但有少量的胰島素在一開始會被輸注袋所吸收。在輸注過程中，血糖的監控是必需的。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>劑量</strong></span></p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">是一種速效型胰島素類似物。</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">的劑量是按照個別情況與病人的需要而決定。其常與中效型或長效型胰島素併用治療，至少一天一次。建議進行血糖監控與胰島素劑量調整以達到最佳的血糖控制。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">根據病人個別需要，成人與孩童的胰島素需求量通常為</span>0.5<span style=\"font-family:標楷體;\">至</span>1.0 U/kg/day<span style=\"font-family:標楷體;\">。此需求量的</span>50%<span style=\"font-family:標楷體;\">至</span>70%<span style=\"font-family:標楷體;\">可於</span>basal-bolus<span style=\"font-family:標楷體;\">療法中由</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">提供，其餘的量可由中效型或長效型胰島素提供。當病人的體能活動增加，改變平常的飲食或伴隨其他疾病時，可能需調整劑量。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">與可溶性人類胰島素相比，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">起始作用較快，作用時間較短。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">由於起始作用時間較快，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">應在餐前立即投予。需要時，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">可在餐後立即投予。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">由於作用時間較短，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">發生夜間低血糖事件的風險較低。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>投予方式</strong></span><strong>&nbsp;</strong></p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">以皮下注射方式注射在腹壁、大腿、上臂、三角肌或臀部。相同部位的注射點必須一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症</span>(<span style=\"font-family:標楷體;\">請參閱<i class=\"active\">警語及注意事項</i></span>)<span style=\"font-family:標楷體;\">的風險。與所有胰島素相同，相較於其他注射部位，腹壁皮下部位注射可確保較快的吸收速度。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">作用時間會因劑量、注射部位、血流、體溫及體能活動程度的不同而有所改變。然而無論注射部位為何，其開始作用時間仍比可溶性人類胰島素較快。</span></p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup> FlexPen<sup>®</sup><span style=\"font-family:標楷體;\">為預填式注射筆。是為了搭配長達</span>8 mm<span style=\"font-family:標楷體;\">的</span>NovoFine<sup>®</sup><span style=\"font-family:標楷體;\">或</span>NovoTwist<sup>®</sup><span style=\"font-family:標楷體;\">拋棄式針頭所設計的。</span></p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup> FlexPen<sup>®</sup><span style=\"font-family:標楷體;\">具色彩識別編碼，並附有詳細使用說明之仿單供參閱。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><u>連續皮下胰島素輸注</u></span><u>(CSII) :</u></p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">可使用適合胰島素輸注的幫浦系統進行連續皮下胰島素輸注</span>(Continuous Subcutaneous Insulin Infusion - CSII)<span style=\"font-family:標楷體;\">。</span>CSII<span style=\"font-family:標楷體;\">應採腹壁注射。注射處必須輪替。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在使用胰島素輸注幫浦時，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">絕對不可與其他種類胰島素產品混合使用。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">使用</span>CSII<span style=\"font-family:標楷體;\">的病人應接受詳細的指導如何使用幫浦及使用正確的容器及輸注管。輸注設備</span>(<span style=\"font-family:標楷體;\">輸注管和插管</span>)<span style=\"font-family:標楷體;\">應依據所附產品資料的指示更換。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">使用</span>CSII<span style=\"font-family:標楷體;\">注射</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">的病人必須確保有其他的胰島素給藥方法，以備當輸注幫浦損壞時使用。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><u>靜脈注射使用</u></span>:</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">如果必要，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">可由醫生或其他醫護人員執行靜脈內注射。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">使用靜脈注射時，使用</span>polypropylene<span style=\"font-family:標楷體;\">輸注袋，並且以</span>0.9% sodium chloride<span style=\"font-family:標楷體;\">或含有</span>40 mmol/l potassium chloride&nbsp;<span style=\"font-family:標楷體;\">之</span>5%<span style=\"font-family:標楷體;\">或</span>10% dextrose<span style=\"font-family:標楷體;\">為輸注溶液配製濃度</span>0.05 U/ml<span style=\"font-family:標楷體;\">到</span>1.0 U/ml<span style=\"font-family:標楷體;\">的</span>NovoRapid<sup>®</sup> 100 U/ml<span style=\"font-family:標楷體;\">之輸注系統，在室溫下可維持安定達</span>24<span style=\"font-family:標楷體;\">小時。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">雖然隨著時間能保持穩定，但有少量的胰島素在一開始會被輸注袋所吸收。在輸注過程中，血糖的監控是必需的。</span></p>",
+          "search_text": "3.1\n用法用量\n劑量 NovoRapid®是一種速效型胰島素類似物。NovoRapid®的劑量是按照個別情況與病人的需要而決定。其常與中效型或長效型胰島素併用治療，至少一天一次。建議進行血糖監控與胰島素劑量調整以達到最佳的血糖控制。 根據病人個別需要，成人與孩童的胰島素需求量通常為0.5至1.0 U/kg/day。此需求量的50%至70%可於basal-bolus療法中由NovoRapid®提供，其餘的量可由中效型或長效型胰島素提供。當病人的體能活動增加，改變平常的飲食或伴隨其他疾病時，可能需調整劑量。 與可溶性人類胰島素相比，NovoRapid®起始作用較快，作用時間較短。 由於起始作用時間較快，NovoRapid®應在餐前立即投予。需要時，NovoRapid®可在餐後立即投予。 由於作用時間較短，NovoRapid®發生夜間低血糖事件的風險較低。 投予方式 NovoRapid®以皮下注射方式注射在腹壁、大腿、上臂、三角肌或臀部。相同部位的注射點必須一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(請參閱警語及注意事項)的風險。與所有胰島素相同，相較於其他注射部位，腹壁皮下部位注射可確保較快的吸收速度。 作用時間會因劑量、注射部位、血流、體溫及體能活動程度的不同而有所改變。然而無論注射部位為何，其開始作用時間仍比可溶性人類胰島素較快。 NovoRapid® FlexPen®為預填式注射筆。是為了搭配長達8 mm的NovoFine®或NovoTwist®拋棄式針頭所設計的。 NovoRapid® FlexPen®具色彩識別編碼，並附有詳細使用說明之仿單供參閱。 連續皮下胰島素輸注(CSII) : NovoRapid®可使用適合胰島素輸注的幫浦系統進行連續皮下胰島素輸注(Continuous Subcutaneous Insulin Infusion - CSII)。CSII應採腹壁注射。注射處必須輪替。 在使用胰島素輸注幫浦時，NovoRapid®絕對不可與其他種類胰島素產品混合使用。 使用CSII的病人應接受詳細的指導如何使用幫浦及使用正確的容器及輸注管。輸注設備(輸注管和插管)應依據所附產品資料的指示更換。 使用CSII注射NovoRapid®的病人必須確保有其他的胰島素給藥方法，以備當輸注幫浦損壞時使用。 靜脈注射使用: 如果必要，NovoRapid®可由醫生或其他醫護人員執行靜脈內注射。 使用靜脈注射時，使用polypropylene輸注袋，並且以0.9% sodium chloride或含有40 mmol/l potassium chloride 之5%或10% dextrose為輸注溶液配製濃度0.05 U/ml到1.0 U/ml的NovoRapid® 100 U/ml之輸注系統，在室溫下可維持安定達24小時。 雖然隨著時間能保持穩定，但有少量的胰島素在一開始會被輸注袋所吸收。在輸注過程中，血糖的監控是必需的。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "不相容性 有些物質加入NovoRapid®後會造成insulin aspart分解。 此產品絕不可與其他產品互相稀釋或混合。劑量章節所提到的輸注液則例外。 3.3 特殊族群用法用量 如同所有的胰島素製品，針對老年病人與患有腎臟、肝臟功能不全者，應加強血糖監控，並依據個人狀況調整insulin aspart劑量。 兒科族群 當快速起始作用對1歲以上孩童和青少年有益時，比起可溶性人類胰島素，更可優先考慮NovoRapid®。例如考量到用餐時注射的時間點。目前並無數據佐證NovoRapid®對於1歲以下孩童的安全性和有效性。 由其他胰島素製品轉換成NovoRapid® 當自其他胰島素製品轉換而來時，NovoRapid®與基礎胰島素的劑量調整可能是需要的。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>不相容性</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">有些物質加入</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">後會造成</span>insulin aspart<span style=\"font-family:標楷體;\">分解。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">此產品絕不可與其他產品互相稀釋或混合。<i class=\"active\">劑量</i>章節所提到的輸注液則例外。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\">3.3&nbsp;<span style=\"font-family:標楷體;\">特殊族群用法用量</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">如同所有的胰島素製品，針對老年病人與患有腎臟、肝臟功能不全者，應加強血糖監控，並依據個人狀況調整</span>insulin aspart<span style=\"font-family:標楷體;\">劑量。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>兒科族群</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">當快速起始作用對</span>1<span style=\"font-family:標楷體;\">歲以上孩童和青少年有益時，比起可溶性人類胰島素，更可優先考慮</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">。例如考量到用餐時注射的時間點。目前並無數據佐證</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">對於</span>1<span style=\"font-family:標楷體;\">歲以下孩童的安全性和有效性。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>由其他胰島素製品轉換成</strong></span><strong>NovoRapid<sup>®</sup></strong></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">當自其他胰島素製品轉換而來時，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">與基礎胰島素的劑量調整可能是需要的。</span></p>",
+          "search_text": "3.2\n調製方式\n不相容性 有些物質加入NovoRapid®後會造成insulin aspart分解。 此產品絕不可與其他產品互相稀釋或混合。劑量章節所提到的輸注液則例外。 3.3 特殊族群用法用量 如同所有的胰島素製品，針對老年病人與患有腎臟、肝臟功能不全者，應加強血糖監控，並依據個人狀況調整insulin aspart劑量。 兒科族群 當快速起始作用對1歲以上孩童和青少年有益時，比起可溶性人類胰島素，更可優先考慮NovoRapid®。例如考量到用餐時注射的時間點。目前並無數據佐證NovoRapid®對於1歲以下孩童的安全性和有效性。 由其他胰島素製品轉換成NovoRapid® 當自其他胰島素製品轉換而來時，NovoRapid®與基礎胰島素的劑量調整可能是需要的。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對主成分或其中任何賦形劑過敏者。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">對主成分或其中任何賦形劑過敏者。</span></p>",
+          "search_text": "4\n禁忌\n對主成分或其中任何賦形劑過敏者。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "去不同時區旅行前，病人應尋求醫師之建議，因為這可能表示病人需要於不同時間點施打胰島素與進食。 高血糖症 使用不適當的劑量或中斷治療，特別是第1型糖尿病病人，可能會導致高血糖症與糖尿病性酮酸中毒。 低血糖症 誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖症。 特別是孩童，須注意使用的胰島素劑量(特別是基礎-餐前胰島素組合)符合進食、體能活動以及當下血糖值，使低血糖症的風險降至最低。 如果胰島素劑量高於需求量，有可能發生低血糖症。 血糖控制情形大幅改善的病人，例如：藉由密集的胰島素治療，其發生低血糖時的警告症狀可能產生改變，因此應該接受相關指導。長期患有糖尿病之病人，其一般警告症狀可能會消失。 與可溶性人類胰島素相比，速效型胰島素類似物的藥效可能會使得注射後發生低血糖的時間較快。 NovoRapid®應於即將用餐前施打。由於此藥的起始作用迅速，因此病人併存他種疾病或併用其他藥物治療時，應注意可能發生的延遲食物吸收情況。 併存他種疾病，尤其是感染或處於發燒狀態，經常會增加病人胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。 當病人轉換不同類型的胰島素時，其發生低血糖時的早期警告症狀可能比使用原來的胰島素時感覺較不明顯。 轉換自其他胰島素產品 在病人轉換成其他類型或廠牌(例如藥效或製造商)的胰島素時，必須有嚴密的醫療監控，並且相對於原先使用的胰島素，可能需要改變劑量或每天的投予次數。假如劑量需要調整，可能會發生在第一個投予劑量或在前幾週或前幾個月。 注射部位不良反應 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢。在同一部位的注射點不停地輪替可以降低發生不良反應的風險。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用NovoRapid®。 皮膚和皮下組織異常 務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症的風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收，血糖控制惡化。曾有報告顯示，突然改變注射區域，注射在未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。 併用thiazolidinediones及胰島素製劑 在thiazolidinediones與insulin併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的病人，故在考慮併用thiazolidinediones與insulin來治療時，應特別注意。在給予併用療法時，應觀察病人鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用thiazolidinediones。 避免出現意外地混合或用藥錯誤 病人必須被告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生NovoRapid®和其他胰島素產品混合的事件。 胰島素抗體 使用胰島素可能有抗體形成。在罕見的胰島素抗體形成案例中，可能需要調整劑量以避免高血糖或低血糖發生。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">去不同時區旅行前，病人應尋求醫師之建議，因為這可能表示病人需要於不同時間點施打胰島素與進食。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>高血糖症</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">使用不適當的劑量或中斷治療，特別是第</span>1<span style=\"font-family:標楷體;\">型糖尿病病人，可能會導致高血糖症與糖尿病性酮酸中毒。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>低血糖症</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖症。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">特別是孩童，須注意使用的胰島素劑量</span>(<span style=\"font-family:標楷體;\">特別是基礎</span>-<span style=\"font-family:標楷體;\">餐前胰島素組合</span>)<span style=\"font-family:標楷體;\">符合進食、體能活動以及當下血糖值，使低血糖症的風險降至最低。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">如果胰島素劑量高於需求量，有可能發生低血糖症。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">血糖控制情形大幅改善的病人，例如：藉由密集的胰島素治療，其發生低血糖時的警告症狀可能產生改變，因此應該接受相關指導。長期患有糖尿病之病人，其一般警告症狀可能會消失。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">與可溶性人類胰島素相比，速效型胰島素類似物的藥效可能會使得注射後發生低血糖的時間較快。</span></p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">應於即將用餐前施打。由於此藥的起始作用迅速，因此病人併存他種疾病或併用其他藥物治療時，應注意可能發生的延遲食物吸收情況。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">併存他種疾病，尤其是感染或處於發燒狀態，經常會增加病人胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">當病人轉換不同類型的胰島素時，其發生低血糖時的早期警告症狀可能比使用原來的胰島素時感覺較不明顯。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>轉換自其他胰島素產品</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在病人轉換成其他類型或廠牌</span>(<span style=\"font-family:標楷體;\">例如藥效或製造商</span>)<span style=\"font-family:標楷體;\">的胰島素時，必須有嚴密的醫療監控，並且相對於原先使用的胰島素，可能需要改變劑量或每天的投予次數。假如劑量需要調整，可能會發生在第一個投予劑量或在前幾週或前幾個月。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>注射部位不良反應</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢。在同一部位的注射點不停地輪替可以降低發生不良反應的風險。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>皮膚和皮下組織異常</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症的風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收，血糖控制惡化。曾有報告顯示，突然改變注射區域，注射在未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>併用</strong></span><strong>thiazolidinediones</strong><span style=\"font-family:標楷體;\"><strong>及胰島素製劑</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在</span>thiazolidinediones<span style=\"font-family:標楷體;\">與</span>insulin<span style=\"font-family:標楷體;\">併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的病人，故在考慮併用</span>thiazolidinediones<span style=\"font-family:標楷體;\">與</span>insulin<span style=\"font-family:標楷體;\">來治療時，應特別注意。在給予併用療法時，應觀察病人鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用</span>thiazolidinediones<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>避免出現意外地混合或用藥錯誤</strong></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">病人必須被告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">和其他胰島素產品混合的事件。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><strong>胰島素抗體</strong></span></p><p><span style=\"font-family:標楷體;\">使用胰島素可能有抗體形成。在罕見的胰島素抗體形成案例中，可能需要調整劑量以避免高血糖或低血糖發生。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n去不同時區旅行前，病人應尋求醫師之建議，因為這可能表示病人需要於不同時間點施打胰島素與進食。 高血糖症 使用不適當的劑量或中斷治療，特別是第1型糖尿病病人，可能會導致高血糖症與糖尿病性酮酸中毒。 低血糖症 誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖症。 特別是孩童，須注意使用的胰島素劑量(特別是基礎-餐前胰島素組合)符合進食、體能活動以及當下血糖值，使低血糖症的風險降至最低。 如果胰島素劑量高於需求量，有可能發生低血糖症。 血糖控制情形大幅改善的病人，例如：藉由密集的胰島素治療，其發生低血糖時的警告症狀可能產生改變，因此應該接受相關指導。長期患有糖尿病之病人，其一般警告症狀可能會消失。 與可溶性人類胰島素相比，速效型胰島素類似物的藥效可能會使得注射後發生低血糖的時間較快。 NovoRapid®應於即將用餐前施打。由於此藥的起始作用迅速，因此病人併存他種疾病或併用其他藥物治療時，應注意可能發生的延遲食物吸收情況。 併存他種疾病，尤其是感染或處於發燒狀態，經常會增加病人胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。 當病人轉換不同類型的胰島素時，其發生低血糖時的早期警告症狀可能比使用原來的胰島素時感覺較不明顯。 轉換自其他胰島素產品 在病人轉換成其他類型或廠牌(例如藥效或製造商)的胰島素時，必須有嚴密的醫療監控，並且相對於原先使用的胰島素，可能需要改變劑量或每天的投予次數。假如劑量需要調整，可能會發生在第一個投予劑量或在前幾週或前幾個月。 注射部位不良反應 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢。在同一部位的注射點不停地輪替可以降低發生不良反應的風險。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用NovoRapid®。 皮膚和皮下組織異常 務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症的風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收，血糖控制惡化。曾有報告顯示，突然改變注射區域，注射在未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。 併用thiazolidinediones及胰島素製劑 在thiazolidinediones與insulin併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的病人，故在考慮併用thiazolidinediones與insulin來治療時，應特別注意。在給予併用療法時，應觀察病人鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用thiazolidinediones。 避免出現意外地混合或用藥錯誤 病人必須被告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生NovoRapid®和其他胰島素產品混合的事件。 胰島素抗體 使用胰島素可能有抗體形成。在罕見的胰島素抗體形成案例中，可能需要調整劑量以避免高血糖或低血糖發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "病人可能因低血糖而注意力無法集中或反應較慢。在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。 應建議病人採取預防措施以避免駕車時發生低血糖。特別是對低血糖警告症狀較無或缺乏自覺，或常發生低血糖症的病人更是特別重要。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">病人可能因低血糖而注意力無法集中或反應較慢。在此狀況下從事極需注意力與反應力的活動時，</span>(<span style=\"font-family:標楷體;\">例如：駕車或操作機械</span>)<span style=\"font-family:標楷體;\">可能會有風險。</span></p><p><span style=\"font-family:標楷體;\">應建議病人採取預防措施以避免駕車時發生低血糖。特別是對低血糖警告症狀較無或缺乏自覺，或常發生低血糖症的病人更是特別重要。</span></p>",
+          "search_text": "5.3\n操作機械能力\n病人可能因低血糖而注意力無法集中或反應較慢。在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。 應建議病人採取預防措施以避免駕車時發生低血糖。特別是對低血糖警告症狀較無或缺乏自覺，或常發生低血糖症的病人更是特別重要。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "NovoRapid® (insulin aspart)可以在懷孕期間使用。來自兩組隨機分配臨床試驗的資料顯示，相較於可溶性人類胰島素，insulin aspart對於懷孕或胎兒/新生兒的健康上並未出現不良反應(參見藥理特性)。 對於患有糖尿病之懷孕婦女，建議於整個懷孕期間和計劃懷孕時建議密集控制和監測血糖。胰島素需求量通常在前3個月會下降，隨後在第4~9個月則逐漸增加。分娩後，胰島素需求量會正常地並快速地回復到懷孕前的需求量。",
+          "content_html": "<p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup> (insulin aspart)<span style=\"font-family:標楷體;\">可以在懷孕期間使用。來自兩組隨機分配臨床試驗的資料顯示，相較於可溶性人類胰島素，</span>insulin aspart<span style=\"font-family:標楷體;\">對於懷孕或胎兒</span>/<span style=\"font-family:標楷體;\">新生兒的健康上並未出現不良反應</span>(<span style=\"font-family:標楷體;\">參見<i class=\"active\">藥理特性</i></span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">對於患有糖尿病之懷孕婦女，建議於整個懷孕期間和計劃懷孕時建議密集控制和監測血糖。胰島素需求量通常在前</span>3<span style=\"font-family:標楷體;\">個月會下降，隨後在第</span>4~9<span style=\"font-family:標楷體;\">個月則逐漸增加。分娩後，胰島素需求量會正常地並快速地回復到懷孕前的需求量。</span></p>",
+          "search_text": "6.1\n懷孕\nNovoRapid® (insulin aspart)可以在懷孕期間使用。來自兩組隨機分配臨床試驗的資料顯示，相較於可溶性人類胰島素，insulin aspart對於懷孕或胎兒/新生兒的健康上並未出現不良反應(參見藥理特性)。 對於患有糖尿病之懷孕婦女，建議於整個懷孕期間和計劃懷孕時建議密集控制和監測血糖。胰島素需求量通常在前3個月會下降，隨後在第4~9個月則逐漸增加。分娩後，胰島素需求量會正常地並快速地回復到懷孕前的需求量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "授乳期間使用NovoRapid®治療並無限制。授乳母親接受胰島素治療對嬰兒並無風險。然而，NovoRapid®劑量可能需要調整。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">授乳期間使用</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">治療並無限制。授乳母親接受胰島素治療對嬰兒並無風險。然而，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">劑量可能需要調整。</span></p>",
+          "search_text": "6.2\n哺乳\n授乳期間使用NovoRapid®治療並無限制。授乳母親接受胰島素治療對嬰兒並無風險。然而，NovoRapid®劑量可能需要調整。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "很多藥品已知會影響葡萄糖代謝。 下列物質可能會減少病人胰島素需求量： Oral antidiabetic products, monoamine oxidase inhibitors (MAOIs), beta-blockers, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids and sulfonamides. 下列物質可能會增加病人胰島素需求量： Oral contraceptives, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone and danazol. Beta-blocking agents可能會遮蔽低血糖症狀。Octreotide/lanreotide可能會增加或減少胰島素的需求量。 酒精可能會加強或減少胰島素的降血糖作用。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">很多藥品已知會影響葡萄糖代謝。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><u>下列物質可能會減少病人胰島素需求量：</u></span></p><p style=\"margin-left:18.0pt;\">Oral antidiabetic products, monoamine oxidase inhibitors (MAOIs), beta-blockers, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids and sulfonamides.</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><u>下列物質可能會增加病人胰島素需求量：</u></span></p><p style=\"margin-left:18.0pt;\">Oral contraceptives, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone and danazol.</p><p style=\"margin-left:18.0pt;\">Beta-blocking agents<span style=\"font-family:標楷體;\">可能會遮蔽低血糖症狀。</span>Octreotide/lanreotide<span style=\"font-family:標楷體;\">可能會增加或減少胰島素的需求量。</span></p><p><span style=\"font-family:標楷體;\">酒精可能會加強或減少胰島素的降血糖作用。</span></p>",
+          "search_text": "7\n交互作用\n很多藥品已知會影響葡萄糖代謝。 下列物質可能會減少病人胰島素需求量： Oral antidiabetic products, monoamine oxidase inhibitors (MAOIs), beta-blockers, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids and sulfonamides. 下列物質可能會增加病人胰島素需求量： Oral contraceptives, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone and danazol. Beta-blocking agents可能會遮蔽低血糖症狀。Octreotide/lanreotide可能會增加或減少胰島素的需求量。 酒精可能會加強或減少胰島素的降血糖作用。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "a. 安全性評估概要 病人使用NovoRapid®發生的藥物不良反應主要與胰島素的藥理作用相關。 在治療期間，最常發生的不良反應為低血糖。低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異，見以下的c章節。 在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、變紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。 b.不良反應列表 以下表格所列出的不良反應是根據臨床試驗的數據，並且按照MedDRA System Organ Class 來分類。發生率的定義為：極常見(≥1/10)；常見(≥1/100至<1/10)；不常見(≥1/1,000至<1/100)；罕見(≥1/10,000至<1/1,000) ；極罕見(<1/10,000)與未知(無法由目前的資料來評估)。 免疫系統異常 不常見 過敏反應、疹子、發疹 極罕見-過敏反應* 代謝及營養異常 極常見-低血糖* 神經系統異常 罕見-周邊神經病變 (疼痛性神經病變) 眼部異常 不常見-屈光異常 不常見-糖尿病視網膜病變 皮膚與皮下組織異常 不常見-脂肪病變* 未知-皮膚類澱粉沉積症*† 一般性及注射部位的問題 不常見-注射部位不良反應 不常見-水腫 *見 c. 小節。 †上市後不良反應資料 c. 不良反應描述 過敏反應 全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、及血壓下降)的發生率是極罕見的，但是有可能會危及生命。 低血糖 通報的不良反應中，最常發生的是低血糖。當給予的劑量高於病人所需的胰島素時即可能發生。嚴重低血糖可能引起失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視力改變、頭痛、噁心及心悸。 在臨床試驗中，低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異。臨床試驗中使用insulin aspart的病人發生低血糖症的比率與使用人類胰島素，總體而言並無不同。 皮膚和皮下組織異常 脂肪病變 (包括脂肪增生、脂肪萎縮等) 和皮膚類澱粉沉積症可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應 (請參閱警語及注意事項)。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><u>a.&nbsp;</u><span style=\"font-family:標楷體;\"><u>安全性評估概要</u></span><u>&nbsp;</u></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">病人使用</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">發生的藥物不良反應主要與胰島素的藥理作用相關。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在治療期間，最常發生的不良反應為低血糖。低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異，見以下的</span>c<span style=\"font-family:標楷體;\">章節。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應</span>(<span style=\"font-family:標楷體;\">注射部位可能會有疼痛、變紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢</span>)<span style=\"font-family:標楷體;\">。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變</span>(acute painful neuropathy)&nbsp;<span style=\"font-family:標楷體;\">，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><u>b.</u><span style=\"font-family:標楷體;\"><u>不良反應列表</u></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">以下表格所列出的不良反應是根據臨床試驗的數據，並且按照</span>MedDRA System Organ Class&nbsp;<span style=\"font-family:標楷體;\">來分類。發生率的定義為：極常見</span>(≥1/10)<span style=\"font-family:標楷體;\">；常見</span>(<span style=\"color:#002060;\">≥</span>1/100<span style=\"font-family:標楷體;\">至</span>&lt;1/10)<span style=\"font-family:標楷體;\">；不常見</span>(<span style=\"color:#002060;\">≥</span>1/1,000<span style=\"font-family:標楷體;\">至</span>&lt;1/100)<span style=\"font-family:標楷體;\">；罕見</span>(<span style=\"color:#002060;\">≥</span>1/10,000<span style=\"font-family:標楷體;\">至</span>&lt;1/1,000) <span style=\"font-family:標楷體;\">；極罕見</span>(&lt;1/10,000)<span style=\"font-family:標楷體;\">與未知</span>(<span style=\"font-family:標楷體;\">無法由目前的資料來評估</span>)<span style=\"font-family:標楷體;\">。</span></p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:132.05pt;\" rowspan=\"2\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">免疫系統異常</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">不常見</span></p><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">過敏反應、疹子、發疹</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">極罕見</span>-<span style=\"font-family:標楷體;\">過敏反應</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:132.05pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">代謝及營養異常</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">極常見</span>-<span style=\"font-family:標楷體;\">低血糖</span>*</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:132.05pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">神經系統異常</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">罕見</span>-<span style=\"font-family:標楷體;\">周邊神經病變</span></p><p style=\"margin-left:0cm;\">(<span style=\"font-family:標楷體;\">疼痛性神經病變</span>)</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:132.05pt;\" rowspan=\"2\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">眼部異常</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">不常見</span>-<span style=\"font-family:標楷體;\">屈光異常</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">不常見</span>-<span style=\"font-family:標楷體;\">糖尿病視網膜病變</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:132.05pt;\" rowspan=\"2\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">皮膚與皮下組織異常</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">不常見</span>-<span style=\"font-family:標楷體;\">脂肪病變</span>*</p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">未知</span>-<span style=\"font-family:標楷體;\">皮膚類澱粉沉積症</span>*<span style=\"font-family:標楷體;\">†</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:132.05pt;\" rowspan=\"2\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">一般性及注射部位的問題</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">不常見</span>-<span style=\"font-family:標楷體;\">注射部位不良反應</span></p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:148.85pt;\"><p style=\"margin-left:0cm;\"><span style=\"font-family:標楷體;\">不常見</span>-<span style=\"font-family:標楷體;\">水腫</span></p></td></tr></tbody></table></figure><p style=\"margin-left:18.0pt;\">*<span style=\"font-family:標楷體;\">見</span> c.&nbsp;<span style=\"font-family:標楷體;\">小節。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">†上市後不良反應資料</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><u>c.&nbsp;</u><span style=\"font-family:標楷體;\"><u>不良反應描述</u></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">過敏反應</i></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">全身性過敏反應</span>(<span style=\"font-family:標楷體;\">症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、及血壓下降</span>)<span style=\"font-family:標楷體;\">的發生率是極罕見的，但是有可能會危及生命。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">低血糖</i></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">通報的不良反應中，最常發生的是低血糖。當給予的劑量高於病人所需的胰島素時即可能發生。嚴重低血糖可能引起失去知覺和</span>/<span style=\"font-family:標楷體;\">或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視力改變、頭痛、噁心及心悸。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在臨床試驗中，低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異。臨床試驗中使用</span>insulin aspart<span style=\"font-family:標楷體;\">的病人發生低血糖症的比率與使用人類胰島素，總體而言並無不同。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">皮膚和皮下組織異常</i></span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">脂肪病變</span> (<span style=\"font-family:標楷體;\">包括脂肪增生、脂肪萎縮等</span>)&nbsp;<span style=\"font-family:標楷體;\">和皮膚類澱粉沉積症可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應</span> (<span style=\"font-family:標楷體;\">請參閱<i class=\"active\">警語及注意事項</i></span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\na. 安全性評估概要 病人使用NovoRapid®發生的藥物不良反應主要與胰島素的藥理作用相關。 在治療期間，最常發生的不良反應為低血糖。低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異，見以下的c章節。 在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、變紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。 b.不良反應列表 以下表格所列出的不良反應是根據臨床試驗的數據，並且按照MedDRA System Organ Class 來分類。發生率的定義為：極常見(≥1/10)；常見(≥1/100至<1/10)；不常見(≥1/1,000至<1/100)；罕見(≥1/10,000至<1/1,000) ；極罕見(<1/10,000)與未知(無法由目前的資料來評估)。 免疫系統異常 不常見 過敏反應、疹子、發疹 極罕見-過敏反應* 代謝及營養異常 極常見-低血糖* 神經系統異常 罕見-周邊神經病變 (疼痛性神經病變) 眼部異常 不常見-屈光異常 不常見-糖尿病視網膜病變 皮膚與皮下組織異常 不常見-脂肪病變* 未知-皮膚類澱粉沉積症*† 一般性及注射部位的問題 不常見-注射部位不良反應 不常見-水腫 *見 c. 小節。 †上市後不良反應資料 c. 不良反應描述 過敏反應 全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、及血壓下降)的發生率是極罕見的，但是有可能會危及生命。 低血糖 通報的不良反應中，最常發生的是低血糖。當給予的劑量高於病人所需的胰島素時即可能發生。嚴重低血糖可能引起失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視力改變、頭痛、噁心及心悸。 在臨床試驗中，低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異。臨床試驗中使用insulin aspart的病人發生低血糖症的比率與使用人類胰島素，總體而言並無不同。 皮膚和皮下組織異常 脂肪病變 (包括脂肪增生、脂肪萎縮等) 和皮膚類澱粉沉積症可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應 (請參閱警語及注意事項)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "胰島素的過量難以定義，然而若給予相對於病人所需過高的劑量，則低血糖症狀可能如下列階段發生： 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病病人應隨時攜帶一些含糖製品。 嚴重低血糖症，病人已經失去意識時，可由已接受過訓練的人以肌肉或皮下注射glucagon (0.5 至1 mg)方式急救病人，或是由醫生或其他的醫療人員靜脈注射葡萄糖。若病人在10至15分鐘內對glucagon沒有反應，則必須靜脈注射葡萄糖。當病人恢復意識後，建議馬上進食碳水化合物以防病人再發生低血糖。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">胰島素的過量難以定義，然而若給予相對於病人所需過高的劑量，則低血糖症狀可能如下列階段發生：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病病人應隨時攜帶一些含糖製品。</span></li><li><span style=\"font-family:標楷體;\">嚴重低血糖症，病人已經失去意識時，可由已接受過訓練的人以肌肉或皮下注射</span>glucagon (0.5&nbsp;<span style=\"font-family:標楷體;\">至</span>1 mg)<span style=\"font-family:標楷體;\">方式急救病人，或是由醫生或其他的醫療人員靜脈注射葡萄糖。若病人在</span>10<span style=\"font-family:標楷體;\">至</span>15<span style=\"font-family:標楷體;\">分鐘內對</span>glucagon<span style=\"font-family:標楷體;\">沒有反應，則必須靜脈注射葡萄糖。當病人恢復意識後，建議馬上進食碳水化合物以防病人再發生低血糖。</span></li></ul>",
+          "search_text": "9\n過量\n胰島素的過量難以定義，然而若給予相對於病人所需過高的劑量，則低血糖症狀可能如下列階段發生： 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病病人應隨時攜帶一些含糖製品。 嚴重低血糖症，病人已經失去意識時，可由已接受過訓練的人以肌肉或皮下注射glucagon (0.5 至1 mg)方式急救病人，或是由醫生或其他的醫療人員靜脈注射葡萄糖。若病人在10至15分鐘內對glucagon沒有反應，則必須靜脈注射葡萄糖。當病人恢復意識後，建議馬上進食碳水化合物以防病人再發生低血糖。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "依據用餐後4小時的評估，與一般可溶性人類胰島素相比，NovoRapid®起始作用較快，且葡萄糖的濃度較低。相較於可溶性人類胰島素，NovoRapid®皮下注射的持續作用時間較短。 NovoRapid®皮下注射的作用時間在注射10-20分鐘後開始。注射後1-3小時達到最大作用。作用可持續3-5小時。 相同莫耳數的insulin aspart與可溶性人類胰島素具相等效力。",
+          "content_html": "<p style=\"margin-left:28.5pt;text-align:justify;\"><span style=\"font-family:標楷體;\">依據用餐後</span>4<span style=\"font-family:標楷體;\">小時的評估，與一般可溶性人類胰島素相比，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">起始作用較快，且葡萄糖的濃度較低。相較於可溶性人類胰島素，</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">皮下注射的持續作用時間較短。</span></p><p style=\"margin-left:28.5pt;text-align:justify;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">皮下注射的作用時間在注射</span>10-20<span style=\"font-family:標楷體;\">分鐘後開始。注射後</span>1-3<span style=\"font-family:標楷體;\">小時達到最大作用。作用可持續</span>3-5<span style=\"font-family:標楷體;\">小時。</span></p><p><span style=\"font-family:標楷體;\">相同莫耳數的</span>insulin aspart<span style=\"font-family:標楷體;\">與可溶性人類胰島素具相等效力。</span></p>",
+          "search_text": "10.1\n作用機轉\n依據用餐後4小時的評估，與一般可溶性人類胰島素相比，NovoRapid®起始作用較快，且葡萄糖的濃度較低。相較於可溶性人類胰島素，NovoRapid®皮下注射的持續作用時間較短。 NovoRapid®皮下注射的作用時間在注射10-20分鐘後開始。注射後1-3小時達到最大作用。作用可持續3-5小時。 相同莫耳數的insulin aspart與可溶性人類胰島素具相等效力。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥理治療分類：糖尿病用藥。胰島素及其類似物注射液，速效型。ATC code A10AB05。",
+          "content_html": "<p style=\"margin-left:28.5pt;text-align:justify;\"><span style=\"font-family:標楷體;\">藥理治療分類：糖尿病用藥。胰島素及其類似物注射液，速效型。</span>ATC code A10AB05<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n藥理治療分類：糖尿病用藥。胰島素及其類似物注射液，速效型。ATC code A10AB05。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "依據藥理安全性、重複劑量毒性、基因毒性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。 包括對於胰島素與IGF-1接受器結合及其對細胞生長影響的體外試驗中，insulin aspart的表現皆與人類胰島素極為相似。研究也顯示insulin aspart與胰島素接受器結合後之分離也與人體胰島素相當。",
+          "content_html": "<p style=\"margin-left:28.5pt;text-align:justify;\"><span style=\"font-family:標楷體;\">依據藥理安全性、重複劑量毒性、基因毒性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。</span></p><p><span style=\"font-family:標楷體;\">包括對於胰島素與</span>IGF-1<span style=\"font-family:標楷體;\">接受器結合及其對細胞生長影響的體外試驗中，</span>insulin aspart<span style=\"font-family:標楷體;\">的表現皆與人類胰島素極為相似。研究也顯示</span>insulin aspart<span style=\"font-family:標楷體;\">與胰島素接受器結合後之分離也與人體胰島素相當。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n依據藥理安全性、重複劑量毒性、基因毒性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。 包括對於胰島素與IGF-1接受器結合及其對細胞生長影響的體外試驗中，insulin aspart的表現皆與人類胰島素極為相似。研究也顯示insulin aspart與胰島素接受器結合後之分離也與人體胰島素相當。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "NovoRapid®，在B28位置以aspartic acid取代proline胺基酸，以降低如同可溶性人類胰島素結合成六型體(hexamers)的趨勢。因此NovoRapid®皮下部位之吸收比可溶性人類胰島素快。 平均而言，其達到最高血中濃度所需之時間為可溶性人類胰島素的一半。第1型糖尿病病人，在皮下注射每公斤體重0.15 U後，40分鐘可達到平均最高血中濃度492 pmol/l。投藥4-6小時後，胰島素濃度回復到基礎值。第2型糖尿病病人的吸收率稍低，導致較低之最高血中濃度 (Cmax 352±240 pmol/l) 及較慢之達到時間 (tmax 60分鐘)。使用NovoRapid®時，達到最高濃度所需時間的個體間差異明顯比使用可溶性人類胰島素小，然而使用NovoRapid®所達到之Cmax之個體間差異則較大。 孩童與青少年：針對患有第1型糖尿病之孩童及青少年研究NovoRapid®的藥物動力學及藥效學性質後，顯示insulin aspart在此兩年齡層皆可被快速吸收，且與成年人有相似的tmax。然而所達到的最高血中濃度則因年齡層不同而有所差異，也因此突顯使用NovoRapid®時個別調整劑量之重要性。 老人：針對患有第2型糖尿病之老人病人比較insulin aspart與可溶性人類胰島素之藥物動力學特性之相對差異，與在健康者及較年輕糖尿病病人之相對差異結果相似。老人病人有較低之吸收速率，以致到達最高血中濃度的時間較慢(tmax 82分鐘)，然而其最高血中濃度則與較年輕第2型糖尿病病人相近，並且比第1型糖尿病病人稍低。 肝功能不全：肝功能不全受試者達到最高血中濃度的時間tmax會有所延遲，大約85分鐘 (正常肝功能受試者為50分鐘)，然而，AUC、Cmax及CL/F是相似的。 腎功能不全：一項針對18位腎功能從正常到嚴重受損之受試者進行insulin aspart單一劑量的藥物動力學研究，並未發現creatinine清除率值對Insulin aspart之AUC、Cmax、CL/F 及tmax有顯著影響。資料僅限於中到重度腎功能受損之受試者。並未對腎功能受損以致於需要洗腎治療之病人進行研究。",
+          "content_html": "<p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">，在</span>B28<span style=\"font-family:標楷體;\">位置以</span>aspartic acid<span style=\"font-family:標楷體;\">取代</span>proline<span style=\"font-family:標楷體;\">胺基酸，以降低如同可溶性人類胰島素結合成六型體</span>(hexamers)<span style=\"font-family:標楷體;\">的趨勢。因此</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">皮下部位之吸收比可溶性人類胰島素快。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">平均而言，其達到最高血中濃度所需之時間為可溶性人類胰島素的一半。第</span>1<span style=\"font-family:標楷體;\">型糖尿病病人，在皮下注射每公斤體重</span>0.15 U<span style=\"font-family:標楷體;\">後，</span>40<span style=\"font-family:標楷體;\">分鐘可達到平均最高血中濃度</span>492 pmol/l<span style=\"font-family:標楷體;\">。投藥</span>4-6<span style=\"font-family:標楷體;\">小時後，胰島素濃度回復到基礎值。第</span>2<span style=\"font-family:標楷體;\">型糖尿病病人的吸收率稍低，導致較低之最高血中濃度</span> (C<sub>max&nbsp;</sub>352<span style=\"font-family:標楷體;\">±</span>240 pmol/l)&nbsp;<span style=\"font-family:標楷體;\">及較慢之達到時間</span> (t<sub>max</sub> 60<span style=\"font-family:標楷體;\">分鐘</span>)<span style=\"font-family:標楷體;\">。使用</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">時，達到最高濃度所需時間的個體間差異明顯比使用可溶性人類胰島素小，然而使用</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">所達到之</span>C<sub>max</sub><span style=\"font-family:標楷體;\">之個體間差異則較大。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">孩童與青少年</i>：針對患有第</span>1<span style=\"font-family:標楷體;\">型糖尿病之孩童及青少年研究</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">的藥物動力學及藥效學性質後，顯示</span>insulin aspart<span style=\"font-family:標楷體;\">在此兩年齡層皆可被快速吸收，且與成年人有相似的</span>t<sub>max</sub><span style=\"font-family:標楷體;\">。然而所達到的最高血中濃度則因年齡層不同而有所差異，也因此突顯使用</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">時個別調整劑量之重要性。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">老人</i>：針對患有第</span>2<span style=\"font-family:標楷體;\">型糖尿病之老人病人比較</span>insulin aspart<span style=\"font-family:標楷體;\">與可溶性人類胰島素之藥物動力學特性之相對差異，與在健康者及較年輕糖尿病病人之相對差異結果相似。老人病人有較低之吸收速率，以致到達最高血中濃度的時間較慢</span>(t<sub>max</sub> 82<span style=\"font-family:標楷體;\">分鐘</span>)<span style=\"font-family:標楷體;\">，然而其最高血中濃度則與較年輕第</span>2<span style=\"font-family:標楷體;\">型糖尿病病人相近，並且比第</span>1<span style=\"font-family:標楷體;\">型糖尿病病人稍低。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">肝功能不全</i>：肝功能不全受試者達到最高血中濃度的時間</span>t<sub>max</sub><span style=\"font-family:標楷體;\">會有所延遲，大約</span>85<span style=\"font-family:標楷體;\">分鐘</span> (<span style=\"font-family:標楷體;\">正常肝功能受試者為</span>50<span style=\"font-family:標楷體;\">分鐘</span>)<span style=\"font-family:標楷體;\">，然而，</span>AUC<span style=\"font-family:標楷體;\">、</span>C<sub>max</sub><span style=\"font-family:標楷體;\">及</span>CL/F<span style=\"font-family:標楷體;\">是相似的。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">腎功能不全</i>：一項針對</span>18<span style=\"font-family:標楷體;\">位腎功能從正常到嚴重受損之受試者進行</span>insulin aspart<span style=\"font-family:標楷體;\">單一劑量的藥物動力學研究，並未發現</span>creatinine<span style=\"font-family:標楷體;\">清除率值對</span>Insulin aspart<span style=\"font-family:標楷體;\">之</span>AUC<span style=\"font-family:標楷體;\">、</span>C<sub>max</sub><span style=\"font-family:標楷體;\">、</span>CL/F&nbsp;<span style=\"font-family:標楷體;\">及</span>t<sub>max</sub><span style=\"font-family:標楷體;\">有顯著影響。資料僅限於中到重度腎功能受損之受試者。並未對腎功能受損以致於需要洗腎治療之病人進行研究。</span></p>",
+          "search_text": "11\n藥物動力學特性\nNovoRapid®，在B28位置以aspartic acid取代proline胺基酸，以降低如同可溶性人類胰島素結合成六型體(hexamers)的趨勢。因此NovoRapid®皮下部位之吸收比可溶性人類胰島素快。 平均而言，其達到最高血中濃度所需之時間為可溶性人類胰島素的一半。第1型糖尿病病人，在皮下注射每公斤體重0.15 U後，40分鐘可達到平均最高血中濃度492 pmol/l。投藥4-6小時後，胰島素濃度回復到基礎值。第2型糖尿病病人的吸收率稍低，導致較低之最高血中濃度 (Cmax 352±240 pmol/l) 及較慢之達到時間 (tmax 60分鐘)。使用NovoRapid®時，達到最高濃度所需時間的個體間差異明顯比使用可溶性人類胰島素小，然而使用NovoRapid®所達到之Cmax之個體間差異則較大。 孩童與青少年：針對患有第1型糖尿病之孩童及青少年研究NovoRapid®的藥物動力學及藥效學性質後，顯示insulin aspart在此兩年齡層皆可被快速吸收，且與成年人有相似的tmax。然而所達到的最高血中濃度則因年齡層不同而有所差異，也因此突顯使用NovoRapid®時個別調整劑量之重要性。 老人：針對患有第2型糖尿病之老人病人比較insulin aspart與可溶性人類胰島素之藥物動力學特性之相對差異，與在健康者及較年輕糖尿病病人之相對差異結果相似。老人病人有較低之吸收速率，以致到達最高血中濃度的時間較慢(tmax 82分鐘)，然而其最高血中濃度則與較年輕第2型糖尿病病人相近，並且比第1型糖尿病病人稍低。 肝功能不全：肝功能不全受試者達到最高血中濃度的時間tmax會有所延遲，大約85分鐘 (正常肝功能受試者為50分鐘)，然而，AUC、Cmax及CL/F是相似的。 腎功能不全：一項針對18位腎功能從正常到嚴重受損之受試者進行insulin aspart單一劑量的藥物動力學研究，並未發現creatinine清除率值對Insulin aspart之AUC、Cmax、CL/F 及tmax有顯著影響。資料僅限於中到重度腎功能受損之受試者。並未對腎功能受損以致於需要洗腎治療之病人進行研究。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "成人：在第1型糖尿病病人的臨床試驗中顯示使用NovoRapid® 者之飯後血糖低於使用可溶性人體胰島素者。在兩個分別包含1,070位與884位第1型糖尿病病人的長期開放性臨床試驗發現，使用NovoRapid® 者減少0.12百分點的糖化血色素，相對於使用可溶性人類胰島素者減少0.15百分點的糖化血色素；此差異在臨床意義上是待商確的。 在第1型糖尿病病人的臨床試驗中顯示使用insulin aspart者，相較於使用可溶性人類胰島素者，發生夜間低血糖的風險較低。日間低血糖的風險也未顯著增加。 老人：在一項針對第2型糖尿病老年病人之PK/PD試驗顯示，insulin aspart與可溶性人類胰島素在藥效學性質上的相對差異與那些健康受試者以及年輕的糖尿病病人的結果相似。 孩童與青少年：給予孩童NovoRapid® 之長期血糖控制效果與可溶性人類胰島素相似。 一項針對2至17歲之孩童與青少年之臨床試驗顯示，insulin aspart用於孩童與用於成人之藥效學特性相似。 NovoRapid®作為餐前胰島素，合併insulin detemir或insulin degludec作為基礎胰島素的安全性及有效性已在兩個針對1歲~18歲孩童和青少年試驗中執行。試驗為12個月的隨機控制臨床試驗(n=712)。試驗包含1-5歲孩童167名，6-11歲260名，12-17歲285名。其中，在HbA1c的改善及安全性數據在所有年齡層是相當的。 懷孕：在一項針對第1型糖尿病懷孕婦女，比較可溶性人類胰島素與insulin aspart的安全性與有效性之臨床試驗中 (322位懷孕婦女)， insulin aspart對於懷孕或胎兒/新生兒的健康上並未出現不良反應。 另外，在一項包含27位妊娠糖尿病婦女隨機給予insulin aspart與可溶性人類胰島素治療的臨床試驗資料顯示出在二組治療的安全性數據相似，同時insulin aspart治療組的餐後血糖控制有明顯地改善。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">成人</i>：在第</span>1<span style=\"font-family:標楷體;\">型糖尿病病人的臨床試驗中顯示使用</span>NovoRapid<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">者之飯後血糖低於使用可溶性人體胰島素者。在兩個分別包含</span>1,070<span style=\"font-family:標楷體;\">位與</span>884<span style=\"font-family:標楷體;\">位第</span>1<span style=\"font-family:標楷體;\">型糖尿病病人的長期開放性臨床試驗發現，使用</span>NovoRapid<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">者減少</span>0.12<span style=\"font-family:標楷體;\">百分點的糖化血色素，相對於使用可溶性人類胰島素者減少</span>0.15<span style=\"font-family:標楷體;\">百分點的糖化血色素；此差異在臨床意義上是待商確的。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">在第</span>1<span style=\"font-family:標楷體;\">型糖尿病病人的臨床試驗中顯示使用</span>insulin aspart<span style=\"font-family:標楷體;\">者，相較於使用可溶性人類胰島素者，發生夜間低血糖的風險較低。日間低血糖的風險也未顯著增加。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">老人</i>：在一項針對第</span>2<span style=\"font-family:標楷體;\">型糖尿病老年病人之</span>PK/PD<span style=\"font-family:標楷體;\">試驗顯示，</span>insulin aspart<span style=\"font-family:標楷體;\">與可溶性人類胰島素在藥效學性質上的相對差異與那些健康受試者以及年輕的糖尿病病人的結果相似。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">孩童與青少年</i>：給予孩童</span>NovoRapid<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">之長期血糖控制效果與可溶性人類胰島素相似。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">一項針對</span>2<span style=\"font-family:標楷體;\">至</span>17<span style=\"font-family:標楷體;\">歲之孩童與青少年之臨床試驗顯示，</span>insulin aspart<span style=\"font-family:標楷體;\">用於孩童與用於成人之藥效學特性相似。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">作為餐前胰島素，合併</span>insulin detemir<span style=\"font-family:標楷體;\">或</span>insulin degludec<span style=\"font-family:標楷體;\">作為基礎胰島素的安全性及有效性已在兩個針對</span>1<span style=\"font-family:標楷體;\">歲</span>~18<span style=\"font-family:標楷體;\">歲孩童和青少年試驗中執行。試驗為</span>12<span style=\"font-family:標楷體;\">個月的隨機控制臨床試驗</span>(n=712)<span style=\"font-family:標楷體;\">。試驗包含</span>1-5<span style=\"font-family:標楷體;\">歲孩童</span>167<span style=\"font-family:標楷體;\">名，</span>6-11<span style=\"font-family:標楷體;\">歲</span>260<span style=\"font-family:標楷體;\">名，</span>12-17<span style=\"font-family:標楷體;\">歲</span>285<span style=\"font-family:標楷體;\">名。其中，在</span>HbA<sub>1c</sub><span style=\"font-family:標楷體;\">的改善及安全性數據在所有年齡層是相當的。</span></p><p style=\"margin-left:18.0pt;\">&nbsp;</p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">懷孕</i>：在一項針對第</span>1<span style=\"font-family:標楷體;\">型糖尿病懷孕婦女，比較可溶性人類胰島素與</span>insulin aspart<span style=\"font-family:標楷體;\">的安全性與有效性之臨床試驗中</span> (322<span style=\"font-family:標楷體;\">位懷孕婦女</span>)<span style=\"font-family:標楷體;\">，</span> insulin aspart<span style=\"font-family:標楷體;\">對於懷孕或胎兒</span>/<span style=\"font-family:標楷體;\">新生兒的健康上並未出現不良反應。</span></p><p><span style=\"font-family:標楷體;\">另外，在一項包含</span>27<span style=\"font-family:標楷體;\">位妊娠糖尿病婦女隨機給予</span>insulin aspart<span style=\"font-family:標楷體;\">與可溶性人類胰島素治療的臨床試驗資料顯示出在二組治療的安全性數據相似，同時</span>insulin aspart<span style=\"font-family:標楷體;\">治療組的餐後血糖控制有明顯地改善。</span></p>",
+          "search_text": "12\n臨床試驗資料\n成人：在第1型糖尿病病人的臨床試驗中顯示使用NovoRapid® 者之飯後血糖低於使用可溶性人體胰島素者。在兩個分別包含1,070位與884位第1型糖尿病病人的長期開放性臨床試驗發現，使用NovoRapid® 者減少0.12百分點的糖化血色素，相對於使用可溶性人類胰島素者減少0.15百分點的糖化血色素；此差異在臨床意義上是待商確的。 在第1型糖尿病病人的臨床試驗中顯示使用insulin aspart者，相較於使用可溶性人類胰島素者，發生夜間低血糖的風險較低。日間低血糖的風險也未顯著增加。 老人：在一項針對第2型糖尿病老年病人之PK/PD試驗顯示，insulin aspart與可溶性人類胰島素在藥效學性質上的相對差異與那些健康受試者以及年輕的糖尿病病人的結果相似。 孩童與青少年：給予孩童NovoRapid® 之長期血糖控制效果與可溶性人類胰島素相似。 一項針對2至17歲之孩童與青少年之臨床試驗顯示，insulin aspart用於孩童與用於成人之藥效學特性相似。 NovoRapid®作為餐前胰島素，合併insulin detemir或insulin degludec作為基礎胰島素的安全性及有效性已在兩個針對1歲~18歲孩童和青少年試驗中執行。試驗為12個月的隨機控制臨床試驗(n=712)。試驗包含1-5歲孩童167名，6-11歲260名，12-17歲285名。其中，在HbA1c的改善及安全性數據在所有年齡層是相當的。 懷孕：在一項針對第1型糖尿病懷孕婦女，比較可溶性人類胰島素與insulin aspart的安全性與有效性之臨床試驗中 (322位懷孕婦女)， insulin aspart對於懷孕或胎兒/新生兒的健康上並未出現不良反應。 另外，在一項包含27位妊娠糖尿病婦女隨機給予insulin aspart與可溶性人類胰島素治療的臨床試驗資料顯示出在二組治療的安全性數據相似，同時insulin aspart治療組的餐後血糖控制有明顯地改善。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "盒裝卡式管由type 1玻璃製成，包含活塞(bromobutyl)及橡皮蓋(bromobutyl/polyisoprene)密封，內含3 ml溶液，並裝在預先充填的多次劑量的拋棄式注射筆(塑膠製)。 每盒內含5支預填式注射筆。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">盒裝卡式管由</span>type 1<span style=\"font-family:標楷體;\">玻璃製成，包含活塞</span>(bromobutyl)<span style=\"font-family:標楷體;\">及橡皮蓋</span>(bromobutyl/polyisoprene)<span style=\"font-family:標楷體;\">密封，內含</span>3 ml<span style=\"font-family:標楷體;\">溶液，並裝在預先充填的多次劑量的拋棄式注射筆</span>(<span style=\"font-family:標楷體;\">塑膠製</span>)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">每盒內含</span>5<span style=\"font-family:標楷體;\">支預填式注射筆。</span></p>",
+          "search_text": "13.1\n包裝\n盒裝卡式管由type 1玻璃製成，包含活塞(bromobutyl)及橡皮蓋(bromobutyl/polyisoprene)密封，內含3 ml溶液，並裝在預先充填的多次劑量的拋棄式注射筆(塑膠製)。 每盒內含5支預填式注射筆。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "保存期限印在標籤與外盒上。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">保存期限印在標籤與外盒上。</span></p>",
+          "search_text": "13.2\n效期\n保存期限印在標籤與外盒上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "開封前： 貯藏於冷藏室(2°C - 8°C)，遠離冷卻裝置。 使用中或攜帶作為備品：存放於30°C以下之環境中，或存放在冰箱中(2°C-8°C)，可保存四星期。 請勿冷凍。 不使用時應將NovoRapid® FlexPen®的筆蓋蓋上以避光。 NovoRapid® 應避免接觸過多的熱與光。",
+          "content_html": "<p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">開封前：</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">貯藏於冷藏室</span>(2<span style=\"font-family:標楷體;\">°</span>C - 8<span style=\"font-family:標楷體;\">°</span>C)<span style=\"font-family:標楷體;\">，遠離冷卻裝置。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">使用中或攜帶作為備品：存放於</span>30<span style=\"font-family:標楷體;\">°</span>C<span style=\"font-family:標楷體;\">以下之環境中，或存放在冰箱中</span>(2<span style=\"font-family:標楷體;\">°</span>C-8<span style=\"font-family:標楷體;\">°</span>C)<span style=\"font-family:標楷體;\">，可保存四星期。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">請勿冷凍。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">不使用時應將</span>NovoRapid<sup>®</sup> FlexPen<sup>®</sup><span style=\"font-family:標楷體;\">的筆蓋蓋上以避光。</span></p><p>NovoRapid<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">應避免接觸過多的熱與光。</span></p>",
+          "search_text": "13.3\n儲存條件\n開封前： 貯藏於冷藏室(2°C - 8°C)，遠離冷卻裝置。 使用中或攜帶作為備品：存放於30°C以下之環境中，或存放在冰箱中(2°C-8°C)，可保存四星期。 請勿冷凍。 不使用時應將NovoRapid® FlexPen®的筆蓋蓋上以避光。 NovoRapid® 應避免接觸過多的熱與光。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "丟棄處理與使用之特別注意事項 針頭與NovoRapid® FlexPen® 絕不可與他人共用。 此卡式管絕不可再充填。 當NovoRapid®未呈現澄清無色或曾遭冷凍時請勿使用。 應建議病人在每次注射後丟棄針頭。 NovoRapid®可使用於輸注幫浦系統(CSII)如描述於“投予方式”。以polyethylene或polyolefin為內徑表面材質之管路已被評估並認定適於幫浦使用。 一旦目前的NovoRapid® 使用者有緊急情況時(住院或胰島素注射筆故障)，可使用U100 胰島素針筒自FlexPen®中抽取NovoRapid® 。 諾和瑞®, 諾易筆®, NovoRapid®, FlexPen®, NovoFine®, NovoTwist® 是Novo Nordisk A/S, Denmark擁有之商標。 © 2021 藥商 台灣諾和諾德藥品股份有限公司 電話02-7704-9988 傳真02-2377-0111 網址www.novonordisk.com.tw",
+          "content_html": "<p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\"><strong>丟棄處理與使用之特別注意事項</strong></span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">針頭與</span>NovoRapid<sup>®</sup> FlexPen<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">絕不可與他人共用。</span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">此卡式管絕不可再充填。</span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">當</span>NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">未呈現澄清無色或曾遭冷凍時請勿使用。</span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">應建議病人在每次注射後丟棄針頭。</span></p><p style=\"margin-left:18.6pt;\">NovoRapid<sup>®</sup><span style=\"font-family:標楷體;\">可使用於輸注幫浦系統</span>(CSII)<span style=\"font-family:標楷體;\">如描述於“投予方式”。以</span>polyethylene<span style=\"font-family:標楷體;\">或</span>polyolefin<span style=\"font-family:標楷體;\">為內徑表面材質之管路已被評估並認定適於幫浦使用。</span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">一旦目前的</span>NovoRapid<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">使用者有緊急情況時</span>(<span style=\"font-family:標楷體;\">住院或胰島素注射筆故障</span>)<span style=\"font-family:標楷體;\">，可使用</span>U100&nbsp;<span style=\"font-family:標楷體;\">胰島素針筒自</span>FlexPen<sup>®</sup><span style=\"font-family:標楷體;\">中抽取</span>NovoRapid<sup>®</sup>&nbsp;<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:18.6pt;\">&nbsp;</p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\"><i class=\"active\">諾和瑞</i></span><i class=\"active\"><sup>®</sup>,&nbsp;</i><span style=\"font-family:標楷體;\"><i class=\"active\">諾易筆</i></span><i class=\"active\"><sup>®</sup>, NovoRapid<sup>®</sup>, FlexPen<sup>®</sup>, NovoFine<sup>®</sup>, NovoTwist<sup>®</sup>&nbsp;</i><span style=\"font-family:標楷體;\"><i class=\"active\">是</i></span><i class=\"active\">Novo Nordisk A/S, Denmark</i><span style=\"font-family:標楷體;\"><i class=\"active\">擁有之商標。</i></span></p><p style=\"margin-left:18.6pt;\">&nbsp;</p><p style=\"margin-left:18.6pt;\">© 2021</p><p style=\"margin-left:18.6pt;\">&nbsp;</p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\"><strong>藥商</strong></span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">台灣諾和諾德藥品股份有限公司</span></p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">電話</span>02-7704-9988</p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">傳真</span>02-2377-0111</p><p style=\"margin-left:18.6pt;\"><span style=\"font-family:標楷體;\">網址</span>www.novonordisk.com.tw</p>",
+          "search_text": "15\n其他\n丟棄處理與使用之特別注意事項 針頭與NovoRapid® FlexPen® 絕不可與他人共用。 此卡式管絕不可再充填。 當NovoRapid®未呈現澄清無色或曾遭冷凍時請勿使用。 應建議病人在每次注射後丟棄針頭。 NovoRapid®可使用於輸注幫浦系統(CSII)如描述於“投予方式”。以polyethylene或polyolefin為內徑表面材質之管路已被評估並認定適於幫浦使用。 一旦目前的NovoRapid® 使用者有緊急情況時(住院或胰島素注射筆故障)，可使用U100 胰島素針筒自FlexPen®中抽取NovoRapid® 。 諾和瑞®, 諾易筆®, NovoRapid®, FlexPen®, NovoFine®, NovoTwist® 是Novo Nordisk A/S, Denmark擁有之商標。 © 2021 藥商 台灣諾和諾德藥品股份有限公司 電話02-7704-9988 傳真02-2377-0111 網址www.novonordisk.com.tw",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n1 ml 溶液中含有100 U Insulin aspart*(相當於3.5 mg)。 一個預填式注射筆含有3 ml，相當於300 U。 *Insulin aspart在Saccharomyces cerevisiae菌種中經重組DNA技術製成。\n1.2\n賦形劑\nGlycerol, phenol, metacresol, zinc chloride, disodium phosphate dihydrate, sodium chloride, hydrochloric acid/sodium hydroxide (for pH adjustment) and water for injections.\n1.3\n劑型\n預填式注射筆內之注射液是澄清無色的水溶液。FlexPen®。\n1.4\n藥品外觀\n裝載於預填式注射筆的100 U/ml注射用溶液。\n2\n適應症\n糖尿病。 治療患有糖尿病之成人、青少年及1歲以上之孩童。\n3\n用法及用量\n3.1\n用法用量\n劑量 NovoRapid®是一種速效型胰島素類似物。NovoRapid®的劑量是按照個別情況與病人的需要而決定。其常與中效型或長效型胰島素併用治療，至少一天一次。建議進行血糖監控與胰島素劑量調整以達到最佳的血糖控制。 根據病人個別需要，成人與孩童的胰島素需求量通常為0.5至1.0 U/kg/day。此需求量的50%至70%可於basal-bolus療法中由NovoRapid®提供，其餘的量可由中效型或長效型胰島素提供。當病人的體能活動增加，改變平常的飲食或伴隨其他疾病時，可能需調整劑量。 與可溶性人類胰島素相比，NovoRapid®起始作用較快，作用時間較短。 由於起始作用時間較快，NovoRapid®應在餐前立即投予。需要時，NovoRapid®可在餐後立即投予。 由於作用時間較短，NovoRapid®發生夜間低血糖事件的風險較低。 投予方式 NovoRapid®以皮下注射方式注射在腹壁、大腿、上臂、三角肌或臀部。相同部位的注射點必須一直輪替，以降低發生脂肪病變與皮膚類澱粉沉積症(請參閱警語及注意事項)的風險。與所有胰島素相同，相較於其他注射部位，腹壁皮下部位注射可確保較快的吸收速度。 作用時間會因劑量、注射部位、血流、體溫及體能活動程度的不同而有所改變。然而無論注射部位為何，其開始作用時間仍比可溶性人類胰島素較快。 NovoRapid® FlexPen®為預填式注射筆。是為了搭配長達8 mm的NovoFine®或NovoTwist®拋棄式針頭所設計的。 NovoRapid® FlexPen®具色彩識別編碼，並附有詳細使用說明之仿單供參閱。 連續皮下胰島素輸注(CSII) : NovoRapid®可使用適合胰島素輸注的幫浦系統進行連續皮下胰島素輸注(Continuous Subcutaneous Insulin Infusion - CSII)。CSII應採腹壁注射。注射處必須輪替。 在使用胰島素輸注幫浦時，NovoRapid®絕對不可與其他種類胰島素產品混合使用。 使用CSII的病人應接受詳細的指導如何使用幫浦及使用正確的容器及輸注管。輸注設備(輸注管和插管)應依據所附產品資料的指示更換。 使用CSII注射NovoRapid®的病人必須確保有其他的胰島素給藥方法，以備當輸注幫浦損壞時使用。 靜脈注射使用: 如果必要，NovoRapid®可由醫生或其他醫護人員執行靜脈內注射。 使用靜脈注射時，使用polypropylene輸注袋，並且以0.9% sodium chloride或含有40 mmol/l potassium chloride 之5%或10% dextrose為輸注溶液配製濃度0.05 U/ml到1.0 U/ml的NovoRapid® 100 U/ml之輸注系統，在室溫下可維持安定達24小時。 雖然隨著時間能保持穩定，但有少量的胰島素在一開始會被輸注袋所吸收。在輸注過程中，血糖的監控是必需的。\n3.2\n調製方式\n不相容性 有些物質加入NovoRapid®後會造成insulin aspart分解。 此產品絕不可與其他產品互相稀釋或混合。劑量章節所提到的輸注液則例外。 3.3 特殊族群用法用量 如同所有的胰島素製品，針對老年病人與患有腎臟、肝臟功能不全者，應加強血糖監控，並依據個人狀況調整insulin aspart劑量。 兒科族群 當快速起始作用對1歲以上孩童和青少年有益時，比起可溶性人類胰島素，更可優先考慮NovoRapid®。例如考量到用餐時注射的時間點。目前並無數據佐證NovoRapid®對於1歲以下孩童的安全性和有效性。 由其他胰島素製品轉換成NovoRapid® 當自其他胰島素製品轉換而來時，NovoRapid®與基礎胰島素的劑量調整可能是需要的。\n3.3\n特殊族群用法用量\n4\n禁忌\n對主成分或其中任何賦形劑過敏者。\n5\n警語及注意事項\n5.1\n警語/注意事項\n去不同時區旅行前，病人應尋求醫師之建議，因為這可能表示病人需要於不同時間點施打胰島素與進食。 高血糖症 使用不適當的劑量或中斷治療，特別是第1型糖尿病病人，可能會導致高血糖症與糖尿病性酮酸中毒。 低血糖症 誤餐或未經計劃、激烈的體能運動，都可能會導致低血糖症。 特別是孩童，須注意使用的胰島素劑量(特別是基礎-餐前胰島素組合)符合進食、體能活動以及當下血糖值，使低血糖症的風險降至最低。 如果胰島素劑量高於需求量，有可能發生低血糖症。 血糖控制情形大幅改善的病人，例如：藉由密集的胰島素治療，其發生低血糖時的警告症狀可能產生改變，因此應該接受相關指導。長期患有糖尿病之病人，其一般警告症狀可能會消失。 與可溶性人類胰島素相比，速效型胰島素類似物的藥效可能會使得注射後發生低血糖的時間較快。 NovoRapid®應於即將用餐前施打。由於此藥的起始作用迅速，因此病人併存他種疾病或併用其他藥物治療時，應注意可能發生的延遲食物吸收情況。 併存他種疾病，尤其是感染或處於發燒狀態，經常會增加病人胰島素的需求量。在腎臟、肝臟或影響到腎上腺、腦垂體或是甲狀腺方面的併存疾病，可能會需要調整胰島素劑量。 當病人轉換不同類型的胰島素時，其發生低血糖時的早期警告症狀可能比使用原來的胰島素時感覺較不明顯。 轉換自其他胰島素產品 在病人轉換成其他類型或廠牌(例如藥效或製造商)的胰島素時，必須有嚴密的醫療監控，並且相對於原先使用的胰島素，可能需要改變劑量或每天的投予次數。假如劑量需要調整，可能會發生在第一個投予劑量或在前幾週或前幾個月。 注射部位不良反應 就如同一般的胰島素治療，注射部位不良反應可能會發生，其包括了疼痛、泛紅、起疹、發炎、瘀傷、腫以及搔癢。在同一部位的注射點不停地輪替可以降低發生不良反應的風險。不良反應通常在數天到數星期內就會恢復。在極少數的情況下可能需要停止使用NovoRapid®。 皮膚和皮下組織異常 務必指示病人，必須在同一區域內輪流注射於不同部位，以減少脂肪病變和皮膚類澱粉沉積症的風險。如果注射部位出現上述反應，注射胰島素之後可能造成胰島素延遲吸收，血糖控制惡化。曾有報告顯示，突然改變注射區域，注射在未受影響的部位，會引起低血糖。注射區域從受影響部位變更為未受影響的部位時，建議應監測血糖，並考慮調整糖尿病藥物的劑量。 併用thiazolidinediones及胰島素製劑 在thiazolidinediones與insulin併用時，曾有鬱血性心臟衰竭的通報案例，特別是出現於具潛在鬱血性心臟衰竭危險因子的病人，故在考慮併用thiazolidinediones與insulin來治療時，應特別注意。在給予併用療法時，應觀察病人鬱血性心臟衰竭、體重增加及水腫徵兆及症狀。如有發生心臟惡化症狀時，應停用thiazolidinediones。 避免出現意外地混合或用藥錯誤 病人必須被告知在每一次注射之前一定要確認胰島素的標籤，以避免意外發生NovoRapid®和其他胰島素產品混合的事件。 胰島素抗體 使用胰島素可能有抗體形成。在罕見的胰島素抗體形成案例中，可能需要調整劑量以避免高血糖或低血糖發生。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n病人可能因低血糖而注意力無法集中或反應較慢。在此狀況下從事極需注意力與反應力的活動時，(例如：駕車或操作機械)可能會有風險。 應建議病人採取預防措施以避免駕車時發生低血糖。特別是對低血糖警告症狀較無或缺乏自覺，或常發生低血糖症的病人更是特別重要。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\nNovoRapid® (insulin aspart)可以在懷孕期間使用。來自兩組隨機分配臨床試驗的資料顯示，相較於可溶性人類胰島素，insulin aspart對於懷孕或胎兒/新生兒的健康上並未出現不良反應(參見藥理特性)。 對於患有糖尿病之懷孕婦女，建議於整個懷孕期間和計劃懷孕時建議密集控制和監測血糖。胰島素需求量通常在前3個月會下降，隨後在第4~9個月則逐漸增加。分娩後，胰島素需求量會正常地並快速地回復到懷孕前的需求量。\n6.2\n哺乳\n授乳期間使用NovoRapid®治療並無限制。授乳母親接受胰島素治療對嬰兒並無風險。然而，NovoRapid®劑量可能需要調整。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n很多藥品已知會影響葡萄糖代謝。 下列物質可能會減少病人胰島素需求量： Oral antidiabetic products, monoamine oxidase inhibitors (MAOIs), beta-blockers, angiotensin converting enzyme (ACE) inhibitors, salicylates, anabolic steroids and sulfonamides. 下列物質可能會增加病人胰島素需求量： Oral contraceptives, thiazides, glucocorticoids, thyroid hormones, sympathomimetics, growth hormone and danazol. Beta-blocking agents可能會遮蔽低血糖症狀。Octreotide/lanreotide可能會增加或減少胰島素的需求量。 酒精可能會加強或減少胰島素的降血糖作用。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\na. 安全性評估概要 病人使用NovoRapid®發生的藥物不良反應主要與胰島素的藥理作用相關。 在治療期間，最常發生的不良反應為低血糖。低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異，見以下的c章節。 在胰島素治療初期可能會發生眼睛屈光異常、水腫及注射部位不良反應(注射部位可能會有疼痛、變紅、蕁麻疹、發炎、瘀傷、腫脹及搔癢)。這些症狀通常是過渡性質。快速改善血糖控制可能伴隨急性疼痛的神經病變(acute painful neuropathy) ，這通常是可逆的。使用密集的胰島素療法使血糖控制迅速改善，可能會伴隨著糖尿病視網膜病變的暫時性惡化；而長期改善血糖控制可降低發生糖尿病視網膜病變的風險。 b.不良反應列表 以下表格所列出的不良反應是根據臨床試驗的數據，並且按照MedDRA System Organ Class 來分類。發生率的定義為：極常見(≥1/10)；常見(≥1/100至<1/10)；不常見(≥1/1,000至<1/100)；罕見(≥1/10,000至<1/1,000) ；極罕見(<1/10,000)與未知(無法由目前的資料來評估)。 免疫系統異常 不常見 過敏反應、疹子、發疹 極罕見-過敏反應* 代謝及營養異常 極常見-低血糖* 神經系統異常 罕見-周邊神經病變 (疼痛性神經病變) 眼部異常 不常見-屈光異常 不常見-糖尿病視網膜病變 皮膚與皮下組織異常 不常見-脂肪病變* 未知-皮膚類澱粉沉積症*† 一般性及注射部位的問題 不常見-注射部位不良反應 不常見-水腫 *見 c. 小節。 †上市後不良反應資料 c. 不良反應描述 過敏反應 全身性過敏反應(症狀包括全身皮膚紅疹、搔癢、發汗、胃腸不適、血管神經性水腫、呼吸困難、心悸、及血壓下降)的發生率是極罕見的，但是有可能會危及生命。 低血糖 通報的不良反應中，最常發生的是低血糖。當給予的劑量高於病人所需的胰島素時即可能發生。嚴重低血糖可能引起失去知覺和/或痙攣並可能造成暫時性或永久性腦功能損害，甚至致命。低血糖的症狀通常會突然地發生。包括冒冷汗、面色蒼白、疲倦、焦躁或顫抖、焦慮、不尋常的倦怠或虛弱、精神混亂、精神無法集中、嗜睡、極度飢餓感、視力改變、頭痛、噁心及心悸。 在臨床試驗中，低血糖的發生率會依病人的族群、治療劑量以及血糖控制的程度而異。臨床試驗中使用insulin aspart的病人發生低血糖症的比率與使用人類胰島素，總體而言並無不同。 皮膚和皮下組織異常 脂肪病變 (包括脂肪增生、脂肪萎縮等) 和皮膚類澱粉沉積症可能會發生在注射部位，並延遲局部胰島素吸收。在給藥區域內輪流變換注射部位，可降低或預防這類反應 (請參閱警語及注意事項)。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n胰島素的過量難以定義，然而若給予相對於病人所需過高的劑量，則低血糖症狀可能如下列階段發生： 輕度低血糖症可使用口服投予葡萄糖或糖類製品治療。因此應建議糖尿病病人應隨時攜帶一些含糖製品。 嚴重低血糖症，病人已經失去意識時，可由已接受過訓練的人以肌肉或皮下注射glucagon (0.5 至1 mg)方式急救病人，或是由醫生或其他的醫療人員靜脈注射葡萄糖。若病人在10至15分鐘內對glucagon沒有反應，則必須靜脈注射葡萄糖。當病人恢復意識後，建議馬上進食碳水化合物以防病人再發生低血糖。\n10\n藥理特性\n10.1\n作用機轉\n依據用餐後4小時的評估，與一般可溶性人類胰島素相比，NovoRapid®起始作用較快，且葡萄糖的濃度較低。相較於可溶性人類胰島素，NovoRapid®皮下注射的持續作用時間較短。 NovoRapid®皮下注射的作用時間在注射10-20分鐘後開始。注射後1-3小時達到最大作用。作用可持續3-5小時。 相同莫耳數的insulin aspart與可溶性人類胰島素具相等效力。\n10.2\n藥效藥理特性\n藥理治療分類：糖尿病用藥。胰島素及其類似物注射液，速效型。ATC code A10AB05。\n10.3\n臨床前安全性資料\n依據藥理安全性、重複劑量毒性、基因毒性、生殖毒性等常規試驗，非臨床資料顯示對人體無特別危害。 包括對於胰島素與IGF-1接受器結合及其對細胞生長影響的體外試驗中，insulin aspart的表現皆與人類胰島素極為相似。研究也顯示insulin aspart與胰島素接受器結合後之分離也與人體胰島素相當。\n11\n藥物動力學特性\nNovoRapid®，在B28位置以aspartic acid取代proline胺基酸，以降低如同可溶性人類胰島素結合成六型體(hexamers)的趨勢。因此NovoRapid®皮下部位之吸收比可溶性人類胰島素快。 平均而言，其達到最高血中濃度所需之時間為可溶性人類胰島素的一半。第1型糖尿病病人，在皮下注射每公斤體重0.15 U後，40分鐘可達到平均最高血中濃度492 pmol/l。投藥4-6小時後，胰島素濃度回復到基礎值。第2型糖尿病病人的吸收率稍低，導致較低之最高血中濃度 (Cmax 352±240 pmol/l) 及較慢之達到時間 (tmax 60分鐘)。使用NovoRapid®時，達到最高濃度所需時間的個體間差異明顯比使用可溶性人類胰島素小，然而使用NovoRapid®所達到之Cmax之個體間差異則較大。 孩童與青少年：針對患有第1型糖尿病之孩童及青少年研究NovoRapid®的藥物動力學及藥效學性質後，顯示insulin aspart在此兩年齡層皆可被快速吸收，且與成年人有相似的tmax。然而所達到的最高血中濃度則因年齡層不同而有所差異，也因此突顯使用NovoRapid®時個別調整劑量之重要性。 老人：針對患有第2型糖尿病之老人病人比較insulin aspart與可溶性人類胰島素之藥物動力學特性之相對差異，與在健康者及較年輕糖尿病病人之相對差異結果相似。老人病人有較低之吸收速率，以致到達最高血中濃度的時間較慢(tmax 82分鐘)，然而其最高血中濃度則與較年輕第2型糖尿病病人相近，並且比第1型糖尿病病人稍低。 肝功能不全：肝功能不全受試者達到最高血中濃度的時間tmax會有所延遲，大約85分鐘 (正常肝功能受試者為50分鐘)，然而，AUC、Cmax及CL/F是相似的。 腎功能不全：一項針對18位腎功能從正常到嚴重受損之受試者進行insulin aspart單一劑量的藥物動力學研究，並未發現creatinine清除率值對Insulin aspart之AUC、Cmax、CL/F 及tmax有顯著影響。資料僅限於中到重度腎功能受損之受試者。並未對腎功能受損以致於需要洗腎治療之病人進行研究。\n12\n臨床試驗資料\n成人：在第1型糖尿病病人的臨床試驗中顯示使用NovoRapid® 者之飯後血糖低於使用可溶性人體胰島素者。在兩個分別包含1,070位與884位第1型糖尿病病人的長期開放性臨床試驗發現，使用NovoRapid® 者減少0.12百分點的糖化血色素，相對於使用可溶性人類胰島素者減少0.15百分點的糖化血色素；此差異在臨床意義上是待商確的。 在第1型糖尿病病人的臨床試驗中顯示使用insulin aspart者，相較於使用可溶性人類胰島素者，發生夜間低血糖的風險較低。日間低血糖的風險也未顯著增加。 老人：在一項針對第2型糖尿病老年病人之PK/PD試驗顯示，insulin aspart與可溶性人類胰島素在藥效學性質上的相對差異與那些健康受試者以及年輕的糖尿病病人的結果相似。 孩童與青少年：給予孩童NovoRapid® 之長期血糖控制效果與可溶性人類胰島素相似。 一項針對2至17歲之孩童與青少年之臨床試驗顯示，insulin aspart用於孩童與用於成人之藥效學特性相似。 NovoRapid®作為餐前胰島素，合併insulin detemir或insulin degludec作為基礎胰島素的安全性及有效性已在兩個針對1歲~18歲孩童和青少年試驗中執行。試驗為12個月的隨機控制臨床試驗(n=712)。試驗包含1-5歲孩童167名，6-11歲260名，12-17歲285名。其中，在HbA1c的改善及安全性數據在所有年齡層是相當的。 懷孕：在一項針對第1型糖尿病懷孕婦女，比較可溶性人類胰島素與insulin aspart的安全性與有效性之臨床試驗中 (322位懷孕婦女)， insulin aspart對於懷孕或胎兒/新生兒的健康上並未出現不良反應。 另外，在一項包含27位妊娠糖尿病婦女隨機給予insulin aspart與可溶性人類胰島素治療的臨床試驗資料顯示出在二組治療的安全性數據相似，同時insulin aspart治療組的餐後血糖控制有明顯地改善。\n13\n包裝及儲存\n13.1\n包裝\n盒裝卡式管由type 1玻璃製成，包含活塞(bromobutyl)及橡皮蓋(bromobutyl/polyisoprene)密封，內含3 ml溶液，並裝在預先充填的多次劑量的拋棄式注射筆(塑膠製)。 每盒內含5支預填式注射筆。\n13.2\n效期\n保存期限印在標籤與外盒上。\n13.3\n儲存條件\n開封前： 貯藏於冷藏室(2°C - 8°C)，遠離冷卻裝置。 使用中或攜帶作為備品：存放於30°C以下之環境中，或存放在冰箱中(2°C-8°C)，可保存四星期。 請勿冷凍。 不使用時應將NovoRapid® FlexPen®的筆蓋蓋上以避光。 NovoRapid® 應避免接觸過多的熱與光。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n丟棄處理與使用之特別注意事項 針頭與NovoRapid® FlexPen® 絕不可與他人共用。 此卡式管絕不可再充填。 當NovoRapid®未呈現澄清無色或曾遭冷凍時請勿使用。 應建議病人在每次注射後丟棄針頭。 NovoRapid®可使用於輸注幫浦系統(CSII)如描述於“投予方式”。以polyethylene或polyolefin為內徑表面材質之管路已被評估並認定適於幫浦使用。 一旦目前的NovoRapid® 使用者有緊急情況時(住院或胰島素注射筆故障)，可使用U100 胰島素針筒自FlexPen®中抽取NovoRapid® 。 諾和瑞®, 諾易筆®, NovoRapid®, FlexPen®, NovoFine®, NovoTwist® 是Novo Nordisk A/S, Denmark擁有之商標。 © 2021 藥商 台灣諾和諾德藥品股份有限公司 電話02-7704-9988 傳真02-2377-0111 網址www.novonordisk.com.tw",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "Novo Nordisk Producao Farmaceutica do Brasil Ltda",
+          "address": "Avenida C, 1413-Distrito Industrial – Montes Claros, Minas Gerais, Brazil 39404-004"
+        },
+        {
+          "number": "2",
+          "name": "Novo Nordisk Production SAS",
+          "address": "45, Avenue d’Orleans, F-28000 Chartres, France"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "NOVO NORDISK A/S",
+          "address": "Hallas Alle 1, DK-4400 Kalundborg, Denmark"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣諾和諾德藥品股份有限公司",
+          "address": "台北市大安區敦化南路2段207號10樓"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:57:29.968531+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "21000007",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署罕藥製字第000007號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署罕藥製字第000007號",
+      "matched_license_code": "21000007",
+      "matched_nhi_code": "",
+      "drug_name_zh": "鋅卡膠囊50毫克",
+      "drug_name_en": "ZINCA CAPSULES 50MG",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-09-16",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "鋅卡膠囊之主成分是帶二個水分子(2H2O)之醋酸鋅鹽(Zinc acetate)，對威爾森氏症患者，用於抑制銅的吸收作用。醋酸鋅鹽(Zinc acetate)之分子式：C4H6O4Zn-2H2O，分子量：219.51，為白色結晶或顆粒狀，易溶於水及煮沸的酒精，但微溶於酒精。",
+          "content_html": "<p>鋅卡膠囊之主成分是帶二個水分子(2H<sub>2</sub>O)之醋酸鋅鹽(Zinc acetate)，對威爾森氏症患者，用於抑制銅的吸收作用。醋酸鋅鹽(Zinc acetate)之分子式：C<sub>4</sub>H<sub>6</sub>O<sub>4</sub>Zn-2H<sub>2</sub>O，分子量：219.51，為白色結晶或顆粒狀，易溶於水及煮沸的酒精，但微溶於酒精。</p>",
+          "search_text": "1\n性狀\n鋅卡膠囊之主成分是帶二個水分子(2H2O)之醋酸鋅鹽(Zinc acetate)，對威爾森氏症患者，用於抑制銅的吸收作用。醋酸鋅鹽(Zinc acetate)之分子式：C4H6O4Zn-2H2O，分子量：219.51，為白色結晶或顆粒狀，易溶於水及煮沸的酒精，但微溶於酒精。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Zinca膠囊25 mg：每顆鋅卡膠囊含相當於25 mg的鋅(Zn) Zinca膠囊50 mg：每顆鋅卡膠囊含相當於50 mg的鋅(Zn)。",
+          "content_html": "<p><strong>Zinca膠囊25 mg：每顆鋅卡膠囊含相當於25 mg的鋅(Zn)</strong></p><p><strong>Zinca膠囊50 mg：每顆鋅卡膠囊含相當於50 mg的鋅(Zn)。</strong></p>",
+          "search_text": "1.1\n有效成分及含量\nZinca膠囊25 mg：每顆鋅卡膠囊含相當於25 mg的鋅(Zn) Zinca膠囊50 mg：每顆鋅卡膠囊含相當於50 mg的鋅(Zn)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "25 mg：Lactose, Microcrystalline Cellulose, Sodium Starch Glycolate, Talc, Gelatin, Titanium dioxide, Brilliant Blue 50 mg：Microcrystalline Cellulose, Magnesium Stearate, Gelatin, Titanium dioxide, Sunset Yellow.",
+          "content_html": "<p>25 mg：Lactose, Microcrystalline Cellulose, Sodium Starch Glycolate, Talc,\nGelatin, Titanium dioxide, Brilliant Blue</p><p>50 mg：Microcrystalline Cellulose, Magnesium Stearate, Gelatin, Titanium\ndioxide, Sunset Yellow.</p>",
+          "search_text": "1.2\n賦形劑\n25 mg：Lactose, Microcrystalline Cellulose, Sodium Starch Glycolate, Talc, Gelatin, Titanium dioxide, Brilliant Blue 50 mg：Microcrystalline Cellulose, Magnesium Stearate, Gelatin, Titanium dioxide, Sunset Yellow.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "膠囊劑",
+          "content_html": "<p>膠囊劑</p>",
+          "search_text": "1.3\n劑型\n膠囊劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "Zinca膠囊25 mg：膠囊殼體和殼蓋為不透明藍色，印 ZINCA25。內容物為白色至類白色粉末。 Zinca膠囊50 mg：膠囊殼體和殼蓋為不透明橘色，印 ZINCA50。內容物為白色至類白色粉末。",
+          "content_html": "<p>Zinca膠囊25 mg：膠囊殼體和殼蓋為不透明藍色，印 ZINCA25。內容物為白色至類白色粉末。</p><p>Zinca膠囊50 mg：膠囊殼體和殼蓋為不透明橘色，印 ZINCA50。內容物為白色至類白色粉末。</p>",
+          "search_text": "1.4\n藥品外觀\nZinca膠囊25 mg：膠囊殼體和殼蓋為不透明藍色，印 ZINCA25。內容物為白色至類白色粉末。 Zinca膠囊50 mg：膠囊殼體和殼蓋為不透明橘色，印 ZINCA50。內容物為白色至類白色粉末。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "用於威爾森氏症(Wilson’s Disease)之維持治療，患者應已先使用過螯合劑治療。",
+          "content_html": "<p>用於威爾森氏症(Wilson’s Disease)之維持治療，患者應已先使用過螯合劑治療。</p>",
+          "search_text": "2\n適應症\n用於威爾森氏症(Wilson’s Disease)之維持治療，患者應已先使用過螯合劑治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "本藥品須由醫師處方使用 50 mg：成人建議劑量：每天三次，每次一顆膠囊(含50 mg鋅)(參見臨床試驗資料)。 25 mg： 成人建議劑量：每天三次，每次二顆膠囊(每顆含25 mg鋅)。 1-6歲兒童：一天二次，每次25 mg鋅。 6-16歲兒童： 體重低於57 kg，一天三次，每次25 mg鋅。 體重高於57 kg，一天三次，每次50 mg鋅。 16-18歲兒童：一天三次，每次50 mg鋅。 患者須空腹時口服鋅卡膠囊(Zinca Capsules)，至少應於飯前一小時以上或飯後2-3小時以後才可服用。﻿",
+          "content_html": "<p>本藥品須由醫師處方使用</p><p>50 mg：成人建議劑量：每天三次，每次一顆膠囊(含50 mg鋅)(參見<strong>臨床試驗資料</strong>)。</p><p>25 mg：<br><u>成人建議劑量</u>：每天三次，每次二顆膠囊(每顆含25 mg鋅)。<br><u>1-6歲兒童</u>：一天二次，每次25 mg鋅。<br><u>6-16歲兒童</u>：<br>體重低於57 kg，一天三次，每次25 mg鋅。<br>體重高於57 kg，一天三次，每次50 mg鋅。<br><u>16-18歲兒童</u>：一天三次，每次50 mg鋅。</p><p>患者須空腹時口服鋅卡膠囊(Zinca Capsules)，至少應於飯前一小時以上或飯後2-3小時以後才可服用。﻿</p>",
+          "search_text": "3.1\n用法用量\n本藥品須由醫師處方使用 50 mg：成人建議劑量：每天三次，每次一顆膠囊(含50 mg鋅)(參見臨床試驗資料)。 25 mg： 成人建議劑量：每天三次，每次二顆膠囊(每顆含25 mg鋅)。 1-6歲兒童：一天二次，每次25 mg鋅。 6-16歲兒童： 體重低於57 kg，一天三次，每次25 mg鋅。 體重高於57 kg，一天三次，每次50 mg鋅。 16-18歲兒童：一天三次，每次50 mg鋅。 患者須空腹時口服鋅卡膠囊(Zinca Capsules)，至少應於飯前一小時以上或飯後2-3小時以後才可服用。﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "已知對配方中任何成分過敏者為禁忌",
+          "content_html": "<p>已知對配方中任何成分過敏者為禁忌</p>",
+          "search_text": "4\n禁忌\n已知對配方中任何成分過敏者為禁忌",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "Zinc Acetate不建議用於有症狀病人的起始治療，因為鋅促進腸內攜銅蛋白(metallothionein)增加，而阻斷銅的吸收作用較為緩慢。有症狀的病人應先使用螯合劑作為起始治療。在治療初期，病人會因儲存的銅被移出，使其神經系統的症狀有加重的現象。當起始治療完成後，病人在臨床狀態呈現適度的穩定後，就可考慮使用Zinc acetate作為持續治療，但如病人又出現臨床症狀，則可能須要再回到原來的起始治療。",
+          "content_html": "<p>Zinc Acetate不建議用於有症狀病人的起始治療，因為鋅促進腸內攜銅蛋白(metallothionein)增加，而阻斷銅的吸收作用較為緩慢。有症狀的病人應先使用螯合劑作為起始治療。在治療初期，病人會因儲存的銅被移出，使其神經系統的症狀有加重的現象。當起始治療完成後，病人在臨床狀態呈現適度的穩定後，就可考慮使用Zinc acetate作為持續治療，但如病人又出現臨床症狀，則可能須要再回到原來的起始治療。</p>",
+          "search_text": "5.1\n警語/注意事項\nZinc Acetate不建議用於有症狀病人的起始治療，因為鋅促進腸內攜銅蛋白(metallothionein)增加，而阻斷銅的吸收作用較為緩慢。有症狀的病人應先使用螯合劑作為起始治療。在治療初期，病人會因儲存的銅被移出，使其神經系統的症狀有加重的現象。當起始治療完成後，病人在臨床狀態呈現適度的穩定後，就可考慮使用Zinc acetate作為持續治療，但如病人又出現臨床症狀，則可能須要再回到原來的起始治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "Zinc acetate並不會造成藥物濫用，與其他可能引起濫用之已知藥物在藥理作用上，或在化學結構上也沒有任何關連。",
+          "content_html": "<p>Zinc acetate並不會造成藥物濫用，與其他可能引起濫用之已知藥物在藥理作用上，或在化學結構上也沒有任何關連。</p>",
+          "search_text": "5.2\n藥物濫用及依賴性\nZinc acetate並不會造成藥物濫用，與其他可能引起濫用之已知藥物在藥理作用上，或在化學結構上也沒有任何關連。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "患者首要被監測的是評估威爾森氏症現有的各項徵兆與症狀，及檢驗24小時中尿中的銅含量，神經精神症狀方面的評估，則包括說話，以及肝功能試驗例如：膽紅素、氨基轉移酵素應適時完成檢測和評估。當患者不再以螯合劑治療時，由尿液中所排除的銅含量，可準確地反應出身體中含銅的狀態，以螯合劑治療如：penicillamine或trientine時，臨床醫師應知道尿液中銅的含量會增加。適當的鋅治療，也會減少尿中銅的排泄為125 μg/day或更低，明顯的趨勢顯示銅的控制瀕臨失去。“非血漿銅藍蛋白”(non-ceruloplasmin)的銅，或稱為“游離銅”，是由血中總銅量扣除血漿銅藍蛋白的結合銅；每毫克血漿銅藍蛋白含3 μg的銅。在美國的研究顯示，“非血漿銅藍蛋白”血中銅濃度必須保持低於20 μg/dL，應以不含銅的容器收集血液和尿液，再以儀器準確地測出銅濃度應保持低於0.01 μg/mL。另外一種監測的方法是口服投予64Cu，1或2小時後，測量血中64Cu放射活性量，對適當控制的患者，應低於投予量之1.2%。肝臟中的含銅量是不能作為治療指標的，因為它無法區別是有毒害的游離銅或安全的結合銅。對所有接受治療的患者，檢驗其24小時尿液中鋅的含量，可作為調整Zinc acetate用藥劑量的指標，和瞭解病人是否按時服藥的依據。﻿﻿",
+          "content_html": "<p>患者首要被監測的是評估威爾森氏症現有的各項徵兆與症狀，及檢驗24小時中尿中的銅含量，神經精神症狀方面的評估，則包括說話，以及肝功能試驗例如：膽紅素、氨基轉移酵素應適時完成檢測和評估。當患者不再以螯合劑治療時，由尿液中所排除的銅含量，可準確地反應出身體中含銅的狀態，以螯合劑治療如：penicillamine或trientine時，臨床醫師應知道尿液中銅的含量會增加。適當的鋅治療，也會減少尿中銅的排泄為125 μg/day或更低，明顯的趨勢顯示銅的控制瀕臨失去。“非血漿銅藍蛋白”(non-ceruloplasmin)的銅，或稱為“游離銅”，是由血中總銅量扣除血漿銅藍蛋白的結合銅；每毫克血漿銅藍蛋白含3 μg的銅。在美國的研究顯示，“非血漿銅藍蛋白”血中銅濃度必須保持低於20 μg/dL，應以不含銅的容器收集血液和尿液，再以儀器準確地測出銅濃度應保持低於0.01 μg/mL。另外一種監測的方法是口服投予<sup>64</sup>Cu，1或2小時後，測量血中<sup>64</sup>Cu放射活性量，對適當控制的患者，應低於投予量之1.2%。肝臟中的含銅量是不能作為治療指標的，因為它無法區別是有毒害的游離銅或安全的結合銅。對所有接受治療的患者，檢驗其24小時尿液中鋅的含量，可作為調整Zinc acetate用藥劑量的指標，和瞭解病人是否按時服藥的依據。﻿﻿</p>",
+          "search_text": "5.4\n實驗室檢測\n患者首要被監測的是評估威爾森氏症現有的各項徵兆與症狀，及檢驗24小時中尿中的銅含量，神經精神症狀方面的評估，則包括說話，以及肝功能試驗例如：膽紅素、氨基轉移酵素應適時完成檢測和評估。當患者不再以螯合劑治療時，由尿液中所排除的銅含量，可準確地反應出身體中含銅的狀態，以螯合劑治療如：penicillamine或trientine時，臨床醫師應知道尿液中銅的含量會增加。適當的鋅治療，也會減少尿中銅的排泄為125 μg/day或更低，明顯的趨勢顯示銅的控制瀕臨失去。“非血漿銅藍蛋白”(non-ceruloplasmin)的銅，或稱為“游離銅”，是由血中總銅量扣除血漿銅藍蛋白的結合銅；每毫克血漿銅藍蛋白含3 μg的銅。在美國的研究顯示，“非血漿銅藍蛋白”血中銅濃度必須保持低於20 μg/dL，應以不含銅的容器收集血液和尿液，再以儀器準確地測出銅濃度應保持低於0.01 μg/mL。另外一種監測的方法是口服投予64Cu，1或2小時後，測量血中64Cu放射活性量，對適當控制的患者，應低於投予量之1.2%。肝臟中的含銅量是不能作為治療指標的，因為它無法區別是有毒害的游離銅或安全的結合銅。對所有接受治療的患者，檢驗其24小時尿液中鋅的含量，可作為調整Zinc acetate用藥劑量的指標，和瞭解病人是否按時服藥的依據。﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "致畸胎性：孕婦安全使用等級歸列為A級。對懷孕婦女的研究顯示，任何懷孕期間的孕婦服用Zinc acetate或Zinc sulfate都不會增加致畸胎的危險性。在懷孕期間服用本藥，出現傷害胎兒的可能性極小。但由於目前所有的研究並不能排除任何傷害的可能性。因此，懷孕期間只有在明確地需要本藥治療時，才可用以治療。但如果在懷孕期間停止服用排銅的藥物治療，反而會在懷孕時引起銅中毒現象。 用Zinc sulfate對懷孕老鼠(rats)進行口服致畸胎性研究，劑量高達42.5 mg/kg/day(以體表面積計算是2倍人類建議劑量)；對小鼠(mice)劑量高達30 mg/kg/day(以體表面積計算是1倍人類建議劑量)；對兔子劑量高達60 mg/kg/day(以體表面積計算是6倍人類建議劑量)；對大鼠(hamster)劑量高達88 mg/kg/day(以體表面積計算是5倍人類建議劑量)，Zinc sulfate對胚胎都沒有發生任何傷害事件。﻿﻿﻿",
+          "content_html": "<p>致畸胎性：孕婦安全使用等級歸列為A級。對懷孕婦女的研究顯示，任何懷孕期間的孕婦服用Zinc acetate或Zinc sulfate都不會增加致畸胎的危險性。在懷孕期間服用本藥，出現傷害胎兒的可能性極小。但由於目前所有的研究並不能排除任何傷害的可能性。因此，懷孕期間只有在明確地需要本藥治療時，才可用以治療。但如果在懷孕期間停止服用排銅的藥物治療，反而會在懷孕時引起銅中毒現象。<br>用Zinc sulfate對懷孕老鼠(rats)進行口服致畸胎性研究，劑量高達42.5\nmg/kg/day(以體表面積計算是2倍人類建議劑量)；對小鼠(mice)劑量高達30\nmg/kg/day(以體表面積計算是1倍人類建議劑量)；對兔子劑量高達60\nmg/kg/day(以體表面積計算是6倍人類建議劑量)；對大鼠(hamster)劑量高達88 mg/kg/day(以體表面積計算是5倍人類建議劑量)，Zinc sulfate對胚胎都沒有發生任何傷害事件。﻿﻿﻿</p>",
+          "search_text": "6.1\n懷孕\n致畸胎性：孕婦安全使用等級歸列為A級。對懷孕婦女的研究顯示，任何懷孕期間的孕婦服用Zinc acetate或Zinc sulfate都不會增加致畸胎的危險性。在懷孕期間服用本藥，出現傷害胎兒的可能性極小。但由於目前所有的研究並不能排除任何傷害的可能性。因此，懷孕期間只有在明確地需要本藥治療時，才可用以治療。但如果在懷孕期間停止服用排銅的藥物治療，反而會在懷孕時引起銅中毒現象。 用Zinc sulfate對懷孕老鼠(rats)進行口服致畸胎性研究，劑量高達42.5 mg/kg/day(以體表面積計算是2倍人類建議劑量)；對小鼠(mice)劑量高達30 mg/kg/day(以體表面積計算是1倍人類建議劑量)；對兔子劑量高達60 mg/kg/day(以體表面積計算是6倍人類建議劑量)；對大鼠(hamster)劑量高達88 mg/kg/day(以體表面積計算是5倍人類建議劑量)，Zinc sulfate對胚胎都沒有發生任何傷害事件。﻿﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "鋅會出現於母乳中，哺餵母乳的嬰兒可能會因此發生因鋅過量而引起銅缺乏現象。所以，建議正在接受鋅治療的哺乳婦女，不要對她的嬰兒餵母奶。",
+          "content_html": "<p>鋅會出現於母乳中，哺餵母乳的嬰兒可能會因此發生因鋅過量而引起銅缺乏現象。所以，建議正在接受鋅治療的哺乳婦女，不要對她的嬰兒餵母奶。</p>",
+          "search_text": "6.2\n哺乳\n鋅會出現於母乳中，哺餵母乳的嬰兒可能會因此發生因鋅過量而引起銅缺乏現象。所以，建議正在接受鋅治療的哺乳婦女，不要對她的嬰兒餵母奶。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "Zinc Acetate並未做過對動物的長期致癌性、突變性、和對生育的傷害試驗。無論如何，在其他鋅鹽類(如Zinc oxide, Zinc stearate, Zinc sulfate等)的試驗中，以Ames assays體外試驗；人類胚胎肺細胞染色體畸變試驗，老鼠顯性致死體內試驗，以及老鼠骨髓細胞染色體畸變試驗，並未發現鋅對動物有任何突變性。 其他鋅鹽類(如Zinc oxide, Zinc chloride, Zinc citrate, Zinc maleate, Zinc carbonate, Zinc sulfate)及單純鋅粉，其口服劑量高達326 mg/kg/day (以體表面積計算是18倍人類建議劑量)，也不會影響雄鼠和雌鼠的生殖能力和生育能力。﻿﻿﻿",
+          "content_html": "<p>Zinc Acetate並未做過對動物的長期致癌性、突變性、和對生育的傷害試驗。無論如何，在其他鋅鹽類(如Zinc oxide, Zinc stearate, Zinc sulfate等)的試驗中，以Ames assays體外試驗；人類胚胎肺細胞染色體畸變試驗，老鼠顯性致死體內試驗，以及老鼠骨髓細胞染色體畸變試驗，並未發現鋅對動物有任何突變性。<br>其他鋅鹽類(如Zinc oxide, Zinc chloride, Zinc citrate, Zinc maleate, Zinc\ncarbonate, Zinc sulfate)及單純鋅粉，其口服劑量高達326 mg/kg/day (以體表面積計算是18倍人類建議劑量)，也不會影響雄鼠和雌鼠的生殖能力和生育能力。﻿﻿﻿</p>",
+          "search_text": "6.3\n有生育能力的女性與男性\nZinc Acetate並未做過對動物的長期致癌性、突變性、和對生育的傷害試驗。無論如何，在其他鋅鹽類(如Zinc oxide, Zinc stearate, Zinc sulfate等)的試驗中，以Ames assays體外試驗；人類胚胎肺細胞染色體畸變試驗，老鼠顯性致死體內試驗，以及老鼠骨髓細胞染色體畸變試驗，並未發現鋅對動物有任何突變性。 其他鋅鹽類(如Zinc oxide, Zinc chloride, Zinc citrate, Zinc maleate, Zinc carbonate, Zinc sulfate)及單純鋅粉，其口服劑量高達326 mg/kg/day (以體表面積計算是18倍人類建議劑量)，也不會影響雄鼠和雌鼠的生殖能力和生育能力。﻿﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "在二個小規模臨床試驗結果建議，年齡10歲以上兒童患者，每天給予適當鋅維持劑量介於75 mg到150 mg之間，分次服用，可得到滿意的維持效果。但對於低於10歲以下的兒童患者，則未曾研究過。",
+          "content_html": "<p>在二個小規模臨床試驗結果建議，年齡10歲以上兒童患者，每天給予適當鋅維持劑量介於75 mg到150 mg之間，分次服用，可得到滿意的維持效果。但對於低於10歲以下的兒童患者，則未曾研究過。</p>",
+          "search_text": "6.4\n小兒\n在二個小規模臨床試驗結果建議，年齡10歲以上兒童患者，每天給予適當鋅維持劑量介於75 mg到150 mg之間，分次服用，可得到滿意的維持效果。但對於低於10歲以下的兒童患者，則未曾研究過。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "對威爾森氏症患者的藥效學研究，發現Zinc acetate (每天三次，每次50 mg)與維他命C(每天1g)、penicillamine (每天1 g)、及trientine (每天1 g)之間並沒有藥物間的交互反應。因此，當威爾森氏症患者服用維他命C或服用已被核准的螯合劑時，不需擔心對Zinc acetate的作用有任何影響。但無論如何，並沒有資料顯示Zinc acetate在治療威爾森氏症患者時，需要加入其他藥品，或如此做是安全的。",
+          "content_html": "<p>對威爾森氏症患者的藥效學研究，發現Zinc acetate (每天三次，每次50 mg)與維他命C(每天1g)、penicillamine (每天1 g)、及trientine (每天1 g)之間並沒有藥物間的交互反應。因此，當威爾森氏症患者服用維他命C或服用已被核准的螯合劑時，不需擔心對Zinc acetate的作用有任何影響。但無論如何，並沒有資料顯示Zinc acetate在治療威爾森氏症患者時，需要加入其他藥品，或如此做是安全的。</p>",
+          "search_text": "7\n交互作用\n對威爾森氏症患者的藥效學研究，發現Zinc acetate (每天三次，每次50 mg)與維他命C(每天1g)、penicillamine (每天1 g)、及trientine (每天1 g)之間並沒有藥物間的交互反應。因此，當威爾森氏症患者服用維他命C或服用已被核准的螯合劑時，不需擔心對Zinc acetate的作用有任何影響。但無論如何，並沒有資料顯示Zinc acetate在治療威爾森氏症患者時，需要加入其他藥品，或如此做是安全的。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "副作用 臨床上使用Zinc acetate的經驗仍有限，威爾森氏症患者服用鋅治療時曾發生下列的副作用報吿：服用Zinc sulfate過量中毒造成一位死亡病例(參見過量)；使用Zinc sulfate作為起始治療劑曾造成一位原患有肝病和溶血危象患者的死亡病例；其他副作用則有胃不適，血中鹼性磷酸酶、澱粉酶、脂肪酶升高且持續數週至數個月，懷疑可能有胰臟炎。但在繼續鋅治療的第一或第二年內，就會回復到正常値。﻿﻿",
+          "content_html": "<p><u>副作用</u><br>臨床上使用Zinc acetate的經驗仍有限，威爾森氏症患者服用鋅治療時曾發生下列的副作用報吿：服用Zinc sulfate過量中毒造成一位死亡病例(參見<strong>過量</strong>)；使用Zinc sulfate作為起始治療劑曾造成一位原患有肝病和溶血危象患者的死亡病例；其他副作用則有胃不適，血中鹼性磷酸酶、澱粉酶、脂肪酶升高且持續數週至數個月，懷疑可能有胰臟炎。但在繼續鋅治療的第一或第二年內，就會回復到正常値。﻿﻿</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n副作用 臨床上使用Zinc acetate的經驗仍有限，威爾森氏症患者服用鋅治療時曾發生下列的副作用報吿：服用Zinc sulfate過量中毒造成一位死亡病例(參見過量)；使用Zinc sulfate作為起始治療劑曾造成一位原患有肝病和溶血危象患者的死亡病例；其他副作用則有胃不適，血中鹼性磷酸酶、澱粉酶、脂肪酶升高且持續數週至數個月，懷疑可能有胰臟炎。但在繼續鋅治療的第一或第二年內，就會回復到正常値。﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "無機鋅鹽引起急性口服過量中毒之案例極為少見。萬一發生過量中毒事件，應立即洗胃將還沒被吸收的鋅鹽儘快由胃中抽出，並應檢測血中鋅濃度，如果血中鋅濃度明顯過高(＞1000 μg/dL) 應考慮使用重金屬螯合劑治療。此外，任何中毒徵兆或症狀，都應給予適當的藥物治療。 曾有一位過量服用Zinc sulfate致死的病例報吿，這位死亡的成人婦女，意外服用了28公克的Zinc sulfate，服藥後第五天因腎衰竭而死亡，服藥過量也導致出血性胰臟炎，以及因血糖過高而昏迷，其服用Zinc sulfate的量約500 mg/kg，這個劑量若給予動物，也會引起死亡。﻿﻿﻿",
+          "content_html": "<p>無機鋅鹽引起急性口服過量中毒之案例極為少見。萬一發生過量中毒事件，應立即洗胃將還沒被吸收的鋅鹽儘快由胃中抽出，並應檢測血中鋅濃度，如果血中鋅濃度明顯過高(＞1000 μg/dL) 應考慮使用重金屬螯合劑治療。此外，任何中毒徵兆或症狀，都應給予適當的藥物治療。<br>曾有一位過量服用Zinc sulfate致死的病例報吿，這位死亡的成人婦女，意外服用了28公克的Zinc sulfate，服藥後第五天因腎衰竭而死亡，服藥過量也導致出血性胰臟炎，以及因血糖過高而昏迷，其服用Zinc sulfate的量約500 mg/kg，這個劑量若給予動物，也會引起死亡。﻿﻿﻿</p>",
+          "search_text": "9\n過量\n無機鋅鹽引起急性口服過量中毒之案例極為少見。萬一發生過量中毒事件，應立即洗胃將還沒被吸收的鋅鹽儘快由胃中抽出，並應檢測血中鋅濃度，如果血中鋅濃度明顯過高(＞1000 μg/dL) 應考慮使用重金屬螯合劑治療。此外，任何中毒徵兆或症狀，都應給予適當的藥物治療。 曾有一位過量服用Zinc sulfate致死的病例報吿，這位死亡的成人婦女，意外服用了28公克的Zinc sulfate，服藥後第五天因腎衰竭而死亡，服藥過量也導致出血性胰臟炎，以及因血糖過高而昏迷，其服用Zinc sulfate的量約500 mg/kg，這個劑量若給予動物，也會引起死亡。﻿﻿﻿",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Zinc Acetate之活性部份為鋅的陽離子，鋅阻斷了食物中的銅在小腸的吸收作用，及阻斷來自唾液、胃液、與膽汁的內生性銅的再吸收作用。鋅能促進腸細胞分泌攜銅蛋白(metallothionein)，攜銅蛋白能與游離銅結合，以避免銅自漿膜轉移(Serosal transfer)至血液中，隨著腸細胞的脫落，結合銅就會隨著糞便排出體外。",
+          "content_html": "<p>Zinc Acetate之活性部份為鋅的陽離子，鋅阻斷了食物中的銅在小腸的吸收作用，及阻斷來自唾液、胃液、與膽汁的內生性銅的再吸收作用。鋅能促進腸細胞分泌攜銅蛋白(metallothionein)，攜銅蛋白能與游離銅結合，以避免銅自漿膜轉移(Serosal\ntransfer)至血液中，隨著腸細胞的脫落，結合銅就會隨著糞便排出體外。</p>",
+          "search_text": "10.1\n作用機轉\nZinc Acetate之活性部份為鋅的陽離子，鋅阻斷了食物中的銅在小腸的吸收作用，及阻斷來自唾液、胃液、與膽汁的內生性銅的再吸收作用。鋅能促進腸細胞分泌攜銅蛋白(metallothionein)，攜銅蛋白能與游離銅結合，以避免銅自漿膜轉移(Serosal transfer)至血液中，隨著腸細胞的脫落，結合銅就會隨著糞便排出體外。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "簡介：威爾森氏症為體染色體隱性遺傳之代謝異常疾病，導致肝臟分泌銅(Cu)於膽汁中的功能受損，結果肝中銅過量堆積，繼而影響其他器官功能包括：腦、腎、眼睛、骨骼及肌肉等。這類威爾森氏症病患者，由於肝細胞儲存過多的銅(Cu)，過量的銅(Cu)會釋放於血液中，由肝臟以外的部位吸收，例如：腦，結果造成動作障礙(如：運動失調、震顫、說話困難等)，及精神異常症狀(如：情緒暴躁、憂鬱、工作表現退步等)。過量的銅(Cu)再分佈於肝細胞，引起肝細胞損傷、發炎、壞死，乃至於最後導至肝硬化。臨床上，威爾森氏症患者主要呈現有肝臟、神經系統或精神方面的症狀。 治療這類疾病主要是在飮食上限制銅(Cu)的攝取，及使用螯合劑與游離銅結合，以減低銅的毒性及促進銅的排除。先用螯合劑對有症狀的患者作起始治療，其目的在緩解銅的毒性，一旦患者在臨床上的症狀呈現穩定狀態，即可使用本品做為維持治療，臨床評估可用來確認患者的病情是否已呈現穩定的狀態(參見實驗室檢測)。﻿﻿﻿",
+          "content_html": "<p>簡介：威爾森氏症為體染色體隱性遺傳之代謝異常疾病，導致肝臟分泌銅(Cu)於膽汁中的功能受損，結果肝中銅過量堆積，繼而影響其他器官功能包括：腦、腎、眼睛、骨骼及肌肉等。這類威爾森氏症病患者，由於肝細胞儲存過多的銅(Cu)，過量的銅(Cu)會釋放於血液中，由肝臟以外的部位吸收，例如：腦，結果造成動作障礙(如：運動失調、震顫、說話困難等)，及精神異常症狀(如：情緒暴躁、憂鬱、工作表現退步等)。過量的銅(Cu)再分佈於肝細胞，引起肝細胞損傷、發炎、壞死，乃至於最後導至肝硬化。臨床上，威爾森氏症患者主要呈現有肝臟、神經系統或精神方面的症狀。<br>治療這類疾病主要是在飮食上限制銅(Cu)的攝取，及使用螯合劑與游離銅結合，以減低銅的毒性及促進銅的排除。先用螯合劑對有症狀的患者作起始治療，其目的在緩解銅的毒性，一旦患者在臨床上的症狀呈現穩定狀態，即可使用本品做為維持治療，臨床評估可用來確認患者的病情是否已呈現穩定的狀態(參見<strong>實驗室檢測</strong>)。﻿﻿﻿</p>",
+          "search_text": "10.2\n藥效藥理特性\n簡介：威爾森氏症為體染色體隱性遺傳之代謝異常疾病，導致肝臟分泌銅(Cu)於膽汁中的功能受損，結果肝中銅過量堆積，繼而影響其他器官功能包括：腦、腎、眼睛、骨骼及肌肉等。這類威爾森氏症病患者，由於肝細胞儲存過多的銅(Cu)，過量的銅(Cu)會釋放於血液中，由肝臟以外的部位吸收，例如：腦，結果造成動作障礙(如：運動失調、震顫、說話困難等)，及精神異常症狀(如：情緒暴躁、憂鬱、工作表現退步等)。過量的銅(Cu)再分佈於肝細胞，引起肝細胞損傷、發炎、壞死，乃至於最後導至肝硬化。臨床上，威爾森氏症患者主要呈現有肝臟、神經系統或精神方面的症狀。 治療這類疾病主要是在飮食上限制銅(Cu)的攝取，及使用螯合劑與游離銅結合，以減低銅的毒性及促進銅的排除。先用螯合劑對有症狀的患者作起始治療，其目的在緩解銅的毒性，一旦患者在臨床上的症狀呈現穩定狀態，即可使用本品做為維持治療，臨床評估可用來確認患者的病情是否已呈現穩定的狀態(參見實驗室檢測)。﻿﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尙無資訊",
+          "content_html": "<p>目前尙無資訊</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尙無資訊",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "藥物動力學： 因為鋅的作用部位在影響銅吸收的腸細胞上，測量血中鋅含量的藥物動力學評估，對作用部位鋅的生體可用率，並不能提供有用的資訊。口服投予Zinc acetate後，檢測肝臟中鋅的含量與血液中鋅的濃度，兩者的結果並不一致。然而，食物與飮料對健康自願的受試者都顯示會減少鋅的吸收，因此會減少血中鋅的濃度。因此，口服鋅卡膠囊時，除水外，應與食物及飮料相隔至少一小時服用。 藥效學： 在藥效學研究上，曾用過的方法包括：對威爾森氏症患者單純銅平衡之測定及應用標示放射性銅的吸收作用。這些研究顯示，當劑量為每天三次，每次50 mg之Zinc acetate對威爾森氏症患者之治療是有效的，獲得到銅平衡之負平均値為(-0.44 mg/天)，及令人滿意的銅平均値64Cu (0.82%投予劑量)；若劑量為每天三次，每次25 mg之Zinc acetate也有效果，但是使用此較低劑量的患者較少。﻿﻿",
+          "content_html": "<p><u>藥物動力學</u>：<br>因為鋅的作用部位在影響銅吸收的腸細胞上，測量血中鋅含量的藥物動力學評估，對作用部位鋅的生體可用率，並不能提供有用的資訊。口服投予Zinc acetate後，檢測肝臟中鋅的含量與血液中鋅的濃度，兩者的結果並不一致。然而，食物與飮料對健康自願的受試者都顯示會減少鋅的吸收，因此會減少血中鋅的濃度。因此，口服鋅卡膠囊時，除水外，應與食物及飮料相隔至少一小時服用。</p><p><u>藥效學</u>：<br>在藥效學研究上，曾用過的方法包括：對威爾森氏症患者單純銅平衡之測定及應用標示放射性銅的吸收作用。這些研究顯示，當劑量為每天三次，每次50 mg之Zinc\nacetate對威爾森氏症患者之治療是有效的，獲得到銅平衡之負平均値為(-0.44 mg/天)，及令人滿意的銅平均値<sup>64</sup>Cu (0.82%投予劑量)；若劑量為每天三次，每次25 mg之Zinc acetate也有效果，但是使用此較低劑量的患者較少。﻿﻿</p>",
+          "search_text": "11\n藥物動力學特性\n藥物動力學： 因為鋅的作用部位在影響銅吸收的腸細胞上，測量血中鋅含量的藥物動力學評估，對作用部位鋅的生體可用率，並不能提供有用的資訊。口服投予Zinc acetate後，檢測肝臟中鋅的含量與血液中鋅的濃度，兩者的結果並不一致。然而，食物與飮料對健康自願的受試者都顯示會減少鋅的吸收，因此會減少血中鋅的濃度。因此，口服鋅卡膠囊時，除水外，應與食物及飮料相隔至少一小時服用。 藥效學： 在藥效學研究上，曾用過的方法包括：對威爾森氏症患者單純銅平衡之測定及應用標示放射性銅的吸收作用。這些研究顯示，當劑量為每天三次，每次50 mg之Zinc acetate對威爾森氏症患者之治療是有效的，獲得到銅平衡之負平均値為(-0.44 mg/天)，及令人滿意的銅平均値64Cu (0.82%投予劑量)；若劑量為每天三次，每次25 mg之Zinc acetate也有效果，但是使用此較低劑量的患者較少。﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "在美國單一中心作臨床試驗，60位威爾森氏症患者參加本試驗(男性31位，女性29位)。最初以螯合劑作起始治療之後，銅中毒獲得適度的緩解後，再以各種劑量的Zinc acetate治療，以研究對銅平衡的影響；患者需住院才能小心的控制食物與飮料的攝取。十天內，由患者食物、尿液、以及糞便來分析銅含量，由銅的攝取量與銅的排出量之間的差異計算銅的平衡値。假如患者銅的平衡値每天低於+0.25 mg，就被認為結果是令人滿意的，每組試驗的個別結果如下表所示： 劑量控制 (鋅毫克數 X 每天服用次數) N* 試驗總病人數 平均銅平衡值 (毫克/天) 不理想病人數/ 試驗總病人數 50 x 3 70 -0.36 6/70 50 x 2 5 -0.16 0/5 25 x 4 5 -0.21 0/5 25 x 3 11 -0.18 1/11 37.5 x 2 4 -0.02 1/4 75 x 1 8 0.16 2/8 25 x 2 4 0.15 1/4 25 x 1 10 -0.37 2/10 25 x 6 12 0.05 4/12 50 x 1 1 0.1 0/1 50 x 5 11 -0.3 1/11 0 6 0.52 - N*表示銅平衡試驗數目，有些病人由於使用不同的劑量，或使用相同劑量，但經歷不同的試驗期間，因此有一個以上的平衡値。臨床試驗結果顯示接受Zinc acetate治療者比沒有接受治療者效果更好，除了每天三次，每次50 mg的劑量外，使用其他劑量的使用經驗很少。在許多個案中，一天只給藥一次，或患者不能順從醫師的指示用藥，其結果都不能得到滿意的控制。根據每天使用三次，每次25 mg劑量有限的臨床數據，被認為也是有效的用法用量，並不比每天使用三次，每次50 mg劑量所顯現的結果差，在本臨床試驗中，並未發生任何與劑量相關的副作用。 對先以螯合劑做有症狀患者起始治療的治療結果： 當患者持續以適當Zinc acetate劑量治療，須評估之臨床參數例如：神經精神狀態包括：說話評估，及肝功能試驗等。133位患者持續被追蹤14年，神經精神狀態包括說話評估，及肝功能試驗生化値包括：膽紅素、氨基轉移酵素、鹼性磷酸酶、乳酸去氫酵素等値，都沒有變壞。經9年以上的治療，其肝功能試驗仍保持在正常値以內或稍微高於正常値。 對尚未有症狀之患者的治療結果： 本臨床試驗是針對30位尙未有症狀前之患者追蹤10年以上的研究，尙未有症狀前之患者的診斷，是以肝臟每公克組織乾重含銅量大於200 μg為依據。對”非血漿銅藍蛋白”(non-ceruloplasmin)値，64Cu平衡研究，及臨床參數評估。這群參與試驗的患者，都沒有發生威爾森氏症的臨床症狀。由於威爾森氏症基因病變的定序及解碼，許多突變被證實可能影響疾病發展的速率。過去既沒有任何相符的對照組做比較，也沒有其他中心重複做過本臨床試驗。 在荷蘭有一個使用Zinc sulfate的臨床研究，對27位患者追蹤29年，評估其主要臨床參數如：顫抖、口齒不淸(dysarthria)、肌緊張異常(dystonia)、運動失調(ataxia)、眼球K-F氏環(Kayser-Fleischer rings) 等，發現這些臨床症狀並沒有變壞；甚至有些個案，眼球K-F氏環(Kayser-Fleischer rings)症狀消失了，其他臨床徵兆與症狀也都有改善。﻿﻿",
+          "content_html": "<p>在美國單一中心作臨床試驗，60位威爾森氏症患者參加本試驗(男性31位，女性29位)。最初以螯合劑作起始治療之後，銅中毒獲得適度的緩解後，再以各種劑量的Zinc acetate治療，以研究對銅平衡的影響；患者需住院才能小心的控制食物與飮料的攝取。十天內，由患者食物、尿液、以及糞便來分析銅含量，由銅的攝取量與銅的排出量之間的差異計算銅的平衡値。假如患者銅的平衡値每天低於+0.25 mg，就被認為結果是令人滿意的，每組試驗的個別結果如下表所示：</p><figure class=\"table\"><table><tbody><tr><td style=\"border: 1pt solid windowtext; padding: 0cm 5.4pt; vertical-align: top; width: 33.4328%; text-align: left;\"><p>劑量控制</p><p>(鋅毫克數 X&nbsp;每天服用次數) N*</p></td><td style=\"border-style: solid solid solid none; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top; width: 14.4776%;\"><p style=\"text-align:center;\">試驗總病人數</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">平均銅平衡值</p><p style=\"text-align:center;\">(毫克/天)</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">不理想病人數/</p><p style=\"text-align:center;\">試驗總病人數</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">50 x 3</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">70</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.36</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">6/70</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">50 x 2</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.16</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0/5</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">25 x 4</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">5</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.21</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0/5</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">25 x 3</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">11</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.18</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">1/11</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">37.5 x 2</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">4</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.02</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">1/4</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">75 x 1</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">8</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0.16</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">2/8</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">25 x 2</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">4</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0.15</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">1/4</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">25 x 1</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">10</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.37</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">2/10</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">25 x 6</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">12</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0.05</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">4/12</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">50 x 1</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0.1</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0/1</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">50 x 5</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">11</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-0.3</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">1/11</p></td></tr><tr><td style=\"border-style: none solid solid; border-color: windowtext; border-width: 1pt; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">0</p></td><td style=\"border-bottom: 1pt solid windowtext; border-left-style: none; border-right: 1pt solid windowtext; border-top-style: none; padding: 0cm 5.4pt; vertical-align: top;\"><p style=\"text-align:center;\">6</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">0.52</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:130.7pt;\"><p style=\"text-align:center;\">-</p></td></tr></tbody></table></figure><p>N*表示銅平衡試驗數目，有些病人由於使用不同的劑量，或使用相同劑量，但經歷不同的試驗期間，因此有一個以上的平衡値。臨床試驗結果顯示接受Zinc acetate治療者比沒有接受治療者效果更好，除了每天三次，每次50 mg的劑量外，使用其他劑量的使用經驗很少。在許多個案中，一天只給藥一次，或患者不能順從醫師的指示用藥，其結果都不能得到滿意的控制。根據每天使用三次，每次25 mg劑量有限的臨床數據，被認為也是有效的用法用量，並不比每天使用三次，每次50 mg劑量所顯現的結果差，在本臨床試驗中，並未發生任何與劑量相關的副作用。</p><p><u>對先以螯合劑做有症狀患者起始治療的治療結果</u>：<br>當患者持續以適當Zinc acetate劑量治療，須評估之臨床參數例如：神經精神狀態包括：說話評估，及肝功能試驗等。133位患者持續被追蹤14年，神經精神狀態包括說話評估，及肝功能試驗生化値包括：膽紅素、氨基轉移酵素、鹼性磷酸酶、乳酸去氫酵素等値，都沒有變壞。經9年以上的治療，其肝功能試驗仍保持在正常値以內或稍微高於正常値。</p><p><u>對尚未有症狀之患者的治療結果</u>：<br>本臨床試驗是針對30位尙未有症狀前之患者追蹤10年以上的研究，尙未有症狀前之患者的診斷，是以肝臟每公克組織乾重含銅量大於200 μg為依據。對”非血漿銅藍蛋白”(non-ceruloplasmin)値，<sup>64</sup>Cu平衡研究，及臨床參數評估。這群參與試驗的患者，都沒有發生威爾森氏症的臨床症狀。由於威爾森氏症基因病變的定序及解碼，許多突變被證實可能影響疾病發展的速率。過去既沒有任何相符的對照組做比較，也沒有其他中心重複做過本臨床試驗。<br>在荷蘭有一個使用Zinc sulfate的臨床研究，對27位患者追蹤29年，評估其主要臨床參數如：顫抖、口齒不淸(dysarthria)、肌緊張異常(dystonia)、運動失調(ataxia)、眼球K-F氏環(Kayser-Fleischer rings) 等，發現這些臨床症狀並沒有變壞；甚至有些個案，眼球K-F氏環(Kayser-Fleischer rings)症狀消失了，其他臨床徵兆與症狀也都有改善。﻿﻿</p>",
+          "search_text": "12\n臨床試驗資料\n在美國單一中心作臨床試驗，60位威爾森氏症患者參加本試驗(男性31位，女性29位)。最初以螯合劑作起始治療之後，銅中毒獲得適度的緩解後，再以各種劑量的Zinc acetate治療，以研究對銅平衡的影響；患者需住院才能小心的控制食物與飮料的攝取。十天內，由患者食物、尿液、以及糞便來分析銅含量，由銅的攝取量與銅的排出量之間的差異計算銅的平衡値。假如患者銅的平衡値每天低於+0.25 mg，就被認為結果是令人滿意的，每組試驗的個別結果如下表所示： 劑量控制 (鋅毫克數 X 每天服用次數) N* 試驗總病人數 平均銅平衡值 (毫克/天) 不理想病人數/ 試驗總病人數 50 x 3 70 -0.36 6/70 50 x 2 5 -0.16 0/5 25 x 4 5 -0.21 0/5 25 x 3 11 -0.18 1/11 37.5 x 2 4 -0.02 1/4 75 x 1 8 0.16 2/8 25 x 2 4 0.15 1/4 25 x 1 10 -0.37 2/10 25 x 6 12 0.05 4/12 50 x 1 1 0.1 0/1 50 x 5 11 -0.3 1/11 0 6 0.52 - N*表示銅平衡試驗數目，有些病人由於使用不同的劑量，或使用相同劑量，但經歷不同的試驗期間，因此有一個以上的平衡値。臨床試驗結果顯示接受Zinc acetate治療者比沒有接受治療者效果更好，除了每天三次，每次50 mg的劑量外，使用其他劑量的使用經驗很少。在許多個案中，一天只給藥一次，或患者不能順從醫師的指示用藥，其結果都不能得到滿意的控制。根據每天使用三次，每次25 mg劑量有限的臨床數據，被認為也是有效的用法用量，並不比每天使用三次，每次50 mg劑量所顯現的結果差，在本臨床試驗中，並未發生任何與劑量相關的副作用。 對先以螯合劑做有症狀患者起始治療的治療結果： 當患者持續以適當Zinc acetate劑量治療，須評估之臨床參數例如：神經精神狀態包括：說話評估，及肝功能試驗等。133位患者持續被追蹤14年，神經精神狀態包括說話評估，及肝功能試驗生化値包括：膽紅素、氨基轉移酵素、鹼性磷酸酶、乳酸去氫酵素等値，都沒有變壞。經9年以上的治療，其肝功能試驗仍保持在正常値以內或稍微高於正常値。 對尚未有症狀之患者的治療結果： 本臨床試驗是針對30位尙未有症狀前之患者追蹤10年以上的研究，尙未有症狀前之患者的診斷，是以肝臟每公克組織乾重含銅量大於200 μg為依據。對”非血漿銅藍蛋白”(non-ceruloplasmin)値，64Cu平衡研究，及臨床參數評估。這群參與試驗的患者，都沒有發生威爾森氏症的臨床症狀。由於威爾森氏症基因病變的定序及解碼，許多突變被證實可能影響疾病發展的速率。過去既沒有任何相符的對照組做比較，也沒有其他中心重複做過本臨床試驗。 在荷蘭有一個使用Zinc sulfate的臨床研究，對27位患者追蹤29年，評估其主要臨床參數如：顫抖、口齒不淸(dysarthria)、肌緊張異常(dystonia)、運動失調(ataxia)、眼球K-F氏環(Kayser-Fleischer rings) 等，發現這些臨床症狀並沒有變壞；甚至有些個案，眼球K-F氏環(Kayser-Fleischer rings)症狀消失了，其他臨床徵兆與症狀也都有改善。﻿﻿",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "鋅卡膠囊25毫克：12-1000粒/塑膠瓶裝 鋅卡膠囊50毫克：6-1000粒/塑膠瓶裝",
+          "content_html": "<p>鋅卡膠囊25毫克：12-1000粒/塑膠瓶裝</p><p>鋅卡膠囊50毫克：6-1000粒/塑膠瓶裝</p>",
+          "search_text": "13.1\n包裝\n鋅卡膠囊25毫克：12-1000粒/塑膠瓶裝 鋅卡膠囊50毫克：6-1000粒/塑膠瓶裝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示",
+          "content_html": "<p>如外包裝所示</p>",
+          "search_text": "13.2\n效期\n如外包裝所示",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "應存放於室溫25°C以下陰涼乾燥處，避免陽光直接照射。",
+          "content_html": "<p>應存放於室溫25°C以下陰涼乾燥處，避免陽光直接照射。</p>",
+          "search_text": "13.3\n儲存條件\n應存放於室溫25°C以下陰涼乾燥處，避免陽光直接照射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "患者應於空腹時服用鋅卡膠囊(Zinca Capsules)，至少須飯前1小時或飯後2-3小時後服藥，膠囊應整顆吞服，不可打開膠囊或嚼碎膠囊服用；極少數人對鋅曾發生胃不適的現象，這情形常發生在早上的空腹服藥，建議這個劑量最好在早、午餐間服藥。患者服藥期間必須做臨床監測，以決定所給予Zinc acetate的治療劑量是否適當。此外，病人應按時服用鋅，銅的分佈與代謝才能獲得最適當地控制。因此，在病人每次回診時，醫師一定要嚴格的要求患者必須依規定按時服用Zinc acetate的重要性。",
+          "content_html": "<p>患者應於空腹時服用鋅卡膠囊(Zinca Capsules)，至少須飯前1小時或飯後2-3小時後服藥，膠囊應整顆吞服，不可打開膠囊或嚼碎膠囊服用；極少數人對鋅曾發生胃不適的現象，這情形常發生在早上的空腹服藥，建議這個劑量最好在早、午餐間服藥。患者服藥期間必須做臨床監測，以決定所給予Zinc acetate的治療劑量是否適當。此外，病人應按時服用鋅，銅的分佈與代謝才能獲得最適當地控制。因此，在病人每次回診時，醫師一定要嚴格的要求患者必須依規定按時服用Zinc acetate的重要性。</p>",
+          "search_text": "14\n病人使用須知\n患者應於空腹時服用鋅卡膠囊(Zinca Capsules)，至少須飯前1小時或飯後2-3小時後服藥，膠囊應整顆吞服，不可打開膠囊或嚼碎膠囊服用；極少數人對鋅曾發生胃不適的現象，這情形常發生在早上的空腹服藥，建議這個劑量最好在早、午餐間服藥。患者服藥期間必須做臨床監測，以決定所給予Zinc acetate的治療劑量是否適當。此外，病人應按時服用鋅，銅的分佈與代謝才能獲得最適當地控制。因此，在病人每次回診時，醫師一定要嚴格的要求患者必須依規定按時服用Zinc acetate的重要性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "經銷藥商：科懋生物科技股份有限公司 電話：(02)2655-7568",
+          "content_html": "<p>經銷藥商：科懋生物科技股份有限公司<br>電話：(02)2655-7568</p>",
+          "search_text": "15\n其他\n經銷藥商：科懋生物科技股份有限公司 電話：(02)2655-7568",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n鋅卡膠囊之主成分是帶二個水分子(2H2O)之醋酸鋅鹽(Zinc acetate)，對威爾森氏症患者，用於抑制銅的吸收作用。醋酸鋅鹽(Zinc acetate)之分子式：C4H6O4Zn-2H2O，分子量：219.51，為白色結晶或顆粒狀，易溶於水及煮沸的酒精，但微溶於酒精。\n1.1\n有效成分及含量\nZinca膠囊25 mg：每顆鋅卡膠囊含相當於25 mg的鋅(Zn) Zinca膠囊50 mg：每顆鋅卡膠囊含相當於50 mg的鋅(Zn)。\n1.2\n賦形劑\n25 mg：Lactose, Microcrystalline Cellulose, Sodium Starch Glycolate, Talc, Gelatin, Titanium dioxide, Brilliant Blue 50 mg：Microcrystalline Cellulose, Magnesium Stearate, Gelatin, Titanium dioxide, Sunset Yellow.\n1.3\n劑型\n膠囊劑\n1.4\n藥品外觀\nZinca膠囊25 mg：膠囊殼體和殼蓋為不透明藍色，印 ZINCA25。內容物為白色至類白色粉末。 Zinca膠囊50 mg：膠囊殼體和殼蓋為不透明橘色，印 ZINCA50。內容物為白色至類白色粉末。\n2\n適應症\n用於威爾森氏症(Wilson’s Disease)之維持治療，患者應已先使用過螯合劑治療。\n3\n用法及用量\n3.1\n用法用量\n本藥品須由醫師處方使用 50 mg：成人建議劑量：每天三次，每次一顆膠囊(含50 mg鋅)(參見臨床試驗資料)。 25 mg： 成人建議劑量：每天三次，每次二顆膠囊(每顆含25 mg鋅)。 1-6歲兒童：一天二次，每次25 mg鋅。 6-16歲兒童： 體重低於57 kg，一天三次，每次25 mg鋅。 體重高於57 kg，一天三次，每次50 mg鋅。 16-18歲兒童：一天三次，每次50 mg鋅。 患者須空腹時口服鋅卡膠囊(Zinca Capsules)，至少應於飯前一小時以上或飯後2-3小時以後才可服用。﻿\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n已知對配方中任何成分過敏者為禁忌\n5\n警語及注意事項\n5.1\n警語/注意事項\nZinc Acetate不建議用於有症狀病人的起始治療，因為鋅促進腸內攜銅蛋白(metallothionein)增加，而阻斷銅的吸收作用較為緩慢。有症狀的病人應先使用螯合劑作為起始治療。在治療初期，病人會因儲存的銅被移出，使其神經系統的症狀有加重的現象。當起始治療完成後，病人在臨床狀態呈現適度的穩定後，就可考慮使用Zinc acetate作為持續治療，但如病人又出現臨床症狀，則可能須要再回到原來的起始治療。\n5.2\n藥物濫用及依賴性\nZinc acetate並不會造成藥物濫用，與其他可能引起濫用之已知藥物在藥理作用上，或在化學結構上也沒有任何關連。\n5.3\n操作機械能力\n5.4\n實驗室檢測\n患者首要被監測的是評估威爾森氏症現有的各項徵兆與症狀，及檢驗24小時中尿中的銅含量，神經精神症狀方面的評估，則包括說話，以及肝功能試驗例如：膽紅素、氨基轉移酵素應適時完成檢測和評估。當患者不再以螯合劑治療時，由尿液中所排除的銅含量，可準確地反應出身體中含銅的狀態，以螯合劑治療如：penicillamine或trientine時，臨床醫師應知道尿液中銅的含量會增加。適當的鋅治療，也會減少尿中銅的排泄為125 μg/day或更低，明顯的趨勢顯示銅的控制瀕臨失去。“非血漿銅藍蛋白”(non-ceruloplasmin)的銅，或稱為“游離銅”，是由血中總銅量扣除血漿銅藍蛋白的結合銅；每毫克血漿銅藍蛋白含3 μg的銅。在美國的研究顯示，“非血漿銅藍蛋白”血中銅濃度必須保持低於20 μg/dL，應以不含銅的容器收集血液和尿液，再以儀器準確地測出銅濃度應保持低於0.01 μg/mL。另外一種監測的方法是口服投予64Cu，1或2小時後，測量血中64Cu放射活性量，對適當控制的患者，應低於投予量之1.2%。肝臟中的含銅量是不能作為治療指標的，因為它無法區別是有毒害的游離銅或安全的結合銅。對所有接受治療的患者，檢驗其24小時尿液中鋅的含量，可作為調整Zinc acetate用藥劑量的指標，和瞭解病人是否按時服藥的依據。﻿﻿\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n致畸胎性：孕婦安全使用等級歸列為A級。對懷孕婦女的研究顯示，任何懷孕期間的孕婦服用Zinc acetate或Zinc sulfate都不會增加致畸胎的危險性。在懷孕期間服用本藥，出現傷害胎兒的可能性極小。但由於目前所有的研究並不能排除任何傷害的可能性。因此，懷孕期間只有在明確地需要本藥治療時，才可用以治療。但如果在懷孕期間停止服用排銅的藥物治療，反而會在懷孕時引起銅中毒現象。 用Zinc sulfate對懷孕老鼠(rats)進行口服致畸胎性研究，劑量高達42.5 mg/kg/day(以體表面積計算是2倍人類建議劑量)；對小鼠(mice)劑量高達30 mg/kg/day(以體表面積計算是1倍人類建議劑量)；對兔子劑量高達60 mg/kg/day(以體表面積計算是6倍人類建議劑量)；對大鼠(hamster)劑量高達88 mg/kg/day(以體表面積計算是5倍人類建議劑量)，Zinc sulfate對胚胎都沒有發生任何傷害事件。﻿﻿﻿\n6.2\n哺乳\n鋅會出現於母乳中，哺餵母乳的嬰兒可能會因此發生因鋅過量而引起銅缺乏現象。所以，建議正在接受鋅治療的哺乳婦女，不要對她的嬰兒餵母奶。\n6.3\n有生育能力的女性與男性\nZinc Acetate並未做過對動物的長期致癌性、突變性、和對生育的傷害試驗。無論如何，在其他鋅鹽類(如Zinc oxide, Zinc stearate, Zinc sulfate等)的試驗中，以Ames assays體外試驗；人類胚胎肺細胞染色體畸變試驗，老鼠顯性致死體內試驗，以及老鼠骨髓細胞染色體畸變試驗，並未發現鋅對動物有任何突變性。 其他鋅鹽類(如Zinc oxide, Zinc chloride, Zinc citrate, Zinc maleate, Zinc carbonate, Zinc sulfate)及單純鋅粉，其口服劑量高達326 mg/kg/day (以體表面積計算是18倍人類建議劑量)，也不會影響雄鼠和雌鼠的生殖能力和生育能力。﻿﻿﻿\n6.4\n小兒\n在二個小規模臨床試驗結果建議，年齡10歲以上兒童患者，每天給予適當鋅維持劑量介於75 mg到150 mg之間，分次服用，可得到滿意的維持效果。但對於低於10歲以下的兒童患者，則未曾研究過。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n對威爾森氏症患者的藥效學研究，發現Zinc acetate (每天三次，每次50 mg)與維他命C(每天1g)、penicillamine (每天1 g)、及trientine (每天1 g)之間並沒有藥物間的交互反應。因此，當威爾森氏症患者服用維他命C或服用已被核准的螯合劑時，不需擔心對Zinc acetate的作用有任何影響。但無論如何，並沒有資料顯示Zinc acetate在治療威爾森氏症患者時，需要加入其他藥品，或如此做是安全的。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n副作用 臨床上使用Zinc acetate的經驗仍有限，威爾森氏症患者服用鋅治療時曾發生下列的副作用報吿：服用Zinc sulfate過量中毒造成一位死亡病例(參見過量)；使用Zinc sulfate作為起始治療劑曾造成一位原患有肝病和溶血危象患者的死亡病例；其他副作用則有胃不適，血中鹼性磷酸酶、澱粉酶、脂肪酶升高且持續數週至數個月，懷疑可能有胰臟炎。但在繼續鋅治療的第一或第二年內，就會回復到正常値。﻿﻿\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n無機鋅鹽引起急性口服過量中毒之案例極為少見。萬一發生過量中毒事件，應立即洗胃將還沒被吸收的鋅鹽儘快由胃中抽出，並應檢測血中鋅濃度，如果血中鋅濃度明顯過高(＞1000 μg/dL) 應考慮使用重金屬螯合劑治療。此外，任何中毒徵兆或症狀，都應給予適當的藥物治療。 曾有一位過量服用Zinc sulfate致死的病例報吿，這位死亡的成人婦女，意外服用了28公克的Zinc sulfate，服藥後第五天因腎衰竭而死亡，服藥過量也導致出血性胰臟炎，以及因血糖過高而昏迷，其服用Zinc sulfate的量約500 mg/kg，這個劑量若給予動物，也會引起死亡。﻿﻿﻿\n10\n藥理特性\n10.1\n作用機轉\nZinc Acetate之活性部份為鋅的陽離子，鋅阻斷了食物中的銅在小腸的吸收作用，及阻斷來自唾液、胃液、與膽汁的內生性銅的再吸收作用。鋅能促進腸細胞分泌攜銅蛋白(metallothionein)，攜銅蛋白能與游離銅結合，以避免銅自漿膜轉移(Serosal transfer)至血液中，隨著腸細胞的脫落，結合銅就會隨著糞便排出體外。\n10.2\n藥效藥理特性\n簡介：威爾森氏症為體染色體隱性遺傳之代謝異常疾病，導致肝臟分泌銅(Cu)於膽汁中的功能受損，結果肝中銅過量堆積，繼而影響其他器官功能包括：腦、腎、眼睛、骨骼及肌肉等。這類威爾森氏症病患者，由於肝細胞儲存過多的銅(Cu)，過量的銅(Cu)會釋放於血液中，由肝臟以外的部位吸收，例如：腦，結果造成動作障礙(如：運動失調、震顫、說話困難等)，及精神異常症狀(如：情緒暴躁、憂鬱、工作表現退步等)。過量的銅(Cu)再分佈於肝細胞，引起肝細胞損傷、發炎、壞死，乃至於最後導至肝硬化。臨床上，威爾森氏症患者主要呈現有肝臟、神經系統或精神方面的症狀。 治療這類疾病主要是在飮食上限制銅(Cu)的攝取，及使用螯合劑與游離銅結合，以減低銅的毒性及促進銅的排除。先用螯合劑對有症狀的患者作起始治療，其目的在緩解銅的毒性，一旦患者在臨床上的症狀呈現穩定狀態，即可使用本品做為維持治療，臨床評估可用來確認患者的病情是否已呈現穩定的狀態(參見實驗室檢測)。﻿﻿﻿\n10.3\n臨床前安全性資料\n目前尙無資訊\n11\n藥物動力學特性\n藥物動力學： 因為鋅的作用部位在影響銅吸收的腸細胞上，測量血中鋅含量的藥物動力學評估，對作用部位鋅的生體可用率，並不能提供有用的資訊。口服投予Zinc acetate後，檢測肝臟中鋅的含量與血液中鋅的濃度，兩者的結果並不一致。然而，食物與飮料對健康自願的受試者都顯示會減少鋅的吸收，因此會減少血中鋅的濃度。因此，口服鋅卡膠囊時，除水外，應與食物及飮料相隔至少一小時服用。 藥效學： 在藥效學研究上，曾用過的方法包括：對威爾森氏症患者單純銅平衡之測定及應用標示放射性銅的吸收作用。這些研究顯示，當劑量為每天三次，每次50 mg之Zinc acetate對威爾森氏症患者之治療是有效的，獲得到銅平衡之負平均値為(-0.44 mg/天)，及令人滿意的銅平均値64Cu (0.82%投予劑量)；若劑量為每天三次，每次25 mg之Zinc acetate也有效果，但是使用此較低劑量的患者較少。﻿﻿\n12\n臨床試驗資料\n在美國單一中心作臨床試驗，60位威爾森氏症患者參加本試驗(男性31位，女性29位)。最初以螯合劑作起始治療之後，銅中毒獲得適度的緩解後，再以各種劑量的Zinc acetate治療，以研究對銅平衡的影響；患者需住院才能小心的控制食物與飮料的攝取。十天內，由患者食物、尿液、以及糞便來分析銅含量，由銅的攝取量與銅的排出量之間的差異計算銅的平衡値。假如患者銅的平衡値每天低於+0.25 mg，就被認為結果是令人滿意的，每組試驗的個別結果如下表所示： 劑量控制 (鋅毫克數 X 每天服用次數) N* 試驗總病人數 平均銅平衡值 (毫克/天) 不理想病人數/ 試驗總病人數 50 x 3 70 -0.36 6/70 50 x 2 5 -0.16 0/5 25 x 4 5 -0.21 0/5 25 x 3 11 -0.18 1/11 37.5 x 2 4 -0.02 1/4 75 x 1 8 0.16 2/8 25 x 2 4 0.15 1/4 25 x 1 10 -0.37 2/10 25 x 6 12 0.05 4/12 50 x 1 1 0.1 0/1 50 x 5 11 -0.3 1/11 0 6 0.52 - N*表示銅平衡試驗數目，有些病人由於使用不同的劑量，或使用相同劑量，但經歷不同的試驗期間，因此有一個以上的平衡値。臨床試驗結果顯示接受Zinc acetate治療者比沒有接受治療者效果更好，除了每天三次，每次50 mg的劑量外，使用其他劑量的使用經驗很少。在許多個案中，一天只給藥一次，或患者不能順從醫師的指示用藥，其結果都不能得到滿意的控制。根據每天使用三次，每次25 mg劑量有限的臨床數據，被認為也是有效的用法用量，並不比每天使用三次，每次50 mg劑量所顯現的結果差，在本臨床試驗中，並未發生任何與劑量相關的副作用。 對先以螯合劑做有症狀患者起始治療的治療結果： 當患者持續以適當Zinc acetate劑量治療，須評估之臨床參數例如：神經精神狀態包括：說話評估，及肝功能試驗等。133位患者持續被追蹤14年，神經精神狀態包括說話評估，及肝功能試驗生化値包括：膽紅素、氨基轉移酵素、鹼性磷酸酶、乳酸去氫酵素等値，都沒有變壞。經9年以上的治療，其肝功能試驗仍保持在正常値以內或稍微高於正常値。 對尚未有症狀之患者的治療結果： 本臨床試驗是針對30位尙未有症狀前之患者追蹤10年以上的研究，尙未有症狀前之患者的診斷，是以肝臟每公克組織乾重含銅量大於200 μg為依據。對”非血漿銅藍蛋白”(non-ceruloplasmin)値，64Cu平衡研究，及臨床參數評估。這群參與試驗的患者，都沒有發生威爾森氏症的臨床症狀。由於威爾森氏症基因病變的定序及解碼，許多突變被證實可能影響疾病發展的速率。過去既沒有任何相符的對照組做比較，也沒有其他中心重複做過本臨床試驗。 在荷蘭有一個使用Zinc sulfate的臨床研究，對27位患者追蹤29年，評估其主要臨床參數如：顫抖、口齒不淸(dysarthria)、肌緊張異常(dystonia)、運動失調(ataxia)、眼球K-F氏環(Kayser-Fleischer rings) 等，發現這些臨床症狀並沒有變壞；甚至有些個案，眼球K-F氏環(Kayser-Fleischer rings)症狀消失了，其他臨床徵兆與症狀也都有改善。﻿﻿\n13\n包裝及儲存\n13.1\n包裝\n鋅卡膠囊25毫克：12-1000粒/塑膠瓶裝 鋅卡膠囊50毫克：6-1000粒/塑膠瓶裝\n13.2\n效期\n如外包裝所示\n13.3\n儲存條件\n應存放於室溫25°C以下陰涼乾燥處，避免陽光直接照射。\n13.4\n儲存注意事項\n14\n病人使用須知\n患者應於空腹時服用鋅卡膠囊(Zinca Capsules)，至少須飯前1小時或飯後2-3小時後服藥，膠囊應整顆吞服，不可打開膠囊或嚼碎膠囊服用；極少數人對鋅曾發生胃不適的現象，這情形常發生在早上的空腹服藥，建議這個劑量最好在早、午餐間服藥。患者服藥期間必須做臨床監測，以決定所給予Zinc acetate的治療劑量是否適當。此外，病人應按時服用鋅，銅的分佈與代謝才能獲得最適當地控制。因此，在病人每次回診時，醫師一定要嚴格的要求患者必須依規定按時服用Zinc acetate的重要性。\n15\n其他\n經銷藥商：科懋生物科技股份有限公司 電話：(02)2655-7568",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "科進製藥科技股份有限公司新竹廠",
+          "address": "新竹縣竹北市東海里生醫路2段22、26號4樓"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "科進製藥科技股份有限公司",
+          "address": "臺北市南港區忠孝東路7段508號5樓之1"
+        }
+      ]
+    }
+  ]
+}

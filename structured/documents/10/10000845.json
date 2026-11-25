@@ -1,0 +1,1002 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:56.802068+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000845",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000845號:6",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000845號",
+      "matched_license_code": "10000845",
+      "matched_nhi_code": "",
+      "drug_name_zh": "增若托平注射劑 12 毫克",
+      "drug_name_en": "Genotropin 12 mg",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "6",
+      "approved_at": "2025-10-16",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "1. Genotropin 5.3 mg注射劑, 含防腐劑。每個雙內腔玻璃卡匣內含 5.3 mg之somatropin。溶解後， somatropin之濃度為5.3 mg/ml。 2. Genotropin 12 mg注射劑, 含防腐劑。每個雙內腔玻璃卡匣內含 12 mg之somatropin。溶解後， somatropin之濃度為12 mg/ml。 以基因重組技術，於大腸桿菌細胞製造。",
+          "content_html": "<p style=\"margin-left:18.0pt;\">1. Genotropin 5.3 mg注射劑,&nbsp;含防腐劑。每個雙內腔玻璃卡匣內含 5.3 mg之somatropin。溶解後， somatropin之濃度為5.3 mg/ml。</p><p style=\"margin-left:17.95pt;\">2.&nbsp;Genotropin 12 mg注射劑,&nbsp;含防腐劑。每個雙內腔玻璃卡匣內含 12 mg之somatropin。溶解後， somatropin之濃度為12 mg/ml。</p><p>&nbsp;</p><p>以基因重組技術，於大腸桿菌細胞製造。</p>",
+          "search_text": "1.1\n有效成分及含量\n1. Genotropin 5.3 mg注射劑, 含防腐劑。每個雙內腔玻璃卡匣內含 5.3 mg之somatropin。溶解後， somatropin之濃度為5.3 mg/ml。 2. Genotropin 12 mg注射劑, 含防腐劑。每個雙內腔玻璃卡匣內含 12 mg之somatropin。溶解後， somatropin之濃度為12 mg/ml。 以基因重組技術，於大腸桿菌細胞製造。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Genotropin含有甘胺酸(E640)、磷酸二氫鈉(E339)、磷酸氫二鈉(E339)、及甘露醇(E421)。稀釋劑含有注射用水、甘露醇(E421)及間-甲酚（metacresol）。",
+          "content_html": "<p>Genotropin含有甘胺酸(E640)、磷酸二氫鈉(E339)、磷酸氫二鈉(E339)、及甘露醇(E421)。稀釋劑含有注射用水、甘露醇(E421)及間-甲酚（metacresol）。</p>",
+          "search_text": "1.2\n賦形劑\nGenotropin含有甘胺酸(E640)、磷酸二氫鈉(E339)、磷酸氫二鈉(E339)、及甘露醇(E421)。稀釋劑含有注射用水、甘露醇(E421)及間-甲酚（metacresol）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "凍晶注射劑，乾粉附注射用水。雙內腔卡匣的前室裝有白色粉末，後室裝有澄清溶液。",
+          "content_html": "<p>凍晶注射劑，乾粉附注射用水。雙內腔卡匣的前室裝有白色粉末，後室裝有澄清溶液。</p>",
+          "search_text": "1.3\n劑型\n凍晶注射劑，乾粉附注射用水。雙內腔卡匣的前室裝有白色粉末，後室裝有澄清溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "凍晶粉末和1 ml 溶劑裝在以橡膠柱塞分隔 (溴化丁基) 的雙內腔玻璃卡匣內 (type I glass)。卡匣一端用含溴化丁基橡膠盤之鋁蓋密封，另一端以橡膠柱塞分隔 (溴化丁基)。此雙內腔卡匣可置於重複使用的Genotropin注射筆，或置於預先充填的拋棄式多劑量注射筆內使用，即GoQuick。 Genotropin注射筆以顏色識別，必須與同色雙內腔卡匣配合使用，以提供正確的劑量。Genotropin 注射筆5.3（藍色）必須使用Genotropin 5.3 mg卡匣（藍色）。Genotropin 注射筆12（紫色）必須使用 Genotropin 12 mg卡匣（紫色）。 5.3 mg預先充填注射筆GoQuick的識別色是藍色。12 mg預先充填注射筆 GoQuick的識別色是紫色。",
+          "content_html": "<p>凍晶粉末和1 ml&nbsp;溶劑裝在以橡膠柱塞分隔 (溴化丁基)&nbsp;的雙內腔玻璃卡匣內 (type I glass)。卡匣一端用含溴化丁基橡膠盤之鋁蓋密封，另一端以橡膠柱塞分隔 (溴化丁基)。此雙內腔卡匣可置於重複使用的Genotropin注射筆，或置於預先充填的拋棄式多劑量注射筆內使用，即GoQuick。</p><p>Genotropin注射筆以顏色識別，必須與同色雙內腔卡匣配合使用，以提供正確的劑量。Genotropin&nbsp;注射筆5.3（藍色）必須使用Genotropin 5.3 mg卡匣（藍色）。Genotropin&nbsp;注射筆12（紫色）必須使用 Genotropin 12 mg卡匣（紫色）。</p><p>5.3 mg預先充填注射筆GoQuick的識別色是藍色。12 mg預先充填注射筆 GoQuick的識別色是紫色。</p>",
+          "search_text": "1.4\n藥品外觀\n凍晶粉末和1 ml 溶劑裝在以橡膠柱塞分隔 (溴化丁基) 的雙內腔玻璃卡匣內 (type I glass)。卡匣一端用含溴化丁基橡膠盤之鋁蓋密封，另一端以橡膠柱塞分隔 (溴化丁基)。此雙內腔卡匣可置於重複使用的Genotropin注射筆，或置於預先充填的拋棄式多劑量注射筆內使用，即GoQuick。 Genotropin注射筆以顏色識別，必須與同色雙內腔卡匣配合使用，以提供正確的劑量。Genotropin 注射筆5.3（藍色）必須使用Genotropin 5.3 mg卡匣（藍色）。Genotropin 注射筆12（紫色）必須使用 Genotropin 12 mg卡匣（紫色）。 5.3 mg預先充填注射筆GoQuick的識別色是藍色。12 mg預先充填注射筆 GoQuick的識別色是紫色。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "適用於下列疾病導致生長干擾的兒童病人： 腦下垂體之生長激素分泌不足（growth hormone deficiency） 普瑞德威利氏症候群（Prader-Willi syndrome, PWS） 低出生體重兒（Small for Gestational Age, SGA）逾四歲者之生長障礙 透納氏症候群（Turner’s syndrome） 慢性腎臟功能不足 適用於下列疾病的成人病人： 嚴重生長激素缺乏症（growth hormone deficiency）之補充治療 普瑞德威利氏症候群（PWS）且合併經飲食療法和運動療法無法控制的身體組成異常 說明： 低出生體重兒（Small for gestational age, SGA）之生長障礙（目前的身高標準差評分 [SDS] < -2.5且經校正父母親身高後，其身高SDS仍小於 -1），照妊娠週數來看，他們生來個子就很小（體重或身長低於 –2 SD），超過四歲後生長仍未趕上同齡兒童（最近一年內身高速度 [height velocity, HV] SDS < 0）。 普瑞德威利氏症候群（Prader-Willi syndrome，PWS）的診斷應經由適當的遺傳試驗證實。已合併糖尿病的PWS成人病人不宜使用，尤其血糖控制不佳或已出現糖尿病併發症的病人（參見5.1節）。 嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙（泌乳激素除外）的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。兒童期發病的獨立生長激素缺乏症病人（無下視丘－腦下腺體疾病或曾接受過頭髗放射線照射治療之狀況）應建議做兩種動態性檢查，但低IGF-1濃度（< - 2 SD）的病人可考慮只做一種檢查。動態檢查的最大值必須妥善界定。",
+          "content_html": "<p>適用於下列疾病導致生長干擾的兒童病人：</p><ul style=\"list-style-type:square;\"><li>腦下垂體之生長激素分泌不足（growth hormone deficiency）</li><li>普瑞德威利氏症候群（Prader-Willi syndrome, PWS）</li><li>低出生體重兒（Small for Gestational Age, SGA）逾四歲者之生長障礙</li><li>透納氏症候群（Turner’s syndrome）</li><li>慢性腎臟功能不足</li></ul><p>適用於下列疾病的成人病人：</p><ul style=\"list-style-type:square;\"><li>嚴重生長激素缺乏症（growth hormone deficiency）之補充治療</li><li>普瑞德威利氏症候群（PWS）且合併經飲食療法和運動療法無法控制的身體組成異常</li></ul><p><strong>說明：</strong></p><ul style=\"list-style-type:square;\"><li>低出生體重兒（Small for gestational age, SGA）之生長障礙（目前的身高標準差評分 [SDS] &lt; -2.5且經校正父母親身高後，其身高SDS仍小於 -1），照妊娠週數來看，他們生來個子就很小（體重或身長低於 –2 SD），超過四歲後生長仍未趕上同齡兒童（最近一年內身高速度 [height velocity, HV] SDS &lt; 0）。</li><li>普瑞德威利氏症候群（Prader-Willi syndrome，PWS）的診斷應經由適當的遺傳試驗證實。已合併糖尿病的PWS成人病人不宜使用，尤其血糖控制不佳或已出現糖尿病併發症的病人（參見5.1節）。</li><li>嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙（泌乳激素除外）的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。兒童期發病的獨立生長激素缺乏症病人（無下視丘－腦下腺體疾病或曾接受過頭髗放射線照射治療之狀況）應建議做兩種動態性檢查，但低IGF-1濃度（&lt; - 2 SD）的病人可考慮只做一種檢查。動態檢查的最大值必須妥善界定。</li></ul>",
+          "search_text": "2\n適應症\n適用於下列疾病導致生長干擾的兒童病人： 腦下垂體之生長激素分泌不足（growth hormone deficiency） 普瑞德威利氏症候群（Prader-Willi syndrome, PWS） 低出生體重兒（Small for Gestational Age, SGA）逾四歲者之生長障礙 透納氏症候群（Turner’s syndrome） 慢性腎臟功能不足 適用於下列疾病的成人病人： 嚴重生長激素缺乏症（growth hormone deficiency）之補充治療 普瑞德威利氏症候群（PWS）且合併經飲食療法和運動療法無法控制的身體組成異常 說明： 低出生體重兒（Small for gestational age, SGA）之生長障礙（目前的身高標準差評分 [SDS] < -2.5且經校正父母親身高後，其身高SDS仍小於 -1），照妊娠週數來看，他們生來個子就很小（體重或身長低於 –2 SD），超過四歲後生長仍未趕上同齡兒童（最近一年內身高速度 [height velocity, HV] SDS < 0）。 普瑞德威利氏症候群（Prader-Willi syndrome，PWS）的診斷應經由適當的遺傳試驗證實。已合併糖尿病的PWS成人病人不宜使用，尤其血糖控制不佳或已出現糖尿病併發症的病人（參見5.1節）。 嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙（泌乳激素除外）的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。兒童期發病的獨立生長激素缺乏症病人（無下視丘－腦下腺體疾病或曾接受過頭髗放射線照射治療之狀況）應建議做兩種動態性檢查，但低IGF-1濃度（< - 2 SD）的病人可考慮只做一種檢查。動態檢查的最大值必須妥善界定。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "劑量與給藥時程因人而異。 皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。 兒童： 兒童因生長激素分泌不足所導致之生長障礙：通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0 mg/m2體表面積。 普瑞德威利氏症候群，改善兒童的生長及身體組成：通常建議劑量為每天0.035 mg/kg體重，或1.0 mg/m2體表面積。一天的劑量不應該超過2.7 mg。生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。 透納氏症候群所導致之生長障礙：建議劑量為每天0.045-0.050 mg/kg體重，或每天1.4 mg/m2體表面積。 慢性腎功能不足所導致之生長障礙：建議劑量為每天1.4 mg/m2體表面積（約每天0.045-0.050 mg/kg體重）。如果生長速率太慢可使用較高的劑量。治療六個月之後可能需要調整劑量。 低出生體重兒（SGA）之生長障礙：一般建議劑量為每天0.035 mg/kg體重（每天1 mg/m2體表面積）直到達到最後的身高（參見10.2節）。治療第一年後如果身高增加速率SDS低於+1就應停止治療。如果身高增加速率小於每年二公分及女孩骨齡> 14歲, 男孩骨齡>16歲, 就應該停止治療。 小兒科病人的建議劑量 適應症 每日劑量 mg/kg體重 每日劑量 mg/m2體表面積 兒童生長激素缺乏症0.025-0.0350.7-1.0 兒童普瑞德威利氏症候群0.0351.0 透納氏症候群0.045-0.0501.4 慢性腎功能不足0.045-0.0501.4 低出生體重兒之生長障礙0.0351.0 成人： 成人生長激素缺乏症：治療應以每天0.1-0.3 mg之低劑量開始。劑量應依個別病人的需求而逐漸增加，而需求量係藉第一型類胰島素生長因子（IGF-1）的濃度決定。治療目標應該是使IGF-1濃度達到年齡校正平均值的2 SDS之內。IGF-1濃度正常的病人，治療開始時應給予生長激素直到IGF-1水平達到正常範圍的上層（但不超過+2 SDS）。臨床反應（療效和副作用）也可作為劑量調整的指標。每日維持劑量很少需要超過每天1.0 mg。女性需要的劑量可能比男性高，尤其是接受口服雌激素補充療法的女性。因為對IGF-1的敏感度日漸增加，所以可能需要降低劑量。應該每六個月核對一次生長激素的劑量。因為正常的生理性生長激素製造通常隨著年齡的增加而減少，所以可能需要降低劑量。應以最低有效劑量為目標。 普瑞德威利氏症候群之成人身體組成異常：起始劑量通常為0.042 mg/kg/週的somatropin，分為6到7次經皮下注射途徑劑量給藥。可依病人的臨床症狀調升劑量至最高0.084 mg/kg/週。可依據病人的臨床症狀和實驗室檢測結果，如血清第一型類胰島素生長因子 (IGF-1) 的濃度去調整劑量。然而，每天最高劑量不應超過1.6 mg。 依據血清IGF-1的濃度調整本藥的劑量：建議在開始用藥後第4及12週檢測血清IGF-1濃度，之後每12到26週檢測一次。當發生不良反應等狀況時，必須視需要測量血清IGF-1濃度並採取適當措施，例如減低劑量或停用本藥。",
+          "content_html": "<p>劑量與給藥時程因人而異。</p><p>皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。</p><p><i><u>兒童</u>：</i></p><p><i>兒童因生長激素分泌不足所導致之生長障礙：</i>通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0 mg/m<sup>2</sup>體表面積。</p><p><i>普瑞德威利氏症候群，改善兒童的生長及身體組成：</i>通常建議劑量為每天0.035 mg/kg體重，或1.0 mg/m<sup>2</sup>體表面積。一天的劑量不應該超過2.7 mg。生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。</p><p><i>透納氏症候群所導致之生長障礙：</i>建議劑量為每天0.045-0.050 mg/kg體重，或每天1.4 mg/m<sup>2</sup>體表面積。</p><p><i>慢性腎功能不足所導致之生長障礙：</i>建議劑量為每天1.4 mg/m<sup>2</sup>體表面積（約每天0.045-0.050 mg/kg體重）。如果生長速率太慢可使用較高的劑量。治療六個月之後可能需要調整劑量。</p><p><i>低出生體重兒（SGA）之生長障礙：</i>一般建議劑量為每天0.035 mg/kg體重（每天1 mg/m<sup>2</sup>體表面積）直到達到最後的身高（參見10.2節）。治療第一年後如果身高增加速率SDS低於+1就應停止治療。如果身高增加速率小於每年二公分及女孩骨齡&gt; 14歲,&nbsp;男孩骨齡&gt;16歲,&nbsp;就應該停止治療。</p><p>&nbsp;</p><p>小兒科病人的建議劑量</p><figure class=\"table\" style=\"width:100.0%;\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 1.4pt;vertical-align:top;width:55.54%;\">適應症</td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:18.48%;\"><p>每日劑量</p><p>mg/kg體重</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:25.98%;\"><p>每日劑量</p><p>mg/m<sup>2</sup>體表面積</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:55.54%;\">兒童生長激素缺乏症</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:18.48%;\">0.025-0.035</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:25.98%;\">0.7-1.0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:55.54%;\">兒童普瑞德威利氏症候群</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:18.48%;\">0.035</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:25.98%;\">1.0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:55.54%;\">透納氏症候群</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:18.48%;\">0.045-0.050</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:25.98%;\">1.4</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:55.54%;\">慢性腎功能不足</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:18.48%;\">0.045-0.050</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:25.98%;\">1.4</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 1.4pt;vertical-align:top;width:55.54%;\">低出生體重兒之生長障礙</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:18.48%;\">0.035</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:25.98%;\">1.0</td></tr></tbody></table></figure><p>&nbsp;</p><p><i><u>成人</u>：</i></p><p><i>成人生長激素缺乏症：</i>治療應以每天0.1-0.3 mg之低劑量開始。劑量應依個別病人的需求而逐漸增加，而需求量係藉第一型類胰島素生長因子（IGF-1）的濃度決定。治療目標應該是使IGF-1濃度達到年齡校正平均值的2 SDS之內。IGF-1濃度正常的病人，治療開始時應給予生長激素直到IGF-1水平達到正常範圍的上層（但不超過+2 SDS）。臨床反應（療效和副作用）也可作為劑量調整的指標。每日維持劑量很少需要超過每天1.0 mg。女性需要的劑量可能比男性高，尤其是接受口服雌激素補充療法的女性。因為對IGF-1的敏感度日漸增加，所以可能需要降低劑量。應該每六個月核對一次生長激素的劑量。因為正常的生理性生長激素製造通常隨著年齡的增加而減少，所以可能需要降低劑量。應以最低有效劑量為目標。</p><p>&nbsp;</p><p><i>普瑞德威利氏症候群之成人身體組成異常：</i>起始劑量通常為0.042 mg/kg/週的somatropin，分為6到7次經皮下注射途徑劑量給藥。可依病人的臨床症狀調升劑量至最高0.084 mg/kg/週。可依據病人的臨床症狀和實驗室檢測結果，如血清第一型類胰島素生長因子 (IGF-1)&nbsp;的濃度去調整劑量。然而，每天最高劑量不應超過1.6 mg。</p><p>&nbsp;</p><p>依據血清IGF-1的濃度調整本藥的劑量：建議在開始用藥後第4及12週檢測血清IGF-1濃度，之後每12到26週檢測一次。當發生不良反應等狀況時，必須視需要測量血清IGF-1濃度並採取適當措施，例如減低劑量或停用本藥。</p>",
+          "search_text": "3.1\n用法用量\n劑量與給藥時程因人而異。 皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。 兒童： 兒童因生長激素分泌不足所導致之生長障礙：通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0 mg/m2體表面積。 普瑞德威利氏症候群，改善兒童的生長及身體組成：通常建議劑量為每天0.035 mg/kg體重，或1.0 mg/m2體表面積。一天的劑量不應該超過2.7 mg。生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。 透納氏症候群所導致之生長障礙：建議劑量為每天0.045-0.050 mg/kg體重，或每天1.4 mg/m2體表面積。 慢性腎功能不足所導致之生長障礙：建議劑量為每天1.4 mg/m2體表面積（約每天0.045-0.050 mg/kg體重）。如果生長速率太慢可使用較高的劑量。治療六個月之後可能需要調整劑量。 低出生體重兒（SGA）之生長障礙：一般建議劑量為每天0.035 mg/kg體重（每天1 mg/m2體表面積）直到達到最後的身高（參見10.2節）。治療第一年後如果身高增加速率SDS低於+1就應停止治療。如果身高增加速率小於每年二公分及女孩骨齡> 14歲, 男孩骨齡>16歲, 就應該停止治療。 小兒科病人的建議劑量 適應症 每日劑量 mg/kg體重 每日劑量 mg/m2體表面積 兒童生長激素缺乏症0.025-0.0350.7-1.0 兒童普瑞德威利氏症候群0.0351.0 透納氏症候群0.045-0.0501.4 慢性腎功能不足0.045-0.0501.4 低出生體重兒之生長障礙0.0351.0 成人： 成人生長激素缺乏症：治療應以每天0.1-0.3 mg之低劑量開始。劑量應依個別病人的需求而逐漸增加，而需求量係藉第一型類胰島素生長因子（IGF-1）的濃度決定。治療目標應該是使IGF-1濃度達到年齡校正平均值的2 SDS之內。IGF-1濃度正常的病人，治療開始時應給予生長激素直到IGF-1水平達到正常範圍的上層（但不超過+2 SDS）。臨床反應（療效和副作用）也可作為劑量調整的指標。每日維持劑量很少需要超過每天1.0 mg。女性需要的劑量可能比男性高，尤其是接受口服雌激素補充療法的女性。因為對IGF-1的敏感度日漸增加，所以可能需要降低劑量。應該每六個月核對一次生長激素的劑量。因為正常的生理性生長激素製造通常隨著年齡的增加而減少，所以可能需要降低劑量。應以最低有效劑量為目標。 普瑞德威利氏症候群之成人身體組成異常：起始劑量通常為0.042 mg/kg/週的somatropin，分為6到7次經皮下注射途徑劑量給藥。可依病人的臨床症狀調升劑量至最高0.084 mg/kg/週。可依據病人的臨床症狀和實驗室檢測結果，如血清第一型類胰島素生長因子 (IGF-1) 的濃度去調整劑量。然而，每天最高劑量不應超過1.6 mg。 依據血清IGF-1的濃度調整本藥的劑量：建議在開始用藥後第4及12週檢測血清IGF-1濃度，之後每12到26週檢測一次。當發生不良反應等狀況時，必須視需要測量血清IGF-1濃度並採取適當措施，例如減低劑量或停用本藥。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "僅能使用包裝所附的溶劑配置乾粉。 Genotropin雙內腔卡匣乃置於注射器（Genotropin注射筆）內使用，Genotropin注射筆插入雙內腔卡匣後，旋緊Genotropin注射筆或GoQuick預先充填注射筆，生長激素就會與溶劑於雙內腔卡匣內混合，輕輕地前後來回傾斜使凍晶粉末溶解。配製期間不可用力振搖溶液，如此可能使主成分變性。配製後的溶液呈無色或淡乳白色，使用前必須加以檢查，唯有不含顆粒的澄清透明溶液方可使用。 在使用筆型注射器前，須先將針頭鎖上，再進行混合配置。 無充分之不相容性研究，不可與其他藥物混合。",
+          "content_html": "<p>僅能使用包裝所附的溶劑配置乾粉。</p><p>Genotropin雙內腔卡匣乃置於注射器（Genotropin注射筆）內使用，Genotropin注射筆插入雙內腔卡匣後，旋緊Genotropin注射筆或GoQuick預先充填注射筆，生長激素就會與溶劑於雙內腔卡匣內混合，輕輕地前後來回傾斜使凍晶粉末溶解。配製期間不可用力振搖溶液，如此可能使主成分變性。配製後的溶液呈無色或淡乳白色，使用前必須加以檢查，唯有不含顆粒的澄清透明溶液方可使用。</p><p>在使用筆型注射器前，須先將針頭鎖上，再進行混合配置。</p><p>&nbsp;</p><p>無充分之不相容性研究，不可與其他藥物混合。</p>",
+          "search_text": "3.2\n調製方式\n僅能使用包裝所附的溶劑配置乾粉。 Genotropin雙內腔卡匣乃置於注射器（Genotropin注射筆）內使用，Genotropin注射筆插入雙內腔卡匣後，旋緊Genotropin注射筆或GoQuick預先充填注射筆，生長激素就會與溶劑於雙內腔卡匣內混合，輕輕地前後來回傾斜使凍晶粉末溶解。配製期間不可用力振搖溶液，如此可能使主成分變性。配製後的溶液呈無色或淡乳白色，使用前必須加以檢查，唯有不含顆粒的澄清透明溶液方可使用。 在使用筆型注射器前，須先將針頭鎖上，再進行混合配置。 無充分之不相容性研究，不可與其他藥物混合。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對主成分或任何列於1.2節之賦形劑過敏者。 當有任何腫瘤活動的跡象時禁用Somatropin。在開始生長激素治療前，顱內腫瘤必須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。 Genotropin禁用於促進骨骺板已閉合兒童之生長。 Genotropin禁用於開心手術、腹部手術、多重意外創傷、急性呼吸衰竭或類似狀況後發生併發症的急性重症病人。（關於接受置換療法的病人，參見5節）。",
+          "content_html": "<p>對主成分或任何列於1.2節之賦形劑過敏者。</p><p>當有任何腫瘤活動的跡象時禁用Somatropin。在開始生長激素治療前，顱內腫瘤必須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。</p><p>Genotropin禁用於促進骨骺板已閉合兒童之生長。</p><p>Genotropin禁用於開心手術、腹部手術、多重意外創傷、急性呼吸衰竭或類似狀況後發生併發症的急性重症病人。（關於接受置換療法的病人，參見5節）。</p>",
+          "search_text": "4\n禁忌\n對主成分或任何列於1.2節之賦形劑過敏者。 當有任何腫瘤活動的跡象時禁用Somatropin。在開始生長激素治療前，顱內腫瘤必須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。 Genotropin禁用於促進骨骺板已閉合兒童之生長。 Genotropin禁用於開心手術、腹部手術、多重意外創傷、急性呼吸衰竭或類似狀況後發生併發症的急性重症病人。（關於接受置換療法的病人，參見5節）。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "開始治療之前必須確定診斷。Genotropin治療應由有適當資格而且有經驗的醫師開始並加以監測。 肌炎是一種極少發生的副作用，其發生的原因可能與防腐劑metacresol有關。若發生肌痛或在注射部位產生不相稱的疼痛時，應懷疑是肌炎，如經證實，應使用不含metacresol之Genotropin。 請勿超過每日最大建議劑量（參見3.1節）。 胰島素敏感性 Somatropin可能降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的危險因子者，於somatropin治療期間需密切監測。 甲狀腺功能 生長激素會使甲狀腺外的T4轉換成T3的量增加，造成T4的血清濃度降低，而T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀（subclinical）甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此，須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下病人，須密切監測生長激素對於甲狀腺功能的潛在影響。 腎上腺機能低下症 使用somatropin治療可能會抑制11βHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性（次發性）腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量（參見7節）。 使用口服雌激素治療 若使用somatropin的女性開始接受口服雌激素治療，則可能需要增加somatropin劑量以維持血清IGF-1濃度處於正常適齡範圍內。相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用（參見7節）。 因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。 患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。 良性顱內壓升高 若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新使用生長激素治療，便需要小心監測顱內壓升高的症狀。 白血病 少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病的發生率在生長激素的使用者在沒有易感因素(predisposition factors)時會增加。 抗體 與其他含somatropin的製劑一樣，少數病人可能對Genotropin產生抗體。大約１％的病人使用Genotropin後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。 急性重症 曾有兩個安慰劑對照試驗研究Genotropin對於復原的影響，其中包含522名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受5.3或8 mg Genotropin治療的病人，其死亡率比接受安慰劑的病人高（42%比19%）。根據這個資料，此類病人不該使用Genotropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受Genotropin治療的病人，以及發生其他或類似急性重症的病人，繼續以Genotropin治療的益處必須大於可能引起的危險。 胰臟炎 儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。 普瑞德威利氏症候群 對於普瑞德威利氏症候群病人，治療一定要與限制熱量飲食雙管齊下。此外，普瑞德威利氏症候群的病況特別可能會因葡萄糖耐受性降低而出現併發症，所以要謹慎監測病人的血糖變化。 在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導：嚴重肥胖（體重/身高超過200%的病人）、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的男性病人風險可能比較高。因此，不建議對嚴重肥胖或有嚴重呼吸功能不全的兒童病人投予本藥。 在兒科，脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。 此外，對於包含成人在內的病人，應注意以下幾點： 在開始用somatropin治療普瑞德威利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。 在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，俟呼吸障礙消除後，再開始使用生長激素治療。 開始生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查（polysomnography）或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。 使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候（包括開始打鼾或打鼾增加），應中止治療並做新的耳鼻喉科評估。 對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。 應監測病人有無呼吸道感染的徵候。呼吸道感染應盡早診斷，積極治療。 所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制 在成人生長激素缺乏症，定期進行檢測以確保血清IGF-1濃度值並未超過參考範圍之上限（參見2和3.1節）。已患有活動性增生性或嚴重非增生性糖尿病視網膜病變的病人不應使用生長激素治療。 當對成人合併使用本藥與本藥以外的其他荷爾蒙藥物時，應謹慎監測血清IGF-1濃度，因同時使用荷爾蒙可能會影響血清IGF-1的濃度。 成人與PWS病人接受長期生長激素治療的經驗有限。 低出生體重兒 對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。 對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人（例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病[acanthosis nigricans]）應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。 對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+ 2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。 用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。 治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。 慢性腎功能不足 對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療（包括控制酸血症、副甲狀腺機能亢進及營養狀態），並在生長激素治療期間應維持此保守治療。 腎臟移植時應停止生長激素治療。 迄今還沒有使用Genotropin治療慢性腎功能不足病人之最後身高的資料。 鈉含量 本藥品每劑含有低於 1mmol的鈉（23mg）。低鈉飲食的病人可被告知本藥品基本上屬“無鈉”。",
+          "content_html": "<p>開始治療之前必須確定診斷。Genotropin治療應由有適當資格而且有經驗的醫師開始並加以監測。</p><p>&nbsp;</p><p>肌炎是一種極少發生的副作用，其發生的原因可能與防腐劑metacresol有關。若發生肌痛或在注射部位產生不相稱的疼痛時，應懷疑是肌炎，如經證實，應使用不含metacresol之Genotropin。</p><p>&nbsp;</p><p>請勿超過每日最大建議劑量（參見3.1節）。</p><p>&nbsp;</p><p><u>胰島素敏感性</u></p><p>Somatropin可能降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的危險因子者，於somatropin治療期間需密切監測。</p><p>&nbsp;</p><p><u>甲狀腺功能</u></p><p>生長激素會使甲狀腺外的T4轉換成T3的量增加，造成T4的血清濃度降低，而T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀（subclinical）甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此，須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下病人，須密切監測生長激素對於甲狀腺功能的潛在影響。</p><p>&nbsp;</p><p><u>腎上腺機能低下症</u></p><p>使用somatropin治療可能會抑制11βHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性（次發性）腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量（參見7節）。</p><p>&nbsp;</p><p><u>使用口服雌激素治療</u></p><p>若使用somatropin的女性開始接受口服雌激素治療，則可能需要增加somatropin劑量以維持血清IGF-1濃度處於正常適齡範圍內。相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用（參見7節）。</p><p>&nbsp;</p><p>因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。</p><p>&nbsp;</p><p>患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。</p><p>&nbsp;</p><p><u>良性顱內壓升高</u></p><p>若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新使用生長激素治療，便需要小心監測顱內壓升高的症狀。</p><p>&nbsp;</p><p><u>白血病</u></p><p>少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病的發生率在生長激素的使用者在沒有易感因素(predisposition factors)時會增加。</p><p>&nbsp;</p><p><u>抗體</u></p><p>與其他含somatropin的製劑一樣，少數病人可能對Genotropin產生抗體。大約１％的病人使用Genotropin後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。</p><p>&nbsp;</p><p><u>急性重症</u></p><p>曾有兩個安慰劑對照試驗研究Genotropin對於復原的影響，其中包含522名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受5.3或8 mg Genotropin治療的病人，其死亡率比接受安慰劑的病人高（42%比19%）。根據這個資料，此類病人不該使用Genotropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受Genotropin治療的病人，以及發生其他或類似急性重症的病人，繼續以Genotropin治療的益處必須大於可能引起的危險。</p><p>&nbsp;</p><p><u>胰臟炎</u></p><p>儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。</p><p>&nbsp;</p><p><u>普瑞德威利氏症候群</u></p><p>對於普瑞德威利氏症候群病人，治療一定要與限制熱量飲食雙管齊下。此外，普瑞德威利氏症候群的病況特別可能會因葡萄糖耐受性降低而出現併發症，所以要謹慎監測病人的血糖變化。</p><p>&nbsp;</p><p>在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導：嚴重肥胖（體重/身高超過200%的病人）、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的男性病人風險可能比較高。因此，不建議對嚴重肥胖或有嚴重呼吸功能不全的兒童病人投予本藥。</p><p>&nbsp;</p><p>在兒科，脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。</p><p>&nbsp;</p><p>此外，對於包含成人在內的病人，應注意以下幾點：</p><ul style=\"list-style-type:disc;\"><li>在開始用somatropin治療普瑞德威利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。</li><li>在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，俟呼吸障礙消除後，再開始使用生長激素治療。</li><li>開始生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查（polysomnography）或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。</li><li>使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候（包括開始打鼾或打鼾增加），應中止治療並做新的耳鼻喉科評估。</li><li>對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。</li><li>應監測病人有無呼吸道感染的徵候。呼吸道感染應盡早診斷，積極治療。</li><li>所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制</li></ul><p>&nbsp;</p><p>在成人生長激素缺乏症，定期進行檢測以確保血清IGF-1濃度值並未超過參考範圍之上限（參見2和3.1節）。已患有活動性增生性或嚴重非增生性糖尿病視網膜病變的病人不應使用生長激素治療。</p><p>&nbsp;</p><p>當對成人合併使用本藥與本藥以外的其他荷爾蒙藥物時，應謹慎監測血清IGF-1濃度，因同時使用荷爾蒙可能會影響血清IGF-1的濃度。</p><p>&nbsp;</p><p>成人與PWS病人接受長期生長激素治療的經驗有限。</p><p>&nbsp;</p><p><u>低出生體重兒</u></p><p>對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。</p><p>&nbsp;</p><p>對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人（例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病[acanthosis nigricans]）應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。</p><p>&nbsp;</p><p>對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+ 2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。</p><p>&nbsp;</p><p>用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。</p><p>&nbsp;</p><p>治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。</p><p>&nbsp;</p><p><u>慢性腎功能不足</u></p><p>對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療（包括控制酸血症、副甲狀腺機能亢進及營養狀態），並在生長激素治療期間應維持此保守治療。</p><p>腎臟移植時應停止生長激素治療。</p><p>&nbsp;</p><p>迄今還沒有使用Genotropin治療慢性腎功能不足病人之最後身高的資料。</p><p>&nbsp;</p><p><u>鈉含量</u></p><p>本藥品每劑含有低於&nbsp;1mmol的鈉（23mg）。低鈉飲食的病人可被告知本藥品基本上屬“無鈉”。</p>",
+          "search_text": "5.1\n警語/注意事項\n開始治療之前必須確定診斷。Genotropin治療應由有適當資格而且有經驗的醫師開始並加以監測。 肌炎是一種極少發生的副作用，其發生的原因可能與防腐劑metacresol有關。若發生肌痛或在注射部位產生不相稱的疼痛時，應懷疑是肌炎，如經證實，應使用不含metacresol之Genotropin。 請勿超過每日最大建議劑量（參見3.1節）。 胰島素敏感性 Somatropin可能降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的危險因子者，於somatropin治療期間需密切監測。 甲狀腺功能 生長激素會使甲狀腺外的T4轉換成T3的量增加，造成T4的血清濃度降低，而T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀（subclinical）甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此，須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下病人，須密切監測生長激素對於甲狀腺功能的潛在影響。 腎上腺機能低下症 使用somatropin治療可能會抑制11βHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性（次發性）腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量（參見7節）。 使用口服雌激素治療 若使用somatropin的女性開始接受口服雌激素治療，則可能需要增加somatropin劑量以維持血清IGF-1濃度處於正常適齡範圍內。相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用（參見7節）。 因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。 患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。 良性顱內壓升高 若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新使用生長激素治療，便需要小心監測顱內壓升高的症狀。 白血病 少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病的發生率在生長激素的使用者在沒有易感因素(predisposition factors)時會增加。 抗體 與其他含somatropin的製劑一樣，少數病人可能對Genotropin產生抗體。大約１％的病人使用Genotropin後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。 急性重症 曾有兩個安慰劑對照試驗研究Genotropin對於復原的影響，其中包含522名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受5.3或8 mg Genotropin治療的病人，其死亡率比接受安慰劑的病人高（42%比19%）。根據這個資料，此類病人不該使用Genotropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受Genotropin治療的病人，以及發生其他或類似急性重症的病人，繼續以Genotropin治療的益處必須大於可能引起的危險。 胰臟炎 儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。 普瑞德威利氏症候群 對於普瑞德威利氏症候群病人，治療一定要與限制熱量飲食雙管齊下。此外，普瑞德威利氏症候群的病況特別可能會因葡萄糖耐受性降低而出現併發症，所以要謹慎監測病人的血糖變化。 在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導：嚴重肥胖（體重/身高超過200%的病人）、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的男性病人風險可能比較高。因此，不建議對嚴重肥胖或有嚴重呼吸功能不全的兒童病人投予本藥。 在兒科，脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。 此外，對於包含成人在內的病人，應注意以下幾點： 在開始用somatropin治療普瑞德威利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。 在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，俟呼吸障礙消除後，再開始使用生長激素治療。 開始生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查（polysomnography）或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。 使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候（包括開始打鼾或打鼾增加），應中止治療並做新的耳鼻喉科評估。 對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。 應監測病人有無呼吸道感染的徵候。呼吸道感染應盡早診斷，積極治療。 所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制 在成人生長激素缺乏症，定期進行檢測以確保血清IGF-1濃度值並未超過參考範圍之上限（參見2和3.1節）。已患有活動性增生性或嚴重非增生性糖尿病視網膜病變的病人不應使用生長激素治療。 當對成人合併使用本藥與本藥以外的其他荷爾蒙藥物時，應謹慎監測血清IGF-1濃度，因同時使用荷爾蒙可能會影響血清IGF-1的濃度。 成人與PWS病人接受長期生長激素治療的經驗有限。 低出生體重兒 對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。 對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人（例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病[acanthosis nigricans]）應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。 對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+ 2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。 用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。 治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。 慢性腎功能不足 對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療（包括控制酸血症、副甲狀腺機能亢進及營養狀態），並在生長激素治療期間應維持此保守治療。 腎臟移植時應停止生長激素治療。 迄今還沒有使用Genotropin治療慢性腎功能不足病人之最後身高的資料。 鈉含量 本藥品每劑含有低於 1mmol的鈉（23mg）。低鈉飲食的病人可被告知本藥品基本上屬“無鈉”。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "生長激素不會影響駕駛與操縱機械的能力。",
+          "content_html": "<p>生長激素不會影響駕駛與操縱機械的能力。</p>",
+          "search_text": "5.3\n操作機械能力\n生長激素不會影響駕駛與操縱機械的能力。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足（參見10.3.），沒有使用於孕婦的臨床經驗。因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。",
+          "content_html": "<p>關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足（參見10.3.），沒有使用於孕婦的臨床經驗。因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。</p>",
+          "search_text": "6.1\n懷孕\n關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足（參見10.3.），沒有使用於孕婦的臨床經驗。因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。",
+          "content_html": "<p>沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。</p>",
+          "search_text": "6.2\n哺乳\n沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "用於80歲以上病人的經驗很有限。老年病人可能對Genotropin的作用更敏感，也可能因此更容易產生不良反應。",
+          "content_html": "<p>用於80歲以上病人的經驗很有限。老年病人可能對Genotropin的作用更敏感，也可能因此更容易產生不良反應。</p>",
+          "search_text": "6.5\n老年人\n用於80歲以上病人的經驗很有限。老年病人可能對Genotropin的作用更敏感，也可能因此更容易產生不良反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素（ACTH）分泌不足的病人應謹慎地調整其糖皮質類固醇替代治療，以避免抑制生長。因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。 生長激素會減少可體松（cortisone）轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效（參見5節）。 從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物（例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin）的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。 關於患有糖尿病和甲狀腺障礙的病人請參見5節。 接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標（參見5節）。",
+          "content_html": "<p>併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素（ACTH）分泌不足的病人應謹慎地調整其糖皮質類固醇替代治療，以避免抑制生長。因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。</p><p>&nbsp;</p><p>生長激素會減少可體松（cortisone）轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效（參見5節）。</p><p>&nbsp;</p><p>從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物（例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin）的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。</p><p>&nbsp;</p><p>關於患有糖尿病和甲狀腺障礙的病人請參見5節。</p><p>&nbsp;</p><p>接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標（參見5節）。</p>",
+          "search_text": "7\n交互作用\n併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素（ACTH）分泌不足的病人應謹慎地調整其糖皮質類固醇替代治療，以避免抑制生長。因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。 生長激素會減少可體松（cortisone）轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效（參見5節）。 從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物（例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin）的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。 關於患有糖尿病和甲狀腺障礙的病人請參見5節。 接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標（參見5節）。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成年病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常（paraesthesia）等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。 這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。 大約1%病人會對Genotropin產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。",
+          "content_html": "<p>生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成年病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常（paraesthesia）等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。</p><p>這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。</p><p>&nbsp;</p><p>大約1%病人會對Genotropin產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。</p><p>&nbsp;</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成年病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常（paraesthesia）等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。 這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。 大約1%病人會對Genotropin產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "不良反應列表 表1列出之針對兒童和成人的不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見(≥1/100 至 < 1/10) ；不常見(≥1/1,000 至 < 1/100) ；罕見(≥1/10,000 至 < 1/1,000) ；極罕見(< 1/10,000) ；未知(無法以可用資料估計) 。 表 1： 不良反應列表 系統器官分類非常常見 (≥1/10) 常見 （≥ 1/100 至 < 1/10） 不常見 （≥ 1/1,000 至 < 1/100） 罕見 （≥ 1/10,000 至 < 1/1000） 非常罕見（< 1/10,000） 未知 （無法以可用資料估計） 良性、惡性及未分類腫瘤（含囊腫和息肉） （兒童） 白血病† 代謝與營養疾病 （成人和兒童） 第 2 型糖尿病 神經系統疾病 （成人） 感覺異常* （成人） 腕隧道症候群 （兒童） 良性顱內高壓 （兒童） 感覺異常* （成人）良性顱內高壓 （成人和兒童） 頭痛 皮膚及皮下組織疾病 （兒童） 皮疹**、 搔癢**、 蕁麻疹** （成人）皮疹**、搔癢**、蕁麻疹** 骨骼肌肉及結締組織疾病（成人）關節痛* （成人）肌痛* （成人） 肌肉骨骼僵硬* （兒童）關節痛* （兒童）肌痛* （兒童）肌肉骨骼僵硬* 生殖系統和乳房疾病 （成人和兒童） 男性女乳症 一般疾病與投藥部位異常（成人）周邊水腫* （兒童） 注射部位反應$ （兒童） 周邊水腫* （成人和兒童） 臉部水腫* （成人）注射部位反應$ 實驗室檢查 （成人和兒童） 血中皮質醇降低‡ *一般而言，這些不良作用為輕至中度，在治療後的前幾個月內出現，並會自行或降低劑量後緩解。這些不良作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應（ADR）。 $曾有兒童發生暫時性注射部位反應的報告。 ‡臨床顯著性未知。 †曾發生於以somatropin治療的生長激素分泌不足兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常） 表 2 總結了依系統器官分類 (SOC) 和首選術語 (PT) 呈現的治療引發之不良事件 (TEAE)。 在成人群組中，超過 1 名受試者通報與治療相關的 TEAE 為糖化血紅素上升 (3 [15.0%]) 以及類胰島素生長因子增加 (2 [10.0%]）。 有9名 (45.0%) 成人病人和3名 (50.0%) 未曾接受過GH治療的兒童病人通報發生不良反應（與治療相關）。曾接受過GH治療的兒童群組中，通報的不良事件未與治療相關。通報的最常見不良反應為糖化血色素上升 [3名 (15.0%) 成人和1名 (16.7%) 未曾接受過GH治療兒童] 和IGF濃度上升 [2名 (10.0%) 成人和1名 (16.7%) 未曾接受過GH治療兒童]。 表2：依系統器官分類和首選術語區分的治療引發之不良事件（與治療相關）- 完整分析（試驗計畫書 A6281323） 可評估 AE 的受試者人數 未曾接受生長激素 (GH) 的小兒群組 (N=6) (n)% 接受生長激素 (GH) 治療的小兒群組 (N=7) (n)% 成人群組 (N=20) (n)% 受試者人數 (%)：依系統器官分類及首選術語分類 發生任何不良事件3 (50.0)09 (45.0) 全身性疾病與投藥部位異常001 (5.0) 注射部位反應001 (5.0) 檢查2 (33.3)06 (30.0) 血中三酸甘油脂升高 身高增加 糖化血色素上升 類胰島素生長因子上升 0 1 (16.7) 1 (16.7) 1 (16.7) 0 0 0 0 1 (5.0) 0 3 (15.0) 2 (10.0) 代謝與營養疾病003 (15.0) 糖尿病控制不佳 葡萄糖耐受性受損 第 2 型糖尿病 0 0 0 0 0 0 1 (5.0) 1 (5.0) 1 (5.0) 骨骼肌肉及結締組織疾病001 (5.0) 關節痛001 (5.0) 神經系統疾病1 (16.7)00 感覺異常1 (16.7)00 呼吸、胸腔和縱膈腔疾病1 (16.7)00 打鼾1 (16.7)00 皮膚及皮下組織疾病1 (16.7)00 皮下出血1 (16.7)00 血清皮質醇(cortisol)濃度降低 曾有報告指出，somatropin可能經由影響載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性似乎很有限。雖然如此，在開始Genotropin治療之前，應該使皮質類固醇補充治療達到最佳狀況。 普瑞德威利氏症候群 在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實其間的相關性。 白血病 曾有生長激素缺乏症病童罹患白血病的報告，其中有些病人接受somatropin治療，這些案例被列入上市後經驗。然而，並沒有證據顯示白血病風險會在無易感因素(predisposition factors)，例如腦部或頭部放射線之情況下增加。 股骨頭滑脫症與小兒股骨頭缺血性壞死症(Legg-Calve-Perthes disease) 在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。 其他不良藥物反應 其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。 疑似不良反應之報告 醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益/風險平衡可持續被監測。",
+          "content_html": "<p>不良反應列表</p><p>表1列出之針對兒童和成人的不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見(≥1/100&nbsp;至 &lt; 1/10)&nbsp;；不常見(≥1/1,000&nbsp;至 &lt;&nbsp;1/100)&nbsp;；罕見(≥1/10,000&nbsp;至 &lt;&nbsp;1/1,000)&nbsp;；極罕見(&lt;&nbsp;1/10,000)&nbsp;；未知(無法以可用資料估計)&nbsp;。</p><p>&nbsp;</p><figure class=\"table\"><table><thead><tr><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:432.0pt;\" colspan=\"7\"><p><br><br><br>&nbsp;</p><p style=\"margin-left:57.6pt;\"><strong>表 1：&nbsp;不良反應列表</strong></p></th></tr><tr><th style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\"><strong>系統器官分類</strong></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\"><strong>非常常見 (≥1/10)</strong></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\"><p><strong>常見</strong></p><p><strong>（≥ 1/100&nbsp;至 &lt; 1/10）</strong></p></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\"><p><strong>不常見</strong></p><p><strong>（≥&nbsp;1/1,000&nbsp;至 &lt; 1/100）</strong></p></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\"><p><strong>罕見</strong></p><p><strong>（≥ 1/10,000&nbsp;至 &lt; 1/1000）</strong></p></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\"><strong>非常罕見（&lt; 1/10,000）&nbsp;</strong></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\"><p><strong>未知</strong></p><p><strong>（無法以可用資料估計）</strong></p></th></tr></thead><tbody><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">良性、惡性及未分類腫瘤（含囊腫和息肉）</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\"><p>（兒童）</p><p>白血病<sup>†</sup></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">代謝與營養疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\"><p>（成人和兒童）</p><p>第 2&nbsp;型糖尿病</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">神經系統疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\"><p>（成人）</p><p>感覺異常*</p><p>&nbsp;</p><p>（成人）</p><p>腕隧道症候群</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\"><p>（兒童）</p><p>良性顱內高壓</p><p>&nbsp;</p><p>（兒童）</p><p>感覺異常*</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\"><p>（成人）良性顱內高壓</p><p>&nbsp;</p><p>（成人和兒童）<br>頭痛</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">皮膚及皮下組織疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\"><p>（兒童）</p><p>皮疹**、</p><p>搔癢**、</p><p>蕁麻疹**</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\">（成人）皮疹**、搔癢**、蕁麻疹**</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">骨骼肌肉及結締組織疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">（成人）關節痛*</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\"><p>（成人）肌痛*</p><p>&nbsp;</p><p>（成人）</p><p>肌肉骨骼僵硬*</p><p>&nbsp;</p><p>（兒童）關節痛*</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\">（兒童）肌痛*</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\">（兒童）肌肉骨骼僵硬*</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">生殖系統和乳房疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\"><p>（成人和兒童）</p><p>男性女乳症</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\">&nbsp;</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">一般疾病與投藥部位異常</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">（成人）周邊水腫*</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\"><p>（兒童）</p><p>注射部位反應<sup>$</sup></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\"><p>（兒童）</p><p>周邊水腫*</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\"><p>（成人和兒童）</p><p>臉部水腫*</p><p>&nbsp;</p><p>（成人）注射部位反應<sup>$</sup></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:62.45pt;\">實驗室檢查</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:49.45pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:56.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:62.1pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:67.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.85pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:61.3pt;\"><p>（成人和兒童）</p><p>血中皮質醇降低<sup>‡</sup></p></td></tr></tbody></table></figure><p>*一般而言，這些不良作用為輕至中度，在治療後的前幾個月內出現，並會自行或降低劑量後緩解。這些不良作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。</p><p>**上市後發現的藥物不良反應（ADR）。</p><p>$曾有兒童發生暫時性注射部位反應的報告。</p><p>‡臨床顯著性未知。</p><p>†曾發生於以somatropin治療的生長激素分泌不足兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。</p><p>&nbsp;</p><p><i>日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常）</i></p><p>表 2&nbsp;總結了依系統器官分類 (SOC)&nbsp;和首選術語 (PT)&nbsp;呈現的治療引發之不良事件 (TEAE)。</p><p>&nbsp;</p><p>在成人群組中，超過 1&nbsp;名受試者通報與治療相關的 TEAE&nbsp;為糖化血紅素上升 (3 [15.0%])&nbsp;以及類胰島素生長因子增加 (2 [10.0%]）。</p><p>&nbsp;</p><p>有9名 (45.0%)&nbsp;成人病人和3名 (50.0%)&nbsp;未曾接受過GH治療的兒童病人通報發生不良反應（與治療相關）。曾接受過GH治療的兒童群組中，通報的不良事件未與治療相關。通報的最常見不良反應為糖化血色素上升 [3名 (15.0%)&nbsp;成人和1名 (16.7%)&nbsp;未曾接受過GH治療兒童]&nbsp;和IGF濃度上升 [2名 (10.0%)&nbsp;成人和1名 (16.7%)&nbsp;未曾接受過GH治療兒童]。</p><p>&nbsp;</p><p><strong>表2：依系統器官分類和首選術語區分的治療引發之不良事件（與治療相關）-&nbsp;完整分析（試驗計畫書 A6281323）</strong></p><figure class=\"table\"><table><thead><tr><th style=\"border:1.0pt solid black;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\"><strong>可評估 AE&nbsp;的受試者人數</strong></th><th style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;width:89.75pt;\"><p><strong>未曾接受生長激素 (GH)&nbsp;的小兒群組</strong></p><p><strong>(N=6)</strong></p><p><strong>(n)%</strong></p></th><th style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;width:98.8pt;\"><p><strong>接受生長激素 (GH)&nbsp;治療的小兒群組</strong></p><p><strong>(N=7)</strong></p><p><strong>(n)%</strong></p></th><th style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;width:58.5pt;\"><p><strong>成人群組</strong></p><p><strong>(N=20)</strong></p><p><strong>(n)%</strong></p></th></tr><tr><th style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\"><strong>受試者人數 (%)：依系統器官分類及首選術語分類</strong></th><th style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;width:247.05pt;\" colspan=\"3\">&nbsp;</th></tr></thead><tbody><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">發生任何不良事件</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">3 (50.0)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">9 (45.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">全身性疾病與投藥部位異常</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">1 (5.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">注射部位反應</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">1 (5.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">檢查</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">2 (33.3)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">6 (30.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\"><p>血中三酸甘油脂升高</p><p>身高增加</p><p>糖化血色素上升</p><p>類胰島素生長因子上升</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\"><p>0</p><p>1 (16.7)</p><p>1 (16.7)</p><p>1 (16.7)</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\"><p>0</p><p>0</p><p>0</p><p>0</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\"><p>1 (5.0)</p><p>0</p><p>3 (15.0)</p><p>2 (10.0)</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">代謝與營養疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">3 (15.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\"><p>糖尿病控制不佳</p><p>葡萄糖耐受性受損</p><p>第 2&nbsp;型糖尿病</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\"><p>0</p><p>0</p><p>0</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\"><p>0</p><p>0</p><p>0</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\"><p>1 (5.0)</p><p>1 (5.0)</p><p>1 (5.0)</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">骨骼肌肉及結締組織疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">1 (5.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">關節痛</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">1 (5.0)</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">神經系統疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">1 (16.7)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">感覺異常</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">1 (16.7)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">呼吸、胸腔和縱膈腔疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">1 (16.7)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">打鼾</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">1 (16.7)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">皮膚及皮下組織疾病</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">1 (16.7)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">0</td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:184.8pt;\">皮下出血</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:89.75pt;\">1 (16.7)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:98.8pt;\">0</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.9pt 0cm 2.85pt;vertical-align:top;width:58.5pt;\">0</td></tr></tbody></table></figure><p>&nbsp;</p><p><u>血清皮質醇(cortisol)濃度降低</u></p><p>曾有報告指出，somatropin可能經由影響載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性似乎很有限。雖然如此，在開始Genotropin治療之前，應該使皮質類固醇補充治療達到最佳狀況。</p><p>&nbsp;</p><p><u>普瑞德威利氏症候群</u></p><p>在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實其間的相關性。</p><p>&nbsp;</p><p><u>白血病</u></p><p>曾有生長激素缺乏症病童罹患白血病的報告，其中有些病人接受somatropin治療，這些案例被列入上市後經驗。然而，並沒有證據顯示白血病風險會在無易感因素(predisposition factors)，例如腦部或頭部放射線之情況下增加。</p><p>&nbsp;</p><p>股骨頭滑脫症與小兒股骨頭缺血性壞死症(Legg-Calve-Perthes disease)</p><p>在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。</p><p>&nbsp;</p><p><u>其他不良藥物反應</u></p><p>其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。</p><p>&nbsp;</p><p><u>疑似不良反應之報告</u></p><p>醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益/風險平衡可持續被監測。</p>",
+          "search_text": "8.2\n臨床試驗經驗\n不良反應列表 表1列出之針對兒童和成人的不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見(≥1/100 至 < 1/10) ；不常見(≥1/1,000 至 < 1/100) ；罕見(≥1/10,000 至 < 1/1,000) ；極罕見(< 1/10,000) ；未知(無法以可用資料估計) 。 表 1： 不良反應列表 系統器官分類非常常見 (≥1/10) 常見 （≥ 1/100 至 < 1/10） 不常見 （≥ 1/1,000 至 < 1/100） 罕見 （≥ 1/10,000 至 < 1/1000） 非常罕見（< 1/10,000） 未知 （無法以可用資料估計） 良性、惡性及未分類腫瘤（含囊腫和息肉） （兒童） 白血病† 代謝與營養疾病 （成人和兒童） 第 2 型糖尿病 神經系統疾病 （成人） 感覺異常* （成人） 腕隧道症候群 （兒童） 良性顱內高壓 （兒童） 感覺異常* （成人）良性顱內高壓 （成人和兒童） 頭痛 皮膚及皮下組織疾病 （兒童） 皮疹**、 搔癢**、 蕁麻疹** （成人）皮疹**、搔癢**、蕁麻疹** 骨骼肌肉及結締組織疾病（成人）關節痛* （成人）肌痛* （成人） 肌肉骨骼僵硬* （兒童）關節痛* （兒童）肌痛* （兒童）肌肉骨骼僵硬* 生殖系統和乳房疾病 （成人和兒童） 男性女乳症 一般疾病與投藥部位異常（成人）周邊水腫* （兒童） 注射部位反應$ （兒童） 周邊水腫* （成人和兒童） 臉部水腫* （成人）注射部位反應$ 實驗室檢查 （成人和兒童） 血中皮質醇降低‡ *一般而言，這些不良作用為輕至中度，在治療後的前幾個月內出現，並會自行或降低劑量後緩解。這些不良作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應（ADR）。 $曾有兒童發生暫時性注射部位反應的報告。 ‡臨床顯著性未知。 †曾發生於以somatropin治療的生長激素分泌不足兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常） 表 2 總結了依系統器官分類 (SOC) 和首選術語 (PT) 呈現的治療引發之不良事件 (TEAE)。 在成人群組中，超過 1 名受試者通報與治療相關的 TEAE 為糖化血紅素上升 (3 [15.0%]) 以及類胰島素生長因子增加 (2 [10.0%]）。 有9名 (45.0%) 成人病人和3名 (50.0%) 未曾接受過GH治療的兒童病人通報發生不良反應（與治療相關）。曾接受過GH治療的兒童群組中，通報的不良事件未與治療相關。通報的最常見不良反應為糖化血色素上升 [3名 (15.0%) 成人和1名 (16.7%) 未曾接受過GH治療兒童] 和IGF濃度上升 [2名 (10.0%) 成人和1名 (16.7%) 未曾接受過GH治療兒童]。 表2：依系統器官分類和首選術語區分的治療引發之不良事件（與治療相關）- 完整分析（試驗計畫書 A6281323） 可評估 AE 的受試者人數 未曾接受生長激素 (GH) 的小兒群組 (N=6) (n)% 接受生長激素 (GH) 治療的小兒群組 (N=7) (n)% 成人群組 (N=20) (n)% 受試者人數 (%)：依系統器官分類及首選術語分類 發生任何不良事件3 (50.0)09 (45.0) 全身性疾病與投藥部位異常001 (5.0) 注射部位反應001 (5.0) 檢查2 (33.3)06 (30.0) 血中三酸甘油脂升高 身高增加 糖化血色素上升 類胰島素生長因子上升 0 1 (16.7) 1 (16.7) 1 (16.7) 0 0 0 0 1 (5.0) 0 3 (15.0) 2 (10.0) 代謝與營養疾病003 (15.0) 糖尿病控制不佳 葡萄糖耐受性受損 第 2 型糖尿病 0 0 0 0 0 0 1 (5.0) 1 (5.0) 1 (5.0) 骨骼肌肉及結締組織疾病001 (5.0) 關節痛001 (5.0) 神經系統疾病1 (16.7)00 感覺異常1 (16.7)00 呼吸、胸腔和縱膈腔疾病1 (16.7)00 打鼾1 (16.7)00 皮膚及皮下組織疾病1 (16.7)00 皮下出血1 (16.7)00 血清皮質醇(cortisol)濃度降低 曾有報告指出，somatropin可能經由影響載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性似乎很有限。雖然如此，在開始Genotropin治療之前，應該使皮質類固醇補充治療達到最佳狀況。 普瑞德威利氏症候群 在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實其間的相關性。 白血病 曾有生長激素缺乏症病童罹患白血病的報告，其中有些病人接受somatropin治療，這些案例被列入上市後經驗。然而，並沒有證據顯示白血病風險會在無易感因素(predisposition factors)，例如腦部或頭部放射線之情況下增加。 股骨頭滑脫症與小兒股骨頭缺血性壞死症(Legg-Calve-Perthes disease) 在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。 其他不良藥物反應 其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。 疑似不良反應之報告 醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益/風險平衡可持續被監測。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "症狀 急性過量可能會導致低血糖，接著會變成高血糖。長期過量導致的症狀和人類生長激素過量已知的作用一致。",
+          "content_html": "<p><i>症狀</i></p><p>急性過量可能會導致低血糖，接著會變成高血糖。長期過量導致的症狀和人類生長激素過量已知的作用一致。</p><p>&nbsp;</p>",
+          "search_text": "9\n過量\n症狀 急性過量可能會導致低血糖，接著會變成高血糖。長期過量導致的症狀和人類生長激素過量已知的作用一致。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "藥理治療學分類：腦下垂體前葉荷爾蒙及其類似物，ATC碼：H01A C01。",
+          "content_html": "<p>藥理治療學分類：腦下垂體前葉荷爾蒙及其類似物，ATC碼：H01A C01。</p>",
+          "search_text": "10.1\n作用機轉\n藥理治療學分類：腦下垂體前葉荷爾蒙及其類似物，ATC碼：H01A C01。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "Somatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。 對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF-1（第一型胰島素生長因子）及IGFBP3（第三型類胰島素生長因子結合蛋白）的血清濃度會因somatropin增加。此外，下列作用已被證實： 脂肪代謝：Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載脂蛋白（apolipoprotein B）減少，也觀察到血清總膽固醇減少。 碳水化合物代謝：Somatropin增加胰島素，但空腹血糖值通常不變。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。 水與礦物質代謝：生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀、磷的滯留。 骨骼代謝：Somatropin刺激骨骼更新。對罹患骨質稀少的生長激素缺乏症病人長期投予somatropin可使負重部位骨骼的礦物質含量及密度增加。 體能：長期以somatropin治療後，肌肉強度與運動能力得到改善。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。 低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067 mg/kg體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為+1.90 SDS（每天0.033 mg/kg體重）及+2.19 SDS （每天0.067 mg/kg體重）。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。",
+          "content_html": "<p>Somatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。</p><p>&nbsp;</p><p>對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF-1（第一型胰島素生長因子）及IGFBP3（第三型類胰島素生長因子結合蛋白）的血清濃度會因somatropin增加。此外，下列作用已被證實：</p><ol><li>脂肪代謝：Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載脂蛋白（apolipoprotein B）減少，也觀察到血清總膽固醇減少。</li><li>碳水化合物代謝：Somatropin增加胰島素，但空腹血糖值通常不變。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。</li><li>水與礦物質代謝：生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀、磷的滯留。</li><li>骨骼代謝：Somatropin刺激骨骼更新。對罹患骨質稀少的生長激素缺乏症病人長期投予somatropin可使負重部位骨骼的礦物質含量及密度增加。</li><li>體能：長期以somatropin治療後，肌肉強度與運動能力得到改善。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。</li></ol><p>低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067 mg/kg體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為+1.90 SDS（每天0.033 mg/kg體重）及+2.19 SDS&nbsp;（每天0.067 mg/kg體重）。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。</p>",
+          "search_text": "10.2\n藥效藥理特性\nSomatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。 對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF-1（第一型胰島素生長因子）及IGFBP3（第三型類胰島素生長因子結合蛋白）的血清濃度會因somatropin增加。此外，下列作用已被證實： 脂肪代謝：Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載脂蛋白（apolipoprotein B）減少，也觀察到血清總膽固醇減少。 碳水化合物代謝：Somatropin增加胰島素，但空腹血糖值通常不變。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。 水與礦物質代謝：生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀、磷的滯留。 骨骼代謝：Somatropin刺激骨骼更新。對罹患骨質稀少的生長激素缺乏症病人長期投予somatropin可使負重部位骨骼的礦物質含量及密度增加。 體能：長期以somatropin治療後，肌肉強度與運動能力得到改善。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。 低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067 mg/kg體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為+1.90 SDS（每天0.033 mg/kg體重）及+2.19 SDS （每天0.067 mg/kg體重）。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關的作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。 一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性（fragility）增加。這個發現的臨床重要性不明。 另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。",
+          "content_html": "<p>在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關的作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。</p><p>一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性（fragility）增加。這個發現的臨床重要性不明。</p><p>另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關的作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。 一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性（fragility）增加。這個發現的臨床重要性不明。 另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "吸收 皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035 mg/kg之皮下注射劑量得到的最高血漿濃度（Cmax）是13-35 ng/mL，tmax是3-6小時。 排除 生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射之後，藥物從注射部位的緩慢吸收所致。 次群體之觀察 皮下注射後，somatropin的絕對生體可用率男女似乎一樣。 關於somatropin在老年人和兒童群體，不同種族以及肝、腎或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。",
+          "content_html": "<p><i>吸收</i></p><p>皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035 mg/kg之皮下注射劑量得到的最高血漿濃度（C<sub>max</sub>）是13-35 ng/mL，t<sub>max</sub>是3-6小時。</p><p><i>排除</i></p><p>生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射之後，藥物從注射部位的緩慢吸收所致。</p><p><i>次群體之觀察</i></p><p>皮下注射後，somatropin的絕對生體可用率男女似乎一樣。</p><p>關於somatropin在老年人和兒童群體，不同種族以及肝、腎或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。</p>",
+          "search_text": "11\n藥物動力學特性\n吸收 皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035 mg/kg之皮下注射劑量得到的最高血漿濃度（Cmax）是13-35 ng/mL，tmax是3-6小時。 排除 生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射之後，藥物從注射部位的緩慢吸收所致。 次群體之觀察 皮下注射後，somatropin的絕對生體可用率男女似乎一樣。 關於somatropin在老年人和兒童群體，不同種族以及肝、腎或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "用於普瑞德威利氏症候群之身體組成異常 日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常） 一項開放性、非對照性臨床試驗以普瑞德威利氏症候群的病人（20名成人病人、6位未曾接受過生長激素 [GH] 治療兒童病人，以及7名曾接受過GH治療兒童病人）為對象進行研究。藥品用法用量為成人病人前4週接受0.042 mg/kg/週，之後調升成0.084 mg/kg/週。所使用的劑量會參考症狀和血清IGF-1濃度調整，但每天劑量不超過1.6 mg。所有病人都接受分為6到7次每日皮下注射的劑量給藥。成人群組中，以雙能量X光吸光式測定儀 (DXA) 測定之自基準期到第12個月的瘦體組織（Lean Body Mass, LBM）比率 (%) 變化（最小平方平均值點估計 [95% 信賴區間]）為3.09 [1.85, 4.33]。各組別的瘦體組織比率 (%) 變化如下。 項目群組試驗開始時第12個月自基準期起的變化 瘦體組織比率a)(%)成人群組 60.57±5.139 （n＝20） 63.57±4.704 （n＝19） 3.08±2.917 （n＝19） n：病人數。數值以平均值 ± SD呈現（n） a) 瘦體組織測量方式：雙能量X光吸光式測定儀 (DXA) 法。",
+          "content_html": "<p><u>用於普瑞德威利氏症候群之身體組成異常</u></p><p>&nbsp;</p><p><i>日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常）</i></p><p>一項開放性、非對照性臨床試驗以普瑞德威利氏症候群的病人（20名成人病人、6位未曾接受過生長激素 [GH]&nbsp;治療兒童病人，以及7名曾接受過GH治療兒童病人）為對象進行研究。藥品用法用量為成人病人前4週接受0.042 mg/kg/週，之後調升成0.084 mg/kg/週。所使用的劑量會參考症狀和血清IGF-1濃度調整，但每天劑量不超過1.6 mg。所有病人都接受分為6到7次每日皮下注射的劑量給藥。成人群組中，以雙能量X光吸光式測定儀 (DXA)&nbsp;測定之自基準期到第12個月的瘦體組織（Lean Body Mass, LBM）比率 (%)&nbsp;變化（最小平方平均值點估計 [95%&nbsp;信賴區間]）為3.09 [1.85, 4.33]。各組別的瘦體組織比率 (%) 變化如下。</p><p>&nbsp;</p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:3.0pt;padding:0cm 2.85pt;width:52.35pt;\"><strong>項目</strong></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.85pt;width:126.0pt;\"><strong>群組</strong></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.85pt;width:72.0pt;\"><strong>試驗開始時</strong></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.85pt;width:72.0pt;\"><strong>第12個月</strong></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:3.0pt;padding:0cm 2.85pt;width:99.0pt;\"><strong>自基準期起的變化</strong></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:3.0pt;padding:0cm 2.85pt;width:52.35pt;\">瘦體組織比率<sup>a)</sup>(%)</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.85pt;width:126.0pt;\">成人群組</td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.85pt;width:72.0pt;\"><p>60.57±5.139</p><p>（n＝20）</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.85pt;width:72.0pt;\"><p>63.57±4.704</p><p>（n＝19）</p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:3.0pt;padding:0cm 2.85pt;width:99.0pt;\"><p>3.08±2.917</p><p>（n＝19）</p></td></tr></tbody></table></figure><p>n：病人數。數值以平均值&nbsp;± SD呈現（n）</p><p>a)&nbsp;瘦體組織測量方式：雙能量X光吸光式測定儀 (DXA)&nbsp;法。</p>",
+          "search_text": "12\n臨床試驗資料\n用於普瑞德威利氏症候群之身體組成異常 日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常） 一項開放性、非對照性臨床試驗以普瑞德威利氏症候群的病人（20名成人病人、6位未曾接受過生長激素 [GH] 治療兒童病人，以及7名曾接受過GH治療兒童病人）為對象進行研究。藥品用法用量為成人病人前4週接受0.042 mg/kg/週，之後調升成0.084 mg/kg/週。所使用的劑量會參考症狀和血清IGF-1濃度調整，但每天劑量不超過1.6 mg。所有病人都接受分為6到7次每日皮下注射的劑量給藥。成人群組中，以雙能量X光吸光式測定儀 (DXA) 測定之自基準期到第12個月的瘦體組織（Lean Body Mass, LBM）比率 (%) 變化（最小平方平均值點估計 [95% 信賴區間]）為3.09 [1.85, 4.33]。各組別的瘦體組織比率 (%) 變化如下。 項目群組試驗開始時第12個月自基準期起的變化 瘦體組織比率a)(%)成人群組 60.57±5.139 （n＝20） 63.57±4.704 （n＝19） 3.08±2.917 （n＝19） n：病人數。數值以平均值 ± SD呈現（n） a) 瘦體組織測量方式：雙能量X光吸光式測定儀 (DXA) 法。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "包裝規格 5.3 mg單支裝、5.3 mg 5支裝，5.3 mg 預先充填注射筆單支裝，5.3 mg 預先充填注射筆5支裝 12 mg單支裝、12 mg 5支裝，12 mg 預先充填注射筆單支裝，12 mg 預先充填注射筆5支裝",
+          "content_html": "<p><span style=\"color:black;\">包裝規格</span></p><p>5.3 mg<span style=\"color:black;\">單支裝、</span>5.3 mg<span style=\"color:black;\"> 5支裝，</span>5.3 mg&nbsp;預先充填注射筆<span style=\"color:black;\">單支裝，</span>5.3 mg&nbsp;預先充填注射筆<span style=\"color:black;\">5支裝</span></p><p>12 mg<span style=\"color:black;\">單支裝、</span>12 mg<span style=\"color:black;\"> 5支裝，</span>12 mg&nbsp;預先充填注射筆<span style=\"color:black;\">單支裝，</span>12 mg&nbsp;預先充填注射筆<span style=\"color:black;\">5支裝</span></p>",
+          "search_text": "13.1\n包裝\n包裝規格 5.3 mg單支裝、5.3 mg 5支裝，5.3 mg 預先充填注射筆單支裝，5.3 mg 預先充填注射筆5支裝 12 mg單支裝、12 mg 5支裝，12 mg 預先充填注射筆單支裝，12 mg 預先充填注射筆5支裝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "請詳見外盒包裝配製後之架儲期：已證實物理及化學使用安定性在2-8℃可以維持28天。 從微生物學的觀點看來，本品經配製後可在2-8℃保存28天。其他使用保存時間與條件由使用者負責。",
+          "content_html": "<p>請詳見外盒包裝配製後之架儲期：已證實物理及化學使用安定性在2-8℃可以維持28天。</p><p>從微生物學的觀點看來，本品經配製後可在2-8℃保存28天。其他使用保存時間與條件由使用者負責。</p>",
+          "search_text": "13.2\n效期\n請詳見外盒包裝配製後之架儲期：已證實物理及化學使用安定性在2-8℃可以維持28天。 從微生物學的觀點看來，本品經配製後可在2-8℃保存28天。其他使用保存時間與條件由使用者負責。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "配製前：2-8℃（冰箱內）儲存。可保存在最高25℃長達一個月。保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。 配製後：2-8℃（冰箱內）儲存。不可冷凍，保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。經配置後之藥品保存，請參見13.2節。",
+          "content_html": "<p>配製前：<span style=\"color:black;\">2-8℃（冰箱內）儲存。可保存在最高25℃長達一個月。保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。</span></p><p><span style=\"color:black;\">配製後：2-8℃（冰箱內）儲存。不可冷凍，保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。經配置後之藥品保存，請參見13.2節。</span></p>",
+          "search_text": "13.3\n儲存條件\n配製前：2-8℃（冰箱內）儲存。可保存在最高25℃長達一個月。保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。 配製後：2-8℃（冰箱內）儲存。不可冷凍，保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。經配置後之藥品保存，請參見13.2節。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "請見使用說明",
+          "content_html": "<p>請見使用說明</p>",
+          "search_text": "14\n病人使用須知\n請見使用說明",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "處置：任何未使用過的產品應依當地規定處理；使用過後的GoQuick預先充填注射筆不可重新充填，必須妥善地丟棄。 版本：Belgium 20240609-2",
+          "content_html": "<p>處置：任何未使用過的產品應依當地規定處理；使用過後的GoQuick預先充填注射筆不可重新充填，必須妥善地丟棄。</p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">版本</span>：Belgium 20240609-2</p><p>&nbsp;</p>",
+          "search_text": "15\n其他\n處置：任何未使用過的產品應依當地規定處理；使用過後的GoQuick預先充填注射筆不可重新充填，必須妥善地丟棄。 版本：Belgium 20240609-2",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n1. Genotropin 5.3 mg注射劑, 含防腐劑。每個雙內腔玻璃卡匣內含 5.3 mg之somatropin。溶解後， somatropin之濃度為5.3 mg/ml。 2. Genotropin 12 mg注射劑, 含防腐劑。每個雙內腔玻璃卡匣內含 12 mg之somatropin。溶解後， somatropin之濃度為12 mg/ml。 以基因重組技術，於大腸桿菌細胞製造。\n1.2\n賦形劑\nGenotropin含有甘胺酸(E640)、磷酸二氫鈉(E339)、磷酸氫二鈉(E339)、及甘露醇(E421)。稀釋劑含有注射用水、甘露醇(E421)及間-甲酚（metacresol）。\n1.3\n劑型\n凍晶注射劑，乾粉附注射用水。雙內腔卡匣的前室裝有白色粉末，後室裝有澄清溶液。\n1.4\n藥品外觀\n凍晶粉末和1 ml 溶劑裝在以橡膠柱塞分隔 (溴化丁基) 的雙內腔玻璃卡匣內 (type I glass)。卡匣一端用含溴化丁基橡膠盤之鋁蓋密封，另一端以橡膠柱塞分隔 (溴化丁基)。此雙內腔卡匣可置於重複使用的Genotropin注射筆，或置於預先充填的拋棄式多劑量注射筆內使用，即GoQuick。 Genotropin注射筆以顏色識別，必須與同色雙內腔卡匣配合使用，以提供正確的劑量。Genotropin 注射筆5.3（藍色）必須使用Genotropin 5.3 mg卡匣（藍色）。Genotropin 注射筆12（紫色）必須使用 Genotropin 12 mg卡匣（紫色）。 5.3 mg預先充填注射筆GoQuick的識別色是藍色。12 mg預先充填注射筆 GoQuick的識別色是紫色。\n2\n適應症\n適用於下列疾病導致生長干擾的兒童病人： 腦下垂體之生長激素分泌不足（growth hormone deficiency） 普瑞德威利氏症候群（Prader-Willi syndrome, PWS） 低出生體重兒（Small for Gestational Age, SGA）逾四歲者之生長障礙 透納氏症候群（Turner’s syndrome） 慢性腎臟功能不足 適用於下列疾病的成人病人： 嚴重生長激素缺乏症（growth hormone deficiency）之補充治療 普瑞德威利氏症候群（PWS）且合併經飲食療法和運動療法無法控制的身體組成異常 說明： 低出生體重兒（Small for gestational age, SGA）之生長障礙（目前的身高標準差評分 [SDS] < -2.5且經校正父母親身高後，其身高SDS仍小於 -1），照妊娠週數來看，他們生來個子就很小（體重或身長低於 –2 SD），超過四歲後生長仍未趕上同齡兒童（最近一年內身高速度 [height velocity, HV] SDS < 0）。 普瑞德威利氏症候群（Prader-Willi syndrome，PWS）的診斷應經由適當的遺傳試驗證實。已合併糖尿病的PWS成人病人不宜使用，尤其血糖控制不佳或已出現糖尿病併發症的病人（參見5.1節）。 嚴重成年期生長激素缺乏症病人的定義是有已知下視丘-腦下垂體的病狀，而且至少缺乏一種腦下垂體荷爾蒙（泌乳激素除外）的病人。這些病人應該接受單次動態性檢查，以診斷或排除生長激素缺乏症。兒童期發病的獨立生長激素缺乏症病人（無下視丘－腦下腺體疾病或曾接受過頭髗放射線照射治療之狀況）應建議做兩種動態性檢查，但低IGF-1濃度（< - 2 SD）的病人可考慮只做一種檢查。動態檢查的最大值必須妥善界定。\n3\n用法及用量\n3.1\n用法用量\n劑量與給藥時程因人而異。 皮下注射，注射部位應常更換以免皮下脂肪組織萎縮。 兒童： 兒童因生長激素分泌不足所導致之生長障礙：通常建議劑量為每天0.025-0.035 mg/kg體重，或每天0.7-1.0 mg/m2體表面積。 普瑞德威利氏症候群，改善兒童的生長及身體組成：通常建議劑量為每天0.035 mg/kg體重，或1.0 mg/m2體表面積。一天的劑量不應該超過2.7 mg。生長速率小於每年一公分或骨骺接近閉合的兒童不應該使用治療。 透納氏症候群所導致之生長障礙：建議劑量為每天0.045-0.050 mg/kg體重，或每天1.4 mg/m2體表面積。 慢性腎功能不足所導致之生長障礙：建議劑量為每天1.4 mg/m2體表面積（約每天0.045-0.050 mg/kg體重）。如果生長速率太慢可使用較高的劑量。治療六個月之後可能需要調整劑量。 低出生體重兒（SGA）之生長障礙：一般建議劑量為每天0.035 mg/kg體重（每天1 mg/m2體表面積）直到達到最後的身高（參見10.2節）。治療第一年後如果身高增加速率SDS低於+1就應停止治療。如果身高增加速率小於每年二公分及女孩骨齡> 14歲, 男孩骨齡>16歲, 就應該停止治療。 小兒科病人的建議劑量 適應症 每日劑量 mg/kg體重 每日劑量 mg/m2體表面積 兒童生長激素缺乏症0.025-0.0350.7-1.0 兒童普瑞德威利氏症候群0.0351.0 透納氏症候群0.045-0.0501.4 慢性腎功能不足0.045-0.0501.4 低出生體重兒之生長障礙0.0351.0 成人： 成人生長激素缺乏症：治療應以每天0.1-0.3 mg之低劑量開始。劑量應依個別病人的需求而逐漸增加，而需求量係藉第一型類胰島素生長因子（IGF-1）的濃度決定。治療目標應該是使IGF-1濃度達到年齡校正平均值的2 SDS之內。IGF-1濃度正常的病人，治療開始時應給予生長激素直到IGF-1水平達到正常範圍的上層（但不超過+2 SDS）。臨床反應（療效和副作用）也可作為劑量調整的指標。每日維持劑量很少需要超過每天1.0 mg。女性需要的劑量可能比男性高，尤其是接受口服雌激素補充療法的女性。因為對IGF-1的敏感度日漸增加，所以可能需要降低劑量。應該每六個月核對一次生長激素的劑量。因為正常的生理性生長激素製造通常隨著年齡的增加而減少，所以可能需要降低劑量。應以最低有效劑量為目標。 普瑞德威利氏症候群之成人身體組成異常：起始劑量通常為0.042 mg/kg/週的somatropin，分為6到7次經皮下注射途徑劑量給藥。可依病人的臨床症狀調升劑量至最高0.084 mg/kg/週。可依據病人的臨床症狀和實驗室檢測結果，如血清第一型類胰島素生長因子 (IGF-1) 的濃度去調整劑量。然而，每天最高劑量不應超過1.6 mg。 依據血清IGF-1的濃度調整本藥的劑量：建議在開始用藥後第4及12週檢測血清IGF-1濃度，之後每12到26週檢測一次。當發生不良反應等狀況時，必須視需要測量血清IGF-1濃度並採取適當措施，例如減低劑量或停用本藥。\n3.2\n調製方式\n僅能使用包裝所附的溶劑配置乾粉。 Genotropin雙內腔卡匣乃置於注射器（Genotropin注射筆）內使用，Genotropin注射筆插入雙內腔卡匣後，旋緊Genotropin注射筆或GoQuick預先充填注射筆，生長激素就會與溶劑於雙內腔卡匣內混合，輕輕地前後來回傾斜使凍晶粉末溶解。配製期間不可用力振搖溶液，如此可能使主成分變性。配製後的溶液呈無色或淡乳白色，使用前必須加以檢查，唯有不含顆粒的澄清透明溶液方可使用。 在使用筆型注射器前，須先將針頭鎖上，再進行混合配置。 無充分之不相容性研究，不可與其他藥物混合。\n3.3\n特殊族群用法用量\n4\n禁忌\n對主成分或任何列於1.2節之賦形劑過敏者。 當有任何腫瘤活動的跡象時禁用Somatropin。在開始生長激素治療前，顱內腫瘤必須處於非活動狀態，且抗腫瘤治療必須完成。如果有證據顯示腫瘤的生長，應停止治療。 Genotropin禁用於促進骨骺板已閉合兒童之生長。 Genotropin禁用於開心手術、腹部手術、多重意外創傷、急性呼吸衰竭或類似狀況後發生併發症的急性重症病人。（關於接受置換療法的病人，參見5節）。\n5\n警語及注意事項\n5.1\n警語/注意事項\n開始治療之前必須確定診斷。Genotropin治療應由有適當資格而且有經驗的醫師開始並加以監測。 肌炎是一種極少發生的副作用，其發生的原因可能與防腐劑metacresol有關。若發生肌痛或在注射部位產生不相稱的疼痛時，應懷疑是肌炎，如經證實，應使用不含metacresol之Genotropin。 請勿超過每日最大建議劑量（參見3.1節）。 胰島素敏感性 Somatropin可能降低胰島素敏感性。病人若患有糖尿病且開始使用somatropin治療時，可能需要調整胰島素的劑量。病人有糖尿病、葡萄糖不耐症或其他糖尿病的危險因子者，於somatropin治療期間需密切監測。 甲狀腺功能 生長激素會使甲狀腺外的T4轉換成T3的量增加，造成T4的血清濃度降低，而T3的血清濃度增高。一般而言，健康受試者的血清甲狀腺荷爾蒙濃度都可維持在一般正常的參考值範圍內。在患有中樞性無臨床症狀（subclinical）甲狀腺機能低下的病人中可能衍生出甲狀腺機能低下。因此，須監測所有病人的甲狀腺功能。正在接受替代療法的腦下垂體功能低下病人，須密切監測生長激素對於甲狀腺功能的潛在影響。 腎上腺機能低下症 使用somatropin治療可能會抑制11βHSD-1並導致血清皮質醇濃度降低。而接受somatropin治療的病人中，若先前未曾診斷出的中樞性（次發性）腎上腺功能低下症可能會被發現，並需要接受糖皮質類固醇替代治療。此外，之前曾被診斷出腎上腺機能低下症而接受糖皮質類固醇替代治療的病人在開始somatropin治療後，可能需要增加其類固醇的維持或壓力劑量（參見7節）。 使用口服雌激素治療 若使用somatropin的女性開始接受口服雌激素治療，則可能需要增加somatropin劑量以維持血清IGF-1濃度處於正常適齡範圍內。相反地，若使用somatropin的女性停止口服雌激素治療，則可能需要減低somatropin劑量以避免生長激素過多及/或副作用（參見7節）。 因為治療癌症所導致的生長激素缺乏症，建議應注意癌症復發的跡象。在兒童癌症存活者中，病人於其第一腫瘤發生後以somatropin治療曾有次發性腫瘤風險增加報告。於第一腫瘤接受頭部放射線治療之病人中，顱內腫瘤特別是腦膜瘤是最常見的次發性腫瘤。 患有內分泌疾病的病人，包括生長激素缺乏症的病人，可能比一般人更容易發生髖部骨骺脫位。病童若在somatropin治療期間發生跛行現象，應就醫檢查。 良性顱內壓升高 若發生嚴重或復發性頭痛、視覺問題、噁心或嘔吐，建議應以眼底鏡檢查是否有視乳頭水腫。視乳頭水腫可能是良性顱內壓升高造成的。這種情況應停止生長激素治療。對於顱內壓升高復原的病人，並未有足夠的證據建議重新開始使用生長激素治療。如果重新使用生長激素治療，便需要小心監測顱內壓升高的症狀。 白血病 少數生長激素缺乏症的病人曾有白血病的報告，其中某些病人曾以somatropin治療。然而，沒有證據顯示白血病的發生率在生長激素的使用者在沒有易感因素(predisposition factors)時會增加。 抗體 與其他含somatropin的製劑一樣，少數病人可能對Genotropin產生抗體。大約１％的病人使用Genotropin後產生抗體。這些抗體的結合能力差，不影響生長速率。任何病人出現無法解釋的沒有反應時，應進行somatropin抗體的測試。 急性重症 曾有兩個安慰劑對照試驗研究Genotropin對於復原的影響，其中包含522名在開心手術、腹部手術、多重意外創傷或急性呼吸衰竭後發生併發症的重症成年病人。每天接受5.3或8 mg Genotropin治療的病人，其死亡率比接受安慰劑的病人高（42%比19%）。根據這個資料，此類病人不該使用Genotropin。由於缺乏生長激素補充治療用於急性重症病人的安全性資料，因此對於接受Genotropin治療的病人，以及發生其他或類似急性重症的病人，繼續以Genotropin治療的益處必須大於可能引起的危險。 胰臟炎 儘管罕見，胰臟炎仍應在somatropin治療病人中列入考量，特別是發生腹痛的兒童。 普瑞德威利氏症候群 對於普瑞德威利氏症候群病人，治療一定要與限制熱量飲食雙管齊下。此外，普瑞德威利氏症候群的病況特別可能會因葡萄糖耐受性降低而出現併發症，所以要謹慎監測病人的血糖變化。 在具有一個或多個下列危險因子的PWS兒童病人中，曾有使用生長激素致死的案例報導：嚴重肥胖（體重/身高超過200%的病人）、曾有呼吸功能不全或睡眠呼吸中止症之病史、或不明之呼吸道感染。有一個或多個上述危險因子的男性病人風險可能比較高。因此，不建議對嚴重肥胖或有嚴重呼吸功能不全的兒童病人投予本藥。 在兒科，脊柱側彎在PWS病人中很常見。任何一個兒童在快速生長期間都可能會發生脊柱側彎。醫師在治療期間應監測脊柱側彎的徵候。 此外，對於包含成人在內的病人，應注意以下幾點： 在開始用somatropin治療普瑞德威利氏症候群病人之前，應評估有無上呼吸道阻塞、睡眠呼吸中止症、或呼吸道感染的徵候。 在進行上呼吸道阻塞之評估時，若觀察到病理變化，應將病童轉介耳鼻喉科醫師治療，俟呼吸障礙消除後，再開始使用生長激素治療。 開始生長激素治療之前，先利用被認可的方法例如睡眠多項生理檢查（polysomnography）或整夜監測血氧濃度來評估有無睡眠呼吸中止症，若懷疑有睡眠呼吸中止症，則須加以監測。 使用somatropin治療期間，倘若病人出現上呼吸道阻塞的徵候（包括開始打鼾或打鼾增加），應中止治療並做新的耳鼻喉科評估。 對於所有普瑞德威利氏症候群病人接受治療時，若懷疑有睡眠呼吸中止症，都應加以監測。 應監測病人有無呼吸道感染的徵候。呼吸道感染應盡早診斷，積極治療。 所有普瑞德威利氏症候群病人在開始生長激素治療之前及治療期間，也都需要進行有效的體重控制 在成人生長激素缺乏症，定期進行檢測以確保血清IGF-1濃度值並未超過參考範圍之上限（參見2和3.1節）。已患有活動性增生性或嚴重非增生性糖尿病視網膜病變的病人不應使用生長激素治療。 當對成人合併使用本藥與本藥以外的其他荷爾蒙藥物時，應謹慎監測血清IGF-1濃度，因同時使用荷爾蒙可能會影響血清IGF-1的濃度。 成人與PWS病人接受長期生長激素治療的經驗有限。 低出生體重兒 對於低出生體重兒之生長障礙，開始治療前必須先排除其他可能造成生長障礙的原因或治療。 對於低出生體重病童，建議開始生長激素治療前應測量空腹胰島素及血糖，此後每年檢查一次。糖尿病風險高的病人（例如有糖尿病家族史、肥胖、嚴重胰島素抗性、黑色棘皮病[acanthosis nigricans]）應該做口服葡萄糖耐受性試驗。若發生明顯的糖尿病，就不可給予生長激素。 對於低出生體重病童，建議開始治療前應測量IGF-1之數值，此後每年檢查二次。如果IGF-1的重複測量值超過該年齡與青春期狀態的參考值+ 2 SD之範圍，則可斟酌IGF-1/IGFBP3比率來考量劑量之調整。 用於治療即將進入青春期之低出生體重病人的經驗有限。因此不建議在即將進入青春期時開始治療。用於Silver-Russell症候群病人的經驗有限。 治療低出生體重兒之生長障礙時，若在最後身高達到前停止治療，一些已增加的高度會喪失。 慢性腎功能不足 對於慢性腎功能不足的病人，開始治療前腎功能必須在正常值的百分之五十以下。為了確定生長障礙，在開始治療前應觀察其生長為期一年左右。在這段觀察期間內應建立腎功能不足的保守治療（包括控制酸血症、副甲狀腺機能亢進及營養狀態），並在生長激素治療期間應維持此保守治療。 腎臟移植時應停止生長激素治療。 迄今還沒有使用Genotropin治療慢性腎功能不足病人之最後身高的資料。 鈉含量 本藥品每劑含有低於 1mmol的鈉（23mg）。低鈉飲食的病人可被告知本藥品基本上屬“無鈉”。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n生長激素不會影響駕駛與操縱機械的能力。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n關於受孕、胚胎發育、分娩或是產後發育的動物實驗資料不足（參見10.3.），沒有使用於孕婦的臨床經驗。因此，孕婦及可能懷孕的婦女不應使用含somatropin的製劑。\n6.2\n哺乳\n沒有授乳婦使用somatropin製劑的臨床試驗資料，目前不知道somatropin是否會分泌至乳汁，但嬰兒的胃腸道幾乎不可能吸收完整的蛋白質。因此，somatropin製劑用於授乳婦時應小心。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n用於80歲以上病人的經驗很有限。老年病人可能對Genotropin的作用更敏感，也可能因此更容易產生不良反應。\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n併用糖皮質類固醇會抑制含somatropin藥品的促進生長作用。促腎上腺皮質激素（ACTH）分泌不足的病人應謹慎地調整其糖皮質類固醇替代治療，以避免抑制生長。因此，使用糖皮質類固醇的病人應小心監測生長，以評估糖皮質類固醇對於生長潛在的影響。 生長激素會減少可體松（cortisone）轉化為皮質醇，並可能會使之前未曾發現的中樞性腎上腺機能低下症因此顯現或使低劑量糖皮質類固醇替代治療無效（參見5節）。 從對生長激素缺乏的成人所做的交互研究資料顯示，給予somatropin會增加由細胞色素P450 3A4同功酶所代謝的化合物（例如性類固醇、皮質類固醇、抗痙攣劑及ciclosporin）的清除率，導致這些化合物的血漿濃度降低。其臨床意義未知。 關於患有糖尿病和甲狀腺障礙的病人請參見5節。 接受口服雌激素補充治療的女性可能需要更高劑量的生長激素才可達到治療目標（參見5節）。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n生長激素缺乏症病人的特點是細胞外體積不足。開始用somatropin治療時，細胞外體積不足會迅速被矯正。對成年病人來說，副作用主要與體液滯留有關，例如周邊水腫、臉部水腫、骨骼肌肉僵硬、關節痛、肌痛、感覺異常（paraesthesia）等很常見。這些副作用通常是輕度至中度，在治療頭幾個月內出現，會自動緩解或隨著劑量的降低而消失。 這些副作用的發生率與使用劑量、病人的年齡有關：和病人發生生長激素缺乏症的年齡成反比。這些副作用在兒童並不常見。 大約1%病人會對Genotropin產生抗體。這些抗體的結合能力很低，未伴隨臨床上的變化。\n8.2\n臨床試驗經驗\n不良反應列表 表1列出之針對兒童和成人的不良反應是依系統器官分類和頻率標題排序，分為非常常見 (≥1/10)；常見(≥1/100 至 < 1/10) ；不常見(≥1/1,000 至 < 1/100) ；罕見(≥1/10,000 至 < 1/1,000) ；極罕見(< 1/10,000) ；未知(無法以可用資料估計) 。 表 1： 不良反應列表 系統器官分類非常常見 (≥1/10) 常見 （≥ 1/100 至 < 1/10） 不常見 （≥ 1/1,000 至 < 1/100） 罕見 （≥ 1/10,000 至 < 1/1000） 非常罕見（< 1/10,000） 未知 （無法以可用資料估計） 良性、惡性及未分類腫瘤（含囊腫和息肉） （兒童） 白血病† 代謝與營養疾病 （成人和兒童） 第 2 型糖尿病 神經系統疾病 （成人） 感覺異常* （成人） 腕隧道症候群 （兒童） 良性顱內高壓 （兒童） 感覺異常* （成人）良性顱內高壓 （成人和兒童） 頭痛 皮膚及皮下組織疾病 （兒童） 皮疹**、 搔癢**、 蕁麻疹** （成人）皮疹**、搔癢**、蕁麻疹** 骨骼肌肉及結締組織疾病（成人）關節痛* （成人）肌痛* （成人） 肌肉骨骼僵硬* （兒童）關節痛* （兒童）肌痛* （兒童）肌肉骨骼僵硬* 生殖系統和乳房疾病 （成人和兒童） 男性女乳症 一般疾病與投藥部位異常（成人）周邊水腫* （兒童） 注射部位反應$ （兒童） 周邊水腫* （成人和兒童） 臉部水腫* （成人）注射部位反應$ 實驗室檢查 （成人和兒童） 血中皮質醇降低‡ *一般而言，這些不良作用為輕至中度，在治療後的前幾個月內出現，並會自行或降低劑量後緩解。這些不良作用的發生率與使用劑量、病人的年齡有關，且可能和病人發生生長激素分泌不足的年齡成反比。 **上市後發現的藥物不良反應（ADR）。 $曾有兒童發生暫時性注射部位反應的報告。 ‡臨床顯著性未知。 †曾發生於以somatropin治療的生長激素分泌不足兒童，但其發生率似乎與無生長激素分泌不足之兒童一樣。 日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常） 表 2 總結了依系統器官分類 (SOC) 和首選術語 (PT) 呈現的治療引發之不良事件 (TEAE)。 在成人群組中，超過 1 名受試者通報與治療相關的 TEAE 為糖化血紅素上升 (3 [15.0%]) 以及類胰島素生長因子增加 (2 [10.0%]）。 有9名 (45.0%) 成人病人和3名 (50.0%) 未曾接受過GH治療的兒童病人通報發生不良反應（與治療相關）。曾接受過GH治療的兒童群組中，通報的不良事件未與治療相關。通報的最常見不良反應為糖化血色素上升 [3名 (15.0%) 成人和1名 (16.7%) 未曾接受過GH治療兒童] 和IGF濃度上升 [2名 (10.0%) 成人和1名 (16.7%) 未曾接受過GH治療兒童]。 表2：依系統器官分類和首選術語區分的治療引發之不良事件（與治療相關）- 完整分析（試驗計畫書 A6281323） 可評估 AE 的受試者人數 未曾接受生長激素 (GH) 的小兒群組 (N=6) (n)% 接受生長激素 (GH) 治療的小兒群組 (N=7) (n)% 成人群組 (N=20) (n)% 受試者人數 (%)：依系統器官分類及首選術語分類 發生任何不良事件3 (50.0)09 (45.0) 全身性疾病與投藥部位異常001 (5.0) 注射部位反應001 (5.0) 檢查2 (33.3)06 (30.0) 血中三酸甘油脂升高 身高增加 糖化血色素上升 類胰島素生長因子上升 0 1 (16.7) 1 (16.7) 1 (16.7) 0 0 0 0 1 (5.0) 0 3 (15.0) 2 (10.0) 代謝與營養疾病003 (15.0) 糖尿病控制不佳 葡萄糖耐受性受損 第 2 型糖尿病 0 0 0 0 0 0 1 (5.0) 1 (5.0) 1 (5.0) 骨骼肌肉及結締組織疾病001 (5.0) 關節痛001 (5.0) 神經系統疾病1 (16.7)00 感覺異常1 (16.7)00 呼吸、胸腔和縱膈腔疾病1 (16.7)00 打鼾1 (16.7)00 皮膚及皮下組織疾病1 (16.7)00 皮下出血1 (16.7)00 血清皮質醇(cortisol)濃度降低 曾有報告指出，somatropin可能經由影響載體蛋白質或經由增加肝臟清除率，進而降低血清中的cortisol濃度。這些發現的臨床相關性似乎很有限。雖然如此，在開始Genotropin治療之前，應該使皮質類固醇補充治療達到最佳狀況。 普瑞德威利氏症候群 在產品上市後的經驗，極少數接受somatropin治療的普瑞德威利氏症候群病人曾發生猝死案例，但無法證實其間的相關性。 白血病 曾有生長激素缺乏症病童罹患白血病的報告，其中有些病人接受somatropin治療，這些案例被列入上市後經驗。然而，並沒有證據顯示白血病風險會在無易感因素(predisposition factors)，例如腦部或頭部放射線之情況下增加。 股骨頭滑脫症與小兒股骨頭缺血性壞死症(Legg-Calve-Perthes disease) 在接受生長激素治療的兒童中曾有股骨頭滑脫症與小兒股骨頭缺血性壞死症的報告。股骨頭滑脫症在內分泌疾病案例中較常發生，小兒股骨頭缺血性壞死症則較常見於身材矮小案例。然而，當以somatropin治療時，此兩種病理病症是否較為頻繁未明。出現髖部或膝蓋不適或疼痛的兒童應考慮這些診斷。 其他不良藥物反應 其他不良藥物反應可能被視為somatropin藥物類別之效應，如胰島素敏感性降低可能導致之高血糖、游離甲狀腺素水平降低、以及良性顱內高壓。 疑似不良反應之報告 醫藥品核准上市後的疑似不良反應報告是很重要的。這使得該醫藥品的利益/風險平衡可持續被監測。\n8.3\n上市後經驗\n9\n過量\n症狀 急性過量可能會導致低血糖，接著會變成高血糖。長期過量導致的症狀和人類生長激素過量已知的作用一致。\n10\n藥理特性\n10.1\n作用機轉\n藥理治療學分類：腦下垂體前葉荷爾蒙及其類似物，ATC碼：H01A C01。\n10.2\n藥效藥理特性\nSomatropin是一強效代謝荷爾蒙，對脂肪、碳水化合物和蛋白質的代謝很重要。 對於內因性生長激素缺乏的兒童，somatropin可刺激其線性生長並促進生長速率。對於成人及兒童，somatropin可藉增加氮滯留及刺激骨骼肌生長，並藉代謝身體脂肪來維持正常的身體組成。內臟脂肪組織對somatropin特別敏感。Somatropin除了促進脂肪分解之外，也會減少三酸甘油酯攝入體脂肪儲存。IGF-1（第一型胰島素生長因子）及IGFBP3（第三型類胰島素生長因子結合蛋白）的血清濃度會因somatropin增加。此外，下列作用已被證實： 脂肪代謝：Somatropin誘發肝臟LDL膽固醇受體，影響血清中的脂肪與脂蛋白概況。一般而言，將somatropin給予生長激素缺乏的病人會使血清中的LDL及B型載脂蛋白（apolipoprotein B）減少，也觀察到血清總膽固醇減少。 碳水化合物代謝：Somatropin增加胰島素，但空腹血糖值通常不變。腦下垂體機能低下症病童可能經歷到空腹低血糖症，這種狀況會被somatropin改善。 水與礦物質代謝：生長激素缺乏症會伴隨血漿及細胞外體積減少，這兩者在開始somatropin治療後迅速增加。Somatropin會誘發鈉、鉀、磷的滯留。 骨骼代謝：Somatropin刺激骨骼更新。對罹患骨質稀少的生長激素缺乏症病人長期投予somatropin可使負重部位骨骼的礦物質含量及密度增加。 體能：長期以somatropin治療後，肌肉強度與運動能力得到改善。Somatropin也會增加心輸出量，但其機制尚未釐清。周邊血管阻力減低可能是促成這個效果之機制。 低出生體重兒之生長障礙的臨床試驗給予每天0.033及0.067 mg/kg體重的劑量治療，直到達到最後的身高。56名繼續接受治療且已達到最後身高的病人，和開始治療時相比，平均變化為+1.90 SDS（每天0.033 mg/kg體重）及+2.19 SDS （每天0.067 mg/kg體重）。文獻資料顯示，早期未自動跟上生長速率且未接受治療的低出生體重病童，其晚期生長為0.5 SDS。\n10.3\n臨床前安全性資料\n在有關一般毒性、局部耐受性與生殖毒性的研究中，並未觀察到在臨床上相關的作用。關於基因突變及染色體畸變的體外及活體內遺傳毒性研究結果也呈陰性。 一項體外研究從長期接受somatropin治療的病人取得淋巴細胞，接著添加擬放射線藥物bleomycin，結果觀察到染色體易破壞性（fragility）增加。這個發現的臨床重要性不明。 另一項研究發現長期接受somatropin治療的病人淋巴細胞的染色體異常並未有增加之現象。\n11\n藥物動力學特性\n吸收 皮下注射somatropin的生體可用率，健康受試者及生長激素缺乏的病人都是80%左右。Somatropin 0.035 mg/kg之皮下注射劑量得到的最高血漿濃度（Cmax）是13-35 ng/mL，tmax是3-6小時。 排除 生長激素缺乏的成人靜脈注射後，somatropin的平均末端半衰期約為0.4小時。然而皮下注射後，半衰期可達2-3小時。觀察到的差異可能是皮下注射之後，藥物從注射部位的緩慢吸收所致。 次群體之觀察 皮下注射後，somatropin的絕對生體可用率男女似乎一樣。 關於somatropin在老年人和兒童群體，不同種族以及肝、腎或心臟功能不全病人中的藥動學沒有資料，或是資料不完整。\n12\n臨床試驗資料\n用於普瑞德威利氏症候群之身體組成異常 日本第3期試驗（用於普瑞德威利氏症候群之身體組成異常） 一項開放性、非對照性臨床試驗以普瑞德威利氏症候群的病人（20名成人病人、6位未曾接受過生長激素 [GH] 治療兒童病人，以及7名曾接受過GH治療兒童病人）為對象進行研究。藥品用法用量為成人病人前4週接受0.042 mg/kg/週，之後調升成0.084 mg/kg/週。所使用的劑量會參考症狀和血清IGF-1濃度調整，但每天劑量不超過1.6 mg。所有病人都接受分為6到7次每日皮下注射的劑量給藥。成人群組中，以雙能量X光吸光式測定儀 (DXA) 測定之自基準期到第12個月的瘦體組織（Lean Body Mass, LBM）比率 (%) 變化（最小平方平均值點估計 [95% 信賴區間]）為3.09 [1.85, 4.33]。各組別的瘦體組織比率 (%) 變化如下。 項目群組試驗開始時第12個月自基準期起的變化 瘦體組織比率a)(%)成人群組 60.57±5.139 （n＝20） 63.57±4.704 （n＝19） 3.08±2.917 （n＝19） n：病人數。數值以平均值 ± SD呈現（n） a) 瘦體組織測量方式：雙能量X光吸光式測定儀 (DXA) 法。\n13\n包裝及儲存\n13.1\n包裝\n包裝規格 5.3 mg單支裝、5.3 mg 5支裝，5.3 mg 預先充填注射筆單支裝，5.3 mg 預先充填注射筆5支裝 12 mg單支裝、12 mg 5支裝，12 mg 預先充填注射筆單支裝，12 mg 預先充填注射筆5支裝\n13.2\n效期\n請詳見外盒包裝配製後之架儲期：已證實物理及化學使用安定性在2-8℃可以維持28天。 從微生物學的觀點看來，本品經配製後可在2-8℃保存28天。其他使用保存時間與條件由使用者負責。\n13.3\n儲存條件\n配製前：2-8℃（冰箱內）儲存。可保存在最高25℃長達一個月。保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。 配製後：2-8℃（冰箱內）儲存。不可冷凍，保存雙內腔卡匣或預充填注射筆在原始包裝外盒內，以避免光線照射。經配置後之藥品保存，請參見13.2節。\n13.4\n儲存注意事項\n14\n病人使用須知\n請見使用說明\n15\n其他\n處置：任何未使用過的產品應依當地規定處理；使用過後的GoQuick預先充填注射筆不可重新充填，必須妥善地丟棄。 版本：Belgium 20240609-2",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "Pfizer Manufacturing Belgium NV",
+          "address": "Rijksweg 12 2870 Puurs-Sint-Amands Belgium"
+        },
+        {
+          "number": "2",
+          "name": "VETTER PHARMA-FERTIGUNG GMBH & CO. KG",
+          "address": "EISENBAHNSTRASSE 2-4, 88085 LANGENARGEN GERMANY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "PFIZER HEALTH AB",
+          "address": "MARIEFREDSVAGEN 37, SE-645 41 STRANGNAS, SWEDEN"
+        },
+        {
+          "number": "2",
+          "name": "久裕企業股份有限公司",
+          "address": "桃園市桃園區大林里興邦路43巷2之1號4樓、3樓、1樓A區"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "輝瑞大藥廠股份有限公司",
+          "address": "台北市信義區松仁路100號42、43樓"
+        }
+      ]
+    }
+  ]
+}

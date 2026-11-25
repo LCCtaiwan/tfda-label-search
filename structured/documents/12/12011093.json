@@ -1,0 +1,760 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:54:26.459792+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12011093",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第011093號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第011093號",
+      "matched_license_code": "12011093",
+      "matched_nhi_code": "",
+      "drug_name_zh": "秘舒通糖衣錠",
+      "drug_name_en": "BISATON TABLETS",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "<p>本劑主成分Bisacodyl為新合成之瀉劑，其作用為直接與黏膜接觸<br>，產生類副交感神經之反射，使得結腸蠕動能力增加，致腸內容<br>物排出而維持腸之清潔及健康。<br>&nbsp;</p>",
+        "text": "本劑主成分Bisacodyl為新合成之瀉劑，其作用為直接與黏膜接觸 ，產生類副交感神經之反射，使得結腸蠕動能力增加，致腸內容 物排出而維持腸之清潔及健康。"
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "Each S.C tablet contains: Bisacodyl...........................................................................5mg",
+          "content_html": "<p>Each S.C tablet contains:<br>Bisacodyl...........................................................................5mg</p>",
+          "search_text": "1.1\n有效成分及含量\nEach S.C tablet contains: Bisacodyl...........................................................................5mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Lactose、Starch、Magnesium Stearate、Shellac、 Gelatin、Sucrose、Wax Polishing、Calcium Carbonate、Talc、 Tartrazine(FD&C Yellow NO.5)、Sunset Yellow FCF、Polyvinyl Pyrrolidone K-30、Titanium Dioxide。",
+          "content_html": "<p>Lactose、Starch、Magnesium Stearate、Shellac、<br>Gelatin、Sucrose、Wax Polishing、Calcium Carbonate、Talc、<br>Tartrazine(FD&amp;C Yellow NO.5)、Sunset Yellow FCF、Polyvinyl<br>Pyrrolidone K-30、Titanium Dioxide。</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nLactose、Starch、Magnesium Stearate、Shellac、 Gelatin、Sucrose、Wax Polishing、Calcium Carbonate、Talc、 Tartrazine(FD&C Yellow NO.5)、Sunset Yellow FCF、Polyvinyl Pyrrolidone K-30、Titanium Dioxide。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "便秘。",
+          "content_html": "<p>便秘。</p>",
+          "search_text": "2\n用途(適應症)\n便秘。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n有下列情形者，請勿使用",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-7",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "",
+          "title": "(一)曾因本藥成分引起過敏的人。",
+          "title_html": "(一)曾因本藥成分引起過敏的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "(一)曾因本藥成分引起過敏的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(一)曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-8",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "",
+          "title": "(二)胃腸道阻塞、腹痛、嘔吐、噁心的人。",
+          "title_html": "(二)胃腸道阻塞、腹痛、嘔吐、噁心的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "(二)胃腸道阻塞、腹痛、嘔吐、噁心的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(二)胃腸道阻塞、腹痛、嘔吐、噁心的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-10",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "",
+          "title": "(一) 12歲以下。",
+          "title_html": "(一) 12歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "(一) 12歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(一) 12歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-12",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "",
+          "title": "(一)孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "(一)孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "(一)孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(一)孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-13",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "",
+          "title": "(二)連續使用一星期以上。",
+          "title_html": "(二)連續使用一星期以上。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "(二)連續使用一星期以上。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(二)連續使用一星期以上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-14",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "",
+          "title": "(三)併用其他瀉劑。",
+          "title_html": "(三)併用其他瀉劑。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "(三)併用其他瀉劑。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(三)併用其他瀉劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-16",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(一)為防止兒童誤食請妥善保管。",
+          "title_html": "(一)為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(一)為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(一)為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-17",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(二)避免陽光直射。",
+          "title_html": "(二)避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(二)避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(二)避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-18",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(三)勿超過建議使用量。",
+          "title_html": "(三)勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(三)勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(三)勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-19",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(四)本藥不應長期使用，一旦排便正常，即應停藥。應儘量以含纖維飲食，充分攝取水份及運動來改善便秘。",
+          "title_html": "(四)本藥不應長期使用，一旦排便正常，即應停藥。應儘量以含纖維飲食，充分攝取水份及運動來改善便秘。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(四)本藥不應長期使用，一旦排便正常，即應停藥。應儘量以含纖維飲食，充分攝取水份及運動來改善便秘。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(四)本藥不應長期使用，一旦排便正常，即應停藥。應儘量以含纖維飲食，充分攝取水份及運動來改善便秘。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-20",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(五)本藥使用期間可能會有腹瀉發生。",
+          "title_html": "(五)本藥使用期間可能會有腹瀉發生。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(五)本藥使用期間可能會有腹瀉發生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(五)本藥使用期間可能會有腹瀉發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-21",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(六)長期使用會造成電解質不平衡與水份缺乏。",
+          "title_html": "(六)長期使用會造成電解質不平衡與水份缺乏。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(六)長期使用會造成電解質不平衡與水份缺乏。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(六)長期使用會造成電解質不平衡與水份缺乏。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-22",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(七)須整粒吞服，不得咬碎或磨粉，且用藥前後一小時不得使用制酸劑或牛乳。",
+          "title_html": "(七)須整粒吞服，不得咬碎或磨粉，且用藥前後一小時不得使用制酸劑或牛乳。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(七)須整粒吞服，不得咬碎或磨粉，且用藥前後一小時不得使用制酸劑或牛乳。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(七)須整粒吞服，不得咬碎或磨粉，且用藥前後一小時不得使用制酸劑或牛乳。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-23",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "",
+          "title": "(八)刺激型瀉劑無法抑制卡路里吸收，因此不能幫助減重。此類藥品會導致水瀉、腹痛與脫水，並因脱水造成短期體重下降。嚴重脫水可能會造成顫抖、無力、視覺模糊、晕厥、腎損傷，甚至死亡，往往需要藥物治療。過度使用刺激型劑可能會導致電解質不平衡。體內鈉、 鉀、鎂、磷為維持神經肌肉所需之特定電解質，破壞此平衡可能會造成大腸及心臟功能異常。為避免上述風險，需避免過度或不正確的使用瀉劑。",
+          "title_html": "(八)刺激型瀉劑無法抑制卡路里吸收，因此不能幫助減重。此類藥品會導致水瀉、腹痛與脫水，並因脱水造成短期體重下降。嚴重脫水可能會造成顫抖、無力、視覺模糊、晕厥、腎損傷，甚至死亡，往往需要藥物治療。過度使用刺激型劑可能會導致電解質不平衡。體內鈉、       鉀、鎂、磷為維持神經肌肉所需之特定電解質，破壞此平衡可能會造成大腸及心臟功能異常。為避免上述風險，需避免過度或不正確的使用瀉劑。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "(八)刺激型瀉劑無法抑制卡路里吸收，因此不能幫助減重。此類藥品會導致水瀉、腹痛與脫水，並因脱水造成短期體重下降。嚴重脫水可能會造成顫抖、無力、視覺模糊、晕厥、腎損傷，甚至死亡，往往需要藥物治療。過度使用刺激型劑可能會導致電解質不平衡。體內鈉、 鉀、鎂、磷為維持神經肌肉所需之特定電解質，破壞此平衡可能會造成大腸及心臟功能異常。為避免上述風險，需避免過度或不正確的使用瀉劑。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(八)刺激型瀉劑無法抑制卡路里吸收，因此不能幫助減重。此類藥品會導致水瀉、腹痛與脫水，並因脱水造成短期體重下降。嚴重脫水可能會造成顫抖、無力、視覺模糊、晕厥、腎損傷，甚至死亡，往往需要藥物治療。過度使用刺激型劑可能會導致電解質不平衡。體內鈉、 鉀、鎂、磷為維持神經肌肉所需之特定電解質，破壞此平衡可能會造成大腸及心臟功能異常。為避免上述風險，需避免過度或不正確的使用瀉劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "年齡 劑量 成人 1次2錠，為使翌日排便，就寢前服用;早餐 前半小時服用，5小時後發生效果，頑固之 便秘症狀需增量至3~4錠。初次應使用最小 劑量，再視通便情況增減用量。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"vertical-align:top;\">年齡&nbsp;</td><td style=\"vertical-align:top;\">劑量</td></tr><tr><td style=\"vertical-align:top;\">成人</td><td style=\"vertical-align:top;\">&nbsp;1次2錠，為使翌日排便，就寢前服用;早餐<br>前半小時服用，5小時後發生效果，頑固之<br>便秘症狀需增量至3~4錠。初次應使用最小<br>劑量，再視通便情況增減用量。</td></tr></tbody></table></figure>",
+          "search_text": "4\n用法用量\n年齡 劑量 成人 1次2錠，為使翌日排便，就寢前服用;早餐 前半小時服用，5小時後發生效果，頑固之 便秘症狀需增量至3~4錠。初次應使用最小 劑量，再視通便情況增減用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位 副作用 胃腸道噁心、嘔吐、嚴重腹痛。 其他 發疹等過敏症狀。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"vertical-align:top;\">身體部位&nbsp;</td><td style=\"vertical-align:top;\">副作用</td></tr><tr><td style=\"vertical-align:top;\">胃腸道</td><td style=\"vertical-align:top;\">噁心、嘔吐、嚴重腹痛。</td></tr><tr><td style=\"vertical-align:top;\">其他</td><td style=\"vertical-align:top;\">&nbsp;發疹等過敏症狀。</td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 胃腸道噁心、嘔吐、嚴重腹痛。 其他 發疹等過敏症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-28",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "",
+          "title": "(一)有任何不適情況產生。",
+          "title_html": "(一)有任何不適情況產生。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "(一)有任何不適情況產生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(一)有任何不適情況產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-29",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "",
+          "title": "(二)腹瀉持續不止或更嚴重。",
+          "title_html": "(二)腹瀉持續不止或更嚴重。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "(二)腹瀉持續不止或更嚴重。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(二)腹瀉持續不止或更嚴重。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-30",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "",
+          "title": "(三)有血便及自發性腸道出血狀況。",
+          "title_html": "(三)有血便及自發性腸道出血狀況。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "(三)有血便及自發性腸道出血狀況。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(三)有血便及自發性腸道出血狀況。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "section-31",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "",
+          "title": "(四)使用一星期後無效。",
+          "title_html": "(四)使用一星期後無效。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "(四)使用一星期後無效。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "(四)使用一星期後無效。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "4-1000錠塑膠瓶裝，PTP鋁箔盒裝。",
+          "content_html": "<p>4-1000錠塑膠瓶裝，PTP鋁箔盒裝。</p>",
+          "search_text": "6\n包裝\n4-1000錠塑膠瓶裝，PTP鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "儲存於25°C以下。",
+          "content_html": "<p>儲存於25°C以下。</p>",
+          "search_text": "7\n儲存方式\n儲存於25°C以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "本劑主成分Bisacodyl為新合成之瀉劑，其作用為直接與黏膜接觸 ，產生類副交感神經之反射，使得結腸蠕動能力增加，致腸內容 物排出而維持腸之清潔及健康。\n1\n成分\n1.1\n有效成分及含量\nEach S.C tablet contains: Bisacodyl...........................................................................5mg\n1.2\n其他成分(賦形劑)\nLactose、Starch、Magnesium Stearate、Shellac、 Gelatin、Sucrose、Wax Polishing、Calcium Carbonate、Talc、 Tartrazine(FD&C Yellow NO.5)、Sunset Yellow FCF、Polyvinyl Pyrrolidone K-30、Titanium Dioxide。\n2\n用途(適應症)\n便秘。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n(一)曾因本藥成分引起過敏的人。\n(二)胃腸道阻塞、腹痛、嘔吐、噁心的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n(一) 12歲以下。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n(一)孕婦、可能懷孕婦女及哺乳婦。\n(二)連續使用一星期以上。\n(三)併用其他瀉劑。\n3.4\n其他使用上注意事項\n(一)為防止兒童誤食請妥善保管。\n(二)避免陽光直射。\n(三)勿超過建議使用量。\n(四)本藥不應長期使用，一旦排便正常，即應停藥。應儘量以含纖維飲食，充分攝取水份及運動來改善便秘。\n(五)本藥使用期間可能會有腹瀉發生。\n(六)長期使用會造成電解質不平衡與水份缺乏。\n(七)須整粒吞服，不得咬碎或磨粉，且用藥前後一小時不得使用制酸劑或牛乳。\n(八)刺激型瀉劑無法抑制卡路里吸收，因此不能幫助減重。此類藥品會導致水瀉、腹痛與脫水，並因脱水造成短期體重下降。嚴重脫水可能會造成顫抖、無力、視覺模糊、晕厥、腎損傷，甚至死亡，往往需要藥物治療。過度使用刺激型劑可能會導致電解質不平衡。體內鈉、 鉀、鎂、磷為維持神經肌肉所需之特定電解質，破壞此平衡可能會造成大腸及心臟功能異常。為避免上述風險，需避免過度或不正確的使用瀉劑。\n4\n用法用量\n年齡 劑量 成人 1次2錠，為使翌日排便，就寢前服用;早餐 前半小時服用，5小時後發生效果，頑固之 便秘症狀需增量至3~4錠。初次應使用最小 劑量，再視通便情況增減用量。\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 胃腸道噁心、嘔吐、嚴重腹痛。 其他 發疹等過敏症狀。\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n(一)有任何不適情況產生。\n(二)腹瀉持續不止或更嚴重。\n(三)有血便及自發性腸道出血狀況。\n(四)使用一星期後無效。\n6\n包裝\n4-1000錠塑膠瓶裝，PTP鋁箔盒裝。\n7\n儲存方式\n儲存於25°C以下。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "人生製藥股份有限公司",
+          "address": "台中市西屯區工業區五路３號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "人生製藥股份有限公司",
+          "address": "台中市西屯區工業區五路３號"
+        }
+      ]
+    }
+  ]
+}

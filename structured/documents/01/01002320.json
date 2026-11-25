@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:05:00.689445+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01002320",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第002320號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第002320號",
+      "matched_license_code": "01002320",
+      "matched_nhi_code": "",
+      "drug_name_zh": "阿雷彼阿慶錠",
+      "drug_name_en": "ALEVIATIN TABLETS",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-06-08",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠中含有Diphenylhydantoin (Phenytoin) 100mg 其化學構造如下:\nC15H12N2O2: 252.28",
+          "content_html": "<p>每錠中含有Diphenylhydantoin (Phenytoin) 100mg<br>其化學構造如下:</p>\n<p>C<sub>15</sub>H<sub>12</sub>N<sub>2</sub>O<sub>2</sub>: 252.28</p>",
+          "search_text": "1.1\n有效成分及含量\n每錠中含有Diphenylhydantoin (Phenytoin) 100mg 其化學構造如下:\nC15H12N2O2: 252.28",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 10964
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Corn Starch, Acacia powder, Talc, Magnesium Stearate",
+          "content_html": "<p>Corn Starch, Acacia powder, Talc, Magnesium Stearate</p>",
+          "search_text": "1.2\n賦形劑\nCorn Starch, Acacia powder, Talc, Magnesium Stearate",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "錠劑",
+          "content_html": "<p>錠劑</p>",
+          "search_text": "1.3\n劑型\n錠劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "一面刻有P tsh，另一面有折半線之圓形素錠。",
+          "content_html": "<p style=\"text-align:justify;\">&nbsp;一面刻有P tsh，另一面有折半線之圓形素錠。&nbsp;</p>",
+          "search_text": "1.4\n藥品外觀\n一面刻有P tsh，另一面有折半線之圓形素錠。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "大發作及局部發作型癲癇，預防及治療神經外科手術所引起之癲癇發作。",
+          "content_html": "<p style=\"text-align:justify;\">大發作及局部發作型癲癇，預防及治療神經外科手術所引起之癲癇發作。</p>",
+          "search_text": "2\n適應症\n大發作及局部發作型癲癇，預防及治療神經外科手術所引起之癲癇發作。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "本藥須由醫師處方使用。\n成人： 分次給藥 初劑量為100mg，每日服用3次，視患者需要調整之。 一般維持劑量為100mg，每日2-3次，必要時可使用更低或更高劑量，亦視患者之狀況而調整之。由於一般本藥在藥動學及藥效學方面顯著之個體差異性，須小心監測患者之毒性反應、血中濃度，及臨床療效，並藉以適切調整每一位病人之劑量。\n每日一次給藥（僅限緩釋劑型使用） 若患者症狀以100mg每日3次之分次給藥方式獲得適切控制後，可考慮採用緩釋劑型以每次300mg每日1次之方式投與。\n負荷劑量 最初至多可投與1000mg，分3次給藥（400mg、300mg、300mg），投藥間隔為2小時；24小時後改投與維持劑量，並密切監測患者之血中濃度。\n處方調配者注意 藥師為病人重新調配Phenytoin Sodium Capsules時，須先確定下列事項： (1) 所用之品牌是否已修改處方組成。 (2) Phenytoin Sodium Capsules所指為延時型或速效型。 (3) 醫生希望病人繼續使用的為延時型或速效型。 調配時欲改用不同於與病人正在服用之劑型或品牌時，應先與處方醫師諮商，因為可能會有不同的生體可用率，其結果可能造成發作控制失效或是達於中毒濃度。 每100mg Phenytoin Sodium的鈉含量是0.35mEq (8mg)。故100mg Phenytoin Sodium膠囊僅含92mg Phenytoin ，並不相當於一片100mg Phenytoin錠的含量。",
+          "content_html": "<p style=\"text-align:justify;\">本藥須由醫師處方使用。</p>\n<p style=\"text-align:justify;\"><strong>成人：&nbsp;</strong><br><strong><u>分次給藥</u>&nbsp;</strong><br>初劑量為100mg，每日服用3次，視患者需要調整之。<br>一般維持劑量為100mg，每日2-3次，必要時可使用更低或更高劑量，亦視患者之狀況而調整之。由於一般本藥在藥動學及藥效學方面顯著之個體差異性，須小心監測患者之毒性反應、血中濃度，及臨床療效，並藉以適切調整每一位病人之劑量。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n<p style=\"text-align:justify;\"><strong><u>每日一次給藥</u></strong>（僅限緩釋劑型使用）&nbsp;<br>若患者症狀以100mg每日3次之分次給藥方式獲得適切控制後，可考慮採用緩釋劑型以每次300mg每日1次之方式投與。&nbsp;</p>\n<p style=\"text-align:justify;\"><strong><u>負荷劑量</u></strong>&nbsp;<br>最初至多可投與1000mg，分3次給藥（400mg、300mg、300mg），投藥間隔為2小時；24小時後改投與維持劑量，並密切監測患者之血中濃度。</p>\n<p style=\"text-align:justify;\"><strong><u>處方調配者注意</u></strong></p><ul><li style=\"text-align:justify;\">藥師為病人重新調配Phenytoin Sodium Capsules時，須先確定下列事項：&nbsp;<br>(1) 所用之品牌是否已修改處方組成。<br>(2) Phenytoin Sodium Capsules所指為延時型或速效型。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>(3) 醫生希望病人繼續使用的為延時型或速效型。</li><li style=\"text-align:justify;\">調配時欲改用不同於與病人正在服用之劑型或品牌時，應先與處方醫師諮商，因為可能會有不同的生體可用率，其結果可能造成發作控制失效或是達於中毒濃度。</li><li style=\"text-align:justify;\">每100mg Phenytoin Sodium的鈉含量是0.35mEq (8mg)。故100mg Phenytoin Sodium膠囊僅含92mg Phenytoin ，並不相當於一片100mg Phenytoin錠的含量。</li></ul>",
+          "search_text": "3.1\n用法用量\n本藥須由醫師處方使用。\n成人： 分次給藥 初劑量為100mg，每日服用3次，視患者需要調整之。 一般維持劑量為100mg，每日2-3次，必要時可使用更低或更高劑量，亦視患者之狀況而調整之。由於一般本藥在藥動學及藥效學方面顯著之個體差異性，須小心監測患者之毒性反應、血中濃度，及臨床療效，並藉以適切調整每一位病人之劑量。\n每日一次給藥（僅限緩釋劑型使用） 若患者症狀以100mg每日3次之分次給藥方式獲得適切控制後，可考慮採用緩釋劑型以每次300mg每日1次之方式投與。\n負荷劑量 最初至多可投與1000mg，分3次給藥（400mg、300mg、300mg），投藥間隔為2小時；24小時後改投與維持劑量，並密切監測患者之血中濃度。\n處方調配者注意 藥師為病人重新調配Phenytoin Sodium Capsules時，須先確定下列事項： (1) 所用之品牌是否已修改處方組成。 (2) Phenytoin Sodium Capsules所指為延時型或速效型。 (3) 醫生希望病人繼續使用的為延時型或速效型。 調配時欲改用不同於與病人正在服用之劑型或品牌時，應先與處方醫師諮商，因為可能會有不同的生體可用率，其結果可能造成發作控制失效或是達於中毒濃度。 每100mg Phenytoin Sodium的鈉含量是0.35mEq (8mg)。故100mg Phenytoin Sodium膠囊僅含92mg Phenytoin ，並不相當於一片100mg Phenytoin錠的含量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "肝病或腎病病史之患者: 不適用此給藥法。\n兒童: 初劑量為每日每公斤體重5mg，分2-3次投與。每日最高劑量為300mg。通常維持劑量為每公斤體重4-8mg。6歲以上之兒童可採用成人最低劑量（每日300mg）。以上劑量亦皆須視患者之個別狀況而調整之（參見成人，分次給藥）。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>肝病或腎病病史之患者</u></strong>: 不適用此給藥法。</p>\n<p style=\"text-align:justify;\"><strong><u>兒童</u></strong>: 初劑量為每日每公斤體重5mg，分2-3次投與。每日最高劑量為300mg。通常維持劑量為每公斤體重4-8mg。6歲以上之兒童可採用成人最低劑量（每日300mg）。以上劑量亦皆須視患者之個別狀況而調整之（參見成人，分次給藥）。　</p>",
+          "search_text": "3.3\n特殊族群用法用量\n肝病或腎病病史之患者: 不適用此給藥法。\n兒童: 初劑量為每日每公斤體重5mg，分2-3次投與。每日最高劑量為300mg。通常維持劑量為每公斤體重4-8mg。6歲以上之兒童可採用成人最低劑量（每日300mg）。以上劑量亦皆須視患者之個別狀況而調整之（參見成人，分次給藥）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "Phenytoin禁止使用於對Phenytoin，或其他hydantoins類藥物過敏的病人。",
+          "content_html": "<p style=\"text-align:justify;\">Phenytoin禁止使用於對Phenytoin，或其他hydantoins類藥物過敏的病人。</p>",
+          "search_text": "4\n禁忌\nPhenytoin禁止使用於對Phenytoin，或其他hydantoins類藥物過敏的病人。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "對中樞神經系統的影響：phenytoin 的血清濃度若持續在適當範圍之上，則可能產生譫妄（delirium）、精神病（psychosis）或腦病（encephalopathy）等精神紊亂的狀態，或極少見不可逆性小腦功能障礙。因此在建議在第一個急性中毒徵兆產生時，立即測量血清藥物濃度。並依臨床表現及檢驗結果適時調整phenytoin劑量或停用phenytoin。 對造血系統的影響：有些報告指出 phenytoin 與淋巴腺疾病（局部或全身）的發展有關係。雖然其因果關係尚未確立，但若發現淋巴腺病時，必須與其他型態的淋巴結病變有所區分。對所有淋巴腺病的病例，必須長期追蹤觀察，並儘量使用替代的抗痙攣藥來控制癲癇發作。 Phenytoin也可能會使體內儲存之葉酸（folic acid）耗竭，而發生巨紅血球症及巨母紅血球性貧血。補充葉酸可以改善此等情況，但須注意加入葉酸可能造成對癲癇發作控制效果之減弱。 對肝臟及免疫系統的影響：肝臟是 Phenytoin 代謝的主要部位，因此肝功能受損的患者及老年人可能出現毒性的早期徵兆。 曾有使用 Phenytoin 引起急性肝中毒的案例，包括極少數的急性肝衰竭。這些偶發事件與一種過敏症候群有關，其特徵為發燒、皮疹及淋巴腺病，通常出現在治療開始的兩個月內。其它常見的表徵包括關節痛、皮疹、黃疸、肝腫大、血清轉氨酵素濃度上升、白血球增多及嗜伊紅血球增多。急性Phenytoin肝中毒的臨床發展可能迅速痊癒或死亡。對這些病人，phenytoin應立即停用。 對皮膚的影響：若有皮疹出現，應停用Phenytoin。若皮疹為剝落性（exfoliative）、紫斑樣（purpuric）或大疱性（bullous），或懷疑有紅斑性狼瘡、史第文生氏強生症候群（Stevens-Johnson syndrome）或毒性表皮壞死溶解症，則不可再使用 Phenytoin ，應考慮替代療法。 對新陳代謝的影響：有報告指出 Phenytoin 與吡咯紫質沉著症（porphyria）的惡化有關，患有該疾患病人使用Phenytoin治療時需小心。 也有報告指出Phenytoin具有抑制胰島素釋出的作用，導致高血糖症，Phenytoin也會使糖尿病患者的血糖上升。 對肌肉與骨骼的影響：Phenytoin 會干擾體內維生素D的代謝作用，而導致產生軟骨病。 本藥治療期間，依病人情況應定期做下列全部或部分之檢測，依情況某些病人或許尚須做其他檢測：血鈣值、全血細胞計數、腦電圖、肝功能、血中Phenytoin值、淋巴腺評估和牙齒之定期檢測。",
+          "content_html": "<ul><li style=\"text-align:justify;\">對中樞神經系統的影響：phenytoin 的血清濃度若持續在適當範圍之上，則可能產生譫妄（delirium）、精神病（psychosis）或腦病（encephalopathy）等精神紊亂的狀態，或極少見不可逆性小腦功能障礙。因此在建議在第一個急性中毒徵兆產生時，立即測量血清藥物濃度。並依臨床表現及檢驗結果適時調整phenytoin劑量或停用phenytoin。</li><li style=\"text-align:justify;\">對造血系統的影響：有些報告指出 phenytoin 與淋巴腺疾病（局部或全身）的發展有關係。雖然其因果關係尚未確立，但若發現淋巴腺病時，必須與其他型態的淋巴結病變有所區分。對所有淋巴腺病的病例，必須長期追蹤觀察，並儘量使用替代的抗痙攣藥來控制癲癇發作。</li><li style=\"text-align:justify;\">Phenytoin也可能會使體內儲存之葉酸（folic acid）耗竭，而發生巨紅血球症及巨母紅血球性貧血。補充葉酸可以改善此等情況，但須注意加入葉酸可能造成對癲癇發作控制效果之減弱。</li><li style=\"text-align:justify;\">對肝臟及免疫系統的影響：肝臟是 Phenytoin 代謝的主要部位，因此肝功能受損的患者及老年人可能出現毒性的早期徵兆。<br>曾有使用 Phenytoin 引起急性肝中毒的案例，包括極少數的急性肝衰竭。這些偶發事件與一種過敏症候群有關，其特徵為發燒、皮疹及淋巴腺病，通常出現在治療開始的兩個月內。其它常見的表徵包括關節痛、皮疹、黃疸、肝腫大、血清轉氨酵素濃度上升、白血球增多及嗜伊紅血球增多。急性Phenytoin肝中毒的臨床發展可能迅速痊癒或死亡。對這些病人，phenytoin應立即停用。</li><li style=\"text-align:justify;\">對皮膚的影響：若有皮疹出現，應停用Phenytoin。若皮疹為剝落性（exfoliative）、紫斑樣（purpuric）或大疱性（bullous），或懷疑有紅斑性狼瘡、史第文生氏強生症候群（Stevens-Johnson syndrome）或毒性表皮壞死溶解症，則不可再使用 Phenytoin ，應考慮替代療法。</li><li style=\"text-align:justify;\">對新陳代謝的影響：有報告指出 Phenytoin 與吡咯紫質沉著症（porphyria）的惡化有關，患有該疾患病人使用Phenytoin治療時需小心。<br>也有報告指出Phenytoin具有抑制胰島素釋出的作用，導致高血糖症，Phenytoin也會使糖尿病患者的血糖上升。</li><li style=\"text-align:justify;\">對肌肉與骨骼的影響：Phenytoin 會干擾體內維生素D的代謝作用，而導致產生軟骨病。</li><li style=\"text-align:justify;\">本藥治療期間，依病人情況應定期做下列全部或部分之檢測，依情況某些病人或許尚須做其他檢測：血鈣值、全血細胞計數、腦電圖、肝功能、血中Phenytoin值、淋巴腺評估和牙齒之定期檢測。</li></ul>",
+          "search_text": "5.1\n警語/注意事項\n對中樞神經系統的影響：phenytoin 的血清濃度若持續在適當範圍之上，則可能產生譫妄（delirium）、精神病（psychosis）或腦病（encephalopathy）等精神紊亂的狀態，或極少見不可逆性小腦功能障礙。因此在建議在第一個急性中毒徵兆產生時，立即測量血清藥物濃度。並依臨床表現及檢驗結果適時調整phenytoin劑量或停用phenytoin。 對造血系統的影響：有些報告指出 phenytoin 與淋巴腺疾病（局部或全身）的發展有關係。雖然其因果關係尚未確立，但若發現淋巴腺病時，必須與其他型態的淋巴結病變有所區分。對所有淋巴腺病的病例，必須長期追蹤觀察，並儘量使用替代的抗痙攣藥來控制癲癇發作。 Phenytoin也可能會使體內儲存之葉酸（folic acid）耗竭，而發生巨紅血球症及巨母紅血球性貧血。補充葉酸可以改善此等情況，但須注意加入葉酸可能造成對癲癇發作控制效果之減弱。 對肝臟及免疫系統的影響：肝臟是 Phenytoin 代謝的主要部位，因此肝功能受損的患者及老年人可能出現毒性的早期徵兆。 曾有使用 Phenytoin 引起急性肝中毒的案例，包括極少數的急性肝衰竭。這些偶發事件與一種過敏症候群有關，其特徵為發燒、皮疹及淋巴腺病，通常出現在治療開始的兩個月內。其它常見的表徵包括關節痛、皮疹、黃疸、肝腫大、血清轉氨酵素濃度上升、白血球增多及嗜伊紅血球增多。急性Phenytoin肝中毒的臨床發展可能迅速痊癒或死亡。對這些病人，phenytoin應立即停用。 對皮膚的影響：若有皮疹出現，應停用Phenytoin。若皮疹為剝落性（exfoliative）、紫斑樣（purpuric）或大疱性（bullous），或懷疑有紅斑性狼瘡、史第文生氏強生症候群（Stevens-Johnson syndrome）或毒性表皮壞死溶解症，則不可再使用 Phenytoin ，應考慮替代療法。 對新陳代謝的影響：有報告指出 Phenytoin 與吡咯紫質沉著症（porphyria）的惡化有關，患有該疾患病人使用Phenytoin治療時需小心。 也有報告指出Phenytoin具有抑制胰島素釋出的作用，導致高血糖症，Phenytoin也會使糖尿病患者的血糖上升。 對肌肉與骨骼的影響：Phenytoin 會干擾體內維生素D的代謝作用，而導致產生軟骨病。 本藥治療期間，依病人情況應定期做下列全部或部分之檢測，依情況某些病人或許尚須做其他檢測：血鈣值、全血細胞計數、腦電圖、肝功能、血中Phenytoin值、淋巴腺評估和牙齒之定期檢測。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "應勸導病人不要駕駛汽車或操作有潛在危險的機械，除非已確知此藥物治療不會影響他們從事這些活動的能力。",
+          "content_html": "<p style=\"text-align:justify;\">應勸導病人不要駕駛汽車或操作有潛在危險的機械，除非已確知此藥物治療不會影響他們從事這些活動的能力。</p>",
+          "search_text": "5.3\n操作機械能力\n應勸導病人不要駕駛汽車或操作有潛在危險的機械，除非已確知此藥物治療不會影響他們從事這些活動的能力。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "服用本藥之病人，須特別注意下列事項： 須與食物或牛奶同時服用或餐後立刻服用以減少胃腸刺激。 須定期看醫生檢查治療進展，停藥時應採用遞減方式，以免癲癇突發，並須先與醫生洽商。 已有報告顯示本藥可能抑制胰島素之釋出，故糖尿病患者，須檢測尿糖。 服用本藥時，避免喝含酒精之飲料。急性酒精攝取可能使 Phenytoin 血清濃度上升，長期攝取酒精則會降低血清濃度。 注意是否需作外科、牙科手術或緊急治療。 維持良好的牙齒衛生保健，因為有牙齦脆弱、腫脹或出血發生的可能。 開車、操作機器或做其它需高警覺性工作時須留心。",
+          "content_html": "<p style=\"text-align:justify;\">服用本藥之病人，須特別注意下列事項：</p><ul><li style=\"text-align:justify;\">須與食物或牛奶同時服用或餐後立刻服用以減少胃腸刺激。</li><li style=\"text-align:justify;\">須定期看醫生檢查治療進展，停藥時應採用遞減方式，以免癲癇突發，並須先與醫生洽商。</li><li style=\"text-align:justify;\">已有報告顯示本藥可能抑制胰島素之釋出，故糖尿病患者，須檢測尿糖。</li><li style=\"text-align:justify;\">服用本藥時，避免喝含酒精之飲料。急性酒精攝取可能使 Phenytoin &nbsp;血清濃度上升，長期攝取酒精則會降低血清濃度。</li><li style=\"text-align:justify;\">注意是否需作外科、牙科手術或緊急治療。</li><li style=\"text-align:justify;\">維持良好的牙齒衛生保健，因為有牙齦脆弱、腫脹或出血發生的可能。</li><li style=\"text-align:justify;\">開車、操作機器或做其它需高警覺性工作時須留心。</li></ul>",
+          "search_text": "5.5\n其他注意事項\n服用本藥之病人，須特別注意下列事項： 須與食物或牛奶同時服用或餐後立刻服用以減少胃腸刺激。 須定期看醫生檢查治療進展，停藥時應採用遞減方式，以免癲癇突發，並須先與醫生洽商。 已有報告顯示本藥可能抑制胰島素之釋出，故糖尿病患者，須檢測尿糖。 服用本藥時，避免喝含酒精之飲料。急性酒精攝取可能使 Phenytoin 血清濃度上升，長期攝取酒精則會降低血清濃度。 注意是否需作外科、牙科手術或緊急治療。 維持良好的牙齒衛生保健，因為有牙齦脆弱、腫脹或出血發生的可能。 開車、操作機器或做其它需高警覺性工作時須留心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "雖有報告指出，接受藥物治療的癲癇婦女所生的小孩缺陷發生率較高，但這並不足以充分證明其間有確定的因果關係。遺傳因子或癲癇狀態本身對導致出生缺陷的影響，可能比藥物治療更重要，絕大多數使用抗痙攣藥治療的母親都能生出正常的嬰兒。需注意的是，當病人使用抗痙攣藥是為了防止可能因氧氣不足而危及生命的連續癲癇狀態時，不可停用抗痙攣藥。對較輕微且較不常發作的患者，如停藥不會對病人產生嚴重之威脅，可考慮在懷孕前及懷孕期間停藥，但無法保證無生命危險之發作不會危及發育中的胚胎或胎兒。處方醫師在治療或勸導有生產可能性之癲癇婦女時，需評估並告知其風險效益。 有高比例的病患在懷孕期間癲癇發作的頻率會增加，因Phenytoin 的吸收或代謝發生變化。對懷孕的癲癇患者做定期的 Phenytoin 血中濃度測試，有助於劑量的適當調整，但產後可能亦須再調整回原先之劑量。 分娩前服用本藥會增加新生兒出血的危險性。 Vitamin K可預防或治療此種情形，因此建議在母親分娩前及新生兒出生後給予Vitamin K。",
+          "content_html": "<ul><li style=\"text-align:justify;\">雖有報告指出，接受藥物治療的癲癇婦女所生的小孩缺陷發生率較高，但這並不足以充分證明其間有確定的因果關係。遺傳因子或癲癇狀態本身對導致出生缺陷的影響，可能比藥物治療更重要，絕大多數使用抗痙攣藥治療的母親都能生出正常的嬰兒。需注意的是，當病人使用抗痙攣藥是為了防止可能因氧氣不足而危及生命的連續癲癇狀態時，不可停用抗痙攣藥。對較輕微且較不常發作的患者，如停藥不會對病人產生嚴重之威脅，可考慮在懷孕前及懷孕期間停藥，但無法保證無生命危險之發作不會危及發育中的胚胎或胎兒。處方醫師在治療或勸導有生產可能性之癲癇婦女時，需評估並告知其風險效益。</li><li style=\"text-align:justify;\">有高比例的病患在懷孕期間癲癇發作的頻率會增加，因Phenytoin 的吸收或代謝發生變化。對懷孕的癲癇患者做定期的 Phenytoin 血中濃度測試，有助於劑量的適當調整，但產後可能亦須再調整回原先之劑量。</li><li style=\"text-align:justify;\">分娩前服用本藥會增加新生兒出血的危險性。<br>Vitamin K可預防或治療此種情形，因此建議在母親分娩前及新生兒出生後給予Vitamin K。</li></ul>",
+          "search_text": "6.1\n懷孕\n雖有報告指出，接受藥物治療的癲癇婦女所生的小孩缺陷發生率較高，但這並不足以充分證明其間有確定的因果關係。遺傳因子或癲癇狀態本身對導致出生缺陷的影響，可能比藥物治療更重要，絕大多數使用抗痙攣藥治療的母親都能生出正常的嬰兒。需注意的是，當病人使用抗痙攣藥是為了防止可能因氧氣不足而危及生命的連續癲癇狀態時，不可停用抗痙攣藥。對較輕微且較不常發作的患者，如停藥不會對病人產生嚴重之威脅，可考慮在懷孕前及懷孕期間停藥，但無法保證無生命危險之發作不會危及發育中的胚胎或胎兒。處方醫師在治療或勸導有生產可能性之癲癇婦女時，需評估並告知其風險效益。 有高比例的病患在懷孕期間癲癇發作的頻率會增加，因Phenytoin 的吸收或代謝發生變化。對懷孕的癲癇患者做定期的 Phenytoin 血中濃度測試，有助於劑量的適當調整，但產後可能亦須再調整回原先之劑量。 分娩前服用本藥會增加新生兒出血的危險性。 Vitamin K可預防或治療此種情形，因此建議在母親分娩前及新生兒出生後給予Vitamin K。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "不建議服用本藥的婦女哺乳，因低濃度 Phenytoin會分泌於乳汁中。",
+          "content_html": "<p style=\"text-align:justify;\">不建議服用本藥的婦女哺乳，因低濃度 Phenytoin會分泌於乳汁中。</p>",
+          "search_text": "6.2\n哺乳\n不建議服用本藥的婦女哺乳，因低濃度 Phenytoin會分泌於乳汁中。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "藥物交互作用 許多藥物會提高或降低 Phenytoin的血清濃度，或被Phenytoin 影響。懷疑有藥物交互作用的可能性時，測量phenytoin的血清濃度特別有幫助。下列是最常出現的藥物交互作用: 許多藥物會經由減緩肝臟 CYP450 酵素系統對 phenytoin的代謝速率(如 dicumarol,disulfiram, omerprazole, ticlopidine)、或與phenytoin競爭蛋白質結合部份 (如salicylates, sulfisoxazole, tolbutamide) 或兩者併行 (如phenylbutazone, valproate sodium) 來增加Phenytoin的血清濃度。 (1) 可能會提高 Phenytoin 血清濃度的藥物：酒精 (大量攝取)、止痛劑/抗發炎劑 (如azapropazone, phenybutazone,salicylates）、抗生素（如chlorzmphenicol, erythromycin, isoniazid, sulfonamides）、抗痙攣劑 (如 felbamate, succinimides)、抗黴菌劑 (如amphotericin B, fluconazole, ketoconazole, miconazole, itraconazole、Benzodiazepines (如chlordiazepoxide, diazepam, dislfiram, met-hylphenidate , trazodone, viloxazine)、鈣離子通道阻斷劑 (如 amiodarone, dicumarol, diltiazem , nifedipine, ticlopidine)、血清素再吸收抑制劑 (如fluoxetine, fluvoxamine, sertraline)，cimetidine, estrogens, tolbutamide, omeprazole。 (2) 可能會降低 Phenytoin 血漿濃度的藥物：酒精（長期攝取）、抗生素（如rifampin, vigabatrin, sucralfate, theophylline, reserpine, diazoxide。 (3) 可能會提高或降低 Phenytoin 血清濃度的藥物：抗腫瘤劑、抗痙攣劑（如 carbamazepine, Phenobarbital, sodium valproate, valproic acid），抗生素（ciprofloxacin），及神經疾病用藥（chlordiazepoxide, diazepam）。 血中濃度及/或療效可能會因 Phenytoin 而改變的藥物：抗生素 (如 doxycycline, praziquantel, rifampin, tetracycline)、鈣離子通道阻斷劑 (如 digitoxin, nicardipine , nimodipine, quinidine, verapamil)、神經肌肉阻斷劑 (如alcuronium, pancuronium, vecuronium)、口服降血糖藥 (如 chlorpropamide, glyburide , tolbutamide)、神經疾病用藥及抗憂鬱藥 (如clozapine, paroxetine, sertraline)、荷爾蒙 (如estrogens, oral contraception)、皮質類固醇、Coumarin 抗凝血劑、維生素 D，cyclosporine , lamotrigine ,azoles , teniposide, theophylline, furosemide, diazoxide, methadone。 雖然三環類抗憂鬱藥 (tricyclic antidepressants）可能會促使病人癲癇發作，但此非真正的藥物交互作用，可能需要調整phenytoin的劑量。 研究文獻顯示：口服投予 nelfinavir及 phenytoin時，nelfinavir 會造成 phenytoin (全部)及游離態 phenytoin得濃度曲線下面積 (AUC) 分別減少29%及28%。因此同時給予此二藥時，應監測phenytoin血中濃度。 Molindone hydrochloride 含有會干擾 phenytoin吸收的鈣離子。 Phenytoin 的服用時間應與鈣製劑，包括含鈣的制酸劑，錯開以預防吸收困難。 研究文獻顯示：使用腸內餵食製劑及 / 或相關營養補充的病人，其phenytoin的血漿濃度較預期為低，因此建議phenytoin不要與腸內餵食製劑同時使用。對這類病人，需較頻繁地監測血清中phenytoin濃度。 Phenytoin可能會降低protein-bound iodine (PBI) 的血清濃度，也可能使dexamethasone或metyrapone測試結果低於正常值。 Phenytoin 可能會增加葡萄糖、鹼性磷酸鹽酵素及gamma glutamyl transpeptidase (GGT) 的血中濃度，也可能影響血鈣及血糖的新陳代謝測試結果。",
+          "content_html": "<p style=\"text-align:justify;\"><strong><u>藥物交互作用</u></strong><br>許多藥物會提高或降低 &nbsp;Phenytoin的血清濃度，或被Phenytoin 影響。懷疑有藥物交互作用的可能性時，測量phenytoin的血清濃度特別有幫助。下列是最常出現的藥物交互作用:&nbsp;</p><ul><li style=\"text-align:justify;\">許多藥物會經由減緩肝臟 CYP450 酵素系統對 phenytoin的代謝速率(如 dicumarol,disulfiram, omerprazole, ticlopidine)、或與phenytoin競爭蛋白質結合部份 (如salicylates, sulfisoxazole, tolbutamide) 或兩者併行 (如phenylbutazone, valproate sodium) 來增加Phenytoin的血清濃度。 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>(1) 可能會提高 Phenytoin 血清濃度的藥物：酒精 (大量攝取)、止痛劑/抗發炎劑 (如azapropazone,　phenybutazone,salicylates）、抗生素（如chlorzmphenicol, erythromycin, isoniazid, sulfonamides）、抗痙攣劑 (如 felbamate, succinimides)、抗黴菌劑 (如amphotericin B, fluconazole, ketoconazole, miconazole, itraconazole、Benzodiazepines (如chlordiazepoxide, diazepam, dislfiram, met-hylphenidate , trazodone, viloxazine)、鈣離子通道阻斷劑 (如 amiodarone, dicumarol, diltiazem , nifedipine, ticlopidine)、血清素再吸收抑制劑 (如fluoxetine, fluvoxamine, sertraline)，cimetidine, estrogens, tolbutamide, omeprazole。<br>(2) 可能會降低 Phenytoin 血漿濃度的藥物：酒精（長期攝取）、抗生素（如rifampin, vigabatrin, sucralfate, theophylline, reserpine, diazoxide。<br>(3) 可能會提高或降低 Phenytoin 血清濃度的藥物：抗腫瘤劑、抗痙攣劑（如 carbamazepine, Phenobarbital, sodium valproate, valproic acid），抗生素（ciprofloxacin），及神經疾病用藥（chlordiazepoxide, diazepam）。</li><li style=\"text-align:justify;\">血中濃度及/或療效可能會因 Phenytoin 而改變的藥物：抗生素 (如 doxycycline, praziquantel, rifampin, tetracycline)、鈣離子通道阻斷劑 (如 digitoxin, nicardipine , nimodipine, quinidine, verapamil)、神經肌肉阻斷劑 (如alcuronium, &nbsp;pancuronium, vecuronium)、口服降血糖藥 (如 chlorpropamide, glyburide , tolbutamide)、神經疾病用藥及抗憂鬱藥 (如clozapine, paroxetine, sertraline)、荷爾蒙 (如estrogens, oral contraception)、皮質類固醇、Coumarin 抗凝血劑、維生素 D，cyclosporine , lamotrigine ,azoles , teniposide, theophylline, furosemide, diazoxide, methadone。</li><li style=\"text-align:justify;\">雖然三環類抗憂鬱藥 (tricyclic antidepressants）可能會促使病人癲癇發作，但此非真正的藥物交互作用，可能需要調整phenytoin的劑量。</li><li style=\"text-align:justify;\">研究文獻顯示：口服投予 nelfinavir及 phenytoin時，nelfinavir 會造成 phenytoin (全部)及游離態 phenytoin得濃度曲線下面積 (AUC) 分別減少29%及28%。因此同時給予此二藥時，應監測phenytoin血中濃度。</li><li style=\"text-align:justify;\">Molindone &nbsp;hydrochloride 含有會干擾 phenytoin吸收的鈣離子。 Phenytoin 的服用時間應與鈣製劑，包括含鈣的制酸劑，錯開以預防吸收困難。</li><li style=\"text-align:justify;\">研究文獻顯示：使用腸內餵食製劑及 / 或相關營養補充的病人，其phenytoin的血漿濃度較預期為低，因此建議phenytoin不要與腸內餵食製劑同時使用。對這類病人，需較頻繁地監測血清中phenytoin濃度。</li><li style=\"text-align:justify;\">Phenytoin可能會降低protein-bound iodine (PBI) 的血清濃度，也可能使dexamethasone或metyrapone測試結果低於正常值。 Phenytoin 可能會增加葡萄糖、鹼性磷酸鹽酵素及gamma glutamyl transpeptidase (GGT) 的血中濃度，也可能影響血鈣及血糖的新陳代謝測試結果。</li></ul>",
+          "search_text": "7\n交互作用\n藥物交互作用 許多藥物會提高或降低 Phenytoin的血清濃度，或被Phenytoin 影響。懷疑有藥物交互作用的可能性時，測量phenytoin的血清濃度特別有幫助。下列是最常出現的藥物交互作用: 許多藥物會經由減緩肝臟 CYP450 酵素系統對 phenytoin的代謝速率(如 dicumarol,disulfiram, omerprazole, ticlopidine)、或與phenytoin競爭蛋白質結合部份 (如salicylates, sulfisoxazole, tolbutamide) 或兩者併行 (如phenylbutazone, valproate sodium) 來增加Phenytoin的血清濃度。 (1) 可能會提高 Phenytoin 血清濃度的藥物：酒精 (大量攝取)、止痛劑/抗發炎劑 (如azapropazone, phenybutazone,salicylates）、抗生素（如chlorzmphenicol, erythromycin, isoniazid, sulfonamides）、抗痙攣劑 (如 felbamate, succinimides)、抗黴菌劑 (如amphotericin B, fluconazole, ketoconazole, miconazole, itraconazole、Benzodiazepines (如chlordiazepoxide, diazepam, dislfiram, met-hylphenidate , trazodone, viloxazine)、鈣離子通道阻斷劑 (如 amiodarone, dicumarol, diltiazem , nifedipine, ticlopidine)、血清素再吸收抑制劑 (如fluoxetine, fluvoxamine, sertraline)，cimetidine, estrogens, tolbutamide, omeprazole。 (2) 可能會降低 Phenytoin 血漿濃度的藥物：酒精（長期攝取）、抗生素（如rifampin, vigabatrin, sucralfate, theophylline, reserpine, diazoxide。 (3) 可能會提高或降低 Phenytoin 血清濃度的藥物：抗腫瘤劑、抗痙攣劑（如 carbamazepine, Phenobarbital, sodium valproate, valproic acid），抗生素（ciprofloxacin），及神經疾病用藥（chlordiazepoxide, diazepam）。 血中濃度及/或療效可能會因 Phenytoin 而改變的藥物：抗生素 (如 doxycycline, praziquantel, rifampin, tetracycline)、鈣離子通道阻斷劑 (如 digitoxin, nicardipine , nimodipine, quinidine, verapamil)、神經肌肉阻斷劑 (如alcuronium, pancuronium, vecuronium)、口服降血糖藥 (如 chlorpropamide, glyburide , tolbutamide)、神經疾病用藥及抗憂鬱藥 (如clozapine, paroxetine, sertraline)、荷爾蒙 (如estrogens, oral contraception)、皮質類固醇、Coumarin 抗凝血劑、維生素 D，cyclosporine , lamotrigine ,azoles , teniposide, theophylline, furosemide, diazoxide, methadone。 雖然三環類抗憂鬱藥 (tricyclic antidepressants）可能會促使病人癲癇發作，但此非真正的藥物交互作用，可能需要調整phenytoin的劑量。 研究文獻顯示：口服投予 nelfinavir及 phenytoin時，nelfinavir 會造成 phenytoin (全部)及游離態 phenytoin得濃度曲線下面積 (AUC) 分別減少29%及28%。因此同時給予此二藥時，應監測phenytoin血中濃度。 Molindone hydrochloride 含有會干擾 phenytoin吸收的鈣離子。 Phenytoin 的服用時間應與鈣製劑，包括含鈣的制酸劑，錯開以預防吸收困難。 研究文獻顯示：使用腸內餵食製劑及 / 或相關營養補充的病人，其phenytoin的血漿濃度較預期為低，因此建議phenytoin不要與腸內餵食製劑同時使用。對這類病人，需較頻繁地監測血清中phenytoin濃度。 Phenytoin可能會降低protein-bound iodine (PBI) 的血清濃度，也可能使dexamethasone或metyrapone測試結果低於正常值。 Phenytoin 可能會增加葡萄糖、鹼性磷酸鹽酵素及gamma glutamyl transpeptidase (GGT) 的血中濃度，也可能影響血鈣及血糖的新陳代謝測試結果。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "使用本藥常見副作用大多發生於中樞神經系統，且通常與劑量有關，故須仔細監控以調整phenytoin之劑量。 神經系統方面：包括眼球震顫、運動失調、口齒不清、協調能力降低及心智紊亂。少數發生頭昏、失眠、短暫緊張、運動痙攣、頭痛、感覺異常及嗜眠。極少數發生運動困難，如舞蹈症、肌緊張不足等。長期使用 Phenytoin 的病人曾被觀察到發生感覺性為主的多發神經病變。 皮膚方面：包括猩紅熱樣或麻疹樣的皮疹，有時伴隨發燒。麻疹樣的皮疹最常見，其他型態的皮膚炎極少見。其他可能致命的型態，包括大疱性的、剝落性的或紫斑樣的皮膚炎，紅斑性狼瘡，Stevens-Johnson syndrome及毒性表皮壞死溶解症（TPN）。 有報導指出使用本藥可能發生致命的造血系統併發症，包括血小板減少症、白血球減少症、顆粒性白血球過少症及伴隨或不伴隨骨髓抑制的再生不能貧血。巨紅血球症及巨母紅血球性貧血也曾被報導過。淋巴腺病也曾被報導過。 其他：噁心、嘔吐、味覺失常、便秘、毒性肝炎及肝損害；過敏症候群、全身性紅斑性狼瘡、結節性動脈外層炎及免疫球蛋白異常；容貌變粗、嘴唇擴大、齒齦增生、多毛症及Peyronie氏病。",
+          "content_html": "<ul><li style=\"text-align:justify;\">使用本藥常見副作用大多發生於中樞神經系統，且通常與劑量有關，故須仔細監控以調整phenytoin之劑量。</li><li style=\"text-align:justify;\">神經系統方面：包括眼球震顫、運動失調、口齒不清、協調能力降低及心智紊亂。少數發生頭昏、失眠、短暫緊張、運動痙攣、頭痛、感覺異常及嗜眠。極少數發生運動困難，如舞蹈症、肌緊張不足等。長期使用 Phenytoin 的病人曾被觀察到發生感覺性為主的多發神經病變。</li><li style=\"text-align:justify;\">皮膚方面：包括猩紅熱樣或麻疹樣的皮疹，有時伴隨發燒。麻疹樣的皮疹最常見，其他型態的皮膚炎極少見。其他可能致命的型態，包括大疱性的、剝落性的或紫斑樣的皮膚炎，紅斑性狼瘡，Stevens-Johnson syndrome及毒性表皮壞死溶解症（TPN）。</li><li style=\"text-align:justify;\">有報導指出使用本藥可能發生致命的造血系統併發症，包括血小板減少症、白血球減少症、顆粒性白血球過少症及伴隨或不伴隨骨髓抑制的再生不能貧血。巨紅血球症及巨母紅血球性貧血也曾被報導過。淋巴腺病也曾被報導過。</li><li style=\"text-align:justify;\">其他：噁心、嘔吐、味覺失常、便秘、毒性肝炎及肝損害；過敏症候群、全身性紅斑性狼瘡、結節性動脈外層炎及免疫球蛋白異常；容貌變粗、嘴唇擴大、齒齦增生、多毛症及Peyronie氏病。</li></ul>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n使用本藥常見副作用大多發生於中樞神經系統，且通常與劑量有關，故須仔細監控以調整phenytoin之劑量。 神經系統方面：包括眼球震顫、運動失調、口齒不清、協調能力降低及心智紊亂。少數發生頭昏、失眠、短暫緊張、運動痙攣、頭痛、感覺異常及嗜眠。極少數發生運動困難，如舞蹈症、肌緊張不足等。長期使用 Phenytoin 的病人曾被觀察到發生感覺性為主的多發神經病變。 皮膚方面：包括猩紅熱樣或麻疹樣的皮疹，有時伴隨發燒。麻疹樣的皮疹最常見，其他型態的皮膚炎極少見。其他可能致命的型態，包括大疱性的、剝落性的或紫斑樣的皮膚炎，紅斑性狼瘡，Stevens-Johnson syndrome及毒性表皮壞死溶解症（TPN）。 有報導指出使用本藥可能發生致命的造血系統併發症，包括血小板減少症、白血球減少症、顆粒性白血球過少症及伴隨或不伴隨骨髓抑制的再生不能貧血。巨紅血球症及巨母紅血球性貧血也曾被報導過。淋巴腺病也曾被報導過。 其他：噁心、嘔吐、味覺失常、便秘、毒性肝炎及肝損害；過敏症候群、全身性紅斑性狼瘡、結節性動脈外層炎及免疫球蛋白異常；容貌變粗、嘴唇擴大、齒齦增生、多毛症及Peyronie氏病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "成人的致死劑量估計約為2到5公克，兒童的致死劑量仍未知。最初症狀為眼球震顫、運動失調及發音障礙 (dysarthria)。其他徵兆為震顫、反射過強、嗜眠、困倦、昏昏欲睡(lethargy)、口齒不清、視力模糊、噁心及嘔吐。病人可能出現昏迷及低血壓。死亡是因為呼吸及循環系統衰竭。 Phenytoin 中毒的血清濃度，在不同個體間有顯著差異。通常20mcg/ml 時會出現眼球震顫、30mcg/ml 時會有運動失調，及超過40mcg/ml則會有發音障礙及昏睡，但也有超過50mcg/ml卻無中毒跡象的報告。 過量的治療，因沒有已知解毒劑，所以沒有特效療法。利用適當支持療法，維持呼吸及循環系統正常運作。因Phenytoin 並不完全與血漿蛋白結合，可考慮使用血液透析。 急性過量時，應記住可能有其他中樞神經抑制劑存在，包括酒精。",
+          "content_html": "<ul><li style=\"text-align:justify;\">成人的致死劑量估計約為2到5公克，兒童的致死劑量仍未知。最初症狀為眼球震顫、運動失調及發音障礙 (dysarthria)。其他徵兆為震顫、反射過強、嗜眠、困倦、昏昏欲睡(lethargy)、口齒不清、視力模糊、噁心及嘔吐。病人可能出現昏迷及低血壓。死亡是因為呼吸及循環系統衰竭。</li><li style=\"text-align:justify;\">Phenytoin 中毒的血清濃度，在不同個體間有顯著差異。通常20mcg/ml 時會出現眼球震顫、30mcg/ml 時會有運動失調，及超過40mcg/ml則會有發音障礙及昏睡，但也有超過50mcg/ml卻無中毒跡象的報告。</li><li style=\"text-align:justify;\">過量的治療，因沒有已知解毒劑，所以沒有特效療法。利用適當支持療法，維持呼吸及循環系統正常運作。因Phenytoin 並不完全與血漿蛋白結合，可考慮使用血液透析。</li><li style=\"text-align:justify;\">急性過量時，應記住可能有其他中樞神經抑制劑存在，包括酒精。</li></ul>",
+          "search_text": "9\n過量\n成人的致死劑量估計約為2到5公克，兒童的致死劑量仍未知。最初症狀為眼球震顫、運動失調及發音障礙 (dysarthria)。其他徵兆為震顫、反射過強、嗜眠、困倦、昏昏欲睡(lethargy)、口齒不清、視力模糊、噁心及嘔吐。病人可能出現昏迷及低血壓。死亡是因為呼吸及循環系統衰竭。 Phenytoin 中毒的血清濃度，在不同個體間有顯著差異。通常20mcg/ml 時會出現眼球震顫、30mcg/ml 時會有運動失調，及超過40mcg/ml則會有發音障礙及昏睡，但也有超過50mcg/ml卻無中毒跡象的報告。 過量的治療，因沒有已知解毒劑，所以沒有特效療法。利用適當支持療法，維持呼吸及循環系統正常運作。因Phenytoin 並不完全與血漿蛋白結合，可考慮使用血液透析。 急性過量時，應記住可能有其他中樞神經抑制劑存在，包括酒精。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "抗驚厥劑之作用機轉尚未完全明瞭，可能因為可安定鈉離子通道於不活化狀態。",
+          "content_html": "<p style=\"text-align:justify;\">抗驚厥劑之作用機轉尚未完全明瞭，可能因為可安定鈉離子通道於不活化狀態。</p>",
+          "search_text": "10.1\n作用機轉\n抗驚厥劑之作用機轉尚未完全明瞭，可能因為可安定鈉離子通道於不活化狀態。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "於神經興奮生成時藉減少鈉離子流入皮質神經元之細胞膜而限制了癲癇發作活動的擴展。",
+          "content_html": "<p style=\"text-align:justify;\">於神經興奮生成時藉減少鈉離子流入皮質神經元之細胞膜而限制了癲癇發作活動的擴展。</p>",
+          "search_text": "10.2\n藥效藥理特性\n於神經興奮生成時藉減少鈉離子流入皮質神經元之細胞膜而限制了癲癇發作活動的擴展。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "人體中Phenytoin的血漿半衰期範圍為7至42小時，平均22小時。在開始以建議300mg/day治療後，至少需7至10天達治療濃度穩定狀態，對 Phenytoin sodium而言，投藥後1.5至3小時可得其血中最高濃度。Phenytoin可見分布體積為0.6公升/公斤，且大部分 (90%) 與血漿蛋白質 (主要是白蛋白) 結合。 Phenytoin 分佈至腦脊髓液、唾液、精液、胃腸液、膽汁及乳汁中。腦脊髓液、腦、唾液中的 Phenytoin濃度與血漿中游離Phenytoin的濃度相近。 Phenytoin 在肝臟氧化代謝。主要途徑包括 4-羥基化作用，佔80%。CYP2C9在Phenytoin的代謝過程中，扮演主要角色，而CYP2C19參與較少。不過當Phenytoin 濃度較高時，則CYP2C19的貢獻相對可能提高。 在血清濃度相對較高時，可能會使肝臟中參與Phenytoin羥基化作用的細胞色素(cytochrome) 系統達飽和狀態。因此當血清濃度處於或超過治療範圍的上限時，少許增加 Phenytoin 的劑量，就可能延長半衰期，並使血清濃度大幅上升。此時只增加10%或更多劑量便可能會使血中濃度大幅變動，造成中毒的結果。與其他藥動性質相似，此一飽和現象發生時所對應之血清濃度亦具個體差異性 (即部分病人可能在較低之血清濃度便發生上述細胞色素系統之飽和現象)。 Phenytoin 大部分以無活性的代謝物排泄於膽汁中，一部分經腎小球濾過，而較重要的是經由腎小管分泌作用，然後由尿液排出。低於5%的Phenytoin 以原態排出。 絕大多數保持在穩定劑量的病患，其 Phenytoin 血中濃度處於穩定狀態。相同劑量的 Phenytoin 在不同病患的血中濃度差異可以很大。肝臟疾病、先天性酵素不足或藥物交互作用都會干擾代謝作用而造成不尋常的血中濃度增加。因此確定血中濃度對此類病人有很大幫助。",
+          "content_html": "<ul><li style=\"text-align:justify;\">人體中Phenytoin的血漿半衰期範圍為7至42小時，平均22小時。在開始以建議300mg/day治療後，至少需7至10天達治療濃度穩定狀態，對 Phenytoin sodium而言，投藥後1.5至3小時可得其血中最高濃度。Phenytoin可見分布體積為0.6公升/公斤，且大部分 (90%) 與血漿蛋白質 (主要是白蛋白) 結合。</li><li style=\"text-align:justify;\">Phenytoin 分佈至腦脊髓液、唾液、精液、胃腸液、膽汁及乳汁中。腦脊髓液、腦、唾液中的 Phenytoin濃度與血漿中游離Phenytoin的濃度相近。</li><li style=\"text-align:justify;\">Phenytoin 在肝臟氧化代謝。主要途徑包括 4-羥基化作用，佔80%。CYP2C9在Phenytoin的代謝過程中，扮演主要角色，而CYP2C19參與較少。不過當Phenytoin 濃度較高時，則CYP2C19的貢獻相對可能提高。</li><li style=\"text-align:justify;\">在血清濃度相對較高時，可能會使肝臟中參與Phenytoin羥基化作用的細胞色素(cytochrome) 系統達飽和狀態。因此當血清濃度處於或超過治療範圍的上限時，少許增加 Phenytoin 的劑量，就可能延長半衰期，並使血清濃度大幅上升。此時只增加10%或更多劑量便可能會使血中濃度大幅變動，造成中毒的結果。與其他藥動性質相似，此一飽和現象發生時所對應之血清濃度亦具個體差異性 (即部分病人可能在較低之血清濃度便發生上述細胞色素系統之飽和現象)。</li><li style=\"text-align:justify;\">Phenytoin 大部分以無活性的代謝物排泄於膽汁中，一部分經腎小球濾過，而較重要的是經由腎小管分泌作用，然後由尿液排出。低於5%的Phenytoin 以原態排出。</li><li style=\"text-align:justify;\">絕大多數保持在穩定劑量的病患，其 Phenytoin 血中濃度處於穩定狀態。相同劑量的 Phenytoin 在不同病患的血中濃度差異可以很大。肝臟疾病、先天性酵素不足或藥物交互作用都會干擾代謝作用而造成不尋常的血中濃度增加。因此確定血中濃度對此類病人有很大幫助。</li></ul>",
+          "search_text": "11\n藥物動力學特性\n人體中Phenytoin的血漿半衰期範圍為7至42小時，平均22小時。在開始以建議300mg/day治療後，至少需7至10天達治療濃度穩定狀態，對 Phenytoin sodium而言，投藥後1.5至3小時可得其血中最高濃度。Phenytoin可見分布體積為0.6公升/公斤，且大部分 (90%) 與血漿蛋白質 (主要是白蛋白) 結合。 Phenytoin 分佈至腦脊髓液、唾液、精液、胃腸液、膽汁及乳汁中。腦脊髓液、腦、唾液中的 Phenytoin濃度與血漿中游離Phenytoin的濃度相近。 Phenytoin 在肝臟氧化代謝。主要途徑包括 4-羥基化作用，佔80%。CYP2C9在Phenytoin的代謝過程中，扮演主要角色，而CYP2C19參與較少。不過當Phenytoin 濃度較高時，則CYP2C19的貢獻相對可能提高。 在血清濃度相對較高時，可能會使肝臟中參與Phenytoin羥基化作用的細胞色素(cytochrome) 系統達飽和狀態。因此當血清濃度處於或超過治療範圍的上限時，少許增加 Phenytoin 的劑量，就可能延長半衰期，並使血清濃度大幅上升。此時只增加10%或更多劑量便可能會使血中濃度大幅變動，造成中毒的結果。與其他藥動性質相似，此一飽和現象發生時所對應之血清濃度亦具個體差異性 (即部分病人可能在較低之血清濃度便發生上述細胞色素系統之飽和現象)。 Phenytoin 大部分以無活性的代謝物排泄於膽汁中，一部分經腎小球濾過，而較重要的是經由腎小管分泌作用，然後由尿液排出。低於5%的Phenytoin 以原態排出。 絕大多數保持在穩定劑量的病患，其 Phenytoin 血中濃度處於穩定狀態。相同劑量的 Phenytoin 在不同病患的血中濃度差異可以很大。肝臟疾病、先天性酵素不足或藥物交互作用都會干擾代謝作用而造成不尋常的血中濃度增加。因此確定血中濃度對此類病人有很大幫助。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。&nbsp;</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "6~1000錠鋁箔盒裝、塑膠瓶裝。",
+          "content_html": "<p style=\"text-align:justify;\">&nbsp;6~1000錠鋁箔盒裝、塑膠瓶裝。</p>",
+          "search_text": "13.1\n包裝\n6~1000錠鋁箔盒裝、塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p style=\"text-align:justify;\">如外包裝所示。&nbsp;</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本品應包裝於緊密容器，貯於陰涼（30°C以下）乾燥且孩童不易取得處所。",
+          "content_html": "<p style=\"text-align:justify;\">本品應包裝於緊密容器，貯於陰涼（30°C以下）乾燥且孩童不易取得處所。</p>",
+          "search_text": "13.3\n儲存條件\n本品應包裝於緊密容器，貯於陰涼（30°C以下）乾燥且孩童不易取得處所。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "版本: TSHALET 202511 商標授權者: 大日本住友製藥株式會社",
+          "content_html": "<p style=\"text-align:justify;\">版本: TSHALET 202511</p><p style=\"text-align:justify;\">商標授權者: 大日本住友製藥株式會社<br>&nbsp;</p>",
+          "search_text": "15\n其他\n版本: TSHALET 202511 商標授權者: 大日本住友製藥株式會社",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每錠中含有Diphenylhydantoin (Phenytoin) 100mg 其化學構造如下:\nC15H12N2O2: 252.28\n1.2\n賦形劑\nCorn Starch, Acacia powder, Talc, Magnesium Stearate\n1.3\n劑型\n錠劑\n1.4\n藥品外觀\n一面刻有P tsh，另一面有折半線之圓形素錠。\n2\n適應症\n大發作及局部發作型癲癇，預防及治療神經外科手術所引起之癲癇發作。\n3\n用法及用量\n3.1\n用法用量\n本藥須由醫師處方使用。\n成人： 分次給藥 初劑量為100mg，每日服用3次，視患者需要調整之。 一般維持劑量為100mg，每日2-3次，必要時可使用更低或更高劑量，亦視患者之狀況而調整之。由於一般本藥在藥動學及藥效學方面顯著之個體差異性，須小心監測患者之毒性反應、血中濃度，及臨床療效，並藉以適切調整每一位病人之劑量。\n每日一次給藥（僅限緩釋劑型使用） 若患者症狀以100mg每日3次之分次給藥方式獲得適切控制後，可考慮採用緩釋劑型以每次300mg每日1次之方式投與。\n負荷劑量 最初至多可投與1000mg，分3次給藥（400mg、300mg、300mg），投藥間隔為2小時；24小時後改投與維持劑量，並密切監測患者之血中濃度。\n處方調配者注意 藥師為病人重新調配Phenytoin Sodium Capsules時，須先確定下列事項： (1) 所用之品牌是否已修改處方組成。 (2) Phenytoin Sodium Capsules所指為延時型或速效型。 (3) 醫生希望病人繼續使用的為延時型或速效型。 調配時欲改用不同於與病人正在服用之劑型或品牌時，應先與處方醫師諮商，因為可能會有不同的生體可用率，其結果可能造成發作控制失效或是達於中毒濃度。 每100mg Phenytoin Sodium的鈉含量是0.35mEq (8mg)。故100mg Phenytoin Sodium膠囊僅含92mg Phenytoin ，並不相當於一片100mg Phenytoin錠的含量。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n肝病或腎病病史之患者: 不適用此給藥法。\n兒童: 初劑量為每日每公斤體重5mg，分2-3次投與。每日最高劑量為300mg。通常維持劑量為每公斤體重4-8mg。6歲以上之兒童可採用成人最低劑量（每日300mg）。以上劑量亦皆須視患者之個別狀況而調整之（參見成人，分次給藥）。\n4\n禁忌\nPhenytoin禁止使用於對Phenytoin，或其他hydantoins類藥物過敏的病人。\n5\n警語及注意事項\n5.1\n警語/注意事項\n對中樞神經系統的影響：phenytoin 的血清濃度若持續在適當範圍之上，則可能產生譫妄（delirium）、精神病（psychosis）或腦病（encephalopathy）等精神紊亂的狀態，或極少見不可逆性小腦功能障礙。因此在建議在第一個急性中毒徵兆產生時，立即測量血清藥物濃度。並依臨床表現及檢驗結果適時調整phenytoin劑量或停用phenytoin。 對造血系統的影響：有些報告指出 phenytoin 與淋巴腺疾病（局部或全身）的發展有關係。雖然其因果關係尚未確立，但若發現淋巴腺病時，必須與其他型態的淋巴結病變有所區分。對所有淋巴腺病的病例，必須長期追蹤觀察，並儘量使用替代的抗痙攣藥來控制癲癇發作。 Phenytoin也可能會使體內儲存之葉酸（folic acid）耗竭，而發生巨紅血球症及巨母紅血球性貧血。補充葉酸可以改善此等情況，但須注意加入葉酸可能造成對癲癇發作控制效果之減弱。 對肝臟及免疫系統的影響：肝臟是 Phenytoin 代謝的主要部位，因此肝功能受損的患者及老年人可能出現毒性的早期徵兆。 曾有使用 Phenytoin 引起急性肝中毒的案例，包括極少數的急性肝衰竭。這些偶發事件與一種過敏症候群有關，其特徵為發燒、皮疹及淋巴腺病，通常出現在治療開始的兩個月內。其它常見的表徵包括關節痛、皮疹、黃疸、肝腫大、血清轉氨酵素濃度上升、白血球增多及嗜伊紅血球增多。急性Phenytoin肝中毒的臨床發展可能迅速痊癒或死亡。對這些病人，phenytoin應立即停用。 對皮膚的影響：若有皮疹出現，應停用Phenytoin。若皮疹為剝落性（exfoliative）、紫斑樣（purpuric）或大疱性（bullous），或懷疑有紅斑性狼瘡、史第文生氏強生症候群（Stevens-Johnson syndrome）或毒性表皮壞死溶解症，則不可再使用 Phenytoin ，應考慮替代療法。 對新陳代謝的影響：有報告指出 Phenytoin 與吡咯紫質沉著症（porphyria）的惡化有關，患有該疾患病人使用Phenytoin治療時需小心。 也有報告指出Phenytoin具有抑制胰島素釋出的作用，導致高血糖症，Phenytoin也會使糖尿病患者的血糖上升。 對肌肉與骨骼的影響：Phenytoin 會干擾體內維生素D的代謝作用，而導致產生軟骨病。 本藥治療期間，依病人情況應定期做下列全部或部分之檢測，依情況某些病人或許尚須做其他檢測：血鈣值、全血細胞計數、腦電圖、肝功能、血中Phenytoin值、淋巴腺評估和牙齒之定期檢測。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n應勸導病人不要駕駛汽車或操作有潛在危險的機械，除非已確知此藥物治療不會影響他們從事這些活動的能力。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n服用本藥之病人，須特別注意下列事項： 須與食物或牛奶同時服用或餐後立刻服用以減少胃腸刺激。 須定期看醫生檢查治療進展，停藥時應採用遞減方式，以免癲癇突發，並須先與醫生洽商。 已有報告顯示本藥可能抑制胰島素之釋出，故糖尿病患者，須檢測尿糖。 服用本藥時，避免喝含酒精之飲料。急性酒精攝取可能使 Phenytoin 血清濃度上升，長期攝取酒精則會降低血清濃度。 注意是否需作外科、牙科手術或緊急治療。 維持良好的牙齒衛生保健，因為有牙齦脆弱、腫脹或出血發生的可能。 開車、操作機器或做其它需高警覺性工作時須留心。\n6\n特殊族群注意事項\n6.1\n懷孕\n雖有報告指出，接受藥物治療的癲癇婦女所生的小孩缺陷發生率較高，但這並不足以充分證明其間有確定的因果關係。遺傳因子或癲癇狀態本身對導致出生缺陷的影響，可能比藥物治療更重要，絕大多數使用抗痙攣藥治療的母親都能生出正常的嬰兒。需注意的是，當病人使用抗痙攣藥是為了防止可能因氧氣不足而危及生命的連續癲癇狀態時，不可停用抗痙攣藥。對較輕微且較不常發作的患者，如停藥不會對病人產生嚴重之威脅，可考慮在懷孕前及懷孕期間停藥，但無法保證無生命危險之發作不會危及發育中的胚胎或胎兒。處方醫師在治療或勸導有生產可能性之癲癇婦女時，需評估並告知其風險效益。 有高比例的病患在懷孕期間癲癇發作的頻率會增加，因Phenytoin 的吸收或代謝發生變化。對懷孕的癲癇患者做定期的 Phenytoin 血中濃度測試，有助於劑量的適當調整，但產後可能亦須再調整回原先之劑量。 分娩前服用本藥會增加新生兒出血的危險性。 Vitamin K可預防或治療此種情形，因此建議在母親分娩前及新生兒出生後給予Vitamin K。\n6.2\n哺乳\n不建議服用本藥的婦女哺乳，因低濃度 Phenytoin會分泌於乳汁中。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n藥物交互作用 許多藥物會提高或降低 Phenytoin的血清濃度，或被Phenytoin 影響。懷疑有藥物交互作用的可能性時，測量phenytoin的血清濃度特別有幫助。下列是最常出現的藥物交互作用: 許多藥物會經由減緩肝臟 CYP450 酵素系統對 phenytoin的代謝速率(如 dicumarol,disulfiram, omerprazole, ticlopidine)、或與phenytoin競爭蛋白質結合部份 (如salicylates, sulfisoxazole, tolbutamide) 或兩者併行 (如phenylbutazone, valproate sodium) 來增加Phenytoin的血清濃度。 (1) 可能會提高 Phenytoin 血清濃度的藥物：酒精 (大量攝取)、止痛劑/抗發炎劑 (如azapropazone, phenybutazone,salicylates）、抗生素（如chlorzmphenicol, erythromycin, isoniazid, sulfonamides）、抗痙攣劑 (如 felbamate, succinimides)、抗黴菌劑 (如amphotericin B, fluconazole, ketoconazole, miconazole, itraconazole、Benzodiazepines (如chlordiazepoxide, diazepam, dislfiram, met-hylphenidate , trazodone, viloxazine)、鈣離子通道阻斷劑 (如 amiodarone, dicumarol, diltiazem , nifedipine, ticlopidine)、血清素再吸收抑制劑 (如fluoxetine, fluvoxamine, sertraline)，cimetidine, estrogens, tolbutamide, omeprazole。 (2) 可能會降低 Phenytoin 血漿濃度的藥物：酒精（長期攝取）、抗生素（如rifampin, vigabatrin, sucralfate, theophylline, reserpine, diazoxide。 (3) 可能會提高或降低 Phenytoin 血清濃度的藥物：抗腫瘤劑、抗痙攣劑（如 carbamazepine, Phenobarbital, sodium valproate, valproic acid），抗生素（ciprofloxacin），及神經疾病用藥（chlordiazepoxide, diazepam）。 血中濃度及/或療效可能會因 Phenytoin 而改變的藥物：抗生素 (如 doxycycline, praziquantel, rifampin, tetracycline)、鈣離子通道阻斷劑 (如 digitoxin, nicardipine , nimodipine, quinidine, verapamil)、神經肌肉阻斷劑 (如alcuronium, pancuronium, vecuronium)、口服降血糖藥 (如 chlorpropamide, glyburide , tolbutamide)、神經疾病用藥及抗憂鬱藥 (如clozapine, paroxetine, sertraline)、荷爾蒙 (如estrogens, oral contraception)、皮質類固醇、Coumarin 抗凝血劑、維生素 D，cyclosporine , lamotrigine ,azoles , teniposide, theophylline, furosemide, diazoxide, methadone。 雖然三環類抗憂鬱藥 (tricyclic antidepressants）可能會促使病人癲癇發作，但此非真正的藥物交互作用，可能需要調整phenytoin的劑量。 研究文獻顯示：口服投予 nelfinavir及 phenytoin時，nelfinavir 會造成 phenytoin (全部)及游離態 phenytoin得濃度曲線下面積 (AUC) 分別減少29%及28%。因此同時給予此二藥時，應監測phenytoin血中濃度。 Molindone hydrochloride 含有會干擾 phenytoin吸收的鈣離子。 Phenytoin 的服用時間應與鈣製劑，包括含鈣的制酸劑，錯開以預防吸收困難。 研究文獻顯示：使用腸內餵食製劑及 / 或相關營養補充的病人，其phenytoin的血漿濃度較預期為低，因此建議phenytoin不要與腸內餵食製劑同時使用。對這類病人，需較頻繁地監測血清中phenytoin濃度。 Phenytoin可能會降低protein-bound iodine (PBI) 的血清濃度，也可能使dexamethasone或metyrapone測試結果低於正常值。 Phenytoin 可能會增加葡萄糖、鹼性磷酸鹽酵素及gamma glutamyl transpeptidase (GGT) 的血中濃度，也可能影響血鈣及血糖的新陳代謝測試結果。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n使用本藥常見副作用大多發生於中樞神經系統，且通常與劑量有關，故須仔細監控以調整phenytoin之劑量。 神經系統方面：包括眼球震顫、運動失調、口齒不清、協調能力降低及心智紊亂。少數發生頭昏、失眠、短暫緊張、運動痙攣、頭痛、感覺異常及嗜眠。極少數發生運動困難，如舞蹈症、肌緊張不足等。長期使用 Phenytoin 的病人曾被觀察到發生感覺性為主的多發神經病變。 皮膚方面：包括猩紅熱樣或麻疹樣的皮疹，有時伴隨發燒。麻疹樣的皮疹最常見，其他型態的皮膚炎極少見。其他可能致命的型態，包括大疱性的、剝落性的或紫斑樣的皮膚炎，紅斑性狼瘡，Stevens-Johnson syndrome及毒性表皮壞死溶解症（TPN）。 有報導指出使用本藥可能發生致命的造血系統併發症，包括血小板減少症、白血球減少症、顆粒性白血球過少症及伴隨或不伴隨骨髓抑制的再生不能貧血。巨紅血球症及巨母紅血球性貧血也曾被報導過。淋巴腺病也曾被報導過。 其他：噁心、嘔吐、味覺失常、便秘、毒性肝炎及肝損害；過敏症候群、全身性紅斑性狼瘡、結節性動脈外層炎及免疫球蛋白異常；容貌變粗、嘴唇擴大、齒齦增生、多毛症及Peyronie氏病。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n成人的致死劑量估計約為2到5公克，兒童的致死劑量仍未知。最初症狀為眼球震顫、運動失調及發音障礙 (dysarthria)。其他徵兆為震顫、反射過強、嗜眠、困倦、昏昏欲睡(lethargy)、口齒不清、視力模糊、噁心及嘔吐。病人可能出現昏迷及低血壓。死亡是因為呼吸及循環系統衰竭。 Phenytoin 中毒的血清濃度，在不同個體間有顯著差異。通常20mcg/ml 時會出現眼球震顫、30mcg/ml 時會有運動失調，及超過40mcg/ml則會有發音障礙及昏睡，但也有超過50mcg/ml卻無中毒跡象的報告。 過量的治療，因沒有已知解毒劑，所以沒有特效療法。利用適當支持療法，維持呼吸及循環系統正常運作。因Phenytoin 並不完全與血漿蛋白結合，可考慮使用血液透析。 急性過量時，應記住可能有其他中樞神經抑制劑存在，包括酒精。\n10\n藥理特性\n10.1\n作用機轉\n抗驚厥劑之作用機轉尚未完全明瞭，可能因為可安定鈉離子通道於不活化狀態。\n10.2\n藥效藥理特性\n於神經興奮生成時藉減少鈉離子流入皮質神經元之細胞膜而限制了癲癇發作活動的擴展。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n人體中Phenytoin的血漿半衰期範圍為7至42小時，平均22小時。在開始以建議300mg/day治療後，至少需7至10天達治療濃度穩定狀態，對 Phenytoin sodium而言，投藥後1.5至3小時可得其血中最高濃度。Phenytoin可見分布體積為0.6公升/公斤，且大部分 (90%) 與血漿蛋白質 (主要是白蛋白) 結合。 Phenytoin 分佈至腦脊髓液、唾液、精液、胃腸液、膽汁及乳汁中。腦脊髓液、腦、唾液中的 Phenytoin濃度與血漿中游離Phenytoin的濃度相近。 Phenytoin 在肝臟氧化代謝。主要途徑包括 4-羥基化作用，佔80%。CYP2C9在Phenytoin的代謝過程中，扮演主要角色，而CYP2C19參與較少。不過當Phenytoin 濃度較高時，則CYP2C19的貢獻相對可能提高。 在血清濃度相對較高時，可能會使肝臟中參與Phenytoin羥基化作用的細胞色素(cytochrome) 系統達飽和狀態。因此當血清濃度處於或超過治療範圍的上限時，少許增加 Phenytoin 的劑量，就可能延長半衰期，並使血清濃度大幅上升。此時只增加10%或更多劑量便可能會使血中濃度大幅變動，造成中毒的結果。與其他藥動性質相似，此一飽和現象發生時所對應之血清濃度亦具個體差異性 (即部分病人可能在較低之血清濃度便發生上述細胞色素系統之飽和現象)。 Phenytoin 大部分以無活性的代謝物排泄於膽汁中，一部分經腎小球濾過，而較重要的是經由腎小管分泌作用，然後由尿液排出。低於5%的Phenytoin 以原態排出。 絕大多數保持在穩定劑量的病患，其 Phenytoin 血中濃度處於穩定狀態。相同劑量的 Phenytoin 在不同病患的血中濃度差異可以很大。肝臟疾病、先天性酵素不足或藥物交互作用都會干擾代謝作用而造成不尋常的血中濃度增加。因此確定血中濃度對此類病人有很大幫助。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n6~1000錠鋁箔盒裝、塑膠瓶裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n本品應包裝於緊密容器，貯於陰涼（30°C以下）乾燥且孩童不易取得處所。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他\n版本: TSHALET 202511 商標授權者: 大日本住友製藥株式會社",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "杏輝藥品工業股份有限公司",
+          "address": "宜蘭縣冬山鄉中山村中山路８４號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "東生華製藥股份有限公司",
+          "address": "台北市南港區園區街3之1號3樓之1"
+        },
+        {
+          "number": "2",
+          "name": "0800-258-028",
+          "address": ""
+        }
+      ]
+    }
+  ]
+}

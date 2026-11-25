@@ -1,0 +1,626 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:03:26.682636+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01001046",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第001046號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第001046號",
+      "matched_license_code": "01001046",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"華琳\"氧化鎂錠",
+      "drug_name_en": "Magnesium Oxide Tablets \"H.L\"",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠中含有： 有效成分及含量：Magnesium Oxide 250.0毫克(mg)。",
+          "content_html": "<p><strong>每錠中含有：</strong><br><strong>有效成分及含量：Magnesium Oxide 250.0毫克(mg)。</strong></p>",
+          "search_text": "1.1\n有效成分及含量\n每錠中含有： 有效成分及含量：Magnesium Oxide 250.0毫克(mg)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Sodium Starch Glycolate、Magnesium Stearate、Talc、Colloidal Silicon Dioxide、Ludipress、Microcrystalline Cellulose 102。",
+          "content_html": "<p>Sodium Starch Glycolate、Magnesium Stearate、Talc、Colloidal Silicon Dioxide、Ludipress、Microcrystalline Cellulose 102。</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nSodium Starch Glycolate、Magnesium Stearate、Talc、Colloidal Silicon Dioxide、Ludipress、Microcrystalline Cellulose 102。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "緩解胃部不適或灼熱感、或經診斷為胃及十二指腸潰瘍、胃炎、食道炎所伴隨之胃酸過多。 單次劑量(1錠)之酸中和能力為 > 5 mEq。 單次劑量(1錠)之鎂含量為 12.4 mEq。",
+          "content_html": "<p style=\"margin-left:9.6pt;\"><span style=\"font-family:標楷體;\">緩解胃部不適或灼熱感、或經診斷為胃及十二指腸潰瘍、胃炎、食道炎所伴隨之胃酸過多。</span></p><p style=\"margin-left:6.0pt;\"><span style=\"font-family:標楷體;\">單次劑量(1錠)之酸中和能力為 &gt; 5 mEq。</span></p><p style=\"margin-left:6.0pt;\"><span style=\"font-family:標楷體;\">單次劑量(1錠)之鎂含量為 12.4 mEq。</span></p>",
+          "search_text": "2\n用途(適應症)\n緩解胃部不適或灼熱感、或經診斷為胃及十二指腸潰瘍、胃炎、食道炎所伴隨之胃酸過多。 單次劑量(1錠)之酸中和能力為 > 5 mEq。 單次劑量(1錠)之鎂含量為 12.4 mEq。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "※曾因本藥成分引起過敏的人。",
+          "content_html": "<p style=\"margin-left:10.2pt;\"><span style=\"font-family:標楷體;\"><strong>※曾因本藥成分引起過敏的人。</strong></span></p>",
+          "search_text": "3.1\n有下列情形者，請勿使用\n※曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "3歲以下。",
+          "title_html": "3歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "3歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n3歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "消化道潰瘍的人。",
+          "title_html": "消化道潰瘍的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "消化道潰瘍的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n消化道潰瘍的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.2",
+          "title": "與其他藥品併用時。",
+          "title_html": "與其他藥品併用時。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "與其他藥品併用時。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.2\n與其他藥品併用時。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "為防止兒童誤食請妥善保管。",
+          "title_html": "為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "勿超過建議使用量。",
+          "title_html": "勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "一天內不可服用超過一日最大使用量，也不可連續服用一日最大使用量兩週以上。",
+          "title_html": "一天內不可服用超過一日最大使用量，也不可連續服用一日最大使用量兩週以上。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "一天內不可服用超過一日最大使用量，也不可連續服用一日最大使用量兩週以上。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n一天內不可服用超過一日最大使用量，也不可連續服用一日最大使用量兩週以上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "制酸劑之錠劑應嚼碎後吞服。",
+          "title_html": "制酸劑之錠劑應嚼碎後吞服。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "制酸劑之錠劑應嚼碎後吞服。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n制酸劑之錠劑應嚼碎後吞服。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "年齡 劑量 成人及12歲以上 一天3至4次，或需要時服用，應嚼碎後吞服，每次1錠。 6歲以上未滿12歲 適用成人劑量之1/2(每次1/2錠)。 3歲以上未滿6歲 適用成人劑量之1/4(每次1/4錠)。 3歲以下 請洽醫師診治。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:17.0pt;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">年齡</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:17.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">劑量</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:1.0cm;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">成人及12歲以上</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:1.0cm;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">一天3至4次，或需要時服用，應嚼碎後吞服，每次1錠。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:17.0pt;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">6歲以上未滿12歲</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">適用成人劑量之1/2(每次1/2錠)。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:17.0pt;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">3歲以上未滿6歲</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">適用成人劑量之1/4(每次1/4錠)。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:17.0pt;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">3歲以下</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">請洽醫師診治。</span></p></td></tr></tbody></table></figure>",
+          "search_text": "4\n用法用量\n年齡 劑量 成人及12歲以上 一天3至4次，或需要時服用，應嚼碎後吞服，每次1錠。 6歲以上未滿12歲 適用成人劑量之1/2(每次1/2錠)。 3歲以上未滿6歲 適用成人劑量之1/4(每次1/4錠)。 3歲以下 請洽醫師診治。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位 副作用 胃腸道 腹瀉。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:17.0pt;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>身體部位</strong></span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:17.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>副作用</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:17.0pt;padding:0cm 5.4pt;width:79.4pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>胃腸道</strong></span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:17.0pt;padding:0cm 5.4pt;width:155.95pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>腹瀉。</strong></span></p></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 胃腸道 腹瀉。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有任何不適情況產生。",
+          "title_html": "若有任何不適情況產生。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有任何不適情況產生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有任何不適情況產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "連續服用本藥數日後，若症狀沒有改善。",
+          "title_html": "連續服用本藥數日後，若症狀沒有改善。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "連續服用本藥數日後，若症狀沒有改善。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n連續服用本藥數日後，若症狀沒有改善。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "6 ~ 1000錠塑膠瓶裝、PTP鋁箔盒裝。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">6 ~ 1000錠塑膠瓶裝、PTP鋁箔盒裝。</span></p>",
+          "search_text": "6\n包裝\n6 ~ 1000錠塑膠瓶裝、PTP鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "請貯存於25℃以下之陰涼處，且於期限內使用。",
+          "content_html": "<p>請貯存於25℃以下之陰涼處，且於期限內使用。</p>",
+          "search_text": "7\n儲存方式\n請貯存於25℃以下之陰涼處，且於期限內使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">醫師藥師藥劑生指示藥品。</span></p>",
+          "search_text": "8\n類別\n醫師藥師藥劑生指示藥品。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n成分\n1.1\n有效成分及含量\n每錠中含有： 有效成分及含量：Magnesium Oxide 250.0毫克(mg)。\n1.2\n其他成分(賦形劑)\nSodium Starch Glycolate、Magnesium Stearate、Talc、Colloidal Silicon Dioxide、Ludipress、Microcrystalline Cellulose 102。\n2\n用途(適應症)\n緩解胃部不適或灼熱感、或經診斷為胃及十二指腸潰瘍、胃炎、食道炎所伴隨之胃酸過多。 單次劑量(1錠)之酸中和能力為 > 5 mEq。 單次劑量(1錠)之鎂含量為 12.4 mEq。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n※曾因本藥成分引起過敏的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n3歲以下。\n3.2.2\n消化道潰瘍的人。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n孕婦、可能懷孕婦女及哺乳婦。\n3.3.2\n與其他藥品併用時。\n3.4\n其他使用上注意事項\n3.4.1\n為防止兒童誤食請妥善保管。\n3.4.2\n避免陽光直射。\n3.4.3\n勿超過建議使用量。\n3.4.4\n一天內不可服用超過一日最大使用量，也不可連續服用一日最大使用量兩週以上。\n3.4.5\n制酸劑之錠劑應嚼碎後吞服。\n4\n用法用量\n年齡 劑量 成人及12歲以上 一天3至4次，或需要時服用，應嚼碎後吞服，每次1錠。 6歲以上未滿12歲 適用成人劑量之1/2(每次1/2錠)。 3歲以上未滿6歲 適用成人劑量之1/4(每次1/4錠)。 3歲以下 請洽醫師診治。\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 胃腸道 腹瀉。\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有任何不適情況產生。\n5.2.2\n連續服用本藥數日後，若症狀沒有改善。\n6\n包裝\n6 ~ 1000錠塑膠瓶裝、PTP鋁箔盒裝。\n7\n儲存方式\n請貯存於25℃以下之陰涼處，且於期限內使用。\n8\n類別\n醫師藥師藥劑生指示藥品。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "福元化學製藥股份有限公司",
+          "address": "新北市瑞芳區大寮路９５號之１"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "華琳實業有限公司",
+          "address": "基隆市安樂區樂利三街309號1樓"
+        }
+      ]
+    }
+  ]
+}

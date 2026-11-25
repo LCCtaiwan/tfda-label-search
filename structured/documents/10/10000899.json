@@ -1,0 +1,1008 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:00:37.546721+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000899",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000899號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000899號",
+      "matched_license_code": "10000899",
+      "matched_nhi_code": "",
+      "drug_name_zh": "優泌樂筆-混合型 50 100單位/毫升",
+      "drug_name_en": "Humalog Mix 50 100U/ml KwikPen",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2025-12-30",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每毫升含有100單位insulin lispro*(相當於3.5毫克)。 優泌樂-混合型50內含50% insulin lispro 溶液與50% insulin lispro protamine懸液。 優泌樂筆(KwikPen) 每支預充填注射筆有3毫升懸液含300單位insulin lispro。 優泌樂筆單次可注射1-60單位，最小調整幅度為一單位。 *大腸桿菌基因重組技術製造。",
+          "content_html": "<p>每毫升含有100單位insulin lispro*(相當於3.5毫克)。</p><p>優泌樂-混合型50內含50% insulin lispro&nbsp;溶液與50% insulin lispro protamine懸液。</p><p><u>優泌樂筆(KwikPen)</u></p><p>每支預充填注射筆有3毫升懸液含300單位insulin lispro。</p><p>優泌樂筆單次可注射1-60單位，最小調整幅度為一單位。</p><p>*大腸桿菌基因重組技術製造。</p>",
+          "search_text": "1.1\n有效成分及含量\n每毫升含有100單位insulin lispro*(相當於3.5毫克)。 優泌樂-混合型50內含50% insulin lispro 溶液與50% insulin lispro protamine懸液。 優泌樂筆(KwikPen) 每支預充填注射筆有3毫升懸液含300單位insulin lispro。 優泌樂筆單次可注射1-60單位，最小調整幅度為一單位。 *大腸桿菌基因重組技術製造。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Protamine sulphate m-Cresol Phenol Glycerol Dibasic sodium phosphate·7H2O Zinc oxide 注射用水 HCl和NaOH 可用來調整 pH 值。 本藥品每單位劑量含少於 1 mmol 鈉 (23毫克), 即基本上是‶無鈉″。",
+          "content_html": "<p>Protamine sulphate</p><p><i>m</i>-Cresol</p><p>Phenol</p><p>Glycerol</p><p>Dibasic sodium phosphate·7H<sub>2</sub>O</p><p>Zinc oxide&nbsp;</p><p>注射用水</p><p>HCl和NaOH&nbsp;可用來調整 pH&nbsp;值。</p><p>本藥品每單位劑量含少於 1 mmol&nbsp;鈉 (23毫克),&nbsp;即基本上是‶無鈉″。</p>",
+          "search_text": "1.2\n賦形劑\nProtamine sulphate m-Cresol Phenol Glycerol Dibasic sodium phosphate·7H2O Zinc oxide 注射用水 HCl和NaOH 可用來調整 pH 值。 本藥品每單位劑量含少於 1 mmol 鈉 (23毫克), 即基本上是‶無鈉″。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射用懸液劑。",
+          "content_html": "<p>注射用懸液劑。</p>",
+          "search_text": "1.3\n劑型\n注射用懸液劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "白色懸液。",
+          "content_html": "<p>白色懸液。</p>",
+          "search_text": "1.4\n藥品外觀\n白色懸液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "糖尿病 說明 優泌樂筆-混合型50適用於治療需要胰島素以維持正常血糖穩定之糖尿病病人。",
+          "content_html": "<p>糖尿病</p><p><u>說明</u></p><p>優泌樂筆-混合型50適用於治療需要胰島素以維持正常血糖穩定之糖尿病病人。</p>",
+          "search_text": "2\n適應症\n糖尿病 說明 優泌樂筆-混合型50適用於治療需要胰島素以維持正常血糖穩定之糖尿病病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "用量 醫師會針對病人的需求以決定劑量。 優泌樂筆-混合型50可於餐前立即投與。必要時，優泌樂筆-混合型50可於餐後立即投與。優泌樂筆-混合型50應僅可皮下注射。優泌樂筆-混合型50絕不可靜脈注射。 皮下注射優泌樂筆-混合型50後可觀察到Humalog的快速起始作用及較快達作用高峰。這使得優泌樂筆-混合型50可於非常接近用餐時間使用。優泌樂筆-混合型50內含的insulin lispro protamine 懸液的作用時間與基礎胰島素(NPH)相當。 胰島素的作用時間可能會因不同個體或同一個體在不同時間而有相當差異。與其他胰島素製劑一樣，優泌樂筆-混合型50的作用時間會因劑量、注射部位、血循環量、體溫及運動量而不同。 投與方式 應於上臂、大腿、臀部或腹部皮下注射。注射部位應更換，同一位置每個月注射不可超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險(請參閱警語及注意事項和副作用/不良反應)。 注射優泌樂-混合型50時，應注意不要穿破血管。注射後請勿按揉注射部位。必須教導病人使用適當的注射技術。 優泌樂筆 優泌樂筆單次可注射1-60單位。最小調整幅度為一單位。單位數量顯示在注射筆的劑量視窗中。",
+          "content_html": "<p><u>用量</u></p><p>醫師會針對病人的需求以決定劑量。</p><p>優泌樂筆-混合型50可於餐前立即投與。必要時，優泌樂筆-混合型50可於餐後立即投與。優泌樂筆-混合型50應僅可皮下注射。優泌樂筆-混合型50絕不可靜脈注射。</p><p>皮下注射優泌樂筆-混合型50後可觀察到Humalog的快速起始作用及較快達作用高峰。這使得優泌樂筆-混合型50可於非常接近用餐時間使用。優泌樂筆-混合型50內含的insulin lispro protamine&nbsp;懸液的作用時間與基礎胰島素(NPH)相當。</p><p>胰島素的作用時間可能會因不同個體或同一個體在不同時間而有相當差異。與其他胰島素製劑一樣，優泌樂筆-混合型50的作用時間會因劑量、注射部位、血循環量、體溫及運動量而不同。</p><p><u>投與方式</u></p><p>應於上臂、大腿、臀部或腹部皮下注射。注射部位應更換，同一位置每個月注射不可超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險(請參閱警語及注意事項和副作用/不良反應)。</p><p>注射優泌樂-混合型50時，應注意不要穿破血管。注射後請勿按揉注射部位。必須教導病人使用適當的注射技術。</p><p><i><u>優泌樂筆</u></i></p><p>優泌樂筆單次可注射1-60單位。最小調整幅度為一單位。單位數量顯示在注射筆的劑量視窗中。</p>",
+          "search_text": "3.1\n用法用量\n用量 醫師會針對病人的需求以決定劑量。 優泌樂筆-混合型50可於餐前立即投與。必要時，優泌樂筆-混合型50可於餐後立即投與。優泌樂筆-混合型50應僅可皮下注射。優泌樂筆-混合型50絕不可靜脈注射。 皮下注射優泌樂筆-混合型50後可觀察到Humalog的快速起始作用及較快達作用高峰。這使得優泌樂筆-混合型50可於非常接近用餐時間使用。優泌樂筆-混合型50內含的insulin lispro protamine 懸液的作用時間與基礎胰島素(NPH)相當。 胰島素的作用時間可能會因不同個體或同一個體在不同時間而有相當差異。與其他胰島素製劑一樣，優泌樂筆-混合型50的作用時間會因劑量、注射部位、血循環量、體溫及運動量而不同。 投與方式 應於上臂、大腿、臀部或腹部皮下注射。注射部位應更換，同一位置每個月注射不可超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險(請參閱警語及注意事項和副作用/不良反應)。 注射優泌樂-混合型50時，應注意不要穿破血管。注射後請勿按揉注射部位。必須教導病人使用適當的注射技術。 優泌樂筆 優泌樂筆單次可注射1-60單位。最小調整幅度為一單位。單位數量顯示在注射筆的劑量視窗中。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "特殊族群 腎功能不全 腎功能不全時，胰島素需求可能會減少。 肝功能不全 由於糖質新生能力降低和胰島素分解減少，肝功能不全病人的胰島素需求可能會降低；然而，在慢性肝功能不全病人中，胰島素阻抗的增加可能會增加胰島素需求。 兒童族群 使用優泌樂-混合型50於12歲以下兒童，只能考慮用於相較使用可溶型胰島素而預期會有益處的形況下。",
+          "content_html": "<p><u>特殊族群</u></p><p><i><u>腎功能不全</u></i></p><p>腎功能不全時，胰島素需求可能會減少。</p><p><i><u>肝功能不全</u></i></p><p>由於糖質新生能力降低和胰島素分解減少，肝功能不全病人的胰島素需求可能會降低；然而，在慢性肝功能不全病人中，胰島素阻抗的增加可能會增加胰島素需求。</p><p><i><u>兒童族群</u></i></p><p>使用優泌樂-混合型50於12歲以下兒童，只能考慮用於相較使用可溶型胰島素而預期會有益處的形況下。</p>",
+          "search_text": "3.3\n特殊族群用法用量\n特殊族群 腎功能不全 腎功能不全時，胰島素需求可能會減少。 肝功能不全 由於糖質新生能力降低和胰島素分解減少，肝功能不全病人的胰島素需求可能會降低；然而，在慢性肝功能不全病人中，胰島素阻抗的增加可能會增加胰島素需求。 兒童族群 使用優泌樂-混合型50於12歲以下兒童，只能考慮用於相較使用可溶型胰島素而預期會有益處的形況下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對活性成分或處方中任一賦形劑過敏者。 低血糖。",
+          "content_html": "<p>對活性成分或處方中任一賦形劑過敏者。</p><p>低血糖。</p>",
+          "search_text": "4\n禁忌\n對活性成分或處方中任一賦形劑過敏者。 低血糖。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "可追溯性 為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號。 優泌樂-混合型50絕不可靜脈注射。 將病人轉換至另一種或是其他廠牌的胰島素 將病人轉換至另一種或是其他廠牌的胰島素時需要在醫師的監視下進行，改變胰島素效價、廠牌(製造廠)、種類(如常規型/可溶型、NPH/isophane 等)、來源(動物、人類、人類胰島素類似品)、和/或製造方法(基因重組或動物來源胰島素)，皆有可能因而需要改變劑量。 低血糖和高血糖 在某些情況下，如長期的糖尿病，積極的控制糖尿病，糖尿病的神經疾病，或藥物如beta-blockers，其低血糖的早期警告癥狀可能不同或不明顯。 一些病人在從動物來源的胰島素轉換至人體胰島素曾發生低血糖的反應，他們報告其低血糖的早期警告癥狀不明顯或不同於之前使用的胰島素。未改善之低血糖或高血糖症狀可能會導致失去意識，昏迷或死亡。 不適當的劑量或中止治療，特別在對胰島素依賴的糖尿病病人可能會導致高血糖症及糖尿病酮酸中毒；這些情況可能會致命。 注射方式 必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整糖尿病藥物的劑量。 胰島素的需求量和劑量調整 於生病中或情緒不穩時胰島素的需求量可能會增加。 若病人增加運動量或改變日常飲食習慣可能需要因而調整劑量。於餐後馬上從事運動可能會增加低血糖症之危險性。 優泌樂-混合型50與pioglitazone併用 胰島素與 pioglitazone 併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病人。當考慮併用優泌樂-混合型50與pioglitazone時，應留意此警語及注意事項。若是併用治療，應觀察病人的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用pioglitazone。 避免用藥錯誤 必須指示病人在每次注射前一定要檢查胰島素標籤，以避免意外混淆兩種不同種類的優泌樂筆和其他胰島素產品。 病人必須能夠看清並確認注射筆上劑量計數器的旋轉單位。 因此，病人自行注射的條件是他們可以讀取筆上的劑量計數器。應指示眼盲或視障的病人必須得到另一位視力良好且接受過使用胰島素裝置訓練人士的幫忙/協助。",
+          "content_html": "<p>可追溯性</p><p>為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號。</p><p>優泌樂-混合型50絕不可靜脈注射。</p><p><u>將病人轉換至另一種或是其他廠牌的胰島素</u></p><p>將病人轉換至另一種或是其他廠牌的胰島素時需要在醫師的監視下進行，改變胰島素效價、廠牌(製造廠)、種類(如常規型/可溶型、NPH/isophane&nbsp;等)、來源(動物、人類、人類胰島素類似品)、和/或製造方法(基因重組或動物來源胰島素)，皆有可能因而需要改變劑量。</p><p><u>低血糖和高血糖</u></p><p>在某些情況下，如長期的糖尿病，積極的控制糖尿病，糖尿病的神經疾病，或藥物如beta-blockers，其低血糖的早期警告癥狀可能不同或不明顯。</p><p>一些病人在從動物來源的胰島素轉換至人體胰島素曾發生低血糖的反應，他們報告其低血糖的早期警告癥狀不明顯或不同於之前使用的胰島素。未改善之低血糖或高血糖症狀可能會導致失去意識，昏迷或死亡。</p><p>不適當的劑量或中止治療，特別在對胰島素依賴的糖尿病病人可能會導致高血糖症及糖尿病酮酸中毒；這些情況可能會致命。</p><p><u>注射方式</u></p><p>必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整糖尿病藥物的劑量。</p><p><u>胰島素的需求量和劑量調整</u></p><p>於生病中或情緒不穩時胰島素的需求量可能會增加。</p><p>若病人增加運動量或改變日常飲食習慣可能需要因而調整劑量。於餐後馬上從事運動可能會增加低血糖症之危險性。</p><p><u>優泌樂-混合型50與pioglitazone併用</u></p><p>胰島素與 pioglitazone&nbsp;併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病人。當考慮併用優泌樂-混合型50與pioglitazone時，應留意此警語及注意事項。若是併用治療，應觀察病人的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用pioglitazone。</p><p><u>避免用藥錯誤</u></p><p>必須指示病人在每次注射前一定要檢查胰島素標籤，以避免意外混淆兩種不同種類的優泌樂筆和其他胰島素產品。</p><p>病人必須能夠看清並確認注射筆上劑量計數器的旋轉單位。 因此，病人自行注射的條件是他們可以讀取筆上的劑量計數器。應指示眼盲或視障的病人必須得到另一位視力良好且接受過使用胰島素裝置訓練人士的幫忙/協助。</p>",
+          "search_text": "5.1\n警語/注意事項\n可追溯性 為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號。 優泌樂-混合型50絕不可靜脈注射。 將病人轉換至另一種或是其他廠牌的胰島素 將病人轉換至另一種或是其他廠牌的胰島素時需要在醫師的監視下進行，改變胰島素效價、廠牌(製造廠)、種類(如常規型/可溶型、NPH/isophane 等)、來源(動物、人類、人類胰島素類似品)、和/或製造方法(基因重組或動物來源胰島素)，皆有可能因而需要改變劑量。 低血糖和高血糖 在某些情況下，如長期的糖尿病，積極的控制糖尿病，糖尿病的神經疾病，或藥物如beta-blockers，其低血糖的早期警告癥狀可能不同或不明顯。 一些病人在從動物來源的胰島素轉換至人體胰島素曾發生低血糖的反應，他們報告其低血糖的早期警告癥狀不明顯或不同於之前使用的胰島素。未改善之低血糖或高血糖症狀可能會導致失去意識，昏迷或死亡。 不適當的劑量或中止治療，特別在對胰島素依賴的糖尿病病人可能會導致高血糖症及糖尿病酮酸中毒；這些情況可能會致命。 注射方式 必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整糖尿病藥物的劑量。 胰島素的需求量和劑量調整 於生病中或情緒不穩時胰島素的需求量可能會增加。 若病人增加運動量或改變日常飲食習慣可能需要因而調整劑量。於餐後馬上從事運動可能會增加低血糖症之危險性。 優泌樂-混合型50與pioglitazone併用 胰島素與 pioglitazone 併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病人。當考慮併用優泌樂-混合型50與pioglitazone時，應留意此警語及注意事項。若是併用治療，應觀察病人的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用pioglitazone。 避免用藥錯誤 必須指示病人在每次注射前一定要檢查胰島素標籤，以避免意外混淆兩種不同種類的優泌樂筆和其他胰島素產品。 病人必須能夠看清並確認注射筆上劑量計數器的旋轉單位。 因此，病人自行注射的條件是他們可以讀取筆上的劑量計數器。應指示眼盲或視障的病人必須得到另一位視力良好且接受過使用胰島素裝置訓練人士的幫忙/協助。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "低血糖可能會影響到病人的注意力及反應力。若病人正從事注意力及反應力特別重要的活動時(如開車或操作機械)，則可能造成危險。 病人應被告知需要特別注意以避免開車時發生低血糖，特別是對於低血糖症狀不顯著或缺乏警覺的病人或是經常發生低血糖的病人來說是特別重要的。在這些情況下，應考慮駕駛的適當性。",
+          "content_html": "<p>低血糖可能會影響到病人的注意力及反應力。若病人正從事注意力及反應力特別重要的活動時(如開車或操作機械)，則可能造成危險。</p><p>病人應被告知需要特別注意以避免開車時發生低血糖，特別是對於低血糖症狀不顯著或缺乏警覺的病人或是經常發生低血糖的病人來說是特別重要的。在這些情況下，應考慮駕駛的適當性。</p>",
+          "search_text": "5.3\n操作機械能力\n低血糖可能會影響到病人的注意力及反應力。若病人正從事注意力及反應力特別重要的活動時(如開車或操作機械)，則可能造成危險。 病人應被告知需要特別注意以避免開車時發生低血糖，特別是對於低血糖症狀不顯著或缺乏警覺的病人或是經常發生低血糖的病人來說是特別重要的。在這些情況下，應考慮駕駛的適當性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "大量懷孕期的使用資料並未顯示使用insulin lispro於懷孕期會造成任何不良反應或影響胎兒/新生兒的健康。 懷孕期間對於使用胰島素的病人(胰島素依賴者或妊娠期糖尿病)維持良好的血糖控制是必須的。懷孕第一期胰島素的需求通常會降低，在第二、三孕期則會增加。糖尿病病人應被告知若是她有懷孕或想懷孕應告知她們的醫師。小心監測懷孕期間病人的血糖控制及整體健康狀況是必要的。",
+          "content_html": "<p>大量懷孕期的使用資料並未顯示使用insulin lispro於懷孕期會造成任何不良反應或影響胎兒/新生兒的健康。</p><p>懷孕期間對於使用胰島素的病人(胰島素依賴者或妊娠期糖尿病)維持良好的血糖控制是必須的。懷孕第一期胰島素的需求通常會降低，在第二、三孕期則會增加。糖尿病病人應被告知若是她有懷孕或想懷孕應告知她們的醫師。小心監測懷孕期間病人的血糖控制及整體健康狀況是必要的。</p>",
+          "search_text": "6.1\n懷孕\n大量懷孕期的使用資料並未顯示使用insulin lispro於懷孕期會造成任何不良反應或影響胎兒/新生兒的健康。 懷孕期間對於使用胰島素的病人(胰島素依賴者或妊娠期糖尿病)維持良好的血糖控制是必須的。懷孕第一期胰島素的需求通常會降低，在第二、三孕期則會增加。糖尿病病人應被告知若是她有懷孕或想懷孕應告知她們的醫師。小心監測懷孕期間病人的血糖控制及整體健康狀況是必要的。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "糖尿病病人授乳時可能需要調整其胰島素的劑量，或同時也調整其飲食計畫。",
+          "content_html": "<p>糖尿病病人授乳時可能需要調整其胰島素的劑量，或同時也調整其飲食計畫。</p>",
+          "search_text": "6.2\n哺乳\n糖尿病病人授乳時可能需要調整其胰島素的劑量，或同時也調整其飲食計畫。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "在動物試驗中insulin lispro並未引起生殖功能異常(請參閱臨床前安全資料)。",
+          "content_html": "<p>在動物試驗中insulin lispro並未引起生殖功能異常(請參閱臨床前安全資料)。</p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n在動物試驗中insulin lispro並未引起生殖功能異常(請參閱臨床前安全資料)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "同時服用具增高血糖作用的藥物，如口服避孕藥、corticosteroids、甲狀腺素治療、danazol 、beta2興奮劑(例如ritodrine，salbutamol，terbutaline)時，胰島素的需求量可能會增加。 同時服用具降低血糖作用的藥物，如口服降血糖劑、salicylates（例如acetylsalicylic acid)、sulphate antibiotics、某些抗憂鬱劑(monoamine oxidase inhibitors, selective serotonin reuptake inhibitors)、某些血管張力素轉換酵素抑制劑(captopril, enalapril)、angiotensin II receptor blockers、beta-blockers、octreotide 或酒精，胰島素的需求量可能需要減少。 目前尚無優泌樂-混合型50與其他胰島素製劑混合的研究。 使用優泌樂-混合型50，需併用其他藥物時應諮詢醫師 (請參閱警語及注意事項) 。 配伍禁忌 目前尚無優泌樂-混合型50與其他胰島素混合的研究。由於沒有相關配伍研究，本藥品不建議與其他藥品混合。",
+          "content_html": "<p>同時服用具增高血糖作用的藥物，如口服避孕藥、corticosteroids、甲狀腺素治療、danazol&nbsp;、beta<sub>2</sub>興奮劑(例如ritodrine，salbutamol，terbutaline)時，胰島素的需求量可能會增加。</p><p>同時服用具降低血糖作用的藥物，如口服降血糖劑、salicylates（例如acetylsalicylic acid)、sulphate antibiotics、某些抗憂鬱劑(monoamine oxidase inhibitors, selective serotonin reuptake inhibitors)、某些血管張力素轉換酵素抑制劑(captopril, enalapril)、angiotensin II receptor blockers、beta-blockers、octreotide&nbsp;或酒精，胰島素的需求量可能需要減少。</p><p>目前尚無優泌樂-混合型50與其他胰島素製劑混合的研究。</p><p>使用優泌樂-混合型50，需併用其他藥物時應諮詢醫師 (請參閱警語及注意事項)&nbsp;。</p><p><strong>配伍禁忌</strong></p><p>目前尚無優泌樂-混合型50與其他胰島素混合的研究。由於沒有相關配伍研究，本藥品不建議與其他藥品混合。</p>",
+          "search_text": "7\n交互作用\n同時服用具增高血糖作用的藥物，如口服避孕藥、corticosteroids、甲狀腺素治療、danazol 、beta2興奮劑(例如ritodrine，salbutamol，terbutaline)時，胰島素的需求量可能會增加。 同時服用具降低血糖作用的藥物，如口服降血糖劑、salicylates（例如acetylsalicylic acid)、sulphate antibiotics、某些抗憂鬱劑(monoamine oxidase inhibitors, selective serotonin reuptake inhibitors)、某些血管張力素轉換酵素抑制劑(captopril, enalapril)、angiotensin II receptor blockers、beta-blockers、octreotide 或酒精，胰島素的需求量可能需要減少。 目前尚無優泌樂-混合型50與其他胰島素製劑混合的研究。 使用優泌樂-混合型50，需併用其他藥物時應諮詢醫師 (請參閱警語及注意事項) 。 配伍禁忌 目前尚無優泌樂-混合型50與其他胰島素混合的研究。由於沒有相關配伍研究，本藥品不建議與其他藥品混合。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "低血糖是糖尿病病人使用胰島素最常見的不良反應。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。低血糖並無特定的發生頻率。引起低血糖的原因包括胰島素劑量及其他因素(如病人的飲食與運動)。 特定不良反應之描述 局部過敏 病人發生局部過敏是常見的。胰島素的注射部位可能會紅、腫與癢。症狀通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。 全身過敏 全身過敏為罕見但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能會危及生命。 皮膚及皮下組織異常 注射部位有可能因發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應 (請參閱警語及注意事項) 。 水腫 胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。",
+          "content_html": "<p>低血糖是糖尿病病人使用胰島素最常見的不良反應。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。低血糖並無特定的發生頻率。引起低血糖的原因包括胰島素劑量及其他因素(如病人的飲食與運動)。</p><p>&nbsp;</p><p><u>特定不良反應之描述</u></p><p><i><u>局部過敏</u></i></p><p>病人發生局部過敏是常見的。胰島素的注射部位可能會紅、腫與癢。症狀通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。</p><p><i><u>全身過敏</u></i></p><p>全身過敏為罕見但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能會危及生命。</p><p><i><u>皮膚及皮下組織異常</u></i></p><p>注射部位有可能因發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應 (請參閱警語及注意事項)&nbsp;。</p><p><i><u>水腫</u></i></p><p>胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n低血糖是糖尿病病人使用胰島素最常見的不良反應。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。低血糖並無特定的發生頻率。引起低血糖的原因包括胰島素劑量及其他因素(如病人的飲食與運動)。 特定不良反應之描述 局部過敏 病人發生局部過敏是常見的。胰島素的注射部位可能會紅、腫與癢。症狀通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。 全身過敏 全身過敏為罕見但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能會危及生命。 皮膚及皮下組織異常 注射部位有可能因發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應 (請參閱警語及注意事項) 。 水腫 胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "以下列出臨床試驗中的不良反應，依MedDRA常用詞按照系統器官分類及發生率遞減方式排序（極常見：≥1/10；常見：≥1/100至<1/10；不常見：≥ 1/1,000至<1/100；罕見：≥1/10,000至<1/1,000；極罕見：<1/10,000），未知（無法從可用數據中估算）。 在各個發生頻率組別中，不良反應依嚴重程度遞減的方式排序。 MedDRA系統器官分類 極常見 常見 不常見 罕見 極罕見 未知 免疫系統異常 局部過敏 X 全身性過敏 X 皮膚及皮下組織異常 脂肪代謝障礙 X 皮膚類澱粉沉積症 X",
+          "content_html": "<p>以下列出臨床試驗中的不良反應，依MedDRA常用詞按照系統器官分類及發生率遞減方式排序（極常見：≥1/10；常見：≥1/100至&lt;1/10；不常見：≥ 1/1,000至&lt;1/100；罕見：≥1/10,000至&lt;1/1,000；極罕見：&lt;1/10,000），未知（無法從可用數據中估算）。</p><p>在各個發生頻率組別中，不良反應依嚴重程度遞減的方式排序。</p><figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;width:135.9pt;\"><p style=\"text-align:center;\">MedDRA系統器官分類</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:51.4pt;\"><p style=\"text-align:center;\">極常見</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">常見</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">不常見</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">罕見</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">極罕見</p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">未知</p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:444.55pt;\" colspan=\"7\">免疫系統異常</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:135.9pt;\">局部過敏</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.4pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">X</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:135.9pt;\">全身性過敏</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.4pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">X</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:444.55pt;\" colspan=\"7\">皮膚及皮下組織異常</td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:135.9pt;\">脂肪代謝障礙</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.4pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">X</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;width:135.9pt;\">皮膚類澱粉沉積症</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.4pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">&nbsp;</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\"><u>&nbsp;</u></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;width:51.45pt;\"><p style=\"text-align:center;\">X</p></td></tr></tbody></table></figure>",
+          "search_text": "8.2\n臨床試驗經驗\n以下列出臨床試驗中的不良反應，依MedDRA常用詞按照系統器官分類及發生率遞減方式排序（極常見：≥1/10；常見：≥1/100至<1/10；不常見：≥ 1/1,000至<1/100；罕見：≥1/10,000至<1/1,000；極罕見：<1/10,000），未知（無法從可用數據中估算）。 在各個發生頻率組別中，不良反應依嚴重程度遞減的方式排序。 MedDRA系統器官分類 極常見 常見 不常見 罕見 極罕見 未知 免疫系統異常 局部過敏 X 全身性過敏 X 皮膚及皮下組織異常 脂肪代謝障礙 X 皮膚類澱粉沉積症 X",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "藥品核准後，疑似不良反應的通報是很重要的，能持續監測藥品的效益/風險平衡。請醫療專業人員經由全國不良反應通報系統通報任何疑似不良反應。",
+          "content_html": "<p>藥品核准後，疑似不良反應的通報是很重要的，能持續監測藥品的效益/風險平衡。請醫療專業人員經由全國不良反應通報系統通報任何疑似不良反應。</p>",
+          "search_text": "8.3\n上市後經驗\n藥品核准後，疑似不良反應的通報是很重要的，能持續監測藥品的效益/風險平衡。請醫療專業人員經由全國不良反應通報系統通報任何疑似不良反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "胰島素的使用並沒有特定的用藥過量劑量，因為血糖濃度的高低是由胰島素濃度、可用的糖質及其他代謝作用等複雜的交互作用的結果。低血糖的發生可能是由於相對於食物的攝取量或能量的消耗程度而言過量的胰島素活性所造成。 低血糖的癥狀，如無精打采、精神混亂、心悸、頭痛、流汗及嘔吐。 輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品緩解。 治療中度至重度低血糖症狀可以肌肉或皮下注射昇糖素，當病人充分恢復意識後服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖溶液。 若病人陷入昏迷，需要以肌肉或皮下注射投予昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖溶液。在該病人恢復意識後，須盡快給予餐食。 就算病人臨床症狀顯著改善，仍有可能再發生低血糖，故需要持續觀察並進食碳水化合物。",
+          "content_html": "<p>胰島素的使用並沒有特定的用藥過量劑量，因為血糖濃度的高低是由胰島素濃度、可用的糖質及其他代謝作用等複雜的交互作用的結果。低血糖的發生可能是由於相對於食物的攝取量或能量的消耗程度而言過量的胰島素活性所造成。</p><p>低血糖的癥狀，如無精打采、精神混亂、心悸、頭痛、流汗及嘔吐。</p><p>輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品緩解。</p><p>治療中度至重度低血糖症狀可以肌肉或皮下注射昇糖素，當病人充分恢復意識後服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖溶液。</p><p>若病人陷入昏迷，需要以肌肉或皮下注射投予昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖溶液。在該病人恢復意識後，須盡快給予餐食。</p><p>就算病人臨床症狀顯著改善，仍有可能再發生低血糖，故需要持續觀察並進食碳水化合物。</p>",
+          "search_text": "9\n過量\n胰島素的使用並沒有特定的用藥過量劑量，因為血糖濃度的高低是由胰島素濃度、可用的糖質及其他代謝作用等複雜的交互作用的結果。低血糖的發生可能是由於相對於食物的攝取量或能量的消耗程度而言過量的胰島素活性所造成。 低血糖的癥狀，如無精打采、精神混亂、心悸、頭痛、流汗及嘔吐。 輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品緩解。 治療中度至重度低血糖症狀可以肌肉或皮下注射昇糖素，當病人充分恢復意識後服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖溶液。 若病人陷入昏迷，需要以肌肉或皮下注射投予昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖溶液。在該病人恢復意識後，須盡快給予餐食。 就算病人臨床症狀顯著改善，仍有可能再發生低血糖，故需要持續觀察並進食碳水化合物。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Insulin lispro之主要作用為調節糖質代謝。 除此之外，胰島素在不同組織中具有多種同化及抗異化作用。於肌肉組織，胰島素增加肝糖、脂肪酸、甘油及蛋白質的生合成及胺基酸的吸收。另一方面，降低肝糖分解作用、糖質新生作用、酮體形成作用、脂質分解作用、蛋白質分解作用及胺基酸的輸出。",
+          "content_html": "<p>Insulin lispro之主要作用為調節糖質代謝。</p><p>除此之外，胰島素在不同組織中具有多種同化及抗異化作用。於肌肉組織，胰島素增加肝糖、脂肪酸、甘油及蛋白質的生合成及胺基酸的吸收。另一方面，降低肝糖分解作用、糖質新生作用、酮體形成作用、脂質分解作用、蛋白質分解作用及胺基酸的輸出。</p>",
+          "search_text": "10.1\n作用機轉\nInsulin lispro之主要作用為調節糖質代謝。 除此之外，胰島素在不同組織中具有多種同化及抗異化作用。於肌肉組織，胰島素增加肝糖、脂肪酸、甘油及蛋白質的生合成及胺基酸的吸收。另一方面，降低肝糖分解作用、糖質新生作用、酮體形成作用、脂質分解作用、蛋白質分解作用及胺基酸的輸出。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥理分類：糖尿病用藥，胰島素及其類似物注射劑，中效或長效併用速效。ATC碼：A10A D04 Insulin lispro有快速的起始作用(大約15分鐘)，因此相較於可溶型胰島素(用餐前30-45分鐘)可於更接近用餐時間(用餐當時至15分鐘)使用。皮下注射優泌樂-混合型50後，可觀察到insulin lispro的快速起始及早期達到作用高峰的特性。Humalog BASAL(Insulin lispro protamine懸液)則具有與基礎胰島素(NPH)相當類似的大約15個小時的作用特性。 下圖顯示優泌樂-混合型50與Humalog BASAL(Insulin lispro protamine懸液) 的藥效學。\n上圖顯示隨著時間的變化，受試者血糖維持於接近空腹所需的糖質量。也是針對胰島素隨著時間變化對葡萄糖代謝影響的一項指標。 人體對於insulin lispro的血糖動態反應不會受到腎、肝功能不全影響。在廣泛範圍腎功能的人群中，以葡萄糖箝定(glucose clamp)研究方式評估insulin lispro與可溶型人體胰島素的血糖動態反應，二組的差異維持一定。 同分子量之insulin lispro與人體胰島素具有相同的效力，但insulin lispro的降血糖起效用較快，作用期較短。",
+          "content_html": "<p>藥理分類：糖尿病用藥，胰島素及其類似物注射劑，中效或長效併用速效。ATC碼：A10A D04</p><p>Insulin lispro有快速的起始作用(大約15分鐘)，因此相較於可溶型胰島素(用餐前30-45分鐘)可於更接近用餐時間(用餐當時至15分鐘)使用。皮下注射優泌樂-混合型50後，可觀察到insulin lispro的快速起始及早期達到作用高峰的特性。Humalog BASAL(Insulin lispro protamine懸液)則具有與基礎胰島素(NPH)相當類似的大約15個小時的作用特性。</p><p>下圖顯示優泌樂-混合型50與Humalog BASAL(Insulin lispro protamine懸液)&nbsp;的藥效學。</p>\n<p>上圖顯示隨著時間的變化，受試者血糖維持於接近空腹所需的糖質量。也是針對胰島素隨著時間變化對葡萄糖代謝影響的一項指標。</p><p>人體對於insulin lispro的血糖動態反應不會受到腎、肝功能不全影響。在廣泛範圍腎功能的人群中，以葡萄糖箝定(glucose clamp)研究方式評估insulin lispro與可溶型人體胰島素的血糖動態反應，二組的差異維持一定。</p><p>同分子量之insulin lispro與人體胰島素具有相同的效力，但insulin lispro的降血糖起效用較快，作用期較短。</p>",
+          "search_text": "10.2\n藥效藥理特性\n藥理分類：糖尿病用藥，胰島素及其類似物注射劑，中效或長效併用速效。ATC碼：A10A D04 Insulin lispro有快速的起始作用(大約15分鐘)，因此相較於可溶型胰島素(用餐前30-45分鐘)可於更接近用餐時間(用餐當時至15分鐘)使用。皮下注射優泌樂-混合型50後，可觀察到insulin lispro的快速起始及早期達到作用高峰的特性。Humalog BASAL(Insulin lispro protamine懸液)則具有與基礎胰島素(NPH)相當類似的大約15個小時的作用特性。 下圖顯示優泌樂-混合型50與Humalog BASAL(Insulin lispro protamine懸液) 的藥效學。\n上圖顯示隨著時間的變化，受試者血糖維持於接近空腹所需的糖質量。也是針對胰島素隨著時間變化對葡萄糖代謝影響的一項指標。 人體對於insulin lispro的血糖動態反應不會受到腎、肝功能不全影響。在廣泛範圍腎功能的人群中，以葡萄糖箝定(glucose clamp)研究方式評估insulin lispro與可溶型人體胰島素的血糖動態反應，二組的差異維持一定。 同分子量之insulin lispro與人體胰島素具有相同的效力，但insulin lispro的降血糖起效用較快，作用期較短。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 22316
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "包括胰島素受體的結合位置及對生長細胞的作用等的體外試驗中，insulin lispro的作用與人體胰島素相似。研究也顯示insulin lispro從胰島素受體的游離與人體胰島素相當。急性，1個月及12個月的毒理研究並未顯示明顯的毒性反應。 於動物試驗中，insulin lispro並未導致生殖功能不全，胚胎毒性或畸胎。",
+          "content_html": "<p>包括胰島素受體的結合位置及對生長細胞的作用等的體外試驗中，insulin lispro的作用與人體胰島素相似。研究也顯示insulin lispro從胰島素受體的游離與人體胰島素相當。急性，1個月及12個月的毒理研究並未顯示明顯的毒性反應。</p><p>於動物試驗中，insulin lispro並未導致生殖功能不全，胚胎毒性或畸胎。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n包括胰島素受體的結合位置及對生長細胞的作用等的體外試驗中，insulin lispro的作用與人體胰島素相似。研究也顯示insulin lispro從胰島素受體的游離與人體胰島素相當。急性，1個月及12個月的毒理研究並未顯示明顯的毒性反應。 於動物試驗中，insulin lispro並未導致生殖功能不全，胚胎毒性或畸胎。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "Insulin lispro的藥動特性，顯示出其於皮下注射後快速吸收及於30-70分鐘達到最高血中濃度。Insulin lispro protamine懸液的藥動特性也與其他中速作用胰島素(例如NPH)相同。優泌樂-混合型50的藥動性質顯示出這二項組成成分的各別特性。考慮這些動力學特性與臨床的關聯性，檢視糖質運用曲線圖是較適當的作法(詳見藥效性質)。 於腎臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收。在廣泛範圍腎功能的第二型糖尿病病人中，insulin lispro與可溶型人體胰島素的藥動參數差異大致維持固定且顯示與腎功能無關。於肝臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收與排除。",
+          "content_html": "<p>Insulin lispro的藥動特性，顯示出其於皮下注射後快速吸收及於30-70分鐘達到最高血中濃度。Insulin lispro protamine懸液的藥動特性也與其他中速作用胰島素(例如NPH)相同。優泌樂-混合型50的藥動性質顯示出這二項組成成分的各別特性。考慮這些動力學特性與臨床的關聯性，檢視糖質運用曲線圖是較適當的作法(詳見藥效性質)。</p><p>於腎臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收。在廣泛範圍腎功能的第二型糖尿病病人中，insulin lispro與可溶型人體胰島素的藥動參數差異大致維持固定且顯示與腎功能無關。於肝臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收與排除。</p>",
+          "search_text": "11\n藥物動力學特性\nInsulin lispro的藥動特性，顯示出其於皮下注射後快速吸收及於30-70分鐘達到最高血中濃度。Insulin lispro protamine懸液的藥動特性也與其他中速作用胰島素(例如NPH)相同。優泌樂-混合型50的藥動性質顯示出這二項組成成分的各別特性。考慮這些動力學特性與臨床的關聯性，檢視糖質運用曲線圖是較適當的作法(詳見藥效性質)。 於腎臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收。在廣泛範圍腎功能的第二型糖尿病病人中，insulin lispro與可溶型人體胰島素的藥動參數差異大致維持固定且顯示與腎功能無關。於肝臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收與排除。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "3 毫升含藥注射筆，100支以下盒裝。 優泌樂筆 此懸液劑裝於第一型鉛玻璃筆式小管中，以鹵化丁基合成圓蓋及栓蓋密封，並包以鋁圈蓋保護。筆式小管柱塞及/或玻璃筆式小管可能以二甲基矽油或矽酮乳劑處裡。3毫升筆式小管是被密封在拋棄式筆型注射器內，稱為‶優泌樂筆″，不含針頭。",
+          "content_html": "<p>3&nbsp;毫升含藥注射筆，100支以下盒裝。</p><p><u>優泌樂筆</u></p><p>此懸液劑裝於第一型鉛玻璃筆式小管中，以鹵化丁基合成圓蓋及栓蓋密封，並包以鋁圈蓋保護。筆式小管柱塞及/或玻璃筆式小管可能以二甲基矽油或矽酮乳劑處裡。3毫升筆式小管是被密封在拋棄式筆型注射器內，稱為‶優泌樂筆″，不含針頭。</p>",
+          "search_text": "13.1\n包裝\n3 毫升含藥注射筆，100支以下盒裝。 優泌樂筆 此懸液劑裝於第一型鉛玻璃筆式小管中，以鹵化丁基合成圓蓋及栓蓋密封，並包以鋁圈蓋保護。筆式小管柱塞及/或玻璃筆式小管可能以二甲基矽油或矽酮乳劑處裡。3毫升筆式小管是被密封在拋棄式筆型注射器內，稱為‶優泌樂筆″，不含針頭。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "開封前： 3年 第一次使用後： 28天",
+          "content_html": "<p><u>開封前</u>：</p><p>3年</p><p><u>第一次使用後</u>：</p><p>28天</p>",
+          "search_text": "13.2\n效期\n開封前： 3年 第一次使用後： 28天",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "不可冰凍。避免暴露於過熱或日光直射。 開封前: 冷藏存放於2°C至8°C之間。 第一次使用後： 優泌樂筆 儲存於30°C以下。不可冷藏。預充填的注射筆應取下針頭後再保存。",
+          "content_html": "<p>不可冰凍。避免暴露於過熱或日光直射。</p><p><u>開封前:</u></p><p>冷藏存放於2°C至8°C之間。</p><p><u>第一次使用後：</u></p><p><u>優泌樂筆</u></p><p>儲存於30°C以下。不可冷藏。預充填的注射筆應取下針頭後再保存。</p>",
+          "search_text": "13.3\n儲存條件\n不可冰凍。避免暴露於過熱或日光直射。 開封前: 冷藏存放於2°C至8°C之間。 第一次使用後： 優泌樂筆 儲存於30°C以下。不可冷藏。預充填的注射筆應取下針頭後再保存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "使用及操作指示 為了避免可能的疾病傳播，每支注射筆應限於一位病人使用，即使針頭已經更換過。病人每次注射完後需要丟棄針頭。 應隨時檢查優泌樂-混合型50。若發現有結塊，或有白色固體顆粒黏著於管底或管壁，外表有結霜狀，則不可使用。 準備劑量 含有優泌樂-混合型50的優泌樂筆應於掌中滾動10次，使用前將之翻轉180° 10次以再次使胰島素懸浮直到其看起來如均勻的雲狀或乳液狀。 若沒有，則繼續重複以上步驟直至內容物混合。筆式小管內有小顆玻璃球可幫助混合。 請勿劇烈搖震，因為會造成泡沫產生而影響正確劑量之測量。 優泌樂筆 優泌樂筆使用前，必須詳細讀包裝內的使用手冊。優泌樂筆必須依據使用手冊上所建議來使用。 如果注射筆的任何部位看起來破掉或損壞則不可使用。 如果使用預充填注射筆，請參閱準備筆和注射劑量的詳細說明，以下是一般說明。 洗手。 選擇注射部位。 依指示清潔皮膚。 撐開皮膚或捏住大面積來穩定皮膚。 插入針頭並按照說明注射。 將針頭拉出並在注射部位施加輕壓幾秒鐘。不要按揉該區域。 安全的丟棄注射器和針頭。 對於注射裝置，使用外針頭蓋，旋下針頭並安全的將它丟棄。 應該輪流選擇注射部位，相同位置每個月不可注射超過一次。 任何未使用的藥品或廢棄物需依照當地的規定來處理。",
+          "content_html": "<p><u>使用及操作指示</u></p><p>為了避免可能的疾病傳播，每支注射筆應限於一位病人使用，即使針頭已經更換過。病人每次注射完後需要丟棄針頭。</p><p>應隨時檢查優泌樂-混合型50。若發現有結塊，或有白色固體顆粒黏著於管底或管壁，外表有結霜狀，則不可使用。</p><p><i><u>準備劑量</u></i></p><p>含有優泌樂-混合型50的優泌樂筆應於掌中滾動10次，使用前將之翻轉180° 10次以再次使胰島素懸浮直到其看起來如均勻的雲狀或乳液狀。</p><p>若沒有，則繼續重複以上步驟直至內容物混合。筆式小管內有小顆玻璃球可幫助混合。</p><p>請勿劇烈搖震，因為會造成泡沫產生而影響正確劑量之測量。</p><p><i>優泌樂筆</i></p><p>優泌樂筆使用前，必須詳細讀包裝內的使用手冊。優泌樂筆必須依據使用手冊上所建議來使用。</p><p>如果注射筆的任何部位看起來破掉或損壞則不可使用。</p><p>如果使用預充填注射筆，請參閱準備筆和注射劑量的詳細說明，以下是一般說明。</p><ol><li>洗手。</li><li>選擇注射部位。</li><li>依指示清潔皮膚。</li><li>撐開皮膚或捏住大面積來穩定皮膚。 插入針頭並按照說明注射。</li><li>將針頭拉出並在注射部位施加輕壓幾秒鐘。不要按揉該區域。</li><li>安全的丟棄注射器和針頭。 對於注射裝置，使用外針頭蓋，旋下針頭並安全的將它丟棄。</li><li>應該輪流選擇注射部位，相同位置每個月不可注射超過一次。</li></ol><p>任何未使用的藥品或廢棄物需依照當地的規定來處理。</p>",
+          "search_text": "14\n病人使用須知\n使用及操作指示 為了避免可能的疾病傳播，每支注射筆應限於一位病人使用，即使針頭已經更換過。病人每次注射完後需要丟棄針頭。 應隨時檢查優泌樂-混合型50。若發現有結塊，或有白色固體顆粒黏著於管底或管壁，外表有結霜狀，則不可使用。 準備劑量 含有優泌樂-混合型50的優泌樂筆應於掌中滾動10次，使用前將之翻轉180° 10次以再次使胰島素懸浮直到其看起來如均勻的雲狀或乳液狀。 若沒有，則繼續重複以上步驟直至內容物混合。筆式小管內有小顆玻璃球可幫助混合。 請勿劇烈搖震，因為會造成泡沫產生而影響正確劑量之測量。 優泌樂筆 優泌樂筆使用前，必須詳細讀包裝內的使用手冊。優泌樂筆必須依據使用手冊上所建議來使用。 如果注射筆的任何部位看起來破掉或損壞則不可使用。 如果使用預充填注射筆，請參閱準備筆和注射劑量的詳細說明，以下是一般說明。 洗手。 選擇注射部位。 依指示清潔皮膚。 撐開皮膚或捏住大面積來穩定皮膚。 插入針頭並按照說明注射。 將針頭拉出並在注射部位施加輕壓幾秒鐘。不要按揉該區域。 安全的丟棄注射器和針頭。 對於注射裝置，使用外針頭蓋，旋下針頭並安全的將它丟棄。 應該輪流選擇注射部位，相同位置每個月不可注射超過一次。 任何未使用的藥品或廢棄物需依照當地的規定來處理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "Literature revised 17Mar 2021.",
+          "content_html": "<p>Literature revised 17Mar 2021.</p>",
+          "search_text": "15\n其他\nLiterature revised 17Mar 2021.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每毫升含有100單位insulin lispro*(相當於3.5毫克)。 優泌樂-混合型50內含50% insulin lispro 溶液與50% insulin lispro protamine懸液。 優泌樂筆(KwikPen) 每支預充填注射筆有3毫升懸液含300單位insulin lispro。 優泌樂筆單次可注射1-60單位，最小調整幅度為一單位。 *大腸桿菌基因重組技術製造。\n1.2\n賦形劑\nProtamine sulphate m-Cresol Phenol Glycerol Dibasic sodium phosphate·7H2O Zinc oxide 注射用水 HCl和NaOH 可用來調整 pH 值。 本藥品每單位劑量含少於 1 mmol 鈉 (23毫克), 即基本上是‶無鈉″。\n1.3\n劑型\n注射用懸液劑。\n1.4\n藥品外觀\n白色懸液。\n2\n適應症\n糖尿病 說明 優泌樂筆-混合型50適用於治療需要胰島素以維持正常血糖穩定之糖尿病病人。\n3\n用法及用量\n3.1\n用法用量\n用量 醫師會針對病人的需求以決定劑量。 優泌樂筆-混合型50可於餐前立即投與。必要時，優泌樂筆-混合型50可於餐後立即投與。優泌樂筆-混合型50應僅可皮下注射。優泌樂筆-混合型50絕不可靜脈注射。 皮下注射優泌樂筆-混合型50後可觀察到Humalog的快速起始作用及較快達作用高峰。這使得優泌樂筆-混合型50可於非常接近用餐時間使用。優泌樂筆-混合型50內含的insulin lispro protamine 懸液的作用時間與基礎胰島素(NPH)相當。 胰島素的作用時間可能會因不同個體或同一個體在不同時間而有相當差異。與其他胰島素製劑一樣，優泌樂筆-混合型50的作用時間會因劑量、注射部位、血循環量、體溫及運動量而不同。 投與方式 應於上臂、大腿、臀部或腹部皮下注射。注射部位應更換，同一位置每個月注射不可超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險(請參閱警語及注意事項和副作用/不良反應)。 注射優泌樂-混合型50時，應注意不要穿破血管。注射後請勿按揉注射部位。必須教導病人使用適當的注射技術。 優泌樂筆 優泌樂筆單次可注射1-60單位。最小調整幅度為一單位。單位數量顯示在注射筆的劑量視窗中。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n特殊族群 腎功能不全 腎功能不全時，胰島素需求可能會減少。 肝功能不全 由於糖質新生能力降低和胰島素分解減少，肝功能不全病人的胰島素需求可能會降低；然而，在慢性肝功能不全病人中，胰島素阻抗的增加可能會增加胰島素需求。 兒童族群 使用優泌樂-混合型50於12歲以下兒童，只能考慮用於相較使用可溶型胰島素而預期會有益處的形況下。\n4\n禁忌\n對活性成分或處方中任一賦形劑過敏者。 低血糖。\n5\n警語及注意事項\n5.1\n警語/注意事項\n可追溯性 為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號。 優泌樂-混合型50絕不可靜脈注射。 將病人轉換至另一種或是其他廠牌的胰島素 將病人轉換至另一種或是其他廠牌的胰島素時需要在醫師的監視下進行，改變胰島素效價、廠牌(製造廠)、種類(如常規型/可溶型、NPH/isophane 等)、來源(動物、人類、人類胰島素類似品)、和/或製造方法(基因重組或動物來源胰島素)，皆有可能因而需要改變劑量。 低血糖和高血糖 在某些情況下，如長期的糖尿病，積極的控制糖尿病，糖尿病的神經疾病，或藥物如beta-blockers，其低血糖的早期警告癥狀可能不同或不明顯。 一些病人在從動物來源的胰島素轉換至人體胰島素曾發生低血糖的反應，他們報告其低血糖的早期警告癥狀不明顯或不同於之前使用的胰島素。未改善之低血糖或高血糖症狀可能會導致失去意識，昏迷或死亡。 不適當的劑量或中止治療，特別在對胰島素依賴的糖尿病病人可能會導致高血糖症及糖尿病酮酸中毒；這些情況可能會致命。 注射方式 必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)的風險。於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整糖尿病藥物的劑量。 胰島素的需求量和劑量調整 於生病中或情緒不穩時胰島素的需求量可能會增加。 若病人增加運動量或改變日常飲食習慣可能需要因而調整劑量。於餐後馬上從事運動可能會增加低血糖症之危險性。 優泌樂-混合型50與pioglitazone併用 胰島素與 pioglitazone 併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病人。當考慮併用優泌樂-混合型50與pioglitazone時，應留意此警語及注意事項。若是併用治療，應觀察病人的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用pioglitazone。 避免用藥錯誤 必須指示病人在每次注射前一定要檢查胰島素標籤，以避免意外混淆兩種不同種類的優泌樂筆和其他胰島素產品。 病人必須能夠看清並確認注射筆上劑量計數器的旋轉單位。 因此，病人自行注射的條件是他們可以讀取筆上的劑量計數器。應指示眼盲或視障的病人必須得到另一位視力良好且接受過使用胰島素裝置訓練人士的幫忙/協助。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n低血糖可能會影響到病人的注意力及反應力。若病人正從事注意力及反應力特別重要的活動時(如開車或操作機械)，則可能造成危險。 病人應被告知需要特別注意以避免開車時發生低血糖，特別是對於低血糖症狀不顯著或缺乏警覺的病人或是經常發生低血糖的病人來說是特別重要的。在這些情況下，應考慮駕駛的適當性。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n大量懷孕期的使用資料並未顯示使用insulin lispro於懷孕期會造成任何不良反應或影響胎兒/新生兒的健康。 懷孕期間對於使用胰島素的病人(胰島素依賴者或妊娠期糖尿病)維持良好的血糖控制是必須的。懷孕第一期胰島素的需求通常會降低，在第二、三孕期則會增加。糖尿病病人應被告知若是她有懷孕或想懷孕應告知她們的醫師。小心監測懷孕期間病人的血糖控制及整體健康狀況是必要的。\n6.2\n哺乳\n糖尿病病人授乳時可能需要調整其胰島素的劑量，或同時也調整其飲食計畫。\n6.3\n有生育能力的女性與男性\n在動物試驗中insulin lispro並未引起生殖功能異常(請參閱臨床前安全資料)。\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n同時服用具增高血糖作用的藥物，如口服避孕藥、corticosteroids、甲狀腺素治療、danazol 、beta2興奮劑(例如ritodrine，salbutamol，terbutaline)時，胰島素的需求量可能會增加。 同時服用具降低血糖作用的藥物，如口服降血糖劑、salicylates（例如acetylsalicylic acid)、sulphate antibiotics、某些抗憂鬱劑(monoamine oxidase inhibitors, selective serotonin reuptake inhibitors)、某些血管張力素轉換酵素抑制劑(captopril, enalapril)、angiotensin II receptor blockers、beta-blockers、octreotide 或酒精，胰島素的需求量可能需要減少。 目前尚無優泌樂-混合型50與其他胰島素製劑混合的研究。 使用優泌樂-混合型50，需併用其他藥物時應諮詢醫師 (請參閱警語及注意事項) 。 配伍禁忌 目前尚無優泌樂-混合型50與其他胰島素混合的研究。由於沒有相關配伍研究，本藥品不建議與其他藥品混合。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n低血糖是糖尿病病人使用胰島素最常見的不良反應。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。低血糖並無特定的發生頻率。引起低血糖的原因包括胰島素劑量及其他因素(如病人的飲食與運動)。 特定不良反應之描述 局部過敏 病人發生局部過敏是常見的。胰島素的注射部位可能會紅、腫與癢。症狀通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。 全身過敏 全身過敏為罕見但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能會危及生命。 皮膚及皮下組織異常 注射部位有可能因發生脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應 (請參閱警語及注意事項) 。 水腫 胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。\n8.2\n臨床試驗經驗\n以下列出臨床試驗中的不良反應，依MedDRA常用詞按照系統器官分類及發生率遞減方式排序（極常見：≥1/10；常見：≥1/100至<1/10；不常見：≥ 1/1,000至<1/100；罕見：≥1/10,000至<1/1,000；極罕見：<1/10,000），未知（無法從可用數據中估算）。 在各個發生頻率組別中，不良反應依嚴重程度遞減的方式排序。 MedDRA系統器官分類 極常見 常見 不常見 罕見 極罕見 未知 免疫系統異常 局部過敏 X 全身性過敏 X 皮膚及皮下組織異常 脂肪代謝障礙 X 皮膚類澱粉沉積症 X\n8.3\n上市後經驗\n藥品核准後，疑似不良反應的通報是很重要的，能持續監測藥品的效益/風險平衡。請醫療專業人員經由全國不良反應通報系統通報任何疑似不良反應。\n9\n過量\n胰島素的使用並沒有特定的用藥過量劑量，因為血糖濃度的高低是由胰島素濃度、可用的糖質及其他代謝作用等複雜的交互作用的結果。低血糖的發生可能是由於相對於食物的攝取量或能量的消耗程度而言過量的胰島素活性所造成。 低血糖的癥狀，如無精打采、精神混亂、心悸、頭痛、流汗及嘔吐。 輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品緩解。 治療中度至重度低血糖症狀可以肌肉或皮下注射昇糖素，當病人充分恢復意識後服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖溶液。 若病人陷入昏迷，需要以肌肉或皮下注射投予昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖溶液。在該病人恢復意識後，須盡快給予餐食。 就算病人臨床症狀顯著改善，仍有可能再發生低血糖，故需要持續觀察並進食碳水化合物。\n10\n藥理特性\n10.1\n作用機轉\nInsulin lispro之主要作用為調節糖質代謝。 除此之外，胰島素在不同組織中具有多種同化及抗異化作用。於肌肉組織，胰島素增加肝糖、脂肪酸、甘油及蛋白質的生合成及胺基酸的吸收。另一方面，降低肝糖分解作用、糖質新生作用、酮體形成作用、脂質分解作用、蛋白質分解作用及胺基酸的輸出。\n10.2\n藥效藥理特性\n藥理分類：糖尿病用藥，胰島素及其類似物注射劑，中效或長效併用速效。ATC碼：A10A D04 Insulin lispro有快速的起始作用(大約15分鐘)，因此相較於可溶型胰島素(用餐前30-45分鐘)可於更接近用餐時間(用餐當時至15分鐘)使用。皮下注射優泌樂-混合型50後，可觀察到insulin lispro的快速起始及早期達到作用高峰的特性。Humalog BASAL(Insulin lispro protamine懸液)則具有與基礎胰島素(NPH)相當類似的大約15個小時的作用特性。 下圖顯示優泌樂-混合型50與Humalog BASAL(Insulin lispro protamine懸液) 的藥效學。\n上圖顯示隨著時間的變化，受試者血糖維持於接近空腹所需的糖質量。也是針對胰島素隨著時間變化對葡萄糖代謝影響的一項指標。 人體對於insulin lispro的血糖動態反應不會受到腎、肝功能不全影響。在廣泛範圍腎功能的人群中，以葡萄糖箝定(glucose clamp)研究方式評估insulin lispro與可溶型人體胰島素的血糖動態反應，二組的差異維持一定。 同分子量之insulin lispro與人體胰島素具有相同的效力，但insulin lispro的降血糖起效用較快，作用期較短。\n10.3\n臨床前安全性資料\n包括胰島素受體的結合位置及對生長細胞的作用等的體外試驗中，insulin lispro的作用與人體胰島素相似。研究也顯示insulin lispro從胰島素受體的游離與人體胰島素相當。急性，1個月及12個月的毒理研究並未顯示明顯的毒性反應。 於動物試驗中，insulin lispro並未導致生殖功能不全，胚胎毒性或畸胎。\n11\n藥物動力學特性\nInsulin lispro的藥動特性，顯示出其於皮下注射後快速吸收及於30-70分鐘達到最高血中濃度。Insulin lispro protamine懸液的藥動特性也與其他中速作用胰島素(例如NPH)相同。優泌樂-混合型50的藥動性質顯示出這二項組成成分的各別特性。考慮這些動力學特性與臨床的關聯性，檢視糖質運用曲線圖是較適當的作法(詳見藥效性質)。 於腎臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收。在廣泛範圍腎功能的第二型糖尿病病人中，insulin lispro與可溶型人體胰島素的藥動參數差異大致維持固定且顯示與腎功能無關。於肝臟功能不全的病人，insulin lispro也是有相較於可溶型人體胰島素較快的吸收與排除。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n3 毫升含藥注射筆，100支以下盒裝。 優泌樂筆 此懸液劑裝於第一型鉛玻璃筆式小管中，以鹵化丁基合成圓蓋及栓蓋密封，並包以鋁圈蓋保護。筆式小管柱塞及/或玻璃筆式小管可能以二甲基矽油或矽酮乳劑處裡。3毫升筆式小管是被密封在拋棄式筆型注射器內，稱為‶優泌樂筆″，不含針頭。\n13.2\n效期\n開封前： 3年 第一次使用後： 28天\n13.3\n儲存條件\n不可冰凍。避免暴露於過熱或日光直射。 開封前: 冷藏存放於2°C至8°C之間。 第一次使用後： 優泌樂筆 儲存於30°C以下。不可冷藏。預充填的注射筆應取下針頭後再保存。\n13.4\n儲存注意事項\n14\n病人使用須知\n使用及操作指示 為了避免可能的疾病傳播，每支注射筆應限於一位病人使用，即使針頭已經更換過。病人每次注射完後需要丟棄針頭。 應隨時檢查優泌樂-混合型50。若發現有結塊，或有白色固體顆粒黏著於管底或管壁，外表有結霜狀，則不可使用。 準備劑量 含有優泌樂-混合型50的優泌樂筆應於掌中滾動10次，使用前將之翻轉180° 10次以再次使胰島素懸浮直到其看起來如均勻的雲狀或乳液狀。 若沒有，則繼續重複以上步驟直至內容物混合。筆式小管內有小顆玻璃球可幫助混合。 請勿劇烈搖震，因為會造成泡沫產生而影響正確劑量之測量。 優泌樂筆 優泌樂筆使用前，必須詳細讀包裝內的使用手冊。優泌樂筆必須依據使用手冊上所建議來使用。 如果注射筆的任何部位看起來破掉或損壞則不可使用。 如果使用預充填注射筆，請參閱準備筆和注射劑量的詳細說明，以下是一般說明。 洗手。 選擇注射部位。 依指示清潔皮膚。 撐開皮膚或捏住大面積來穩定皮膚。 插入針頭並按照說明注射。 將針頭拉出並在注射部位施加輕壓幾秒鐘。不要按揉該區域。 安全的丟棄注射器和針頭。 對於注射裝置，使用外針頭蓋，旋下針頭並安全的將它丟棄。 應該輪流選擇注射部位，相同位置每個月不可注射超過一次。 任何未使用的藥品或廢棄物需依照當地的規定來處理。\n15\n其他\nLiterature revised 17Mar 2021.",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "ELI LILLY ITALIA S.P.A.",
+          "address": "VIA A.GRAMSCI 731-733 50019 SESTO FIORENTINO"
+        },
+        {
+          "number": "2",
+          "name": "LILLY FRANCE",
+          "address": "2 RUE DU COLONEL LILLY 67640 FEGERSHEIM, FRANCE"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "ELI LILLY AND COMPANY",
+          "address": "INDIANAPOLIS, INDIANA 46285, U.S.A."
+        },
+        {
+          "number": "2",
+          "name": "LILLY DEL CARIBE INC.",
+          "address": "12.3 KM, 65TH INFANTRY ROAD, CAROLINA 00985, PUERTO RICO"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣禮來股份有限公司",
+          "address": "臺北市信義區松高路9號14樓、11號14樓"
+        }
+      ]
+    }
+  ]
+}

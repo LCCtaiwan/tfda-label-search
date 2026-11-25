@@ -1,0 +1,997 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:01:05.912254+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000931",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000931號:6",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000931號",
+      "matched_license_code": "10000931",
+      "matched_nhi_code": "",
+      "drug_name_zh": "帥健 注射劑 6 毫克",
+      "drug_name_en": "Saizen 6 mg solution for injection",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "6",
+      "approved_at": "2026-07-15",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "帥健®注射劑 5.83毫克/毫升。 每支藥匣含有1.03毫升溶液(6毫克Somatropin*) *基因重組人類生長激素乃利用哺乳動物細胞以基因重組技術製造而成。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">帥健®注射劑</span> 5.83<span style=\"font-family:標楷體;\">毫克</span>/<span style=\"font-family:標楷體;\">毫升。</span></p><p><span style=\"font-family:標楷體;\">每支藥匣含有</span>1.03<span style=\"font-family:標楷體;\">毫升溶液</span>(6<span style=\"font-family:標楷體;\">毫克</span>Somatropin*)&nbsp;</p><p>*<span style=\"font-family:標楷體;\">基因重組人類生長激素乃利用哺乳動物細胞以基因重組技術製造而成。</span></p>",
+          "search_text": "1.1\n有效成分及含量\n帥健®注射劑 5.83毫克/毫升。 每支藥匣含有1.03毫升溶液(6毫克Somatropin*) *基因重組人類生長激素乃利用哺乳動物細胞以基因重組技術製造而成。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Sucrose, Poloxamer 188, Phenol, Citric Acid 2.5%, Citrate Buffer 10 mM",
+          "content_html": "<p>Sucrose, Poloxamer 188, Phenol, Citric Acid 2.5%, Citrate Buffer 10 mM</p>",
+          "search_text": "1.2\n賦形劑\nSucrose, Poloxamer 188, Phenol, Citric Acid 2.5%, Citrate Buffer 10 mM",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射液。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">注射液。</span></p>",
+          "search_text": "1.3\n劑型\n注射液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "澄清至淡乳白色的溶液，pH值為5.6-6.6，滲透壓為250-450 mOsm/kg。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">　澄清至淡乳白色的溶液，</span>pH<span style=\"font-family:標楷體;\">值為</span>5.6-6.6<span style=\"font-family:標楷體;\">，滲透壓為</span>250-450&nbsp;mOsm/kg<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "1.4\n藥品外觀\n澄清至淡乳白色的溶液，pH值為5.6-6.6，滲透壓為250-450 mOsm/kg。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "孩童及青少年: - 腦下垂體生長激素分泌不足所導致之生長遲滯 - 其他Gonadol Dysgenesis (Turner’s syndrome)所導致之生長遲滯 - 青春期前因慢性腎臟衰竭導致之生長遲滯 - 低出生體重兒(Small for Gestational Age; SGA)逾四歲者之生長障礙 說明：低出生體重兒(small for gestational age, SGA)之生長障礙(目前的身高標準差評分[SDS]< -2.5且經校正父母親的身高後其身高SDS仍小於-1)，照姙娠週數來看，他們生來個子就很小(體重或身長低於-2SD)， 到四歲或更大時生長仍未趕上同齡兒童(最近一年內HV SDS< 0)。 成人: - 成人生長激素嚴重分泌不足之補充療法 說明：成人生長激素嚴重分泌不足之補充療法需經診斷後證實為生長激素缺乏。 病人需符合下列條件： 孩童時期發生：在孩童時期即診斷為生長激素分泌不足者，在成年後繼續生長激素補充療法前需再次檢查，確定生長激素仍分泌不足。 成人時期發生：開始生長激素補充療法前需經診斷為因下視丘或腦下垂體疾病造成的生長激素分泌不足及至少一種荷爾蒙缺乏(除prolactin)診斷確定，在適當的取代治療前使用生長激素。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">孩童及青少年</span>:</p><p>-&nbsp;<span style=\"font-family:標楷體;\">腦下垂體生長激素分泌不足所導致之生長遲滯</span></p><p>-&nbsp;<span style=\"font-family:標楷體;\">其他</span>Gonadol Dysgenesis (Turner’s syndrome)<span style=\"font-family:標楷體;\">所導致之生長遲滯</span></p><p>-&nbsp;<span style=\"font-family:標楷體;\">青春期前因慢性腎臟衰竭導致之生長遲滯</span></p><p>-&nbsp;<span style=\"font-family:標楷體;\">低出生體重兒</span>(Small for Gestational Age; SGA)<span style=\"font-family:標楷體;\">逾四歲者之生長障礙</span></p><p><span style=\"font-family:標楷體;\">說明：低出生體重兒</span>(small for gestational age, SGA)<span style=\"font-family:標楷體;\">之生長障礙</span>(<span style=\"font-family:標楷體;\">目前的身高標準差評分</span>[SDS]&lt; -2.5<span style=\"font-family:標楷體;\">且經校正父母親的身高後其身高</span>SDS<span style=\"font-family:標楷體;\">仍小於</span>-1)<span style=\"font-family:標楷體;\">，照姙娠週數來看，他們生來個子就很小</span>(<span style=\"font-family:標楷體;\">體重或身長低於</span>-2SD)<span style=\"font-family:標楷體;\">，</span></p><p><span style=\"font-family:標楷體;\">到四歲或更大時生長仍未趕上同齡兒童</span>(<span style=\"font-family:標楷體;\">最近一年內</span>HV SDS&lt; 0)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">成人</span>:</p><p>-&nbsp;<span style=\"font-family:標楷體;\">成人生長激素嚴重分泌不足之補充療法</span></p><p><span style=\"font-family:標楷體;\">說明：成人生長激素嚴重分泌不足之補充療法需經診斷後證實為生長激素缺乏。</span></p><p><span style=\"font-family:標楷體;\">病人需符合下列條件：</span></p><p><span style=\"font-family:標楷體;\">孩童時期發生：在孩童時期即診斷為生長激素分泌不足者，在成年後繼續生長激素補充療法前需再次檢查，確定生長激素仍分泌不足。</span></p><p><span style=\"font-family:標楷體;\">成人時期發生：開始生長激素補充療法前需經診斷為因下視丘或腦下垂體疾病造成的生長激素分泌不足及至少一種荷爾蒙缺乏</span>(<span style=\"font-family:標楷體;\">除</span>prolactin)<span style=\"font-family:標楷體;\">診斷確定，在適當的取代治療前使用生長激素。</span></p>",
+          "search_text": "2\n適應症\n孩童及青少年: - 腦下垂體生長激素分泌不足所導致之生長遲滯 - 其他Gonadol Dysgenesis (Turner’s syndrome)所導致之生長遲滯 - 青春期前因慢性腎臟衰竭導致之生長遲滯 - 低出生體重兒(Small for Gestational Age; SGA)逾四歲者之生長障礙 說明：低出生體重兒(small for gestational age, SGA)之生長障礙(目前的身高標準差評分[SDS]< -2.5且經校正父母親的身高後其身高SDS仍小於-1)，照姙娠週數來看，他們生來個子就很小(體重或身長低於-2SD)， 到四歲或更大時生長仍未趕上同齡兒童(最近一年內HV SDS< 0)。 成人: - 成人生長激素嚴重分泌不足之補充療法 說明：成人生長激素嚴重分泌不足之補充療法需經診斷後證實為生長激素缺乏。 病人需符合下列條件： 孩童時期發生：在孩童時期即診斷為生長激素分泌不足者，在成年後繼續生長激素補充療法前需再次檢查，確定生長激素仍分泌不足。 成人時期發生：開始生長激素補充療法前需經診斷為因下視丘或腦下垂體疾病造成的生長激素分泌不足及至少一種荷爾蒙缺乏(除prolactin)診斷確定，在適當的取代治療前使用生長激素。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "Saizen® 5.83 mg/ml為供單一病人使用的多劑量藥物。 一般建議應於晚上睡前注射，並以下列劑量使用： 孩童及青少年: 用量依病人個別的體表面積或體重計算注射劑量。 因內生性生長激素分泌不足引起的生長遲滯：每天以0.7~1.0毫克/平方公尺體表面積或0.025~0.035毫克/公斤體重皮下注射。 其他Gonadol Dysgenesis (Turner syndrome)所導致之生長遲滯：每天以1.4 mg/平方公尺體表面積或0.045~0.050 mg/公斤體重皮下注射。若同時使用non-androgenic anabolic steroids，將會增加治療效果。 青春期前因慢性腎臟衰竭導致之生長遲滯：每天以1.4 mg/平方公尺體表面積或0.045~0.050 mg/公斤體重皮下注射。 低出生體重兒之生長遲緩：每天給予0.035 mg/公斤體重(或1 mg/平方公尺體表面積/每天，相當於0.1 IU/公斤體重/每天或3 IU/平方公尺體表面積/每天)皮下注射。 當身高達到理想之成人高度或骨骺已閉合時，應停止治療。 治療低出生體重兒之生長遲緩，治療通常持續至該孩童達到最終高度為止。若治療的第一年生長速率低於1個標準差評分，則應停止治療。當孩童達到最終高度(每年生長速率小於2公分)且需要時經確認其骨齡已達骨骺閉合年齡(女生大於14歲或男生大於16歲)時，應停止治療。 成人： 成人生長激素嚴重分泌不足之補充療法 開始治療時，建議每日以0.15~0.3 mg低劑量皮下注射治療。治療劑量可依Insulin-like Growth Factor 1 (IGF-1)值逐步調整。最終建議劑量很少超過1.0 mg/每天。一般而言只需使用最低有效劑量。如果使用者為老人或體重過重者，應選擇較低劑量使用。",
+          "content_html": "<p>Saizen<sup>®</sup> 5.83&nbsp;mg/ml<span style=\"font-family:標楷體;\">為供單一病人使用的多劑量藥物。</span></p><p><span style=\"font-family:標楷體;\">一般建議應於晚上睡前注射，並以下列劑量使用：</span></p><p><span style=\"font-family:標楷體;\"><u>孩童及青少年</u></span><u>:</u></p><p><span style=\"font-family:標楷體;\">用量依病人個別的體表面積或體重計算注射劑量。</span></p><ul><li><span style=\"font-family:標楷體;\">因內生性生長激素分泌不足引起的生長遲滯：每天以</span>0.7~1.0<span style=\"font-family:標楷體;\">毫克</span>/<span style=\"font-family:標楷體;\">平方公尺體表面積或</span>0.025~0.035<span style=\"font-family:標楷體;\">毫克</span>/<span style=\"font-family:標楷體;\">公斤體重皮下注射。</span></li><li><span style=\"font-family:標楷體;\">其他</span>Gonadol Dysgenesis (Turner syndrome)<span style=\"font-family:標楷體;\">所導致之生長遲滯：每天以</span>1.4 mg/<span style=\"font-family:標楷體;\">平方公尺體表面積或</span>0.045~0.050 mg/<span style=\"font-family:標楷體;\">公斤體重皮下注射。若同時使用</span>non-androgenic anabolic steroids<span style=\"font-family:標楷體;\">，將會增加治療效果。</span></li><li><span style=\"font-family:標楷體;\">青春期前因慢性腎臟衰竭導致之生長遲滯：每天以</span>1.4 mg/<span style=\"font-family:標楷體;\">平方公尺體表面積或</span>0.045~0.050 mg/<span style=\"font-family:標楷體;\">公斤體重皮下注射。</span></li><li><span style=\"font-family:標楷體;\">低出生體重兒之生長遲緩：每天給予</span>0.035 mg/<span style=\"font-family:標楷體;\">公斤體重</span>(<span style=\"font-family:標楷體;\">或</span>1 mg/<span style=\"font-family:標楷體;\">平方公尺體表面積</span>/<span style=\"font-family:標楷體;\">每天，相當於</span>0.1 IU/<span style=\"font-family:標楷體;\">公斤體重</span>/<span style=\"font-family:標楷體;\">每天或</span>3 IU/<span style=\"font-family:標楷體;\">平方公尺體表面積</span>/<span style=\"font-family:標楷體;\">每天</span>)<span style=\"font-family:標楷體;\">皮下注射。</span></li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">當身高達到理想之成人高度或骨骺已閉合時，應停止治療。</span></p><p><span style=\"font-family:標楷體;\">治療低出生體重兒之生長遲緩，治療通常持續至該孩童達到最終高度為止。若治療的第一年生長速率低於</span>1<span style=\"font-family:標楷體;\">個標準差評分，則應停止治療。當孩童達到最終高度</span>(<span style=\"font-family:標楷體;\">每年生長速率小於</span>2<span style=\"font-family:標楷體;\">公分</span>)<span style=\"font-family:標楷體;\">且需要時經確認其骨齡已達骨骺閉合年齡</span>(<span style=\"font-family:標楷體;\">女生大於</span>14<span style=\"font-family:標楷體;\">歲或男生大於</span>16<span style=\"font-family:標楷體;\">歲</span>)<span style=\"font-family:標楷體;\">時，應停止治療。</span></p><p><span style=\"color:Black;font-family:標楷體;\"><u>成人：</u></span></p><ul><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">成人生長激素嚴重分泌不足之補充療法</span></li></ul><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">開始治療時，建議每日以</span>0.15~0.3 mg<span style=\"font-family:標楷體;\">低劑量皮下注射治療。治療劑量可依</span>Insulin-like Growth Factor 1 (IGF-1)<span style=\"font-family:標楷體;\">值逐步調整。最終建議劑量很少超過</span>1.0 mg/<span style=\"font-family:標楷體;\">每天。一般而言只需使用最低有效劑量。如果使用者為老人或體重過重者，應選擇較低劑量使用。</span></p>",
+          "search_text": "3.1\n用法用量\nSaizen® 5.83 mg/ml為供單一病人使用的多劑量藥物。 一般建議應於晚上睡前注射，並以下列劑量使用： 孩童及青少年: 用量依病人個別的體表面積或體重計算注射劑量。 因內生性生長激素分泌不足引起的生長遲滯：每天以0.7~1.0毫克/平方公尺體表面積或0.025~0.035毫克/公斤體重皮下注射。 其他Gonadol Dysgenesis (Turner syndrome)所導致之生長遲滯：每天以1.4 mg/平方公尺體表面積或0.045~0.050 mg/公斤體重皮下注射。若同時使用non-androgenic anabolic steroids，將會增加治療效果。 青春期前因慢性腎臟衰竭導致之生長遲滯：每天以1.4 mg/平方公尺體表面積或0.045~0.050 mg/公斤體重皮下注射。 低出生體重兒之生長遲緩：每天給予0.035 mg/公斤體重(或1 mg/平方公尺體表面積/每天，相當於0.1 IU/公斤體重/每天或3 IU/平方公尺體表面積/每天)皮下注射。 當身高達到理想之成人高度或骨骺已閉合時，應停止治療。 治療低出生體重兒之生長遲緩，治療通常持續至該孩童達到最終高度為止。若治療的第一年生長速率低於1個標準差評分，則應停止治療。當孩童達到最終高度(每年生長速率小於2公分)且需要時經確認其骨齡已達骨骺閉合年齡(女生大於14歲或男生大於16歲)時，應停止治療。 成人： 成人生長激素嚴重分泌不足之補充療法 開始治療時，建議每日以0.15~0.3 mg低劑量皮下注射治療。治療劑量可依Insulin-like Growth Factor 1 (IGF-1)值逐步調整。最終建議劑量很少超過1.0 mg/每天。一般而言只需使用最低有效劑量。如果使用者為老人或體重過重者，應選擇較低劑量使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "Saizen®藥品調配用法，請詳閱藥品仿單說明及參照挑選的injector 使用方法: Easypod auto-injector或Aluetta Pen Injector使用說明書。 Easypod的自行操作者主要為7歲以上的兒童及成人。兒童使用本注射器時，應在大人的監督下使用。 藥物的製備說明請參閱第15節。",
+          "content_html": "<p>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">藥品調配用法，請詳閱藥品仿單說明及參照挑選的</span>injector&nbsp;<span style=\"font-family:標楷體;\">使用方法</span>: Easypod auto-injector<span style=\"font-family:標楷體;\">或</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">使用說明書。</span></p><p>Easypod<span style=\"font-family:標楷體;\">的自行操作者主要為</span>7<span style=\"font-family:標楷體;\">歲以上的兒童及成人。兒童使用本注射器時，應在大人的監督下使用。</span></p><p><span style=\"font-family:標楷體;\">藥物的製備說明請參閱第</span>15<span style=\"font-family:標楷體;\">節。</span></p>",
+          "search_text": "3.2\n調製方式\nSaizen®藥品調配用法，請詳閱藥品仿單說明及參照挑選的injector 使用方法: Easypod auto-injector或Aluetta Pen Injector使用說明書。 Easypod的自行操作者主要為7歲以上的兒童及成人。兒童使用本注射器時，應在大人的監督下使用。 藥物的製備說明請參閱第15節。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對somatropin或其賦形劑過敏者。 骨骺已經閉合的兒童不可使用somatropin促進其生長。 Somatropin禁用於有活動性贅瘤或/和活動性或進行性的顱內損傷或復發。 因開心手術、腹腔手術、意外造成多處外傷、急性呼吸衰竭或類似情形導致發生嚴重疾病時，應停止使用somatropin。 患有慢性腎臟病的兒童在接受腎臟移植時，somatropin必須停藥。 在顱內腫瘤發生初期，少數案例會以生長激素缺乏為表徵，治療前應排除此類腫瘤可能性。開始somatropin 治療時，任何已存在的腫瘤應為不活動性，且任何抗腫瘤治療需在開始somatropin治療前完成。",
+          "content_html": "<ul><li><span style=\"font-family:標楷體;\">對</span>somatropin<span style=\"font-family:標楷體;\">或其賦形劑過敏者<strong>。</strong></span></li><li><span style=\"font-family:標楷體;\">骨骺已經閉合的兒童不可使用</span>somatropin<span style=\"font-family:標楷體;\">促進其生長。</span></li><li>Somatropin<span style=\"font-family:標楷體;\">禁用於有活動性贅瘤或</span>/<span style=\"font-family:標楷體;\">和活動性或進行性的顱內損傷或復發。</span></li><li><span style=\"font-family:標楷體;\">因開心手術、腹腔手術、意外造成多處外傷、急性呼吸衰竭或類似情形導致發生嚴重疾病時，應停止使用</span>somatropin<span style=\"font-family:標楷體;\">。</span></li><li><span style=\"font-family:標楷體;\">患有慢性腎臟病的兒童在接受腎臟移植時，</span>somatropin<span style=\"font-family:標楷體;\">必須停藥。</span></li><li><span style=\"font-family:標楷體;\">在顱內腫瘤發生初期，少數案例會以生長激素缺乏為表徵，治療前應排除此類腫瘤可能性。開始</span>somatropin&nbsp;<span style=\"font-family:標楷體;\">治療時，任何已存在的腫瘤應為不活動性，且任何抗腫瘤治療需在開始</span>somatropin<span style=\"font-family:標楷體;\">治療前完成。</span></li></ul>",
+          "search_text": "4\n禁忌\n對somatropin或其賦形劑過敏者。 骨骺已經閉合的兒童不可使用somatropin促進其生長。 Somatropin禁用於有活動性贅瘤或/和活動性或進行性的顱內損傷或復發。 因開心手術、腹腔手術、意外造成多處外傷、急性呼吸衰竭或類似情形導致發生嚴重疾病時，應停止使用somatropin。 患有慢性腎臟病的兒童在接受腎臟移植時，somatropin必須停藥。 在顱內腫瘤發生初期，少數案例會以生長激素缺乏為表徵，治療前應排除此類腫瘤可能性。開始somatropin 治療時，任何已存在的腫瘤應為不活動性，且任何抗腫瘤治療需在開始somatropin治療前完成。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "治療需由對生長激素缺乏症領域有經驗的醫師使用。 勿使用超越每日最大建議劑量。(參考第3.1節) 腫瘤 若接受生長激素治療時，病人有顱內或顱外的贅瘤，需由醫師定期監測。 如因腦瘤引起的生長激素缺乏，治療時應接受定期檢查。 報告指出，第一次腫瘤治癒後的孩童癌症病人，於接受somatropin治療後，發生第二次腫瘤的風險將提高。過去曾接受頭部放射線治療以治療腫瘤的病人，最可能發生第二次的腫瘤為顱內腫瘤，特別是腦膜腫瘤。 普瑞德威利氏症候群(Prader-Willi syndrome) 從遺傳學上已確認為普瑞德威利症候群之病童，其生長遲滯不會使用somatropin進行長期治療，但若這些病人也有生長激素缺乏的情形則除外。普瑞德威利症候群之病童在接受生長激素治療後，曾發生睡眠呼吸停止及猝死的報告，這些病童都帶有下列一項或多項危險因子：嚴重肥胖、上呼吸道阻塞或睡眠呼吸停止的病史，或未經確認的呼吸道感染。 白血病 在接受somatropin治療之生長激素缺乏的病人，有少數白血病的個案曾發生。然而，對於無易患因子(predisposing factors)的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。 胰島素的敏感度 因為somatropin會降低胰島素的敏感度，因此應監測病人是否出現葡萄糖不耐症。糖尿病病人在開始接受含有somatropin的藥物治療後應調整胰島素的劑量。糖尿病病人或葡萄糖耐受性不良的病人在somatropin治療期間應予以嚴密監測。 視網膜病變 視網膜病變穩定無惡化的情況下無須停止生長激素治療。若視網膜病變情形惡化或加重，應停止生長激素治療。 甲狀腺功能 生長激素會使週邊的T4轉換成T3，在這種情況下，可能會觀察到早期的甲狀腺功能低下症。若正服用甲狀腺治療，則可能發生輕微甲狀腺功能亢進。甲狀腺功能應在Saizen®開始治療前先行評估，並於治療期間定期檢查，一年至少一次。若在Saizen®治療期間被診斷出甲狀腺功能低下症，則應調整Saizen®劑量以矯正甲狀腺功能。 當腦下垂體功能低下的病人接受somatropin時，應嚴密監測標準替代治療(standard replacement therapy)。 良性顱內高壓 Saizen®開始治療前應定期進行眼底鏡檢查，以排除先前已存在的視乳突水腫，若臨床上有任何懷疑則應重覆進行檢查(例如有嚴重或復發性頭痛、視力問題、噁心及/或嘔吐的情況發生)。如經由眼底鏡確定有視乳突水腫則應注意是否有良性顱內壓升高(或大腦假性腫瘤[pseudotumor cerebri])的情況並停止使用Saizen®。目前並無對顱內壓上升的處置規範。若重新投予生長激素，應小心監測顱內高壓的症狀。如果再度上升，則需停止使用生長激素。 胰臟炎 發生案例罕見，但接受somatropin治療的病人應注意發生胰臟炎的可能，特別是有腹痛症狀的孩童。 脊椎側彎 已知在使用somatropin治療的ㄧ些病人族群裡，有較常見的脊椎側彎，例如Turner syndrome。此外，任何孩童的快速成長可能會導致脊椎側彎的進展。 Somatropin並未顯示會增加脊椎側彎的風險或嚴重性。在治療期間應監控脊椎側彎的徵狀。 抗體 如同所有含somatropin的藥品一樣，少數病人會對somatropin產生抗體。這些抗體的鍵結能力低，因此不會影響生長速率。若病人對治療沒有反應，則應對somatropin的抗體進行測試。 兒童病人股骨頭骺脫滑 患有內分泌疾病(包括生長激素缺乏)以及快速成長的病人，具有較高的股骨頭骺脫滑之風險。接受somatropin治療的兒童，曾有發生股骨頭骺脫滑或股骨頭缺血性壞死(含Legg-Calve-Perthes症候群)的案例。急速生長可能增加關節相關問題的風險，髖關節在青春期前的快速生長階段所承受的壓力尤甚。醫師及家長應對於接受Saizen®治療的兒童出現跛行或主訴髖部或膝蓋疼痛保持警覺。 因慢性腎衰竭之生長遲緩 因慢性腎衰竭導致之生長遲滯病人應定期接受檢查以了解腎性骨發育不全的進展情況。進階性腎性骨發育不全的兒童可能會有股骨頭骺脫滑或股骨頭無血性壞死現象發生，但不知是否與生長激素有關。在治療前應接受髖部X-ray檢查。 慢性腎衰竭兒童在治療前的腎功能已降至正常值之50%以下，為證明生長速度受到影響，必須先檢查一年內的成長情況。對於腎功能不足的治療(包括治療一年前開始進行的控制酸毒症、副甲狀腺素機能過旺及營養狀況)必須持續進行。如果進行腎臟移植時，應停止生長激素治療。 低出生體重兒 治療低出生體重兒之生長遲緩前，應排除其他藥物或治療所導致之生長遲緩。 治療低出生體重兒之生長遲緩前，應監測空腹之胰島素及血糖值，之後每年定期監測。針對糖尿病高危險群(家族性糖尿病、肥胖、BMI過高、嚴重胰島素抗阻性或黑棘皮症)，應進行口服葡萄糖測試，若發現有糖尿病，不應使用生長激素。 治療低出生體重兒之生長遲緩前，建議監測血中IGF-1數值，之後每年定期檢查兩次。若有兩次以上檢查證實IGF-1數值大於孩童年齡標準值或青春期的2個標準分數，必須考慮以IGF-1/IGFBP-3比值調整治療劑量。 在青春期的起始點才開始治療低出生體重兒之生長遲緩的經驗有限，因此不建議使用於此類病人。使用於合併有Silver-Russell syndrome的經驗也有限。 因身材矮小而使用生長激素治療低出生體重兒，若在達到最終身高之前即停止用藥，先前治療所得到的生長高度可能會失去意義。 體液滯留 成人接受生長激素替代治療期間可能會出現預期中的體液滯留現象。 若出現持續性水腫或嚴重的感覺異常，則應降低劑量以避免腕隧道症候群(carpal tunnel syndrome)的發生。 急性嚴重疾病 治療期間如有急性嚴重疾病發生，應衡量生長激素治療效益與潛在危險以決定是否繼續使用。 與口服oestrogen併用 如果女性病人在somatropin治療時開始口服oestrogen，可能需要增加somatropin的劑量以維持血液中IGF-1的濃度在正常的適齡範圍內。相對來說，當女性在somatropin治療時停止使用oestrogen，則可能需要降低somatropin的劑量以避免產生過量的生長激素及/或副作用(請見第7節)。 一般注意事項 應在不同的注射部位輪流注射以避免注射部位局部脂肪組織萎縮。 成人生長激素分泌不足需終身的治療，但在大於六十歲以上或長期使用的資料仍有限。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">治療需由對生長激素缺乏症領域有經驗的醫師使用。</span></p><p><span style=\"font-family:標楷體;\">勿使用超越每日最大建議劑量。</span>(<span style=\"font-family:標楷體;\">參考第</span>3.1<span style=\"font-family:標楷體;\">節</span>)</p><p>&nbsp;</p><p><u>腫瘤</u></p><p><span style=\"font-family:標楷體;\">若接受生長激素治療時，病人有顱內或顱外的贅瘤，需由醫師定期監測。</span></p><p><span style=\"font-family:標楷體;\">如因腦瘤引起的生長激素缺乏，治療時應接受定期檢查。</span></p><p><span style=\"font-family:標楷體;\">報告指出，第一次腫瘤治癒後的孩童癌症病人，於接受</span>somatropin<span style=\"font-family:標楷體;\">治療後，發生第二次腫瘤的風險將提高。過去曾接受頭部放射線治療以治療腫瘤的病人，最可能發生第二次的腫瘤為顱內腫瘤，特別是腦膜腫瘤。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>普瑞德威利氏症候群</u></span><u>(Prader-Willi syndrome)</u></p><p><span style=\"font-family:標楷體;\">從遺傳學上已確認為普瑞德威利症候群之病童，其生長遲滯不會使用</span>somatropin<span style=\"font-family:標楷體;\">進行長期治療，但若這些病人也有生長激素缺乏的情形則除外。普瑞德威利症候群之病童在接受生長激素治療後，曾發生睡眠呼吸停止及猝死的報告，這些病童都帶有下列一項或多項危險因子：嚴重肥胖、上呼吸道阻塞或睡眠呼吸停止的病史，或未經確認的呼吸道感染。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>白血病</u></span></p><p><span style=\"font-family:標楷體;\">在接受</span>somatropin<span style=\"font-family:標楷體;\">治療之生長激素缺乏的病人，有少數白血病的個案曾發生。然而，對於無易患因子</span>(predisposing factors)<span style=\"font-family:標楷體;\">的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>胰島素的敏感度</u></span></p><p><span style=\"font-family:標楷體;\">因為</span>somatropin<span style=\"font-family:標楷體;\">會降低胰島素的敏感度，因此應監測病人是否出現葡萄糖不耐症。糖尿病病人在開始接受含有</span>somatropin<span style=\"font-family:標楷體;\">的藥物治療後應調整胰島素的劑量。糖尿病病人或葡萄糖耐受性不良的病人在</span>somatropin<span style=\"font-family:標楷體;\">治療期間應予以嚴密監測。</span></p><p>&nbsp;</p><p><u>視網膜病變</u></p><p><span style=\"font-family:標楷體;\">視網膜病變穩定無惡化的情況下無須停止生長激素治療。若視網膜病變情形惡化或加重，應停止生長激素治療。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>甲狀腺功能</u></span></p><p><span style=\"font-family:標楷體;\">生長激素會使週邊的</span>T4<span style=\"font-family:標楷體;\">轉換成</span>T3<span style=\"font-family:標楷體;\">，在這種情況下，可能會觀察到早期的甲狀腺功能低下症。若正服用甲狀腺治療，則可能發生輕微甲狀腺功能亢進。甲狀腺功能應在</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">開始治療前先行評估，並於治療期間定期檢查，一年至少一次。若在</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">治療期間被診斷出甲狀腺功能低下症，則應調整</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">劑量以矯正甲狀腺功能。</span></p><p><span style=\"font-family:標楷體;\">當腦下垂體功能低下的病人接受</span>somatropin<span style=\"font-family:標楷體;\">時，應嚴密監測標準替代治療</span>(standard replacement therapy)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>良性顱內高壓</u></span></p><p>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">開始治療前應定期進行眼底鏡檢查，以排除先前已存在的視乳突水腫，若臨床上有任何懷疑則應重覆進行檢查</span>(<span style=\"font-family:標楷體;\">例如有嚴重或復發性頭痛、視力問題、噁心及</span>/<span style=\"font-family:標楷體;\">或嘔吐的情況發生</span>)<span style=\"font-family:標楷體;\">。如經由眼底鏡確定有視乳突水腫則應注意是否有良性顱內壓升高</span>(<span style=\"font-family:標楷體;\">或大腦假性腫瘤</span>[pseudotumor cerebri])<span style=\"font-family:標楷體;\">的情況並停止使用</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">。目前並無對顱內壓上升的處置規範。若重新投予生長激素，應小心監測顱內高壓的症狀。如果再度上升，則需停止使用生長激素。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>胰臟炎</u></span></p><p><span style=\"font-family:標楷體;\">發生案例罕見，但接受</span>somatropin<span style=\"font-family:標楷體;\">治療的病人應注意發生胰臟炎的可能，特別是有腹痛症狀的孩童。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>脊椎側彎</u></span></p><p><span style=\"font-family:標楷體;\">已知在使用</span>somatropin<span style=\"font-family:標楷體;\">治療的ㄧ些病人族群裡，有較常見的脊椎側彎，例如</span>Turner syndrome<span style=\"font-family:標楷體;\">。此外，任何孩童的快速成長可能會導致脊椎側彎的進展。</span></p><p>Somatropin<span style=\"font-family:標楷體;\">並未顯示會增加脊椎側彎的風險或嚴重性。在治療期間應監控脊椎側彎的徵狀。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>抗體</u></span></p><p><span style=\"font-family:標楷體;\">如同所有含</span>somatropin<span style=\"font-family:標楷體;\">的藥品一樣，少數病人會對</span>somatropin<span style=\"font-family:標楷體;\">產生抗體。這些抗體的鍵結能力低，因此不會影響生長速率。若病人對治療沒有反應，則應對</span>somatropin<span style=\"font-family:標楷體;\">的抗體進行測試。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>兒童病人股骨頭骺脫滑</u></span></p><p><span style=\"font-family:標楷體;\">患有內分泌疾病(包括生長激素缺乏)以及快速成長的病人，具有較高的股骨頭骺脫滑之風險。接受</span>somatropin<span style=\"font-family:標楷體;\">治療的兒童，曾有發生股骨頭骺脫滑或股骨頭缺血性壞死</span>(<span style=\"font-family:標楷體;\">含</span>Legg-Calve-Perthes<span style=\"font-family:標楷體;\">症候群</span>)<span style=\"font-family:標楷體;\">的案例。急速生長可能增加關節相關問題的風險，髖關節在青春期前的快速生長階段所承受的壓力尤甚。醫師及家長應對於接受</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">治療的兒童出現跛行或主訴髖部或膝蓋疼痛保持警覺。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>因慢性腎衰竭之生長遲緩</u></span></p><p><span style=\"font-family:標楷體;\">因慢性腎衰竭導致之生長遲滯病人應定期接受檢查以了解腎性骨發育不全的進展情況。進階性腎性骨發育不全的兒童可能會有股骨頭骺脫滑或股骨頭無血性壞死現象發生，但不知是否與生長激素有關。在治療前應接受髖部</span>X-ray<span style=\"font-family:標楷體;\">檢查。</span></p><p><span style=\"font-family:標楷體;\">慢性腎衰竭兒童在治療前的腎功能已降至正常值之</span>50%<span style=\"font-family:標楷體;\">以下，為證明生長速度受到影響，必須先檢查一年內的成長情況。對於腎功能不足的治療</span>(<span style=\"font-family:標楷體;\">包括治療一年前開始進行的控制酸毒症、副甲狀腺素機能過旺及營養狀況</span>)<span style=\"font-family:標楷體;\">必須持續進行。如果進行腎臟移植時，應停止生長激素治療。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>低出生體重兒</u></span></p><p><span style=\"font-family:標楷體;\">治療低出生體重兒之生長遲緩前，應排除其他藥物或治療所導致之生長遲緩。</span></p><p><span style=\"font-family:標楷體;\">治療低出生體重兒之生長遲緩前，應監測空腹之胰島素及血糖值，之後每年定期監測。針對糖尿病高危險群</span>(<span style=\"font-family:標楷體;\">家族性糖尿病、肥胖、</span>BMI<span style=\"font-family:標楷體;\">過高、嚴重胰島素抗阻性或黑棘皮症</span>)<span style=\"font-family:標楷體;\">，應進行口服葡萄糖測試，若發現有糖尿病，不應使用生長激素。</span></p><p><span style=\"font-family:標楷體;\">治療低出生體重兒之生長遲緩前，建議監測血中</span>IGF-1<span style=\"font-family:標楷體;\">數值，之後每年定期檢查兩次。若有兩次以上檢查證實</span>IGF-1<span style=\"font-family:標楷體;\">數值大於孩童年齡標準值或青春期的</span>2<span style=\"font-family:標楷體;\">個標準分數，必須考慮以</span>IGF-1/IGFBP-3<span style=\"font-family:標楷體;\">比值調整治療劑量。</span></p><p><span style=\"font-family:標楷體;\">在青春期的起始點才開始治療低出生體重兒之生長遲緩的經驗有限，因此不建議使用於此類病人。使用於合併有</span>Silver-Russell syndrome<span style=\"font-family:標楷體;\">的經驗也有限。</span></p><p><span style=\"font-family:標楷體;\">因身材矮小而使用生長激素治療低出生體重兒，若在達到最終身高之前即停止用藥，先前治療所得到的生長高度可能會失去意義。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>體液滯留</u></span></p><p><span style=\"font-family:標楷體;\">成人接受生長激素替代治療期間可能會出現預期中的體液滯留現象。</span></p><p><span style=\"font-family:標楷體;\">若出現持續性水腫或嚴重的感覺異常，則應降低劑量以避免腕隧道症候群</span>(carpal tunnel syndrome)<span style=\"font-family:標楷體;\">的發生。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>急性嚴重疾病</u></span>&nbsp;</p><p><span style=\"font-family:標楷體;\">治療期間如有急性嚴重疾病發生，應衡量生長激素治療效益與潛在危險以決定是否繼續使用。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>與口服</u></span><u>oestrogen</u><span style=\"font-family:標楷體;\"><u>併用</u></span></p><p><span style=\"font-family:標楷體;\">如果女性病人在</span>somatropin<span style=\"font-family:標楷體;\">治療時開始口服</span>oestrogen<span style=\"font-family:標楷體;\">，可能需要增加</span>somatropin<span style=\"font-family:標楷體;\">的劑量以維持血液中</span>IGF-1<span style=\"font-family:標楷體;\">的濃度在正常的適齡範圍內。相對來說，當女性在</span>somatropin<span style=\"font-family:標楷體;\">治療時停止使用</span>oestrogen<span style=\"font-family:標楷體;\">，則可能需要降低</span>somatropin<span style=\"font-family:標楷體;\">的劑量以避免產生過量的生長激素及</span>/<span style=\"font-family:標楷體;\">或副作用</span>(<span style=\"font-family:標楷體;\">請見第</span>7<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>一般注意事項</u></span></p><p><span style=\"font-family:標楷體;\">應在不同的注射部位輪流注射以避免注射部位局部脂肪組織萎縮。</span></p><p><span style=\"font-family:標楷體;\">成人生長激素分泌不足需終身的治療，但在大於六十歲以上或長期使用的資料仍有限。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n治療需由對生長激素缺乏症領域有經驗的醫師使用。 勿使用超越每日最大建議劑量。(參考第3.1節) 腫瘤 若接受生長激素治療時，病人有顱內或顱外的贅瘤，需由醫師定期監測。 如因腦瘤引起的生長激素缺乏，治療時應接受定期檢查。 報告指出，第一次腫瘤治癒後的孩童癌症病人，於接受somatropin治療後，發生第二次腫瘤的風險將提高。過去曾接受頭部放射線治療以治療腫瘤的病人，最可能發生第二次的腫瘤為顱內腫瘤，特別是腦膜腫瘤。 普瑞德威利氏症候群(Prader-Willi syndrome) 從遺傳學上已確認為普瑞德威利症候群之病童，其生長遲滯不會使用somatropin進行長期治療，但若這些病人也有生長激素缺乏的情形則除外。普瑞德威利症候群之病童在接受生長激素治療後，曾發生睡眠呼吸停止及猝死的報告，這些病童都帶有下列一項或多項危險因子：嚴重肥胖、上呼吸道阻塞或睡眠呼吸停止的病史，或未經確認的呼吸道感染。 白血病 在接受somatropin治療之生長激素缺乏的病人，有少數白血病的個案曾發生。然而，對於無易患因子(predisposing factors)的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。 胰島素的敏感度 因為somatropin會降低胰島素的敏感度，因此應監測病人是否出現葡萄糖不耐症。糖尿病病人在開始接受含有somatropin的藥物治療後應調整胰島素的劑量。糖尿病病人或葡萄糖耐受性不良的病人在somatropin治療期間應予以嚴密監測。 視網膜病變 視網膜病變穩定無惡化的情況下無須停止生長激素治療。若視網膜病變情形惡化或加重，應停止生長激素治療。 甲狀腺功能 生長激素會使週邊的T4轉換成T3，在這種情況下，可能會觀察到早期的甲狀腺功能低下症。若正服用甲狀腺治療，則可能發生輕微甲狀腺功能亢進。甲狀腺功能應在Saizen®開始治療前先行評估，並於治療期間定期檢查，一年至少一次。若在Saizen®治療期間被診斷出甲狀腺功能低下症，則應調整Saizen®劑量以矯正甲狀腺功能。 當腦下垂體功能低下的病人接受somatropin時，應嚴密監測標準替代治療(standard replacement therapy)。 良性顱內高壓 Saizen®開始治療前應定期進行眼底鏡檢查，以排除先前已存在的視乳突水腫，若臨床上有任何懷疑則應重覆進行檢查(例如有嚴重或復發性頭痛、視力問題、噁心及/或嘔吐的情況發生)。如經由眼底鏡確定有視乳突水腫則應注意是否有良性顱內壓升高(或大腦假性腫瘤[pseudotumor cerebri])的情況並停止使用Saizen®。目前並無對顱內壓上升的處置規範。若重新投予生長激素，應小心監測顱內高壓的症狀。如果再度上升，則需停止使用生長激素。 胰臟炎 發生案例罕見，但接受somatropin治療的病人應注意發生胰臟炎的可能，特別是有腹痛症狀的孩童。 脊椎側彎 已知在使用somatropin治療的ㄧ些病人族群裡，有較常見的脊椎側彎，例如Turner syndrome。此外，任何孩童的快速成長可能會導致脊椎側彎的進展。 Somatropin並未顯示會增加脊椎側彎的風險或嚴重性。在治療期間應監控脊椎側彎的徵狀。 抗體 如同所有含somatropin的藥品一樣，少數病人會對somatropin產生抗體。這些抗體的鍵結能力低，因此不會影響生長速率。若病人對治療沒有反應，則應對somatropin的抗體進行測試。 兒童病人股骨頭骺脫滑 患有內分泌疾病(包括生長激素缺乏)以及快速成長的病人，具有較高的股骨頭骺脫滑之風險。接受somatropin治療的兒童，曾有發生股骨頭骺脫滑或股骨頭缺血性壞死(含Legg-Calve-Perthes症候群)的案例。急速生長可能增加關節相關問題的風險，髖關節在青春期前的快速生長階段所承受的壓力尤甚。醫師及家長應對於接受Saizen®治療的兒童出現跛行或主訴髖部或膝蓋疼痛保持警覺。 因慢性腎衰竭之生長遲緩 因慢性腎衰竭導致之生長遲滯病人應定期接受檢查以了解腎性骨發育不全的進展情況。進階性腎性骨發育不全的兒童可能會有股骨頭骺脫滑或股骨頭無血性壞死現象發生，但不知是否與生長激素有關。在治療前應接受髖部X-ray檢查。 慢性腎衰竭兒童在治療前的腎功能已降至正常值之50%以下，為證明生長速度受到影響，必須先檢查一年內的成長情況。對於腎功能不足的治療(包括治療一年前開始進行的控制酸毒症、副甲狀腺素機能過旺及營養狀況)必須持續進行。如果進行腎臟移植時，應停止生長激素治療。 低出生體重兒 治療低出生體重兒之生長遲緩前，應排除其他藥物或治療所導致之生長遲緩。 治療低出生體重兒之生長遲緩前，應監測空腹之胰島素及血糖值，之後每年定期監測。針對糖尿病高危險群(家族性糖尿病、肥胖、BMI過高、嚴重胰島素抗阻性或黑棘皮症)，應進行口服葡萄糖測試，若發現有糖尿病，不應使用生長激素。 治療低出生體重兒之生長遲緩前，建議監測血中IGF-1數值，之後每年定期檢查兩次。若有兩次以上檢查證實IGF-1數值大於孩童年齡標準值或青春期的2個標準分數，必須考慮以IGF-1/IGFBP-3比值調整治療劑量。 在青春期的起始點才開始治療低出生體重兒之生長遲緩的經驗有限，因此不建議使用於此類病人。使用於合併有Silver-Russell syndrome的經驗也有限。 因身材矮小而使用生長激素治療低出生體重兒，若在達到最終身高之前即停止用藥，先前治療所得到的生長高度可能會失去意義。 體液滯留 成人接受生長激素替代治療期間可能會出現預期中的體液滯留現象。 若出現持續性水腫或嚴重的感覺異常，則應降低劑量以避免腕隧道症候群(carpal tunnel syndrome)的發生。 急性嚴重疾病 治療期間如有急性嚴重疾病發生，應衡量生長激素治療效益與潛在危險以決定是否繼續使用。 與口服oestrogen併用 如果女性病人在somatropin治療時開始口服oestrogen，可能需要增加somatropin的劑量以維持血液中IGF-1的濃度在正常的適齡範圍內。相對來說，當女性在somatropin治療時停止使用oestrogen，則可能需要降低somatropin的劑量以避免產生過量的生長激素及/或副作用(請見第7節)。 一般注意事項 應在不同的注射部位輪流注射以避免注射部位局部脂肪組織萎縮。 成人生長激素分泌不足需終身的治療，但在大於六十歲以上或長期使用的資料仍有限。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "含有somatropin的藥物不會影響開車及操作機械的能力。",
+          "content_html": "<p style=\"margin-left:1.0cm;\"><span style=\"font-family:標楷體;\">含有</span>somatropin<span style=\"font-family:標楷體;\">的藥物不會影響開車及操作機械的能力。</span></p>",
+          "search_text": "5.3\n操作機械能力\n含有somatropin的藥物不會影響開車及操作機械的能力。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "根據含有somatropin的藥物對動物所做的生殖研究看來，並無證據顯示其會增加對胚胎或胎兒不良反應的風險。目前尚無somatropin使用於懷孕動物的資料(見第10.3節)。因此，含有somatropin的藥物不建議使用於懷孕期間的婦女及沒有採取避孕措施的育齡期婦女。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">根據含有</span>somatropin<span style=\"font-family:標楷體;\">的藥物對動物所做的生殖研究看來，並無證據顯示其會增加對胚胎或胎兒不良反應的風險。目前尚無</span>somatropin<span style=\"font-family:標楷體;\">使用於懷孕動物的資料</span>(<span style=\"font-family:標楷體;\">見第</span>10.3<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。因此，含有</span>somatropin<span style=\"font-family:標楷體;\">的藥物不建議使用於懷孕期間的婦女及沒有採取避孕措施的育齡期婦女。</span></p>",
+          "search_text": "6.1\n懷孕\n根據含有somatropin的藥物對動物所做的生殖研究看來，並無證據顯示其會增加對胚胎或胎兒不良反應的風險。目前尚無somatropin使用於懷孕動物的資料(見第10.3節)。因此，含有somatropin的藥物不建議使用於懷孕期間的婦女及沒有採取避孕措施的育齡期婦女。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前尚無針對授乳婦女接受somatropin治療所做的臨床研究。Somatropin是否會分泌於人類乳汁中亦不清楚。因此授乳婦女使用somatropin時應小心。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無針對授乳婦女接受</span>somatropin<span style=\"font-family:標楷體;\">治療所做的臨床研究。</span>Somatropin<span style=\"font-family:標楷體;\">是否會分泌於人類乳汁中亦不清楚。因此授乳婦女使用</span>somatropin<span style=\"font-family:標楷體;\">時應小心。</span></p>",
+          "search_text": "6.2\n哺乳\n目前尚無針對授乳婦女接受somatropin治療所做的臨床研究。Somatropin是否會分泌於人類乳汁中亦不清楚。因此授乳婦女使用somatropin時應小心。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "併用(glucocorticoids)治療會抑制含有somatropin藥物對生長刺激的作用。促腎上腺皮質素(ACTH)缺乏的病人在接受glucocorticoids替代療法時，應小心調整劑量以避免生長激素的作用受到抑制。 此外，某些病人在開始生長激素替代療法時可能會因為較低的11β-hydroxysteroid dehydrogenase, type 1 (11β-HSD1) 活性而造成續發性腎上腺功能不足。11β-HSD1是一種酵素，能將不活化的cortisone轉變成cortisol。使用glucocorticoid替代療法的病人在開始使用somatropin時，可能會造成cortisol缺乏。因此可能需要調整glucocorticoid的劑量。 使用口服oestrogens替代療法的女性病人可能需要較高劑量的生長激素以達到治療目標 (請見第5.1節)。 針對生長激素缺乏的成人所做的交互作用研究顯示，somatropin可能會使經由肝臟代謝酵素cytochrome P450同功酶代謝之藥物的清除率提高。經由肝臟代謝酵素cytochrome P450 3A4代謝之藥物(例如，性荷爾蒙、皮質類固醇、抗癲癇藥及cyclosporin)的清除率可能會增加特別多，因而導致其血漿濃度下降。這在臨床上的意義則尚不清楚。 不相容性 因為缺乏相容性的研究，本品不應與其他藥物混合使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">併用</span>(glucocorticoids)<span style=\"font-family:標楷體;\">治療會抑制含有</span>somatropin<span style=\"font-family:標楷體;\">藥物對生長刺激的作用。促腎上腺皮質素</span>(ACTH)<span style=\"font-family:標楷體;\">缺乏的病人在接受</span>glucocorticoids<span style=\"font-family:標楷體;\">替代療法時，應小心調整劑量以避免生長激素的作用受到抑制。</span></p><p><span style=\"font-family:標楷體;\">此外，某些病人在開始生長激素替代療法時可能會因為較低的</span>11β-hydroxysteroid dehydrogenase, type 1 (11β-HSD1)&nbsp;<span style=\"font-family:標楷體;\">活性而造成續發性腎上腺功能不足。</span>11β-HSD1<span style=\"font-family:標楷體;\">是一種酵素，能將不活化的</span>cortisone<span style=\"font-family:標楷體;\">轉變成</span>cortisol<span style=\"font-family:標楷體;\">。使用</span>glucocorticoid<span style=\"font-family:標楷體;\">替代療法的病人在開始使用</span>somatropin<span style=\"font-family:標楷體;\">時，可能會造成</span>cortisol<span style=\"font-family:標楷體;\">缺乏。因此可能需要調整</span>glucocorticoid<span style=\"font-family:標楷體;\">的劑量。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">使用口服</span>oestrogens<span style=\"font-family:標楷體;\">替代療法的女性病人可能需要較高劑量的生長激素以達到治療目標 </span>(<span style=\"font-family:標楷體;\">請見第</span>5.1<span style=\"font-family:標楷體;\">節</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">針對生長激素缺乏的成人所做的交互作用研究顯示，</span>somatropin<span style=\"font-family:標楷體;\">可能會使經由肝臟代謝酵素</span>cytochrome P450<span style=\"font-family:標楷體;\">同功酶代謝之藥物的清除率提高。經由肝臟代謝酵素</span>cytochrome P450 3A4<span style=\"font-family:標楷體;\">代謝之藥物</span>(<span style=\"font-family:標楷體;\">例如，性荷爾蒙、皮質類固醇、抗癲癇藥及</span>cyclosporin)<span style=\"font-family:標楷體;\">的清除率可能會增加特別多，因而導致其血漿濃度下降。這在臨床上的意義則尚不清楚。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>不相容性</u></span></p><p><span style=\"font-family:標楷體;\">因為缺乏相容性的研究，本品不應與其他藥物混合使用。</span></p>",
+          "search_text": "7\n交互作用\n併用(glucocorticoids)治療會抑制含有somatropin藥物對生長刺激的作用。促腎上腺皮質素(ACTH)缺乏的病人在接受glucocorticoids替代療法時，應小心調整劑量以避免生長激素的作用受到抑制。 此外，某些病人在開始生長激素替代療法時可能會因為較低的11β-hydroxysteroid dehydrogenase, type 1 (11β-HSD1) 活性而造成續發性腎上腺功能不足。11β-HSD1是一種酵素，能將不活化的cortisone轉變成cortisol。使用glucocorticoid替代療法的病人在開始使用somatropin時，可能會造成cortisol缺乏。因此可能需要調整glucocorticoid的劑量。 使用口服oestrogens替代療法的女性病人可能需要較高劑量的生長激素以達到治療目標 (請見第5.1節)。 針對生長激素缺乏的成人所做的交互作用研究顯示，somatropin可能會使經由肝臟代謝酵素cytochrome P450同功酶代謝之藥物的清除率提高。經由肝臟代謝酵素cytochrome P450 3A4代謝之藥物(例如，性荷爾蒙、皮質類固醇、抗癲癇藥及cyclosporin)的清除率可能會增加特別多，因而導致其血漿濃度下降。這在臨床上的意義則尚不清楚。 不相容性 因為缺乏相容性的研究，本品不應與其他藥物混合使用。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "約10%的病人在注射部位會有紅腫、搔癢的情況發生，特別是以皮下注射方式注射時。 接受生長激素治療的成人，體液滯留現象的發生是可預期的。臨床上體液滯留症狀可能包括：浮腫、關節腫大、關節痛、肌肉痛或皮膚感覺異常等。這些症狀通常為暫時性且與劑量相關。 在孩童時期即診斷為生長激素分泌不足者，其副作用發生比例較成人時才診斷出者低。 少數病人會對Somatropin產生抗體。抗體對於臨床上的影響未知，抗體雖會降低生長激素的結合力，但除非是基因缺失的病人，抗體並不會影響療效。極少數的病例中，病人生長遲滯是由於生長激素基因缺失所造成，如果以生長激素治療則可能會產生減少生長效果的抗體。 生長激素缺乏的病人曾有少數發生白血病的報告，這其中有些病人為接受somatropin之治療。然而，對於無易患因子(predisposing factors)的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。 於上市後研究曾發生使用生長激素治療後有胰臟炎之案例。 在每一個發生頻率組別中，不良反應的排列順序是以嚴重度遞減的方式呈現。 依器官系統分類 常見 (≥1/100, <1/10) 不常見 (≥1/1,000, <1/100)非常罕見 (<1/10,000)頻率不明 中樞神經系統疾病頭痛(單一性的)；腕隧道症候群 (成人) 自發性顱內高壓(良性顱內高壓) 腕隧道症候群 (兒童) 肌肉骨骼及結締組織系統疾病 股骨頭骺脫滑(股骨頭脫位)或股骨頭無血性壞死(含Legg-Calve-Perthes症候群) 免疫系統疾病 局部與全身性過敏反應 內分泌系統疾病 甲狀腺功能低下症 代謝及營養疾病 成人: 體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常 孩童: 體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常 胰島素耐受性可能導致胰島素過多症和少數的高血糖症 生殖系統與乳房疾病 男性女乳症 全身性疾病及注射部位反應 注射部位反應: 局部脂肪組織萎縮(經常改變注射部位可預防其發生) 腸胃道疾病 胰臟炎",
+          "content_html": "<p><span style=\"font-family:標楷體;\">約</span>10%<span style=\"font-family:標楷體;\">的病人在注射部位會有紅腫、搔癢的情況發生，特別是以皮下注射方式注射時。</span></p><p><span style=\"font-family:標楷體;\">接受生長激素治療的成人，體液滯留現象的發生是可預期的。臨床上體液滯留症狀可能包括：浮腫、關節腫大、關節痛、肌肉痛或皮膚感覺異常等。這些症狀通常為暫時性且與劑量相關。</span></p><p><span style=\"font-family:標楷體;\">在孩童時期即診斷為生長激素分泌不足者，其副作用發生比例較成人時才診斷出者低。</span></p><p><span style=\"font-family:標楷體;\">少數病人會對</span>Somatropin<span style=\"font-family:標楷體;\">產生抗體。抗體對於臨床上的影響未知，抗體雖會降低生長激素的結合力，但除非是基因缺失的病人，抗體並不會影響療效。極少數的病例中，病人生長遲滯是由於生長激素基因缺失所造成，如果以生長激素治療則可能會產生減少生長效果的抗體。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">生長激素缺乏的病人曾有少數發生白血病的報告，這其中有些病人為接受</span>somatropin<span style=\"font-family:標楷體;\">之治療。然而，對於無易患因子</span>(predisposing factors)<span style=\"font-family:標楷體;\">的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">於上市後研究曾發生使用生長激素治療後有胰臟炎之案例。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">在每一個發生頻率組別中，不良反應的排列順序是以嚴重度遞減的方式呈現。</span></p><figure class=\"table\"><table style=\"border-color:Black;border-style:solid;\"><tbody><tr><td style=\"border:1.0pt solid Black;height:28.55pt;padding:0cm 5.4pt;text-align:center;vertical-align:top;width:99.25pt;\"><span style=\"font-family:標楷體;\">依器官系統分類</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><p><span style=\"font-family:標楷體;\">常見</span></p><p>(≥1/100, &lt;1/10)</p></td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">不常見</span><br>(≥1/1,000, &lt;1/100)</td><td style=\"border:1.0pt solid Black;height:28.55pt;padding:0cm 5.4pt;text-align:center;vertical-align:top;width:70.9pt;\"><span style=\"font-family:標楷體;\">非常罕見</span><br>(&lt;1/10,000)</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">頻率不明</span></td></tr><tr><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">中樞神經系統疾病</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">頭痛</span>(<span style=\"font-family:標楷體;\">單一性的</span>)<span style=\"font-family:標楷體;\">；腕隧道症候群</span> (<span style=\"font-family:標楷體;\">成人</span>)</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><p><span style=\"font-family:標楷體;\">自發性顱內高壓</span>(<span style=\"font-family:標楷體;\">良性顱內高壓</span>)</p><p><span style=\"font-family:標楷體;\">腕隧道症候群</span> (<span style=\"font-family:標楷體;\">兒童</span>)</p></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">肌肉骨骼及結締組織系統疾病</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">股骨頭骺脫滑</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">股骨頭脫位</span><span style=\"color:black;\">)</span><span style=\"font-family:標楷體;\">或股骨頭無血性壞死</span><span style=\"color:black;\">(含Legg-Calve-Perthes症候群)</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">免疫系統疾病</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">局部與全身性過敏反應</span></td></tr><tr><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">內分泌系統疾病</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">甲狀腺功能低下症</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">代謝及營養疾病</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><p><span style=\"font-family:標楷體;\">成人</span>:</p><p><span style=\"font-family:標楷體;\">體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常</span></p></td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><p><span style=\"font-family:標楷體;\">孩童</span>:</p><p><span style=\"font-family:標楷體;\">體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常</span></p></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">胰島素耐受性可能導致胰島素過多症和少數的高血糖症</span></td></tr><tr><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">生殖系統與乳房疾病</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">男性女乳症</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;\"><span style=\"font-family:標楷體;\">全身性疾病及注射部位反應</span></td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><p><span style=\"font-family:標楷體;\">注射部位反應</span>:</p><p><span style=\"font-family:標楷體;\">局部脂肪組織萎縮</span>(<span style=\"font-family:標楷體;\">經常改變注射部位可預防其發生</span>)</p></td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td></tr><tr><td style=\"border-color:Black;border-style:solid;\"><span style=\"font-family:標楷體;\">腸胃道疾病</span></td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;\">&nbsp;</td><td style=\"border-color:Black;border-style:solid;text-align:center;\"><span style=\"font-family:標楷體;\">胰臟炎</span></td></tr></tbody></table></figure>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n約10%的病人在注射部位會有紅腫、搔癢的情況發生，特別是以皮下注射方式注射時。 接受生長激素治療的成人，體液滯留現象的發生是可預期的。臨床上體液滯留症狀可能包括：浮腫、關節腫大、關節痛、肌肉痛或皮膚感覺異常等。這些症狀通常為暫時性且與劑量相關。 在孩童時期即診斷為生長激素分泌不足者，其副作用發生比例較成人時才診斷出者低。 少數病人會對Somatropin產生抗體。抗體對於臨床上的影響未知，抗體雖會降低生長激素的結合力，但除非是基因缺失的病人，抗體並不會影響療效。極少數的病例中，病人生長遲滯是由於生長激素基因缺失所造成，如果以生長激素治療則可能會產生減少生長效果的抗體。 生長激素缺乏的病人曾有少數發生白血病的報告，這其中有些病人為接受somatropin之治療。然而，對於無易患因子(predisposing factors)的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。 於上市後研究曾發生使用生長激素治療後有胰臟炎之案例。 在每一個發生頻率組別中，不良反應的排列順序是以嚴重度遞減的方式呈現。 依器官系統分類 常見 (≥1/100, <1/10) 不常見 (≥1/1,000, <1/100)非常罕見 (<1/10,000)頻率不明 中樞神經系統疾病頭痛(單一性的)；腕隧道症候群 (成人) 自發性顱內高壓(良性顱內高壓) 腕隧道症候群 (兒童) 肌肉骨骼及結締組織系統疾病 股骨頭骺脫滑(股骨頭脫位)或股骨頭無血性壞死(含Legg-Calve-Perthes症候群) 免疫系統疾病 局部與全身性過敏反應 內分泌系統疾病 甲狀腺功能低下症 代謝及營養疾病 成人: 體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常 孩童: 體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常 胰島素耐受性可能導致胰島素過多症和少數的高血糖症 生殖系統與乳房疾病 男性女乳症 全身性疾病及注射部位反應 注射部位反應: 局部脂肪組織萎縮(經常改變注射部位可預防其發生) 腸胃道疾病 胰臟炎",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "並無急性過量之案例發生。使用超過建議用量的藥品，則可能造成副作用。過量時可能導致血糖值降低繼之以血糖值升高。此外，注射過量有可能呈現出體液滯留現象。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">並無急性過量之案例發生。使用超過建議用量的藥品，則可能造成副作用。過量時可能導致血糖值降低繼之以血糖值升高。此外，注射過量有可能呈現出體液滯留現象。</span></p>",
+          "search_text": "9\n過量\n並無急性過量之案例發生。使用超過建議用量的藥品，則可能造成副作用。過量時可能導致血糖值降低繼之以血糖值升高。此外，注射過量有可能呈現出體液滯留現象。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "Saizen®是一種同化及抗異化劑，不僅可促進生長也可改變體組成及代謝。它可與各種的細胞包括肌細胞、肝細胞、脂肪細胞、淋巴細胞、造血細胞上的專一性接受器結合，它的部分作用是經由介質somatomedins (IGF-1、IGF-2)達成。 依劑量不同，使用Saizen®可誘導IGF-1、IGFBP-3、非酯化脂肪酸及甘油上升、降低血中尿素、尿中含氮量及鈉、鉀的排出。生長激素濃度上升的時間長短可決定其造成的效果大小。若使用高劑量可能造成Saizen®作用效果的飽和現象。只有在使用高劑量(每次20 mg)才會出現血糖過多或C-胜肽排出。",
+          "content_html": "<p>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">是一種同化及抗異化劑，不僅可促進生長也可改變體組成及代謝。它可與各種的細胞包括肌細胞、肝細胞、脂肪細胞、淋巴細胞、造血細胞上的專一性接受器結合，它的部分作用是經由介質</span>somatomedins (IGF-1<span style=\"font-family:標楷體;\">、</span>IGF-2)<span style=\"font-family:標楷體;\">達成。</span></p><p><span style=\"font-family:標楷體;\">依劑量不同，使用</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">可誘導</span>IGF-1<span style=\"font-family:標楷體;\">、</span>IGFBP-3<span style=\"font-family:標楷體;\">、非酯化脂肪酸及甘油上升、降低血中尿素、尿中含氮量及鈉、鉀的排出。生長激素濃度上升的時間長短可決定其造成的效果大小。若使用高劑量可能造成</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">作用效果的飽和現象。只有在使用高劑量</span>(<span style=\"font-family:標楷體;\">每次</span>20 mg)<span style=\"font-family:標楷體;\">才會出現血糖過多或</span>C-<span style=\"font-family:標楷體;\">胜肽排出。</span></p>",
+          "search_text": "10.1\n作用機轉\nSaizen®是一種同化及抗異化劑，不僅可促進生長也可改變體組成及代謝。它可與各種的細胞包括肌細胞、肝細胞、脂肪細胞、淋巴細胞、造血細胞上的專一性接受器結合，它的部分作用是經由介質somatomedins (IGF-1、IGF-2)達成。 依劑量不同，使用Saizen®可誘導IGF-1、IGFBP-3、非酯化脂肪酸及甘油上升、降低血中尿素、尿中含氮量及鈉、鉀的排出。生長激素濃度上升的時間長短可決定其造成的效果大小。若使用高劑量可能造成Saizen®作用效果的飽和現象。只有在使用高劑量(每次20 mg)才會出現血糖過多或C-胜肽排出。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥理分類：腦下垂體前葉荷爾蒙類似劑，ATC code：H01AC01 Saizen®含有以基因工程方式於哺乳類動物細胞中製備而得的重組人類生長激素。 它由191個氨基酸組成，其氨基酸排序、組成、氨基酸圖譜、等電點、分子量、同分異構構造與生物活性等皆與人類腦下垂體分泌之生長激素相同。 Saizen®由加入鼠科細胞經轉植腦下垂體生長激素的基因所合成的。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥理分類：腦下垂體前葉荷爾蒙類似劑，</span>ATC code<span style=\"font-family:標楷體;\">：</span>H01AC01</p><p>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">含有以基因工程方式於哺乳類動物細胞中製備而得的重組人類生長激素。</span></p><p><span style=\"font-family:標楷體;\">它由</span>191<span style=\"font-family:標楷體;\">個氨基酸組成，其氨基酸排序、組成、氨基酸圖譜、等電點、分子量、同分異構構造與生物活性等皆與人類腦下垂體分泌之生長激素相同。</span></p><p>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">由加入鼠科細胞經轉植腦下垂體生長激素的基因所合成的。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n藥理分類：腦下垂體前葉荷爾蒙類似劑，ATC code：H01AC01 Saizen®含有以基因工程方式於哺乳類動物細胞中製備而得的重組人類生長激素。 它由191個氨基酸組成，其氨基酸排序、組成、氨基酸圖譜、等電點、分子量、同分異構構造與生物活性等皆與人類腦下垂體分泌之生長激素相同。 Saizen®由加入鼠科細胞經轉植腦下垂體生長激素的基因所合成的。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "Saizen®注射劑以8.00 mg/ml的濃度及每個注射部位1 ml之劑量注射於動物時，可發現其局部耐受性佳且適合以皮下注射給藥。 根據傳統的藥理安全性研究、單劑量及多劑量之毒性研究，及遺傳毒性研究的非臨床資料顯示，本品對人類並無特殊危險。但並未進行正式的致癌性研究。這是考量蛋白質的特性，且其遺傳毒性檢測呈陰性反應所作的判定。基因重組人類生長激素(r-hGH)對於先前已存在的腫瘤之生長情況的潛在影響已進行體外及體內試驗評估，其結果顯示，基因重組人類生長激素並不會讓病人長出腫瘤或刺激原有的腫瘤。雖然使用劑量已足以產生生長藥理作用的劑量，生殖系統毒性試驗並無任何副作用發生。",
+          "content_html": "<p>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">注射劑以</span>8.00 mg/ml<span style=\"font-family:標楷體;\">的濃度及每個注射部位</span>1 ml<span style=\"font-family:標楷體;\">之劑量注射於動物時，可發現其局部耐受性佳且適合以皮下注射給藥。</span></p><p><span style=\"font-family:標楷體;\">根據傳統的藥理安全性研究、單劑量及多劑量之毒性研究，及遺傳毒性研究的非臨床資料顯示，本品對人類並無特殊危險。但並未進行正式的致癌性研究。這是考量蛋白質的特性，且其遺傳毒性檢測呈陰性反應所作的判定。基因重組人類生長激素</span>(r-hGH)<span style=\"font-family:標楷體;\">對於先前已存在的腫瘤之生長情況的潛在影響已進行體外及體內試驗評估，其結果顯示，基因重組人類生長激素並不會讓病人長出腫瘤或刺激原有的腫瘤。雖然使用劑量已足以產生生長藥理作用的劑量，生殖系統毒性試驗並無任何副作用發生。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\nSaizen®注射劑以8.00 mg/ml的濃度及每個注射部位1 ml之劑量注射於動物時，可發現其局部耐受性佳且適合以皮下注射給藥。 根據傳統的藥理安全性研究、單劑量及多劑量之毒性研究，及遺傳毒性研究的非臨床資料顯示，本品對人類並無特殊危險。但並未進行正式的致癌性研究。這是考量蛋白質的特性，且其遺傳毒性檢測呈陰性反應所作的判定。基因重組人類生長激素(r-hGH)對於先前已存在的腫瘤之生長情況的潛在影響已進行體外及體內試驗評估，其結果顯示，基因重組人類生長激素並不會讓病人長出腫瘤或刺激原有的腫瘤。雖然使用劑量已足以產生生長藥理作用的劑量，生殖系統毒性試驗並無任何副作用發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "使用Saizen® 8 IU(2.67 mg)以下的劑量，藥物動力學呈線性比例增加。使用高劑量(60 IU/20 mg)則不排除有非線性藥物動力學出現，但與臨床並無相關性。 健康受試者以IV注射Saizen®後，達到穩定期後之分佈體積為7公升，總代謝清除率為15公升/小時。腎臟清除率可忽略。藥品清除半衰期為20~35分鐘。 在單一劑量皮下或肌肉注射Saizen®時，最終半衰期較長約為2~4小時，這是因為速率限制吸收過程所造成。 以皮下或肌肉注射Saizen®其絕對生體可用率為70~90%。 注射Saizen®四小時後，達到血中最高生長激素濃度，在24小時內會回到基準線，顯示在重複投與後並不會造成體內生長激素蓄積的現象。 以皮下注射給藥的Saizen®注射劑(5.83及8.00 mg/ml)和8 mg凍晶配方具有生體相等性。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">使用</span>Saizen<sup>®</sup> 8 IU(2.67 mg)<span style=\"font-family:標楷體;\">以下的劑量，藥物動力學呈線性比例增加。使用高劑量</span>(60 IU/20 mg)<span style=\"font-family:標楷體;\">則不排除有非線性藥物動力學出現，但與臨床並無相關性。</span></p><p><span style=\"font-family:標楷體;\">健康受試者以</span>IV<span style=\"font-family:標楷體;\">注射</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">後，達到穩定期後之分佈體積為</span>7<span style=\"font-family:標楷體;\">公升，總代謝清除率為</span>15<span style=\"font-family:標楷體;\">公升</span>/<span style=\"font-family:標楷體;\">小時。腎臟清除率可忽略。藥品清除半衰期為</span>20~35<span style=\"font-family:標楷體;\">分鐘。</span></p><p><span style=\"font-family:標楷體;\">在單一劑量皮下或肌肉注射</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">時，最終半衰期較長約為</span>2~4<span style=\"font-family:標楷體;\">小時，這是因為速率限制吸收過程所造成。</span></p><p><span style=\"font-family:標楷體;\">以皮下或肌肉注射</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">其絕對生體可用率為</span>70~90%<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">注射</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">四小時後，達到血中最高生長激素濃度，在</span>24<span style=\"font-family:標楷體;\">小時內會回到基準線，顯示在重複投與後並不會造成體內生長激素蓄積的現象。</span></p><p><span style=\"font-family:標楷體;\">以皮下注射給藥的</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">注射劑</span>(5.83<span style=\"font-family:標楷體;\">及</span>8.00 mg/ml)<span style=\"font-family:標楷體;\">和</span>8 mg<span style=\"font-family:標楷體;\">凍晶配方具有生體相等性。</span></p>",
+          "search_text": "11\n藥物動力學特性\n使用Saizen® 8 IU(2.67 mg)以下的劑量，藥物動力學呈線性比例增加。使用高劑量(60 IU/20 mg)則不排除有非線性藥物動力學出現，但與臨床並無相關性。 健康受試者以IV注射Saizen®後，達到穩定期後之分佈體積為7公升，總代謝清除率為15公升/小時。腎臟清除率可忽略。藥品清除半衰期為20~35分鐘。 在單一劑量皮下或肌肉注射Saizen®時，最終半衰期較長約為2~4小時，這是因為速率限制吸收過程所造成。 以皮下或肌肉注射Saizen®其絕對生體可用率為70~90%。 注射Saizen®四小時後，達到血中最高生長激素濃度，在24小時內會回到基準線，顯示在重複投與後並不會造成體內生長激素蓄積的現象。 以皮下注射給藥的Saizen®注射劑(5.83及8.00 mg/ml)和8 mg凍晶配方具有生體相等性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "一項隨機設計臨床試驗顯示，對於低出生體重、青春期前的孩童，每天給予0.067 mg/kg治療三年後，平均可獲得+1.8個標準分數的高度。若中斷治療三年以上，將損失部分治療所得的效益，但病人到最終高度時能維持+0.7個標準分數的高度(具統計意義，p<0.01)。經不同長短時間的觀察期後，接受第二次療程的病人達到最終高度時平均獲得+1.3個標準分數(p=0.001)(累積的治療期平均為6.1年)。後組接受治療所得的平均標準分數的高度(+1.3±1.1)相較於前一組接受三年治療所得的平均標準分數的高度(+0.7±0.8)，具有統計意義的差異(p<0.05)。 另一項臨床試驗評估兩種不同方式的間斷式給藥治療法，一組每天給予0.067 mg/kg的劑量，持續使用2年後追蹤兩年；另一組在第一、第三年每天給予0.067 mg/kg的劑量，第二、第四年不給藥，四年後試驗終了時，兩組皆顯示生長速度加快，分別獲得+1.55個標準分數(p<0.0001)及+1.43個標準分數(p<0.0001)的結果。長期使用之安全性資料有限。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">一項隨機設計臨床試驗顯示，對於低出生體重、青春期前的孩童，每天給予</span>0.067 mg/kg<span style=\"font-family:標楷體;\">治療三年後，平均可獲得</span>+1.8<span style=\"font-family:標楷體;\">個標準分數的高度。若中斷治療三年以上，將損失部分治療所得的效益，但病人到最終高度時能維持</span>+0.7<span style=\"font-family:標楷體;\">個標準分數的高度</span>(<span style=\"font-family:標楷體;\">具統計意義，</span>p&lt;0.01)<span style=\"font-family:標楷體;\">。經不同長短時間的觀察期後，接受第二次療程的病人達到最終高度時平均獲得</span>+1.3<span style=\"font-family:標楷體;\">個標準分數</span>(p=0.001)(<span style=\"font-family:標楷體;\">累積的治療期平均為</span>6.1<span style=\"font-family:標楷體;\">年</span>)<span style=\"font-family:標楷體;\">。後組接受治療所得的平均標準分數的高度</span>(+1.3±1.1)<span style=\"font-family:標楷體;\">相較於前一組接受三年治療所得的平均標準分數的高度</span>(+0.7±0.8)<span style=\"font-family:標楷體;\">，具有統計意義的差異</span>(p&lt;0.05)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">另一項臨床試驗評估兩種不同方式的間斷式給藥治療法，一組每天給予</span>0.067 mg/kg<span style=\"font-family:標楷體;\">的劑量，持續使用</span>2<span style=\"font-family:標楷體;\">年後追蹤兩年；另一組在第一、第三年每天給予</span>0.067 mg/kg<span style=\"font-family:標楷體;\">的劑量，第二、第四年不給藥，四年後試驗終了時，兩組皆顯示生長速度加快，分別獲得</span>+1.55<span style=\"font-family:標楷體;\">個標準分數</span>(p&lt;0.0001)<span style=\"font-family:標楷體;\">及</span>+1.43<span style=\"font-family:標楷體;\">個標準分數</span>(p&lt;0.0001)<span style=\"font-family:標楷體;\">的結果。長期使用之安全性資料有限。</span></p>",
+          "search_text": "12\n臨床試驗資料\n一項隨機設計臨床試驗顯示，對於低出生體重、青春期前的孩童，每天給予0.067 mg/kg治療三年後，平均可獲得+1.8個標準分數的高度。若中斷治療三年以上，將損失部分治療所得的效益，但病人到最終高度時能維持+0.7個標準分數的高度(具統計意義，p<0.01)。經不同長短時間的觀察期後，接受第二次療程的病人達到最終高度時平均獲得+1.3個標準分數(p=0.001)(累積的治療期平均為6.1年)。後組接受治療所得的平均標準分數的高度(+1.3±1.1)相較於前一組接受三年治療所得的平均標準分數的高度(+0.7±0.8)，具有統計意義的差異(p<0.05)。 另一項臨床試驗評估兩種不同方式的間斷式給藥治療法，一組每天給予0.067 mg/kg的劑量，持續使用2年後追蹤兩年；另一組在第一、第三年每天給予0.067 mg/kg的劑量，第二、第四年不給藥，四年後試驗終了時，兩組皆顯示生長速度加快，分別獲得+1.55個標準分數(p<0.0001)及+1.43個標準分數(p<0.0001)的結果。長期使用之安全性資料有限。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "藥品容器為無色第I類玻璃所製成的藥匣瓶，封口處為bromobutyl材質橡皮塞並套上有單層 bromobutyl 橡皮內層的鋁蓋。Saizen® 5.83mg/ml注射液有下列幾種包裝： 1支裝：每支含1.03毫升溶液(6毫克somatropin)",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥品容器為無色第</span>I<span style=\"font-family:標楷體;\">類玻璃所製成的藥匣瓶，封口處為</span>bromobutyl<span style=\"font-family:標楷體;\">材質橡皮塞並套上有單層</span> bromobutyl&nbsp;<span style=\"font-family:標楷體;\">橡皮內層的鋁蓋。</span>Saizen<sup>®</sup> 5.83mg/ml<span style=\"font-family:標楷體;\">注射液有下列幾種包裝：</span></p><p>1<span style=\"font-family:標楷體;\">支裝：每支含</span>1.03<span style=\"font-family:標楷體;\">毫升溶液</span>(6<span style=\"font-family:標楷體;\">毫克</span>somatropin)&nbsp;</p>",
+          "search_text": "13.1\n包裝\n藥品容器為無色第I類玻璃所製成的藥匣瓶，封口處為bromobutyl材質橡皮塞並套上有單層 bromobutyl 橡皮內層的鋁蓋。Saizen® 5.83mg/ml注射液有下列幾種包裝： 1支裝：每支含1.03毫升溶液(6毫克somatropin)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "請詳見外盒。 從物理、化學與微生物的觀點來看，本品在使用中的安定性，可於2 - 8°C 下維持28天；其中可達7 天最高25°C。 其他關於使用狀態下的儲存時間及條件為使用者之責任。 在首次注射後，Saizen® cartridge、裝有Saizen® cartridge的easypod自動注射器或是裝有Saizen® cartridge的Aluetta Pen Injector必須存放在冰箱(2 - 8°C)，最長達28天；其中離開冰箱可達7 天最高25°C。當存放在冰箱以外達7天後，Saizen® cartridge必須回到冰箱，直到首次注射後的28天為止。不可冰凍。28天後剩餘的藥品必須丟棄。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">請詳見外盒。</span></p><p><span style=\"font-family:標楷體;\">從物理、化學與微生物的觀點來看，本品在使用中的安定性，可於</span>2 - 8°C&nbsp;<span style=\"font-family:標楷體;\">下維持</span>28<span style=\"font-family:標楷體;\">天；其中可達</span>7&nbsp;<span style=\"font-family:標楷體;\">天最高</span>25°C<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">其他關於使用狀態下的儲存時間及條件為使用者之責任。</span></p><p><span style=\"font-family:標楷體;\">在首次注射後，</span>Saizen<sup>®</sup> cartridge<span style=\"font-family:標楷體;\">、裝有</span>Saizen<sup>®</sup> cartridge<span style=\"font-family:標楷體;\">的</span>easypod<span style=\"font-family:標楷體;\">自動注射器或是裝有</span>Saizen<sup>®</sup> cartridge<span style=\"font-family:標楷體;\">的</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">必須存放在冰箱</span>(2 - 8°C)<span style=\"font-family:標楷體;\">，最長達</span>28<span style=\"font-family:標楷體;\">天；其中離開冰箱可達</span>7&nbsp;<span style=\"font-family:標楷體;\">天最高</span>25°C<span style=\"font-family:標楷體;\">。當存放在冰箱以外達</span>7<span style=\"font-family:標楷體;\">天後，</span>Saizen<sup>®</sup> cartridge<span style=\"font-family:標楷體;\">必須回到冰箱，直到首次注射後的</span>28<span style=\"font-family:標楷體;\">天為止。不可冰凍。</span>28<span style=\"font-family:標楷體;\">天後剩餘的藥品必須丟棄。</span></p>",
+          "search_text": "13.2\n效期\n請詳見外盒。 從物理、化學與微生物的觀點來看，本品在使用中的安定性，可於2 - 8°C 下維持28天；其中可達7 天最高25°C。 其他關於使用狀態下的儲存時間及條件為使用者之責任。 在首次注射後，Saizen® cartridge、裝有Saizen® cartridge的easypod自動注射器或是裝有Saizen® cartridge的Aluetta Pen Injector必須存放在冰箱(2 - 8°C)，最長達28天；其中離開冰箱可達7 天最高25°C。當存放在冰箱以外達7天後，Saizen® cartridge必須回到冰箱，直到首次注射後的28天為止。不可冰凍。28天後剩餘的藥品必須丟棄。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "藥品保存於2-8oC。不可冰凍。請置於原包裝盒中避光儲存。 當Eeasypod 自動注射器或Aluetta Pen Injector裝入Saizen®藥匣，則必須一同儲存於冰箱(2°C-8°C)。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥品保存於</span>2-8<sup>o</sup>C<span style=\"font-family:標楷體;\">。不可冰凍。請置於原包裝盒中避光儲存。</span></p><p><span style=\"font-family:標楷體;\">當</span>Eeasypod&nbsp;<span style=\"font-family:標楷體;\">自動注射器或</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">裝入</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">藥匣，則必須</span><span style=\"color:black;font-family:標楷體;\">一同</span><span style=\"font-family:標楷體;\">儲存於冰箱</span>(2°C-8°C)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "13.3\n儲存條件\n藥品保存於2-8oC。不可冰凍。請置於原包裝盒中避光儲存。 當Eeasypod 自動注射器或Aluetta Pen Injector裝入Saizen®藥匣，則必須一同儲存於冰箱(2°C-8°C)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "注射Saizen®前，請先詳細閱讀下列資訊。 本品長期注射於同一個部位可能會造成傷害。不斷更換注射部位是很重要的。您的醫師或藥師會告訴您適合注射的部位。請勿注射於可以感覺出腫塊、結節、凹陷或疼痛的任何部位；若您發現任何問題，請告訴您的醫師或藥師。注射部位應以肥皂及清水清潔之。 內含Saizen®注射劑的藥匣可配合easypod自動注射器或Aluetta Pen Injector使用。 每一種Saizen®注射劑的藥匣皆以不同顏色編碼，必須與相同顏色編碼的Aluetta Pen Injector搭配使用以提供正確的劑量。裝有6mg somatropin (藍色)的藥匣必須與Aluetta Pen Injector 6 (藍色)搭配使用。 裝配注射劑所需的任何配件應放在清潔的桌面上，並以肥皂及清水洗淨的雙手操作之。 注射劑必須為澄清至淡乳白色，不得有顆粒，也不可出現肉眼可見的變質徵兆。 若溶液中含有顆粒，則不可用於注射。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">注射</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">前，請先詳細閱讀下列資訊。</span></p><p><span style=\"font-family:標楷體;\">本品長期注射於同一個部位可能會造成傷害。不斷更換注射部位是很重要的。您的醫師或藥師會告訴您適合注射的部位。請勿注射於可以感覺出腫塊、結節、凹陷或疼痛的任何部位；若您發現任何問題，請告訴您的醫師或藥師。注射部位應以肥皂及清水清潔之。</span></p><p><span style=\"font-family:標楷體;\">內含</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">注射劑的藥匣可配合</span>easypod<span style=\"font-family:標楷體;\">自動注射器或</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">使用。</span></p><p><span style=\"font-family:標楷體;\">每一種</span>Saizen<sup>®</sup><span style=\"font-family:標楷體;\">注射劑的藥匣皆以不同顏色編碼，必須與相同顏色編碼的</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">搭配使用以提供正確的劑量。裝有</span>6mg somatropin (<span style=\"font-family:標楷體;\">藍色</span>)<span style=\"font-family:標楷體;\">的藥匣必須與</span>Aluetta Pen Injector 6 (<span style=\"font-family:標楷體;\">藍色</span>)<span style=\"font-family:標楷體;\">搭配使用。</span></p><p><span style=\"color:black;font-family:標楷體;\">裝配注射劑所需的任何配件應放在清潔的桌面上，並以肥皂及清水洗淨的雙手操作之。</span><span style=\"color:black;\">&nbsp;</span></p><p><span style=\"font-family:標楷體;\">注射劑必須為澄清至淡乳白色，不得有顆粒，也不可出現肉眼可見的變質徵兆。</span></p><p><span style=\"font-family:標楷體;\">若溶液中含有顆粒，則不可用於注射。</span></p>",
+          "search_text": "14\n病人使用須知\n注射Saizen®前，請先詳細閱讀下列資訊。 本品長期注射於同一個部位可能會造成傷害。不斷更換注射部位是很重要的。您的醫師或藥師會告訴您適合注射的部位。請勿注射於可以感覺出腫塊、結節、凹陷或疼痛的任何部位；若您發現任何問題，請告訴您的醫師或藥師。注射部位應以肥皂及清水清潔之。 內含Saizen®注射劑的藥匣可配合easypod自動注射器或Aluetta Pen Injector使用。 每一種Saizen®注射劑的藥匣皆以不同顏色編碼，必須與相同顏色編碼的Aluetta Pen Injector搭配使用以提供正確的劑量。裝有6mg somatropin (藍色)的藥匣必須與Aluetta Pen Injector 6 (藍色)搭配使用。 裝配注射劑所需的任何配件應放在清潔的桌面上，並以肥皂及清水洗淨的雙手操作之。 注射劑必須為澄清至淡乳白色，不得有顆粒，也不可出現肉眼可見的變質徵兆。 若溶液中含有顆粒，則不可用於注射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "每日如何自行注射Saizen® 關於藥匣如何套上easypod自動注射器或Aluetta Pen Injector，以及如何注射Saizen®注射劑，請詳細閱讀每種注射器所附上的使用說明書。 Easypod的自行操作者主要為7歲以上的兒童及成人。兒童使用本注射器時， 應在大人的監督下使用。 丟棄及其他處理方式之注意事項 藥匣中包含Saizen® 5.83mg /ml溶液，須與Easypod自動注射器或Aluetta Pen Injector搭配使用。 含有藥匣之注射器的儲存方式請參見第13.3節。 任何未使用完之藥品或廢棄物請依當地規定處置。 資料修訂日期：2026年7月；EU SmPC Dec 2025 & CCDS v5.0",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>每日如何自行注射</strong></span><strong>Saizen<sup>®</sup></strong></p><p><span style=\"font-family:標楷體;\">關於藥匣如何套上</span>easypod<span style=\"font-family:標楷體;\">自動注射器或</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">，以及如何注射</span>Saizen<strong><sup>®</sup></strong><span style=\"font-family:標楷體;\">注射劑，請詳細閱讀每種注射器所附上的使用說明書。</span></p><p>Easypod<span style=\"font-family:標楷體;\">的自行操作者主要為</span>7<span style=\"font-family:標楷體;\">歲以上的兒童及成人。兒童使用本注射器時，</span></p><p><span style=\"font-family:標楷體;\">應在大人的監督下使用。</span></p><p><span style=\"font-family:標楷體;\"><strong>丟棄及其他處理方式之注意事項</strong></span></p><p><span style=\"font-family:標楷體;\">藥匣中包含</span>Saizen<sup>®</sup> 5.83mg /ml<span style=\"font-family:標楷體;\">溶液，須與</span>Easypod<span style=\"font-family:標楷體;\">自動注射器或</span>Aluetta Pen Injector<span style=\"font-family:標楷體;\">搭配使用。</span></p><p><span style=\"font-family:標楷體;\">含有藥匣之注射器的儲存方式請參見第</span>13.3<span style=\"font-family:標楷體;\">節。</span>&nbsp; &nbsp;</p><p>&nbsp;<span style=\"font-family:標楷體;\">任何未使用完之藥品或廢棄物請依當地規定處置。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">資料修訂日期：2026年7月；EU SmPC Dec 2025 &amp; CCDS v5.0</span></p>",
+          "search_text": "15\n其他\n每日如何自行注射Saizen® 關於藥匣如何套上easypod自動注射器或Aluetta Pen Injector，以及如何注射Saizen®注射劑，請詳細閱讀每種注射器所附上的使用說明書。 Easypod的自行操作者主要為7歲以上的兒童及成人。兒童使用本注射器時， 應在大人的監督下使用。 丟棄及其他處理方式之注意事項 藥匣中包含Saizen® 5.83mg /ml溶液，須與Easypod自動注射器或Aluetta Pen Injector搭配使用。 含有藥匣之注射器的儲存方式請參見第13.3節。 任何未使用完之藥品或廢棄物請依當地規定處置。 資料修訂日期：2026年7月；EU SmPC Dec 2025 & CCDS v5.0",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n帥健®注射劑 5.83毫克/毫升。 每支藥匣含有1.03毫升溶液(6毫克Somatropin*) *基因重組人類生長激素乃利用哺乳動物細胞以基因重組技術製造而成。\n1.2\n賦形劑\nSucrose, Poloxamer 188, Phenol, Citric Acid 2.5%, Citrate Buffer 10 mM\n1.3\n劑型\n注射液。\n1.4\n藥品外觀\n澄清至淡乳白色的溶液，pH值為5.6-6.6，滲透壓為250-450 mOsm/kg。\n2\n適應症\n孩童及青少年: - 腦下垂體生長激素分泌不足所導致之生長遲滯 - 其他Gonadol Dysgenesis (Turner’s syndrome)所導致之生長遲滯 - 青春期前因慢性腎臟衰竭導致之生長遲滯 - 低出生體重兒(Small for Gestational Age; SGA)逾四歲者之生長障礙 說明：低出生體重兒(small for gestational age, SGA)之生長障礙(目前的身高標準差評分[SDS]< -2.5且經校正父母親的身高後其身高SDS仍小於-1)，照姙娠週數來看，他們生來個子就很小(體重或身長低於-2SD)， 到四歲或更大時生長仍未趕上同齡兒童(最近一年內HV SDS< 0)。 成人: - 成人生長激素嚴重分泌不足之補充療法 說明：成人生長激素嚴重分泌不足之補充療法需經診斷後證實為生長激素缺乏。 病人需符合下列條件： 孩童時期發生：在孩童時期即診斷為生長激素分泌不足者，在成年後繼續生長激素補充療法前需再次檢查，確定生長激素仍分泌不足。 成人時期發生：開始生長激素補充療法前需經診斷為因下視丘或腦下垂體疾病造成的生長激素分泌不足及至少一種荷爾蒙缺乏(除prolactin)診斷確定，在適當的取代治療前使用生長激素。\n3\n用法及用量\n3.1\n用法用量\nSaizen® 5.83 mg/ml為供單一病人使用的多劑量藥物。 一般建議應於晚上睡前注射，並以下列劑量使用： 孩童及青少年: 用量依病人個別的體表面積或體重計算注射劑量。 因內生性生長激素分泌不足引起的生長遲滯：每天以0.7~1.0毫克/平方公尺體表面積或0.025~0.035毫克/公斤體重皮下注射。 其他Gonadol Dysgenesis (Turner syndrome)所導致之生長遲滯：每天以1.4 mg/平方公尺體表面積或0.045~0.050 mg/公斤體重皮下注射。若同時使用non-androgenic anabolic steroids，將會增加治療效果。 青春期前因慢性腎臟衰竭導致之生長遲滯：每天以1.4 mg/平方公尺體表面積或0.045~0.050 mg/公斤體重皮下注射。 低出生體重兒之生長遲緩：每天給予0.035 mg/公斤體重(或1 mg/平方公尺體表面積/每天，相當於0.1 IU/公斤體重/每天或3 IU/平方公尺體表面積/每天)皮下注射。 當身高達到理想之成人高度或骨骺已閉合時，應停止治療。 治療低出生體重兒之生長遲緩，治療通常持續至該孩童達到最終高度為止。若治療的第一年生長速率低於1個標準差評分，則應停止治療。當孩童達到最終高度(每年生長速率小於2公分)且需要時經確認其骨齡已達骨骺閉合年齡(女生大於14歲或男生大於16歲)時，應停止治療。 成人： 成人生長激素嚴重分泌不足之補充療法 開始治療時，建議每日以0.15~0.3 mg低劑量皮下注射治療。治療劑量可依Insulin-like Growth Factor 1 (IGF-1)值逐步調整。最終建議劑量很少超過1.0 mg/每天。一般而言只需使用最低有效劑量。如果使用者為老人或體重過重者，應選擇較低劑量使用。\n3.2\n調製方式\nSaizen®藥品調配用法，請詳閱藥品仿單說明及參照挑選的injector 使用方法: Easypod auto-injector或Aluetta Pen Injector使用說明書。 Easypod的自行操作者主要為7歲以上的兒童及成人。兒童使用本注射器時，應在大人的監督下使用。 藥物的製備說明請參閱第15節。\n3.3\n特殊族群用法用量\n4\n禁忌\n對somatropin或其賦形劑過敏者。 骨骺已經閉合的兒童不可使用somatropin促進其生長。 Somatropin禁用於有活動性贅瘤或/和活動性或進行性的顱內損傷或復發。 因開心手術、腹腔手術、意外造成多處外傷、急性呼吸衰竭或類似情形導致發生嚴重疾病時，應停止使用somatropin。 患有慢性腎臟病的兒童在接受腎臟移植時，somatropin必須停藥。 在顱內腫瘤發生初期，少數案例會以生長激素缺乏為表徵，治療前應排除此類腫瘤可能性。開始somatropin 治療時，任何已存在的腫瘤應為不活動性，且任何抗腫瘤治療需在開始somatropin治療前完成。\n5\n警語及注意事項\n5.1\n警語/注意事項\n治療需由對生長激素缺乏症領域有經驗的醫師使用。 勿使用超越每日最大建議劑量。(參考第3.1節) 腫瘤 若接受生長激素治療時，病人有顱內或顱外的贅瘤，需由醫師定期監測。 如因腦瘤引起的生長激素缺乏，治療時應接受定期檢查。 報告指出，第一次腫瘤治癒後的孩童癌症病人，於接受somatropin治療後，發生第二次腫瘤的風險將提高。過去曾接受頭部放射線治療以治療腫瘤的病人，最可能發生第二次的腫瘤為顱內腫瘤，特別是腦膜腫瘤。 普瑞德威利氏症候群(Prader-Willi syndrome) 從遺傳學上已確認為普瑞德威利症候群之病童，其生長遲滯不會使用somatropin進行長期治療，但若這些病人也有生長激素缺乏的情形則除外。普瑞德威利症候群之病童在接受生長激素治療後，曾發生睡眠呼吸停止及猝死的報告，這些病童都帶有下列一項或多項危險因子：嚴重肥胖、上呼吸道阻塞或睡眠呼吸停止的病史，或未經確認的呼吸道感染。 白血病 在接受somatropin治療之生長激素缺乏的病人，有少數白血病的個案曾發生。然而，對於無易患因子(predisposing factors)的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。 胰島素的敏感度 因為somatropin會降低胰島素的敏感度，因此應監測病人是否出現葡萄糖不耐症。糖尿病病人在開始接受含有somatropin的藥物治療後應調整胰島素的劑量。糖尿病病人或葡萄糖耐受性不良的病人在somatropin治療期間應予以嚴密監測。 視網膜病變 視網膜病變穩定無惡化的情況下無須停止生長激素治療。若視網膜病變情形惡化或加重，應停止生長激素治療。 甲狀腺功能 生長激素會使週邊的T4轉換成T3，在這種情況下，可能會觀察到早期的甲狀腺功能低下症。若正服用甲狀腺治療，則可能發生輕微甲狀腺功能亢進。甲狀腺功能應在Saizen®開始治療前先行評估，並於治療期間定期檢查，一年至少一次。若在Saizen®治療期間被診斷出甲狀腺功能低下症，則應調整Saizen®劑量以矯正甲狀腺功能。 當腦下垂體功能低下的病人接受somatropin時，應嚴密監測標準替代治療(standard replacement therapy)。 良性顱內高壓 Saizen®開始治療前應定期進行眼底鏡檢查，以排除先前已存在的視乳突水腫，若臨床上有任何懷疑則應重覆進行檢查(例如有嚴重或復發性頭痛、視力問題、噁心及/或嘔吐的情況發生)。如經由眼底鏡確定有視乳突水腫則應注意是否有良性顱內壓升高(或大腦假性腫瘤[pseudotumor cerebri])的情況並停止使用Saizen®。目前並無對顱內壓上升的處置規範。若重新投予生長激素，應小心監測顱內高壓的症狀。如果再度上升，則需停止使用生長激素。 胰臟炎 發生案例罕見，但接受somatropin治療的病人應注意發生胰臟炎的可能，特別是有腹痛症狀的孩童。 脊椎側彎 已知在使用somatropin治療的ㄧ些病人族群裡，有較常見的脊椎側彎，例如Turner syndrome。此外，任何孩童的快速成長可能會導致脊椎側彎的進展。 Somatropin並未顯示會增加脊椎側彎的風險或嚴重性。在治療期間應監控脊椎側彎的徵狀。 抗體 如同所有含somatropin的藥品一樣，少數病人會對somatropin產生抗體。這些抗體的鍵結能力低，因此不會影響生長速率。若病人對治療沒有反應，則應對somatropin的抗體進行測試。 兒童病人股骨頭骺脫滑 患有內分泌疾病(包括生長激素缺乏)以及快速成長的病人，具有較高的股骨頭骺脫滑之風險。接受somatropin治療的兒童，曾有發生股骨頭骺脫滑或股骨頭缺血性壞死(含Legg-Calve-Perthes症候群)的案例。急速生長可能增加關節相關問題的風險，髖關節在青春期前的快速生長階段所承受的壓力尤甚。醫師及家長應對於接受Saizen®治療的兒童出現跛行或主訴髖部或膝蓋疼痛保持警覺。 因慢性腎衰竭之生長遲緩 因慢性腎衰竭導致之生長遲滯病人應定期接受檢查以了解腎性骨發育不全的進展情況。進階性腎性骨發育不全的兒童可能會有股骨頭骺脫滑或股骨頭無血性壞死現象發生，但不知是否與生長激素有關。在治療前應接受髖部X-ray檢查。 慢性腎衰竭兒童在治療前的腎功能已降至正常值之50%以下，為證明生長速度受到影響，必須先檢查一年內的成長情況。對於腎功能不足的治療(包括治療一年前開始進行的控制酸毒症、副甲狀腺素機能過旺及營養狀況)必須持續進行。如果進行腎臟移植時，應停止生長激素治療。 低出生體重兒 治療低出生體重兒之生長遲緩前，應排除其他藥物或治療所導致之生長遲緩。 治療低出生體重兒之生長遲緩前，應監測空腹之胰島素及血糖值，之後每年定期監測。針對糖尿病高危險群(家族性糖尿病、肥胖、BMI過高、嚴重胰島素抗阻性或黑棘皮症)，應進行口服葡萄糖測試，若發現有糖尿病，不應使用生長激素。 治療低出生體重兒之生長遲緩前，建議監測血中IGF-1數值，之後每年定期檢查兩次。若有兩次以上檢查證實IGF-1數值大於孩童年齡標準值或青春期的2個標準分數，必須考慮以IGF-1/IGFBP-3比值調整治療劑量。 在青春期的起始點才開始治療低出生體重兒之生長遲緩的經驗有限，因此不建議使用於此類病人。使用於合併有Silver-Russell syndrome的經驗也有限。 因身材矮小而使用生長激素治療低出生體重兒，若在達到最終身高之前即停止用藥，先前治療所得到的生長高度可能會失去意義。 體液滯留 成人接受生長激素替代治療期間可能會出現預期中的體液滯留現象。 若出現持續性水腫或嚴重的感覺異常，則應降低劑量以避免腕隧道症候群(carpal tunnel syndrome)的發生。 急性嚴重疾病 治療期間如有急性嚴重疾病發生，應衡量生長激素治療效益與潛在危險以決定是否繼續使用。 與口服oestrogen併用 如果女性病人在somatropin治療時開始口服oestrogen，可能需要增加somatropin的劑量以維持血液中IGF-1的濃度在正常的適齡範圍內。相對來說，當女性在somatropin治療時停止使用oestrogen，則可能需要降低somatropin的劑量以避免產生過量的生長激素及/或副作用(請見第7節)。 一般注意事項 應在不同的注射部位輪流注射以避免注射部位局部脂肪組織萎縮。 成人生長激素分泌不足需終身的治療，但在大於六十歲以上或長期使用的資料仍有限。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n含有somatropin的藥物不會影響開車及操作機械的能力。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n根據含有somatropin的藥物對動物所做的生殖研究看來，並無證據顯示其會增加對胚胎或胎兒不良反應的風險。目前尚無somatropin使用於懷孕動物的資料(見第10.3節)。因此，含有somatropin的藥物不建議使用於懷孕期間的婦女及沒有採取避孕措施的育齡期婦女。\n6.2\n哺乳\n目前尚無針對授乳婦女接受somatropin治療所做的臨床研究。Somatropin是否會分泌於人類乳汁中亦不清楚。因此授乳婦女使用somatropin時應小心。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n併用(glucocorticoids)治療會抑制含有somatropin藥物對生長刺激的作用。促腎上腺皮質素(ACTH)缺乏的病人在接受glucocorticoids替代療法時，應小心調整劑量以避免生長激素的作用受到抑制。 此外，某些病人在開始生長激素替代療法時可能會因為較低的11β-hydroxysteroid dehydrogenase, type 1 (11β-HSD1) 活性而造成續發性腎上腺功能不足。11β-HSD1是一種酵素，能將不活化的cortisone轉變成cortisol。使用glucocorticoid替代療法的病人在開始使用somatropin時，可能會造成cortisol缺乏。因此可能需要調整glucocorticoid的劑量。 使用口服oestrogens替代療法的女性病人可能需要較高劑量的生長激素以達到治療目標 (請見第5.1節)。 針對生長激素缺乏的成人所做的交互作用研究顯示，somatropin可能會使經由肝臟代謝酵素cytochrome P450同功酶代謝之藥物的清除率提高。經由肝臟代謝酵素cytochrome P450 3A4代謝之藥物(例如，性荷爾蒙、皮質類固醇、抗癲癇藥及cyclosporin)的清除率可能會增加特別多，因而導致其血漿濃度下降。這在臨床上的意義則尚不清楚。 不相容性 因為缺乏相容性的研究，本品不應與其他藥物混合使用。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n約10%的病人在注射部位會有紅腫、搔癢的情況發生，特別是以皮下注射方式注射時。 接受生長激素治療的成人，體液滯留現象的發生是可預期的。臨床上體液滯留症狀可能包括：浮腫、關節腫大、關節痛、肌肉痛或皮膚感覺異常等。這些症狀通常為暫時性且與劑量相關。 在孩童時期即診斷為生長激素分泌不足者，其副作用發生比例較成人時才診斷出者低。 少數病人會對Somatropin產生抗體。抗體對於臨床上的影響未知，抗體雖會降低生長激素的結合力，但除非是基因缺失的病人，抗體並不會影響療效。極少數的病例中，病人生長遲滯是由於生長激素基因缺失所造成，如果以生長激素治療則可能會產生減少生長效果的抗體。 生長激素缺乏的病人曾有少數發生白血病的報告，這其中有些病人為接受somatropin之治療。然而，對於無易患因子(predisposing factors)的病人，並無證據顯示其接受生長激素治療會提高白血病的發生機率。 於上市後研究曾發生使用生長激素治療後有胰臟炎之案例。 在每一個發生頻率組別中，不良反應的排列順序是以嚴重度遞減的方式呈現。 依器官系統分類 常見 (≥1/100, <1/10) 不常見 (≥1/1,000, <1/100)非常罕見 (<1/10,000)頻率不明 中樞神經系統疾病頭痛(單一性的)；腕隧道症候群 (成人) 自發性顱內高壓(良性顱內高壓) 腕隧道症候群 (兒童) 肌肉骨骼及結締組織系統疾病 股骨頭骺脫滑(股骨頭脫位)或股骨頭無血性壞死(含Legg-Calve-Perthes症候群) 免疫系統疾病 局部與全身性過敏反應 內分泌系統疾病 甲狀腺功能低下症 代謝及營養疾病 成人: 體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常 孩童: 體液滯留：週邊水腫、僵硬、關節痛、肌肉痛和皮膚感覺異常 胰島素耐受性可能導致胰島素過多症和少數的高血糖症 生殖系統與乳房疾病 男性女乳症 全身性疾病及注射部位反應 注射部位反應: 局部脂肪組織萎縮(經常改變注射部位可預防其發生) 腸胃道疾病 胰臟炎\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n並無急性過量之案例發生。使用超過建議用量的藥品，則可能造成副作用。過量時可能導致血糖值降低繼之以血糖值升高。此外，注射過量有可能呈現出體液滯留現象。\n10\n藥理特性\n10.1\n作用機轉\nSaizen®是一種同化及抗異化劑，不僅可促進生長也可改變體組成及代謝。它可與各種的細胞包括肌細胞、肝細胞、脂肪細胞、淋巴細胞、造血細胞上的專一性接受器結合，它的部分作用是經由介質somatomedins (IGF-1、IGF-2)達成。 依劑量不同，使用Saizen®可誘導IGF-1、IGFBP-3、非酯化脂肪酸及甘油上升、降低血中尿素、尿中含氮量及鈉、鉀的排出。生長激素濃度上升的時間長短可決定其造成的效果大小。若使用高劑量可能造成Saizen®作用效果的飽和現象。只有在使用高劑量(每次20 mg)才會出現血糖過多或C-胜肽排出。\n10.2\n藥效藥理特性\n藥理分類：腦下垂體前葉荷爾蒙類似劑，ATC code：H01AC01 Saizen®含有以基因工程方式於哺乳類動物細胞中製備而得的重組人類生長激素。 它由191個氨基酸組成，其氨基酸排序、組成、氨基酸圖譜、等電點、分子量、同分異構構造與生物活性等皆與人類腦下垂體分泌之生長激素相同。 Saizen®由加入鼠科細胞經轉植腦下垂體生長激素的基因所合成的。\n10.3\n臨床前安全性資料\nSaizen®注射劑以8.00 mg/ml的濃度及每個注射部位1 ml之劑量注射於動物時，可發現其局部耐受性佳且適合以皮下注射給藥。 根據傳統的藥理安全性研究、單劑量及多劑量之毒性研究，及遺傳毒性研究的非臨床資料顯示，本品對人類並無特殊危險。但並未進行正式的致癌性研究。這是考量蛋白質的特性，且其遺傳毒性檢測呈陰性反應所作的判定。基因重組人類生長激素(r-hGH)對於先前已存在的腫瘤之生長情況的潛在影響已進行體外及體內試驗評估，其結果顯示，基因重組人類生長激素並不會讓病人長出腫瘤或刺激原有的腫瘤。雖然使用劑量已足以產生生長藥理作用的劑量，生殖系統毒性試驗並無任何副作用發生。\n11\n藥物動力學特性\n使用Saizen® 8 IU(2.67 mg)以下的劑量，藥物動力學呈線性比例增加。使用高劑量(60 IU/20 mg)則不排除有非線性藥物動力學出現，但與臨床並無相關性。 健康受試者以IV注射Saizen®後，達到穩定期後之分佈體積為7公升，總代謝清除率為15公升/小時。腎臟清除率可忽略。藥品清除半衰期為20~35分鐘。 在單一劑量皮下或肌肉注射Saizen®時，最終半衰期較長約為2~4小時，這是因為速率限制吸收過程所造成。 以皮下或肌肉注射Saizen®其絕對生體可用率為70~90%。 注射Saizen®四小時後，達到血中最高生長激素濃度，在24小時內會回到基準線，顯示在重複投與後並不會造成體內生長激素蓄積的現象。 以皮下注射給藥的Saizen®注射劑(5.83及8.00 mg/ml)和8 mg凍晶配方具有生體相等性。\n12\n臨床試驗資料\n一項隨機設計臨床試驗顯示，對於低出生體重、青春期前的孩童，每天給予0.067 mg/kg治療三年後，平均可獲得+1.8個標準分數的高度。若中斷治療三年以上，將損失部分治療所得的效益，但病人到最終高度時能維持+0.7個標準分數的高度(具統計意義，p<0.01)。經不同長短時間的觀察期後，接受第二次療程的病人達到最終高度時平均獲得+1.3個標準分數(p=0.001)(累積的治療期平均為6.1年)。後組接受治療所得的平均標準分數的高度(+1.3±1.1)相較於前一組接受三年治療所得的平均標準分數的高度(+0.7±0.8)，具有統計意義的差異(p<0.05)。 另一項臨床試驗評估兩種不同方式的間斷式給藥治療法，一組每天給予0.067 mg/kg的劑量，持續使用2年後追蹤兩年；另一組在第一、第三年每天給予0.067 mg/kg的劑量，第二、第四年不給藥，四年後試驗終了時，兩組皆顯示生長速度加快，分別獲得+1.55個標準分數(p<0.0001)及+1.43個標準分數(p<0.0001)的結果。長期使用之安全性資料有限。\n13\n包裝及儲存\n13.1\n包裝\n藥品容器為無色第I類玻璃所製成的藥匣瓶，封口處為bromobutyl材質橡皮塞並套上有單層 bromobutyl 橡皮內層的鋁蓋。Saizen® 5.83mg/ml注射液有下列幾種包裝： 1支裝：每支含1.03毫升溶液(6毫克somatropin)\n13.2\n效期\n請詳見外盒。 從物理、化學與微生物的觀點來看，本品在使用中的安定性，可於2 - 8°C 下維持28天；其中可達7 天最高25°C。 其他關於使用狀態下的儲存時間及條件為使用者之責任。 在首次注射後，Saizen® cartridge、裝有Saizen® cartridge的easypod自動注射器或是裝有Saizen® cartridge的Aluetta Pen Injector必須存放在冰箱(2 - 8°C)，最長達28天；其中離開冰箱可達7 天最高25°C。當存放在冰箱以外達7天後，Saizen® cartridge必須回到冰箱，直到首次注射後的28天為止。不可冰凍。28天後剩餘的藥品必須丟棄。\n13.3\n儲存條件\n藥品保存於2-8oC。不可冰凍。請置於原包裝盒中避光儲存。 當Eeasypod 自動注射器或Aluetta Pen Injector裝入Saizen®藥匣，則必須一同儲存於冰箱(2°C-8°C)。\n13.4\n儲存注意事項\n14\n病人使用須知\n注射Saizen®前，請先詳細閱讀下列資訊。 本品長期注射於同一個部位可能會造成傷害。不斷更換注射部位是很重要的。您的醫師或藥師會告訴您適合注射的部位。請勿注射於可以感覺出腫塊、結節、凹陷或疼痛的任何部位；若您發現任何問題，請告訴您的醫師或藥師。注射部位應以肥皂及清水清潔之。 內含Saizen®注射劑的藥匣可配合easypod自動注射器或Aluetta Pen Injector使用。 每一種Saizen®注射劑的藥匣皆以不同顏色編碼，必須與相同顏色編碼的Aluetta Pen Injector搭配使用以提供正確的劑量。裝有6mg somatropin (藍色)的藥匣必須與Aluetta Pen Injector 6 (藍色)搭配使用。 裝配注射劑所需的任何配件應放在清潔的桌面上，並以肥皂及清水洗淨的雙手操作之。 注射劑必須為澄清至淡乳白色，不得有顆粒，也不可出現肉眼可見的變質徵兆。 若溶液中含有顆粒，則不可用於注射。\n15\n其他\n每日如何自行注射Saizen® 關於藥匣如何套上easypod自動注射器或Aluetta Pen Injector，以及如何注射Saizen®注射劑，請詳細閱讀每種注射器所附上的使用說明書。 Easypod的自行操作者主要為7歲以上的兒童及成人。兒童使用本注射器時， 應在大人的監督下使用。 丟棄及其他處理方式之注意事項 藥匣中包含Saizen® 5.83mg /ml溶液，須與Easypod自動注射器或Aluetta Pen Injector搭配使用。 含有藥匣之注射器的儲存方式請參見第13.3節。 任何未使用完之藥品或廢棄物請依當地規定處置。 資料修訂日期：2026年7月；EU SmPC Dec 2025 & CCDS v5.0",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "MERCK SERONO S.P.A.",
+          "address": "VIA DELLE MAGNOLIE 15, ZONA INDUSTRIALE DI MODUGNO, 70026 MODUGNO, ITALY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "MERCK SERONO SA, AUBONNE BRANCH",
+          "address": "ZONE INDUSTRIELLE DE L'OURIETTAZ, 1170 AUBONNE SWITZERLAND"
+        },
+        {
+          "number": "2",
+          "name": "MERCK S.L.",
+          "address": "BATANES 1, 28760 TRES CANTOS, SPAIN"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣默克股份有限公司",
+          "address": "台北市南港區經貿二路121號20樓"
+        }
+      ]
+    }
+  ]
+}

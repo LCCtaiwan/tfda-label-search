@@ -1,0 +1,1019 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:34.447462+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000462",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000462號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000462號",
+      "matched_license_code": "10000462",
+      "matched_nhi_code": "",
+      "drug_name_zh": "抗ＲＨ因子球蛋白注射液",
+      "drug_name_en": "HyperRHO FULL DOSE",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2026-08-03",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "抗RH因子球蛋白注射液 (rho(D) immune globulin (Human))— HyperRHO® Full Dose 不含防腐劑。HyperRHO Full Dose是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。調配。HyperRHO Full Dose為15%-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。 HyperRHO Full Dose含有的Rho(D)抗體效價等於或大於1500 IU/毫升( ≥1500 IU /mL)，每支單一劑量的針劑內都含有足夠的Rho(D)抗體，以有效壓制15ml Rho(D)陽性紅血球所具有的免疫作用(1-4)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperRHO Full Dose的製程中，有幾個步驟可將病毒去活化或移除。(5) 製程中有助於清除病毒的主要步驟如下： 辛酸鹽沉澱／深層過濾 辛酸鹽靜置處理 深層過濾 管柱層析法 奈米過濾 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperRHO Full Dose製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 上述所有措施的結合可為最終產品提供最高的安全性，避免傳染性病毒傳播的潛在風險。 也使用經實驗設計的病原體，作為評估變異性庫賈氏症（variant Creutzfeldt-Jakob disease, vCJD）與庫賈氏症（Creutzfeldt-Jakob disease, CJD）病原的模型，在研究辛酸鹽／層析法的製造過程中，降低傳播性海綿狀腦病（transmissible spongiform encephalopathy，簡稱TSE）傳染的能力。(5) 這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量vCJD/CJD感染原。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">抗</span>RH<span style=\"font-family:標楷體;\">因子球蛋白注射液</span> (rho(D) immune globulin (Human))— Hyper<strong>RHO</strong><sup>®&nbsp;</sup>Full Dose&nbsp;<span style=\"font-family:標楷體;\">不含防腐劑。</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（</span>nanofiltration<span style=\"font-family:標楷體;\">）和低</span>pH<span style=\"font-family:標楷體;\">值靜置處理等技術製備而成。調配。</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">為</span>15%-18%<span style=\"font-family:標楷體;\">的蛋白質溶液，</span>pH<span style=\"font-family:標楷體;\">值</span>4.1-4.8<span style=\"font-family:標楷體;\">、含有</span>0.16 M-0.26&nbsp;M<span style=\"font-family:標楷體;\">甘胺酸。</span></p><p>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">含有的</span>Rho(D)<span style=\"font-family:標楷體;\">抗體效價等於或大於</span>1500 IU/<span style=\"font-family:標楷體;\">毫升</span>(&nbsp;≥1500 IU /mL)<span style=\"font-family:標楷體;\">，每支單一劑量的針劑內都含有足夠的</span>Rho(D)<span style=\"font-family:標楷體;\">抗體，以有效壓制</span>15ml Rho(D)<span style=\"font-family:標楷體;\">陽性紅血球所具有的免疫作用</span>(1-4)<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。</span></p><p><span style=\"font-family:標楷體;\">在</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">的製程中，有幾個步驟可將病毒去活化或移除。</span>(5)&nbsp;<span style=\"font-family:標楷體;\">製程中有助於清除病毒的主要步驟如下：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">辛酸鹽沉澱／深層過濾</span></li><li><span style=\"font-family:標楷體;\">辛酸鹽靜置處理</span></li><li><span style=\"font-family:標楷體;\">深層過濾</span></li><li><span style=\"font-family:標楷體;\">管柱層析法</span></li><li><span style=\"font-family:標楷體;\">奈米過濾</span></li><li><span style=\"font-family:標楷體;\">最終容器的低</span>pH<span style=\"font-family:標楷體;\">值中靜置處理</span></li></ul><p><span style=\"font-family:標楷體;\">為進一步確保最終產品在病原體方面的安全性，</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（</span>spiking studies<span style=\"font-family:標楷體;\">）中獲得證明。</span></p><p><span style=\"font-family:標楷體;\">上述所有措施的結合可為最終產品提供最高的安全性，避免傳染性病毒傳播的潛在風險。</span></p><p><span style=\"font-family:標楷體;\">也使用經實驗設計的病原體，作為評估變異性庫賈氏症（</span>variant Creutzfeldt-Jakob disease, vCJD<span style=\"font-family:標楷體;\">）與庫賈氏症（</span>Creutzfeldt-Jakob disease, CJD<span style=\"font-family:標楷體;\">）病原的模型，在研究辛酸鹽／層析法的製造過程中，降低傳播性海綿狀腦病（</span>transmissible spongiform encephalopathy<span style=\"font-family:標楷體;\">，簡稱</span>TSE<span style=\"font-family:標楷體;\">）傳染的能力。</span>(5)</p><p><span style=\"font-family:標楷體;\">這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量</span>vCJD/CJD<span style=\"font-family:標楷體;\">感染原。</span></p>",
+          "search_text": "1\n性狀\n抗RH因子球蛋白注射液 (rho(D) immune globulin (Human))— HyperRHO® Full Dose 不含防腐劑。HyperRHO Full Dose是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。調配。HyperRHO Full Dose為15%-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。 HyperRHO Full Dose含有的Rho(D)抗體效價等於或大於1500 IU/毫升( ≥1500 IU /mL)，每支單一劑量的針劑內都含有足夠的Rho(D)抗體，以有效壓制15ml Rho(D)陽性紅血球所具有的免疫作用(1-4)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperRHO Full Dose的製程中，有幾個步驟可將病毒去活化或移除。(5) 製程中有助於清除病毒的主要步驟如下： 辛酸鹽沉澱／深層過濾 辛酸鹽靜置處理 深層過濾 管柱層析法 奈米過濾 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperRHO Full Dose製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 上述所有措施的結合可為最終產品提供最高的安全性，避免傳染性病毒傳播的潛在風險。 也使用經實驗設計的病原體，作為評估變異性庫賈氏症（variant Creutzfeldt-Jakob disease, vCJD）與庫賈氏症（Creutzfeldt-Jakob disease, CJD）病原的模型，在研究辛酸鹽／層析法的製造過程中，降低傳播性海綿狀腦病（transmissible spongiform encephalopathy，簡稱TSE）傳染的能力。(5) 這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量vCJD/CJD感染原。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分: 抗RH因子免疫球蛋白（人類）(Rho(D) immune globulin (Human)) 每1毫升針劑(syringe)含有 ≥ 1500 IU的抗RH因子免疫球蛋白（人類）",
+          "content_html": "<p><span style=\"color:windowtext;font-family:標楷體;\">有效成分</span><span style=\"color:windowtext;\">:&nbsp;</span><span style=\"color:windowtext;font-family:標楷體;\">抗</span><span style=\"color:windowtext;\">RH</span><span style=\"color:windowtext;font-family:標楷體;\">因子免疫球蛋白（人類）</span><span style=\"color:windowtext;\">(Rho(D) immune globulin (Human))</span></p><p><span style=\"color:windowtext;font-family:標楷體;\">每</span><span style=\"color:windowtext;\">1</span><span style=\"color:windowtext;font-family:標楷體;\">毫升針劑</span><span style=\"color:windowtext;\">(syringe)</span><span style=\"color:windowtext;font-family:標楷體;\">含有</span><span style=\"color:windowtext;\"> &nbsp;≥ 1500 IU</span><span style=\"color:windowtext;font-family:標楷體;\">的抗</span><span style=\"color:windowtext;\">RH</span><span style=\"color:windowtext;font-family:標楷體;\">因子免疫球蛋白（人類）</span></p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分: 抗RH因子免疫球蛋白（人類）(Rho(D) immune globulin (Human)) 每1毫升針劑(syringe)含有 ≥ 1500 IU的抗RH因子免疫球蛋白（人類）",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Glycine Water for Injection",
+          "content_html": "<p>Glycine</p><p>Water for Injection</p>",
+          "search_text": "1.2\n賦形劑\nGlycine Water for Injection",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑 (肌肉注射劑)。",
+          "content_html": "<p><span style=\"color:windowtext;font-family:標楷體;\">注射劑</span><span style=\"color:windowtext;\"> (</span><span style=\"color:windowtext;font-family:標楷體;\">肌肉注射劑</span><span style=\"color:windowtext;\">)</span><span style=\"color:windowtext;font-family:標楷體;\">。</span></p>",
+          "search_text": "1.3\n劑型\n注射劑 (肌肉注射劑)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "澄清或微乳白狀、無色或淡黃色的溶液。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">澄清或微乳白狀、無色或淡黃色的溶液。</span></p>",
+          "search_text": "1.4\n藥品外觀\n澄清或微乳白狀、無色或淡黃色的溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "預防因配偶間RH因子不同而導致之流產及出生兒夭折。 [說明] 懷孕及其它產科情況 預防新生兒的Rh溶血性疾病，建議在Rho(D)陰性母親生下Rho(D)陽性的胎兒72小時內使用HyperRHO Full Dose，(6)但必須符合下列標準： 母親必須是Rho(D)陰性、且尚未被Rho(D)因子敏感化。 產下的嬰兒是Rho(D)陽性、且在直接抗球蛋白試驗中必須呈陰性反應。 如果在分娩前使用HyperRHO Full Dose，母親必須在Rho(D)陽性胎兒出生後再使用一劑。 如果確定父親也是Rho(D)陰性，就無須使用HyperRHO Full Dose。 所有尚未免疫化的Rho(D)陰性母親，必須在發生流產（包括自然或人工）、子宮外孕輸卵管破裂、羊膜穿刺、或腹部外傷後72小時內使用HyperRHO Full Dose，除非胎兒或胎兒的父親也確定是Rho(D)陰性。(7,8)如果無法確定胎兒的血型，先假設他是Rho(D)陽性，(2)並對母體使用HyperRHO Full Dose。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">預防因配偶間</span>RH<span style=\"font-family:標楷體;\">因子不同而導致之流產及出生兒夭折。</span></p><p>[<span style=\"font-family:標楷體;\">說明</span>]</p><p><span style=\"font-family:標楷體;\"><u>懷孕及其它產科情況</u></span></p><p><span style=\"font-family:標楷體;\">預防新生兒的</span>Rh<span style=\"font-family:標楷體;\">溶血性疾病，建議在</span>Rho(D)<span style=\"font-family:標楷體;\">陰性母親生下</span>Rho(D)<span style=\"font-family:標楷體;\">陽性的胎兒</span>72<span style=\"font-family:標楷體;\">小時內使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，</span>(6)<span style=\"font-family:標楷體;\">但必須符合下列標準：</span></p><ol><li><span style=\"font-family:標楷體;\">母親必須是</span>Rho(D)<span style=\"font-family:標楷體;\">陰性、且尚未被</span>Rho(D)<span style=\"font-family:標楷體;\">因子敏感化。</span></li><li><span style=\"font-family:標楷體;\">產下的嬰兒是</span>Rho(D)<span style=\"font-family:標楷體;\">陽性、且在直接抗球蛋白試驗中必須呈陰性反應。</span></li></ol><p><span style=\"font-family:標楷體;\">如果在分娩前使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，母親必須在</span>Rho(D)<span style=\"font-family:標楷體;\">陽性胎兒出生後再使用一劑。</span></p><p><span style=\"font-family:標楷體;\">如果確定父親也是</span>Rho(D)<span style=\"font-family:標楷體;\">陰性，就無須使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">所有尚未免疫化的</span>Rho(D)<span style=\"font-family:標楷體;\">陰性母親，必須在發生流產（包括自然或人工）、子宮外孕輸卵管破裂、羊膜穿刺、或腹部外傷後</span>72<span style=\"font-family:標楷體;\">小時內使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，除非胎兒或胎兒的父親也確定是</span>Rho(D)<span style=\"font-family:標楷體;\">陰性。</span>(7,8)<span style=\"font-family:標楷體;\">如果無法確定胎兒的血型，先假設他是</span>Rho(D)<span style=\"font-family:標楷體;\">陽性，</span>(2)<span style=\"font-family:標楷體;\">並對母體使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "2\n適應症\n預防因配偶間RH因子不同而導致之流產及出生兒夭折。 [說明] 懷孕及其它產科情況 預防新生兒的Rh溶血性疾病，建議在Rho(D)陰性母親生下Rho(D)陽性的胎兒72小時內使用HyperRHO Full Dose，(6)但必須符合下列標準： 母親必須是Rho(D)陰性、且尚未被Rho(D)因子敏感化。 產下的嬰兒是Rho(D)陽性、且在直接抗球蛋白試驗中必須呈陰性反應。 如果在分娩前使用HyperRHO Full Dose，母親必須在Rho(D)陽性胎兒出生後再使用一劑。 如果確定父親也是Rho(D)陰性，就無須使用HyperRHO Full Dose。 所有尚未免疫化的Rho(D)陰性母親，必須在發生流產（包括自然或人工）、子宮外孕輸卵管破裂、羊膜穿刺、或腹部外傷後72小時內使用HyperRHO Full Dose，除非胎兒或胎兒的父親也確定是Rho(D)陰性。(7,8)如果無法確定胎兒的血型，先假設他是Rho(D)陽性，(2)並對母體使用HyperRHO Full Dose。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。 懷孕及其他產科情況 分娩後預防用：生產後72小時內使用一針注射劑較佳，雖然超過72小時後用Rh抗體的保護效果較差，但仍然可以投予HyperRHO Full Dose。(7,9)在產程中使用的劑量會視胎兒─母體出血量的多寡而異，若進入循環系統的紅血球在15ml或以下，(2-4)一劑注射劑的 HyperRHO Full Dose，即可提供足夠的抗體來防止Rh致敏化反應。一旦懷疑有胎兒─母體間大量出血（全血30ml、或紅血球15ml以上），可以採用一種已核准的檢驗技術（修改後的Kleihauer-Betke酸溶離染色技術）來計算胎兒的紅血球量，並據此決定所需的免疫球蛋白的劑量。(8,10)計算胎兒─母體間出血的紅血球體積，除以15ml所得的數字就是需要使用的針劑數。(3,8,11)若懷疑超過15ml或計算出的是分數，就以較大的整數做為需要投予的數量。（例如：算出的數字是1.4，就給兩針劑） 出生前預防用：懷孕28週時投予一針注射劑的HyperRHO Full Dose；若胎兒是Rh陽性，必須再追加一劑，同時最好在分娩後72小時內追加。 有流產傾向但卻繼續妊娠者，不論在懷孕的那個階段，都建議給予一劑HyperRHO Full Dose。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。 妊娠13週以上發生小產、流產、或中止異位性懷孕時，建議給予一劑HyperRHO Full Dose。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。如果妊娠在13週以下就被終止，可使用一劑迷你劑量（HyperRHO Mini-Dose）來取代一劑HyperRHO Full Dose。 懷孕15-18週、或在最後三個月時做羊膜穿刺；或者在懷孕中、後期發生腹部外傷，建議給予HyperRHO Full Dose。如果胎兒─母體間出血的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。 如果因腹部外傷、羊膜穿刺、或其它不利情況而需要在妊娠13-18週時使用HyperRHO Full Dose，就應該在26-28週時再追加一劑。為保持在妊娠期間的保護效果，被動的後天性抗體anti-Rho(D)的含量不得低於用來預防Rh陽性紅血球免疫反應的需求量。IgG的半衰期是23-26天。只要胎兒是Rh陽性，分娩後72小時內一定得用HyperRHO Full Dose。如果在最後一次投藥後的三週內生產，除非胎兒─母體間的出血超過15ml紅血球，否則產後可以不必再給藥。(12) 注射的步驟 不可靜脈注射，新生兒禁用。HyperRHO Full Dose是肌肉注射，最好是在上臂的三角肌或大腿外側肌肉。臀部不可做為例行性的注射區域，因為有傷到坐骨神經的危險。(13) A. 單一針劑劑量 將針筒內的內容物一次全部用於肌肉注射。 B. 多次針劑劑量 計算使用HyperRHO Full Dose的針筒數。 將HyperRHO Full Dose分成多劑，一次注射不同的多個部位；或間隔時間注射，但必須在發生胎兒─母體間出血或輸血的72小時內全部用完。算出必須注射的針筒數後，採用無菌技術，將全部內容物以肌肉注射的方式，注射到病人體內。 腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。 為了安全及方便使用，本製劑附有注射針筒及針頭套。請依照下列指示正確使用。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。</span></p><p><span style=\"font-family:標楷體;\"><u>懷孕及其他產科情況</u></span></p><ol><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">分娩後預防用：生產後</span>72<span style=\"font-family:標楷體;\">小時內使用一針注射劑較佳，雖然超過</span>72<span style=\"font-family:標楷體;\">小時後用</span>Rh<span style=\"font-family:標楷體;\">抗體的保護效果較差，但仍然可以投予</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。</span>(7,9)<span style=\"font-family:標楷體;\">在產程中使用的劑量會視胎兒─母體出血量的多寡而異，若進入循環系統的紅血球在</span>15ml<span style=\"font-family:標楷體;\">或以下，</span>(2-4)<span style=\"font-family:標楷體;\">一劑注射劑的</span> Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，即可提供足夠的抗體來防止</span>Rh<span style=\"font-family:標楷體;\">致敏化反應。一旦懷疑有胎兒─母體間大量出血（全血</span>30ml<span style=\"font-family:標楷體;\">、或紅血球</span>15ml<span style=\"font-family:標楷體;\">以上），可以採用一種已核准的檢驗技術（修改後的</span>Kleihauer-Betke<span style=\"font-family:標楷體;\">酸溶離染色技術）來計算胎兒的紅血球量，並據此決定所需的免疫球蛋白的劑量。</span>(8,10)<span style=\"font-family:標楷體;\">計算胎兒─母體間出血的紅血球體積，除以</span>15ml<span style=\"font-family:標楷體;\">所得的數字就是需要使用的針劑數。</span>(3,8,11)<span style=\"font-family:標楷體;\">若懷疑超過</span>15ml<span style=\"font-family:標楷體;\">或計算出的是分數，就以較大的整數做為需要投予的數量。（例如：算出的數字是</span>1.4<span style=\"font-family:標楷體;\">，就給兩針劑）</span></li><li><span style=\"font-family:標楷體;\">出生前預防用：懷孕</span>28<span style=\"font-family:標楷體;\">週時投予一針注射劑的</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">；若胎兒是</span>Rh<span style=\"font-family:標楷體;\">陽性，必須再追加一劑，同時最好在分娩後</span>72<span style=\"font-family:標楷體;\">小時內追加。</span></li><li><span style=\"font-family:標楷體;\">有流產傾向但卻繼續妊娠者，不論在懷孕的那個階段，都建議給予一劑</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過</span>15ml<span style=\"font-family:標楷體;\">，請按照在上述第</span>1<span style=\"font-family:標楷體;\">項中的用法來修改劑量。</span><span style=\"color:red;\">&nbsp;</span></li><li><span style=\"font-family:標楷體;\">妊娠</span>13<span style=\"font-family:標楷體;\">週以上發生小產、流產、或中止異位性懷孕時，建議給予一劑</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過</span>15ml<span style=\"font-family:標楷體;\">，請按照在上述第</span>1<span style=\"font-family:標楷體;\">項中的用法來修改劑量。如果妊娠在</span>13<span style=\"font-family:標楷體;\">週以下就被終止，可使用一劑迷你劑量（</span>Hyper<strong>RHO</strong> Mini-Dose<span style=\"font-family:標楷體;\">）來取代一劑</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。</span><span style=\"color:red;\">&nbsp;</span></li><li><span style=\"font-family:標楷體;\">懷孕</span>15-18<span style=\"font-family:標楷體;\">週、或在最後三個月時做羊膜穿刺；或者在懷孕中、後期發生腹部外傷，建議給予</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。如果胎兒─母體間出血的紅血球超過</span>15ml<span style=\"font-family:標楷體;\">，請按照在上述第</span>1<span style=\"font-family:標楷體;\">項中的用法來修改劑量。</span><span style=\"color:red;\">&nbsp;</span></li></ol><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">如果因腹部外傷、羊膜穿刺、或其它不利情況而需要在妊娠</span>13-18<span style=\"font-family:標楷體;\">週時使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，就應該在</span>26-28<span style=\"font-family:標楷體;\">週時再追加一劑。為保持在妊娠期間的保護效果，被動的後天性抗體</span>anti-Rho(D)<span style=\"font-family:標楷體;\">的含量不得低於用來預防</span>Rh<span style=\"font-family:標楷體;\">陽性紅血球免疫反應的需求量。</span>IgG<span style=\"font-family:標楷體;\">的半衰期是</span>23-26<span style=\"font-family:標楷體;\">天。只要胎兒是</span>Rh<span style=\"font-family:標楷體;\">陽性，分娩後</span>72<span style=\"font-family:標楷體;\">小時內一定得用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。如果在最後一次投藥後的三週內生產，除非胎兒─母體間的出血超過</span>15ml<span style=\"font-family:標楷體;\">紅血球，否則產後可以不必再給藥。</span>(12)</p><p><span style=\"font-family:標楷體;\"><u>注射的步驟</u></span></p><p><span style=\"font-family:標楷體;\">不可靜脈注射，新生兒禁用。</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">是肌肉注射，最好是在上臂的三角肌</span><i>或大腿外側肌肉</i><span style=\"font-family:標楷體;\">。臀部不可做為例行性的注射區域，因為有傷到坐骨神經的危險。</span>(13)</p><p>A.&nbsp;<span style=\"font-family:標楷體;\">單一針劑劑量</span></p><p><span style=\"font-family:標楷體;\">將針筒內的內容物一次全部用於肌肉注射。</span><span style=\"color:red;\">&nbsp;</span></p><p style=\"text-align:justify;\">B.&nbsp;<span style=\"font-family:標楷體;\">多次針劑劑量</span>&nbsp;</p><ol><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">計算使用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">的針筒數。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">將</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">分成多劑，一次注射不同的多個部位；或間隔時間注射，但必須在發生胎兒─母體間出血或輸血的</span>72<span style=\"font-family:標楷體;\">小時內全部用完。算出必須注射的針筒數後，採用無菌技術，將全部內容物以肌肉注射的方式，注射到病人體內。</span></li></ol><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。</span></p><p><span style=\"font-family:標楷體;\">為了安全及方便使用，本製劑附有注射針筒及針頭套。請依照下列指示正確使用。</span></p>",
+          "search_text": "3.1\n用法用量\n本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。 懷孕及其他產科情況 分娩後預防用：生產後72小時內使用一針注射劑較佳，雖然超過72小時後用Rh抗體的保護效果較差，但仍然可以投予HyperRHO Full Dose。(7,9)在產程中使用的劑量會視胎兒─母體出血量的多寡而異，若進入循環系統的紅血球在15ml或以下，(2-4)一劑注射劑的 HyperRHO Full Dose，即可提供足夠的抗體來防止Rh致敏化反應。一旦懷疑有胎兒─母體間大量出血（全血30ml、或紅血球15ml以上），可以採用一種已核准的檢驗技術（修改後的Kleihauer-Betke酸溶離染色技術）來計算胎兒的紅血球量，並據此決定所需的免疫球蛋白的劑量。(8,10)計算胎兒─母體間出血的紅血球體積，除以15ml所得的數字就是需要使用的針劑數。(3,8,11)若懷疑超過15ml或計算出的是分數，就以較大的整數做為需要投予的數量。（例如：算出的數字是1.4，就給兩針劑） 出生前預防用：懷孕28週時投予一針注射劑的HyperRHO Full Dose；若胎兒是Rh陽性，必須再追加一劑，同時最好在分娩後72小時內追加。 有流產傾向但卻繼續妊娠者，不論在懷孕的那個階段，都建議給予一劑HyperRHO Full Dose。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。 妊娠13週以上發生小產、流產、或中止異位性懷孕時，建議給予一劑HyperRHO Full Dose。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。如果妊娠在13週以下就被終止，可使用一劑迷你劑量（HyperRHO Mini-Dose）來取代一劑HyperRHO Full Dose。 懷孕15-18週、或在最後三個月時做羊膜穿刺；或者在懷孕中、後期發生腹部外傷，建議給予HyperRHO Full Dose。如果胎兒─母體間出血的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。 如果因腹部外傷、羊膜穿刺、或其它不利情況而需要在妊娠13-18週時使用HyperRHO Full Dose，就應該在26-28週時再追加一劑。為保持在妊娠期間的保護效果，被動的後天性抗體anti-Rho(D)的含量不得低於用來預防Rh陽性紅血球免疫反應的需求量。IgG的半衰期是23-26天。只要胎兒是Rh陽性，分娩後72小時內一定得用HyperRHO Full Dose。如果在最後一次投藥後的三週內生產，除非胎兒─母體間的出血超過15ml紅血球，否則產後可以不必再給藥。(12) 注射的步驟 不可靜脈注射，新生兒禁用。HyperRHO Full Dose是肌肉注射，最好是在上臂的三角肌或大腿外側肌肉。臀部不可做為例行性的注射區域，因為有傷到坐骨神經的危險。(13) A. 單一針劑劑量 將針筒內的內容物一次全部用於肌肉注射。 B. 多次針劑劑量 計算使用HyperRHO Full Dose的針筒數。 將HyperRHO Full Dose分成多劑，一次注射不同的多個部位；或間隔時間注射，但必須在發生胎兒─母體間出血或輸血的72小時內全部用完。算出必須注射的針筒數後，採用無菌技術，將全部內容物以肌肉注射的方式，注射到病人體內。 腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。 為了安全及方便使用，本製劑附有注射針筒及針頭套。請依照下列指示正確使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。 如果針筒過早卡住，請勿使用。 3. 針頭的橡皮套必須套好，將筒柄往前推幾厘米，以突破橡皮塞和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到預備要注射之前，才可將針頭的橡皮套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。 7. 注入藥物。 8. 將手按在針頭後方，另一隻手則握繄針頭套並滑向針頭直到針頭套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，則表示針頭套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的針頭套一起丟入廢棄針筒回收容器中。（如圖C） 許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。",
+          "content_html": "<p>1.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">自包裝內取出已充填好的針劑，拿著針管而非筒柄。</span>&nbsp;</p><p>2.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">順時針旋轉筒柄直到螺紋密合。</span>&nbsp;<span style=\"font-family:標楷體;\">如果針筒過早卡住，請勿使用。</span></p><p style=\"text-align:justify;\">3.&nbsp;<span style=\"font-family:標楷體;\">針頭的橡皮套必須套好，將筒柄往前推幾厘米，以突破橡皮塞和玻璃筒管間的磨擦阻力。</span></p><p style=\"text-align:justify;\">4.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">將針頭套拿掉，並排除氣泡。【直到預備要注射之前，才可將針頭的橡皮套拿掉並準備注射。】</span></p><p>5.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">將針頭刺進皮下。</span></p><p>6.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。</span>&nbsp;</p><p>7.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">注入藥物。</span>&nbsp;</p><p>8.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">將手按在針頭後方，另一隻手則握繄針頭套並滑向針頭直到針頭套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，則表示針頭套可能沒有完全蓋好。（如圖</span>A<span style=\"font-family:標楷體;\">及圖</span>B<span style=\"font-family:標楷體;\">）</span>&nbsp;</p><p>9.&nbsp;&nbsp;&nbsp;&nbsp; <span style=\"font-family:標楷體;\">將用過的注射針頭連同蓋好的針頭套一起丟入廢棄針筒回收容器中。（如圖</span>C<span style=\"font-family:標楷體;\">）</span><br><span style=\"font-family:標楷體;\">許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。</span></p>",
+          "search_text": "3.2\n調製方式\n1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。 如果針筒過早卡住，請勿使用。 3. 針頭的橡皮套必須套好，將筒柄往前推幾厘米，以突破橡皮塞和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到預備要注射之前，才可將針頭的橡皮套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。 7. 注入藥物。 8. 將手按在針頭後方，另一隻手則握繄針頭套並滑向針頭直到針頭套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，則表示針頭套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的針頭套一起丟入廢棄針筒回收容器中。（如圖C） 許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 67340
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "未知",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>未知</strong></span></p>",
+          "search_text": "4\n禁忌\n未知",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。 對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用Rho(D)免疫球蛋白（人類）時應特別小心。 若主治醫師希望給予 “免疫球蛋白Ａ(IgA)缺乏症”者Rho(D)免疫球蛋白（人類），必須衡量免疫作用的效益與潛在的過敏反應風險。因為這類病人產生IgA抗體的風險較高，使用含有IgA的血液製品後可能出現過敏反應。 和所有肌肉注射製劑一樣，血小板缺乏症、或有其它出血性疾病患者，可能會併發出血的情況。 總論 懷孕後期或分娩後的胎兒─母親間大出血，可能導致對Ｄu測試呈現微弱、混合的陽性反應。如果懷疑母親的Rh血型，應給予Rho(D)免疫球蛋白（人類）。在這種情況下，篩檢胎兒的紅血球也可能有所幫助。 如果母體的血液循環中有15ml以上的Ｄ-陽性胎兒紅血球，需要一劑以上的HyperRHO Full Dose，若未察覺到此點，可能就用了不當的劑量。 雖然對人類免疫球蛋白製劑的全身性過敏反應很少見，但應準備腎上腺素，以治療可能出現的急性過敏反應。 強烈建議醫護人員在每次注射 HyperRHO Full Dose 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）時應特別小心。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>若主治醫師希望給予</strong></span><strong> “</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白Ａ</strong></span><strong>(IgA)</strong><span style=\"font-family:標楷體;\"><strong>缺乏症”者</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類），必須衡量免疫作用的效益與潛在的過敏反應風險。因為這類病人產生</strong></span><strong>IgA</strong><span style=\"font-family:標楷體;\"><strong>抗體的風險較高，使用含有</strong></span><strong>IgA</strong><span style=\"font-family:標楷體;\"><strong>的血液製品後可能出現過敏反應。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>和所有肌肉注射製劑一樣，血小板缺乏症、或有其它出血性疾病患者，可能會併發出血的情況。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong><u>總論</u></strong></span></p><p><span style=\"font-family:標楷體;\"><strong>懷孕後期或分娩後的胎兒─母親間大出血，可能導致對Ｄ</strong></span><strong>u</strong><span style=\"font-family:標楷體;\"><strong>測試呈現微弱、混合的陽性反應。如果懷疑母親的</strong></span><strong>Rh</strong><span style=\"font-family:標楷體;\"><strong>血型，應給予</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）。在這種情況下，篩檢胎兒的紅血球也可能有所幫助。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>如果母體的血液循環中有</strong></span><strong>15ml</strong><span style=\"font-family:標楷體;\"><strong>以上的Ｄ</strong></span><strong>-</strong><span style=\"font-family:標楷體;\"><strong>陽性胎兒紅血球，需要一劑以上的</strong></span><strong>HyperRHO Full Dose</strong><span style=\"font-family:標楷體;\"><strong>，若未察覺到此點，可能就用了不當的劑量。</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>雖然對人類免疫球蛋白製劑的全身性過敏反應很少見，但應準備腎上腺素，以治療可能出現的急性過敏反應。</strong></span></p><p><span style=\"font-family:標楷體;\"><strong>強烈建議醫護人員在每次注射</strong></span><strong> HyperRHO Full Dose&nbsp;</strong><span style=\"font-family:標楷體;\"><strong>時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。</strong></span></p>",
+          "search_text": "5.1\n警語/注意事項\n【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。 對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用Rho(D)免疫球蛋白（人類）時應特別小心。 若主治醫師希望給予 “免疫球蛋白Ａ(IgA)缺乏症”者Rho(D)免疫球蛋白（人類），必須衡量免疫作用的效益與潛在的過敏反應風險。因為這類病人產生IgA抗體的風險較高，使用含有IgA的血液製品後可能出現過敏反應。 和所有肌肉注射製劑一樣，血小板缺乏症、或有其它出血性疾病患者，可能會併發出血的情況。 總論 懷孕後期或分娩後的胎兒─母親間大出血，可能導致對Ｄu測試呈現微弱、混合的陽性反應。如果懷疑母親的Rh血型，應給予Rho(D)免疫球蛋白（人類）。在這種情況下，篩檢胎兒的紅血球也可能有所幫助。 如果母體的血液循環中有15ml以上的Ｄ-陽性胎兒紅血球，需要一劑以上的HyperRHO Full Dose，若未察覺到此點，可能就用了不當的劑量。 雖然對人類免疫球蛋白製劑的全身性過敏反應很少見，但應準備腎上腺素，以治療可能出現的急性過敏反應。 強烈建議醫護人員在每次注射 HyperRHO Full Dose 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "在分娩前使用Rho(D)免疫球蛋白（人類）的母親，嬰兒初生後做的直接抗球蛋白試驗，可能會呈弱陽性反應。分娩前或分娩後給予Rho(D)免疫球蛋白（人類），如果在使用後進行抗體的檢測，則可在母體血清內測得被動的後天Rho(D)抗體。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>在分娩前使用</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）的母親，嬰兒初生後做的直接抗球蛋白試驗，可能會呈弱陽性反應。分娩前或分娩後給予</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類），如果在使用後進行抗體的檢測，則可在母體血清內測得被動的後天</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>抗體。</strong></span></p>",
+          "search_text": "5.4\n實驗室檢測\n在分娩前使用Rho(D)免疫球蛋白（人類）的母親，嬰兒初生後做的直接抗球蛋白試驗，可能會呈弱陽性反應。分娩前或分娩後給予Rho(D)免疫球蛋白（人類），如果在使用後進行抗體的檢測，則可在母體血清內測得被動的後天Rho(D)抗體。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "尚未以本製劑進行動物的生殖研究，是否影響生殖能力、或孕婦使用後是否會傷害胎兒也不太清楚。因此唯有明確需要時才可對孕婦投予本劑。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>尚未以本製劑進行動物的生殖研究，是否影響生殖能力、或孕婦使用後是否會傷害胎兒也不太清楚。因此唯有明確需要時才可對孕婦投予本劑。</strong></span></p>",
+          "search_text": "6.1\n懷孕\n尚未以本製劑進行動物的生殖研究，是否影響生殖能力、或孕婦使用後是否會傷害胎兒也不太清楚。因此唯有明確需要時才可對孕婦投予本劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "安全性和有效性都尚未確立。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>安全性和有效性都尚未確立。</strong></span></p>",
+          "search_text": "6.4\n小兒\n安全性和有效性都尚未確立。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "在Rho(D)免疫球蛋白（人類）製劑中的其它抗體，可能會干擾活性疫苗的作用，例如：麻疹、腮腺炎、小兒麻痹、德國麻疹等的疫苗。因此在使用Rho(D)免疫球蛋白（人類）的三個月內勿再接種活性疫苗。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>在</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）製劑中的其它抗體，可能會干擾活性疫苗的作用，例如：麻疹、腮腺炎、小兒麻痹、德國麻疹等的疫苗。因此在使用</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）的三個月內勿再接種活性疫苗。</strong></span></p>",
+          "search_text": "7\n交互作用\n在Rho(D)免疫球蛋白（人類）製劑中的其它抗體，可能會干擾活性疫苗的作用，例如：麻疹、腮腺炎、小兒麻痹、德國麻疹等的疫苗。因此在使用Rho(D)免疫球蛋白（人類）的三個月內勿再接種活性疫苗。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "Rho(D)陰性者很少對Rho(D)免疫球蛋白（人類）有不適的反應，主要只是注射處輕微疼痛及體溫稍微升高。注射多次而導致過敏的情況很罕見，但曾經發生過。有些輸錯血的病人，在使用多劑Rho(D)免疫球蛋白（人類）後，曾出現血中膽紅素值升高的情形，一般相信這是外來紅血球迅速被破壞的結果。",
+          "content_html": "<p><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>陰性者很少對</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）有不適的反應，主要只是注射處輕微疼痛及體溫稍微升高。注射多次而導致過敏的情況很罕見，但曾經發生過。有些輸錯血的病人，在使用多劑</strong></span><strong>Rho(D)</strong><span style=\"font-family:標楷體;\"><strong>免疫球蛋白（人類）後，曾出現血中膽紅素值升高的情形，一般相信這是外來紅血球迅速被破壞的結果。</strong></span></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\nRho(D)陰性者很少對Rho(D)免疫球蛋白（人類）有不適的反應，主要只是注射處輕微疼痛及體溫稍微升高。注射多次而導致過敏的情況很罕見，但曾經發生過。有些輸錯血的病人，在使用多劑Rho(D)免疫球蛋白（人類）後，曾出現血中膽紅素值升高的情形，一般相信這是外來紅血球迅速被破壞的結果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>目前尚無資訊。</strong></span></p>",
+          "search_text": "8.2\n臨床試驗經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>目前尚無資訊。</strong></span></p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "本製劑用於預防─當Rho(D)陰性者暴露於Rho(D)陽性血液中的同種免疫反應：母親（Rho(D)陰性）懷有Rho(D)陽性胎兒，在生產、流產（自然或人工）、羊膜穿刺或腹部外傷時，發生胎兒─母體間出血。類似的免疫反應也發生在Rho(D)陰性者輸入了Rho(D)陽性紅血球時而產生anti- Rho(D)，這種情況可注射本製劑來預防。(14,15) 新生兒的Rh溶血性疾病是導因於Rho(D)陰性母親的主動免疫作用，即母體在先前的分娩過程中、或流產、羊膜穿刺、或腹部外傷時，Rho(D)陽性紅血球進入了母體的血液循環；或者是因輸血的關係，造成母體產生免疫作用。(7,8)HyperRHO Full Dose 可有效抑制Rho(D)陰性個體對Rho(D)陽性紅血球所產生的免疫反應，但作用機轉不清楚。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">本製劑用於預防─當</span>Rho(D)<span style=\"font-family:標楷體;\">陰性者暴露於</span>Rho(D)<span style=\"font-family:標楷體;\">陽性血液中的同種免疫反應：母親（</span>Rho(D)<span style=\"font-family:標楷體;\">陰性）懷有</span>Rho(D)<span style=\"font-family:標楷體;\">陽性胎兒，在生產、流產（自然或人工）、羊膜穿刺或腹部外傷時，發生胎兒─母體間出血。類似的免疫反應也發生在</span>Rho(D)<span style=\"font-family:標楷體;\">陰性者輸入了</span>Rho(D)<span style=\"font-family:標楷體;\">陽性紅血球時而產生</span>anti- Rho(D)<span style=\"font-family:標楷體;\">，這種情況可注射本製劑來預防。</span>(14,15)</p><p><span style=\"font-family:標楷體;\">新生兒的</span>Rh<span style=\"font-family:標楷體;\">溶血性疾病是導因於</span>Rho(D)<span style=\"font-family:標楷體;\">陰性母親的主動免疫作用，即母體在先前的分娩過程中、或流產、羊膜穿刺、或腹部外傷時，</span>Rho(D)<span style=\"font-family:標楷體;\">陽性紅血球進入了母體的血液循環；或者是因輸血的關係，造成母體產生免疫作用。</span>(7,8)Hyper<strong>RHO</strong> Full Dose&nbsp;<span style=\"font-family:標楷體;\">可有效抑制</span>Rho(D)<span style=\"font-family:標楷體;\">陰性個體對</span>Rho(D)<span style=\"font-family:標楷體;\">陽性紅血球所產生的免疫反應，但作用機轉不清楚。</span></p>",
+          "search_text": "10.1\n作用機轉\n本製劑用於預防─當Rho(D)陰性者暴露於Rho(D)陽性血液中的同種免疫反應：母親（Rho(D)陰性）懷有Rho(D)陽性胎兒，在生產、流產（自然或人工）、羊膜穿刺或腹部外傷時，發生胎兒─母體間出血。類似的免疫反應也發生在Rho(D)陰性者輸入了Rho(D)陽性紅血球時而產生anti- Rho(D)，這種情況可注射本製劑來預防。(14,15) 新生兒的Rh溶血性疾病是導因於Rho(D)陰性母親的主動免疫作用，即母體在先前的分娩過程中、或流產、羊膜穿刺、或腹部外傷時，Rho(D)陽性紅血球進入了母體的血液循環；或者是因輸血的關係，造成母體產生免疫作用。(7,8)HyperRHO Full Dose 可有效抑制Rho(D)陰性個體對Rho(D)陽性紅血球所產生的免疫反應，但作用機轉不清楚。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥物類別: 免疫血清類，特異性免疫球蛋白 ATC代碼：J06BB01; 抗-D (rh)免疫球蛋白（Anti-D (rh) immunoglobulin） Rho(D)陽性的胎兒自Rho(D)陰性的母體產出，在足月生產的72小時內使用本製劑，可將同種免疫作用的發生率從12-13%降到1-2%。(16) 1-2%治療失敗可能是因為懷孕後期或分娩後才發生同種免疫作用。(17) Bowman及Pollock(18)的研究指出，若投予兩劑HyperRHO Full Dose ：一劑在出生前，懷孕28週時；另一劑則在分娩後，如此可將同種免疫作用的發生率從1.6%進一步降到0.1%以下。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">藥物類別</span>:&nbsp;<span style=\"font-family:標楷體;\">免疫血清類，特異性免疫球蛋白</span></p><p>ATC<span style=\"font-family:標楷體;\">代碼：</span>J06BB01; <span style=\"color:windowtext;font-family:標楷體;\">抗</span><span style=\"color:windowtext;\">-D (rh)</span><span style=\"color:windowtext;font-family:標楷體;\">免疫球蛋白</span><span style=\"font-family:標楷體;\">（</span>Anti-D (rh) immunoglobulin<span style=\"font-family:標楷體;\">）</span></p><p>Rho(D)<span style=\"font-family:標楷體;\">陽性的胎兒自</span>Rho(D)<span style=\"font-family:標楷體;\">陰性的母體產出，在足月生產的</span>72<span style=\"font-family:標楷體;\">小時內使用本製劑，可將同種免疫作用的發生率從</span>12-13%<span style=\"font-family:標楷體;\">降到</span>1-2%<span style=\"font-family:標楷體;\">。</span>(16)</p><p>1-2%<span style=\"font-family:標楷體;\">治療失敗可能是因為懷孕後期或分娩後才發生同種免疫作用。</span>(17) Bowman<span style=\"font-family:標楷體;\">及</span>Pollock(18)<span style=\"font-family:標楷體;\">的研究指出，若投予兩劑</span>Hyper<strong>RHO</strong> Full Dose&nbsp;<span style=\"font-family:標楷體;\">：一劑在出生前，懷孕</span>28<span style=\"font-family:標楷體;\">週時；另一劑則在分娩後，如此可將同種免疫作用的發生率從</span>1.6%<span style=\"font-family:標楷體;\">進一步降到</span>0.1%<span style=\"font-family:標楷體;\">以下。</span></p>",
+          "search_text": "10.2\n藥效藥理特性\n藥物類別: 免疫血清類，特異性免疫球蛋白 ATC代碼：J06BB01; 抗-D (rh)免疫球蛋白（Anti-D (rh) immunoglobulin） Rho(D)陽性的胎兒自Rho(D)陰性的母體產出，在足月生產的72小時內使用本製劑，可將同種免疫作用的發生率從12-13%降到1-2%。(16) 1-2%治療失敗可能是因為懷孕後期或分娩後才發生同種免疫作用。(17) Bowman及Pollock(18)的研究指出，若投予兩劑HyperRHO Full Dose ：一劑在出生前，懷孕28週時；另一劑則在分娩後，如此可將同種免疫作用的發生率從1.6%進一步降到0.1%以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊。</span></p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白(人類) HyperRAB，製備過程相同）。所有受試者在注射的24小時內，血清中都可測到被動抗體效價，甚至在21天的研究期間都可持續測得。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">在一項臨床研究中，</span>12<span style=\"font-family:標楷體;\">位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白</span>(<span style=\"font-family:標楷體;\">人類</span>) HyperRAB<span style=\"font-family:標楷體;\">，製備過程相同）。所有受試者在注射的</span>24<span style=\"font-family:標楷體;\">小時內，血清中都可測到被動抗體效價，甚至在</span>21<span style=\"font-family:標楷體;\">天的研究期間都可持續測得。</span></p>",
+          "search_text": "11\n藥物動力學特性\n在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白(人類) HyperRAB，製備過程相同）。所有受試者在注射的24小時內，血清中都可測到被動抗體效價，甚至在21天的研究期間都可持續測得。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">目前尚無資訊。</span></p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "1 毫升注射針筒附針頭(syringe with attached needle)，每盒1支單包裝。 HyperRHO Full Dose不含防腐劑且包裝包材非由天然橡膠乳膠製成。",
+          "content_html": "<p>1&nbsp;<span style=\"font-family:標楷體;\">毫升注射針筒附針頭</span>(syringe with attached needle)<span style=\"font-family:標楷體;\">，每盒</span>1<span style=\"font-family:標楷體;\">支單包裝。</span></p><p>HyperRHO Full Dose<span style=\"font-family:標楷體;\">不含防腐劑且包裝包材非由天然橡膠乳膠製成。</span></p>",
+          "search_text": "13.1\n包裝\n1 毫升注射針筒附針頭(syringe with attached needle)，每盒1支單包裝。 HyperRHO Full Dose不含防腐劑且包裝包材非由天然橡膠乳膠製成。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "詳見外盒標示",
+          "content_html": "<p><span style=\"font-family:標楷體;\">詳見外盒標示</span></p>",
+          "search_text": "13.2\n效期\n詳見外盒標示",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "在 2 – 8 ℃下貯存。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">在</span> 2 – 8&nbsp;<span style=\"font-family:標楷體;\">℃下貯存。</span></p>",
+          "search_text": "13.3\n儲存條件\n在 2 – 8 ℃下貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。</span></p>",
+          "search_text": "13.4\n儲存注意事項\n勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "Rh因子及懷孕 關於懷孕時的保護資訊 Rh因子及其重要時機 Rh因子是紅血球表面抗原的其中之一，若你有Rh因子即為Rh陽性，若沒有即為Rh陰性。每個人不是Rh陽性就是Rh陰性，沒有那個較好或較壞，只是不同。 Rh陰性婦女在懷孕時或接受輸血時，Rh因子就變得很重要。 因子如何影響未來 若你是Rh陰性血，有兩種情形會影響你： 若胎兒的父親為Rh陽性，則胎兒也可能是Rh陽性，Rh陰性母親懷Rh陽性胎兒時，若胎兒的Rh陽性血球細胞進入母體血管中，則產生免疫反應。 這個稱為同族免疫（isoimmunization）的免疫反應表示胎兒的防禦系統認為Rh陽性血為外來物並產生抗體去消滅入侵的Rh陽性血球細胞。 胎兒的血會進入母體大部份是發生在生產時，但也發生在早產、懷孕中止、羊膜穿刺（檢查胎兒是否健康）時或是因為創傷外傷。值得注意的是有些婦女在懷孕時會不明原因地產生Rh陽性抗體。 Rh陽性抗體在第一次懷孕時不會造成問題，但抗體會留在母親血中，在未來幾年內，準備攻擊再次入侵的Rh陽性血球細胞，這可能會導致未來懷孕時發生早產或新生兒溶血性疾病。 Rh陽性母親的小孩，不管父親的血型是什麼，通常不會有發生溶血性疾病的危險。 若有一天你必須接受輸血，同族免疫使得體內已有Rh陽性抗體，但為了救命或是因為失誤必須接受Rh陽性輸血，Rh陽性抗體將會消滅供血者的Rh陽性血球細胞，結果，輸血是不成功的且可能會傷害母體。 新生兒的溶血性疾病：對嬰兒造成威脅 當Rh陰性婦女血液內有Rh陽性抗體且她的胎兒是Rh陽性時，Rh 陽性抗體可能會進入胎兒血液中，攻擊胎兒的紅血球細胞而造成新生兒溶血性疾病。溶血性疾病的嬰兒可能會黃疸和貧血、或是腦部和中樞神經系統永久性傷害導致精神痴呆、聽力喪失或大腦性癱瘓，必須要後續醫療照顧，包括交換輸血以更換嬰兒全身的血液，這樣通常可以停止破壞嬰兒的紅血球細胞而給予存活的機會。 新生兒溶血性疾病的危險性在第一個小孩是較輕微的，但隨著懷孕次數增加而遞增。 預防溶血性疾病 HyperRHO 可以預防新生兒溶血性疾病，它提供原本體內沒有的Rh陽性抗體。 HyperRHO 是特製的丙型球蛋白，含高度抗Rh陽性血球細胞的抗體。注射HyperRHO 破壞進入母體的Rh陽性血球細胞以避免母體的免疫反應產生Rh陽性抗體，如此可保護嬰兒不發生溶血性疾病。 使用HyperRHO Full Dose本製劑時 Rh陰性婦女懷孕和其他產科況狀 若是屬於高危險群在懷孕時必須注射HyperRHO Full Dose，例如：若有做羊膜穿刺就有產生Rh陽性抗體的危險；或早產、或在懷孕13個星期後懷孕中止。 實驗室研究發現，在懷孕的最後幾個星期，即使沒有誘發抗體的因子，Rh陰性婦女也產生Rh陽性抗體。做為預防上的考量，醫師可能會建議在懷孕第28星期注射第一劑HyperRHO Full Dose。 若父親或嬰兒的血型檢驗為Rh陰性，上述情形則不須要注射HyperRHO。 Rh陽性嬰兒出生後72小時內須注射HyperRHO Full Dose。 輸血 Rh陰性個體在接受Rh陽性血球細胞輸血或含紅血球的血液成分時，可以用HyperRHO Full Dose來預防同族免疫反應。 使用HyperRHO Mini-Dose（非本製劑）時 早產或在懷孕13星期以前中止懷孕的Rh陰性婦女可以接受單劑的HyperRHO Mini-Dose以取代HyperRHO Full Dose，若父親或胎兒的血型檢驗為Rh陰性則不需要HyperRHO Mini-Dose。 再次需要HyperRHO？ HyperRHO 的保護作用只在個體尚未有Rh陽性抗體，曾經懷孕、早產、中止懷孕或輸血的婦女其體內已有抗體故無法受到HyperRHO 的保護。這就是每次懷孕時必須在療期內注射HyperRHO 的重要性。 對HyperRHO 的反應 注射處可能會覺得短暫疼痛，體溫可能會暫時輕微上升。極少數案例發生過敏反應，醫師將會有適當的評量。 生出健康寶寶 醫師可以回答關於注射HyperRHO 以預防新生兒溶血性疾病的任何問題。Rh陰性且已懷孕的婦女必須與醫師討論此情形。如今，藉由HyperRHO ，新生兒溶血性疾病的發生率可降至最低。 溶血疾病的發生",
+          "content_html": "<p>Rh<span style=\"font-family:標楷體;\">因子及懷孕</span></p><p><span style=\"font-family:標楷體;\">關於懷孕時的保護資訊</span></p><p><u>Rh</u><span style=\"font-family:標楷體;\"><u>因子及其重要時機</u></span></p><p>Rh<span style=\"font-family:標楷體;\">因子是紅血球表面抗原的其中之一，若你有</span>Rh<span style=\"font-family:標楷體;\">因子即為</span>Rh<span style=\"font-family:標楷體;\">陽性，若沒有即為</span>Rh<span style=\"font-family:標楷體;\">陰性。每個人不是</span>Rh<span style=\"font-family:標楷體;\">陽性就是</span>Rh<span style=\"font-family:標楷體;\">陰性，沒有那個較好或較壞，只是不同。</span></p><p>Rh<span style=\"font-family:標楷體;\">陰性婦女在懷孕時或接受輸血時，</span>Rh<span style=\"font-family:標楷體;\">因子就變得很重要。</span></p><p><u>因子如何影響未來</u></p><p><span style=\"font-family:標楷體;\">若你是</span>Rh<span style=\"font-family:標楷體;\">陰性血，有兩種情形會影響你：</span></p><ol><li><span style=\"font-family:標楷體;\">若胎兒的父親為</span>Rh<span style=\"font-family:標楷體;\">陽性，則胎兒也可能是</span>Rh<span style=\"font-family:標楷體;\">陽性，</span>Rh<span style=\"font-family:標楷體;\">陰性母親懷</span>Rh<span style=\"font-family:標楷體;\">陽性胎兒時，若胎兒的</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞進入母體血管中，則產生免疫反應。</span></li></ol><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">這個稱為同族免疫（</span>isoimmunization<span style=\"font-family:標楷體;\">）的免疫反應表示胎兒的防禦系統認為</span>Rh<span style=\"font-family:標楷體;\">陽性血為外來物並產生抗體去消滅入侵的</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞。</span></p><p style=\"margin-left:18.0pt;\"><span style=\"font-family:標楷體;\">胎兒的血會進入母體大部份是發生在生產時，但也發生在早產、懷孕中止、羊膜穿刺（檢查胎兒是否健康）時或是因為創傷外傷。值得注意的是有些婦女在懷孕時會不明原因地產生</span>Rh<span style=\"font-family:標楷體;\">陽性抗體。</span></p><p style=\"margin-left:18.0pt;\">Rh<span style=\"font-family:標楷體;\">陽性抗體在第一次懷孕時不會造成問題，但抗體會留在母親血中，在未來幾年內，準備攻擊再次入侵的</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞，這可能會導致未來懷孕時發生早產或新生兒溶血性疾病。</span></p><p style=\"margin-left:18.0pt;\">Rh<span style=\"font-family:標楷體;\">陽性母親的小孩，不管父親的血型是什麼，通常不會有發生溶血性疾病的危險。</span></p><ol><li><span style=\"font-family:標楷體;\">若有一天你必須接受輸血，同族免疫使得體內已有</span>Rh<span style=\"font-family:標楷體;\">陽性抗體，但為了救命或是因為失誤必須接受</span>Rh<span style=\"font-family:標楷體;\">陽性輸血，</span>Rh<span style=\"font-family:標楷體;\">陽性抗體將會消滅供血者的</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞，結果，輸血是不成功的且可能會傷害母體。</span></li></ol><p>&nbsp;</p><p><u>新生兒的溶血性疾病：對嬰兒造成威脅</u></p><p><span style=\"font-family:標楷體;\">當</span>Rh<span style=\"font-family:標楷體;\">陰性婦女血液內有</span>Rh<span style=\"font-family:標楷體;\">陽性抗體且她的胎兒是</span>Rh<span style=\"font-family:標楷體;\">陽性時，</span>Rh&nbsp;<span style=\"font-family:標楷體;\">陽性抗體可能會進入胎兒血液中，攻擊胎兒的紅血球細胞而造成新生兒溶血性疾病。溶血性疾病的嬰兒可能會黃疸和貧血、或是腦部和中樞神經系統永久性傷害導致精神痴呆、聽力喪失或大腦性癱瘓，必須要後續醫療照顧，包括交換輸血以更換嬰兒全身的血液，這樣通常可以停止破壞嬰兒的紅血球細胞而給予存活的機會。</span></p><p><span style=\"font-family:標楷體;\">新生兒溶血性疾病的危險性在第一個小孩是較輕微的，但隨著懷孕次數增加而遞增。</span></p><p><u>預防溶血性疾病</u></p><p>Hyper<strong>RHO&nbsp;</strong><span style=\"font-family:標楷體;\">可以預防新生兒溶血性疾病，它提供原本體內沒有的</span>Rh<span style=\"font-family:標楷體;\">陽性抗體。</span></p><p>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">是特製的丙型球蛋白，含高度抗</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞的抗體。注射</span>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">破壞進入母體的</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞以避免母體的免疫反應產生</span>Rh<span style=\"font-family:標楷體;\">陽性抗體，如此可保護嬰兒不發生溶血性疾病。</span></p><p><u>使用HyperRHO Full Dose本製劑時</u></p><p>Rh<span style=\"font-family:標楷體;\">陰性婦女懷孕和其他產科況狀</span></p><p><span style=\"font-family:標楷體;\">若是屬於高危險群在懷孕時必須注射</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，例如：若有做羊膜穿刺就有產生</span>Rh<span style=\"font-family:標楷體;\">陽性抗體的危險；或早產、或在懷孕</span>13<span style=\"font-family:標楷體;\">個星期後懷孕中止。</span></p><p><span style=\"font-family:標楷體;\">實驗室研究發現，在懷孕的最後幾個星期，即使沒有誘發抗體的因子，</span>Rh<span style=\"font-family:標楷體;\">陰性婦女也產生</span>Rh<span style=\"font-family:標楷體;\">陽性抗體。做為預防上的考量，醫師可能會建議在懷孕第</span>28<span style=\"font-family:標楷體;\">星期注射第一劑</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。</span></p><p><span style=\"font-family:標楷體;\">若父親或嬰兒的血型檢驗為</span>Rh<span style=\"font-family:標楷體;\">陰性，上述情形則不須要注射</span>Hyper<strong>RHO</strong><span style=\"font-family:標楷體;\">。</span></p><p>Rh<span style=\"font-family:標楷體;\">陽性嬰兒出生後</span>72<span style=\"font-family:標楷體;\">小時內須注射</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">。</span></p><p><u>輸血</u></p><p>Rh<span style=\"font-family:標楷體;\">陰性個體在接受</span>Rh<span style=\"font-family:標楷體;\">陽性血球細胞輸血或含紅血球的血液成分時，可以用</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">來預防同族免疫反應。</span></p><p><u>使用HyperRHO Mini-Dose（非本製劑）時</u></p><p><span style=\"font-family:標楷體;\">早產或在懷孕</span>13<span style=\"font-family:標楷體;\">星期以前中止懷孕的</span>Rh<span style=\"font-family:標楷體;\">陰性婦女可以接受單劑的</span>Hyper<strong>RHO</strong> Mini-Dose<span style=\"font-family:標楷體;\">以取代</span>Hyper<strong>RHO</strong> Full Dose<span style=\"font-family:標楷體;\">，若父親或胎兒的血型檢驗為</span>Rh<span style=\"font-family:標楷體;\">陰性則不需要</span>Hyper<strong>RHO</strong> Mini-Dose<span style=\"font-family:標楷體;\">。</span></p><p><u>再次需要HyperRHO？</u></p><p>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">的保護作用只在個體尚未有</span>Rh<span style=\"font-family:標楷體;\">陽性抗體，曾經懷孕、早產、中止懷孕或輸血的婦女其體內已有抗體故無法受到</span>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">的保護。這就是每次懷孕時必須在療期內注射</span>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">的重要性。</span></p><p><u>對HyperRHO&nbsp;的反應</u></p><p><span style=\"font-family:標楷體;\">注射處可能會覺得短暫疼痛，體溫可能會暫時輕微上升。極少數案例發生過敏反應，醫師將會有適當的評量。</span></p><p><u>生出健康寶寶</u></p><p><span style=\"font-family:標楷體;\">醫師可以回答關於注射</span>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">以預防新生兒溶血性疾病的任何問題。</span>Rh<span style=\"font-family:標楷體;\">陰性且已懷孕的婦女必須與醫師討論此情形。如今，藉由</span>Hyper<strong>RHO</strong>&nbsp;<span style=\"font-family:標楷體;\">，新生兒溶血性疾病的發生率可降至最低。</span></p><p><u>溶血疾病的發生</u></p>",
+          "search_text": "14\n病人使用須知\nRh因子及懷孕 關於懷孕時的保護資訊 Rh因子及其重要時機 Rh因子是紅血球表面抗原的其中之一，若你有Rh因子即為Rh陽性，若沒有即為Rh陰性。每個人不是Rh陽性就是Rh陰性，沒有那個較好或較壞，只是不同。 Rh陰性婦女在懷孕時或接受輸血時，Rh因子就變得很重要。 因子如何影響未來 若你是Rh陰性血，有兩種情形會影響你： 若胎兒的父親為Rh陽性，則胎兒也可能是Rh陽性，Rh陰性母親懷Rh陽性胎兒時，若胎兒的Rh陽性血球細胞進入母體血管中，則產生免疫反應。 這個稱為同族免疫（isoimmunization）的免疫反應表示胎兒的防禦系統認為Rh陽性血為外來物並產生抗體去消滅入侵的Rh陽性血球細胞。 胎兒的血會進入母體大部份是發生在生產時，但也發生在早產、懷孕中止、羊膜穿刺（檢查胎兒是否健康）時或是因為創傷外傷。值得注意的是有些婦女在懷孕時會不明原因地產生Rh陽性抗體。 Rh陽性抗體在第一次懷孕時不會造成問題，但抗體會留在母親血中，在未來幾年內，準備攻擊再次入侵的Rh陽性血球細胞，這可能會導致未來懷孕時發生早產或新生兒溶血性疾病。 Rh陽性母親的小孩，不管父親的血型是什麼，通常不會有發生溶血性疾病的危險。 若有一天你必須接受輸血，同族免疫使得體內已有Rh陽性抗體，但為了救命或是因為失誤必須接受Rh陽性輸血，Rh陽性抗體將會消滅供血者的Rh陽性血球細胞，結果，輸血是不成功的且可能會傷害母體。 新生兒的溶血性疾病：對嬰兒造成威脅 當Rh陰性婦女血液內有Rh陽性抗體且她的胎兒是Rh陽性時，Rh 陽性抗體可能會進入胎兒血液中，攻擊胎兒的紅血球細胞而造成新生兒溶血性疾病。溶血性疾病的嬰兒可能會黃疸和貧血、或是腦部和中樞神經系統永久性傷害導致精神痴呆、聽力喪失或大腦性癱瘓，必須要後續醫療照顧，包括交換輸血以更換嬰兒全身的血液，這樣通常可以停止破壞嬰兒的紅血球細胞而給予存活的機會。 新生兒溶血性疾病的危險性在第一個小孩是較輕微的，但隨著懷孕次數增加而遞增。 預防溶血性疾病 HyperRHO 可以預防新生兒溶血性疾病，它提供原本體內沒有的Rh陽性抗體。 HyperRHO 是特製的丙型球蛋白，含高度抗Rh陽性血球細胞的抗體。注射HyperRHO 破壞進入母體的Rh陽性血球細胞以避免母體的免疫反應產生Rh陽性抗體，如此可保護嬰兒不發生溶血性疾病。 使用HyperRHO Full Dose本製劑時 Rh陰性婦女懷孕和其他產科況狀 若是屬於高危險群在懷孕時必須注射HyperRHO Full Dose，例如：若有做羊膜穿刺就有產生Rh陽性抗體的危險；或早產、或在懷孕13個星期後懷孕中止。 實驗室研究發現，在懷孕的最後幾個星期，即使沒有誘發抗體的因子，Rh陰性婦女也產生Rh陽性抗體。做為預防上的考量，醫師可能會建議在懷孕第28星期注射第一劑HyperRHO Full Dose。 若父親或嬰兒的血型檢驗為Rh陰性，上述情形則不須要注射HyperRHO。 Rh陽性嬰兒出生後72小時內須注射HyperRHO Full Dose。 輸血 Rh陰性個體在接受Rh陽性血球細胞輸血或含紅血球的血液成分時，可以用HyperRHO Full Dose來預防同族免疫反應。 使用HyperRHO Mini-Dose（非本製劑）時 早產或在懷孕13星期以前中止懷孕的Rh陰性婦女可以接受單劑的HyperRHO Mini-Dose以取代HyperRHO Full Dose，若父親或胎兒的血型檢驗為Rh陰性則不需要HyperRHO Mini-Dose。 再次需要HyperRHO？ HyperRHO 的保護作用只在個體尚未有Rh陽性抗體，曾經懷孕、早產、中止懷孕或輸血的婦女其體內已有抗體故無法受到HyperRHO 的保護。這就是每次懷孕時必須在療期內注射HyperRHO 的重要性。 對HyperRHO 的反應 注射處可能會覺得短暫疼痛，體溫可能會暫時輕微上升。極少數案例發生過敏反應，醫師將會有適當的評量。 生出健康寶寶 醫師可以回答關於注射HyperRHO 以預防新生兒溶血性疾病的任何問題。Rh陰性且已懷孕的婦女必須與醫師討論此情形。如今，藉由HyperRHO ，新生兒溶血性疾病的發生率可降至最低。 溶血疾病的發生",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 151408
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 238724
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 329312
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 215656
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "參考資料 1. Gunson HH, Bowell PJ, Kirkwood TBL: Collaborative study to recalibrate the International Reference Preparation of Anti-D Immunoglobulin. J Clin Pathol 33:249-53, 1980. 2. Rho(D) immune globulin (human). Med Lett Drugs Ther 16(1):3-4, 1974. 3. Pollack W, Ascari WQ, Kochesky RJ, et al: Studies on Rh prophylaxis. I. Relationship between doses of anti-Rh and size of antigenic stimulus. Transfusion 11(6):333-9, 1971. 4. Unpublished data on file. 5. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration modified process. Biologicals 2012;40:247-53. 6. Ascari WQ, Allen AE, Baker WJ, et al: Rho(D) immune globulin (human): evaluation in women at risk of Rh immunization. JAMA 205(1):1-4, 1968. 7. The selective use of Rho(D) immune globulin (RhIG). ACOG Tech Bull 61, 1981. 8. Current uses of Rho immune globulin and detection of antibodies. ACOG Tech Bull 35, 1976. 9. Samson D, Mollison PL: Effect on primary Rh immunization of delayed administration of anti-Rh. Immunology 28:349-57, 1975. 10. Finn R, Harper DT, Stallings SA, et al: Transplacental hemorrhage. Transfusion 3(2):114-24, 1963. 11. Prevention of Rh sensitization. WHO Tech Rep Ser 468:25, 1971. 12. Garraty G (ed.): Hemolytic disease of the newborn. Arlington, VA, American Association of Blood Banks, 1984, p 78. 13. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 14. Pollack W, Ascari WQ, Crispen JF, et al: Studies on Rh prophylaxis. II. Rh immune prophylaxis after transfusion with Rh-positive blood. Transfusion 11(6):340-4, 1971. 15. Keith LG, Houser GH: Anti-Rh immune globulin after a massive transfusion accident. Transfusion 11(3):176, 1971. 16. Pollack W: Rh hemolytic disease of the newborn: its cause and prevention. Prog Clin Biol Res 70:185-203, 1981. 17. Bowman JM, Chown B, Lewis M, et al: Rh isoimmunization during pregnancy: antenatal prophylaxis. Can Med Assoc J 118(6):623-7, 1978. 18. Bowman JM, Pollock JM: Antenatal prophylaxis of Rh isoimmunization: 28-weeks’- gestation service program. Can Med Assoc J 118(6):627-30, 1978.\n中文版本核定日期: 5/2026 3069878 英文版本修訂日期: 5/2025 3068044",
+          "content_html": "<p>參考資料</p><p>1. Gunson HH, Bowell PJ, Kirkwood TBL: Collaborative study to recalibrate the International Reference Preparation of Anti-D Immunoglobulin. J Clin Pathol 33:249-53, 1980.<br>2. Rho(D) immune globulin (human). Med Lett Drugs Ther 16(1):3-4, 1974.<br>3. Pollack W, Ascari WQ, Kochesky RJ, et al: Studies on Rh prophylaxis. I. Relationship between doses of anti-Rh and size of antigenic stimulus. Transfusion 11(6):333-9, 1971.<br>4. Unpublished data on file.<br>5. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration modified process. Biologicals 2012;40:247-53.<br>6. Ascari WQ, Allen AE, Baker WJ, et al: Rho(D) immune globulin (human): evaluation in women at risk of Rh immunization. JAMA 205(1):1-4, 1968.<br>7. The selective use of Rho(D) immune globulin (RhIG). ACOG Tech Bull 61, 1981.<br>8. Current uses of Rho immune globulin and detection of antibodies. ACOG Tech Bull 35, 1976.<br>9. Samson D, Mollison PL: Effect on primary Rh immunization of delayed administration of anti-Rh. Immunology 28:349-57, 1975.<br>10. Finn R, Harper DT, Stallings SA, et al: Transplacental hemorrhage. Transfusion 3(2):114-24, 1963.<br>11. Prevention of Rh sensitization. WHO Tech Rep Ser 468:25, 1971.<br>12. Garraty G (ed.): Hemolytic disease of the newborn. Arlington, VA, American Association of Blood Banks, 1984, p 78.<br>13. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36.<br>14. Pollack W, Ascari WQ, Crispen JF, et al: Studies on Rh prophylaxis. II. Rh immune prophylaxis after transfusion with Rh-positive blood. Transfusion 11(6):340-4, 1971.<br>15. Keith LG, Houser GH: Anti-Rh immune globulin after a massive transfusion accident. Transfusion 11(3):176, 1971.<br>16. Pollack W: Rh hemolytic disease of the newborn: its cause and prevention. Prog Clin Biol Res 70:185-203, 1981.<br>17. Bowman JM, Chown B, Lewis M, et al: Rh isoimmunization during pregnancy: antenatal prophylaxis. Can Med Assoc J 118(6):623-7, 1978.<br>18. Bowman JM, Pollock JM: Antenatal prophylaxis of Rh isoimmunization: 28-weeks’- gestation service program. Can Med Assoc J 118(6):627-30, 1978.</p>\n<p><span style=\"font-family:標楷體;\">中文版本核定日期</span>: 5/2026 3069878 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><span style=\"font-family:標楷體;\">英文版本修訂日期</span>: 5/2025 3068044&nbsp;&nbsp;&nbsp;&nbsp;<span style=\"color:red;\"> &nbsp;</span></p>",
+          "search_text": "15\n其他\n參考資料 1. Gunson HH, Bowell PJ, Kirkwood TBL: Collaborative study to recalibrate the International Reference Preparation of Anti-D Immunoglobulin. J Clin Pathol 33:249-53, 1980. 2. Rho(D) immune globulin (human). Med Lett Drugs Ther 16(1):3-4, 1974. 3. Pollack W, Ascari WQ, Kochesky RJ, et al: Studies on Rh prophylaxis. I. Relationship between doses of anti-Rh and size of antigenic stimulus. Transfusion 11(6):333-9, 1971. 4. Unpublished data on file. 5. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration modified process. Biologicals 2012;40:247-53. 6. Ascari WQ, Allen AE, Baker WJ, et al: Rho(D) immune globulin (human): evaluation in women at risk of Rh immunization. JAMA 205(1):1-4, 1968. 7. The selective use of Rho(D) immune globulin (RhIG). ACOG Tech Bull 61, 1981. 8. Current uses of Rho immune globulin and detection of antibodies. ACOG Tech Bull 35, 1976. 9. Samson D, Mollison PL: Effect on primary Rh immunization of delayed administration of anti-Rh. Immunology 28:349-57, 1975. 10. Finn R, Harper DT, Stallings SA, et al: Transplacental hemorrhage. Transfusion 3(2):114-24, 1963. 11. Prevention of Rh sensitization. WHO Tech Rep Ser 468:25, 1971. 12. Garraty G (ed.): Hemolytic disease of the newborn. Arlington, VA, American Association of Blood Banks, 1984, p 78. 13. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 14. Pollack W, Ascari WQ, Crispen JF, et al: Studies on Rh prophylaxis. II. Rh immune prophylaxis after transfusion with Rh-positive blood. Transfusion 11(6):340-4, 1971. 15. Keith LG, Houser GH: Anti-Rh immune globulin after a massive transfusion accident. Transfusion 11(3):176, 1971. 16. Pollack W: Rh hemolytic disease of the newborn: its cause and prevention. Prog Clin Biol Res 70:185-203, 1981. 17. Bowman JM, Chown B, Lewis M, et al: Rh isoimmunization during pregnancy: antenatal prophylaxis. Can Med Assoc J 118(6):623-7, 1978. 18. Bowman JM, Pollock JM: Antenatal prophylaxis of Rh isoimmunization: 28-weeks’- gestation service program. Can Med Assoc J 118(6):627-30, 1978.\n中文版本核定日期: 5/2026 3069878 英文版本修訂日期: 5/2025 3068044",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n抗RH因子球蛋白注射液 (rho(D) immune globulin (Human))— HyperRHO® Full Dose 不含防腐劑。HyperRHO Full Dose是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。調配。HyperRHO Full Dose為15%-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。 HyperRHO Full Dose含有的Rho(D)抗體效價等於或大於1500 IU/毫升( ≥1500 IU /mL)，每支單一劑量的針劑內都含有足夠的Rho(D)抗體，以有效壓制15ml Rho(D)陽性紅血球所具有的免疫作用(1-4)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperRHO Full Dose的製程中，有幾個步驟可將病毒去活化或移除。(5) 製程中有助於清除病毒的主要步驟如下： 辛酸鹽沉澱／深層過濾 辛酸鹽靜置處理 深層過濾 管柱層析法 奈米過濾 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperRHO Full Dose製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 上述所有措施的結合可為最終產品提供最高的安全性，避免傳染性病毒傳播的潛在風險。 也使用經實驗設計的病原體，作為評估變異性庫賈氏症（variant Creutzfeldt-Jakob disease, vCJD）與庫賈氏症（Creutzfeldt-Jakob disease, CJD）病原的模型，在研究辛酸鹽／層析法的製造過程中，降低傳播性海綿狀腦病（transmissible spongiform encephalopathy，簡稱TSE）傳染的能力。(5) 這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的少量vCJD/CJD感染原。\n1.1\n有效成分及含量\n有效成分: 抗RH因子免疫球蛋白（人類）(Rho(D) immune globulin (Human)) 每1毫升針劑(syringe)含有 ≥ 1500 IU的抗RH因子免疫球蛋白（人類）\n1.2\n賦形劑\nGlycine Water for Injection\n1.3\n劑型\n注射劑 (肌肉注射劑)。\n1.4\n藥品外觀\n澄清或微乳白狀、無色或淡黃色的溶液。\n2\n適應症\n預防因配偶間RH因子不同而導致之流產及出生兒夭折。 [說明] 懷孕及其它產科情況 預防新生兒的Rh溶血性疾病，建議在Rho(D)陰性母親生下Rho(D)陽性的胎兒72小時內使用HyperRHO Full Dose，(6)但必須符合下列標準： 母親必須是Rho(D)陰性、且尚未被Rho(D)因子敏感化。 產下的嬰兒是Rho(D)陽性、且在直接抗球蛋白試驗中必須呈陰性反應。 如果在分娩前使用HyperRHO Full Dose，母親必須在Rho(D)陽性胎兒出生後再使用一劑。 如果確定父親也是Rho(D)陰性，就無須使用HyperRHO Full Dose。 所有尚未免疫化的Rho(D)陰性母親，必須在發生流產（包括自然或人工）、子宮外孕輸卵管破裂、羊膜穿刺、或腹部外傷後72小時內使用HyperRHO Full Dose，除非胎兒或胎兒的父親也確定是Rho(D)陰性。(7,8)如果無法確定胎兒的血型，先假設他是Rho(D)陽性，(2)並對母體使用HyperRHO Full Dose。\n3\n用法及用量\n3.1\n用法用量\n本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。 懷孕及其他產科情況 分娩後預防用：生產後72小時內使用一針注射劑較佳，雖然超過72小時後用Rh抗體的保護效果較差，但仍然可以投予HyperRHO Full Dose。(7,9)在產程中使用的劑量會視胎兒─母體出血量的多寡而異，若進入循環系統的紅血球在15ml或以下，(2-4)一劑注射劑的 HyperRHO Full Dose，即可提供足夠的抗體來防止Rh致敏化反應。一旦懷疑有胎兒─母體間大量出血（全血30ml、或紅血球15ml以上），可以採用一種已核准的檢驗技術（修改後的Kleihauer-Betke酸溶離染色技術）來計算胎兒的紅血球量，並據此決定所需的免疫球蛋白的劑量。(8,10)計算胎兒─母體間出血的紅血球體積，除以15ml所得的數字就是需要使用的針劑數。(3,8,11)若懷疑超過15ml或計算出的是分數，就以較大的整數做為需要投予的數量。（例如：算出的數字是1.4，就給兩針劑） 出生前預防用：懷孕28週時投予一針注射劑的HyperRHO Full Dose；若胎兒是Rh陽性，必須再追加一劑，同時最好在分娩後72小時內追加。 有流產傾向但卻繼續妊娠者，不論在懷孕的那個階段，都建議給予一劑HyperRHO Full Dose。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。 妊娠13週以上發生小產、流產、或中止異位性懷孕時，建議給予一劑HyperRHO Full Dose。如果擔心由於胎兒─母體間的出血，使得進入母體的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。如果妊娠在13週以下就被終止，可使用一劑迷你劑量（HyperRHO Mini-Dose）來取代一劑HyperRHO Full Dose。 懷孕15-18週、或在最後三個月時做羊膜穿刺；或者在懷孕中、後期發生腹部外傷，建議給予HyperRHO Full Dose。如果胎兒─母體間出血的紅血球超過15ml，請按照在上述第1項中的用法來修改劑量。 如果因腹部外傷、羊膜穿刺、或其它不利情況而需要在妊娠13-18週時使用HyperRHO Full Dose，就應該在26-28週時再追加一劑。為保持在妊娠期間的保護效果，被動的後天性抗體anti-Rho(D)的含量不得低於用來預防Rh陽性紅血球免疫反應的需求量。IgG的半衰期是23-26天。只要胎兒是Rh陽性，分娩後72小時內一定得用HyperRHO Full Dose。如果在最後一次投藥後的三週內生產，除非胎兒─母體間的出血超過15ml紅血球，否則產後可以不必再給藥。(12) 注射的步驟 不可靜脈注射，新生兒禁用。HyperRHO Full Dose是肌肉注射，最好是在上臂的三角肌或大腿外側肌肉。臀部不可做為例行性的注射區域，因為有傷到坐骨神經的危險。(13) A. 單一針劑劑量 將針筒內的內容物一次全部用於肌肉注射。 B. 多次針劑劑量 計算使用HyperRHO Full Dose的針筒數。 將HyperRHO Full Dose分成多劑，一次注射不同的多個部位；或間隔時間注射，但必須在發生胎兒─母體間出血或輸血的72小時內全部用完。算出必須注射的針筒數後，採用無菌技術，將全部內容物以肌肉注射的方式，注射到病人體內。 腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。 為了安全及方便使用，本製劑附有注射針筒及針頭套。請依照下列指示正確使用。\n3.2\n調製方式\n1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。 如果針筒過早卡住，請勿使用。 3. 針頭的橡皮套必須套好，將筒柄往前推幾厘米，以突破橡皮塞和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到預備要注射之前，才可將針頭的橡皮套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先回抽一下筒柄，以確定針頭沒有插入靜脈或動脈。 7. 注入藥物。 8. 將手按在針頭後方，另一隻手則握繄針頭套並滑向針頭直到針頭套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，則表示針頭套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的針頭套一起丟入廢棄針筒回收容器中。（如圖C） 許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病患間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。\n3.3\n特殊族群用法用量\n4\n禁忌\n未知\n5\n警語及注意事項\n5.1\n警語/注意事項\n【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 本製劑不可做靜脈注射用，只能肌肉注射。同時新生兒勿用。 對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用Rho(D)免疫球蛋白（人類）時應特別小心。 若主治醫師希望給予 “免疫球蛋白Ａ(IgA)缺乏症”者Rho(D)免疫球蛋白（人類），必須衡量免疫作用的效益與潛在的過敏反應風險。因為這類病人產生IgA抗體的風險較高，使用含有IgA的血液製品後可能出現過敏反應。 和所有肌肉注射製劑一樣，血小板缺乏症、或有其它出血性疾病患者，可能會併發出血的情況。 總論 懷孕後期或分娩後的胎兒─母親間大出血，可能導致對Ｄu測試呈現微弱、混合的陽性反應。如果懷疑母親的Rh血型，應給予Rho(D)免疫球蛋白（人類）。在這種情況下，篩檢胎兒的紅血球也可能有所幫助。 如果母體的血液循環中有15ml以上的Ｄ-陽性胎兒紅血球，需要一劑以上的HyperRHO Full Dose，若未察覺到此點，可能就用了不當的劑量。 雖然對人類免疫球蛋白製劑的全身性過敏反應很少見，但應準備腎上腺素，以治療可能出現的急性過敏反應。 強烈建議醫護人員在每次注射 HyperRHO Full Dose 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n在分娩前使用Rho(D)免疫球蛋白（人類）的母親，嬰兒初生後做的直接抗球蛋白試驗，可能會呈弱陽性反應。分娩前或分娩後給予Rho(D)免疫球蛋白（人類），如果在使用後進行抗體的檢測，則可在母體血清內測得被動的後天Rho(D)抗體。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n尚未以本製劑進行動物的生殖研究，是否影響生殖能力、或孕婦使用後是否會傷害胎兒也不太清楚。因此唯有明確需要時才可對孕婦投予本劑。\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n安全性和有效性都尚未確立。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n在Rho(D)免疫球蛋白（人類）製劑中的其它抗體，可能會干擾活性疫苗的作用，例如：麻疹、腮腺炎、小兒麻痹、德國麻疹等的疫苗。因此在使用Rho(D)免疫球蛋白（人類）的三個月內勿再接種活性疫苗。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\nRho(D)陰性者很少對Rho(D)免疫球蛋白（人類）有不適的反應，主要只是注射處輕微疼痛及體溫稍微升高。注射多次而導致過敏的情況很罕見，但曾經發生過。有些輸錯血的病人，在使用多劑Rho(D)免疫球蛋白（人類）後，曾出現血中膽紅素值升高的情形，一般相信這是外來紅血球迅速被破壞的結果。\n8.2\n臨床試驗經驗\n目前尚無資訊。\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n本製劑用於預防─當Rho(D)陰性者暴露於Rho(D)陽性血液中的同種免疫反應：母親（Rho(D)陰性）懷有Rho(D)陽性胎兒，在生產、流產（自然或人工）、羊膜穿刺或腹部外傷時，發生胎兒─母體間出血。類似的免疫反應也發生在Rho(D)陰性者輸入了Rho(D)陽性紅血球時而產生anti- Rho(D)，這種情況可注射本製劑來預防。(14,15) 新生兒的Rh溶血性疾病是導因於Rho(D)陰性母親的主動免疫作用，即母體在先前的分娩過程中、或流產、羊膜穿刺、或腹部外傷時，Rho(D)陽性紅血球進入了母體的血液循環；或者是因輸血的關係，造成母體產生免疫作用。(7,8)HyperRHO Full Dose 可有效抑制Rho(D)陰性個體對Rho(D)陽性紅血球所產生的免疫反應，但作用機轉不清楚。\n10.2\n藥效藥理特性\n藥物類別: 免疫血清類，特異性免疫球蛋白 ATC代碼：J06BB01; 抗-D (rh)免疫球蛋白（Anti-D (rh) immunoglobulin） Rho(D)陽性的胎兒自Rho(D)陰性的母體產出，在足月生產的72小時內使用本製劑，可將同種免疫作用的發生率從12-13%降到1-2%。(16) 1-2%治療失敗可能是因為懷孕後期或分娩後才發生同種免疫作用。(17) Bowman及Pollock(18)的研究指出，若投予兩劑HyperRHO Full Dose ：一劑在出生前，懷孕28週時；另一劑則在分娩後，如此可將同種免疫作用的發生率從1.6%進一步降到0.1%以下。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白(人類) HyperRAB，製備過程相同）。所有受試者在注射的24小時內，血清中都可測到被動抗體效價，甚至在21天的研究期間都可持續測得。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n1 毫升注射針筒附針頭(syringe with attached needle)，每盒1支單包裝。 HyperRHO Full Dose不含防腐劑且包裝包材非由天然橡膠乳膠製成。\n13.2\n效期\n詳見外盒標示\n13.3\n儲存條件\n在 2 – 8 ℃下貯存。\n13.4\n儲存注意事項\n勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。\n14\n病人使用須知\nRh因子及懷孕 關於懷孕時的保護資訊 Rh因子及其重要時機 Rh因子是紅血球表面抗原的其中之一，若你有Rh因子即為Rh陽性，若沒有即為Rh陰性。每個人不是Rh陽性就是Rh陰性，沒有那個較好或較壞，只是不同。 Rh陰性婦女在懷孕時或接受輸血時，Rh因子就變得很重要。 因子如何影響未來 若你是Rh陰性血，有兩種情形會影響你： 若胎兒的父親為Rh陽性，則胎兒也可能是Rh陽性，Rh陰性母親懷Rh陽性胎兒時，若胎兒的Rh陽性血球細胞進入母體血管中，則產生免疫反應。 這個稱為同族免疫（isoimmunization）的免疫反應表示胎兒的防禦系統認為Rh陽性血為外來物並產生抗體去消滅入侵的Rh陽性血球細胞。 胎兒的血會進入母體大部份是發生在生產時，但也發生在早產、懷孕中止、羊膜穿刺（檢查胎兒是否健康）時或是因為創傷外傷。值得注意的是有些婦女在懷孕時會不明原因地產生Rh陽性抗體。 Rh陽性抗體在第一次懷孕時不會造成問題，但抗體會留在母親血中，在未來幾年內，準備攻擊再次入侵的Rh陽性血球細胞，這可能會導致未來懷孕時發生早產或新生兒溶血性疾病。 Rh陽性母親的小孩，不管父親的血型是什麼，通常不會有發生溶血性疾病的危險。 若有一天你必須接受輸血，同族免疫使得體內已有Rh陽性抗體，但為了救命或是因為失誤必須接受Rh陽性輸血，Rh陽性抗體將會消滅供血者的Rh陽性血球細胞，結果，輸血是不成功的且可能會傷害母體。 新生兒的溶血性疾病：對嬰兒造成威脅 當Rh陰性婦女血液內有Rh陽性抗體且她的胎兒是Rh陽性時，Rh 陽性抗體可能會進入胎兒血液中，攻擊胎兒的紅血球細胞而造成新生兒溶血性疾病。溶血性疾病的嬰兒可能會黃疸和貧血、或是腦部和中樞神經系統永久性傷害導致精神痴呆、聽力喪失或大腦性癱瘓，必須要後續醫療照顧，包括交換輸血以更換嬰兒全身的血液，這樣通常可以停止破壞嬰兒的紅血球細胞而給予存活的機會。 新生兒溶血性疾病的危險性在第一個小孩是較輕微的，但隨著懷孕次數增加而遞增。 預防溶血性疾病 HyperRHO 可以預防新生兒溶血性疾病，它提供原本體內沒有的Rh陽性抗體。 HyperRHO 是特製的丙型球蛋白，含高度抗Rh陽性血球細胞的抗體。注射HyperRHO 破壞進入母體的Rh陽性血球細胞以避免母體的免疫反應產生Rh陽性抗體，如此可保護嬰兒不發生溶血性疾病。 使用HyperRHO Full Dose本製劑時 Rh陰性婦女懷孕和其他產科況狀 若是屬於高危險群在懷孕時必須注射HyperRHO Full Dose，例如：若有做羊膜穿刺就有產生Rh陽性抗體的危險；或早產、或在懷孕13個星期後懷孕中止。 實驗室研究發現，在懷孕的最後幾個星期，即使沒有誘發抗體的因子，Rh陰性婦女也產生Rh陽性抗體。做為預防上的考量，醫師可能會建議在懷孕第28星期注射第一劑HyperRHO Full Dose。 若父親或嬰兒的血型檢驗為Rh陰性，上述情形則不須要注射HyperRHO。 Rh陽性嬰兒出生後72小時內須注射HyperRHO Full Dose。 輸血 Rh陰性個體在接受Rh陽性血球細胞輸血或含紅血球的血液成分時，可以用HyperRHO Full Dose來預防同族免疫反應。 使用HyperRHO Mini-Dose（非本製劑）時 早產或在懷孕13星期以前中止懷孕的Rh陰性婦女可以接受單劑的HyperRHO Mini-Dose以取代HyperRHO Full Dose，若父親或胎兒的血型檢驗為Rh陰性則不需要HyperRHO Mini-Dose。 再次需要HyperRHO？ HyperRHO 的保護作用只在個體尚未有Rh陽性抗體，曾經懷孕、早產、中止懷孕或輸血的婦女其體內已有抗體故無法受到HyperRHO 的保護。這就是每次懷孕時必須在療期內注射HyperRHO 的重要性。 對HyperRHO 的反應 注射處可能會覺得短暫疼痛，體溫可能會暫時輕微上升。極少數案例發生過敏反應，醫師將會有適當的評量。 生出健康寶寶 醫師可以回答關於注射HyperRHO 以預防新生兒溶血性疾病的任何問題。Rh陰性且已懷孕的婦女必須與醫師討論此情形。如今，藉由HyperRHO ，新生兒溶血性疾病的發生率可降至最低。 溶血疾病的發生\n15\n其他\n參考資料 1. Gunson HH, Bowell PJ, Kirkwood TBL: Collaborative study to recalibrate the International Reference Preparation of Anti-D Immunoglobulin. J Clin Pathol 33:249-53, 1980. 2. Rho(D) immune globulin (human). Med Lett Drugs Ther 16(1):3-4, 1974. 3. Pollack W, Ascari WQ, Kochesky RJ, et al: Studies on Rh prophylaxis. I. Relationship between doses of anti-Rh and size of antigenic stimulus. Transfusion 11(6):333-9, 1971. 4. Unpublished data on file. 5. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration modified process. Biologicals 2012;40:247-53. 6. Ascari WQ, Allen AE, Baker WJ, et al: Rho(D) immune globulin (human): evaluation in women at risk of Rh immunization. JAMA 205(1):1-4, 1968. 7. The selective use of Rho(D) immune globulin (RhIG). ACOG Tech Bull 61, 1981. 8. Current uses of Rho immune globulin and detection of antibodies. ACOG Tech Bull 35, 1976. 9. Samson D, Mollison PL: Effect on primary Rh immunization of delayed administration of anti-Rh. Immunology 28:349-57, 1975. 10. Finn R, Harper DT, Stallings SA, et al: Transplacental hemorrhage. Transfusion 3(2):114-24, 1963. 11. Prevention of Rh sensitization. WHO Tech Rep Ser 468:25, 1971. 12. Garraty G (ed.): Hemolytic disease of the newborn. Arlington, VA, American Association of Blood Banks, 1984, p 78. 13. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 14. Pollack W, Ascari WQ, Crispen JF, et al: Studies on Rh prophylaxis. II. Rh immune prophylaxis after transfusion with Rh-positive blood. Transfusion 11(6):340-4, 1971. 15. Keith LG, Houser GH: Anti-Rh immune globulin after a massive transfusion accident. Transfusion 11(3):176, 1971. 16. Pollack W: Rh hemolytic disease of the newborn: its cause and prevention. Prog Clin Biol Res 70:185-203, 1981. 17. Bowman JM, Chown B, Lewis M, et al: Rh isoimmunization during pregnancy: antenatal prophylaxis. Can Med Assoc J 118(6):623-7, 1978. 18. Bowman JM, Pollock JM: Antenatal prophylaxis of Rh isoimmunization: 28-weeks’- gestation service program. Can Med Assoc J 118(6):627-30, 1978.\n中文版本核定日期: 5/2026 3069878 英文版本修訂日期: 5/2025 3068044",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "GRIFOLS THERAPEUTICS LLC",
+          "address": "8368 CLAYTON BLVD, CLAYTON, NC 27520, USA"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "INSTITUTO GRIFOLS S.A.",
+          "address": "POLIGONO LEVANTE C/CAN GUASCH 2, 08150 PARETS DEL VALLES BARCELONA SPAIN"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "天行貿易股份有限公司",
+          "address": "台北市中山區長安東路一段21號2樓"
+        }
+      ]
+    }
+  ]
+}

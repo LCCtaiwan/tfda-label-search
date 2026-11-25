@@ -1,0 +1,992 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:53:15.053256+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12009234",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第009234號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第009234號",
+      "matched_license_code": "12009234",
+      "matched_nhi_code": "",
+      "drug_name_zh": "胺美樂－Ｓ注射液",
+      "drug_name_en": "AMINOL-S INJECTION",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-10-29",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Each ml contains： L-Isoleucine………………………………………………2.88mg L-Leucine…………………………………………………3.27mg L-Lysine HCl‧2H2O……………………………………4.32mg L-Methionine…………………………………………… 2.88mg L-Phenylalanine………………………………………… 1.92mg L-Threonine……………………………………………… 0.96mg L-Valine……………………………………………………2.88mg L-Arginine HCl……………………………………………… 3mg L-Histidine HCl‧2H2O………………………………… 1.5mg Glycine…………………………………………………… 4.47mg Sorbitol………………………………………………………50mg",
+          "content_html": "<p style=\"text-align:justify;\">Each ml contains：</p><p style=\"text-align:justify;\">L-Isoleucine………………………………………………2.88mg</p><p style=\"text-align:justify;\">L-Leucine…………………………………………………3.27mg</p><p style=\"text-align:justify;\">L-Lysine HCl‧2H<sub>2</sub>O……………………………………4.32mg</p><p style=\"text-align:justify;\">L-Methionine…………………………………………… &nbsp;2.88mg</p><p style=\"text-align:justify;\">L-Phenylalanine…………………………………………&nbsp;1.92mg</p><p style=\"text-align:justify;\">L-Threonine………………………………………………&nbsp;0.96mg</p><p style=\"text-align:justify;\">L-Valine……………………………………………………2.88mg</p><p style=\"text-align:justify;\">L-Arginine HCl………………………………………………&nbsp;3mg</p><p style=\"text-align:justify;\">L-Histidine HCl‧2H<sub>2</sub>O…………………………………&nbsp;&nbsp;1.5mg</p><p style=\"text-align:justify;\">Glycine……………………………………………………&nbsp;4.47mg</p><p style=\"text-align:justify;\">Sorbitol………………………………………………………50mg</p>",
+          "search_text": "1.1\n有效成分及含量\nEach ml contains： L-Isoleucine………………………………………………2.88mg L-Leucine…………………………………………………3.27mg L-Lysine HCl‧2H2O……………………………………4.32mg L-Methionine…………………………………………… 2.88mg L-Phenylalanine………………………………………… 1.92mg L-Threonine……………………………………………… 0.96mg L-Valine……………………………………………………2.88mg L-Arginine HCl……………………………………………… 3mg L-Histidine HCl‧2H2O………………………………… 1.5mg Glycine…………………………………………………… 4.47mg Sorbitol………………………………………………………50mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "L-Cysteine•HCl、Sodium Bisulfite、Sodium Hydroxide、Water for Injection。",
+          "content_html": "<p>L-Cysteine•HCl、Sodium Bisulfite、Sodium Hydroxide、Water for Injection。</p>",
+          "search_text": "1.2\n賦形劑\nL-Cysteine•HCl、Sodium Bisulfite、Sodium Hydroxide、Water for Injection。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑。",
+          "content_html": "<p style=\"text-align:justify;\">注射劑。</p>",
+          "search_text": "1.3\n劑型\n注射劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "澄清無色至微黃色的溶液。",
+          "content_html": "<p style=\"text-align:justify;\">澄清無色至微黃色的溶液。</p>",
+          "search_text": "1.4\n藥品外觀\n澄清無色至微黃色的溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "蛋白質缺乏而引起之疾患及伴有蛋白質損失之疾患。",
+          "content_html": "<p style=\"text-align:justify;\">蛋白質缺乏而引起之疾患及伴有蛋白質損失之疾患。</p>",
+          "search_text": "2\n適應症\n蛋白質缺乏而引起之疾患及伴有蛋白質損失之疾患。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "通常用500ml一日一次到數次，靜脈內緩慢注射之，視症狀、年齡、體重等斟酌增減。 附加之輸入器(Infusion Apparatus)已完全消毒滅菌，使用後即丟棄。",
+          "content_html": "<p style=\"text-align:justify;\">通常用500ml一日一次到數次，靜脈內緩慢注射之，視症狀、年齡、體重等斟酌增減。</p><p style=\"text-align:justify;\">附加之輸入器(Infusion Apparatus)已完全消毒滅菌，使用後即丟棄。</p>",
+          "search_text": "3.1\n用法用量\n通常用500ml一日一次到數次，靜脈內緩慢注射之，視症狀、年齡、體重等斟酌增減。 附加之輸入器(Infusion Apparatus)已完全消毒滅菌，使用後即丟棄。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "3.2\n調製方式\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "3.3\n特殊族群用法用量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "4\n禁忌\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "(依文獻記載)",
+          "content_html": "<p style=\"text-align:justify;\"><strong>(依文獻記載)</strong></p>",
+          "search_text": "5\n警語及注意事項\n(依文獻記載)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "5.1.1不是完全澄清時，不得使用。 5.1.2一部分使用後放置之殘液，絕不可再使用。 5.1.3氨基酸劑為細菌之良好培養源，故對於器具消毒裝置等特別注意。 使用之注意事項 (一)取用時： 1.運輸過程中，容器可能因受重擊、震動，而致產生破裂、縫隙或瓶塞鬆動若發現有上述情形時，請勿使用。 2.若藥液有不澄清、變色、異物或其它異常現象時，請勿使用。 (二)輸液套選用及插入法： 1.請依輸液套使用方法正確使用。 2.請使用附有過濾裝置之輸液套，導入針應以垂直方式插入橡皮塞，插入後請勿扭轉，以免因針割(coring)產生碎片。 3.使用前請再檢視，確定無異物後，方可使用。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>5.1.1不是完全澄清時，不得使用。</strong></p><p style=\"text-align:justify;\"><strong>5.1.2一部分使用後放置之殘液，絕不可再使用。</strong></p><p style=\"text-align:justify;\"><strong>5.1.3氨基酸劑為細菌之良好培養源，故對於器具消毒裝置等特別注意。</strong></p><p style=\"text-align:justify;\"><strong><u>使用之注意事項</u></strong></p><p style=\"text-align:justify;\"><strong>(一)取用時：</strong></p><p style=\"text-align:justify;\"><strong>1.運輸過程中，容器可能因受重擊、震動，而致產生破裂、縫隙或瓶塞鬆動若發現有上述情形時，請勿使用。</strong></p><p style=\"text-align:justify;\"><strong>2.若藥液有不澄清、變色、異物或其它異常現象時，請勿使用。</strong></p><p style=\"text-align:justify;\"><strong>(二)輸液套選用及插入法：</strong></p><p style=\"text-align:justify;\"><strong>1.請依輸液套使用方法正確使用。</strong></p><p style=\"text-align:justify;\"><strong>2.請使用附有過濾裝置之輸液套，導入針應以垂直方式插入橡皮塞，插入後請勿扭轉，以免因針割(coring)產生碎片。</strong></p><p style=\"text-align:justify;\"><strong>3.使用前請再檢視，確定無異物後，方可使用。</strong></p>",
+          "search_text": "5.1\n警語/注意事項\n5.1.1不是完全澄清時，不得使用。 5.1.2一部分使用後放置之殘液，絕不可再使用。 5.1.3氨基酸劑為細菌之良好培養源，故對於器具消毒裝置等特別注意。 使用之注意事項 (一)取用時： 1.運輸過程中，容器可能因受重擊、震動，而致產生破裂、縫隙或瓶塞鬆動若發現有上述情形時，請勿使用。 2.若藥液有不澄清、變色、異物或其它異常現象時，請勿使用。 (二)輸液套選用及插入法： 1.請依輸液套使用方法正確使用。 2.請使用附有過濾裝置之輸液套，導入針應以垂直方式插入橡皮塞，插入後請勿扭轉，以免因針割(coring)產生碎片。 3.使用前請再檢視，確定無異物後，方可使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "5.2\n藥物濫用及依賴性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "5.3\n操作機械能力\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "5.4\n實驗室檢測\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "5.5\n其他注意事項\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.1\n懷孕\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.2\n哺乳\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.4\n小兒\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.5\n老年人\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.6\n肝功能不全\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.7\n腎功能不全\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "6.8\n其他族群\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "8.2\n臨床試驗經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "8.3\n上市後經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\"><strong>目前尚無資訊。</strong></p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "(依文獻記載)",
+          "content_html": "<p style=\"text-align:justify;\"><strong>(依文獻記載)</strong></p>",
+          "search_text": "10\n藥理特性\n(依文獻記載)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "10.1.1以氨基酸純粹結晶，依適當比率配合。 依據聯合國FAO發表之必須氨基酸配合比率標準配合，加上適量比率之L–Arginine, L-Histidine Glycine。 10.1.2L-型氨基酸，利用率高。 在生體內氨基酸合成體蛋白時，經證明為L–型之氨基酸被利用，而本劑皆由L–型氨基酸結晶組成，利用率高，故確能期待良好之營養效果。 10.1.3本劑含有5%之Sorbitol使氨基酸之利用率增高，同時可為腎炎(Nep– hrosis)之利尿作用。 10.1.4在各科領域中，因胃腸疾患所引起之蛋白質之消化及吸收發生障礙時。 10.1.5因創傷、火傷、骨折、化膿以及手術等所引起之蛋白質耗損增大時。 10.1.6肝變硬症，其他肝機能低下所引起之蛋白合成及利用發生障礙時。 10.1.7Nephrosis之利尿作用，以及蛋白損失之補給。 10.1.8甲狀腺機能亢進，高熱疾患等蛋白需要增大時。 營養失調症、外科手術前後、藥物中毒、貧血、消耗性疾患、胃及十二指腸潰瘍、傳染病之恢復期等有效。",
+          "content_html": "<p style=\"text-align:justify;\">10.1.1以氨基酸純粹結晶，依適當比率配合。</p><p style=\"text-align:justify;\">依據聯合國FAO發表之必須氨基酸配合比率標準配合，加上適量比率之L–Arginine, L-Histidine Glycine。</p><p style=\"text-align:justify;\">10.1.2L-型氨基酸，利用率高。</p><p style=\"text-align:justify;\">在生體內氨基酸合成體蛋白時，經證明為L–型之氨基酸被利用，而本劑皆由L–型氨基酸結晶組成，利用率高，故確能期待良好之營養效果。</p><p style=\"text-align:justify;\">10.1.3本劑含有5%之Sorbitol使氨基酸之利用率增高，同時可為腎炎(Nep– hrosis)之利尿作用。</p><p style=\"text-align:justify;\">10.1.4在各科領域中，因胃腸疾患所引起之蛋白質之消化及吸收發生障礙時。</p><p style=\"text-align:justify;\">10.1.5因創傷、火傷、骨折、化膿以及手術等所引起之蛋白質耗損增大時。</p><p style=\"text-align:justify;\">10.1.6肝變硬症，其他肝機能低下所引起之蛋白合成及利用發生障礙時。</p><p style=\"text-align:justify;\">10.1.7Nephrosis之利尿作用，以及蛋白損失之補給。</p><p style=\"text-align:justify;\">10.1.8甲狀腺機能亢進，高熱疾患等蛋白需要增大時。</p><p style=\"text-align:justify;\">營養失調症、外科手術前後、藥物中毒、貧血、消耗性疾患、胃及十二指腸潰瘍、傳染病之恢復期等有效。</p>",
+          "search_text": "10.1\n作用機轉\n10.1.1以氨基酸純粹結晶，依適當比率配合。 依據聯合國FAO發表之必須氨基酸配合比率標準配合，加上適量比率之L–Arginine, L-Histidine Glycine。 10.1.2L-型氨基酸，利用率高。 在生體內氨基酸合成體蛋白時，經證明為L–型之氨基酸被利用，而本劑皆由L–型氨基酸結晶組成，利用率高，故確能期待良好之營養效果。 10.1.3本劑含有5%之Sorbitol使氨基酸之利用率增高，同時可為腎炎(Nep– hrosis)之利尿作用。 10.1.4在各科領域中，因胃腸疾患所引起之蛋白質之消化及吸收發生障礙時。 10.1.5因創傷、火傷、骨折、化膿以及手術等所引起之蛋白質耗損增大時。 10.1.6肝變硬症，其他肝機能低下所引起之蛋白合成及利用發生障礙時。 10.1.7Nephrosis之利尿作用，以及蛋白損失之補給。 10.1.8甲狀腺機能亢進，高熱疾患等蛋白需要增大時。 營養失調症、外科手術前後、藥物中毒、貧血、消耗性疾患、胃及十二指腸潰瘍、傳染病之恢復期等有效。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "100ml, 250ml, 500ml, 1000ml玻璃瓶裝，20ml安瓿裝，100支以下盒裝。",
+          "content_html": "<p style=\"text-align:justify;\">100ml, 250ml, 500ml, 1000ml玻璃瓶裝，20ml安瓿裝，100支以下盒裝。</p>",
+          "search_text": "13.1\n包裝\n100ml, 250ml, 500ml, 1000ml玻璃瓶裝，20ml安瓿裝，100支以下盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p style=\"text-align:justify;\">如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "13.3\n儲存條件\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "13.4\n儲存注意事項\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "14\n病人使用須知\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p style=\"text-align:justify;\">目前尚無資訊。</p>",
+          "search_text": "15\n其他\n目前尚無資訊。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 279848
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nEach ml contains： L-Isoleucine………………………………………………2.88mg L-Leucine…………………………………………………3.27mg L-Lysine HCl‧2H2O……………………………………4.32mg L-Methionine…………………………………………… 2.88mg L-Phenylalanine………………………………………… 1.92mg L-Threonine……………………………………………… 0.96mg L-Valine……………………………………………………2.88mg L-Arginine HCl……………………………………………… 3mg L-Histidine HCl‧2H2O………………………………… 1.5mg Glycine…………………………………………………… 4.47mg Sorbitol………………………………………………………50mg\n1.2\n賦形劑\nL-Cysteine•HCl、Sodium Bisulfite、Sodium Hydroxide、Water for Injection。\n1.3\n劑型\n注射劑。\n1.4\n藥品外觀\n澄清無色至微黃色的溶液。\n2\n適應症\n蛋白質缺乏而引起之疾患及伴有蛋白質損失之疾患。\n3\n用法及用量\n3.1\n用法用量\n通常用500ml一日一次到數次，靜脈內緩慢注射之，視症狀、年齡、體重等斟酌增減。 附加之輸入器(Infusion Apparatus)已完全消毒滅菌，使用後即丟棄。\n3.2\n調製方式\n目前尚無資訊。\n3.3\n特殊族群用法用量\n目前尚無資訊。\n4\n禁忌\n目前尚無資訊。\n5\n警語及注意事項\n(依文獻記載)\n5.1\n警語/注意事項\n5.1.1不是完全澄清時，不得使用。 5.1.2一部分使用後放置之殘液，絕不可再使用。 5.1.3氨基酸劑為細菌之良好培養源，故對於器具消毒裝置等特別注意。 使用之注意事項 (一)取用時： 1.運輸過程中，容器可能因受重擊、震動，而致產生破裂、縫隙或瓶塞鬆動若發現有上述情形時，請勿使用。 2.若藥液有不澄清、變色、異物或其它異常現象時，請勿使用。 (二)輸液套選用及插入法： 1.請依輸液套使用方法正確使用。 2.請使用附有過濾裝置之輸液套，導入針應以垂直方式插入橡皮塞，插入後請勿扭轉，以免因針割(coring)產生碎片。 3.使用前請再檢視，確定無異物後，方可使用。\n5.2\n藥物濫用及依賴性\n目前尚無資訊。\n5.3\n操作機械能力\n目前尚無資訊。\n5.4\n實驗室檢測\n目前尚無資訊。\n5.5\n其他注意事項\n目前尚無資訊。\n6\n特殊族群注意事項\n6.1\n懷孕\n目前尚無資訊。\n6.2\n哺乳\n目前尚無資訊。\n6.3\n有生育能力的女性與男性\n目前尚無資訊。\n6.4\n小兒\n目前尚無資訊。\n6.5\n老年人\n目前尚無資訊。\n6.6\n肝功能不全\n目前尚無資訊。\n6.7\n腎功能不全\n目前尚無資訊。\n6.8\n其他族群\n目前尚無資訊。\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n目前尚無資訊。\n8.2\n臨床試驗經驗\n目前尚無資訊。\n8.3\n上市後經驗\n目前尚無資訊。\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n(依文獻記載)\n10.1\n作用機轉\n10.1.1以氨基酸純粹結晶，依適當比率配合。 依據聯合國FAO發表之必須氨基酸配合比率標準配合，加上適量比率之L–Arginine, L-Histidine Glycine。 10.1.2L-型氨基酸，利用率高。 在生體內氨基酸合成體蛋白時，經證明為L–型之氨基酸被利用，而本劑皆由L–型氨基酸結晶組成，利用率高，故確能期待良好之營養效果。 10.1.3本劑含有5%之Sorbitol使氨基酸之利用率增高，同時可為腎炎(Nep– hrosis)之利尿作用。 10.1.4在各科領域中，因胃腸疾患所引起之蛋白質之消化及吸收發生障礙時。 10.1.5因創傷、火傷、骨折、化膿以及手術等所引起之蛋白質耗損增大時。 10.1.6肝變硬症，其他肝機能低下所引起之蛋白合成及利用發生障礙時。 10.1.7Nephrosis之利尿作用，以及蛋白損失之補給。 10.1.8甲狀腺機能亢進，高熱疾患等蛋白需要增大時。 營養失調症、外科手術前後、藥物中毒、貧血、消耗性疾患、胃及十二指腸潰瘍、傳染病之恢復期等有效。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n100ml, 250ml, 500ml, 1000ml玻璃瓶裝，20ml安瓿裝，100支以下盒裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n目前尚無資訊。\n13.4\n儲存注意事項\n目前尚無資訊。\n14\n病人使用須知\n目前尚無資訊。\n15\n其他\n目前尚無資訊。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "信東生技股份有限公司",
+          "address": "桃園市桃園區介壽路２２號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "信東生技股份有限公司",
+          "address": "桃園市桃園區介壽路２２號"
+        }
+      ]
+    }
+  ]
+}

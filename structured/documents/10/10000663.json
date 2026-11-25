@@ -1,0 +1,1003 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:51.296450+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000663",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000663號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000663號",
+      "matched_license_code": "10000663",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"禮來\" 優泌林－常規型（常規型人體胰島素（基因重組）注射液）１００單位/毫升",
+      "drug_name_en": "HUMULIN R (REGULAR HUMAN INSULIN,RECOMBINANT DNA ORIGIN INJECTION) 100 I.U./ML",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2025-12-28",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "主成份：Human Insulin (以基因重組技術在 E.Coli 內製造)，每毫升含量 100 單位。一小瓶含 10 毫升相當 1000 單位。",
+          "content_html": "<p>主成份：Human Insulin (以基因重組技術在 E.Coli&nbsp;內製造)，每毫升含量 100&nbsp;單位。一小瓶含 10&nbsp;毫升相當 1000&nbsp;單位。</p>",
+          "search_text": "1.1\n有效成分及含量\n主成份：Human Insulin (以基因重組技術在 E.Coli 內製造)，每毫升含量 100 單位。一小瓶含 10 毫升相當 1000 單位。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Humulin R 製劑 m-cresol、甘油、注射用水 Humulin N 和 Mixture 70/30 製劑 m-cresol、甘油、酚、硫酸魚精蛋白(protamine sulphate)、dibasic sodium phosphate 7H2O、氧化鋅、注射用水 可能使用鹽酸和/或氫氧化鈉調整 pH 值 本藥品每單位劑量含少於 1 mmol 鈉 (23 毫克), 即基本上是‶無鈉″。",
+          "content_html": "<p>Humulin R&nbsp;製劑</p><p>m-cresol、甘油、注射用水</p><p>Humulin N&nbsp;和 Mixture 70/30&nbsp;製劑</p><p>m-cresol、甘油、酚、硫酸魚精蛋白(protamine sulphate)、dibasic sodium phosphate 7H<sub>2</sub>O、氧化鋅、注射用水</p><p>可能使用鹽酸和/或氫氧化鈉調整 pH&nbsp;值</p><p>本藥品每單位劑量含少於 1 mmol&nbsp;鈉 (23&nbsp;毫克),&nbsp;即基本上是‶無鈉″。</p>",
+          "search_text": "1.2\n賦形劑\nHumulin R 製劑 m-cresol、甘油、注射用水 Humulin N 和 Mixture 70/30 製劑 m-cresol、甘油、酚、硫酸魚精蛋白(protamine sulphate)、dibasic sodium phosphate 7H2O、氧化鋅、注射用水 可能使用鹽酸和/或氫氧化鈉調整 pH 值 本藥品每單位劑量含少於 1 mmol 鈉 (23 毫克), 即基本上是‶無鈉″。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "Humulin R: 注射劑。 Humulin N: 注射劑。 Humulin 70/30: 滅菌懸液注射劑。",
+          "content_html": "<p>Humulin R:&nbsp;注射劑。</p><p>Humulin N:&nbsp;注射劑。</p><p>Humulin 70/30:&nbsp;滅菌懸液注射劑。</p>",
+          "search_text": "1.3\n劑型\nHumulin R: 注射劑。 Humulin N: 注射劑。 Humulin 70/30: 滅菌懸液注射劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "Humulin R 為 human insulin 無菌澄清、無色、水樣狀的小瓶裝注射液。 Humulin N 為 isophane 人體胰島素白色結晶固體，懸浮於等張磷酸鹽緩衝液的小瓶裝無菌懸液注射液。 Humulin 70/30 是 30%的 soluble 胰島素及 70%的 isophane 胰島素混合製成的無菌懸液注射液。",
+          "content_html": "<p>Humulin R&nbsp;為 human insulin&nbsp;無菌澄清、無色、水樣狀的小瓶裝注射液。</p><p>Humulin N&nbsp;為 isophane&nbsp;人體胰島素白色結晶固體，懸浮於等張磷酸鹽緩衝液的小瓶裝無菌懸液注射液。</p><p>Humulin 70/30&nbsp;是 30%的 soluble&nbsp;胰島素及 70%的 isophane&nbsp;胰島素混合製成的無菌懸液注射液。</p>",
+          "search_text": "1.4\n藥品外觀\nHumulin R 為 human insulin 無菌澄清、無色、水樣狀的小瓶裝注射液。 Humulin N 為 isophane 人體胰島素白色結晶固體，懸浮於等張磷酸鹽緩衝液的小瓶裝無菌懸液注射液。 Humulin 70/30 是 30%的 soluble 胰島素及 70%的 isophane 胰島素混合製成的無菌懸液注射液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "糖尿病 說明：用於治療需要以胰島素維持血糖穩定的糖尿病病人。",
+          "content_html": "<p>糖尿病</p><p>說明：用於治療需要以胰島素維持血糖穩定的糖尿病病人。</p>",
+          "search_text": "2\n適應症\n糖尿病 說明：用於治療需要以胰島素維持血糖穩定的糖尿病病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "用量 根據病人的需要，由醫師決定劑量。 兒童族群 無數據 用法 Humulin R 以皮下注射，雖然不建議但也可能以肌肉注射。也可能以靜脈給予。 Humulin N 及 Mixture 小瓶裝應以皮下注射，雖然不建議但也可能以肌肉注射。這些劑型不能以靜脈給予。 皮下注射的位置應於上臂、大腿、臀或腹部。注射部位應輪流，所以相同位置一個月不能超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis) 的風險。(請參閱警語及注意事項5.1及副作用/不良反應8.1)。 當注射任何 Humulin 胰島素製劑時，應注意沒有注入血管。注射後，不能按摩注射部位。應教育病人使用適當的注射技巧。 Humulin N 可能併用 Humulin R(見用法及用量3.2)。 Humulin Mixture 的配方是配製好的 Humulin R 和 Humulin N 胰島素混合物，以避免病人需要混合胰島素製劑。依照病人的個別代謝需要提供治療療程。 包裝內含 ”給病人的資料”說明書，指示如何注射胰島素。",
+          "content_html": "<p><u>用量</u></p><p>根據病人的需要，由醫師決定劑量。</p><p><i>兒童族群</i></p><p>無數據</p><p><u>用法</u></p><p>Humulin R&nbsp;以皮下注射，雖然不建議但也可能以肌肉注射。也可能以靜脈給予。</p><p>Humulin N&nbsp;及 Mixture&nbsp;小瓶裝應以皮下注射，雖然不建議但也可能以肌肉注射。這些劑型不能以靜脈給予。</p><p>皮下注射的位置應於上臂、大腿、臀或腹部。注射部位應輪流，所以相同位置一個月不能超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis)&nbsp;的風險。(請參閱警語及注意事項5.1及副作用/不良反應8.1)。</p><p>當注射任何 Humulin&nbsp;胰島素製劑時，應注意沒有注入血管。注射後，不能按摩注射部位。應教育病人使用適當的注射技巧。</p><p>Humulin N&nbsp;可能併用 Humulin R(見用法及用量3.2)。</p><p>Humulin Mixture&nbsp;的配方是配製好的 Humulin R&nbsp;和 Humulin N&nbsp;胰島素混合物，以避免病人需要混合胰島素製劑。依照病人的個別代謝需要提供治療療程。</p><p>包裝內含 ”給病人的資料”說明書，指示如何注射胰島素。</p>",
+          "search_text": "3.1\n用法用量\n用量 根據病人的需要，由醫師決定劑量。 兒童族群 無數據 用法 Humulin R 以皮下注射，雖然不建議但也可能以肌肉注射。也可能以靜脈給予。 Humulin N 及 Mixture 小瓶裝應以皮下注射，雖然不建議但也可能以肌肉注射。這些劑型不能以靜脈給予。 皮下注射的位置應於上臂、大腿、臀或腹部。注射部位應輪流，所以相同位置一個月不能超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis) 的風險。(請參閱警語及注意事項5.1及副作用/不良反應8.1)。 當注射任何 Humulin 胰島素製劑時，應注意沒有注入血管。注射後，不能按摩注射部位。應教育病人使用適當的注射技巧。 Humulin N 可能併用 Humulin R(見用法及用量3.2)。 Humulin Mixture 的配方是配製好的 Humulin R 和 Humulin N 胰島素混合物，以避免病人需要混合胰島素製劑。依照病人的個別代謝需要提供治療療程。 包裝內含 ”給病人的資料”說明書，指示如何注射胰島素。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "10 毫升小瓶裝注射液使用於適當的注射針筒(標示 100 單位/毫升) a)劑量準備 Humulin R 配方的小瓶不需要再搖勻且當內容物澄清、無色和無肉眼可見的顆粒時和當內容物呈現水漾時，才可使用。 Humulin N 和 Mixture 70/30 配方的小瓶，在使用前應置於手掌間旋轉數次以完全混合胰島素；直到胰島素呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。 不要劇烈搖 Humulin，可能產生泡沫而干擾劑量的正確測量。 應經常檢查小瓶的外觀，如有塊狀物或白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不可使用。 胰島素的混合 應先抽取短效胰島素於針筒，以避免小瓶被長效胰島素污染。建議混合後立即注射，然若需延遲使用，必須遵照一致的使用程序。 另外，可使用個別的針筒注射每種配方的正確劑量。依照醫師或糖尿病護士的指示，在注射前準備針筒。使用有標示正在使用的胰島素濃度的針筒。 b)劑量注射 依照醫師或糖尿病護士的指示，注射正確的胰島素劑量。注射部位應輪流，所以相同位置一個月不能超過一次。 包裝內含”14病人使用須知”說明書，指示如何注射胰島素。 不相容性 Humulin 不應和其他製造廠生產的胰島素或動物胰島素製劑相混合。",
+          "content_html": "<p>10 毫升小瓶裝注射液使用於適當的注射針筒(標示 100&nbsp;單位/毫升)</p><p>a)劑量準備</p><p>Humulin R&nbsp;配方的小瓶不需要再搖勻且當內容物澄清、無色和無肉眼可見的顆粒時和當內容物呈現水漾時，才可使用。</p><p>Humulin N&nbsp;和 Mixture 70/30&nbsp;配方的小瓶，在使用前應置於手掌間旋轉數次以完全混合胰島素；直到胰島素呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。</p><p>不要劇烈搖 Humulin，可能產生泡沫而干擾劑量的正確測量。</p><p>應經常檢查小瓶的外觀，如有塊狀物或白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不可使用。</p><p><u>胰島素的混合</u></p><p>應先抽取短效胰島素於針筒，以避免小瓶被長效胰島素污染。建議混合後立即注射，然若需延遲使用，必須遵照一致的使用程序。</p><p>另外，可使用個別的針筒注射每種配方的正確劑量。依照醫師或糖尿病護士的指示，在注射前準備針筒。使用有標示正在使用的胰島素濃度的針筒。</p><p>b)劑量注射</p><p>依照醫師或糖尿病護士的指示，注射正確的胰島素劑量。注射部位應輪流，所以相同位置一個月不能超過一次。 包裝內含”14病人使用須知”說明書，指示如何注射胰島素。</p><p><u>不相容性</u></p><p>Humulin 不應和其他製造廠生產的胰島素或動物胰島素製劑相混合。</p>",
+          "search_text": "3.2\n調製方式\n10 毫升小瓶裝注射液使用於適當的注射針筒(標示 100 單位/毫升) a)劑量準備 Humulin R 配方的小瓶不需要再搖勻且當內容物澄清、無色和無肉眼可見的顆粒時和當內容物呈現水漾時，才可使用。 Humulin N 和 Mixture 70/30 配方的小瓶，在使用前應置於手掌間旋轉數次以完全混合胰島素；直到胰島素呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。 不要劇烈搖 Humulin，可能產生泡沫而干擾劑量的正確測量。 應經常檢查小瓶的外觀，如有塊狀物或白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不可使用。 胰島素的混合 應先抽取短效胰島素於針筒，以避免小瓶被長效胰島素污染。建議混合後立即注射，然若需延遲使用，必須遵照一致的使用程序。 另外，可使用個別的針筒注射每種配方的正確劑量。依照醫師或糖尿病護士的指示，在注射前準備針筒。使用有標示正在使用的胰島素濃度的針筒。 b)劑量注射 依照醫師或糖尿病護士的指示，注射正確的胰島素劑量。注射部位應輪流，所以相同位置一個月不能超過一次。 包裝內含”14病人使用須知”說明書，指示如何注射胰島素。 不相容性 Humulin 不應和其他製造廠生產的胰島素或動物胰島素製劑相混合。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "低血糖。 對本品活性物質或 1.2 中的任何賦形劑成分過敏者，除非用於減敏治療計畫中的一部分。任何 Humulin 製劑，除 Humulin R 外，在任何情況下，不可以靜脈給予。",
+          "content_html": "<p>低血糖。</p><p>對本品活性物質或 1.2&nbsp;中的任何賦形劑成分過敏者，除非用於減敏治療計畫中的一部分。任何 Humulin&nbsp;製劑，除 Humulin R&nbsp;外，在任何情況下，不可以靜脈給予。</p>",
+          "search_text": "4\n禁忌\n低血糖。 對本品活性物質或 1.2 中的任何賦形劑成分過敏者，除非用於減敏治療計畫中的一部分。任何 Humulin 製劑，除 Humulin R 外，在任何情況下，不可以靜脈給予。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "應在醫師嚴密監督下，病人才可換用另一劑型或廠牌的胰島素。改變力價、廠牌(製造廠)、劑型(R、N、Mixture 等)、種類 (動物、人、人體胰島素類似物)、和/或製造方法(基因重組、動物來源胰島素)時，都可能需要改變用量。 有些病人以往使用動物來源胰島素，在改用人體胰島素時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。 在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。血糖明顯改善的病人，如密集胰島素治療，可能喪失部分或全部低血糖的警覺症狀，且應依個別狀況指導。其他可能造成低血糖早期警告症狀不同或較不明顯的狀況，包括長期糖尿病、糖尿病性神經病變、或藥物如 beta 阻斷劑。不正常低血糖和高血糖反應可能引起無意識、昏迷或死亡。 劑量使用不適當或停止治療，尤其在胰島素依賴型糖尿病，可能導致高血糖和糖尿病酮酸中毒症；這些情況可能致死。 人體胰島素治療可能引起抗體，但抗體的相對濃度(titers)較低於純化動物胰島素所引起的。 在腎上腺、腦下腺或甲狀腺病變及腎臟或肝臟受損的狀況下，對胰島素的需求量可能明顯改變。在生病或意識混亂時，對胰島素的需求量可能增加。 如病人改變運動量或一般飲食，可能需要調整胰島素用量。 必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙和皮膚類澱粉沉積症的風險。當於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域，而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整抗糖尿病藥物的劑量。 優泌林與 pioglitazone 併用 胰島素與 pioglitazone 併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病患。當考慮 併用優泌林與 pioglitazone 時，應留意此警語及注意事項。若是併用治療，應觀察病患的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用 pioglitazone。 可追溯性 為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號",
+          "content_html": "<p>應在醫師嚴密監督下，病人才可換用另一劑型或廠牌的胰島素。改變力價、廠牌(製造廠)、劑型(R、N、Mixture&nbsp;等)、種類 (動物、人、人體胰島素類似物)、和/或製造方法(基因重組、動物來源胰島素)時，都可能需要改變用量。</p><p>有些病人以往使用動物來源胰島素，在改用人體胰島素時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。</p><p>在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。血糖明顯改善的病人，如密集胰島素治療，可能喪失部分或全部低血糖的警覺症狀，且應依個別狀況指導。其他可能造成低血糖早期警告症狀不同或較不明顯的狀況，包括長期糖尿病、糖尿病性神經病變、或藥物如 beta&nbsp;阻斷劑。不正常低血糖和高血糖反應可能引起無意識、昏迷或死亡。 劑量使用不適當或停止治療，尤其在胰島素依賴型糖尿病，可能導致高血糖和糖尿病酮酸中毒症；這些情況可能致死。</p><p>人體胰島素治療可能引起抗體，但抗體的相對濃度(titers)較低於純化動物胰島素所引起的。</p><p>在腎上腺、腦下腺或甲狀腺病變及腎臟或肝臟受損的狀況下，對胰島素的需求量可能明顯改變。在生病或意識混亂時，對胰島素的需求量可能增加。</p><p>如病人改變運動量或一般飲食，可能需要調整胰島素用量。</p><p>必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙和皮膚類澱粉沉積症的風險。當於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域，而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整抗糖尿病藥物的劑量。</p><p><u>優泌林與 pioglitazone&nbsp;併用</u></p><p>胰島素與 pioglitazone&nbsp;併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病患。當考慮 併用優泌林與 pioglitazone&nbsp;時，應留意此警語及注意事項。若是併用治療，應觀察病患的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用 pioglitazone。</p><p><u>可追溯性</u></p><p>為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號</p>",
+          "search_text": "5.1\n警語/注意事項\n應在醫師嚴密監督下，病人才可換用另一劑型或廠牌的胰島素。改變力價、廠牌(製造廠)、劑型(R、N、Mixture 等)、種類 (動物、人、人體胰島素類似物)、和/或製造方法(基因重組、動物來源胰島素)時，都可能需要改變用量。 有些病人以往使用動物來源胰島素，在改用人體胰島素時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。 在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。血糖明顯改善的病人，如密集胰島素治療，可能喪失部分或全部低血糖的警覺症狀，且應依個別狀況指導。其他可能造成低血糖早期警告症狀不同或較不明顯的狀況，包括長期糖尿病、糖尿病性神經病變、或藥物如 beta 阻斷劑。不正常低血糖和高血糖反應可能引起無意識、昏迷或死亡。 劑量使用不適當或停止治療，尤其在胰島素依賴型糖尿病，可能導致高血糖和糖尿病酮酸中毒症；這些情況可能致死。 人體胰島素治療可能引起抗體，但抗體的相對濃度(titers)較低於純化動物胰島素所引起的。 在腎上腺、腦下腺或甲狀腺病變及腎臟或肝臟受損的狀況下，對胰島素的需求量可能明顯改變。在生病或意識混亂時，對胰島素的需求量可能增加。 如病人改變運動量或一般飲食，可能需要調整胰島素用量。 必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙和皮膚類澱粉沉積症的風險。當於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域，而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整抗糖尿病藥物的劑量。 優泌林與 pioglitazone 併用 胰島素與 pioglitazone 併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病患。當考慮 併用優泌林與 pioglitazone 時，應留意此警語及注意事項。若是併用治療，應觀察病患的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用 pioglitazone。 可追溯性 為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "低血糖可能傷害病人集中注意力和反應的能力，當在這些能力很重要的情況下(如開車或操作儀器)，其可能構成危險性。 應告知病人開車時注意避免低血糖的發生，其對低血糖警告徵兆降低或缺乏警覺意識的病人或對經常發生低血糖的病人尤其重要。在此狀況下，應考慮是否適合開車。",
+          "content_html": "<p>低血糖可能傷害病人集中注意力和反應的能力，當在這些能力很重要的情況下(如開車或操作儀器)，其可能構成危險性。</p><p>應告知病人開車時注意避免低血糖的發生，其對低血糖警告徵兆降低或缺乏警覺意識的病人或對經常發生低血糖的病人尤其重要。在此狀況下，應考慮是否適合開車。</p>",
+          "search_text": "5.3\n操作機械能力\n低血糖可能傷害病人集中注意力和反應的能力，當在這些能力很重要的情況下(如開車或操作儀器)，其可能構成危險性。 應告知病人開車時注意避免低血糖的發生，其對低血糖警告徵兆降低或缺乏警覺意識的病人或對經常發生低血糖的病人尤其重要。在此狀況下，應考慮是否適合開車。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "胰島素依賴型的孕婦或懷孕時產生糖尿病的孕婦在懷孕期間控制好血糖是很重要的。胰島素的需要量通常在妊娠期的首三個月下降且在妊娠次三個月和末三個月中增加。糖尿病病人應告知醫師是否懷孕或計劃要懷孕。 懷孕的糖尿病病人必須小心監測血糖和健康狀況。",
+          "content_html": "<p>胰島素依賴型的孕婦或懷孕時產生糖尿病的孕婦在懷孕期間控制好血糖是很重要的。胰島素的需要量通常在妊娠期的首三個月下降且在妊娠次三個月和末三個月中增加。糖尿病病人應告知醫師是否懷孕或計劃要懷孕。</p><p>懷孕的糖尿病病人必須小心監測血糖和健康狀況。</p>",
+          "search_text": "6.1\n懷孕\n胰島素依賴型的孕婦或懷孕時產生糖尿病的孕婦在懷孕期間控制好血糖是很重要的。胰島素的需要量通常在妊娠期的首三個月下降且在妊娠次三個月和末三個月中增加。糖尿病病人應告知醫師是否懷孕或計劃要懷孕。 懷孕的糖尿病病人必須小心監測血糖和健康狀況。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "親自授乳的病人可能需要調整胰島素劑量和/或飲食。",
+          "content_html": "<p>親自授乳的病人可能需要調整胰島素劑量和/或飲食。</p>",
+          "search_text": "6.2\n哺乳\n親自授乳的病人可能需要調整胰島素劑量和/或飲食。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "有些藥物已知會與葡萄糖代謝相互發生作用，因此除人體胰島素以外，若需使用其他藥物應諮詢醫師(請參閱警語及注意事項)。醫師須考慮可能的交互作用並應詢問病患在使用的藥物。 使用糖化皮質類固醇、甲狀腺荷爾蒙(thyroid hormone)、生長激素(growth hormone)、danazol、beta2- sympatomimetics(如 ritodrine、salbutamol、terbutaline)和利尿劑(thiazides)等會引起高血糖的藥物時， 胰島素需要量可能增加。 使用口服降血糖劑(OHA)、水楊酸製劑 (如 acetylsalicylic acid)、某些抗憂鬱劑(單胺氧化酶抑制劑)、某些血管緊縮素轉換酶(ACE)抑制劑(captopril、enalapril)、angiotensin II receptor blockers、非選擇性 beta 阻斷劑和酒精等會引起血糖下降的藥物時，胰島素需要量可能減少。 體抑素(somatostatin)類似物(octreotide、lanreotide)可能增加或減少胰島素需要量。",
+          "content_html": "<p>有些藥物已知會與葡萄糖代謝相互發生作用，因此除人體胰島素以外，若需使用其他藥物應諮詢醫師(請參閱警語及注意事項)。醫師須考慮可能的交互作用並應詢問病患在使用的藥物。</p><p>使用糖化皮質類固醇、甲狀腺荷爾蒙(thyroid hormone)、生長激素(growth hormone)、danazol、beta2- sympatomimetics(如 ritodrine、salbutamol、terbutaline)和利尿劑(thiazides)等會引起高血糖的藥物時， 胰島素需要量可能增加。</p><p>使用口服降血糖劑(OHA)、水楊酸製劑 (如 acetylsalicylic acid)、某些抗憂鬱劑(單胺氧化酶抑制劑)、某些血管緊縮素轉換酶(ACE)抑制劑(captopril、enalapril)、angiotensin II receptor blockers、非選擇性 beta&nbsp;阻斷劑和酒精等會引起血糖下降的藥物時，胰島素需要量可能減少。</p><p>體抑素(somatostatin)類似物(octreotide、lanreotide)可能增加或減少胰島素需要量。&nbsp;</p>",
+          "search_text": "7\n交互作用\n有些藥物已知會與葡萄糖代謝相互發生作用，因此除人體胰島素以外，若需使用其他藥物應諮詢醫師(請參閱警語及注意事項)。醫師須考慮可能的交互作用並應詢問病患在使用的藥物。 使用糖化皮質類固醇、甲狀腺荷爾蒙(thyroid hormone)、生長激素(growth hormone)、danazol、beta2- sympatomimetics(如 ritodrine、salbutamol、terbutaline)和利尿劑(thiazides)等會引起高血糖的藥物時， 胰島素需要量可能增加。 使用口服降血糖劑(OHA)、水楊酸製劑 (如 acetylsalicylic acid)、某些抗憂鬱劑(單胺氧化酶抑制劑)、某些血管緊縮素轉換酶(ACE)抑制劑(captopril、enalapril)、angiotensin II receptor blockers、非選擇性 beta 阻斷劑和酒精等會引起血糖下降的藥物時，胰島素需要量可能減少。 體抑素(somatostatin)類似物(octreotide、lanreotide)可能增加或減少胰島素需要量。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "低血糖是糖尿病病人使用胰島素最常見的副作用。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。引起低血糖的原因包括胰島素劑量及其他因素(如病患的飲食與運動情況)，並沒有發生特別頻繁的低血糖不良反應。 病患常見有局部過敏反應(≥1/100 至<1/10)。注射部位可能會紅、腫與癢。該輕微的反應通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。全身過敏非常罕見(<1/10,000)，但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能有生命威脅。少數對 Humulin 嚴重過敏的案例必須立即治療，可能需要換其他胰島素或減敏計畫。 在注射部位發生脂肪代謝失調症不常見(≥1/1,000 至<1/100)。 皮膚及皮下組織異常：發生頻率”未知”：皮膚類澱粉沉積症(cutaneous amyloidosis)。 皮膚及皮下組織異常： 注射部位有可能因發生脂肪代謝障礙(lipodystrophy) 和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。(請參閱 ”警語和注意事項”)胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。",
+          "content_html": "<p>低血糖是糖尿病病人使用胰島素最常見的副作用。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。引起低血糖的原因包括胰島素劑量及其他因素(如病患的飲食與運動情況)，並沒有發生特別頻繁的低血糖不良反應。</p><p>病患常見有局部過敏反應(≥1/100&nbsp;至&lt;1/10)。注射部位可能會紅、腫與癢。該輕微的反應通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。全身過敏非常罕見(&lt;1/10,000)，但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能有生命威脅。少數對 Humulin&nbsp;嚴重過敏的案例必須立即治療，可能需要換其他胰島素或減敏計畫。</p><p>在注射部位發生脂肪代謝失調症不常見(≥1/1,000&nbsp;至&lt;1/100)。</p><p>皮膚及皮下組織異常：發生頻率”未知”：皮膚類澱粉沉積症(cutaneous amyloidosis)。</p><p><u>皮膚及皮下組織異常：</u></p><p>注射部位有可能因發生脂肪代謝障礙(lipodystrophy)&nbsp;和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。(請參閱 ”警語和注意事項”)胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n低血糖是糖尿病病人使用胰島素最常見的副作用。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。引起低血糖的原因包括胰島素劑量及其他因素(如病患的飲食與運動情況)，並沒有發生特別頻繁的低血糖不良反應。 病患常見有局部過敏反應(≥1/100 至<1/10)。注射部位可能會紅、腫與癢。該輕微的反應通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。全身過敏非常罕見(<1/10,000)，但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能有生命威脅。少數對 Humulin 嚴重過敏的案例必須立即治療，可能需要換其他胰島素或減敏計畫。 在注射部位發生脂肪代謝失調症不常見(≥1/1,000 至<1/100)。 皮膚及皮下組織異常：發生頻率”未知”：皮膚類澱粉沉積症(cutaneous amyloidosis)。 皮膚及皮下組織異常： 注射部位有可能因發生脂肪代謝障礙(lipodystrophy) 和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。(請參閱 ”警語和注意事項”)胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "藥品上市後，疑似不良反應的通報是很重要的，可持續監測藥品的效益/風險平衡。醫療專業人員須通報任何疑似不良反應。",
+          "content_html": "<p>藥品上市後，疑似不良反應的通報是很重要的，可持續監測藥品的效益/風險平衡。醫療專業人員須通報任何疑似不良反應。</p>",
+          "search_text": "8.3\n上市後經驗\n藥品上市後，疑似不良反應的通報是很重要的，可持續監測藥品的效益/風險平衡。醫療專業人員須通報任何疑似不良反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "胰島素過量並沒有特定的定義，因為血糖濃度是由胰島素濃度、葡萄糖可用率和其他代謝過程複雜交互作用後所導致的結果。食物攝取和能量消耗所造成的胰島素過量可能導致低血糖發生。 低血糖可能伴隨著倦怠、意識混亂、心悸、頭痛、流汗和嘔吐。輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品。 中度至重度低血糖症狀可以肌肉或皮下注射昇糖素(Glucagon)，當病人充分恢復時服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖。 若病人陷入昏迷，需要用肌肉或皮下注射昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖。在該患者回復意識後，須儘快給予餐食。 明顯的臨床症狀恢復後，仍有可能再發生低血糖，故需要持續進食碳水化合物並觀察之。",
+          "content_html": "<p>胰島素過量並沒有特定的定義，因為血糖濃度是由胰島素濃度、葡萄糖可用率和其他代謝過程複雜交互作用後所導致的結果。食物攝取和能量消耗所造成的胰島素過量可能導致低血糖發生。</p><p>低血糖可能伴隨著倦怠、意識混亂、心悸、頭痛、流汗和嘔吐。輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品。</p><p>中度至重度低血糖症狀可以肌肉或皮下注射昇糖素(Glucagon)，當病人充分恢復時服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖。</p><p>若病人陷入昏迷，需要用肌肉或皮下注射昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖。在該患者回復意識後，須儘快給予餐食。</p><p>明顯的臨床症狀恢復後，仍有可能再發生低血糖，故需要持續進食碳水化合物並觀察之。</p>",
+          "search_text": "9\n過量\n胰島素過量並沒有特定的定義，因為血糖濃度是由胰島素濃度、葡萄糖可用率和其他代謝過程複雜交互作用後所導致的結果。食物攝取和能量消耗所造成的胰島素過量可能導致低血糖發生。 低血糖可能伴隨著倦怠、意識混亂、心悸、頭痛、流汗和嘔吐。輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品。 中度至重度低血糖症狀可以肌肉或皮下注射昇糖素(Glucagon)，當病人充分恢復時服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖。 若病人陷入昏迷，需要用肌肉或皮下注射昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖。在該患者回復意識後，須儘快給予餐食。 明顯的臨床症狀恢復後，仍有可能再發生低血糖，故需要持續進食碳水化合物並觀察之。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "胰島素主要的作用是調節葡萄糖代謝。 另外，在不同的組織中，胰島素有幾種合成代謝和抗-分解代謝的作用。在肌肉組織中，包含增加肝糖、脂肪酸、甘油和蛋白質合成及胺基酸吸收，然而又降低肝糖分解(glycogenolysis)、糖質新生(gluconeogenesis)作用、酮體生成、脂肪分解、蛋白質分解代謝和胺基酸排出。",
+          "content_html": "<p>胰島素主要的作用是調節葡萄糖代謝。</p><p>另外，在不同的組織中，胰島素有幾種合成代謝和抗-分解代謝的作用。在肌肉組織中，包含增加肝糖、脂肪酸、甘油和蛋白質合成及胺基酸吸收，然而又降低肝糖分解(glycogenolysis)、糖質新生(gluconeogenesis)作用、酮體生成、脂肪分解、蛋白質分解代謝和胺基酸排出。</p>",
+          "search_text": "10.1\n作用機轉\n胰島素主要的作用是調節葡萄糖代謝。 另外，在不同的組織中，胰島素有幾種合成代謝和抗-分解代謝的作用。在肌肉組織中，包含增加肝糖、脂肪酸、甘油和蛋白質合成及胺基酸吸收，然而又降低肝糖分解(glycogenolysis)、糖質新生(gluconeogenesis)作用、酮體生成、脂肪分解、蛋白質分解代謝和胺基酸排出。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥理-治療分類： Humulin R A10A B01 Humulin N A10A C01 Humulin Mixture70/30 A10A D01 Humulin R 為作用快速的胰島素製劑。 Humulin N 為中效胰島素製劑。 Humulin Mixture 70/30 為預混合速效及中效胰島素製劑。 皮下注射後的典型作用模式(葡萄糖利用曲線)利用粗線表示如下。病人在時間和/或胰島素效力不同下，可能經歷的變動以陰影區表示。個體間的差異依劑量、注射部位、體溫和病人的運動量等因素而定。",
+          "content_html": "<p>藥理-治療分類：</p><p style=\"margin-left:21.6pt;\">Humulin&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A10A&nbsp;B01</p><p style=\"margin-left:21.6pt;\">Humulin&nbsp;N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A10A C01&nbsp;</p><p style=\"margin-left:21.6pt;\">Humulin&nbsp;Mixture70/30&nbsp;&nbsp;&nbsp; A10A&nbsp;D01</p><p>Humulin R&nbsp;為作用快速的胰島素製劑。</p><p>Humulin N&nbsp;為中效胰島素製劑。</p><p>Humulin Mixture 70/30&nbsp;為預混合速效及中效胰島素製劑。</p><p>&nbsp;</p><p>皮下注射後的典型作用模式(葡萄糖利用曲線)利用粗線表示如下。病人在時間和/或胰島素效力不同下，可能經歷的變動以陰影區表示。個體間的差異依劑量、注射部位、體溫和病人的運動量等因素而定。</p>",
+          "search_text": "10.2\n藥效藥理特性\n藥理-治療分類： Humulin R A10A B01 Humulin N A10A C01 Humulin Mixture70/30 A10A D01 Humulin R 為作用快速的胰島素製劑。 Humulin N 為中效胰島素製劑。 Humulin Mixture 70/30 為預混合速效及中效胰島素製劑。 皮下注射後的典型作用模式(葡萄糖利用曲線)利用粗線表示如下。病人在時間和/或胰島素效力不同下，可能經歷的變動以陰影區表示。個體間的差異依劑量、注射部位、體溫和病人的運動量等因素而定。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 485912
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "Humulin 是用重組技術產生的人體胰島素。在亞急毒性試驗中，沒有嚴重事件的報告。在一連串的體外和體內的基因毒性的試驗中，人體胰島素沒有致突變性。",
+          "content_html": "<p>Humulin 是用重組技術產生的人體胰島素。在亞急毒性試驗中，沒有嚴重事件的報告。在一連串的體外和體內的基因毒性的試驗中，人體胰島素沒有致突變性。</p>",
+          "search_text": "10.3\n臨床前安全性資料\nHumulin 是用重組技術產生的人體胰島素。在亞急毒性試驗中，沒有嚴重事件的報告。在一連串的體外和體內的基因毒性的試驗中，人體胰島素沒有致突變性。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "胰島素的藥動學並不會反映此荷爾蒙的代謝作用，所以，當考慮胰島素的作用時，評估葡萄糖利用曲線(如上述)是較適當的。",
+          "content_html": "<p>胰島素的藥動學並不會反映此荷爾蒙的代謝作用，所以，當考慮胰島素的作用時，評估葡萄糖利用曲線(如上述)是較適當的。</p>",
+          "search_text": "11\n藥物動力學特性\n胰島素的藥動學並不會反映此荷爾蒙的代謝作用，所以，當考慮胰島素的作用時，評估葡萄糖利用曲線(如上述)是較適當的。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "10 毫升 Humulin 充填在(type I 玻璃)小瓶內，用橡皮塞蓋緊瓶口，並用附塑膠片的鋁蓋密封。 “禮來”優泌林-常規型：10 毫升小瓶裝 優泌林-中效型：10 毫升小瓶裝 優泌林-混合型 70/30：10 毫升小瓶裝",
+          "content_html": "<p>10 毫升 Humulin&nbsp;充填在(type I&nbsp;玻璃)小瓶內，用橡皮塞蓋緊瓶口，並用附塑膠片的鋁蓋密封。</p><p>“禮來”優泌林-常規型：10&nbsp;毫升小瓶裝</p><p>優泌林-中效型：10&nbsp;毫升小瓶裝&nbsp;</p><p>優泌林-混合型 70/30：10&nbsp;毫升小瓶裝</p>",
+          "search_text": "13.1\n包裝\n10 毫升 Humulin 充填在(type I 玻璃)小瓶內，用橡皮塞蓋緊瓶口，並用附塑膠片的鋁蓋密封。 “禮來”優泌林-常規型：10 毫升小瓶裝 優泌林-中效型：10 毫升小瓶裝 優泌林-混合型 70/30：10 毫升小瓶裝",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "未打開的小瓶：3 年 第一次使用後：28 天",
+          "content_html": "<p>未打開的小瓶：3&nbsp;年</p><p>第一次使用後：28&nbsp;天</p>",
+          "search_text": "13.2\n效期\n未打開的小瓶：3 年 第一次使用後：28 天",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "不可冷凍。不可暴露於過熱或日光直射。容器置於包裝盒內。 未打開的小瓶：儲存於冰箱 (2℃-8℃)。 第一次使用後：儲存於 30°C 以下。",
+          "content_html": "<p>不可冷凍。不可暴露於過熱或日光直射。容器置於包裝盒內。</p><p>未打開的小瓶：儲存於冰箱 (2℃-8℃)。</p><p>第一次使用後：儲存於 30°C&nbsp;以下。</p>",
+          "search_text": "13.3\n儲存條件\n不可冷凍。不可暴露於過熱或日光直射。容器置於包裝盒內。 未打開的小瓶：儲存於冰箱 (2℃-8℃)。 第一次使用後：儲存於 30°C 以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "針頭不能重覆使用，以可靠的方法處理之。針頭不能共用。小瓶可用到完，然後適當丟棄。任何未使用的藥品或剩餘物應依照規範處理。",
+          "content_html": "<p>針頭不能重覆使用，以可靠的方法處理之。針頭不能共用。小瓶可用到完，然後適當丟棄。任何未使用的藥品或剩餘物應依照規範處理。</p>",
+          "search_text": "13.4\n儲存注意事項\n針頭不能重覆使用，以可靠的方法處理之。針頭不能共用。小瓶可用到完，然後適當丟棄。任何未使用的藥品或剩餘物應依照規範處理。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "警語 \"禮來\"人體胰島素製劑是不同於其它動物來源的胰島素，其化學結構與人體內胰臟產生的胰島素完全相同，且經由獨特的製造過程。 改變胰島素之使用必須十分小心，只有在醫師指示監督下才可轉換。改變藥效強度、製造廠、類型(R, N,人體胰島素類似物等)、種類或製造方法時，都可能需要要改變用量。 有些病人以往使用其他胰島素，在改用人體胰島素 Humulin® (Human Insulin，基因重組) 時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。 糖尿病 胰島素是由位於胃旁的一個大腺體－胰臟所產生的一種荷爾蒙，此荷爾蒙使人體能正確的利用食物，尤其是糖類。當胰臟製造的胰島素不敷身體所需，即會引起糖尿病。 為了要控制糖尿病，醫師常處方胰島素注射液，來維持血糖正常的濃度。糖尿病人應定期檢查血中或尿中含糖量。研究顯示如果儘可能維持正常的血糖，可明顯降低糖尿病併發的慢性病，如眼疾、腎病與神經疾病。美國糖尿病協會建議餐前血糖值持續 130 mg/dL 以上，或糖化血色素(HbA1c) 大於 7%，應告知醫師，可能須調整糖尿病療法。如果血糖檢查低於正常值，必須通知醫師。糖尿病如欲獲得良好之控制，病人必須與醫師密切合作。如果攝取均衡的飲食，規律運動，並依醫師指示注射胰島素，仍能過著十分正常健康的生活。 經常保持足夠的胰島素供應量、注射筒和針頭。經常配戴糖尿病人識別証以確保遠離家中時，如發生併發症能得到適當的治療。 確認 \"禮來\"公司生產的 Human insulin 小瓶，醫師會針對病患之需要處方最適當的胰島素製劑。除了您的醫師告訴及指示，請勿使用其他胰島素。 由藥局取得胰島素時，應先檢查外盒及標籤，確定與醫師的處方相同。每次抽取前需先檢查外觀。 Humulin R 澄清、無色、水樣狀的注射液。如果外觀呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，則不能使用。 Humulin N 和 70/30 每次注射前應小心搖動或旋轉瓶子直到內容物混合均勻，混合後應呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。如果胰島素成份(白色物)混合後仍留在瓶底，或混合後有塊狀物， 或有白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不能使用。 如果發現外觀有不尋常的變化或是察覺胰島素需要量有明顯改變時，請諮詢醫師。 儲存 未使用時(未開封): 貯放在冰箱。不能冷凍。 使用中(開封): Humulin 小瓶不須冷藏，應儘量保持涼爽(低於 30℃)。避免暴露於過熱或光線直射。 Humulin 小瓶超過標貼上的有效期限，或冷凍過，則不能使用。 Insulin 小瓶的使用指示 不要與人共用注射針頭與注射筒。校正注射筒 胰島素的劑量以單位計算，現有 Humulin 濃度為 100 單位/毫升。瞭解注射筒上的刻度很重要，因為注射容積決定於藥效強度，即與每毫升之單位含量有關。因此您使用的注射筒必須依所注射的 Humulin 藥效強度標記刻度。注射筒不正確時可能導至劑量發生錯誤，引起嚴重的後果，如血糖濃度太低或太高。 注射筒使用 為避免可能發生污染或感染，請確實依照下列指示。拋棄式注射筒及針頭只能使用一次，然後丟棄。 準備注射劑量 洗淨雙手。 Humulin N和70/30：小心搖動或旋轉瓶子直到胰島素混合均勻。 檢查胰島素。 Humulin R 外觀應澄清無色。如呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，不可使用。 Humulin N 和 70/30 應呈現均勻的混濁或牛奶樣。如果察覺外觀有不尋常的變化，不可使用。 4. 若開啟新瓶，打開塑膠保護蓋，不要除掉橡皮塞。用酒精棉花擦拭瓶子頂端。 5. 如要混合胰島素，請依照混合 Humulin R 和 N 的指示。 6. 將與劑量相等量的空氣抽入注射筒，針頭穿入瓶裝頂端的橡皮塞，將空氣注入瓶內。 7. 將小瓶與注射筒倒置，用一手牢牢握住。輕輕搖動 Humulin N 和 70/30。 8. 確定針尖插入胰島素中，將正確的劑量抽入注射筒內。 9. 針頭抽出前，檢查注射筒內會減少 insulin 劑量的氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。 10. 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。 11. 如果不需要混合 Humulin R 和 N，請依照 下述”注射指示”的步驟。 混合 Humulin N 和 R 僅有在醫師的指示下，Humulin R 才可與 Humulin N 混合。 將與所需 Humulin N 劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin N 的瓶內，注入空氣，抽出針頭。 以與所需 Humulin R劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin R 的瓶內，注入空氣， 但針頭不要抽出。 將 Humulin R 瓶子與注射筒倒置。 確定針尖插入 Humulin R 溶液中，將正確的劑量抽入注射器筒。 針頭抽出前，檢查注射筒內是否有氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。 由 Humulin R 瓶中抽出針頭，再穿入 Humulin N 的瓶內。將 Humulin N 小瓶與注射筒倒置，用一手牢牢握住，輕輕搖動。確定針尖插入 Humulin N中，抽取正確的藥量。 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。 請依照下述”注射指示”的步驟。 應遵循醫師指示以決定事先混合好胰島素或是在注射前才混合。 不同製造廠的注射筒，其底線與針頭間的容量亦不同，故不應改變 - 混合次序，或 - 醫師處方之注射筒或針頭的型式與廠牌。 注射指示 皮下注射的注射部位應於上臂、大腿、臀部或腹部。注射部位應輪流，所以相同位置一個月不能注射超過一次，以降低注射部位發生脂肪代謝障礙(lipodystrophy；皮膚凹陷或增厚)和皮膚類澱粉沉積症(cutaneous amyloidosis；皮膚出現腫塊) 的風險 用酒精棉消毒注射部位皮膚。 一手按平皮膚或掐起一大注射部位。 依醫師指示將針頭插入 推進器順向推入。 將針頭抽出並輕壓住注射部位數秒鐘。不要按摩注射部位。 將用過的針頭裝在無法刺穿的容器內，請依照專業醫護人員的指示進行丟棄。 劑量 醫師會告知您使用何種胰島素，多少劑量，何時注射，多久注射等，因為每個糖尿病人的病情不盡相同，這些情況都須個別處理。 您的 Humulin 劑量可能會受到食物、運動或工作行程等影響，須小心遵照醫師的指示。其他會影響您Humulin 劑量的還有： 疾病 特別是噁心、嘔吐，可能造成胰島素需求量的改變，即使未進食，您可能仍需要打胰島素。因此，當生病時應增加測量血糖的次數。遵照醫師指示測量丙酮(ketones)值並將結果告訴醫師。 懷孕 懷孕的婦女尤其要控制好自己的糖尿病，以免危及胎兒，懷孕會讓糖尿病更不易控制。因此不管您是計劃要懷孕、懷孕中或是自己哺育嬰兒，都要告知醫師。 用藥 如果您正在服用口服避孕藥、皮質類固醇、或甲狀腺替代治療(thyroid replacement therapy)等會引起高血糖的藥物時，胰島素需要量可能增加。如果您正在服用口服降血糖劑、水楊酸製劑(如阿司匹靈)、磺胺藥、酒精、某些抗憂鬱劑及一些腎臟及血壓藥物等會引起血糖下降或影響您的身體對胰島素的反應的藥物時，胰島素需要量可能減少。專業醫護人員知道其他可能影響糖尿病控制的藥物，所以應隨時告知醫師您目前所服用的藥物。 運動 運動時或有時候在運動後，胰島素需求量會降低。運動亦會加速胰島素的作用，尤其是當注射部位在進行運動時(如跑步之前不可注射腿部)。與醫師討論如何調整胰島素劑量來配合運動。 旅遊 當旅遊超越兩個時區(time zone)時，您應告知醫師關於胰島素時程之調整。 糖尿病常見的問題 低血糖 低血糖(血液中葡萄糖含量太少)是胰島素用者最常見的副作用之一，它可能是由下列的原因造成的： 忘記或延遲進食。 注射太多胰島素。 運動量或工作量較往常多。 受感染或生病伴有腹瀉或嘔吐。 身體對胰島素需求量改變。 腎上腺、腦下腺及甲狀腺等疾病，或腎臟肝臟疾病惡化。 與口服降血糖藥、水楊酸製劑(如阿司匹靈)、磺胺藥、某些抗抑鬱劑和一些腎臟及血壓藥物的交互作用。 服用含酒精飲料。 輕度至中度的低血糖的現象可能會突然發生，包括下列症狀： 流汗 嗜睡 眩暈 睡眠干擾 心悸 焦慮 顫抖 視力模糊 饑餓 語言含糊 不安 情緒低落 手、足、唇或舌部刺痛 易發怒 頭昏眼花 行為異常 精神無法集中 行動不穩定 頭痛 人格改變 嚴重的低血糖症狀包括： 無方向感 抽搐發作 失去知覺 死亡 因此，在發生低血糖現象時，獲得及時的協助是很重要的。 有些情況下，早期的低血糖症狀可能不同或較不易警覺，例如長期的糖尿病患、糖尿病性神經病變、服用藥物如 beta 阻斷劑、胰島素製劑改變或改變積極控制方式(intensified control:每天注射胰島素 3 次或以上的控制方式)。 在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。 如果未能警覺低血糖症狀的前兆，便無法避免較嚴重的低血糖現象，因此必須注意各種有可能是低血糖現象的症狀發生，病患發生低血糖，但無低血糖症狀的前兆時，應經常檢查血糖濃度，尤其是開車前。 如果血糖低於自己未進食的正常血糖值，便需考慮食用含糖食物使血糖升高。 輕度至中度的低血糖現象可以吃含糖食物來治療，糖尿病患應該隨身攜帶一塊糖果，如糖果或葡萄糖錠。嚴重的低血糖現象可能需要他人的協助，病患可能無法自行吃糖，或失去知覺需要注射昇糖素(glucagons)，或是需要到醫療機構內靜脈注射葡萄糖。 您必須了解您自己發生低血糖現象時會有那些症狀發生，如果您現在不確定，則應常常測量血糖值，藉此幫助您體會萬一發生低血糖現象時的症狀。如果您經常發生低血糖現象或是無法警覺其症狀，您必須與醫師討論如何改變治療方式、飲食和運動計劃以避免低血糖。 高血糖和糖尿病酮酸中毒(DKA)： 體內胰島素不足，可能引起高血糖現象(血液中葡萄糖含量過高)，造成的原因可能為以下任何一種： 忘記注射胰島素或注射量太少。 攝取過量飲食。 發燒、感染或受到顯著的壓力。 第一型糖尿病或胰島素依賴型病人，如果血糖長期過高，可能會引起糖尿病酮酸中毒(生命威脅的緊急性)。最初症狀通常是經過數小時或幾天逐漸形成，包括嗜睡、面潮紅、口乾、食欲減退和呼吸有水果的味道。 酮酸中毒時，血中與尿液檢查發現其中含有大量的糖分及丙酮(ketone)。症狀嚴重時有呼吸困難及脈搏加速現象。若是不治療的話，長期的血糖過高或糖尿病酮酸中毒會導致噁心、嘔吐、胃痛、脫水、意識喪失或死亡，因此，重要的是必須馬上尋求醫護人員的協助。 皮膚及皮下組織異常： 注射部位有可能因發生脂肪代謝障礙(lipodystrophy) 和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。 胰島素過敏： 局部過敏－有些病患在注射部位偶有發生紅、腫、癢等現象，但通常在數天或數週內消退，此稱為局部過敏反應。有些時候，這些反應經由非胰島素因素引起，例如皮膚清潔液的刺激，或注射技術不良等。如果您有局部過敏現象必須告知醫師。 全身性過敏－很少見，對胰島素過敏一旦發生則可能病情嚴重，可能會引起全身性皮膚疹、呼吸短促、有氣喘聲、血壓下降、脈博加快或流汗。嚴重情形甚至危及生命，若有上述全身性過敏現象發生時，立即通知醫師。 欲了解更多關於糖尿病及 Humulin 的資訊，可撥禮來諮詢專線 (02) 2715-2950 轉分機 2276。",
+          "content_html": "<p><strong>警語</strong></p><p style=\"margin-left:0cm;\">\"禮來\"人體胰島素製劑是不同於其它動物來源的胰島素，其化學結構與人體內胰臟產生的胰島素完全相同，且經由獨特的製造過程。</p><p style=\"margin-left:0cm;\">改變胰島素之使用必須十分小心，只有在醫師指示監督下才可轉換。改變藥效強度、製造廠、類型(R, N,人體胰島素類似物等)、種類或製造方法時，都可能需要要改變用量。</p><p style=\"margin-left:0cm;\">有些病人以往使用其他胰島素，在改用人體胰島素 Humulin® (Human Insulin，基因重組) 時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。</p><p><strong>糖尿病</strong></p><p style=\"margin-left:0cm;\">胰島素是由位於胃旁的一個大腺體－胰臟所產生的一種荷爾蒙，此荷爾蒙使人體能正確的利用食物，尤其是糖類。當胰臟製造的胰島素不敷身體所需，即會引起糖尿病。</p><p style=\"margin-left:0cm;text-align:justify;\">為了要控制糖尿病，醫師常處方胰島素注射液，來維持血糖正常的濃度。糖尿病人應定期檢查血中或尿中含糖量。研究顯示如果儘可能維持正常的血糖，可明顯降低糖尿病併發的慢性病，如眼疾、腎病與神經疾病。美國糖尿病協會建議餐前血糖值持續 130 mg/dL 以上，或糖化血色素(HbA1c) 大於&nbsp;7%，應告知醫師，可能須調整糖尿病療法。如果血糖檢查低於正常值，必須通知醫師。糖尿病如欲獲得良好之控制，病人必須與醫師密切合作。如果攝取均衡的飲食，規律運動，並依醫師指示注射胰島素，仍能過著十分正常健康的生活。 經常保持足夠的胰島素供應量、注射筒和針頭。經常配戴糖尿病人識別証以確保遠離家中時，如發生併發症能得到適當的治療。</p><p><strong>確認</strong></p><p>\"禮來\"公司生產的 Human insulin 小瓶，醫師會針對病患之需要處方最適當的胰島素製劑。除了您的醫師告訴及指示，請勿使用其他胰島素。</p><p style=\"margin-left:0cm;\">由藥局取得胰島素時，應先檢查外盒及標籤，確定與醫師的處方相同。每次抽取前需先檢查外觀。</p><p><strong>Humulin R</strong></p><p>澄清、無色、水樣狀的注射液。如果外觀呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，則不能使用。</p><p><strong>Humulin N&nbsp;和 70/30</strong></p><p>每次注射前應小心搖動或旋轉瓶子直到內容物混合均勻，混合後應呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。如果胰島素成份(白色物)混合後仍留在瓶底，或混合後有塊狀物， 或有白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不能使用。</p><p>如果發現外觀有不尋常的變化或是察覺胰島素需要量有明顯改變時，請諮詢醫師。</p><p><strong>儲存</strong></p><p>未使用時(未開封): 貯放在冰箱。不能冷凍。</p><p>使用中(開封): Humulin 小瓶不須冷藏，應儘量保持涼爽(低於 30℃)。避免暴露於過熱或光線直射。</p><p><strong>Humulin&nbsp;小瓶超過標貼上的有效期限，或冷凍過，則不能使用。</strong></p><p><strong>Insulin&nbsp;小瓶的使用指示</strong></p><p><strong>不要與人共用注射針頭與注射筒。校正注射筒</strong></p><p>胰島素的劑量以單位計算，現有 Humulin 濃度為 100 單位/毫升。瞭解注射筒上的刻度很重要，因為注射容積決定於藥效強度，即與每毫升之單位含量有關。因此您使用的注射筒必須依所注射的 Humulin 藥效強度標記刻度。注射筒不正確時可能導至劑量發生錯誤，引起嚴重的後果，如血糖濃度太低或太高。</p><p><strong>注射筒使用</strong></p><p>為避免可能發生污染或感染，請確實依照下列指示。拋棄式注射筒及針頭只能使用一次，然後丟棄。</p><p><strong>準備注射劑量</strong></p><ol><li>洗淨雙手。</li><li>Humulin&nbsp;N和70/30：小心搖動或旋轉瓶子直到胰島素混合均勻。</li><li>檢查胰島素。</li></ol><p style=\"margin-left:40px;\">Humulin R 外觀應澄清無色。如呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，不可使用。</p><p style=\"margin-left:28.55pt;\">Humulin N 和 70/30 應呈現均勻的混濁或牛奶樣。如果察覺外觀有不尋常的變化，不可使用。</p><p>&nbsp; &nbsp; &nbsp; 4. 若開啟新瓶，打開塑膠保護蓋，不要除掉橡皮塞。用酒精棉花擦拭瓶子頂端。</p><p>&nbsp; &nbsp; &nbsp; 5. 如要混合胰島素，請依照混合&nbsp;Humulin&nbsp;R 和&nbsp;N 的指示。</p><p>&nbsp; &nbsp; &nbsp; 6. 將與劑量相等量的空氣抽入注射筒，針頭穿入瓶裝頂端的橡皮塞，將空氣注入瓶內。</p><p>&nbsp; &nbsp; &nbsp; 7. 將小瓶與注射筒倒置，用一手牢牢握住。輕輕搖動&nbsp;Humulin&nbsp;N 和&nbsp;70/30。</p><p>&nbsp; &nbsp; &nbsp; 8. 確定針尖插入胰島素中，將正確的劑量抽入注射筒內。</p><p>&nbsp; &nbsp; &nbsp; 9. 針頭抽出前，檢查注射筒內會減少&nbsp;insulin 劑量的氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。</p><p>&nbsp; &nbsp; &nbsp; 10. 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。</p><p>&nbsp; &nbsp; &nbsp; 11. 如果不需要混合&nbsp;Humulin&nbsp;R 和&nbsp;N，請依照 下述”注射指示”的步驟。</p><p><strong>混合 Humulin N&nbsp;和 R</strong></p><ol><li>僅有在醫師的指示下，Humulin&nbsp;R&nbsp;才可與&nbsp;Humulin&nbsp;N&nbsp;混合。</li><li>將與所需&nbsp;Humulin&nbsp;N 劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin&nbsp;N 的瓶內，注入空氣，抽出針頭。</li><li>以與所需&nbsp;Humulin R劑量相等量的空氣抽入注射筒，將針頭穿入&nbsp;Humulin&nbsp;R&nbsp;的瓶內，注入空氣，&nbsp;但針頭不要抽出。</li><li>將&nbsp;Humulin&nbsp;R 瓶子與注射筒倒置。</li><li>確定針尖插入&nbsp;Humulin&nbsp;R 溶液中，將正確的劑量抽入注射器筒。</li><li>針頭抽出前，檢查注射筒內是否有氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。</li><li>由&nbsp;Humulin&nbsp;R 瓶中抽出針頭，再穿入&nbsp;Humulin&nbsp;N 的瓶內。將 Humulin&nbsp;N 小瓶與注射筒倒置，用一手牢牢握住，輕輕搖動。確定針尖插入&nbsp;Humulin&nbsp;N中，抽取正確的藥量。</li><li>將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。</li><li>請依照下述”注射指示”的步驟。</li></ol><p style=\"margin-left:40px;\">應遵循醫師指示以決定事先混合好胰島素或是在注射前才混合。</p><p style=\"margin-left:40px;\">不同製造廠的注射筒，其底線與針頭間的容量亦不同，故不應改變</p><p style=\"margin-left:40px;\">- 混合次序，或</p><p style=\"margin-left:40px;\">- 醫師處方之注射筒或針頭的型式與廠牌。</p><p><strong>注射指示</strong></p><ol><li>皮下注射的注射部位應於上臂、大腿、臀部或腹部。注射部位應輪流，所以相同位置一個月不能注射超過一次，以降低注射部位發生脂肪代謝障礙(lipodystrophy；皮膚凹陷或增厚)和皮膚類澱粉沉積症(cutaneous&nbsp;amyloidosis；皮膚出現腫塊) 的風險</li><li>用酒精棉消毒注射部位皮膚。</li><li>一手按平皮膚或掐起一大注射部位。</li><li>依醫師指示將針頭插入</li><li>推進器順向推入。</li><li>將針頭抽出並輕壓住注射部位數秒鐘。不要按摩注射部位。</li><li>將用過的針頭裝在無法刺穿的容器內，請依照專業醫護人員的指示進行丟棄。</li></ol><p><strong>劑量</strong></p><p>醫師會告知您使用何種胰島素，多少劑量，何時注射，多久注射等，因為每個糖尿病人的病情不盡相同，這些情況都須個別處理。</p><p>您的 Humulin 劑量可能會受到食物、運動或工作行程等影響，須小心遵照醫師的指示。其他會影響您Humulin 劑量的還有：&nbsp;</p><p><strong>疾病</strong></p><p>特別是噁心、嘔吐，可能造成胰島素需求量的改變，即使未進食，您可能仍需要打胰島素。因此，當生病時應增加測量血糖的次數。遵照醫師指示測量丙酮(ketones)值並將結果告訴醫師。</p><p><strong>懷孕</strong></p><p>懷孕的婦女尤其要控制好自己的糖尿病，以免危及胎兒，懷孕會讓糖尿病更不易控制。因此不管您是計劃要懷孕、懷孕中或是自己哺育嬰兒，都要告知醫師。</p><p><strong>用藥</strong></p><p>如果您正在服用口服避孕藥、皮質類固醇、或甲狀腺替代治療(thyroid replacement therapy)等會引起高血糖的藥物時，胰島素需要量可能增加。如果您正在服用口服降血糖劑、水楊酸製劑(如阿司匹靈)、磺胺藥、酒精、某些抗憂鬱劑及一些腎臟及血壓藥物等會引起血糖下降或影響您的身體對胰島素的反應的藥物時，胰島素需要量可能減少。專業醫護人員知道其他可能影響糖尿病控制的藥物，所以應隨時告知醫師您目前所服用的藥物。</p><p><strong>運動</strong></p><p>運動時或有時候在運動後，胰島素需求量會降低。運動亦會加速胰島素的作用，尤其是當注射部位在進行運動時(如跑步之前不可注射腿部)。與醫師討論如何調整胰島素劑量來配合運動。</p><p><strong>旅遊</strong></p><p>當旅遊超越兩個時區(time zone)時，您應告知醫師關於胰島素時程之調整。</p><p><strong>糖尿病常見的問題 低血糖</strong></p><p>低血糖(血液中葡萄糖含量太少)是胰島素用者最常見的副作用之一，它可能是由下列的原因造成的：</p><ol><li>忘記或延遲進食。</li><li>注射太多胰島素。</li><li>運動量或工作量較往常多。</li><li>受感染或生病伴有腹瀉或嘔吐。</li><li>身體對胰島素需求量改變。</li><li>腎上腺、腦下腺及甲狀腺等疾病，或腎臟肝臟疾病惡化。</li><li>與口服降血糖藥、水楊酸製劑(如阿司匹靈)、磺胺藥、某些抗抑鬱劑和一些腎臟及血壓藥物的交互作用。</li><li>服用含酒精飲料。</li></ol><p style=\"margin-left:21.3pt;\">輕度至中度的低血糖的現象可能會突然發生，包括下列症狀：&nbsp;</p><p style=\"margin-left:57.6pt;\">流汗&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 嗜睡</p><p style=\"margin-left:57.6pt;\">眩暈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 睡眠干擾</p><p style=\"margin-left:57.6pt;\">心悸&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 焦慮</p><p style=\"margin-left:57.6pt;\">顫抖&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 視力模糊</p><p style=\"margin-left:57.6pt;\">饑餓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 語言含糊</p><p style=\"margin-left:57.6pt;\">不安&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 情緒低落</p><p style=\"margin-left:57.6pt;\">手、足、唇或舌部刺痛&nbsp;&nbsp;&nbsp; 易發怒</p><p style=\"margin-left:57.6pt;\">頭昏眼花&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 行為異常</p><p style=\"margin-left:57.6pt;\">精神無法集中&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 行動不穩定</p><p style=\"margin-left:57.6pt;\">頭痛&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 人格改變</p><p style=\"margin-left:21.3pt;\">嚴重的低血糖症狀包括：</p><p style=\"margin-left:57.6pt;\">無方向感&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 抽搐發作</p><p style=\"margin-left:57.6pt;\">失去知覺&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 死亡</p><p>因此，在發生低血糖現象時，獲得及時的協助是很重要的。</p><p>有些情況下，早期的低血糖症狀可能不同或較不易警覺，例如長期的糖尿病患、糖尿病性神經病變、服用藥物如 beta 阻斷劑、胰島素製劑改變或改變積極控制方式(intensified control:每天注射胰島素 3 次或以上的控制方式)。</p><p><strong>在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。</strong></p><p>如果未能警覺低血糖症狀的前兆，便無法避免較嚴重的低血糖現象，因此必須注意各種有可能是低血糖現象的症狀發生，病患發生低血糖，但無低血糖症狀的前兆時，應經常檢查血糖濃度，尤其是開車前。</p><p>如果血糖低於自己未進食的正常血糖值，便需考慮食用含糖食物使血糖升高。</p><p>輕度至中度的低血糖現象可以吃含糖食物來治療，糖尿病患應該隨身攜帶一塊糖果，如糖果或葡萄糖錠。嚴重的低血糖現象可能需要他人的協助，病患可能無法自行吃糖，或失去知覺需要注射昇糖素(glucagons)，或是需要到醫療機構內靜脈注射葡萄糖。</p><p>您必須了解您自己發生低血糖現象時會有那些症狀發生，如果您現在不確定，則應常常測量血糖值，藉此幫助您體會萬一發生低血糖現象時的症狀。如果您經常發生低血糖現象或是無法警覺其症狀，您必須與醫師討論如何改變治療方式、飲食和運動計劃以避免低血糖。</p><p><strong>高血糖和糖尿病酮酸中毒(DKA)：</strong></p><p>體內胰島素不足，可能引起高血糖現象(血液中葡萄糖含量過高)，造成的原因可能為以下任何一種：</p><ol><li>忘記注射胰島素或注射量太少。</li><li>攝取過量飲食。</li><li>發燒、感染或受到顯著的壓力。</li></ol><p>第一型糖尿病或胰島素依賴型病人，如果血糖長期過高，可能會引起糖尿病酮酸中毒(生命威脅的緊急性)。最初症狀通常是經過數小時或幾天逐漸形成，包括嗜睡、面潮紅、口乾、食欲減退和呼吸有水果的味道。</p><p>酮酸中毒時，血中與尿液檢查發現其中含有大量的糖分及丙酮(ketone)。症狀嚴重時有呼吸困難及脈搏加速現象。若是不治療的話，長期的血糖過高或糖尿病酮酸中毒會導致噁心、嘔吐、胃痛、脫水、意識喪失或死亡，因此，重要的是必須馬上尋求醫護人員的協助。</p><p><strong>皮膚及皮下組織異常：</strong></p><p>注射部位有可能因發生脂肪代謝障礙(lipodystrophy)&nbsp;和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。</p><p><strong>胰島素過敏：</strong></p><p>局部過敏－有些病患在注射部位偶有發生紅、腫、癢等現象，但通常在數天或數週內消退，此稱為局部過敏反應。有些時候，這些反應經由非胰島素因素引起，例如皮膚清潔液的刺激，或注射技術不良等。如果您有局部過敏現象必須告知醫師。</p><p>全身性過敏－很少見，對胰島素過敏一旦發生則可能病情嚴重，可能會引起全身性皮膚疹、呼吸短促、有氣喘聲、血壓下降、脈博加快或流汗。嚴重情形甚至危及生命，若有上述全身性過敏現象發生時，立即通知醫師。</p><p>欲了解更多關於糖尿病及 Humulin 的資訊，可撥禮來諮詢專線 (02) 2715-2950 轉分機 2276。</p>",
+          "search_text": "14\n病人使用須知\n警語 \"禮來\"人體胰島素製劑是不同於其它動物來源的胰島素，其化學結構與人體內胰臟產生的胰島素完全相同，且經由獨特的製造過程。 改變胰島素之使用必須十分小心，只有在醫師指示監督下才可轉換。改變藥效強度、製造廠、類型(R, N,人體胰島素類似物等)、種類或製造方法時，都可能需要要改變用量。 有些病人以往使用其他胰島素，在改用人體胰島素 Humulin® (Human Insulin，基因重組) 時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。 糖尿病 胰島素是由位於胃旁的一個大腺體－胰臟所產生的一種荷爾蒙，此荷爾蒙使人體能正確的利用食物，尤其是糖類。當胰臟製造的胰島素不敷身體所需，即會引起糖尿病。 為了要控制糖尿病，醫師常處方胰島素注射液，來維持血糖正常的濃度。糖尿病人應定期檢查血中或尿中含糖量。研究顯示如果儘可能維持正常的血糖，可明顯降低糖尿病併發的慢性病，如眼疾、腎病與神經疾病。美國糖尿病協會建議餐前血糖值持續 130 mg/dL 以上，或糖化血色素(HbA1c) 大於 7%，應告知醫師，可能須調整糖尿病療法。如果血糖檢查低於正常值，必須通知醫師。糖尿病如欲獲得良好之控制，病人必須與醫師密切合作。如果攝取均衡的飲食，規律運動，並依醫師指示注射胰島素，仍能過著十分正常健康的生活。 經常保持足夠的胰島素供應量、注射筒和針頭。經常配戴糖尿病人識別証以確保遠離家中時，如發生併發症能得到適當的治療。 確認 \"禮來\"公司生產的 Human insulin 小瓶，醫師會針對病患之需要處方最適當的胰島素製劑。除了您的醫師告訴及指示，請勿使用其他胰島素。 由藥局取得胰島素時，應先檢查外盒及標籤，確定與醫師的處方相同。每次抽取前需先檢查外觀。 Humulin R 澄清、無色、水樣狀的注射液。如果外觀呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，則不能使用。 Humulin N 和 70/30 每次注射前應小心搖動或旋轉瓶子直到內容物混合均勻，混合後應呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。如果胰島素成份(白色物)混合後仍留在瓶底，或混合後有塊狀物， 或有白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不能使用。 如果發現外觀有不尋常的變化或是察覺胰島素需要量有明顯改變時，請諮詢醫師。 儲存 未使用時(未開封): 貯放在冰箱。不能冷凍。 使用中(開封): Humulin 小瓶不須冷藏，應儘量保持涼爽(低於 30℃)。避免暴露於過熱或光線直射。 Humulin 小瓶超過標貼上的有效期限，或冷凍過，則不能使用。 Insulin 小瓶的使用指示 不要與人共用注射針頭與注射筒。校正注射筒 胰島素的劑量以單位計算，現有 Humulin 濃度為 100 單位/毫升。瞭解注射筒上的刻度很重要，因為注射容積決定於藥效強度，即與每毫升之單位含量有關。因此您使用的注射筒必須依所注射的 Humulin 藥效強度標記刻度。注射筒不正確時可能導至劑量發生錯誤，引起嚴重的後果，如血糖濃度太低或太高。 注射筒使用 為避免可能發生污染或感染，請確實依照下列指示。拋棄式注射筒及針頭只能使用一次，然後丟棄。 準備注射劑量 洗淨雙手。 Humulin N和70/30：小心搖動或旋轉瓶子直到胰島素混合均勻。 檢查胰島素。 Humulin R 外觀應澄清無色。如呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，不可使用。 Humulin N 和 70/30 應呈現均勻的混濁或牛奶樣。如果察覺外觀有不尋常的變化，不可使用。 4. 若開啟新瓶，打開塑膠保護蓋，不要除掉橡皮塞。用酒精棉花擦拭瓶子頂端。 5. 如要混合胰島素，請依照混合 Humulin R 和 N 的指示。 6. 將與劑量相等量的空氣抽入注射筒，針頭穿入瓶裝頂端的橡皮塞，將空氣注入瓶內。 7. 將小瓶與注射筒倒置，用一手牢牢握住。輕輕搖動 Humulin N 和 70/30。 8. 確定針尖插入胰島素中，將正確的劑量抽入注射筒內。 9. 針頭抽出前，檢查注射筒內會減少 insulin 劑量的氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。 10. 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。 11. 如果不需要混合 Humulin R 和 N，請依照 下述”注射指示”的步驟。 混合 Humulin N 和 R 僅有在醫師的指示下，Humulin R 才可與 Humulin N 混合。 將與所需 Humulin N 劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin N 的瓶內，注入空氣，抽出針頭。 以與所需 Humulin R劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin R 的瓶內，注入空氣， 但針頭不要抽出。 將 Humulin R 瓶子與注射筒倒置。 確定針尖插入 Humulin R 溶液中，將正確的劑量抽入注射器筒。 針頭抽出前，檢查注射筒內是否有氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。 由 Humulin R 瓶中抽出針頭，再穿入 Humulin N 的瓶內。將 Humulin N 小瓶與注射筒倒置，用一手牢牢握住，輕輕搖動。確定針尖插入 Humulin N中，抽取正確的藥量。 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。 請依照下述”注射指示”的步驟。 應遵循醫師指示以決定事先混合好胰島素或是在注射前才混合。 不同製造廠的注射筒，其底線與針頭間的容量亦不同，故不應改變 - 混合次序，或 - 醫師處方之注射筒或針頭的型式與廠牌。 注射指示 皮下注射的注射部位應於上臂、大腿、臀部或腹部。注射部位應輪流，所以相同位置一個月不能注射超過一次，以降低注射部位發生脂肪代謝障礙(lipodystrophy；皮膚凹陷或增厚)和皮膚類澱粉沉積症(cutaneous amyloidosis；皮膚出現腫塊) 的風險 用酒精棉消毒注射部位皮膚。 一手按平皮膚或掐起一大注射部位。 依醫師指示將針頭插入 推進器順向推入。 將針頭抽出並輕壓住注射部位數秒鐘。不要按摩注射部位。 將用過的針頭裝在無法刺穿的容器內，請依照專業醫護人員的指示進行丟棄。 劑量 醫師會告知您使用何種胰島素，多少劑量，何時注射，多久注射等，因為每個糖尿病人的病情不盡相同，這些情況都須個別處理。 您的 Humulin 劑量可能會受到食物、運動或工作行程等影響，須小心遵照醫師的指示。其他會影響您Humulin 劑量的還有： 疾病 特別是噁心、嘔吐，可能造成胰島素需求量的改變，即使未進食，您可能仍需要打胰島素。因此，當生病時應增加測量血糖的次數。遵照醫師指示測量丙酮(ketones)值並將結果告訴醫師。 懷孕 懷孕的婦女尤其要控制好自己的糖尿病，以免危及胎兒，懷孕會讓糖尿病更不易控制。因此不管您是計劃要懷孕、懷孕中或是自己哺育嬰兒，都要告知醫師。 用藥 如果您正在服用口服避孕藥、皮質類固醇、或甲狀腺替代治療(thyroid replacement therapy)等會引起高血糖的藥物時，胰島素需要量可能增加。如果您正在服用口服降血糖劑、水楊酸製劑(如阿司匹靈)、磺胺藥、酒精、某些抗憂鬱劑及一些腎臟及血壓藥物等會引起血糖下降或影響您的身體對胰島素的反應的藥物時，胰島素需要量可能減少。專業醫護人員知道其他可能影響糖尿病控制的藥物，所以應隨時告知醫師您目前所服用的藥物。 運動 運動時或有時候在運動後，胰島素需求量會降低。運動亦會加速胰島素的作用，尤其是當注射部位在進行運動時(如跑步之前不可注射腿部)。與醫師討論如何調整胰島素劑量來配合運動。 旅遊 當旅遊超越兩個時區(time zone)時，您應告知醫師關於胰島素時程之調整。 糖尿病常見的問題 低血糖 低血糖(血液中葡萄糖含量太少)是胰島素用者最常見的副作用之一，它可能是由下列的原因造成的： 忘記或延遲進食。 注射太多胰島素。 運動量或工作量較往常多。 受感染或生病伴有腹瀉或嘔吐。 身體對胰島素需求量改變。 腎上腺、腦下腺及甲狀腺等疾病，或腎臟肝臟疾病惡化。 與口服降血糖藥、水楊酸製劑(如阿司匹靈)、磺胺藥、某些抗抑鬱劑和一些腎臟及血壓藥物的交互作用。 服用含酒精飲料。 輕度至中度的低血糖的現象可能會突然發生，包括下列症狀： 流汗 嗜睡 眩暈 睡眠干擾 心悸 焦慮 顫抖 視力模糊 饑餓 語言含糊 不安 情緒低落 手、足、唇或舌部刺痛 易發怒 頭昏眼花 行為異常 精神無法集中 行動不穩定 頭痛 人格改變 嚴重的低血糖症狀包括： 無方向感 抽搐發作 失去知覺 死亡 因此，在發生低血糖現象時，獲得及時的協助是很重要的。 有些情況下，早期的低血糖症狀可能不同或較不易警覺，例如長期的糖尿病患、糖尿病性神經病變、服用藥物如 beta 阻斷劑、胰島素製劑改變或改變積極控制方式(intensified control:每天注射胰島素 3 次或以上的控制方式)。 在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。 如果未能警覺低血糖症狀的前兆，便無法避免較嚴重的低血糖現象，因此必須注意各種有可能是低血糖現象的症狀發生，病患發生低血糖，但無低血糖症狀的前兆時，應經常檢查血糖濃度，尤其是開車前。 如果血糖低於自己未進食的正常血糖值，便需考慮食用含糖食物使血糖升高。 輕度至中度的低血糖現象可以吃含糖食物來治療，糖尿病患應該隨身攜帶一塊糖果，如糖果或葡萄糖錠。嚴重的低血糖現象可能需要他人的協助，病患可能無法自行吃糖，或失去知覺需要注射昇糖素(glucagons)，或是需要到醫療機構內靜脈注射葡萄糖。 您必須了解您自己發生低血糖現象時會有那些症狀發生，如果您現在不確定，則應常常測量血糖值，藉此幫助您體會萬一發生低血糖現象時的症狀。如果您經常發生低血糖現象或是無法警覺其症狀，您必須與醫師討論如何改變治療方式、飲食和運動計劃以避免低血糖。 高血糖和糖尿病酮酸中毒(DKA)： 體內胰島素不足，可能引起高血糖現象(血液中葡萄糖含量過高)，造成的原因可能為以下任何一種： 忘記注射胰島素或注射量太少。 攝取過量飲食。 發燒、感染或受到顯著的壓力。 第一型糖尿病或胰島素依賴型病人，如果血糖長期過高，可能會引起糖尿病酮酸中毒(生命威脅的緊急性)。最初症狀通常是經過數小時或幾天逐漸形成，包括嗜睡、面潮紅、口乾、食欲減退和呼吸有水果的味道。 酮酸中毒時，血中與尿液檢查發現其中含有大量的糖分及丙酮(ketone)。症狀嚴重時有呼吸困難及脈搏加速現象。若是不治療的話，長期的血糖過高或糖尿病酮酸中毒會導致噁心、嘔吐、胃痛、脫水、意識喪失或死亡，因此，重要的是必須馬上尋求醫護人員的協助。 皮膚及皮下組織異常： 注射部位有可能因發生脂肪代謝障礙(lipodystrophy) 和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。 胰島素過敏： 局部過敏－有些病患在注射部位偶有發生紅、腫、癢等現象，但通常在數天或數週內消退，此稱為局部過敏反應。有些時候，這些反應經由非胰島素因素引起，例如皮膚清潔液的刺激，或注射技術不良等。如果您有局部過敏現象必須告知醫師。 全身性過敏－很少見，對胰島素過敏一旦發生則可能病情嚴重，可能會引起全身性皮膚疹、呼吸短促、有氣喘聲、血壓下降、脈博加快或流汗。嚴重情形甚至危及生命，若有上述全身性過敏現象發生時，立即通知醫師。 欲了解更多關於糖尿病及 Humulin 的資訊，可撥禮來諮詢專線 (02) 2715-2950 轉分機 2276。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "Literature revised 01 Jun 2021",
+          "content_html": "<p>Literature revised 01 Jun 2021</p>",
+          "search_text": "15\n其他\nLiterature revised 01 Jun 2021",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n主成份：Human Insulin (以基因重組技術在 E.Coli 內製造)，每毫升含量 100 單位。一小瓶含 10 毫升相當 1000 單位。\n1.2\n賦形劑\nHumulin R 製劑 m-cresol、甘油、注射用水 Humulin N 和 Mixture 70/30 製劑 m-cresol、甘油、酚、硫酸魚精蛋白(protamine sulphate)、dibasic sodium phosphate 7H2O、氧化鋅、注射用水 可能使用鹽酸和/或氫氧化鈉調整 pH 值 本藥品每單位劑量含少於 1 mmol 鈉 (23 毫克), 即基本上是‶無鈉″。\n1.3\n劑型\nHumulin R: 注射劑。 Humulin N: 注射劑。 Humulin 70/30: 滅菌懸液注射劑。\n1.4\n藥品外觀\nHumulin R 為 human insulin 無菌澄清、無色、水樣狀的小瓶裝注射液。 Humulin N 為 isophane 人體胰島素白色結晶固體，懸浮於等張磷酸鹽緩衝液的小瓶裝無菌懸液注射液。 Humulin 70/30 是 30%的 soluble 胰島素及 70%的 isophane 胰島素混合製成的無菌懸液注射液。\n2\n適應症\n糖尿病 說明：用於治療需要以胰島素維持血糖穩定的糖尿病病人。\n3\n用法及用量\n3.1\n用法用量\n用量 根據病人的需要，由醫師決定劑量。 兒童族群 無數據 用法 Humulin R 以皮下注射，雖然不建議但也可能以肌肉注射。也可能以靜脈給予。 Humulin N 及 Mixture 小瓶裝應以皮下注射，雖然不建議但也可能以肌肉注射。這些劑型不能以靜脈給予。 皮下注射的位置應於上臂、大腿、臀或腹部。注射部位應輪流，所以相同位置一個月不能超過一次，以降低脂肪代謝障礙(lipodystrophy)和皮膚類澱粉沉積症(cutaneous amyloidosis) 的風險。(請參閱警語及注意事項5.1及副作用/不良反應8.1)。 當注射任何 Humulin 胰島素製劑時，應注意沒有注入血管。注射後，不能按摩注射部位。應教育病人使用適當的注射技巧。 Humulin N 可能併用 Humulin R(見用法及用量3.2)。 Humulin Mixture 的配方是配製好的 Humulin R 和 Humulin N 胰島素混合物，以避免病人需要混合胰島素製劑。依照病人的個別代謝需要提供治療療程。 包裝內含 ”給病人的資料”說明書，指示如何注射胰島素。\n3.2\n調製方式\n10 毫升小瓶裝注射液使用於適當的注射針筒(標示 100 單位/毫升) a)劑量準備 Humulin R 配方的小瓶不需要再搖勻且當內容物澄清、無色和無肉眼可見的顆粒時和當內容物呈現水漾時，才可使用。 Humulin N 和 Mixture 70/30 配方的小瓶，在使用前應置於手掌間旋轉數次以完全混合胰島素；直到胰島素呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。 不要劇烈搖 Humulin，可能產生泡沫而干擾劑量的正確測量。 應經常檢查小瓶的外觀，如有塊狀物或白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不可使用。 胰島素的混合 應先抽取短效胰島素於針筒，以避免小瓶被長效胰島素污染。建議混合後立即注射，然若需延遲使用，必須遵照一致的使用程序。 另外，可使用個別的針筒注射每種配方的正確劑量。依照醫師或糖尿病護士的指示，在注射前準備針筒。使用有標示正在使用的胰島素濃度的針筒。 b)劑量注射 依照醫師或糖尿病護士的指示，注射正確的胰島素劑量。注射部位應輪流，所以相同位置一個月不能超過一次。 包裝內含”14病人使用須知”說明書，指示如何注射胰島素。 不相容性 Humulin 不應和其他製造廠生產的胰島素或動物胰島素製劑相混合。\n3.3\n特殊族群用法用量\n4\n禁忌\n低血糖。 對本品活性物質或 1.2 中的任何賦形劑成分過敏者，除非用於減敏治療計畫中的一部分。任何 Humulin 製劑，除 Humulin R 外，在任何情況下，不可以靜脈給予。\n5\n警語及注意事項\n5.1\n警語/注意事項\n應在醫師嚴密監督下，病人才可換用另一劑型或廠牌的胰島素。改變力價、廠牌(製造廠)、劑型(R、N、Mixture 等)、種類 (動物、人、人體胰島素類似物)、和/或製造方法(基因重組、動物來源胰島素)時，都可能需要改變用量。 有些病人以往使用動物來源胰島素，在改用人體胰島素時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。 在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。血糖明顯改善的病人，如密集胰島素治療，可能喪失部分或全部低血糖的警覺症狀，且應依個別狀況指導。其他可能造成低血糖早期警告症狀不同或較不明顯的狀況，包括長期糖尿病、糖尿病性神經病變、或藥物如 beta 阻斷劑。不正常低血糖和高血糖反應可能引起無意識、昏迷或死亡。 劑量使用不適當或停止治療，尤其在胰島素依賴型糖尿病，可能導致高血糖和糖尿病酮酸中毒症；這些情況可能致死。 人體胰島素治療可能引起抗體，但抗體的相對濃度(titers)較低於純化動物胰島素所引起的。 在腎上腺、腦下腺或甲狀腺病變及腎臟或肝臟受損的狀況下，對胰島素的需求量可能明顯改變。在生病或意識混亂時，對胰島素的需求量可能增加。 如病人改變運動量或一般飲食，可能需要調整胰島素用量。 必須指導病人以輪流之方式轉換不同的注射部位，以降低發生脂肪代謝障礙和皮膚類澱粉沉積症的風險。當於已發生此反應之部位注射胰島素，會有導致胰島素吸收延遲和血糖控制惡化的潛在性風險。曾有當注射部位突然改變至未受影響的區域，而導致低血糖的報導。建議在改變注射部位後進行血糖監測，並考慮調整抗糖尿病藥物的劑量。 優泌林與 pioglitazone 併用 胰島素與 pioglitazone 併用曾有心臟衰竭的案例報告，特別是對於心臟衰竭有風險因子的病患。當考慮 併用優泌林與 pioglitazone 時，應留意此警語及注意事項。若是併用治療，應觀察病患的心臟衰竭、體重增加和水腫的徵兆及症狀。若有任何心臟衰竭惡化的症狀發生，應停用 pioglitazone。 可追溯性 為了提高生物藥品的可追溯性，應清楚記錄所施用產品的名稱和批號\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n低血糖可能傷害病人集中注意力和反應的能力，當在這些能力很重要的情況下(如開車或操作儀器)，其可能構成危險性。 應告知病人開車時注意避免低血糖的發生，其對低血糖警告徵兆降低或缺乏警覺意識的病人或對經常發生低血糖的病人尤其重要。在此狀況下，應考慮是否適合開車。\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n胰島素依賴型的孕婦或懷孕時產生糖尿病的孕婦在懷孕期間控制好血糖是很重要的。胰島素的需要量通常在妊娠期的首三個月下降且在妊娠次三個月和末三個月中增加。糖尿病病人應告知醫師是否懷孕或計劃要懷孕。 懷孕的糖尿病病人必須小心監測血糖和健康狀況。\n6.2\n哺乳\n親自授乳的病人可能需要調整胰島素劑量和/或飲食。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n有些藥物已知會與葡萄糖代謝相互發生作用，因此除人體胰島素以外，若需使用其他藥物應諮詢醫師(請參閱警語及注意事項)。醫師須考慮可能的交互作用並應詢問病患在使用的藥物。 使用糖化皮質類固醇、甲狀腺荷爾蒙(thyroid hormone)、生長激素(growth hormone)、danazol、beta2- sympatomimetics(如 ritodrine、salbutamol、terbutaline)和利尿劑(thiazides)等會引起高血糖的藥物時， 胰島素需要量可能增加。 使用口服降血糖劑(OHA)、水楊酸製劑 (如 acetylsalicylic acid)、某些抗憂鬱劑(單胺氧化酶抑制劑)、某些血管緊縮素轉換酶(ACE)抑制劑(captopril、enalapril)、angiotensin II receptor blockers、非選擇性 beta 阻斷劑和酒精等會引起血糖下降的藥物時，胰島素需要量可能減少。 體抑素(somatostatin)類似物(octreotide、lanreotide)可能增加或減少胰島素需要量。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n低血糖是糖尿病病人使用胰島素最常見的副作用。嚴重的低血糖可能導致昏迷，更嚴重時甚至死亡。引起低血糖的原因包括胰島素劑量及其他因素(如病患的飲食與運動情況)，並沒有發生特別頻繁的低血糖不良反應。 病患常見有局部過敏反應(≥1/100 至<1/10)。注射部位可能會紅、腫與癢。該輕微的反應通常在數天到數週後會消失。有時這些反應可能不是胰島素引起的，而可能是皮膚清潔劑中的刺激物或是注射技術不良引起的。全身過敏非常罕見(<1/10,000)，但較嚴重，這是全身廣泛性的對胰島素過敏。這可能會引起全身出疹、呼吸短促、氣喘、血壓下降、脈搏快速或盜汗。嚴重的全身過敏可能有生命威脅。少數對 Humulin 嚴重過敏的案例必須立即治療，可能需要換其他胰島素或減敏計畫。 在注射部位發生脂肪代謝失調症不常見(≥1/1,000 至<1/100)。 皮膚及皮下組織異常：發生頻率”未知”：皮膚類澱粉沉積症(cutaneous amyloidosis)。 皮膚及皮下組織異常： 注射部位有可能因發生脂肪代謝障礙(lipodystrophy) 和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。(請參閱 ”警語和注意事項”)胰島素治療曾有水腫的案例報告，特別是藉由積極胰島素治療改善原本代謝控制不佳的病人。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n藥品上市後，疑似不良反應的通報是很重要的，可持續監測藥品的效益/風險平衡。醫療專業人員須通報任何疑似不良反應。\n9\n過量\n胰島素過量並沒有特定的定義，因為血糖濃度是由胰島素濃度、葡萄糖可用率和其他代謝過程複雜交互作用後所導致的結果。食物攝取和能量消耗所造成的胰島素過量可能導致低血糖發生。 低血糖可能伴隨著倦怠、意識混亂、心悸、頭痛、流汗和嘔吐。輕微的低血糖症狀可以口服葡萄糖或其他糖質或含糖製品。 中度至重度低血糖症狀可以肌肉或皮下注射昇糖素(Glucagon)，當病人充分恢復時服用碳水化合物。對於昇糖素無反應的病人，需靜脈注射葡萄糖。 若病人陷入昏迷，需要用肌肉或皮下注射昇糖素。另外在沒有昇糖素的情況或是對昇糖素無反應的病人，需靜脈注射葡萄糖。在該患者回復意識後，須儘快給予餐食。 明顯的臨床症狀恢復後，仍有可能再發生低血糖，故需要持續進食碳水化合物並觀察之。\n10\n藥理特性\n10.1\n作用機轉\n胰島素主要的作用是調節葡萄糖代謝。 另外，在不同的組織中，胰島素有幾種合成代謝和抗-分解代謝的作用。在肌肉組織中，包含增加肝糖、脂肪酸、甘油和蛋白質合成及胺基酸吸收，然而又降低肝糖分解(glycogenolysis)、糖質新生(gluconeogenesis)作用、酮體生成、脂肪分解、蛋白質分解代謝和胺基酸排出。\n10.2\n藥效藥理特性\n藥理-治療分類： Humulin R A10A B01 Humulin N A10A C01 Humulin Mixture70/30 A10A D01 Humulin R 為作用快速的胰島素製劑。 Humulin N 為中效胰島素製劑。 Humulin Mixture 70/30 為預混合速效及中效胰島素製劑。 皮下注射後的典型作用模式(葡萄糖利用曲線)利用粗線表示如下。病人在時間和/或胰島素效力不同下，可能經歷的變動以陰影區表示。個體間的差異依劑量、注射部位、體溫和病人的運動量等因素而定。\n10.3\n臨床前安全性資料\nHumulin 是用重組技術產生的人體胰島素。在亞急毒性試驗中，沒有嚴重事件的報告。在一連串的體外和體內的基因毒性的試驗中，人體胰島素沒有致突變性。\n11\n藥物動力學特性\n胰島素的藥動學並不會反映此荷爾蒙的代謝作用，所以，當考慮胰島素的作用時，評估葡萄糖利用曲線(如上述)是較適當的。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n10 毫升 Humulin 充填在(type I 玻璃)小瓶內，用橡皮塞蓋緊瓶口，並用附塑膠片的鋁蓋密封。 “禮來”優泌林-常規型：10 毫升小瓶裝 優泌林-中效型：10 毫升小瓶裝 優泌林-混合型 70/30：10 毫升小瓶裝\n13.2\n效期\n未打開的小瓶：3 年 第一次使用後：28 天\n13.3\n儲存條件\n不可冷凍。不可暴露於過熱或日光直射。容器置於包裝盒內。 未打開的小瓶：儲存於冰箱 (2℃-8℃)。 第一次使用後：儲存於 30°C 以下。\n13.4\n儲存注意事項\n針頭不能重覆使用，以可靠的方法處理之。針頭不能共用。小瓶可用到完，然後適當丟棄。任何未使用的藥品或剩餘物應依照規範處理。\n14\n病人使用須知\n警語 \"禮來\"人體胰島素製劑是不同於其它動物來源的胰島素，其化學結構與人體內胰臟產生的胰島素完全相同，且經由獨特的製造過程。 改變胰島素之使用必須十分小心，只有在醫師指示監督下才可轉換。改變藥效強度、製造廠、類型(R, N,人體胰島素類似物等)、種類或製造方法時，都可能需要要改變用量。 有些病人以往使用其他胰島素，在改用人體胰島素 Humulin® (Human Insulin，基因重組) 時，可能需要改變用量。如需要調整，通常發生在第一個劑量，或是在開始的數週或數月期間。 糖尿病 胰島素是由位於胃旁的一個大腺體－胰臟所產生的一種荷爾蒙，此荷爾蒙使人體能正確的利用食物，尤其是糖類。當胰臟製造的胰島素不敷身體所需，即會引起糖尿病。 為了要控制糖尿病，醫師常處方胰島素注射液，來維持血糖正常的濃度。糖尿病人應定期檢查血中或尿中含糖量。研究顯示如果儘可能維持正常的血糖，可明顯降低糖尿病併發的慢性病，如眼疾、腎病與神經疾病。美國糖尿病協會建議餐前血糖值持續 130 mg/dL 以上，或糖化血色素(HbA1c) 大於 7%，應告知醫師，可能須調整糖尿病療法。如果血糖檢查低於正常值，必須通知醫師。糖尿病如欲獲得良好之控制，病人必須與醫師密切合作。如果攝取均衡的飲食，規律運動，並依醫師指示注射胰島素，仍能過著十分正常健康的生活。 經常保持足夠的胰島素供應量、注射筒和針頭。經常配戴糖尿病人識別証以確保遠離家中時，如發生併發症能得到適當的治療。 確認 \"禮來\"公司生產的 Human insulin 小瓶，醫師會針對病患之需要處方最適當的胰島素製劑。除了您的醫師告訴及指示，請勿使用其他胰島素。 由藥局取得胰島素時，應先檢查外盒及標籤，確定與醫師的處方相同。每次抽取前需先檢查外觀。 Humulin R 澄清、無色、水樣狀的注射液。如果外觀呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，則不能使用。 Humulin N 和 70/30 每次注射前應小心搖動或旋轉瓶子直到內容物混合均勻，混合後應呈現均勻的混濁或牛奶樣。若不是，則重覆上述步驟，直到內容物混合均勻。如果胰島素成份(白色物)混合後仍留在瓶底，或混合後有塊狀物， 或有白色顆粒附著在小瓶的底部或管壁，像霜一樣時，則不能使用。 如果發現外觀有不尋常的變化或是察覺胰島素需要量有明顯改變時，請諮詢醫師。 儲存 未使用時(未開封): 貯放在冰箱。不能冷凍。 使用中(開封): Humulin 小瓶不須冷藏，應儘量保持涼爽(低於 30℃)。避免暴露於過熱或光線直射。 Humulin 小瓶超過標貼上的有效期限，或冷凍過，則不能使用。 Insulin 小瓶的使用指示 不要與人共用注射針頭與注射筒。校正注射筒 胰島素的劑量以單位計算，現有 Humulin 濃度為 100 單位/毫升。瞭解注射筒上的刻度很重要，因為注射容積決定於藥效強度，即與每毫升之單位含量有關。因此您使用的注射筒必須依所注射的 Humulin 藥效強度標記刻度。注射筒不正確時可能導至劑量發生錯誤，引起嚴重的後果，如血糖濃度太低或太高。 注射筒使用 為避免可能發生污染或感染，請確實依照下列指示。拋棄式注射筒及針頭只能使用一次，然後丟棄。 準備注射劑量 洗淨雙手。 Humulin N和70/30：小心搖動或旋轉瓶子直到胰島素混合均勻。 檢查胰島素。 Humulin R 外觀應澄清無色。如呈現混濁、厚濁、或輕微變色或有可見的固體顆粒，不可使用。 Humulin N 和 70/30 應呈現均勻的混濁或牛奶樣。如果察覺外觀有不尋常的變化，不可使用。 4. 若開啟新瓶，打開塑膠保護蓋，不要除掉橡皮塞。用酒精棉花擦拭瓶子頂端。 5. 如要混合胰島素，請依照混合 Humulin R 和 N 的指示。 6. 將與劑量相等量的空氣抽入注射筒，針頭穿入瓶裝頂端的橡皮塞，將空氣注入瓶內。 7. 將小瓶與注射筒倒置，用一手牢牢握住。輕輕搖動 Humulin N 和 70/30。 8. 確定針尖插入胰島素中，將正確的劑量抽入注射筒內。 9. 針頭抽出前，檢查注射筒內會減少 insulin 劑量的氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。 10. 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。 11. 如果不需要混合 Humulin R 和 N，請依照 下述”注射指示”的步驟。 混合 Humulin N 和 R 僅有在醫師的指示下，Humulin R 才可與 Humulin N 混合。 將與所需 Humulin N 劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin N 的瓶內，注入空氣，抽出針頭。 以與所需 Humulin R劑量相等量的空氣抽入注射筒，將針頭穿入 Humulin R 的瓶內，注入空氣， 但針頭不要抽出。 將 Humulin R 瓶子與注射筒倒置。 確定針尖插入 Humulin R 溶液中，將正確的劑量抽入注射器筒。 針頭抽出前，檢查注射筒內是否有氣泡，如有氣泡，將注射筒針頭朝上，輕輕敲打管壁使氣泡浮到頂端，用推進器將氣泡推出，抽取正確的藥量。 由 Humulin R 瓶中抽出針頭，再穿入 Humulin N 的瓶內。將 Humulin N 小瓶與注射筒倒置，用一手牢牢握住，輕輕搖動。確定針尖插入 Humulin N中，抽取正確的藥量。 將針頭抽出，注射筒平放，則針頭不會與任何物質接觸。 請依照下述”注射指示”的步驟。 應遵循醫師指示以決定事先混合好胰島素或是在注射前才混合。 不同製造廠的注射筒，其底線與針頭間的容量亦不同，故不應改變 - 混合次序，或 - 醫師處方之注射筒或針頭的型式與廠牌。 注射指示 皮下注射的注射部位應於上臂、大腿、臀部或腹部。注射部位應輪流，所以相同位置一個月不能注射超過一次，以降低注射部位發生脂肪代謝障礙(lipodystrophy；皮膚凹陷或增厚)和皮膚類澱粉沉積症(cutaneous amyloidosis；皮膚出現腫塊) 的風險 用酒精棉消毒注射部位皮膚。 一手按平皮膚或掐起一大注射部位。 依醫師指示將針頭插入 推進器順向推入。 將針頭抽出並輕壓住注射部位數秒鐘。不要按摩注射部位。 將用過的針頭裝在無法刺穿的容器內，請依照專業醫護人員的指示進行丟棄。 劑量 醫師會告知您使用何種胰島素，多少劑量，何時注射，多久注射等，因為每個糖尿病人的病情不盡相同，這些情況都須個別處理。 您的 Humulin 劑量可能會受到食物、運動或工作行程等影響，須小心遵照醫師的指示。其他會影響您Humulin 劑量的還有： 疾病 特別是噁心、嘔吐，可能造成胰島素需求量的改變，即使未進食，您可能仍需要打胰島素。因此，當生病時應增加測量血糖的次數。遵照醫師指示測量丙酮(ketones)值並將結果告訴醫師。 懷孕 懷孕的婦女尤其要控制好自己的糖尿病，以免危及胎兒，懷孕會讓糖尿病更不易控制。因此不管您是計劃要懷孕、懷孕中或是自己哺育嬰兒，都要告知醫師。 用藥 如果您正在服用口服避孕藥、皮質類固醇、或甲狀腺替代治療(thyroid replacement therapy)等會引起高血糖的藥物時，胰島素需要量可能增加。如果您正在服用口服降血糖劑、水楊酸製劑(如阿司匹靈)、磺胺藥、酒精、某些抗憂鬱劑及一些腎臟及血壓藥物等會引起血糖下降或影響您的身體對胰島素的反應的藥物時，胰島素需要量可能減少。專業醫護人員知道其他可能影響糖尿病控制的藥物，所以應隨時告知醫師您目前所服用的藥物。 運動 運動時或有時候在運動後，胰島素需求量會降低。運動亦會加速胰島素的作用，尤其是當注射部位在進行運動時(如跑步之前不可注射腿部)。與醫師討論如何調整胰島素劑量來配合運動。 旅遊 當旅遊超越兩個時區(time zone)時，您應告知醫師關於胰島素時程之調整。 糖尿病常見的問題 低血糖 低血糖(血液中葡萄糖含量太少)是胰島素用者最常見的副作用之一，它可能是由下列的原因造成的： 忘記或延遲進食。 注射太多胰島素。 運動量或工作量較往常多。 受感染或生病伴有腹瀉或嘔吐。 身體對胰島素需求量改變。 腎上腺、腦下腺及甲狀腺等疾病，或腎臟肝臟疾病惡化。 與口服降血糖藥、水楊酸製劑(如阿司匹靈)、磺胺藥、某些抗抑鬱劑和一些腎臟及血壓藥物的交互作用。 服用含酒精飲料。 輕度至中度的低血糖的現象可能會突然發生，包括下列症狀： 流汗 嗜睡 眩暈 睡眠干擾 心悸 焦慮 顫抖 視力模糊 饑餓 語言含糊 不安 情緒低落 手、足、唇或舌部刺痛 易發怒 頭昏眼花 行為異常 精神無法集中 行動不穩定 頭痛 人格改變 嚴重的低血糖症狀包括： 無方向感 抽搐發作 失去知覺 死亡 因此，在發生低血糖現象時，獲得及時的協助是很重要的。 有些情況下，早期的低血糖症狀可能不同或較不易警覺，例如長期的糖尿病患、糖尿病性神經病變、服用藥物如 beta 阻斷劑、胰島素製劑改變或改變積極控制方式(intensified control:每天注射胰島素 3 次或以上的控制方式)。 在一些由動物來源胰島素換成用人體胰島素的病人，曾有報告指出發生低血糖早期警告症狀較不明顯或與先前使用動物胰島素時的情況不同。 如果未能警覺低血糖症狀的前兆，便無法避免較嚴重的低血糖現象，因此必須注意各種有可能是低血糖現象的症狀發生，病患發生低血糖，但無低血糖症狀的前兆時，應經常檢查血糖濃度，尤其是開車前。 如果血糖低於自己未進食的正常血糖值，便需考慮食用含糖食物使血糖升高。 輕度至中度的低血糖現象可以吃含糖食物來治療，糖尿病患應該隨身攜帶一塊糖果，如糖果或葡萄糖錠。嚴重的低血糖現象可能需要他人的協助，病患可能無法自行吃糖，或失去知覺需要注射昇糖素(glucagons)，或是需要到醫療機構內靜脈注射葡萄糖。 您必須了解您自己發生低血糖現象時會有那些症狀發生，如果您現在不確定，則應常常測量血糖值，藉此幫助您體會萬一發生低血糖現象時的症狀。如果您經常發生低血糖現象或是無法警覺其症狀，您必須與醫師討論如何改變治療方式、飲食和運動計劃以避免低血糖。 高血糖和糖尿病酮酸中毒(DKA)： 體內胰島素不足，可能引起高血糖現象(血液中葡萄糖含量過高)，造成的原因可能為以下任何一種： 忘記注射胰島素或注射量太少。 攝取過量飲食。 發燒、感染或受到顯著的壓力。 第一型糖尿病或胰島素依賴型病人，如果血糖長期過高，可能會引起糖尿病酮酸中毒(生命威脅的緊急性)。最初症狀通常是經過數小時或幾天逐漸形成，包括嗜睡、面潮紅、口乾、食欲減退和呼吸有水果的味道。 酮酸中毒時，血中與尿液檢查發現其中含有大量的糖分及丙酮(ketone)。症狀嚴重時有呼吸困難及脈搏加速現象。若是不治療的話，長期的血糖過高或糖尿病酮酸中毒會導致噁心、嘔吐、胃痛、脫水、意識喪失或死亡，因此，重要的是必須馬上尋求醫護人員的協助。 皮膚及皮下組織異常： 注射部位有可能因發生脂肪代謝障礙(lipodystrophy) 和皮膚類澱粉沉積症(cutaneous amyloidosis)而延緩胰島素的局部吸收效果。經常更換注射區域內的注射部位有助於減低或避免這些反應。 胰島素過敏： 局部過敏－有些病患在注射部位偶有發生紅、腫、癢等現象，但通常在數天或數週內消退，此稱為局部過敏反應。有些時候，這些反應經由非胰島素因素引起，例如皮膚清潔液的刺激，或注射技術不良等。如果您有局部過敏現象必須告知醫師。 全身性過敏－很少見，對胰島素過敏一旦發生則可能病情嚴重，可能會引起全身性皮膚疹、呼吸短促、有氣喘聲、血壓下降、脈博加快或流汗。嚴重情形甚至危及生命，若有上述全身性過敏現象發生時，立即通知醫師。 欲了解更多關於糖尿病及 Humulin 的資訊，可撥禮來諮詢專線 (02) 2715-2950 轉分機 2276。\n15\n其他\nLiterature revised 01 Jun 2021",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "ELI LILLY AND COMPANY",
+          "address": "INDIANAPOLIS, INDIANA 46285 U.S.A."
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "LILLY S.A.",
+          "address": "AVDA, DE LA INDUSTRIA 30, 28108 ALCOBENDAS, MADRID, SPAIN"
+        },
+        {
+          "number": "2",
+          "name": "ELI LILLY AND COMPANY",
+          "address": "INDIANAPOLIS, INDIANA 46285, U.S.A."
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣禮來股份有限公司",
+          "address": "臺北市信義區松高路9號14樓、11號14樓"
+        }
+      ]
+    }
+  ]
+}

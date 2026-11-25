@@ -1,0 +1,1019 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:58:29.902875+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000452",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000452號:5",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000452號",
+      "matched_license_code": "10000452",
+      "matched_nhi_code": "",
+      "drug_name_zh": "Ｂ型肝炎免疫人血球蛋白注射液",
+      "drug_name_en": "HYPERHEP B",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "5",
+      "approved_at": "2025-10-23",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "B型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human))— HyperHEP B®不含防腐劑。HyperHEP B是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。HyperHEP B為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。本產品含有的anti-HBs抗體效價，等於或大於美國藥物食品管理局（FDA生物評估及研究中心）的參考品，該參考品對照世界衛生組織的B型肝炎免疫球蛋白標準，相當於每毫升220個國際單位（IU）(≧220 IU/ mL)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperHEP B的製程中，有幾個步驟可將病毒去活化或移除。(1) 製程中有助於清除病毒的主要步驟如下： • 辛酸鹽沉澱／深層過濾 • 辛酸鹽靜置處理 • 深層過濾 • 管柱層析法 • 奈米過濾 • 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperHEP B製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。(1) (1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的 少量vCJD/CJD感染原。",
+          "content_html": "<p>B型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human))— HyperHEP B®不含防腐劑。HyperHEP B是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。HyperHEP B為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。本產品含有的anti-HBs抗體效價，等於或大於美國藥物食品管理局（FDA生物評估及研究中心）的參考品，該參考品對照世界衛生組織的B型肝炎免疫球蛋白標準，相當於每毫升220個國際單位（IU）(≧220 IU/ mL)。<br>使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。<br>在HyperHEP B的製程中，有幾個步驟可將病毒去活化或移除。(1) 製程中有助於清除病毒的主要步驟如下：<br>• 辛酸鹽沉澱／深層過濾<br>• 辛酸鹽靜置處理<br>• 深層過濾<br>• 管柱層析法<br>• 奈米過濾<br>• 最終容器的低pH值中靜置處理<br>為進一步確保最終產品在病原體方面的安全性，HyperHEP B製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。<br>在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。(1)<br>(1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的 少量vCJD/CJD感染原。</p>",
+          "search_text": "1\n性狀\nB型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human))— HyperHEP B®不含防腐劑。HyperHEP B是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。HyperHEP B為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。本產品含有的anti-HBs抗體效價，等於或大於美國藥物食品管理局（FDA生物評估及研究中心）的參考品，該參考品對照世界衛生組織的B型肝炎免疫球蛋白標準，相當於每毫升220個國際單位（IU）(≧220 IU/ mL)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperHEP B的製程中，有幾個步驟可將病毒去活化或移除。(1) 製程中有助於清除病毒的主要步驟如下： • 辛酸鹽沉澱／深層過濾 • 辛酸鹽靜置處理 • 深層過濾 • 管柱層析法 • 奈米過濾 • 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperHEP B製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。(1) (1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的 少量vCJD/CJD感染原。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分：B型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human)) 每1毫升含有 ≥ 220 IU的B型肝炎免疫球蛋白（人類） 0.5毫升針筒 ≥ 110 IU 1毫升針筒 ≥ 220 IU 5毫升藥瓶 ≥ 1100 IU",
+          "content_html": "<p>有效成分：B型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human))<br>每1毫升含有 &nbsp;≥ 220 IU的B型肝炎免疫球蛋白（人類）<br>0.5毫升針筒 &nbsp; ≥ 110 IU<br>1毫升針筒 &nbsp; &nbsp; &nbsp;≥ 220 IU<br>5毫升藥瓶 &nbsp; &nbsp; &nbsp;≥ 1100 IU</p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分：B型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human)) 每1毫升含有 ≥ 220 IU的B型肝炎免疫球蛋白（人類） 0.5毫升針筒 ≥ 110 IU 1毫升針筒 ≥ 220 IU 5毫升藥瓶 ≥ 1100 IU",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Glycine，Water for Injection。",
+          "content_html": "<p>Glycine，Water for Injection。</p>",
+          "search_text": "1.2\n賦形劑\nGlycine，Water for Injection。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑 (肌肉注射劑)。",
+          "content_html": "<p>注射劑 (肌肉注射劑)。</p>",
+          "search_text": "1.3\n劑型\n注射劑 (肌肉注射劑)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。",
+          "content_html": "<p>澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。</p>",
+          "search_text": "1.4\n藥品外觀\n澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "預防B型肝炎之感染。\n[說明] 基於目前可得到的有效性資料，以及需要治療者將來再次暴露HBV的可能性，建議使用暴露後預防的作法；對所有的病例，併用B型肝炎免疫球蛋白（人類）與B型肝炎疫苗能提供兼具短期和長期的保護，這比單獨使用兩劑B型肝炎免疫球蛋白（人類）要便宜，且是治療上的第一選擇。(2) HyperHEP B適用於下列暴露後預防的情形： 接觸到含有HBsAg血液的緊急情況 腸外途徑的接觸，例如：意外被針扎、直接黏膜接觸（意外被潑濺到）；或經由口攝取（用吸量管時意外吸到）含有HBsAg的物質，如血液、血漿或血清。如果是經皮意外接觸到，可給予兩劑B型肝炎免疫球蛋白（人類）：接觸後立即用一劑、一個月後再追加一劑，如此大約有75%的保護效果。 HBsAg陽性的母親，嬰兒在出生時接觸 HBsAg陽性的母親生產時，嬰兒有感染B型肝炎病毒的危險，並且可能成為慢性帶原者。(2-5) 如果母親是HBeAg陽性，嬰兒的危險性就更大。(6-8) 母親是HBsAg和HBeAg陽性的嬰兒，出生後立刻給一劑B型肝炎免疫球蛋白（人類），並在出生後儘快接種B型肝炎疫苗，如此預防嬰兒成為B型肝炎病毒帶原者的保護效果可達85-95 %。(2,9) 單獨使用多劑的B型肝炎免疫球蛋白（人類）、或只使用疫苗系列，效果約為70-90 %。若僅用一劑B型肝炎免疫球蛋白（人類），只有50%的效果。(2,10) 與 HBsAg陽性者性接觸 性伴侶為HBsAg陽性者，感染到B型肝炎病毒的機率較高。如果性交對象有急性B型肝炎，在最後一次性交的兩週內投與一劑B型肝炎免疫球蛋白（人類）有75%的保護效果。(2) 日常接觸急性B型肝炎病人 通常嬰兒會與照顧者有密切的接觸，同時嬰兒在感染急性B型肝炎後變成帶原者的風險較高，因此如果母親或褓母有急性B型肝炎，12個月以下的嬰兒可以B型肝炎免疫球蛋白（人類）及B型肝炎疫苗來預防。(2) 在使用B型肝炎疫苗（主動免疫作用）前（或同時）使用B型肝炎免疫球蛋白（人類），可以比單獨使用疫苗更迅速地獲得足夠的抗體。(11) 在某些臨床情況下，必須迅速得到抗體的保護，例如：在接種疫苗時，意外地用了遭污染的醫療器械。(11) 論在開始接種疫苗時、或之前的一個月使用B型肝炎免疫球蛋白（人類），都不會干擾疫苗的主動免疫反應。(11)",
+          "content_html": "<p>預防B型肝炎之感染。</p>\n<p>[說明]<br>基於目前可得到的有效性資料，以及需要治療者將來再次暴露HBV的可能性，建議使用暴露後預防的作法；對所有的病例，併用B型肝炎免疫球蛋白（人類）與B型肝炎疫苗能提供兼具短期和長期的保護，這比單獨使用兩劑B型肝炎免疫球蛋白（人類）要便宜，且是治療上的第一選擇。(2)<br>HyperHEP B適用於下列暴露後預防的情形：<br>接觸到含有HBsAg血液的緊急情況<br>腸外途徑的接觸，例如：意外被針扎、直接黏膜接觸（意外被潑濺到）；或經由口攝取（用吸量管時意外吸到）含有HBsAg的物質，如血液、血漿或血清。如果是經皮意外接觸到，可給予兩劑B型肝炎免疫球蛋白（人類）：接觸後立即用一劑、一個月後再追加一劑，如此大約有75%的保護效果。<br>HBsAg陽性的母親，嬰兒在出生時接觸<br>HBsAg陽性的母親生產時，嬰兒有感染B型肝炎病毒的危險，並且可能成為慢性帶原者。(2-5) 如果母親是HBeAg陽性，嬰兒的危險性就更大。(6-8) 母親是HBsAg和HBeAg陽性的嬰兒，出生後立刻給一劑B型肝炎免疫球蛋白（人類），並在出生後儘快接種B型肝炎疫苗，如此預防嬰兒成為B型肝炎病毒帶原者的保護效果可達85-95 %。(2,9) 單獨使用多劑的B型肝炎免疫球蛋白（人類）、或只使用疫苗系列，效果約為70-90 %。若僅用一劑B型肝炎免疫球蛋白（人類），只有50%的效果。(2,10)<br>與 HBsAg陽性者性接觸<br>性伴侶為HBsAg陽性者，感染到B型肝炎病毒的機率較高。如果性交對象有急性B型肝炎，在最後一次性交的兩週內投與一劑B型肝炎免疫球蛋白（人類）有75%的保護效果。(2)<br>日常接觸急性B型肝炎病人<br>通常嬰兒會與照顧者有密切的接觸，同時嬰兒在感染急性B型肝炎後變成帶原者的風險較高，因此如果母親或褓母有急性B型肝炎，12個月以下的嬰兒可以B型肝炎免疫球蛋白（人類）及B型肝炎疫苗來預防。(2)<br>在使用B型肝炎疫苗（主動免疫作用）前（或同時）使用B型肝炎免疫球蛋白（人類），可以比單獨使用疫苗更迅速地獲得足夠的抗體。(11) 在某些臨床情況下，必須迅速得到抗體的保護，例如：在接種疫苗時，意外地用了遭污染的醫療器械。(11) 論在開始接種疫苗時、或之前的一個月使用B型肝炎免疫球蛋白（人類），都不會干擾疫苗的主動免疫反應。(11)</p>",
+          "search_text": "2\n適應症\n預防B型肝炎之感染。\n[說明] 基於目前可得到的有效性資料，以及需要治療者將來再次暴露HBV的可能性，建議使用暴露後預防的作法；對所有的病例，併用B型肝炎免疫球蛋白（人類）與B型肝炎疫苗能提供兼具短期和長期的保護，這比單獨使用兩劑B型肝炎免疫球蛋白（人類）要便宜，且是治療上的第一選擇。(2) HyperHEP B適用於下列暴露後預防的情形： 接觸到含有HBsAg血液的緊急情況 腸外途徑的接觸，例如：意外被針扎、直接黏膜接觸（意外被潑濺到）；或經由口攝取（用吸量管時意外吸到）含有HBsAg的物質，如血液、血漿或血清。如果是經皮意外接觸到，可給予兩劑B型肝炎免疫球蛋白（人類）：接觸後立即用一劑、一個月後再追加一劑，如此大約有75%的保護效果。 HBsAg陽性的母親，嬰兒在出生時接觸 HBsAg陽性的母親生產時，嬰兒有感染B型肝炎病毒的危險，並且可能成為慢性帶原者。(2-5) 如果母親是HBeAg陽性，嬰兒的危險性就更大。(6-8) 母親是HBsAg和HBeAg陽性的嬰兒，出生後立刻給一劑B型肝炎免疫球蛋白（人類），並在出生後儘快接種B型肝炎疫苗，如此預防嬰兒成為B型肝炎病毒帶原者的保護效果可達85-95 %。(2,9) 單獨使用多劑的B型肝炎免疫球蛋白（人類）、或只使用疫苗系列，效果約為70-90 %。若僅用一劑B型肝炎免疫球蛋白（人類），只有50%的效果。(2,10) 與 HBsAg陽性者性接觸 性伴侶為HBsAg陽性者，感染到B型肝炎病毒的機率較高。如果性交對象有急性B型肝炎，在最後一次性交的兩週內投與一劑B型肝炎免疫球蛋白（人類）有75%的保護效果。(2) 日常接觸急性B型肝炎病人 通常嬰兒會與照顧者有密切的接觸，同時嬰兒在感染急性B型肝炎後變成帶原者的風險較高，因此如果母親或褓母有急性B型肝炎，12個月以下的嬰兒可以B型肝炎免疫球蛋白（人類）及B型肝炎疫苗來預防。(2) 在使用B型肝炎疫苗（主動免疫作用）前（或同時）使用B型肝炎免疫球蛋白（人類），可以比單獨使用疫苗更迅速地獲得足夠的抗體。(11) 在某些臨床情況下，必須迅速得到抗體的保護，例如：在接種疫苗時，意外地用了遭污染的醫療器械。(11) 論在開始接種疫苗時、或之前的一個月使用B型肝炎免疫球蛋白（人類），都不會干擾疫苗的主動免疫反應。(11)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "肌肉注射。不可靜脈注射。 接觸到含有HBsAg血液的緊急情況(10) 表一摘述經皮（針頭刺傷或被咬傷）、眼睛或黏膜接觸血液後的預防用法，端視暴露來源與個人接種情況而定。為達最大被動免疫效果，在接觸感染源後應盡快給予B型肝炎免疫球蛋白（人類）（超過七天後使用的效果不明）。如果投與B型肝炎免疫球蛋白（人類）（見表一），則應在接觸後24小時內近快投藥──肌肉注射0.06 ml/每公斤體重。有關B型肝炎疫苗劑量的資料，請參考其產品仿單。\n表一 (12) 經皮膚、黏膜接觸後，建議的預防用法 病人 感染源未經預防接種接受過預防接種 HBsAg陽性 1. 立即給予一劑B型肝炎免疫球蛋白（人類）* 1. 測病人抗體(anti-HBs) 2. 展開B型肝炎疫苗接種† 2. 如果抗體不足‡，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。 已知來源（高風險） 1. 展開B型肝炎疫苗接種 2. 檢測HBsAg來源，如果為陽性，給一劑B型肝炎免疫球蛋白（人類） 1. 若病人對疫苗無反應，需檢測 HBsAg來源。如果是陽性，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。 HBsAg陽性（低風險）展開B型肝炎疫苗接種不需治療 未知來源七天內展開B型肝炎疫苗接種不需治療 * B型肝炎疫苗接種，肌肉注射0.06 ml/kg † 成人的B型肝炎疫苗劑量：肌肉注射20 μg，十歲以下幼兒或嬰兒：肌肉注射10 μg。 一週內用第一劑，分別在一個月、六個月後用第二劑、第三劑。 ‡ 放射性免疫檢定分析(RIA)＜10 sample ratio units (SRU)，酵素免疫分析(EIA)呈現陰性反應。\n拒絕接受B型肝炎疫苗者，給予第一劑的B型肝炎免疫球蛋白（人類）後一個月再給第二劑。 HBsAg和HBeAg陽性的母親，嬰兒出生後的預防 B型肝炎免疫球蛋白對嬰兒的預防效果，端視出生當天投藥與否。因此分娩前先確定母親是否為HBsAg陽性非常重要。 新生兒在生理情況穩定後，最好在12小時內，即可肌肉注射B型肝炎免疫球蛋白（人類）(0.5 ml)。如果延遲到48小時以後才注射，B型肝炎免疫球蛋白的效果明顯降低。B型肝炎疫苗應肌肉注射三劑，每劑0.5 ml (10 μg)。第一劑在出生七天內接種，也可以同時用B型肝炎免疫球蛋白，但注射的部位不同。第二、第三劑疫苗則分別在第一劑用後一個、六個月接種。如果第一劑B型肝炎疫苗延後三個月使用，必須同時再使用一劑0.5 ml B型肝炎免疫球蛋白。如果拒絕接種疫苗，可於三個月、六個月時再次使用0.5 ml的B型肝炎免疫球蛋白。出生時使用過B型肝炎免疫球蛋白，應不會干擾嬰兒兩個月大時接種口服小兒麻痺疫苗及白喉─ 破傷風─百日咳三合一疫苗。(10) 與 HBsAg陽性者性接觸 性伴侶為急性B型肝炎病人的所有易感染者，建議在性交後的14天內開始預防注射；或者會繼續與病人有性關係，應接受一劑B型肝炎免疫球蛋白（人類）(0.06 ml/kg)，並開始接種B肝疫苗（見下述的表二）。在接觸病人後的治療上，同時用B型肝炎免疫球蛋白（人類）及疫苗可增進治療的效果；疫苗的附加價值在於它具有長期的保護效果。(2) 表二 (13) 與 B肝病人性接觸的預防用法：\n表二 (13) 與B肝病人性接觸的預防用法： B型肝炎免疫球蛋白（人類）疫苗 劑量建議用藥時間劑量建議用藥時間 肌肉注射0.06 ml/kg性接觸後14天內用一劑肌肉注射1.0 ml以B型肝炎免疫球蛋白（人類）治療時，接種第一劑疫苗¶ ¶ 第一劑可以與B型肝炎免疫球蛋白（人類）同時使用，但注射不同部位。接下來的幾劑應參照疫苗的特定用法。\n日常接觸急性B型肝炎病人 若照顧嬰兒者為急性B型肝炎病人，12個月以下的嬰兒可給予預防治療0.5 ml的人類B型肝炎免疫球蛋白及疫苗。但其它與急性B肝病人有日常接觸的人並不需要，除非確定與病人有血液接觸：例如共用牙刷、刮鬍刀，這種情況之處理方式與HBsAg陽性者性接觸之方式相同。不過如果病人變成B型肝炎帶原者，所有與他有日常接觸的人則應接種疫苗。(2) 人類B型肝炎免疫球蛋白可與疫苗併用（於不同部位注射）、或在接種疫苗前一個月用，並不會影響疫苗的主動免疫。(11)",
+          "content_html": "<p><strong>肌肉注射。不可靜脈注射。</strong><br>接觸到含有HBsAg血液的緊急情況(10)<br>表一摘述經皮（針頭刺傷或被咬傷）、眼睛或黏膜接觸血液後的預防用法，端視暴露來源與個人接種情況而定。為達最大被動免疫效果，在接觸感染源後應盡快給予B型肝炎免疫球蛋白（人類）（超過七天後使用的效果不明）。如果投與B型肝炎免疫球蛋白（人類）（見表一），則應在接觸後24小時內近快投藥──肌肉注射0.06 ml/每公斤體重。有關B型肝炎疫苗劑量的資料，請參考其產品仿單。</p>\n<figure class=\"table\" style=\"width:105.22%;\"><table><thead><tr><th style=\"padding:.75pt;width:99.38%;\" colspan=\"3\">表一 (<span style=\"color:Black;\">12</span>)&nbsp;經皮膚、黏膜接觸後，建議的預防用法</th></tr><tr><th style=\"border-bottom-style:none;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:20.76%;\">&nbsp;</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:78.3%;\" colspan=\"2\">病人</th></tr><tr><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.75pt;width:20.76%;\">感染源</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:36.8%;\">未經預防接種</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:41.18%;\">接受過預防接種</th></tr></thead><tbody><tr><td style=\"padding:.50pt;vertical-align:top;\" rowspan=\"2\">HBsAg陽性</td><td style=\"padding:.50pt;vertical-align:top;\"><p style=\"margin-left:13.85pt;\">1.&nbsp; 立即給予一劑B型肝炎免疫球蛋白（人類）*</p></td><td style=\"padding:.50pt;vertical-align:top;\"><p style=\"margin-left:13.85pt;\">1.&nbsp; 測病人抗體(anti-HBs)</p></td></tr><tr><td style=\"padding:.50pt;vertical-align:top;\"><p style=\"margin-left:13.85pt;\">2.&nbsp; 展開B型肝炎疫苗接種†</p></td><td style=\"padding:.50pt;vertical-align:top;\"><p style=\"margin-left:13.85pt;\">2.&nbsp; 如果抗體不足‡，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。</p></td></tr><tr><td style=\"padding:.50pt;vertical-align:top;\">已知來源（高風險）</td><td style=\"padding:.50pt;vertical-align:top;\"><p style=\"margin-left:13.85pt;\">1.&nbsp; 展開B型肝炎疫苗接種</p><p>&nbsp;</p><p style=\"margin-left:13.85pt;\">2.&nbsp; 檢測HBsAg來源，如果為陽性，給一劑B型肝炎免疫球蛋白（人類）</p></td><td style=\"padding:.50pt;vertical-align:top;\"><p style=\"margin-left:13.85pt;\">1.&nbsp; 若病人對疫苗無反應，需檢測 HBsAg來源。如果是陽性，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。</p></td></tr><tr><td style=\"padding:.50pt;vertical-align:top;\">HBsAg陽性（低風險）</td><td style=\"padding:.50pt;vertical-align:top;\">展開B型肝炎疫苗接種</td><td style=\"padding:.50pt;vertical-align:top;\">不需治療</td></tr><tr><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.50pt;vertical-align:top;\">未知來源</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.50pt;vertical-align:top;\">七天內展開B型肝炎疫苗接種</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.50pt;vertical-align:top;\">不需治療</td></tr><tr><td style=\"padding:.75pt;width:99.38%;\" colspan=\"3\"><p style=\"margin-left:18.0pt;\">*&nbsp;&nbsp;&nbsp; B型肝炎疫苗接種，肌肉注射0.06 ml/kg</p><p style=\"margin-left:18.0pt;\">†&nbsp;&nbsp;&nbsp; 成人的B型肝炎疫苗劑量：肌肉注射20&nbsp;μg，十歲以下幼兒或嬰兒：肌肉注射10&nbsp;μg。&nbsp;一週內用第一劑，分別在一個月、六個月後用第二劑、第三劑。</p><p style=\"margin-left:18.0pt;\">‡&nbsp;&nbsp;&nbsp; 放射性免疫檢定分析(RIA)＜10 sample ratio units (SRU)，酵素免疫分析(EIA)呈現陰性反應。</p></td></tr></tbody></table></figure>\n<p>拒絕接受B型肝炎疫苗者，給予第一劑的B型肝炎免疫球蛋白（人類）後一個月再給第二劑。<br>HBsAg和HBeAg陽性的母親，嬰兒出生後的預防<br>B型肝炎免疫球蛋白對嬰兒的預防效果，端視出生當天投藥與否。因此分娩前先確定母親是否為HBsAg陽性非常重要。<br>新生兒在生理情況穩定後，最好在12小時內，即可肌肉注射B型肝炎免疫球蛋白（人類）(0.5 ml)。如果延遲到48小時以後才注射，B型肝炎免疫球蛋白的效果明顯降低。B型肝炎疫苗應肌肉注射三劑，每劑0.5 ml (10 μg)。第一劑在出生七天內接種，也可以同時用B型肝炎免疫球蛋白，但注射的部位不同。第二、第三劑疫苗則分別在第一劑用後一個、六個月接種。如果第一劑B型肝炎疫苗延後三個月使用，必須同時再使用一劑0.5 ml B型肝炎免疫球蛋白。如果拒絕接種疫苗，可於三個月、六個月時再次使用0.5 ml的B型肝炎免疫球蛋白。出生時使用過B型肝炎免疫球蛋白，應不會干擾嬰兒兩個月大時接種口服小兒麻痺疫苗及白喉─ 破傷風─百日咳三合一疫苗。(10)<br>與 HBsAg陽性者性接觸<br>性伴侶為急性B型肝炎病人的所有易感染者，建議在性交後的14天內開始預防注射；或者會繼續與病人有性關係，應接受一劑B型肝炎免疫球蛋白（人類）(0.06 ml/kg)，並開始接種B肝疫苗（見下述的表二）。在接觸病人後的治療上，同時用B型肝炎免疫球蛋白（人類）及疫苗可增進治療的效果；疫苗的附加價值在於它具有長期的保護效果。(2)<br>表二 (13) 與 B肝病人性接觸的預防用法：</p>\n<figure class=\"table\" style=\"float:right;width:100.0%;\"><table><thead><tr><th style=\"padding:.75pt;width:99.34%;\" colspan=\"4\">表二 (<span style=\"color:Black;\">13</span>)&nbsp;與B肝病人性接觸的預防用法：</th></tr><tr><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:50.26%;\" colspan=\"2\">B型肝炎免疫球蛋白（人類）</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:48.76%;\" colspan=\"2\">疫苗</th></tr><tr><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:23.46%;\">劑量</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:26.46%;\">建議用藥時間</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:21.48%;\">劑量</th><th style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.5pt solid windowtext;padding:.75pt;width:26.96%;\">建議用藥時間</th></tr></thead><tbody><tr><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.75pt;vertical-align:top;width:23.46%;\">肌肉注射0.06 ml/kg</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.75pt;vertical-align:top;width:26.46%;\">性接觸後14天內用一劑</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.75pt;vertical-align:top;width:21.48%;\">肌肉注射1.0 ml</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:.75pt;vertical-align:top;width:26.96%;\">以B型肝炎免疫球蛋白（人類）治療時，接種第一劑疫苗¶</td></tr><tr><td style=\"padding:.75pt;width:99.34%;\" colspan=\"4\"><p style=\"margin-left:18.0pt;\">¶&nbsp;&nbsp;&nbsp; 第一劑可以與B型肝炎免疫球蛋白（人類）同時使用，但注射不同部位。接下來的幾劑應參照疫苗的特定用法。</p></td></tr></tbody></table></figure>\n<p>日常接觸急性B型肝炎病人<br>若照顧嬰兒者為急性B型肝炎病人，12個月以下的嬰兒可給予預防治療0.5 ml的人類B型肝炎免疫球蛋白及疫苗。但其它與急性B肝病人有日常接觸的人並不需要，除非確定與病人有血液接觸：例如共用牙刷、刮鬍刀，這種情況之處理方式與HBsAg陽性者性接觸之方式相同。不過如果病人變成B型肝炎帶原者，所有與他有日常接觸的人則應接種疫苗。(2)<br>人類B型肝炎免疫球蛋白可與疫苗併用（於不同部位注射）、或在接種疫苗前一個月用，並不會影響疫苗的主動免疫。(11)</p>",
+          "search_text": "3.1\n用法用量\n肌肉注射。不可靜脈注射。 接觸到含有HBsAg血液的緊急情況(10) 表一摘述經皮（針頭刺傷或被咬傷）、眼睛或黏膜接觸血液後的預防用法，端視暴露來源與個人接種情況而定。為達最大被動免疫效果，在接觸感染源後應盡快給予B型肝炎免疫球蛋白（人類）（超過七天後使用的效果不明）。如果投與B型肝炎免疫球蛋白（人類）（見表一），則應在接觸後24小時內近快投藥──肌肉注射0.06 ml/每公斤體重。有關B型肝炎疫苗劑量的資料，請參考其產品仿單。\n表一 (12) 經皮膚、黏膜接觸後，建議的預防用法 病人 感染源未經預防接種接受過預防接種 HBsAg陽性 1. 立即給予一劑B型肝炎免疫球蛋白（人類）* 1. 測病人抗體(anti-HBs) 2. 展開B型肝炎疫苗接種† 2. 如果抗體不足‡，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。 已知來源（高風險） 1. 展開B型肝炎疫苗接種 2. 檢測HBsAg來源，如果為陽性，給一劑B型肝炎免疫球蛋白（人類） 1. 若病人對疫苗無反應，需檢測 HBsAg來源。如果是陽性，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。 HBsAg陽性（低風險）展開B型肝炎疫苗接種不需治療 未知來源七天內展開B型肝炎疫苗接種不需治療 * B型肝炎疫苗接種，肌肉注射0.06 ml/kg † 成人的B型肝炎疫苗劑量：肌肉注射20 μg，十歲以下幼兒或嬰兒：肌肉注射10 μg。 一週內用第一劑，分別在一個月、六個月後用第二劑、第三劑。 ‡ 放射性免疫檢定分析(RIA)＜10 sample ratio units (SRU)，酵素免疫分析(EIA)呈現陰性反應。\n拒絕接受B型肝炎疫苗者，給予第一劑的B型肝炎免疫球蛋白（人類）後一個月再給第二劑。 HBsAg和HBeAg陽性的母親，嬰兒出生後的預防 B型肝炎免疫球蛋白對嬰兒的預防效果，端視出生當天投藥與否。因此分娩前先確定母親是否為HBsAg陽性非常重要。 新生兒在生理情況穩定後，最好在12小時內，即可肌肉注射B型肝炎免疫球蛋白（人類）(0.5 ml)。如果延遲到48小時以後才注射，B型肝炎免疫球蛋白的效果明顯降低。B型肝炎疫苗應肌肉注射三劑，每劑0.5 ml (10 μg)。第一劑在出生七天內接種，也可以同時用B型肝炎免疫球蛋白，但注射的部位不同。第二、第三劑疫苗則分別在第一劑用後一個、六個月接種。如果第一劑B型肝炎疫苗延後三個月使用，必須同時再使用一劑0.5 ml B型肝炎免疫球蛋白。如果拒絕接種疫苗，可於三個月、六個月時再次使用0.5 ml的B型肝炎免疫球蛋白。出生時使用過B型肝炎免疫球蛋白，應不會干擾嬰兒兩個月大時接種口服小兒麻痺疫苗及白喉─ 破傷風─百日咳三合一疫苗。(10) 與 HBsAg陽性者性接觸 性伴侶為急性B型肝炎病人的所有易感染者，建議在性交後的14天內開始預防注射；或者會繼續與病人有性關係，應接受一劑B型肝炎免疫球蛋白（人類）(0.06 ml/kg)，並開始接種B肝疫苗（見下述的表二）。在接觸病人後的治療上，同時用B型肝炎免疫球蛋白（人類）及疫苗可增進治療的效果；疫苗的附加價值在於它具有長期的保護效果。(2) 表二 (13) 與 B肝病人性接觸的預防用法：\n表二 (13) 與B肝病人性接觸的預防用法： B型肝炎免疫球蛋白（人類）疫苗 劑量建議用藥時間劑量建議用藥時間 肌肉注射0.06 ml/kg性接觸後14天內用一劑肌肉注射1.0 ml以B型肝炎免疫球蛋白（人類）治療時，接種第一劑疫苗¶ ¶ 第一劑可以與B型肝炎免疫球蛋白（人類）同時使用，但注射不同部位。接下來的幾劑應參照疫苗的特定用法。\n日常接觸急性B型肝炎病人 若照顧嬰兒者為急性B型肝炎病人，12個月以下的嬰兒可給予預防治療0.5 ml的人類B型肝炎免疫球蛋白及疫苗。但其它與急性B肝病人有日常接觸的人並不需要，除非確定與病人有血液接觸：例如共用牙刷、刮鬍刀，這種情況之處理方式與HBsAg陽性者性接觸之方式相同。不過如果病人變成B型肝炎帶原者，所有與他有日常接觸的人則應接種疫苗。(2) 人類B型肝炎免疫球蛋白可與疫苗併用（於不同部位注射）、或在接種疫苗前一個月用，並不會影響疫苗的主動免疫。(11)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "由於潛在的嚴重反應，HyperHEP B不得做靜脈注射，只限於肌肉注射，因此在插入針頭進行注射前，應小心回抽一下、以確定針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(14)注射部位必須視注射的量多寡而定。 腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。 肌肉注射，不可靜脈注射。 為了安全及方便使用，HyperHEP B的注射針筒包裝附有安全護套(needle guard)。請依照以下指示正確使用。 針劑的使用方法 1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。 3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先抽一下筒柄，以確定沒有插入靜脈或動脈。 7. 注入藥物。 8. 保持手在針頭後方，另一隻手則握緊安全護套並滑向針頭直到安全護套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）\n許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病人間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。",
+          "content_html": "<p>由於潛在的嚴重反應，HyperHEP B不得做靜脈注射，只限於肌肉注射，因此在插入針頭進行注射前，應小心回抽一下、以確定針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(14)注射部位必須視注射的量多寡而定。<br>腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。<br>肌肉注射，不可靜脈注射。<br>為了安全及方便使用，HyperHEP B的注射針筒包裝附有安全護套(needle guard)。請依照以下指示正確使用。<br>針劑的使用方法<br>1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。<br>2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。<br>3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。<br>4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】<br>5. 將針頭刺進皮下。<br>6. 注射前先抽一下筒柄，以確定沒有插入靜脈或動脈。<br>7. 注入藥物。<br>8. 保持手在針頭後方，另一隻手則握緊安全護套並滑向針頭直到安全護套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B）<br>9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）</p>\n<p>許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病人間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。</p>",
+          "search_text": "3.2\n調製方式\n由於潛在的嚴重反應，HyperHEP B不得做靜脈注射，只限於肌肉注射，因此在插入針頭進行注射前，應小心回抽一下、以確定針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(14)注射部位必須視注射的量多寡而定。 腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。 肌肉注射，不可靜脈注射。 為了安全及方便使用，HyperHEP B的注射針筒包裝附有安全護套(needle guard)。請依照以下指示正確使用。 針劑的使用方法 1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。 3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先抽一下筒柄，以確定沒有插入靜脈或動脈。 7. 注入藥物。 8. 保持手在針頭後方，另一隻手則握緊安全護套並滑向針頭直到安全護套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）\n許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病人間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 668196
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "無。",
+          "content_html": "<p>無。</p>",
+          "search_text": "4\n禁忌\n無。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用HyperHEP B 時應特別小心。備妥腎上腺素以應不時之需。 有嚴重的血小板缺乏症、或有其它凝血性疾病病人禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用B型肝炎免疫球蛋白（人類）。 強烈建議醫護人員在每次注射 HyperHEP B 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。",
+          "content_html": "<p>【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。</p><p>對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用HyperHEP B 時應特別小心。備妥腎上腺素以應不時之需。<br>有嚴重的血小板缺乏症、或有其它凝血性疾病病人禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用B型肝炎免疫球蛋白（人類）。<br>強烈建議醫護人員在每次注射 HyperHEP B 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。</p>",
+          "search_text": "5.1\n警語/注意事項\n【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用HyperHEP B 時應特別小心。備妥腎上腺素以應不時之需。 有嚴重的血小板缺乏症、或有其它凝血性疾病病人禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用B型肝炎免疫球蛋白（人類）。 強烈建議醫護人員在每次注射 HyperHEP B 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "未觀察到對駕駛車輛和使用機器的能力具有影響。",
+          "content_html": "<p>未觀察到對駕駛車輛和使用機器的能力具有影響。</p>",
+          "search_text": "5.3\n操作機械能力\n未觀察到對駕駛車輛和使用機器的能力具有影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "不需要。",
+          "content_html": "<p>不需要。</p>",
+          "search_text": "5.4\n實驗室檢測\n不需要。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "用藥分級C 尚未以HyperHEP B 進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。",
+          "content_html": "<p>用藥分級C<br>尚未以HyperHEP B 進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。</p>",
+          "search_text": "6.1\n懷孕\n用藥分級C 尚未以HyperHEP B 進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前尚無HyperHEP B是否會出現在人乳中，及其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperHEP B的臨床需要，以及HyperHEP B或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。",
+          "content_html": "<p>目前尚無HyperHEP B是否會出現在人乳中，及其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperHEP B的臨床需要，以及HyperHEP B或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。</p>",
+          "search_text": "6.2\n哺乳\n目前尚無HyperHEP B是否會出現在人乳中，及其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperHEP B的臨床需要，以及HyperHEP B或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "安全性和有效性都尚未確立。",
+          "content_html": "<p>安全性和有效性都尚未確立。</p>",
+          "search_text": "6.4\n小兒\n安全性和有效性都尚未確立。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "雖然使用B型肝炎免疫球蛋白（人類）並不會干擾麻疹疫苗的接種，(15) 但是否會干擾其他活性病毒的疫苗則並不清楚。因此使用這類疫苗的時間，最好延至使用Ｂ型肝炎免疫球蛋白（人類）三個月以後。不過，同時使用B型肝炎疫苗則不會相互干擾，但必須注射不同的部位。(11) 未知與其他產品的藥物交互作用。",
+          "content_html": "<p>雖然使用B型肝炎免疫球蛋白（人類）並不會干擾麻疹疫苗的接種，(15) 但是否會干擾其他活性病毒的疫苗則並不清楚。因此使用這類疫苗的時間，最好延至使用Ｂ型肝炎免疫球蛋白（人類）三個月以後。不過，同時使用B型肝炎疫苗則不會相互干擾，但必須注射不同的部位。(11)<br>未知與其他產品的藥物交互作用。</p>",
+          "search_text": "7\n交互作用\n雖然使用B型肝炎免疫球蛋白（人類）並不會干擾麻疹疫苗的接種，(15) 但是否會干擾其他活性病毒的疫苗則並不清楚。因此使用這類疫苗的時間，最好延至使用Ｂ型肝炎免疫球蛋白（人類）三個月以後。不過，同時使用B型肝炎疫苗則不會相互干擾，但必須注射不同的部位。(11) 未知與其他產品的藥物交互作用。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "注射處局部疼痛及觸痛、蕁麻疹及血管水腫。注射人類免疫球蛋白製劑而導致過敏的情況雖很罕見，但曾經發生過。(16)",
+          "content_html": "<p>注射處局部疼痛及觸痛、蕁麻疹及血管水腫。注射人類免疫球蛋白製劑而導致過敏的情況雖很罕見，但曾經發生過。(16)</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n注射處局部疼痛及觸痛、蕁麻疹及血管水腫。注射人類免疫球蛋白製劑而導致過敏的情況雖很罕見，但曾經發生過。(16)",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.2\n臨床試驗經驗\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9\n過量",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "section-33",
+          "parent_id": "9",
+          "level": 2,
+          "number": "",
+          "title": "目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛及觸痛的情形發生。",
+          "title_html": "目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛及觸痛的情形發生。",
+          "path": [
+            "過量",
+            "目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛及觸痛的情形發生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛及觸痛的情形發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "藥物類別：免疫血清類，特異性免疫球蛋白，B型肝炎免疫球蛋白； ATC代碼：J06BB04 對於暴露在B型肝炎病毒(HBV)下的人，B型肝炎免疫球蛋白（人類）可提供被動免疫，使其遭B型肝炎病毒侵襲的比例降低。(3,17-21) 已有anti-HBs者，在接觸B型肝炎病毒後很少會發病。使用本產品未曾有傳染到B型肝炎的例證",
+          "content_html": "<p>藥物類別：免疫血清類，特異性免疫球蛋白，B型肝炎免疫球蛋白；<br>ATC代碼：J06BB04<br>對於暴露在B型肝炎病毒(HBV)下的人，B型肝炎免疫球蛋白（人類）可提供被動免疫，使其遭B型肝炎病毒侵襲的比例降低。(3,17-21)<br>已有anti-HBs者，在接觸B型肝炎病毒後很少會發病。使用本產品未曾有傳染到B型肝炎的例證</p>",
+          "search_text": "10.2\n藥效藥理特性\n藥物類別：免疫血清類，特異性免疫球蛋白，B型肝炎免疫球蛋白； ATC代碼：J06BB04 對於暴露在B型肝炎病毒(HBV)下的人，B型肝炎免疫球蛋白（人類）可提供被動免疫，使其遭B型肝炎病毒侵襲的比例降低。(3,17-21) 已有anti-HBs者，在接觸B型肝炎病毒後很少會發病。使用本產品未曾有傳染到B型肝炎的例證",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "在一般的建議劑量下，血中會出現可測得的anti-HBs量，並大約可持續兩個月或更久。受試者血清中出現最高抗體(IgG)濃度的時間分布如下。(22)\n時間（天） 人數 % 第 3 天 38.9% 第 7 天 41.7% 第14天 11.1% 第21天 8.3%\n半衰期的平均值是17.5 - 25天，其中最短的是5.9天、最長的是35天。(22) 在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。",
+          "content_html": "<p>在一般的建議劑量下，血中會出現可測得的anti-HBs量，並大約可持續兩個月或更久。受試者血清中出現最高抗體(IgG)濃度的時間分布如下。(22)</p>\n<figure class=\"table\" style=\"width:450.0pt;\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:224.5pt;\"><p style=\"text-align:center;\"><u>時間（天）</u></p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:225.5pt;\"><p style=\"text-align:center;\"><u>人數 %</u></p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:224.5pt;\"><p style=\"text-align:center;\">第 3&nbsp;天</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:225.5pt;\"><p style=\"text-align:center;\">38.9%</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:224.5pt;\"><p style=\"text-align:center;\">第 7&nbsp;天</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:225.5pt;\"><p style=\"text-align:center;\">41.7%</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:224.5pt;\"><p style=\"text-align:center;\">第14天</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:225.5pt;\"><p style=\"text-align:center;\">11.1%</p></td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:224.5pt;\"><p style=\"text-align:center;\">第21天</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:225.5pt;\"><p style=\"text-align:center;\">8.3%</p></td></tr></tbody></table></figure>\n<p>半衰期的平均值是17.5 - 25天，其中最短的是5.9天、最長的是35天。(22)<br>在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。</p>",
+          "search_text": "11\n藥物動力學特性\n在一般的建議劑量下，血中會出現可測得的anti-HBs量，並大約可持續兩個月或更久。受試者血清中出現最高抗體(IgG)濃度的時間分布如下。(22)\n時間（天） 人數 % 第 3 天 38.9% 第 7 天 41.7% 第14天 11.1% 第21天 8.3%\n半衰期的平均值是17.5 - 25天，其中最短的是5.9天、最長的是35天。(22) 在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "0.5 mL新生兒單劑注射針筒附針頭(syringe with attached needle)、1 mL單劑注射針筒附針頭(syringe with attached needle，1 ml 單劑小瓶(vial)與 5 ml 單劑小瓶(vial)。 HyperHEP B不含防腐劑且包材且非由天然橡膠乳膠製成。",
+          "content_html": "<p>0.5 mL新生兒單劑注射針筒附針頭(syringe with attached needle)、1 mL單劑注射針筒附針頭(syringe with attached needle，1 ml 單劑小瓶(vial)與 5 ml 單劑小瓶(vial)。 HyperHEP B不含防腐劑且包材且非由天然橡膠乳膠製成。</p>",
+          "search_text": "13.1\n包裝\n0.5 mL新生兒單劑注射針筒附針頭(syringe with attached needle)、1 mL單劑注射針筒附針頭(syringe with attached needle，1 ml 單劑小瓶(vial)與 5 ml 單劑小瓶(vial)。 HyperHEP B不含防腐劑且包材且非由天然橡膠乳膠製成。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "詳見外盒標示。",
+          "content_html": "<p>詳見外盒標示。</p>",
+          "search_text": "13.2\n效期\n詳見外盒標示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "在2-8℃下貯存。",
+          "content_html": "<p>在2-8℃下貯存。</p>",
+          "search_text": "13.3\n儲存條件\n在2-8℃下貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。",
+          "content_html": "<p>勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。</p>",
+          "search_text": "13.4\n儲存注意事項\n勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "參考資料 1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration-modified process. Biologicals 2012;40:247-53. 2. Recommendations of the Immunization Practices Advisory Committee (ACIP): Hepatitis B Virus: A Comprehensive Strategy for Eliminating Transmission in the United States Through Universal Childhood Vaccination. Appendix A: Postexposure Prophylaxis for Hepatitis B. MMWR 40(RR-13):21-25, 1991. 3. Jhaveri R, Rosenfeld W, Salazar JD, et al: High titer multiple dose therapy with HBIG in newborn infants of HBsAg positive mothers. J Pediatr 97(2):305–8, 1980. 4. Stevens CE, Beasley RP, Tsui J, et al: Vertical transmission of hepatitis B antigen in Taiwan. N Engl J Med 292(15):771-4, 1975. 5. Shiraki K, Yoshihara N, Kawana T, et al: Hepatitis B surface antigen and chronic hepatitis in infants born to asymptomatic carrier mothers. Am J Dis Child 131(6):644-7, 1977. 6. Recommendation of the Immunization Practices Advisory Committee (ACIP): Immune globulins for protection against viral hepatitis. MMWR 30(34):423-8; 433-5, 1981. 7. Okada K, Kamiyama I, Inomata M, et al: e antigen and anti-e in the serum of asymptomatic carrier mothers as indicators of positive and negative transmission of hepatitis B virus to their infants. N Engl J Med 294(14):746-9, 1976. 8. Beasley RP, Trepo C, Stevens CE, et al: The e antigen and vertical transmission of hepatitis B surface antigen. Am J Epidemiol 105(2):94-8, 1977. 9. Beasley RP, Hwang LY, Lee GCY, et al: Prevention of perinatally transmitted hepatitis B virus infections with hepatitis B immune globulin and hepatitis B vaccine. Lancet 2(8359): 1099-102, 1983. 10. Recommendation of the Immunization Practices Advisory Committee (ACIP): Recommendations for protection against viral hepatitis. MMWR 34(22):313–35, 1985. 11. Szmuness W, Stevens CE, Olesko WR, et al: Passive-active immunisation against hepatitis B: immunogenicity studies in adult Americans. Lancet 1:575–77, 1981. 12. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 9. Recommendations for postexposure prophylaxis for percutaneous or permucosal exposure to hepatitis B, United States. MMWR 40(RR-12):70, 1991. 13. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 10. Recommendations for postexposure prophylaxis for perinatal and sexual exposure to hepatitis B, United States. MMWR 40(RR-12):71, 1991. 14. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 15. Beasley RP, Hwang LY: Measles vaccination not interfered with by hepatitis B immune globulin. Lancet 1:161, 1982. 16. Ellis EF, Henney CS: Adverse reactions following administration of human gamma globulin. J Allerg 43(1):45-54, 1969. 17. Grady GF, Lee VA: Hepatitis B immune globulin — prevention of hepatitis from accidental exposure among medical personnel. N Engl J Med 293(21):1067–70, 1975. 18. Seeff LB, Zimmerman HJ, Wright EC, et al: Efficacy of hepatitis B immune serum globulin after accidental exposure. Lancet 2(7942):939-41, 1975. 19. Krugman S, Giles JP: Viral hepatitis, type B (MS-2-strain). Further observations on natural history and prevention. N Engl J Med 288(15):755-60, 1973. 20. Current trends: Health status of Indochinese refugees: malaria and hepatitis B. MMWR 28(39):463-4; 469-70, 1979. 21. Hoofnagle JH, Seeff LB, Bales ZB, et al: Passive-active immunity from hepatitis B immune globulin. Ann Intern Med 91(6):813-8, 1979. 22. Scheiermann N, Kuwert EK: Uptake and elimination of hepatitis B immunoglobulins after intramuscular application in man. Dev Biol Stand 54:347-55, 1983.",
+          "content_html": "<p>參考資料<br>1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration-modified process. Biologicals 2012;40:247-53.<br>2. Recommendations of the Immunization Practices Advisory Committee (ACIP): Hepatitis B Virus: A Comprehensive Strategy for Eliminating Transmission in the United States Through Universal Childhood Vaccination. Appendix A: Postexposure Prophylaxis for Hepatitis B. MMWR 40(RR-13):21-25, 1991.<br>3. Jhaveri R, Rosenfeld W, Salazar JD, et al: High titer multiple dose therapy with HBIG in newborn infants of HBsAg positive mothers. J Pediatr 97(2):305–8, 1980.<br>4. Stevens CE, Beasley RP, Tsui J, et al: Vertical transmission of hepatitis B antigen in Taiwan. N Engl J Med 292(15):771-4, 1975.<br>5. Shiraki K, Yoshihara N, Kawana T, et al: Hepatitis B surface antigen and chronic hepatitis in infants born to asymptomatic carrier mothers. Am J Dis Child 131(6):644-7, 1977.<br>6. Recommendation of the Immunization Practices Advisory Committee (ACIP): Immune globulins for protection against viral hepatitis. MMWR 30(34):423-8; 433-5, 1981.<br>7. Okada K, Kamiyama I, Inomata M, et al: e antigen and anti-e in the serum of asymptomatic carrier mothers as indicators of positive and negative transmission of<br>hepatitis B virus to their infants. N Engl J Med 294(14):746-9, 1976.<br>8. Beasley RP, Trepo C, Stevens CE, et al: The e antigen and vertical transmission of hepatitis B surface antigen. Am J Epidemiol 105(2):94-8, 1977.<br>9. Beasley RP, Hwang LY, Lee GCY, et al: Prevention of perinatally transmitted hepatitis B virus infections with hepatitis B immune globulin and hepatitis B vaccine. Lancet 2(8359): 1099-102, 1983.<br>10. Recommendation of the Immunization Practices Advisory Committee (ACIP): Recommendations for protection against viral hepatitis. MMWR 34(22):313–35, 1985.<br>11. Szmuness W, Stevens CE, Olesko WR, et al: Passive-active immunisation against hepatitis B: immunogenicity studies in adult Americans. Lancet 1:575–77, 1981.<br>12. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 9. Recommendations for postexposure prophylaxis for percutaneous or permucosal exposure to hepatitis B, United States. MMWR 40(RR-12):70, 1991.<br>13. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 10. Recommendations for postexposure prophylaxis for perinatal and sexual exposure to hepatitis B, United States. MMWR 40(RR-12):71, 1991.<br>14. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36.<br>15. Beasley RP, Hwang LY: Measles vaccination not interfered with by hepatitis B immune globulin. Lancet 1:161, 1982.<br>16. Ellis EF, Henney CS: Adverse reactions following administration of human gamma globulin. J Allerg 43(1):45-54, 1969.<br>17. Grady GF, Lee VA: Hepatitis B immune globulin — prevention of hepatitis from accidental exposure among medical personnel. N Engl J Med 293(21):1067–70, 1975.<br>18. Seeff LB, Zimmerman HJ, Wright EC, et al: Efficacy of hepatitis B immune serum globulin after accidental exposure. Lancet 2(7942):939-41, 1975.<br>19. Krugman S, Giles JP: Viral hepatitis, type B (MS-2-strain). Further observations on natural history and prevention. N Engl J Med 288(15):755-60, 1973.<br>20. Current trends: Health status of Indochinese refugees: malaria and hepatitis B. MMWR 28(39):463-4; 469-70, 1979.<br>21. Hoofnagle JH, Seeff LB, Bales ZB, et al: Passive-active immunity from hepatitis B immune globulin. Ann Intern Med 91(6):813-8, 1979.<br>22. Scheiermann N, Kuwert EK: Uptake and elimination of hepatitis B immunoglobulins after intramuscular application in man. Dev Biol Stand 54:347-55, 1983.</p>",
+          "search_text": "15\n其他\n參考資料 1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration-modified process. Biologicals 2012;40:247-53. 2. Recommendations of the Immunization Practices Advisory Committee (ACIP): Hepatitis B Virus: A Comprehensive Strategy for Eliminating Transmission in the United States Through Universal Childhood Vaccination. Appendix A: Postexposure Prophylaxis for Hepatitis B. MMWR 40(RR-13):21-25, 1991. 3. Jhaveri R, Rosenfeld W, Salazar JD, et al: High titer multiple dose therapy with HBIG in newborn infants of HBsAg positive mothers. J Pediatr 97(2):305–8, 1980. 4. Stevens CE, Beasley RP, Tsui J, et al: Vertical transmission of hepatitis B antigen in Taiwan. N Engl J Med 292(15):771-4, 1975. 5. Shiraki K, Yoshihara N, Kawana T, et al: Hepatitis B surface antigen and chronic hepatitis in infants born to asymptomatic carrier mothers. Am J Dis Child 131(6):644-7, 1977. 6. Recommendation of the Immunization Practices Advisory Committee (ACIP): Immune globulins for protection against viral hepatitis. MMWR 30(34):423-8; 433-5, 1981. 7. Okada K, Kamiyama I, Inomata M, et al: e antigen and anti-e in the serum of asymptomatic carrier mothers as indicators of positive and negative transmission of hepatitis B virus to their infants. N Engl J Med 294(14):746-9, 1976. 8. Beasley RP, Trepo C, Stevens CE, et al: The e antigen and vertical transmission of hepatitis B surface antigen. Am J Epidemiol 105(2):94-8, 1977. 9. Beasley RP, Hwang LY, Lee GCY, et al: Prevention of perinatally transmitted hepatitis B virus infections with hepatitis B immune globulin and hepatitis B vaccine. Lancet 2(8359): 1099-102, 1983. 10. Recommendation of the Immunization Practices Advisory Committee (ACIP): Recommendations for protection against viral hepatitis. MMWR 34(22):313–35, 1985. 11. Szmuness W, Stevens CE, Olesko WR, et al: Passive-active immunisation against hepatitis B: immunogenicity studies in adult Americans. Lancet 1:575–77, 1981. 12. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 9. Recommendations for postexposure prophylaxis for percutaneous or permucosal exposure to hepatitis B, United States. MMWR 40(RR-12):70, 1991. 13. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 10. Recommendations for postexposure prophylaxis for perinatal and sexual exposure to hepatitis B, United States. MMWR 40(RR-12):71, 1991. 14. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 15. Beasley RP, Hwang LY: Measles vaccination not interfered with by hepatitis B immune globulin. Lancet 1:161, 1982. 16. Ellis EF, Henney CS: Adverse reactions following administration of human gamma globulin. J Allerg 43(1):45-54, 1969. 17. Grady GF, Lee VA: Hepatitis B immune globulin — prevention of hepatitis from accidental exposure among medical personnel. N Engl J Med 293(21):1067–70, 1975. 18. Seeff LB, Zimmerman HJ, Wright EC, et al: Efficacy of hepatitis B immune serum globulin after accidental exposure. Lancet 2(7942):939-41, 1975. 19. Krugman S, Giles JP: Viral hepatitis, type B (MS-2-strain). Further observations on natural history and prevention. N Engl J Med 288(15):755-60, 1973. 20. Current trends: Health status of Indochinese refugees: malaria and hepatitis B. MMWR 28(39):463-4; 469-70, 1979. 21. Hoofnagle JH, Seeff LB, Bales ZB, et al: Passive-active immunity from hepatitis B immune globulin. Ann Intern Med 91(6):813-8, 1979. 22. Scheiermann N, Kuwert EK: Uptake and elimination of hepatitis B immunoglobulins after intramuscular application in man. Dev Biol Stand 54:347-55, 1983.",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\nB型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human))— HyperHEP B®不含防腐劑。HyperHEP B是使用健康捐贈者的人類血漿，結合冷乙醇分離法、辛酸鹽沉澱和過濾、辛酸鹽靜置處理、陰離子交換層析法、奈米過濾（nanofiltration）和低pH值靜置處理等技術製備而成。HyperHEP B為15-18%的蛋白質溶液，pH值4.1-4.8、含有0.16 M-0.26 M甘胺酸。本產品含有的anti-HBs抗體效價，等於或大於美國藥物食品管理局（FDA生物評估及研究中心）的參考品，該參考品對照世界衛生組織的B型肝炎免疫球蛋白標準，相當於每毫升220個國際單位（IU）(≧220 IU/ mL)。 使用生物製劑時，無法完全排除由病原體引起傳染病的風險。然而，針對由人類血漿製成的產品，可以透過下列方式降低病原體傳播的風險：對捐贈者族群進行流行病學監測；透過醫療面談，謹慎選擇捐贈者；對捐贈的個別血漿及合併的血漿進行檢測，以及製程中包含能夠將病原體去活化或移除的步驟。 在HyperHEP B的製程中，有幾個步驟可將病毒去活化或移除。(1) 製程中有助於清除病毒的主要步驟如下： • 辛酸鹽沉澱／深層過濾 • 辛酸鹽靜置處理 • 深層過濾 • 管柱層析法 • 奈米過濾 • 最終容器的低pH值中靜置處理 為進一步確保最終產品在病原體方面的安全性，HyperHEP B製程的病毒移除及／或去活化能力，已透過使用多種物理化學性質各異的病毒，在依比例縮小的製程模型上於實驗室的「摻加樣本研究」（spiking studies）中獲得證明。 在研究辛酸鹽／層析法的製造過程中也使用經實驗設計的病原體，作為評估變異性庫賈氏症variant Creutzfeldt-Jakob disease (vCJD）與庫賈氏症（Creutzfeldt-Jakob disease (CJD）病原的模型，以降低傳播性海綿狀腦病（transmissible spongiform encephalopathy(TSE)傳染的能力。(1) (1)這些實驗提供一個合理的結論：辛酸鹽／層析法的製造過程可有效移除原料中可能含有的 少量vCJD/CJD感染原。\n1.1\n有效成分及含量\n有效成分：B型肝炎免疫球蛋白（人類）(Hepatitis B Immune Globulin (Human)) 每1毫升含有 ≥ 220 IU的B型肝炎免疫球蛋白（人類） 0.5毫升針筒 ≥ 110 IU 1毫升針筒 ≥ 220 IU 5毫升藥瓶 ≥ 1100 IU\n1.2\n賦形劑\nGlycine，Water for Injection。\n1.3\n劑型\n注射劑 (肌肉注射劑)。\n1.4\n藥品外觀\n澄清或微乳白狀、無色或淡黃色或淺棕色的溶液。\n2\n適應症\n預防B型肝炎之感染。\n[說明] 基於目前可得到的有效性資料，以及需要治療者將來再次暴露HBV的可能性，建議使用暴露後預防的作法；對所有的病例，併用B型肝炎免疫球蛋白（人類）與B型肝炎疫苗能提供兼具短期和長期的保護，這比單獨使用兩劑B型肝炎免疫球蛋白（人類）要便宜，且是治療上的第一選擇。(2) HyperHEP B適用於下列暴露後預防的情形： 接觸到含有HBsAg血液的緊急情況 腸外途徑的接觸，例如：意外被針扎、直接黏膜接觸（意外被潑濺到）；或經由口攝取（用吸量管時意外吸到）含有HBsAg的物質，如血液、血漿或血清。如果是經皮意外接觸到，可給予兩劑B型肝炎免疫球蛋白（人類）：接觸後立即用一劑、一個月後再追加一劑，如此大約有75%的保護效果。 HBsAg陽性的母親，嬰兒在出生時接觸 HBsAg陽性的母親生產時，嬰兒有感染B型肝炎病毒的危險，並且可能成為慢性帶原者。(2-5) 如果母親是HBeAg陽性，嬰兒的危險性就更大。(6-8) 母親是HBsAg和HBeAg陽性的嬰兒，出生後立刻給一劑B型肝炎免疫球蛋白（人類），並在出生後儘快接種B型肝炎疫苗，如此預防嬰兒成為B型肝炎病毒帶原者的保護效果可達85-95 %。(2,9) 單獨使用多劑的B型肝炎免疫球蛋白（人類）、或只使用疫苗系列，效果約為70-90 %。若僅用一劑B型肝炎免疫球蛋白（人類），只有50%的效果。(2,10) 與 HBsAg陽性者性接觸 性伴侶為HBsAg陽性者，感染到B型肝炎病毒的機率較高。如果性交對象有急性B型肝炎，在最後一次性交的兩週內投與一劑B型肝炎免疫球蛋白（人類）有75%的保護效果。(2) 日常接觸急性B型肝炎病人 通常嬰兒會與照顧者有密切的接觸，同時嬰兒在感染急性B型肝炎後變成帶原者的風險較高，因此如果母親或褓母有急性B型肝炎，12個月以下的嬰兒可以B型肝炎免疫球蛋白（人類）及B型肝炎疫苗來預防。(2) 在使用B型肝炎疫苗（主動免疫作用）前（或同時）使用B型肝炎免疫球蛋白（人類），可以比單獨使用疫苗更迅速地獲得足夠的抗體。(11) 在某些臨床情況下，必須迅速得到抗體的保護，例如：在接種疫苗時，意外地用了遭污染的醫療器械。(11) 論在開始接種疫苗時、或之前的一個月使用B型肝炎免疫球蛋白（人類），都不會干擾疫苗的主動免疫反應。(11)\n3\n用法及用量\n3.1\n用法用量\n肌肉注射。不可靜脈注射。 接觸到含有HBsAg血液的緊急情況(10) 表一摘述經皮（針頭刺傷或被咬傷）、眼睛或黏膜接觸血液後的預防用法，端視暴露來源與個人接種情況而定。為達最大被動免疫效果，在接觸感染源後應盡快給予B型肝炎免疫球蛋白（人類）（超過七天後使用的效果不明）。如果投與B型肝炎免疫球蛋白（人類）（見表一），則應在接觸後24小時內近快投藥──肌肉注射0.06 ml/每公斤體重。有關B型肝炎疫苗劑量的資料，請參考其產品仿單。\n表一 (12) 經皮膚、黏膜接觸後，建議的預防用法 病人 感染源未經預防接種接受過預防接種 HBsAg陽性 1. 立即給予一劑B型肝炎免疫球蛋白（人類）* 1. 測病人抗體(anti-HBs) 2. 展開B型肝炎疫苗接種† 2. 如果抗體不足‡，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。 已知來源（高風險） 1. 展開B型肝炎疫苗接種 2. 檢測HBsAg來源，如果為陽性，給一劑B型肝炎免疫球蛋白（人類） 1. 若病人對疫苗無反應，需檢測 HBsAg來源。如果是陽性，立刻給一劑B型肝炎免疫球蛋白（人類），並加上B型肝炎疫苗加強。或可給兩劑的B型肝炎免疫球蛋白（人類）*：一劑立即用、第二劑在一個月後用。 HBsAg陽性（低風險）展開B型肝炎疫苗接種不需治療 未知來源七天內展開B型肝炎疫苗接種不需治療 * B型肝炎疫苗接種，肌肉注射0.06 ml/kg † 成人的B型肝炎疫苗劑量：肌肉注射20 μg，十歲以下幼兒或嬰兒：肌肉注射10 μg。 一週內用第一劑，分別在一個月、六個月後用第二劑、第三劑。 ‡ 放射性免疫檢定分析(RIA)＜10 sample ratio units (SRU)，酵素免疫分析(EIA)呈現陰性反應。\n拒絕接受B型肝炎疫苗者，給予第一劑的B型肝炎免疫球蛋白（人類）後一個月再給第二劑。 HBsAg和HBeAg陽性的母親，嬰兒出生後的預防 B型肝炎免疫球蛋白對嬰兒的預防效果，端視出生當天投藥與否。因此分娩前先確定母親是否為HBsAg陽性非常重要。 新生兒在生理情況穩定後，最好在12小時內，即可肌肉注射B型肝炎免疫球蛋白（人類）(0.5 ml)。如果延遲到48小時以後才注射，B型肝炎免疫球蛋白的效果明顯降低。B型肝炎疫苗應肌肉注射三劑，每劑0.5 ml (10 μg)。第一劑在出生七天內接種，也可以同時用B型肝炎免疫球蛋白，但注射的部位不同。第二、第三劑疫苗則分別在第一劑用後一個、六個月接種。如果第一劑B型肝炎疫苗延後三個月使用，必須同時再使用一劑0.5 ml B型肝炎免疫球蛋白。如果拒絕接種疫苗，可於三個月、六個月時再次使用0.5 ml的B型肝炎免疫球蛋白。出生時使用過B型肝炎免疫球蛋白，應不會干擾嬰兒兩個月大時接種口服小兒麻痺疫苗及白喉─ 破傷風─百日咳三合一疫苗。(10) 與 HBsAg陽性者性接觸 性伴侶為急性B型肝炎病人的所有易感染者，建議在性交後的14天內開始預防注射；或者會繼續與病人有性關係，應接受一劑B型肝炎免疫球蛋白（人類）(0.06 ml/kg)，並開始接種B肝疫苗（見下述的表二）。在接觸病人後的治療上，同時用B型肝炎免疫球蛋白（人類）及疫苗可增進治療的效果；疫苗的附加價值在於它具有長期的保護效果。(2) 表二 (13) 與 B肝病人性接觸的預防用法：\n表二 (13) 與B肝病人性接觸的預防用法： B型肝炎免疫球蛋白（人類）疫苗 劑量建議用藥時間劑量建議用藥時間 肌肉注射0.06 ml/kg性接觸後14天內用一劑肌肉注射1.0 ml以B型肝炎免疫球蛋白（人類）治療時，接種第一劑疫苗¶ ¶ 第一劑可以與B型肝炎免疫球蛋白（人類）同時使用，但注射不同部位。接下來的幾劑應參照疫苗的特定用法。\n日常接觸急性B型肝炎病人 若照顧嬰兒者為急性B型肝炎病人，12個月以下的嬰兒可給予預防治療0.5 ml的人類B型肝炎免疫球蛋白及疫苗。但其它與急性B肝病人有日常接觸的人並不需要，除非確定與病人有血液接觸：例如共用牙刷、刮鬍刀，這種情況之處理方式與HBsAg陽性者性接觸之方式相同。不過如果病人變成B型肝炎帶原者，所有與他有日常接觸的人則應接種疫苗。(2) 人類B型肝炎免疫球蛋白可與疫苗併用（於不同部位注射）、或在接種疫苗前一個月用，並不會影響疫苗的主動免疫。(11)\n3.2\n調製方式\n由於潛在的嚴重反應，HyperHEP B不得做靜脈注射，只限於肌肉注射，因此在插入針頭進行注射前，應小心回抽一下、以確定針頭沒有插到血管。最好於上臂的三角肌或大腿外側肌肉進行肌肉注射，臀部不應做為例行的注射部位，因為有傷到坐骨神經的危險。(14)注射部位必須視注射的量多寡而定。 腸外投藥（注射）的製劑，在溶液及容器許可的情況下，使用前應以目視檢查是否有顆粒或變色的情形。 肌肉注射，不可靜脈注射。 為了安全及方便使用，HyperHEP B的注射針筒包裝附有安全護套(needle guard)。請依照以下指示正確使用。 針劑的使用方法 1. 自包裝內取出已充填好的針劑，拿著針管而非筒柄。 2. 順時針旋轉筒柄直到螺紋密合。如果針筒過早卡住，請勿使用。 3. 針頭套必須套好，將筒柄往前推幾公釐，以突破塞子和玻璃筒管間的磨擦阻力。 4. 將針頭套拿掉，並排除氣泡。【直到要立即注射前，才將針頭套拿掉並準備注射。】 5. 將針頭刺進皮下。 6. 注射前先抽一下筒柄，以確定沒有插入靜脈或動脈。 7. 注入藥物。 8. 保持手在針頭後方，另一隻手則握緊安全護套並滑向針頭直到安全護套完全蓋住針頭並扣緊，若未聽到扣緊之喀嗒聲，表示安全護套可能沒有完全蓋好。（如圖A及圖B） 9. 將用過的注射針頭連同蓋好的安全護套一起丟入廢棄針筒回收容器中。（如圖C）\n許多因素會降低本製劑的療效或導致使用後生病，這些因素包括產品出廠後不適當的貯存及處置、診斷、劑量、使用方法及病人間的個體差異，因此，本製劑必須正確地貯存並依照指示小心地使用。\n3.3\n特殊族群用法用量\n4\n禁忌\n無。\n5\n警語及注意事項\n5.1\n警語/注意事項\n【衛福部公告】此產品係由人類血漿製得，自人類血漿製得的產品可能存在某些感染源，例如致病性病毒。藉由篩檢血漿的捐贈者、檢驗某些現有病毒感染源，再經由去活化及／或去除某些病毒，即可降低此產品傳染感染源之危險性。但縱使採取上述措施，此類產品仍有可能存在某些未知的感染源。因此，所有感染病人均應直接向診療醫師及製造廠或代理商報告。請與您的醫師討論使用此產品的風險及利益。 對人類免疫球蛋白製劑曾有全身性過敏反應者，在使用HyperHEP B 時應特別小心。備妥腎上腺素以應不時之需。 有嚴重的血小板缺乏症、或有其它凝血性疾病病人禁用（因為是肌肉注射）。唯有於衡量用藥效益超過可能的風險時，才可使用B型肝炎免疫球蛋白（人類）。 強烈建議醫護人員在每次注射 HyperHEP B 時，皆應記錄藥物名稱和批號，以便記錄所使用的批次。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n未觀察到對駕駛車輛和使用機器的能力具有影響。\n5.4\n實驗室檢測\n不需要。\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n用藥分級C 尚未以HyperHEP B 進行動物的生殖研究，孕婦使用後是否會傷害胎兒、或影響生殖能力也不太清楚，因此唯有明確需要時才可對孕婦投與本劑。\n6.2\n哺乳\n目前尚無HyperHEP B是否會出現在人乳中，及其對哺乳嬰兒有何影響或對泌乳量有何影響的相關資訊。應同時考慮哺乳對發育和健康的益處與母親對HyperHEP B的臨床需要，以及HyperHEP B或授乳母親身體之潛在狀況對哺乳嬰兒的任何潛在不良作用。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n安全性和有效性都尚未確立。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n雖然使用B型肝炎免疫球蛋白（人類）並不會干擾麻疹疫苗的接種，(15) 但是否會干擾其他活性病毒的疫苗則並不清楚。因此使用這類疫苗的時間，最好延至使用Ｂ型肝炎免疫球蛋白（人類）三個月以後。不過，同時使用B型肝炎疫苗則不會相互干擾，但必須注射不同的部位。(11) 未知與其他產品的藥物交互作用。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n注射處局部疼痛及觸痛、蕁麻疹及血管水腫。注射人類免疫球蛋白製劑而導致過敏的情況雖很罕見，但曾經發生過。(16)\n8.2\n臨床試驗經驗\n目前尚無資訊。\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊，但由使用其它免疫球蛋白製劑的經驗得知，通常只有注射處感到疼痛及觸痛的情形發生。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n藥物類別：免疫血清類，特異性免疫球蛋白，B型肝炎免疫球蛋白； ATC代碼：J06BB04 對於暴露在B型肝炎病毒(HBV)下的人，B型肝炎免疫球蛋白（人類）可提供被動免疫，使其遭B型肝炎病毒侵襲的比例降低。(3,17-21) 已有anti-HBs者，在接觸B型肝炎病毒後很少會發病。使用本產品未曾有傳染到B型肝炎的例證\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n在一般的建議劑量下，血中會出現可測得的anti-HBs量，並大約可持續兩個月或更久。受試者血清中出現最高抗體(IgG)濃度的時間分布如下。(22)\n時間（天） 人數 % 第 3 天 38.9% 第 7 天 41.7% 第14天 11.1% 第21天 8.3%\n半衰期的平均值是17.5 - 25天，其中最短的是5.9天、最長的是35天。(22) 在一項臨床研究中，12位健康成人接受另一種製程相同的高度免疫球蛋白產品（狂犬病免疫球蛋白（人類）HyperRAB，製備過程相同），所有受試者於注射後24小時內，血清中均可檢測到被動抗體效價，甚至在整個21天試驗期間均可持續測得。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n0.5 mL新生兒單劑注射針筒附針頭(syringe with attached needle)、1 mL單劑注射針筒附針頭(syringe with attached needle，1 ml 單劑小瓶(vial)與 5 ml 單劑小瓶(vial)。 HyperHEP B不含防腐劑且包材且非由天然橡膠乳膠製成。\n13.2\n效期\n詳見外盒標示。\n13.3\n儲存條件\n在2-8℃下貯存。\n13.4\n儲存注意事項\n勿冷凍。過期後請勿使用。未使用完的部分也須丟棄。\n14\n病人使用須知\n15\n其他\n參考資料 1. Barnette D, Roth NJ, Hotta J, et al. Pathogen safety profile of a 10% IgG preparation manufactured using a depth filtration-modified process. Biologicals 2012;40:247-53. 2. Recommendations of the Immunization Practices Advisory Committee (ACIP): Hepatitis B Virus: A Comprehensive Strategy for Eliminating Transmission in the United States Through Universal Childhood Vaccination. Appendix A: Postexposure Prophylaxis for Hepatitis B. MMWR 40(RR-13):21-25, 1991. 3. Jhaveri R, Rosenfeld W, Salazar JD, et al: High titer multiple dose therapy with HBIG in newborn infants of HBsAg positive mothers. J Pediatr 97(2):305–8, 1980. 4. Stevens CE, Beasley RP, Tsui J, et al: Vertical transmission of hepatitis B antigen in Taiwan. N Engl J Med 292(15):771-4, 1975. 5. Shiraki K, Yoshihara N, Kawana T, et al: Hepatitis B surface antigen and chronic hepatitis in infants born to asymptomatic carrier mothers. Am J Dis Child 131(6):644-7, 1977. 6. Recommendation of the Immunization Practices Advisory Committee (ACIP): Immune globulins for protection against viral hepatitis. MMWR 30(34):423-8; 433-5, 1981. 7. Okada K, Kamiyama I, Inomata M, et al: e antigen and anti-e in the serum of asymptomatic carrier mothers as indicators of positive and negative transmission of hepatitis B virus to their infants. N Engl J Med 294(14):746-9, 1976. 8. Beasley RP, Trepo C, Stevens CE, et al: The e antigen and vertical transmission of hepatitis B surface antigen. Am J Epidemiol 105(2):94-8, 1977. 9. Beasley RP, Hwang LY, Lee GCY, et al: Prevention of perinatally transmitted hepatitis B virus infections with hepatitis B immune globulin and hepatitis B vaccine. Lancet 2(8359): 1099-102, 1983. 10. Recommendation of the Immunization Practices Advisory Committee (ACIP): Recommendations for protection against viral hepatitis. MMWR 34(22):313–35, 1985. 11. Szmuness W, Stevens CE, Olesko WR, et al: Passive-active immunisation against hepatitis B: immunogenicity studies in adult Americans. Lancet 1:575–77, 1981. 12. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 9. Recommendations for postexposure prophylaxis for percutaneous or permucosal exposure to hepatitis B, United States. MMWR 40(RR-12):70, 1991. 13. Recommendations of the Immunization Practices Advisory Committee (ACIP): Update on Adult Immunization. Table 10. Recommendations for postexposure prophylaxis for perinatal and sexual exposure to hepatitis B, United States. MMWR 40(RR-12):71, 1991. 14. Recommendations of the Advisory Committee on Immunization Practices (ACIP) and the American Academy of Family Physicians (AAFP): General recommendations on immunization. MMWR 2002: 51(RR02), 1-36. 15. Beasley RP, Hwang LY: Measles vaccination not interfered with by hepatitis B immune globulin. Lancet 1:161, 1982. 16. Ellis EF, Henney CS: Adverse reactions following administration of human gamma globulin. J Allerg 43(1):45-54, 1969. 17. Grady GF, Lee VA: Hepatitis B immune globulin — prevention of hepatitis from accidental exposure among medical personnel. N Engl J Med 293(21):1067–70, 1975. 18. Seeff LB, Zimmerman HJ, Wright EC, et al: Efficacy of hepatitis B immune serum globulin after accidental exposure. Lancet 2(7942):939-41, 1975. 19. Krugman S, Giles JP: Viral hepatitis, type B (MS-2-strain). Further observations on natural history and prevention. N Engl J Med 288(15):755-60, 1973. 20. Current trends: Health status of Indochinese refugees: malaria and hepatitis B. MMWR 28(39):463-4; 469-70, 1979. 21. Hoofnagle JH, Seeff LB, Bales ZB, et al: Passive-active immunity from hepatitis B immune globulin. Ann Intern Med 91(6):813-8, 1979. 22. Scheiermann N, Kuwert EK: Uptake and elimination of hepatitis B immunoglobulins after intramuscular application in man. Dev Biol Stand 54:347-55, 1983.",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "GRIFOLS THERAPEUTICS LLC",
+          "address": "8368 CLAYTON BLVD, CLAYTON, NC 27520, USA"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "INSTITUTO GRIFOLS S.A.",
+          "address": "POLIGONO LEVANTE C/CAN GUASCH 2, 08150 PARETS DEL VALLES BARCELONA SPAIN"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "天行貿易股份有限公司",
+          "address": "台北市中山區長安東路一段21號2樓"
+        }
+      ]
+    }
+  ]
+}

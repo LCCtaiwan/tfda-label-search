@@ -1,0 +1,902 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:45:13.536737+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12000107",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第000107號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第000107號",
+      "matched_license_code": "12000107",
+      "matched_nhi_code": "",
+      "drug_name_zh": "敏的膠囊",
+      "drug_name_en": "BETTY CAPSULES",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "<p>敏的膠囊係為一種複方綜合性抗過敏製劑，其配合了Chlorpheniramine之抗組織胺活性，Glycyrrhizin，維生素B6來改善患者因過敏所引發之不適現象。<br>【作 用】<br>Chlorpheniramine Maleate係一抗組織胺劑，可緩解組織胺所引發之過敏反應。</p>",
+        "text": "敏的膠囊係為一種複方綜合性抗過敏製劑，其配合了Chlorpheniramine之抗組織胺活性，Glycyrrhizin，維生素B6來改善患者因過敏所引發之不適現象。 【作 用】 Chlorpheniramine Maleate係一抗組織胺劑，可緩解組織胺所引發之過敏反應。"
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "有效成分及含量：每膠囊中含：Glycyrrhizin.........................................50mg Orotic Acid......................................................................35mg Chlorpheniramine Maleate.........................................................5mg Pyridoxine Hydrochloride.........................................................2mg",
+          "content_html": "<p>有效成分及含量：每膠囊中含：Glycyrrhizin.........................................50mg<br>Orotic Acid......................................................................35mg<br>Chlorpheniramine Maleate.........................................................5mg<br>Pyridoxine Hydrochloride.........................................................2mg</p>",
+          "search_text": "1.1\n有效成分及含量\n有效成分及含量：每膠囊中含：Glycyrrhizin.........................................50mg Orotic Acid......................................................................35mg Chlorpheniramine Maleate.........................................................5mg Pyridoxine Hydrochloride.........................................................2mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Lactose、Talc、Sugar Starch Granule、Polyvinylpyrrolidone、Hydroxypropyl Methyl Cellulose、Polyethyleneglycol 6000、Capsule #4 (Gelatin、Sodium Lauryl Sulfate、Brilliant Blue FCF、Erythrosine)。",
+          "content_html": "<p>Lactose、Talc、Sugar Starch Granule、Polyvinylpyrrolidone、Hydroxypropyl Methyl Cellulose、Polyethyleneglycol 6000、Capsule #4 (Gelatin、Sodium Lauryl Sulfate、Brilliant Blue FCF、Erythrosine)。</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nLactose、Talc、Sugar Starch Granule、Polyvinylpyrrolidone、Hydroxypropyl Methyl Cellulose、Polyethyleneglycol 6000、Capsule #4 (Gelatin、Sodium Lauryl Sulfate、Brilliant Blue FCF、Erythrosine)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "緩解過敏性鼻炎、枯草熱所引起之相關症狀（流鼻水、打噴嚏、眼睛及喉部搔癢）及過敏所引起之搔癢、皮膚癢疹。",
+          "content_html": "<p>緩解過敏性鼻炎、枯草熱所引起之相關症狀（流鼻水、打噴嚏、眼睛及喉部搔癢）及過敏所引起之搔癢、皮膚癢疹。</p>",
+          "search_text": "2\n用途(適應症)\n緩解過敏性鼻炎、枯草熱所引起之相關症狀（流鼻水、打噴嚏、眼睛及喉部搔癢）及過敏所引起之搔癢、皮膚癢疹。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n有下列情形者，請勿使用",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "曾因本藥成分引起過敏的人。",
+          "title_html": "曾因本藥成分引起過敏的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用",
+            "曾因本藥成分引起過敏的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.1\n曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "3歲以下。",
+          "title_html": "3歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "3歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n3歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "嚴重代謝性肝腎疾病的人。",
+          "title_html": "嚴重代謝性肝腎疾病的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "嚴重代謝性肝腎疾病的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n嚴重代謝性肝腎疾病的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.3",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.3",
+          "title": "有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難，及青光眼的人、因前列腺肥大引起排尿困難的人。",
+          "title_html": "有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難，及青光眼的人、因前列腺肥大引起排尿困難的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難，及青光眼的人、因前列腺肥大引起排尿困難的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.3\n有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難，及青光眼的人、因前列腺肥大引起排尿困難的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.2",
+          "title": "65歲以上。",
+          "title_html": "65歲以上。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "65歲以上。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.2\n65歲以上。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.3",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.3",
+          "title": "服用鎮靜藥或安眠藥的人。",
+          "title_html": "服用鎮靜藥或安眠藥的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "服用鎮靜藥或安眠藥的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.3\n服用鎮靜藥或安眠藥的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.4",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.4",
+          "title": "服用其他綜合感冒藥、鎮咳祛痰藥、鎮暈藥、鼻炎藥或抗過敏藥等的人。",
+          "title_html": "服用其他綜合感冒藥、鎮咳祛痰藥、鎮暈藥、鼻炎藥或抗過敏藥等的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "服用其他綜合感冒藥、鎮咳祛痰藥、鎮暈藥、鼻炎藥或抗過敏藥等的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.4\n服用其他綜合感冒藥、鎮咳祛痰藥、鎮暈藥、鼻炎藥或抗過敏藥等的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "為防止兒童誤食請妥善保管。",
+          "title_html": "為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "勿超過建議使用量。",
+          "title_html": "勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "不得與酒精性飲料併用。",
+          "title_html": "不得與酒精性飲料併用。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "不得與酒精性飲料併用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n不得與酒精性飲料併用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "可能引起嗜睡，勿駕車或操作危險性機械。",
+          "title_html": "可能引起嗜睡，勿駕車或操作危險性機械。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "可能引起嗜睡，勿駕車或操作危險性機械。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n可能引起嗜睡，勿駕車或操作危險性機械。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "通常成人及15歲以上：每次1∼2粒，1天3次。",
+          "content_html": "<p>通常成人及15歲以上：每次1∼2粒，1天3次。</p>",
+          "search_text": "4\n用法用量\n通常成人及15歲以上：每次1∼2粒，1天3次。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位副作用 神經系統倦怠感、興奮。 其他口乾、視覺上之困擾。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;padding:0cm 5.4pt;vertical-align:top;width:97.55pt;\"><span style=\"color:black;font-family:標楷體;\">身體部位</span></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:326.05pt;\"><span style=\"color:black;font-family:標楷體;\">副作用</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:97.55pt;\"><span style=\"color:black;font-family:標楷體;\">神經系統</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:326.05pt;\"><span style=\"color:black;font-family:標楷體;\">倦怠感、興奮。</span></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:97.55pt;\"><span style=\"color:black;font-family:標楷體;\">其他</span></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:326.05pt;\"><span style=\"color:black;font-family:標楷體;\">口乾、視覺上之困擾。</span></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 神經系統倦怠感、興奮。 其他口乾、視覺上之困擾。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有任何不適情況產生。",
+          "title_html": "若有任何不適情況產生。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有任何不適情況產生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有任何不適情況產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "連續服用本藥數日後，若症狀沒有改善。",
+          "title_html": "連續服用本藥數日後，若症狀沒有改善。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "連續服用本藥數日後，若症狀沒有改善。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n連續服用本藥數日後，若症狀沒有改善。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "1000粒以下塑膠瓶裝、鋁箔盒裝。",
+          "content_html": "<p>1000粒以下塑膠瓶裝、鋁箔盒裝。</p>",
+          "search_text": "6\n包裝\n1000粒以下塑膠瓶裝、鋁箔盒裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品。",
+          "content_html": "<p>醫師藥師藥劑生指示藥品。</p>",
+          "search_text": "7\n類別\n醫師藥師藥劑生指示藥品。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "保存上之注意",
+          "title_html": "保存上之注意",
+          "path": [
+            "保存上之注意"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n保存上之注意",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "本藥應置於小兒伸手不及處。",
+          "title_html": "本藥應置於小兒伸手不及處。",
+          "path": [
+            "保存上之注意",
+            "本藥應置於小兒伸手不及處。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.1\n本藥應置於小兒伸手不及處。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "於25℃以下儲存。",
+          "title_html": "於25℃以下儲存。",
+          "path": [
+            "保存上之注意",
+            "於25℃以下儲存。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n於25℃以下儲存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "請在有效期限內使用。",
+          "title_html": "請在有效期限內使用。",
+          "path": [
+            "保存上之注意",
+            "請在有效期限內使用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n請在有效期限內使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "給過敏患者的治療建議",
+          "title_html": "給過敏患者的治療建議",
+          "path": [
+            "給過敏患者的治療建議"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9\n給過敏患者的治療建議",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9.1",
+          "parent_id": "9",
+          "level": 2,
+          "number": "9.1",
+          "title": "避免接觸過敏原（如灰塵、花粉、黴菌、香煙）或於花粉季節外出郊遊。",
+          "title_html": "避免接觸過敏原（如灰塵、花粉、黴菌、香煙）或於花粉季節外出郊遊。",
+          "path": [
+            "給過敏患者的治療建議",
+            "避免接觸過敏原（如灰塵、花粉、黴菌、香煙）或於花粉季節外出郊遊。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9.1\n避免接觸過敏原（如灰塵、花粉、黴菌、香煙）或於花粉季節外出郊遊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9.2",
+          "parent_id": "9",
+          "level": 2,
+          "number": "9.2",
+          "title": "冷氣和空調的濾網要按時清理，並保持除濕機的容器乾淨。",
+          "title_html": "冷氣和空調的濾網要按時清理，並保持除濕機的容器乾淨。",
+          "path": [
+            "給過敏患者的治療建議",
+            "冷氣和空調的濾網要按時清理，並保持除濕機的容器乾淨。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9.2\n冷氣和空調的濾網要按時清理，並保持除濕機的容器乾淨。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9.3",
+          "parent_id": "9",
+          "level": 2,
+          "number": "9.3",
+          "title": "養成規律的日常生活，並從事適度的運動。",
+          "title_html": "養成規律的日常生活，並從事適度的運動。",
+          "path": [
+            "給過敏患者的治療建議",
+            "養成規律的日常生活，並從事適度的運動。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9.3\n養成規律的日常生活，並從事適度的運動。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9.4",
+          "parent_id": "9",
+          "level": 2,
+          "number": "9.4",
+          "title": "適時給予藥物治療，以減輕過敏症狀。",
+          "title_html": "適時給予藥物治療，以減輕過敏症狀。",
+          "path": [
+            "給過敏患者的治療建議",
+            "適時給予藥物治療，以減輕過敏症狀。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9.4\n適時給予藥物治療，以減輕過敏症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9.5",
+          "parent_id": "9",
+          "level": 2,
+          "number": "9.5",
+          "title": "適當的服藥雖能提供症狀的部份舒解，但若症狀仍然持續2-3天以上，就必須找醫師診斷是否患有其他併發性疾病。",
+          "title_html": "適當的服藥雖能提供症狀的部份舒解，但若症狀仍然持續2-3天以上，就必須找醫師診斷是否患有其他併發性疾病。",
+          "path": [
+            "給過敏患者的治療建議",
+            "適當的服藥雖能提供症狀的部份舒解，但若症狀仍然持續2-3天以上，就必須找醫師診斷是否患有其他併發性疾病。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "9.5\n適當的服藥雖能提供症狀的部份舒解，但若症狀仍然持續2-3天以上，就必須找醫師診斷是否患有其他併發性疾病。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "敏的膠囊係為一種複方綜合性抗過敏製劑，其配合了Chlorpheniramine之抗組織胺活性，Glycyrrhizin，維生素B6來改善患者因過敏所引發之不適現象。 【作 用】 Chlorpheniramine Maleate係一抗組織胺劑，可緩解組織胺所引發之過敏反應。\n1\n成分\n1.1\n有效成分及含量\n有效成分及含量：每膠囊中含：Glycyrrhizin.........................................50mg Orotic Acid......................................................................35mg Chlorpheniramine Maleate.........................................................5mg Pyridoxine Hydrochloride.........................................................2mg\n1.2\n其他成分(賦形劑)\nLactose、Talc、Sugar Starch Granule、Polyvinylpyrrolidone、Hydroxypropyl Methyl Cellulose、Polyethyleneglycol 6000、Capsule #4 (Gelatin、Sodium Lauryl Sulfate、Brilliant Blue FCF、Erythrosine)。\n2\n用途(適應症)\n緩解過敏性鼻炎、枯草熱所引起之相關症狀（流鼻水、打噴嚏、眼睛及喉部搔癢）及過敏所引起之搔癢、皮膚癢疹。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n3.1.1\n曾因本藥成分引起過敏的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n3歲以下。\n3.2.2\n嚴重代謝性肝腎疾病的人。\n3.2.3\n有呼吸疾病的人：如慢性支氣管炎、肺氣腫、慢性肺疾病、呼吸急促、呼吸困難，及青光眼的人、因前列腺肥大引起排尿困難的人。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n孕婦、可能懷孕婦女及哺乳婦。\n3.3.2\n65歲以上。\n3.3.3\n服用鎮靜藥或安眠藥的人。\n3.3.4\n服用其他綜合感冒藥、鎮咳祛痰藥、鎮暈藥、鼻炎藥或抗過敏藥等的人。\n3.4\n其他使用上注意事項\n3.4.1\n為防止兒童誤食請妥善保管。\n3.4.2\n避免陽光直射。\n3.4.3\n勿超過建議使用量。\n3.4.4\n不得與酒精性飲料併用。\n3.4.5\n可能引起嗜睡，勿駕車或操作危險性機械。\n4\n用法用量\n通常成人及15歲以上：每次1∼2粒，1天3次。\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位副作用 神經系統倦怠感、興奮。 其他口乾、視覺上之困擾。\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有任何不適情況產生。\n5.2.2\n連續服用本藥數日後，若症狀沒有改善。\n6\n包裝\n1000粒以下塑膠瓶裝、鋁箔盒裝。\n7\n類別\n醫師藥師藥劑生指示藥品。\n8\n保存上之注意\n8.1\n本藥應置於小兒伸手不及處。\n8.2\n於25℃以下儲存。\n8.3\n請在有效期限內使用。\n9\n給過敏患者的治療建議\n9.1\n避免接觸過敏原（如灰塵、花粉、黴菌、香煙）或於花粉季節外出郊遊。\n9.2\n冷氣和空調的濾網要按時清理，並保持除濕機的容器乾淨。\n9.3\n養成規律的日常生活，並從事適度的運動。\n9.4\n適時給予藥物治療，以減輕過敏症狀。\n9.5\n適當的服藥雖能提供症狀的部份舒解，但若症狀仍然持續2-3天以上，就必須找醫師診斷是否患有其他併發性疾病。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "永信藥品工業股份有限公司台中幼獅廠",
+          "address": "台中市大甲區日南里工九路２７號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "永信藥品工業股份有限公司",
+          "address": "台中市大甲區頂店里中山路一段1191號"
+        }
+      ]
+    }
+  ]
+}

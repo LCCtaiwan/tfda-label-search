@@ -1,0 +1,1250 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:56:20.031601+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12015213",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第015213號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第015213號",
+      "matched_license_code": "12015213",
+      "matched_nhi_code": "",
+      "drug_name_zh": "可停咳嗽藥水",
+      "drug_name_en": "CODETUSSIN COUGH SYRUP",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2024-03-13",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Each 20ml contains： Codeine Phosphate ........................................................15mg Phenylephrine Hydrochloride ................................... 10mg Pyrilamine Maleate ....................................................... 40mg Ammonium Chloride .................................................... 140mg Potassium Guaiacol Sulfonate ................................... 140mg",
+          "content_html": "<p>Each 20ml contains：</p><p>Codeine Phosphate ........................................................15mg</p><p>Phenylephrine Hydrochloride ................................... 10mg</p><p>Pyrilamine Maleate ....................................................... 40mg</p><p>Ammonium Chloride .................................................... 140mg</p><p>Potassium Guaiacol Sulfonate ................................... 140mg</p>",
+          "search_text": "1.1\n有效成分及含量\nEach 20ml contains： Codeine Phosphate ........................................................15mg Phenylephrine Hydrochloride ................................... 10mg Pyrilamine Maleate ....................................................... 40mg Ammonium Chloride .................................................... 140mg Potassium Guaiacol Sulfonate ................................... 140mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Alcohol、New Coccine、Raspberry Imitation、Sucrose、Sodium Citrate、Citric acid、Dehydroacetate Sodium、Water Purified。",
+          "content_html": "<p>Alcohol<span style=\"font-family:標楷體;\">、</span>New Coccine<span style=\"font-family:標楷體;\">、</span>Raspberry Imitation<span style=\"font-family:標楷體;\">、</span>Sucrose<span style=\"font-family:標楷體;\">、</span>Sodium Citrate<span style=\"font-family:標楷體;\">、</span>Citric acid<span style=\"font-family:標楷體;\">、</span>Dehydroacetate Sodium<span style=\"font-family:標楷體;\">、</span>Water Purified。</p>",
+          "search_text": "1.2\n賦形劑\nAlcohol、New Coccine、Raspberry Imitation、Sucrose、Sodium Citrate、Citric acid、Dehydroacetate Sodium、Water Purified。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "糖漿劑。",
+          "content_html": "<p>糖漿劑。</p>",
+          "search_text": "1.3\n劑型\n糖漿劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "紅色芳香甜液。",
+          "content_html": "<p>紅色芳香甜液。</p>",
+          "search_text": "1.4\n藥品外觀\n紅色芳香甜液。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "因傷風、感冒、過敏作用而引起之咳嗽、喀痰。",
+          "content_html": "<p>因傷風、感冒、過敏作用而引起之咳嗽、喀痰。</p>",
+          "search_text": "2\n適應症\n因傷風、感冒、過敏作用而引起之咳嗽、喀痰。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "兒童──2至6歲，每次5ml；6至12歲，每次10ml；1日4次。成人──普通每4小時一次，每次20ml；重症每2小時一次，每次20ml。",
+          "title_html": "兒童──2至6歲，每次5ml；6至12歲，每次10ml；1日4次。成人──普通每4小時一次，每次20ml；重症每2小時一次，每次20ml。",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "兒童──2至6歲，每次5ml；6至12歲，每次10ml；1日4次。成人──普通每4小時一次，每次20ml；重症每2小時一次，每次20ml。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1.1\n兒童──2至6歲，每次5ml；6至12歲，每次10ml；1日4次。成人──普通每4小時一次，每次20ml；重症每2小時一次，每次20ml。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "4\n禁忌\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1\n警語/注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.1",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.1",
+          "title": "長期使用易致成癮。",
+          "title_html": "長期使用易致成癮。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "長期使用易致成癮。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.1\n長期使用易致成癮。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.2",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.2",
+          "title": "久服後會偶發腸胃不適、噁心、嘔吐及思睡現象。",
+          "title_html": "久服後會偶發腸胃不適、噁心、嘔吐及思睡現象。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "久服後會偶發腸胃不適、噁心、嘔吐及思睡現象。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.2\n久服後會偶發腸胃不適、噁心、嘔吐及思睡現象。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.3",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.3",
+          "title": "若咳嗽持續7天，或有其他症狀合併咳嗽出現時，應立即就醫。",
+          "title_html": "若咳嗽持續7天，或有其他症狀合併咳嗽出現時，應立即就醫。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "若咳嗽持續7天，或有其他症狀合併咳嗽出現時，應立即就醫。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.3\n若咳嗽持續7天，或有其他症狀合併咳嗽出現時，應立即就醫。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.4",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.4",
+          "title": "建議患者，服用本品後應立即服送大量的液體(如水)可以減少腸胃不適現象。",
+          "title_html": "建議患者，服用本品後應立即服送大量的液體(如水)可以減少腸胃不適現象。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "建議患者，服用本品後應立即服送大量的液體(如水)可以減少腸胃不適現象。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.4\n建議患者，服用本品後應立即服送大量的液體(如水)可以減少腸胃不適現象。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.5",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.5",
+          "title": "每24小時中不可超過5次。",
+          "title_html": "每24小時中不可超過5次。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "每24小時中不可超過5次。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.5\n每24小時中不可超過5次。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1.6",
+          "parent_id": "5.1",
+          "level": 3,
+          "number": "5.1.6",
+          "title": "國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害(如中樞神經功能障礙等)之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。本藥須由醫師處方使用。",
+          "title_html": "國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害(如中樞神經功能障礙等)之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。本藥須由醫師處方使用。",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項",
+            "國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害(如中樞神經功能障礙等)之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。本藥須由醫師處方使用。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.1.6\n國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害(如中樞神經功能障礙等)之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。本藥須由醫師處方使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "Codeine(可待因)是屬於麻醉性鎮咳劑，久服會成癮。",
+          "content_html": "<p>Codeine(可待因)是屬於麻醉性鎮咳劑，久服會成癮。</p>",
+          "search_text": "5.2\n藥物濫用及依賴性\nCodeine(可待因)是屬於麻醉性鎮咳劑，久服會成癮。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "6.1\n懷孕\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "6.2\n哺乳\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.1\n作用機轉",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1.1",
+          "parent_id": "10.1",
+          "level": 3,
+          "number": "10.1.1",
+          "title": "Codeine Phosphate：可待因是良好的鎮咳劑，可抑制咳嗽反射及咳嗽中樞，且口服吸收良好，投與後10~20分鐘即可達到血中濃度，藥效可持續3~6小時。",
+          "title_html": "Codeine Phosphate：可待因是良好的鎮咳劑，可抑制咳嗽反射及咳嗽中樞，且口服吸收良好，投與後10~20分鐘即可達到血中濃度，藥效可持續3~6小時。",
+          "path": [
+            "藥理特性",
+            "作用機轉",
+            "Codeine Phosphate：可待因是良好的鎮咳劑，可抑制咳嗽反射及咳嗽中樞，且口服吸收良好，投與後10~20分鐘即可達到血中濃度，藥效可持續3~6小時。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.1.1\nCodeine Phosphate：可待因是良好的鎮咳劑，可抑制咳嗽反射及咳嗽中樞，且口服吸收良好，投與後10~20分鐘即可達到血中濃度，藥效可持續3~6小時。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1.2",
+          "parent_id": "10.1",
+          "level": 3,
+          "number": "10.1.2",
+          "title": "Phenylephrine Hydrochloride：甲基麻黃素為擬交感神經興奮藥物，可緩解因傷風、感冒所引起的過敏現象，可解除鼻腔和支氣管內的充血，消除呼吸道的黏膜腫脹。",
+          "title_html": "Phenylephrine Hydrochloride：甲基麻黃素為擬交感神經興奮藥物，可緩解因傷風、感冒所引起的過敏現象，可解除鼻腔和支氣管內的充血，消除呼吸道的黏膜腫脹。",
+          "path": [
+            "藥理特性",
+            "作用機轉",
+            "Phenylephrine Hydrochloride：甲基麻黃素為擬交感神經興奮藥物，可緩解因傷風、感冒所引起的過敏現象，可解除鼻腔和支氣管內的充血，消除呼吸道的黏膜腫脹。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.1.2\nPhenylephrine Hydrochloride：甲基麻黃素為擬交感神經興奮藥物，可緩解因傷風、感冒所引起的過敏現象，可解除鼻腔和支氣管內的充血，消除呼吸道的黏膜腫脹。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1.3",
+          "parent_id": "10.1",
+          "level": 3,
+          "number": "10.1.3",
+          "title": "Pyrilamine Maleate：抗組織胺劑，對於咳嗽有鎮靜效果。",
+          "title_html": "Pyrilamine Maleate：抗組織胺劑，對於咳嗽有鎮靜效果。",
+          "path": [
+            "藥理特性",
+            "作用機轉",
+            "Pyrilamine Maleate：抗組織胺劑，對於咳嗽有鎮靜效果。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.1.3\nPyrilamine Maleate：抗組織胺劑，對於咳嗽有鎮靜效果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1.4",
+          "parent_id": "10.1",
+          "level": 3,
+          "number": "10.1.4",
+          "title": "Ammonium Chloride：氯化銨，有祛痰及潤喉作用及增加呼吸道體液的流動。",
+          "title_html": "Ammonium Chloride：氯化銨，有祛痰及潤喉作用及增加呼吸道體液的流動。",
+          "path": [
+            "藥理特性",
+            "作用機轉",
+            "Ammonium Chloride：氯化銨，有祛痰及潤喉作用及增加呼吸道體液的流動。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.1.4\nAmmonium Chloride：氯化銨，有祛痰及潤喉作用及增加呼吸道體液的流動。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1.5",
+          "parent_id": "10.1",
+          "level": 3,
+          "number": "10.1.5",
+          "title": "Potassium Guaiacol Sulfonate：P.G.A.可作用於支氣管分泌細胞，降低液體的黏著力和表面張力，對氣管黏膜有潤滑作用，並可促住纖毛運動，可舒緩乾燥、刺激性薄膜，而減輕頻繁的咳嗽。",
+          "title_html": "Potassium Guaiacol Sulfonate：P.G.A.可作用於支氣管分泌細胞，降低液體的黏著力和表面張力，對氣管黏膜有潤滑作用，並可促住纖毛運動，可舒緩乾燥、刺激性薄膜，而減輕頻繁的咳嗽。",
+          "path": [
+            "藥理特性",
+            "作用機轉",
+            "Potassium Guaiacol Sulfonate：P.G.A.可作用於支氣管分泌細胞，降低液體的黏著力和表面張力，對氣管黏膜有潤滑作用，並可促住纖毛運動，可舒緩乾燥、刺激性薄膜，而減輕頻繁的咳嗽。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10.1.5\nPotassium Guaiacol Sulfonate：P.G.A.可作用於支氣管分泌細胞，降低液體的黏著力和表面張力，對氣管黏膜有潤滑作用，並可促住纖毛運動，可舒緩乾燥、刺激性薄膜，而減輕頻繁的咳嗽。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "110, 450, 1900, 3800等mL瓶裝。",
+          "content_html": "<p>110, 450, 1900, 3800等mL瓶裝。</p>",
+          "search_text": "13.1\n包裝\n110, 450, 1900, 3800等mL瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p><span style=\"color:black;\">目前尚無資訊。</span></p>",
+          "search_text": "13.3\n儲存條件\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nEach 20ml contains： Codeine Phosphate ........................................................15mg Phenylephrine Hydrochloride ................................... 10mg Pyrilamine Maleate ....................................................... 40mg Ammonium Chloride .................................................... 140mg Potassium Guaiacol Sulfonate ................................... 140mg\n1.2\n賦形劑\nAlcohol、New Coccine、Raspberry Imitation、Sucrose、Sodium Citrate、Citric acid、Dehydroacetate Sodium、Water Purified。\n1.3\n劑型\n糖漿劑。\n1.4\n藥品外觀\n紅色芳香甜液。\n2\n適應症\n因傷風、感冒、過敏作用而引起之咳嗽、喀痰。\n3\n用法及用量\n3.1\n用法用量\n3.1.1\n兒童──2至6歲，每次5ml；6至12歲，每次10ml；1日4次。成人──普通每4小時一次，每次20ml；重症每2小時一次，每次20ml。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n目前尚無資訊。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1\n長期使用易致成癮。\n5.1.2\n久服後會偶發腸胃不適、噁心、嘔吐及思睡現象。\n5.1.3\n若咳嗽持續7天，或有其他症狀合併咳嗽出現時，應立即就醫。\n5.1.4\n建議患者，服用本品後應立即服送大量的液體(如水)可以減少腸胃不適現象。\n5.1.5\n每24小時中不可超過5次。\n5.1.6\n國內外曾有2歲以下幼兒使用第一代抗組織胺口服劑型藥品後導致嚴重傷害(如中樞神經功能障礙等)之案例報告。目前並無明確證據顯示兒童使用第一代抗組織胺藥品之效益，本品應謹慎使用於6歲以下兒童族群。本藥須由醫師處方使用。\n5.2\n藥物濫用及依賴性\nCodeine(可待因)是屬於麻醉性鎮咳劑，久服會成癮。\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n目前尚無資訊。\n6.2\n哺乳\n目前尚無資訊。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n目前尚無資訊。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n10.1.1\nCodeine Phosphate：可待因是良好的鎮咳劑，可抑制咳嗽反射及咳嗽中樞，且口服吸收良好，投與後10~20分鐘即可達到血中濃度，藥效可持續3~6小時。\n10.1.2\nPhenylephrine Hydrochloride：甲基麻黃素為擬交感神經興奮藥物，可緩解因傷風、感冒所引起的過敏現象，可解除鼻腔和支氣管內的充血，消除呼吸道的黏膜腫脹。\n10.1.3\nPyrilamine Maleate：抗組織胺劑，對於咳嗽有鎮靜效果。\n10.1.4\nAmmonium Chloride：氯化銨，有祛痰及潤喉作用及增加呼吸道體液的流動。\n10.1.5\nPotassium Guaiacol Sulfonate：P.G.A.可作用於支氣管分泌細胞，降低液體的黏著力和表面張力，對氣管黏膜有潤滑作用，並可促住纖毛運動，可舒緩乾燥、刺激性薄膜，而減輕頻繁的咳嗽。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n110, 450, 1900, 3800等mL瓶裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n目前尚無資訊。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "人人化學製藥股份有限公司中壢廠",
+          "address": "桃園市中壢區南園二路３號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "人人化學製藥股份有限公司",
+          "address": "桃園市中壢區南園二路３號"
+        }
+      ]
+    }
+  ]
+}

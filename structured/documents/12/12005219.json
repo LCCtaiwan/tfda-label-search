@@ -1,0 +1,986 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:50:28.859834+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12005219",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第005219號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第005219號",
+      "matched_license_code": "12005219",
+      "matched_nhi_code": "",
+      "drug_name_zh": "\"福元\" 得利根糖衣錠",
+      "drug_name_en": "TRICON S.C. TABLETS \"F.Y.\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2026-06-04",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Metronidazole..............................................………. 25 0 0 mg",
+          "content_html": "<p>Metronidazole..............................................………. 25 0 0 mg</p>",
+          "search_text": "1.1\n有效成分及含量\nMetronidazole..............................................………. 25 0 0 mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Lactose、Povidone K 30、Microcrystalline Cellulose 101、Magnesium Stearate、 Talc、Sodium Starch Glycolate、Shellac、Sucrose、Dibasic Calcium Phosphate、 Gelatin、Acacia、Titanium Dioxide、Carnauba Wax、Alcohol、Purified Water。",
+          "content_html": "<p>Lactose、Povidone K 30、Microcrystalline Cellulose 101、Magnesium Stearate、 Talc、Sodium Starch Glycolate、Shellac、Sucrose、Dibasic Calcium Phosphate、 Gelatin、Acacia、Titanium Dioxide、Carnauba Wax、Alcohol、Purified Water。</p>",
+          "search_text": "1.2\n賦形劑\nLactose、Povidone K 30、Microcrystalline Cellulose 101、Magnesium Stearate、 Talc、Sodium Starch Glycolate、Shellac、Sucrose、Dibasic Calcium Phosphate、 Gelatin、Acacia、Titanium Dioxide、Carnauba Wax、Alcohol、Purified Water。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "糖衣錠",
+          "content_html": "<p>糖衣錠</p>",
+          "search_text": "1.3\n劑型\n糖衣錠",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "白色、弧面、圓型糖衣錠，兩面皆不具任何刻痕及字樣。",
+          "content_html": "<p style=\"margin-left:-3.0pt;text-align:justify;\"><span style=\"color:black;\">白色、弧面、圓型糖衣錠</span>，兩面皆不具任何刻痕及字樣。</p>",
+          "search_text": "1.4\n藥品外觀\n白色、弧面、圓型糖衣錠，兩面皆不具任何刻痕及字樣。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "治療陰道滴蟲感染所引起之陰道炎、白帶、阿米巴痢疾、阿米巴肝膿腫及對Metronidazole 具有感受性之厭氣菌所引起之嚴重感染。",
+          "content_html": "<p>治療陰道滴蟲感染所引起之陰道炎、白帶、阿米巴痢疾、阿米巴肝膿腫及對Metronidazole 具有感受性之厭氣菌所引起之嚴重感染。</p>",
+          "search_text": "2\n適應症\n治療陰道滴蟲感染所引起之陰道炎、白帶、阿米巴痢疾、阿米巴肝膿腫及對Metronidazole 具有感受性之厭氣菌所引起之嚴重感染。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "一般成人劑量 抗菌劑（系統性）—厭氧菌感染：口服，每公斤體重7.5 mg ，一次最高達 1 g ，每 6 小時一次，為時7天。 幽門螺旋桿菌相關之十二指腸潰瘍（治療輔助）：口服，500 mg 一天三次，與Bismuth subsalicylate 及其它口服抗生素如 Amp icillin 或 Amoxicillin併服，為時一至二週。 抗原蟲劑— 阿米巴病：口服，500~700 mg ，一天三次，為時 5~7 天。 滴蟲病：口服，2g ，以單劑量投與，或 1g ，一天二次，為時一天；或250mg 一天 三次，為時 7 天。 驅蟲劑（系統性）— 龍絲蟲病(Dracunculiasis)：口服 250 mg ，一天三次，為時 10 天。 一般成人處方限量：抗菌（系統性）：每天最高不可超過4 g 。 一般孩童劑量： 抗菌劑（系統性）— 厭氧菌感染：口服，每公斤體重7.5 mg ，每 6 小時 一次，或每公斤體重10 mg ，每 8 小時 1 次。 抗原蟲劑— 阿米巴病：口服，每公斤體重11.6～16.7 mg ，一天三次，為時 10 天。 滴蟲病：口服，每公斤體重5 mg ，一天三次，為時 7 天。 驅蟲劑（系統性）— 龍絲蟲病(Dracunculiasis)：口服，每公斤體重 8.3 mg ，一次最高達 250mg，一天三次，為時 10 天。",
+          "content_html": "<p>一般成人劑量<br>抗菌劑（系統性）—厭氧菌感染：口服，每公斤體重7.5 mg ，一次最高達 1 g ，每 6 小時一次，為時7天。<br>幽門螺旋桿菌相關之十二指腸潰瘍（治療輔助）：口服，500 mg 一天三次，與Bismuth subsalicylate 及其它口服抗生素如 Amp icillin 或 Amoxicillin併服，為時一至二週。<br>抗原蟲劑—<br>阿米巴病：口服，500~700 mg ，一天三次，為時 5~7 天。<br>滴蟲病：口服，2g ，以單劑量投與，或 1g ，一天二次，為時一天；或250mg 一天 三次，為時 7 天。<br>驅蟲劑（系統性）—<br>龍絲蟲病(Dracunculiasis)：口服 250 mg ，一天三次，為時 10 天。<br>一般成人處方限量：抗菌（系統性）：每天最高不可超過4 g 。<br>一般孩童劑量：<br>抗菌劑（系統性）—<br>厭氧菌感染：口服，每公斤體重7.5 mg ，每 6 小時 一次，或每公斤體重10 mg ，每 8 小時 1 次。<br>抗原蟲劑—<br>阿米巴病：口服，每公斤體重11.6～16.7 mg ，一天三次，為時 10 天。<br>滴蟲病：口服，每公斤體重5 mg ，一天三次，為時 7 天。<br>驅蟲劑（系統性）—<br>龍絲蟲病(Dracunculiasis)：口服，每公斤體重 8.3 mg ，一次最高達 250mg，一天三次，為時 10 天。</p>",
+          "search_text": "3.1\n用法用量\n一般成人劑量 抗菌劑（系統性）—厭氧菌感染：口服，每公斤體重7.5 mg ，一次最高達 1 g ，每 6 小時一次，為時7天。 幽門螺旋桿菌相關之十二指腸潰瘍（治療輔助）：口服，500 mg 一天三次，與Bismuth subsalicylate 及其它口服抗生素如 Amp icillin 或 Amoxicillin併服，為時一至二週。 抗原蟲劑— 阿米巴病：口服，500~700 mg ，一天三次，為時 5~7 天。 滴蟲病：口服，2g ，以單劑量投與，或 1g ，一天二次，為時一天；或250mg 一天 三次，為時 7 天。 驅蟲劑（系統性）— 龍絲蟲病(Dracunculiasis)：口服 250 mg ，一天三次，為時 10 天。 一般成人處方限量：抗菌（系統性）：每天最高不可超過4 g 。 一般孩童劑量： 抗菌劑（系統性）— 厭氧菌感染：口服，每公斤體重7.5 mg ，每 6 小時 一次，或每公斤體重10 mg ，每 8 小時 1 次。 抗原蟲劑— 阿米巴病：口服，每公斤體重11.6～16.7 mg ，一天三次，為時 10 天。 滴蟲病：口服，每公斤體重5 mg ，一天三次，為時 7 天。 驅蟲劑（系統性）— 龍絲蟲病(Dracunculiasis)：口服，每公斤體重 8.3 mg ，一次最高達 250mg，一天三次，為時 10 天。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "(1)曾對 Metronidazole 或其他 Nitroimidazole 衍生物有過敏性之患者。 (2)患有血液疾病之患者（可能會有白血球減少之症狀出現）。 (3)患有腦、脊髓疾病之患者（會顯現出中樞神經系症狀） (4)懷孕三個月內之婦女（請參考對孕婦之投與）。",
+          "content_html": "<p>(1)曾對 Metronidazole 或其他 Nitroimidazole 衍生物有過敏性之患者。<br>(2)患有血液疾病之患者（可能會有白血球減少之症狀出現）。<br>(3)患有腦、脊髓疾病之患者（會顯現出中樞神經系症狀）</p><p>(4)懷孕三個月內之婦女（請參考對孕婦之投與）。</p>",
+          "search_text": "4\n禁忌\n(1)曾對 Metronidazole 或其他 Nitroimidazole 衍生物有過敏性之患者。 (2)患有血液疾病之患者（可能會有白血球減少之症狀出現）。 (3)患有腦、脊髓疾病之患者（會顯現出中樞神經系症狀） (4)懷孕三個月內之婦女（請參考對孕婦之投與）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "1. 曾有痙攣性發作和肢端感覺異常或麻痺現象之週邊神經病變。 2. 曾發現對鼠類產生致癌性，因此用於嚴重的厭氣菌感染時，應考慮其利益大於可能的危險。 3. 如有下列醫療問題存在時，本藥之使用需就其危險及效益加以考慮： a. 中樞神經系統活性有機性疾病，包括癲癇症。本藥可能會導致CNS的毒性包括高劑量時之發作及週邊神經病變。 b. 血液惡病質或曾患此病時，本藥可能會導致白血球缺乏症，於治療前後須注意測量其白血球數量。c. 嚴重肝功能不全者 因為本藥在肝臟中代謝，肝功 能不全時會導致減低血漿清除率，以及 Metronidazole 及其代謝物的積蓄，劑量調整可能有其必要）d. 較易患水腫病者或服用副腎皮質類固醇之患者。 4. 無尿症患者一般不需要減少劑量，因為本藥之代謝物可藉血液透析迅速移除。並且腎功能的減少並不會顯著影響本藥的單劑量藥物動力學。 5. 本藥因無專一解毒劑，因此超劑量的治療應採用症狀和支持療法。 6. 使用上的注意事項：交予病患時，需指導病患自 PTP 包中將藥品取出服用（因有誤食 PTP 包材，其尖銳部份刺入食道黏膜，甚至穿孔造成隔膜洞炎等嚴重併發症之報告）。 7. 其他：對 Mouse 長期投與 Metronidazole 時有肺腫瘍發生，對Rat 長期投與有乳房腫瘍之報告，但於 Hamster 的投與過程中則未見有腫瘍發生之報告。",
+          "content_html": "<p>1. 曾有痙攣性發作和肢端感覺異常或麻痺現象之週邊神經病變。&nbsp;</p><p>2. 曾發現對鼠類產生致癌性，因此用於嚴重的厭氣菌感染時，應考慮其利益大於可能的危險。</p><p>3. 如有下列醫療問題存在時，本藥之使用需就其危險及效益加以考慮：<br>a. 中樞神經系統活性有機性疾病，包括癲癇症。本藥可能會導致CNS的毒性包括高劑量時之發作及週邊神經病變。 b. 血液惡病質或曾患此病時，本藥可能會導致白血球缺乏症，於治療前後須注意測量其白血球數量。c. 嚴重肝功能不全者 因為本藥在肝臟中代謝，肝功<br>能不全時會導致減低血漿清除率，以及 Metronidazole 及其代謝物的積蓄，劑量調整可能有其必要）d. 較易患水腫病者或服用副腎皮質類固醇之患者。<br>4. 無尿症患者一般不需要減少劑量，因為本藥之代謝物可藉血液透析迅速移除。並且腎功能的減少並不會顯著影響本藥的單劑量藥物動力學。<br>5. 本藥因無專一解毒劑，因此超劑量的治療應採用症狀和支持療法。</p><p>6. 使用上的注意事項：交予病患時，需指導病患自 PTP 包中將藥品取出服用（因有誤食 PTP 包材，其尖銳部份刺入食道黏膜，甚至穿孔造成隔膜洞炎等嚴重併發症之報告）。<br>7. 其他：對 Mouse 長期投與 Metronidazole 時有肺腫瘍發生，對Rat 長期投與有乳房腫瘍之報告，但於 Hamster 的投與過程中則未見有腫瘍發生之報告。</p>",
+          "search_text": "5.1\n警語/注意事項\n1. 曾有痙攣性發作和肢端感覺異常或麻痺現象之週邊神經病變。 2. 曾發現對鼠類產生致癌性，因此用於嚴重的厭氣菌感染時，應考慮其利益大於可能的危險。 3. 如有下列醫療問題存在時，本藥之使用需就其危險及效益加以考慮： a. 中樞神經系統活性有機性疾病，包括癲癇症。本藥可能會導致CNS的毒性包括高劑量時之發作及週邊神經病變。 b. 血液惡病質或曾患此病時，本藥可能會導致白血球缺乏症，於治療前後須注意測量其白血球數量。c. 嚴重肝功能不全者 因為本藥在肝臟中代謝，肝功 能不全時會導致減低血漿清除率，以及 Metronidazole 及其代謝物的積蓄，劑量調整可能有其必要）d. 較易患水腫病者或服用副腎皮質類固醇之患者。 4. 無尿症患者一般不需要減少劑量，因為本藥之代謝物可藉血液透析迅速移除。並且腎功能的減少並不會顯著影響本藥的單劑量藥物動力學。 5. 本藥因無專一解毒劑，因此超劑量的治療應採用症狀和支持療法。 6. 使用上的注意事項：交予病患時，需指導病患自 PTP 包中將藥品取出服用（因有誤食 PTP 包材，其尖銳部份刺入食道黏膜，甚至穿孔造成隔膜洞炎等嚴重併發症之報告）。 7. 其他：對 Mouse 長期投與 Metronidazole 時有肺腫瘍發生，對Rat 長期投與有乳房腫瘍之報告，但於 Hamster 的投與過程中則未見有腫瘍發生之報告。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "投用本藥後，可能會干擾血清中 ALT(SGPT) 、 AST SGOT ）、 LDH的檢驗結果。（Metronidazole 在測定 NADH 的波長上有很高的吸光度，因此，當以還原之 NADH 減低為終點的連續流量法測定肝 酶濃度時，其 昇高的肝酶濃度會被本藥所抑制，以致會有異常低的肝酶濃度，甚至包括零值在內。）",
+          "content_html": "<p>投用本藥後，可能會干擾血清中 ALT(SGPT) 、 AST SGOT ）、 LDH的檢驗結果。（Metronidazole 在測定 NADH 的波長上有很高的吸光度，因此，當以還原之 NADH 減低為終點的連續流量法測定肝 酶濃度時，其 昇高的肝酶濃度會被本藥所抑制，以致會有異常低的肝酶濃度，甚至包括零值在內。）</p>",
+          "search_text": "5.4\n實驗室檢測\n投用本藥後，可能會干擾血清中 ALT(SGPT) 、 AST SGOT ）、 LDH的檢驗結果。（Metronidazole 在測定 NADH 的波長上有很高的吸光度，因此，當以還原之 NADH 減低為終點的連續流量法測定肝 酶濃度時，其 昇高的肝酶濃度會被本藥所抑制，以致會有異常低的肝酶濃度，甚至包括零值在內。）",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "(1) 妊娠期：因對齧齒動物有致癌性，因此孕婦須在顯著需要下方可使用。 (2) 孕婦之投與： FDA Pregnancy Cat egory （懷孕用藥級數) B 。曾有過經口投與時會通過胎盤而移行至胎兒體內之報告，因對胎兒之影響仍不明，故懷孕三個月內請勿投與 Metronidazole 。",
+          "content_html": "<p>(1) 妊娠期：因對齧齒動物有致癌性，因此孕婦須在顯著需要下方可使用。<br>(2) 孕婦之投與： FDA Pregnancy Cat egory （懷孕用藥級數) B 。曾有過經口投與時會通過胎盤而移行至胎兒體內之報告，因對胎兒之影響仍不明，故懷孕三個月內請勿投與<br>Metronidazole 。</p>",
+          "search_text": "6.1\n懷孕\n(1) 妊娠期：因對齧齒動物有致癌性，因此孕婦須在顯著需要下方可使用。 (2) 孕婦之投與： FDA Pregnancy Cat egory （懷孕用藥級數) B 。曾有過經口投與時會通過胎盤而移行至胎兒體內之報告，因對胎兒之影響仍不明，故懷孕三個月內請勿投與 Metronidazole 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "授乳婦：在鼠類實驗中發生腫瘤現象，因此授乳婦使用本藥時，應決定不繼續授乳，否則應停止投與。",
+          "content_html": "<p>授乳婦：在鼠類實驗中發生腫瘤現象，因此授乳婦使用本藥時，應決定不繼續授乳，否則應停止投與。</p>",
+          "search_text": "6.2\n哺乳\n授乳婦：在鼠類實驗中發生腫瘤現象，因此授乳婦使用本藥時，應決定不繼續授乳，否則應停止投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "兒童：安全性和有效性，尚未確立。",
+          "content_html": "<p>兒童：安全性和有效性，尚未確立。</p>",
+          "search_text": "6.4\n小兒\n兒童：安全性和有效性，尚未確立。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "(1)年長者：本藥尚未在年長者做相關於年齡及藥效上的研究，然而一般年長者較可能有年齡相關性肝功能減低，在用藥劑量上可能需要調整。 (2)高齡者之投與：一般高齡者之生理機能較差，故需慎重投與。",
+          "content_html": "<p>(1)年長者：本藥尚未在年長者做相關於年齡及藥效上的研究，然而一般年長者較可能有年齡相關性肝功能減低，在用藥劑量上可能需要調整。</p><p>(2)高齡者之投與：一般高齡者之生理機能較差，故需慎重投與。</p>",
+          "search_text": "6.5\n老年人\n(1)年長者：本藥尚未在年長者做相關於年齡及藥效上的研究，然而一般年長者較可能有年齡相關性肝功能減低，在用藥劑量上可能需要調整。 (2)高齡者之投與：一般高齡者之生理機能較差，故需慎重投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "有嚴重肝病之患者。",
+          "content_html": "<p>有嚴重肝病之患者。&nbsp;</p>",
+          "search_text": "6.6\n肝功能不全\n有嚴重肝病之患者。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "(1)較易患水腫病者或服用副腎皮質類固醇之患者。 (2)有血液惡病質病歷之患者，治療前後應注意測量其白血球數量。",
+          "content_html": "<p>(1)較易患水腫病者或服用副腎皮質類固醇之患者。<br>(2)有血液惡病質病歷之患者，治療前後應注意測量其白血球數量。</p>",
+          "search_text": "6.8\n其他族群\n(1)較易患水腫病者或服用副腎皮質類固醇之患者。 (2)有血液惡病質病歷之患者，治療前後應注意測量其白血球數量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "1.本藥不能和酒精併用，由於它干擾酒精之氧化作用，會導致Acetaldehyde的積聚而產生類似 Disulfiram 的作用，如腹部痙攣、噁心、嘔吐、頭痛或潮紅；此外，當酒精與本藥併用時，酒精飲料的味覺會改變。 2.口服抗凝血劑與本藥併用，可能會使作用加強。治療期間應定時檢測凝血酶原時間（Prothrombin Time），以確定是否需作劑量調整。 3. 本藥與 Cimetidine 併用，本藥之肝臟代謝會降低，而使排除速率減慢，血清濃度則增加，因此血清濃度的監測可作為在 Cimetidine 治療期間或治療後，本藥劑量調整的指引。 4. 本藥應避免與 Disulfiram 併用，因其合併之毒性可能導致精神錯亂及精神病的反應。 5. 本藥與 Phenobarbital 併用， Phenobarbital 會誘導肝微粒脢而增加Metronidazole 的代謝，使本藥之半衰期縮短和血漿濃度降低。 6. 本藥與 Phenytoin 併用，本藥會使 Phenytoin 的清除率受損，而使Phenytoin的血漿濃度增加。",
+          "content_html": "<p>1.本藥不能和酒精併用，由於它干擾酒精之氧化作用，會導致Acetaldehyde的積聚而產生類似 Disulfiram 的作用，如腹部痙攣、噁心、嘔吐、頭痛或潮紅；此外，當酒精與本藥併用時，酒精飲料的味覺會改變。<br>2.口服抗凝血劑與本藥併用，可能會使作用加強。治療期間應定時檢測凝血酶原時間（Prothrombin Time），以確定是否需作劑量調整。<br>3. 本藥與 Cimetidine 併用，本藥之肝臟代謝會降低，而使排除速率減慢，血清濃度則增加，因此血清濃度的監測可作為在 Cimetidine 治療期間或治療後，本藥劑量調整的指引。<br>4. 本藥應避免與 Disulfiram 併用，因其合併之毒性可能導致精神錯亂及精神病的反應。<br>5. 本藥與 Phenobarbital 併用， Phenobarbital 會誘導肝微粒脢而增加Metronidazole 的代謝，使本藥之半衰期縮短和血漿濃度降低。<br>6. 本藥與 Phenytoin 併用，本藥會使 Phenytoin 的清除率受損，而使Phenytoin的血漿濃度增加。</p>",
+          "search_text": "7\n交互作用\n1.本藥不能和酒精併用，由於它干擾酒精之氧化作用，會導致Acetaldehyde的積聚而產生類似 Disulfiram 的作用，如腹部痙攣、噁心、嘔吐、頭痛或潮紅；此外，當酒精與本藥併用時，酒精飲料的味覺會改變。 2.口服抗凝血劑與本藥併用，可能會使作用加強。治療期間應定時檢測凝血酶原時間（Prothrombin Time），以確定是否需作劑量調整。 3. 本藥與 Cimetidine 併用，本藥之肝臟代謝會降低，而使排除速率減慢，血清濃度則增加，因此血清濃度的監測可作為在 Cimetidine 治療期間或治療後，本藥劑量調整的指引。 4. 本藥應避免與 Disulfiram 併用，因其合併之毒性可能導致精神錯亂及精神病的反應。 5. 本藥與 Phenobarbital 併用， Phenobarbital 會誘導肝微粒脢而增加Metronidazole 的代謝，使本藥之半衰期縮短和血漿濃度降低。 6. 本藥與 Phenytoin 併用，本藥會使 Phenytoin 的清除率受損，而使Phenytoin的血漿濃度增加。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "1. 消化器：噁心、嘔吐、腹部異常、腹瀉、不愉快的金屬味覺。 2. 口腔：偶有奇 異不舒服的金屬味覺、舌苔、舌炎和口炎也會發生， 此現象是由於治療期間念珠菌突然大量增加所引起的。 3. 血液：可逆性嗜中性白血球減少症。 4. 中樞神經系統：痙攣性發作、週邊神經病變、眩暈（頭暈）、共濟不能、運動失調、混亂、過敏、抑鬱、虛弱和失眠。 5. 心血管：心電圖描記中發現 T Wave 下降。 6. 過敏性：蕁麻疹、紅斑性皮膚疹、潮紅、鼻充血、口乾及發燒。 7. 局部反應：靜脈注射後會有血栓靜脈炎。避免長期使用在靜脈導管，可減少或避免發生此反應。 8. 腎臟：排尿困難、膀胱炎、多尿症、失禁、骨盤壓迫感、尿液呈 暗色。 9. 其他：陰道處念珠菌增生、性交困難、性慾減退、直腸炎、有時會有類似血清疾病 之短暫性關節痛。",
+          "content_html": "<p>1. 消化器：噁心、嘔吐、腹部異常、腹瀉、不愉快的金屬味覺。<br>2. 口腔：偶有奇 異不舒服的金屬味覺、舌苔、舌炎和口炎也會發生， 此現象是由於治療期間念珠菌突然大量增加所引起的。<br>3. 血液：可逆性嗜中性白血球減少症。<br>4. 中樞神經系統：痙攣性發作、週邊神經病變、眩暈（頭暈）、共濟不能、運動失調、混亂、過敏、抑鬱、虛弱和失眠。<br>5. 心血管：心電圖描記中發現 T Wave 下降。<br>6. 過敏性：蕁麻疹、紅斑性皮膚疹、潮紅、鼻充血、口乾及發燒。<br>7. 局部反應：靜脈注射後會有血栓靜脈炎。避免長期使用在靜脈導管，可減少或避免發生此反應。<br>8. 腎臟：排尿困難、膀胱炎、多尿症、失禁、骨盤壓迫感、尿液呈 暗色。<br>9. 其他：陰道處念珠菌增生、性交困難、性慾減退、直腸炎、有時會有類似血清疾病 之短暫性關節痛。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n1. 消化器：噁心、嘔吐、腹部異常、腹瀉、不愉快的金屬味覺。 2. 口腔：偶有奇 異不舒服的金屬味覺、舌苔、舌炎和口炎也會發生， 此現象是由於治療期間念珠菌突然大量增加所引起的。 3. 血液：可逆性嗜中性白血球減少症。 4. 中樞神經系統：痙攣性發作、週邊神經病變、眩暈（頭暈）、共濟不能、運動失調、混亂、過敏、抑鬱、虛弱和失眠。 5. 心血管：心電圖描記中發現 T Wave 下降。 6. 過敏性：蕁麻疹、紅斑性皮膚疹、潮紅、鼻充血、口乾及發燒。 7. 局部反應：靜脈注射後會有血栓靜脈炎。避免長期使用在靜脈導管，可減少或避免發生此反應。 8. 腎臟：排尿困難、膀胱炎、多尿症、失禁、骨盤壓迫感、尿液呈 暗色。 9. 其他：陰道處念珠菌增生、性交困難、性慾減退、直腸炎、有時會有類似血清疾病 之短暫性關節痛。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "過量：重覆投與有過量的報告。對於過量目前無特殊解毒劑，因此對病人需作好症狀處理和支持療法。",
+          "content_html": "<p>過量：重覆投與有過量的報告。對於過量目前無特殊解毒劑，因此對病人需作好症狀處理和支持療法。</p>",
+          "search_text": "9\n過量\n過量：重覆投與有過量的報告。對於過量目前無特殊解毒劑，因此對病人需作好症狀處理和支持療法。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "1. 本藥為一種殺菌劑，可用於專一性厭氣菌感染的治療，其作用是經由厭氣性細菌代謝所獨有的機轉而使本藥在細胞內進行化學性還原反應。被還原後之本藥具有細胞毒，它可與DNA 相互作用，導致螺旋結構的喪失，股的斷裂，其結果乃抑制核酸之合成，而使細胞死亡。 2. 本藥投與後，分佈於唾液、膽汁、精液、骨骼、肝臟及肝臟腫囊、肺部及陰道分泌物中，亦會通過胎盤及血腦障壁。 3. 本藥的蛋白質結合率很低。 4. 本藥主由肝臟代謝，其代謝作用主要是由側鏈之氧化以及與 2 Hydroxymethyl基仍具活性 和其他代謝物結合成 Glucuronide 。 5. 依文獻資料：本藥約有60~80%經由腎臟排泄，其中20%以原型藥排泄於尿中，腎臟清除率約為 10ml/min/1.73m2，其次約有 6~15%由糞便排泄，亦會排泄於乳汁中。本藥之半生期 約為 6~12 小時，平均為8小時。 Metronidazole 及其主要代謝物可藉血液透析而迅速自血 漿中移除（使半衰期縮減到2.6 小時）。腹膜透析之移除則不明顯。 本藥口服吸收好，其生體可用率至少有80% 。本藥之半衰期：肝功能正常之成人約6 ~ 12 小時平均為 8 小時。酒精性肝臟疾病者約 10~29小時平均為18小時。新生兒－年齡 28~30 週：約 75 小時、 32~35週：約35 小時、 36~40 週：約 25 小時。口服達到尖峰血漿濃度時間為 1~2 小時，口服 250 mg、500 mg 及2g劑量的尖峰血清濃度分別為6、12及40μg/ml 。",
+          "content_html": "<p>1. 本藥為一種殺菌劑，可用於專一性厭氣菌感染的治療，其作用是經由厭氣性細菌代謝所獨有的機轉而使本藥在細胞內進行化學性還原反應。被還原後之本藥具有細胞毒，它可與DNA 相互作用，導致螺旋結構的喪失，股的斷裂，其結果乃抑制核酸之合成，而使細胞死亡。<br>2. 本藥投與後，分佈於唾液、膽汁、精液、骨骼、肝臟及肝臟腫囊、肺部及陰道分泌物中，亦會通過胎盤及血腦障壁。<br>3. 本藥的蛋白質結合率很低。<br>4. 本藥主由肝臟代謝，其代謝作用主要是由側鏈之氧化以及與 2 Hydroxymethyl基仍具活性 和其他代謝物結合成 Glucuronide 。<br>5. 依文獻資料：本藥約有60~80%經由腎臟排泄，其中20%以原型藥排泄於尿中，腎臟清除率約為 10ml/min/1.73<span style=\"background-color:rgb(255,255,255);color:rgb(31,31,31);\">m</span><sup>2</sup>，其次約有 6~15%由糞便排泄，亦會排泄於乳汁中。本藥之半生期<br>約為 6~12 小時，平均為8小時。 Metronidazole 及其主要代謝物可藉血液透析而迅速自血<br>漿中移除（使半衰期縮減到2.6 小時）。腹膜透析之移除則不明顯。<br>本藥口服吸收好，其生體可用率至少有80% 。本藥之半衰期：肝功能正常之成人約6 ~ 12 小時平均為 8 小時。酒精性肝臟疾病者約 10~29小時平均為18小時。新生兒－年齡 28~30 週：約 75 小時、 32~35週：約35 小時、 36~40 週：約 25 小時。口服達到尖峰血漿濃度時間為<br>1~2 小時，口服 250 mg、500 mg 及2g劑量的尖峰血清濃度分別為6、12及40μg/ml 。</p>",
+          "search_text": "10\n藥理特性\n1. 本藥為一種殺菌劑，可用於專一性厭氣菌感染的治療，其作用是經由厭氣性細菌代謝所獨有的機轉而使本藥在細胞內進行化學性還原反應。被還原後之本藥具有細胞毒，它可與DNA 相互作用，導致螺旋結構的喪失，股的斷裂，其結果乃抑制核酸之合成，而使細胞死亡。 2. 本藥投與後，分佈於唾液、膽汁、精液、骨骼、肝臟及肝臟腫囊、肺部及陰道分泌物中，亦會通過胎盤及血腦障壁。 3. 本藥的蛋白質結合率很低。 4. 本藥主由肝臟代謝，其代謝作用主要是由側鏈之氧化以及與 2 Hydroxymethyl基仍具活性 和其他代謝物結合成 Glucuronide 。 5. 依文獻資料：本藥約有60~80%經由腎臟排泄，其中20%以原型藥排泄於尿中，腎臟清除率約為 10ml/min/1.73m2，其次約有 6~15%由糞便排泄，亦會排泄於乳汁中。本藥之半生期 約為 6~12 小時，平均為8小時。 Metronidazole 及其主要代謝物可藉血液透析而迅速自血 漿中移除（使半衰期縮減到2.6 小時）。腹膜透析之移除則不明顯。 本藥口服吸收好，其生體可用率至少有80% 。本藥之半衰期：肝功能正常之成人約6 ~ 12 小時平均為 8 小時。酒精性肝臟疾病者約 10~29小時平均為18小時。新生兒－年齡 28~30 週：約 75 小時、 32~35週：約35 小時、 36~40 週：約 25 小時。口服達到尖峰血漿濃度時間為 1~2 小時，口服 250 mg、500 mg 及2g劑量的尖峰血清濃度分別為6、12及40μg/ml 。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "6 ~ 1000 錠塑膠瓶裝。",
+          "content_html": "<p>6 ~ 1000 錠塑膠瓶裝。</p>",
+          "search_text": "13.1\n包裝\n6 ~ 1000 錠塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本品應包裝於緊密容器，儲於陰涼°C乾燥避光且孩童不易取得處所。",
+          "content_html": "<p>本品應包裝於緊密容器，儲於陰涼°C乾燥避光且孩童不易取得處所。</p>",
+          "search_text": "13.3\n儲存條件\n本品應包裝於緊密容器，儲於陰涼°C乾燥避光且孩童不易取得處所。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\nMetronidazole..............................................………. 25 0 0 mg\n1.2\n賦形劑\nLactose、Povidone K 30、Microcrystalline Cellulose 101、Magnesium Stearate、 Talc、Sodium Starch Glycolate、Shellac、Sucrose、Dibasic Calcium Phosphate、 Gelatin、Acacia、Titanium Dioxide、Carnauba Wax、Alcohol、Purified Water。\n1.3\n劑型\n糖衣錠\n1.4\n藥品外觀\n白色、弧面、圓型糖衣錠，兩面皆不具任何刻痕及字樣。\n2\n適應症\n治療陰道滴蟲感染所引起之陰道炎、白帶、阿米巴痢疾、阿米巴肝膿腫及對Metronidazole 具有感受性之厭氣菌所引起之嚴重感染。\n3\n用法及用量\n3.1\n用法用量\n一般成人劑量 抗菌劑（系統性）—厭氧菌感染：口服，每公斤體重7.5 mg ，一次最高達 1 g ，每 6 小時一次，為時7天。 幽門螺旋桿菌相關之十二指腸潰瘍（治療輔助）：口服，500 mg 一天三次，與Bismuth subsalicylate 及其它口服抗生素如 Amp icillin 或 Amoxicillin併服，為時一至二週。 抗原蟲劑— 阿米巴病：口服，500~700 mg ，一天三次，為時 5~7 天。 滴蟲病：口服，2g ，以單劑量投與，或 1g ，一天二次，為時一天；或250mg 一天 三次，為時 7 天。 驅蟲劑（系統性）— 龍絲蟲病(Dracunculiasis)：口服 250 mg ，一天三次，為時 10 天。 一般成人處方限量：抗菌（系統性）：每天最高不可超過4 g 。 一般孩童劑量： 抗菌劑（系統性）— 厭氧菌感染：口服，每公斤體重7.5 mg ，每 6 小時 一次，或每公斤體重10 mg ，每 8 小時 1 次。 抗原蟲劑— 阿米巴病：口服，每公斤體重11.6～16.7 mg ，一天三次，為時 10 天。 滴蟲病：口服，每公斤體重5 mg ，一天三次，為時 7 天。 驅蟲劑（系統性）— 龍絲蟲病(Dracunculiasis)：口服，每公斤體重 8.3 mg ，一次最高達 250mg，一天三次，為時 10 天。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n(1)曾對 Metronidazole 或其他 Nitroimidazole 衍生物有過敏性之患者。 (2)患有血液疾病之患者（可能會有白血球減少之症狀出現）。 (3)患有腦、脊髓疾病之患者（會顯現出中樞神經系症狀） (4)懷孕三個月內之婦女（請參考對孕婦之投與）。\n5\n警語及注意事項\n5.1\n警語/注意事項\n1. 曾有痙攣性發作和肢端感覺異常或麻痺現象之週邊神經病變。 2. 曾發現對鼠類產生致癌性，因此用於嚴重的厭氣菌感染時，應考慮其利益大於可能的危險。 3. 如有下列醫療問題存在時，本藥之使用需就其危險及效益加以考慮： a. 中樞神經系統活性有機性疾病，包括癲癇症。本藥可能會導致CNS的毒性包括高劑量時之發作及週邊神經病變。 b. 血液惡病質或曾患此病時，本藥可能會導致白血球缺乏症，於治療前後須注意測量其白血球數量。c. 嚴重肝功能不全者 因為本藥在肝臟中代謝，肝功 能不全時會導致減低血漿清除率，以及 Metronidazole 及其代謝物的積蓄，劑量調整可能有其必要）d. 較易患水腫病者或服用副腎皮質類固醇之患者。 4. 無尿症患者一般不需要減少劑量，因為本藥之代謝物可藉血液透析迅速移除。並且腎功能的減少並不會顯著影響本藥的單劑量藥物動力學。 5. 本藥因無專一解毒劑，因此超劑量的治療應採用症狀和支持療法。 6. 使用上的注意事項：交予病患時，需指導病患自 PTP 包中將藥品取出服用（因有誤食 PTP 包材，其尖銳部份刺入食道黏膜，甚至穿孔造成隔膜洞炎等嚴重併發症之報告）。 7. 其他：對 Mouse 長期投與 Metronidazole 時有肺腫瘍發生，對Rat 長期投與有乳房腫瘍之報告，但於 Hamster 的投與過程中則未見有腫瘍發生之報告。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n投用本藥後，可能會干擾血清中 ALT(SGPT) 、 AST SGOT ）、 LDH的檢驗結果。（Metronidazole 在測定 NADH 的波長上有很高的吸光度，因此，當以還原之 NADH 減低為終點的連續流量法測定肝 酶濃度時，其 昇高的肝酶濃度會被本藥所抑制，以致會有異常低的肝酶濃度，甚至包括零值在內。）\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n(1) 妊娠期：因對齧齒動物有致癌性，因此孕婦須在顯著需要下方可使用。 (2) 孕婦之投與： FDA Pregnancy Cat egory （懷孕用藥級數) B 。曾有過經口投與時會通過胎盤而移行至胎兒體內之報告，因對胎兒之影響仍不明，故懷孕三個月內請勿投與 Metronidazole 。\n6.2\n哺乳\n授乳婦：在鼠類實驗中發生腫瘤現象，因此授乳婦使用本藥時，應決定不繼續授乳，否則應停止投與。\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n兒童：安全性和有效性，尚未確立。\n6.5\n老年人\n(1)年長者：本藥尚未在年長者做相關於年齡及藥效上的研究，然而一般年長者較可能有年齡相關性肝功能減低，在用藥劑量上可能需要調整。 (2)高齡者之投與：一般高齡者之生理機能較差，故需慎重投與。\n6.6\n肝功能不全\n有嚴重肝病之患者。\n6.7\n腎功能不全\n6.8\n其他族群\n(1)較易患水腫病者或服用副腎皮質類固醇之患者。 (2)有血液惡病質病歷之患者，治療前後應注意測量其白血球數量。\n7\n交互作用\n1.本藥不能和酒精併用，由於它干擾酒精之氧化作用，會導致Acetaldehyde的積聚而產生類似 Disulfiram 的作用，如腹部痙攣、噁心、嘔吐、頭痛或潮紅；此外，當酒精與本藥併用時，酒精飲料的味覺會改變。 2.口服抗凝血劑與本藥併用，可能會使作用加強。治療期間應定時檢測凝血酶原時間（Prothrombin Time），以確定是否需作劑量調整。 3. 本藥與 Cimetidine 併用，本藥之肝臟代謝會降低，而使排除速率減慢，血清濃度則增加，因此血清濃度的監測可作為在 Cimetidine 治療期間或治療後，本藥劑量調整的指引。 4. 本藥應避免與 Disulfiram 併用，因其合併之毒性可能導致精神錯亂及精神病的反應。 5. 本藥與 Phenobarbital 併用， Phenobarbital 會誘導肝微粒脢而增加Metronidazole 的代謝，使本藥之半衰期縮短和血漿濃度降低。 6. 本藥與 Phenytoin 併用，本藥會使 Phenytoin 的清除率受損，而使Phenytoin的血漿濃度增加。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n1. 消化器：噁心、嘔吐、腹部異常、腹瀉、不愉快的金屬味覺。 2. 口腔：偶有奇 異不舒服的金屬味覺、舌苔、舌炎和口炎也會發生， 此現象是由於治療期間念珠菌突然大量增加所引起的。 3. 血液：可逆性嗜中性白血球減少症。 4. 中樞神經系統：痙攣性發作、週邊神經病變、眩暈（頭暈）、共濟不能、運動失調、混亂、過敏、抑鬱、虛弱和失眠。 5. 心血管：心電圖描記中發現 T Wave 下降。 6. 過敏性：蕁麻疹、紅斑性皮膚疹、潮紅、鼻充血、口乾及發燒。 7. 局部反應：靜脈注射後會有血栓靜脈炎。避免長期使用在靜脈導管，可減少或避免發生此反應。 8. 腎臟：排尿困難、膀胱炎、多尿症、失禁、骨盤壓迫感、尿液呈 暗色。 9. 其他：陰道處念珠菌增生、性交困難、性慾減退、直腸炎、有時會有類似血清疾病 之短暫性關節痛。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n過量：重覆投與有過量的報告。對於過量目前無特殊解毒劑，因此對病人需作好症狀處理和支持療法。\n10\n藥理特性\n1. 本藥為一種殺菌劑，可用於專一性厭氣菌感染的治療，其作用是經由厭氣性細菌代謝所獨有的機轉而使本藥在細胞內進行化學性還原反應。被還原後之本藥具有細胞毒，它可與DNA 相互作用，導致螺旋結構的喪失，股的斷裂，其結果乃抑制核酸之合成，而使細胞死亡。 2. 本藥投與後，分佈於唾液、膽汁、精液、骨骼、肝臟及肝臟腫囊、肺部及陰道分泌物中，亦會通過胎盤及血腦障壁。 3. 本藥的蛋白質結合率很低。 4. 本藥主由肝臟代謝，其代謝作用主要是由側鏈之氧化以及與 2 Hydroxymethyl基仍具活性 和其他代謝物結合成 Glucuronide 。 5. 依文獻資料：本藥約有60~80%經由腎臟排泄，其中20%以原型藥排泄於尿中，腎臟清除率約為 10ml/min/1.73m2，其次約有 6~15%由糞便排泄，亦會排泄於乳汁中。本藥之半生期 約為 6~12 小時，平均為8小時。 Metronidazole 及其主要代謝物可藉血液透析而迅速自血 漿中移除（使半衰期縮減到2.6 小時）。腹膜透析之移除則不明顯。 本藥口服吸收好，其生體可用率至少有80% 。本藥之半衰期：肝功能正常之成人約6 ~ 12 小時平均為 8 小時。酒精性肝臟疾病者約 10~29小時平均為18小時。新生兒－年齡 28~30 週：約 75 小時、 32~35週：約35 小時、 36~40 週：約 25 小時。口服達到尖峰血漿濃度時間為 1~2 小時，口服 250 mg、500 mg 及2g劑量的尖峰血清濃度分別為6、12及40μg/ml 。\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n6 ~ 1000 錠塑膠瓶裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n本品應包裝於緊密容器，儲於陰涼°C乾燥避光且孩童不易取得處所。\n13.4\n儲存注意事項\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "福元醫藥生技股份有限公司",
+          "address": "新北市瑞芳區大寮路９５號之１"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "福元化學製藥股份有限公司",
+          "address": "新北市瑞芳區大寮路95-1號1樓"
+        }
+      ]
+    }
+  ]
+}

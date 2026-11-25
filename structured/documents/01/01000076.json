@@ -1,0 +1,692 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T19:02:21.639349+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "01000076",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署藥製字第000076號:2",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署藥製字第000076號",
+      "matched_license_code": "01000076",
+      "matched_nhi_code": "",
+      "drug_name_zh": "安世多阿米諾思錠０．３公克",
+      "drug_name_en": "ACETAMINOPHEN TABLETS 0.3 GM \"F.Y.\"",
+      "drug_category": "醫師藥師藥劑生指示藥品",
+      "display_category": "",
+      "version": "2",
+      "approved_at": "2022-05-06",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "成分",
+          "title_html": "成分",
+          "path": [
+            "成分"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n成分",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "成分",
+            "有效成分及含量"
+          ],
+          "content_text": "每錠中含有： 有效成分及含量：Acetaminophen 300.0毫克(mg)。",
+          "content_html": "<p>每錠中含有： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>有效成分及含量：Acetaminophen 300.0毫克(mg)。</p>",
+          "search_text": "1.1\n有效成分及含量\n每錠中含有： 有效成分及含量：Acetaminophen 300.0毫克(mg)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "其他成分(賦形劑)",
+          "title_html": "其他成分(賦形劑)",
+          "path": [
+            "成分",
+            "其他成分(賦形劑)"
+          ],
+          "content_text": "Povidone、Cellulose Microcrystalline、Lactose、Starch Pregelatinized、Sodium Starch Glycolate、Magnesium Stearate、Talc。",
+          "content_html": "<p>Povidone、Cellulose Microcrystalline、Lactose、Starch Pregelatinized、Sodium Starch Glycolate、Magnesium Stearate、Talc。</p>",
+          "search_text": "1.2\n其他成分(賦形劑)\nPovidone、Cellulose Microcrystalline、Lactose、Starch Pregelatinized、Sodium Starch Glycolate、Magnesium Stearate、Talc。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "用途(適應症)",
+          "title_html": "用途(適應症)",
+          "path": [
+            "用途(適應症)"
+          ],
+          "content_text": "退燒、止痛(緩解頭痛、牙痛、咽喉痛、關節痛、神經痛、肌肉酸痛、月經痛)。",
+          "content_html": "<p style=\"margin-left:5.4pt;\"><span style=\"font-family:標楷體;\">退燒、止痛(緩解頭痛、牙痛、咽喉痛、關節痛、神經痛、肌肉酸痛、月經痛)。</span></p>",
+          "search_text": "2\n用途(適應症)\n退燒、止痛(緩解頭痛、牙痛、咽喉痛、關節痛、神經痛、肌肉酸痛、月經痛)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "使用上注意事項",
+          "title_html": "使用上注意事項",
+          "path": [
+            "使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "有下列情形者，請勿使用",
+          "title_html": "有下列情形者，請勿使用",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，請勿使用"
+          ],
+          "content_text": "※曾因本藥成分引起過敏的人。",
+          "content_html": "<p><span style=\"font-family:標楷體;\"><strong>※曾因本藥成分引起過敏的人。</strong></span></p>",
+          "search_text": "3.1\n有下列情形者，請勿使用\n※曾因本藥成分引起過敏的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "有下列情形者，使用前請洽醫師診治",
+          "title_html": "有下列情形者，使用前請洽醫師診治",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n有下列情形者，使用前請洽醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.1",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.1",
+          "title": "3歲以下。",
+          "title_html": "3歲以下。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "3歲以下。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.1\n3歲以下。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.2",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.2",
+          "title": "成人連續服用本藥超過7天，12歲以下小孩超過3天，症狀未緩解的人。",
+          "title_html": "成人連續服用本藥超過7天，12歲以下小孩超過3天，症狀未緩解的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "成人連續服用本藥超過7天，12歲以下小孩超過3天，症狀未緩解的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.2\n成人連續服用本藥超過7天，12歲以下小孩超過3天，症狀未緩解的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2.3",
+          "parent_id": "3.2",
+          "level": 3,
+          "number": "3.2.3",
+          "title": "有肝臟疾病的人。",
+          "title_html": "有肝臟疾病的人。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請洽醫師診治",
+            "有肝臟疾病的人。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2.3\n有肝臟疾病的人。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "title_html": "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.1",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.1",
+          "title": "孕婦、可能懷孕婦女及哺乳婦。",
+          "title_html": "孕婦、可能懷孕婦女及哺乳婦。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "孕婦、可能懷孕婦女及哺乳婦。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.1\n孕婦、可能懷孕婦女及哺乳婦。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3.2",
+          "parent_id": "3.3",
+          "level": 3,
+          "number": "3.3.2",
+          "title": "同時服用含Acetaminophen成分之止痛、退燒或綜合感冒等藥品。",
+          "title_html": "同時服用含Acetaminophen成分之止痛、退燒或綜合感冒等藥品。",
+          "path": [
+            "使用上注意事項",
+            "有下列情形者，使用前請先諮詢醫師藥師藥劑生",
+            "同時服用含Acetaminophen成分之止痛、退燒或綜合感冒等藥品。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3.2\n同時服用含Acetaminophen成分之止痛、退燒或綜合感冒等藥品。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.4",
+          "title": "其他使用上注意事項",
+          "title_html": "其他使用上注意事項",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4\n其他使用上注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.1",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.1",
+          "title": "為防止兒童誤食請妥善保管。",
+          "title_html": "為防止兒童誤食請妥善保管。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "為防止兒童誤食請妥善保管。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.1\n為防止兒童誤食請妥善保管。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.2",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.2",
+          "title": "避免陽光直射。",
+          "title_html": "避免陽光直射。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "避免陽光直射。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.2\n避免陽光直射。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.3",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.3",
+          "title": "勿超過建議使用量。",
+          "title_html": "勿超過建議使用量。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "勿超過建議使用量。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.3\n勿超過建議使用量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.4",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.4",
+          "title": "服用過量的Acetaminophen可能是因為想要更快或更強的止痛效果，或是在不知道及未注意的情況下重複服用含 Acetaminophen成分的藥品，但是每天服用Acetaminophen超過4,000毫克(mg)會發生肝臟損害。",
+          "title_html": "服用過量的Acetaminophen可能是因為想要更快或更強的止痛效果，或是在不知道及未注意的情況下重複服用含 Acetaminophen成分的藥品，但是每天服用Acetaminophen超過4,000毫克(mg)會發生肝臟損害。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "服用過量的Acetaminophen可能是因為想要更快或更強的止痛效果，或是在不知道及未注意的情況下重複服用含 Acetaminophen成分的藥品，但是每天服用Acetaminophen超過4,000毫克(mg)會發生肝臟損害。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.4\n服用過量的Acetaminophen可能是因為想要更快或更強的止痛效果，或是在不知道及未注意的情況下重複服用含 Acetaminophen成分的藥品，但是每天服用Acetaminophen超過4,000毫克(mg)會發生肝臟損害。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.4.5",
+          "parent_id": "3.4",
+          "level": 3,
+          "number": "3.4.5",
+          "title": "酒精警語：不得併服含酒精飲料，因為Acetaminophen有急性肝衰竭的風險。",
+          "title_html": "酒精警語：不得併服含酒精飲料，因為Acetaminophen有急性肝衰竭的風險。",
+          "path": [
+            "使用上注意事項",
+            "其他使用上注意事項",
+            "酒精警語：不得併服含酒精飲料，因為Acetaminophen有急性肝衰竭的風險。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.4.5\n酒精警語：不得併服含酒精飲料，因為Acetaminophen有急性肝衰竭的風險。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法用量"
+          ],
+          "content_text": "年 齡 劑 量 成人及12歲以上 發燒或需要時服用，若症狀持續，則每4 ~ 6小時可重複服用，每次1錠，初次應使用最小建議劑量，再視症狀增減用量。 每24小時內不可超過5次。 6歲以上未滿12歲 適用成人劑量之1/2 (1/2錠)。 3歲以上未滿6歲 適用成人劑量之1/4 (1/4錠)。 3歲以下 請洽醫師診治。",
+          "content_html": "<figure class=\"table\" style=\"height:35px;\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:15.6pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">年&nbsp; 齡</span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:15.6pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:center;\"><span style=\"color:black;font-family:標楷體;\">劑&nbsp; 量</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:45.5pt;padding:0cm 5.4pt;width:83.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">成人及12歲以上</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:45.5pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">發燒或需要時服用，若症狀持續，則每4 ~ 6小時可重複服用，每次1錠，初次應使用最小建議劑量，再視症狀增減用量。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">每24小時內不可超過5次。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.15pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">6歲以上未滿12歲</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.15pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">適用成人劑量之1/2 (1/2錠)。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.15pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">3歲以上未滿6歲</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.15pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">適用成人劑量之1/4 (1/4錠)。</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.15pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">3歲以下</span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.15pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">請洽醫師診治。</span></p></td></tr></tbody></table></figure><p>&nbsp;</p>",
+          "search_text": "4\n用法用量\n年 齡 劑 量 成人及12歲以上 發燒或需要時服用，若症狀持續，則每4 ~ 6小時可重複服用，每次1錠，初次應使用最小建議劑量，再視症狀增減用量。 每24小時內不可超過5次。 6歲以上未滿12歲 適用成人劑量之1/2 (1/2錠)。 3歲以上未滿6歲 適用成人劑量之1/4 (1/4錠)。 3歲以下 請洽醫師診治。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語",
+          "title_html": "警語",
+          "path": [
+            "警語"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": true
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "title_html": "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生"
+          ],
+          "content_text": "身體部位 副作用 皮膚 發疹、發紅。 消化器官 噁心、嘔吐、食慾不振。 神經系統 頭暈、耳鳴。",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td style=\"border:1.0pt solid black;height:15.6pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>身體部位</strong></span></p></td><td style=\"border-bottom-style:solid;border-color:black;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;height:15.6pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>副作用</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.15pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>皮膚</strong></span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.15pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>發疹、發紅。</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.15pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>消化器官</strong></span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.15pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>噁心、嘔吐、食慾不振。</strong></span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:black;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;height:15.15pt;padding:0cm 5.4pt;width:81.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>神經系統</strong></span></p></td><td style=\"border-bottom:1.0pt solid black;border-left-style:none;border-right:1.0pt solid black;border-top-style:none;height:15.15pt;padding:0cm 5.4pt;width:153.0pt;\"><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>頭暈、耳鳴。</strong></span></p></td></tr></tbody></table></figure>",
+          "search_text": "5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 皮膚 發疹、發紅。 消化器官 噁心、嘔吐、食慾不振。 神經系統 頭暈、耳鳴。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "title_html": "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.1",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.1",
+          "title": "若有任何不適情況產生。",
+          "title_html": "若有任何不適情況產生。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "若有任何不適情況產生。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.1\n若有任何不適情況產生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.2",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.2",
+          "title": "服用本藥3天後，發燒、疼痛症狀未見改善。",
+          "title_html": "服用本藥3天後，發燒、疼痛症狀未見改善。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "服用本藥3天後，發燒、疼痛症狀未見改善。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.2\n服用本藥3天後，發燒、疼痛症狀未見改善。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.3",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.3",
+          "title": "使用過量[每日超過4,000毫克(mg)]，或服藥後出現下列症狀：胃腸道不適、厭食、噁心、嘔吐、蒼白及出汗等。",
+          "title_html": "使用過量[每日超過4,000毫克(mg)]，或服藥後出現下列症狀：胃腸道不適、厭食、噁心、嘔吐、蒼白及出汗等。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "使用過量[每日超過4,000毫克(mg)]，或服藥後出現下列症狀：胃腸道不適、厭食、噁心、嘔吐、蒼白及出汗等。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.3\n使用過量[每日超過4,000毫克(mg)]，或服藥後出現下列症狀：胃腸道不適、厭食、噁心、嘔吐、蒼白及出汗等。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2.4",
+          "parent_id": "5.2",
+          "level": 3,
+          "number": "5.2.4",
+          "title": "有過敏情形：例如：臉、口及喉嚨腫脹、呼吸困難、蕁麻疹、皮疹或其它皮膚過敏、搔癢以及嘔吐。",
+          "title_html": "有過敏情形：例如：臉、口及喉嚨腫脹、呼吸困難、蕁麻疹、皮疹或其它皮膚過敏、搔癢以及嘔吐。",
+          "path": [
+            "警語",
+            "服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治",
+            "有過敏情形：例如：臉、口及喉嚨腫脹、呼吸困難、蕁麻疹、皮疹或其它皮膚過敏、搔癢以及嘔吐。"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2.4\n有過敏情形：例如：臉、口及喉嚨腫脹、呼吸困難、蕁麻疹、皮疹或其它皮膚過敏、搔癢以及嘔吐。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝"
+          ],
+          "content_text": "2 ~ 1000錠塑膠瓶裝。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">2 ~ 1000錠塑膠瓶裝。</span></p>",
+          "search_text": "6\n包裝\n2 ~ 1000錠塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "儲存方式",
+          "title_html": "儲存方式",
+          "path": [
+            "儲存方式"
+          ],
+          "content_text": "請於25℃以下保存，且於有效期限內使用。",
+          "content_html": "<p>請於25℃以下保存，且於有效期限內使用。</p>",
+          "search_text": "7\n儲存方式\n請於25℃以下保存，且於有效期限內使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "類別",
+          "title_html": "類別",
+          "path": [
+            "類別"
+          ],
+          "content_text": "醫師藥師藥劑生指示藥品。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">醫師藥師藥劑生指示藥品。</span></p>",
+          "search_text": "8\n類別\n醫師藥師藥劑生指示藥品。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n成分\n1.1\n有效成分及含量\n每錠中含有： 有效成分及含量：Acetaminophen 300.0毫克(mg)。\n1.2\n其他成分(賦形劑)\nPovidone、Cellulose Microcrystalline、Lactose、Starch Pregelatinized、Sodium Starch Glycolate、Magnesium Stearate、Talc。\n2\n用途(適應症)\n退燒、止痛(緩解頭痛、牙痛、咽喉痛、關節痛、神經痛、肌肉酸痛、月經痛)。\n3\n使用上注意事項\n3.1\n有下列情形者，請勿使用\n※曾因本藥成分引起過敏的人。\n3.2\n有下列情形者，使用前請洽醫師診治\n3.2.1\n3歲以下。\n3.2.2\n成人連續服用本藥超過7天，12歲以下小孩超過3天，症狀未緩解的人。\n3.2.3\n有肝臟疾病的人。\n3.3\n有下列情形者，使用前請先諮詢醫師藥師藥劑生\n3.3.1\n孕婦、可能懷孕婦女及哺乳婦。\n3.3.2\n同時服用含Acetaminophen成分之止痛、退燒或綜合感冒等藥品。\n3.4\n其他使用上注意事項\n3.4.1\n為防止兒童誤食請妥善保管。\n3.4.2\n避免陽光直射。\n3.4.3\n勿超過建議使用量。\n3.4.4\n服用過量的Acetaminophen可能是因為想要更快或更強的止痛效果，或是在不知道及未注意的情況下重複服用含 Acetaminophen成分的藥品，但是每天服用Acetaminophen超過4,000毫克(mg)會發生肝臟損害。\n3.4.5\n酒精警語：不得併服含酒精飲料，因為Acetaminophen有急性肝衰竭的風險。\n4\n用法用量\n年 齡 劑 量 成人及12歲以上 發燒或需要時服用，若症狀持續，則每4 ~ 6小時可重複服用，每次1錠，初次應使用最小建議劑量，再視症狀增減用量。 每24小時內不可超過5次。 6歲以上未滿12歲 適用成人劑量之1/2 (1/2錠)。 3歲以上未滿6歲 適用成人劑量之1/4 (1/4錠)。 3歲以下 請洽醫師診治。\n5\n警語\n5.1\n服用本藥後，若有發生以下副作用，請立即停止使用，並持此說明書諮詢醫師藥師藥劑生\n身體部位 副作用 皮膚 發疹、發紅。 消化器官 噁心、嘔吐、食慾不振。 神經系統 頭暈、耳鳴。\n5.2\n服用本藥後，若有發生以下症狀時，請立即停止使用，並接受醫師診治\n5.2.1\n若有任何不適情況產生。\n5.2.2\n服用本藥3天後，發燒、疼痛症狀未見改善。\n5.2.3\n使用過量[每日超過4,000毫克(mg)]，或服藥後出現下列症狀：胃腸道不適、厭食、噁心、嘔吐、蒼白及出汗等。\n5.2.4\n有過敏情形：例如：臉、口及喉嚨腫脹、呼吸困難、蕁麻疹、皮疹或其它皮膚過敏、搔癢以及嘔吐。\n6\n包裝\n2 ~ 1000錠塑膠瓶裝。\n7\n儲存方式\n請於25℃以下保存，且於有效期限內使用。\n8\n類別\n醫師藥師藥劑生指示藥品。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "福元化學製藥股份有限公司",
+          "address": "新北市瑞芳區大寮路９５號之１"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "福元化學製藥股份有限公司",
+          "address": "新北市瑞芳區大寮路95-1號"
+        }
+      ]
+    }
+  ]
+}

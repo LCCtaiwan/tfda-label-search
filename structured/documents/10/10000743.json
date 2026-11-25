@@ -1,0 +1,1039 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:59:16.867458+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "10000743",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫輸字第000743號:5",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫輸字第000743號",
+      "matched_license_code": "10000743",
+      "matched_nhi_code": "",
+      "drug_name_zh": "栓體舒注射液50毫克",
+      "drug_name_en": "ACTILYSE INJECTION 50MG",
+      "drug_category": "限由醫師使用",
+      "display_category": "",
+      "version": "5",
+      "approved_at": "2025-10-27",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "每一小瓶含：alteplase = recombinant human tissue-type plasminogen activator50毫克或20毫克 每一小瓶溶劑含：滅菌注射用水50毫升或20毫升 調配妥的溶液每毫升含alteplase 1毫克",
+          "content_html": "<figure class=\"table\"><table><tbody><tr><td>每一小瓶含：alteplase = recombinant human tissue-type plasminogen activator</td><td>50毫克或20毫克</td></tr><tr><td>每一小瓶溶劑含：滅菌注射用水</td><td>50毫升或20毫升</td></tr><tr><td colspan=\"2\">調配妥的溶液每毫升含alteplase 1毫克</td></tr></tbody></table></figure>",
+          "search_text": "1.1\n有效成分及含量\n每一小瓶含：alteplase = recombinant human tissue-type plasminogen activator50毫克或20毫克 每一小瓶溶劑含：滅菌注射用水50毫升或20毫升 調配妥的溶液每毫升含alteplase 1毫克",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "l-arginine, phosphoric acid, polysorbate 80",
+          "content_html": "<p>l-arginine, phosphoric acid, polysorbate 80</p>",
+          "search_text": "1.2\n賦形劑\nl-arginine, phosphoric acid, polysorbate 80",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑",
+          "content_html": "<p>注射劑</p>",
+          "search_text": "1.3\n劑型\n注射劑",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "栓體舒為無菌、白色至近白色的凍晶乾燥粉末",
+          "content_html": "<p>栓體舒為無菌、白色至近白色的凍晶乾燥粉末</p>",
+          "search_text": "1.4\n藥品外觀\n栓體舒為無菌、白色至近白色的凍晶乾燥粉末",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "急性冠狀動脈栓塞之血栓溶解、急性大片肺栓塞、急性缺血性中風之血栓溶解。",
+          "content_html": "<p style=\"text-align:justify;\">急性冠狀動脈栓塞之血栓溶解、急性大片肺栓塞、急性缺血性中風之血栓溶解。</p>",
+          "search_text": "2\n適應症\n急性冠狀動脈栓塞之血栓溶解、急性大片肺栓塞、急性缺血性中風之血栓溶解。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "ACTILYSE必須在症狀出現後，儘快給藥。 急性心肌梗塞 a) 症狀出現在6小時內之急性心肌梗塞病人，適用90分鐘(加速)之劑量療法： 病人體重≥ 65公斤： - 最初，靜脈注射 (intravenous bolus) 15毫克； - 接著，50毫克靜脈輸注30分鐘； - 隨後立即，35毫克靜脈輸注60分鐘，直到最高總劑量達100毫克。 病人體重< 65公斤者，總劑量應依體重調整如下： - 最初，靜脈注射15毫克； - 接著，每公斤體重0.75毫克，靜脈輸注30分鐘(最高劑量為50毫克)； - 隨後立即，每公斤體重0.5毫克，靜脈輸注60分鐘(最高劑量為35毫克)。 b) 症狀出現在6至12小時之間之急性心肌梗塞病人，適用3小時之劑量療法： - 最初，靜脈注射10毫克； - 接著，在第一個小時靜脈輸注50毫克； - 隨後立即，40毫克靜脈輸注2個小時，直到總劑量達100毫克。 病人體重< 65公斤者： - 靜脈輸注三小時，最高總劑量勿超過每公斤體重1.5毫克。 ACTILYSE治療急性心肌梗塞病人已證實可降低30天死亡率風險。 輔助治療(Adjunctive therapy)： 抗血栓劑輔助治療是依據現行治療ST波段上升心肌梗塞病人之國際準則建議使用。 急性大片肺栓塞 總劑量100毫克投與2小時。大多使用下列劑量療法： - 最初，以1-2分鐘靜脈注射10毫克； - 接著，90毫克靜脈輸注2小時，直到最高總劑量達100毫克。 病人體重< 65公斤，靜脈輸注2小時，最高總劑量不可超過每公斤體重1.5毫克。 肺栓塞之診斷必須用客觀方法如肺血管顯影術(pulmonary angiography)或非侵入性方法如肺掃描來確認。 尚未有關於肺栓塞之死亡率及之後罹患率的臨床研究。 輔助治療 (Adjunctive therapy)： 使用ACTILYSE治療之後，heparin之治療應在活化部份凝血酶原的時間值小於正常值上限的兩倍時開始(或再繼續)。輸注時應使活化部份凝血酶原的時間(aPTT)維持在50到70秒間(參考值的1.5至2.5倍)。 急性缺血性中風 治療急性缺血性中風的總劑量勿超過90毫克。 建議總劑量為每公斤體重0.9毫克(最大劑量為90毫克)。以總劑量的10%為起始劑量，以靜脈注射(intravenous bolus) 投與，剩餘的量以靜脈輸注(infusion) 60分鐘。 應於中風發作3小時內儘早開始治療，病人應以適當之顯影技術如腦部電腦斷層攝影(Brain CT)排除顱內出血病人。 治療急性缺血性中風的劑量表 體重 (公斤) 總劑量 (毫克) 注射劑量 (毫克) 輸注劑量a (毫克) 40 36.0 3.6 32.4 42 37.8 3.8 34.0 44 39.6 4.0 35.6 46 41.4 4.1 37.3 48 43.2 4.3 38.9 50 45.0 4.5 40.5 52 46.8 4.7 42.1 54 48.6 4.9 43.7 56 50.4 5.0 45.4 58 52.2 5.2 47.0 60 54.0 5.4 48.6 62 55.8 5.6 50.2 64 57.6 5.8 51.8 66 59.4 5.9 53.5 68 61.2 6.1 55.1 70 63.0 6.3 56.7 72 64.8 6.5 58.3 74 66.6 6.7 59.9 76 68.4 6.8 61.6 78 70.2 7.0 63.2 80 72.0 7.2 64.8 82 73.8 7.4 66.4 84 75.6 7.6 68.0 86 77.4 7.7 69.7 88 79.2 7.9 71.3 90 81.0 8.1 72.9 92 82.8 8.3 74.5 94 84.6 8.5 76.1 96 86.4 8.6 77.8 98 88.2 8.8 79.4 100+ 90.0 9.0 81.0 a以靜脈輸注60分鐘1 mg/ml的濃度給藥 輔助治療 (Adjunctive therapy)： 影響血液凝固/血小板功能的藥物 由於缺乏充分的安全性及療效研究，在ACTILYSE治療的最初24小時內，應避免heparin或血小板凝集抑制劑如aspirin，因可能增加出血風險。若使用heparin是為其他適應症(例如預防深部靜脈血栓)時，皮下投與劑量不可超過每天10,000單位。",
+          "content_html": "<p style=\"text-align:justify;\">ACTILYSE必須在症狀出現後，儘快給藥。</p><p><strong>急性心肌梗塞</strong><br>a) 症狀出現在6小時內之急性心肌梗塞病人，適用90分鐘(加速)之劑量療法：<br>病人體重≥ 65公斤：<br>- 最初，靜脈注射 (intravenous bolus) 15毫克；<br>- 接著，50毫克靜脈輸注30分鐘；<br>- 隨後立即，35毫克靜脈輸注60分鐘，直到最高總劑量達100毫克。<br>病人體重&lt; 65公斤者，總劑量應依體重調整如下：<br>- 最初，靜脈注射15毫克；<br>- 接著，每公斤體重0.75毫克，靜脈輸注30分鐘(最高劑量為50毫克)；<br>- 隨後立即，每公斤體重0.5毫克，靜脈輸注60分鐘(最高劑量為35毫克)。<br>b) 症狀出現在6至12小時之間之急性心肌梗塞病人，適用3小時之劑量療法：<br>- 最初，靜脈注射10毫克；<br>- 接著，在第一個小時靜脈輸注50毫克；<br>- 隨後立即，40毫克靜脈輸注2個小時，直到總劑量達100毫克。<br>病人體重&lt; 65公斤者：<br>- 靜脈輸注三小時，最高總劑量勿超過每公斤體重1.5毫克。</p><p>ACTILYSE治療急性心肌梗塞病人已證實可降低30天死亡率風險。</p><p><u>輔助治療(Adjunctive therapy)：</u><br>抗血栓劑輔助治療是依據現行治療ST波段上升心肌梗塞病人之國際準則建議使用。</p><p>&nbsp;</p><p><strong>急性大片肺栓塞</strong><br>總劑量100毫克投與2小時。大多使用下列劑量療法：<br>- 最初，以1-2分鐘靜脈注射10毫克；<br>- 接著，90毫克靜脈輸注2小時，直到最高總劑量達100毫克。<br>病人體重&lt; 65公斤，靜脈輸注2小時，最高總劑量不可超過每公斤體重1.5毫克。<br>肺栓塞之診斷必須用客觀方法如肺血管顯影術(pulmonary angiography)或非侵入性方法如肺掃描來確認。<br>尚未有關於肺栓塞之死亡率及之後罹患率的臨床研究。</p><p><br><u>輔助治療 (Adjunctive therapy)：</u><br>使用ACTILYSE治療之後，heparin之治療應在活化部份凝血酶原的時間值小於正常值上限的兩倍時開始(或再繼續)。輸注時應使活化部份凝血酶原的時間(aPTT)維持在50到70秒間(參考值的1.5至2.5倍)。<br>&nbsp;</p><p><strong>急性缺血性中風</strong><br>治療急性缺血性中風的總劑量勿超過90毫克。<br>建議總劑量為每公斤體重0.9毫克(最大劑量為90毫克)。以總劑量的10%為起始劑量，以靜脈注射(intravenous bolus) 投與，剩餘的量以靜脈輸注(infusion) 60分鐘。<br>應於中風發作3小時內儘早開始治療，病人應以適當之顯影技術如腦部電腦斷層攝影(Brain CT)排除顱內出血病人。</p><figure class=\"table\"><table><tbody><tr><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\">治療急性缺血性中風的劑量表</td></tr><tr><td style=\"border-color:Black;border-style:solid;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">體重</span></p><p style=\"text-align:center;\"><span style=\"color:windowtext;\">(公斤)</span></p></td><td style=\"border-color:Black;border-style:solid;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">總劑量</span></p><p style=\"text-align:center;\"><span style=\"color:windowtext;\">(毫克)</span></p></td><td style=\"border-color:Black;border-style:solid;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">注射劑量</span></p><p style=\"text-align:center;\"><span style=\"color:windowtext;\">(毫克)</span></p></td><td style=\"border-color:Black;border-style:solid;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">輸注劑量<sup>a &nbsp;&nbsp;</sup>(毫克)</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">40</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">36.0</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">3.6</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">32.4</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">42</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">37.8</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">3.8</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">34.0</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">44</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">39.6</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">4.0</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">35.6</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">46</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">41.4</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">4.1</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">37.3</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">48</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">43.2</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">4.3</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">38.9</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">50</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">45.0</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">4.5</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">40.5</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">52</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">46.8</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">4.7</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">42.1</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">54</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">48.6</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">4.9</span></p></td><td style=\"border-color:Black;border-style:solid;padding:0cm 5.4pt;vertical-align:top;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">43.7</span></p></td></tr><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">56</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">50.4</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">5.0</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">45.4</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">58</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">52.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">5.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">47.0</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">60</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">54.0</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">5.4</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">48.6</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">62</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">55.8</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">5.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">50.2</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">64</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">57.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">5.8</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">51.8</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">66</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">59.4</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">5.9</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">53.5</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">68</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">61.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">6.1</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">55.1</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">70</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">63.0</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">6.3</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">56.7</span></p></td></tr><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">72</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">64.8</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">6.5</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">58.3</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">74</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">66.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">6.7</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">59.9</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">76</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">68.4</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">6.8</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">61.6</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">78</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">70.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">7.0</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">63.2</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">80</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">72.0</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">7.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">64.8</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">82</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">73.8</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">7.4</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">66.4</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">84</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">75.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">7.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">68.0</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">86</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">77.4</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">7.7</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">69.7</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">88</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">79.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">7.9</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">71.3</span></p></td></tr><tr><td style=\"border:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">90</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">81.0</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">8.1</span></p></td><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:none;border-right-style:solid;border-top-style:solid;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">72.9</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">92</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">82.8</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">8.3</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">74.5</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">94</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">84.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">8.5</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">76.1</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">96</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">86.4</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">8.6</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">77.8</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">98</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">88.2</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">8.8</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">79.4</span></p></td></tr><tr><td style=\"border-bottom-style:solid;border-color:windowtext;border-left-style:solid;border-right-style:solid;border-top-style:none;border-width:1.0pt;padding:0cm 5.4pt;vertical-align:top;width:9.36%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">100+</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:9.68%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">90.0</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">9.0</span></p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right:1.0pt solid windowtext;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:12.46%;\"><p style=\"text-align:center;\"><span style=\"color:windowtext;\">81.0</span></p></td></tr><tr><td style=\"border-color:Black;border-style:solid;\" colspan=\"4\"><sup>a</sup>以靜脈輸注60分鐘1 mg/ml的濃度給藥</td></tr></tbody></table></figure><p>&nbsp;</p><p><u>輔助治療 (Adjunctive therapy)：</u><br><span style=\"font-family:標楷體;\"><i>影響血液凝固</i></span><i>/</i><span style=\"font-family:標楷體;\"><i>血小板功能的藥物</i></span></p><p><span style=\"font-family:標楷體;\">由於缺乏充分的安全性及療效研究，在</span>ACTILYSE<span style=\"font-family:標楷體;\">治療的最初</span>24<span style=\"font-family:標楷體;\">小時內，應避免</span>heparin<span style=\"font-family:標楷體;\">或血小板凝集抑制劑如</span>aspirin<span style=\"font-family:標楷體;\">，因可能增加出血風險。若使用</span>heparin<span style=\"font-family:標楷體;\">是為其他適應症</span>(<span style=\"font-family:標楷體;\">例如預防深部靜脈血栓</span>)<span style=\"font-family:標楷體;\">時，皮下投與劑量不可超過每天</span>10,000<span style=\"font-family:標楷體;\">單位。</span></p>",
+          "search_text": "3.1\n用法用量\nACTILYSE必須在症狀出現後，儘快給藥。 急性心肌梗塞 a) 症狀出現在6小時內之急性心肌梗塞病人，適用90分鐘(加速)之劑量療法： 病人體重≥ 65公斤： - 最初，靜脈注射 (intravenous bolus) 15毫克； - 接著，50毫克靜脈輸注30分鐘； - 隨後立即，35毫克靜脈輸注60分鐘，直到最高總劑量達100毫克。 病人體重< 65公斤者，總劑量應依體重調整如下： - 最初，靜脈注射15毫克； - 接著，每公斤體重0.75毫克，靜脈輸注30分鐘(最高劑量為50毫克)； - 隨後立即，每公斤體重0.5毫克，靜脈輸注60分鐘(最高劑量為35毫克)。 b) 症狀出現在6至12小時之間之急性心肌梗塞病人，適用3小時之劑量療法： - 最初，靜脈注射10毫克； - 接著，在第一個小時靜脈輸注50毫克； - 隨後立即，40毫克靜脈輸注2個小時，直到總劑量達100毫克。 病人體重< 65公斤者： - 靜脈輸注三小時，最高總劑量勿超過每公斤體重1.5毫克。 ACTILYSE治療急性心肌梗塞病人已證實可降低30天死亡率風險。 輔助治療(Adjunctive therapy)： 抗血栓劑輔助治療是依據現行治療ST波段上升心肌梗塞病人之國際準則建議使用。 急性大片肺栓塞 總劑量100毫克投與2小時。大多使用下列劑量療法： - 最初，以1-2分鐘靜脈注射10毫克； - 接著，90毫克靜脈輸注2小時，直到最高總劑量達100毫克。 病人體重< 65公斤，靜脈輸注2小時，最高總劑量不可超過每公斤體重1.5毫克。 肺栓塞之診斷必須用客觀方法如肺血管顯影術(pulmonary angiography)或非侵入性方法如肺掃描來確認。 尚未有關於肺栓塞之死亡率及之後罹患率的臨床研究。 輔助治療 (Adjunctive therapy)： 使用ACTILYSE治療之後，heparin之治療應在活化部份凝血酶原的時間值小於正常值上限的兩倍時開始(或再繼續)。輸注時應使活化部份凝血酶原的時間(aPTT)維持在50到70秒間(參考值的1.5至2.5倍)。 急性缺血性中風 治療急性缺血性中風的總劑量勿超過90毫克。 建議總劑量為每公斤體重0.9毫克(最大劑量為90毫克)。以總劑量的10%為起始劑量，以靜脈注射(intravenous bolus) 投與，剩餘的量以靜脈輸注(infusion) 60分鐘。 應於中風發作3小時內儘早開始治療，病人應以適當之顯影技術如腦部電腦斷層攝影(Brain CT)排除顱內出血病人。 治療急性缺血性中風的劑量表 體重 (公斤) 總劑量 (毫克) 注射劑量 (毫克) 輸注劑量a (毫克) 40 36.0 3.6 32.4 42 37.8 3.8 34.0 44 39.6 4.0 35.6 46 41.4 4.1 37.3 48 43.2 4.3 38.9 50 45.0 4.5 40.5 52 46.8 4.7 42.1 54 48.6 4.9 43.7 56 50.4 5.0 45.4 58 52.2 5.2 47.0 60 54.0 5.4 48.6 62 55.8 5.6 50.2 64 57.6 5.8 51.8 66 59.4 5.9 53.5 68 61.2 6.1 55.1 70 63.0 6.3 56.7 72 64.8 6.5 58.3 74 66.6 6.7 59.9 76 68.4 6.8 61.6 78 70.2 7.0 63.2 80 72.0 7.2 64.8 82 73.8 7.4 66.4 84 75.6 7.6 68.0 86 77.4 7.7 69.7 88 79.2 7.9 71.3 90 81.0 8.1 72.9 92 82.8 8.3 74.5 94 84.6 8.5 76.1 96 86.4 8.6 77.8 98 88.2 8.8 79.4 100+ 90.0 9.0 81.0 a以靜脈輸注60分鐘1 mg/ml的濃度給藥 輔助治療 (Adjunctive therapy)： 影響血液凝固/血小板功能的藥物 由於缺乏充分的安全性及療效研究，在ACTILYSE治療的最初24小時內，應避免heparin或血小板凝集抑制劑如aspirin，因可能增加出血風險。若使用heparin是為其他適應症(例如預防深部靜脈血栓)時，皮下投與劑量不可超過每天10,000單位。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "調配之溶液應由靜脈給藥並立即使用。 使用應注意之事項 必須在無菌狀況下調配ACTILYSE溶液。依照下列方式將含有ACTILYSE(20毫克、50毫克)乾粉的小瓶溶解於無菌注射用水，調配成每毫升含alteplase 1毫克的濃度。 ACTILYSE乾粉 20毫克 50毫克 須加至乾粉的無菌注射用水量 20毫升 50毫升 最終濃度 alteplase 1毫克/毫升 alteplase 1毫克/毫升 為達此目的，本品20毫克、50毫克的盒內各附有1隻套管 (cannula)。\n調配後之1毫克/毫升溶液可以9毫克/毫升(0.9%)的注射用無菌氯化鈉溶液將其進一步稀釋，但不可稀釋至低於0.2毫克/毫升的最低濃度，由於調配後溶液之混濁度的發生無法被排除。 不建議使用無菌注射用水或一般含碳水化合物的輸注液如dextrose將前述調配妥之溶液再稀釋，因為會增加調配後溶液的混濁度形成。 ACTILYSE不應與其他藥物混合於同一輸注液瓶中或同一靜脈輸注管中使用(即使是heparin也不可以)。",
+          "content_html": "<p>調配之溶液應由靜脈給藥並立即使用。</p><p><strong>使用應注意之事項</strong><br>必須在無菌狀況下調配ACTILYSE溶液。依照下列方式將含有ACTILYSE(20毫克、50毫克)乾粉的小瓶溶解於無菌注射用水，調配成每毫升含alteplase 1毫克的濃度。<br>&nbsp;</p><figure class=\"table\" style=\"width:504.65pt;\"><table><tbody><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 1.4pt;vertical-align:top;width:178.6pt;\"><p style=\"text-align:justify;\">ACTILYSE乾粉</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 1.4pt;vertical-align:top;width:163.0pt;\"><p style=\"text-align:justify;\">20毫克</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 1.4pt;vertical-align:top;width:163.05pt;\"><p style=\"text-align:justify;\">50毫克</p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:178.6pt;\"><p style=\"text-align:justify;\">須加至乾粉的無菌注射用水量</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:163.0pt;\"><p style=\"text-align:justify;\">20毫升</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:163.05pt;\"><p style=\"text-align:justify;\">50毫升</p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:178.6pt;\"><p style=\"text-align:justify;\">最終濃度</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:163.0pt;\"><p style=\"text-align:justify;\">alteplase 1毫克/毫升</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 1.4pt;vertical-align:top;width:163.05pt;\"><p style=\"text-align:justify;\">alteplase 1毫克/毫升</p></td></tr></tbody></table></figure><p>&nbsp;</p><p>為達此目的，本品20毫克、50毫克的盒內各附有1隻套管 (cannula)。</p>\n<p>調配後之1毫克/毫升溶液可以9毫克/毫升(0.9%)的注射用無菌氯化鈉溶液將其進一步稀釋，但不可稀釋至低於0.2毫克/毫升的最低濃度，由於調配後溶液之混濁度的發生無法被排除。<br>不建議使用無菌注射用水或一般含碳水化合物的輸注液如dextrose將前述調配妥之溶液再稀釋，因為會增加調配後溶液的混濁度形成。<br>ACTILYSE不應與其他藥物混合於同一輸注液瓶中或同一靜脈輸注管中使用(即使是heparin也不可以)。</p>",
+          "search_text": "3.2\n調製方式\n調配之溶液應由靜脈給藥並立即使用。 使用應注意之事項 必須在無菌狀況下調配ACTILYSE溶液。依照下列方式將含有ACTILYSE(20毫克、50毫克)乾粉的小瓶溶解於無菌注射用水，調配成每毫升含alteplase 1毫克的濃度。 ACTILYSE乾粉 20毫克 50毫克 須加至乾粉的無菌注射用水量 20毫升 50毫升 最終濃度 alteplase 1毫克/毫升 alteplase 1毫克/毫升 為達此目的，本品20毫克、50毫克的盒內各附有1隻套管 (cannula)。\n調配後之1毫克/毫升溶液可以9毫克/毫升(0.9%)的注射用無菌氯化鈉溶液將其進一步稀釋，但不可稀釋至低於0.2毫克/毫升的最低濃度，由於調配後溶液之混濁度的發生無法被排除。 不建議使用無菌注射用水或一般含碳水化合物的輸注液如dextrose將前述調配妥之溶液再稀釋，因為會增加調配後溶液的混濁度形成。 ACTILYSE不應與其他藥物混合於同一輸注液瓶中或同一靜脈輸注管中使用(即使是heparin也不可以)。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 136988
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 153548
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 108408
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 64804
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 107904
+            },
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 113924
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "ACTILYSE禁止使用於 已知對主成分alteplase或其他賦形劑過敏之病人 與出血風險相關的情形，如下： 目前或過去六個月內有顯著的出血疾病(bleeding disorder)、易出血體質 目前正在使用有效劑量口服抗凝血劑之病人(如維生素K拮抗劑, 且INR＞1.3) (參閱「警語及注意事項」之「出血」部分) 中樞神經系統損害之病史(腫瘤、血管瘤、顱內或脊柱的手術) 懷疑或經證實包括蜘蛛膜下腔出血之顱內出血或其病史 嚴重且未被控制的動脈高血壓 過去10天內曾動過大手術或有嚴重創傷(包括最近之急性心肌梗塞所伴隨的任何創傷)、最近頭部或顱部曾發生創傷 過去10天內分娩、近期曾對無法壓制之部位施行血管穿刺(如鎖骨下靜脈或頸靜脈穿刺) 嚴重肝病，包括肝衰竭、肝硬化、肝門脈高壓(食道靜脈曲張)及急性肝炎 細菌性心內膜炎，心包炎 急性胰臟炎 活動性胃腸道潰瘍 已知的動脈瘤，及/或靜/動脈畸形 易出血之腫瘤 急性心肌梗塞和急性大片肺栓塞另有下列之禁忌症： 與出血風險相關的情形，如下： 曾發生出血性中風或不明原因的中風 過去6個月內曾發生缺血性中風或暫時性腦缺血(TIA)，但不包括過去4.5個小時內發生的急性缺血性中風 急性缺血性中風另有下列之禁忌症： 與出血風險相關的情形，如下： 輸注本藥前，缺血性發作的時間已超過4.5小時或症狀發作時間不明 輸注本藥前，急性缺血性中風的症狀已迅速改善或症狀輕微 臨床(例如NIHSS＞25)及∕或適當之影像術評估為嚴重之中風 中風發作前48小時內使用heparin，且病人活化部份凝血酶原的時間值(aPTT)過高 血小板少於100,000/mm3 最近三個月內有嚴重性頭部創傷 最近三個月內有中風病史 活動性內出血 經處置後持續維持收縮壓> 185 mmHg 或舒張壓> 110 mmHg 經處置後持續維持血糖< 50 mg/dL 或血糖> 400 mg/dL ACTILYSE不適用於治療兒童及未滿十八歲之青少年。",
+          "content_html": "<p style=\"text-align:justify;\">ACTILYSE<span style=\"font-family:標楷體;\">禁止使用於</span></p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">已知對主成分</span>alteplase<span style=\"font-family:標楷體;\">或其他賦形劑過敏之病人</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">與出血風險相關的情形，如下：</span><ul style=\"list-style-type:circle;\"><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">目前或過去六個月內有顯著的出血疾病</span>(bleeding disorder)<span style=\"font-family:標楷體;\">、易出血體質</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">目前正在使用有效劑量口服抗凝血劑之病人</span>(<span style=\"font-family:標楷體;\">如維生素</span>K<span style=\"font-family:標楷體;\">拮抗劑</span>,&nbsp;<span style=\"font-family:標楷體;\">且</span>INR<span style=\"font-family:標楷體;\">＞</span>1.3) (<span style=\"font-family:標楷體;\">參閱「警語及注意事項」之「出血」部分</span>)</li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">中樞神經系統損害之病史</span>(<span style=\"font-family:標楷體;\">腫瘤、血管瘤、顱內或脊柱的手術</span>)</li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">懷疑或經證實包括蜘蛛膜下腔出血之顱內出血或其病史</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">嚴重且未被控制的動脈高血壓</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">過去</span>10<span style=\"font-family:標楷體;\">天內曾動過大手術或有嚴重創傷</span>(<span style=\"font-family:標楷體;\">包括最近之急性心肌梗塞所伴隨的任何創傷</span>)<span style=\"font-family:標楷體;\">、最近頭部或顱部曾發生創傷</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">過去</span>10<span style=\"font-family:標楷體;\">天內分娩、近期曾對無法壓制之部位施行血管穿刺</span>(<span style=\"font-family:標楷體;\">如鎖骨下靜脈或頸靜脈穿刺</span>)</li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">嚴重肝病，包括肝衰竭、肝硬化、肝門脈高壓</span>(<span style=\"font-family:標楷體;\">食道靜脈曲張</span>)<span style=\"font-family:標楷體;\">及急性肝炎</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">細菌性心內膜炎，心包炎</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">急性胰臟炎</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">活動性胃腸道潰瘍</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">已知的動脈瘤，及</span>/<span style=\"font-family:標楷體;\">或靜</span>/<span style=\"font-family:標楷體;\">動脈畸形</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">易出血之腫瘤</span></li></ul></li></ul><p style=\"margin-left:6.3pt;text-align:justify;\">&nbsp;</p><p style=\"margin-left:6.3pt;text-align:justify;\"><span style=\"font-family:標楷體;\">急性心肌梗塞和急性大片肺栓塞另有下列之禁忌症：</span></p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">與出血風險相關的情形，如下：</span><ul style=\"list-style-type:circle;\"><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">曾發生出血性中風或不明原因的中風</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">過去</span>6<span style=\"font-family:標楷體;\">個月內曾發生缺血性中風或暫時性腦缺血</span>(TIA)<span style=\"font-family:標楷體;\">，但不包括過去</span>4.5<span style=\"font-family:標楷體;\">個小時內發生的急性缺血性中風</span></li></ul></li></ul><p style=\"margin-left:6.3pt;text-align:justify;\">&nbsp;</p><p style=\"margin-left:6.3pt;text-align:justify;\"><span style=\"font-family:標楷體;\">急性缺血性中風另有下列之禁忌症：</span></p><ul style=\"list-style-type:disc;\"><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">與出血風險相關的情形，如下：</span><ul style=\"list-style-type:circle;\"><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">輸注本藥前，缺血性發作的時間已超過</span>4.5<span style=\"font-family:標楷體;\">小時或症狀發作時間不明</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">輸注本藥前，急性缺血性中風的症狀已迅速改善或症狀輕微</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">臨床</span>(<span style=\"font-family:標楷體;\">例如</span>NIHSS<span style=\"font-family:標楷體;\">＞</span>25)<span style=\"font-family:標楷體;\">及</span>∕<span style=\"font-family:標楷體;\">或適當之影像術評估為嚴重之中風</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">中風發作前</span>48<span style=\"font-family:標楷體;\">小時內使用</span>heparin<span style=\"font-family:標楷體;\">，且病人活化部份凝血酶原的時間值</span>(aPTT)<span style=\"font-family:標楷體;\">過高</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">血小板少於</span>100,000/mm<sup>3</sup></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">最近三個月內有嚴重性頭部創傷</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">最近三個月內有中風病史</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">活動性內出血</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">經處置後持續維持收縮壓</span>&gt; 185 mmHg&nbsp;<span style=\"font-family:標楷體;\">或舒張壓</span>&gt; 110 mmHg</li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">經處置後持續維持血糖</span>&lt;&nbsp;50 mg/dL&nbsp;<span style=\"font-family:標楷體;\">或血糖</span>&gt; 400 mg/dL</li></ul></li></ul><p>&nbsp;</p><p>ACTILYSE<span style=\"font-family:標楷體;\">不適用於治療兒童及未滿十八歲之青少年。</span></p>",
+          "search_text": "4\n禁忌\nACTILYSE禁止使用於 已知對主成分alteplase或其他賦形劑過敏之病人 與出血風險相關的情形，如下： 目前或過去六個月內有顯著的出血疾病(bleeding disorder)、易出血體質 目前正在使用有效劑量口服抗凝血劑之病人(如維生素K拮抗劑, 且INR＞1.3) (參閱「警語及注意事項」之「出血」部分) 中樞神經系統損害之病史(腫瘤、血管瘤、顱內或脊柱的手術) 懷疑或經證實包括蜘蛛膜下腔出血之顱內出血或其病史 嚴重且未被控制的動脈高血壓 過去10天內曾動過大手術或有嚴重創傷(包括最近之急性心肌梗塞所伴隨的任何創傷)、最近頭部或顱部曾發生創傷 過去10天內分娩、近期曾對無法壓制之部位施行血管穿刺(如鎖骨下靜脈或頸靜脈穿刺) 嚴重肝病，包括肝衰竭、肝硬化、肝門脈高壓(食道靜脈曲張)及急性肝炎 細菌性心內膜炎，心包炎 急性胰臟炎 活動性胃腸道潰瘍 已知的動脈瘤，及/或靜/動脈畸形 易出血之腫瘤 急性心肌梗塞和急性大片肺栓塞另有下列之禁忌症： 與出血風險相關的情形，如下： 曾發生出血性中風或不明原因的中風 過去6個月內曾發生缺血性中風或暫時性腦缺血(TIA)，但不包括過去4.5個小時內發生的急性缺血性中風 急性缺血性中風另有下列之禁忌症： 與出血風險相關的情形，如下： 輸注本藥前，缺血性發作的時間已超過4.5小時或症狀發作時間不明 輸注本藥前，急性缺血性中風的症狀已迅速改善或症狀輕微 臨床(例如NIHSS＞25)及∕或適當之影像術評估為嚴重之中風 中風發作前48小時內使用heparin，且病人活化部份凝血酶原的時間值(aPTT)過高 血小板少於100,000/mm3 最近三個月內有嚴重性頭部創傷 最近三個月內有中風病史 活動性內出血 經處置後持續維持收縮壓> 185 mmHg 或舒張壓> 110 mmHg 經處置後持續維持血糖< 50 mg/dL 或血糖> 400 mg/dL ACTILYSE不適用於治療兒童及未滿十八歲之青少年。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "應依據用途慎選適當劑量規格的alteplase產品。2毫克裝的alteplase並不適用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風(因為有劑量嚴重不足的風險)。只有10毫克、20毫克及50毫克裝的產品適用於這些適應症。",
+          "content_html": "<p>應依據用途慎選適當劑量規格的alteplase產品。2毫克裝的alteplase並不適用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風(因為有劑量嚴重不足的風險)。只有10毫克、20毫克及50毫克裝的產品適用於這些適應症。</p>",
+          "search_text": "5\n警語及注意事項\n應依據用途慎選適當劑量規格的alteplase產品。2毫克裝的alteplase並不適用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風(因為有劑量嚴重不足的風險)。只有10毫克、20毫克及50毫克裝的產品適用於這些適應症。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "治療急性心肌梗塞、急性大片肺栓塞和急性缺血性中風 ACTILYSE應在具監視其使用之設備下，由具使用血栓溶解劑經驗的醫師處方。這不排除到院前使用ACTILYSE。如同其他的血栓溶解劑，建議應在具備標準心肺復甦設備及藥物的情形下，投予ACTILYSE。 可追溯性 為提高生物藥品的可追溯性，應將所施用的藥品商品名和批號清楚地記錄在病人檔案中。 過敏 投予ACTILYSE時伴隨發生免疫機制媒介之過敏反應的情形可能是病人對其活性成分alteplase、任何賦形劑(參閱「禁忌症」)。 未曾在治療之後發現對人類組織型胞漿素原活化酶分子持續產生抗體的現象。在重新投予ACTILYSE方面，目前並無任何系統性的經驗。 另有透過非免疫機制媒介之過敏反應的風險。 血管性水腫(Angio-oedema)是ACTILYSE最常見的過敏反應。在急性缺血性中風和/或ACE抑制劑的合併治療中，這種風險可能會增加(參閱「交互作用」)。在ACTILYSE輸注期間和輸注後24小時內，接受治療的病人應監測血管性水腫。 如果發生嚴重過敏反應(如:血管性水腫)，應停止輸注，並立即採取適當的治療措施，包含插管。 血栓栓塞症 對於發生左心血栓風險較高的病人(例如患有僧帽瓣狹窄或心室纖維性顫動等)，使用ACTILYSE可能會增加血栓栓塞事件的風險。 出血 以ACTILYSE治療時，最常見的合併症是出血。併用其他影響凝血或血小板功能的活性物質可能導致出血。(參閱「用法用量」、「禁忌症」及「交互作用」) 。 由於在ACTILYSE治療時，纖維蛋白被溶解，故可能會自最近穿刺的部位出血，所以，在採用血栓溶解劑時，對於所有可能出血的部位(包括插入導管之部位、動脈∕靜脈穿刺之切口及針刺之部位)需特別注意。在ACTILYSE治療時，應避免使用硬式導管、肌內注射及對病人做非必要之處置。 如發生嚴重出血，尤其是腦部出血時，必須停止給予纖維蛋白溶解劑和heparin。如出血前4小時內曾併用heparin，則應考慮投與protamine。少數病人對這些保守方法的反應無效，輸血可能是明智之舉。 可考慮以冷凍沉澱品、新鮮冷凍血漿、血小板來輸血，並在每次輸血後進行臨床和檢驗的評估。採冷凍沉澱品輸注時，纖維蛋白原之理想濃度目標為1公克∕公升。抗纖維蛋白溶解劑也應被考慮投予。 治療急性心肌梗塞或肺栓塞時，ACTILYSE的劑量勿超過100毫克，治療急性缺血性中風的劑量勿超過90毫克，因為超過前述劑量曾發生增加顱內出血的危險性。 使用ACTILYSE於任何會增加出血狀況時，必須謹慎衡量其治療效益勝於危險時，才可使用，尤指下列狀況： 在禁忌症未提到但會增加出血危險的狀況。 正接受口服抗凝血劑治療的病人: 當適當的抗凝血活性檢測顯示無臨床相關活性時，便可以考慮使用ACTILYSE。 過久的(超過2分鐘)或創傷性的心肺復甦術或心臟按摩 最近曾肌內注射或最近有小外傷，例如切片檢查、主要血管穿刺 治療急性心肌梗塞及急性大片肺栓塞時，需特別注意： 收縮壓＞160mmHg (參閱「禁忌症」) 年長病人(特別是75歲或以上)，因可能增加顱內出血的危險性 體重較輕的病人 治療急性心肌梗塞時，需特別注意： 心律不整 冠狀動脈血栓溶解，在血流再灌注時，會伴隨心律不整。 再灌流性心律不整可能會導致心跳停止、危及生命、並可能須使用傳統的抗心律不整藥物治療。 醣蛋白 (Glyco-protein) IIb/IIIa之受體拮抗劑 合併使用GP IIb/IIIa受體拮抗劑會增加出血風險。 治療急性缺血性中風時需特別注意： 必須由受過訓練且有神經血管照護經驗的醫師治療。 本藥只限於具適當評估及處理顱內出血設施的場所使用。 除了前述之禁忌症外，在下列情況使用ACTILYSE治療急性缺血性中風可能會增加危險性，故應權衡治療之預期利益和危險性。 嚴重神經機能缺損的病人(例如NIHSS>22)。這類病人有較高之顱內出血危險性 電腦斷層掃描顯示病人早期有重大梗塞的徴兆 [例如大量水腫、腫塊效應或中線偏移 (midline shift)] 對最近未曾使用抗凝血劑或heparin治療的病人，可在未獲得凝血參數前先開始ACTILYSE的治療，然而如治療前之International Normalized Ratio (INR)>1.7或prothrombin time (PT)>15秒或aPTT過高，應立即停止ACTILYSE之輸注。 出血 最常見的副作用是顱內出血(請參閱「副作用/不良反應」)。 接受ACTILYSE治療的急性缺血性中風病人發生顱內出血的危險性，比其他適應症者明顯增加，此係因其出血主要發生於梗塞之部位。 下列情況尤然： 禁忌症所列出的所有情況和涉及一般出血高危險性的所有情況 腦血管無症狀的小血管瘤 太晚開始治療 先接受 acetyl salicylic acid (ASA) 治療的病人可能有較高的顱內出血危險性，尤其是當ACTILYSE的治療被延遲時。 相較於較年輕的病人，80歲以上之病人當血栓溶解時發生顱內出血的風險可能會升高，治療淨效益也可能較低。急性缺血性中風病人必須依據個別狀況評估其血栓溶解的效益風險。 基於下列因素有不利的效益/風險比，所以，勿在症狀發作超過4.5小時後才給予本藥治療： 治療效益隨時間增加而減少 特別是對先前接受ASA治療的病人，死亡率會增加 增加症狀性出血之危險性 血壓監控 在給予治療的最初24小時內時應監視病人的血壓。如收縮壓＞180 mmHg或舒張壓＞105 mmHg，建議應靜脈給予抗高血壓的治療。 效益/風險比較差的特殊病人族群 血栓溶解治療對曾發生中風或未被控制的糖尿病病人(參閱「禁忌症」)，其效益/風險比被認為較差，然而對這些病人仍具正面價值。因中風病史及糖尿病為血栓溶解治療之不良結果預測因子，對於曾發生中風且合併有糖尿病的病人，給予ACTILYSE 治療的效益/風險比應該被完整地評估。 對極輕微中風的病人，本藥之危險性超過預期的利益，所以這類病人不應給予ACTILYSE治療。 中風極嚴重的病人是處於顱內出血和死亡的高危險性，所以不應給予ACTILYSE治療。 廣泛性梗塞的病人其預後差(包括嚴重性出血和死亡)危險性較高，所以對這類病人應謹慎評估治療的效益/風險比。 由於急性缺血性中風被誤診之危險性增加，對血糖濃度< 50 mg/dl或> 400 mg/dl的病人，尤應謹慎診斷。此外，對於中風發作時併發癲癇的病人，亦應謹慎診斷；如癲癇症狀後仍有殘存神經學症狀無法排除為中風導致，並認為非癲癇發作後的麻痺(Todd’s paralysis)，在決定是否給予ACTILYSE 治療前，應完整評估病人接受ACTILYSE 的效益/風險比。 rt-PA使用於急性缺血性中風的病人，其改善預後的效果可能會隨著病人年齡、中風的嚴重性以及入院時血糖濃度增加而降低，可能會導致殘疾、死亡或顱內出血增加，因此rt-PA宜謹慎使用於超過80歲之老人的急性缺血中風。 已有臨床試驗針對較低的劑量進行研究。相較於標準劑量，低劑量使用雖無法達到不劣性的試驗終點，但其發生有症狀性顱內出血 (symptomatic intracerebaral hemorrhage，sICH)的機率較低(A-Ching Chao, et al.; ENCHANTED)。 腦水腫 缺血性區域之再灌流 (reperfusion) 可能誘發梗塞區域之腦水腫。 賦形劑 ACTILYSE含有polysorbate 80： 50毫克小瓶包裝中，每瓶含有5.0毫克polysorbate 80；20 毫克小瓶包裝中，每瓶含有2.0 毫克polysorbate 80。Polysorbates可能導致過敏反應。",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>治療急性心肌梗塞、急性大片肺栓塞和急性缺血性中風</strong></span></p><p style=\"text-align:justify;\">ACTILYSE<span style=\"font-family:標楷體;\">應在具監視其使用之設備下，由具使用血栓溶解劑經驗的醫師處方。這不排除到院前使用</span>ACTILYSE<span style=\"font-family:標楷體;\">。如同其他的血栓溶解劑，建議應在具備標準心肺復甦設備及藥物的情形下，投予</span>ACTILYSE<span style=\"font-family:標楷體;\">。</span></p><p style=\"margin-left:.05pt;text-align:justify;\">&nbsp;</p><p style=\"margin-left:.05pt;text-align:justify;\"><span style=\"font-family:標楷體;\"><u>可追溯性</u></span></p><p style=\"margin-left:.05pt;text-align:justify;\"><span style=\"font-family:標楷體;\">為提高生物藥品的可追溯性，應將所施用的藥品商品名和批號清楚地記錄在病人檔案中。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>過敏</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">投予</span>ACTILYSE<span style=\"font-family:標楷體;\">時伴隨發生免疫機制媒介之過敏反應的情形可能是病人對其活性成分</span>alteplase<span style=\"font-family:標楷體;\">、任何賦形劑</span>(<span style=\"font-family:標楷體;\">參閱「禁忌症」</span>)<span style=\"font-family:標楷體;\">。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">未曾在治療之後發現對人類組織型胞漿素原活化酶分子持續產生抗體的現象。在重新投予</span>ACTILYSE<span style=\"font-family:標楷體;\">方面，目前並無任何系統性的經驗。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">另有透過非免疫機制媒介之過敏反應的風險。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">血管性水腫</span>(Angio-oedema)<span style=\"font-family:標楷體;\">是</span>ACTILYSE<span style=\"font-family:標楷體;\">最常見的過敏反應。在急性缺血性中風和</span>/<span style=\"font-family:標楷體;\">或</span>ACE<span style=\"font-family:標楷體;\">抑制劑的合併治療中，這種風險可能會增加</span>(<span style=\"font-family:標楷體;\">參閱「交互作用」</span>)<span style=\"font-family:標楷體;\">。在</span>ACTILYSE<span style=\"font-family:標楷體;\">輸注期間和輸注後</span>24<span style=\"font-family:標楷體;\">小時內，接受治療的病人應監測血管性水腫。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">如果發生嚴重過敏反應</span>(<span style=\"font-family:標楷體;\">如</span>:<span style=\"font-family:標楷體;\">血管性水腫</span>)<span style=\"font-family:標楷體;\">，應停止輸注，並立即採取適當的治療措施，包含插管。</span></p><p style=\"margin-left:6.3pt;text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>血栓栓塞症</u></span></p><p><span style=\"font-family:標楷體;\">對於發生左心血栓風險較高的病人</span>(<span style=\"font-family:標楷體;\">例如患有僧帽瓣狹窄或心室纖維性顫動等</span>)<span style=\"font-family:標楷體;\">，使用</span>ACTILYSE<span style=\"font-family:標楷體;\">可能會增加血栓栓塞事件的風險。</span></p><p style=\"margin-left:6.3pt;text-align:justify;\">&nbsp;</p><p style=\"margin-left:6.3pt;text-align:justify;\"><span style=\"font-family:標楷體;\"><u>出血</u></span></p><p><span style=\"font-family:標楷體;\">以</span>ACTILYSE<span style=\"font-family:標楷體;\">治療時，最常見的合併症是出血。併用其他影響凝血或血小板功能的活性物質可能導致出血。</span>(<span style=\"font-family:標楷體;\">參閱「用法用量」、「禁忌症」及「交互作用」</span>)&nbsp;<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">由於在</span>ACTILYSE<span style=\"font-family:標楷體;\">治療時，纖維蛋白被溶解，故可能會自最近穿刺的部位出血，所以，在採用血栓溶解劑時，對於所有可能出血的部位</span>(<span style=\"font-family:標楷體;\">包括插入導管之部位、動脈</span>∕<span style=\"font-family:標楷體;\">靜脈穿刺之切口及針刺之部位</span>)<span style=\"font-family:標楷體;\">需特別注意。在</span>ACTILYSE<span style=\"font-family:標楷體;\">治療時，應避免使用硬式導管、肌內注射及對病人做非必要之處置。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">如發生嚴重出血，尤其是腦部出血時，必須停止給予纖維蛋白溶解劑和</span>heparin<span style=\"font-family:標楷體;\">。如出血前</span>4<span style=\"font-family:標楷體;\">小時內曾併用</span>heparin<span style=\"font-family:標楷體;\">，則應考慮投與</span>protamine<span style=\"font-family:標楷體;\">。少數病人對這些保守方法的反應無效，輸血可能是明智之舉。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">可考慮以冷凍沉澱品、新鮮冷凍血漿、血小板來輸血，並在每次輸血後進行臨床和檢驗的評估。採冷凍沉澱品輸注時，纖維蛋白原之理想濃度目標為</span>1<span style=\"font-family:標楷體;\">公克∕公升。抗纖維蛋白溶解劑也應被考慮投予。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">治療急性心肌梗塞或肺栓塞時，</span>ACTILYSE<span style=\"font-family:標楷體;\">的劑量勿超過</span>100<span style=\"font-family:標楷體;\">毫克，治療急性缺血性中風的劑量勿超過</span>90<span style=\"font-family:標楷體;\">毫克，因為超過前述劑量曾發生增加顱內出血的危險性。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">使用</span>ACTILYSE<span style=\"font-family:標楷體;\">於任何會增加出血狀況時，必須謹慎衡量其治療效益勝於危險時，才可使用，尤指下列狀況：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">在禁忌症未提到但會增加出血危險的狀況。</span></li><li><span style=\"font-family:標楷體;\">正接受口服抗凝血劑治療的病人</span>:&nbsp;<span style=\"font-family:標楷體;\">當適當的抗凝血活性檢測顯示無臨床相關活性時，便可以考慮使用</span>ACTILYSE<span style=\"font-family:標楷體;\">。</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">過久的</span>(<span style=\"font-family:標楷體;\">超過</span>2<span style=\"font-family:標楷體;\">分鐘</span>)<span style=\"font-family:標楷體;\">或創傷性的心肺復甦術或心臟按摩</span></li><li><span style=\"font-family:標楷體;\">最近曾肌內注射或最近有小外傷，例如切片檢查、主要血管穿刺</span></li></ul><p style=\"margin-left:17.85pt;text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>治療急性心肌梗塞及急性大片肺栓塞時，需特別注意：</strong></span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">收縮壓＞</span>160mmHg (<span style=\"font-family:標楷體;\">參閱「禁忌症」</span>)</li><li><span style=\"font-family:標楷體;\">年長病人</span>(<span style=\"font-family:標楷體;\">特別是</span>75<span style=\"font-family:標楷體;\">歲或以上</span>)<span style=\"font-family:標楷體;\">，因可能增加顱內出血的危險性</span></li><li style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">體重較輕的病人</span></li></ul><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><strong>治療急性心肌梗塞時，需特別注意：</strong></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>心律不整</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">冠狀動脈血栓溶解，在血流再灌注時，會伴隨心律不整。</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">再灌流性心律不整可能會導致心跳停止、危及生命、並可能須使用傳統的抗心律不整藥物治療。</span></p><p style=\"text-align:justify;\"><u>&nbsp;</u></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>醣蛋白</u></span><u>&nbsp;(Glyco-protein) IIb/IIIa</u><span style=\"font-family:標楷體;\"><u>之受體拮抗劑</u></span></p><p><span style=\"font-family:標楷體;\">合併使用</span>GP IIb/IIIa<span style=\"font-family:標楷體;\"><u>受體拮抗劑</u>會增加出血風險。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><strong>治療急性缺血性中風時需特別注意：</strong></span></p><p><span style=\"font-family:標楷體;\">必須由受過訓練且有神經血管照護經驗的醫師治療。</span></p><p><span style=\"font-family:標楷體;\">本藥只限於具適當評估及處理顱內出血設施的場所使用。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">除了前述之禁忌症外，在下列情況使用</span>ACTILYSE<span style=\"font-family:標楷體;\">治療急性缺血性中風可能會增加危險性，故應權衡治療之預期利益和危險性。</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">嚴重神經機能缺損的病人</span>(<span style=\"font-family:標楷體;\">例如</span>NIHSS&gt;22)<span style=\"font-family:標楷體;\">。這類病人有較高之顱內出血危險性</span></li><li><span style=\"font-family:標楷體;\">電腦斷層掃描顯示病人早期有重大梗塞的徴兆</span> [<span style=\"font-family:標楷體;\">例如大量水腫、腫塊效應或中線偏移</span>&nbsp;(midline shift)]</li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">對最近未曾使用抗凝血劑或</span>heparin<span style=\"font-family:標楷體;\">治療的病人，可在未獲得凝血參數前先開始</span>ACTILYSE<span style=\"font-family:標楷體;\">的治療，然而如治療前之</span>International Normalized Ratio (INR)&gt;1.7<span style=\"font-family:標楷體;\">或</span>prothrombin time (PT)&gt;15<span style=\"font-family:標楷體;\">秒或</span>aPTT<span style=\"font-family:標楷體;\">過高，應立即停止</span>ACTILYSE<span style=\"font-family:標楷體;\">之輸注。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>出血</u></span></p><p><span style=\"font-family:標楷體;\">最常見的副作用是顱內出血</span>(<span style=\"font-family:標楷體;\">請參閱「副作用</span>/<span style=\"font-family:標楷體;\">不良反應」</span>)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">接受</span>ACTILYSE<span style=\"font-family:標楷體;\">治療的急性缺血性中風病人發生顱內出血的危險性，比其他適應症者明顯增加，此係因其出血主要發生於梗塞之部位。</span></p><p><span style=\"font-family:標楷體;\">下列情況尤然：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">禁忌症所列出的所有情況和涉及一般出血高危險性的所有情況</span></li><li><span style=\"font-family:標楷體;\">腦血管無症狀的小血管瘤</span></li><li><span style=\"font-family:標楷體;\">太晚開始治療</span></li><li><span style=\"font-family:標楷體;\">先接受</span> acetyl salicylic acid (ASA)&nbsp;<span style=\"font-family:標楷體;\">治療的病人可能有較高的顱內出血危險性，尤其是當</span>ACTILYSE<span style=\"font-family:標楷體;\">的治療被延遲時。</span></li><li><span style=\"font-family:標楷體;\">相較於較年輕的病人，</span>80<span style=\"font-family:標楷體;\">歲以上之病人當血栓溶解時發生顱內出血的風險可能會升高，治療淨效益也可能較低。急性缺血性中風病人必須依據個別狀況評估其血栓溶解的效益風險。</span></li></ul><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">基於下列因素有不利的效益</span>/<span style=\"font-family:標楷體;\">風險比，所以，勿在症狀發作超過</span>4.5<span style=\"font-family:標楷體;\">小時後才給予本藥治療：</span></p><ul style=\"list-style-type:disc;\"><li><span style=\"font-family:標楷體;\">治療效益隨時間增加而減少</span></li><li><span style=\"font-family:標楷體;\">特別是對先前接受</span>ASA<span style=\"font-family:標楷體;\">治療的病人，死亡率會增加</span></li><li><span style=\"font-family:標楷體;\">增加症狀性出血之危險性</span></li></ul><p style=\"text-align:justify;\">&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>血壓監控</u></span></p><p><span style=\"font-family:標楷體;\">在給予治療的最初</span>24<span style=\"font-family:標楷體;\">小時內時應監視病人的血壓。如收縮壓＞</span>180 mmHg<span style=\"font-family:標楷體;\">或舒張壓＞</span>105 mmHg<span style=\"font-family:標楷體;\">，建議應靜脈給予抗高血壓的治療。</span></p><p><u>&nbsp;</u></p><p><span style=\"font-family:標楷體;\"><u>效益</u></span><u>/</u><span style=\"font-family:標楷體;\"><u>風險比較差的特殊病人族群</u></span></p><p><span style=\"font-family:標楷體;\">血栓溶解治療對曾發生中風或未被控制的糖尿病病人</span>(<span style=\"font-family:標楷體;\">參閱「禁忌症」</span>)<span style=\"font-family:標楷體;\">，其效益</span>/<span style=\"font-family:標楷體;\">風險比被認為較差，然而對這些病人仍具正面價值。因中風病史及糖尿病為血栓溶解治療之不良結果預測因子，對於曾發生中風且合併有糖尿病的病人，給予</span>ACTILYSE&nbsp;<span style=\"font-family:標楷體;\">治療的效益</span>/<span style=\"font-family:標楷體;\">風險比應該被完整地評估。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">對極輕微中風的病人，本藥之危險性超過預期的利益，所以這類病人不應給予</span>ACTILYSE<span style=\"font-family:標楷體;\">治療。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">中風極嚴重的病人是處於顱內出血和死亡的高危險性，所以不應給予</span>ACTILYSE<span style=\"font-family:標楷體;\">治療。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">廣泛性梗塞的病人其預後差</span>(<span style=\"font-family:標楷體;\">包括嚴重性出血和死亡</span>)<span style=\"font-family:標楷體;\">危險性較高，所以對這類病人應謹慎評估治療的效益</span>/<span style=\"font-family:標楷體;\">風險比。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">由於急性缺血性中風被誤診之危險性增加，對血糖濃度</span>&lt; 50 mg/dl<span style=\"font-family:標楷體;\">或</span>&gt; 400 mg/dl<span style=\"font-family:標楷體;\">的病人，尤應謹慎診斷。此外，對於中風發作時併發癲癇的病人，亦應謹慎診斷；如癲癇症狀後仍有殘存神經學症狀無法排除為中風導致，並認為非癲癇發作後的麻痺</span>(Todd’s paralysis)<span style=\"font-family:標楷體;\">，在決定是否給予</span>ACTILYSE&nbsp;<span style=\"font-family:標楷體;\">治療前，應完整評估病人接受</span>ACTILYSE&nbsp;<span style=\"font-family:標楷體;\">的效益</span>/<span style=\"font-family:標楷體;\">風險比。</span></p><p>&nbsp;</p><p>rt-PA<span style=\"font-family:標楷體;\">使用於急性缺血性中風的病人，其改善預後的效果可能會隨著病人年齡、中風的嚴重性以及入院時血糖濃度增加而降低，可能會導致殘疾、死亡或顱內出血增加，因此</span>rt-PA<span style=\"font-family:標楷體;\">宜謹慎使用於超過</span>80<span style=\"font-family:標楷體;\">歲之老人的急性缺血中風。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\">已有臨床試驗針對較低的劑量進行研究。相較於標準劑量，低劑量使用雖無法達到不劣性的試驗終點，但其發生有症狀性顱內出血</span>&nbsp;(symptomatic intracerebaral hemorrhage<span style=\"font-family:標楷體;\">，</span>sICH)<span style=\"font-family:標楷體;\">的機率較低</span>(A-Ching Chao, et al.; ENCHANTED)<span style=\"font-family:標楷體;\">。</span></p><p>&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>腦水腫</u></span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">缺血性區域之再灌流</span>&nbsp;(reperfusion)&nbsp;<span style=\"font-family:標楷體;\">可能誘發梗塞區域之腦水腫。</span></p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\"><u>賦形劑</u></span></p><p>ACTILYSE<span style=\"font-family:標楷體;\">含有</span>polysorbate 80：</p><p>50<span style=\"font-family:標楷體;\">毫克小瓶包裝中，每瓶含有</span>5.0<span style=\"font-family:標楷體;\">毫克</span>polysorbate 80<span style=\"font-family:標楷體;\">；</span>20&nbsp;<span style=\"font-family:標楷體;\">毫克小瓶包裝中，每瓶含有</span>2.0&nbsp;<span style=\"font-family:標楷體;\">毫克</span>polysorbate 80<span style=\"font-family:標楷體;\">。</span>Polysorbates<span style=\"font-family:標楷體;\">可能導致過敏反應。</span></p>",
+          "search_text": "5.1\n警語/注意事項\n治療急性心肌梗塞、急性大片肺栓塞和急性缺血性中風 ACTILYSE應在具監視其使用之設備下，由具使用血栓溶解劑經驗的醫師處方。這不排除到院前使用ACTILYSE。如同其他的血栓溶解劑，建議應在具備標準心肺復甦設備及藥物的情形下，投予ACTILYSE。 可追溯性 為提高生物藥品的可追溯性，應將所施用的藥品商品名和批號清楚地記錄在病人檔案中。 過敏 投予ACTILYSE時伴隨發生免疫機制媒介之過敏反應的情形可能是病人對其活性成分alteplase、任何賦形劑(參閱「禁忌症」)。 未曾在治療之後發現對人類組織型胞漿素原活化酶分子持續產生抗體的現象。在重新投予ACTILYSE方面，目前並無任何系統性的經驗。 另有透過非免疫機制媒介之過敏反應的風險。 血管性水腫(Angio-oedema)是ACTILYSE最常見的過敏反應。在急性缺血性中風和/或ACE抑制劑的合併治療中，這種風險可能會增加(參閱「交互作用」)。在ACTILYSE輸注期間和輸注後24小時內，接受治療的病人應監測血管性水腫。 如果發生嚴重過敏反應(如:血管性水腫)，應停止輸注，並立即採取適當的治療措施，包含插管。 血栓栓塞症 對於發生左心血栓風險較高的病人(例如患有僧帽瓣狹窄或心室纖維性顫動等)，使用ACTILYSE可能會增加血栓栓塞事件的風險。 出血 以ACTILYSE治療時，最常見的合併症是出血。併用其他影響凝血或血小板功能的活性物質可能導致出血。(參閱「用法用量」、「禁忌症」及「交互作用」) 。 由於在ACTILYSE治療時，纖維蛋白被溶解，故可能會自最近穿刺的部位出血，所以，在採用血栓溶解劑時，對於所有可能出血的部位(包括插入導管之部位、動脈∕靜脈穿刺之切口及針刺之部位)需特別注意。在ACTILYSE治療時，應避免使用硬式導管、肌內注射及對病人做非必要之處置。 如發生嚴重出血，尤其是腦部出血時，必須停止給予纖維蛋白溶解劑和heparin。如出血前4小時內曾併用heparin，則應考慮投與protamine。少數病人對這些保守方法的反應無效，輸血可能是明智之舉。 可考慮以冷凍沉澱品、新鮮冷凍血漿、血小板來輸血，並在每次輸血後進行臨床和檢驗的評估。採冷凍沉澱品輸注時，纖維蛋白原之理想濃度目標為1公克∕公升。抗纖維蛋白溶解劑也應被考慮投予。 治療急性心肌梗塞或肺栓塞時，ACTILYSE的劑量勿超過100毫克，治療急性缺血性中風的劑量勿超過90毫克，因為超過前述劑量曾發生增加顱內出血的危險性。 使用ACTILYSE於任何會增加出血狀況時，必須謹慎衡量其治療效益勝於危險時，才可使用，尤指下列狀況： 在禁忌症未提到但會增加出血危險的狀況。 正接受口服抗凝血劑治療的病人: 當適當的抗凝血活性檢測顯示無臨床相關活性時，便可以考慮使用ACTILYSE。 過久的(超過2分鐘)或創傷性的心肺復甦術或心臟按摩 最近曾肌內注射或最近有小外傷，例如切片檢查、主要血管穿刺 治療急性心肌梗塞及急性大片肺栓塞時，需特別注意： 收縮壓＞160mmHg (參閱「禁忌症」) 年長病人(特別是75歲或以上)，因可能增加顱內出血的危險性 體重較輕的病人 治療急性心肌梗塞時，需特別注意： 心律不整 冠狀動脈血栓溶解，在血流再灌注時，會伴隨心律不整。 再灌流性心律不整可能會導致心跳停止、危及生命、並可能須使用傳統的抗心律不整藥物治療。 醣蛋白 (Glyco-protein) IIb/IIIa之受體拮抗劑 合併使用GP IIb/IIIa受體拮抗劑會增加出血風險。 治療急性缺血性中風時需特別注意： 必須由受過訓練且有神經血管照護經驗的醫師治療。 本藥只限於具適當評估及處理顱內出血設施的場所使用。 除了前述之禁忌症外，在下列情況使用ACTILYSE治療急性缺血性中風可能會增加危險性，故應權衡治療之預期利益和危險性。 嚴重神經機能缺損的病人(例如NIHSS>22)。這類病人有較高之顱內出血危險性 電腦斷層掃描顯示病人早期有重大梗塞的徴兆 [例如大量水腫、腫塊效應或中線偏移 (midline shift)] 對最近未曾使用抗凝血劑或heparin治療的病人，可在未獲得凝血參數前先開始ACTILYSE的治療，然而如治療前之International Normalized Ratio (INR)>1.7或prothrombin time (PT)>15秒或aPTT過高，應立即停止ACTILYSE之輸注。 出血 最常見的副作用是顱內出血(請參閱「副作用/不良反應」)。 接受ACTILYSE治療的急性缺血性中風病人發生顱內出血的危險性，比其他適應症者明顯增加，此係因其出血主要發生於梗塞之部位。 下列情況尤然： 禁忌症所列出的所有情況和涉及一般出血高危險性的所有情況 腦血管無症狀的小血管瘤 太晚開始治療 先接受 acetyl salicylic acid (ASA) 治療的病人可能有較高的顱內出血危險性，尤其是當ACTILYSE的治療被延遲時。 相較於較年輕的病人，80歲以上之病人當血栓溶解時發生顱內出血的風險可能會升高，治療淨效益也可能較低。急性缺血性中風病人必須依據個別狀況評估其血栓溶解的效益風險。 基於下列因素有不利的效益/風險比，所以，勿在症狀發作超過4.5小時後才給予本藥治療： 治療效益隨時間增加而減少 特別是對先前接受ASA治療的病人，死亡率會增加 增加症狀性出血之危險性 血壓監控 在給予治療的最初24小時內時應監視病人的血壓。如收縮壓＞180 mmHg或舒張壓＞105 mmHg，建議應靜脈給予抗高血壓的治療。 效益/風險比較差的特殊病人族群 血栓溶解治療對曾發生中風或未被控制的糖尿病病人(參閱「禁忌症」)，其效益/風險比被認為較差，然而對這些病人仍具正面價值。因中風病史及糖尿病為血栓溶解治療之不良結果預測因子，對於曾發生中風且合併有糖尿病的病人，給予ACTILYSE 治療的效益/風險比應該被完整地評估。 對極輕微中風的病人，本藥之危險性超過預期的利益，所以這類病人不應給予ACTILYSE治療。 中風極嚴重的病人是處於顱內出血和死亡的高危險性，所以不應給予ACTILYSE治療。 廣泛性梗塞的病人其預後差(包括嚴重性出血和死亡)危險性較高，所以對這類病人應謹慎評估治療的效益/風險比。 由於急性缺血性中風被誤診之危險性增加，對血糖濃度< 50 mg/dl或> 400 mg/dl的病人，尤應謹慎診斷。此外，對於中風發作時併發癲癇的病人，亦應謹慎診斷；如癲癇症狀後仍有殘存神經學症狀無法排除為中風導致，並認為非癲癇發作後的麻痺(Todd’s paralysis)，在決定是否給予ACTILYSE 治療前，應完整評估病人接受ACTILYSE 的效益/風險比。 rt-PA使用於急性缺血性中風的病人，其改善預後的效果可能會隨著病人年齡、中風的嚴重性以及入院時血糖濃度增加而降低，可能會導致殘疾、死亡或顱內出血增加，因此rt-PA宜謹慎使用於超過80歲之老人的急性缺血中風。 已有臨床試驗針對較低的劑量進行研究。相較於標準劑量，低劑量使用雖無法達到不劣性的試驗終點，但其發生有症狀性顱內出血 (symptomatic intracerebaral hemorrhage，sICH)的機率較低(A-Ching Chao, et al.; ENCHANTED)。 腦水腫 缺血性區域之再灌流 (reperfusion) 可能誘發梗塞區域之腦水腫。 賦形劑 ACTILYSE含有polysorbate 80： 50毫克小瓶包裝中，每瓶含有5.0毫克polysorbate 80；20 毫克小瓶包裝中，每瓶含有2.0 毫克polysorbate 80。Polysorbates可能導致過敏反應。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "ACTILYSE使用於孕婦上的相關文獻資料有限。 非臨床研究顯示給予高於人類使用劑量的ACTILYSE會導致胎兒的不成熟性及/或胚胎毒性，為藥物已知藥理活性引起之次級反應。ACTILYSE不被認為具致畸胎性。(參閱「臨床前安全性資料」)。 若發生緊急生命受威脅的疾病時，必須評估過，其效益性優於其潛在危險性，始可使用。",
+          "content_html": "<p>ACTILYSE使用於孕婦上的相關文獻資料有限。<br>非臨床研究顯示給予高於人類使用劑量的ACTILYSE會導致胎兒的不成熟性及/或胚胎毒性，為藥物已知藥理活性引起之次級反應。ACTILYSE不被認為具致畸胎性。(參閱「臨床前安全性資料」)。<br>若發生緊急生命受威脅的疾病時，必須評估過，其效益性優於其潛在危險性，始可使用。</p>",
+          "search_text": "6.1\n懷孕\nACTILYSE使用於孕婦上的相關文獻資料有限。 非臨床研究顯示給予高於人類使用劑量的ACTILYSE會導致胎兒的不成熟性及/或胚胎毒性，為藥物已知藥理活性引起之次級反應。ACTILYSE不被認為具致畸胎性。(參閱「臨床前安全性資料」)。 若發生緊急生命受威脅的疾病時，必須評估過，其效益性優於其潛在危險性，始可使用。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "目前仍未知alteplase是否會從人類乳汁分泌。 哺乳期婦女應謹慎服用ACTILYSE，並且必須決定是否應在服用ACTILYSE後的24小時內停止母乳餵養。",
+          "content_html": "<p>目前仍未知alteplase是否會從人類乳汁分泌。</p><p>哺乳期婦女應謹慎服用ACTILYSE，並且必須決定是否應在服用ACTILYSE後的24小時內停止母乳餵養。</p>",
+          "search_text": "6.2\n哺乳\n目前仍未知alteplase是否會從人類乳汁分泌。 哺乳期婦女應謹慎服用ACTILYSE，並且必須決定是否應在服用ACTILYSE後的24小時內停止母乳餵養。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "對於生育力影響目前尚無相關研究(請見「臨床前安全性資料」)。根據非臨床研究顯示，Alteplase並無生育力方面的副作用(參閱「臨床前安全性資料」)。",
+          "content_html": "<p>對於生育力影響目前尚無相關研究(請見「臨床前安全性資料」)。根據非臨床研究顯示，Alteplase並無生育力方面的副作用(參閱「臨床前安全性資料」)。</p>",
+          "search_text": "6.3\n有生育能力的女性與男性\n對於生育力影響目前尚無相關研究(請見「臨床前安全性資料」)。根據非臨床研究顯示，Alteplase並無生育力方面的副作用(參閱「臨床前安全性資料」)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "兒科族群 至今，ACTILYSE使用於兒童的經驗相當有限。",
+          "content_html": "<p style=\"text-align:justify;\"><u>兒科族群</u></p><p style=\"text-align:justify;\">至今，ACTILYSE使用於兒童的經驗相當有限。</p>",
+          "search_text": "6.4\n小兒\n兒科族群 至今，ACTILYSE使用於兒童的經驗相當有限。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "尚未有ACTILYSE與常使用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風病人藥物間之交互作用的研究。 影響血液凝固/血小板功能之藥物 會影響血液凝固或改變血小板功能之藥物，可能會增加ACTILYSE使用前、使用中或使用後出血的危險性(參閱「禁忌」)。在使用ACTILYSE治療急性缺血性中風後的最初24小時內應避免使用這些藥物。(參閱「用法用量」及「警語及注意事項」) ACE抑制劑 併用ACE抑制劑可能會增加發生過敏反應的危險性(參閱「警語及注意事項」)。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">尚未有</span>ACTILYSE<span style=\"font-family:標楷體;\">與常使用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風病人藥物間之交互作用的研究。</span></p><p>&nbsp;</p><p><span style=\"font-family:標楷體;\"><u>影響血液凝固</u></span><u>/</u><span style=\"font-family:標楷體;\"><u>血小板功能之藥物</u></span></p><p><span style=\"font-family:標楷體;\">會影響血液凝固或改變血小板功能之藥物，可能會增加</span>ACTILYSE<span style=\"font-family:標楷體;\">使用前、使用中或使用後出血的危險性</span><span style=\"color:black;\">(</span><span style=\"color:black;font-family:標楷體;\">參閱「禁忌」</span><span style=\"color:black;\">)</span><span style=\"color:black;font-family:標楷體;\">。</span><span style=\"font-family:標楷體;\">在使用</span>ACTILYSE<span style=\"font-family:標楷體;\">治療急性缺血性中風後的最初</span>24<span style=\"font-family:標楷體;\">小時內應避免使用這些藥物。</span>(<span style=\"font-family:標楷體;\">參閱「用法用量」及「警語及注意事項」</span>)</p><p>&nbsp;</p><p><u>ACE</u><span style=\"font-family:標楷體;\"><u>抑制劑</u></span></p><p><span style=\"font-family:標楷體;\">併用</span>ACE<span style=\"font-family:標楷體;\">抑制劑可能會增加發生過敏反應的危險性</span>(<span style=\"font-family:標楷體;\">參閱「警語及注意事項」</span>)<span style=\"font-family:標楷體;\">。</span></p>",
+          "search_text": "7\n交互作用\n尚未有ACTILYSE與常使用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風病人藥物間之交互作用的研究。 影響血液凝固/血小板功能之藥物 會影響血液凝固或改變血小板功能之藥物，可能會增加ACTILYSE使用前、使用中或使用後出血的危險性(參閱「禁忌」)。在使用ACTILYSE治療急性缺血性中風後的最初24小時內應避免使用這些藥物。(參閱「用法用量」及「警語及注意事項」) ACE抑制劑 併用ACE抑制劑可能會增加發生過敏反應的危險性(參閱「警語及注意事項」)。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "使用ACTILYSE最常發生的不良反應是因出血(≥1:100 to <1:10: 大出血; ≥1:10: 任何形式之出血)造成全身血球容積和∕或血紅素降低。發生在任何部位或體腔的出血，可能導致生命危急、永久性殘疾或死亡。 使用血栓溶解劑治療所引起之出血分為以下兩大類： - 表面出血，通常發生在血管穿刺或損傷部位。 - 任何部位或體腔之內出血。 可能與顱內出血有關的神經方面症狀(如嗜睡、失語、肢體無力、痙攣)。 與本試驗之急性心肌梗塞病人數相較，在臨床試驗中因急性大片肺栓塞及急性缺血性中風(在發作後的4.5小時內)而接受治療的病人數是非常少，所以其與急性心肌梗塞所觀察到數字的小差異可能係因樣本數目太小所致。除了在適應症為急性缺血性中風的顱內出血副作用及適應症為急性心肌梗塞的再灌流性心律不整副作用外，以急性大片肺栓塞和急性缺血性中風為適應症時，並無醫學上的理由可假設ACTILYSE之副作用性質及數量與使用於急性心肌梗塞時不同。 免疫系統之障礙 >1:1,000，≤ 1:100: 類過敏性反應，通常輕微但在少數病例可能會危及性命。其症狀可能為 o 出疹 o 蕁麻疹 o 支氣管痙攣 o 血管性水腫 o 低血壓 o 休克或其他與過敏有關之症狀 神經系統之障礙 - 顱內出血，當適應症為心肌梗塞及肺栓塞時: >1:1000，≤ 1:100; 當適應症為急性缺血性中風時: >1:100，≤ 1:10，如 腦出血 腦血腫 出血性中風 出血性轉化中風 顱內血腫 蜘蛛膜下腔出血 眼部之障礙 ≤ 1:10,000: -眼睛出血。 心臟之障礙 > 1:1,000，≤ 1:100: -心包出血。 血管之障礙 > 1:10: -出血(如血腫)。 > 1:1,000，≤ 1:100: -栓塞，可能對相關器官造成影響。 > 1:10,000，≤ 1:1,000: -實質器官出血，如 o 肝出血 呼吸道、胸廓和縱膈之障礙 > 1:100，≤ 1:10: -呼吸道出血，如 o 咽喉出血 o 咳血 o 鼻出血 o 肺出血 胃腸系統之障礙 > 1:100，≤ 1:10: -胃腸道出血，如 o 胃出血 o 胃潰瘍出血 o 直腸出血 o 嘔血 o 黑糞 o 口腔出血 > 1:1,000，≤ 1:100: o 齒齦出血 o 後腹腔出血，如後腹腔血腫 > 1:100，≤ 1:10: o 噁心 o 嘔吐 心肌梗塞也可能出現噁心、嘔吐。 皮膚及皮下組織之障礙 > 1:100 ，≤ 1:10: -瘀斑。 腎臟及泌尿道之障礙 > 1:100，≤ 1:10: -泌尿生殖器出血，如 o 血尿 o 泌尿道出血 一般障礙及給藥部位之狀況 > 1:10: -注射部位出血、穿刺部位出血，如 o 導管部位血腫 o 導管部位出血 研究調查之副作用 > 1:10: -血壓下降。 > 1:100，≤ 1:10: -體溫上升。 受傷、中毒和操作之合併症 > 1:10,000，≤ 1:1,000: -脂肪栓塞*，可能對相關器官造成影響。 手術和醫學之操作： > 1:100，≤ 1:10: -全血輸血。 *脂肪栓塞是發現自發性報告，並未在臨床試驗族群中觀察到。 適應症為心肌梗塞時之其他不良反應： 心臟之障礙 > 1:10: -再灌流性心律不整，如 o 心律不整 o 心臟之期外收縮 o 心房纖維性顫動 o 房室傳導阻滯(第1級至完全性房室傳導阻滯) o 心搏過慢 o 心搏過速 o 心室心律不整 o 心室性纖維顫動 o 心室性心搏過速與ACTILYSE治療存在短暫密切的關係",
+          "content_html": "<p>使用ACTILYSE最常發生的不良反應是因出血(≥1:100 to &lt;1:10: 大出血; ≥1:10: 任何形式之出血)造成全身血球容積和∕或血紅素降低。發生在任何部位或體腔的出血，可能導致生命危急、永久性殘疾或死亡。<br>使用血栓溶解劑治療所引起之出血分為以下兩大類：<br>- 表面出血，通常發生在血管穿刺或損傷部位。<br>- 任何部位或體腔之內出血。<br>可能與顱內出血有關的神經方面症狀(如嗜睡、失語、肢體無力、痙攣)。<br>與本試驗之急性心肌梗塞病人數相較，在臨床試驗中因急性大片肺栓塞及急性缺血性中風(在發作後的4.5小時內)而接受治療的病人數是非常少，所以其與急性心肌梗塞所觀察到數字的小差異可能係因樣本數目太小所致。除了在適應症為急性缺血性中風的顱內出血副作用及適應症為急性心肌梗塞的再灌流性心律不整副作用外，以急性大片肺栓塞和急性缺血性中風為適應症時，並無醫學上的理由可假設ACTILYSE之副作用性質及數量與使用於急性心肌梗塞時不同。<br>&nbsp;</p><p><u>免疫系統之障礙</u><br>&gt;1:1,000，≤ 1:100: 類過敏性反應，通常輕微但在少數病例可能會危及性命。其症狀可能為<br>&nbsp; &nbsp;o 出疹<br>&nbsp; &nbsp;o 蕁麻疹<br>&nbsp; &nbsp;o 支氣管痙攣<br>&nbsp; &nbsp;o 血管性水腫<br>&nbsp; &nbsp;o 低血壓<br>&nbsp; &nbsp;o 休克或其他與過敏有關之症狀</p><p><u>神經系統之障礙</u></p><p>- 顱內出血，當適應症為心肌梗塞及肺栓塞時: &gt;1:1000，≤&nbsp;1:100;&nbsp;當適應症為急性缺血性中風時: &gt;1:100，≤&nbsp;1:10，如</p><ul style=\"list-style-type:circle;\"><li>腦出血</li><li>腦血腫</li><li>出血性中風</li><li>出血性轉化中風</li><li>顱內血腫</li><li>蜘蛛膜下腔出血</li></ul><p><u>眼部之障礙</u><br>≤ 1:10,000: -眼睛出血。</p><p>&nbsp;</p><p><u>心臟之障礙</u><br>&gt; 1:1,000，≤ 1:100: -心包出血。<br>&nbsp;</p><p><u>血管之障礙</u><br>&gt; 1:10: -出血(如血腫)。<br>&gt; 1:1,000，≤ 1:100: -栓塞，可能對相關器官造成影響。<br>&gt; 1:10,000，≤ 1:1,000: -實質器官出血，如</p><p>&nbsp; &nbsp; &nbsp; o 肝出血</p><p>&nbsp;</p><p><u>呼吸道、胸廓和縱膈之障礙</u><br>&gt; 1:100，≤ 1:10: -呼吸道出血，如</p><p style=\"text-align:justify;\">&nbsp; &nbsp; o 咽喉出血<br>&nbsp; &nbsp; o 咳血<br>&nbsp; &nbsp; o 鼻出血<br>&nbsp; &nbsp; o 肺出血<br><br><u>胃腸系統之障礙</u><br>&gt; 1:100，≤ 1:10: -胃腸道出血，如<br>&nbsp; o 胃出血<br>&nbsp; o 胃潰瘍出血<br>&nbsp; o 直腸出血<br>&nbsp; o 嘔血<br>&nbsp; o 黑糞<br>&nbsp; o 口腔出血<br>&nbsp;</p><p style=\"text-align:justify;\">&gt; 1:1,000，≤ 1:100:</p><p>&nbsp; o 齒齦出血<br>&nbsp; o 後腹腔出血，如後腹腔血腫</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">&gt; 1:100，≤ 1:10:<br>&nbsp; &nbsp;o 噁心<br>&nbsp; &nbsp;o 嘔吐<br>心肌梗塞也可能出現噁心、嘔吐。</p><p style=\"text-align:justify;\">&nbsp;</p><p><u>皮膚及皮下組織之障礙</u><br>&gt; 1:100 ，≤ 1:10: -瘀斑。<br>&nbsp;</p><p><u>腎臟及泌尿道之障礙</u></p><p>&gt; 1:100，≤ 1:10: -泌尿生殖器出血，如</p><p>&nbsp; o 血尿<br>&nbsp; o 泌尿道出血<br><br><u>&nbsp;一般障礙及給藥部位之狀況</u><br>&gt; 1:10: -注射部位出血、穿刺部位出血，如<br>&nbsp; o 導管部位血腫<br>&nbsp; o 導管部位出血<br>&nbsp;</p><p><u>研究調查之副作用</u></p><p>&gt; 1:10:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -血壓下降。</p><p>&gt; 1:100，≤ 1:10:&nbsp;-體溫上升。</p><p>&nbsp;</p><p style=\"text-align:justify;\"><u>受傷、中毒和操作之合併症</u></p><p>&gt; 1:10,000，≤ 1:1,000: -脂肪栓塞*，可能對相關器官造成影響。</p><p>&nbsp;</p><p style=\"text-align:justify;\"><u>手術和醫學之操作</u>：</p><p style=\"text-align:justify;\">&gt; 1:100，≤ 1:10: -全血輸血。</p><p style=\"text-align:justify;\">*脂肪栓塞是發現自發性報告，並未在臨床試驗族群中觀察到。</p><p style=\"text-align:justify;\">&nbsp;</p><p><strong>適應症為心肌梗塞時之其他不良反應：</strong><br><u>心臟之障礙</u><br>&gt; 1:10: -再灌流性心律不整，如</p><p>&nbsp; o 心律不整<br>&nbsp; o 心臟之期外收縮<br>&nbsp; o 心房纖維性顫動<br>&nbsp; o 房室傳導阻滯(第1級至完全性房室傳導阻滯)<br>&nbsp; o 心搏過慢<br>&nbsp; o 心搏過速<br>&nbsp; o 心室心律不整<br>&nbsp; o 心室性纖維顫動<br>&nbsp; o 心室性心搏過速與ACTILYSE治療存在短暫密切的關係</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n使用ACTILYSE最常發生的不良反應是因出血(≥1:100 to <1:10: 大出血; ≥1:10: 任何形式之出血)造成全身血球容積和∕或血紅素降低。發生在任何部位或體腔的出血，可能導致生命危急、永久性殘疾或死亡。 使用血栓溶解劑治療所引起之出血分為以下兩大類： - 表面出血，通常發生在血管穿刺或損傷部位。 - 任何部位或體腔之內出血。 可能與顱內出血有關的神經方面症狀(如嗜睡、失語、肢體無力、痙攣)。 與本試驗之急性心肌梗塞病人數相較，在臨床試驗中因急性大片肺栓塞及急性缺血性中風(在發作後的4.5小時內)而接受治療的病人數是非常少，所以其與急性心肌梗塞所觀察到數字的小差異可能係因樣本數目太小所致。除了在適應症為急性缺血性中風的顱內出血副作用及適應症為急性心肌梗塞的再灌流性心律不整副作用外，以急性大片肺栓塞和急性缺血性中風為適應症時，並無醫學上的理由可假設ACTILYSE之副作用性質及數量與使用於急性心肌梗塞時不同。 免疫系統之障礙 >1:1,000，≤ 1:100: 類過敏性反應，通常輕微但在少數病例可能會危及性命。其症狀可能為 o 出疹 o 蕁麻疹 o 支氣管痙攣 o 血管性水腫 o 低血壓 o 休克或其他與過敏有關之症狀 神經系統之障礙 - 顱內出血，當適應症為心肌梗塞及肺栓塞時: >1:1000，≤ 1:100; 當適應症為急性缺血性中風時: >1:100，≤ 1:10，如 腦出血 腦血腫 出血性中風 出血性轉化中風 顱內血腫 蜘蛛膜下腔出血 眼部之障礙 ≤ 1:10,000: -眼睛出血。 心臟之障礙 > 1:1,000，≤ 1:100: -心包出血。 血管之障礙 > 1:10: -出血(如血腫)。 > 1:1,000，≤ 1:100: -栓塞，可能對相關器官造成影響。 > 1:10,000，≤ 1:1,000: -實質器官出血，如 o 肝出血 呼吸道、胸廓和縱膈之障礙 > 1:100，≤ 1:10: -呼吸道出血，如 o 咽喉出血 o 咳血 o 鼻出血 o 肺出血 胃腸系統之障礙 > 1:100，≤ 1:10: -胃腸道出血，如 o 胃出血 o 胃潰瘍出血 o 直腸出血 o 嘔血 o 黑糞 o 口腔出血 > 1:1,000，≤ 1:100: o 齒齦出血 o 後腹腔出血，如後腹腔血腫 > 1:100，≤ 1:10: o 噁心 o 嘔吐 心肌梗塞也可能出現噁心、嘔吐。 皮膚及皮下組織之障礙 > 1:100 ，≤ 1:10: -瘀斑。 腎臟及泌尿道之障礙 > 1:100，≤ 1:10: -泌尿生殖器出血，如 o 血尿 o 泌尿道出血 一般障礙及給藥部位之狀況 > 1:10: -注射部位出血、穿刺部位出血，如 o 導管部位血腫 o 導管部位出血 研究調查之副作用 > 1:10: -血壓下降。 > 1:100，≤ 1:10: -體溫上升。 受傷、中毒和操作之合併症 > 1:10,000，≤ 1:1,000: -脂肪栓塞*，可能對相關器官造成影響。 手術和醫學之操作： > 1:100，≤ 1:10: -全血輸血。 *脂肪栓塞是發現自發性報告，並未在臨床試驗族群中觀察到。 適應症為心肌梗塞時之其他不良反應： 心臟之障礙 > 1:10: -再灌流性心律不整，如 o 心律不整 o 心臟之期外收縮 o 心房纖維性顫動 o 房室傳導阻滯(第1級至完全性房室傳導阻滯) o 心搏過慢 o 心搏過速 o 心室心律不整 o 心室性纖維顫動 o 心室性心搏過速與ACTILYSE治療存在短暫密切的關係",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "症狀 使用超過建議之最高劑量會增加顱內出血之風險。 雖然ACTILYSE對纖維蛋白有相當的選擇性，但過量時，纖維蛋白原 (fibrinogen) 及其他凝血素可能發生具臨床意義的降低。 治療 大多數的病例在停止使用ACTILYSE後，經過充分時間，這些凝血因子將經生理反應而再生成。若發生嚴重性出血，建議使用新鮮冷凍血漿及鮮血輸注，若有需要可投與合成的抗纖維蛋白溶解劑 (antifibirnolytics)。",
+          "content_html": "<p><u>症狀</u><br>使用超過建議之最高劑量會增加顱內出血之風險。<br>雖然ACTILYSE對纖維蛋白有相當的選擇性，但過量時，纖維蛋白原 (fibrinogen) 及其他凝血素可能發生具臨床意義的降低。</p><p><u>治療</u><br>大多數的病例在停止使用ACTILYSE後，經過充分時間，這些凝血因子將經生理反應而再生成。若發生嚴重性出血，建議使用新鮮冷凍血漿及鮮血輸注，若有需要可投與合成的抗纖維蛋白溶解劑 (antifibirnolytics)。</p>",
+          "search_text": "9\n過量\n症狀 使用超過建議之最高劑量會增加顱內出血之風險。 雖然ACTILYSE對纖維蛋白有相當的選擇性，但過量時，纖維蛋白原 (fibrinogen) 及其他凝血素可能發生具臨床意義的降低。 治療 大多數的病例在停止使用ACTILYSE後，經過充分時間，這些凝血因子將經生理反應而再生成。若發生嚴重性出血，建議使用新鮮冷凍血漿及鮮血輸注，若有需要可投與合成的抗纖維蛋白溶解劑 (antifibirnolytics)。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "藥理分類：抗血栓製劑 ATC代碼：B01AD02",
+          "content_html": "<p style=\"text-align:justify;\">藥理分類：抗血栓製劑</p><p style=\"text-align:justify;\">ATC代碼：B01AD02</p>",
+          "search_text": "10\n藥理特性\n藥理分類：抗血栓製劑 ATC代碼：B01AD02",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "ACTILYSE的主成分alteplase是以基因重組技術製成的人類組織型胞漿素原活化酶，它是一種可直接將胞漿素原活化成胞漿素的醣蛋白質。當靜脈給藥時，alteplase在循環系統中並不具活性，一旦與纖維蛋白結合時才被活化，促使胞漿素原轉化成胞漿素，而將纖維蛋白之血塊溶解。",
+          "content_html": "<p style=\"text-align:justify;\">ACTILYSE的主成分alteplase是以基因重組技術製成的人類組織型胞漿素原活化酶，它是一種可直接將胞漿素原活化成胞漿素的醣蛋白質。當靜脈給藥時，alteplase在循環系統中並不具活性，一旦與纖維蛋白結合時才被活化，促使胞漿素原轉化成胞漿素，而將纖維蛋白之血塊溶解。</p>",
+          "search_text": "10.1\n作用機轉\nACTILYSE的主成分alteplase是以基因重組技術製成的人類組織型胞漿素原活化酶，它是一種可直接將胞漿素原活化成胞漿素的醣蛋白質。當靜脈給藥時，alteplase在循環系統中並不具活性，一旦與纖維蛋白結合時才被活化，促使胞漿素原轉化成胞漿素，而將纖維蛋白之血塊溶解。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "由於ACTILYSE對纖維蛋白的專一性，100毫克的ACTILYSE在4小時可以適度降低循環中的纖維蛋白原濃度至60%，通常24小時後，可以回到80%以上。給藥4小時後，胞漿素原和alpha-2-antiplasmin分別減低至約20%和35%，而24小時後，會再增加至80%以上。僅有少數病人，循環中的纖維蛋白原濃度的減少會有顯著的延長。",
+          "content_html": "<p style=\"text-align:justify;\">由於ACTILYSE對纖維蛋白的專一性，100毫克的ACTILYSE在4小時可以適度降低循環中的纖維蛋白原濃度至60%，通常24小時後，可以回到80%以上。給藥4小時後，胞漿素原和alpha-2-antiplasmin分別減低至約20%和35%，而24小時後，會再增加至80%以上。僅有少數病人，循環中的纖維蛋白原濃度的減少會有顯著的延長。</p>",
+          "search_text": "10.2\n藥效藥理特性\n由於ACTILYSE對纖維蛋白的專一性，100毫克的ACTILYSE在4小時可以適度降低循環中的纖維蛋白原濃度至60%，通常24小時後，可以回到80%以上。給藥4小時後，胞漿素原和alpha-2-antiplasmin分別減低至約20%和35%，而24小時後，會再增加至80%以上。僅有少數病人，循環中的纖維蛋白原濃度的減少會有顯著的延長。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "大鼠和小猿之亞急性毒性研究，除在較高劑量會增加出血傾向外，未發現有其他預期以外的副作用。 突變試驗中並未發現其有導致突變之潛在性。 懷孕動物經靜脈輸注藥理有效劑量後，未發現有致畸胎性。 對兔子給予超過每天每公斤體重3毫克之劑量，會誘發胎毒性(胚胎致死、生長延遲)。 對大鼠給予達每天每公斤體重10毫克之劑量，其產後周邊發展及生育之參數都無影響。",
+          "content_html": "<p style=\"text-align:justify;\">大鼠和小猿之亞急性毒性研究，除在較高劑量會增加出血傾向外，未發現有其他預期以外的副作用。</p><p style=\"text-align:justify;\">突變試驗中並未發現其有導致突變之潛在性。</p><p style=\"text-align:justify;\">懷孕動物經靜脈輸注藥理有效劑量後，未發現有致畸胎性。</p><p style=\"text-align:justify;\">對兔子給予超過每天每公斤體重3毫克之劑量，會誘發胎毒性(胚胎致死、生長延遲)。</p><p style=\"text-align:justify;\">對大鼠給予達每天每公斤體重10毫克之劑量，其產後周邊發展及生育之參數都無影響。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n大鼠和小猿之亞急性毒性研究，除在較高劑量會增加出血傾向外，未發現有其他預期以外的副作用。 突變試驗中並未發現其有導致突變之潛在性。 懷孕動物經靜脈輸注藥理有效劑量後，未發現有致畸胎性。 對兔子給予超過每天每公斤體重3毫克之劑量，會誘發胎毒性(胚胎致死、生長延遲)。 對大鼠給予達每天每公斤體重10毫克之劑量，其產後周邊發展及生育之參數都無影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "Alteplase可迅速從血液循環中清除，主要經肝臟代謝(血漿廓清率550-680毫升/分鐘)。一般生理循環狀況下，alteplase主要與血漿蛋白酶抑製劑結合。Alteplase的肝清除不受其他蛋白質的存在的影響，包括alteplase抑制劑在內。Alteplase複合物及其抑制劑以游離alteplase的形式被清除。其血漿α半衰期 (T1/2 alpha)為4-5分鐘，意指在給藥20分鐘後，血漿濃度不及最初濃度的10%，對於留在深層部位之餘留量，其β半衰期測出值約為40分鐘。",
+          "content_html": "<p style=\"text-align:justify;\">Alteplase可迅速從血液循環中清除，主要經肝臟代謝(血漿廓清率550-680毫升/分鐘)。一般生理循環狀況下，alteplase主要與血漿蛋白酶抑製劑結合。Alteplase的肝清除不受其他蛋白質的存在的影響，包括alteplase抑制劑在內。Alteplase複合物及其抑制劑以游離alteplase的形式被清除。其血漿α半衰期 (T<sub>1/2</sub> alpha)為4-5分鐘，意指在給藥20分鐘後，血漿濃度不及最初濃度的10%，對於留在深層部位之餘留量，其β半衰期測出值約為40分鐘。</p>",
+          "search_text": "11\n藥物動力學特性\nAlteplase可迅速從血液循環中清除，主要經肝臟代謝(血漿廓清率550-680毫升/分鐘)。一般生理循環狀況下，alteplase主要與血漿蛋白酶抑製劑結合。Alteplase的肝清除不受其他蛋白質的存在的影響，包括alteplase抑制劑在內。Alteplase複合物及其抑制劑以游離alteplase的形式被清除。其血漿α半衰期 (T1/2 alpha)為4-5分鐘，意指在給藥20分鐘後，血漿濃度不及最初濃度的10%，對於留在深層部位之餘留量，其β半衰期測出值約為40分鐘。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "急性心肌梗塞(AMI)病人 曾針對發生急性心肌梗塞的病人研究過兩種不同劑量療程之ACTILYSE的治療效果。但目前尚未評估過這兩種療法的相對療效。 採用加速輸注法治療AMI病人 有一項跨國多中心試驗(GUSTO)曾研究過加速輸注ACTILYSE的治療效果，這項試驗共有41,021位急性心肌梗塞病人於隨機分組後分別接受四種血栓溶解療法的治療。在接受90分鐘輸注100毫克之ACTILYSE並合併靜脈輸注heparin治療的病人中，30天後的死亡率(6.3%)要比接受60分鐘輸注150萬國際單位(IU)之streptokinase並合併皮下注射或靜脈輸注heparin治療的病人(7.3%)低。ACTILYSE組之30天死亡率與streptokinase組相比較的1%絕對降低幅度是具有統計意義的(p= 0.001)。 在接受ACTILYSE治療的病人中，血栓溶解治療後60及90分鐘的梗塞血管疏通率要比接受streptokinase治療的病人高。但180分鐘或更長時間之後的血管疏通率則無任何差異。 一項涵蓋近17,000位病人的大型死亡率試驗(ASSENT 2)顯示，alteplase與tenecteplase在降低死亡率方面的治療表現大致相當(兩者的30天後死亡率皆為6.2%)。使用tenecteplase治療之病人中的非顱內出血發生率要明顯低於使用alteplase治療的病人(分別為26.4%與28.9%，p=0.0003)。出血風險降低的原因可能和tenecteplase的纖維蛋白特異性較高及其依體重調整的治療方式有關。 採用3小時輸注法治療AMI病人 一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(ASSET研究)(5013位病人)顯示，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，30天存活率有較使用安慰劑治療之病人提高的現象。在治療一個月後，ACTILYSE組中的整體死亡率為7.2%，而安慰劑組則為9.8% (p=0.001)。在6個月後，使用ACTILYSE治療之病人(10.4%)和使用安慰劑治療之病人(13.1%)相比較所呈現的效益仍維持不變(p=0.008)。 在一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(721位病人)中，利用對比式心室造影術檢測整體射出分率的結果分別為50.7%與48.5%，p=0.01，顯示治療10-22天後，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，心室功能較安慰劑組改善。針對HBD (α羥基丁酸脫氫酶)活性的累積釋出量評估梗塞範圍的結果顯示，使用ACTILYSE治療之病人較安慰劑治療的病人減小了19% (p=0.001)。使用ACTILYSE治療的病人發生心因性休克(p=0.02)、心室纖維顫動(p<0.04)及心包炎(p=0.01)的病例明顯較使用安慰劑治療的病人少。治療21天後，和安慰劑組中的6.3%相比較，使用ACTILYSE治療之病人中的死亡率下降至3.7% (單側分析，p=0.05)。雖然這些數據並未能明確證實這項研究中的死亡率有明顯降低的現象，但仍可從中看出這種趨勢，而此趨勢在ASSET研究的結果中也獲得證實。 一項安慰劑對照試驗(LATE)針對5711位已出現AMI症狀6至24小時的病人，比較3小時輸注100毫克ACTILYSE和安慰劑的治療效果。結果顯示，ACTILYSE治療組的30天死亡率降低了14.1%，但並不具統計意義(95% CI為0-28.1%，p>0.05)。在一項針對於症狀出現後12小時內接受治療之病人所進行的預設存活分析中發現，使用ACTILYSE治療者的死亡率明顯降低了25.6% (95% CI為6.3-45%，p=0.023)。 急性大片肺栓塞病人 一項針對63位經血管攝影證實患有急性大片肺栓塞的病人，比較alteplase與urokinase之治療效果的比較性隨機分組試驗中，兩個治療組的肺栓塞誘發性肺高壓都有明顯降低。在ACTILYSE治療組中，肺臟血液動力學概況的改善速度明顯較urokinase組快。 急性缺血性中風病人 在急性缺血性中風的領域中也曾進行過多項研究。其中的NINDS研究是唯一沒有年齡上限的研究，該研究也收錄了36位年齡為80歲以上的病人。而其它的隨機分組試驗都是將80歲以上的病人排除於外。對此病人族群必須依據個別狀況評估其血栓溶解的效益風險。 有兩項安慰劑對照性雙盲試驗(NINDS t-PA中風試驗，第1部份與第2部份)收錄有明顯神經功能缺損並可於症狀出現後3小時內完成篩檢及開始接受研究治療的病人。在開始治療前先進行顱部電腦斷層(CT)掃瞄，以排除出現症狀性顱內出血(SICH)的病人。下列病人也被排除於研究之外：患有和出血風險有關的疾病、輕微神經功能缺損、症狀在開始接受研究治療前即快速改善、或血糖值<50 mg/dL或>400 mg/dL。病人於隨機分組後分別接受0.9毫克/公斤之ACTILYSE (最高劑量為90毫克)或安慰劑的治療。ACTILYSE的給藥方式為先以1分鐘的時間注射10%的劑量，再以60分鐘的時間連續靜脈輸注剩餘的劑量。 初步的研究(NINDS試驗第1部份，n=291)乃是評估中風後24小時的神經功能改善情形。在初級終點評估指標方面，亦即國家衛生研究院中風量表(NIHSS)評分改善4分(含)以上或完全恢復正常(NIHSS評分=0)的病人比例，兩個治療組間並無明顯差異。利用下列中風量表所進行的次級分析顯示，使用ACTILYSE可使3個月後的治療結果獲得改善：Barthel指數、修正Rankin量表(mRS)、Glasgow治療結果量表和NIHSS。第二項研究(NINDS試驗第2部份，n=333)則是以3個月後的臨床表現做為主要的結果評估指標。獲得有利治療結果的定義為四項中風評估量表的評估結果顯示失能程度極低或無任何失能現象：Barthel指數(評分≥95)、修正Rankin量表(評分≤1)、Glasgow治療結果量表(評分=1)和NIHSS (評分≤1)。與安慰劑組比較，在ACTILYSE組中獲得有利治療結果的機會比率為1.7 (95% CI：1.2-2.6)。和安慰劑相比較，失能程度極低或無任何失能現象(mRS 0-1)之病人人數的絕對增加幅度為12.6%。在其它的神經功能量表與失能量表中，ACTILYSE也有相當一致的效益表現。次級分析的結果顯示，從中位評分來看，在四個中風量表中都可達到相當一致的身體功能與神經功能改善效果。這些結果和第1部分研究中所觀察到的3個月治療效果一致。 表一 The NINDS t-PA Stroke Trial, Part 2 3個月之療效結果 有利之結果的頻率1 分析之項目 安慰劑 (n=165) ACTILYSE (n=168) 絕對差 (95% CI) 相對頻度2 (95% CI) p-Value3 Generalized Estimating Equations (multivariate)─── 1.34 (1.05, 1.72) 0.02 Barthel Index37.6%50.0% 12.4% (3.0, 21.9) 1.33 (1.04, 1.71) 0.02 Modified Rankin Scale26.1%38.7% 12.6% (3.7, 21.6) 1.48 (1.08, 2.04) 0.02 Glasgow Outcome Scale31.5%44.0% 12.5% (3.3, 21.8) 1.40 (1.05, 1.85) 0.02 NIHSS20.0%31.0% 11.0% (2.6, 19.3) 1.55 (1.06, 2.26) 0.02 1 有利之結果的定義為恢復後僅有輕微或沒有失能。 2 此值大於1表示ACTILYSE的治療對恢復頻度 (frequency of recovery) 為有利。 3 相對頻度之p-Value是得自Generalized Estimating Equations與對數相結合。 使用ACTILYSE治療後的所有導因90天死亡率、SICH及新發生之缺血性中風的發生率和安慰劑相比較的結果顯示，使用ACTILYSE治療之後，36小時內的症狀性SICH (依據NINDS的定義)發生率有明顯升高的現象(ACTILYSE組為6.4%，安慰劑組為0.65%)。在90天內死亡率(ACTILYSE組為20.5%，安慰組為17.3%)或嚴重失能的發生率(ACTILYSE組為25%，安慰劑組為22%)，兩組未有顯著差異性。\n一項涵蓋2775位源自6項重要隨機臨床試驗(NINDS試驗第1部份與第2部份、兩項ECASS試驗、以及ATLANTIS試驗A部份與B部份)之病人的整合分析曾針對使用ACTILYSE或安慰劑治療之病人的失能狀態進行評估。這項分析顯示，症狀發作後至開始使用ACTILYSE治療的時間越短，於3個月後獲得有利治療結果的機會就越高。在接受ACTILYSE治療的病人中，SICH的發生率為5.9%，在對照組中則為1.1% (p<0.0001)，此發生率和年齡有關。 一項大型的觀察研究(SITS-MOST：對中風病人施行血栓溶解治療之安全性-監視研究)曾評估在一般臨床實務中於3小時內使用ACTILYSE治療急性中風的安全性與療效，並和隨機臨床試驗(RCTs)的結果進行比較。所有病人都必須符合歐洲ACTILYSE產品特性摘要中的條件。這項研究一共在14個歐洲國家的285個中心收集了2483位病人的治療與結果相關資料。主要的結果評估指標為24小時內的症狀性顱內出血發生率及3個月死亡率。SITS-MOST研究中所見的SICH發生率和隨機試驗所報告的SICH發生率大致相當；在SITS-MOST研究中為7.3% (95% CI 6.7-8.0)，在RCTs中為8.6% (95% CI 6.1-11.1)。SITS-MOST研究中的死亡率為11.3% (95% CI 10.5-12.1)，RCTs中的死亡率為17% (95% CI 13.9-20.7)。SITS-MOST研究的結果顯示，在一般臨床實務中於中風發作後3小時內使用ACTILYSE治療的安全性和隨機臨床試驗所報告的結果大致相當。 ECASS III試驗是一項針對發作後時間窗期(time-window)為3至4.5小時的急性中風病人所進行的安慰劑對照性雙盲試驗。這項研究的收錄對象是除了發作後時間窗期之外皆符合歐洲產品特性摘要(SPC)之條件的急性缺血性中風病人。利用電腦斷層攝影排除腦出血或嚴重梗塞的現象之後，病人按1:1的雙盲模式隨機分成兩組，分別接受靜脈輸注alteplase (0.9毫克/公斤體重)或安慰劑的治療。主要療效評估指標為90天後的失能狀況，並可分成有利(修正Rankin量表[mRS]評分為0至1)或不利(mRS評分為2至6)這兩種治療結果。主要的次要療效評估指標為90天後的合併針對四個神經功能與失能評分所進行的整體治療結果分析(修正Rankin量表[mRS]評分為0至1、Barthel index評分≥95、美國國家衛生院中風量表評分為0至1、Glasgow Outcome Scale score評分為1)。安全性評估指標包括死亡、SICH、以及嚴重的不良事件。總共有821位病人接受隨機分組(alteplase組418人/安慰劑組403人)。Alteplase組達到有利治療結果的病人比例(52.4%)要高於安慰劑組(45.2%；機會比率[OR]為1.34；95% CI為1.02-1.76；p=0.038)。在整體治療結果分析中，治療結果也有較為改善的現象(OR為1.28；95% CI為1.00-1.65；p=0.048)。相較於安慰劑，alteplase發生任何ICH/SICH的機率較高(任何ICH為27.0%，而安慰劑為17.6%，OR為1.73; 95% CI 1.24-2.42; p=0.0012；依據NINDS定義之SICH為7.9%，而安慰劑組為3.5%，OR為2.38; 95% CI 1.25-4.52; p=0.006)；依據ECASS III定義之SICH為2.4%，而安慰劑組為 0.3%，OR為9.85; 95% CI 1.26-77.32; p = 0.008; 依據SITS-MOST定義之SICH為1.9%，而安慰劑組為0.3%，OR為7.84; 95% CI 1.25-4.52; p=0.006)。死亡率在兩組間並無顯著差異(alteplase組7.7%; 安慰組8.4%; OR為0.90; 95% CI 為0.54-1.49; p=0.681)。 一項進行中的急性缺血性中風(AIS)登記研究(SITS-ISTR：對中風病人施行血栓溶解治療之安全性-登記研究)曾針對從症狀發作之時間長達4.5小時的急性缺血性中風評估使用ACTILYSE治療的安全性與療效。研究人員將21,566位發作後時間窗期為0至3小時之病人的主要治療結果及死亡率相關數據和2,376位於AIS發作後3至4.5小時接受治療之病人的數據進行比較。發作後時間窗期為3至4.5小時之病人中的症狀性顱內出血發生率(依據NINDS的定義: 7.4%，依據ECASS II的定義: 5.3%，依據SITS-MOST的定義: 2.2%)要略高於發作後時間窗期不超過3小時的病人(依據NINDS的定義: 7.1%；調整勝算比95% CI為1.18 (0.99–1.41) p =0.06，依據ECASS II的定義: 4.8%; 95% CI:1.27(1.03-1.55) p=0.02，依據SITS-MOST的定義: 1.7%; 95% CI:1.44(1.05-1.97) p=0.02)。發作後時間窗期為3至4.5小時之病人中在三個月的死亡率(12.0%)和發作後時間窗期為0至3小時的病人(12.3%)大致相當。然而因此試驗為觀察性研究，故兩組病人的baseline demographic data並不相同，於AIS發作後3至4.5小時接受治療之病人比起於發作後3小時內接受治療之病人，其平均年齡較輕、NIHSS分數較低、較低比例的病人有高血壓或高血脂之共病、較低比例的病人在新加入的中心治療。故應謹慎解讀此研究結果。 A-Ching Chao等人利用台灣腦中風登錄資料庫所作之觀察性研究結果顯示，給予rt-PA 0.9 mg/Kg治療急性缺血性中風，於71-80歲族群發生有症狀顱內出血(NINDS定義)之比率為12.41%，而於所有分析族群則為7.35%；3個月內死亡率在71-80歲族群為12.41%，而在所有分析族群則為8.3%。 依據一項納入亞洲族群急性缺血性中風病人的ENCHANTED試驗結果，相較於標準劑量，使用低劑量rt-PA尚無法在90日時的死亡與殘疾比率方面達到不劣性的試驗終點。但在此試驗及A-Ching Chao等人利用台灣腦中風登錄資料庫所作的觀察性研究結果中顯示，使用低劑量rt-PA的病人，其發生有症狀性腦出血的機率較低。(參考文獻: 1. Low-Dose versus Standard-Dose Intravenous Alteplase in Acute Ischemic Stroke. NEJM 2016；374，2313-232.；2. Different Doses of Recombinant Tissue-Type Plasminogen Activator for Acute Stroke in Chinese Patients. Stroke. 2014 Aug；45(8)：2359-65.)",
+          "content_html": "<p><strong>急性心肌梗塞(AMI)病人</strong><br>曾針對發生急性心肌梗塞的病人研究過兩種不同劑量療程之ACTILYSE的治療效果。但目前尚未評估過這兩種療法的相對療效。<br>&nbsp;</p><p><strong>採用加速輸注法治療AMI病人</strong><br>有一項跨國多中心試驗(GUSTO)曾研究過加速輸注ACTILYSE的治療效果，這項試驗共有41,021位急性心肌梗塞病人於隨機分組後分別接受四種血栓溶解療法的治療。在接受90分鐘輸注100毫克之ACTILYSE並合併靜脈輸注heparin治療的病人中，30天後的死亡率(6.3%)要比接受60分鐘輸注150萬國際單位(IU)之streptokinase並合併皮下注射或靜脈輸注heparin治療的病人(7.3%)低。ACTILYSE組之30天死亡率與streptokinase組相比較的1%絕對降低幅度是具有統計意義的(p= 0.001)。</p><p>在接受ACTILYSE治療的病人中，血栓溶解治療後60及90分鐘的梗塞血管疏通率要比接受streptokinase治療的病人高。但180分鐘或更長時間之後的血管疏通率則無任何差異。</p><p>一項涵蓋近17,000位病人的大型死亡率試驗(ASSENT 2)顯示，alteplase與tenecteplase在降低死亡率方面的治療表現大致相當(兩者的30天後死亡率皆為6.2%)。使用tenecteplase治療之病人中的非顱內出血發生率要明顯低於使用alteplase治療的病人(分別為26.4%與28.9%，p=0.0003)。出血風險降低的原因可能和tenecteplase的纖維蛋白特異性較高及其依體重調整的治療方式有關。</p><p>&nbsp;</p><p><strong>採用3小時輸注法治療AMI病人</strong><br>一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(ASSET研究)(5013位病人)顯示，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，30天存活率有較使用安慰劑治療之病人提高的現象。在治療一個月後，ACTILYSE組中的整體死亡率為7.2%，而安慰劑組則為9.8% (p=0.001)。在6個月後，使用ACTILYSE治療之病人(10.4%)和使用安慰劑治療之病人(13.1%)相比較所呈現的效益仍維持不變(p=0.008)。</p><p>在一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(721位病人)中，利用對比式心室造影術檢測整體射出分率的結果分別為50.7%與48.5%，p=0.01，顯示治療10-22天後，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，心室功能較安慰劑組改善。針對HBD (α羥基丁酸脫氫酶)活性的累積釋出量評估梗塞範圍的結果顯示，使用ACTILYSE治療之病人較安慰劑治療的病人減小了19% (p=0.001)。使用ACTILYSE治療的病人發生心因性休克(p=0.02)、心室纖維顫動(p&lt;0.04)及心包炎(p=0.01)的病例明顯較使用安慰劑治療的病人少。治療21天後，和安慰劑組中的6.3%相比較，使用ACTILYSE治療之病人中的死亡率下降至3.7% (單側分析，p=0.05)。雖然這些數據並未能明確證實這項研究中的死亡率有明顯降低的現象，但仍可從中看出這種趨勢，而此趨勢在ASSET研究的結果中也獲得證實。</p><p>一項安慰劑對照試驗(LATE)針對5711位已出現AMI症狀6至24小時的病人，比較3小時輸注100毫克ACTILYSE和安慰劑的治療效果。結果顯示，ACTILYSE治療組的30天死亡率降低了14.1%，但並不具統計意義(95% CI為0-28.1%，p&gt;0.05)。在一項針對於症狀出現後12小時內接受治療之病人所進行的預設存活分析中發現，使用ACTILYSE治療者的死亡率明顯降低了25.6% (95% CI為6.3-45%，p=0.023)。</p><p>&nbsp;</p><p><strong>急性大片肺栓塞病人</strong><br>一項針對63位經血管攝影證實患有急性大片肺栓塞的病人，比較alteplase與urokinase之治療效果的比較性隨機分組試驗中，兩個治療組的肺栓塞誘發性肺高壓都有明顯降低。在ACTILYSE治療組中，肺臟血液動力學概況的改善速度明顯較urokinase組快。<br><br><strong>急性缺血性中風病人</strong><br>在急性缺血性中風的領域中也曾進行過多項研究。其中的NINDS研究是唯一沒有年齡上限的研究，該研究也收錄了36位年齡為80歲以上的病人。而其它的隨機分組試驗都是將80歲以上的病人排除於外。對此病人族群必須依據個別狀況評估其血栓溶解的效益風險。</p><p>有兩項安慰劑對照性雙盲試驗(NINDS t-PA中風試驗，第1部份與第2部份)收錄有明顯神經功能缺損並可於症狀出現後3小時內完成篩檢及開始接受研究治療的病人。在開始治療前先進行顱部電腦斷層(CT)掃瞄，以排除出現症狀性顱內出血(SICH)的病人。下列病人也被排除於研究之外：患有和出血風險有關的疾病、輕微神經功能缺損、症狀在開始接受研究治療前即快速改善、或血糖值&lt;50 mg/dL或&gt;400 mg/dL。病人於隨機分組後分別接受0.9毫克/公斤之ACTILYSE (最高劑量為90毫克)或安慰劑的治療。ACTILYSE的給藥方式為先以1分鐘的時間注射10%的劑量，再以60分鐘的時間連續靜脈輸注剩餘的劑量。</p><p>初步的研究(NINDS試驗第1部份，n=291)乃是評估中風後24小時的神經功能改善情形。在初級終點評估指標方面，亦即國家衛生研究院中風量表(NIHSS)評分改善4分(含)以上或完全恢復正常(NIHSS評分=0)的病人比例，兩個治療組間並無明顯差異。利用下列中風量表所進行的次級分析顯示，使用ACTILYSE可使3個月後的治療結果獲得改善：Barthel指數、修正Rankin量表(mRS)、Glasgow治療結果量表和NIHSS。第二項研究(NINDS試驗第2部份，n=333)則是以3個月後的臨床表現做為主要的結果評估指標。獲得有利治療結果的定義為四項中風評估量表的評估結果顯示失能程度極低或無任何失能現象：Barthel指數(評分≥95)、修正Rankin量表(評分≤1)、Glasgow治療結果量表(評分=1)和NIHSS (評分≤1)。與安慰劑組比較，在ACTILYSE組中獲得有利治療結果的機會比率為1.7 (95% CI：1.2-2.6)。和安慰劑相比較，失能程度極低或無任何失能現象(mRS 0-1)之病人人數的絕對增加幅度為12.6%。在其它的神經功能量表與失能量表中，ACTILYSE也有相當一致的效益表現。次級分析的結果顯示，從中位評分來看，在四個中風量表中都可達到相當一致的身體功能與神經功能改善效果。這些結果和第1部分研究中所觀察到的3個月治療效果一致。</p><p>&nbsp;</p><p>表一</p><p>The NINDS t-PA Stroke Trial, Part 2</p><p style=\"margin-left:0cm;\">3個月之療效結果</p><figure class=\"table\"><table><tbody><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">&nbsp;</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:370.05pt;\" colspan=\"5\"><p style=\"text-align:center;\">有利之結果的頻率<sup>1</sup></p></td></tr><tr><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">分析之項目</td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\"><p>安慰劑</p><p>(n=165)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:72.0pt;\"><p>ACTILYSE</p><p>(n=168)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\"><p>絕對差</p><p>(95% CI)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><p>相對頻度<sup>2</sup></p><p>(95% CI)</p></td><td style=\"border-bottom:1.0pt solid windowtext;border-left-style:none;border-right-style:none;border-top:1.0pt solid windowtext;padding:0cm 5.4pt;vertical-align:top;width:64.05pt;\">p-Value<sup>3</sup></td></tr><tr><td style=\"height:26.05pt;padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">Generalized Estimating Equations (multivariate)</td><td style=\"height:26.05pt;padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\">─</td><td style=\"height:26.05pt;padding:0cm 5.4pt;vertical-align:top;width:72.0pt;\">─</td><td style=\"height:26.05pt;padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\">─</td><td style=\"height:26.05pt;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><p>1.34</p><p>(1.05, 1.72)</p></td><td style=\"height:26.05pt;padding:0cm 5.4pt;vertical-align:top;width:64.05pt;\">0.02</td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">Barthel Index</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\">37.6%</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:72.0pt;\">50.0%</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\"><p>12.4%</p><p>(3.0, 21.9)</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><p>1.33</p><p>(1.04, 1.71)</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:64.05pt;\">0.02</td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">Modified Rankin Scale</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\">26.1%</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:72.0pt;\">38.7%</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\"><p>12.6%</p><p>(3.7, 21.6)</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><p>1.48</p><p>(1.08, 2.04)</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:64.05pt;\">0.02</td></tr><tr><td style=\"padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">Glasgow Outcome Scale</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\">31.5%</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:72.0pt;\">44.0%</td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\"><p>12.5%</p><p>(3.3, 21.8)</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><p>1.40</p><p>(1.05, 1.85)</p></td><td style=\"padding:0cm 5.4pt;vertical-align:top;width:64.05pt;\">0.02</td></tr><tr><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:116.75pt;\">NIHSS</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\">20.0%</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:72.0pt;\">31.0%</td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:76.5pt;\"><p>11.0%</p><p>(2.6, 19.3)</p></td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:81.0pt;\"><p>1.55</p><p>(1.06, 2.26)</p></td><td style=\"border-bottom:1.5pt solid windowtext;border-left-style:none;border-right-style:none;border-top-style:none;padding:0cm 5.4pt;vertical-align:top;width:64.05pt;\">0.02</td></tr></tbody></table></figure><p><sup>1</sup>&nbsp;有利之結果的定義為恢復後僅有輕微或沒有失能。</p><p><sup>2</sup>&nbsp;此值大於1表示ACTILYSE的治療對恢復頻度 (frequency of recovery)&nbsp;為有利。</p><p><sup>3</sup>&nbsp;相對頻度之p-Value是得自Generalized Estimating Equations與對數相結合。<br>&nbsp;</p><p>使用ACTILYSE治療後的所有導因90天死亡率、SICH及新發生之缺血性中風的發生率和安慰劑相比較的結果顯示，使用ACTILYSE治療之後，36小時內的症狀性SICH (依據NINDS的定義)發生率有明顯升高的現象(ACTILYSE組為6.4%，安慰劑組為0.65%)。在90天內死亡率(ACTILYSE組為20.5%，安慰組為17.3%)或嚴重失能的發生率(ACTILYSE組為25%，安慰劑組為22%)，兩組未有顯著差異性。</p><p>&nbsp;</p>\n<p>一項涵蓋2775位源自6項重要隨機臨床試驗(NINDS試驗第1部份與第2部份、兩項ECASS試驗、以及ATLANTIS試驗A部份與B部份)之病人的整合分析曾針對使用ACTILYSE或安慰劑治療之病人的失能狀態進行評估。這項分析顯示，症狀發作後至開始使用ACTILYSE治療的時間越短，於3個月後獲得有利治療結果的機會就越高。在接受ACTILYSE治療的病人中，SICH的發生率為5.9%，在對照組中則為1.1% (p&lt;0.0001)，此發生率和年齡有關。</p><p>&nbsp;</p><p>一項大型的觀察研究(SITS-MOST：對中風病人施行血栓溶解治療之安全性-監視研究)曾評估在一般臨床實務中於3小時內使用ACTILYSE治療急性中風的安全性與療效，並和隨機臨床試驗(RCTs)的結果進行比較。所有病人都必須符合歐洲ACTILYSE產品特性摘要中的條件。這項研究一共在14個歐洲國家的285個中心收集了2483位病人的治療與結果相關資料。主要的結果評估指標為24小時內的症狀性顱內出血發生率及3個月死亡率。SITS-MOST研究中所見的SICH發生率和隨機試驗所報告的SICH發生率大致相當；在SITS-MOST研究中為7.3% (95% CI 6.7-8.0)，在RCTs中為8.6% (95% CI 6.1-11.1)。SITS-MOST研究中的死亡率為11.3% (95% CI 10.5-12.1)，RCTs中的死亡率為17% (95% CI 13.9-20.7)。SITS-MOST研究的結果顯示，在一般臨床實務中於中風發作後3小時內使用ACTILYSE治療的安全性和隨機臨床試驗所報告的結果大致相當。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">ECASS III試驗是一項針對發作後時間窗期(time-window)為3至4.5小時的急性中風病人所進行的安慰劑對照性雙盲試驗。這項研究的收錄對象是除了發作後時間窗期之外皆符合歐洲產品特性摘要(SPC)之條件的急性缺血性中風病人。利用電腦斷層攝影排除腦出血或嚴重梗塞的現象之後，病人按1:1的雙盲模式隨機分成兩組，分別接受靜脈輸注alteplase (0.9毫克/公斤體重)或安慰劑的治療。主要療效評估指標為90天後的失能狀況，並可分成有利(修正Rankin量表[mRS]評分為0至1)或不利(mRS評分為2至6)這兩種治療結果。主要的次要療效評估指標為90天後的合併針對四個神經功能與失能評分所進行的整體治療結果分析(修正Rankin量表[mRS]評分為0至1、Barthel index評分≥95、美國國家衛生院中風量表評分為0至1、Glasgow Outcome Scale score評分為1)。安全性評估指標包括死亡、SICH、以及嚴重的不良事件。總共有821位病人接受隨機分組(alteplase組418人/安慰劑組403人)。Alteplase組達到有利治療結果的病人比例(52.4%)要高於安慰劑組(45.2%；機會比率[OR]為1.34；95% CI為1.02-1.76；p=0.038)。在整體治療結果分析中，治療結果也有較為改善的現象(OR為1.28；95% CI為1.00-1.65；p=0.048)。相較於安慰劑，alteplase發生任何ICH/SICH的機率較高(任何ICH為27.0%，而安慰劑為17.6%，OR為1.73; 95% CI 1.24-2.42; p=0.0012；依據NINDS定義之SICH為7.9%，而安慰劑組為3.5%，OR為2.38; 95% CI 1.25-4.52; p=0.006)；依據ECASS III定義之SICH為2.4%，而安慰劑組為 0.3%，OR為9.85; 95% CI 1.26-77.32; p = 0.008;&nbsp;依據SITS-MOST定義之SICH為1.9%，而安慰劑組為0.3%，OR為7.84; 95% CI 1.25-4.52; p=0.006)。死亡率在兩組間並無顯著差異(alteplase組7.7%;&nbsp;安慰組8.4%; OR為0.90; 95% CI&nbsp;為0.54-1.49; p=0.681)。</p><p style=\"text-align:justify;\">一項進行中的急性缺血性中風(AIS)登記研究(SITS-ISTR：對中風病人施行血栓溶解治療之安全性-登記研究)曾針對從症狀發作之時間長達4.5小時的急性缺血性中風評估使用ACTILYSE治療的安全性與療效。研究人員將21,566位發作後時間窗期為0至3小時之病人的主要治療結果及死亡率相關數據和2,376位於AIS發作後3至4.5小時接受治療之病人的數據進行比較。發作後時間窗期為3至4.5小時之病人中的症狀性顱內出血發生率(依據NINDS的定義: 7.4%，依據ECASS II的定義: 5.3%，依據SITS-MOST的定義: 2.2%)要略高於發作後時間窗期不超過3小時的病人(依據NINDS的定義: 7.1%；調整勝算比95% CI為1.18 (0.99–1.41) p =0.06，依據ECASS II的定義: 4.8%; 95% CI:1.27(1.03-1.55) p=0.02，依據SITS-MOST的定義: 1.7%; 95% CI:1.44(1.05-1.97) p=0.02)。發作後時間窗期為3至4.5小時之病人中在三個月的死亡率(12.0%)和發作後時間窗期為0至3小時的病人(12.3%)大致相當。然而因此試驗為觀察性研究，故兩組病人的baseline demographic data並不相同，於AIS發作後3至4.5小時接受治療之病人比起於發作後3小時內接受治療之病人，其平均年齡較輕、NIHSS分數較低、較低比例的病人有高血壓或高血脂之共病、較低比例的病人在新加入的中心治療。故應謹慎解讀此研究結果。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">A-Ching Chao等人利用台灣腦中風登錄資料庫所作之觀察性研究結果顯示，給予rt-PA 0.9 mg/Kg治療急性缺血性中風，於71-80歲族群發生有症狀顱內出血(NINDS定義)之比率為12.41%，而於所有分析族群則為7.35%；3個月內死亡率在71-80歲族群為12.41%，而在所有分析族群則為8.3%。</p><p style=\"text-align:justify;\">&nbsp;</p><p style=\"text-align:justify;\">依據一項納入亞洲族群急性缺血性中風病人的ENCHANTED試驗結果，相較於標準劑量，使用低劑量rt-PA尚無法在90日時的死亡與殘疾比率方面達到不劣性的試驗終點。但在此試驗及A-Ching Chao等人利用台灣腦中風登錄資料庫所作的觀察性研究結果中顯示，使用低劑量rt-PA的病人，其發生有症狀性腦出血的機率較低。(參考文獻:&nbsp;1. Low-Dose versus Standard-Dose Intravenous Alteplase in Acute Ischemic Stroke. NEJM 2016；374，2313-232.；2. Different Doses of Recombinant Tissue-Type Plasminogen Activator for Acute Stroke in Chinese Patients. Stroke. 2014 Aug；45(8)：2359-65.)</p>",
+          "search_text": "12\n臨床試驗資料\n急性心肌梗塞(AMI)病人 曾針對發生急性心肌梗塞的病人研究過兩種不同劑量療程之ACTILYSE的治療效果。但目前尚未評估過這兩種療法的相對療效。 採用加速輸注法治療AMI病人 有一項跨國多中心試驗(GUSTO)曾研究過加速輸注ACTILYSE的治療效果，這項試驗共有41,021位急性心肌梗塞病人於隨機分組後分別接受四種血栓溶解療法的治療。在接受90分鐘輸注100毫克之ACTILYSE並合併靜脈輸注heparin治療的病人中，30天後的死亡率(6.3%)要比接受60分鐘輸注150萬國際單位(IU)之streptokinase並合併皮下注射或靜脈輸注heparin治療的病人(7.3%)低。ACTILYSE組之30天死亡率與streptokinase組相比較的1%絕對降低幅度是具有統計意義的(p= 0.001)。 在接受ACTILYSE治療的病人中，血栓溶解治療後60及90分鐘的梗塞血管疏通率要比接受streptokinase治療的病人高。但180分鐘或更長時間之後的血管疏通率則無任何差異。 一項涵蓋近17,000位病人的大型死亡率試驗(ASSENT 2)顯示，alteplase與tenecteplase在降低死亡率方面的治療表現大致相當(兩者的30天後死亡率皆為6.2%)。使用tenecteplase治療之病人中的非顱內出血發生率要明顯低於使用alteplase治療的病人(分別為26.4%與28.9%，p=0.0003)。出血風險降低的原因可能和tenecteplase的纖維蛋白特異性較高及其依體重調整的治療方式有關。 採用3小時輸注法治療AMI病人 一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(ASSET研究)(5013位病人)顯示，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，30天存活率有較使用安慰劑治療之病人提高的現象。在治療一個月後，ACTILYSE組中的整體死亡率為7.2%，而安慰劑組則為9.8% (p=0.001)。在6個月後，使用ACTILYSE治療之病人(10.4%)和使用安慰劑治療之病人(13.1%)相比較所呈現的效益仍維持不變(p=0.008)。 在一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(721位病人)中，利用對比式心室造影術檢測整體射出分率的結果分別為50.7%與48.5%，p=0.01，顯示治療10-22天後，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，心室功能較安慰劑組改善。針對HBD (α羥基丁酸脫氫酶)活性的累積釋出量評估梗塞範圍的結果顯示，使用ACTILYSE治療之病人較安慰劑治療的病人減小了19% (p=0.001)。使用ACTILYSE治療的病人發生心因性休克(p=0.02)、心室纖維顫動(p<0.04)及心包炎(p=0.01)的病例明顯較使用安慰劑治療的病人少。治療21天後，和安慰劑組中的6.3%相比較，使用ACTILYSE治療之病人中的死亡率下降至3.7% (單側分析，p=0.05)。雖然這些數據並未能明確證實這項研究中的死亡率有明顯降低的現象，但仍可從中看出這種趨勢，而此趨勢在ASSET研究的結果中也獲得證實。 一項安慰劑對照試驗(LATE)針對5711位已出現AMI症狀6至24小時的病人，比較3小時輸注100毫克ACTILYSE和安慰劑的治療效果。結果顯示，ACTILYSE治療組的30天死亡率降低了14.1%，但並不具統計意義(95% CI為0-28.1%，p>0.05)。在一項針對於症狀出現後12小時內接受治療之病人所進行的預設存活分析中發現，使用ACTILYSE治療者的死亡率明顯降低了25.6% (95% CI為6.3-45%，p=0.023)。 急性大片肺栓塞病人 一項針對63位經血管攝影證實患有急性大片肺栓塞的病人，比較alteplase與urokinase之治療效果的比較性隨機分組試驗中，兩個治療組的肺栓塞誘發性肺高壓都有明顯降低。在ACTILYSE治療組中，肺臟血液動力學概況的改善速度明顯較urokinase組快。 急性缺血性中風病人 在急性缺血性中風的領域中也曾進行過多項研究。其中的NINDS研究是唯一沒有年齡上限的研究，該研究也收錄了36位年齡為80歲以上的病人。而其它的隨機分組試驗都是將80歲以上的病人排除於外。對此病人族群必須依據個別狀況評估其血栓溶解的效益風險。 有兩項安慰劑對照性雙盲試驗(NINDS t-PA中風試驗，第1部份與第2部份)收錄有明顯神經功能缺損並可於症狀出現後3小時內完成篩檢及開始接受研究治療的病人。在開始治療前先進行顱部電腦斷層(CT)掃瞄，以排除出現症狀性顱內出血(SICH)的病人。下列病人也被排除於研究之外：患有和出血風險有關的疾病、輕微神經功能缺損、症狀在開始接受研究治療前即快速改善、或血糖值<50 mg/dL或>400 mg/dL。病人於隨機分組後分別接受0.9毫克/公斤之ACTILYSE (最高劑量為90毫克)或安慰劑的治療。ACTILYSE的給藥方式為先以1分鐘的時間注射10%的劑量，再以60分鐘的時間連續靜脈輸注剩餘的劑量。 初步的研究(NINDS試驗第1部份，n=291)乃是評估中風後24小時的神經功能改善情形。在初級終點評估指標方面，亦即國家衛生研究院中風量表(NIHSS)評分改善4分(含)以上或完全恢復正常(NIHSS評分=0)的病人比例，兩個治療組間並無明顯差異。利用下列中風量表所進行的次級分析顯示，使用ACTILYSE可使3個月後的治療結果獲得改善：Barthel指數、修正Rankin量表(mRS)、Glasgow治療結果量表和NIHSS。第二項研究(NINDS試驗第2部份，n=333)則是以3個月後的臨床表現做為主要的結果評估指標。獲得有利治療結果的定義為四項中風評估量表的評估結果顯示失能程度極低或無任何失能現象：Barthel指數(評分≥95)、修正Rankin量表(評分≤1)、Glasgow治療結果量表(評分=1)和NIHSS (評分≤1)。與安慰劑組比較，在ACTILYSE組中獲得有利治療結果的機會比率為1.7 (95% CI：1.2-2.6)。和安慰劑相比較，失能程度極低或無任何失能現象(mRS 0-1)之病人人數的絕對增加幅度為12.6%。在其它的神經功能量表與失能量表中，ACTILYSE也有相當一致的效益表現。次級分析的結果顯示，從中位評分來看，在四個中風量表中都可達到相當一致的身體功能與神經功能改善效果。這些結果和第1部分研究中所觀察到的3個月治療效果一致。 表一 The NINDS t-PA Stroke Trial, Part 2 3個月之療效結果 有利之結果的頻率1 分析之項目 安慰劑 (n=165) ACTILYSE (n=168) 絕對差 (95% CI) 相對頻度2 (95% CI) p-Value3 Generalized Estimating Equations (multivariate)─── 1.34 (1.05, 1.72) 0.02 Barthel Index37.6%50.0% 12.4% (3.0, 21.9) 1.33 (1.04, 1.71) 0.02 Modified Rankin Scale26.1%38.7% 12.6% (3.7, 21.6) 1.48 (1.08, 2.04) 0.02 Glasgow Outcome Scale31.5%44.0% 12.5% (3.3, 21.8) 1.40 (1.05, 1.85) 0.02 NIHSS20.0%31.0% 11.0% (2.6, 19.3) 1.55 (1.06, 2.26) 0.02 1 有利之結果的定義為恢復後僅有輕微或沒有失能。 2 此值大於1表示ACTILYSE的治療對恢復頻度 (frequency of recovery) 為有利。 3 相對頻度之p-Value是得自Generalized Estimating Equations與對數相結合。 使用ACTILYSE治療後的所有導因90天死亡率、SICH及新發生之缺血性中風的發生率和安慰劑相比較的結果顯示，使用ACTILYSE治療之後，36小時內的症狀性SICH (依據NINDS的定義)發生率有明顯升高的現象(ACTILYSE組為6.4%，安慰劑組為0.65%)。在90天內死亡率(ACTILYSE組為20.5%，安慰組為17.3%)或嚴重失能的發生率(ACTILYSE組為25%，安慰劑組為22%)，兩組未有顯著差異性。\n一項涵蓋2775位源自6項重要隨機臨床試驗(NINDS試驗第1部份與第2部份、兩項ECASS試驗、以及ATLANTIS試驗A部份與B部份)之病人的整合分析曾針對使用ACTILYSE或安慰劑治療之病人的失能狀態進行評估。這項分析顯示，症狀發作後至開始使用ACTILYSE治療的時間越短，於3個月後獲得有利治療結果的機會就越高。在接受ACTILYSE治療的病人中，SICH的發生率為5.9%，在對照組中則為1.1% (p<0.0001)，此發生率和年齡有關。 一項大型的觀察研究(SITS-MOST：對中風病人施行血栓溶解治療之安全性-監視研究)曾評估在一般臨床實務中於3小時內使用ACTILYSE治療急性中風的安全性與療效，並和隨機臨床試驗(RCTs)的結果進行比較。所有病人都必須符合歐洲ACTILYSE產品特性摘要中的條件。這項研究一共在14個歐洲國家的285個中心收集了2483位病人的治療與結果相關資料。主要的結果評估指標為24小時內的症狀性顱內出血發生率及3個月死亡率。SITS-MOST研究中所見的SICH發生率和隨機試驗所報告的SICH發生率大致相當；在SITS-MOST研究中為7.3% (95% CI 6.7-8.0)，在RCTs中為8.6% (95% CI 6.1-11.1)。SITS-MOST研究中的死亡率為11.3% (95% CI 10.5-12.1)，RCTs中的死亡率為17% (95% CI 13.9-20.7)。SITS-MOST研究的結果顯示，在一般臨床實務中於中風發作後3小時內使用ACTILYSE治療的安全性和隨機臨床試驗所報告的結果大致相當。 ECASS III試驗是一項針對發作後時間窗期(time-window)為3至4.5小時的急性中風病人所進行的安慰劑對照性雙盲試驗。這項研究的收錄對象是除了發作後時間窗期之外皆符合歐洲產品特性摘要(SPC)之條件的急性缺血性中風病人。利用電腦斷層攝影排除腦出血或嚴重梗塞的現象之後，病人按1:1的雙盲模式隨機分成兩組，分別接受靜脈輸注alteplase (0.9毫克/公斤體重)或安慰劑的治療。主要療效評估指標為90天後的失能狀況，並可分成有利(修正Rankin量表[mRS]評分為0至1)或不利(mRS評分為2至6)這兩種治療結果。主要的次要療效評估指標為90天後的合併針對四個神經功能與失能評分所進行的整體治療結果分析(修正Rankin量表[mRS]評分為0至1、Barthel index評分≥95、美國國家衛生院中風量表評分為0至1、Glasgow Outcome Scale score評分為1)。安全性評估指標包括死亡、SICH、以及嚴重的不良事件。總共有821位病人接受隨機分組(alteplase組418人/安慰劑組403人)。Alteplase組達到有利治療結果的病人比例(52.4%)要高於安慰劑組(45.2%；機會比率[OR]為1.34；95% CI為1.02-1.76；p=0.038)。在整體治療結果分析中，治療結果也有較為改善的現象(OR為1.28；95% CI為1.00-1.65；p=0.048)。相較於安慰劑，alteplase發生任何ICH/SICH的機率較高(任何ICH為27.0%，而安慰劑為17.6%，OR為1.73; 95% CI 1.24-2.42; p=0.0012；依據NINDS定義之SICH為7.9%，而安慰劑組為3.5%，OR為2.38; 95% CI 1.25-4.52; p=0.006)；依據ECASS III定義之SICH為2.4%，而安慰劑組為 0.3%，OR為9.85; 95% CI 1.26-77.32; p = 0.008; 依據SITS-MOST定義之SICH為1.9%，而安慰劑組為0.3%，OR為7.84; 95% CI 1.25-4.52; p=0.006)。死亡率在兩組間並無顯著差異(alteplase組7.7%; 安慰組8.4%; OR為0.90; 95% CI 為0.54-1.49; p=0.681)。 一項進行中的急性缺血性中風(AIS)登記研究(SITS-ISTR：對中風病人施行血栓溶解治療之安全性-登記研究)曾針對從症狀發作之時間長達4.5小時的急性缺血性中風評估使用ACTILYSE治療的安全性與療效。研究人員將21,566位發作後時間窗期為0至3小時之病人的主要治療結果及死亡率相關數據和2,376位於AIS發作後3至4.5小時接受治療之病人的數據進行比較。發作後時間窗期為3至4.5小時之病人中的症狀性顱內出血發生率(依據NINDS的定義: 7.4%，依據ECASS II的定義: 5.3%，依據SITS-MOST的定義: 2.2%)要略高於發作後時間窗期不超過3小時的病人(依據NINDS的定義: 7.1%；調整勝算比95% CI為1.18 (0.99–1.41) p =0.06，依據ECASS II的定義: 4.8%; 95% CI:1.27(1.03-1.55) p=0.02，依據SITS-MOST的定義: 1.7%; 95% CI:1.44(1.05-1.97) p=0.02)。發作後時間窗期為3至4.5小時之病人中在三個月的死亡率(12.0%)和發作後時間窗期為0至3小時的病人(12.3%)大致相當。然而因此試驗為觀察性研究，故兩組病人的baseline demographic data並不相同，於AIS發作後3至4.5小時接受治療之病人比起於發作後3小時內接受治療之病人，其平均年齡較輕、NIHSS分數較低、較低比例的病人有高血壓或高血脂之共病、較低比例的病人在新加入的中心治療。故應謹慎解讀此研究結果。 A-Ching Chao等人利用台灣腦中風登錄資料庫所作之觀察性研究結果顯示，給予rt-PA 0.9 mg/Kg治療急性缺血性中風，於71-80歲族群發生有症狀顱內出血(NINDS定義)之比率為12.41%，而於所有分析族群則為7.35%；3個月內死亡率在71-80歲族群為12.41%，而在所有分析族群則為8.3%。 依據一項納入亞洲族群急性缺血性中風病人的ENCHANTED試驗結果，相較於標準劑量，使用低劑量rt-PA尚無法在90日時的死亡與殘疾比率方面達到不劣性的試驗終點。但在此試驗及A-Ching Chao等人利用台灣腦中風登錄資料庫所作的觀察性研究結果中顯示，使用低劑量rt-PA的病人，其發生有症狀性腦出血的機率較低。(參考文獻: 1. Low-Dose versus Standard-Dose Intravenous Alteplase in Acute Ischemic Stroke. NEJM 2016；374，2313-232.；2. Different Doses of Recombinant Tissue-Type Plasminogen Activator for Acute Stroke in Chinese Patients. Stroke. 2014 Aug；45(8)：2359-65.)",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 123944
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "每盒含一小瓶50毫克主成分之乾粉製劑及一小瓶50毫升的注射用水。 每盒含一小瓶20毫克主成分之乾粉製劑及一小瓶20毫升的注射用水。",
+          "content_html": "<p style=\"text-align:justify;\">每盒含一小瓶50毫克主成分之乾粉製劑及一小瓶50毫升的注射用水。</p><p style=\"text-align:justify;\">每盒含一小瓶20毫克主成分之乾粉製劑及一小瓶20毫升的注射用水。</p>",
+          "search_text": "13.1\n包裝\n每盒含一小瓶50毫克主成分之乾粉製劑及一小瓶50毫升的注射用水。 每盒含一小瓶20毫克主成分之乾粉製劑及一小瓶20毫升的注射用水。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "依照包裝上顯示",
+          "content_html": "<p>依照包裝上顯示</p>",
+          "search_text": "13.2\n效期\n依照包裝上顯示",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "使用中化學及物理安定性 已證實調配妥之注射溶液在2-8ºC可穩定24小時，在30ºC可穩定8小時。 儲存溫度 小於30ºC",
+          "content_html": "<p><u>使用中化學及物理安定性</u></p><p>已證實調配妥之注射溶液在2-8ºC可穩定24小時，在30ºC可穩定8小時。</p><p>&nbsp;</p><p><u>儲存溫度</u></p><p>小於30ºC</p>",
+          "search_text": "13.3\n儲存條件\n使用中化學及物理安定性 已證實調配妥之注射溶液在2-8ºC可穩定24小時，在30ºC可穩定8小時。 儲存溫度 小於30ºC",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "使用中微生物安定性 從微生物學的觀點而言，調配妥之注射溶液應立即使用。如未能立即使用，使用者應對其貯存時間及條件負責，通常在2至8ºC勿超過24小時。",
+          "content_html": "<p><u>使用中微生物安定性</u></p><p>從微生物學的觀點而言，調配妥之注射溶液應立即使用。如未能立即使用，使用者應對其貯存時間及條件負責，通常在2至8ºC勿超過24小時。</p>",
+          "search_text": "13.4\n儲存注意事項\n使用中微生物安定性 從微生物學的觀點而言，調配妥之注射溶液應立即使用。如未能立即使用，使用者應對其貯存時間及條件負責，通常在2至8ºC勿超過24小時。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "修訂日期：2025年2月 核定日期：2025年9月",
+          "content_html": "<p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">修訂日期：</span>2025<span style=\"font-family:標楷體;\">年</span>2<span style=\"font-family:標楷體;\">月</span></p><p style=\"text-align:justify;\"><span style=\"font-family:標楷體;\">核定日期：</span>2025<span style=\"font-family:標楷體;\">年</span>9<span style=\"font-family:標楷體;\">月</span></p>",
+          "search_text": "15\n其他\n修訂日期：2025年2月 核定日期：2025年9月",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n每一小瓶含：alteplase = recombinant human tissue-type plasminogen activator50毫克或20毫克 每一小瓶溶劑含：滅菌注射用水50毫升或20毫升 調配妥的溶液每毫升含alteplase 1毫克\n1.2\n賦形劑\nl-arginine, phosphoric acid, polysorbate 80\n1.3\n劑型\n注射劑\n1.4\n藥品外觀\n栓體舒為無菌、白色至近白色的凍晶乾燥粉末\n2\n適應症\n急性冠狀動脈栓塞之血栓溶解、急性大片肺栓塞、急性缺血性中風之血栓溶解。\n3\n用法及用量\n3.1\n用法用量\nACTILYSE必須在症狀出現後，儘快給藥。 急性心肌梗塞 a) 症狀出現在6小時內之急性心肌梗塞病人，適用90分鐘(加速)之劑量療法： 病人體重≥ 65公斤： - 最初，靜脈注射 (intravenous bolus) 15毫克； - 接著，50毫克靜脈輸注30分鐘； - 隨後立即，35毫克靜脈輸注60分鐘，直到最高總劑量達100毫克。 病人體重< 65公斤者，總劑量應依體重調整如下： - 最初，靜脈注射15毫克； - 接著，每公斤體重0.75毫克，靜脈輸注30分鐘(最高劑量為50毫克)； - 隨後立即，每公斤體重0.5毫克，靜脈輸注60分鐘(最高劑量為35毫克)。 b) 症狀出現在6至12小時之間之急性心肌梗塞病人，適用3小時之劑量療法： - 最初，靜脈注射10毫克； - 接著，在第一個小時靜脈輸注50毫克； - 隨後立即，40毫克靜脈輸注2個小時，直到總劑量達100毫克。 病人體重< 65公斤者： - 靜脈輸注三小時，最高總劑量勿超過每公斤體重1.5毫克。 ACTILYSE治療急性心肌梗塞病人已證實可降低30天死亡率風險。 輔助治療(Adjunctive therapy)： 抗血栓劑輔助治療是依據現行治療ST波段上升心肌梗塞病人之國際準則建議使用。 急性大片肺栓塞 總劑量100毫克投與2小時。大多使用下列劑量療法： - 最初，以1-2分鐘靜脈注射10毫克； - 接著，90毫克靜脈輸注2小時，直到最高總劑量達100毫克。 病人體重< 65公斤，靜脈輸注2小時，最高總劑量不可超過每公斤體重1.5毫克。 肺栓塞之診斷必須用客觀方法如肺血管顯影術(pulmonary angiography)或非侵入性方法如肺掃描來確認。 尚未有關於肺栓塞之死亡率及之後罹患率的臨床研究。 輔助治療 (Adjunctive therapy)： 使用ACTILYSE治療之後，heparin之治療應在活化部份凝血酶原的時間值小於正常值上限的兩倍時開始(或再繼續)。輸注時應使活化部份凝血酶原的時間(aPTT)維持在50到70秒間(參考值的1.5至2.5倍)。 急性缺血性中風 治療急性缺血性中風的總劑量勿超過90毫克。 建議總劑量為每公斤體重0.9毫克(最大劑量為90毫克)。以總劑量的10%為起始劑量，以靜脈注射(intravenous bolus) 投與，剩餘的量以靜脈輸注(infusion) 60分鐘。 應於中風發作3小時內儘早開始治療，病人應以適當之顯影技術如腦部電腦斷層攝影(Brain CT)排除顱內出血病人。 治療急性缺血性中風的劑量表 體重 (公斤) 總劑量 (毫克) 注射劑量 (毫克) 輸注劑量a (毫克) 40 36.0 3.6 32.4 42 37.8 3.8 34.0 44 39.6 4.0 35.6 46 41.4 4.1 37.3 48 43.2 4.3 38.9 50 45.0 4.5 40.5 52 46.8 4.7 42.1 54 48.6 4.9 43.7 56 50.4 5.0 45.4 58 52.2 5.2 47.0 60 54.0 5.4 48.6 62 55.8 5.6 50.2 64 57.6 5.8 51.8 66 59.4 5.9 53.5 68 61.2 6.1 55.1 70 63.0 6.3 56.7 72 64.8 6.5 58.3 74 66.6 6.7 59.9 76 68.4 6.8 61.6 78 70.2 7.0 63.2 80 72.0 7.2 64.8 82 73.8 7.4 66.4 84 75.6 7.6 68.0 86 77.4 7.7 69.7 88 79.2 7.9 71.3 90 81.0 8.1 72.9 92 82.8 8.3 74.5 94 84.6 8.5 76.1 96 86.4 8.6 77.8 98 88.2 8.8 79.4 100+ 90.0 9.0 81.0 a以靜脈輸注60分鐘1 mg/ml的濃度給藥 輔助治療 (Adjunctive therapy)： 影響血液凝固/血小板功能的藥物 由於缺乏充分的安全性及療效研究，在ACTILYSE治療的最初24小時內，應避免heparin或血小板凝集抑制劑如aspirin，因可能增加出血風險。若使用heparin是為其他適應症(例如預防深部靜脈血栓)時，皮下投與劑量不可超過每天10,000單位。\n3.2\n調製方式\n調配之溶液應由靜脈給藥並立即使用。 使用應注意之事項 必須在無菌狀況下調配ACTILYSE溶液。依照下列方式將含有ACTILYSE(20毫克、50毫克)乾粉的小瓶溶解於無菌注射用水，調配成每毫升含alteplase 1毫克的濃度。 ACTILYSE乾粉 20毫克 50毫克 須加至乾粉的無菌注射用水量 20毫升 50毫升 最終濃度 alteplase 1毫克/毫升 alteplase 1毫克/毫升 為達此目的，本品20毫克、50毫克的盒內各附有1隻套管 (cannula)。\n調配後之1毫克/毫升溶液可以9毫克/毫升(0.9%)的注射用無菌氯化鈉溶液將其進一步稀釋，但不可稀釋至低於0.2毫克/毫升的最低濃度，由於調配後溶液之混濁度的發生無法被排除。 不建議使用無菌注射用水或一般含碳水化合物的輸注液如dextrose將前述調配妥之溶液再稀釋，因為會增加調配後溶液的混濁度形成。 ACTILYSE不應與其他藥物混合於同一輸注液瓶中或同一靜脈輸注管中使用(即使是heparin也不可以)。\n3.3\n特殊族群用法用量\n4\n禁忌\nACTILYSE禁止使用於 已知對主成分alteplase或其他賦形劑過敏之病人 與出血風險相關的情形，如下： 目前或過去六個月內有顯著的出血疾病(bleeding disorder)、易出血體質 目前正在使用有效劑量口服抗凝血劑之病人(如維生素K拮抗劑, 且INR＞1.3) (參閱「警語及注意事項」之「出血」部分) 中樞神經系統損害之病史(腫瘤、血管瘤、顱內或脊柱的手術) 懷疑或經證實包括蜘蛛膜下腔出血之顱內出血或其病史 嚴重且未被控制的動脈高血壓 過去10天內曾動過大手術或有嚴重創傷(包括最近之急性心肌梗塞所伴隨的任何創傷)、最近頭部或顱部曾發生創傷 過去10天內分娩、近期曾對無法壓制之部位施行血管穿刺(如鎖骨下靜脈或頸靜脈穿刺) 嚴重肝病，包括肝衰竭、肝硬化、肝門脈高壓(食道靜脈曲張)及急性肝炎 細菌性心內膜炎，心包炎 急性胰臟炎 活動性胃腸道潰瘍 已知的動脈瘤，及/或靜/動脈畸形 易出血之腫瘤 急性心肌梗塞和急性大片肺栓塞另有下列之禁忌症： 與出血風險相關的情形，如下： 曾發生出血性中風或不明原因的中風 過去6個月內曾發生缺血性中風或暫時性腦缺血(TIA)，但不包括過去4.5個小時內發生的急性缺血性中風 急性缺血性中風另有下列之禁忌症： 與出血風險相關的情形，如下： 輸注本藥前，缺血性發作的時間已超過4.5小時或症狀發作時間不明 輸注本藥前，急性缺血性中風的症狀已迅速改善或症狀輕微 臨床(例如NIHSS＞25)及∕或適當之影像術評估為嚴重之中風 中風發作前48小時內使用heparin，且病人活化部份凝血酶原的時間值(aPTT)過高 血小板少於100,000/mm3 最近三個月內有嚴重性頭部創傷 最近三個月內有中風病史 活動性內出血 經處置後持續維持收縮壓> 185 mmHg 或舒張壓> 110 mmHg 經處置後持續維持血糖< 50 mg/dL 或血糖> 400 mg/dL ACTILYSE不適用於治療兒童及未滿十八歲之青少年。\n5\n警語及注意事項\n應依據用途慎選適當劑量規格的alteplase產品。2毫克裝的alteplase並不適用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風(因為有劑量嚴重不足的風險)。只有10毫克、20毫克及50毫克裝的產品適用於這些適應症。\n5.1\n警語/注意事項\n治療急性心肌梗塞、急性大片肺栓塞和急性缺血性中風 ACTILYSE應在具監視其使用之設備下，由具使用血栓溶解劑經驗的醫師處方。這不排除到院前使用ACTILYSE。如同其他的血栓溶解劑，建議應在具備標準心肺復甦設備及藥物的情形下，投予ACTILYSE。 可追溯性 為提高生物藥品的可追溯性，應將所施用的藥品商品名和批號清楚地記錄在病人檔案中。 過敏 投予ACTILYSE時伴隨發生免疫機制媒介之過敏反應的情形可能是病人對其活性成分alteplase、任何賦形劑(參閱「禁忌症」)。 未曾在治療之後發現對人類組織型胞漿素原活化酶分子持續產生抗體的現象。在重新投予ACTILYSE方面，目前並無任何系統性的經驗。 另有透過非免疫機制媒介之過敏反應的風險。 血管性水腫(Angio-oedema)是ACTILYSE最常見的過敏反應。在急性缺血性中風和/或ACE抑制劑的合併治療中，這種風險可能會增加(參閱「交互作用」)。在ACTILYSE輸注期間和輸注後24小時內，接受治療的病人應監測血管性水腫。 如果發生嚴重過敏反應(如:血管性水腫)，應停止輸注，並立即採取適當的治療措施，包含插管。 血栓栓塞症 對於發生左心血栓風險較高的病人(例如患有僧帽瓣狹窄或心室纖維性顫動等)，使用ACTILYSE可能會增加血栓栓塞事件的風險。 出血 以ACTILYSE治療時，最常見的合併症是出血。併用其他影響凝血或血小板功能的活性物質可能導致出血。(參閱「用法用量」、「禁忌症」及「交互作用」) 。 由於在ACTILYSE治療時，纖維蛋白被溶解，故可能會自最近穿刺的部位出血，所以，在採用血栓溶解劑時，對於所有可能出血的部位(包括插入導管之部位、動脈∕靜脈穿刺之切口及針刺之部位)需特別注意。在ACTILYSE治療時，應避免使用硬式導管、肌內注射及對病人做非必要之處置。 如發生嚴重出血，尤其是腦部出血時，必須停止給予纖維蛋白溶解劑和heparin。如出血前4小時內曾併用heparin，則應考慮投與protamine。少數病人對這些保守方法的反應無效，輸血可能是明智之舉。 可考慮以冷凍沉澱品、新鮮冷凍血漿、血小板來輸血，並在每次輸血後進行臨床和檢驗的評估。採冷凍沉澱品輸注時，纖維蛋白原之理想濃度目標為1公克∕公升。抗纖維蛋白溶解劑也應被考慮投予。 治療急性心肌梗塞或肺栓塞時，ACTILYSE的劑量勿超過100毫克，治療急性缺血性中風的劑量勿超過90毫克，因為超過前述劑量曾發生增加顱內出血的危險性。 使用ACTILYSE於任何會增加出血狀況時，必須謹慎衡量其治療效益勝於危險時，才可使用，尤指下列狀況： 在禁忌症未提到但會增加出血危險的狀況。 正接受口服抗凝血劑治療的病人: 當適當的抗凝血活性檢測顯示無臨床相關活性時，便可以考慮使用ACTILYSE。 過久的(超過2分鐘)或創傷性的心肺復甦術或心臟按摩 最近曾肌內注射或最近有小外傷，例如切片檢查、主要血管穿刺 治療急性心肌梗塞及急性大片肺栓塞時，需特別注意： 收縮壓＞160mmHg (參閱「禁忌症」) 年長病人(特別是75歲或以上)，因可能增加顱內出血的危險性 體重較輕的病人 治療急性心肌梗塞時，需特別注意： 心律不整 冠狀動脈血栓溶解，在血流再灌注時，會伴隨心律不整。 再灌流性心律不整可能會導致心跳停止、危及生命、並可能須使用傳統的抗心律不整藥物治療。 醣蛋白 (Glyco-protein) IIb/IIIa之受體拮抗劑 合併使用GP IIb/IIIa受體拮抗劑會增加出血風險。 治療急性缺血性中風時需特別注意： 必須由受過訓練且有神經血管照護經驗的醫師治療。 本藥只限於具適當評估及處理顱內出血設施的場所使用。 除了前述之禁忌症外，在下列情況使用ACTILYSE治療急性缺血性中風可能會增加危險性，故應權衡治療之預期利益和危險性。 嚴重神經機能缺損的病人(例如NIHSS>22)。這類病人有較高之顱內出血危險性 電腦斷層掃描顯示病人早期有重大梗塞的徴兆 [例如大量水腫、腫塊效應或中線偏移 (midline shift)] 對最近未曾使用抗凝血劑或heparin治療的病人，可在未獲得凝血參數前先開始ACTILYSE的治療，然而如治療前之International Normalized Ratio (INR)>1.7或prothrombin time (PT)>15秒或aPTT過高，應立即停止ACTILYSE之輸注。 出血 最常見的副作用是顱內出血(請參閱「副作用/不良反應」)。 接受ACTILYSE治療的急性缺血性中風病人發生顱內出血的危險性，比其他適應症者明顯增加，此係因其出血主要發生於梗塞之部位。 下列情況尤然： 禁忌症所列出的所有情況和涉及一般出血高危險性的所有情況 腦血管無症狀的小血管瘤 太晚開始治療 先接受 acetyl salicylic acid (ASA) 治療的病人可能有較高的顱內出血危險性，尤其是當ACTILYSE的治療被延遲時。 相較於較年輕的病人，80歲以上之病人當血栓溶解時發生顱內出血的風險可能會升高，治療淨效益也可能較低。急性缺血性中風病人必須依據個別狀況評估其血栓溶解的效益風險。 基於下列因素有不利的效益/風險比，所以，勿在症狀發作超過4.5小時後才給予本藥治療： 治療效益隨時間增加而減少 特別是對先前接受ASA治療的病人，死亡率會增加 增加症狀性出血之危險性 血壓監控 在給予治療的最初24小時內時應監視病人的血壓。如收縮壓＞180 mmHg或舒張壓＞105 mmHg，建議應靜脈給予抗高血壓的治療。 效益/風險比較差的特殊病人族群 血栓溶解治療對曾發生中風或未被控制的糖尿病病人(參閱「禁忌症」)，其效益/風險比被認為較差，然而對這些病人仍具正面價值。因中風病史及糖尿病為血栓溶解治療之不良結果預測因子，對於曾發生中風且合併有糖尿病的病人，給予ACTILYSE 治療的效益/風險比應該被完整地評估。 對極輕微中風的病人，本藥之危險性超過預期的利益，所以這類病人不應給予ACTILYSE治療。 中風極嚴重的病人是處於顱內出血和死亡的高危險性，所以不應給予ACTILYSE治療。 廣泛性梗塞的病人其預後差(包括嚴重性出血和死亡)危險性較高，所以對這類病人應謹慎評估治療的效益/風險比。 由於急性缺血性中風被誤診之危險性增加，對血糖濃度< 50 mg/dl或> 400 mg/dl的病人，尤應謹慎診斷。此外，對於中風發作時併發癲癇的病人，亦應謹慎診斷；如癲癇症狀後仍有殘存神經學症狀無法排除為中風導致，並認為非癲癇發作後的麻痺(Todd’s paralysis)，在決定是否給予ACTILYSE 治療前，應完整評估病人接受ACTILYSE 的效益/風險比。 rt-PA使用於急性缺血性中風的病人，其改善預後的效果可能會隨著病人年齡、中風的嚴重性以及入院時血糖濃度增加而降低，可能會導致殘疾、死亡或顱內出血增加，因此rt-PA宜謹慎使用於超過80歲之老人的急性缺血中風。 已有臨床試驗針對較低的劑量進行研究。相較於標準劑量，低劑量使用雖無法達到不劣性的試驗終點，但其發生有症狀性顱內出血 (symptomatic intracerebaral hemorrhage，sICH)的機率較低(A-Ching Chao, et al.; ENCHANTED)。 腦水腫 缺血性區域之再灌流 (reperfusion) 可能誘發梗塞區域之腦水腫。 賦形劑 ACTILYSE含有polysorbate 80： 50毫克小瓶包裝中，每瓶含有5.0毫克polysorbate 80；20 毫克小瓶包裝中，每瓶含有2.0 毫克polysorbate 80。Polysorbates可能導致過敏反應。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\nACTILYSE使用於孕婦上的相關文獻資料有限。 非臨床研究顯示給予高於人類使用劑量的ACTILYSE會導致胎兒的不成熟性及/或胚胎毒性，為藥物已知藥理活性引起之次級反應。ACTILYSE不被認為具致畸胎性。(參閱「臨床前安全性資料」)。 若發生緊急生命受威脅的疾病時，必須評估過，其效益性優於其潛在危險性，始可使用。\n6.2\n哺乳\n目前仍未知alteplase是否會從人類乳汁分泌。 哺乳期婦女應謹慎服用ACTILYSE，並且必須決定是否應在服用ACTILYSE後的24小時內停止母乳餵養。\n6.3\n有生育能力的女性與男性\n對於生育力影響目前尚無相關研究(請見「臨床前安全性資料」)。根據非臨床研究顯示，Alteplase並無生育力方面的副作用(參閱「臨床前安全性資料」)。\n6.4\n小兒\n兒科族群 至今，ACTILYSE使用於兒童的經驗相當有限。\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n尚未有ACTILYSE與常使用於急性心肌梗塞、急性大片肺栓塞或急性缺血性中風病人藥物間之交互作用的研究。 影響血液凝固/血小板功能之藥物 會影響血液凝固或改變血小板功能之藥物，可能會增加ACTILYSE使用前、使用中或使用後出血的危險性(參閱「禁忌」)。在使用ACTILYSE治療急性缺血性中風後的最初24小時內應避免使用這些藥物。(參閱「用法用量」及「警語及注意事項」) ACE抑制劑 併用ACE抑制劑可能會增加發生過敏反應的危險性(參閱「警語及注意事項」)。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n使用ACTILYSE最常發生的不良反應是因出血(≥1:100 to <1:10: 大出血; ≥1:10: 任何形式之出血)造成全身血球容積和∕或血紅素降低。發生在任何部位或體腔的出血，可能導致生命危急、永久性殘疾或死亡。 使用血栓溶解劑治療所引起之出血分為以下兩大類： - 表面出血，通常發生在血管穿刺或損傷部位。 - 任何部位或體腔之內出血。 可能與顱內出血有關的神經方面症狀(如嗜睡、失語、肢體無力、痙攣)。 與本試驗之急性心肌梗塞病人數相較，在臨床試驗中因急性大片肺栓塞及急性缺血性中風(在發作後的4.5小時內)而接受治療的病人數是非常少，所以其與急性心肌梗塞所觀察到數字的小差異可能係因樣本數目太小所致。除了在適應症為急性缺血性中風的顱內出血副作用及適應症為急性心肌梗塞的再灌流性心律不整副作用外，以急性大片肺栓塞和急性缺血性中風為適應症時，並無醫學上的理由可假設ACTILYSE之副作用性質及數量與使用於急性心肌梗塞時不同。 免疫系統之障礙 >1:1,000，≤ 1:100: 類過敏性反應，通常輕微但在少數病例可能會危及性命。其症狀可能為 o 出疹 o 蕁麻疹 o 支氣管痙攣 o 血管性水腫 o 低血壓 o 休克或其他與過敏有關之症狀 神經系統之障礙 - 顱內出血，當適應症為心肌梗塞及肺栓塞時: >1:1000，≤ 1:100; 當適應症為急性缺血性中風時: >1:100，≤ 1:10，如 腦出血 腦血腫 出血性中風 出血性轉化中風 顱內血腫 蜘蛛膜下腔出血 眼部之障礙 ≤ 1:10,000: -眼睛出血。 心臟之障礙 > 1:1,000，≤ 1:100: -心包出血。 血管之障礙 > 1:10: -出血(如血腫)。 > 1:1,000，≤ 1:100: -栓塞，可能對相關器官造成影響。 > 1:10,000，≤ 1:1,000: -實質器官出血，如 o 肝出血 呼吸道、胸廓和縱膈之障礙 > 1:100，≤ 1:10: -呼吸道出血，如 o 咽喉出血 o 咳血 o 鼻出血 o 肺出血 胃腸系統之障礙 > 1:100，≤ 1:10: -胃腸道出血，如 o 胃出血 o 胃潰瘍出血 o 直腸出血 o 嘔血 o 黑糞 o 口腔出血 > 1:1,000，≤ 1:100: o 齒齦出血 o 後腹腔出血，如後腹腔血腫 > 1:100，≤ 1:10: o 噁心 o 嘔吐 心肌梗塞也可能出現噁心、嘔吐。 皮膚及皮下組織之障礙 > 1:100 ，≤ 1:10: -瘀斑。 腎臟及泌尿道之障礙 > 1:100，≤ 1:10: -泌尿生殖器出血，如 o 血尿 o 泌尿道出血 一般障礙及給藥部位之狀況 > 1:10: -注射部位出血、穿刺部位出血，如 o 導管部位血腫 o 導管部位出血 研究調查之副作用 > 1:10: -血壓下降。 > 1:100，≤ 1:10: -體溫上升。 受傷、中毒和操作之合併症 > 1:10,000，≤ 1:1,000: -脂肪栓塞*，可能對相關器官造成影響。 手術和醫學之操作： > 1:100，≤ 1:10: -全血輸血。 *脂肪栓塞是發現自發性報告，並未在臨床試驗族群中觀察到。 適應症為心肌梗塞時之其他不良反應： 心臟之障礙 > 1:10: -再灌流性心律不整，如 o 心律不整 o 心臟之期外收縮 o 心房纖維性顫動 o 房室傳導阻滯(第1級至完全性房室傳導阻滯) o 心搏過慢 o 心搏過速 o 心室心律不整 o 心室性纖維顫動 o 心室性心搏過速與ACTILYSE治療存在短暫密切的關係\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n症狀 使用超過建議之最高劑量會增加顱內出血之風險。 雖然ACTILYSE對纖維蛋白有相當的選擇性，但過量時，纖維蛋白原 (fibrinogen) 及其他凝血素可能發生具臨床意義的降低。 治療 大多數的病例在停止使用ACTILYSE後，經過充分時間，這些凝血因子將經生理反應而再生成。若發生嚴重性出血，建議使用新鮮冷凍血漿及鮮血輸注，若有需要可投與合成的抗纖維蛋白溶解劑 (antifibirnolytics)。\n10\n藥理特性\n藥理分類：抗血栓製劑 ATC代碼：B01AD02\n10.1\n作用機轉\nACTILYSE的主成分alteplase是以基因重組技術製成的人類組織型胞漿素原活化酶，它是一種可直接將胞漿素原活化成胞漿素的醣蛋白質。當靜脈給藥時，alteplase在循環系統中並不具活性，一旦與纖維蛋白結合時才被活化，促使胞漿素原轉化成胞漿素，而將纖維蛋白之血塊溶解。\n10.2\n藥效藥理特性\n由於ACTILYSE對纖維蛋白的專一性，100毫克的ACTILYSE在4小時可以適度降低循環中的纖維蛋白原濃度至60%，通常24小時後，可以回到80%以上。給藥4小時後，胞漿素原和alpha-2-antiplasmin分別減低至約20%和35%，而24小時後，會再增加至80%以上。僅有少數病人，循環中的纖維蛋白原濃度的減少會有顯著的延長。\n10.3\n臨床前安全性資料\n大鼠和小猿之亞急性毒性研究，除在較高劑量會增加出血傾向外，未發現有其他預期以外的副作用。 突變試驗中並未發現其有導致突變之潛在性。 懷孕動物經靜脈輸注藥理有效劑量後，未發現有致畸胎性。 對兔子給予超過每天每公斤體重3毫克之劑量，會誘發胎毒性(胚胎致死、生長延遲)。 對大鼠給予達每天每公斤體重10毫克之劑量，其產後周邊發展及生育之參數都無影響。\n11\n藥物動力學特性\nAlteplase可迅速從血液循環中清除，主要經肝臟代謝(血漿廓清率550-680毫升/分鐘)。一般生理循環狀況下，alteplase主要與血漿蛋白酶抑製劑結合。Alteplase的肝清除不受其他蛋白質的存在的影響，包括alteplase抑制劑在內。Alteplase複合物及其抑制劑以游離alteplase的形式被清除。其血漿α半衰期 (T1/2 alpha)為4-5分鐘，意指在給藥20分鐘後，血漿濃度不及最初濃度的10%，對於留在深層部位之餘留量，其β半衰期測出值約為40分鐘。\n12\n臨床試驗資料\n急性心肌梗塞(AMI)病人 曾針對發生急性心肌梗塞的病人研究過兩種不同劑量療程之ACTILYSE的治療效果。但目前尚未評估過這兩種療法的相對療效。 採用加速輸注法治療AMI病人 有一項跨國多中心試驗(GUSTO)曾研究過加速輸注ACTILYSE的治療效果，這項試驗共有41,021位急性心肌梗塞病人於隨機分組後分別接受四種血栓溶解療法的治療。在接受90分鐘輸注100毫克之ACTILYSE並合併靜脈輸注heparin治療的病人中，30天後的死亡率(6.3%)要比接受60分鐘輸注150萬國際單位(IU)之streptokinase並合併皮下注射或靜脈輸注heparin治療的病人(7.3%)低。ACTILYSE組之30天死亡率與streptokinase組相比較的1%絕對降低幅度是具有統計意義的(p= 0.001)。 在接受ACTILYSE治療的病人中，血栓溶解治療後60及90分鐘的梗塞血管疏通率要比接受streptokinase治療的病人高。但180分鐘或更長時間之後的血管疏通率則無任何差異。 一項涵蓋近17,000位病人的大型死亡率試驗(ASSENT 2)顯示，alteplase與tenecteplase在降低死亡率方面的治療表現大致相當(兩者的30天後死亡率皆為6.2%)。使用tenecteplase治療之病人中的非顱內出血發生率要明顯低於使用alteplase治療的病人(分別為26.4%與28.9%，p=0.0003)。出血風險降低的原因可能和tenecteplase的纖維蛋白特異性較高及其依體重調整的治療方式有關。 採用3小時輸注法治療AMI病人 一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(ASSET研究)(5013位病人)顯示，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，30天存活率有較使用安慰劑治療之病人提高的現象。在治療一個月後，ACTILYSE組中的整體死亡率為7.2%，而安慰劑組則為9.8% (p=0.001)。在6個月後，使用ACTILYSE治療之病人(10.4%)和使用安慰劑治療之病人(13.1%)相比較所呈現的效益仍維持不變(p=0.008)。 在一項針對ACTILYSE與安慰劑進行比較的雙盲隨機試驗(721位病人)中，利用對比式心室造影術檢測整體射出分率的結果分別為50.7%與48.5%，p=0.01，顯示治療10-22天後，在急性心肌梗塞症狀出現後5小時內輸注ACTILYSE的病人中，心室功能較安慰劑組改善。針對HBD (α羥基丁酸脫氫酶)活性的累積釋出量評估梗塞範圍的結果顯示，使用ACTILYSE治療之病人較安慰劑治療的病人減小了19% (p=0.001)。使用ACTILYSE治療的病人發生心因性休克(p=0.02)、心室纖維顫動(p<0.04)及心包炎(p=0.01)的病例明顯較使用安慰劑治療的病人少。治療21天後，和安慰劑組中的6.3%相比較，使用ACTILYSE治療之病人中的死亡率下降至3.7% (單側分析，p=0.05)。雖然這些數據並未能明確證實這項研究中的死亡率有明顯降低的現象，但仍可從中看出這種趨勢，而此趨勢在ASSET研究的結果中也獲得證實。 一項安慰劑對照試驗(LATE)針對5711位已出現AMI症狀6至24小時的病人，比較3小時輸注100毫克ACTILYSE和安慰劑的治療效果。結果顯示，ACTILYSE治療組的30天死亡率降低了14.1%，但並不具統計意義(95% CI為0-28.1%，p>0.05)。在一項針對於症狀出現後12小時內接受治療之病人所進行的預設存活分析中發現，使用ACTILYSE治療者的死亡率明顯降低了25.6% (95% CI為6.3-45%，p=0.023)。 急性大片肺栓塞病人 一項針對63位經血管攝影證實患有急性大片肺栓塞的病人，比較alteplase與urokinase之治療效果的比較性隨機分組試驗中，兩個治療組的肺栓塞誘發性肺高壓都有明顯降低。在ACTILYSE治療組中，肺臟血液動力學概況的改善速度明顯較urokinase組快。 急性缺血性中風病人 在急性缺血性中風的領域中也曾進行過多項研究。其中的NINDS研究是唯一沒有年齡上限的研究，該研究也收錄了36位年齡為80歲以上的病人。而其它的隨機分組試驗都是將80歲以上的病人排除於外。對此病人族群必須依據個別狀況評估其血栓溶解的效益風險。 有兩項安慰劑對照性雙盲試驗(NINDS t-PA中風試驗，第1部份與第2部份)收錄有明顯神經功能缺損並可於症狀出現後3小時內完成篩檢及開始接受研究治療的病人。在開始治療前先進行顱部電腦斷層(CT)掃瞄，以排除出現症狀性顱內出血(SICH)的病人。下列病人也被排除於研究之外：患有和出血風險有關的疾病、輕微神經功能缺損、症狀在開始接受研究治療前即快速改善、或血糖值<50 mg/dL或>400 mg/dL。病人於隨機分組後分別接受0.9毫克/公斤之ACTILYSE (最高劑量為90毫克)或安慰劑的治療。ACTILYSE的給藥方式為先以1分鐘的時間注射10%的劑量，再以60分鐘的時間連續靜脈輸注剩餘的劑量。 初步的研究(NINDS試驗第1部份，n=291)乃是評估中風後24小時的神經功能改善情形。在初級終點評估指標方面，亦即國家衛生研究院中風量表(NIHSS)評分改善4分(含)以上或完全恢復正常(NIHSS評分=0)的病人比例，兩個治療組間並無明顯差異。利用下列中風量表所進行的次級分析顯示，使用ACTILYSE可使3個月後的治療結果獲得改善：Barthel指數、修正Rankin量表(mRS)、Glasgow治療結果量表和NIHSS。第二項研究(NINDS試驗第2部份，n=333)則是以3個月後的臨床表現做為主要的結果評估指標。獲得有利治療結果的定義為四項中風評估量表的評估結果顯示失能程度極低或無任何失能現象：Barthel指數(評分≥95)、修正Rankin量表(評分≤1)、Glasgow治療結果量表(評分=1)和NIHSS (評分≤1)。與安慰劑組比較，在ACTILYSE組中獲得有利治療結果的機會比率為1.7 (95% CI：1.2-2.6)。和安慰劑相比較，失能程度極低或無任何失能現象(mRS 0-1)之病人人數的絕對增加幅度為12.6%。在其它的神經功能量表與失能量表中，ACTILYSE也有相當一致的效益表現。次級分析的結果顯示，從中位評分來看，在四個中風量表中都可達到相當一致的身體功能與神經功能改善效果。這些結果和第1部分研究中所觀察到的3個月治療效果一致。 表一 The NINDS t-PA Stroke Trial, Part 2 3個月之療效結果 有利之結果的頻率1 分析之項目 安慰劑 (n=165) ACTILYSE (n=168) 絕對差 (95% CI) 相對頻度2 (95% CI) p-Value3 Generalized Estimating Equations (multivariate)─── 1.34 (1.05, 1.72) 0.02 Barthel Index37.6%50.0% 12.4% (3.0, 21.9) 1.33 (1.04, 1.71) 0.02 Modified Rankin Scale26.1%38.7% 12.6% (3.7, 21.6) 1.48 (1.08, 2.04) 0.02 Glasgow Outcome Scale31.5%44.0% 12.5% (3.3, 21.8) 1.40 (1.05, 1.85) 0.02 NIHSS20.0%31.0% 11.0% (2.6, 19.3) 1.55 (1.06, 2.26) 0.02 1 有利之結果的定義為恢復後僅有輕微或沒有失能。 2 此值大於1表示ACTILYSE的治療對恢復頻度 (frequency of recovery) 為有利。 3 相對頻度之p-Value是得自Generalized Estimating Equations與對數相結合。 使用ACTILYSE治療後的所有導因90天死亡率、SICH及新發生之缺血性中風的發生率和安慰劑相比較的結果顯示，使用ACTILYSE治療之後，36小時內的症狀性SICH (依據NINDS的定義)發生率有明顯升高的現象(ACTILYSE組為6.4%，安慰劑組為0.65%)。在90天內死亡率(ACTILYSE組為20.5%，安慰組為17.3%)或嚴重失能的發生率(ACTILYSE組為25%，安慰劑組為22%)，兩組未有顯著差異性。\n一項涵蓋2775位源自6項重要隨機臨床試驗(NINDS試驗第1部份與第2部份、兩項ECASS試驗、以及ATLANTIS試驗A部份與B部份)之病人的整合分析曾針對使用ACTILYSE或安慰劑治療之病人的失能狀態進行評估。這項分析顯示，症狀發作後至開始使用ACTILYSE治療的時間越短，於3個月後獲得有利治療結果的機會就越高。在接受ACTILYSE治療的病人中，SICH的發生率為5.9%，在對照組中則為1.1% (p<0.0001)，此發生率和年齡有關。 一項大型的觀察研究(SITS-MOST：對中風病人施行血栓溶解治療之安全性-監視研究)曾評估在一般臨床實務中於3小時內使用ACTILYSE治療急性中風的安全性與療效，並和隨機臨床試驗(RCTs)的結果進行比較。所有病人都必須符合歐洲ACTILYSE產品特性摘要中的條件。這項研究一共在14個歐洲國家的285個中心收集了2483位病人的治療與結果相關資料。主要的結果評估指標為24小時內的症狀性顱內出血發生率及3個月死亡率。SITS-MOST研究中所見的SICH發生率和隨機試驗所報告的SICH發生率大致相當；在SITS-MOST研究中為7.3% (95% CI 6.7-8.0)，在RCTs中為8.6% (95% CI 6.1-11.1)。SITS-MOST研究中的死亡率為11.3% (95% CI 10.5-12.1)，RCTs中的死亡率為17% (95% CI 13.9-20.7)。SITS-MOST研究的結果顯示，在一般臨床實務中於中風發作後3小時內使用ACTILYSE治療的安全性和隨機臨床試驗所報告的結果大致相當。 ECASS III試驗是一項針對發作後時間窗期(time-window)為3至4.5小時的急性中風病人所進行的安慰劑對照性雙盲試驗。這項研究的收錄對象是除了發作後時間窗期之外皆符合歐洲產品特性摘要(SPC)之條件的急性缺血性中風病人。利用電腦斷層攝影排除腦出血或嚴重梗塞的現象之後，病人按1:1的雙盲模式隨機分成兩組，分別接受靜脈輸注alteplase (0.9毫克/公斤體重)或安慰劑的治療。主要療效評估指標為90天後的失能狀況，並可分成有利(修正Rankin量表[mRS]評分為0至1)或不利(mRS評分為2至6)這兩種治療結果。主要的次要療效評估指標為90天後的合併針對四個神經功能與失能評分所進行的整體治療結果分析(修正Rankin量表[mRS]評分為0至1、Barthel index評分≥95、美國國家衛生院中風量表評分為0至1、Glasgow Outcome Scale score評分為1)。安全性評估指標包括死亡、SICH、以及嚴重的不良事件。總共有821位病人接受隨機分組(alteplase組418人/安慰劑組403人)。Alteplase組達到有利治療結果的病人比例(52.4%)要高於安慰劑組(45.2%；機會比率[OR]為1.34；95% CI為1.02-1.76；p=0.038)。在整體治療結果分析中，治療結果也有較為改善的現象(OR為1.28；95% CI為1.00-1.65；p=0.048)。相較於安慰劑，alteplase發生任何ICH/SICH的機率較高(任何ICH為27.0%，而安慰劑為17.6%，OR為1.73; 95% CI 1.24-2.42; p=0.0012；依據NINDS定義之SICH為7.9%，而安慰劑組為3.5%，OR為2.38; 95% CI 1.25-4.52; p=0.006)；依據ECASS III定義之SICH為2.4%，而安慰劑組為 0.3%，OR為9.85; 95% CI 1.26-77.32; p = 0.008; 依據SITS-MOST定義之SICH為1.9%，而安慰劑組為0.3%，OR為7.84; 95% CI 1.25-4.52; p=0.006)。死亡率在兩組間並無顯著差異(alteplase組7.7%; 安慰組8.4%; OR為0.90; 95% CI 為0.54-1.49; p=0.681)。 一項進行中的急性缺血性中風(AIS)登記研究(SITS-ISTR：對中風病人施行血栓溶解治療之安全性-登記研究)曾針對從症狀發作之時間長達4.5小時的急性缺血性中風評估使用ACTILYSE治療的安全性與療效。研究人員將21,566位發作後時間窗期為0至3小時之病人的主要治療結果及死亡率相關數據和2,376位於AIS發作後3至4.5小時接受治療之病人的數據進行比較。發作後時間窗期為3至4.5小時之病人中的症狀性顱內出血發生率(依據NINDS的定義: 7.4%，依據ECASS II的定義: 5.3%，依據SITS-MOST的定義: 2.2%)要略高於發作後時間窗期不超過3小時的病人(依據NINDS的定義: 7.1%；調整勝算比95% CI為1.18 (0.99–1.41) p =0.06，依據ECASS II的定義: 4.8%; 95% CI:1.27(1.03-1.55) p=0.02，依據SITS-MOST的定義: 1.7%; 95% CI:1.44(1.05-1.97) p=0.02)。發作後時間窗期為3至4.5小時之病人中在三個月的死亡率(12.0%)和發作後時間窗期為0至3小時的病人(12.3%)大致相當。然而因此試驗為觀察性研究，故兩組病人的baseline demographic data並不相同，於AIS發作後3至4.5小時接受治療之病人比起於發作後3小時內接受治療之病人，其平均年齡較輕、NIHSS分數較低、較低比例的病人有高血壓或高血脂之共病、較低比例的病人在新加入的中心治療。故應謹慎解讀此研究結果。 A-Ching Chao等人利用台灣腦中風登錄資料庫所作之觀察性研究結果顯示，給予rt-PA 0.9 mg/Kg治療急性缺血性中風，於71-80歲族群發生有症狀顱內出血(NINDS定義)之比率為12.41%，而於所有分析族群則為7.35%；3個月內死亡率在71-80歲族群為12.41%，而在所有分析族群則為8.3%。 依據一項納入亞洲族群急性缺血性中風病人的ENCHANTED試驗結果，相較於標準劑量，使用低劑量rt-PA尚無法在90日時的死亡與殘疾比率方面達到不劣性的試驗終點。但在此試驗及A-Ching Chao等人利用台灣腦中風登錄資料庫所作的觀察性研究結果中顯示，使用低劑量rt-PA的病人，其發生有症狀性腦出血的機率較低。(參考文獻: 1. Low-Dose versus Standard-Dose Intravenous Alteplase in Acute Ischemic Stroke. NEJM 2016；374，2313-232.；2. Different Doses of Recombinant Tissue-Type Plasminogen Activator for Acute Stroke in Chinese Patients. Stroke. 2014 Aug；45(8)：2359-65.)\n13\n包裝及儲存\n13.1\n包裝\n每盒含一小瓶50毫克主成分之乾粉製劑及一小瓶50毫升的注射用水。 每盒含一小瓶20毫克主成分之乾粉製劑及一小瓶20毫升的注射用水。\n13.2\n效期\n依照包裝上顯示\n13.3\n儲存條件\n使用中化學及物理安定性 已證實調配妥之注射溶液在2-8ºC可穩定24小時，在30ºC可穩定8小時。 儲存溫度 小於30ºC\n13.4\n儲存注意事項\n使用中微生物安定性 從微生物學的觀點而言，調配妥之注射溶液應立即使用。如未能立即使用，使用者應對其貯存時間及條件負責，通常在2至8ºC勿超過24小時。\n14\n病人使用須知\n15\n其他\n修訂日期：2025年2月 核定日期：2025年9月",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "VETTER PHARMA-FERTIGUNG GMBH & CO KG",
+          "address": "MOOSWIESEN 2, 88214 RAVENSBURG, GERMANY"
+        },
+        {
+          "number": "2",
+          "name": "BOEHRINGER INGELHEIM RCV GMBH & CO. KG",
+          "address": "DR. BOEHRINGER GASSE 5-11, 1121 VIENNA, AUSTRIA"
+        },
+        {
+          "number": "3",
+          "name": "BOEHRINGER INGELHEIM PHARMA GMBH & CO. KG",
+          "address": "BIRKENDORFER STRASSE 65, 88397 BIBERACH AN DER RISS, GERMANY"
+        }
+      ],
+      "sub_factories": [
+        {
+          "number": "1",
+          "name": "BOEHRINGER INGELHEIM INTERNATIONAL GMBH",
+          "address": "BINGER STRASSE 173, 55216 INGELHEIM AM RHEIN, GERMANY"
+        }
+      ],
+      "companies": [
+        {
+          "number": "1",
+          "name": "台灣百靈佳殷格翰股份有限公司",
+          "address": "台北市中山區民生東路三段2號12樓"
+        }
+      ]
+    }
+  ]
+}

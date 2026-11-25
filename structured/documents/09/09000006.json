@@ -1,0 +1,1162 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:57:57.434572+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "09000006",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "衛署菌疫製字第000006號:3",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "衛署菌疫製字第000006號",
+      "matched_license_code": "09000006",
+      "matched_nhi_code": "",
+      "drug_name_zh": "抗龜殼花及赤尾鮐蛇毒血清凍晶注射劑",
+      "drug_name_en": "Antivenom of P. mucrosquamatus and T. stejnegeri (Lyophilized)",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "3",
+      "approved_at": "2026-05-19",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "1\n性狀",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "本品含1,000田中單位以上抗蛇毒血清。",
+          "content_html": "<p style=\"margin-left:25.2pt;\">本品含1,000田中單位以上抗蛇毒血清。</p>",
+          "search_text": "1.1\n有效成分及含量\n本品含1,000田中單位以上抗蛇毒血清。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "賦形劑包含保藏劑(硫柳汞)及稀釋液(磷酸氫二鈉、磷酸二氫鉀)。",
+          "content_html": "<p style=\"margin-left:27.55pt;\">賦形劑包含保藏劑(硫柳汞)及稀釋液(磷酸氫二鈉、磷酸二氫鉀)。</p>",
+          "search_text": "1.2\n賦形劑\n賦形劑包含保藏劑(硫柳汞)及稀釋液(磷酸氫二鈉、磷酸二氫鉀)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "注射劑。",
+          "content_html": "<p style=\"margin-left:9.6pt;\">注射劑。</p>",
+          "search_text": "1.3\n劑型\n注射劑。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "本品係用蛇毒免疫馬匹，所得之高力價血清，經精製並凍結乾燥而成之白色粉末，溶解後為微黃色之透明液體。",
+          "content_html": "<p style=\"margin-left:26.75pt;\"><span style=\"font-family:標楷體;\">本品係用蛇毒免疫馬匹，所得之高力價血清，經精製並凍結乾燥而成之白色粉末，溶解後為微黃色之透明液體。</span></p>",
+          "search_text": "1.4\n藥品外觀\n本品係用蛇毒免疫馬匹，所得之高力價血清，經精製並凍結乾燥而成之白色粉末，溶解後為微黃色之透明液體。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "對龜殼花及赤尾鮐毒蛇咬傷有特異性之治療效果。",
+          "content_html": "<p>對龜殼花及赤尾鮐毒蛇咬傷有特異性之治療效果。</p>",
+          "search_text": "2\n適應症\n對龜殼花及赤尾鮐毒蛇咬傷有特異性之治療效果。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.1\n用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.1",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.1",
+          "title": "血清選擇",
+          "title_html": "血清選擇",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "血清選擇"
+          ],
+          "content_text": "毒蛇咬傷時如能確定蛇之種類，則注射該蛇毒之特異性抗蛇毒血清為佳。如不能確定，則依臨床判斷，注射特異性抗蛇毒血清。",
+          "content_html": "<p style=\"margin-left:60.0pt;\">毒蛇咬傷時如能確定蛇之種類，則注射該蛇毒之特異性抗蛇毒血清為佳。如不能確定，則依臨床判斷，注射特異性抗蛇毒血清。</p>",
+          "search_text": "3.1.1\n血清選擇\n毒蛇咬傷時如能確定蛇之種類，則注射該蛇毒之特異性抗蛇毒血清為佳。如不能確定，則依臨床判斷，注射特異性抗蛇毒血清。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.2",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.2",
+          "title": "注射時間",
+          "title_html": "注射時間",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "注射時間"
+          ],
+          "content_text": "確認毒蛇咬傷後，儘早使用，收效愈佳。",
+          "content_html": "<p><span style=\"font-family:標楷體;\">確認毒蛇咬傷後，儘早使用，收效愈佳。</span></p>",
+          "search_text": "3.1.2\n注射時間\n確認毒蛇咬傷後，儘早使用，收效愈佳。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.3",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.3",
+          "title": "注射用法",
+          "title_html": "注射用法",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "注射用法"
+          ],
+          "content_text": "迅速建立靜脈注射通路，一劑量的血清加入稀釋點滴液中，先緩慢注射，同時密切注意病人反應，如果沒有過敏反應，可以加快速度滴注完畢。",
+          "content_html": "<p style=\"margin-left:60.1pt;\">迅速建立靜脈注射通路，一劑量的血清加入稀釋點滴液中，先緩慢注射，同時密切注意病人反應，如果沒有過敏反應，可以加快速度滴注完畢。</p>",
+          "search_text": "3.1.3\n注射用法\n迅速建立靜脈注射通路，一劑量的血清加入稀釋點滴液中，先緩慢注射，同時密切注意病人反應，如果沒有過敏反應，可以加快速度滴注完畢。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1.4",
+          "parent_id": "3.1",
+          "level": 3,
+          "number": "3.1.4",
+          "title": "注射劑量",
+          "title_html": "注射劑量",
+          "path": [
+            "用法及用量",
+            "用法用量",
+            "注射劑量"
+          ],
+          "content_text": "成人及兒童之初始劑量均為一至二劑。如注射後中毒症狀仍繼續增惡，則可依臨床症狀，每隔1-6小時再注射適當劑量。",
+          "content_html": "<p style=\"margin-left:60.0pt;\">成人及兒童之初始劑量均為一至二劑。如注射後中毒症狀仍繼續增惡，則可依臨床症狀，每隔1-6小時再注射適當劑量。</p>",
+          "search_text": "3.1.4\n注射劑量\n成人及兒童之初始劑量均為一至二劑。如注射後中毒症狀仍繼續增惡，則可依臨床症狀，每隔1-6小時再注射適當劑量。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "取稀釋液至少10毫升(mL)溶解一劑量(含1,000田中單位以上)，本品應完全溶解後於二小時內用完。",
+          "content_html": "<p style=\"margin-left:30.95pt;\"><span style=\"font-family:標楷體;\">取稀釋液至少</span>10<span style=\"font-family:標楷體;\">毫升</span>(mL)<span style=\"font-family:標楷體;\">溶解一劑量</span>(<span style=\"font-family:標楷體;\">含</span>1,000<span style=\"font-family:標楷體;\">田中單位以上</span>)<span style=\"font-family:標楷體;\">，本品應完全溶解後於二小時內用完。</span></p>",
+          "search_text": "3.2\n調製方式\n取稀釋液至少10毫升(mL)溶解一劑量(含1,000田中單位以上)，本品應完全溶解後於二小時內用完。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "對於抗蛇毒血清治療，並沒有絕對的禁忌症。",
+          "content_html": "<p style=\"margin-left:15.35pt;\">對於抗蛇毒血清治療，並沒有絕對的禁忌症。</p>",
+          "search_text": "4\n禁忌\n對於抗蛇毒血清治療，並沒有絕對的禁忌症。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "對馬血清過敏之人以及有強烈異位性皮膚炎病史（尤其是重度哮喘）的病人，注射本血清時可引起各種反應，重者短時間內引起休克致死，故注射之前，除詳查既往病歷並須注意下列各項： 1. 施打抗蛇毒血清前先備好腎上腺素等過敏性休克常用藥物，以供血清導致過敏性休克時，依照成人或小兒過敏性休克急救流程及藥物劑量，予以急救。 2. 大量注射時應特別留意血清病之發生。",
+          "content_html": "<p style=\"margin-left:39.15pt;\">對馬血清過敏之人以及有強烈異位性皮膚炎病史（尤其是重度哮喘）的病人，注射本血清時可引起各種反應，重者短時間內引起休克致死，故注射之前，除詳查既往病歷並須注意下列各項：</p><p style=\"margin-left:50.9pt;\">1.&nbsp;施打抗蛇毒血清前先備好腎上腺素等過敏性休克常用藥物，以供血清導致過敏性休克時，依照成人或小兒過敏性休克急救流程及藥物劑量，予以急救。</p><p style=\"margin-left:50.9pt;\">2.&nbsp;大量注射時應特別留意血清病之發生。</p>",
+          "search_text": "5.1\n警語/注意事項\n對馬血清過敏之人以及有強烈異位性皮膚炎病史（尤其是重度哮喘）的病人，注射本血清時可引起各種反應，重者短時間內引起休克致死，故注射之前，除詳查既往病歷並須注意下列各項： 1. 施打抗蛇毒血清前先備好腎上腺素等過敏性休克常用藥物，以供血清導致過敏性休克時，依照成人或小兒過敏性休克急救流程及藥物劑量，予以急救。 2. 大量注射時應特別留意血清病之發生。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "6\n特殊族群注意事項\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.1\n懷孕",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.6\n肝功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.7\n腎功能不全",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.8\n其他族群",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "7\n交互作用\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.1\n臨床重要副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.1",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.1",
+          "title": "早期過敏反應",
+          "title_html": "早期過敏反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "早期過敏反應"
+          ],
+          "content_text": "通常在開始使用抗蛇毒血清後的數分鐘至180分鐘內，病人開始感到癢（通常是頭皮上），並出現蕁麻疹、乾咳、發熱、噁心、嘔吐、腹痛、腹瀉和心跳加速。這些病人中少數可能會發展成危及生命的嚴重過敏反應：低血壓、支氣管痙攣和血管性水腫。",
+          "content_html": "<p style=\"margin-left:69.95pt;\">通常在開始使用抗蛇毒血清後的數分鐘至180分鐘內，病人開始感到癢（通常是頭皮上），並出現蕁麻疹、乾咳、發熱、噁心、嘔吐、腹痛、腹瀉和心跳加速。這些病人中少數可能會發展成危及生命的嚴重過敏反應：低血壓、支氣管痙攣和血管性水腫。</p>",
+          "search_text": "8.1.1\n早期過敏反應\n通常在開始使用抗蛇毒血清後的數分鐘至180分鐘內，病人開始感到癢（通常是頭皮上），並出現蕁麻疹、乾咳、發熱、噁心、嘔吐、腹痛、腹瀉和心跳加速。這些病人中少數可能會發展成危及生命的嚴重過敏反應：低血壓、支氣管痙攣和血管性水腫。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.2",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.2",
+          "title": "惡寒發熱",
+          "title_html": "惡寒發熱",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "惡寒發熱"
+          ],
+          "content_text": "此反應萬一發生，多見於靜脈注射後20分鐘至一小時，可行對症療法。",
+          "content_html": "<p style=\"margin-left:42.6pt;\"><span style=\"font-family:標楷體;\">此反應萬一發生，多見於靜脈注射後</span>20<span style=\"font-family:標楷體;\">分鐘至一小時，可行對症療法。</span></p>",
+          "search_text": "8.1.2\n惡寒發熱\n此反應萬一發生，多見於靜脈注射後20分鐘至一小時，可行對症療法。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.3",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.3",
+          "title": "血清病",
+          "title_html": "血清病",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "血清病"
+          ],
+          "content_text": "病人出現發燒、噁心、嘔吐、腹瀉、搔癢、反覆蕁麻疹、關節痛、肌肉痛、淋巴結腫大、關節周圍腫脹、多發性神經炎、伴有免疫複合物腎炎的蛋白尿及罕見的腦病變等症狀，以注射後1~12日最常見(平均7日)，亦有延至一個月而發生者，可使用抗組織胺、類固醇等藥物治療。",
+          "content_html": "<p style=\"margin-left:69.95pt;\">病人出現發燒、噁心、嘔吐、腹瀉、搔癢、反覆蕁麻疹、關節痛、肌肉痛、淋巴結腫大、關節周圍腫脹、多發性神經炎、伴有免疫複合物腎炎的蛋白尿及罕見的腦病變等症狀，以注射後1~12日最常見(平均7日)，亦有延至一個月而發生者，可使用抗組織胺、類固醇等藥物治療。</p>",
+          "search_text": "8.1.3\n血清病\n病人出現發燒、噁心、嘔吐、腹瀉、搔癢、反覆蕁麻疹、關節痛、肌肉痛、淋巴結腫大、關節周圍腫脹、多發性神經炎、伴有免疫複合物腎炎的蛋白尿及罕見的腦病變等症狀，以注射後1~12日最常見(平均7日)，亦有延至一個月而發生者，可使用抗組織胺、類固醇等藥物治療。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1.4",
+          "parent_id": "8.1",
+          "level": 3,
+          "number": "8.1.4",
+          "title": "Arthus反應",
+          "title_html": "Arthus反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應",
+            "Arthus反應"
+          ],
+          "content_text": "注射後7日至3個月，再注射同種動物血清時，局部可起反應，進行至組織壞死，本反應須與膿瘍鑑別。",
+          "content_html": "<p style=\"margin-left:43.2pt;\"><span style=\"font-family:標楷體;\">注射後</span>7<span style=\"font-family:標楷體;\">日至</span>3<span style=\"font-family:標楷體;\">個月，再注射同種動物血清時，局部可起反應，進行至組織壞死，本反應須與膿瘍鑑別。</span></p>",
+          "search_text": "8.1.4\nArthus反應\n注射後7日至3個月，再注射同種動物血清時，局部可起反應，進行至組織壞死，本反應須與膿瘍鑑別。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.2\n藥效藥理特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "抗蛇毒⾎清凍晶注射劑⼀瓶及抗蛇毒⾎清凍晶注射劑稀釋液⼀瓶(20毫升/瓶)。",
+          "content_html": "<p style=\"margin-left:21.0pt;\">抗蛇毒⾎清凍晶注射劑⼀瓶及抗蛇毒⾎清凍晶注射劑稀釋液⼀瓶(20毫升/瓶)。</p>",
+          "search_text": "13.1\n包裝\n抗蛇毒⾎清凍晶注射劑⼀瓶及抗蛇毒⾎清凍晶注射劑稀釋液⼀瓶(20毫升/瓶)。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "製造日期及保存期限詳示標籤。本品經完全溶解後，應於二小時內使用完畢。",
+          "content_html": "<p style=\"margin-left:37.1pt;\">製造日期及保存期限詳<span style=\"color:Black;\">示標籤。</span><span style=\"color:Black;font-family:標楷體;\">本品經完全溶解後，應於二小時內使用完畢。</span></p>",
+          "search_text": "13.2\n效期\n製造日期及保存期限詳示標籤。本品經完全溶解後，應於二小時內使用完畢。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本品應置於2~8°C遮光保存，高溫放置效力速減。",
+          "content_html": "<p>本品應置於2~8°C遮光保存，高溫放置效力速減。</p>",
+          "search_text": "13.3\n儲存條件\n本品應置於2~8°C遮光保存，高溫放置效力速減。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13.4\n儲存注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "14\n病人使用須知\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "15.1 本品經過嚴密之試驗，確知其效價及安定性，並經國家檢定合格，為毒蛇咬傷之治療 劑。 15.2 毒蛇咬傷或血清使用問題，可聯繫衛生福利部暨臺北榮民總醫院 24小時毒藥物防治諮詢 中心，諮詢專線：(02)28717121或(02)28757525分機85500。",
+          "content_html": "<p>15.1 &nbsp; 本品經過嚴密之試驗，確知其效價及安定性，並經國家檢定合格，為毒蛇咬傷之治療</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 劑。</p><p>15.2 &nbsp; 毒蛇咬傷或血清使用問題，可聯繫衛生福利部暨臺北榮民總醫院 24小時毒藥物防治諮詢</p><p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 中心，諮詢專線：(02)28717121或(02)28757525分機85500。</p>",
+          "search_text": "15\n其他\n15.1 本品經過嚴密之試驗，確知其效價及安定性，並經國家檢定合格，為毒蛇咬傷之治療 劑。 15.2 毒蛇咬傷或血清使用問題，可聯繫衛生福利部暨臺北榮民總醫院 24小時毒藥物防治諮詢 中心，諮詢專線：(02)28717121或(02)28757525分機85500。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\n1.1\n有效成分及含量\n本品含1,000田中單位以上抗蛇毒血清。\n1.2\n賦形劑\n賦形劑包含保藏劑(硫柳汞)及稀釋液(磷酸氫二鈉、磷酸二氫鉀)。\n1.3\n劑型\n注射劑。\n1.4\n藥品外觀\n本品係用蛇毒免疫馬匹，所得之高力價血清，經精製並凍結乾燥而成之白色粉末，溶解後為微黃色之透明液體。\n2\n適應症\n對龜殼花及赤尾鮐毒蛇咬傷有特異性之治療效果。\n3\n用法及用量\n3.1\n用法用量\n3.1.1\n血清選擇\n毒蛇咬傷時如能確定蛇之種類，則注射該蛇毒之特異性抗蛇毒血清為佳。如不能確定，則依臨床判斷，注射特異性抗蛇毒血清。\n3.1.2\n注射時間\n確認毒蛇咬傷後，儘早使用，收效愈佳。\n3.1.3\n注射用法\n迅速建立靜脈注射通路，一劑量的血清加入稀釋點滴液中，先緩慢注射，同時密切注意病人反應，如果沒有過敏反應，可以加快速度滴注完畢。\n3.1.4\n注射劑量\n成人及兒童之初始劑量均為一至二劑。如注射後中毒症狀仍繼續增惡，則可依臨床症狀，每隔1-6小時再注射適當劑量。\n3.2\n調製方式\n取稀釋液至少10毫升(mL)溶解一劑量(含1,000田中單位以上)，本品應完全溶解後於二小時內用完。\n3.3\n特殊族群用法用量\n4\n禁忌\n對於抗蛇毒血清治療，並沒有絕對的禁忌症。\n5\n警語及注意事項\n5.1\n警語/注意事項\n對馬血清過敏之人以及有強烈異位性皮膚炎病史（尤其是重度哮喘）的病人，注射本血清時可引起各種反應，重者短時間內引起休克致死，故注射之前，除詳查既往病歷並須注意下列各項： 1. 施打抗蛇毒血清前先備好腎上腺素等過敏性休克常用藥物，以供血清導致過敏性休克時，依照成人或小兒過敏性休克急救流程及藥物劑量，予以急救。 2. 大量注射時應特別留意血清病之發生。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n目前尚無資訊。\n6.1\n懷孕\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n6.7\n腎功能不全\n6.8\n其他族群\n7\n交互作用\n目前尚無資訊。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n8.1.1\n早期過敏反應\n通常在開始使用抗蛇毒血清後的數分鐘至180分鐘內，病人開始感到癢（通常是頭皮上），並出現蕁麻疹、乾咳、發熱、噁心、嘔吐、腹痛、腹瀉和心跳加速。這些病人中少數可能會發展成危及生命的嚴重過敏反應：低血壓、支氣管痙攣和血管性水腫。\n8.1.2\n惡寒發熱\n此反應萬一發生，多見於靜脈注射後20分鐘至一小時，可行對症療法。\n8.1.3\n血清病\n病人出現發燒、噁心、嘔吐、腹瀉、搔癢、反覆蕁麻疹、關節痛、肌肉痛、淋巴結腫大、關節周圍腫脹、多發性神經炎、伴有免疫複合物腎炎的蛋白尿及罕見的腦病變等症狀，以注射後1~12日最常見(平均7日)，亦有延至一個月而發生者，可使用抗組織胺、類固醇等藥物治療。\n8.1.4\nArthus反應\n注射後7日至3個月，再注射同種動物血清時，局部可起反應，進行至組織壞死，本反應須與膿瘍鑑別。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n目前尚無資訊。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n抗蛇毒⾎清凍晶注射劑⼀瓶及抗蛇毒⾎清凍晶注射劑稀釋液⼀瓶(20毫升/瓶)。\n13.2\n效期\n製造日期及保存期限詳示標籤。本品經完全溶解後，應於二小時內使用完畢。\n13.3\n儲存條件\n本品應置於2~8°C遮光保存，高溫放置效力速減。\n13.4\n儲存注意事項\n14\n病人使用須知\n目前尚無資訊。\n15\n其他\n15.1 本品經過嚴密之試驗，確知其效價及安定性，並經國家檢定合格，為毒蛇咬傷之治療 劑。 15.2 毒蛇咬傷或血清使用問題，可聯繫衛生福利部暨臺北榮民總醫院 24小時毒藥物防治諮詢 中心，諮詢專線：(02)28717121或(02)28757525分機85500。",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "財團法人國家衛生研究院生物製劑廠",
+          "address": "苗栗縣竹南鎮科研路35號"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "衛生福利部疾病管制署",
+          "address": "臺北市南港區研究院路2段128號"
+        }
+      ]
+    }
+  ]
+}

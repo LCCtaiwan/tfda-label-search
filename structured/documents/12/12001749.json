@@ -1,0 +1,1013 @@
+{
+  "schema_version": 1,
+  "retrieved_at": "2026-11-25T18:47:06.324703+00:00",
+  "source": {
+    "provider": "衛生福利部食品藥物管理署",
+    "endpoint": "https://mcp.fda.gov.tw/Serv/Query.asmx/GetDrugDoc",
+    "query": {
+      "license": "12001749",
+      "s_code": "",
+      "startdate": "",
+      "enddate": ""
+    }
+  },
+  "document_count": 1,
+  "documents": [
+    {
+      "id": "內衛藥製字第001749號:4",
+      "source_kind": "tfda_structured_insert",
+      "license_no": "內衛藥製字第001749號",
+      "matched_license_code": "12001749",
+      "matched_nhi_code": "",
+      "drug_name_zh": "“強生”縮水蘋果酸麥角新鹼膜衣錠０．２毫克",
+      "drug_name_en": "ERGOMETRINE MALEATE F.C. TABLETS 0.2MG \"JOHNSON\"",
+      "drug_category": "須由醫師處方使用",
+      "display_category": "",
+      "version": "4",
+      "approved_at": "2024-07-19",
+      "characteristics": {
+        "html": "",
+        "text": ""
+      },
+      "warning": {
+        "html": "",
+        "text": ""
+      },
+      "sections": [
+        {
+          "id": "1",
+          "parent_id": null,
+          "level": 1,
+          "number": "1",
+          "title": "性狀",
+          "title_html": "性狀",
+          "path": [
+            "性狀"
+          ],
+          "content_text": "Ergometrine Maleate為白色 ~ 微黃色結晶性粉末，mp約185°C（分解），本品1 g能溶於36 mL之水，100 mL之酒精。",
+          "content_html": "<p>Ergometrine Maleate為白色 ~ 微黃色結晶性粉末，mp約185°C（分解），本品1 g能溶於36 mL之水，100 mL之酒精。</p>",
+          "search_text": "1\n性狀\nErgometrine Maleate為白色 ~ 微黃色結晶性粉末，mp約185°C（分解），本品1 g能溶於36 mL之水，100 mL之酒精。",
+          "images": [
+            {
+              "filename": "",
+              "encoding": "base64",
+              "encoded_characters": 143936
+            }
+          ],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.1",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.1",
+          "title": "有效成分及含量",
+          "title_html": "有效成分及含量",
+          "path": [
+            "性狀",
+            "有效成分及含量"
+          ],
+          "content_text": "Ergometrine Maleate…………………………0.2 mg",
+          "content_html": "<p>Ergometrine Maleate…………………………0.2 mg</p>",
+          "search_text": "1.1\n有效成分及含量\nErgometrine Maleate…………………………0.2 mg",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.2",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.2",
+          "title": "賦形劑",
+          "title_html": "賦形劑",
+          "path": [
+            "性狀",
+            "賦形劑"
+          ],
+          "content_text": "Aerosil 200、Avicel PH102、HPMC 606、PEG 6000、Sodium Starch Glycolate、Starch 1500、Talc、Titanium Dioxide",
+          "content_html": "<p>Aerosil 200、Avicel PH102、HPMC 606、PEG 6000、Sodium Starch Glycolate、Starch 1500、Talc、Titanium Dioxide</p>",
+          "search_text": "1.2\n賦形劑\nAerosil 200、Avicel PH102、HPMC 606、PEG 6000、Sodium Starch Glycolate、Starch 1500、Talc、Titanium Dioxide",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.3",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.3",
+          "title": "劑型",
+          "title_html": "劑型",
+          "path": [
+            "性狀",
+            "劑型"
+          ],
+          "content_text": "膜衣錠。",
+          "content_html": "<p>膜衣錠。</p>",
+          "search_text": "1.3\n劑型\n膜衣錠。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "1.4",
+          "parent_id": "1",
+          "level": 2,
+          "number": "1.4",
+          "title": "藥品外觀",
+          "title_html": "藥品外觀",
+          "path": [
+            "性狀",
+            "藥品外觀"
+          ],
+          "content_text": "白色圓形膜衣劑，一面有JCP刻痕，一面有中線刻痕，上下分別為H及1刻痕。",
+          "content_html": "<p>白色圓形膜衣劑，一面有JCP刻痕，一面有中線刻痕，上下分別為H及1刻痕。</p>",
+          "search_text": "1.4\n藥品外觀\n白色圓形膜衣劑，一面有JCP刻痕，一面有中線刻痕，上下分別為H及1刻痕。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "2",
+          "parent_id": null,
+          "level": 1,
+          "number": "2",
+          "title": "適應症",
+          "title_html": "適應症",
+          "path": [
+            "適應症"
+          ],
+          "content_text": "產褥期之出血、流產後之出血、分娩時之子宮弛緩出血、不正常出血、分娩第三期陣痛微弱。",
+          "content_html": "<p>產褥期之出血、流產後之出血、分娩時之子宮弛緩出血、不正常出血、分娩第三期陣痛微弱。</p>",
+          "search_text": "2\n適應症\n產褥期之出血、流產後之出血、分娩時之子宮弛緩出血、不正常出血、分娩第三期陣痛微弱。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3",
+          "parent_id": null,
+          "level": 1,
+          "number": "3",
+          "title": "用法及用量",
+          "title_html": "用法及用量",
+          "path": [
+            "用法及用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3\n用法及用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.1",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.1",
+          "title": "用法用量",
+          "title_html": "用法用量",
+          "path": [
+            "用法及用量",
+            "用法用量"
+          ],
+          "content_text": "成人通常每次1錠，每日服用3次（極量1日2 mg），視症狀可適宜增減。",
+          "content_html": "<p>成人通常每次1錠，每日服用3次（極量1日2 mg），視症狀可適宜增減。</p>",
+          "search_text": "3.1\n用法用量\n成人通常每次1錠，每日服用3次（極量1日2 mg），視症狀可適宜增減。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.2",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.2",
+          "title": "調製方式",
+          "title_html": "調製方式",
+          "path": [
+            "用法及用量",
+            "調製方式"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.2\n調製方式",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "3.3",
+          "parent_id": "3",
+          "level": 2,
+          "number": "3.3",
+          "title": "特殊族群用法用量",
+          "title_html": "特殊族群用法用量",
+          "path": [
+            "用法及用量",
+            "特殊族群用法用量"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "3.3\n特殊族群用法用量",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "4",
+          "parent_id": null,
+          "level": 1,
+          "number": "4",
+          "title": "禁忌",
+          "title_html": "禁忌",
+          "path": [
+            "禁忌"
+          ],
+          "content_text": "4.1 孕婦。 4.2 胎兒頭部娩出之前。 4.3 以前曾對麥角類製劑有過敏症之既往歷之患者。",
+          "content_html": "<p>4.1 孕婦。<br>4.2 胎兒頭部娩出之前。<br>4.3 以前曾對麥角類製劑有過敏症之既往歷之患者。</p>",
+          "search_text": "4\n禁忌\n4.1 孕婦。 4.2 胎兒頭部娩出之前。 4.3 以前曾對麥角類製劑有過敏症之既往歷之患者。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5",
+          "parent_id": null,
+          "level": 1,
+          "number": "5",
+          "title": "警語及注意事項",
+          "title_html": "警語及注意事項",
+          "path": [
+            "警語及注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5\n警語及注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.1",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.1",
+          "title": "警語/注意事項",
+          "title_html": "警語/注意事項",
+          "path": [
+            "警語及注意事項",
+            "警語/注意事項"
+          ],
+          "content_text": "5.1.1 Ergometrine Maleate有蓄積作用，投藥時請注意。 5.1.2 強效CYP3A4抑制劑 合併麥角生物鹼類藥品（如ergotamine、dihydroergotamine）與強效CYP3A4抑制劑可能會引起罕見但嚴重之血管攣縮導致顱部及/或周邊缺血。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用發生上述不良反應之案例報告，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用。強效CYP3A4抑制劑包含如ceritinib、cobicistat、protease inhibitor（如ritonavir）、azole類抗黴菌藥（如itraconazole、posaconazole、voriconazole）、巨環類抗生素（如erythromycin、clarithromycin）。",
+          "content_html": "<p>5.1.1 Ergometrine Maleate有蓄積作用，投藥時請注意。<br>5.1.2 強效CYP3A4抑制劑<br>合併麥角生物鹼類藥品（如ergotamine、dihydroergotamine）與強效CYP3A4抑制劑可能會引起罕見但嚴重之血管攣縮導致顱部及/或周邊缺血。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用發生上述不良反應之案例報告，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用。強效CYP3A4抑制劑包含如ceritinib、cobicistat、protease inhibitor（如ritonavir）、azole類抗黴菌藥（如itraconazole、posaconazole、voriconazole）、巨環類抗生素（如erythromycin、clarithromycin）。</p>",
+          "search_text": "5.1\n警語/注意事項\n5.1.1 Ergometrine Maleate有蓄積作用，投藥時請注意。 5.1.2 強效CYP3A4抑制劑 合併麥角生物鹼類藥品（如ergotamine、dihydroergotamine）與強效CYP3A4抑制劑可能會引起罕見但嚴重之血管攣縮導致顱部及/或周邊缺血。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用發生上述不良反應之案例報告，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用。強效CYP3A4抑制劑包含如ceritinib、cobicistat、protease inhibitor（如ritonavir）、azole類抗黴菌藥（如itraconazole、posaconazole、voriconazole）、巨環類抗生素（如erythromycin、clarithromycin）。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.2",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.2",
+          "title": "藥物濫用及依賴性",
+          "title_html": "藥物濫用及依賴性",
+          "path": [
+            "警語及注意事項",
+            "藥物濫用及依賴性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.2\n藥物濫用及依賴性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.3",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.3",
+          "title": "操作機械能力",
+          "title_html": "操作機械能力",
+          "path": [
+            "警語及注意事項",
+            "操作機械能力"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.3\n操作機械能力",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.4",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.4",
+          "title": "實驗室檢測",
+          "title_html": "實驗室檢測",
+          "path": [
+            "警語及注意事項",
+            "實驗室檢測"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.4\n實驗室檢測",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "5.5",
+          "parent_id": "5",
+          "level": 2,
+          "number": "5.5",
+          "title": "其他注意事項",
+          "title_html": "其他注意事項",
+          "path": [
+            "警語及注意事項",
+            "其他注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "5.5\n其他注意事項",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6",
+          "parent_id": null,
+          "level": 1,
+          "number": "6",
+          "title": "特殊族群注意事項",
+          "title_html": "特殊族群注意事項",
+          "path": [
+            "特殊族群注意事項"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6\n特殊族群注意事項",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.1",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.1",
+          "title": "懷孕",
+          "title_html": "懷孕",
+          "path": [
+            "特殊族群注意事項",
+            "懷孕"
+          ],
+          "content_text": "6.1.1 有妊娠中毒症之患者應慎重投與。",
+          "content_html": "<p>6.1.1 有妊娠中毒症之患者應慎重投與。</p>",
+          "search_text": "6.1\n懷孕\n6.1.1 有妊娠中毒症之患者應慎重投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.2",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.2",
+          "title": "哺乳",
+          "title_html": "哺乳",
+          "path": [
+            "特殊族群注意事項",
+            "哺乳"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.2\n哺乳",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.3",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.3",
+          "title": "有生育能力的女性與男性",
+          "title_html": "有生育能力的女性與男性",
+          "path": [
+            "特殊族群注意事項",
+            "有生育能力的女性與男性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.3\n有生育能力的女性與男性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.4",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.4",
+          "title": "小兒",
+          "title_html": "小兒",
+          "path": [
+            "特殊族群注意事項",
+            "小兒"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.4\n小兒",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.5",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.5",
+          "title": "老年人",
+          "title_html": "老年人",
+          "path": [
+            "特殊族群注意事項",
+            "老年人"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "6.5\n老年人",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.6",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.6",
+          "title": "肝功能不全",
+          "title_html": "肝功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "肝功能不全"
+          ],
+          "content_text": "有肝疾患之患者應慎重投與。",
+          "content_html": "<p>有肝疾患之患者應慎重投與。</p>",
+          "search_text": "6.6\n肝功能不全\n有肝疾患之患者應慎重投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.7",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.7",
+          "title": "腎功能不全",
+          "title_html": "腎功能不全",
+          "path": [
+            "特殊族群注意事項",
+            "腎功能不全"
+          ],
+          "content_text": "有腎疾患之患者應慎重投與。",
+          "content_html": "<p>有腎疾患之患者應慎重投與。</p>",
+          "search_text": "6.7\n腎功能不全\n有腎疾患之患者應慎重投與。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "6.8",
+          "parent_id": "6",
+          "level": 2,
+          "number": "6.8",
+          "title": "其他族群",
+          "title_html": "其他族群",
+          "path": [
+            "特殊族群注意事項",
+            "其他族群"
+          ],
+          "content_text": "6.8.1 以下族群應慎重投與： 6.8.1.1 有高血壓、心疾患、閉塞性血管障害之患者。 6.8.1.2 有敗血症之患者。",
+          "content_html": "<p>6.8.1 以下族群應慎重投與：<br>6.8.1.1 有高血壓、心疾患、閉塞性血管障害之患者。<br>6.8.1.2 有敗血症之患者。</p>",
+          "search_text": "6.8\n其他族群\n6.8.1 以下族群應慎重投與： 6.8.1.1 有高血壓、心疾患、閉塞性血管障害之患者。 6.8.1.2 有敗血症之患者。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7",
+          "parent_id": null,
+          "level": 1,
+          "number": "7",
+          "title": "交互作用",
+          "title_html": "交互作用",
+          "path": [
+            "交互作用"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "7\n交互作用",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "7.1",
+          "parent_id": "7",
+          "level": 2,
+          "number": "7.1",
+          "title": "CYP3A4抑制劑",
+          "title_html": "CYP3A4抑制劑",
+          "path": [
+            "交互作用",
+            "CYP3A4抑制劑"
+          ],
+          "content_text": "強效CYP3A4抑制劑將增加麥角生物鹼類藥品（如ergotamine、dihydroergotamine）之血中濃度，提升血管攣縮以致顱部及/或周邊缺血之風險。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用風險之研究，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用（詳警語及注意事項處）。同時，與中效CYP3A4抑制劑併用時應謹慎使用；處方Ergometrine Maleate時，處方者應考量合併用藥對於CYP3A4酵素之影響。",
+          "content_html": "<p>強效CYP3A4抑制劑將增加麥角生物鹼類藥品（如ergotamine、dihydroergotamine）之血中濃度，提升血管攣縮以致顱部及/或周邊缺血之風險。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用風險之研究，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用（詳警語及注意事項處）。同時，與中效CYP3A4抑制劑併用時應謹慎使用；處方Ergometrine Maleate時，處方者應考量合併用藥對於CYP3A4酵素之影響。</p>",
+          "search_text": "7.1\nCYP3A4抑制劑\n強效CYP3A4抑制劑將增加麥角生物鹼類藥品（如ergotamine、dihydroergotamine）之血中濃度，提升血管攣縮以致顱部及/或周邊缺血之風險。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用風險之研究，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用（詳警語及注意事項處）。同時，與中效CYP3A4抑制劑併用時應謹慎使用；處方Ergometrine Maleate時，處方者應考量合併用藥對於CYP3A4酵素之影響。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8",
+          "parent_id": null,
+          "level": 1,
+          "number": "8",
+          "title": "副作用/不良反應",
+          "title_html": "副作用/不良反應",
+          "path": [
+            "副作用/不良反應"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8\n副作用/不良反應",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.1",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.1",
+          "title": "臨床重要副作用/不良反應",
+          "title_html": "臨床重要副作用/不良反應",
+          "path": [
+            "副作用/不良反應",
+            "臨床重要副作用/不良反應"
+          ],
+          "content_text": "8.1.1 消化器：噁心、嘔吐、腹痛、下痢等症狀。 8.1.2 循環器：血壓上升、頻脈、徐脈等症狀。 8.1.3 精神神經系：頭痛、頭部後方麻木感、睏倦、眩暈、口乾、耳鳴、發熱感、皮膚冷感興奮等症狀。 8.1.4 其他：留滯胎盤、肌肉痛、壞疽等症狀。",
+          "content_html": "<p>8.1.1 消化器：噁心、嘔吐、腹痛、下痢等症狀。<br>8.1.2 循環器：血壓上升、頻脈、徐脈等症狀。<br>8.1.3 精神神經系：頭痛、頭部後方麻木感、睏倦、眩暈、口乾、耳鳴、發熱感、皮膚冷感興奮等症狀。<br>8.1.4 其他：留滯胎盤、肌肉痛、壞疽等症狀。</p>",
+          "search_text": "8.1\n臨床重要副作用/不良反應\n8.1.1 消化器：噁心、嘔吐、腹痛、下痢等症狀。 8.1.2 循環器：血壓上升、頻脈、徐脈等症狀。 8.1.3 精神神經系：頭痛、頭部後方麻木感、睏倦、眩暈、口乾、耳鳴、發熱感、皮膚冷感興奮等症狀。 8.1.4 其他：留滯胎盤、肌肉痛、壞疽等症狀。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.2",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.2",
+          "title": "臨床試驗經驗",
+          "title_html": "臨床試驗經驗",
+          "path": [
+            "副作用/不良反應",
+            "臨床試驗經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.2\n臨床試驗經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "8.3",
+          "parent_id": "8",
+          "level": 2,
+          "number": "8.3",
+          "title": "上市後經驗",
+          "title_html": "上市後經驗",
+          "path": [
+            "副作用/不良反應",
+            "上市後經驗"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "8.3\n上市後經驗",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "9",
+          "parent_id": null,
+          "level": 1,
+          "number": "9",
+          "title": "過量",
+          "title_html": "過量",
+          "path": [
+            "過量"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "9\n過量\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": true,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10",
+          "parent_id": null,
+          "level": 1,
+          "number": "10",
+          "title": "藥理特性",
+          "title_html": "藥理特性",
+          "path": [
+            "藥理特性"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "10\n藥理特性",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.1",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.1",
+          "title": "作用機轉",
+          "title_html": "作用機轉",
+          "path": [
+            "藥理特性",
+            "作用機轉"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.1\n作用機轉\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.2",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.2",
+          "title": "藥效藥理特性",
+          "title_html": "藥效藥理特性",
+          "path": [
+            "藥理特性",
+            "藥效藥理特性"
+          ],
+          "content_text": "麥角Alkaloid中特具有強力之子宮收縮作用，故可用於分娩、流產後之子宮止血。",
+          "content_html": "<p>麥角Alkaloid中特具有強力之子宮收縮作用，故可用於分娩、流產後之子宮止血。</p>",
+          "search_text": "10.2\n藥效藥理特性\n麥角Alkaloid中特具有強力之子宮收縮作用，故可用於分娩、流產後之子宮止血。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "10.3",
+          "parent_id": "10",
+          "level": 2,
+          "number": "10.3",
+          "title": "臨床前安全性資料",
+          "title_html": "臨床前安全性資料",
+          "path": [
+            "藥理特性",
+            "臨床前安全性資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "10.3\n臨床前安全性資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "11",
+          "parent_id": null,
+          "level": 1,
+          "number": "11",
+          "title": "藥物動力學特性",
+          "title_html": "藥物動力學特性",
+          "path": [
+            "藥物動力學特性"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "11\n藥物動力學特性\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "12",
+          "parent_id": null,
+          "level": 1,
+          "number": "12",
+          "title": "臨床試驗資料",
+          "title_html": "臨床試驗資料",
+          "path": [
+            "臨床試驗資料"
+          ],
+          "content_text": "目前尚無資訊。",
+          "content_html": "<p>目前尚無資訊。</p>",
+          "search_text": "12\n臨床試驗資料\n目前尚無資訊。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13",
+          "parent_id": null,
+          "level": 1,
+          "number": "13",
+          "title": "包裝及儲存",
+          "title_html": "包裝及儲存",
+          "path": [
+            "包裝及儲存"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "13\n包裝及儲存",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.1",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.1",
+          "title": "包裝",
+          "title_html": "包裝",
+          "path": [
+            "包裝及儲存",
+            "包裝"
+          ],
+          "content_text": "6 ~ 1,000錠塑膠瓶裝。",
+          "content_html": "<p>6 ~ 1,000錠塑膠瓶裝。</p>",
+          "search_text": "13.1\n包裝\n6 ~ 1,000錠塑膠瓶裝。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.2",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.2",
+          "title": "效期",
+          "title_html": "效期",
+          "path": [
+            "包裝及儲存",
+            "效期"
+          ],
+          "content_text": "如外包裝所示。",
+          "content_html": "<p>如外包裝所示。</p>",
+          "search_text": "13.2\n效期\n如外包裝所示。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.3",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.3",
+          "title": "儲存條件",
+          "title_html": "儲存條件",
+          "path": [
+            "包裝及儲存",
+            "儲存條件"
+          ],
+          "content_text": "本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。",
+          "content_html": "<p>本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。</p>",
+          "search_text": "13.3\n儲存條件\n本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "13.4",
+          "parent_id": "13",
+          "level": 2,
+          "number": "13.4",
+          "title": "儲存注意事項",
+          "title_html": "儲存注意事項",
+          "path": [
+            "包裝及儲存",
+            "儲存注意事項"
+          ],
+          "content_text": "本劑請避光、防潮、貯存於陰涼處。",
+          "content_html": "<p>本劑請避光、防潮、貯存於陰涼處。</p>",
+          "search_text": "13.4\n儲存注意事項\n本劑請避光、防潮、貯存於陰涼處。",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "14",
+          "parent_id": null,
+          "level": 1,
+          "number": "14",
+          "title": "病人使用須知",
+          "title_html": "病人使用須知",
+          "path": [
+            "病人使用須知"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "14\n病人使用須知",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        },
+        {
+          "id": "15",
+          "parent_id": null,
+          "level": 1,
+          "number": "15",
+          "title": "其他",
+          "title_html": "其他",
+          "path": [
+            "其他"
+          ],
+          "content_text": "",
+          "content_html": "",
+          "search_text": "15\n其他",
+          "images": [],
+          "style": {
+            "border": false,
+            "redfont": false,
+            "strong": false
+          }
+        }
+      ],
+      "full_text": "1\n性狀\nErgometrine Maleate為白色 ~ 微黃色結晶性粉末，mp約185°C（分解），本品1 g能溶於36 mL之水，100 mL之酒精。\n1.1\n有效成分及含量\nErgometrine Maleate…………………………0.2 mg\n1.2\n賦形劑\nAerosil 200、Avicel PH102、HPMC 606、PEG 6000、Sodium Starch Glycolate、Starch 1500、Talc、Titanium Dioxide\n1.3\n劑型\n膜衣錠。\n1.4\n藥品外觀\n白色圓形膜衣劑，一面有JCP刻痕，一面有中線刻痕，上下分別為H及1刻痕。\n2\n適應症\n產褥期之出血、流產後之出血、分娩時之子宮弛緩出血、不正常出血、分娩第三期陣痛微弱。\n3\n用法及用量\n3.1\n用法用量\n成人通常每次1錠，每日服用3次（極量1日2 mg），視症狀可適宜增減。\n3.2\n調製方式\n3.3\n特殊族群用法用量\n4\n禁忌\n4.1 孕婦。 4.2 胎兒頭部娩出之前。 4.3 以前曾對麥角類製劑有過敏症之既往歷之患者。\n5\n警語及注意事項\n5.1\n警語/注意事項\n5.1.1 Ergometrine Maleate有蓄積作用，投藥時請注意。 5.1.2 強效CYP3A4抑制劑 合併麥角生物鹼類藥品（如ergotamine、dihydroergotamine）與強效CYP3A4抑制劑可能會引起罕見但嚴重之血管攣縮導致顱部及/或周邊缺血。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用發生上述不良反應之案例報告，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用。強效CYP3A4抑制劑包含如ceritinib、cobicistat、protease inhibitor（如ritonavir）、azole類抗黴菌藥（如itraconazole、posaconazole、voriconazole）、巨環類抗生素（如erythromycin、clarithromycin）。\n5.2\n藥物濫用及依賴性\n5.3\n操作機械能力\n5.4\n實驗室檢測\n5.5\n其他注意事項\n6\n特殊族群注意事項\n6.1\n懷孕\n6.1.1 有妊娠中毒症之患者應慎重投與。\n6.2\n哺乳\n6.3\n有生育能力的女性與男性\n6.4\n小兒\n6.5\n老年人\n6.6\n肝功能不全\n有肝疾患之患者應慎重投與。\n6.7\n腎功能不全\n有腎疾患之患者應慎重投與。\n6.8\n其他族群\n6.8.1 以下族群應慎重投與： 6.8.1.1 有高血壓、心疾患、閉塞性血管障害之患者。 6.8.1.2 有敗血症之患者。\n7\n交互作用\n7.1\nCYP3A4抑制劑\n強效CYP3A4抑制劑將增加麥角生物鹼類藥品（如ergotamine、dihydroergotamine）之血中濃度，提升血管攣縮以致顱部及/或周邊缺血之風險。雖然目前尚無Ergometrine Maleate與強效CYP3A4抑制劑併用風險之研究，仍應避免Ergometrine Maleate與強效CYP3A4抑制劑併用（詳警語及注意事項處）。同時，與中效CYP3A4抑制劑併用時應謹慎使用；處方Ergometrine Maleate時，處方者應考量合併用藥對於CYP3A4酵素之影響。\n8\n副作用/不良反應\n8.1\n臨床重要副作用/不良反應\n8.1.1 消化器：噁心、嘔吐、腹痛、下痢等症狀。 8.1.2 循環器：血壓上升、頻脈、徐脈等症狀。 8.1.3 精神神經系：頭痛、頭部後方麻木感、睏倦、眩暈、口乾、耳鳴、發熱感、皮膚冷感興奮等症狀。 8.1.4 其他：留滯胎盤、肌肉痛、壞疽等症狀。\n8.2\n臨床試驗經驗\n8.3\n上市後經驗\n9\n過量\n目前尚無資訊。\n10\n藥理特性\n10.1\n作用機轉\n目前尚無資訊。\n10.2\n藥效藥理特性\n麥角Alkaloid中特具有強力之子宮收縮作用，故可用於分娩、流產後之子宮止血。\n10.3\n臨床前安全性資料\n目前尚無資訊。\n11\n藥物動力學特性\n目前尚無資訊。\n12\n臨床試驗資料\n目前尚無資訊。\n13\n包裝及儲存\n13.1\n包裝\n6 ~ 1,000錠塑膠瓶裝。\n13.2\n效期\n如外包裝所示。\n13.3\n儲存條件\n本藥應儲存於25℃以下之乾燥緊密容器，避光貯存。\n13.4\n儲存注意事項\n本劑請避光、防潮、貯存於陰涼處。\n14\n病人使用須知\n15\n其他",
+      "main_factories": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段７７號2、3樓、79號1至6樓"
+        }
+      ],
+      "sub_factories": [],
+      "companies": [
+        {
+          "number": "1",
+          "name": "強生化學製藥廠股份有限公司",
+          "address": "新北市三重區三和路四段77號2、3樓、79號1至6樓"
+        }
+      ]
+    }
+  ]
+}
